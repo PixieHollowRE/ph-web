@@ -1,0 +1,5 @@
+<cross-domain-policy>
+   <allow-access-from domain="*.pixiehollow.go.com" to-ports="*" secure="false"/>
+   <allow-access-from domain="*.go.com" to-ports="*" secure="false"/>
+   <allow-access-from domain="*.dolimg.com" to-ports="*" secure="false"/>
+</cross-domain-policy>

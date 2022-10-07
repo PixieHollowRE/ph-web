@@ -1,0 +1,61 @@
+<panelSet>
+	<panels>
+		<panel id="panelDirectory" x="10" y="156" refocusable="true" draggable="false" closeable="false" hidden="false" transition="none">{panelData}/directoryPanel.xml </panel>
+	</panels>
+	<config>
+		<menu>
+			<playbutton default="false">
+				<panel>login</panel>
+			</playbutton>
+			<button id="community" open="true" active="true">
+				<text>communitytext</text>
+				<url>http://disney.go.com/fairies/#/pixiecentral</url>
+				<pageid>communityhub</pageid>
+
+				<button id="councilnews">
+					<text>nevernewstext</text>
+					<url>site_news.html</url>
+				</button>
+				<!--button id="topfairies">
+					<text>topfairiestext</text>
+					<url>topfairies.html</url>
+				</button>
+				<button id="findafairy" open="true">
+					<text>findafairytext</text>
+					<url>findafairy.html</url>
+				</button-->
+			</button>
+			<button>
+				<text>button1text</text>
+				<event>pixiePage</event>
+			</button>
+			<button>
+				<text>parentstext</text>
+				<url>parentscenter.html</url>
+			</button>
+			<button>
+				<text>helptext</text>
+				<url>supportcenter.html</url>
+			</button>
+			<button>
+				<text>joinNowText</text>
+				<url>http://disney.go.com/fairies/pixie-hollow/membership/</url>  
+			</button>
+		</menu>
+	</config>
+	<copy>
+		<button1text>My Fairy</button1text>
+		<topfairiestext>Top Fairies</topfairiestext>
+		<findafairytext>Find a Fairy</findafairytext>
+		<nevernewstext>Never News</nevernewstext>
+		<communitytext>Pixie Central</communitytext>
+		<parentstext>Parents</parentstext>
+		<helptext>Help</helptext>
+		<menutitle>Fairy Directory</menutitle>
+		<playbutton>Play!</playbutton>
+		<menutitle>Fairy Directory</menutitle>
+		<welcometext>Community</welcometext>
+		<nevercounciltext>Never Council News</nevercounciltext>
+		<joinNowText>Membership</joinNowText>
+	</copy>
+</panelSet>

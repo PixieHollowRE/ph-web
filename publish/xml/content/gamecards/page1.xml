@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<config>
+		<taglines>
+			<tagline align="center" font="pristina" title="true" titlex="50" titley="0" yOffset="20">header</tagline>	
+		</taglines>
+		
+		<topTextPanel type="panel" panel="gameCardsTextTop"/>
+		
+		<bottomTextPanel type="panel" panel="gameCardsTextBottom"/>
+		
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">Card Activation</span>]]></header>
+	</copy>
+</page>

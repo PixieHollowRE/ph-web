@@ -1,0 +1,71 @@
+<zone>
+  <name>The Tearoom</name>
+  <zoneID>503</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow503</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="1194" height="870">
+        <image x="0" y="0" type="none">far_02.swf</image>
+      </layer>
+      <layer type="ground" width="1250" height="860">
+        <image x="0" y="0" type="merge" tag="Meadow_TeaRoomBannerNo8s">action_03_Meadow_Camp_Havendish.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Crazy8s_Camp">action_03_Meadow_Crazy8s_Camp.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Tearoom_Animation">action_03_Meadow_Tearoom_Animation.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Tearoom_MemoryAnimation">action_03_Meadow_Tearoom_MemoryAnimation.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Tearoom_Memory">action_Meadow_Tearoom_Memory_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_Camp">action_03_Meadow_CampPixie2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_TeaParty">action_03_Meadow_GardenTeaParty_2012.swf</image>
+        <image x="0" y="0" type="merge">action_03.swf</image>
+      </layer>
+      <layer type="normal" width="1318" height="900" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy">foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="546" y="560">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>tearoom_mix3</id>
+      <loops>0</loops>
+      <volumeLow>0.8</volumeLow>
+      <volumeHigh>0.8</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  <hotspots>
+    <hotspot id="27512" x="646" y="492" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="5" itemEventId="0" tagId="0"/>
+    <hotspot id="27513" x="946" y="503" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="5" itemEventId="0" tagId="1"/>
+    <hotspot id="27515" x="499" y="625" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="5" itemEventId="0" tagId="2"/>
+    <hotspot id="27516" x="806" y="601" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="5" itemEventId="0" tagId="3"/>
+    <hotspot id="27517" x="1102" y="612" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="5" itemEventId="0" tagId="4"/>
+    <hotspot id="27518" x="338" y="709" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="5" itemEventId="0" tagId="5"/>
+    <hotspot id="27519" x="765" y="747" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="5" itemEventId="0" tagId="6"/>
+    <hotspot id="27625" x="196" y="375" setVelvetRope="1" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13072" snapTargetPos="170,405,0|225,405,1|0,0,1|0,0,0" tagId="7"/>
+    <hotspot id="27625" x="364" y="363" setVelvetRope="1" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13072" snapTargetPos="335,400,0|399,394,1|0,0,1|0,0,0" tagId="8"/>
+    <hotspot id="27625" x="818" y="361" setVelvetRope="1" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13072" snapTargetPos="793,392,0|854,394,1|0,0,1|0,0,0" tagId="9"/>
+    <hotspot id="27625" x="975" y="375" setVelvetRope="1" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13072" snapTargetPos="956,402,0|1011,407,1|0,0,1|0,0,0" tagId="10"/>
+    <hotspot id="27555" x="342" y="486" setVelvetRope="1" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13070" snapTargetPos="270,473,0|417,477,1|457,508,1|229,503,0" tagId="11"/>
+    <hotspot id="27556" x="206" y="599" setVelvetRope="1" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13070" snapTargetPos="127,586,0|278,587,1|315,623,1|94,615,0" tagId="12"/>
+    <hotspot id="27625" x="196" y="375" setVelvetRope="1" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13072" snapTargetPos="170,405,0|225,405,1|0,0,1|0,0,0" tagId="7"/>
+    <hotspot id="27625" x="364" y="363" setVelvetRope="1" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13072" snapTargetPos="335,400,0|399,394,1|0,0,1|0,0,0" tagId="8"/>
+    <hotspot id="27625" x="818" y="361" setVelvetRope="1" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13072" snapTargetPos="793,392,0|854,394,1|0,0,1|0,0,0" tagId="9"/>
+    <hotspot id="27625" x="975" y="375" setVelvetRope="1" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13072" snapTargetPos="956,402,0|1011,407,1|0,0,1|0,0,0" tagId="10"/>
+    <hotspot tags="Meadow_TeaParty" id="27637" x="1090" y="392" setVelvetRope="0" shared="true" playType="full" clientParm="2" itemEventId="0" tagId="13"/>
+    <hotspot tags="Meadow_TeaParty" id="27724" x="1085.05" y="495.25" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="14"/>
+  </hotspots>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

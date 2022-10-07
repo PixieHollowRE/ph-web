@@ -1,0 +1,64 @@
+<page>
+	<config>
+		<!-- -->
+		<taglines>
+			<tag align="center" font="pristina" title="true" titlex="50" titley="0" yOffset="20">header</tag>
+			<tagline align="left" yOffset="20">tagline</tagline>	
+		</taglines>
+
+		
+		<controls>
+			<header icon_id="8">body1</header>
+			
+			<control>body2</control>
+		</controls>
+		<contacts>
+			<header icon_id="8">body3</header>
+			<knownissue yOffset="20">body4</knownissue>
+		</contacts>
+		<!--
+		<help>
+			<header icon_id="8"><![CDATA[<span class="newsbodytext">Q: My password isn't working or I've forgotten it. How can I retrieve my password?</span>]]></header>
+			<help><![CDATA[<span class="newsbodytext">A: You can retrieve your password by clicking the "Recover/Change Password" link under "Account Services" on our Web site. If you've chosen a Parent Password, you'll also receive it when you use the Password Reminder.</span>]]></help>
+		</help>
+		-->
+	  <when>
+			<header icon_id="8">body5</header>
+			<knownissue>body6</knownissue>
+		</when>
+		
+		<addfaq>
+			<header icon_id="8">body8</header>
+			<faq>body9</faq>
+<!-- UNCOMMENT WHEN LIVE CHAT AVAILALBE WITH PARATURE -->
+		<!--<button> xOffset="300" yOffset="70" <a href="http://a.disney.go.com/fairies/pixiehollow/livechat/livechat_on.gif"><button>-->
+		<!--  <html><![CDATA[<span class="newsbodytext"><img xOffset="300" yOffset="70" align="center" src="http://a.disney.go.com/fairies/pixiehollow/livechat/livechat_on.gif"></span>]]></html> -->
+		<!--<button xOffset="300" yOffset="70" url="https://pixiehollow.web.stream.com/index.cfm?SVC=969">button</button>-->
+		
+		</addfaq>
+		
+	  <!--<livechatdisabled>
+			<knownissue>body10</knownissue>
+		</livechatdisabled>-->
+		
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">Live Chat Support</span>]]></header>
+		<!--<tagline><![CDATA[<span class="newsbodytext">Our live chat is currently unavailable, but we will be reopening this tool soon.</span>]]></tagline>-->
+		<tagline><![CDATA[<span class="newsbodytext"> If you need technical help, we're here for you! But before you log in, please take a moment to read our Live Chat Frequently Asked Questions below.  Also, please have some pixie patience as it will take a moment for Live Chat team members to respond to your questions.</span>]]></tagline>
+		<body1><![CDATA[<span class="newsbodytext">Q: I'm having a technical problem. Can Pixie Hollow Live Chat help me?</span>]]></body1>
+		<body2><![CDATA[<span class="newsbodytext">A: Sure, that's what we're here for!</span>]]></body2>
+		<body3><![CDATA[<span class="newsbodytext">Q: Will Live Chat let me know when a new feature is going to be added to Pixie Hollow?</span>]]></body3>
+		<body4><![CDATA[<span class="newsbodytext">A: Sorry, that's not exactly what Live Chat is meant for. We're here to give you technical help and a little advice on how to play the game. You can find out about all the latest news in Pixie Hollow by visiting <a href="http://pixiehollow.go.com/communityhome.html">Pixie Central</a> and the <a href="http://pixiehollow.go.com/nevernews.html">Never News</a>.</span>]]></body4>
+		<body5><![CDATA[<span class="newsbodytext">Q: If I have a billing or payment question, should I use Live Chat?</span>]]></body5>
+		<body6><![CDATA[<span class="newsbodytext">A: Billing and/or payment questions are handled through Customer Service at (877)787-4943 between the hours of 8 a.m. and 6 p.m. Monday through Friday and 8 a.m. and 4 p.m. on Saturday, and 10 a.m. and 6 p.m. on Sunday. Please note that all times are Pacific Standard Time.</span>]]></body6>
+		<body8><![CDATA[<span class="newsbodytext"><a href="faqblog.html">Additional FAQs (Frequently Asked Questions)</a></span>]]></body8>
+		
+ <!-- REMOVE WHEN LIVE CHAT AVAILALBE WITH PARATURE -->
+   <!--<body11><![CDATA[<span class="newsbodytext">A: Our live chat system is currently unavailable, but we will be reopening this support tool very soon. Please check back!</span>]]></body11>-->
+   <!--<body7><![CDATA[<span class="newsbodytext">A: 6 AM to 7 PM - Pacific Time - Every day of the week</span>]]></body7>-->
+	
+		<body9><![CDATA[<span class="newsbodytext"> Didn't see your question in the FAQs? Then it's time to log in to Live Chat and get that answer! We're on the job 9:30 AM to 5:30 PM - Pacific Time � every day of the week</a>.</span>]]></body9>
+ 
+	</copy>
+</page>

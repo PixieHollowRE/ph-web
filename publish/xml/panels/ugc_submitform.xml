@@ -1,0 +1,158 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/ugc_submitform.swf</swf>
+		<swf type="code">{publishPanelCode}/ugc_submitform.swf</swf>
+	</swfs>
+	<copy>
+		<textUP1 target="submitcontent.upperCopy1">Please complete this form:</textUP1>
+		<textUP2 target="submitcontent.upperCopy2">Pixie Hollow Online</textUP2>
+		<text1 target="submitcontent.lowerCopy1" style="html"><![CDATA[Type of Content:]]></text1>
+		<text2 target="submitcontent.lowerCopy2" style="html"><![CDATA[Fairy Name:]]></text2>
+		<text3 target="submitcontent.lowerCopy3" style="html"><![CDATA[Your Art:]]></text3>
+		<text5 target="submitcontent.lowerCopy5" style="html"><![CDATA[Terms of Use:]]></text5>
+		<text6 target="submitcontent.lowerCopy6" style="html"><![CDATA[<body>If you are under 13 years old, please ask your parents to review the Disney Terms of Use with you.</body>]]></text6>
+		<txt_touaccept target="submitcontent.touTAHolder.txt_touaccept" style="html"><![CDATA[<body>I agree to the Disney Terms of Use</body>]]></txt_touaccept>
+		<txt_link target="submitcontent.touTAHolder.toulinkholder.txt_link" style="html"><![CDATA[<body><u>Click here to see Term of Use</u></body>]]></txt_link>
+		<maxcounttxt target="submitcontent.maxcounttxt" style="html"><![CDATA[<body>Your submission cannot be longer than 1000 characters.</body>]]></maxcounttxt>
+		
+		<text target="submitcontent.nameField">Member Name</text>
+		<text target="submitcontent.passField">Password</text>
+		
+		<browseBtn target="submitcontent.importfile.yourartHolder.browseBtn.caption" style="html">Browse</browseBtn>
+		<submitBtn target="submitcontent.submitBtn.caption" style="html">Submit</submitBtn>
+		<resetBtn target="submitcontent.resetBtn.caption" style="html">Reset</resetBtn>
+		
+		
+		
+		<text target="submitcontent.cancelBtn.caption">Close</text>
+		<text target="submitcontent.loginBtn.caption">Login</text>
+		<text target="stillholding.lowerCopy1">Sorry, still not ready yet...</text>
+		<text target="stillholding.cancelBtn.caption">Close</text>
+		<text target="gameNowReady.upperCopy1"><![CDATA[Congratulations!]]></text>
+		<text target="gameNowReady.lowerCopy1"><![CDATA[The meadows are available.  If you would like to fly into Pixie Hollow, click Play.]]></text>
+		<text target="gameNowReady.cancelBtn.caption">Close</text>
+		
+		<text target="gotoCaf.copy1">Go now and</text>
+		<text target="gotoCaf.copy2">Create a Fairy</text>
+		<text target="gotoCaf.cancelBtn.caption">Cancel</text>
+		<text target="gotoCaf.createBtn.caption">Create</text>
+		<text target="fairyChoice.upperCopy">Choose a Fairy</text>
+		<text target="fairyChoice.cancelBtn.caption">Cancel</text>
+		<text target="fairyChoice.playBtn.caption">Play</text>
+		<text target="loading.loadingscreen.loadingText">Loading</text>
+		
+		<text target="stillholding.cancelBtn.caption">Cancel</text>
+		
+		
+		<browsebutton>Browse</browsebutton>
+		<submitbutton>Submit</submitbutton>
+		<resetbutton>Reset</resetbutton>
+		
+		
+		<notaccepttou><![CDATA[You must agree to the Terms of Use to submit.]]></notaccepttou>
+		<nofairyname><![CDATA[A Fairy Name must be included.]]></nofairyname>
+		<nofairytale><![CDATA[A Fairy Tale must be included.]]></nofairytale>
+		<noseasonalshout><![CDATA[A Seasonal Shout must be included.]]></noseasonalshout>
+		<nopoem><![CDATA[A poem must be included.]]></nopoem>
+		<noquestion><![CDATA[A question must be included.]]></noquestion>
+		<noart><![CDATA[A piece of art must be included.]]></noart>
+		<genericError><![CDATA[There Was An Error Processing you request.]]></genericError>
+		<over1000><![CDATA[Your submission cannot be longer than 1000 characters.]]></over1000>
+		
+		<type1label><![CDATA[Fairy Tale]]></type1label>
+		<type1descriptiontext><![CDATA[Your Fairy Tale:]]></type1descriptiontext>
+		<file1importtext><![CDATA[Your Art:]]></file1importtext>
+		
+		
+		<type2label><![CDATA[Seasonal Shoutout]]></type2label>
+		<type2descriptiontext><![CDATA[Your Seasonal Shoutout:]]></type2descriptiontext>
+		<file2importtext><![CDATA[Your Art:]]></file2importtext>
+		
+		<type3label><![CDATA[Poem]]></type3label>
+		<type3descriptiontext><![CDATA[Your Poem:]]></type3descriptiontext>
+		<file3importtext><![CDATA[Your Art:]]></file3importtext>
+				
+		<type4label><![CDATA[Question for Tabby]]></type4label>
+		<type4descriptiontext><![CDATA[Your Question for Tabby:]]></type4descriptiontext>
+		<file4importtext><![CDATA[Your Art:]]></file4importtext>
+						
+		<type5label><![CDATA[Art]]></type5label>
+		<type5descriptiontext><![CDATA[Your Description:]]></type5descriptiontext>
+		<file5importtext><![CDATA[Your Art:]]></file5importtext>
+		
+		<fileimporttext><![CDATA[Your Art:]]></fileimporttext>
+		
+		
+		<genericError><![CDATA[Oops! There was a problem uploading your file.   Please try again.  If you are still having trouble you can use our mail-in submission form or visit our Help section to contact us using the Contact Us form.]]></genericError>
+		<MUTIPLE_CONTEST_SUBMISSIONS><![CDATA[Oops!  It appears you've already entered this contest.  You may only enter a contest once per account.]]></MUTIPLE_CONTEST_SUBMISSIONS>
+		<FILE_UPLOAD_ERROR><![CDATA[Oops! There was a problem uploading your file.   Please make sure this is the correct file and that the file type is acceptable.   See our submission rules for acceptable file types.]]></FILE_UPLOAD_ERROR>
+		
+		<FILE_TOO_SMALL><![CDATA[There was a problem uploading your file.  Your file was too small.  Please resave your file and try again.]]></FILE_TOO_SMALL> 
+		<FILE_TOO_LARGE><![CDATA[There was a problem uploading your file.  Your file was too large.  Please resave your file with a smaller filesize and try again.]]></FILE_TOO_LARGE>
+		<FORBIDDEN_MIME_TYPE><![CDATA[There was a problem uploading your file.  The MIME Type was forbidden.  Please resave your file and try again.]]></FORBIDDEN_MIME_TYPE>
+		<USER_LOGIN_STATUS_UNKNOWN><![CDATA[There was a problem uploading your file.  There was a problem with your login.  Please try again.]]></USER_LOGIN_STATUS_UNKNOWN>
+		
+		
+		<erroralertok><![CDATA[OK]]></erroralertok>
+		
+	</copy>
+	<config>
+		<sheet>css/main.css</sheet>
+		<thankyou>{publishPanelSetData}/ugc_thankyou.xml</thankyou>
+		<toulink><![CDATA[http://disney.go.com/corporate/privacy/terms.html?ppLink=pp_wdig]]></toulink>
+		<maxChars>1000</maxChars>
+		<contenttypes>
+			<contenttype id="fairytale">
+				<label>type1label</label>
+				<arttext>file1importtext</arttext>
+				<descriptiontext required="true">type1descriptiontext</descriptiontext>
+				<uploadURL><![CDATA[http://premium.disney.go.com/fairies/uploadFairyTale]]></uploadURL>
+				<requiredfields>
+					<requiredfield>fairyname</requiredfield>
+					<requiredfield>description</requiredfield>
+				</requiredfields>
+			</contenttype>
+			<!--<contenttype id="seasonalshout">
+				<label>type2label</label>
+				<arttext>file2importtext</arttext>
+				<descriptiontext required="true">type2descriptiontext</descriptiontext>
+				<uploadURL><![CDATA[http://premium.disney.go.com/fairies/uploadSeasonalShoutOut]]></uploadURL>
+				<requiredfields>
+					<requiredfield>fairyname</requiredfield>
+					<requiredfield>description</requiredfield>
+				</requiredfields>
+			</contenttype>-->
+			<contenttype id="poem">
+				<label>type3label</label>
+				<arttext required="true">file3importtext</arttext>
+				<descriptiontext>type3descriptiontext</descriptiontext>
+				<uploadURL><![CDATA[http://premium.disney.go.com/fairies/uploadPoem]]></uploadURL>
+				<requiredfields>
+					<requiredfield>fairyname</requiredfield>
+					<requiredfield>description</requiredfield>
+				</requiredfields>
+			</contenttype>
+			<contenttype id="question">
+				<label>type4label</label>
+				<arttext>file4importtext</arttext>
+				<descriptiontext required="true">type4descriptiontext</descriptiontext>
+				<uploadURL><![CDATA[http://premium.disney.go.com/fairies/uploadQuestion]]></uploadURL>
+				<requiredfields>
+					<requiredfield>fairyname</requiredfield>
+					<requiredfield>description</requiredfield>
+				</requiredfields>
+			</contenttype>
+			<contenttype id="art">
+				<label>type5label</label>
+				<arttext required="true">file5importtext</arttext>
+				<descriptiontext>type5descriptiontext</descriptiontext>
+				<uploadURL><![CDATA[http://premium.disney.go.com/fairies/uploadArt]]></uploadURL>
+				<requiredfields>
+					<requiredfield>fairyname</requiredfield>
+					<requiredfield>file</requiredfield>
+				</requiredfields>
+			</contenttype>
+		</contenttypes>
+	</config>
+</panel>
+

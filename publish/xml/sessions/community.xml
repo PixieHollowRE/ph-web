@@ -1,0 +1,363 @@
+<?xml version="1.0" ?>
+<session>
+	<params>
+		<type>standalone</type>
+		<sessionBackground>images/background.jpg</sessionBackground>
+		<initialContent>{panelSetData}/site_news.xml</initialContent>
+		<defaultswfheight>1200</defaultswfheight>
+		<copy>
+		
+		<!-- BEGIN LABELS FOR BUTTONS -->
+		
+		<playbutton>Play!</playbutton>
+		<waitbutton>Wait</waitbutton>
+		<newsbutton>News</newsbutton>
+		<fairymanagerbutton>My Fairies</fairymanagerbutton>
+		<reportabugbutton>Report a Bug</reportabugbutton>
+	
+		<pagerpreviouslabel>Previous</pagerpreviouslabel>
+		<pagernextlabel>Next</pagernextlabel>
+
+		<!-- For Membership -->
+		<membershipbutton>Membership</membershipbutton>
+		<guestpassbutton>Redeem A Card</guestpassbutton>
+		<aboutmembershipbutton>Learn More</aboutmembershipbutton>
+		<memberfaqsbutton>Member FAQs</memberfaqsbutton>
+		<memberrewardsbutton>Member Pins</memberrewardsbutton>
+
+		<!-- the game section -->
+		<thegamebutton>Never News</thegamebutton>
+		<communityhomebutton>Pixie Central</communityhomebutton>
+		<councilnewsbutton>Never Council</councilnewsbutton>
+		<pixiepollsbutton>Pixie Polls</pixiepollsbutton>
+		<fairystorybutton>Fairy Story</fairystorybutton>
+		<topfairiesbutton>Top Fairies</topfairiesbutton>
+		<findafairybutton>Find A Fairy</findafairybutton>
+		<calendarbutton>Event Calendar</calendarbutton>
+		<contestbutton>Contests</contestbutton>
+		
+		<!-- My Fairies Section -->
+		<myfairiesbutton>My Fairy</myfairiesbutton>
+		<pixiepagebutton>Pixie Page</pixiepagebutton>
+		<pagesettingsbutton>Page Settings</pagesettingsbutton>
+		<stationarybutton>Stationary</stationarybutton>
+		<youdesignitbutton>You-Design-It</youdesignitbutton>
+
+		<!-- For toys -->
+		<toysbutton>Toys &amp; Video Games</toysbutton>
+		<clickablesbutton>Clickables</clickablesbutton>
+		<dollsbutton>Dolls</dollsbutton>
+		<secretcodesbutton>Secret Codes</secretcodesbutton>
+		<videogamebutton>Video Games</videogamebutton>
+
+		<!-- For Parents section -->
+		<forparentsbutton>Parents</forparentsbutton>
+		<parentscenterbutton>Parents' Center</parentscenterbutton>
+		<aboutgamebutton>About The Game</aboutgamebutton>
+		<parentalcontrolsbutton>Parental Controls</parentalcontrolsbutton>
+		<managechildaccountbutton>Account Manager</managechildaccountbutton>
+		<parentsdownloadablesbutton>Fun For Parents</parentsdownloadablesbutton>
+				
+		<!-- For secret codes -->
+		<secretcodesbutton>Secret Codes</secretcodesbutton>
+		
+		<!-- support section -->
+		<supportbutton>Help</supportbutton>
+		<supportcenterbutton>Support Center</supportcenterbutton>
+		<createaccountbutton>Create Account</createaccountbutton>
+		<manageaccountbutton>Account Manager</manageaccountbutton>
+		<contactusbutton>Contact Us</contactusbutton>
+		<knownissuesbutton>Known Issues</knownissuesbutton>
+		<faqsbutton>FAQs</faqsbutton>		
+		<!-- account services section -->
+		<accountbutton>Help</accountbutton>
+
+		<!-- END LABELS FOR BUTTONS -->	
+		
+	</copy>
+
+	<!-- START SIDENAV -->	
+
+	<menu>
+	
+			<playbutton default="false">
+				<panel>login</panel>
+				<trackid>7</trackid>
+			</playbutton>
+
+			<thegame id="community" bg="clear" fg="butterfly">
+				<text>communityhomebutton</text>
+				<channel>{publishPanelSetData}/communityhome.xml</channel>
+				<pageid>communityhub</pageid>
+				
+				<button id="nevernews">
+					<text>thegamebutton</text>
+					<url>http://pixiehollow.go.com/nevernews.html</url>
+				</button>
+			
+				<button id="calendar">
+					<text>calendarbutton</text>
+					<url>http://pixiehollow.go.com/calendar.html</url>
+				</button>
+
+				<button id="pixiepolls">
+					<text>pixiepollsbutton</text>
+					<channel>{publishPanelSetData}/pixiePolls.xml</channel>
+				</button>
+						
+				<button id="contestshome">
+					<text>contestbutton</text>
+					<channel>{publishPanelSetData}/contests_home.xml</channel>
+				</button>
+				
+			</thegame>
+			
+			<myfairies id="myfairies" bg="clear" fg="leaf2">
+				<text>myfairiesbutton</text>
+				<event>pixiePage</event>
+			</myfairies>
+
+			<membership id="membership" bg="clear" fg="acorn">
+				<text>membershipbutton</text>
+				<pageid>membershiphub</pageid>
+				<channel>{publishPanelSetData}/membershiphub.xml</channel>
+				<button>
+					<text>manageaccountbutton</text>
+					<event>gotoAccountManager</event>
+				</button>
+				<button id="gamecards">
+					<text>guestpassbutton</text>
+					<url>gamecards.html</url>
+				</button>
+				<button id="membershipfaqs">
+					<text>memberfaqsbutton</text>
+					<url>faqblog.html</url>
+				</button>
+				<button id="memberrewards">
+					<text>memberrewardsbutton</text>
+					<channel>{publishPanelSetData}/memberrewards.xml</channel>
+				</button>
+				
+			</membership>
+
+			
+
+			<forparents id="forparents" bg="clear" fg="walnut">
+					<text>forparentsbutton</text>
+					<channel>{publishPanelSetData}/parentscenter.xml</channel>
+					<pageid>parentscenter</pageid>
+				<button id="aboutgame">
+					<text>aboutgamebutton</text>
+					<channel>{publishPanelSetData}/aboutgame.xml</channel>
+				</button>
+				<button id="parentalcontrols">
+					<text>parentalcontrolsbutton</text>
+					<channel>{publishPanelSetData}/parentalcontrols.xml</channel>
+				</button>
+				<button id="parentsdownloads">
+					<text>parentsdownloadablesbutton</text>
+					<channel>{publishPanelSetData}/downloads_parents.xml</channel>
+				</button>
+				<button id="parentsmembership">
+					<text>membershipbutton</text>
+					<channel>{publishPanelSetData}/membershiphub.xml</channel>
+				</button>
+				<button>
+					<text>managechildaccountbutton</text>
+					<event>gotoAccountManager</event>
+				</button>
+			</forparents>
+			
+			<toys id="abouttoys" bg="clear" fg="plum">
+					<text>toysbutton</text>
+					<channel>{publishPanelSetData}/abouttoys.xml</channel>
+					<pageid>abouttoys</pageid>
+				<button id="dolls">
+					<text>dollsbutton</text>
+					<channel>{publishPanelSetData}/dolls.xml</channel>
+				</button>
+				<button id="clickables">
+					<text>clickablesbutton</text>
+					<channel>{publishPanelSetData}/clickables.xml</channel>
+				</button>
+				<button id="secretcodes">
+					<text>secretcodesbutton</text>
+					<channel>{publishPanelSetData}/secretCodes.xml</channel>
+				</button>
+				<button id="dsgamepage">
+					<text>videogamebutton</text>
+					<channel>{publishPanelSetData}/videogames.xml</channel>
+				</button>
+			</toys>
+
+			<support id="support" bg="clear" fg="leaf">
+				<text>supportbutton</text>
+				<channel>{publishPanelSetData}/supportCenter.xml</channel>
+				<pageid>supportcenter</pageid>
+				<button id="contactus">
+					<text>contactusbutton</text>
+					<channel>{publishPanelSetData}/contactus.xml</channel>
+				</button>
+				<button id="knownissues">
+					<text>knownissuesbutton</text>
+					<url>http://pixiehollow.go.com/knownissues.html</url>
+				</button>
+				<button id="faqs">
+					<text>faqsbutton</text>
+					<url>faqblog.html</url>
+				</button>
+				<button>
+					<text>manageaccountbutton</text>
+					<event>gotoAccountManager</event>
+				</button>
+			</support>
+			
+		</menu>
+		
+		
+	<!-- END SIDENAV -->			
+		
+		<sectionicons>{publishPanelContent}/section_icons.swf</sectionicons>
+		<queuepanel>queuing</queuepanel>
+		<mainconfig>
+			<contentstartconfig y="60" x="0"/>
+			<sectioniconconfig x="-25" />
+			<textconfig x="60" />
+			<backbuttonconfig x="260" y="197" />
+			<titleconfig x="0" y="0" />
+			<spacerconfig horiz="10" vert="10" />
+		</mainconfig>
+		<contentheaderlongconfig>
+			<headerpos x="10" y="0" />
+			<headergraphicpos x="10" y="8" />
+			<headertext x="200" y="5" width="450" />
+			<buttonconfig x="560" y="165" />
+		</contentheaderlongconfig>
+		<contentheadergridconfig>
+			<headerpos x="10" y="0" />
+			<headergraphicpos x="40" y="133" />
+			<headertext x="40" y="10" width="650" />
+			<buttonconfig x="560" y="165" />
+		</contentheadergridconfig>
+		<contentheadershortconfig>
+			<headerpos x="10" y="0" />
+			<headergraphicpos x="10" y="5" />
+			<headertext x="200" y="5" width="450" />
+			<buttonconfig x="560" y="165" />
+		</contentheadershortconfig>
+				
+		
+		
+		<columnset1_1graphic_config>
+			<dividerconfig visible="false" />
+			<templateconfig x="295" />
+			<imageconfig x="0" y="0" yOffset="0" width="182" height="105"/>
+			<headergraphicpos x="10" y="15" />
+			<spacing horizon="200" vert="5" />
+			<headertext x="75" y="-5" width="350" />
+			<buttonconfig x="45" />
+			<textconfig width="250" height="94" />
+		</columnset1_1graphic_config>
+		
+		
+		<columnset2_2graphic_config>
+			<dividerconfig visible="false" />
+			<templateconfig x="95" />
+			<imageconfig x="0" y="0" yOffset="0" width="182" height="105"/>
+			<headergraphicpos x="10" y="15" />
+			<spacing horizon="200" vert="5" />
+			<headertext x="75" y="-5" width="350" />
+			<buttonconfig x="45" />
+			<textconfig width="250" height="94" />
+		</columnset2_2graphic_config>
+		
+		<columnset3_nd_config>
+			<dividerconfig visible="false" />
+			<templateconfig x="30"/>
+			<imageconfig x="30" y="5" yOffset="-10" width="151" height="103"/>
+			<headergraphicpos x="10" y="15" />
+			<spacing horizon="75" vert="5" />
+			<headertext x="75" y="-5" width="350" />
+			<buttonconfig x="50" />
+			<textconfig width="220" height="94" />
+		</columnset3_nd_config>
+		
+		<columnset2_nd_config>
+			<dividerconfig visible="false" />
+			<templateconfig x="95" />
+			<imageconfig x="50" y="5" yOffset="-10" width="151" height="103"/>
+			<headergraphicpos x="10" y="15" />
+			<spacing horizon="140" vert="5" />
+			<headertext x="75" y="-5" width="350" />
+			<buttonconfig x="45" />
+			<textconfig width="250" height="94" />
+		</columnset2_nd_config>
+		
+		<columnset3_toys_config>
+			<templateconfig x="0"/>
+			<imageconfig x="10" y="5" yOffset="-10" width="204" height="103"/>
+			<headergraphicpos x="10" y="15" />
+			<spacing horizon="5" vert="10" />
+			<dividerconfig x="15" y="25" />
+			<headertext x="75" y="-5" width="350" />
+			<buttonconfig x="50" />
+			<textconfig width="220" height="94" />
+		</columnset3_toys_config>
+		
+		<columnset2_dolls_config>
+			<templateconfig x="0"/>
+			<imageconfig x="55" y="-5" yOffset="0" width="236" height="119"/>
+			<headergraphicpos x="0" y="-15" />
+			<spacing horizon="15" vert="5" />
+			<dividerconfig x="100" y="25" />
+			<buttonconfig x="110" />
+			<textconfig y="10" x="35" width="260" height="94" />
+		</columnset2_dolls_config>
+		
+		<columnset2_ggw_config>
+			<templateconfig x="40"/>
+			<dividerconfig visible="false" />
+			<spacing horizon="400" vert="10" />
+		</columnset2_ggw_config>
+		
+		<columnset1config>
+			<imageconfig x="10" y="5"  width="204" height="103"/>
+			<headergraphicpos x="10" y="15" />
+			<headertext x="75" y="-5" width="350" />
+			<buttonconfig x="560" y="165" />
+		</columnset1config>
+		<columnset2config>
+			<templateconfig x="10"/>
+			<dividerconfig visible="false" />
+			<spacing horizon="50" vert="10" />
+			<imageconfig width="159" height="102" yOffset="-18" />
+			<textconfig width="450" height="102" />
+			<headergraphicpos x="10" y="15" />
+			<buttonconfig x="375" />
+			<textconfig x="0" />
+		</columnset2config>
+		<columnset3config>
+			<templateconfig x="0"/>
+			<imageconfig x="10" y="5" yOffset="-10" width="204" height="103"/>
+			<headergraphicpos x="10" y="15" />
+			<spacing horizon="5" vert="10" />
+			<dividerconfig x="5" y="25" />
+			<headertext x="75" y="-5" width="350" />
+			<buttonconfig x="50" />
+			<textconfig width="190" height="94" />
+		</columnset3config>
+		<columnset4config>
+			<templateconfig x="10"/>
+			<dividerconfig x="-5" y="75" />
+			<spacing horizon="15" vert="10" />
+			<imageconfig width="151" height="102" yOffset="-18" />
+			<textconfig width="151" height="102" />
+			<headergraphicpos x="10" y="15" />
+			<buttonconfig x="28" />
+			<textconfig x="0" />
+		</columnset4config>
+		
+	</params>
+</session>
+
+

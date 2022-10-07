@@ -1,0 +1,73 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/questDetails.swf</swf>
+		<swf type="code">{panelCode}/questDetails.swf</swf>
+	</swfs>
+	<copy>
+		<choose>Choose</choose>
+		<back>Back</back>
+		<cancel>Cancel</cancel>
+		<exit>Leave</exit>
+		<done>Done</done>
+		<yes>Yes</yes>
+		<ok>OK</ok>
+		<decline target="declineBtn.caption">No</decline>
+		<steps>Steps:</steps>
+		<topics target="topicsMultChoice.title">What do you want to discuss with</topics>
+		<quests target="selectMultChoice.title">Choose a Quest:</quests>
+		<questsCategory1 target="selectMultChoice.categoriesTabs.label_btn0">Story Quests</questsCategory1>
+		<questsCategory2 target="selectMultChoice.categoriesTabs.label_btn1">Trade Quests</questsCategory2>
+		<questsCategory3 target="selectMultChoice.categoriesTabs.label_btn2">Talent Skills</questsCategory3>
+		<questsCategory1Noquest>#NPC# doesn't have any #CATEGORY# quests for you right now. Please check with the other Fairy Quest Givers or come back later!</questsCategory1Noquest>
+		<categoryLabel0>story</categoryLabel0>
+		<categoryLabel1>trade</categoryLabel1>
+		<categoryLabel2>talent skills</categoryLabel2>
+		<new_quest>Accept this Quest?</new_quest>
+		<update_quest>Quest Updated!</update_quest>
+		<rewards target="rewardsMultChoice.title">Select Your Reward:</rewards>
+		<ask>Ask #NAME# for a new quest.</ask>
+		<askElixa>Ask #NAME# to look at your Animal Friend.</askElixa>
+		<free>Quest for all Players</free>
+		<pay>Quest for Members</pay>
+		<locked>Quest not Unlocked</locked>
+		<space_insufficient>This is the final step of this quest.  The reward you will receive will not fit in your #NAME# inventory.  You need to make some room before continuing!</space_insufficient>
+		<getReward>I forgot to pick my reward.</getReward>
+        <!-- storage and wardrobe limits and not type specific anymore -->
+		<!--
+        <type0>shirts</type0>
+		<type1>belts</type1>
+		<type2>skirts</type2>
+		<type3>bracelets</type3>
+		<type4>headpieces</type4>
+		<type5>necklaces</type5>
+		<type6>anklets</type6>
+		<type7>shoes</type7>
+		<type13>furniture</type13>
+		<type14>lamps</type14>
+		<type15>decorations</type15>
+        -->
+		<type0>wardrobe</type0>
+		<type1>wardrobe</type1>
+		<type2>wardrobe</type2>
+		<type3>wardrobe</type3>
+		<type4>wardrobe</type4>
+		<type5>wardrobe</type5>
+		<type6>wardrobe</type6>
+		<type7>wardrobe</type7>
+		<type13>storage</type13>
+		<type14>storage</type14>
+		<type15>storage</type15>
+
+		<type16>ingredients</type16>
+		<type28>dye bottles</type28>
+		<releaseFriend>Let #NAME# go.</releaseFriend>
+		<confirmRelease>Are you sure you want to let your Animal Friend go? You will NOT be able to get it back!</confirmRelease>
+		<xpOnlyRewardTitle>#NAME#'s Quest Completed!</xpOnlyRewardTitle>
+	</copy>
+	<config>
+		<questImages>
+			<Kit>{panelAJPG}/questGraphics/kit.ajpg</Kit>
+			<Elixa>{panelAJPG}/questGraphics/elixa.ajpg</Elixa>
+		</questImages>
+	</config>
+</panel>

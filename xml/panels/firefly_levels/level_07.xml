@@ -1,0 +1,40 @@
+<level>	
+	<light x = "95" y = "253">blue</light>
+	<light x = "783" y = "253">yellow</light>	
+	<firefly image="firefly">
+		<path>
+			<point x="267" y="153" />
+			<point x="396" y="278" />
+			<point x="611" y="353" />
+			<point x="482" y="228" />
+		</path>
+		<drift>0</drift>
+	</firefly>
+	<firefly image="firefly">
+		<path>	
+			<point x="611" y="153" />
+			<point x="482" y="278" />
+			<point x="267" y="353" />
+			<point x="396" y="228" />
+		</path>
+		<drift>0</drift>
+	</firefly>
+	<firefly image="firefly">
+		<path>				
+			<point x="482" y="278" />
+			<point x="339" y="253" />
+			<point x="396" y="228" />
+			<point x="539" y="253" />
+		</path>
+		<drift>0</drift>
+	</firefly>
+	<firefly image="firefly">
+		<path>	
+			<point x="396" y="278" />
+			<point x="539" y="253" />
+			<point x="482" y="228" />
+			<point x="338" y="253" />
+		</path>
+		<drift>0</drift>
+	</firefly>	
+</level>

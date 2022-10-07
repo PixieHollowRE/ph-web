@@ -1,0 +1,15 @@
+<panelSet>
+
+      <panels>
+			<panel id="MGMatchGame" x="0" y="0" transition="none">{panelData}/meadowgameMemory.xml</panel>
+			<panel id="MGCrazyEight" x="0" y="0" transition="none">{panelData}/meadowgameCrazyEight.xml</panel>
+			<panel id="MGRockPaperScissors" x="0" y="0" transition="none">{panelData}/meadowgameRockPaperScissors.xml</panel>
+			<panel id="MGSimoneSays" x="0" y="0" transition="none">{panelData}/meadowgameSimoneSays.xml</panel>
+			<panel id="MGPassPopCorn" x="0" y="0" transition="none">{panelData}/meadowgamePassPopCorn.xml</panel>
+      </panels>
+
+      <config></config>
+
+      <copy></copy>
+
+</panelSet>

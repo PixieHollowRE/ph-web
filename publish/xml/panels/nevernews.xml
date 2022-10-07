@@ -1,0 +1,21 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/nevernews.swf</swf>
+		<swf type="code">{publishPanelCode}/nevernews.swf</swf>
+	</swfs>
+	<copy>
+		<decoratorPageURL>publish/xml/content/nevernews/page.xml</decoratorPageURL>
+		<videoSkinURL>publish/swf/panel_content/videoskin.swf</videoSkinURL>
+		<noName><![CDATA[Please add your name before submitting]]></noName>
+		<noComment><![CDATA[Please add a comment before submitting]]></noComment>
+		<ok><![CDATA[OK]]></ok>
+		<genericError><![CDATA[This page is currently unavailable. Please try again later.]]></genericError>
+	</copy>
+	<config>
+		<trackingid>nevercouncilnews</trackingid>
+		<blogURL><![CDATA[nevernews]]></blogURL>
+		<cssURL><![CDATA[publish/xml/content/nevernews/blog.css]]></cssURL>
+		<admins><![CDATA[SweetPea|Sweet Pea|Tabby|Marina|Kit|Sil|Dess|Tink|Rosetta|Fawn|Terence|Clank|Bobble|Dulcie|Bobbin|Mendy|Slate]]></admins>
+		<adminHighlight><![CDATA[0x639de4]]></adminHighlight>
+	</config>
+</panel>

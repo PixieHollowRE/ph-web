@@ -1,0 +1,455 @@
+<spawnables>
+  
+  <copy>
+    
+    <nameDyeBottle>Bottle of XXX Dye</nameDyeBottle>
+    
+    <namePluralDyeBottle>Bottles of XXX Dye</namePluralDyeBottle>
+    
+    <nameHairColor>XXX Hair Dye</nameHairColor>
+    
+    <nameSkinColor>XXX Skin Tone</nameSkinColor>
+    
+    <nameEyeColor>XXX Eye Color</nameEyeColor>
+    
+    <!-- ingredients -->
+    
+    <item8001 fairyDollarCost="4">Oak Leaves</item8001>
+    
+    <single8001>Oak Leaf</single8001>
+    
+    <plural8001>Oak Leaves</plural8001>
+    
+    <desc8001>Leaves from the mightiest of trees!</desc8001>
+    
+    <item8002 fairyDollarCost="2">Maple Leaves</item8002>
+    
+    <single8002>Maple Leaf</single8002>
+    
+    <plural8002>Maple Leaves</plural8002>
+    
+    <desc8002>The most popular leaf in Autumn Forest!</desc8002>
+    
+    <item8003 fairyDollarCost="5">Ivy</item8003>
+    
+    <single8003>Ivy</single8003>
+    
+    <plural8003>Ivy</plural8003>
+    
+    <desc8003>Great for making clothing and accessories!</desc8003>
+    
+    <item8004 fairyDollarCost="4">Rose Petals</item8004>
+    
+    <single8004>Rose Petal</single8004>
+    
+    <plural8004>Rose Petals</plural8004>
+    
+    <desc8004>Velvety Rose Petals are used for soft and delicate garments!</desc8004>
+    
+    <item8005 fairyDollarCost="2">Daisy Petals</item8005>
+    
+    <single8005>Daisy Petal</single8005>
+    
+    <plural8005>Daisy Petals</plural8005>
+    
+    <desc8005>Daisies are perfect for playful and fun-loving Fairies and Sparrow Men!</desc8005>
+    
+    <item8006 fairyDollarCost="5">Lily Petals</item8006>
+    
+    <single8006>Lily Petal</single8006>
+    
+    <plural8006>Lily Petals</plural8006>
+    
+    <desc8006>Lily Petals add extra cheer to clothing!</desc8006>
+    
+    <item8007 fairyDollarCost="3">Buttercup Petals</item8007>
+    
+    <single8007>Buttercup Petal</single8007>
+    
+    <plural8007>Buttercup Petals</plural8007>
+    
+    <desc8007>The golden glow from these petals brightens up any creation!</desc8007>
+    
+    <item8008 fairyDollarCost="1">Spider Silk</item8008>
+    
+    <single8008>Spider Silk</single8008>
+    
+    <plural8008>Spider Silk</plural8008>
+    
+    <desc8008>Friendly spiders give Fairies thread for sewing!</desc8008>
+    
+    <item8009 fairyDollarCost="3">Meadow Grass</item8009>
+    
+    <single8009>Meadow Grass</single8009>
+    
+    <plural8009>Meadow Grass</plural8009>
+    
+    <desc8009>Plentiful and sturdy, grass is the perfect material for clothing!</desc8009>
+    
+    <item8010 fairyDollarCost="1">Sunflower Seeds</item8010>
+    
+    <single8010>Sunflower Seed</single8010>
+    
+    <plural8010>Sunflower Seeds</plural8010>
+    
+    <desc8010>Buttons, brooches, and buckles are made from Sunflower Seeds!</desc8010>
+    
+    <item8011 fairyDollarCost="4">Acorns</item8011>
+    
+    <single8011>Acorn</single8011>
+    
+    <plural8011>Acorns</plural8011>
+    
+    <desc8011>Teapots, baskets, dinnertime bowls -- and dinner itself! Acorns are used for all kinds of things!</desc8011>
+    
+    <item8012 fairyDollarCost="3">Blueberries</item8012>
+    
+    <single8012>Blueberry</single8012>
+    
+    <plural8012>Blueberries</plural8012>
+    
+    <desc8012>Plump berries perfect for dyes, baking or serving cold with sweet milk!</desc8012>
+    
+    <item8013 fairyDollarCost="1">Dandelion Fluff</item8013>
+    
+    <single8013>Dandelion Fluff</single8013>
+    
+    <plural8013>Dandelion Fluff</plural8013>
+    
+    <desc8013>Fluff makes anything cozy and warm!</desc8013>
+    
+    <item8014 fairyDollarCost="2">Raspberries</item8014>
+    
+    <single8014>Raspberry</single8014>
+    
+    <plural8014>Raspberries</plural8014>
+    
+    <desc8014>Juicy and delicious, everyone wants to pick these yummy treats!</desc8014>
+    
+    <item8015 fairyDollarCost="3">Pine Needles</item8015>
+    
+    <single8015>Pine Needle</single8015>
+    
+    <plural8015>Pine Needles</plural8015>
+    
+    <desc8015>The needles of Never Pines are sharp and flexible!</desc8015>
+    
+    <item8016 fairyDollarCost="1">Snowflakes</item8016>
+    
+    <single8016>Snowflake</single8016>
+    
+    <plural8016>Snowflakes</plural8016>
+    
+    <desc8016>Snowflakes can be used for fine details on almost anything!</desc8016>
+    
+    <item8017 fairyDollarCost="3">Honeycombs</item8017>
+    
+    <single8017>Honeycomb</single8017>
+    
+    <plural8017>Honeycombs</plural8017>
+    
+    <desc8017>A sticky and sweet ingredient - perfect for baking, tinkering and more!</desc8017>
+    
+    <item8018 fairyDollarCost="1">Twigs</item8018>
+    
+    <single8018>Twig</single8018>
+    
+    <plural8018>Twigs</plural8018>
+    
+    <desc8018>Sturdy and strong, yet bendy and pliable - just what the Tinker ordered!</desc8018>
+    
+    <item8019 fairyDollarCost="1">Truffles</item8019>
+    
+    <single8019>Truffle</single8019>
+    
+    <plural8019>Truffles</plural8019>
+    
+    <desc8019>A delicious and rare treat - a favorite of Baking Talents everywhere!</desc8019>
+    
+    <item8020 fairyDollarCost="3">Blue Gems</item8020>
+    
+    <single8020>Blue Gem</single8020>
+    
+    <plural8020>Blue Gems</plural8020>
+    
+    <desc8020>These beautiful gems are used by Tinker Talents in all sorts of surprising ways!</desc8020>
+    
+    <item8021 fairyDollarCost="3">Yellow Gems</item8021>
+    
+    <single8021>Yellow Gem</single8021>
+    
+    <plural8021>Yellow Gems</plural8021>
+    
+    <desc8021>Giving off a faint glow, these gems are often used for making lamps!</desc8021>
+    
+    <item8022 fairyDollarCost="2">Feathers</item8022>
+    
+    <single8022>Feather</single8022>
+    
+    <plural8022>Feathers</plural8022>
+    
+    <desc8022>A soft and useful gift from our feathered friends!</desc8022>
+    
+    <item8023 fairyDollarCost="4">Bits of Metal</item8023>
+    
+    <single8023>Bit of Metal</single8023>
+    
+    <plural8023>Bits of Metal</plural8023>
+    
+    <desc8023>Super rare and super useful - this is a Tinker's jackpot!</desc8023>
+    
+    <item17501>Gift Box</item17501>
+    
+    <desc17501>Gift Box</desc17501>
+    
+    <item13003>Caterpillar Cutting</item13003>
+    
+    <desc13003>Guide the caterpillar around the track to cut out the pattern. Be sure to jump the hurdles or you will lose points.</desc13003>
+    
+    <item13004>Pattern Placement</item13004>
+    
+    <desc13004>Complete your pattern by placing the shapes inside the lines in the right spots.</desc13004>
+    
+    <item13005>Spider Stitching</item13005>
+    
+    <desc13005>Help the spider stitch your pattern by clicking when she's over the center of the target!</desc13005>
+    
+    <item13006>Roly-Poly Painting</item13006>
+    
+    <desc13006>Use the paddle to bounce the roly-poly bug and spread color as much as possible before your dye runs out.</desc13006>
+    
+    <!-- pouring-->
+    
+    <item13038>Pouring</item13038>
+    
+    <desc13038>Measure out the batter by pouring it into cups.</desc13038>
+    
+    <!-- baking -->
+    
+    <item13039>Fire-Tending</item13039>
+    
+    <desc13039>Bake your treats in the oven by heating up the fires.</desc13039>
+    
+    <!-- mixing -->
+    
+    <item13040>Mixing</item13040>
+    
+    <desc13040>Mix up the batter at just the right speed.</desc13040>
+    
+    <!-- tinkering -->
+    
+    <item13041>Tinkering</item13041>
+    
+    <desc13041>Match the ingredients to make something fun!</desc13041>
+    
+    <item13050>Knitting</item13050>
+    
+    <desc13050>Click on the correct color yarn balls on the left to knit the pattern. Knitting the wrong color loses points!</desc13050>
+    
+    <item13051>Shearing</item13051>
+    
+    <desc13051>Use the shell razor to shave the colors of fur you need off the caterpillar. Don't shave the wrong fur though!</desc13051>
+    
+    <item13052>Button Search</item13052>
+    
+    <desc13052>Find the buttons you need from the tray and put them in the pink pouch to complete the level.</desc13052>
+    
+    <item13053>Beading</item13053>
+    
+    <desc13053>Use the beads to make the displayed patterns. You have to be quick though or the patterns will move!</desc13053>
+
+    <item13054>Cupcakes</item13054>
+    
+    <desc13054>Move the cupcakes along the conveyer belt by matching the correct frosting and sprinkles!</desc13054>
+
+    <item13055>Screen Printing</item13055>
+    
+    <desc13055>Fill in the design that you’ve chosen with the colors from the paint palette.</desc13055>
+    
+    <item13056>Gem Dazzle</item13056>
+    
+    <desc13056>placeholder description for gem dazzle minigame</desc13056>
+    
+    <!-- Script Marker -->
+    
+    <item28000>Script Marker</item28000>
+    
+    <desc28000>Script Marker</desc28000>
+    
+    <item8024>Blueberry Bunch</item8024>
+    
+    <desc8024>Plump berries perfect for dyes, baking or serving cold with sweet milk!</desc8024>
+    
+    <item8025>Buttercup Bunch</item8025>
+    
+    <desc8025>The golden glow from these petals brightens up any creation!</desc8025>
+    
+    <item8026>Daisy Bunch</item8026>
+    
+    <desc8026>Daisies are perfect for playful and fun-loving Fairies and Sparrow Men!</desc8026>
+    
+    <item8027>Dandelion Fluff Bunch</item8027>
+    
+    <desc8027>Fluff makes anything cozy and warm!</desc8027>
+    
+    <item8028>Meadow Grass Bunch</item8028>
+    
+    <desc8028>Plentiful and sturdy, grass is the perfect material for clothing!</desc8028>
+    
+    <item8029>Honeycomb Bunch</item8029>
+    
+    <desc8029>A sticky and sweet ingredient - perfect for baking, tinkering and more!</desc8029>
+    
+    <item8030>Maple Leaf Bunch</item8030>
+    
+    <desc8030>The most popular leaf in Autumn Forest!</desc8030>
+    
+    <item8031>Pine Needle Bunch</item8031>
+    
+    <desc8031>The needles of Never Pines are sharp and flexible!</desc8031>
+    
+    <item8032>Raspberry Bunch</item8032>
+    
+    <desc8032>Juicy and delicious, everyone wants to pick these yummy treats!</desc8032>
+    
+    <item8033>Snowflake Bunch</item8033>
+    
+    <desc8033>Snowflakes can be used for fine details on almost anything!</desc8033>
+    
+    <item8034>Spider Silk Bunch</item8034>
+    
+    <desc8034>Friendly spiders give Fairies thread for sewing!</desc8034>
+    
+    <item8035>Sunflower Seed Bunch</item8035>
+    
+    <desc8035>Buttons, brooches, and buckles are made from Sunflower Seeds!</desc8035>
+    
+    <item8036>Twig Bunch</item8036>
+    
+    <desc8036>Sturdy and strong, yet bendy and pliable - just what the Tinker ordered!</desc8036>
+    
+    <item28500>Fireworks</item28500>
+    
+    <desc28500>Fireworks sent to a user from the DS</desc28500>
+    
+    <item28501>Snow Angel</item28501>
+    
+    <desc28501>Snow Angel sent to a user from the meadow interactive</desc28501>
+    
+    <item28502>Bubbles</item28502>
+    
+    <desc28502>Bubbles sent to a user from the meadow interactive</desc28502>
+    
+    <item28503>Postcards</item28503>
+    
+    <desc28503>Postcards sent to a user from the Pixie Post Office</desc28503>
+    
+    <item28504>Gift Sets</item28504>
+    
+    <desc28504>Gift Sets sent to a user from the Pixie Post Office</desc28504>
+    
+    <item8037>Lily Bunch</item8037>
+    
+    <desc8037>Lily Petals add extra cheer to clothing!</desc8037>
+    
+    <item8038>Acorn Bunch</item8038>
+    
+    <desc8038>Teapots, baskets, dinnertime bowls -- and dinner itself! Acorns are used for all kinds of things!</desc8038>
+    
+    <item8039>Oak Leaf Bunch</item8039>
+    
+    <desc8039>Leaves from the mightiest of trees!</desc8039>
+    
+    <item8040>Ivy Bunch</item8040>
+    
+    <desc8040>Great for making clothing and accessories!</desc8040>
+    
+    <item8041>Rose Bunch</item8041>
+    
+    <desc8041>Velvety Rose Petals are used for soft and delicate garments!</desc8041>
+    
+    <item8042>Blue Gem Bunch</item8042>
+    
+    <desc8042>These beautiful gems are used by Tinker Talents in all sorts of surprising ways!</desc8042>
+    
+    <item8043>Yellow Gem Bunch</item8043>
+    
+    <desc8043>Giving off a faint glow, these gems are often used for making lamps!</desc8043>
+    
+    <item8499>Pixie Diamonds</item8499>
+    <desc8499>Pixie Diamonds!</desc8499>
+    
+    <single8499>Pixie Diamond</single8499>
+    <plural8499>Pixie Diamonds</plural8499>
+  </copy>
+  
+  <!--
+  remaps a spawnable id to an equivilant and/or similar ID
+  example :: Multiplayer Gatherables vs. regular gatherables
+  -->
+  
+  <spawnableIdRemaps>
+    
+    <remap idToRemap="8012">8024</remap>
+    
+    <remap idToRemap="8007">8025</remap>
+    
+    <remap idToRemap="8005">8026</remap>
+    
+    <remap idToRemap="8013">8027</remap>
+    
+    <remap idToRemap="8009">8028</remap>
+    
+    <remap idToRemap="8017">8029</remap>
+    
+    <remap idToRemap="8002">8030</remap>
+    
+    <remap idToRemap="8015">8031</remap>
+    
+    <remap idToRemap="8014">8032</remap>
+    
+    <remap idToRemap="8016">8033</remap>
+    
+    <remap idToRemap="8008">8034</remap>
+    
+    <remap idToRemap="8010">8035</remap>
+    
+    <remap idToRemap="8018">8036</remap>
+    
+    <remap idToRemap="8006">8037</remap>
+    
+    <remap idToRemap="8011">8038</remap>
+    
+    <remap idToRemap="8001">8039</remap>
+    
+    <remap idToRemap="8003">8040</remap>
+    
+    <remap idToRemap="8004">8041</remap>
+    
+    <remap idToRemap="8020">8042</remap>
+    
+    <remap idToRemap="8021">8043</remap>
+    
+  </spawnableIdRemaps>
+  
+  <colorTransforms>
+    
+    <giveaways redOffset="0" greenOffset="29" blueOffset="143" redMultiplier="0.44" greenMultiplier="0.44" blueMultiplier="0.44"/>
+    
+    <hotspotChatBubble redOffset="100" greenOffset="70" blueOffset="0" redMultiplier="0.44" greenMultiplier="0.44" blueMultiplier="0.44"/>
+    
+    <multiplayerGatherables redOffset="100" greenOffset="100" blueOffset="0" redMultiplier="0.44" greenMultiplier="0.44" blueMultiplier="0.44"/>
+    
+  </colorTransforms>
+  
+  <hidePinwheelsForEvents>20100413,20100621,20110802,20120802</hidePinwheelsForEvents>
+  
+  <collectedSounds>
+    
+    <item id="15026" library="giveawayCollectedSounds" sound="sad_trombone"/>
+    
+    <item id="15084" library="giveawayCollectedSounds" sound="pixie_camp_sign_up"/>
+    
+  </collectedSounds>
+  
+</spawnables>

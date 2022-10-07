@@ -1,0 +1,55 @@
+﻿<invitationAssets>
+	<copy>
+		<title_received>Friend Request</title_received>
+		<title_sent>Request Sent!</title_sent>
+		<title_success>Friendship Success!</title_success>
+		<title_rejected>Add Friend</title_rejected>
+		<title_waiting>Request sent to:</title_waiting>
+		<title_unavailable>Player Unavailable</title_unavailable>
+		<title_already_invited>Already Invited</title_already_invited>
+		<title_full>List Full</title_full>
+		<title_other_full>List Full</title_other_full>
+		<title_add>Add Friend</title_add>
+		<title_remove>Remove Friend</title_remove>
+		<title_ignore>Ignore</title_ignore>
+		<title_unignore>Stop Ignoring</title_unignore>
+		<receivedParty>has invited you to #GENDERPOS#</receivedParty>
+		<receivedPartyNoGender>has invited you to the</receivedPartyNoGender>
+		<receivedPartyQuestion>Would you like to go now?</receivedPartyQuestion>
+		<receivedPartyTitle>Party Invite</receivedPartyTitle>
+		<received>has asked to be your friend.  Do you accept?</received>
+		<received_inIgnoreList>This person is currently on your Ignore List. To make friends with this person, remove them from your Ignore List and send a new Friend Request.</received_inIgnoreList>
+		<sent>You have sent a friendship request to</sent>
+		<success>said yes!</success>
+		<rejected>doesn't want to be friends right now.  Sorry!</rejected>
+		<waiting>Waiting for reply...</waiting>
+		<confirmation>Would you like to make friends with</confirmation>
+		<unavailable>is unavailable</unavailable>
+		<already_invited>has already been invited</already_invited>
+		<full>Your friends list is full.</full>
+		<other_full>cannot accept any more friends right now.  Sorry!</other_full>
+		<add>You are about to send an invite to:</add>
+		<remove>You are about to stop being friends with:</remove>
+		<after_remove>You are no longer friends with:</after_remove>
+		<ignore>If you ignore this player, you will not see their chat messages. If you are friends, this player will be removed from your Friends list. Are you sure you want to ignore:</ignore>
+		<after_ignore1>You are now ignoring:</after_ignore1>
+		<after_ignore2>You can stop ignoring them at any time by clicking "Stop Ignoring".</after_ignore2>
+		<unignore>If you stop ignoring this player, you will be able to see their chat messages.
+Are you sure you want to stop ignoring:</unignore>
+		<after_unignore>You are no longer ignoring:</after_unignore>
+		<problem_invite>There was a problem sending an invitation to:</problem_invite>
+		<problem_ignore>There was a problem ignoring:</problem_ignore>
+		<reject_reason_rejected>Sorry, this player has not accepted your request.</reject_reason_rejected>
+		<reject_reason_timeout>This friend request has timed out.</reject_reason_timeout>
+		<reject_reason_tooManyFriends>Sorry, this player's friends list is already full.</reject_reason_tooManyFriends>
+		<close_game_first>Please exit your game first.</close_game_first>
+		<yes>Yes</yes>
+		<no>No</no>
+		<ok>OK</ok>
+		<cancel>Cancel</cancel>
+	</copy>
+	<config>
+		<timeout>30000</timeout>
+		<inviteCooldownTime>30000</inviteCooldownTime>
+	</config>
+</invitationAssets>

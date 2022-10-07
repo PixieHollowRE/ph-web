@@ -1,0 +1,33 @@
+<BarrierAssets>
+	<copy>
+		<item19501>Rocky Stalagmite</item19501>
+		<desc19501>Hard as rock, because it is!</desc19501>
+		<item19502>Spider Web</item19502>
+		<desc19502>Spider Web</desc19502>
+		<item19503>Root</item19503>
+		<desc19503>Root</desc19503>
+		<item19504>Vine</item19504>
+		<desc19504>Vine</desc19504>
+		<item19505>Stalagmite</item19505>
+		<desc19505>Stalagmite</desc19505>
+		<item19506>Spider Web Horizontal</item19506>
+		<desc19506>Spider Web Horizontal</desc19506>
+		<item19507>Root Horizontal</item19507>
+		<desc19507>Root Horizontal</desc19507>
+		<item19508>Vine Horizontal</item19508>
+		<desc19508>Vine Horizontal</desc19508>
+		<item19509>Stalagmite Horizontal</item19509>
+		<desc19509>Stalagmite Horizontal</desc19509>
+	</copy>
+	<barriers>
+		<barrier barrierId="19501" />
+		<barrier barrierId="19502" />
+		<barrier barrierId="19503" />
+		<barrier barrierId="19504" />
+		<barrier barrierId="19505" />
+		<barrier barrierId="19506" />
+		<barrier barrierId="19507" />
+		<barrier barrierId="19508" />
+		<barrier barrierId="19509" />
+	</barriers>
+</BarrierAssets>

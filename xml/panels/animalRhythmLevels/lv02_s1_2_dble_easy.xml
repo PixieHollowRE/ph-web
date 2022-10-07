@@ -1,0 +1,65 @@
+<level>
+	<introMessage>Good going! Keep on playing to make sure this little guy falls fast asleep!</introMessage>
+	<tipImageFrame>one_mouse</tipImageFrame>
+	
+	<bgTrack>piece1_bed</bgTrack>
+	<audioLibrary>piece1</audioLibrary>
+	<!-- <fgTrack>silence_60</fgTrack> -->
+	
+	<levelEndsAt>62000</levelEndsAt>
+
+	<famousAvatarInstrument>harp</famousAvatarInstrument>
+	<playerAvatarInstrument>harp</playerAvatarInstrument>
+	
+	<requiredNotes>14</requiredNotes>
+	
+	<!--animals-->
+	<animal bedType="Mouse1" type="Mouse" wakeStates="0-0, 1-7, 8-13, 14-130" position="mouse" />	
+
+<!-- part 2, first round-->	
+	<target note="b1" key="LEFT" secondaryKey="" position="6490.907029" length="-1" autoplay="false"/>
+	<target note="g1" key="DOWN" secondaryKey="" position="7172.025699" length="-1" autoplay="false"/>
+	<target note="a1" key="RIGHT" secondaryKey="" position="8007.944067" length="-1" autoplay="false"/>
+	
+	<target note="a1" key="LEFT" secondaryKey="" position="9633.340892" length="-1" autoplay="false"/>
+	<target note="b1" key="UP" secondaryKey="" position="10469.25926" length="-1" autoplay="false"/>
+	<target note="c2" key="RIGHT" secondaryKey="" position="11336.13757" length="-1" autoplay="false"/>
+	
+	<target note="e2" key="UP" secondaryKey="" position="13007.9743" length="-1" autoplay="false"/>
+	<target note="d2" key="DOWN" secondaryKey="" position="14679.81104" length="-1" autoplay="false"/>
+	
+	<target note="c2" key="LEFT" secondaryKey="" position="16258.76795" length="-1" autoplay="false"/>
+	<target note="d1" key="RIGHT" secondaryKey="" position="17899.64475" length="-1" autoplay="false"/>
+	
+	<target note="g1" key="LEFT" secondaryKey="" position="19571.48148" length="-1" autoplay="false"/>
+	<target note="a1" key="UP" secondaryKey="" position="20314.52003" length="-1" autoplay="false"/>
+	<target note="b1" key="RIGHT" secondaryKey="" position="21181.39834" length="-1" autoplay="false"/>
+	
+	<target note="b1" key="RIGHT" secondaryKey="" position="22822.27513" length="-1" autoplay="false"/>
+	<target note="d2" key="DOWN" secondaryKey="" position="23611.75359" length="-1" autoplay="false"/>
+	<target note="g1" key="LEFT" secondaryKey="" position="24478.6319" length="-1" autoplay="false"/>
+
+<!-- part 2, second round-->	
+	<target note="b1" key="LEFT" secondaryKey="" position="32800.13605" length="-1" autoplay="false"/>
+	<target note="g1" key="DOWN" secondaryKey="" position="33481.25472" length="-1" autoplay="false"/>
+	<target note="a1" key="RIGHT" secondaryKey="" position="34317.17309" length="-1" autoplay="false"/>
+	
+	<target note="a1" key="LEFT" secondaryKey="" position="35942.56991" length="-1" autoplay="false"/>
+	<target note="b1" key="UP" secondaryKey="" position="36778.48828" length="-1" autoplay="false"/>
+	<target note="c2" key="RIGHT" secondaryKey="" position="37645.36659" length="-1" autoplay="false"/>
+
+	<target note="e2" key="UP" secondaryKey="" position="39317.20332" length="-1" autoplay="false"/>
+	<target note="d2" key="DOWN" secondaryKey="" position="40989.04006" length="-1" autoplay="false"/>
+	
+	<target note="c2" key="LEFT" secondaryKey="" position="42567.99697" length="-1" autoplay="false"/>
+	<target note="d1" key="RIGHT" secondaryKey="" position="44208.87377" length="-1" autoplay="false"/>
+	
+	<target note="g1" key="LEFT" secondaryKey="" position="45880.7105" length="-1" autoplay="false"/>
+	<target note="a1" key="UP" secondaryKey="" position="46623.74905" length="-1" autoplay="false"/>
+	<target note="b1" key="RIGHT" secondaryKey="" position="47490.62736" length="-1" autoplay="false"/>
+	
+	<target note="b1" key="RIGHT" secondaryKey="" position="49131.50415" length="-1" autoplay="false"/>
+	<target note="d2" key="DOWN" secondaryKey="" position="49920.98261" length="-1" autoplay="false"/>
+	<target note="g1" key="LEFT" secondaryKey="" position="50787.86092" length="-1" autoplay="false"/>
+
+</level>

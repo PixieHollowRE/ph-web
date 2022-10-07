@@ -1,0 +1,232 @@
+﻿<level>
+
+<!-- This level lets the player use a green, moth-luring light
+ to enable combo timing with one purple and one yellow light.
+ One potential problem , it can be difficult to finish the level
+ using the yellow light alone without losing baskets. -->
+
+	<light x = "319" y = "250">purple</light>
+	<light x = "559" y = "250">purple</light>
+	<light x = "439" y = "253">green</light>
+
+	<light x = "319" y = "130">yellow</light>
+	<light x = "559" y = "130">yellow</light>
+	<light x = "319" y = "370">yellow</light>
+	<light x = "559" y = "370">yellow</light>
+	<light x = "439" y = "130">yellow</light>
+	<light x = "439" y = "370">yellow</light>
+
+	
+<!-- moth #1 of 9 (center) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="439" y="190" />
+			<point x="482" y="207" />
+			<point x="499" y="250" />
+			<point x="482" y="293" />
+			<point x="439" y="310" />
+			<point x="396" y="293" />
+			<point x="379" y="250" />
+			<point x="396" y="207" />		
+		</path>
+		<speed>5</speed>
+		<attract>30</attract>
+		<turnspeed>0.3</turnspeed>
+		<type>blindmoth</type>
+	</firefly>
+
+<!-- moth #2 of 9 (top left) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="319" y="70" />
+			<point x="276" y="87" />
+			<point x="259" y="130" />
+			<point x="276" y="173" />
+			<point x="319" y="190" />
+			<point x="362" y="173" />
+			<point x="379" y="130" />
+			<point x="362" y="87" />		
+		</path>
+		<speed>5</speed>
+		<attract>30</attract>
+		<turnspeed>0.3</turnspeed>
+		<type>blindmoth</type>
+	</firefly>
+
+<!-- moth #3 of 9 (top middle) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="439" y="190" />
+			<point x="396" y="173" />
+			<point x="379" y="130" />
+			<point x="396" y="87" />
+			<point x="439" y="70" />
+			<point x="482" y="87" />
+			<point x="499" y="130" />
+			<point x="482" y="173" />		
+		</path>
+		<speed>5</speed>
+		<attract>30</attract>
+		<turnspeed>0.3</turnspeed>
+		<type>blindmoth</type>
+	</firefly>
+
+<!-- moth #4 of 9 (top right) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="559" y="70" />
+			<point x="516" y="87" />
+			<point x="499" y="130" />
+			<point x="516" y="173" />
+			<point x="559" y="190" />
+			<point x="602" y="173" />
+			<point x="619" y="130" />
+			<point x="602" y="87" />		
+		</path>
+		<speed>5</speed>
+		<attract>30</attract>
+		<turnspeed>0.3</turnspeed>
+		<type>blindmoth</type>
+	</firefly>
+
+<!-- moth #5 of 9 (middle left) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="319" y="310" />
+			<point x="362" y="293" />
+			<point x="379" y="250" />
+			<point x="362" y="207" />
+			<point x="319" y="190" />
+			<point x="276" y="207" />
+			<point x="259" y="250" />
+			<point x="276" y="293" />		
+		</path>
+		<speed>5</speed>
+		<attract>30</attract>
+		<turnspeed>0.3</turnspeed>
+		<type>blindmoth</type>
+	</firefly>
+
+<!-- moth #6 of 9 (middle right) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="559" y="310" />
+			<point x="602" y="293" />
+			<point x="619" y="250" />
+			<point x="602" y="207" />
+			<point x="559" y="190" />
+			<point x="516" y="207" />
+			<point x="499" y="250" />
+			<point x="516" y="293" />		
+		</path>
+		<speed>5</speed>
+		<attract>30</attract>
+		<turnspeed>0.3</turnspeed>
+		<type>blindmoth</type>
+	</firefly>
+
+<!-- moth #7 of 9 (bottom left) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="319" y="310" />
+			<point x="276" y="327" />
+			<point x="259" y="370" />
+			<point x="276" y="413" />
+			<point x="319" y="430" />
+			<point x="362" y="413" />
+			<point x="379" y="370" />
+			<point x="362" y="327" />	
+		</path>
+		<speed>5</speed>
+		<attract>30</attract>
+		<turnspeed>0.3</turnspeed>
+		<type>blindmoth</type>
+	</firefly>
+
+<!-- moth #8 of 9 (bottom middle) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="439" y="430" />
+			<point x="396" y="413" />
+			<point x="379" y="370" />
+			<point x="396" y="327" />
+			<point x="439" y="310" />
+			<point x="482" y="327" />
+			<point x="499" y="370" />
+			<point x="482" y="413" />		
+		</path>
+		<speed>5</speed>
+		<attract>30</attract>
+		<turnspeed>0.3</turnspeed>
+		<type>blindmoth</type>
+	</firefly>
+
+<!-- moth #9 of 9 (bottom right) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="559" y="310" />
+			<point x="516" y="327" />
+			<point x="499" y="370" />
+			<point x="516" y="413" />
+			<point x="559" y="430" />
+			<point x="602" y="413" />
+			<point x="619" y="370" />
+			<point x="602" y="327" />
+		</path>
+		<speed>5</speed>
+		<attract>30</attract>
+		<turnspeed>0.3</turnspeed>
+		<type>blindmoth</type>
+	</firefly>
+
+
+	<firefly image="firefly">
+		<path>
+			<point x="439" y="250" />
+			<point x="519" y="170" />
+			<point x="599" y="250" />		
+		</path>
+		<speed>4</speed>
+		<turnspeed>0.1</turnspeed>
+	</firefly>
+	<firefly image="firefly">
+		<path>
+			<point x="439" y="250" />
+			<point x="519" y="330" />
+			<point x="439" y="410" />		
+		</path>
+		<speed>4</speed>
+		<turnspeed>0.1</turnspeed>
+	</firefly>
+	<firefly image="firefly">
+		<path>
+			<point x="439" y="250" />
+			<point x="359" y="330" />
+			<point x="279" y="250" />		
+		</path>
+		<speed>4</speed>
+		<turnspeed>0.1</turnspeed>
+	</firefly>
+	<firefly image="firefly">
+		<path>
+			<point x="439" y="250" />
+			<point x="359" y="170" />
+			<point x="439" y="90" />		
+		</path>
+		<speed>4</speed>
+		<turnspeed>0.1</turnspeed>
+	</firefly>
+
+<!-- extra firefly for combos -->
+	<firefly image="firefly">
+		<path>
+			<point x="599" y="250" />	
+			<point x="439" y="410" />
+			<point x="279" y="250" />	
+			<point x="439" y="90" />				
+		</path>
+		<speed>6</speed>
+		<turnspeed>0.1</turnspeed>
+	</firefly>
+
+</level>

@@ -1,0 +1,16 @@
+<level>
+	<tip>Get rid of those pesky bees by looping around this bee symbol!</tip>
+	<tipImage>05</tipImage>
+	
+	<rosettaStartMessage>Loop that bee symbol to get rid of the bees!###Bees buzzing around too much? Loop the bee symbol!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>
+	<objective>14 ###petal1### petals and 16 ###petal2### petals!</objective>
+
+	<randomPetalConfig>14-12,16-14</randomPetalConfig>
+	<multiplierChance>5</multiplierChance>
+	<bees>1</bees>
+	<petalspeed min="1" max="3"/>
+	<powerups stopwind="0" extratime="1" removebees="2"/>
+	<timeLimit>30</timeLimit>
+</level>

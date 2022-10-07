@@ -1,0 +1,8 @@
+<panelSet>
+	<panels>
+		<panel id="sidenav" x="4" y="102" hidden="false">{panelData}/sidenav.xml</panel>
+		<panel id="header" x="0" y="0" alwaysOnBottom="true">{panelData}/header.xml</panel>
+	</panels>
+	<config></config>
+	<copy></copy>
+</panelSet>

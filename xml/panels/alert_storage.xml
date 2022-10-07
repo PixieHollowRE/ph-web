@@ -1,0 +1,11 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/mmo_alert_storage.swf</swf>
+	</swfs>
+	<copy>
+		<storage_title target="storage_title">Sorry</storage_title>
+		<copy target="copy">You need to make some room in your inventory before you can get that.</copy>
+		<confirmbutton target="confirmbutton.caption">OK</confirmbutton>
+	</copy>
+	<config></config>
+</panel>

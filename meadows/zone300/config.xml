@@ -1,0 +1,201 @@
+<zone>
+  <name>Evergreen Overlook</name>
+  <zoneID>300</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow300</audioLibrary>
+  <audioLibrary tags="Meadow_Winter_Lightup">meadow30xAlt</audioLibrary>
+  <audioLibrary tags="Meadow_WinterLightUp2011">meadow30xAlt</audioLibrary>
+  <audioLibrary tags="Meadow_WinterLightup2012">meadow30xAlt</audioLibrary>
+  <audioLibrary tags="Meadow_QuietSound">meadow30xAlt</audioLibrary>
+  <audioLibrary tags="Meadow_AnimalMasq2010">animalMasquerade2010</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="900" height="690" locked="true">
+        <image x="0" y="0" type="none" tag="Meadow_Winter_Wonderland">PTT_sky_01_winterWonderland.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_Winter_Lightup">PTT_sky_01_winterWonderland.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_LightUp2010">PTT_sky_01_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_LightUpCrisis">PTT_sky_01_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_WinterWonder2010">PTT_sky_01_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_WinterWonder2012">PTT_sky_01_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_WinterLightup2012">PTT_sky_01_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="none">PTT_sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="950" height="986">
+        <image x="0" y="0" type="none" tag="Meadow_Winter_Wonderland">PTT_far_02_winterWonderland.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_Winter_Lightup">PTT_far_02_winterWonderland.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_LightUp2010">PTT_far_02_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_LightUpCrisis">PTT_far_02_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_WinterWonder2010">PTT_far_02_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_WinterWonder2012">PTT_far_02_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_WinterLightup2012">PTT_far_02_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="none">PTT_far_02.swf</image>
+      </layer>
+      <layer type="ground" width="1271" height="1827">
+        <image x="0" y="0" type="merge" tag="Friendship_Festival">EO_action_03_friendshipFestival.swf</image>
+        <image x="0" y="0" type="merge" tag="Great_Games_Days">action_03_greatGamesDay.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Winter_Wonderland">PTT_action_03_WinterWonderland_09.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Winter_Lightup">PTT_action_03_WinterLightUp.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_GreatGames2010">PTT_action_greatgamesbanner_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Friendship_Festival">EO_action_03_friendshipFestival.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_GreatGames">PTT_action_Meadow_GreatGames_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMasq2010">PTT_far_02_AnimalMasq.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_LightUp2010">PTT_action_03_WinterLightUp2010.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_LightUpCrisis">PTT_action_03_WinterLightUpCrisis.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WinterWonder2010">PTT_action_03_WinterWonderland_2010.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Friendship2011">PTT_action_03_FairyFriendship2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Fairy_Friendship_2012">PTT_action_03_Meadow_FairyFriendship_2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Masquerade2012">PTT_action_03_Masquerade2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WinterWonder2012">PTT_action_03_WinterWonder2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WinterLightup2012">PTT_action_03_WinterLightup2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFriendship">PTT_action_03_Meadow_FairyFriendship_2013.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_EndofDays">PTT_action_03_Meadow_NewWinter.swf</image>
+        <image x="0" y="0" type="merge">PTT_action_03.swf</image>
+      </layer>
+      <layer type="normal" width="1770" height="2545" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_Winter_Wonderland">PTT_foreground_04_winterWonderland.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_Winter_Lightup">PTT_foreground_04_winterWonderland.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_LightUp2010">PTT_foreground_04_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_LightUpCrisis">PTT_foreground_04_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_WinterWonder2010">PTT_foreground_04_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_WinterWonder2012">PTT_foreground_04_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_WinterLightup2012">PTT_foreground_04_winterWonderland2010.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy">PTT_foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="761" y="1661">default</location>
+    <location x="1063" y="503">fromChillyFalls</location>
+    <location x="1063" y="503">fromZone302</location>
+    <location x="233" y="1687">fromSnowdriftPass</location>
+    <location x="839" y="1181">fromZone805</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_300</id>
+      <loops>0</loops>
+      <volumeLow>0.35</volumeLow>
+      <volumeHigh>0.35</volumeHigh>
+    </sfx>
+    <sfx tags="Meadow_AnimalMasq2010">
+      <id>meadow_ambient_autumn_wind_distant_birds_am</id>
+      <loops>0</loops>
+      <volumeLow>0.35</volumeLow>
+      <volumeHigh>0.35</volumeHigh>
+    </sfx>
+    <bgm>
+      <id>meadow_music_300</id>
+      <loops>1</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+    </bgm>
+    <bgm>
+      <id>meadow_music_winter_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.15</volumeLow>
+      <volumeHigh>0.15</volumeHigh>
+      <delayLow>23500</delayLow>
+      <delayHigh>23500</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Winter_Lightup">
+      <id>meadow_30x_alt</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_WinterLightUp2011">
+      <id>meadow_30x_alt</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_WinterLightup2012">
+      <id>meadow_30x_alt</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_QuietSound">
+      <id>meadow_30x_alt</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_AnimalMasq2010">
+      <id>animalMasquerade2010</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  <hotspots>
+    <hotspot id="27628" x="514" y="758" setVelvetRope="0" shared="true" serverParm="8016" clientTrigger="6" clientParm="3" refresh="2" threshold="30" playType="keyframe" itemEventId="18018" snapTargetPos="658,892,0" tagId="11">
+      <keyframes>
+        <keyframe number="42" frequency="1" win="true"/>
+      </keyframes>
+    </hotspot>
+    <hotspot tags="Meadow_WinterLightup2012" id="27761" x="415" y="1298" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="16"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27677" x="80" y="967" setVelvetRope="0" shared="false" serverParm="1" clientTrigger="7" clientParm="4" refresh="2" playType="keyframe" itemEventId="0" tagId="12"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27738" x="495" y="1287" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="15"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27581" x="1026" y="714" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="7"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27582" x="933" y="708" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="8"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27583" x="776" y="362" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="9"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27584" x="586" y="291" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="10"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27574" x="969" y="1395" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="0"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27575" x="713" y="1224" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="1"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27576" x="172" y="1091" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="2"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27577" x="351" y="1010" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="3"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27578" x="735" y="1010" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="4"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27579" x="988" y="933" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="5"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27580" x="1107" y="697" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="6"/>
+    <hotspot tags="Meadow_FairyFriendship" id="27715" x="920.95" y="1327.85" setVelvetRope="0" shared="false" refresh="5" playType="full" itemEventId="0" tagId="14"/>
+    <hotspot tags="Meadow_FairyFriendship" id="27696" x="225" y="1341" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="13"/>
+  </hotspots>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <chatTriggers>
+    
+    <!-- TRIGGER HOT SPOT -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" eligibleGiveAwayId="7828" typeToTrigger="1" delay="3" itemid="27677" setVelvetRope="1" tagId="12" tags=""/>
+    
+    <!-- TRIGGER WARDOBE -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" typeToTrigger="2" delay="3" itemid="2227" setVelvetRope="1" tagId="11" setColor1="19" setColor2="141" tags=""/>
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="3" delay="3" itemid="6634" setColor1="159" setColor2="29" tags="" /> TRIGGER STORAGE -->
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="4" delay="3" itemid="15128" amount="3" tags="" /> TRIGGER POUCH -->
+    
+  </chatTriggers>
+  
+  <maximumSpawnStacks/>
+  
+  <decorations/>
+  
+</zone>

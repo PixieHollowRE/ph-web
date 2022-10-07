@@ -1,0 +1,36 @@
+<panel>
+	<swfs>
+		<!--swf type="audio">interface</swf-->
+		<swf type="content">{panelContent}/gameButtons.swf</swf>
+		<swf type="code">{panelCode}/gameButtons.swf</swf>
+	</swfs>
+	<copy>
+		<journal>Leaf Journal</journal>
+		<decorate>Open Storage</decorate>
+		<decorateExit>Close Storage</decorateExit>
+		<friends>Friends</friends>
+		<bboard>News, Parties, &amp; More!</bboard>
+		<scriptPad>Script</scriptPad>
+		<btm>Back to Meadow</btm>
+		<comingSoon>Coming Soon!</comingSoon>
+		<text target="postBoard.postBoardAnim.news">Pixie Postings</text>
+		<pouch>My Pouch</pouch>
+		<openMap>Map</openMap>
+		<closeMap>Fly Back</closeMap>
+		<savedOutfits>My Outfits</savedOutfits>
+		<home>Fly Home</home>
+		<garden>Fly to Garden</garden>
+		<party>Host a Party</party>
+		<meadow>Fly to Meadow</meadow>
+		<teleport>Are you sure you want to leave your current location?</teleport>
+		<chatTitle>Meadow Chat</chatTitle>
+		<chatCopy>Welcome to the Meadow Chat Log!</chatCopy>
+		<teleport_confirm>Yes</teleport_confirm>
+		<teleport_deny>No</teleport_deny>
+	</copy>
+	<config>
+		<friends_closed_rest>871</friends_closed_rest>
+		<friends_opened_rest>919</friends_opened_rest>
+		<friends_increment>8.0</friends_increment>
+	</config>
+</panel>

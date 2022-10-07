@@ -1,0 +1,1605 @@
+<panel>
+  
+  <swfs>
+    
+    <swf type="content">{panelContent}/shopPanel.swf</swf>
+    
+    <swf type="code">{panelCode}/shopPanel.swf</swf>
+    
+  </swfs>
+  
+  <copy>
+    
+    <rewardRarityLabel>Rare</rewardRarityLabel>
+    
+    <surpriseHeader>Surprise ###IDX### of ###TOTAL###</surpriseHeader>
+    
+    <rewardPreviewZoomIn>Click to zoom in</rewardPreviewZoomIn>
+    
+    <rewardPreviewZoomOut>Click to zoom out</rewardPreviewZoomOut>
+    
+    <randomizedReward>Seeds grow into one of these rewards</randomizedReward>
+    
+    <soldOutStamp>Sold Out!</soldOutStamp>
+    
+    <amountLeft>Amount Left: ###AMT###</amountLeft>
+    
+    <currencyGrouperHeaderMtx>Pixie Diamonds</currencyGrouperHeaderMtx>
+    
+    <currencyGrouperHeaderIng>Ingredients</currencyGrouperHeaderIng>
+    
+    <currencyGrouperUsageMtx>ANY player</currencyGrouperUsageMtx>
+    
+    <currencyGrouperUsageIng>Members only</currencyGrouperUsageIng>
+    
+    <noCurrencySelected>Please select either Ingredients or Pixie Diamonds!</noCurrencySelected>
+    
+    <errorNoFriends>Explore the meadows of Pixie Hollow and meet some new friends. Then come back and send your friends Gift Sets and Postcards!</errorNoFriends>
+    
+    <errorNoPaymentBoth>Oops! You don’t have enough Pixie Diamonds or Ingredients to get this item!</errorNoPaymentBoth>
+    
+    <errorNoPaymentDiamonds>Oops! You don’t have enough Pixie Diamonds to get this item!</errorNoPaymentDiamonds>
+    
+    <viewLargerSizeButton>View Larger#BREAK#Size</viewLargerSizeButton>
+    
+    <viewLargerFrom>from,</viewLargerFrom>
+    
+    <closeLargerSizeButton>Close</closeLargerSizeButton>
+    
+    <currencyOrText>or</currencyOrText>
+    
+    <shopsClosedButton>OK</shopsClosedButton>
+    
+    <shopsClosedMessage>Sorry, we are closed while we add some exciting new items to our inventory.  We will open again in just a few minutes.  Please come back soon to see what's in store!</shopsClosedMessage>
+    
+    <whatsThisText>What's This?</whatsThisText>
+    
+    <learnMore>Learn More</learnMore>
+    
+    <buyDiamonds>Buy Diamonds</buyDiamonds>
+    
+    <howToPayText>How would you like to pay?</howToPayText>
+    
+    <costText>Cost:</costText>
+    
+    <ingredientPurchaseIsForMembersOnly>Sorry, only Members can use Ingredients for this!</ingredientPurchaseIsForMembersOnly>
+    
+    <goldBalanceLacking>You need #MTX_AMT# more #MTX_NAME# to make this purchase!</goldBalanceLacking>
+    
+    <ingBalanceLacking>You need #ING_AMT# more #ING_NAME# to make this purchase!</ingBalanceLacking>
+    
+    <mixedBalanceLacking>You need #ING_AMT# more #ING_NAME# or #MTX_AMT# more #MTX_NAME# to make this purchase!</mixedBalanceLacking>
+    
+    <dyeDescriptor>Hair Dye</dyeDescriptor>
+    
+    <skinDescriptor>Skin Tone</skinDescriptor>
+    
+    <eyeDescriptor>Eye Color</eyeDescriptor>
+    
+    <catalog_nextpage>Next Page</catalog_nextpage>
+    
+    <catalog_prevpage>Previous Page</catalog_prevpage>
+    
+    <catalog_amount_remaining>###AMT###/###ALLOTMENT### Outfits Left</catalog_amount_remaining>
+    
+    <catalog_expiring_soon>Time Left To Get: &lt;font color="#FF0000"&gt;###DAYSLEFT###&lt;/font&gt; Day###PLURALIZER###</catalog_expiring_soon>
+    
+    <catalog_expiring_later>Time Left To Get: ###DAYSLEFT### Day###PLURALIZER###</catalog_expiring_later>
+    
+    <catalog_expiring_today>&lt;font color="#FF0000"&gt;Last Day To Get!&lt;/font&gt;</catalog_expiring_today>
+    
+    <catalog_expiring_past>Available For a Limited Time!</catalog_expiring_past>
+    
+    <catalog_expiring_nodata>Available Now!</catalog_expiring_nodata>
+    
+    <confirm_buy_title>Just Checking...</confirm_buy_title>
+    
+    <confirm_buy>Are you sure you want to buy this item?</confirm_buy>
+    
+    <confirm_buy_multiple>Are you sure you want to buy these items?</confirm_buy_multiple>
+    
+    <confirm_buy_hair>Are you sure you want to buy this item?  This will replace your current #ITEM#.</confirm_buy_hair>
+    
+    <confirm_buy_all>Are you sure you want to buy all of the items you are trying on?</confirm_buy_all>
+    
+    <confirm_buy_all_hair>Are you sure you want to buy all of the items you are trying on? This will replace your current #ITEM#.</confirm_buy_all_hair>
+    
+    <confirm_buy_home>Buy a new home and replace your old home? Your home items will be returned to storage.</confirm_buy_home>
+    
+    <confirm_buy_gender_title>Reminder...</confirm_buy_gender_title>
+    
+    <confirm_buy_gender_copy>This item cannot be worn by #GENDERS#! You can still purchase this item for use in quests.</confirm_buy_gender_copy>
+    
+    <alert_buy_gender_copy>This item can only be worn by #OPPGENDERS#! #GENDERS# cannot get this item!</alert_buy_gender_copy>
+    
+    <confirm_buy_gender_male>sparrow men</confirm_buy_gender_male>
+    
+    <confirm_buy_gender_female>fairies</confirm_buy_gender_female>
+    
+    <confirm_buy_gender_buy>Get</confirm_buy_gender_buy>
+    
+    <confirm_buy_gender_cancel>Cancel</confirm_buy_gender_cancel>
+    
+    <confirm_gold_buy_cost>Cost:</confirm_gold_buy_cost>
+    
+    <confirm_gold_buy_learnmore>What's this?</confirm_gold_buy_learnmore>
+    
+    <purchase_success_title>You Got It!</purchase_success_title>
+    
+    <purchase_postcard_success_title>Postcard Sent!</purchase_postcard_success_title>
+    
+    <purchase_giftset_success_title>Gift Set Sent!</purchase_giftset_success_title>
+    
+    <purchase_success>Your purchases were successful.</purchase_success>
+    
+    <purchase_postcard_success>The postcard was sent to your friend!</purchase_postcard_success>
+    
+    <purchase_giftset_success>A gift package was sent to your friend's home. You can find your new items in your Leaf Journal.  Would you like to wear your new items now?</purchase_giftset_success>
+    
+    <purchase_success_dyes><![CDATA[Your purchase is complete! You can find your new dye in your Pouch.]]></purchase_success_dyes>
+    
+    <purchase_success_hair>Your purchase is complete! Enjoy your new hairstyle!</purchase_success_hair>
+    
+    <purchase_success_spa>Your purchase is complete! Enjoy your new style!</purchase_success_spa>
+    
+    <purchase_success_party>Your purchase is complete! You can find your new party supplies in your Pouch.</purchase_success_party>
+    
+    <purchase_success_storage>Your purchase is complete! You can find your new item in your Storage Chest.</purchase_success_storage>
+    
+    <purchase_success_home>Your purchase is complete! Enjoy your new home!</purchase_success_home>
+    
+    <purchase_success_garden>Your purchase is complete! You can find your new seed packs in your Pouch.</purchase_success_garden>
+    
+    <purchase_success_sweet>Your purchase is complete! You can find your new sweets in your Pouch.</purchase_success_sweet>
+    
+    <purchase_success_wardrobe>Your purchase is complete!  You can find your new clothes in your Leaf Journal. Would you like to wear your new clothes now?</purchase_success_wardrobe>
+    
+    <purchase_success_wardrobe_trunc>Your purchase is complete!  You can find your new clothes in your Leaf Journal.</purchase_success_wardrobe_trunc>
+    
+    <purchase_success_wardrobe_saveoutfit>Your purchase is complete!  You can find your new clothes in your Leaf Journal. Would you like to wear your new clothes now?</purchase_success_wardrobe_saveoutfit>
+    
+    <purchase_success_wardrobe_saveoutfit_btn>Save Outfit</purchase_success_wardrobe_saveoutfit_btn>
+    
+    <purchase_success_wardrobe_saveoutfit_alreadysaved>This outfit has already been saved.</purchase_success_wardrobe_saveoutfit_alreadysaved>
+    
+    <purchase_success_wardrobe_saveoutfit_waitingforsave>This outfit is in the process of being saved.</purchase_success_wardrobe_saveoutfit_waitingforsave>
+    
+    <purchase_success_wardrobe_saveoutfit_maxedoutslots>You have no more open spaces for outfits! Please remove a saved outfit.</purchase_success_wardrobe_saveoutfit_maxedoutslots>
+    
+    <purchase_success_wardrobe_saveoutfit_buyslot_title>Just checking...</purchase_success_wardrobe_saveoutfit_buyslot_title>
+    
+    <purchase_success_wardrobe_saveoutfit_buyslot_message>Would you like to purchase another Outfit tab to save this outfit?</purchase_success_wardrobe_saveoutfit_buyslot_message>
+    
+    <purchase_success_animal_friend_title>Congratulations!</purchase_success_animal_friend_title>
+    
+    <purchase_success_animal_friend><![CDATA[You've chosen an Animal Friend named #NAME#!<br><a href='event:text'><u><font color='#97D2FF'>Click here</font></u></a> to learn how to take care of your Animal Friend.]]></purchase_success_animal_friend>
+    
+    <purchase_success_giftset1><![CDATA[You sent a Gift Set to:<br>#FAIRYNAME#]]></purchase_success_giftset1>
+    
+    <purchase_success_giftset2><![CDATA[You can find a matching set in your Leaf Journal. Would you like to wear your new clothes now?]]></purchase_success_giftset2>
+    
+    <wearnow>Wear Now</wearnow>
+    
+    <oops>Oops!</oops>
+    
+    <purchase_fail>Sorry, looks like we're out of stock right now. Try again later!</purchase_fail>
+    
+    <pouch_insufficient>You do not have enough #NAME# to buy this.  You need #AMOUNT# more.</pouch_insufficient>
+    
+    <pouch_insufficient_for_adoption>You do not have enough #NAME# to choose this animal.  You need #AMOUNT# more.</pouch_insufficient_for_adoption>
+    
+    <outfit_item_delayed>Sorry, there seems to be a delay with your item. Please check your wardrobe to wear it.</outfit_item_delayed>
+    
+    <space_insufficient>You do not have enough space for any more #NAME# items.</space_insufficient>
+    
+    <space_insufficient_to_buy_outfit>You do not have enough space to get this outfit.</space_insufficient_to_buy_outfit>
+    
+    <space_insufficient_to_buy_multiple>You do not have enough space in your wardrobe to get all.</space_insufficient_to_buy_multiple>
+    
+    <already_have_a_friend>You currently have an Animal Friend in your care. Only one Animal Friend can be cared for at a time.</already_have_a_friend>
+    
+    <confirm_adopt_title>Just Checking...</confirm_adopt_title>
+    
+    <tagalong_overwrite_adopt>Your Clickables Butterfly will disappear if you adopt an Animal Friend! Are you sure you want to adopt an Animal Friend?</tagalong_overwrite_adopt>
+    
+    <confirm_adopt>Are you sure you want to choose this animal?</confirm_adopt>
+    
+    <current_hair>This is your current hairstyle.</current_hair>
+    
+    <current_color>This is your current #HAIR_DYE_TARGET# color.</current_color>
+    
+    <current_wing>This is your current wing type.</current_wing>
+    
+    <current_expression>This is your current expression.</current_expression>
+    
+    <current_skincolor>This is your current skin tone.</current_skincolor>
+    
+    <current_eyecolor>This is your current eye color.</current_eyecolor>
+    
+    <hairDyeTargetMain>hair</hairDyeTargetMain>
+    
+    <hairDyeTargetHighlight>highlight</hairDyeTargetHighlight>
+    
+    <current_home>This is your current home.</current_home>
+    
+    <you_own>You currently own:</you_own>
+    
+    <not_enough>Not Enough #NAME# - You Need #AMOUNT# More</not_enough>
+    
+    <currentlyOwnedAmount>You Have: #AMOUNT# #TYPE#</currentlyOwnedAmount>
+    
+    <!-- this version used in diamond-only shops -->
+    
+    <currentlyOwnedAmounts>You Have: #ING_AMOUNT# #ING_TYPE# &amp; #MTX_AMOUNT# #MTX_NAME#</currentlyOwnedAmounts>
+    
+    <leave_warning>You are trying on items from this shop. If you'd like to keep these items, you'll need to buy them from the Shopkeeper before leaving. Do you still want to leave the shop?</leave_warning>
+    
+    <price target="fullUI.fullUIAnimations.browserUI.animated_interface.price">Price</price>
+    
+    <foodNeeded>Food Needed</foodNeeded>
+    
+    <regularPrice>Regular Price</regularPrice>
+    
+    <memberPrice>Member Price</memberPrice>
+    
+    <membersSave>Members save #AMOUNT#</membersSave>
+    
+    <membersSaveDiamonds>Members save #AMOUNT# Pixie Diamonds.</membersSaveDiamonds>
+    
+    <quality target="fullUI.fullUIAnimations.browserUI.animated_interface.quality">Quality</quality>
+    
+    <buyBtn target="fullUI.fullUIAnimations.browserUI.animated_interface.buyBtn.caption">Get</buyBtn>
+    
+    <nextBtn target="fullUI.fullUIAnimations.browserUI.animated_interface.nextBtn.caption">Next</nextBtn>
+    
+    <adoptBtn target="fullUI.fullUIAnimations.browserUI.animated_interface.adoptBtn.caption">Choose</adoptBtn>
+    
+    <showOffBtn target="fullUI.fullUIAnimations.browserUI.animated_interface.showOffBtn.caption">Model It!</showOffBtn>
+    
+    <canelFriendBtn target="animalFriendNameSelector.cancelButton.caption">Back</canelFriendBtn>
+    
+    <acceptFriendBtn target="animalFriendNameSelector.acceptButton.caption">OK</acceptFriendBtn>
+    
+    <randomNameFriendBtn target="animalFriendNameSelector.random.caption">Animal's Choice</randomNameFriendBtn>
+    
+    <friendTitle target="animalFriendNameSelector.title">Choose a Name for your Friend</friendTitle>
+    
+    <tryOnBtn>Try On</tryOnBtn>
+    
+    <mixMatchBtn>Mix &amp; Match</mixMatchBtn>
+    
+    <resetBtn target="fullUI.fullUIAnimations.browserUI.animated_bar.verticalPreview.resetBtn.caption">Clear</resetBtn>
+    
+    <buyAllBtn target="fullUI.fullUIAnimations.browserUI.animated_bar.verticalPreview.buyAllBtn.caption">Get All</buyAllBtn>
+    
+    <resetHairBtn target="fullUI.fullUIAnimations.browserUI.animated_bar.verticalPreviewHair.resetBtn.caption">Clear</resetHairBtn>
+    
+    <resetHairBtn3 target="fullUI.fullUIAnimations.browserUI.animated_bar.verticalPreviewHair3.resetBtn.caption">Clear</resetHairBtn3>
+    
+    <zoomBtn target="fullUI.fullUIAnimations.browserUI.animated_bar.verticalPreviewHair.zoomBtn.caption">Zoom</zoomBtn>
+    
+    <zoomBtn3 target="fullUI.fullUIAnimations.browserUI.animated_bar.verticalPreviewHair3.zoomBtn.caption">Zoom</zoomBtn3>
+    
+    <homePreviewBtn target="fullUI.fullUIAnimations.browserUI.animated_frame.homePreviewBtn.caption">Enter Preview Home</homePreviewBtn>
+    
+    <buyAllHairBtn target="fullUI.fullUIAnimations.browserUI.animated_bar.verticalPreviewHair.buyAllBtn.caption">Get All</buyAllHairBtn>
+    
+    <buyAllHairBtn3 target="fullUI.fullUIAnimations.browserUI.animated_bar.verticalPreviewHair3.buyAllBtn.caption">Get All</buyAllHairBtn3>
+    
+    <exitBtnBig target="fullUI.fullUIAnimations.browserUI.animated_interface.exitBtnBig.caption">Exit</exitBtnBig>
+    
+    <sale target="saleIcon.caption">Sale!</sale>
+    
+    <put_back>Put Back</put_back>
+    
+    <set_of>Set of #COUNT#</set_of>
+    
+    <ok>OK</ok>
+    
+    <cancel>Cancel</cancel>
+    
+    <get>Get</get>
+    
+    <yes>Yes</yes>
+    
+    <no>No</no>
+    
+    <type0>wardrobe</type0>
+    
+    <type1>wardrobe</type1>
+    
+    <type2>wardrobe</type2>
+    
+    <type3>wardrobe</type3>
+    
+    <type4>wardrobe</type4>
+    
+    <type5>wardrobe</type5>
+    
+    <type6>wardrobe</type6>
+    
+    <type7>wardrobe</type7>
+    
+    <type13>storage</type13>
+    
+    <type14>storage</type14>
+    
+    <type15>storage</type15>
+    
+    <type16>ingredients</type16>
+    
+    <type28>dye bottles</type28>
+    
+    <type10hair>hair front</type10hair>
+    
+    <type11hair>hair back</type11hair>
+    
+    <type28hair>hair color</type28hair>
+    
+    <type28hairHighlight>highlight color</type28hairHighlight>
+    
+    <typeAllHair>hair style</typeAllHair>
+    
+    <!-- subtitle2>by Bella Rose</subtitle2 -->
+    
+    <!-- subtitle4>by Bella Rose</subtitle4 -->
+    
+    <!-- subtitle5>by Bella Rose</subtitle5 -->
+    
+    <!-- subtitle6>by Bella Rose</subtitle6 -->
+    
+    <!-- subtitle8>by Brook</subtitle8 -->
+    
+    <collection9>Berry Cute Collection</collection9>
+    
+    <!-- subtitle9>by Brook</subtitle9 -->
+    
+    <collection10>The Leaf Painting Line</collection10>
+    
+    <!-- subtitle10>by Brook</subtitle10 -->
+    
+    <collection11>Tink's Chic</collection11>
+    
+    <subtitle11>by Thimble Tintak</subtitle11>
+    
+    <collection12>Bubbly Boutique</collection12>
+    
+    <!-- subtitle12>by Diva Wing</subtitle12 -->
+    
+    <!-- subtitle13>by Diva Wing</subtitle13 -->
+    
+    <collection14>The Bluebird Bundle</collection14>
+    
+    <subtitle14>by Robyn Skywing</subtitle14>
+    
+    <collection15>The Cardinal Collection</collection15>
+    
+    <subtitle15>by Robyn Skywing</subtitle15>
+    
+    <collection16>Animal Masquerade Collection</collection16>
+    
+    <subtitle16>by Heidi Meeface</subtitle16>
+    
+    <collection20>Frosty Frills</collection20>
+    
+    <collection1001>Flower Fixations</collection1001>
+    
+    <subtitle1001>by Julia Sugarblossom</subtitle1001>
+    
+    <collection1002>Bubbly Boutique</collection1002>
+    
+    <!-- subtitle1002>by Harmony</subtitle1002 -->
+    
+    <collection1003>Butterfly Designs</collection1003>
+    
+    <!-- subtitle1003>by Harmony</subtitle1003 -->
+    
+    <collection1005>Beach Bundle</collection1005>
+    
+    <!-- subtitle1005>by Harmony</subtitle1005 -->
+    
+    <collection1006>Trinket's Autumn Housewares</collection1006>
+    
+    <!-- subtitle1006>by Trinket</subtitle1006 -->
+    
+    <collection1007>Fall Gardening</collection1007>
+    
+    <subtitle1007>by Radiance Dayshine</subtitle1007>
+    
+    <!-- subtitle1008>by Trinket</subtitle1008 -->
+    
+    <collection1014>Comfy Creations</collection1014>
+    
+    <collection4006>Festive Hair Colors</collection4006>
+    
+    <subtitle4006>by Julia Sugarblossom</subtitle4006>
+    
+    <collection3000>Party Decorations</collection3000>
+    
+    <avail3000>2013/09/19</avail3000>
+    
+    <collection3001>Party Games</collection3001>
+    
+    <avail3001>2013/09/19</avail3001>
+    
+    <collection3002>Pass the Popcorn Party Game Editions</collection3002>
+    
+    <collection3003>Rock, Paper, Scissors Game Editions</collection3003>
+    
+    <collection53>Autumn Shoes 2009</collection53>
+    
+    <collection41>Gale's Favorites</collection41>
+    
+    <avail41>2013/09/19</avail41>
+    
+    <collection1030>Trinket's Faves</collection1030>
+    
+    <avail1030>2013/09/19</avail1030>
+    
+    <collection5001>Fireflies</collection5001>
+    
+    <avail5001>2013/09/19</avail5001>
+    
+    <collection5002>Ladybugs</collection5002>
+    
+    <avail5002>2013/09/19</avail5002>
+    
+    <collection5003>Hummingbirds</collection5003>
+    
+    <avail5003>2013/09/19</avail5003>
+    
+    <collection5004>Dragonflies</collection5004>
+    
+    <avail5004>2013/09/19</avail5004>
+    
+    <collection5005>Bees</collection5005>
+    
+    <avail5005>2013/09/19</avail5005>
+    
+    <collection5006>Butterflies</collection5006>
+    
+    <avail5006>Always happy and healthy! Only needs feeding!</avail5006>
+    
+    <collection188>Light-Talent Camp Gear</collection188>
+    
+    <subtitle188>Camp Pixie Dust 2010</subtitle188>
+    
+    <avail188>Available Until: August 2010</avail188>
+    
+    <collection189>Tinker-Talent Camp Gear</collection189>
+    
+    <subtitle189>Camp Pixie Dust 2010</subtitle189>
+    
+    <avail189>Available Until: August 2010</avail189>
+    
+    <collection190>Water-Talent Camp Gear</collection190>
+    
+    <subtitle190>Camp Pixie Dust 2010</subtitle190>
+    
+    <avail190>Available Until: August 2010</avail190>
+    
+    <collection191>Garden-Talent Camp Gear</collection191>
+    
+    <subtitle191>Camp Pixie Dust 2010</subtitle191>
+    
+    <avail191>Available Until: August 2010</avail191>
+    
+    <collection192>Animal-Talent Camp Gear</collection192>
+    
+    <subtitle192>Camp Pixie Dust 2010</subtitle192>
+    
+    <avail192>Available Until: August 2010</avail192>
+    
+    <collection193>Light-Talent Camp Gear</collection193>
+    
+    <subtitle193>Camp Pixie Dust 2010</subtitle193>
+    
+    <avail193>Available Until: August 2010</avail193>
+    
+    <collection208>Captain Hook</collection208>
+    
+    <subtitle208>Bad Day to be a Pirate</subtitle208>
+    
+    <avail208>Available Until:</avail208>
+    
+    <collection209>Captain Hook</collection209>
+    
+    <subtitle209>Bad Day to be a Pirate</subtitle209>
+    
+    <avail209>Available Until:</avail209>
+    
+    <collection1062>Animal Friend Beds</collection1062>
+    
+    <avail1062>2013/09/19</avail1062>
+    
+    <collection6000>Small Homes</collection6000>
+    
+    <avail6000>2013/09/19</avail6000>
+    
+    <collection6001>Large Homes</collection6001>
+    
+    <avail6001>2013/09/19</avail6001>
+    
+    <collection1075>Platforms</collection1075>
+    
+    <avail1075>2013/09/19</avail1075>
+    
+    <collection1076>Staircases and Ladders</collection1076>
+    
+    <avail1076>2013/09/19</avail1076>
+    
+    <collection1077>Dividers</collection1077>
+    
+    <avail1077>2013/09/19</avail1077>
+    
+    <collection281>Winter Wear</collection281>
+    
+    <avail281>Available Until: February 2011</avail281>
+    
+    <collection316>Summer Accessories 2011</collection316>
+    
+    <collection389>Flitter</collection389>
+    
+    <subtitle389>Quest for the Purple Gem</subtitle389>
+    
+    <avail389>2011/09/13</avail389>
+    
+    <collection390>Flutter</collection390>
+    
+    <subtitle390>Quest for the Purple Gem</subtitle390>
+    
+    <avail390>2011/09/13</avail390>
+    
+    <collection4001>Classic Hair Fronts</collection4001>
+    
+    <avail4001>2013/09/19</avail4001>
+    
+    <collection4003>Classic Hair Backs</collection4003>
+    
+    <avail4003>2013/09/19</avail4003>
+    
+    <collection4004>Stylish Hair Fronts</collection4004>
+    
+    <avail4004>2013/09/19</avail4004>
+    
+    <collection4005>Stylish Hair Backs</collection4005>
+    
+    <avail4005>2013/09/19</avail4005>
+    
+    <collection4010>Classic Hair Fronts</collection4010>
+    
+    <avail4010>2013/09/19</avail4010>
+    
+    <collection4011>Classic Hair Backs</collection4011>
+    
+    <avail4011>2013/09/19</avail4011>
+    
+    <collection4012>Stylish Hair Fronts</collection4012>
+    
+    <avail4012>2013/09/19</avail4012>
+    
+    <collection4013>Stylish Hair Backs</collection4013>
+    
+    <avail4013>2013/09/19</avail4013>
+    
+    <collection4014>Hair Colors</collection4014>
+    
+    <avail4014>2013/09/19</avail4014>
+    
+    <collection4015>Highlight Colors</collection4015>
+    
+    <avail4015>2013/09/19</avail4015>
+    
+    <collection4017>Wings</collection4017>
+    
+    <avail4017>2013/09/19</avail4017>
+    
+    <collection4018>Expressions</collection4018>
+    
+    <avail4018>2013/09/19</avail4018>
+    
+    <collection4019>Skin Tones</collection4019>
+    
+    <avail4019>2013/09/19</avail4019>
+    
+    <collection4020>Eye Colors</collection4020>
+    
+    <avail4020>2013/09/19</avail4020>
+    
+    <collection7001>Painted Postcards</collection7001>
+    
+    <avail7001>2013/09/19</avail7001>
+    
+    <collection7002>Graphic Postcards</collection7002>
+    
+    <avail7002>2013/09/19</avail7002>
+    
+    <collection1>Rapid Racer</collection1>
+    
+    <avail1>2013/09/19</avail1>
+    
+    <collection42>Rapid Racer</collection42>
+    
+    <avail42>2013/09/19</avail42>
+    
+    <collection18>Riding Helmets</collection18>
+    
+    <avail18>2013/09/19</avail18>
+    
+    <collection69>Super Speedster</collection69>
+    
+    <avail69>2013/09/19</avail69>
+    
+    <collection70>Super Speedster</collection70>
+    
+    <avail70>2013/09/19</avail70>
+    
+    <collection71>Fast Flash Racer</collection71>
+    
+    <avail71>2013/09/19</avail71>
+    
+    <collection72>Fast Flash Racer</collection72>
+    
+    <avail72>2013/09/19</avail72>
+    
+    <collection37>Spring Peacock Dress</collection37>
+    
+    <collection43>Post Office Accessories</collection43>
+    
+    <avail43>2013/09/19</avail43>
+    
+    <collection78>Pixie Party Dresses</collection78>
+    
+    <avail78>2013/09/19</avail78>
+    
+    <collection79>Floral Collections</collection79>
+    
+    <avail79>2013/09/19</avail79>
+    
+    <collection97>Famous Fairy Collections</collection97>
+    
+    <avail97>2013/09/19</avail97>
+    
+    <collection1019>Shelves, Sacks, and Storage</collection1019>
+    
+    <avail1019>2013/09/19</avail1019>
+    
+    <collection1020>Kitchen and Dining</collection1020>
+    
+    <avail1020>2013/09/19</avail1020>
+    
+    <collection1023>Toys and Trinkets</collection1023>
+    
+    <avail1023>2013/09/19</avail1023>
+    
+    <collection100>Tri-Color Gown</collection100>
+    
+    <subtitle100>Disney Fairies: Fashion Boutique Preview</subtitle100>
+    
+    <collection102>Animal Masks</collection102>
+    
+    <collection146>Scrumptious Cookies</collection146>
+    
+    <avail146>2013/09/19</avail146>
+    
+    <collection147>Color Changing Silly Sweets</collection147>
+    
+    <avail147>2013/09/19</avail147>
+    
+    <collection6003>Home Basics</collection6003>
+    
+    <avail6003>2013/09/19</avail6003>
+    
+    <collection2020>Red &amp; Purple Dyes</collection2020>
+    
+    <avail2020>2013/09/19</avail2020>
+    
+    <collection2001>Orange &amp; Yellow Dyes</collection2001>
+    
+    <avail2001>2013/09/19</avail2001>
+    
+    <collection2008>Blue &amp; Green Dyes</collection2008>
+    
+    <avail2008>2013/09/19</avail2008>
+    
+    <collection2009>Brown &amp; Neutral Dyes</collection2009>
+    
+    <avail2009>2013/09/19</avail2009>
+    
+    <collection38>Aura Silly Sweets</collection38>
+    
+    <avail38>2013/09/19</avail38>
+    
+    <collection61>Delectable Cupcakes</collection61>
+    
+    <avail61>2013/09/19</avail61>
+    
+    <collection153>Vivacious Vines</collection153>
+    
+    <collection154>Marvelous Magenta</collection154>
+    
+    <collection3004>Party Decorations</collection3004>
+    
+    <collection111>For QA</collection111>
+    
+    <collection114>The Queen's Collections</collection114>
+    
+    <avail114>2013/09/19</avail114>
+    
+    <collection2003>Seasonal Dyes</collection2003>
+    
+    <subtitle2003>Summer 2013</subtitle2003>
+    
+    <avail2003>2013/09/19</avail2003>
+    
+    <collection82>Floral Collections</collection82>
+    
+    <avail82>2013/09/19</avail82>
+    
+    <collection83>Mainland Styles</collection83>
+    
+    <avail83>2013/09/19</avail83>
+    
+    <collection84>Themed Fashions</collection84>
+    
+    <avail84>2013/09/19</avail84>
+    
+    <collection95>Princess Fashion</collection95>
+    
+    <avail95>2013/09/19</avail95>
+    
+    <collection5007>Butterflies</collection5007>
+    
+    <avail5007>Always happy and healthy!</avail5007>
+    
+    <collection2>The Queen's Collections</collection2>
+    
+    <avail2>2013/09/19</avail2>
+    
+    <collection106>The Queen's Collections</collection106>
+    
+    <avail106>2013/09/19</avail106>
+    
+    <collection108>The Queen's Collections</collection108>
+    
+    <avail108>2013/09/19</avail108>
+    
+    <collection109>The Queen's Collections</collection109>
+    
+    <avail109>2013/09/19</avail109>
+    
+    <collection115>The Queen's Collections</collection115>
+    
+    <avail115>2013/09/19</avail115>
+    
+    <collection116>The Queen's Collections</collection116>
+    
+    <avail116>2013/09/19</avail116>
+    
+    <collection118>Special Edition Seeds</collection118>
+    
+    <avail118>2013/09/19</avail118>
+    
+    <collection119>Basic Seeds</collection119>
+    
+    <avail119>2013/09/19</avail119>
+    
+    <collection120>Summer 2013 Seeds</collection120>
+    
+    <avail120>2013/09/19</avail120>
+    
+    <collection129>Spring 2013 Seeds</collection129>
+    
+    <avail129>2013/09/19</avail129>
+    
+    <collection130>Winter 2012 Seeds</collection130>
+    
+    <avail130>2013/09/19</avail130>
+    
+    <collection131>Fall 2012 Seeds</collection131>
+    
+    <avail131>2013/09/19</avail131>
+    
+    <collection132>Summer 2012 Seeds</collection132>
+    
+    <avail132>2013/09/19</avail132>
+    
+    <collection4>Holiday Treats</collection4>
+    
+    <avail4>2013/09/19</avail4>
+    
+    <collection57>Baby Animal Sweets</collection57>
+    
+    <avail57>2013/09/19</avail57>
+    
+    <collection21>Wing Changing Silly Sweets</collection21>
+    
+    <avail21>2013/09/19</avail21>
+    
+    <collection157>Deluxe Silly Sweets</collection157>
+    
+    <avail157>2013/09/19</avail157>
+    
+    <collection39>Troop Uniforms</collection39>
+    
+    <avail39>2013/09/19</avail39>
+    
+    <collection59>Bad Day To Be a Pirate</collection59>
+    
+    <avail59>2013/09/19</avail59>
+    
+    <collection60>Cheese's Great Adventure</collection60>
+    
+    <avail60>2013/09/19</avail60>
+    
+    <collection133>Mermaid Friends Forever</collection133>
+    
+    <avail133>2013/09/19</avail133>
+    
+    <subtitle133>And Other Underwater Costumes</subtitle133>
+    
+    <collection134>Quest for the Purple Gem</collection134>
+    
+    <avail134>2013/09/19</avail134>
+    
+    <collection135>Fairy Mary's Day Off</collection135>
+    
+    <avail135>2013/09/19</avail135>
+    
+    <collection136>Case of the Missing Sparkles</collection136>
+    
+    <avail136>2013/09/19</avail136>
+    
+    <collection1004>Chairs, Sofas, and Benches</collection1004>
+    
+    <avail1004>2013/09/19</avail1004>
+    
+    <collection1008>Tables and Surfaces</collection1008>
+    
+    <avail1008>2013/09/19</avail1008>
+    
+    <collection1009>Lamps and Chandeliers</collection1009>
+    
+    <avail1009>2013/09/19</avail1009>
+    
+    <collection6002>Plants and Garden Decor</collection6002>
+    
+    <avail6002>2013/09/19</avail6002>
+    
+    <collection1010>Outdoor Activities</collection1010>
+    
+    <avail1010>2013/09/19</avail1010>
+    
+    <collection1011>Odds and Ends</collection1011>
+    
+    <avail1011>2013/09/19</avail1011>
+    
+    <collection1012>Art and Wall Decor</collection1012>
+    
+    <avail1012>2013/09/19</avail1012>
+    
+    <collection1013>Rugs and Drapery</collection1013>
+    
+    <avail1013>2013/09/19</avail1013>
+    
+    <collection1015>Never Dove Eggs</collection1015>
+    
+    <avail1015>2013/09/19</avail1015>
+    
+    <collection5>Floral Gift Sets</collection5>
+    
+    <avail5>2013/09/19</avail5>
+    
+    <collection26>Mainland Style Gift Sets</collection26>
+    
+    <avail26>2013/09/19</avail26>
+    
+    <collection27>Costume Gift Sets</collection27>
+    
+    <avail27>2013/09/19</avail27>
+    
+    <collection30>Fashion Boutique Gift Sets</collection30>
+    
+    <avail30>2013/09/19</avail30>
+    
+    <collection3>Tailoring Gift Sets</collection3>
+    
+    <avail3>2013/09/19</avail3>
+    
+    <collection19>Costume Gift Sets</collection19>
+    
+    <avail19>2013/09/19</avail19>
+    
+    <collection31>Mainland Style Gift Sets</collection31>
+    
+    <avail31>2013/09/19</avail31>
+    
+    <collection33>Famous Fairy Gift Sets</collection33>
+    
+    <avail33>2013/09/19</avail33>
+    
+    <collection28>Animal-Inspired Fashions</collection28>
+    
+    <avail28>2013/09/19</avail28>
+    
+    <collection40>Casual and Sporty Wear</collection40>
+    
+    <avail40>2013/09/19</avail40>
+    
+    <collection46>Mainland Styles</collection46>
+    
+    <avail46>2013/09/19</avail46>
+    
+    <collection56>Themed Fashions</collection56>
+    
+    <avail56>2013/09/19</avail56>
+    
+    <collection62>Sparrow Shirts and Jackets</collection62>
+    
+    <avail62>2013/09/19</avail62>
+    
+    <collection63>Sparrow Man Accessories</collection63>
+    
+    <avail63>2013/09/19</avail63>
+    
+    <collection58>Animal Friend Costumes</collection58>
+    
+    <avail58>2013/09/19</avail58>
+    
+    <collection6>Hats and Hairpieces</collection6>
+    
+    <avail6>2013/09/19</avail6>
+    
+    <collection7>Bracelets</collection7>
+    
+    <avail7>2013/09/19</avail7>
+    
+    <collection8>Purses and Props</collection8>
+    
+    <avail8>2013/09/19</avail8>
+    
+    <collection13>Necklaces and Scarves</collection13>
+    
+    <avail13>2013/09/19</avail13>
+    
+    <collection29>Belts</collection29>
+    
+    <avail29>2013/09/19</avail29>
+    
+    <collection32>Earrings and Anklets</collection32>
+    
+    <avail32>2013/09/19</avail32>
+    
+    <collection34>Shoes</collection34>
+    
+    <avail34>2013/09/19</avail34>
+    
+  </copy>
+  
+  <config>
+    
+    <!-- when purchasing an animal friend, we show a static icon that corresponds to the colors supplied. These color definitions are what we use to map 
+		   a color combination to a filename like "af_bee_3.png". If the color combinations get out of sync or a new color is added without this block being
+		   updated, we will default to iconId 1. This is safer than filenames like "af_firefly_17_60.png" b/c for those we have no way of knowing if the
+		   proper file has been uploaded to the content server, and so we risk a busted image on the fb post. This route is a little more annoying to implement
+		   but it's a safer show down the road if things get out of sync -->
+    
+    <fbIconMappings>
+      
+      <firefly color1="17" color2="60" iconId="1"/>
+      
+      <firefly color1="11" color2="60" iconId="2"/>
+      
+      <firefly color1="64" color2="60" iconId="3"/>
+      
+      <firefly color1="54" color2="130" iconId="4"/>
+      
+      <firefly color1="32" color2="149" iconId="5"/>
+      
+      <firefly color1="142" color2="72" iconId="6"/>
+      
+      <ladybug color1="45" color2="55" iconId="1"/>
+      
+      <ladybug color1="142" color2="55" iconId="2"/>
+      
+      <ladybug color1="124" color2="55" iconId="3"/>
+      
+      <ladybug color1="65" color2="118" iconId="4"/>
+      
+      <ladybug color1="11" color2="125" iconId="5"/>
+      
+      <ladybug color1="8" color2="139" iconId="6"/>
+      
+      <hummingbird color1="82" color2="128" iconId="1"/>
+      
+      <hummingbird color1="64" color2="128" iconId="2"/>
+      
+      <hummingbird color1="50" color2="128" iconId="3"/>
+      
+      <hummingbird color1="50" color2="151" iconId="4"/>
+      
+      <hummingbird color1="34" color2="111" iconId="5"/>
+      
+      <hummingbird color1="72" color2="153" iconId="6"/>
+      
+      <dragonfly color1="81" color2="141" iconId="1"/>
+      
+      <dragonfly color1="137" color2="141" iconId="2"/>
+      
+      <dragonfly color1="145" color2="141" iconId="3"/>
+      
+      <dragonfly color1="144" color2="32" iconId="4"/>
+      
+      <dragonfly color1="128" color2="41" iconId="5"/>
+      
+      <dragonfly color1="133" color2="48" iconId="6"/>
+      
+      <bee color1="142" color2="73" iconId="1"/>
+      
+      <bee color1="10" color2="82" iconId="2"/>
+      
+      <bee color1="28" color2="56" iconId="3"/>
+      
+      <bee color1="159" color2="40" iconId="4"/>
+      
+      <bee color1="156" color2="73" iconId="5"/>
+      
+      <bee color1="6" color2="118" iconId="6"/>
+      
+    </fbIconMappings>
+    
+    <fbBtnCoordsAnimalFriendPurchase>591,290</fbBtnCoordsAnimalFriendPurchase>
+    
+    <fbBtnCoordsHairSalon>2,-33</fbBtnCoordsHairSalon>
+    
+    <fbBtnCoordsCatalogLhs>17,80</fbBtnCoordsCatalogLhs>
+    
+    <fbBtnCoordsCatalogRhs>237,80</fbBtnCoordsCatalogRhs>
+    
+    <highlightCollectionId>4016</highlightCollectionId>
+    
+    <MAX_TABS>7</MAX_TABS>
+    
+    <collections>
+      
+      <collection id="9" icon="16002" color="150"/>
+      
+      <collection id="10" icon="16008" color="147"/>
+      
+      <collection id="11" icon="16017" color="159"/>
+      
+      <collection id="12" icon="16003" color="153"/>
+      
+      <collection id="14" icon="16016" color="158"/>
+      
+      <collection id="15" icon="16016" color="158"/>
+      
+      <collection id="16" icon="16012" color="163"/>
+      
+      <collection id="20" icon="16020" color="163"/>
+      
+      <collection id="1001" icon="16013" color="160"/>
+      
+      <collection id="1002" icon="16003" color="153"/>
+      
+      <collection id="1003" icon="16004" color="155"/>
+      
+      <collection id="1005" icon="16000" color="149"/>
+      
+      <collection id="1006" icon="16006" color="154"/>
+      
+      <collection id="1007" icon="16011" color="156"/>
+      
+      <collection id="1014" icon="16020" color="163"/>
+      
+      <collection id="3000" icon="16045" color="152" currencySupport="1"/>
+      
+      <collection id="3001" icon="16047" color="147" currencySupport="1"/>
+      
+      <collection id="3002" icon="16046" color="146" currencySupport="1"/>
+      
+      <collection id="4006" icon="16011" color="131"/>
+      
+      <collection id="3003" icon="16106" color="1" currencySupport="1"/>
+      
+      <collection id="53" icon="16017" color="1"/>
+      
+      <collection id="41" icon="16020" color="158" currencySupport="1"/>
+      
+      <collection id="1030" icon="16041" color="165" currencySupport="1"/>
+      
+      <collection id="5001" icon="16081" color="119" currencySupport="1"/>
+      
+      <collection id="5002" icon="16084" color="113" currencySupport="1"/>
+      
+      <collection id="5003" icon="16080" color="1" currencySupport="1"/>
+      
+      <collection id="5004" icon="16082" color="70" currencySupport="1"/>
+      
+      <collection id="5005" icon="16169" color="142" currencySupport="1"/>
+      
+      <collection id="5006" icon="16262" color="272" currencySupport="1"/>
+      
+      <collection id="188" icon="16101" color="27"/>
+      
+      <collection id="189" icon="16032" color="2"/>
+      
+      <collection id="190" icon="16032" color="6"/>
+      
+      <collection id="191" icon="16032" color="113"/>
+      
+      <collection id="192" icon="16032" color="11"/>
+      
+      <collection id="193" icon="16032" color="27"/>
+      
+      <collection id="208" icon="16005" color="1"/>
+      
+      <collection id="209" icon="16103" color="1"/>
+      
+      <collection id="1062" icon="16009" color="48" currencySupport="1"/>
+      
+      <collection id="6000" icon="16167" color="66" currencySupport="1"/>
+      
+      <collection id="6001" icon="16168" color="64" currencySupport="1"/>
+      
+      <collection id="1075" icon="16077" color="88" currencySupport="1"/>
+      
+      <collection id="1076" icon="16078" color="35" currencySupport="1"/>
+      
+      <collection id="1077" icon="16031" color="27" currencySupport="1"/>
+      
+      <collection id="281" icon="16110" color="153"/>
+      
+      <collection id="389" icon="16101" color="4"/>
+      
+      <collection id="390" icon="16102" color="92"/>
+      
+      <collection id="4001" icon="16048" color="161" currencySupport="1"/>
+      
+      <collection id="4003" icon="16049" color="154" currencySupport="1"/>
+      
+      <collection id="4004" icon="16008" color="54" currencySupport="1"/>
+      
+      <collection id="4005" icon="16008" color="156" currencySupport="1"/>
+      
+      <collection id="4010" icon="16121" color="161" currencySupport="1"/>
+      
+      <collection id="4011" icon="16122" color="154" currencySupport="1"/>
+      
+      <collection id="4012" icon="16008" color="5" currencySupport="1"/>
+      
+      <collection id="4013" icon="16008" color="70" currencySupport="1"/>
+      
+      <collection id="4014" icon="16050" color="148" currencySupport="1"/>
+      
+      <collection id="4015" icon="16050" color="148" currencySupport="1"/>
+      
+      <collection id="4017" icon="16260" color="148" currencySupport="1"/>
+      
+      <collection id="4018" icon="16261" color="148" currencySupport="1"/>
+      
+      <collection id="4019" icon="16050" color="148" currencySupport="1"/>
+      
+      <collection id="4020" icon="16050" color="148" currencySupport="1"/>
+      
+      <collection id="7001" icon="16213" color="8" currencySupport="1"/>
+      
+      <collection id="7002" icon="16212" color="24" currencySupport="1"/>
+      
+      <collection id="1" icon="16045" color="182" currencySupport="1"/>
+      
+      <collection id="42" icon="16045" color="182" currencySupport="1"/>
+      
+      <collection id="18" icon="16135" color="111" currencySupport="1"/>
+      
+      <collection id="69" icon="16123" color="64" currencySupport="1"/>
+      
+      <collection id="70" icon="16123" color="64" currencySupport="1"/>
+      
+      <collection id="71" icon="16130" color="82" currencySupport="1"/>
+      
+      <collection id="72" icon="16130" color="82" currencySupport="1"/>
+      
+      <collection id="37" icon="16191" color="6" currencySupport="2"/>
+      
+      <collection id="43" icon="16192" color="15" currencySupport="2"/>
+      
+      <collection id="78" icon="16193" color="7" currencySupport="1"/>
+      
+      <collection id="79" icon="16114" color="9" currencySupport="1"/>
+      
+      <collection id="97" icon="16098" color="12" currencySupport="1"/>
+      
+      <collection id="1019" icon="16031" color="116" currencySupport="1"/>
+      
+      <collection id="1020" icon="16187" color="27" currencySupport="1"/>
+      
+      <collection id="1023" icon="16022" color="26" currencySupport="1"/>
+      
+      <collection id="100" icon="16190" color="9" currencySupport="2"/>
+      
+      <collection id="102" icon="16024" color="63" currencySupport="2"/>
+      
+      <collection id="146" icon="16244" color="154" currencySupport="2"/>
+      
+      <collection id="147" icon="16246" color="153" currencySupport="2"/>
+      
+      <collection id="6003" icon="16079" color="84" currencySupport="1"/>
+      
+      <collection id="2020" icon="16095" color="8" currencySupport="1"/>
+      
+      <collection id="2001" icon="16095" color="11" currencySupport="1"/>
+      
+      <collection id="2008" icon="16095" color="175" currencySupport="1"/>
+      
+      <collection id="2009" icon="16095" color="99" currencySupport="1"/>
+      
+      <collection id="38" icon="16247" color="152" currencySupport="2"/>
+      
+      <collection id="61" icon="16245" color="5" currencySupport="2"/>
+      
+      <collection id="153" icon="16234" color="9" currencySupport="1"/>
+      
+      <collection id="154" icon="16236" color="53" currencySupport="1"/>
+      
+      <collection id="3004" icon="16045" color="152" currencySupport="1"/>
+      
+      <collection id="111" icon="16144" color="26" currencySupport="1"/>
+      
+      <collection id="114" icon="16223" color="6" currencySupport="1"/>
+      
+      <collection id="2003" icon="16095" color="10" currencySupport="1"/>
+      
+      <collection id="82" icon="16114" color="26" currencySupport="1"/>
+      
+      <collection id="83" icon="16004" color="18" currencySupport="1"/>
+      
+      <collection id="84" icon="16008" color="17" currencySupport="1"/>
+      
+      <collection id="95" icon="16254" color="23" currencySupport="1"/>
+      
+      <collection id="5007" icon="16262" color="63" currencySupport="1"/>
+      
+      <collection id="2" icon="16239" color="8" currencySupport="1"/>
+      
+      <collection id="106" icon="16234" color="12" currencySupport="1"/>
+      
+      <collection id="108" icon="16242" color="90" currencySupport="1"/>
+      
+      <collection id="109" icon="16230" color="2" currencySupport="1"/>
+      
+      <collection id="115" icon="16226" color="5" currencySupport="1"/>
+      
+      <collection id="116" icon="16238" color="15" currencySupport="1"/>
+      
+      <collection id="118" icon="16063" color="284" currencySupport="2"/>
+      
+      <collection id="119" icon="16220" color="174" currencySupport="2"/>
+      
+      <collection id="120" icon="16219" color="151" currencySupport="2"/>
+      
+      <collection id="129" icon="16219" color="187" currencySupport="2"/>
+      
+      <collection id="130" icon="16219" color="222" currencySupport="2"/>
+      
+      <collection id="131" icon="16219" color="267" currencySupport="2"/>
+      
+      <collection id="132" icon="16219" color="211" currencySupport="2"/>
+      
+      <collection id="4" icon="16244" color="17" currencySupport="1"/>
+      
+      <collection id="57" icon="16023" color="7" currencySupport="1"/>
+      
+      <collection id="21" icon="16250" color="219" currencySupport="1"/>
+      
+      <collection id="157" icon="16247" color="219" currencySupport="1"/>
+      
+      <collection id="39" icon="16158" color="9" currencySupport="1"/>
+      
+      <collection id="59" icon="16165" color="174" currencySupport="1"/>
+      
+      <collection id="60" icon="16023" color="150" currencySupport="1"/>
+      
+      <collection id="133" icon="16059" color="155" currencySupport="1"/>
+      
+      <collection id="134" icon="16100" color="152" currencySupport="1"/>
+      
+      <collection id="135" icon="16041" color="159" currencySupport="1"/>
+      
+      <collection id="136" icon="16098" color="160" currencySupport="1"/>
+      
+      <collection id="1004" icon="16167" color="10" currencySupport="1"/>
+      
+      <collection id="1008" icon="16031" color="24" currencySupport="1"/>
+      
+      <collection id="1009" icon="16184" color="16" currencySupport="1"/>
+      
+      <collection id="6002" icon="16114" color="8" currencySupport="1"/>
+      
+      <collection id="1010" icon="16184" color="12" currencySupport="1"/>
+      
+      <collection id="1011" icon="16076" color="6" currencySupport="1"/>
+      
+      <collection id="1012" icon="16008" color="23" currencySupport="1"/>
+      
+      <collection id="1013" icon="16024" color="1" currencySupport="1"/>
+      
+      <collection id="1015" icon="16107" color="199" currencySupport="1"/>
+      
+      <collection id="5" icon="16188" color="8" currencySupport="1"/>
+      
+      <collection id="26" icon="16189" color="10" currencySupport="1"/>
+      
+      <collection id="27" icon="16190" color="9" currencySupport="1"/>
+      
+      <collection id="30" icon="16191" color="18" currencySupport="1"/>
+      
+      <collection id="3" icon="16188" color="113" currencySupport="1"/>
+      
+      <collection id="19" icon="16189" color="114" currencySupport="1"/>
+      
+      <collection id="31" icon="16190" color="27" currencySupport="1"/>
+      
+      <collection id="33" icon="16191" color="24" currencySupport="1"/>
+      
+      <collection id="28" icon="16023" color="19" currencySupport="1"/>
+      
+      <collection id="40" icon="16184" color="18" currencySupport="1"/>
+      
+      <collection id="46" icon="16188" color="13" currencySupport="1"/>
+      
+      <collection id="56" icon="16189" color="10" currencySupport="1"/>
+      
+      <collection id="62" icon="16191" color="6" currencySupport="1"/>
+      
+      <collection id="63" icon="16192" color="15" currencySupport="1"/>
+      
+      <collection id="58" icon="16023" color="9" currencySupport="1"/>
+      
+      <collection id="6" icon="16254" color="8" currencySupport="1"/>
+      
+      <collection id="7" icon="16181" color="25" currencySupport="1"/>
+      
+      <collection id="8" icon="16197" color="27" currencySupport="1"/>
+      
+      <collection id="13" icon="16062" color="19" currencySupport="1"/>
+      
+      <collection id="29" icon="16001" color="18" currencySupport="1"/>
+      
+      <collection id="32" icon="16179" color="5" currencySupport="1"/>
+      
+      <collection id="34" icon="16198" color="14" currencySupport="1"/>
+      
+    </collections>
+    
+    <limits>
+      
+      <wardrobe>30</wardrobe>
+      
+      <storage>40</storage>
+      
+      <pouch>99999</pouch>
+      
+    </limits>
+    
+    <animalFriendScale>0.5</animalFriendScale>
+    
+    <genderSortingZoneIds>110001,110004,110007,110008</genderSortingZoneIds>
+    
+    <tracking>
+      
+      <pages>
+        
+        <omniturePage110000>DIAMOND_BELLAS_BAUBLES_OOPS_OPEN</omniturePage110000>
+        
+        <omniturePage110001>DIAMOND_BROOKS_BASICS_OOPS_OPEN</omniturePage110001>
+        
+        <omniturePage110002>DIAMOND_SUMMIT_STYLE_OOPS_OPEN</omniturePage110002>
+        
+        <omniturePage110003>DIAMOND_GALES_OUTFITTERS_OOPS_OPEN</omniturePage110003>
+        
+        <omniturePage110004>DIAMOND_CASSIES_COSTUMES_OOPS_OPEN</omniturePage110004>
+        
+        <omniturePage110005>DIAMOND_COALS_CLOTHIER_OOPS_OPEN</omniturePage110005>
+        
+        <omniturePage110006>DIAMOND_GAVINS_GEAR_OOPS_OPEN</omniturePage110006>
+        
+        <omniturePage110007>DIAMOND_ZEPHYRS_ZOOM_ROOM_OOPS_OPEN</omniturePage110007>
+        
+        <omniturePage110008>DIAMOND_POST_OFFICE_OOPS_OPEN</omniturePage110008>
+        
+        <omniturePage110009>DIAMOND_QUEENS_BOUTIQUE_OOPS_OPEN</omniturePage110009>
+        
+        <omniturePage110010>DIAMOND_HARMONYS_SWEETS_OOPS_OPEN</omniturePage110010>
+        
+        <omniturePage110011>DIAMOND_SPIKES_SWEETS_OOPS_OPEN</omniturePage110011>
+        
+        <omniturePage111000>DIAMOND_HARMONYS_HOME_OOPS_OPEN</omniturePage111000>
+        
+        <omniturePage111001>DIAMOND_TREETOP_HOUSEWARES_OOPS_OPEN</omniturePage111001>
+        
+        <omniturePage111002>DIAMOND_EMBERS_ESSENTIALS_OOPS_OPEN</omniturePage111002>
+        
+        <omniturePage112000>DIAMOND_DAISYS_DYES_OOPS_OPEN</omniturePage112000>
+        
+        <omniturePage112001>DIAMOND_PRISMS_PAINTS_OOPS_OPEN</omniturePage112001>
+        
+        <omniturePage112002>DIAMOND_COLETTES_COLORS_OOPS_OPEN</omniturePage112002>
+        
+        <omniturePage112003>DIAMOND_SUNNYS_SHADES_OOPS_OPEN</omniturePage112003>
+        
+        <omniturePage113000>DIAMOND_PHOEBES_PARTY_FAVORS_OOPS_OPEN</omniturePage113000>
+        
+        <omniturePage114000>DIAMOND_SCHELLYS_SHEARS_OOPS_OPEN</omniturePage114000>
+        
+        <omniturePage115000>DIAMOND_BECKS_ANIMAL_NURSERY_OOPS_OPEN</omniturePage115000>
+        
+        <omniturePage116000>DIAMOND_NEVILLES_NEW_HOMES_OOPS_OPEN</omniturePage116000>
+        
+      </pages>
+      
+      <links>
+        
+        <omnitureLinkX110000>DIAMOND_BELLAS_BAUBLES_OOPS_X</omnitureLinkX110000>
+        
+        <omnitureLinkBuyDiamonds110000>DIAMOND_BELLAS_BAUBLES_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds110000>
+        
+        <omnitureLinkLearnMore110000>DIAMOND_BELLAS_BAUBLES_OOPS_LEARN_MORE</omnitureLinkLearnMore110000>
+        
+        <omnitureLinkX110001>DIAMOND_BROOKS_BASICS_OOPS_X</omnitureLinkX110001>
+        
+        <omnitureLinkBuyDiamonds110001>DIAMOND_BROOKS_BASICS_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds110001>
+        
+        <omnitureLinkLearnMore110001>DIAMOND_BROOKS_BASICS_OOPS_LEARN_MORE</omnitureLinkLearnMore110001>
+        
+        <omnitureLinkX110002>DIAMOND_SUMMIT_STYLE_OOPS_X</omnitureLinkX110002>
+        
+        <omnitureLinkBuyDiamonds110002>DIAMOND_SUMMIT_STYLE_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds110002>
+        
+        <omnitureLinkLearnMore110002>DIAMOND_SUMMIT_STYLE_OOPS_LEARN_MORE</omnitureLinkLearnMore110002>
+        
+        <omnitureLinkX110003>DIAMOND_GALES_OUTFITTERS_OOPS_X</omnitureLinkX110003>
+        
+        <omnitureLinkBuyDiamonds110003>DIAMOND_GALES_OUTFITTERS_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds110003>
+        
+        <omnitureLinkLearnMore110003>DIAMOND_GALES_OUTFITTERS_OOPS_LEARN_MORE</omnitureLinkLearnMore110003>
+        
+        <omnitureLinkX110004>DIAMOND_CASSIES_COSTUMES_OOPS_X</omnitureLinkX110004>
+        
+        <omnitureLinkBuyDiamonds110004>DIAMOND_CASSIES_COSTUMES_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds110004>
+        
+        <omnitureLinkLearnMore110004>DIAMOND_CASSIES_COSTUMES_OOPS_LEARN_MORE</omnitureLinkLearnMore110004>
+        
+        <omnitureLinkX110005>DIAMOND_COALS_CLOTHIER_OOPS_X</omnitureLinkX110005>
+        
+        <omnitureLinkBuyDiamonds110005>DIAMOND_COALS_CLOTHIER_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds110005>
+        
+        <omnitureLinkLearnMore110005>DIAMOND_COALS_CLOTHIER_OOPS_LEARN_MORE</omnitureLinkLearnMore110005>
+        
+        <omnitureLinkX110006>DIAMOND_GAVINS_GEAR_OOPS_X</omnitureLinkX110006>
+        
+        <omnitureLinkBuyDiamonds110006>DIAMOND_GAVINS_GEAR_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds110006>
+        
+        <omnitureLinkLearnMore110006>DIAMOND_GAVINS_GEAR_OOPS_LEARN_MORE</omnitureLinkLearnMore110006>
+        
+        <omnitureLinkX110007>DIAMOND_ZEPHYRS_ZOOM_ROOM_OOPS_X</omnitureLinkX110007>
+        
+        <omnitureLinkBuyDiamonds110007>DIAMOND_ZEPHYRS_ZOOM_ROOM_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds110007>
+        
+        <omnitureLinkLearnMore110007>DIAMOND_ZEPHYRS_ZOOM_ROOM_OOPS_LEARN_MORE</omnitureLinkLearnMore110007>
+        
+        <omnitureLinkX110008>DIAMOND_POST_OFFICE_OOPS_X</omnitureLinkX110008>
+        
+        <omnitureLinkBuyDiamonds110008>DIAMOND_POST_OFFICE_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds110008>
+        
+        <omnitureLinkLearnMore110008>DIAMOND_POST_OFFICE_OOPS_LEARN_MORE</omnitureLinkLearnMore110008>
+        
+        <omnitureLinkX110009>DIAMOND_QUEENS_BOUTIQUE_OOPS_X</omnitureLinkX110009>
+        
+        <omnitureLinkBuyDiamonds110009>DIAMOND_QUEENS_BOUTIQUE_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds110009>
+        
+        <omnitureLinkLearnMore110009>DIAMOND_QUEENS_BOUTIQUE_OOPS_LEARN_MORE</omnitureLinkLearnMore110009>
+        
+        <omnitureLinkX110010>DIAMOND_HARMONYS_SWEETS_OOPS_X</omnitureLinkX110010>
+        
+        <omnitureLinkBuyDiamonds110010>DIAMOND_HARMONYS_SWEETS_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds110010>
+        
+        <omnitureLinkLearnMore110010>DIAMOND_HARMONYS_SWEETS_OOPS_LEARN_MORE</omnitureLinkLearnMore110010>
+        
+        <omnitureLinkX110011>DIAMOND_SPIKES_SWEETS_OOPS_X</omnitureLinkX110011>
+        
+        <omnitureLinkBuyDiamonds110011>DIAMOND_SPIKES_SWEETS_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds110011>
+        
+        <omnitureLinkLearnMore110011>DIAMOND_SPIKES_SWEETS_OOPS_LEARN_MORE</omnitureLinkLearnMore110011>
+        
+        <omnitureLinkX111000>DIAMOND_HARMONYS_HOME_OOPS_X</omnitureLinkX111000>
+        
+        <omnitureLinkBuyDiamonds111000>DIAMOND_HARMONYS_HOME_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds111000>
+        
+        <omnitureLinkLearnMore111000>DIAMOND_HARMONYS_HOME_OOPS_LEARN_MORE</omnitureLinkLearnMore111000>
+        
+        <omnitureLinkX111001>DIAMOND_TREETOP_HOUSEWARES_OOPS_X</omnitureLinkX111001>
+        
+        <omnitureLinkBuyDiamonds111001>DIAMOND_TREETOP_HOUSEWARES_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds111001>
+        
+        <omnitureLinkLearnMore111001>DIAMOND_TREETOP_HOUSEWARES_OOPS_LEARN_MORE</omnitureLinkLearnMore111001>
+        
+        <omnitureLinkX111002>DIAMOND_EMBERS_ESSENTIALS_OOPS_X</omnitureLinkX111002>
+        
+        <omnitureLinkBuyDiamonds111002>DIAMOND_EMBERS_ESSENTIALS_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds111002>
+        
+        <omnitureLinkLearnMore111002>DIAMOND_EMBERS_ESSENTIALS_OOPS_LEARN_MORE</omnitureLinkLearnMore111002>
+        
+        <omnitureLinkX112000>DIAMOND_DAISYS_DYES_OOPS_X</omnitureLinkX112000>
+        
+        <omnitureLinkBuyDiamonds112000>DIAMOND_DAISYS_DYES_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds112000>
+        
+        <omnitureLinkLearnMore112000>DIAMOND_DAISYS_DYES_OOPS_LEARN_MORE</omnitureLinkLearnMore112000>
+        
+        <omnitureLinkX112001>DIAMOND_PRISMS_PAINTS_OOPS_X</omnitureLinkX112001>
+        
+        <omnitureLinkBuyDiamonds112001>DIAMOND_PRISMS_PAINTS_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds112001>
+        
+        <omnitureLinkLearnMore112001>DIAMOND_PRISMS_PAINTS_OOPS_LEARN_MORE</omnitureLinkLearnMore112001>
+        
+        <omnitureLinkX112002>DIAMOND_COLETTES_COLORS_OOPS_X</omnitureLinkX112002>
+        
+        <omnitureLinkBuyDiamonds112002>DIAMOND_COLETTES_COLORS_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds112002>
+        
+        <omnitureLinkLearnMore112002>DIAMOND_COLETTES_COLORS_OOPS_LEARN_MORE</omnitureLinkLearnMore112002>
+        
+        <omnitureLinkX112003>DIAMOND_SUNNYS_SHADES_OOPS_X</omnitureLinkX112003>
+        
+        <omnitureLinkBuyDiamonds112003>DIAMOND_SUNNYS_SHADES_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds112003>
+        
+        <omnitureLinkLearnMore112003>DIAMOND_SUNNYS_SHADES_OOPS_LEARN_MORE</omnitureLinkLearnMore112003>
+        
+        <omnitureLinkX113000>DIAMOND_PHOEBES_PARTY_FAVORS_OOPS_X</omnitureLinkX113000>
+        
+        <omnitureLinkBuyDiamonds113000>DIAMOND_PHOEBES_PARTY_FAVORS_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds113000>
+        
+        <omnitureLinkLearnMore113000>DIAMOND_PHOEBES_PARTY_FAVORS_OOPS_LEARN_MORE</omnitureLinkLearnMore113000>
+        
+        <omnitureLinkX114000>DIAMOND_SCHELLYS_SHEARS_OOPS_X</omnitureLinkX114000>
+        
+        <omnitureLinkBuyDiamonds114000>DIAMOND_SCHELLYS_SHEARS_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds114000>
+        
+        <omnitureLinkLearnMore114000>DIAMOND_SCHELLYS_SHEARS_OOPS_LEARN_MORE</omnitureLinkLearnMore114000>
+        
+        <omnitureLinkX115000>DIAMOND_BECKS_ANIMAL_NURSERY_OOPS_X</omnitureLinkX115000>
+        
+        <omnitureLinkBuyDiamonds115000>DIAMOND_BECKS_ANIMAL_NURSERY_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds115000>
+        
+        <omnitureLinkLearnMore115000>DIAMOND_BECKS_ANIMAL_NURSERY_OOPS_LEARN_MORE</omnitureLinkLearnMore115000>
+        
+        <omnitureLinkX116000>DIAMOND_NEVILLES_NEW_HOMES_OOPS_X</omnitureLinkX116000>
+        
+        <omnitureLinkBuyDiamonds116000>DIAMOND_NEVILLES_NEW_HOMES_OOPS_BUY_DIAMONDS</omnitureLinkBuyDiamonds116000>
+        
+        <omnitureLinkLearnMore116000>DIAMOND_NEVILLES_NEW_HOMES_OOPS_LEARN_MORE</omnitureLinkLearnMore116000>
+        
+      </links>
+      
+    </tracking>
+    
+    <radiusForPreview>65</radiusForPreview>
+    
+    <previewScale_default>1.0</previewScale_default>
+    
+    <previewScale_home>1.0</previewScale_home>
+    
+    <previewScale_avatar>1.0</previewScale_avatar>
+    
+    <previewScale_ingredient>0.65</previewScale_ingredient>
+    
+    <previewScale_dye>1.0</previewScale_dye>
+    
+    <previewScale_cookie>0.65</previewScale_cookie>
+    
+    <queensBoutiquePoseDna>100/95/88/0/-8/20/-15/0/12/0/0/28/107/1:-1:-1/501:37:-1/1001:24:-1/1501:37:-1/2001:37:-1/2501:37:-1/3001:37:-1/3501:24:-1/4001:63:107/4501:107:-1/5001:73:73/5501:73:73/6001:112:-1</queensBoutiquePoseDna>
+    
+    <rarityZoomShifter>-5,0</rarityZoomShifter>
+    
+  </config>
+  
+</panel>

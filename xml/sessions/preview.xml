@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<session>
+	<params>
+		<type>standalone</type>
+		<initialContent>{panelSetData}/previewLogin.xml</initialContent>
+		<isPreviewPage>true</isPreviewPage>	
+		<menu visible="false">
+				<config nav="false" title="false" defaultbackbuttony="15" />
+		</menu>
+		<sectionicons>swf/panel_content/section_icons.swf</sectionicons>
+	</params>
+</session>

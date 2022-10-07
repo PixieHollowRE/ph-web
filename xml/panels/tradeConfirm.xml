@@ -1,0 +1,23 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tradeConfirm.swf</swf>
+		<swf type="code">{panelCode}/tradeConfirm.swf</swf>
+	</swfs>
+	<copy>
+		<title>Just Checking...</title>
+		<completetitle target="completePanel.header">Trade Complete!</completetitle>
+		<simplePlural>s</simplePlural>
+		<copy>Are you sure you would like to trade #GIVEAMOUNT# #GIVEITEM# for #GETAMAOUNT# #GETITEM#?</copy>
+		<completeCopy>You now have #TOTAL# #GETITEM#.</completeCopy>
+		<confirm target="confirmpanel.confirmbutton.caption">Yes</confirm>
+		<close target="confirmpanel.closebutton.caption">No</close>
+		<completeclose target="completePanel.closebutton.caption">OK</completeclose>
+		<simplePlural>s</simplePlural>
+
+		<diamondCompleteHeader>Diamond Trade Complete!</diamondCompleteHeader>
+		<diamondCompleteBalance>You now have #AMOUNT# Pixie Diamond#PLURAL#!</diamondCompleteBalance>
+		<diamondCompleteBuy>Buy Diamonds</diamondCompleteBuy>
+		<learnMore><![CDATA[<u>Learn More</u>]]></learnMore>
+	</copy>
+	<config></config>
+</panel>

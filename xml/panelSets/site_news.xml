@@ -1,0 +1,23 @@
+<panelSet>
+	<panels>
+		<panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{panelData}/bg_gradient.xml</panel>
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{panelData}/leftSideStatic.xml</panel>
+		<panel id="manager" x="70" y="-38" alwaysOnTop="true">{panelData}/site_news.xml</panel>
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>nevercouncilnews</trackingid>
+		<sectionid>community</sectionid>
+		<pageid>councilnews</pageid>
+	</config>
+	<copy>
+		<title>Pixie Hollow</title>
+		<subtitle>Game Preview</subtitle>
+		<arrowtext>Go Back</arrowtext>
+		<confirmtxt>Are you sure?</confirmtxt>
+		<oktxt>Yes</oktxt>
+		<canceltxt>No</canceltxt>
+	</copy>
+
+</panelSet>

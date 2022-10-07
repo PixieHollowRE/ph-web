@@ -1,0 +1,23 @@
+<panel>
+
+	<swfs>
+		<swf type="content">{panelContent}/PublicPartyBrowser.swf</swf>
+		<swf type="code">{panelCode}/PublicPartyBrowser.swf</swf>
+	</swfs>
+	<copy>
+		<title target="topicsMultChoice.title">Pick a public party from the list below</title>
+		<subtitle target="topicsMultChoice.panelName">Public Parties</subtitle>
+		<close target="cancelBtn.caption">Close</close>
+		<noParties target="noParties.label">There are no available parties right now.</noParties>
+		<crowded>Crowded</crowded>
+		<ideal>Ideal</ideal>
+		<quiet>Quiet</quiet>
+		<hour>hr</hour>
+		<hours>hrs</hours>
+		<minute>min</minute>
+		<minutes>mins</minutes>
+	</copy>
+	<config>
+		<refreshTimer>3</refreshTimer>
+	</config>
+</panel>

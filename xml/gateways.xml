@@ -1,0 +1,60 @@
+<gateways>
+	<rewardCopy>Reward Choices:</rewardCopy>
+	
+	<shopsClosedButtonCopy>OK</shopsClosedButtonCopy>
+	
+	<shopsClosedMessageCopy>We are adding some exciting new items to our inventory and will open again in just a few minutes.  Please come back soon to see what's in store!</shopsClosedMessageCopy>
+
+	<gateway id="50001" talent="light" hotboxOffset="-2,-100"> <!-- firefly lightup -->
+		<animation id="gateway_firefly_animation" gatewayid="9009" hotboxOffset="-100,0"/>
+		<animation id="gateway_firefly_animation" gatewayid="9257" hotboxOffset="-100,0"/>
+	</gateway>
+	<gateway id="50002" talent="water" hotboxOffset="36,-100"> <!-- bubble bounce -->
+		<animation id="gateway_bubble_bounce_animation" gatewayid="9010" hotboxOffset="400,130"/>
+		<animation id="gateway_bubble_bounce_animation" gatewayid="9261" hotboxOffset="400,130"/>
+	</gateway>
+	<gateway id="50007" talent="water" hotboxOffset="14,-100"> <!-- water web -->
+		<animation id="gateway_water_web_animation" gatewayid="9013" hotboxOffset="-710,-44"/>
+		<animation id="gateway_water_web_animation" gatewayid="9253" hotboxOffset="-710,-44"/>
+	</gateway>
+	<gateway id="50008" talent="animal" hotboxOffset="-3,-105"> <!-- harvest hustle -->
+		<animation id="gateway_harvest_hustle_animation" gatewayid="9015" hotboxOffset="-217,-180"/>
+	</gateway>
+	<gateway id="50009" talent="garden" hotboxOffset="114,137"> <!-- petal pickup -->
+		<animation id="gateway_petal_pickup_animation" gatewayid="9014" hotboxOffset="-320,-130"/>
+		<animation id="gateway_petal_pickup_animation" gatewayid="9251" hotboxOffset="-320,-130"/>
+	</gateway>
+	<gateway id="50010" talent="light" hotboxOffset="103,160"> <!-- fairy fireworks -->
+		<animation id="gateway_fairy_fireworks_animation" gatewayid="9024" hotboxOffset="-450,-70"/>
+	</gateway>
+	<gateway id="50011" talent="water" hotboxOffset="120,-82"> <!-- snowflake sweep -->
+		<animation id="gateway_snowflake_sweep_animation" gatewayid="9125" hotboxOffset="-532,-140"/>
+		<animation id="gateway_snowflake_sweep_animation" gatewayid="9233" hotboxOffset="-532,-140"/>
+	</gateway>
+	<gateway id="50014" talent="tinker" hotboxOffset="13,-85"> <!-- tinker toss -->
+		<animation id="gateway_tinker_toss_animation" gatewayid="9145" hotboxOffset="-130,-130"/>
+	</gateway>
+	<gateway id="50015" talent="animal" hotboxOffset="27,-100"> <!-- snowy lullaby -->
+		<animation id="gateway_snowy_lullaby_animation" gatewayid="9144" hotboxOffset="-240,-86"/>
+		<animation id="gateway_snowy_lullaby_crisis_animation" gatewayid="9234" hotboxOffset="-241,-63"/>
+	</gateway>
+	<gateway id="50043" talent="garden" hotboxOffset="66,-90"> <!-- seed sorter -->
+		<animation id="gateway_seed_sorter_animation" gatewayid="9187" hotboxOffset="-550,-30"/>
+		<animation id="gateway_seed_sorter_animation" gatewayid="9263" hotboxOffset="-550,-30"/>
+	</gateway>
+	<gateway id="50044" talent="animal" hotboxOffset="-175,20"> <!-- first flight -->
+		<animation id="gateway_first_flight_animation" gatewayid="9209" hotboxOffset="-725,-100"/>
+	</gateway>
+	<gateway id="50045" talent="tinker" hotboxOffset="17,-100"> <!-- butterfly painting -->
+		<animation id="gateway_butterfly_painter_animation" gatewayid="9216" hotboxOffset="-650,40"/>
+	</gateway>
+	<gateway id="50047" talent="garden" hotboxOffset="285,30"> <!-- pinecone pop -->
+		<animation id="gateway_pinecone_pop_animation" gatewayid="9246" hotboxOffset="320,227"/>
+	</gateway>
+	<gateway id="50048" talent="light" hotboxOffset="0,-80"> <!-- lightpipe -->
+		<animation id="gateway_light_pipe_animation" gatewayid="9272" hotboxOffset="-120,220"/>
+	</gateway>
+	<gateway id="50049" talent="light" hotboxOffset="200,30"> <!-- gem juggle -->
+		<animation id="gateway_gem_juggle_animation" gatewayid="9269" hotboxOffset="28,266"/>
+	</gateway>
+</gateways>

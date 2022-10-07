@@ -1,0 +1,57 @@
+<adventures>
+  
+  <adventure adventureID="511" wildernessId="1" exploration="1"/>
+  
+  <adventure adventureID="512" wildernessId="1" exploration="1"/>
+  
+  <adventure adventureID="513" wildernessId="1" exploration="1"/>
+  
+  <adventure adventureID="514" wildernessId="1"/>
+  
+  <adventure adventureID="515" wildernessId="1"/>
+  
+  <adventure adventureID="516" wildernessId="1"/>
+  
+  <adventure adventureID="517" wildernessId="1"/>
+  
+  <adventure adventureID="518" wildernessId="1"/>
+  
+  <adventure adventureID="519" wildernessId="1"/>
+  
+  <adventure adventureID="521" wildernessId="2" exploration="1"/>
+  
+  <adventure adventureID="522" wildernessId="2" exploration="1"/>
+  
+  <adventure adventureID="523" wildernessId="2" exploration="1"/>
+  
+  <adventure adventureID="524" wildernessId="2"/>
+  
+  <adventure adventureID="525" wildernessId="2"/>
+  
+  <adventure adventureID="526" wildernessId="2"/>
+  
+  <adventure adventureID="527" wildernessId="2"/>
+  
+  <adventure adventureID="528" wildernessId="2"/>
+  
+  <adventure adventureID="529" wildernessId="2"/>
+  
+  <adventure adventureID="530" wildernessId="2"/>
+  
+  <adventure adventureID="531" wildernessId="3" exploration="1"/>
+
+  <adventure adventureID="532" wildernessId="3" exploration="1"/>
+  
+  <adventure adventureID="533" wildernessId="3" exploration="1"/>
+  
+  <adventure adventureID="534" wildernessId="3"/>
+  
+  <adventure adventureID="535" wildernessId="3"/>
+  
+  <adventure adventureID="536" wildernessId="3"/>
+  
+  <adventure wildernessId="3" adventureID="598"/>
+  
+  <adventure wildernessId="3" adventureID="599"/>
+  
+</adventures>

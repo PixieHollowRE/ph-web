@@ -1,0 +1,154 @@
+<panel>
+	<swfs>
+	<!--
+		<swf type="content">{publishPanelContent}/membershiphub_content.swf</swf>
+		<swf type="code">{publishPanelCode}/membershiphub_content.swf</swf>
+	-->	
+		
+		
+		<swf type="content">{publishPanelContent}/parentscenter_content.swf</swf>
+		<swf type="code">{publishPanelCode}/parentscenter_content.swf</swf>
+		
+	</swfs>
+	<copy>
+		<pagetitle target="content.title">Parent's Center</pagetitle>
+		<!--tabs-->
+		<memberbtn target="content.tabs.tabs.readmorebtn.copyclip.copy">Read More</memberbtn>
+		
+		<tab1btn1title target="content.tabs.tabs.bg.tab1.readmorebtn.copyclip.copy">Read More</tab1btn1title>
+		<tab1title target="content.tabs.tabs.bg.tab1.tabt">About</tab1title>
+		<tab1body target="content.tabs.tabs.bg.tab1.b"><![CDATA[Pixie Hollow is a magical online world where children create their very own Fairy or Sparrow Man and take flight to play games and interact with friends as charming Fairy avatars.
+It's free to create a Fairy or Sparrow Man and fly into Pixie Hollow, to chat and make friends, and to play limited versions of most games. Access to additional games, activities, and customization features requires a Membership. ]]></tab1body>
+		
+		
+		<!--<tab2bodytitle target="content.tabs.tabs.bg.tab2.t">Safety Title</tab2bodytitle>-->
+		<tab2btn1title target="content.tabs.tabs.bg.tab2.readmorebtn.copyclip.copy">Learn More</tab2btn1title>
+		<tab2title target="content.tabs.tabs.bg.tab2.tabt">Safety</tab2title>
+		<tab2body target="content.tabs.tabs.bg.tab2.b"><![CDATA[As part of our commitment to creating a safe online environment, Pixie Hollow is free from third-party advertising and offers parental controls that allow parents to define a child's chat settings.
+Chat in Pixie Hollow is filtered and moderated by a staff of experienced moderators. To maintain a fun and Fairy-friendly environment, all Fairy players are encouraged to follow the Pixie Code of Conduct.]]></tab2body>
+		
+		
+		
+		<!--<tab3bodytitle target="content.tabs.tabs.bg.tab3.t">Chat Settings Title</tab3bodytitle>-->
+		<tab3btn1title target="content.tabs.tabs.bg.tab3.readmorebtn.copyclip.copy">Read More</tab3btn1title>
+		<tab3btn2title target="content.tabs.tabs.bg.tab3.sectionbtn.copyclip.copy">Account Manager</tab3btn2title>
+		<tab3title target="content.tabs.tabs.bg.tab3.tabt">Chat Settings</tab3title>
+		<tab3body target="content.tabs.tabs.bg.tab3.b"><![CDATA[Meeting and chatting with new Fairy friends is part of the fun in Pixie Hollow. Parents can set and monitor a Fairy's chat permissions using Pixie Hollow's chat controls.
+To access Parental Controls for your child's Pixie Hollow account and change their chat settings, you must create a Parent Account. You can do this by visiting the Account Manager page, where you will be asked to either log in to your existing account or to create a new account.]]></tab3body>
+		
+		
+		<!--<tab4bodytitle target="content.tabs.tabs.bg.tab4.t">Membership Title</tab4bodytitle>-->
+		<tab4btn1title target="content.tabs.tabs.bg.tab4.readmorebtn.copyclip.copy">Learn More</tab4btn1title>
+		<tab4btn2title target="content.tabs.tabs.bg.tab4.sectionbtn.copyclip.copy">Buy A Membership</tab4btn2title>
+		<tab4title target="content.tabs.tabs.bg.tab4.tabt">Membership</tab4title>
+		<tab4body target="content.tabs.tabs.bg.tab4.b"><![CDATA[Creating a Fairy or Sparrow Man and flying into Pixie Hollow, to chat and make friends, and to play limited versions of most games is free. Access to additional games, activities, Animal Friends, and customization features requires a Membership. 
+With the support of Membership, Pixie Hollow can continue to grow while maintaining our commitment to a safe advertising-free online experience monitored by an experienced team of moderators.]]></tab4body>
+		
+		
+		
+		<!--<tab5bodytitle target="content.tabs.tabs.bg.tab5.t">Help Title</tab5bodytitle>-->
+		<tab5btn1title target="content.tabs.tabs.bg.tab5.readmorebtn.copyclip.copy">Visit FAQs</tab5btn1title>
+		<tab5btn2title target="content.tabs.tabs.bg.tab5.sectionbtn.copyclip.copy">Contact Us</tab5btn2title>
+		<tab5title target="content.tabs.tabs.bg.tab5.tabt">Help</tab5title>
+		<tab5body target="content.tabs.tabs.bg.tab5.b"><![CDATA[For further information and answers to common questions, please review the FAQs in our Help section. 
+Visit our Contact Us page for assistance with specific topics including Membership, Account-related, and technical support questions.]]></tab5body>
+		
+		
+		<!--
+		<tab6title target="content.tabs.tabs.bg.tab6.tabt">Play</tab6title>
+		<tab6bodytitle target="content.tabs.tabs.bg.tab6.t">Care for an Animal Friend!</tab6bodytitle>
+		<tab6body target="content.tabs.tabs.bg.tab6.b">Fly by Beck's Animal Nursery to choose a baby animal to care for and nurture. With fireflies, ladybugs, hummingbirds, and dragonflies, there's a perfect baby animal for every Fairy! Earn beautiful badges by helping Animal Friends.</tab6body>
+		-->
+		
+		
+		<!--member titles-->
+		<bottomtitle1 target="content.bottombox.t1.title">Printables</bottomtitle1>
+		
+		
+		<printablesText><![CDATA[Make your child feel like a star with fun Pixie Hollow printables!  <a href="http://pixiehollow.go.com/past_downloads.html"><u>Click here</u></a> to print out Fairy recipes, greeting cards, decorations, and more!]]></printablesText>
+		
+		
+		<!--
+		<bottomtitle2 target="content.bottombox.t2.title">Activate              a Card</bottomtitle2>
+		<bottomtitle3 target="content.bottombox.t3.title">Gift Memberships</bottomtitle3>
+		-->
+		
+		
+		<!--leaves-->
+		<!--
+		<leaf1title target="content.bottombox.l1.t">Monthly*</leaf1title>
+		<leaf1dollars target="content.bottombox.l1.dollars">$5</leaf1dollars>
+		<leaf1cents target="content.bottombox.l1.cents">95</leaf1cents>
+		<leaf2title target="content.bottombox.l2.t">Semi-Annual*</leaf2title>
+		<leaf2dollars target="content.bottombox.l2.dollars">$29</leaf2dollars>
+		<leaf2cents target="content.bottombox.l2.cents">95</leaf2cents>
+		<leaf3title target="content.bottombox.l3.t">Annual*</leaf3title>
+		<leaf3dollars target="content.bottombox.l3.dollars">$57</leaf3dollars>
+		<leaf3cents target="content.bottombox.l3.cents">95</leaf3cents>
+		<legaltext target="content.bottombox.legaltext">*Pixie Hollow Memberships are automatically recurring.</legaltext>
+		-->
+		
+		
+		
+		<!--card
+		<cardtitle target="content.bottombox.card.t">Membership Card</cardtitle>
+		<cardbody target="content.bottombox.card.b"><![CDATA[<a href="event:gc"><u>Membership Cards</u></a> and <a href="event:mm"><u>Magical Membership Cards</u></a> can be redeemed for one month of Membership to PixieHollow.com.]]> 
+		</cardbody>
+		-->
+		
+		<printablesbtn target="content.bottombox.printables.copyclip">Learn More</printablesbtn>
+		
+		<!--gift
+		<gift1 target="content.bottombox.gift.b1.t">Redeem a Gift</gift1>
+		<gift2 target="content.bottombox.gift.b2.t">Buy a Gift</gift2>
+		-->
+		
+		
+		<!-- cancel Btn -->
+		<!--  CK - gone
+		<cancel target="content.bottombox.clink"><![CDATA[<font size="+2"> Want to cancel your Membership? </font><br> Please visit our <a href="event:cm"><u>Account Manager</u></a> and click on the Manage Membership tab.]]> </cancel>
+		-->
+		
+	</copy>
+	<config>
+		<captionyoffset>4</captionyoffset>
+		<!--css>css/clickables.css</css-->
+		<buygifturl><![CDATA[https://register.go.com/premium/gifts/purchase/pixiehollow]]></buygifturl>
+		<redeemgifturl><![CDATA[https://register.go.com/premium/gifts/redeem/pixiehollow?httpsRedirect=true]]></redeemgifturl>
+		<annualquery><![CDATA[forcePaymentChoice=PH1Y]]></annualquery>
+		<semiannualquery><![CDATA[forcePaymentChoice=PH6M]]></semiannualquery>
+		<monthlyquery><![CDATA[forcePaymentChoice=PH1M]]></monthlyquery>
+		<wantamembershipquery><![CDATA[changingID=false]]></wantamembershipquery>
+		<!--<defaultbuyquery><![CDATA[changingID=false]]></defaultbuyquery>-->
+		<defaultbuyquery></defaultbuyquery>
+		<gamecardquery><![CDATA[forcePaymentChoice=GameCard]]></gamecardquery>
+		<!--<promocodequery><![CDATA[changingID=false]]></promocodequery>-->
+		<cancellink>
+			<url>https://disney.go.com/fairies/pixiehollow/accountmanagement.html?beginCancelFlow=true</url>
+		</cancellink>
+		<learnmore>
+			<channel>membershiplearnmore.xml</channel>
+		</learnmore>
+		<memberfaq>
+			<channel>membershipfaqs.xml</channel>
+		</memberfaq>
+		
+		
+		<aboutReadMore>{publishPanelSetData}/aboutgame.xml</aboutReadMore>
+		<safetyReadMore>{publishPanelSetData}/parentalcontrols.xml</safetyReadMore>
+		<chatReadMore>{publishPanelSetData}/parentalcontrols.xml</chatReadMore>
+		<chatSectionBtn>http://disney.go.com/fairies/pixiehollow/accountmanagement.html</chatSectionBtn>
+		<membershipReadMore>{publishPanelSetData}/membershiphub.xml</membershipReadMore>
+		<membershipSectionBtn>{publishPanelSetData}/membershiphub.xml</membershipSectionBtn>
+		<helpReadMore>{publishPanelSetData}/faqblog.xml</helpReadMore>
+		<helpSectionBtn>{publishPanelSetData}/contactus.xml</helpSectionBtn>
+		
+		
+		<printablesBtn>{publishPanelSetData}/downloads_archive.xml</printablesBtn>
+		
+		
+		
+	</config>
+	
+</panel>
+

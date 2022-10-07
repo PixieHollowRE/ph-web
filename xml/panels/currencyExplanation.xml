@@ -1,0 +1,83 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/currencyExplanation.swf</swf>
+		<swf type="code">{panelCode}/currencyExplanation.swf</swf>
+	</swfs>
+	<copy>
+		<buyBtnLabel>Buy Diamonds</buyBtnLabel>
+		<learnMoreBtnLabel>Learn More</learnMoreBtnLabel>
+		<closeBtnLabel>Close</closeBtnLabel>
+		<diamondTitle>Pixie Diamonds</diamondTitle>
+		<ingredientTitle>Ingredients</ingredientTitle>
+		<upgradeTitle>Diamond Items</upgradeTitle>
+
+		<diamondRestrictions>No Membership Required</diamondRestrictions>
+		<ingredientsRestrictions>Membership Required</ingredientsRestrictions>
+
+		<diamondBulletBenefitsBigHeader>No Membership Required</diamondBulletBenefitsBigHeader>
+		<diamondBulletBenefitsIntro>With Pixie Diamonds you can:</diamondBulletBenefitsIntro>
+			<diamondBulletBenefitsPoint1>Get clothes and accessories!</diamondBulletBenefitsPoint1>
+			<diamondBulletBenefitsPoint2>Adopt an Animal Friend!</diamondBulletBenefitsPoint2>
+			<diamondBulletBenefitsPoint3>Get a larger Fairy Home!</diamondBulletBenefitsPoint3>
+			<diamondBulletBenefitsPoint4>Send gifts and postcards to friends!</diamondBulletBenefitsPoint4>
+		<diamondBulletBenefitsOutro>Keep certain items bought with&lt;br&gt;Pixie Diamonds FOREVER!*</diamondBulletBenefitsOutro>
+		<!-- <diamondBulletBenefitsOutro>ANYBODY can use Pixie Diamonds and ANYTHING you get with Pixie Diamonds is yours to keep FOREVER! Ready for a Fairy Shopping Spree? &lt;a href="event:buyGold"&gt;&lt;u&gt;CLICK HERE!&lt;/u&gt;&lt;/a&gt;</diamondBulletBenefitsOutro> -->
+
+
+		<!-- <ingredientsBenefits>Explore the meadows of Pixie Hollow to collect Ingredients like Daisy Petals, Snowflakes and Maple Leaves. Use Ingredients at any shop in Pixie Hollow to get new fashion for your Wardrobe, decorations for your Fairy Home and more!</ingredientsBenefits> -->
+
+		<ingredientsBulletBenefitsIntro>Explore the meadows of Pixie Hollow to collect Ingredients like Rose Petals, Maple Leaves or Snowflakes.&lt;br&gt;&lt;br&gt;With Ingredients Members can:</ingredientsBulletBenefitsIntro>
+			<ingredientsBulletBenefitsPoint1>Get clothes and accessories!</ingredientsBulletBenefitsPoint1>
+			<ingredientsBulletBenefitsPoint2>Adopt an Animal Friend!</ingredientsBulletBenefitsPoint2>
+			<ingredientsBulletBenefitsPoint3>Get a larger Fairy Home!</ingredientsBulletBenefitsPoint3>
+		<ingredientsBulletBenefitsOutro></ingredientsBulletBenefitsOutro>
+
+
+		<upgradeBulletBenefitsIntro>Upgrade any item to a Diamond Item to keep it forever, even if you're no longer a Member!&lt;br&gt;&lt;br&gt;You can Upgrade:</upgradeBulletBenefitsIntro>
+			<upgradeBulletBenefitsPoint1>Clothes and accessories</upgradeBulletBenefitsPoint1>
+			<upgradeBulletBenefitsPoint2>Animal Friends</upgradeBulletBenefitsPoint2>
+			<upgradeBulletBenefitsPoint3>Fairy Home decorations</upgradeBulletBenefitsPoint3>
+		<upgradeBulletBenefitsOutro></upgradeBulletBenefitsOutro>
+
+		<consumableIngBulletBenefitsIntro>With Ingredients Members can:</consumableIngBulletBenefitsIntro>
+			<consumableIngBulletBenefitsPoint1>Trade for Pixie Diamonds!</consumableIngBulletBenefitsPoint1>
+			<consumableIngBulletBenefitsPoint2>Dye clothes and accessories!</consumableIngBulletBenefitsPoint2>
+			<consumableIngBulletBenefitsPoint3>Change your hairstyle</consumableIngBulletBenefitsPoint3>
+		<consumableIngBulletBenefitsOutro>Each Party Decoration, Party Game and Dye Bottle can only be used once.</consumableIngBulletBenefitsOutro>
+
+		<consumableDiamondBulletBenefitsBigHeader>No Membership Required</consumableDiamondBulletBenefitsBigHeader>
+		<consumableDiamondBulletBenefitsIntro>With Pixie Diamonds any player can:</consumableDiamondBulletBenefitsIntro>
+			<consumableDiamondBulletBenefitsPoint1>Host a Party in your Fairy Home!</consumableDiamondBulletBenefitsPoint1>
+			<consumableDiamondBulletBenefitsPoint2>Play Party Games!</consumableDiamondBulletBenefitsPoint2>
+			<consumableDiamondBulletBenefitsPoint3>Dye clothes and accessories!</consumableDiamondBulletBenefitsPoint3>
+			<consumableDiamondBulletBenefitsPoint4>Change your hairstyle</consumableDiamondBulletBenefitsPoint4>
+		<consumableDiamondBulletBenefitsOutro>Each Party Decoration, Party Game and Dye Bottle can only be used once.</consumableDiamondBulletBenefitsOutro>
+
+		<learnMore>&lt;a href="event:learnMore"&gt;&lt;u&gt;Learn More&lt;/u&gt;&lt;/a&gt;</learnMore>
+
+		<disclaimer>*As long as account is in good standing and for the life of the product.</disclaimer>
+
+
+		<search1>Pixie Diamonds</search1>
+		<replace1>&lt;font color="#8CE8FF"&gt;Pixie Diamonds&lt;/font&gt;</replace1>
+	</copy>
+	<config>
+		<!-- <diamondShowLearnMore>true</diamondShowLearnMore> -->
+		<diamondShowDisclaimer>true</diamondShowDisclaimer>
+
+		<diamondBulletClip>PlainBulletListItem</diamondBulletClip>
+		<upgradeBulletClip>PlainBulletListItem</upgradeBulletClip>
+		<ingredientsBulletClip>PlainBulletListItem</ingredientsBulletClip>
+		<consumableIngBulletClip>PlainBulletListItem</consumableIngBulletClip>
+		<consumableDiamondBulletClip>PlainBulletListItem</consumableDiamondBulletClip>
+
+		<ingredientsShowWidget>true</ingredientsShowWidget>
+		<consumableIngShowWidget>true</consumableIngShowWidget>
+
+		<tracking>
+			<pages>
+				<omniturePage1>CEXPLANTION_PIXIE_WALLET</omniturePage1>
+			</pages>
+		</tracking>
+	</config>
+</panel>

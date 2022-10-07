@@ -1,0 +1,73 @@
+<level>
+	<introMessage>Aww, the lullabies sound so cute with long notes and double keys! I wonder if the critters would like a lullaby with both?</introMessage>
+	<tipImageFrame>multisustain</tipImageFrame>
+	
+	<bgTrack>piece1_bed</bgTrack>
+	<audioLibrary>piece1</audioLibrary>
+	<!-- <fgTrack>silence_60</fgTrack> -->
+	
+	<levelEndsAt>58000</levelEndsAt>
+	<viewableMS>4600</viewableMS>
+	<hitThreshold>360</hitThreshold>
+	
+	<famousAvatarInstrument>harp</famousAvatarInstrument>
+	<playerAvatarInstrument>harp</playerAvatarInstrument>
+	
+	<requiredNotes>44</requiredNotes>
+	
+	<!--animals-->
+	<animal bedType="Mouse1" type="Mouse" wakeStates="0-1, 2-7, 8-13, 14-130" position="mouse" />	
+	<animal bedType="Chipmunk" type="Chipmunk" wakeStates="0-3, 4-9, 10-21, 22-130" position="chipmunk" />
+	<animal bedType="Bunny" type="Rabbit" wakeStates="0-13, 14-25, 26-43, 44-130" position="bunny" />	
+	
+
+<!-- part 1-->	
+	<target note="g1" key="LEFT" secondaryKey="" position="6428.98715" length="-1" autoplay="false"/>
+	<target note="a1" key="UP" secondaryKey="RIGHT" position="8069.863946" length="-1" autoplay="false"/>
+	
+	<target note="g1" key="RIGHT" secondaryKey="" position="9664.300831" length="-1" autoplay="false"/>
+	<target note="a1" key="DOWN" secondaryKey="LEFT" position="11367.09751" length="-1" autoplay="false"/>
+	
+	<target note="a1" key="LEFT" secondaryKey="" position="13069.89418" length="-1" autoplay="false"/>
+	<target note="b1" key="UP" secondaryKey="" position="13751.01285" length="-1" autoplay="false"/>
+	<target note="c2" key="RIGHT" secondaryKey="" position="14602.41119" length="1000" autoplay="false"/>
+	
+	<target note="a1" key="RIGHT" secondaryKey="" position="16320.68783" length="-1" autoplay="false"/>
+	<target note="b1" key="DOWN" secondaryKey="" position="17079.20635" length="-1" autoplay="false"/>
+	<target note="c2" key="LEFT" secondaryKey="" position="17899.64475" length="1000" autoplay="false"/>
+	
+	<target note="d2" key="UP" secondaryKey="" position="19633.40136" length="-1" autoplay="false"/>
+	<target note="g1" key="LEFT" secondaryKey="" position="20360.95994" length="-1" autoplay="false"/>
+	<target note="b1" key="DOWN" secondaryKey="" position="21181.39834" length="1000" autoplay="false"/>
+	
+	<target note="a1" key="DOWN" secondaryKey="" position="22853.23507" length="-1" autoplay="false"/>
+	<target note="d1" key="RIGHT" secondaryKey="" position="23673.67347" length="-1" autoplay="false"/>
+	<target note="g1" key="UP" secondaryKey="" position="24509.59184" length="1000" autoplay="false"/>
+	
+	
+<!-- part 2-->	
+	<target note="b1" key="UP" secondaryKey="" position="32800.13605" length="-1" autoplay="false"/>
+	<target note="g1" key="DOWN" secondaryKey="" position="33481.25472" length="-1" autoplay="false"/>
+	<target note="a1" key="LEFT" secondaryKey="RIGHT" position="34317.17309" length="-1" autoplay="false"/>
+	
+	<target note="a1" key="RIGHT" secondaryKey="" position="35942.56991" length="-1" autoplay="false"/>
+	<target note="b1" key="LEFT" secondaryKey="" position="36778.48828" length="-1" autoplay="false"/>
+	<target note="c2" key="UP" secondaryKey="DOWN" position="37645.36659" length="-1" autoplay="false"/>
+
+	<target note="e2" key="UP" secondaryKey="" position="39317.20332" length="-1" autoplay="false"/>
+	<target note="d2" key="LEFT" secondaryKey="" position="40989.04006" length="800" autoplay="false"/>
+	
+	<target note="c2" key="RIGHT" secondaryKey="" position="42567.99697" length="-1" autoplay="false"/>
+	<target note="d1" key="DOWN" secondaryKey="" position="44208.87377" length="800" autoplay="false"/>
+	
+	<target note="g1" key="DOWN" secondaryKey="" position="45880.7105" length="-1" autoplay="false"/>
+	<target note="a1" key="UP" secondaryKey="" position="46623.74905" length="-1" autoplay="false"/>
+	<target note="b1" key="LEFT" secondaryKey="RIGHT" position="47490.62736" length="1000" autoplay="false"/>
+	
+	<target note="b1" key="UP" secondaryKey="" position="49131.50415" length="-1" autoplay="false"/>
+	<target note="d2" key="DOWN" secondaryKey="" position="49920.98261" length="-1" autoplay="false"/>
+	<target note="g1" key="LEFT" secondaryKey="RIGHT" position="50787.86092" length="1000" autoplay="false"/>
+
+
+
+</level>

@@ -1,0 +1,42 @@
+<zone>
+  <name>Lizzy's Home</name>
+  <zoneID>504</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow504</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="900" height="550">
+        <image x="0" y="0" type="none">far2_02.swf</image>
+      </layer>
+      <layer type="ground" width="933" height="610">
+        <image x="0" y="0" type="merge">Lizzys_action_03.swf</image>
+      </layer>
+      <layer type="normal" width="1223" height="800" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy">foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="352" y="351">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>LizzysHouse</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

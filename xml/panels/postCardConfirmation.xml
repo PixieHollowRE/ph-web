@@ -1,0 +1,21 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/postCardConfirmation.swf</swf>
+		<swf type="code">{panelCode}/postCardConfirmation.swf</swf>
+	</swfs>
+	<copy>
+		<cancelButton target="cancelButton.caption">Cancel</cancelButton>
+		<confirmButton target="confirmButton.caption">OK</confirmButton>
+		<okayButton>OK</okayButton>
+		<error>Error</error>
+		<errorMessage>Oops! You don't have enough #TYPE# to get this! You need #AMOUNT# more #TYPE# to get this item.</errorMessage>
+		<titleText>Ready to send?</titleText>
+		<fromText>From,</fromText>
+		<whatsThisText>What's This?</whatsThisText>
+		<confirmText>Are you sure you want to send this card to:</confirmText>
+		<costText>Price:</costText>
+	</copy>
+	<config>
+
+	</config>
+</panel>

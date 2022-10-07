@@ -1,0 +1,2652 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/pachinko.swf</swf>
+		<swf type="code">{panelCode}/pachinko.swf</swf>
+	</swfs>
+	<copy>
+		<!-- hud -->
+		<title>Pinecone Pop</title>
+		<level>Level</level>
+		<tutorial>How To Play</tutorial>
+		<left_scorecard_title>Test</left_scorecard_title>
+		<right_scorecard_title>Score:</right_scorecard_title>		
+		<right_accent_title>Flower Bulbs</right_accent_title>		
+		<level_tip_title>Did You Know?</level_tip_title>
+		<level_objectif_title>Get Ready!</level_objectif_title>
+		<hostname>Rosetta</hostname>
+		<hostFrameReset>120</hostFrameReset>
+		
+		<hudTitleWelcome>Pinecone Pop</hudTitleWelcome>
+		<hudSubTitleWelcome>Get Ready</hudSubTitleWelcome>
+		
+		<!-- Score -->
+		<interLevelTitle>Complete!</interLevelTitle>
+		<interLevelPerfect>Great Pinecone Popping!</interLevelPerfect>
+		<perfect_level>PERFECT! You win 2000 points!</perfect_level>
+		<bonusPinecones>Pinecones Bonus :</bonusPinecones>
+		<perfect>Perfect bonus :</perfect>
+		<yourScore>Your Score :</yourScore>
+		<lastScore>Your Last Score :</lastScore>
+		<totalScore>Total Score :</totalScore>
+		
+		<!-- Out of Pinecones-->
+		<retryMessage>Aw, sugar, you ran out of Pinecones! But you still have some chances left. How about you try this level again?</retryMessage>
+		<retryTxt>Out of Pinecones</retryTxt>
+		
+		<!-- UI: TITLE SCREEN -->
+		<title_screen target="title.title_container.title_text">Seed Sorting</title_screen>
+		<title_play target="title.btnContainer.play_text">Play!</title_play>
+		<title_help target="title.btnContainer.help_text">How To Play</title_help>		
+		<title_quit target="title.btnContainer.quit_text">Quit</title_quit>
+		
+		<!-- UI: TUTORIAL -->
+		<tutorial_next>NEXT</tutorial_next>
+		<tutorial_skip>Skip This</tutorial_skip>
+		<tutorial_quit>Continue</tutorial_quit>
+		<tutorial_replay>How To Play</tutorial_replay>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		<tutorial_finalscore_label>Now let's crack that ice and free those flower bulbs!</tutorial_finalscore_label>
+				
+		<tutorial_title_goal>Goal</tutorial_title_goal>
+		<win_tutorial_secondText>Complete!</win_tutorial_secondText>	
+		
+		<interactive_01>Interactive One</interactive_01>	
+		<interactive_02>Interactive Two</interactive_02>	
+		
+		<interactive_bubble>Now you try it!</interactive_bubble>
+		<interactive_bubble_show>Let me show you!</interactive_bubble_show>
+		<interactive_bubble_emptyBulb>Aim for the PINK ice, sugar.</interactive_bubble_emptyBulb>
+		<interactive_bubble_wait>Aim at the PINK ice, and THROW a pinecone to crack it!</interactive_bubble_wait>
+		<interactive_bubble_end>Great job, sugar!</interactive_bubble_end>
+		<interactive_bubble_gameOver>Try again, sugar! Aim for the PINK ice.</interactive_bubble_gameOver>
+		
+		<tutorial_txt_01>Welcome to Snowcap Glade, sugar! We need to free the flower bulbs trapped in the ice so we can take them to the mainland for spring!</tutorial_txt_01>
+		<tutorial_txt_02>Toss a pinecone at the pink ice to crack it and free the flower bulbs inside.</tutorial_txt_02>
+		<tutorial_txt_03>Easy, see? And don't fret if you hit the blue ice -- there aren't any flower bulbs inside those.</tutorial_txt_03>
+		<tutorial_txt_03b>Always try to aim at the PINK ice, got it?</tutorial_txt_03b>
+		<tutorial_txt_04>Flaptastic pinecone tossing! Try to hit all the ice you can with each toss. You don't have a lot of pinecones, so you might run out if you're not careful!</tutorial_txt_04>
+		<tutorial_txt_05>This thingy here tells you how many pinecones you have left. Always check here before you throw.</tutorial_txt_05>
+		<tutorial_txt_06>Sometimes if you're lucky, your pinecone will land in this basket here at the bottom. When that happens you get a FREE PINECONE. Like this, watch!</tutorial_txt_06>
+		<tutorial_txt_07>Now you try again. Hit all the PINK ice!</tutorial_txt_07>		
+		<tutorial_txt_08>Good job, sugar! You can see your score over here.</tutorial_txt_08>
+		<tutorial_txt_10>This tells you how many flower bulbs you still have to get free.</tutorial_txt_10>
+		<tutorial_txt_11>That's all there is to it! Remember, I'll be here with you the whole time, okay?</tutorial_txt_11>
+		
+		<!-- UI: WELCOME -->
+		<welcome_title>Welcome!</welcome_title>
+		<welcome_text>Hi there Fairy Friend! Welcome to Sunflower Meadow! I'm sorting seeds to plant in the spring. I get a little mixed up sometimes. Can you help me pick up pairs of seeds? </welcome_text>		
+		<welcome_play>Continue</welcome_play>
+		
+		<!-- Story -->		
+		<easy_story>Ready to free some flower bulbs for spring? Then start tossing those pinecones!</easy_story>
+		<medium_story>You'll need to aim carefully, sugar. Get ready!</medium_story>
+		<hard_story>These flower bulbs will be a little tricky to get. Good luck!</hard_story>
+		<royal_story>It will take some fancy pinecone tossing to get these flower bulbs free. I know you can do it!</royal_story>
+		
+		<easy_exitstory>You're pretty nifty with those pinecones, sugar. Thanks tons for the flaptastic job!</easy_exitstory>
+		<medium_exitstory>You've been such a help, sugar. I really appreciate it!</medium_exitstory>
+		<hard_exitstory>Look at that! You got tons of flower bulbs for spring! Plant-astic job, sugar!</hard_exitstory>
+		<royal_exitstory>I am so impressed! I think you're the best pinecone pitcher I've ever seen!</royal_exitstory>
+		
+		<allmedium_story>You freed a lot of flower bulbs from the ice, but we still need more. Keep going!</allmedium_story>
+		<allhard_story>The next batch of flower bulbs are caught in some pretty thick ice. Aim carefully now!</allhard_story>
+		<allroyal_story>We almost have enough flower bulbs for spring. Let's see if we can get the rest!</allroyal_story>
+		
+		
+		<!-- LEVEL TIPS -->
+		<level_tip_1>Remember to aim for PINK ice, got it? Only pink ice has flower bulbs inside.</level_tip_1>		
+		<level_tip_2>Only hit blue ice when you need to get it out of the way. Rocks don't disappear, so toss around them. </level_tip_2>		
+		<level_tip_3>If your pinecone lands in the basket, you get an extra pinecone.</level_tip_3>
+		<level_tip_5>Hit the red ice to earn 3 Hot Shots! That means the next 3 pinecones will melt right through any ice in their path!</level_tip_5>
+		<level_tip_7>Hit the green ice, and your pinecone will split into 3 pinecones! It's a triple-pinecone bonus!</level_tip_7>
+		<level_tip_10>Hit the yellow ice to earn Leaf Extensions for your basket. They'll let you catch more pinecones and flower bulbs!</level_tip_10>				
+		<level_tip_12>Toss your pinecone into a Speed Chute to give it a boost. It will move faster and hit more ice drops!</level_tip_12>			
+		<level_tip_15>Hit the purple ice to make Bumpers appear. They can bounce your pinecone back up for more pinecone popping!</level_tip_15>
+		<level_tip_20>If you hit the orange ice, you'll get an extra pinecone!</level_tip_20>		
+		<level_tip_generic>Get ready for level {level}!</level_tip_generic>
+		
+		<!-- UI: GAME OVER -->
+		<!-- titles -->
+		<game_over_win>You Win!</game_over_win>
+		<game_over_lose>Good Game!</game_over_lose>
+		<!-- buttons -->
+		<game_over_continue>Continue</game_over_continue>	
+		
+		<!-- comments (win) -->
+		<game_over_win_0>You did it, sugar! Congratulations!</game_over_win_0>
+		<game_over_win_1>You got all the flower bulbs for spring! Oh, sugar, you've made me a very happy garden-talent!</game_over_win_1>
+		<game_over_win_2>You've done a flaptastic job, sugar! I give you a double-wing salute!</game_over_win_2>
+		<game_over_win_3>Congratulations, sugar! Spring will be filled with flowers thanks to you!</game_over_win_3>
+		<game_over_win_4>Wow, you're way better at this than I am! Spring will be brighter thanks to you!</game_over_win_4>
+		<!-- comments (lose) -->
+		<game_over_lose_0>Well, you gave it your best, right? You can always try again!</game_over_lose_0>
+		<game_over_lose_1>Oh well! I'm proud of you, sugar. You're welcome to try again any time!</game_over_lose_1>
+		
+		<instruction0>Use your mouse to aim at the ice pegs, and then click the left mouse button to toss a pinecone. Try to break as much ice as you can on each throw! </instruction0>
+		<instruction1>You need to crack all the pink ice to clear a level! </instruction1>
+		<instruction2>If your pinecone lands in the basket at the bottom, you get an extra pinecone to toss again!</instruction2>
+		<instruction3>Power-ups make cracking ice easier! Aim for the different colored ice to get a power-up! </instruction3>
+		<instruction4>Use the chutes to propel your pinecone across the level, and into hard to reach places! </instruction4>
+		
+		
+		<!-- HOST LEVEL -->
+		<host_level_1_0>Let's get started!</host_level_1_0>
+		<host_level_1_1>Start off slow, get a feel for it.</host_level_1_1>		
+		<host_level_1_2>It's easy, just aim and toss!</host_level_1_2>		
+		
+		<host_level_2_0>Here's the next batch of bulbs, sugar.</host_level_2_0>
+		<host_level_2_1>So far, so good. Keep throwing! </host_level_2_1>	
+		
+		<host_level_3_0>You're starting to loosen up. Good!</host_level_3_0>
+		<host_level_3_1>Remember, aim for the pink ones!</host_level_3_1>		
+		
+		<host_level_4_0>Let's bust some ice, sugarplum!</host_level_4_0>							
+		<host_level_4_1>Those poor flower bulbs, all frozen like that!</host_level_4_1>		
+		
+		<host_level_5_0>Ready, steady, let it fly!</host_level_5_0>
+		<host_level_5_1>I'm so proud of you!</host_level_5_1>	
+		
+		<host_level_6_0>Free the flower buds for spring!</host_level_6_0>
+		<host_level_6_1>That's it, don't stop flapping yet!</host_level_6_1>			
+		
+		<host_level_7_0>Have you ever seen so much snow?</host_level_7_0>
+		<host_level_7_1>I've never met a flower bulb I didn't like!</host_level_7_1>		
+		
+		<host_level_8_0>Hee hee, I love this job!</host_level_8_0>	
+		<host_level_8_1>You're Queen of the Flower Bulbs, sugar!</host_level_8_1>	
+		
+		<host_level_9_0>Oh, you're doing so well!</host_level_9_0>
+		<host_level_9_1>Remember, keep track of your pinecones!</host_level_9_1>	
+		
+		<host_level_10_0>Flap those wings and throw those pinecones!</host_level_10_0>				
+		<host_level_10_1>I'm so glad you're helping me, sugar!</host_level_10_1>		
+		
+		<host_level_11_0>We'll have this done in no time!</host_level_11_0>		
+		<host_level_11_1>Ready for more?</host_level_11_1>			
+		
+		<host_level_12_0>My, it's cold. Don't let your fingers turn blue!</host_level_12_0>
+		<host_level_12_1>Those are special Throwing Pinecones, you know.</host_level_12_1>		
+		
+		<host_level_13_0>Aim and throw, aim and throw!</host_level_13_0>
+		<host_level_13_1>Oh dear, my fingers are getting cold.</host_level_13_1>	
+		
+		<host_level_14_0>Don't let the flower bulbs down, ya hear?</host_level_14_0>
+		<host_level_14_1>What a challenge! But I know you can do it!</host_level_14_1>		
+		
+		<host_level_15_0>This is what I call FUN work!</host_level_15_0>
+		<host_level_15_1>Let's save the flower bulbs!</host_level_15_1>			
+		
+		<host_level_16_0>You're gonna make the Minister of Spring so happy!</host_level_16_0>
+		<host_level_16_1>I like your style, sugar!</host_level_16_1>
+		
+		<host_level_17_0>Oh, this is so exciting!</host_level_17_0>	
+		<host_level_17_1>My, there are more flower bulbs here than I thought!</host_level_17_1>	
+		
+		<host_level_18_0>You're doing a flaptastic job!</host_level_18_0>
+		<host_level_18_1>You really know how to aim, sweet beet!</host_level_18_1>	
+				
+		<host_level_19_0>This is quite a challenge, isn't it?</host_level_19_0>
+		<host_level_19_1>I can't wait to plant all these flower bulbs!</host_level_19_1>	
+		
+		<host_level_20_0>Keep your wings flapping, you hear?</host_level_20_0>
+		<host_level_20_1>I'm rooting for you!</host_level_20_1>		
+		
+		<host_level_21_0>Spring will be full of flowers thanks to you!</host_level_21_0>
+		<host_level_21_1>Brrr! When we're done, I want some hot tea!</host_level_21_1>		
+		
+		<host_level_22_0>You're absolutely amazing, sugar!</host_level_22_0>
+		<host_level_22_1>I'm gonna be seeing bouncing pinecones in my sleep!</host_level_22_1>		
+		
+		<host_level_23_0>Bless my wings, there's so much ice!</host_level_23_0>			
+		<host_level_24_0>Don't wilt on me now, sugar!</host_level_24_0>		
+		<host_level_25_0>You're in the zone, sugar! Let's go!</host_level_25_0>			
+		<host_level_26_0>I'm gonna tell everybody how clever you are!</host_level_26_0>			
+		<host_level_27_0>This takes skill sugar -- and you've got it!</host_level_27_0>			
+		<host_level_28_0>Yes, you're almost there! Go, sugar, go!</host_level_28_0>	
+		<host_level_29_0>Don't wilt on me now, sugar!</host_level_29_0>		
+		<host_level_30_0>Don't wilt on me now, sugar!</host_level_30_0>		
+		
+		
+		<goal_1>Got your aim ready? Then start tossing!</goal_1>
+		<goal_2>Good start! Now the next level!</goal_2>
+		<goal_3>Let's get cracking! Cracking ICE, that is!</goal_3>
+		<goal_4>Here comes the next round!</goal_4>
+		<goal_5>Toss those pinecones!</goal_5>
+		<goal_6>Here we go, new level. Aim and toss!</goal_6>
+		<goal_7>Ready for more? Let's do it!</goal_7>
+		<goal_8>Ready? Set? Throw!</goal_8>
+		<goal_9>That's the way to do it! Moving on!</goal_9>
+		<goal_10>Let's show that ice who's boss!</goal_10>
+		<goal_11>More ice coming right up!</goal_11>
+		<goal_12>Let's free more flower bulbs from the ice, sugar!</goal_12>
+		<goal_13>Ready for more? Here they come!</goal_13>
+		<goal_14>Get ready to crack more ice!</goal_14>
+		<goal_15>Just aim straight and keep your wings steady!</goal_15>
+		<goal_16>This is so much fun! Let's do more!</goal_16>
+		<goal_17>Remember, aim for the pink ice!</goal_17>
+		<goal_18>Tired? Didn't think so. Let's go!</goal_18>
+		<goal_19>You're on a roll, sugar! Here are more pinecones!</goal_19>
+		<goal_20>Here comes another round!</goal_20>
+		<goal_21>We're not done yet, sugar. Come on!</goal_21>
+		<goal_22>You're doing good! More, more!</goal_22>
+		<goal_23>Don't keep the flower bulbs waiting. Get to it!</goal_23>
+		<goal_24>Hoo, this isn't easy, is it? Let's try harder!</goal_24>
+		<goal_25>Another round, another pinecone!</goal_25>
+		<goal_26>You're amazing! You can't stop now!</goal_26>
+		<goal_27>We're so close to getting them all! Keep going!</goal_27>
+		<goal_28>Great job, sugar! We're going to have lots of flowers for spring!</goal_28>
+		<goal_29>Keep it up! You've almost got all the flower bulbs!</goal_29>
+		<goal_30>This is the last bunch of bulbs! Go get them, sugar!</goal_30>
+		
+		<hit_flower_0>Bull's-eye!</hit_flower_0>
+		<hit_flower_1>Plant-astic shot, sugar!</hit_flower_1>
+		<hit_flower_2>Got it!</hit_flower_2>
+		<hit_flower_3>That's one happy little flower bulb!</hit_flower_3>
+		<hit_flower_4>You got one! Flaptastic!</hit_flower_4>
+		<hit_flower_5>Nice shot!</hit_flower_5>
+		<hit_flower_6>Good aiming, sugar!</hit_flower_6>
+		
+		<long_shoot_0>Wow, look at that!</long_shoot_0>
+		<long_shoot_1>You don't do things halfway, do ya?</long_shoot_1>
+		<long_shoot_2>Yyyyyyyes!</long_shoot_2>
+		
+		<no_touch_flowers_0>Don't worry, sugar. Try again!</no_touch_flowers_0>
+		<no_touch_flowers_1>The PINK! Hit the PINK ones!</no_touch_flowers_1>
+		<no_touch_flowers_2>Well, better than nothing, I guess.</no_touch_flowers_2>
+		
+		<no_touch_peg_0>Yikes, sugar.</no_touch_peg_0>
+		<no_touch_peg_1>Well, easy come easy go. </no_touch_peg_1>
+		
+		<split_0>Yay, pinecone power times 3!</split_0>
+		<split_1>That's the way to do it, sugar!</split_1>
+		<split_2>Good for you!</split_2>
+		
+		<hit_bumper_0>Bumpers!!!</hit_bumper_0>
+		<hit_bumper_1>Look, you got bumpers!</hit_bumper_1>
+		<hit_bumper_2>Oh, these will help loads!</hit_bumper_2>
+		
+		<hotShot_0>Ooo, you're hot now!</hotShot_0>
+		<hotShot_1>Burn through that ice, sugar!</hotShot_1>
+		<hotShot_2>Three "hot" tosses, woohoo!</hotShot_2>
+		
+		<extra_0>Another pinecone! Way to go!</extra_0>
+		<extra_1>Good, we can use that!</extra_1>
+		<extra_2>Well look at that, a free pinecone!</extra_2>
+		
+		<bulb_into_basket_0>Nice catch!</bulb_into_basket_0>
+		<bulb_into_basket_1>You got extra points for that!</bulb_into_basket_1>
+		<bulb_into_basket_2>Rack up those points, sugar!</bulb_into_basket_2>
+		
+		<five_bulbs_in_turn_0>Now that's what I'm talking about!</five_bulbs_in_turn_0>
+		<five_bulbs_in_turn_1>Impressive, sweet beet!</five_bulbs_in_turn_1>
+		<five_bulbs_in_turn_2>What flaptastic aim you have!</five_bulbs_in_turn_2>
+		
+		<second_last_bulb_0>Just one left to go!</second_last_bulb_0>
+		<second_last_bulb_1>Only one more left!</second_last_bulb_1>
+		<second_last_bulb_2>You've almost got them all!</second_last_bulb_2>
+		
+		<three_pinecones_gauge_0>Your pinecones are getting low. Careful!</three_pinecones_gauge_0>
+		<three_pinecones_gauge_1>Keep an eye on how many pinecones you have left!</three_pinecones_gauge_1>
+		<three_pinecones_gauge_2>Don't run out of pinecones, sugar!</three_pinecones_gauge_2>
+		
+		<last_pinecone_0>Your last pinecone! Aim carefully!</last_pinecone_0>
+		<last_pinecone_1>The last pinecone! Make it a good shot!</last_pinecone_1>
+		<last_pinecone_2>Make this last shot your best one yet!</last_pinecone_2>
+		
+	</copy>
+	<config>
+		<sounds>
+			<sound name="levelStart" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="loseSting" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="winSting" sonoreSoundLevel="0.7" loop="false"  />
+			
+			<sound name="Pachinko" sonoreSoundLevel="0.4" loop="true"  />
+			<sound name="bulb_into_basket" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="bulb_pop" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="bulb_hit_peg" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="crack_flower" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="crack_blue" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="split" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="hotshot_loop" sonoreSoundLevel="0.4" loop="true"  />
+			<sound name="extra" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="hit_leaf" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="hit_bumper" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="hit_snow_banks" sonoreSoundLevel="0.4" loop="false"  />
+			<sound name="hit_side_bucket" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="rock" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="pinecone_into_basket" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="bumper" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="hotshot" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="leaf" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="toss" sonoreSoundLevel="0.7" loop="false"  />
+			
+			<sound name="combo1" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo2" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo3" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo4" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo5" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo6" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo7" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo8" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo9" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo10" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo11" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo12" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo13" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo14" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo15" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo16" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo17" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo18" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo19" sonoreSoundLevel="0.7" loop="false"  />
+			<sound name="combo20" sonoreSoundLevel="0.7" loop="false"  />
+		</sounds>
+	
+		<difficultyChoices layout="5small">		
+            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"/>			
+			<difficultyChoice descriptor="royal" displayName="Royal" paidOnly="false"/>			
+			<difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"/>	
+		</difficultyChoices>
+		
+		<supportsTutorial>true</supportsTutorial>
+		
+		<!-- required palette param -->		
+		<colorPalette>5</colorPalette>	
+		
+		<!-- sound params -->
+		<music_volume>0.6</music_volume>
+		
+		<debug value="0" />
+	
+		<launchVelocity value="500"/>
+		<launchBulbVelocity value="100"/>
+		<launchSplitVelocity value="300"/>
+		
+		<fairy x="440" y="50" />
+		
+		<meter x="830" y="130"/>
+		<gauge x="785" y="160" clip="zone_pinecones"/>
+		<pinecone size="16" clip="pinecone"/>
+		<pineconeFire size="16" clip="pinecone_hotshot"/>
+		<net clip="net"/>
+		<first_plan clip="first_plan"/>
+		
+		<colorLine normal="0x0033FF" hotshot="0x990000" bumpers="0x660066"/>
+		
+		<baskets density="0.0" friction="1" restitution="0.6" />
+		<ball density="1.5" friction="1" restitution="0.0" />
+		<bulb density="1.5" friction="1" restitution="0.0" />
+		<branches density="0.0" friction="1" restitution="0.1" />
+		<pegrock density="0.0" friction="1" restitution="0.6" />
+		<pegs density="0.0" friction="1" restitution="0.6" />
+		<bumpers density="0.0" friction="1" restitution="1.3"/>
+		<bonusBasket density="1.0" friction="1" restitution="0.6"/>
+		
+		<walls density="0.0" friction="0.2" restitution="0.6" >
+		     <wall x="53"  y="230"   clip="wall1"/>
+		     <wall x="824" y="230"   clip="wall2"/>
+		     <wall x="120.3"  y="340" clip="wall3"/>
+		     <wall x="760" y="340" clip="wall4"/>
+		     <wall x="200" y="60"   clip="wall5"/>
+		     <wall x="600" y="45"   clip="wall6"/>
+		     <wall x="223.5" y="413" clip="wall7"/>
+		     <wall x="490" y="430.5" clip="wall8"/>
+		     <wall x="628" y="386" clip="wall9"/>
+		</walls>
+		
+		<pegs>
+			<pegWater point="10" message=""/>
+			<pegFlower point="20" message=""/>
+			<pegHotShot point="30" message="3 Hotshot Throws"/>
+			<pegSplit point="30" message="3 Pinecones"/>
+			<pegExtra point="50" message="Extra Pinecone"/>
+			<pegBumpers point="10" message="Bumpers"/>
+			<pegLeaf point="10" message="Leaf Extension"/>
+		</pegs>	
+		
+		<messages>
+			<lastShot message="Last Shot!"/>
+			<hotShot message="HOTSHOT THROW!"/>
+			<bonusLongShot message="Bonus Long Shot +500" point="500"/>
+			<bonusExtraPinecone message="Extra Pinecone"/>
+		</messages>	
+		
+		<tutorial>
+				<level num="1" bulbs="2" balls="99999">
+					  <pegs>	
+						<peg x="440.1" y="290.85" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="407.6" y="329.6" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="514.2" y="289.9" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="473.9" y="250.1" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="365.1" y="289.9" type="water" clip="peg_water" rotation="0" form="circle"/>		     
+				      </pegs>				    
+		  		</level>
+				<level num="2" bulbs="3" balls="10">
+					  <pegs>	
+					  	<peg x="473.35" y="329.6" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="407.1" y="250.1" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="440.1" y="290.85" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="407.6" y="329.6" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="514.2" y="289.9" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="473.9" y="250.1" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="365.1" y="289.9" type="water" clip="peg_water" rotation="0" form="circle"/>		     
+				      </pegs>	
+					 <baskets>
+					     <basket clip="basket2" left="310" right="565" point="50" y="425" speed="2"/>
+					 </baskets>
+		  		</level>
+		</tutorial>
+			
+		
+		<levels>
+		 <level num="1" bulbs="7" balls="10">
+					  <pegs>			     
+						<peg x="432" y="265" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="469" y="256" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="395" y="256" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="498" y="230" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="368" y="232" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="513" y="202" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="352" y="202" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				    </pegs>
+						
+						<gameZones>
+							<gameZone clip="Left_snow_edge1" x="182.3" y="49"/>
+							<gameZone clip="Right_snow_edge1" x="663" y="50"/>
+						</gameZones>
+		  	</level>
+		  	 <level num="2" bulbs="6" balls="10">
+					  <pegs>			     
+						<peg x="624.65" y="133" type="rock4" clip="peg_rock4" rotation="0" form="circle"/>
+						<peg x="247" y="132.65" type="rock2" clip="peg_rock2" rotation="0" form="circle"/>
+						<peg x="623.55" y="222.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+						<peg x="252" y="216" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+						<peg x="298.65" y="191" type="rock4" clip="peg_rock4" rotation="0" form="circle"/>
+						<peg x="577" y="187" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+						<peg x="532" y="223.65" type="rock2" clip="peg_rock2" rotation="0" form="circle"/>
+						<peg x="347.55" y="223.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+						<peg x="386" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="437" y="318" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="451" y="295" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="422" y="295" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="466" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="437" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="408" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="494" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="440" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						
+				    </pegs>
+						
+						<gameZones>
+							<gameZone clip="Left_snow_edge1" x="182.3" y="49"/>
+							<gameZone clip="Right_snow_edge1"  x="663" y="50"/>
+						</gameZones>
+		  	</level>
+		  	<level num="3" bulbs="15" balls="10">
+					  <pegs>			     
+						<peg x="486" y="227.65" type="rock2" clip="peg_rock2" rotation="0" form="circle"/>
+						<peg x="372.55" y="230.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+						<peg x="504" y="150" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="359" y="153" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="252" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="468" y="306" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="396" y="306" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="540" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="324" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="612" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="486" y="270" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="378" y="270" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="576" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="288" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="576" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="288" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="432" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="396" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="468" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="432" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="432" y="144" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="504" y="306" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="360" y="306" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="540" y="270" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="612" y="270" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="540" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="612" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="576" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="252" y="270" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="324" y="270" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="324" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="252" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="288" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				    </pegs>
+				  
+					    <baskets>
+							<basket clip="basket2" left="310" right="565" point="50" y="425" speed="2"/>
+						</baskets>
+						
+						<gameZones>
+							<gameZone clip="Left_snow_edge1" x="182.3" y="49"/>
+							<gameZone clip="Right_snow_edge1" x="663" y="50"/>
+						</gameZones>
+		  	</level>
+		  	 <level num="4" bulbs="15" balls="10">
+					  <pegs>			     
+						<peg x="446" y="324" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="596" y="168.65" type="rock2" clip="peg_rock2" rotation="0" form="circle"/>
+						<peg x="562" y="190" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="298.65" y="166" type="rock4" clip="peg_rock4" rotation="0" form="circle"/>
+						<peg x="523" y="275" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="366" y="277" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="479" y="176" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="414" y="177" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="463" y="263" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="427" y="263.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="445" y="282" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="445" y="246" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="345.5" y="306" type="water" clip="peg_water" rotation="-135" form="circle"/>
+						<peg x="378.75" y="336.45" type="water" clip="peg_water" rotation="-135" form="circle"/>
+						<peg x="545.55" y="306.05" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="512.3" y="336.5" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="468" y="374" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="445" y="382" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="423" y="372" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="331" y="190" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="356.05" y="192.05" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="378.75" y="183.55" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="535" y="192" type="water" clip="peg_water" rotation="45" form="circle"/>
+						<peg x="512.3" y="183.5" type="water" clip="peg_water" rotation="45" form="circle"/>
+						<peg x="468" y="146" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="445" y="138" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="423" y="148" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="391" y="228" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="391" y="300" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="499" y="300" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="499" y="228" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+
+				    </pegs>
+					    
+					     <baskets>
+							<basket clip="basket2" left="310" right="565" point="50" y="425" speed="2"/>
+						</baskets>
+						
+						<gameZones>
+							<gameZone clip="Left_snow_edge1" x="182.3" y="49"/>
+							<gameZone clip="Right_snow_edge1" x="663" y="50"/>
+						</gameZones>
+		  	</level>
+		  	 <level num="5" bulbs="15" balls="10">
+					  <pegs>			     
+							<peg x="580" y="333" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="569" y="310" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="435" y="357" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="303" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="317" y="277" type="water" clip="peg_water_form2" rotation="-70" form="form2"/>
+							<peg x="556" y="283" type="water" clip="peg_water_form2" rotation="70" form="form2"/>
+							<peg x="328" y="250" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="542" y="251" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="532" y="228" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="337" y="229" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="351" y="199" type="water" clip="peg_water_form2" rotation="-70" form="form2"/>
+							<peg x="521" y="201" type="water" clip="peg_water_form2" rotation="70" form="form2"/>
+							<peg x="302" y="196" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="315" y="174" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="571" y="199" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="556" y="177" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="293" y="329" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="435" y="301" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="435" y="332" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="435" y="267" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="435" y="213" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+							<peg x="435" y="244" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="543" y="153" type="water" clip="peg_water_form2" rotation="-25" form="form2"/>
+							<peg x="507" y="166" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+							<peg x="471" y="177" type="flower" clip="peg_flower_form2" rotation="-15" form="form2"/>
+							<peg x="435" y="177" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+							<peg x="399" y="177" type="flower" clip="peg_flower_form2" rotation="15" form="form2"/>
+							<peg x="363" y="166" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+							<peg x="329" y="152" type="water" clip="peg_water_form2" rotation="25" form="form2"/>
+				    </pegs>
+					   <baskets>
+							<basket clip="basket2" left="310" right="565" point="50" y="425" speed="2"/>
+						</baskets>
+						
+						<gameZones>
+							<gameZone clip="Left_snow_edge1" x="182.3" y="49"/>
+							<gameZone clip="Right_snow_edge1" x="663" y="50"/>
+						</gameZones>
+		  	</level>
+		  	 <level num="6" bulbs="16" balls="10">
+					  <pegs>			     
+							<peg x="594" y="141" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="558.05" y="209" type="water" clip="peg_water_form1" rotation="160" form="form1"/>
+							<peg x="630.05" y="209.05" type="water" clip="peg_water_form1" rotation="-160" form="form1"/>
+							<peg x="629.95" y="173" type="flower" clip="peg_flower_form1" rotation="-20" form="form1"/>
+							<peg x="557.95" y="172.95" type="flower" clip="peg_flower_form1" rotation="20" form="form1"/>
+							<peg x="596" y="230" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="595" y="173" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="595" y="203" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="238.05" y="201" type="water" clip="peg_water_form1" rotation="160" form="form1"/>
+							<peg x="310.05" y="201.05" type="water" clip="peg_water_form1" rotation="-160" form="form1"/>
+							<peg x="309.95" y="165" type="flower" clip="peg_flower_form1" rotation="-20" form="form1"/>
+							<peg x="237.95" y="164.95" type="flower" clip="peg_flower_form1" rotation="20" form="form1"/>
+							<peg x="287" y="285.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="279" y="253" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="306" y="312" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="593" y="262" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="559" y="317" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="442" y="150" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="276" y="222" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="275" y="165" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="275" y="135" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="275" y="195" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="443" y="308" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="442.55" y="279.65" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="443.85" y="238.95" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+							<peg x="443.4" y="193.95" type="hotshot" clip="peg_hotshot_form2" rotation="0" form="form2"/>
+							<peg x="580" y="293" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="504.55" y="243.65" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="504" y="191" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="381.5" y="243" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="382.3" y="188.95" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="493.55" y="278.05" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+							<peg x="393.5" y="278.05" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+							<peg x="486" y="152" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+							<peg x="394.05" y="151.7" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+				    </pegs>				   
+				   
+					    <baskets>
+							<basket clip="basket2" left="310" right="565" point="50" y="425" speed="2"/>
+						</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge1" x="182.3" y="49"/>
+							<gameZone clip="Right_snow_edge1" x="663" y="50"/>
+						</gameZones>
+		  	</level>
+		  	 <level num="7" bulbs="21" balls="10">
+					  <pegs>			     
+							<peg x="558" y="180" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+							<peg x="252" y="162" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+							<peg x="234" y="108" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+							<peg x="630" y="108" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+							<peg x="612" y="162" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="476" y="244.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="385" y="243.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="288" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="576" y="234" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="432" y="180" type="split" clip="peg_split" rotation="0" form="circle"/>
+							<peg x="432" y="288" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="252" y="126" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="612" y="126" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="594" y="180" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="270" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="360" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="306" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="324" y="270" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="342" y="288" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="504" y="306" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+							<peg x="558" y="252" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="540" y="270" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="522" y="288" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="576" y="270" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+							<peg x="594" y="216" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+							<peg x="594" y="144" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="576" y="162" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+							<peg x="450" y="234" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="540" y="198" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+							<peg x="522" y="252" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+							<peg x="576" y="198" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="558" y="216" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="540" y="234" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="432" y="324" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="432" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="432" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="414" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="468" y="216" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="450" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="414" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="396" y="216" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="288" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="270" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="270" y="144" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="288" y="162" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="306" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="324" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="342" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="288" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="306" y="216" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="324" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						</pegs>
+
+					    <baskets>
+							<basket clip="basket2" left="310" right="565" point="50" y="425" speed="2"/>
+						</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge1" x="182.3" y="49"/>
+							<gameZone clip="Right_snow_edge1" x="663" y="50"/>
+						</gameZones>
+		  	</level>
+		 <level num="8" bulbs="22" balls="10">
+					  <pegs>
+						<peg x="216" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="648" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="252" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="612" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="468" y="360" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="396" y="360" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="468" y="108" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="393" y="108" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="558" y="216" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="457" y="232" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="409" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="370" y="154.95" type="water" clip="peg_water_form1" rotation="50" form="form1"/>
+						<peg x="489.95" y="158.05" type="water" clip="peg_water_form1" rotation="-50" form="form1"/>
+						<peg x="463.95" y="176" type="flower" clip="peg_flower_form1" rotation="-20" form="form1"/>
+						<peg x="398.95" y="174" type="flower" clip="peg_flower_form1" rotation="20" form="form1"/>
+						<peg x="612" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="252" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="594" y="342" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="276" y="341" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="277" y="306" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="244" y="144" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="270" y="180" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="288" y="270" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="590" y="306" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="621" y="143" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="540" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="576" y="270" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="499" y="324" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="365" y="325" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="594" y="175" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="324" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="468.85" y="256.9" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="396.85" y="256.9" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="432.85" y="220.9" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="432.85" y="256.9" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="329.15" y="323.3" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="329.15" y="184.5" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="306" y="216" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="534.95" y="323.05" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="558" y="126" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="534.95" y="184.9" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="432" y="126" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="306" y="126" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="398.45" y="307.5" type="water" clip="peg_water_form1" rotation="30" form="form1"/>
+						<peg x="376" y="284" type="water" clip="peg_water_form1" rotation="60" form="form1"/>
+						<peg x="378.25" y="220.55" type="flower" clip="peg_flower_form1" rotation="120" form="form1"/>
+						<peg x="487.65" y="224.15" type="water" clip="peg_water_form1" rotation="-120" form="form1"/>
+						<peg x="485.25" y="287.7" type="flower" clip="peg_flower_form1" rotation="-60" form="form1"/>
+						<peg x="460.7" y="309.75" type="water" clip="peg_water_form1" rotation="-30" form="form1"/>
+						<peg x="432.05" y="180" type="split" clip="peg_split_form2" rotation="0" form="form2"/>
+						
+				    </pegs>
+					    <baskets>
+							<basket clip="basket2" left="310" right="565" point="50" y="425" speed="2"/>
+						</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge2" x="144.8" y="64.8"/>
+							<gameZone clip="Right_snow_edge2" x="693.1" y="58"/>
+						</gameZones>
+
+		  	</level>
+			<level num="9" bulbs="21" balls="10">
+				<pegs>	
+					<peg x="396.55" y="374.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+					<peg x="468.55" y="374.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+					<peg x="432" y="180" type="split" clip="peg_split" rotation="NaN" form="circle"/>
+					<peg x="308" y="261" type="water" clip="peg_water_form2" rotation="-45" form="form2"/>
+					<peg x="353" y="219" type="water" clip="peg_water_form2" rotation="-45" form="form2"/>
+					<peg x="331" y="240" type="flower" clip="peg_flower_form2" rotation="-45" form="form2"/>
+					<peg x="556" y="266" type="water" clip="peg_water_form2" rotation="45" form="form2"/>
+					<peg x="534" y="244" type="flower" clip="peg_flower_form2" rotation="45" form="form2"/>
+					<peg x="512" y="222" type="water" clip="peg_water_form2" rotation="45" form="form2"/>
+					<peg x="505" y="162" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+					<peg x="360" y="162" type="hotshot" clip="peg_hotshot_form2" rotation="0" form="form2"/>
+					<peg x="360" y="126" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="324" y="126" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="324" y="162" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="288" y="162" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="288" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="252" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="504" y="126" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="540" y="126" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="540" y="162" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="576" y="162" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="576" y="198" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="612" y="198" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="415" y="269.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="451" y="269.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="432" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="252" y="292" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="612" y="292" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="288" y="292" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="288" y="324" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="324" y="324" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="324" y="360" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="360" y="360" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="576" y="292" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="576" y="324" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="540" y="324" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="540" y="360" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="504" y="360" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="522" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="504" y="288" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="342" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="360" y="288" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="486" y="270" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="378" y="270" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="450" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="414" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="612" y="324" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="434" y="291" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="252" y="324" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="469" y="305" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="396" y="306" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="470" y="333" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="401" y="333" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="434" y="346" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="612" y="258" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="486" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="378" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="252" y="258" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="396" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="468" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="450" y="162" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="414" y="162" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="432" y="144" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+			    </pegs>	
+			    
+			     <baskets>
+							<basket clip="basket2" left="310" right="565" point="50" y="425" speed="2"/>
+						</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge2" x="144.8" y="64.8"/>
+							<gameZone clip="Right_snow_edge2" x="693.1" y="58"/>
+						</gameZones> 
+  			 </level>
+			<level num="10" bulbs="23" balls="10">
+			  <pegs>			     
+					<peg x="486" y="126" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="378" y="126" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="468" y="144" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="396" y="144" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="578" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="560" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="542" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="324" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="306" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="288" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="431" y="167.5" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+					<peg x="335" y="311" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="561" y="276" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="533" y="311" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="468" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="399" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="306" y="276" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="522" y="342" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="346" y="346" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="432" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="497" y="167" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="371" y="167" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="433.6" y="138" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="520" y="151" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="347" y="152" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="587" y="347" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="281" y="347" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="623" y="311" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="245" y="311" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="492" y="327.05" type="flower" clip="peg_flower_form1" rotation="-60" form="form1"/>
+					<peg x="467.45" y="349.1" type="water" clip="peg_water_form1" rotation="-30" form="form1"/>
+					<peg x="395.3" y="347" type="flower" clip="peg_flower_form1" rotation="30" form="form1"/>
+					<peg x="372.85" y="323.5" type="water" clip="peg_water_form1" rotation="60" form="form1"/>
+					<peg x="432" y="270" type="split" clip="peg_split" rotation="0" form="circle"/>
+					<peg x="371" y="275" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="353" y="293" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="263" y="293" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="245" y="275" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="623" y="275" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="605" y="293" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="515" y="293" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="497" y="275" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="245" y="239" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+					<peg x="371" y="239" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+					<peg x="497" y="239" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+					<peg x="623" y="239" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+					<peg x="587" y="203" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+					<peg x="533" y="203" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+					<peg x="461" y="203" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+					<peg x="407" y="203" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+					<peg x="335" y="203" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+					<peg x="281" y="203" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+			    </pegs>
+			    
+				   <baskets>
+							<basket clip="basket2" left="310" right="565" point="50" y="425" speed="2"/>
+						</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge2" x="144.8" y="64.8"/>
+							<gameZone clip="Right_snow_edge2" x="693.1" y="58"/>
+						</gameZones>
+  			 </level>
+  			 <level num="11" bulbs="27" balls="10">
+					  <pegs>
+						<peg x="264.35" y="342.4" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+						<peg x="606.2" y="344.5" type="rock2" clip="peg_rock2" rotation="0" form="circle"/>
+						<peg x="468" y="306" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="396" y="306" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="437" y="125" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="437" y="211" type="split" clip="peg_split" rotation="0" form="circle"/>
+						<peg x="614.35" y="155.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="588.35" y="144.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="514.35" y="110.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="205.35" y="180.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="350.35" y="114.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="303.35" y="136.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="470.35" y="123.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="398.35" y="123.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="502.35" y="316.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="502.35" y="278.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="366.35" y="316.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="366.35" y="278.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="503.35" y="144.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="488.35" y="99.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="367.35" y="144.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="374.35" y="103.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="580.35" y="249.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="578.35" y="212.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="579.35" y="177.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="292.35" y="250.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="290.35" y="213.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="291.35" y="178.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="662.35" y="213.5" type="flower" clip="peg_flower_form1" rotation="-90" form="form1"/>
+						<peg x="205.35" y="215.4" type="flower" clip="peg_flower_form1" rotation="90" form="form1"/>
+						<peg x="402" y="266" type="flower" clip="peg_flower_form1" rotation="30" form="form1"/>
+						<peg x="372.25" y="211" type="water" clip="peg_water_form1" rotation="90" form="form1"/>
+						<peg x="405.9" y="157.05" type="flower" clip="peg_flower_form1" rotation="150" form="form1"/>
+						<peg x="438" y="149.1" type="water" clip="peg_water_form1" rotation="180" form="form1"/>
+						<peg x="469.1" y="156.6" type="flower" clip="peg_flower_form1" rotation="-150" form="form1"/>
+						<peg x="498.35" y="214.7" type="flower" clip="peg_flower_form1" rotation="-90" form="form1"/>
+						<peg x="464.25" y="267.25" type="water" clip="peg_water_form1" rotation="-30" form="form1"/>
+						<peg x="432.25" y="275.7" type="flower" clip="peg_flower_form1" rotation="0" form="form1"/>
+						<peg x="214.35" y="250.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="254.35" y="303.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="228.35" y="170.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="252.35" y="268.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="329.35" y="159.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="252.35" y="196.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="252.35" y="160.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="328.35" y="304.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="290.35" y="286.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="278.35" y="147.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="328.35" y="268.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="328.35" y="232.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="328.35" y="196.4" type="hotshot" clip="peg_hotshot" rotation="NaN" form="circle"/>
+						<peg x="246.35" y="231.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="328.35" y="124.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="656.35" y="249.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="619.35" y="304.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="664.35" y="180.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="618.35" y="267.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="540.35" y="159.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="618.35" y="195.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="639.35" y="167.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="542.35" y="303.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="580.35" y="285.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="562.35" y="131.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="542.35" y="267.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="542.35" y="231.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="542.35" y="195.4" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+						<peg x="618.35" y="231.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="538.35" y="122.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				    </pegs>
+				    
+					    <baskets>
+							<basket clip="basket2" left="310" right="565" point="50" y="425" speed="2"/>
+						</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge2" x="144.8" y="64.8"/>
+							<gameZone clip="Right_snow_edge2" x="693.1" y="58"/>
+						</gameZones>
+		  	</level>
+		  	<level num="12" bulbs="26" balls="10">
+				  <pegs>
+						<peg x="555" y="298" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+						<peg x="498" y="263" type="water" clip="peg_water_form1" rotation="120" form="form1"/>
+						<peg x="364" y="260" type="water" clip="peg_water_form1" rotation="-120" form="form1"/>
+						<peg x="306" y="292" type="split" clip="peg_split" rotation="0" form="circle"/>
+						<peg x="432.85" y="283" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+						<peg x="517.8" y="298.8" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="630" y="244" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="344.25" y="293.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="325.8" y="261.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="467.85" y="341.55" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="396.95" y="341.55" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="562.9" y="179.55" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="308.45" y="179.55" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="535" y="268" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="611.2" y="221.8" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="579.6" y="204.9" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="542.5" y="199.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="452.5" y="307.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="416.5" y="307.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="506.5" y="181.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="362.5" y="181.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="470.5" y="145.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="398.5" y="145.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="254.5" y="217.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="290.5" y="199.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="326.5" y="199.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="245.95" y="290.3" type="flower" clip="peg_flower_form1" rotation="90" form="form1"/>
+						<peg x="255.5" y="258.35" type="water" clip="peg_water_form1" rotation="120" form="form1"/>
+						<peg x="279.6" y="236.35" type="water" clip="peg_water_form1" rotation="150" form="form1"/>
+						<peg x="310.7" y="227.4" type="flower" clip="peg_flower_form1" rotation="180" form="form1"/>
+						<peg x="342.8" y="237.9" type="water" clip="peg_water_form1" rotation="-150" form="form1"/>
+						<peg x="372.05" y="294" type="water" clip="peg_water_form1" rotation="-90" form="form1"/>
+						<peg x="362.5" y="325.5" type="flower" clip="peg_flower_form1" rotation="-60" form="form1"/>
+						<peg x="338.95" y="348.55" type="flower" clip="peg_flower_form1" rotation="-30" form="form1"/>
+						<peg x="305.95" y="356" type="water" clip="peg_water_form1" rotation="0" form="form1"/>
+						<peg x="234" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="520.1" y="348.45" type="water" clip="peg_water_form1" rotation="30" form="form1"/>
+						<peg x="496.65" y="326.95" type="flower" clip="peg_flower_form1" rotation="60" form="form1"/>
+						<peg x="489.35" y="295.45" type="flower" clip="peg_flower_form1" rotation="90" form="form1"/>
+						<peg x="521" y="239.5" type="flower" clip="peg_flower_form1" rotation="150" form="form1"/>
+						<peg x="554.1" y="232.55" type="water" clip="peg_water_form1" rotation="180" form="form1"/>
+						<peg x="586.2" y="243.05" type="water" clip="peg_water_form1" rotation="-150" form="form1"/>
+						<peg x="608.3" y="267.1" type="water" clip="peg_water_form1" rotation="-120" form="form1"/>
+						<peg x="581.35" y="349.7" type="water" clip="peg_water_form1" rotation="-30" form="form1"/>
+						<peg x="549.35" y="357.15" type="water" clip="peg_water_form1" rotation="0" form="form1"/>
+						<peg x="504.95" y="210.65" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="468.95" y="257.65" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="396.95" y="257.65" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="360.95" y="210.65" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="396.95" y="210.65" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="468.95" y="210.65" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="432.95" y="228.65" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="434.5" y="181.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+			    </pegs>
+			    
+			    <baskets>
+							<basket clip="basket2" left="310" right="565" point="50" y="425" speed="2"/>
+						</baskets>
+				
+				<gameZones>
+							<gameZone clip="Left_snow_edge2" x="144.8" y="64.8"/>
+							<gameZone clip="Right_snow_edge2" x="693.1" y="58"/>
+				</gameZones>
+
+				<branches>
+					<branch x="128.65" y="259.7" clip="branch01"/>
+					<branch x="589.95" y="263.3" clip="branch02"/>
+				</branches>		
+
+			    
+  			</level>
+			<level num="13" bulbs="25" balls="10">
+				  <pegs>			     
+						<peg x="614" y="259" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+						<peg x="316.5" y="183.5" type="split" clip="peg_split" rotation="0" form="circle"/>
+						<peg x="433.3" y="218.95" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+						<peg x="630.3" y="137.45" type="water" clip="peg_water" rotation="131" form="circle"/>
+						<peg x="598.3" y="103.45" type="flower" clip="peg_flower" rotation="131" form="circle"/>
+						<peg x="550.3" y="88.45" type="water" clip="peg_water" rotation="131" form="circle"/>
+						<peg x="508.3" y="101.45" type="flower" clip="peg_flower" rotation="131" form="circle"/>
+						<peg x="473.3" y="130.45" type="water" clip="peg_water" rotation="131" form="circle"/>
+						<peg x="397.3" y="140.45" type="flower" clip="peg_flower" rotation="131" form="circle"/>
+						<peg x="366.3" y="105.45" type="water" clip="peg_water" rotation="131" form="circle"/>
+						<peg x="321.3" y="89.45" type="water" clip="peg_water" rotation="131" form="circle"/>
+						<peg x="276.3" y="101.45" type="flower" clip="peg_flower" rotation="131" form="circle"/>
+						<peg x="241.3" y="130.45" type="flower" clip="peg_flower" rotation="131" form="circle"/>
+						<peg x="434" y="250" type="water" clip="peg_water" rotation="131" form="circle"/>
+						<peg x="631.3" y="284.45" type="water" clip="peg_water" rotation="131" form="circle"/>
+						<peg x="235.3" y="284.45" type="water" clip="peg_water" rotation="131" form="circle"/>
+						<peg x="316.55" y="152.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="343.3" y="166.45" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="289.3" y="166.45" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="550.55" y="152.4" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="577.3" y="166.45" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="523.3" y="166.45" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="351.3" y="318.45" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="518.3" y="320.45" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="369.3" y="300.45" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="387.3" y="318.45" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="482.3" y="320.45" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="500.3" y="302.45" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="614.95" y="309.45" type="flower" clip="peg_flower" rotation="131" form="circle"/>
+						<peg x="259" y="311.6" type="water" clip="peg_water" rotation="131" form="circle"/>
+						<peg x="257.35" y="260.25" type="water" clip="peg_water" rotation="131" form="circle"/>
+						<peg x="369.3" y="336.45" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="500.3" y="338.45" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="542.3" y="338.45" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="333.3" y="336.45" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="398.45" y="258.55" type="water" clip="peg_water" rotation="131" form="circle"/>
+						<peg x="413.6" y="231.45" type="flower" clip="peg_flower" rotation="131" form="circle"/>
+						<peg x="417.85" y="200.4" type="water" clip="peg_water" rotation="131" form="circle"/>
+						<peg x="470.7" y="260.6" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="455.55" y="233.5" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+						<peg x="451.3" y="202.45" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="465.6" y="334.95" type="water" clip="peg_water_form1" rotation="60" form="form1"/>
+						<peg x="574.85" y="338.65" type="water" clip="peg_water_form1" rotation="-60" form="form1"/>
+						<peg x="518.3" y="368.15" type="flower" clip="peg_flower_form1" rotation="0" form="form1"/>
+						<peg x="296.1" y="332.6" type="flower" clip="peg_flower_form1" rotation="60" form="form1"/>
+						<peg x="405.35" y="336.3" type="water" clip="peg_water_form1" rotation="-60" form="form1"/>
+						<peg x="348.8" y="365.8" type="water" clip="peg_water_form1" rotation="0" form="form1"/>
+						<peg x="515.8" y="216.85" type="water" clip="peg_water_form1" rotation="30" form="form1"/>
+						<peg x="495.6" y="146.9" type="water" clip="peg_water_form1" rotation="120" form="form1"/>
+						<peg x="519.7" y="123.9" type="flower" clip="peg_flower_form1" rotation="150" form="form1"/>
+						<peg x="551.8" y="115.95" type="water" clip="peg_water_form1" rotation="180" form="form1"/>
+						<peg x="582.9" y="124.45" type="flower" clip="peg_flower_form1" rotation="-150" form="form1"/>
+						<peg x="605" y="149.5" type="water" clip="peg_water_form1" rotation="-120" form="form1"/>
+						<peg x="578.05" y="219.1" type="water" clip="peg_water_form1" rotation="-30" form="form1"/>
+						<peg x="546.05" y="263.55" type="flower" clip="peg_flower_form1" rotation="0" form="form1"/>
+						<peg x="550.2" y="178.75" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="284.15" y="221.65" type="water" clip="peg_water_form1" rotation="30" form="form1"/>
+						<peg x="264.95" y="148.7" type="water" clip="peg_water_form1" rotation="120" form="form1"/>
+						<peg x="288.05" y="126.7" type="flower" clip="peg_flower_form1" rotation="150" form="form1"/>
+						<peg x="320.15" y="118.75" type="water" clip="peg_water_form1" rotation="180" form="form1"/>
+						<peg x="351.25" y="127.25" type="flower" clip="peg_flower_form1" rotation="-150" form="form1"/>
+						<peg x="374.35" y="152.3" type="water" clip="peg_water_form1" rotation="-120" form="form1"/>
+						<peg x="346.4" y="223.9" type="water" clip="peg_water_form1" rotation="-30" form="form1"/>
+						<peg x="314.4" y="262.35" type="flower" clip="peg_flower_form1" rotation="0" form="form1"/>
+						<peg x="433.3" y="284.5" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+			    </pegs>
+			    
+					    <baskets>
+							<basket clip="basket2" left="310" right="565" point="50" y="425" speed="2"/>
+						</baskets>
+				<gameZones>
+							<gameZone clip="Left_snow_edge2" x="144.8" y="64.8"/>
+							<gameZone clip="Right_snow_edge2" x="693.1" y="58"/>
+				</gameZones>
+				
+				<branches>
+					<branch x="131.65" y="114.7" clip="branch01"/>
+				</branches>
+			    
+  			</level>
+  			<level num="14" bulbs="22" balls="10">
+					  <pegs>			     
+							<peg x="528" y="138" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+							<peg x="335" y="138.65" type="rock2" clip="peg_rock2" rotation="0" form="circle"/>
+							<peg x="614" y="144" type="split" clip="peg_split" rotation="0" form="circle"/>
+							<peg x="430" y="316" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+							<peg x="290" y="147" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="518.9" y="179.4" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+							<peg x="456.9" y="179.4" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+							<peg x="549.65" y="179.9" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+							<peg x="488" y="180" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+							<peg x="407.9" y="179.4" type="hotshot" clip="peg_hotshot_form2" rotation="0" form="form2"/>
+							<peg x="312.9" y="179.4" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+							<peg x="376.65" y="179.9" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+							<peg x="344" y="180" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+							<peg x="448" y="137" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+							<peg x="386" y="137" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+							<peg x="428" y="251.5" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+							<peg x="242.95" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="213" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="655" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="478" y="306" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="477.95" y="269.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="379.95" y="266.8" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="380" y="306" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="596" y="274.05" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+							<peg x="271" y="270.05" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+							<peg x="254" y="144" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="412" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="448" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="312" y="232" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="549" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="259" y="342" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="610" y="340" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="549" y="273" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+							<peg x="579.2" y="241.05" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="587" y="198" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="572" y="150" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="524" y="306" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+							<peg x="338" y="306" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+							<peg x="310" y="271" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+							<peg x="282.2" y="238.05" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="273" y="198" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="300" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="381.95" y="227.8" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="563" y="310" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="478.95" y="228.8" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="431" y="283" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="517.9" y="248.5" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+							<peg x="517.75" y="216.8" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="341.85" y="248.85" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+							<peg x="341.7" y="217.15" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="518" y="280" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="342" y="280" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+							<peg x="478.75" y="137.5" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+							<peg x="417.1" y="137.6" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+				    </pegs>
+				    
+					    <baskets>
+							<basket clip="basket2" left="310" right="565" point="50" y="425" speed="2"/>
+						</baskets>
+				<gameZones>
+							<gameZone clip="Left_snow_edge2" x="144.8" y="64.8"/>
+							<gameZone clip="Right_snow_edge2" x="693.1" y="58"/>
+				</gameZones>
+
+				<branches>
+					<branch x="133.65" y="236.7" clip="branch01"/>
+					<branch x="592.95" y="174.3" clip="branch02" />
+				</branches>
+
+		  	</level>
+		  	<level num="15" bulbs="32" balls="10">
+				  <pegs>
+						<peg x="287" y="317" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="263" y="246" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+						<peg x="408" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="471" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="438" y="209" type="split" clip="peg_split" rotation="0" form="circle"/>
+						<peg x="341" y="188" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="540" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="695.85" y="229" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="597" y="317" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="194" y="256" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="605" y="152" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="639.7" y="186" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="404.1" y="247.95" type="water" clip="peg_water_form1" rotation="30" form="form1"/>
+						<peg x="381.65" y="224.45" type="flower" clip="peg_flower_form1" rotation="60" form="form1"/>
+						<peg x="374.35" y="192.95" type="water" clip="peg_water_form1" rotation="90" form="form1"/>
+						<peg x="383.9" y="161" type="flower" clip="peg_flower_form1" rotation="120" form="form1"/>
+						<peg x="408" y="139" type="water" clip="peg_water_form1" rotation="150" form="form1"/>
+						<peg x="440.1" y="131.05" type="flower" clip="peg_flower_form1" rotation="180" form="form1"/>
+						<peg x="471.2" y="140.55" type="water" clip="peg_water_form1" rotation="-150" form="form1"/>
+						<peg x="493.3" y="164.6" type="flower" clip="peg_flower_form1" rotation="-120" form="form1"/>
+						<peg x="500.45" y="196.65" type="water" clip="peg_water_form1" rotation="-90" form="form1"/>
+						<peg x="490.9" y="228.15" type="flower" clip="peg_flower_form1" rotation="-60" form="form1"/>
+						<peg x="466.35" y="250.2" type="water" clip="peg_water_form1" rotation="-30" form="form1"/>
+						<peg x="434.35" y="258.65" type="flower" clip="peg_flower_form1" rotation="0" form="form1"/>
+						<peg x="556" y="169" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="594" y="278" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="315.7" y="167.7" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="280.2" y="149.7" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="244.2" y="149.7" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="294" y="280" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="653.85" y="230" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="227.85" y="229" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="263.3" y="283" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="623.85" y="282.9" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="640" y="152" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+						<peg x="200" y="188" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="546" y="233.5" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+						<peg x="279.7" y="185.7" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="243.7" y="184.7" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="318" y="301" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="459" y="287" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="582" y="248" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="623" y="248" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="623" y="212" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="264" y="211" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="300" y="247" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="564" y="300" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="353.95" y="282.9" type="flower" clip="peg_flower_form1" rotation="75" form="form1"/>
+						<peg x="355.8" y="251.65" type="water" clip="peg_water_form1" rotation="105" form="form1"/>
+						<peg x="370.6" y="311.35" type="water" clip="peg_water_form1" rotation="45" form="form1"/>
+						<peg x="520" y="285.1" type="flower" clip="peg_flower_form1" rotation="-75" form="form1"/>
+						<peg x="520.85" y="252.55" type="water" clip="peg_water_form1" rotation="-105" form="form1"/>
+						<peg x="502" y="313.6" type="water" clip="peg_water_form1" rotation="-45" form="form1"/>
+						<peg x="458.3" y="316.3" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="457.3" y="346.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="421.3" y="346.3" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="422.3" y="316.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="604.7" y="186" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="494.3" y="268.3" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="438" y="373" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="422.3" y="286.3" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="386.3" y="268.3" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="332.7" y="228.7" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="578" y="209" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="682" y="188" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="304" y="208" type="water" clip="peg_water" rotation="0" form="circle"/>
+			     </pegs>			    		
+			    
+			     <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+				
+				<bumpers>
+			    	<bumper x="60" y="280" clip="bumperLeft" />
+			  	  <bumper x="650" y="280" clip="bumperRight" />
+			    </bumpers>
+			    
+  			 </level>		  	
+		  	<level num="16" bulbs="30" balls="10">
+					  <pegs>			     
+							<peg x="472" y="253" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="443" y="276" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="443" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="443" y="128" type="split" clip="peg_split" rotation="0" form="circle"/>
+							<peg x="500" y="324.05" type="flower" clip="peg_flower_form1" rotation="160" form="form1"/>
+							<peg x="472.05" y="341.45" type="water" clip="peg_water_form1" rotation="135" form="form1"/>
+							<peg x="395.95" y="321.05" type="flower" clip="peg_flower_form1" rotation="-160" form="form1"/>
+							<peg x="424.55" y="340.05" type="water" clip="peg_water_form1" rotation="-135" form="form1"/>
+							<peg x="566" y="291" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="611.95" y="278.85" type="flower" clip="peg_flower_form1" rotation="-75" form="form1"/>
+							<peg x="563.15" y="324.85" type="flower" clip="peg_flower_form1" rotation="-15" form="form1"/>
+							<peg x="288" y="276.75" type="flower" clip="peg_flower_form1" rotation="75" form="form1"/>
+							<peg x="335.45" y="322.45" type="flower" clip="peg_flower_form1" rotation="15" form="form1"/>
+							<peg x="611" y="117" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="589" y="139" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="310" y="139" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="289" y="116" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="254.95" y="137.05" type="water" clip="peg_water_form1" rotation="-160" form="form1"/>
+							<peg x="648" y="132.55" type="water" clip="peg_water_form1" rotation="160" form="form1"/>
+							<peg x="442" y="186" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+							<peg x="485" y="285" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="511" y="292" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="537" y="285" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="373" y="289" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="399" y="281" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="345" y="282" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="665" y="269" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="684" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="234" y="270" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="591.95" y="308" type="water" clip="peg_water_form1" rotation="-45" form="form1"/>
+							<peg x="528.95" y="324" type="water" clip="peg_water_form1" rotation="15" form="form1"/>
+							<peg x="368.95" y="321.55" type="water" clip="peg_water_form1" rotation="-15" form="form1"/>
+							<peg x="306.1" y="304.9" type="water" clip="peg_water_form1" rotation="45" form="form1"/>
+							<peg x="253" y="233.5" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+							<peg x="283.55" y="152.05" type="flower" clip="peg_flower_form1" rotation="-135" form="form1"/>
+							<peg x="300.75" y="181.55" type="water" clip="peg_water_form1" rotation="-105" form="form1"/>
+							<peg x="533" y="162" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="389" y="144" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="353" y="162" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="497" y="144" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="278" y="328" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="684" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="617.05" y="150.95" type="flower" clip="peg_flower_form1" rotation="135" form="form1"/>
+							<peg x="613" y="334" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="270" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="497" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="630" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="391" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="216" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="216" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="648" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="601" y="179.55" type="water" clip="peg_water_form1" rotation="105" form="form1"/>
+							<peg x="599.15" y="212.25" type="flower" clip="peg_flower_form1" rotation="75" form="form1"/>
+							<peg x="611.3" y="244.95" type="water" clip="peg_water_form1" rotation="-105" form="form1"/>
+							<peg x="290.8" y="244.2" type="water" clip="peg_water_form1" rotation="105" form="form1"/>
+							<peg x="301.35" y="214.15" type="flower" clip="peg_flower_form1" rotation="-75" form="form1"/>
+							<peg x="389" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="353" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="335" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="551" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="533" y="216" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="497" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="461" y="162" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="425" y="162" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="371" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="515" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="418" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="469" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="449.95" y="354" type="flower" clip="peg_flower_form1" rotation="0" form="form1"/>
+						
+				    </pegs>
+				    
+				<bumpers>
+			    	<bumper x="60" y="280" clip="bumperLeft" />
+			  	  <bumper x="650" y="280" clip="bumperRight" />
+			    </bumpers>
+				    
+					   <baskets>
+							<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+					</baskets>
+					
+						<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+		  	</level>
+		  	<level num="17" bulbs="24" balls="10">
+					  <pegs>			     
+							<peg x="440" y="241" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+							<peg x="438.55" y="362.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+							<peg x="563.9" y="223.45" type="water" clip="peg_water_form1" rotation="-120" form="form1"/>
+							<peg x="572.05" y="254.5" type="flower" clip="peg_flower_form1" rotation="-90" form="form1"/>
+							<peg x="561.5" y="287" type="water" clip="peg_water_form1" rotation="-60" form="form1"/>
+							<peg x="537.95" y="310.05" type="flower" clip="peg_flower_form1" rotation="-30" form="form1"/>
+							<peg x="504.95" y="316.5" type="water" clip="peg_water_form1" rotation="0" form="form1"/>
+							<peg x="201" y="118" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+							<peg x="257" y="213" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="347" y="192.5" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+							<peg x="540" y="342" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="504" y="342" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="486" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="396" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="360" y="216" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="522" y="216" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="540" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="342" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="532" y="191" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+							<peg x="437" y="306" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+							<peg x="234" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="223" y="223" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="234" y="342" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="648" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="666" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="650" y="341" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="594" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="288" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="306" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="360" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="378" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="441" y="176" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="522" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="504" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="612" y="342" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="270" y="342" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="522" y="288" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="612" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="270" y="306" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="472" y="146.55" type="water" clip="peg_water_form1" rotation="-60" form="form1"/>
+							<peg x="407.95" y="145.95" type="water" clip="peg_water_form1" rotation="60" form="form1"/>
+							<peg x="216" y="270" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="666" y="270" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="396" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="594" y="216" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="630" y="252" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+							<peg x="288" y="216" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="252" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="414" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="468" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="630" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="558" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="324" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="252" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="594" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="526" y="165" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="504" y="144" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="378" y="144" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="354" y="165" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="288" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						
+				    </pegs>
+				    
+					    <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+				
+				<bumpers>
+			    	<bumper x="60" y="280" clip="bumperLeft" />
+			  	  <bumper x="650" y="280" clip="bumperRight" />
+			    </bumpers>
+
+				<branches>
+					<branch x="285.7" y="273.65" clip="branch03"/>
+				</branches>			    							
+			    
+		  	</level>
+			<level num="18" bulbs="32" balls="10">
+				  <pegs>	
+						<peg x="438" y="270" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+						<peg x="489.05" y="162" type="split" clip="peg_split_form2" rotation="0" form="form2"/>
+						<peg x="392" y="162.95" type="hotshot" clip="peg_hotshot_form2" rotation="0" form="form2"/>
+						<peg x="575" y="162" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="521" y="162" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="457" y="162" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="425" y="162" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="359" y="162" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="305" y="162" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="197" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="618.1" y="302.4" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="640.3" y="323.6" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="617.9" y="324.1" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="259.5" y="301.6" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="235.1" y="324" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="258.7" y="324.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="331.9" y="303.2" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="353.1" y="324" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="330.7" y="324.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="545.7" y="300.8" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="522.3" y="323.6" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="545.9" y="324.1" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="545.05" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="474.7" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="402.7" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="254.3" y="270.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="293.25" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="333.3" y="270.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="327.25" y="234.55" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="377.7" y="251" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="504.7" y="249" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="439.7" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="564.7" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="312.7" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="492.35" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="456.15" y="352.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="438.15" y="369.8" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="421.65" y="352.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="550.6" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="567.95" y="360" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="305" y="360" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="584.95" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="546.15" y="126" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="330.5" y="125.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="281.9" y="324" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="624.35" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="594.3" y="324.1" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="438.7" y="306" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="679.7" y="251.5" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+						<peg x="218.7" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="658.7" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="578.7" y="224" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="622.7" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="636.7" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="618.7" y="162" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="600.7" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="546.7" y="162" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="535.7" y="210" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="474.7" y="126" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="474.7" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="456.7" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="402.7" y="126" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="402.7" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="420.7" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="384.7" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="301.7" y="224" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="340.7" y="210" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="330.7" y="162" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="254.7" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="276.7" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="258.7" y="162" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="240.7" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+			    </pegs>			    		
+			    
+			       <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+				
+				<bumpers>
+			    	<bumper x="60" y="280" clip="bumperLeft" />
+			  	  <bumper x="650" y="280" clip="bumperRight" />
+			    </bumpers>
+			    
+  			 </level>			
+			<level num="19" bulbs="29" balls="10">
+				  <pegs>			     
+					<peg x="515" y="366.8" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+					<peg x="360.55" y="366.5" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+					<peg x="430" y="188" type="split" clip="peg_split" rotation="0" form="circle"/>
+					<peg x="594" y="191" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="405" y="162" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="455" y="162" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="432" y="243" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="270" y="189" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="504" y="226" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="360" y="226" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="504" y="262" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="360" y="262" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="433" y="337.5" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+					<peg x="558" y="352" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+					<peg x="306" y="352" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+					<peg x="431.4" y="135.45" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="198" y="154" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="270" y="154" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="234" y="136" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="234" y="172" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="594" y="154" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="666" y="154" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="630" y="136" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="630" y="172" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="648" y="226" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="216" y="226" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="596" y="262" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="270" y="262" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="450" y="298" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="414" y="298" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="504" y="172" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="522" y="190" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="486" y="190" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="360" y="172" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="378" y="190" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="342" y="190" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="540" y="262" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="324" y="262" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="234" y="208" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="630" y="208" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="558" y="280" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="486" y="280" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="378" y="280" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="306" y="280" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="198" y="244" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="666" y="244" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="558" y="208" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="306" y="208" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="522" y="280" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="342" y="280" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="576" y="226" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="612" y="226" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="540" y="226" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="468" y="226" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="396" y="226" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="288" y="226" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="324" y="226" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="252" y="226" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="468" y="262" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="396" y="262" type="water" clip="peg_water" rotation="0" form="circle"/>
+			    </pegs>
+			    
+			     <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+			    
+				<bumpers>
+			    	<bumper x="60" y="280" clip="bumperLeft" />
+			  	  <bumper x="650" y="280" clip="bumperRight" />
+			    </bumpers>
+			    
+  			 </level>			
+			<level num="20" bulbs="33" balls="10">
+				  <pegs>			     
+						<peg x="219" y="326" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="677" y="326" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="711" y="312" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="692" y="288" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="723" y="281" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="710" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="714" y="218" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="732" y="196" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="710" y="172" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="166" y="199" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="178" y="170" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="186" y="221" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="183" y="315" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="174" y="281" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="186" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="206" y="288" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="492" y="360" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="409" y="360" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="449" y="360" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="450" y="175" type="split" clip="peg_split" rotation="0" form="circle"/>
+						<peg x="369" y="341.5" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+						<peg x="288.3" y="154" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+						<peg x="611.75" y="154" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+						<peg x="593.9" y="244" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="611.9" y="226" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="629.9" y="244" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="629.9" y="280" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="611.9" y="298" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="593.9" y="280" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="251.9" y="262" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="269.9" y="244" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="287.9" y="298" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="305.9" y="280" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="305.9" y="244" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="287.9" y="226" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="269.9" y="280" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="557.9" y="190" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="449.9" y="208" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="449.9" y="280" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="485.9" y="262" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="449.9" y="244" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="413.9" y="262" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="341.9" y="190" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="323.9" y="262" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="503.9" y="298" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="395.9" y="298" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="449.9" y="316" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="611.9" y="190" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="287.9" y="190" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="521.9" y="208" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="377.9" y="208" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="467.9" y="298" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="431.9" y="298" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="341.9" y="244" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="557.9" y="244" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="370.25" y="150.2" type="water" clip="peg_water_form1" rotation="-150" form="form1"/>
+						<peg x="338.7" y="140.45" type="flower" clip="peg_flower_form1" rotation="180" form="form1"/>
+						<peg x="394.65" y="173" type="flower" clip="peg_flower_form1" rotation="-120" form="form1"/>
+						<peg x="503.2" y="171.45" type="water" clip="peg_water_form1" rotation="120" form="form1"/>
+						<peg x="527.3" y="148.45" type="flower" clip="peg_flower_form1" rotation="150" form="form1"/>
+						<peg x="559.4" y="141.5" type="water" clip="peg_water_form1" rotation="180" form="form1"/>
+						<peg x="287.9" y="262" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="611.9" y="262" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="467.9" y="334" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+						<peg x="431.9" y="334" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+						<peg x="521.9" y="334" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+						<peg x="593.9" y="208" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="575.9" y="226" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="575.9" y="262" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="647.9" y="262" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="629.9" y="208" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="647.9" y="226" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="269.9" y="208" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="251.9" y="226" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="305.9" y="208" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="323.9" y="226" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="233.9" y="298" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="269.9" y="316" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="305.9" y="316" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="341.9" y="298" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="359.9" y="262" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="359.9" y="226" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="305.9" y="172" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="269.9" y="172" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="233.9" y="190" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="215.9" y="226" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="215.9" y="262" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="557.9" y="298" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="593.9" y="316" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="629.9" y="316" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="665.9" y="298" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="683.9" y="262" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="683.9" y="226" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="665.9" y="190" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="629.9" y="172" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="593.9" y="172" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="539.9" y="226" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="539.9" y="262" type="water" clip="peg_water" rotation="0" form="circle"/>
+			    </pegs>
+			    
+			      <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+				
+				<bumpers>
+			    	<bumper x="60" y="280" clip="bumperLeft" />
+			  	  <bumper x="650" y="280" clip="bumperRight" />
+			    </bumpers>
+			    
+  			 </level>
+ 			<level num="21" bulbs="34" balls="10">
+					  <pegs>			     
+							<peg x="525" y="319" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="371" y="318" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="450" y="168" type="split" clip="peg_split" rotation="0" form="circle"/>
+							<peg x="601" y="338" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="577" y="345" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="552.5" y="351.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="622" y="323" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="641.5" y="306.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="687.1" y="270.15" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="668" y="294" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="699" y="238" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="699" y="173.6" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="699" y="205.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="226" y="288" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="203" y="267" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="185" y="237" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="185" y="172.6" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="185" y="204.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="255" y="303" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="275" y="321" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="297" y="333" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="349.5" y="351.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="522" y="180" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+							<peg x="378" y="180" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+							<peg x="462.5" y="210" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="438.05" y="210" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="462.5" y="282.15" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="438.6" y="283.35" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="613.1" y="282.15" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="594" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="306" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="288" y="281" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="648" y="234" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+							<peg x="612" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="630" y="216" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="595.1" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="613.1" y="257.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="288" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="252" y="234" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+							<peg x="270" y="216" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="306" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="288" y="257.6" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="450" y="378" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+							<peg x="404" y="377.5" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+							<peg x="496" y="378.5" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+							<peg x="530.5" y="282.7" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="369.5" y="282.1" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="486" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="414" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="486" y="258.6" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="414" y="258.6" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="477.5" y="354.65" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="423.05" y="355.75" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="419.45" y="146.85" type="water" clip="peg_water_form1" rotation="150" form="form1"/>
+							<peg x="450.55" y="139" type="hotshot" clip="peg_hotshot_form1" rotation="180" form="form1"/>
+							<peg x="482.65" y="149.5" type="water" clip="peg_water_form1" rotation="-150" form="form1"/>
+							<peg x="322" y="345" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="450" y="318.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="450" y="246.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="501" y="354.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="524.5" y="354.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="486" y="331" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="486" y="282.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="486" y="210.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="486" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="509.5" y="210.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="486" y="187" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="414" y="210.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="414" y="234" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="390.5" y="210.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="414" y="187" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="414" y="282.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="399" y="354.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+							<peg x="375.5" y="354.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+							<peg x="414" y="331" type="water" clip="peg_water" rotation="0" form="circle"/>
+				    </pegs>
+				    
+				<baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+				<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+				
+				<bumpers>
+			    	<bumper x="60" y="280" clip="bumperLeft" />
+			  	  <bumper x="650" y="280" clip="bumperRight" />
+			    </bumpers>				
+
+		  	</level> 	
+		  	<level num="22" bulbs="30" balls="10">
+				  <pegs>
+						<peg x="591" y="213" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+						<peg x="193" y="255" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+						<peg x="468" y="195" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="612" y="134" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="288" y="134" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="432" y="301" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="468" y="228" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="468" y="264" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="576" y="326" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="324" y="326" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="706" y="254" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="432" y="193.2" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="510.4" y="214.5" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="562.15" y="213.6" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="389.7" y="215.55" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="340.6" y="213.85" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="510.8" y="168.25" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+						<peg x="389.6" y="169.1" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+						<peg x="332.6" y="134.15" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="567.95" y="134.15" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="620.65" y="213.65" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="279.6" y="214.1" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="609.75" y="294.1" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="572.75" y="294.1" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="329.6" y="295.1" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="292.6" y="295.1" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="699.75" y="295.1" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="199.6" y="296.1" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="189.6" y="214.1" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="709.75" y="214.1" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="468" y="158" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="432" y="228" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="432" y="157" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="468" y="301" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="432" y="265" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="613.4" y="250.3" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="567.75" y="250.4" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="613.45" y="180.95" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="567.8" y="181.05" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="670.5" y="260.95" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="670.35" y="215.25" type="split" clip="peg_split_form2" rotation="90" form="form2"/>
+						<peg x="670.3" y="168.9" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="510.45" y="260.3" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="659.5" y="295.35" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="522.45" y="295.35" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="659.05" y="134" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="522" y="134" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="309" y="215" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="332.35" y="250.3" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="286.7" y="250.4" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="332.4" y="180.95" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="286.75" y="181.05" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="389.45" y="260.95" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="229.4" y="260.3" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="229.25" y="214.6" type="split" clip="peg_split_form2" rotation="90" form="form2"/>
+						<peg x="229.2" y="168.25" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="378.45" y="295.35" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="241.4" y="295.35" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="378" y="134" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="240.95" y="134" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+			     </pegs>			    		
+			    
+
+			       <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+
+				 <branches>
+			    	<branch x="506.5" y="324.45" clip="branch00" />
+			    	<branch x="236.35" y="305" clip="branch" />
+			    </branches>	
+			    
+  			 </level>		 	
+  			 <level num="23" bulbs="30" balls="10">
+			  <pegs>	
+				  <peg x="713" y="218" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="664" y="233" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+					<peg x="438" y="170" type="split" clip="peg_split" rotation="0" form="circle"/>
+					<peg x="455" y="209" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="424" y="209" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="579" y="163" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="543" y="163" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="342" y="162" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="306" y="162" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="173" y="221" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="227" y="235" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+					<peg x="198" y="316" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+					<peg x="702.2" y="315.9" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+					<peg x="235.1" y="319.9" type="water" clip="peg_water_form1" rotation="60" form="form1"/>
+					<peg x="287.8" y="353.1" type="water" clip="peg_water_form1" rotation="0" form="form1"/>
+					<peg x="642" y="345.95" type="flower" clip="peg_flower_form1" rotation="-30" form="form1"/>
+					<peg x="665.15" y="323.85" type="water" clip="peg_water_form1" rotation="-60" form="form1"/>
+					<peg x="608.6" y="353.35" type="water" clip="peg_water_form1" rotation="0" form="form1"/>
+					<peg x="590.1" y="259.8" type="flower" clip="peg_flower_form1" rotation="-30" form="form1"/>
+					<peg x="504" y="234" type="water" clip="peg_water_form1" rotation="60" form="form1"/>
+					<peg x="613.25" y="237.7" type="water" clip="peg_water_form1" rotation="-60" form="form1"/>
+					<peg x="556.7" y="267.2" type="water" clip="peg_water_form1" rotation="0" form="form1"/>
+					<peg x="352.1" y="258.2" type="flower" clip="peg_flower_form1" rotation="-30" form="form1"/>
+					<peg x="266" y="232.4" type="water" clip="peg_water_form1" rotation="60" form="form1"/>
+					<peg x="375.25" y="236.1" type="water" clip="peg_water_form1" rotation="-60" form="form1"/>
+					<peg x="318.7" y="265.6" type="water" clip="peg_water_form1" rotation="0" form="form1"/>
+					<peg x="558" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="324" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="681.1" y="206.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="612" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="710" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="720.6" y="288" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="666" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="180.4" y="285.1" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="288" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="234" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="192" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="208.1" y="207.6" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="702" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="189.2" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="256.75" y="343.6" type="flower" clip="peg_flower_form1" rotation="30" form="form1"/>
+					<peg x="511.3" y="175.1" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="487.3" y="153.1" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="487.3" y="197.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="487.3" y="175.9" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="656.9" y="179.1" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="609.3" y="179.1" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="632.9" y="157.1" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="632.9" y="201.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="525.65" y="257.7" type="flower" clip="peg_flower_form1" rotation="30" form="form1"/>
+					<peg x="632.9" y="179.9" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="273.3" y="173.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="225.7" y="173.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="249.3" y="151.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="249.3" y="195.9" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="249.3" y="174.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="371.3" y="177.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="394.9" y="155.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="394.9" y="199.9" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="287.65" y="256.1" type="flower" clip="peg_flower_form1" rotation="30" form="form1"/>
+					<peg x="394.9" y="178.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+		    </pegs>
+		    
+			    <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+
+				<branches>
+			    	<branch x="419.3" y="253.7" clip="branch01" type="type2"/>
+			    	<branch x="308.25" y="271.8" clip="branch02" type="type2"/>
+			    </branches>	
+			    
+				<bumpers>
+			    	<bumper x="60" y="280" clip="bumperLeft" />
+			  	  <bumper x="650" y="280" clip="bumperRight" />
+			    </bumpers>			    
+  	 </level>
+  	 <level num="24" bulbs="36" balls="10">
+			  <pegs>
+				<peg x="567" y="197.5" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+				<peg x="295.5" y="197.45" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+				<peg x="431" y="323.5" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+				<peg x="431" y="193" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+				<peg x="452" y="258" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="409" y="258" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="504" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="361" y="214" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="293.95" y="278.4" type="flower" clip="peg_flower_form1" rotation="90" form="form1"/>
+				<peg x="576" y="283.75" type="flower" clip="peg_flower_form1" rotation="-90" form="form1"/>
+				<peg x="464.15" y="143.45" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="397.65" y="142.9" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="454.4" y="166.9" type="water" clip="peg_water" rotation="0" form="circle"/>
+				<peg x="410.35" y="165.8" type="water" clip="peg_water" rotation="0" form="circle"/>
+				<peg x="432.65" y="354.5" type="flower" clip="peg_flower_form1" rotation="0" form="form1"/>
+				<peg x="196.75" y="125.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="233" y="107.9" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="269.5" y="126.15" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="268.5" y="162.15" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="234" y="180.15" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="198" y="162.65" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="594.25" y="134.75" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="630.5" y="117.25" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="667" y="135.5" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="666" y="171.5" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="631.5" y="189.5" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="595.5" y="172" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="522" y="144" type="split" clip="peg_split" rotation="0" form="circle"/>
+				<peg x="342" y="144" type="split" clip="peg_split" rotation="0" form="circle"/>
+				<peg x="396" y="378" type="water" clip="peg_water" rotation="0" form="circle"/>
+				<peg x="468" y="378" type="water" clip="peg_water" rotation="0" form="circle"/>
+				<peg x="565.8" y="315.2" type="water" clip="peg_water_form1" rotation="-60" form="form1"/>
+				<peg x="561.25" y="367.25" type="water" clip="peg_water_form1" rotation="-30" form="form1"/>
+				<peg x="509.25" y="344.7" type="flower" clip="peg_flower_form1" rotation="0" form="form1"/>
+				<peg x="333" y="260" type="water" clip="peg_water" rotation="0" form="circle"/>
+				<peg x="534" y="258" type="water" clip="peg_water" rotation="0" form="circle"/>
+				<peg x="467" y="184" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="432" y="166" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="395" y="184" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="646" y="351" type="water" clip="peg_water" rotation="0" form="circle"/>
+				<peg x="646" y="315" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+				<peg x="610" y="333" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="610" y="297" type="water" clip="peg_water" rotation="0" form="circle"/>
+				<peg x="257" y="333" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="257" y="297" type="water" clip="peg_water" rotation="0" form="circle"/>
+				<peg x="221" y="351" type="water" clip="peg_water" rotation="0" form="circle"/>
+				<peg x="221" y="315" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+				<peg x="485.9" y="318.45" type="water" clip="peg_water_form1" rotation="-30" form="form1"/>
+				<peg x="373" y="317" type="water" clip="peg_water_form1" rotation="30" form="form1"/>
+				<peg x="522" y="281" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="535" y="163" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+				<peg x="343" y="281" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="328" y="163" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="234" y="144" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="632" y="154" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="374.45" y="256.9" type="water" clip="peg_water_form1" rotation="60" form="form1"/>
+				<peg x="375.7" y="164.45" type="water" clip="peg_water_form1" rotation="120" form="form1"/>
+				<peg x="431.9" y="134.5" type="water" clip="peg_water_form1" rotation="180" form="form1"/>
+				<peg x="485.1" y="168.05" type="water" clip="peg_water_form1" rotation="-120" form="form1"/>
+				<peg x="483.7" y="260.6" type="water" clip="peg_water_form1" rotation="-60" form="form1"/>
+				<peg x="432.15" y="290.1" type="flower" clip="peg_flower_form1" rotation="0" form="form1"/>
+				<peg x="431.3" y="225.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				<peg x="304.2" y="363.9" type="water" clip="peg_water_form1" rotation="30" form="form1"/>
+				<peg x="301.75" y="310.4" type="water" clip="peg_water_form1" rotation="60" form="form1"/>
+				<peg x="354.45" y="343.6" type="flower" clip="peg_flower_form1" rotation="0" form="form1"/>
+		    </pegs>
+
+		    	<branches>
+			    	<branch x="617.95" y="218.3" clip="branch02" type="type2"/>
+			    	<branch x="93.65" y="200.7" clip="branch01" type="type2"/>
+			    </branches>					
+		    
+			   <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+						
+						<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+  	 </level>
+  	 <level num="25" bulbs="36" balls="10">
+					  <pegs>
+						<peg x="162" y="219.65" type="rock2" clip="peg_rock2" rotation="0" form="circle"/>
+						<peg x="720.55" y="228.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+						<peg x="288" y="288" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="594" y="288" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="288" y="173" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+						<peg x="592" y="246.5" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+						<peg x="162" y="252" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+						<peg x="593" y="173" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="407" y="212" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+						<peg x="288" y="245" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="475" y="360" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="403" y="360" type="water" clip="peg_water_form2" rotation="0" form="form2"/>
+						<peg x="547.2" y="386.4" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="332.4" y="386.4" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="475.2" y="213.65" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+						<peg x="439.2" y="178" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="438.4" y="244" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="520.8" y="318" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="546.4" y="315.6" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="546.7" y="283.6" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="546.4" y="250.6" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+						<peg x="547.2" y="218.3" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="547.2" y="186.3" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="546.5" y="153.8" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+						<peg x="439.2" y="316.3" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="361.8" y="316" type="flower" clip="peg_flower_form2" rotation="0" form="form2"/>
+						<peg x="332" y="313.3" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="332.3" y="281.3" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="332" y="248.3" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+						<peg x="332.8" y="216" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="332.8" y="184" type="water" clip="peg_water_form2" rotation="90" form="form2"/>
+						<peg x="332.1" y="151.5" type="flower" clip="peg_flower_form2" rotation="90" form="form2"/>
+						<peg x="594" y="137.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="288" y="137" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="630" y="264" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="630" y="156" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="252" y="264" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="252" y="156" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="215" y="246" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="216" y="174" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="665" y="246" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="666" y="174" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="442" y="114" type="split" clip="peg_split" rotation="0" form="circle"/>
+						<peg x="594" y="210" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="666" y="210" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="216" y="210" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="288" y="210" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="630" y="192" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="252" y="192" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="252" y="228" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="630" y="228" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="437.55" y="273.25" type="flower" clip="peg_flower_form1" rotation="0" form="form1"/>
+						<peg x="666" y="138" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="666" y="282" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="216" y="138" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="216" y="282" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="440.45" y="213.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="405.8" y="264.5" type="water" clip="peg_water_form1" rotation="30" form="form1"/>
+						<peg x="384.35" y="242.25" type="water" clip="peg_water_form1" rotation="60" form="form1"/>
+						<peg x="375.55" y="211" type="flower" clip="peg_flower_form1" rotation="90" form="form1"/>
+						<peg x="385.35" y="180.05" type="water" clip="peg_water_form1" rotation="120" form="form1"/>
+						<peg x="408.95" y="157.05" type="water" clip="peg_water_form1" rotation="150" form="form1"/>
+						<peg x="440.05" y="149.6" type="flower" clip="peg_flower_form1" rotation="180" form="form1"/>
+						<peg x="469.65" y="158.6" type="water" clip="peg_water_form1" rotation="-150" form="form1"/>
+						<peg x="492.75" y="180.65" type="water" clip="peg_water_form1" rotation="-120" form="form1"/>
+						<peg x="500.9" y="212.7" type="flower" clip="peg_flower_form1" rotation="-90" form="form1"/>
+						<peg x="492.35" y="244.2" type="water" clip="peg_water_form1" rotation="-60" form="form1"/>
+						<peg x="469.8" y="265.75" type="water" clip="peg_water_form1" rotation="-30" form="form1"/>
+				    </pegs>
+				    
+
+				    <branches>
+			    	<branch x="573.2" y="302.5" clip="branch04" type="type2"/>
+			    	<branch x="149.25" y="286.8" clip="branch03" type="type2"/>
+			    </branches>	
+					   <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+		  	</level>
+		  	<level num="26" bulbs="42" balls="10">
+				  <pegs>
+						<peg x="322" y="361.5" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+						<peg x="586" y="360" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+						<peg x="486" y="363" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="414" y="363" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="450" y="108" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="514.25" y="129.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="482" y="116" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="384" y="129" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="417.5" y="115.7" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="702" y="287" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="704" y="223" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="684" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="187.5" y="241.6" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="202" y="274" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="540" y="360" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="360" y="360" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="540.5" y="207.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="540" y="279" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="540.25" y="243.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="354.5" y="206.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="354" y="276" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="354.25" y="240.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="450" y="210" type="split" clip="peg_split" rotation="0" form="circle"/>
+						<peg x="445.5" y="274.5" type="bonusBasket" clip="peg_bonusBasket_form1" rotation="0" form="form1"/>
+						<peg x="280" y="251" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="616" y="256" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="666" y="162" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="198" y="165" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="482.25" y="150.55" type="flower" clip="peg_flower_form1" rotation="-150" form="form1"/>
+						<peg x="419" y="148" type="flower" clip="peg_flower_form1" rotation="150" form="form1"/>
+						<peg x="486.35" y="193.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="450.7" y="176.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="413" y="194.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="483" y="230.25" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="449.35" y="247.25" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="413.65" y="231.45" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="316.25" y="200" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="315.75" y="269.7" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="245.2" y="269.25" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="245.7" y="233.75" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="652" y="237.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="651.05" y="272.95" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="580.5" y="272.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="581" y="237" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="580" y="201" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="616" y="219" type="split" clip="peg_split" rotation="0" form="circle"/>
+						<peg x="280" y="217" type="split" clip="peg_split" rotation="0" form="circle"/>
+						<peg x="176" y="210" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="706" y="190" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="706" y="143" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="524" y="320" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="376" y="320" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="652" y="199" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="245.5" y="199" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="544" y="148" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="352" y="147" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="316" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="468" y="339" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="432" y="339" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="280" y="288" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="316" y="164" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="280" y="182" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="504" y="290" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="396" y="290" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="616" y="183" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="616" y="291" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="580" y="165" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="415.1" y="265.95" type="water" clip="peg_water_form1" rotation="30" form="form1"/>
+						<peg x="394.9" y="171" type="water" clip="peg_water_form1" rotation="120" form="form1"/>
+						<peg x="451.1" y="141.05" type="hotshot" clip="peg_hotshot_form1" rotation="180" form="form1"/>
+						<peg x="504.3" y="174.6" type="water" clip="peg_water_form1" rotation="-120" form="form1"/>
+						<peg x="477.35" y="268.2" type="water" clip="peg_water_form1" rotation="-30" form="form1"/>
+						<peg x="445.35" y="315.65" type="water" clip="peg_water_form1" rotation="0" form="form1"/>
+						<peg x="450" y="360" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+			     </pegs>			    		
+			    
+			      <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+				
+				<branches>
+					<branch x="171.45" y="287.55" clip="branch"/>
+					<branch x="643.95" y="265.3" clip="branch02"/>
+				</branches>				
+  			 </level>
+	<level num="27" bulbs="52" balls="10">
+			  <pegs>	
+					<peg x="435" y="321" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="437.95" y="388" type="flower" clip="peg_flower_form1" rotation="0" form="form1"/>
+					<peg x="559.6" y="295.5" type="bonusBasket" clip="peg_bonusBasket_form1" rotation="-90" form="form1"/>
+					<peg x="314" y="155.4" type="split" clip="peg_split" rotation="0" form="circle"/>
+					<peg x="573" y="156.9" type="split" clip="peg_split" rotation="0" form="circle"/>
+					<peg x="437" y="293" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="468.05" y="255" type="water" clip="peg_water_form1" rotation="60" form="form1"/>
+					<peg x="405.5" y="256.1" type="water" clip="peg_water_form1" rotation="-60" form="form1"/>
+					<peg x="437" y="198" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+					<peg x="521" y="114" type="water" clip="peg_water_form1" rotation="0" form="form1"/>
+					<peg x="553.25" y="106.3" type="water" clip="peg_water_form1" rotation="-30" form="form1"/>
+					<peg x="357.5" y="111.5" type="water" clip="peg_water_form1" rotation="0" form="form1"/>
+					<peg x="326" y="101.5" type="water" clip="peg_water_form1" rotation="30" form="form1"/>
+					<peg x="170.5" y="148.05" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="201.7" y="140" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="231.5" y="131.5" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="261" y="123.5" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="289" y="117.5" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="187.25" y="184.55" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="222.25" y="170" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="254" y="157.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="284" y="144" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="311.5" y="131" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="234" y="269" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="213.25" y="226.4" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="266.75" y="187.9" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="240.25" y="204.9" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="290.75" y="170.9" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="336" y="139.15" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="270" y="233" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="306" y="197" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="342" y="161" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="252" y="251" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="288" y="215" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="324" y="179" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="360" y="143" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="716" y="158.05" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="685" y="146" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="656" y="135.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="622.5" y="124.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="593.5" y="118.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="696.25" y="189.55" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="663.25" y="177" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="634.5" y="164.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="603.5" y="147" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="571" y="132" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="648.5" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="676.25" y="228.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="620.75" y="194.9" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="647.25" y="212.9" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="597.75" y="176.9" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="546.5" y="140.15" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="612.5" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="576.5" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="540.5" y="162" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="630.5" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="594.5" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="558.5" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="522.5" y="144" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="437.5" y="266" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="504.5" y="293" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="370.5" y="292" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="410.5" y="320" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="464.5" y="320" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="331.85" y="235.1" type="flower" clip="peg_flower_form1" rotation="120" form="form1"/>
+					<peg x="541.25" y="238.7" type="flower" clip="peg_flower_form1" rotation="-120" form="form1"/>
+					<peg x="498.85" y="356.75" type="flower" clip="peg_flower_form1" rotation="-60" form="form1"/>
+					<peg x="379.6" y="351.05" type="flower" clip="peg_flower_form1" rotation="60" form="form1"/>
+					<peg x="438.05" y="173.65" type="bumpers" clip="peg_bumpers_form1" rotation="180" form="form1"/>
+					<peg x="312.3" y="291.55" type="water" clip="peg_water_form1" rotation="90" form="form1"/>
+					<peg x="385.95" y="207.6" type="water" clip="peg_water_form1" rotation="150" form="form1"/>
+					<peg x="438.05" y="229.65" type="flower" clip="peg_flower_form1" rotation="180" form="form1"/>
+					<peg x="489.15" y="209.15" type="flower" clip="peg_flower_form1" rotation="-150" form="form1"/>
+					<peg x="437.3" y="356.25" type="water" clip="peg_water_form1" rotation="0" form="form1"/>
+		    </pegs>
+		    
+			    <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+						<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+			    
+				<bumpers>
+			    	<bumper x="60" y="280" clip="bumperLeft" />
+			  	  <bumper x="650" y="280" clip="bumperRight" />
+			    </bumpers>
+			    
+  	 </level>	
+ 			<level num="28" bulbs="40" balls="10">
+				  <pegs>
+						<peg x="553" y="274" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+						<peg x="438.7" y="342" type="rock4" clip="peg_rock4" rotation="0" form="circle"/>
+						<peg x="319.55" y="277.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+						<peg x="573" y="325" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+						<peg x="622" y="326" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="665" y="326" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="702" y="144" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="666" y="99" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="594" y="99" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="540" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="504" y="216" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="419" y="179" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="462" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="418" y="250" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="464" y="251" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="418" y="215" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="464" y="216" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="418" y="143" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="464" y="144" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="441" y="305" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="298" y="324" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+						<peg x="379" y="214" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="342" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="270" y="99" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="202" y="100" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="180" y="144" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="216" y="324" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="256" y="324" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="300" y="146.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="577" y="146.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="375" y="143" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="504" y="144" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="661" y="252" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+						<peg x="258.9" y="183" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+						<peg x="217" y="252" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+						<peg x="706.5" y="252" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+						<peg x="702.5" y="324" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="378" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="659" y="290" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="619" y="256" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="579" y="220" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="538.5" y="184.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="360" y="342" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="218" y="288" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="174" y="324" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="258" y="255" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="300.5" y="219" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="342.5" y="183" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="174" y="288" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="174.5" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="705" y="288" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="620" y="183" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="519" y="342" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="441" y="126" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="481" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="441" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="441" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="441" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="405" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="441" y="162" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="703" y="184" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="660.5" y="148" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="576.5" y="184" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="661.5" y="184" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="660.5" y="220" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="619" y="220" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="619" y="147.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="502" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="177.5" y="184" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="217.5" y="147" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="218.5" y="219" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="216" y="183" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="301" y="183" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="258.5" y="219" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="258.5" y="146.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+			    </pegs>
+			    
+			      <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+					<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+				
+				<bumpers>
+			    	<bumper x="60" y="280" clip="bumperLeft" />
+			  	  <bumper x="650" y="280" clip="bumperRight" />
+			    </bumpers>				
+			    
+  			 </level>	
+  			 <level num="29" bulbs="40" balls="10">
+				  <pegs>
+					<peg x="324.55" y="176.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+					<peg x="324.55" y="266.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+					<peg x="488.7" y="327.5" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+					<peg x="414.55" y="329.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+					<peg x="625" y="178" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+					<peg x="244" y="123.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="220" y="125" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="256.5" y="148" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="234" y="168" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="210.5" y="148.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="426" y="288" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="401.5" y="298" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="498.5" y="295.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="473" y="288" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="451" y="345" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="450.5" y="321.75" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="450.5" y="298.75" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="400" y="254" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="234" y="306" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+					<peg x="234" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="270" y="288" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="270" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="270" y="216" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="270" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="234" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="234" y="198" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="198" y="288" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="198" y="252" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="198" y="216" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="198" y="180" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="451" y="136.1" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+					<peg x="383.5" y="273.8" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="473" y="261.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="450.5" y="276.3" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="426" y="261.8" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="450" y="369" type="extra" clip="peg_extra" rotation="0" form="circle"/>
+					<peg x="512" y="272.55" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+					<peg x="496.5" y="252.05" type="split" clip="peg_split" rotation="0" form="circle"/>
+					<peg x="233" y="143" type="split" clip="peg_split" rotation="0" form="circle"/>
+					<peg x="658.1" y="252.75" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="681.05" y="225" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="607.05" y="270.75" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="653.6" y="218.25" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="630" y="243" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="601.95" y="237.5" type="water" clip="peg_water" rotation="NaN" form="circle"/>
+					<peg x="578.35" y="262.25" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+					<peg x="379.75" y="229.25" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="380" y="205.8" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="380" y="181.8" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="518.5" y="230.45" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="518.75" y="207" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="518.75" y="183" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="494.5" y="160.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="473" y="146.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="425.9" y="148" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="403.5" y="160.5" type="water" clip="peg_water" rotation="0" form="circle"/>
+					<peg x="472.5" y="238.05" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="450" y="253.05" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="425.5" y="238.55" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="474" y="169" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="450" y="160" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="426.1" y="171" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="494.6" y="183.95" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="495.1" y="229" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="495.1" y="207" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="403.1" y="183.5" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="403.6" y="228.55" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="403.6" y="206.55" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="426" y="216.05" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="426" y="194.05" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="450" y="230.05" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="473" y="215.05" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="473" y="193.05" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="450" y="184" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+					<peg x="450" y="207" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+				  			     
+			     </pegs>	
+			    
+			       <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+					<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+			     <branches>
+				    <branch x="534.85" y="321.25" clip="branch00" type="type2"/>
+			    </branches>
+  			 </level> 	
+  			 
+  			 	 <level num="30" bulbs="30" balls="10">
+					  <pegs>			     					
+						<peg x="324.55" y="374.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+						<peg x="576.55" y="374.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+						<peg x="319" y="133" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+						<peg x="639.4" y="157.7" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+						<peg x="517" y="159" type="rock3" clip="peg_rock3" rotation="0" form="circle"/>
+						<peg x="252.55" y="161.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+						<peg x="378.55" y="158.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+						<peg x="576.55" y="139.1" type="rock1" clip="peg_rock1" rotation="0" form="circle"/>
+						<peg x="198" y="216" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="180" y="234" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="720" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="702" y="216" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="234" y="252" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="216" y="270" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="198" y="252" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="702" y="252" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="684" y="270" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="666" y="252" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="432" y="384" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="450.15" y="370.8" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+						<peg x="684" y="162" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="198" y="162" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="450" y="289.25" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="522" y="306" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="378" y="306" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="685" y="233.5" type="bonusBasket" clip="peg_bonusBasket" rotation="0" form="circle"/>
+						<peg x="702" y="176.4" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="180" y="180" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="666" y="288" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="252" y="306" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="648" y="270" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="630" y="288" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="630" y="252" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="648" y="234" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="612" y="270" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="648" y="306" type="flower" clip="peg_flower" rotation="NaN" form="circle"/>
+						<peg x="252" y="269" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="270" y="287" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="270" y="252" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="252" y="234" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="468" y="384" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="288" y="270" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="234" y="288" type="flower" clip="peg_flower" rotation="0" form="circle"/>
+						<peg x="216" y="234" type="hotshot" clip="peg_hotshot" rotation="0" form="circle"/>
+						<peg x="379.5" y="369" type="water" clip="peg_water_form1" rotation="60" form="form1"/>
+						<peg x="371.7" y="337.25" type="water" clip="peg_water_form1" rotation="90" form="form1"/>
+						<peg x="525.05" y="340.55" type="water" clip="peg_water_form1" rotation="-90" form="form1"/>
+						<peg x="515.5" y="372.05" type="water" clip="peg_water_form1" rotation="-60" form="form1"/>
+						<peg x="450" y="344" type="bumpers" clip="peg_bumpers" rotation="0" form="circle"/>
+						<peg x="406" y="295.6" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="494" y="295.55" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="428.2" y="267.2" type="water" clip="peg_water_form1" rotation="-60" form="form1"/>
+						<peg x="470.85" y="264.25" type="water" clip="peg_water_form1" rotation="60" form="form1"/>
+						<peg x="684" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="666" y="216" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="450.95" y="318.05" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="235" y="213.85" type="water" clip="peg_water" rotation="0" form="circle"/>
+						<peg x="216" y="198" type="water" clip="peg_water" rotation="0" form="circle"/>
+
+				    </pegs>
+
+				    <branches>
+				    <branch x="318.35" y="192.75" clip="branch02" type="type2"/>
+					<branch x="428.05" y="181.15" clip="branch01" type="type2"/>
+			    </branches> 	
+				    
+					   <baskets>
+					<basket clip="basket3" left="300" right="580" point="50" y="425" speed="2"/>
+				</baskets>
+					<gameZones>
+							<gameZone clip="Left_snow_edge3" x="103" y="89"/>
+							<gameZone clip="Right_snow_edge3" x="732.1" y="43.8"/>
+				</gameZones>
+				
+				<bumpers>
+			    	<bumper x="60" y="280" clip="bumperLeft" />
+			  	  <bumper x="650" y="280" clip="bumperRight" />
+			    </bumpers>
+		  	</level>		
+		</levels>
+	</config>
+</panel>

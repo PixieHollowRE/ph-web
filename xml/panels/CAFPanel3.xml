@@ -1,0 +1,291 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/caf3.swf</swf>
+		<swf type="code">{panelCode}/caf3.swf</swf>
+	</swfs>
+	<copy>
+
+		<fbDialogTitle>Post Photo &amp; Message to Facebook?</fbDialogTitle>
+		<fbDestination>All Pixie Hollow photo uploads are kept in the Disney Fairies Pixie Hollow photo album.</fbDestination>
+		<fbCaptionPrefix>&lt;font color='#FFFF00'&gt;Message: &lt;/font&gt;</fbCaptionPrefix>
+		<fbCancelBtn>Cancel</fbCancelBtn>
+		<fbConfirmBtn>Post</fbConfirmBtn>
+
+		<introText>Have you ever wondered how nature gets its glow? Who gives it light and color as the seasons come and go? This is the work of Fairies, but they stay well out of sight. And now the time has come for your Fairy to take flight.</introText>
+		<clarionName>Queen Clarion</clarionName>
+
+
+		<!-- gender items -->
+		<singularFemaleAvatar>Fairy</singularFemaleAvatar>
+		<singularMaleAvatar>Sparrow Man</singularMaleAvatar>
+		<pluralFemaleAvatar>Fairies</pluralFemaleAvatar>
+		<pluralMaleAvatar>Sparrow Men</pluralMaleAvatar>
+
+		<genderSceneDefault>Please Pick One</genderSceneDefault>
+		<genderSceneChosen>#AVATAR#</genderSceneChosen>
+
+		<!-- Menu Labels -->
+		<menuBackLabel>Back</menuBackLabel>
+		<menuNextLabel>Next</menuNextLabel>
+
+		<!-- as of sparrowmen, these are our "tabs" -->
+		<menuTab1>Gender</menuTab1>
+		<menuTab2>Face</menuTab2>
+		<menuTab3>Hairstyle</menuTab3>
+		<menuTab4>Wings Style</menuTab4>
+		<menuTab5>Size</menuTab5>
+		<menuTab6>Fairy Talents</menuTab6>
+		<menuTab7>Name Your Fairy</menuTab7>
+
+		<!-- Save Screen -->
+		<savepanelSiteClosed>Ooops! The Hollow is not currently available. We have saved your Fairy. Please try and fly in later!</savepanelSiteClosed>
+		<savepanelSiteClosedButton>Back</savepanelSiteClosedButton>
+
+		<!--Labels for Scene1-->
+		<scene1Animal target="scene1MC.animal.hit.field"></scene1Animal>
+		<scene1Garden target="scene1MC.garden.hit.field"></scene1Garden>
+		<scene1Light target="scene1MC.light.hit.field"></scene1Light>
+		<scene1Water target="scene1MC.water.hit.field"></scene1Water>
+		<scene1Tinker target="scene1MC.tinker.hit.field"></scene1Tinker>
+
+		<scene1DefaultHeading>Choose Your Talent</scene1DefaultHeading>
+
+		<scene1LightHeading>Light-Talent</scene1LightHeading>
+		<scene1LightDescription>Light-talents keep Pixie Hollow aglow! They are strong, natural leaders who add sparkle wherever they go.</scene1LightDescription>
+		<scene1WaterHeading>Water-Talent</scene1WaterHeading>
+		<scene1WaterDescription>Water-talents love to be by the water. They have a mellow, "go with the flow" type of attitude.</scene1WaterDescription>
+		<scene1GardenHeading>Garden-Talent</scene1GardenHeading>
+		<scene1GardenDescription>Garden-talents appreciate nature's beauty. They have a special relationship with all plant-life and love the outdoors.</scene1GardenDescription>
+		<scene1AnimalHeading>Animal-Talent</scene1AnimalHeading>
+		<scene1AnimalDescription>Animal-talents adore animals of all kinds. They are adventurous explorers and loyal, caring friends.</scene1AnimalDescription>
+		<scene1TinkerHeading>Tinker-Talent</scene1TinkerHeading>
+		<scene1TinkerDescription>Tinker-talents are best at fixing things. They are dedicated problem solvers and creative thinkers.</scene1TinkerDescription>
+
+		<!-- Scene2 Tab Labels -->
+		<scene2Heading1 target="scene2MC.heading1">Face</scene2Heading1>
+		<scene2Heading2 target="scene2MC.heading2">Hair</scene2Heading2>
+		<scene2Heading3 target="scene2MC.heading3">Wings</scene2Heading3>
+		<scene2Heading4 target="scene2MC.heading4">Size</scene2Heading4>
+
+		<!-- Scene2 Size Labels -->
+		<scene2TabsSize_ShortCaption target="scene2MC.tabs.tabsize.ShortCaption">Short</scene2TabsSize_ShortCaption>
+		<scene2TabsSize_ShorterCaption target="scene2MC.tabs.tabsize.ShorterCaption">Shorter</scene2TabsSize_ShorterCaption>
+		<scene2TabsSize_RulerTopLabel target="scene2MC.tabs.tabsize.rulertoplabel">5 1/2"</scene2TabsSize_RulerTopLabel>
+		<scene2TabsSize_RulerMidLabel target="scene2MC.tabs.tabsize.rulermidlabel">5"</scene2TabsSize_RulerMidLabel>
+		<scene2TabsSize_RulerBottomLabel target="scene2MC.tabs.tabsize.rulerbottomlabel">4 1/2"</scene2TabsSize_RulerBottomLabel>
+		<scene2TabsSize_RulerLittleCaption target="scene2MC.tabs.tabsize.LittleCaption">Little</scene2TabsSize_RulerLittleCaption>
+		<scene2TabsSize_RulerLittlerCaption target="scene2MC.tabs.tabsize.LittlerCaption">Littler</scene2TabsSize_RulerLittlerCaption>
+		<scene2TabsSize_RulerCaption target="scene2MC.tabs.tabsize.rulercaption">#AVATARS# are about 5 inches tall.</scene2TabsSize_RulerCaption>
+
+		<!-- Scene2 Face Labels -->
+		<scene2TabsFace_Face target="scene2MC.tabs.tabface.FaceCaption">Face</scene2TabsFace_Face>
+		<scene2TabsFace_SkinColor target="scene2MC.tabs.tabface.SkinColorCaption">Skin Color</scene2TabsFace_SkinColor>
+		<scene2TabsFace_EyeColor target="scene2MC.tabs.tabface.EyeColorCaption">Eye Color</scene2TabsFace_EyeColor>
+
+		<!-- Scene2 Hair Labels -->
+		<scene2TabsHair_HairFront target="scene2MC.tabs.tabhair.HairFrontCaption">Hair Front</scene2TabsHair_HairFront>
+		<scene2TabsHair_HairBack target="scene2MC.tabs.tabhair.HairBackCaption">Hair Back</scene2TabsHair_HairBack>
+		<scene2TabsHair_HairColor target="scene2MC.tabs.tabhair.HairColorCaption">Hair Color</scene2TabsHair_HairColor>
+
+		<!-- Scene2 Wing Labels -->
+		<scene2TabsWings_Wings target="scene2MC.tabs.tabwing.WingsCaption">Wings</scene2TabsWings_Wings>
+
+		<!-- Scene4 Labels -->
+		<scene4FirstToggleLabel target="scene4MC.firsttogglelabel">First Name</scene4FirstToggleLabel>
+		<scene4LastToggleLabel target="scene4MC.lasttogglelabel">Last Name</scene4LastToggleLabel>
+		<scene4RandomLabel target="scene4MC.random.caption">Pick For Me</scene4RandomLabel>
+		<scene4SaveLabel target="scene4MC.save.caption">Save this Fairy</scene4SaveLabel>
+		
+		<!-- Misc -->
+		<saveFail>Something is wrong. Try saving later!</saveFail>
+		<tinkTipsText1 target="tinkbutton.tinksTip1">Tink's</tinkTipsText1>
+		<tinkTipsText2 target="tinkbutton.tinksTip2">Tips</tinkTipsText2>
+		
+		<greetingNextConfirm>NEXT</greetingNextConfirm>
+		<greetingOKConfirm>NEXT</greetingOKConfirm>
+
+		<!-- use ### to separate multiple screens of text... -->
+		<sceneTalent_clarionSpeech>Born of laughter, clothed in cheer, happiness has brought you here. Welcome to Pixie Hollow! Now prepare yourself - the biggest decision of all is next.</sceneTalent_clarionSpeech>
+
+		<!-- ANIMAL=0, GARDEN=1, LIGHT=2, WATER=3, TINKER=4 -->
+		<sceneName_talentSpeech0>Heya, chickadee! I'm Fawn, the mentor Fairy for all the animal-talents. I'm so glad you're here! What's your name?</sceneName_talentSpeech0>
+		<sceneName_talentSpeech1>You're just as darling as a daisy! I'm Rosetta, and I'm the mentor Fairy for all the garden-talents. I'm so glad you're here! What's your name, sugar?</sceneName_talentSpeech1>
+		<sceneName_talentSpeech2>Hi, sunshine! I'm Iridessa, the mentor Fairy for all the light-talents. I'm so glad you're here! So, what's your name?</sceneName_talentSpeech2>
+		<sceneName_talentSpeech3>Fly with you, raindrop! I'm Silvermist, the mentor Fairy for all the water-talents. I'm so glad you're here! What's your name?</sceneName_talentSpeech3>
+		<sceneName_talentSpeech4>Flitterific to meet you! I'm Tinker Bell, the mentor Fairy for all the tinker-talents. But you can call me Tink. I'm so glad you're here! What's your name?</sceneName_talentSpeech4>
+		
+		<labelFairy0>Fawn</labelFairy0>
+		<labelFairy1>Rosetta</labelFairy1>
+		<labelFairy2>Iridessa</labelFairy2>
+		<labelFairy3>Silvermist</labelFairy3>
+		<labelFairy4>Tinker Bell</labelFairy4>
+		
+		<skip target="skipbutton.caption">Skip this tutorial</skip>
+		<sceneMapTutorial_dialogNext>NEXT</sceneMapTutorial_dialogNext>
+		<!--<sceneMapTutorial_dialogNext2>Show Me All Games</sceneMapTutorial_dialogNext2>
+		<sceneMapTutorial_dialogNext3>Show Me All Quest Givers</sceneMapTutorial_dialogNext3>
+		<sceneMapTutorial_dialogNext4>NEXT</sceneMapTutorial_dialogNext4>
+		<sceneMapTutorial_dialogNext5>Show Me All Shops</sceneMapTutorial_dialogNext5>
+		<sceneMapTutorial_dialogNext6>NEXT</sceneMapTutorial_dialogNext6>
+		<sceneMapTutorial_dialogNext7>NEXT</sceneMapTutorial_dialogNext7>
+		<sceneMapTutorial_dialogNext8>NEXT</sceneMapTutorial_dialogNext8>-->
+		
+		<sceneMapTutorial_talent0Speech0>We animal-talents have a lot to do to prepare the seasons and I for one am glad to have your help!</sceneMapTutorial_talent0Speech0>
+		<sceneMapTutorial_talent0Speech1>Taking the seasons to the mainland is what we do. It's a pack of fun - summer, autumn, winter and spring. And none of them change without us.</sceneMapTutorial_talent0Speech1>
+		<sceneMapTutorial_talent0Speech2>Now comes the fun part. I'm gonna show you where to go and what to do! Start by using the compass here to open the map so you can see the whole Hollow!</sceneMapTutorial_talent0Speech2>
+		<sceneMapTutorial_talent0Speech3>Wow! I gotta come up here more often - it's beautiful. Not to mention, you can go anywhere from here. By the way, do you like to play games?</sceneMapTutorial_talent0Speech3>
+		<sceneMapTutorial_talent0Speech4>I thought you did. We play a lot of talent games around here - it's a great way to get work done. See? Games like Bubble Bounce, where you help Silvermist bounce cute little fish up the waterfall in Soapstone Stream.</sceneMapTutorial_talent0Speech4>
+		<sceneMapTutorial_talent0Speech5>Lots of places in Pixie Hollow have games to play - I mean, just look at all the signs!</sceneMapTutorial_talent0Speech5>
+		<sceneMapTutorial_talent0Speech6>Let's see, what's next... oh, yeah! This is where you can find me and my friends. It seems like we always need help, so don't be shy - just drop by.</sceneMapTutorial_talent0Speech6>
+		<sceneMapTutorial_talent0Speech7>Uh-oh, I almost forgot. Brook's Basics! You can get your first outfit here. There's a lot to choose from and it's all really pretty.</sceneMapTutorial_talent0Speech7>
+		<sceneMapTutorial_talent0Speech8>Of course, you can find lots of other stuff at different shops in Pixie Hollow - jewelry, clothes, furniture - you name it.</sceneMapTutorial_talent0Speech8>
+		<sceneMapTutorial_talent0Speech9>Hey, since it's your Arrival Day and all, lemme give you a welcome-to-the-Hollow gift. These are for you. First outfit from Brook's, here you come.</sceneMapTutorial_talent0Speech9>
+		<sceneMapTutorial_talent0Speech10>Okay, I think you're just about ready to fly by yourself now. I'll take you to Dewdrop Vale - there's lots to do there. You can go to a shop or play a talent game.</sceneMapTutorial_talent0Speech10>
+		<sceneMapTutorial_talent0Speech11>Remember, you'll need to use the compass when you're ready to see more of Pixie Hollow. Fly with you later!</sceneMapTutorial_talent0Speech11>
+		<sceneMapTutorial_talent1Speech0>Now, we garden-talents need all the help we can get preparing the seasons. </sceneMapTutorial_talent1Speech0>
+		<sceneMapTutorial_talent1Speech1>That's what we do, you know - we bring each season to the mainland: spring, summer, autumn and winter. But without you, the seasons won't change! </sceneMapTutorial_talent1Speech1>
+		<sceneMapTutorial_talent1Speech2>So I guess I'd better show you where to go and what to do. This here's a compass. Use it to open the map to see the entire Hollow!</sceneMapTutorial_talent1Speech2>
+		<sceneMapTutorial_talent1Speech3>Pretty good view, huh? From up here you can go anywhere in Pixie Hollow. Say, do you like to play games?</sceneMapTutorial_talent1Speech3>
+		<sceneMapTutorial_talent1Speech4>It takes a lot of work to help the seasons come and go, and around here, work is play! Playing talent games helps you get things done! Like this game - Bubble Bounce. You can help Silvermist bounce fish up the waterfall in Soapstone Stream!</sceneMapTutorial_talent1Speech4>
+		<sceneMapTutorial_talent1Speech5>Honey, you can play talent games all over Pixie Hollow. And here they are, marked by these signs!</sceneMapTutorial_talent1Speech5>
+		<sceneMapTutorial_talent1Speech6>All righty, what's next on the list...? Oh, that's right! This is where you can find me and my friends. Seems like we always need help, so don't be shy about dropping by.</sceneMapTutorial_talent1Speech6>
+		<sceneMapTutorial_talent1Speech7>Oh, one last thing, sugar. You'll want to start your wardrobe off right so... Time to get your first outfit! Just look! Beautiful, aren't they?</sceneMapTutorial_talent1Speech7>
+		<sceneMapTutorial_talent1Speech8>Of course, there are other shops in Pixie Hollow that have clothes, jewelry, furniture, and all sorts of other things.</sceneMapTutorial_talent1Speech8>
+		<sceneMapTutorial_talent1Speech9>Hold on - today's your Arrival Day, isn't it? I think the occasion calls for a little welcome gift. These are for you. Use them to get that first outfit at Brook's Basics!</sceneMapTutorial_talent1Speech9>
+		<sceneMapTutorial_talent1Speech10>Well, sugar, I think you're ready to fly on your own now. I'll drop you off in Dewdrop Vale where you can play a game or do a little shopping.</sceneMapTutorial_talent1Speech10>
+		<sceneMapTutorial_talent1Speech11>Remember, use the compass when you want to see more of Pixie Hollow. Fly with you later!</sceneMapTutorial_talent1Speech11>
+		<sceneMapTutorial_talent2Speech0>Brilliant! Another light-talent Fairy to help us prepare the seasons!</sceneMapTutorial_talent2Speech0>
+		<sceneMapTutorial_talent2Speech1>You know that's what we do, right? Bringing the seasons to the mainland? Not a summer, autumn, winter, or spring changes without us.</sceneMapTutorial_talent2Speech1>
+		<sceneMapTutorial_talent2Speech2>You're going to need to see the whole Hollow before we get to work, so... use the compass to open the map and you'll have the perfect view.</sceneMapTutorial_talent2Speech2>
+		<sceneMapTutorial_talent2Speech3>Now that's quite a view - not to mention, from up here you can go anywhere in Pixie Hollow! I was wondering, do you like to play games?</sceneMapTutorial_talent2Speech3>
+		<sceneMapTutorial_talent2Speech4>It isn't easy to change the seasons - it takes a lot of work. And around here, we play talent games to get it done. Talent games like Bubble Bounce. You and Silvermist bounce little fish up the waterfall in Soapstone Stream.</sceneMapTutorial_talent2Speech4>
+		<sceneMapTutorial_talent2Speech5>You see these signs? They mark all the different talent games you can play.</sceneMapTutorial_talent2Speech5>
+		<sceneMapTutorial_talent2Speech6>Okay, what's next? Oh, right! Here's where you can find me and my friends! We'll always need your help with something, so stop by and visit!</sceneMapTutorial_talent2Speech6>
+		<sceneMapTutorial_talent2Speech7>One last thing, sunshine. Be sure to come here to start your wardrobe off right. I guarantee there's something special just for you.</sceneMapTutorial_talent2Speech7>
+		<sceneMapTutorial_talent2Speech8>Oh - you should know there are other shops in Pixie Hollow too. You can find things like clothes, jewelry, and furniture!</sceneMapTutorial_talent2Speech8>
+		<sceneMapTutorial_talent2Speech9>Wait! I just have to give you an Arrival Day gift! These are for you. You can use them to buy that first outfit at Brook's Basics.</sceneMapTutorial_talent2Speech9>
+		<sceneMapTutorial_talent2Speech10>Let's see... yes, you're definitely ready to fly on your own now. How about I drop you off in Dewdrop Vale? It's a great place to shop and play a talent game.</sceneMapTutorial_talent2Speech10>
+		<sceneMapTutorial_talent2Speech11>Don't forget to use the compass when you want to see more of Pixie Hollow. Fly with you later!</sceneMapTutorial_talent2Speech11>
+		<sceneMapTutorial_talent3Speech0>Wonderful. The water-talents could really use another set of wings to help us prepare the seasons.</sceneMapTutorial_talent3Speech0>
+		<sceneMapTutorial_talent3Speech1>It takes a lot of talented talents to change the seasons on the mainland - summer, autumn, winter, spring... Without our help, they wouldn't change!</sceneMapTutorial_talent3Speech1>
+		<sceneMapTutorial_talent3Speech2>Okay, next...? Oh, right! I need to show you where to go and what to do! Use this compass-thingie to open the map so you can see the whole Hollow!</sceneMapTutorial_talent3Speech2>
+		<sceneMapTutorial_talent3Speech3>Just look at this view. From here you can go anywhere in Pixie Hollow. Oh, I almost forgot - do you like games?</sceneMapTutorial_talent3Speech3>
+		<sceneMapTutorial_talent3Speech4>Helping the seasons change takes a lot of work. Here in Pixie Hollow we play talent games to get the work done! Like this game - Bubble Bounce. We bounce fish up the waterfall in Soapstone Stream!</sceneMapTutorial_talent3Speech4>
+		<sceneMapTutorial_talent3Speech5>There are talent games all over Pixie Hollow for you to play, see? Just look at the signs.</sceneMapTutorial_talent3Speech5>
+		<sceneMapTutorial_talent3Speech6>Hmm, what's next... ? Oh, got it! Here's where you can find me and my friends! We'll always need your help with something, so stop by and visit!</sceneMapTutorial_talent3Speech6>
+		<sceneMapTutorial_talent3Speech7>One last important thing... You'll want to start your wardrobe off right, right? Here's where to get your first outfit. It's all just so pretty!</sceneMapTutorial_talent3Speech7>
+		<sceneMapTutorial_talent3Speech8>If you need anything else, there are other shops in Pixie Hollow, too. You can get furniture, clothes, jewelry - all sorts of things.</sceneMapTutorial_talent3Speech8>
+		<sceneMapTutorial_talent3Speech9>Wait - it's your Arrival Day, right? I need to give you a gift! These are for you. You can use them at Brook's Basics to get your first outfit.</sceneMapTutorial_talent3Speech9>
+		<sceneMapTutorial_talent3Speech10>Well, raindrop, I think you're ready to try those wings by yourself. I'll take you over to Dewdrop Vale. You can play a talent game or maybe do some shopping.</sceneMapTutorial_talent3Speech10>
+		<sceneMapTutorial_talent3Speech11>Remember, use the compass when you want to see more of Pixie Hollow. Fly with you later!</sceneMapTutorial_talent3Speech11>
+		<sceneMapTutorial_talent4Speech0>Flitteriffic! I love being a Tinker - and you will too. And you can help us prepare the seasons!</sceneMapTutorial_talent4Speech0>
+		<sceneMapTutorial_talent4Speech1>I mean, that's what we do - we bring each season to the mainland, spring, summer, autumn and winter. But without you, the seasons won't change!</sceneMapTutorial_talent4Speech1>
+		<sceneMapTutorial_talent4Speech2>I'd better show you where to go and what to do. This is a compass - pretty great, huh? Use it to open the map so you can see all of Pixie Hollow.</sceneMapTutorial_talent4Speech2>
+		<sceneMapTutorial_talent4Speech3>Now THIS is a view! And you know the best part? From here you can go anywhere in the Hollow. Oh, I almost forgot - do you like games?</sceneMapTutorial_talent4Speech3>
+		<sceneMapTutorial_talent4Speech4>You see, there's a wagonload of work to do, and playing talent games helps us get it done. One of the games is Bubble Bounce! You play by helping Silvermist bounce little fish up the waterfall in Soapstone Stream.</sceneMapTutorial_talent4Speech4>
+		<sceneMapTutorial_talent4Speech5>You can play talent games all over Pixie Hollow - see them, marked by all the signs?</sceneMapTutorial_talent4Speech5>
+		<sceneMapTutorial_talent4Speech6>Hm, what do you need to know next...? Oh, right! This is where you can find me and my friends. Stop here for a visit - we can always use your help with something!</sceneMapTutorial_talent4Speech6>
+		<sceneMapTutorial_talent4Speech7>Wait a flit, one last thing. Be sure to come here to start your wardrobe off right! Wow, there sure are a lot of great things to choose from.</sceneMapTutorial_talent4Speech7>
+		<sceneMapTutorial_talent4Speech8>Of course, this isn't the only shop in the Hollow. You can get clothes, jewelry, furniture, and all kinds of things from these other shops.</sceneMapTutorial_talent4Speech8>
+		<sceneMapTutorial_talent4Speech9>You know, since it's your Arrival Day, someone should give you a gift. How 'bout me? These are for you. Use them at Brook's Basics to get your first outfit!</sceneMapTutorial_talent4Speech9>
+		<sceneMapTutorial_talent4Speech10>Well, I think that wraps up your introduction to Pixie Hollow. Let's see... I think Dewdrop Vale is the perfect place for me to drop you off. You can play a game or do some shopping.</sceneMapTutorial_talent4Speech10>
+		<sceneMapTutorial_talent4Speech11>When you want to see more of Pixie Hollow, remember to use the compass. Fly with you later.</sceneMapTutorial_talent4Speech11>
+	</copy>
+	<config>
+		<scene2>
+			<headSliderBounds>92.5 97.5</headSliderBounds>
+			<limbSliderBounds>92.5 107.5</limbSliderBounds>
+			<bodySliderBounds>81 95</bodySliderBounds>
+		</scene2>
+		<util>
+		</util>
+		<Animal>
+			<Skin>101</Skin>
+			<Eyes>58</Eyes>
+			<Hair>79</Hair>
+			<Wing>109</Wing>
+			<Belt>87</Belt>
+		</Animal>
+		<Garden>
+			<Skin>102</Skin>
+			<Eyes>65</Eyes>
+			<Hair>82</Hair>
+			<Wing>110</Wing>
+			<Belt>130</Belt>
+		</Garden>
+		<Light>
+			<Skin>92</Skin>
+			<Eyes>56</Eyes>
+			<Hair>76</Hair>
+			<Wing>111</Wing>
+			<Belt>9</Belt>
+		</Light>
+		<Water>
+			<Skin>107</Skin>
+			<Eyes>63</Eyes>
+			<Hair>73</Hair>
+			<Wing>112</Wing>
+			<Belt>23</Belt>
+		</Water>
+		<Tinker>
+			<Skin>100</Skin>
+			<Eyes>61</Eyes>
+			<Hair>90</Hair>
+			<Wing>165</Wing>
+			<Belt>64</Belt>
+		</Tinker>
+		<cafData>xml/caf/cafData.xml</cafData>
+		<nameGenerator>xml/caf/nameGenerator.xml</nameGenerator>
+		<initDNA>xml/caf/initDNA.xml</initDNA>
+
+		<!-- settings for the various animated positions of the avatars... -->
+		<!-- quest on right: 580,290,.2,left -->
+		<!-- quest on left: 370,290,.2.right -->
+		<sceneBody_playerAvatar_position1>-200,-200,.3,right</sceneBody_playerAvatar_position1>
+		<sceneBody_playerAvatar_position2>580,290,.3,left</sceneBody_playerAvatar_position2>
+		<sceneTalent_playerAvatar_position1>580,250,.3,left</sceneTalent_playerAvatar_position1>
+		<sceneTalent_playerAvatar_position2>425,250,.58,right</sceneTalent_playerAvatar_position2>
+		<sceneName_playerAvatar_position1>580,290,.3,left</sceneName_playerAvatar_position1>
+		<sceneName_talentAvatar_position1>370,290,.3,right</sceneName_talentAvatar_position1>
+		<sceneMapTutorial_playerAvatar_position1>480,240,.3,left</sceneMapTutorial_playerAvatar_position1>
+		<sceneMapTutorial_talentAvatar_position1>270,240,.3,right</sceneMapTutorial_talentAvatar_position1>
+		<sceneMapTutorial_playerAvatar_position2>500,310,.3,right</sceneMapTutorial_playerAvatar_position2>
+		<sceneMapTutorial_talentAvatar_position2>585,310,.3,left</sceneMapTutorial_talentAvatar_position2>
+		<sceneMapTutorial_talentAvatar_position2a>570,310,.3,right</sceneMapTutorial_talentAvatar_position2a>
+		<sceneMapTutorial_playerAvatar_position3>420,260,.3,left</sceneMapTutorial_playerAvatar_position3>
+		<sceneMapTutorial_talentAvatar_position3>320,260,.3,right</sceneMapTutorial_talentAvatar_position3>
+		<sceneMapTutorial_playerAvatar_position4>505,300,.3,left</sceneMapTutorial_playerAvatar_position4>
+		<sceneMapTutorial_talentAvatar_position4>405,300,.3,right</sceneMapTutorial_talentAvatar_position4>
+		<sceneMapTutorial_playerAvatar_position5>800,310,.3,left</sceneMapTutorial_playerAvatar_position5>
+		<sceneMapTutorial_talentAvatar_position5>730,310,.3,left</sceneMapTutorial_talentAvatar_position5>
+		<sceneMapTutorial_playerAvatar_position6>360,260,.3,left</sceneMapTutorial_playerAvatar_position6>
+		<sceneMapTutorial_talentAvatar_position6>270,260,.3,right</sceneMapTutorial_talentAvatar_position6>
+		<sceneMapTutorial_playerAvatar_position7>470,260,.3,left</sceneMapTutorial_playerAvatar_position7>
+		<sceneMapTutorial_talentAvatar_position7>380,260,.3,right</sceneMapTutorial_talentAvatar_position7>
+		<sceneMapTutorial_playerAvatar_position8>500,310,.3,right</sceneMapTutorial_playerAvatar_position8>
+		<sceneMapTutorial_talentAvatar_position8>590,310,.3,left</sceneMapTutorial_talentAvatar_position8>
+		<sceneMapTutorial_playerAvatar_position9>1000,600,.3,right</sceneMapTutorial_playerAvatar_position9>
+		<sceneMapTutorial_talentAvatar_position9>1000,600,.3,right</sceneMapTutorial_talentAvatar_position9>
+
+		<sceneGender_defaultPlayerPosition>629,2000,.4,right</sceneGender_defaultPlayerPosition>
+		<sceneBody_defaultPlayerPosition>629,290,.58,right</sceneBody_defaultPlayerPosition>
+		<sceneTalent_defaultPlayerPosition>425,250,.58,right</sceneTalent_defaultPlayerPosition>
+		<sceneName_defaultPlayerPosition>210,290,.58,right</sceneName_defaultPlayerPosition>
+		<sceneMapTutorial_defaultPlayerPosition>580,290,.25,left</sceneMapTutorial_defaultPlayerPosition>	
+
+		<sceneGender_defaultTalentPosition>2000,200,.58,left</sceneGender_defaultTalentPosition>
+		<sceneBody_defaultTalentPosition>749,190,.3,left</sceneBody_defaultTalentPosition>
+		<sceneTalent_defaultTalentPosition>649,190,.3,left</sceneTalent_defaultTalentPosition>
+		<sceneName_defaultTalentPosition>360,100,.3,left</sceneName_defaultTalentPosition>
+		<sceneMapTutorial_defaultTalentPosition>370,290,.25,right</sceneMapTutorial_defaultTalentPosition>	
+
+		<skipLink_data>Skip This,80,65,6B5324,FFFFFF</skipLink_data>
+		<skipTutorialLink_data>SKIP THIS,80,65,FFFFFF,00CBFF</skipTutorialLink_data>
+		<failsafeTimer>20</failsafeTimer>
+		
+		<regionXML>xml/regions.xml</regionXML>
+		<concurrentPingTime>60000</concurrentPingTime>
+		<concurrentPingURL>/CafPingRequest</concurrentPingURL>
+	</config>
+</panel>
+

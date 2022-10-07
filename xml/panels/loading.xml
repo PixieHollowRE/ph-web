@@ -1,0 +1,9 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/loading.swf</swf>
+	</swfs>
+	<copy>
+		<loading target="loadingscreen.loadingText">Loading</loading>
+	</copy>
+	<config></config>
+</panel>

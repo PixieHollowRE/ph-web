@@ -1,0 +1,48 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/map.swf</swf>
+		<swf type="code">{panelCode}/map.swf</swf>
+	</swfs>
+	<copy>
+		<dbfail>Sorry, something's not right.  Try back later!</dbfail>
+		<dbfailconfirm>Okay</dbfailconfirm>
+		<teleport>Are you sure you want to leave your current location?</teleport>
+		<teleport_confirm>Yes</teleport_confirm>
+		<teleport_deny>No</teleport_deny>
+		<teleport_sameloc>You are already here lil'Fairy!</teleport_sameloc>
+		<back_button>back</back_button>
+		<label_sameloc>You Are Here</label_sameloc>
+		<shard_txt>Servers</shard_txt>
+		<home_txt>Fly Home</home_txt>
+		<region_name1 target="regionMovie_0.regionLabelContainer.label">Spring Valley</region_name1>
+		<region_name2 target="regionMovie_2.regionLabelContainer.label">Winter Woods</region_name2>
+		<region_name3 target="regionMovie_1.regionLabelContainer.label">Autumn Forest</region_name3>
+		<region_name4 target="regionMovie_3.regionLabelContainer.label">Summer Glade</region_name4>
+		<region_name5 target="regionMovie_4.regionLabelContainer.label">Tinker's Nook</region_name5>
+	</copy>
+	<config>
+		<region index = "0">
+			<location index="0">104</location>
+			<location index="1">100</location>
+			<location index="2">101</location>
+			<location index="3">102</location>
+			<location index="4">103</location>
+		</region>
+		<region index = "1">
+			<location index="0">200</location>
+			<location index="1">201</location>
+			<location index="2">202</location>
+			<location index="3">203</location>
+		</region>
+		<region index = "2">
+			<location index="0">300</location>
+			<location index="1">301</location>
+			<location index="2">302</location>
+		</region>
+		<region index = "3">
+			<location index="0">400</location>
+			<location index="1">401</location>
+			<location index="2">402</location>
+		</region>
+	</config>
+</panel>

@@ -1,0 +1,18 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/postOfficePostcards.swf</swf>
+		<swf type="code">{panelCode}/postOfficePostcards.swf</swf>
+	</swfs>
+	<copy>
+		<next target = "nextlabel">Next</next>
+		<back target = "backlabel">Back</back>
+		<help target = "helpContent.helpTF">WHAT'S THIS</help>
+		<outOf>postcard</outOf>
+		<from>from,</from>
+		<deleteConfirmation>Postcards will be deleted when you are finished viewing them.</deleteConfirmation>
+		<ok>Close</ok>
+		<notYet>View Again</notYet>
+	</copy>
+	<config>
+	</config>
+</panel>

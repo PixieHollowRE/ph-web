@@ -1,0 +1,514 @@
+/*General Page Design*/
+body {
+	margin: 0px;
+	padding: 0px 0px;
+	background-color: #FFFFFF;
+	align: center;
+}
+
+body.distribution{
+	margin: 0px;
+	padding: 0px 0px;
+	background-color: #24304A;
+	align: center;
+}
+
+body.tangent2{
+	margin: 0px;
+	padding: 0px 0px;
+	background-color: #666699;
+	align: center;
+	background: url(../publish/images/distribution/wt_bg_v.jpg) repeat-x; 
+}
+
+
+h1.logo {
+	display:block;
+	position:absolute;
+	left:0px;
+	top:11px;
+	width:352px;
+	height:72px;
+	text-indent:-9999em;
+	text-decoration:none;
+	background: url(/logo.png ) no-repeat 0px;
+}
+
+/*MiniClip Partner Parameters*/
+
+
+.miniClipColor
+{
+	background-color: #333333;
+}
+.miniClipWidth
+{
+	width: 996px;
+}
+.miniClipHeader
+{
+	height:183px;
+}
+.miniClipFooter
+{
+	height:676px;
+}
+
+/*Tangent Partner Parameters*/
+
+
+.tangentColor
+{
+	/*
+	background-color: #666699;
+	background: url(../publish/images/distribution/wt_bg_v.jpg) repeat-x;
+	*/
+	background: url("http://a.disney.go.com/fairies/pixiehollow/images/html/background.jpg") repeat scroll 0 0 transparent
+}
+.tangentColorMiddle
+{
+	background-color: #9036b3;
+}
+.tangentWidth
+{
+	width: 996px;
+}
+.tangentHeader
+{
+	height:48px;
+}
+.tangentFooter
+{
+	height:100px;
+}
+
+/*Candystand Partner Parameters*/
+
+.candystandColor
+{
+	
+	background: url(http://a.dolimg.com/pixiehollow/game/publish/images/templates/distribution/bg_candystand.jpg ) repeat-x;
+	
+}
+.candystandWidth
+{
+	width: 996px;
+}
+.candystandHeader
+{
+	height:213px;
+}
+.candystandFooter
+{
+	height:820px;
+}
+
+/*Distribution Page Design*/
+
+#fullPage {
+	margin: auto auto;
+  width: 100%;
+}
+#headerPage {
+	margin: auto auto;
+}
+#centerPage {
+	margin: auto auto;
+}
+#distributionHeader
+{
+	margin: 0 auto;
+  text-align: center;
+}
+#distributionContent
+{
+	margin: auto auto;
+	padding: 4 4 4 4;
+
+}
+#distributionFooter
+{
+	margin: auto auto;
+}
+
+/*Center Content*/
+
+/* Create Gradient Background */
+
+.distributionbg {
+  background:url(http://a.dolimg.com/pixiehollow/game/publish/images/distribution/bg_distribution.jpg);
+  background-repeat:repeat-x;
+  background-color: #24304A;
+}
+
+#gradientTop {
+  position: absolute;
+  top: 0px; left: 0px; width:100%; height: 121px;
+  background-color: #040c1f;
+}
+
+#gradientMiddle {
+  position: absolute;
+  top: 121px; left: 0px; width:100%; height: 461px;
+  background-color: #fff;
+  background: url(http://a.dolimg.com/pixiehollow/game/publish/images/templates/distribution/bgGrad.png);
+  _ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://a.dolimg.com/pixiehollow/game/publish/images/templates/distribution/bgGrad.png',sizingMethod='scale');
+  _background: none;
+
+}
+
+#gradientBottom {
+  position: absolute;
+  top: 582px; left: 0px; width:100%; height: 100%;
+  background-color: #24304a;
+}
+
+
+
+
+/*  -------------------  CSS Styles for new HTML version of the page ---------------------------- */
+
+/*  ----------   5/11  ------------ */
+
+
+.flashFloatContainer{
+	position: relative;
+	top:0px;
+	left: -500px;
+	width:1px;
+	height: 1px;
+	z-index:99;
+}
+.quickLoginContentHolder{
+	position: relative;
+	top:150px;
+	left:230px;
+
+}
+
+
+
+
+
+
+
+
+
+.pixieContent {
+  width:994px;
+  height:441px;
+  background: transparent url(../publish/images/distribution/become_fairy.jpg) no-repeat scroll 21px 0;
+
+}
+
+.pixieContent1{
+  width:994px;
+  height:441px;
+  background: transparent url(../publish/images/distribution/become_fairy.jpg) no-repeat scroll 21px 0;
+
+}
+
+.pixieContent2 {
+  width:994px;
+  height:441px;
+  background: transparent url(../publish/images/distribution/play_games_tinkerbell.jpg) no-repeat scroll 21px 0;
+
+}
+
+.pixieContent3 {
+  width:994px;
+  height:441px;
+  background: transparent url(../publish/images/distribution/animal_friend.jpg) no-repeat scroll 21px 0;
+
+}
+
+.pixieContent4 {
+  width:994px;
+  height:441px;
+  background: transparent url(../publish/images/distribution/play_games_tinkerbell.jpg) no-repeat scroll 21px 0;
+
+}
+
+.pixieContent5 {
+  width:994px;
+  height:441px;
+  background: transparent url(../publish/images/distribution/play_games.jpg) no-repeat scroll 21px 0;
+
+}
+
+
+.pixieContent6 {
+  width:994px;
+  height:441px;
+  background: transparent url(../publish/images/distribution/hanging_out_animal_friends.jpg) no-repeat scroll 21px 0;
+
+}
+
+
+
+
+
+
+.pixieMenuHolder {
+	width: 355px;
+	height: 384px;
+	float: left;
+	margin-left: 0px;
+}
+.pixieMenu{
+
+	width: 450px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #e6db07;
+	text-align: center;
+	border:none;
+	position:relative;
+	top:0px;
+	left:0px;
+	z-index:55;
+	
+}
+
+.pixieMenu span {
+	margin: 0 10px 0 10px;
+}
+
+.pixieMenu a {
+	color: #e6db07;
+	text-decoration: none;
+	border:none;
+}
+
+
+
+.pixieLogo{
+	
+}
+.pixiePlay{
+	padding: 0 0 0 0;
+	float:left;
+}
+
+.pixiePlayLogo{
+	width:300px;
+	height:143px;
+}
+.pixiePlayBtn{
+	padding: 115px 0 0 0;
+
+}
+.pixiePlayBtnText  {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+.pixiePlayBtnText a {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+.pixieLogout{
+	padding: 0 0 0 200px;
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	
+	text-align: center;
+	
+}
+
+.pixieLogout a{
+	border:none;
+	text-decoration: none;
+	color: #e6db07;
+}
+.logout{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+.panelContent{
+	width:994px;
+	height:262px;
+	
+	margin: 0 0 0 0;
+	position:relative;
+	top:-50px;
+
+}
+
+.pixiePanelLeft {
+	width: 70px;
+	height: 85px;
+	float: left;
+	margin:110px 0 0 0;
+	background: transparent url(../publish/images/prospect/leftwalnut.png) no-repeat scroll 0 30px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pixiePanelNews{
+	width:198px;
+	height:253px;
+	background: transparent url(../publish/images/distribution/section_news.png) no-repeat scroll 0 0;
+	float:left;
+
+}
+
+.pixiePanelMember{
+	width:198px;
+	height:253px;;
+	background: transparent url(../publish/images/distribution/section_members.png) no-repeat scroll 0 0;
+	float:left;
+
+}
+
+
+
+
+
+.pixiePanelButton{
+	width: 198px;
+	height: 175px;
+	background: transparent url(../publish/images/distribution/greenbutton_big.png) no-repeat scroll 34px 138px;
+	padding-top: 3px;
+
+}
+
+.pixiePanelButton a {
+  	display: block;
+  	width: 100%;
+ 	height:28px;
+ 	padding: 145px 0 0 0;
+	color: #aef364;
+	border:none;
+	text-decoration: none;
+	cursor: pointer; 
+	
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.pixiePanelButton a:hover {
+  	text-decoration: none;
+	color: #fff04c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pixiePanelMid{
+	width: 465px;
+	height: 112px;
+	float: left;
+
+}
+
+.pixiePanelMidText{
+	width: 465px;
+	height: 72px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #e6db07;
+	color: #ffffff;
+	text-align:left;
+	border:none;
+	margin: 60px 0 0 100px;
+
+}
+
+
+
+
+.pixiePanelMidPedals{
+	width: 465px;
+	height: 60px;
+	background: transparent url(../publish/images/distribution/acorns_middle.jpg) no-repeat scroll 0 -10px;
+	margin:10px 0 0 0;
+}
+
+
+
+
+.pixiePanelRight{
+	width: 60px;
+	height: 85px;
+	float: left;
+	margin:103px 0 0 0;
+}
+
+
+
+#flashcontent{
+
+	width:1px;
+	height: 1px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+# /robots.txt file for http://www.pixiehollow.com/
+
+User-agent: *
+Disallow: /help/
+Disallow: /images/
+Disallow: /meadows/
+Disallow: /site_dynamiccontent/
+Disallow: /support/
+Disallow: /swf/
+Disallow: /xml/
+Disallow: /communityhome.html
+Disallow: /contactus.html
+Disallow: /fairies_framework.js
+Disallow: /FairyDirectory.html
+Disallow: /FairyManager.html
+Disallow: /FairyManager_create.html
+Disallow: /FairyPage.html
+Disallow: /findafairy.html
+Disallow: /gamepolicies.html
+Disallow: /live.html
+Disallow: /liveSupport.html
+Disallow: /parentalcontrols.html
+Disallow: /previewConfirmation.html
+Disallow: /previewKeyEntry.html
+Disallow: /previewLogin.html
+Disallow: /site_news.html
+Disallow: /swfobject.js
+Disallow: /topfairies.html
+

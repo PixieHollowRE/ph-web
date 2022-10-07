@@ -1,0 +1,61 @@
+<zone>
+  <name>Daisy's Dyes</name>
+  <zoneID>112000</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>shop</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="920" height="770">
+        <image x="0" y="0" type="none">daisy_far_04.swf</image>
+      </layer>
+      <layer type="ground" width="993" height="802">
+        <image x="0" y="0" type="merge">daisy_action_01.swf</image>
+      </layer>
+      <layer type="normal" width="1000" height="818">
+        <image x="0" y="0" type="none">daisy_foreground_02.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="621" y="517">default</location>
+    <location x="692" y="518">shopEntrance</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>sfx_theme</id>
+      <loops>0</loops>
+      <volumeLow>0.6</volumeLow>
+      <volumeHigh>0.6</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  <!--validArea type="polygon">
+
+	<vertex x="279" y="137"></vertex>
+
+	<vertex x="971" y="137"></vertex>
+
+	<vertex x="971" y="591"></vertex> 
+
+	<vertex x="279" y="591"></vertex>
+
+  </validArea-->
+  
+  <decorations/>
+  
+</zone>

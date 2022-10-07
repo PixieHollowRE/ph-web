@@ -1,0 +1,30 @@
+<panelSet>
+
+	<panels>
+	
+	
+		<!--panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{publishPanelData}/bg_gradient.xml</panel-->
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{publishPanelData}/leftSideStaticGallery.xml</panel>
+		<panel id="manager" x="70" y="-38" alwaysOnTop="true">{publishPanelData}/ugc_gallery.xml</panel>
+		<panel id="thumbpopup" x="400" y="400" hidden="true" interfaceItem="true">{publishPanelData}/popupimage.xml</panel>
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>artgallery</trackingid>
+		
+		<regionid>community</regionid>
+		<sectionid>community</sectionid>
+		<pageid>ugcgallery</pageid>
+		<menu>
+			<title>
+				<text>menutitle</text>
+				<subtext>menusubtitle</subtext>
+				<!--channel>home.htm</channel-->       
+			</title>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>Share Your Creativity</menutitle>
+	</copy>
+</panelSet>

@@ -1,0 +1,1379 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/sortingSupplies.swf</swf>
+		<swf type="code">{panelCode}/sortingSupplies.swf</swf>
+	</swfs>
+	<copy>
+		<hudTitleWelcome>Tinker Toss</hudTitleWelcome>
+		<hudSubTitleWelcome>Get Ready</hudSubTitleWelcome>
+		
+		<level>Level</level>
+		<complete>Complete!</complete>
+		<score>SCORE</score>
+
+		<quit>Quit</quit>
+		<okay>Okay</okay>
+		<modX>x</modX>
+		<mod1>1</mod1>
+		<mod2>2</mod2>
+		<mod3>3</mod3>
+		<continue>Continue</continue>
+		<tryagain>Try Again</tryagain>
+		<tinkerbell>Tinker Bell</tinkerbell>
+		<hostname>Tinker Bell</hostname>
+		<title>Tinker Toss</title>
+		<gameovertitle>Game Over</gameovertitle>
+		<right_accent_title>Objects Sorted</right_accent_title>			
+		
+		<!-- UI: TUTORIAL -->
+		<tutorial_next>NEXT</tutorial_next>
+		<tutorial_skip>Skip This</tutorial_skip>		
+		<tutorial_replay>Play Again</tutorial_replay>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		<tutorial_finalscore_label>Flitterific! I think you're ready to start sorting!</tutorial_finalscore_label>
+		<tutorial_quit>Continue</tutorial_quit>
+		
+		<host_bubble_1>Now you try it!</host_bubble_1>
+		<host_bubble_1B>Pick up a Lost Thing and drop it in the correct basket.</host_bubble_1B>
+		<host_bubble_1C>Wow! Flaptastic!</host_bubble_1C>
+		
+		<tutorial_stepIntro>Welcome to the Sorting Station! Let me show you how to sort the Lost Things.</tutorial_stepIntro>
+		<tutorial_step1>First, pick up a Lost Thing.</tutorial_step1>
+		<tutorial_step2>Now drop the Lost Thing into the correct basket!</tutorial_step2>
+		<tutorial_step3>Careful how you toss them into the baskets! Lost Things can be pretty bouncy.</tutorial_step3>
+		<tutorial_step3B>Now it's your turn!</tutorial_step3B>
+		<tutorial_step4>Flitterific!</tutorial_step4>
+		<tutorial_step5>Watch this sorting meter. It goes down if you put a Lost Thing in the wrong basket. Do that too many times and you'll have to start over.</tutorial_step5>
+		<tutorial_step6>This widget shows you how many times you've sorted Lost Things correctly. And this one shows you how many you need to collect.</tutorial_step6>
+		<tutorial_step7>This doohickey here shows you how many chances you have left. Don't worry, I'll be here if you need me!</tutorial_step7>
+		<!--<tutorial_step8>There are lots of different kinds of Lost Things and we need to get them all sorted. Want to try to get them in the baskets where they belong? Try it out.</tutorial_step8>
+		-->
+		<tutorial_hudtitle>How to play</tutorial_hudtitle>
+		<welcome_title>Welcome!</welcome_title>
+		<level_tip_title>Did You Know?</level_tip_title>
+		<welcome_play>Continue</welcome_play>
+		
+		<!-- Story -->		
+		<easy_story>Let's get flapping, okay? Sort these Lost Things into the right baskets! </easy_story>
+		<medium_story>The Lost Things are moving pretty fast. Don't let them bounce into the wrong baskets!</medium_story>
+		<hard_story>This will be a challenge, but I know you're up for it. Sort sort sort!</hard_story>
+		<royal_story>Whoa, the Lost Things are really moving fast. I know you can do it. Get sorting!</royal_story>
+		
+		<easy_exitstory>You got a lot of stuff sorted. Nice work!</easy_exitstory>
+		<medium_exitstory>Hey, you're fun to sort with -- and you're good at it, too! Thanks for all the help!</medium_exitstory>
+		<hard_exitstory>Wow, you did a tinker-tastic sorting job! Thanks!</hard_exitstory>
+		<royal_exitstory>Well, swing my hammer, you're a super sorter! Come back anytime, okay?</royal_exitstory>
+		
+		<allmedium_story>Watch those pieces, fly fast, and sort those Lost Things!</allmedium_story>
+		<allhard_story>You know, you're pretty good at this! Keep going! </allhard_story>
+		<allroyal_story>Thundering thistles, the Lost Things are really whizzing fast now! This will take all your skills. Ready? Get flapping!</allroyal_story>
+		
+		
+		
+		<perfect>Perfect</perfect>
+		<lives_remaining>Chances Remaining:</lives_remaining>
+		<longest_streak>Longest Streak:</longest_streak>
+		<chance>Chance</chance>
+		<chances>Chances</chances>
+		<total_bonus>Total Bonus:</total_bonus>
+		<your_score>Your Total Score : </your_score>	
+		<scorecard_final>Your Final Score : </scorecard_final>	
+		<total_score>Your Score : </total_score>
+
+		<!--Tinker Dialogues or Panel Dialogies-->
+		<instruction0>To pick up a Lost Thing click on it and hold the button down.</instruction0>
+		<instruction1>Now drag and drop the Lost Thing into the right basket.</instruction1>
+		<instruction2>Be careful how you toss - Lost Things can get awfully bouncy!</instruction2>
+		<instruction3>Watch your sorting meter! When you sort incorrectly, the meter goes down. If you sort too many things into the wrong basket, the game is over.</instruction3>
+
+		<tinkGood0>Flitterific!</tinkGood0>
+		<tinkGood1>You've got some serious sorting skills!</tinkGood1>
+		<tinkGood2>You're a superb sorter!</tinkGood2>
+		<tinkGood3>Look at you go! Keep flying!</tinkGood3>
+		<tinkGood4>I've never seen anybody flit so fast!</tinkGood4>
+		<tinkGood5>Gee, I ought to ask you to help more often!</tinkGood5>
+
+		<tinkBad0>Be careful! Stuff is piling up!</tinkBad0>
+		<tinkBad1>Watch out! Don't let stuff get all jumbled!</tinkBad1>
+		<tinkBad2>Hey, your sorting is getting sloppy!</tinkBad2>
+		
+		<interlevel1>Welcome to the Sorting Station! I need your help to sort out a bunch of my Lost Things. As the Lost Things move down the conveyor belt, grab them fast and put them in the right basket! Ready to sort? Okay, let's fly!</interlevel1>
+		<interlevel8>Oh, look! Now some of the baskets can hold two items!</interlevel8>
+		<interlevel11>Great job! But a Tinker's work is never done!</interlevel11>
+		<interlevel16>Did you know that if you hold on to a Lost Thing, you can use it to bounce other Lost Things into baskets?</interlevel16>
+
+		<interlevel20>That was great - but we've got a lot more to sort! Let's keep going!</interlevel20>
+		<interlevel26>Terrific job! But watch out! The Lost Things are starting to come out faster!</interlevel26>
+
+		
+		<interLevelTitle1>Welcome</interLevelTitle1>
+		<interLevelTitle8>Get Ready!</interLevelTitle8>
+		<interLevelTitle11>Get Ready!</interLevelTitle11>
+		<interLevelTitle16>Get Ready!</interLevelTitle16>
+		<interLevelTitle20>Get Ready!</interLevelTitle20>
+		<interLevelTitle26>Get Ready!</interLevelTitle26>
+
+		<gameWin0>Wow, thanks for helping me sort all that out! Big job, huh? But come back again soon -- I'm always finding more Lost Things! And now for your reward...</gameWin0>
+		<gameLose0>Whoa! It looks like things got a little disorganized! No problem - you can come back anytime and help! Thanks again!</gameLose0>
+
+		<levelLose0>Eeep! Things are getting all mixed up! Try it again, hurry!</levelLose0>
+		<levelLose1>Those Lost Things sure pile up fast! Why don't we try that again?</levelLose1>
+
+		<nicetry>Nice Try!</nicetry>
+	</copy>
+	<config>
+		<colorPalette>6</colorPalette>
+		<maxLives>3</maxLives>
+		<pointsPerSort>10</pointsPerSort>
+		<numLevels>30</numLevels>
+		<streakBonus>50</streakBonus>
+		<lifeBonus>100</lifeBonus>
+		<perfectBonus>500</perfectBonus>
+		<difficultyChoices layout="5small">		
+            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"/>			
+			<difficultyChoice descriptor="royal" displayName="Royal" paidOnly="false"/>			
+			<difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"/>	
+		</difficultyChoices>
+		
+		<supportsTutorial>true</supportsTutorial>
+		<tuto num="1">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>1</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>999999</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object1">0.40</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - drops in right bin -->
+			<belt>
+				<x>33</x>
+				<y>200</y>
+				<dirn>left</dirn>
+				<speed>1</speed>
+				<spawnRate>6000</spawnRate>
+				<initDelayB4Spawning>800</initDelayB4Spawning>
+			</belt>
+		</tuto>
+		<tuto num="2">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>3</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>999999</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.40</object>
+				<object name="Object1">0.40</object>
+				<object name="Object4">0.20</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - drops in right bin -->
+			<belt>
+				<x>33</x>
+				<y>200</y>
+				<dirn>left</dirn>
+				<speed>1</speed>
+				<spawnRate>6000</spawnRate>
+				<initDelayB4Spawning>800</initDelayB4Spawning>
+			</belt>
+		</tuto>
+		
+		
+		<level num="1">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>3</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>15</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.40</object>
+				<object name="Object1">0.40</object>
+				<object name="Object4">0.20</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - drops in right bin -->
+			<belt>
+				<x>33</x>
+				<y>200</y>
+				<dirn>left</dirn>
+				<speed>2</speed>
+				<spawnRate>4000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="2">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>5</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>15</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.40</object>
+				<object name="Object1">0.40</object>
+				<object name="Object4">0.20</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - drops in right bin -->
+			<belt>
+				<x>33</x>
+				<y>200</y>
+				<dirn>left</dirn>
+				<speed>2.5</speed>
+				<spawnRate>4000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="3">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>8</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>10</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.41</object>
+				<object name="Object1">0.41</object>
+				<object name="Object4">0.18</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - drops in right bin -->
+			<belt>
+				<x>33</x>
+				<y>200</y>
+				<dirn>left</dirn>
+				<speed>2.5</speed>
+				<spawnRate>4000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="4">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>12</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>10</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.41</object>
+				<object name="Object1">0.41</object>
+				<object name="Object4">0.18</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - drops in right bin -->
+			<belt>
+				<x>33</x>
+				<y>200</y>
+				<dirn>left</dirn>
+				<speed>3</speed>
+				<spawnRate>4000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="5">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>15</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>10</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.41</object>
+				<object name="Object1">0.41</object>
+				<object name="Object4">0.18</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - drops in right bin -->
+			<belt>
+				<x>33</x>
+				<y>200</y>
+				<dirn>left</dirn>
+				<speed>3</speed>
+				<spawnRate>4000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+		</level> 
+		<level num="6">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>10</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>15</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.40</object>
+				<object name="Object1">0.20</object>
+				<object name="Object4">0.40</object>
+			</spawnWeightage>
+
+			<!-- LEFT BELT - drops in center bin -->			
+			<belt>
+				<x>-187</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>2</speed>
+				<spawnRate>3500</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - drops in center bin -->
+			<belt>
+				<x>1067</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>2</speed>
+				<spawnRate>3500</spawnRate>
+				<initDelayB4Spawning>2500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="7">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>15</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>10</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.40</object>
+				<object name="Object1">0.20</object>
+				<object name="Object4">0.40</object>
+			</spawnWeightage>
+
+			<!-- LEFT BELT - drops in center bin -->			
+			<belt>
+				<x>-187</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>2.0</speed>
+				<spawnRate>3500</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - drops in center bin -->
+			<belt>
+				<x>1067</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>2.0</speed>
+				<spawnRate>3500</spawnRate>
+				<initDelayB4Spawning>2500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="8">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>15</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>10</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.27</object>
+				<object name="Object1">0.19</object>
+				<object name="Object4">0.27</object>
+				<object name="Object3">0.27</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - drops in center bin -->			
+			<belt>
+				<x>-187</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>2.5</speed>
+				<spawnRate>3500</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - drops in center bin -->
+			<belt>
+				<x>1067</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>2.5</speed>
+				<spawnRate>3500</spawnRate>
+				<initDelayB4Spawning>2500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="9">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>20</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>10</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.27</object>
+				<object name="Object1">0.19</object>
+				<object name="Object4">0.27</object>
+				<object name="Object3">0.27</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - drops in center bin -->			
+			<belt>
+				<x>-187</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>3.5</speed>
+				<spawnRate>3500</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - drops in center bin -->
+			<belt>
+				<x>1067</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>3.5</speed>
+				<spawnRate>3500</spawnRate>
+				<initDelayB4Spawning>2500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="10">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>25</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>10</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.27</object>
+				<object name="Object1">0.19</object>
+				<object name="Object4">0.27</object>
+				<object name="Object3">0.27</object>
+			</spawnWeightage>
+
+			<!-- LEFT BELT - drops in center bin -->			
+			<belt>
+				<x>-187</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>4.0</speed>
+				<spawnRate>3000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - drops in center bin -->
+			<belt>
+				<x>1067</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>4.0</speed>
+				<spawnRate>3000</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="11">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>20</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>10</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.22</object>
+				<object name="Object1">0.12</object>
+				<object name="Object2">0.22</object>
+				<object name="Object3">0.22</object>
+				<object name="Object4">0.22</object>
+			</spawnWeightage>
+
+			<!-- LEFT BELT - staggered (below) -->
+			<belt>
+				<x>-167</x>
+				<y>260</y>
+				<dirn>left</dirn>
+				<speed>3</speed>
+				<spawnRate>5000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - staggered (above) -->
+			<belt>
+				<x>687</x>
+				<y>100</y>
+				<dirn>right</dirn>
+				<speed>3.5</speed>
+				<spawnRate>4000</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="12">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>25</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>8</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.22</object>
+				<object name="Object1">0.12</object>
+				<object name="Object2">0.22</object>
+				<object name="Object3">0.22</object>
+				<object name="Object4">0.22</object>
+			</spawnWeightage>
+
+			<!-- LEFT BELT - staggered (below) -->
+			<belt>
+				<x>-167</x>
+				<y>260</y>
+				<dirn>left</dirn>
+				<speed>3.5</speed>
+				<spawnRate>3000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - staggered (above) -->
+			<belt>
+				<x>687</x>
+				<y>100</y>
+				<dirn>right</dirn>
+				<speed>4.0</speed>
+				<spawnRate>3200</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="13">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>30</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>8</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.22</object>
+				<object name="Object1">0.12</object>
+				<object name="Object2">0.22</object>
+				<object name="Object3">0.22</object>
+				<object name="Object4">0.22</object>
+			</spawnWeightage>
+
+			<!-- LEFT BELT - staggered (below) -->
+			<belt>
+				<x>-167</x>
+				<y>260</y>
+				<dirn>left</dirn>
+				<speed>3.5</speed>
+				<spawnRate>3200</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - staggered (above) -->
+			<belt>
+				<x>687</x>
+				<y>100</y>
+				<dirn>right</dirn>
+				<speed>4.0</speed>
+				<spawnRate>3400</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="14">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>35</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>8</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.22</object>
+				<object name="Object1">0.12</object>
+				<object name="Object2">0.22</object>
+				<object name="Object3">0.22</object>
+				<object name="Object4">0.22</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - staggered (below) -->
+			<belt>
+				<x>-167</x>
+				<y>260</y>
+				<dirn>left</dirn>
+				<speed>4.0</speed>
+				<spawnRate>3200</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - staggered (above) -->
+			<belt>
+				<x>687</x>
+				<y>100</y>
+				<dirn>right</dirn>
+				<speed>5.0</speed>
+				<spawnRate>3400</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="15">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>25</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>10</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - short -->
+			<belt>
+				<x>-347</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>3.0</speed>
+				<spawnRate>3500</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - short -->
+			<belt>
+				<x>1227</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>3.0</speed>
+				<spawnRate>3500</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="16">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>30</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>8</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - short -->
+			<belt>
+				<x>-347</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>3.5</speed>
+				<spawnRate>3000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - short -->
+			<belt>
+				<x>1227</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>3.5</speed>
+				<spawnRate>3000</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="17">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>35</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>6</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - short -->
+			<belt>
+				<x>-347</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>4.0</speed>
+				<spawnRate>3000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - short -->
+			<belt>
+				<x>1227</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>4.0</speed>
+				<spawnRate>3000</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="18">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>35</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>6</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+
+			<!-- LEFT BELT - short -->
+			<belt>
+				<x>-347</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>4.5</speed>
+				<spawnRate>3000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - short -->
+			<belt>
+				<x>1227</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>4.5</speed>
+				<spawnRate>3000</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="19">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>40</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>4</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+
+			<!-- LEFT BELT - short -->
+			<belt>
+				<x>-347</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>5.0</speed>
+				<spawnRate>2500</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - short -->
+			<belt>
+				<x>1227</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>5.0</speed>
+				<spawnRate>2500</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="20">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>30</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>10</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+
+			<!-- LEFT BELT - short -->
+			<belt>
+				<x>-347</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>7</speed>
+				<spawnRate>2500</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - short -->
+			<belt>
+				<x>1227</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>7</speed>
+				<spawnRate>2500</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="21">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>30</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>8</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - short -->
+			<belt>
+				<x>-247</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>3.5</speed>
+				<spawnRate>1500</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - short -->
+			<belt>
+				<x>1227</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>3.5</speed>
+				<spawnRate>2500</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="22">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>35</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>8</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - short -->
+			<belt>
+				<x>-247</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>4</speed>
+				<spawnRate>1500</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - short -->
+			<belt>
+				<x>1227</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>4</speed>
+				<spawnRate>2500</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="23">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>40</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>6</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - short -->
+			<belt>
+				<x>-247</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>4.5</speed>
+				<spawnRate>2000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - short -->
+			<belt>
+				<x>1227</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>4.5</speed>
+				<spawnRate>2500</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="24">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>40</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>6</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - short -->
+			<belt>
+				<x>-247</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>5</speed>
+				<spawnRate>2000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - short -->
+			<belt>
+				<x>1227</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>5</speed>
+				<spawnRate>2500</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="25">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>25</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>5</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - short -->
+			<belt>
+				<x>-247</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>6</speed>
+				<spawnRate>2000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - short -->
+			<belt>
+				<x>1227</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>6</speed>
+				<spawnRate>2500</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="26">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>40</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>4</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - drops in right bin -->
+			<belt>
+				<x>33</x>
+				<y>200</y>
+				<dirn>left</dirn>
+				<speed>8</speed>
+				<spawnRate>1000</spawnRate>
+				<initDelayB4Spawning>800</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="27">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>40</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>4</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+
+			<!-- LEFT BELT - drops in center bin -->			
+			<belt>
+				<x>-187</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>7</speed>
+				<spawnRate>2000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - drops in center bin -->
+			<belt>
+				<x>1067</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>6</speed>
+				<spawnRate>2000</spawnRate>
+				<initDelayB4Spawning>1700</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="28">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>40</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>4</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+
+			<!-- LEFT BELT - staggered (below) -->
+			<belt>
+				<x>-167</x>
+				<y>260</y>
+				<dirn>left</dirn>
+				<speed>6</speed>
+				<spawnRate>4000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - staggered (above) -->
+			<belt>
+				<x>687</x>
+				<y>100</y>
+				<dirn>right</dirn>
+				<speed>6</speed>
+				<spawnRate>2000</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="29">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>45</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>4</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+
+			<!-- LEFT BELT - short -->
+			<belt>
+				<x>-347</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>8</speed>
+				<spawnRate>2000</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - short -->
+			<belt>
+				<x>1227</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>8</speed>
+				<spawnRate>2000</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+		<level num="30">
+			<!-- GOAL & TIMER -->
+			<numTargetObjects>50</numTargetObjects>
+
+			<!-- WIN/LOSE CONDITIONS-->
+			<allowedMisses>4</allowedMisses>
+			<hitsPerMiss>1.0</hitsPerMiss>
+			
+			<!-- BASKETS -->
+			<leftBin>Object0,Object3</leftBin>
+			<centerBin>Object1,Object5</centerBin>
+			<rightBin>Object2,Object4</rightBin>
+
+			<!--SPAWNING PROBABILITY-->
+			<spawnWeightage>
+				<object name="Object0">0.19</object>
+				<object name="Object1">0.13</object>
+				<object name="Object2">0.19</object>
+				<object name="Object3">0.18</object>
+				<object name="Object4">0.18</object>
+				<object name="Object5">0.13</object>
+			</spawnWeightage>
+			
+			<!-- LEFT BELT - short -->
+			<belt>
+				<x>-247</x>
+				<y>150</y>
+				<dirn>left</dirn>
+				<speed>7</speed>
+				<spawnRate>1500</spawnRate>
+				<initDelayB4Spawning>500</initDelayB4Spawning>
+			</belt>
+			<!-- RIGHT BELT - short -->
+			<belt>
+				<x>1227</x>
+				<y>130</y>
+				<dirn>right</dirn>
+				<speed>7</speed>
+				<spawnRate>2000</spawnRate>
+				<initDelayB4Spawning>1500</initDelayB4Spawning>
+			</belt>
+		</level>
+	</config>
+</panel>
+

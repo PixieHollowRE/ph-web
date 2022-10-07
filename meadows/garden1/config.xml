@@ -1,0 +1,128 @@
+<zone>
+  <name>Garden Test 1</name>
+  <zoneID>garden1</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>home_music_animal</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="1572" height="725" locked="true">
+        <image x="0" y="0" type="none">Garden_Sky.swf</image>
+      </layer>
+      <layer type="ground" width="1852" height="844">
+        <image x="0" y="0" type="merge">Garden_action.swf</image>
+      </layer>
+      <layer type="normal" width="1950" height="890">
+        <image x="0" y="0" type="none">Garden_Foreground.swf</image>
+      </layer>
+    </layers>
+    <validArea>
+      <vertex x="180" y="780"/>
+      <vertex x="153" y="603"/>
+      <vertex x="150" y="447"/>
+      <vertex x="200" y="120"/>
+      <vertex x="1702" y="120"/>
+      <vertex x="1759.5" y="462.5"/>
+      <vertex x="1763.75" y="599.75"/>
+      <vertex x="1727" y="777"/>
+    </validArea>
+  </clientLayout>
+  <locations>
+    <location x="852" y="308">frontDoor</location>
+    <location x="1339" y="626">animalFriend</location>
+    <location x="3860" y="2564">meadowSurprise1</location>
+    <location x="3975" y="2566">meadowSurprise3</location>
+    <location x="3803" y="2567">meadowSurprise4</location>
+    <location x="3918" y="2565">meadowSurprise5</location>
+    <location x="653" y="426">gardenPlot1</location>
+    <location x="508" y="437">gardenPlot2</location>
+    <location x="922" y="423">gardenPlot3</location>
+    <location x="785" y="447">gardenPlot4</location>
+    <location x="1551" y="398">signPost</location>
+    <location x="1171" y="426">gardenPlot5</location>
+    <location x="1056" y="448">gardenPlot6</location>
+    <location x="1438" y="431">gardenPlot7</location>
+    <location x="1309" y="452">gardenPlot8</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>garden_music_ambient</id>
+      <loops>0</loops>
+      <volumeLow>4</volumeLow>
+      <volumeHigh>4</volumeHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  <validArea>
+    
+    <vertex x="247" y="741"/>
+    
+    <vertex x="191.5" y="447"/>
+    
+    <vertex x="331" y="150"/>
+    
+    <vertex x="1702" y="150"/>
+    
+    <vertex x="1753.5" y="401.5"/>
+    
+    <vertex x="1648" y="743"/>
+    
+  </validArea>
+  
+  
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  <rooms>
+    
+    <room index="1" x="936" y="432">
+      
+      <bounds type="box">
+        
+        <left>0</left>
+        
+        <right>1872</right>
+        
+        <top>0</top>
+        
+        <bottom>864</bottom>
+        
+      </bounds>
+      
+      <nearPlane>
+        
+        <left>0</left>
+        
+        <right>1872</right>
+        
+        <top>0</top>
+        
+        <bottom>864</bottom>
+        
+      </nearPlane>
+      
+      <farPlane>
+        
+        <left>0</left>
+        
+        <right>1872</right>
+        
+        <top>0</top>
+        
+        <bottom>864</bottom>
+        
+      </farPlane>
+      
+    </room>
+    
+  </rooms>
+  
+  <decorations/>
+  
+</zone>

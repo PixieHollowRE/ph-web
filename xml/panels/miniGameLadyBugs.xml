@@ -1,0 +1,1342 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/ladyBugs.swf</swf>
+		<swf type="code">{panelCode}/ladyBugs.swf</swf>
+	</swfs>
+	<copy>	
+		<!-- hud -->
+		<title>Butterfly Painter</title>
+		<level>Level</level>
+
+		<hudTitleWelcome>Butterfly Painter</hudTitleWelcome>
+		<hudSubTitleWelcome>Get Ready</hudSubTitleWelcome>
+
+		
+		<left_scorecard_title>Attempts</left_scorecard_title>
+		<left_scorecard_title_one></left_scorecard_title_one>
+		<right_scorecard_title>Score:</right_scorecard_title>	
+		<level_tip_title>Welcome!</level_tip_title>
+		<level_tip_little_title>Get Ready!</level_tip_little_title>
+		<hostname>Tinker Bell</hostname>
+		
+		<!-- UI: RIGHT IMAGE ACCENT -->
+		<paint>Paint these in </paint>
+		<forBonus>for a bonus</forBonus>
+		<bonusMissed>BONUS MISSED!</bonusMissed>
+		
+		<!-- UI: TUTORIAL -->
+		<tutorial_hudtitle>How to play</tutorial_hudtitle>
+		<tutorial_next>NEXT</tutorial_next>
+		<tutorial_replay>Play Again</tutorial_replay>		
+		<tuto_complete>Tutorial Complete!</tuto_complete>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		<tutorial_finalscore_label>Go paint those butterflies!</tutorial_finalscore_label>
+		<tutorial_quit>Continue</tutorial_quit>
+		<tutorial_skip>Skip This</tutorial_skip>
+		
+		<host_bubble_1>Now you try it!</host_bubble_1>
+		<host_bubble_2>Spray paint at the butterfly you want to color!</host_bubble_2>
+		<host_bubble_3>Flaptastic job!</host_bubble_3>
+		<host_bubble_4>Spray the right color paint at each butterfly!</host_bubble_4>
+		<host_bubble_5>Flitterific!</host_bubble_5>
+		<host_bubble_6>Try it again ok? Make sure you paint each butterfly the right color!</host_bubble_6>
+		<host_bubble_moving_on>OK, let's move on.</host_bubble_moving_on>
+		
+		<tutorial_step1>We need to paint all the butterflies in time for the next season! I built a Paint Sprayer so we can do it faster!</tutorial_step1>
+		<tutorial_step2>Spray paint at the butterfly you want to color. Here, I'll show you!</tutorial_step2>
+		<tutorial_step3>Go ahead, give it a try!</tutorial_step3>
+		<tutorial_step4>Good paint sprayin'! Butterflies come in lots of different colors. You need to paint each one with a color that matches its spots, like this.</tutorial_step4>
+		<tutorial_step4_alt>Butterflies come in lots of different colors. You need to paint each one with a color that matches its spots, like this.</tutorial_step4_alt>
+		<tutorial_step5>You can change colors by clicking the paint pail on top of the Sprayer.</tutorial_step5>
+		<tutorial_step6>You can also change colors by clicking on the paint buckets over here.</tutorial_step6>
+		<tutorial_step7>Watch the clock if you want to earn a bonus!</tutorial_step7>
+		<tutorial_step8>This thingy tells you how many butterflies of each color you need to paint.</tutorial_step8>
+		<tutorial_step9>Try it again, okay? Make sure you paint each butterfly the right color!</tutorial_step9>	
+		<tutorial_step10>Well, I think you're ready to start painting butterflies!</tutorial_step10>	
+		
+		<!-- UI: STORY SCREEN -->
+		<easy_story>Let's start with these guys. They can't wait for a fresh coat of paint!</easy_story>
+		<medium_story>Here's a whole bunch of butterflies! Time to get painting!</medium_story>
+		<hard_story>These butterflies will be tricky to paint. You know how butterflies can be!</hard_story>
+		<royal_story>This bunch of butterflies is pretty picky about their colors. This is going to be a real challenge, but I know you can do it!</royal_story>
+				
+		<easy_exitstory>Nice painting! The butterflies love their colors!</easy_exitstory>
+		<medium_exitstory>You painted them all! Flaptastic! </medium_exitstory>
+		<hard_exitstory>Nice paint job! Thank you!</hard_exitstory>
+		<royal_exitstory>Now THAT'S fancy painting!</royal_exitstory>
+		
+		<allmedium_story>Flitterific start! I knew you'd be great at this!</allmedium_story>
+		<allhard_story>Flaptastic work! Are you ready for more butterflies?</allhard_story>
+		<allroyal_story>Wow, you're GOOD at this! How about one more bunch of butterflies?</allroyal_story>
+				
+		
+		<!-- UI: TITLE SCREEN -->
+		<title_screen target="title.title_container.title_text">Winter Snowflakes</title_screen>
+		<title_play target="title.btnContainer.play_text">Play</title_play>
+		<title_help target="title.btnContainer.help_text">Instructions</title_help>		
+		<title_quit target="title.btnContainer.quit_text">Quit</title_quit>
+				
+		<!-- UI: WELCOME -->
+		<welcome_title>Welcome!</welcome_title>
+		<welcome_play>Continue</welcome_play>
+		
+		<!-- UI: GAME OVER -->
+		<!-- titles -->
+		<game_over_win>Congratulations!</game_over_win>
+		<game_over_lose>Good Game!</game_over_lose>
+		<!-- buttons -->
+		<game_over_continue>Done</game_over_continue>	
+		<game_over_quit>Quit</game_over_quit>	
+		<!-- comments (win) -->
+		<game_over_win_0>FLAPTASTIC! That was some amazing painting!</game_over_win_0>
+		<game_over_win_1>You're one flitterific butterfly painter! Come back any time!</game_over_win_1>
+		<game_over_win_2>That was some great painting! Well done!</game_over_win_2>
+		<game_over_win_3>Great job! Thanks for all your help!</game_over_win_3>
+		<!-- comments (lose) -->
+		<game_over_lose_time_0>Good work! Come back soon, okay?</game_over_lose_time_0>
+		<game_over_lose_time_1>Nice painting! Don't forget to come back -- we always need help here!</game_over_lose_time_1>
+		<game_over_lose_time_2>Thanks for all your help! Come back soon, okay?</game_over_lose_time_2>
+		
+		<!-- UI: LEVEL COMPLETE -->
+		<level_complete>Level {level} Complete!</level_complete>
+		<points>Points :</points>	
+		<perfect>Perfect level :</perfect>
+		<your_score>Your Score : </your_score>
+		<your_last_score>Your Last Score : </your_last_score>
+		<score_total>Total Score : </score_total>
+		
+		<!-- AVATAR ALERT -->
+		<clock_alert_0>Be careful! Don't run out of time!</clock_alert_0>		
+		
+		<!-- Perfect Level -->
+		<life_0>PERFECT! Great work!</life_0>
+		<life_1>GOOD WORK! You finished in time!</life_1>
+	
+		<!-- UI: INSTRUCTIONS -->
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">Instructions</inst_screen_title>
+		
+		<instruction0 target="instructions.btnContainer.page0.text_container.label">Aim the sprayer with your mouse and LEFT click to spray and paint the butterflies before they fly away.</instruction0>
+		<instruction1 target="instructions.btnContainer.page1.text_container.label">Look at the spots on the butterflies' wings to see what color they need to be painted! Change the paint color by clicking on the sprayer. </instruction1>
+		<instruction2 target="instructions.btnContainer.page2.text_container.label">Hit a power up to make painting easier!</instruction2>
+		<instruction3 target="instructions.btnContainer.page3.text_container.label">The beetles will scare the butterflies away. Splat them with paint to get them to move.</instruction3>		
+		<instruction4 target="instructions.btnContainer.page4.text_container.label">Some butterflies need to be painted with two different colors! </instruction4>	
+		
+		<inst_play target="instructions.btnContainer.playBtn.play_text">Play!</inst_play>
+		<inst_back target="instructions.btnContainer.backBtn.back_text">Back</inst_back>		
+		<inst_cont target="instructions.btnContainer.continueBtn.continue_text">Continue</inst_cont>		
+		<inst_quit target="instructions.btnContainer.quitBtn.quit_text">Quit</inst_quit>		
+		
+		<!-- LEVEL TIPS -->
+		<level_tip_1>Paint the butterflies before they fly away!</level_tip_1>	
+		<level_tip_4>Now there are two different colored butterflies. Make sure you paint them the correct color.</level_tip_4>
+		<level_tip_6>Hit the ice cubes to make the butterflies stay still.</level_tip_6>
+		<level_tip_8>Some butterflies need to be painted with TWO sprays of paint before they are complete.</level_tip_8>
+		<level_tip_10>Crabs sometimes get in your way. Spray them with paint and they will stop moving.</level_tip_10>
+		<level_tip_12>The beetles will scare the butterflies away. Splat them with paint to get them to move. </level_tip_12>
+		<level_tip_14>Hit the multi-color paint ball for magic paint!</level_tip_14>
+		<level_tip_18>Hit the wave paint ball to paint all the butterflies on the screen at once!</level_tip_18>
+		<level_tip_22>These butterflies need to be painted with two different colors! </level_tip_22>		
+		
+		<!-- LOOSE A LIFE -->
+		<loose_a_life_title>Good Game!</loose_a_life_title>
+		<loose_a_life_0>Time is up, I'm afraid. Please try again!</loose_a_life_0>		
+		
+		<!-- HOST LEVEL -->
+		<host_level_1_0>Let's start off with some easy stuff, okay?</host_level_1_0>
+		<host_level_1_1>Let's start with some slow-flying butterflies.</host_level_1_1>		
+		<host_level_1_2>I think we should start slow.</host_level_1_2>		
+		
+		<host_level_2_0>Now try to paint 10 butterflies!</host_level_2_0>
+		<host_level_2_1>You're getting it now!</host_level_2_1>	
+		
+		<host_level_3_0>Paint 10 butterflies to get a bonus!</host_level_3_0>
+		<host_level_3_1>Be sure to use the right color!</host_level_3_1>		
+		
+		<host_level_4_0>Here come more butterflies!</host_level_4_0>							
+		<host_level_4_1>Watch the clock thingy to get a bonus!</host_level_4_1>		
+		
+		<host_level_5_0>Pay attention to which colors you need!</host_level_5_0>
+		<host_level_5_1>Aim carefully!</host_level_5_1>	
+		
+		<host_level_6_0>You'll get a bonus if you paint 14 butterflies!</host_level_6_0>
+		<host_level_6_1>Match the paint color to the butterfly's spots!</host_level_6_1>			
+		
+		<host_level_7_0>Paint 14 butterflies this time!</host_level_7_0>
+		<host_level_7_1>Nice painting! Keep going!</host_level_7_1>		
+		
+		<host_level_8_0>Get ready, a whole bunch of butterflies are coming!</host_level_8_0>	
+		<host_level_8_0>Get the right color on the right butterflies!</host_level_8_0>	
+		
+		<host_level_9_0>You need to paint 15 butterflies!</host_level_9_0>
+		<host_level_9_1>Aim between the Lost Things!</host_level_9_1>	
+		
+		<host_level_10_0>Don't slow down now!</host_level_10_0>				
+		<host_level_10_1>Paint as quick as you can!</host_level_10_1>		
+		
+		<host_level_11_0>Watch out for the obstacles!</host_level_11_0>		
+		<host_level_11_1>Don't run out of time!</host_level_11_1>			
+		
+		<host_level_12_0>Don't slow down now!</host_level_12_0>
+		<host_level_12_1>Keep flapping, keep flapping!</host_level_12_1>		
+		
+		<host_level_13_0>Watch your paint colors!</host_level_13_0>
+		<host_level_13_1>Paint fast, there are lots more butterflies!</host_level_13_1>	
+		
+		<host_level_14_0>You're helping out A LOT! Thanks!</host_level_14_0>
+		<host_level_14_1>Try to paint every butterfly!</host_level_14_1>		
+		
+		<host_level_15_0>You need to paint 12 butterflies now!</host_level_15_0>
+		<host_level_15_1>Don't let those butterflies flitter away!</host_level_15_1>			
+		
+		<host_level_16_0>Don't worry, we won't run out of paint!</host_level_16_0>
+		<host_level_16_1>Don't slow down! Keep flapping!</host_level_16_1>
+		
+		<host_level_17_0>You're doing great! Keep it up!</host_level_17_0>	
+		<host_level_17_1>You're doing good, fly faster now!</host_level_17_1>	
+		
+		<host_level_18_0>Aim and spray! Aim and spray!</host_level_18_0>
+		<host_level_18_1>Can you paint every butterfly here? Yes, you can!</host_level_18_1>	
+				
+		<host_level_19_0>Keep up the flaptastic work!</host_level_19_0>
+		<host_level_19_1>Remember to watch the clock!</host_level_19_1>	
+		
+		<host_level_20_0>Can you paint 16 butterflies? I know you can!</host_level_20_0>
+		<host_level_20_1>Don't let those butterflies get away unpainted!</host_level_20_1>		
+		
+		<host_level_21_0>You're doing great! Keep going!</host_level_21_0>
+		<host_level_21_1>Try to get a bonus!</host_level_21_1>		
+		
+		<host_level_22_0>Ready? Set? Spray those butterflies!</host_level_22_0>
+		<host_level_22_1>Paint 10 butterflies for a bonus!</host_level_22_1>		
+		
+		<host_level_23_0>Paint all these butterflies for next season!</host_level_23_0>			
+		<host_level_24_0>This looks hard, but I know you can do it!</host_level_24_0>		
+		<host_level_25_0>Keep track of all those butterflies!</host_level_25_0>			
+		<host_level_26_0>You can do it, I know you can!</host_level_26_0>			
+		<host_level_27_0>Oh, you're so close!</host_level_27_0>			
+		<host_level_28_0>If you paint all of these guys, you'll finish!</host_level_28_0>		
+			
+		
+		<emote_0>You're using the Paint Sprayer perfectly!</emote_0>
+		<emote_1>Your painting skills are FLAPTASTIC!</emote_1>
+		<emote_2>You've got great aim!</emote_2>
+		<emote_3>Make those butterflies beautiful!</emote_3>
+		<emote_4>Are you sure you're not an art-talent?</emote_4>
+		<emote_5>This Paint Sprayer works great, doesn't it?</emote_5>
+		<emote_6>Imagine all these beautifully-painted butterflies!</emote_6>
+		<emote_7>I think the butterflies like you!</emote_7>
+		<emote_8>Let the color FLY!</emote_8>
+		<emote_9>Hey, we're trying to paint here!</emote_9>
+		<emote_10>Aim carefully!</emote_10>
+		<emote_11>Nice one!</emote_11>
+		<emote_12>Whoa, those butterflies are making me dizzy!</emote_12>
+		<emote_13>These colors are so pretty!</emote_13>
+		<emote_14>Keep your colors straight!</emote_14>
+		<emote_15>Remember, try to get those bonus points!</emote_15>
+		<emote_16>Painting butterflies is a serious job!</emote_16>
+		<emote_17>Don't let those tricky butterflies fly away!</emote_17>
+		<emote_18>Spray that paint!</emote_18>
+		<emote_19>Make sure you paint the whole butterfly!</emote_19>
+		<emote_20>Try to get the bonus!</emote_20>
+		<emote_21>Oh! That butterfly's name is Harold. Hi, Harold!</emote_21>
+		<emote_22>Teetering teapots, you're better at this than I am!</emote_22>
+		<emote_23>Those butterflies are tricky, aren't they?</emote_23>
+		<emote_24>Watch out!</emote_24>
+		<emote_25>Nice work!</emote_25>
+		<emote_26>Hey, that butterfly pulled a prank on me yesterday!</emote_26>
+		<emote_27>Did I invent a good gadget or what?</emote_27>
+		<emote_28>You have plenty of paint, so go go go!</emote_28>
+		<emote_29>Be quick! Those butterflies are fast!</emote_29>
+		<emote_30>Moon and stars, that's a lot of butterflies!</emote_30>
+		<emote_31>I like red butterflies best. No, wait -- yellow! No, green!</emote_31>
+		<emote_32>You're the best paint sprayer I've ever seen!</emote_32>
+		<emote_33>Wow! Flitterific painting skills!</emote_33>
+		<emote_34>Swing my hammer, you're good at this!</emote_34>
+		<emote_35>Keep your eyes open and your wings flapping!</emote_35>
+		<emote_36>Keep track of your colors!</emote_36>
+		<emote_37>Look out for obstacles!</emote_37>
+		<emote_38>Hey, butterflies, we're trying to help here!</emote_38>
+		<emote_39>Wow, you're quite an artist!</emote_39>
+		<emote_40>Get the right colors on the right butterflies!</emote_40>
+		<emote_41>The butterflies aren't making this easy, huh?</emote_41>
+		<emote_42>These butterflies will brighten up the mainland!</emote_42>
+		<emote_43>There's no time to rest! Keep painting!</emote_43>
+			
+	</copy>
+	<config>
+		
+		<difficultyChoices layout="5small">
+            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"/>			
+			<difficultyChoice descriptor="royal" displayName="Royal" paidOnly="false"/>			
+			<difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"/>			
+		</difficultyChoices>
+		
+		<supportsTutorial>true</supportsTutorial>
+		
+		<attempts>5</attempts>
+		
+		<!-- required palette param -->		
+		<colorPalette>6</colorPalette>		
+		
+		<!-- sound params -->
+		<music_volume>0.7</music_volume>
+		
+		<!-- game params -->
+		<bug_painted>10</bug_painted>									<!-- base points per bug painted -->
+		<bug_completed>50</bug_completed>								<!-- base points per bug completed -->
+		<points_by_bonus>50</points_by_bonus>
+		<perfect_level>1000</perfect_level>       						<!-- Points by perfect level -->
+		
+				
+		<!-- game Elements -->
+		
+		<paintingMachine link="paintingMachine" posX="392" posY="205" />	
+		
+		<reservoir link="reservoir" posX="750" posY="180">
+			<gauge type="1" posX="-34" posY="140" />
+			<gauge type="2" posX="-27" posY="99" />
+			<gauge type="3" posX="-20" posY="58 " />
+			<gauge type="4" posX="-20" posY="24" />
+			<gauge type="5" posX="-20" posY="-6" />
+		</reservoir>		
+						
+		<blockers>
+			<blocker type="1" name="beetleBug" link="beetleBug" />
+		</blockers>
+		
+		<bonus>
+			<position startX="492" startY="563" endX="549" endY="401" outX="748" outY="552" />
+			<position startX="783" startY="557" endX="650" endY="405" outX="464" outY="566" /> 
+			<position startX="815" startY="-34" endX="665" endY="155" outX="609" outY="-53" /> 
+		</bonus>
+		
+		<!-- Levels TuTo -->	
+		<levelsTuto>
+			<!-- Level 1 tuto -->			
+		    <level time="600" perfectTime="30" frequency="3">		      	
+		      	<paths wayLink="way_path1">
+			      	<path link="path1_1" />
+			      	<path link="path1_2" />
+			    </paths>
+				<paintingMachine posX="590" posY="280" />
+		      	<butterflies distinctColor="1" size="1">
+		      		<butterfly part="1" count="2">
+		      			<color>1</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="1" >
+		      	</bonus>
+		      	<bonusPosition> 
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="1">
+				</beetleBugs>
+				<obstacles>
+				</obstacles>	
+		    </level>	
+		    		    		    
+		    <!-- Level 2 tuto -->	
+		    <level time="600" perfectTime="30" frequency="3">		      	
+		      	<paths wayLink="way_path1">
+			      	<path link="path1_1" />
+			      	<path link="path1_2" />
+			    </paths>
+				<paintingMachine posX="590" posY="280" />
+		      	<butterflies distinctColor="2" size="1">
+		      		<butterfly part="1" count="2">
+		      			<color>1</color>
+		      		</butterfly>
+		      		<butterfly part="1" count="2">
+		      			<color>2</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="1" >
+		      	</bonus>
+		      	<bonusPosition> 
+		      		<!-- <position startX="510" startY="-52" endX="546" endY="84" outX="663" outY="-45 " /> -->
+					<!-- <position startX="627" startY="548" endX="670" endY="411" outX="940" outY="406" /> -->	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="1">
+				</beetleBugs>
+				<obstacles>
+				</obstacles>	
+		    </level>		    	
+		
+		</levelsTuto>
+		
+					
+		<!-- Levels -->	
+		<levels>
+			<!-- Level 1 EASY -->			
+		    <level time="600" perfectTime="30" frequency="3">		      	
+		      	<paths wayLink="way_path1B">
+			      	<path link="path2_1" />
+			      	<path link="path2_2" />
+			    </paths>
+				<paintingMachine posX="583" posY="382" />
+		      	<butterflies distinctColor="3" size="1">
+		      		<butterfly part="1" count="7">
+		      			<color>1</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="5" >
+		      	</bonus>
+		      	<bonusPosition> 
+		      		<!--<position startX="510" startY="-52" endX="546" endY="84" outX="663" outY="-45 " />-->
+					<!--<position startX="627" startY="548" endX="670" endY="411" outX="940" outY="406" />	-->
+				</bonusPosition>       
+				<beetleBugs size="0.5" life="1" frequency="1">
+				</beetleBugs>
+				<obstacles>
+				</obstacles>	
+		    </level>	
+		    
+		    		    
+		    <!-- Level 2 EASY -->	
+		    <level time="600" perfectTime="45" frequency="3">		      	
+		      	<paths wayLink="way_path1B">
+			      	<path link="path2_1" />
+			      	<path link="path2_2" />
+			    </paths>
+				<paintingMachine posX="583" posY="382" />
+		      	<butterflies distinctColor="3" size="1">
+		      		<butterfly part="1" count="10">
+		      			<color>2</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="1" >
+		      	</bonus>
+		      	<bonusPosition> 
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="1">
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle4" posX="575" posY="220" size="1" />
+				</obstacles>	
+		    </level>
+		    	
+		    
+		    <!-- Level 3 EASY -->			
+		    <level time="600" perfectTime="45" frequency="3">		      
+		      	<paths wayLink="way_path1">
+			      	<path link="path1_1" />
+			      	<path link="path1_2" />
+			    </paths>
+				<paintingMachine posX="583" posY="382" />
+		      	<butterflies distinctColor="2" size="1">
+		      		<butterfly part="1" count="10">
+		      			<color>3</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >		      		
+		      	</bonus>
+		      	<bonusPosition>    			
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="1">					
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle2" posX="620" posY="236" size="1" />					
+				</obstacles>	
+		    </level>	
+		    		    
+		      <!-- Level 4 EASY -->			
+		    <level time="600" perfectTime="45" frequency="3">		      
+		      	<paths wayLink="way_path1">
+			      	<path link="path1_1" />
+			      	<path link="path1_2" />
+			    </paths>
+				<paintingMachine posX="583" posY="382" />
+		      	<butterflies distinctColor="2" size="1">
+		      		<butterfly part="1"  count="6">
+		      			<color>1</color>
+		      		</butterfly>
+		      		<butterfly part="1"  count="6">
+		      			<color>2</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >		      		
+		      	</bonus>
+		      	<bonusPosition>    			
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="1">					
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle4" posX="300" posY="350" size="1" />	
+					<obstacle link="obstacle4" posX="650" posY="200" size="1" />		
+				</obstacles>	
+		    </level>
+		     
+		    
+		    <!-- Level 5 EASY -->			
+		    <level time="600" perfectTime="60" frequency="3">		      
+		      	<paths wayLink="way_path4">
+			      	<path link="path4_1" />
+			      	<path link="path4_2" />
+			    </paths>
+				<paintingMachine posX="570" posY="105" />
+		      	<butterflies distinctColor="2" size="1">
+		      		<butterfly part="1" count="6">
+		      			<color>3</color>
+		      		</butterfly>
+		      		<butterfly part="1" count="6">
+		      			<color>4</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >		      		
+		      	</bonus>
+		      	<bonusPosition>    			
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="1">					
+				</beetleBugs>
+				<obstacles>	
+					<obstacle link="obstacle12" posX="350" posY="160" size="1" />					
+				</obstacles>	
+		    </level>		    
+		    
+		    <!-- Level 6 EASY -->			
+		    <level time="600" perfectTime="60" frequency="3">		      
+		      	<paths wayLink="way_path3">
+			      	<path link="path3_1" />
+			      	<path link="path3_2" />
+			    </paths>
+				<paintingMachine posX="650" posY="360" />
+		      	<butterflies distinctColor="2" size="1">
+		      		<butterfly part="1" count="7">
+		      			<color>1</color>
+		      		</butterfly>
+		      		<butterfly part="1" count="7">
+		      			<color>4</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >
+					<bonus type="4" duration="5" link="freezeAll" />		      		
+		      	</bonus>
+		      	<bonusPosition>    						   		
+		      		<position startX="510" startY="-52" endX="546" endY="84" outX="663" outY="-45 " />
+					<position startX="-10" startY="200" endX="200" endY="200" outX="-10" outY="200" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="1">					
+				</beetleBugs>
+				<obstacles>	
+					<obstacle link="obstacle12" posX="490" posY="400" size="1" />		
+					<obstacle link="obstacle3" posX="523" posY="203" size="1" />	
+				</obstacles>	
+		    </level>
+		    		    
+		    <!-- Level 7 EASY -->			
+		    <level time="600" perfectTime="60" frequency="3">		      	
+		      	<paths wayLink="way_path5">
+			      	<path link="path5_1" />
+			      	<path link="path5_2" />
+			    </paths>
+				<paintingMachine posX="530" posY="290" />
+		      	<butterflies distinctColor="2" size="1">
+		      		<butterfly part="1" count="7">
+		      			<color>2</color>
+		      		</butterfly>
+		      		<butterfly part="1" count="7">
+		      			<color>3</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >	
+					<bonus type="4" duration="5" link="freezeAll" />	      		
+		      	</bonus>
+		      	<bonusPosition>   
+					<position startX="510" startY="-52" endX="546" endY="84" outX="663" outY="-45 " />
+					<position startX="-10" startY="200" endX="200" endY="200" outX="-10" outY="200" /> 		
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="1">					
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle1" posX="330" posY="210" size="1" />
+					<obstacle link="obstacle2" posX="400" posY="220" size="1" />
+				</obstacles>	
+		    </level>	
+		    
+		    
+		    <!-- Level 8 MEDIUM -->			
+		    <level time="600" perfectTime="60" frequency="3">		      	
+		      	<paths wayLink="way_path6">
+			      	<path link="path6_1" />
+			      	<path link="path6_2" />
+			      	<path link="path6_3" />
+			    </paths>
+				<paintingMachine posX="390" posY="270" />
+		      	<butterflies distinctColor="2" size="1">
+		      		<butterfly part="1" count="5">
+		      			<color>1</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="5">
+		      			<color>3</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="7" >	
+		      		<bonus type="4" duration="5" link="freezeAll" />	      		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="510" startY="-52" endX="546" endY="84" outX="663" outY="-45 " />
+					<position startX="627" startY="548" endX="670" endY="411" outX="940" outY="406" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="1">					
+				</beetleBugs>
+				<obstacles>	
+					<obstacle link="obstacle1" posX="220" posY="160" size="1" />
+					<obstacle link="obstacle10" posX="585" posY="300" size="1" />
+				</obstacles>	
+		    </level>
+		    		    
+		    
+		    <!-- Level 9 MEDIUM -->			
+		    <level time="600" perfectTime="85" frequency="3">		      	
+		      	<paths wayLink="way_path7">
+			      	<path link="path7_1" />
+			      	<path link="path7_2" />
+			      	<path link="path7_3" />
+			    </paths>
+				<paintingMachine posX="476" posY="277" />
+		      	<butterflies distinctColor="2" size="1">
+		      		<butterfly part="2" count="5">
+		      			<color>2</color>
+		      		</butterfly>
+		      		<butterfly part="1" count="10">
+		      			<color>4</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >	
+		      		<bonus type="4" duration="5" link="freezeAll" />	      		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="405" startY="545" endX="497" endY="46=424" outX="627" outY="549" />
+					<position startX="725" startY="-40" endX="553" endY="48" outX="533" outY="-39" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="1" />
+				<obstacles>
+					<obstacle link="obstacle8" posX="287" posY="295" size="1" />
+					<obstacle link="obstacle3" posX="700" posY="180" size="0.8" />
+				</obstacles>	
+		    </level>
+		    
+		    
+		    <!-- Level 10 MEDIUM -->			
+		    <level time="600" perfectTime="60" frequency="3">
+		      	<paths wayLink="way_path_10">
+			      	<path link="path_10_1" />
+			      	<path link="path_10_2" />
+			    </paths>
+				<paintingMachine posX="458" posY="267" />
+		      	<butterflies distinctColor="2" size="1">
+		      		<butterfly part="2" count="10">
+		      			<color>4</color>
+		      		</butterfly>
+		      		<butterfly part="1" count="10">
+		      			<color>1</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >	
+		      		<bonus type="4" duration="5" link="freezeAll" />	      		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="328 " startY="546" endX="456" endY="395" outX="433" outY="566" />
+					<position startX="533" startY="-39" endX="571" endY="68" outX="615" outY="-42" /> 
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="10">					
+				</beetleBugs>
+				<obstacles>					
+					<obstacle link="mov_obstacle3" posX="382" posY="185" size="1" />	
+				</obstacles>	
+		    </level>		    
+		       
+		    
+		    <!-- Level 11 MEDIUM -->			
+		    <level time="600" perfectTime="85" frequency="3">		      	
+		      	<paths wayLink="way_path6">
+			      	<path link="path6_1" />
+			      	<path link="path6_2" />
+			      	<path link="path6_3" />
+			    </paths>
+				<paintingMachine posX="340" posY="190" />
+		      	<butterflies distinctColor="2" size="1">
+		      		<butterfly part="2" count="5">
+		      			<color>2</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="5">
+		      			<color>3</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="7" >	
+		      		<bonus type="4" duration="5" link="freezeAll" />	      		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="510" startY="-52" endX="546" endY="84" outX="663" outY="-45 " />
+					<position startX="627" startY="548" endX="670" endY="411" outX="940" outY="406" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="1">					
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle2" posX="350" posY="350" size="1" />
+					<obstacle link="obstacle12" posX="600" posY="260" size="1" />
+				</obstacles>	
+		    </level>
+		    		    
+		    
+		    <!-- Level 12 MEDIUM -->			
+		    <level time="600" perfectTime="85" frequency="3">		      	
+		      	<paths wayLink="way_path9">
+			      	<path link="path7_1" />
+			      	<path link="path7_2" />
+			      	<path link="path7_3" />
+			      	<path link="path9_3" />
+			    </paths>
+				<paintingMachine posX="476" posY="277" />
+		      	<butterflies distinctColor="2" size="1">
+		      		<butterfly part="2" count="5">
+		      			<color>1</color>
+		      		</butterfly>
+		      		<butterfly part="1" count="10">
+		      			<color>4</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="7" >	
+		      		<bonus type="4" duration="5" link="freezeAll" />	      		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="405" startY="545" endX="497" endY="424" outX="627" outY="549" />
+					<position startX="725" startY="-40" endX="653" endY="148" outX="533" outY="-39" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="8">
+					<position firstTween="3" lastTween="3" startX="481" startY="547" startRotation="-29" endX="339" endY="289" endRotation="-35 " outX="297" outY="-73" outRotation="87" />
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="mov_obstacle1" posX="273" posY="190" size="0.8" />
+					<obstacle link="obstacle8" posX="237" posY="283" size="1" />
+					<obstacle link="obstacle5" posX="530" posY="130" size="1" />
+				</obstacles>	
+		    </level>
+			
+			 <!-- Level 13 MEDIUM -->			
+		    <level time="600" perfectTime="85" frequency="3">
+		      	<paths wayLink="way_path_10">
+			      	<path link="path_4_1" />
+			      	<path link="path_4_2" />
+			    </paths>
+				<paintingMachine posX="454" posY="270" />
+		      	<butterflies distinctColor="3" size="1">
+		      		<butterfly part="2" count="5">
+		      			<color>4</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="5">
+		      			<color>2</color>
+		      		</butterfly>
+		      		<butterfly part="1" count="5">
+		      			<color>3</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >	
+		      		<bonus type="4" duration="5" link="freezeAll" />	      		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="628" startY="549" endX="638" endY="422" outX="746" outY="541" />
+					<position startX="533" startY="-39" endX="571" endY="68" outX="615" outY="-42" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="8">
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="mov_obstacle3" posX="382" posY="190" size="1" />	
+					<obstacle link="obstacle12" posX="259" posY="164" size="1" />		
+					<obstacle link="obstacle1" posX="623" posY="403" size="1" />
+				</obstacles>	
+		    </level>
+		    
+		    <!-- Level 14 MEDIUM -->			
+		    <level time="600" perfectTime="90" frequency="3">		      	
+		      	<paths wayLink="way_path10">
+			      	<path link="path10_1" />
+			      	<path link="path10_2" />
+			      	<path link="path10_3" />
+			    </paths>
+				<paintingMachine posX="664" posY="152" />
+		      	<butterflies distinctColor="3" size="1">
+		      		<butterfly part="2" count="5">
+		      			<color>1</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="5">
+		      			<color>2</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="5">
+		      			<color>4</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >	
+		      		<bonus type="4" duration="5" link="freezeAll" />
+					<bonus type="3" duration="10" link="oneShot" />	
+					<bonus type="4" duration="10" link="freezeAll" /> 		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="328 " startY="546" endX="456" endY="395" outX="433" outY="566" />
+					<position startX="533" startY="-39" endX="571" endY="68" outX="615" outY="-42" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="8">	
+					<position firstTween="3" lastTween="3" startX="-38" startY="259" startRotation="89" endX="300" endY="194" endRotation="89" outX="71" outY="548" outRotation="-67" />
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="mov_obstacle2" posX="428" posY="360" size="0.8" />					
+					<obstacle link="obstacle2" posX="397" posY="350" size="1" />
+					<obstacle link="obstacle7" posX="596" posY="288" size="1" />7
+				</obstacles>	
+		    </level>
+		    
+			<!-- Level 15 HARD -->			
+		    <level time="600" perfectTime="60" frequency="3">		     
+		      	<paths wayLink="way_path12">
+			      	<path link="path12_1" />
+			      	<path link="path12_2" />
+			      	<path link="path12_3" />
+			      	<path link="path12_4" />
+			    </paths>
+				<paintingMachine posX="204" posY="234" />
+		      	<butterflies distinctColor="4" size="1">
+		      		<butterfly part="2" count="4">
+		      			<color>3</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="4">
+		      			<color>4</color>
+		      		</butterfly>
+					<butterfly part="2" count="4">
+		      			<color>2</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >	
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="4" duration="10" link="freezeAll" />
+					<bonus type="3" duration="10" link="oneShot" />	      		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="414 " startY="550" endX="295" endY="390" outX="516" outY="546 " />
+					<position startX="377" startY="-47" endX="307" endY="125" outX="441" outY="-46" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="8">
+					<!--<position firstTween="3" lastTween="3" startX="-55" startY="190" startRotation="86" endX="433" endY="167" endRotation="86" outX="585" outY="-44" outRotation="129" />-->
+					<position firstTween="3" lastTween="3" startX="547" startY="-51" startRotation="170" endX="625" endY="286" endRotation="170" outX="521" outY="610" outRotation="-93" />
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle9" posX="440" posY="320" size="1" />
+					<obstacle link="obstacle8" posX="600" posY="191" size="1" />
+				</obstacles>	
+		    </level>
+		    
+		    
+		    <!-- Level 16 HARD -->			
+		    <level time="600" perfectTime="90" frequency="3">
+		      	<paths wayLink="way_path13">
+			      	<path link="path13_1" />
+			      	<path link="path13_2" />
+			      	<path link="path13_3" />
+			      	<path link="path13_4" />
+			    </paths>
+				<paintingMachine posX="470" posY="232" />
+		      	<butterflies distinctColor="4" size="1">
+		      		<butterfly part="2" count="5">
+		      			<color>1</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="5">
+		      			<color>2</color>
+		      		</butterfly>
+					<butterfly part="2" count="5">
+		      			<color>3</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >	
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="4" duration="10" link="freezeAll" />
+					<bonus type="3" duration="10" link="oneShot" />	      		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="317 " startY="-51" endX="500" endY="90" outX="442" outY="-46" />
+					<position startX="942" startY="150" endX="716" endY="160" outX="733" outY="-38" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="8">
+					<position firstTween="3" lastTween="3" startX="-38" startY="259" startRotation="89" endX="355" endY="150" endRotation="89" outX="71" outY="548" outRotation="-67" />
+					<position firstTween="3" lastTween="3" startX="974" startY="203" startRotation="-98" endX="680" endY="300" endRotation="-98" outX="969" outY="532" outRotation="-135" />
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle4" posX="563" posY="137" size="1" />
+					<obstacle link="obstacle12" posX="280" posY="334" size="0.8" />
+				</obstacles>	
+		    </level>
+			
+		    <!-- Level 17 HARD -->			
+		    <level time="600" perfectTime="60" frequency="3">		      
+		      	<paths wayLink="way_path11">
+			      	<path link="path11_1" />
+			      	<path link="path11_2" />
+			      	<path link="path11_3" />
+			      	<path link="path11_4" />
+			    </paths>
+				<paintingMachine posX="436" posY="158" />
+		      	<butterflies distinctColor="4" size="1">
+		      		<butterfly part="1" count="4">
+		      			<color>1</color>
+		      		</butterfly>
+		      		<butterfly part="1" count="4">
+		      			<color>2</color>
+		      		</butterfly>
+		      		<butterfly part="1" count="5">
+		      			<color>3</color>
+		      		</butterfly>
+		      		<butterfly part="1" count="5">
+		      			<color>4</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >	
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="4" duration="10" link="freezeAll" />
+					<bonus type="3" duration="10" link="oneShot" />	      		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="434 " startY="539" endX="453" endY="380" outX="524" outY="538" />
+					<position startX="302" startY="-32" endX="350" endY="102" outX="384" outY="-32" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="8">
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle7" posX="500" posY="290" size="1" />
+					<obstacle link="obstacle9" posX="450" posY="420" size="1" />
+					<obstacle link="obstacle6" posX="686" posY="178" size="1" />
+				</obstacles>	
+		    </level>
+		        		    
+		    
+		    <!-- Level 18 HARD -->			
+		    <level time="600" perfectTime="60" frequency="2">		      
+		      	<paths wayLink="way_path14">
+			      	<path link="path14_1" />
+			      	<path link="path14_2" />
+			      	<path link="path14_3" />
+			      	<path link="path14_4" />
+			    </paths>
+				<paintingMachine posX="274" posY="181" />
+		      	<butterflies distinctColor="1" size="1">
+		      		<butterfly part="2" count="10">
+		      			<color>4</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="10">
+		      			<color>2</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >	
+		      		<bonus type="4" duration="10" link="freezeAll" />
+		      		<bonus type="2" duration="10" link="wave5" />    		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="378 " startY="-42" endX="430" endY="120" outX="430" outY="-39" />
+					<position startX="388" startY="533" endX="453" endY="430" outX="516" outY="540" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="6">
+					<position firstTween="3" lastTween="3" startX="295" startY="-17" startRotation="140" endX="446" endY="214" endRotation="140" outX="481" outY="-56" outRotation="87" />				
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle4" posX="650" posY="180" size="1" />
+					<obstacle link="obstacle12" posX="523" posY="350" size="0.7" />
+				</obstacles>	
+		    </level>
+		    		    
+		    
+			<!-- Level 19 HARD -->			
+		    <level time="600" perfectTime="60" frequency="2">		      	
+		      	<paths wayLink="way_path15">
+			      	<path link="path15_1" />
+			      	<path link="path15_2" />
+			      	<path link="path15_3" />
+			      	<path link="path15_4" />
+			    </paths>
+				<paintingMachine posX="234" posY="181" />
+		      	<butterflies distinctColor="1" size="1">
+		      		<butterfly part="2" count="6">
+		      			<color>3</color>
+		      		</butterfly>
+		      		<butterfly part="1" count="6">
+		      			<color>1</color>
+		      		</butterfly>
+					<butterfly part="1" count="6">
+		      			<color>2</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >	
+		      		<bonus type="4" duration="10" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="3" duration="10" link="oneShot" />	 
+		      		<bonus type="2" duration="5" link="wave5" />  		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="516 " startY="540" endX="486" endY="350" outX="388" outY="533" />
+					<position startX="706" startY="544" endX="680" endY="400" outX="792" outY="536" />
+					<position startX="706" startY="533" endX="655" endY="287" outX="415" outY="-36" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="8">
+					<position firstTween="3" lastTween="3" startX="966" startY="401" startRotation="-79" endX="597" endY="293" endRotation="-79" outX="981" outY="256" outRotation="177" />
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle2" posX="525" posY="220" size="1" />
+				</obstacles>	
+		    </level>	  		 	    
+		    
+					    
+		    <!-- Level 20 HARD -->			
+		    <level time="600" perfectTime="85" frequency="3">		     
+		      	<paths wayLink="way_path12">
+			      	<path link="path12_1" />
+			      	<path link="path12_2" />
+			      	<path link="path12_3" />
+			      	<path link="path12_4" />
+			    </paths>
+				<paintingMachine posX="204" posY="234" />
+		      	<butterflies distinctColor="4" size="1">
+		      		<butterfly part="2" count="4">
+		      			<color>1</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="4">
+		      			<color>2</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="4">
+		      			<color>3</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="4">
+		      			<color>4</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >	
+		      		<bonus type="4" duration="10" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="3" duration="10" link="oneShot" />     		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="414 " startY="550" endX="440" endY="430" outX="516" outY="546 " />
+					<position startX="377" startY="-47" endX="307" endY="125" outX="441" outY="-46" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="10">
+					<position firstTween="3" lastTween="3" start3X="-55" startY="190" startRotation="86" endX="398" endY="245" endRotation="86" outX="585" outY="-44" outRotation="129" />
+					<position firstTween="3" lastTween="3" startX="547" startY="-51" startRotation="170" endX="625" endY="285" endRotation="170" outX="521" outY="610" outRotation="-93" />
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle4" posX="577" posY="191" size="1" />
+					<obstacle link="obstacle8" posX="429" posY="309" size="1" />
+				</obstacles>	
+		    </level>
+		    
+		    <!-- Level 21 HARD -->			
+		    <level time="600" perfectTime="70" frequency="3">		      
+		      	<paths wayLink="way_path11">
+			      	<path link="path11_1" />
+			      	<path link="path11_2" />
+			      	<path link="path11_3" />
+			      	<path link="path11_4" />
+			    </paths>
+				<paintingMachine posX="486" posY="238" />
+		      	<butterflies distinctColor="4" size="1">
+		      		<butterfly part="2" count="5">
+		      			<color>1</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="5">
+		      			<color>2</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="5">
+		      			<color>3</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="5">
+		      			<color>4</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >
+					<bonus type="2" duration="5" link="wave5" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="3" duration="10" link="oneShot" />	      		
+		      	</bonus>
+		      	<bonusPosition>    		
+		      		<position startX="434 " startY="539" endX="453" endY="440" outX="524" outY="538" />
+					<position startX="302" startY="-32" endX="350" endY="102" outX="384" outY="-32" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="10">
+					<position firstTween="3" lastTween="3" startX="-40" startY="246" startRotation="98" endX="429" endY="327" endRotation="112" outX="298" outY="572" outRotation="-107 " />
+					<position firstTween="3" lastTween="3" startX="787" startY="549" startRotation="-30" endX="595" endY="270" endRotation="-24" outX="582" outY="558" outRotation="-88" />
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="mov_obstacle2" posX="308" posY="280" size="0.8" />
+					<obstacle link="obstacle9" posX="370" posY="390" size="0.95" />
+					<obstacle link="obstacle6" posX="686" posY="178" size="1" />
+					<obstacle link="obstacle12" posX="480" posY="110" size="1" />
+				</obstacles>	
+		    </level>
+		    		    
+
+		    <!-- Level 22 Royal -->			
+		    <level time="600" perfectTime="60" frequency="2">		      
+		      	<paths wayLink="way_path16">
+			      	<path link="path16_1" />
+			      	<path link="path16_2" />
+			      	<path link="path16_3" />
+			      	<path link="path16_4" />
+			    </paths>
+				<paintingMachine posX="480" posY="223" />
+		      	<butterflies distinctColor="2" size="1">
+		      		<butterfly part="2" count="10">
+		      			<color>4</color>
+		      			<color>2</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="10" >	
+		      		<bonus type="2" duration="5" link="wave5" />
+		      		<bonus type="4" duration="10" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      	</bonus>
+		      	<bonusPosition>    		
+		       		<position startX="516 " startY="540" endX="486" endY="420" outX="388" outY="533" />
+					<position startX="401" startY="541" endX="380" endY="280" outX="485" outY="538" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="3">
+				</beetleBugs>
+				<obstacles>
+				</obstacles>	
+		    </level>	
+		    
+		    <!-- Level 23  Royal -->			
+		    <level time="600" perfectTime="90" frequency="2">
+		      	<paths wayLink="way_path17">
+			      	<path link="path17_1" />
+			      	<path link="path17_2" />
+			      	<path link="path17_3" />
+			      	<path link="path17_4" />
+			    </paths>
+				<paintingMachine posX="222" posY="249" />
+		      	<butterflies distinctColor="3" size="1">
+		      		<butterfly part="2" count="5">
+		      			<color>4</color>
+		      			<color>3</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="5">
+		      			<color>1</color>		      			
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="5" >	
+		      		<bonus type="4" duration="10" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />	
+		      		<bonus type="3" duration="10" link="oneShot" />	
+		      	</bonus>
+		      	<bonusPosition> 
+					<position startX="501" startY="-35" endX="300" endY="130" outX="609" outY="-36" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="3">
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle4" posX="481" posY="202" size="1" />
+				</obstacles>	
+		    </level>
+		    
+			 <!-- Level 24  Royal -->			
+		    <level time="600" perfectTime="65" frequency="2">		      
+		      	<paths wayLink="way_path20">
+			      	<path link="path16_1" />
+			      	<path link="path17_2" />
+			      	<path link="path18_3" />
+			      	<path link="path16_4" />
+			    </paths>
+				<paintingMachine posX="504" posY="156" />
+		      	<butterflies distinctColor="2" size="1">
+		      		<butterfly part="2" count="5">
+		      			<color>4</color>
+		      			<color>1</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="5">
+		      			<color>2</color>
+		      			<color>3</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="5" >	
+					<bonus type="4" duration="10" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="3" duration="10" link="oneShot" />		
+		      	</bonus>
+		      	<bonusPosition>   
+					<position startX="401" startY="541" endX="550" endY="350" outX="485" outY="538" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="3">
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="mov_obstacle3" posX="445" posY="104" size="0.8" />
+					<obstacle link="obstacle12" posX="483" posY="314" size="0.48" />
+				</obstacles>	
+		    </level>	
+		    
+		    <!-- Level 25  Royal -->			
+		    <level time="600" perfectTime="70" frequency="2">
+		      	<paths wayLink="way_path21">
+			      	<path link="path6_3" />
+			      	<path link="path8_3" />
+			      	<path link="path8_2" />
+			    </paths>
+				<paintingMachine posX="450" posY="229" />
+		      	<butterflies distinctColor="4" size="1">
+		      		<butterfly part="2" count="4">
+		      			<color>2</color>		      			
+		      		</butterfly>
+		      		<butterfly part="1" count="8">
+		      			<color>1</color>		      			
+		      		</butterfly>
+		      		<butterfly part="2" count="2">
+		      			<color>4</color>
+		      			<color>1</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="2">
+		      			<color>2</color>
+		      			<color>3</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="5" >	
+		      		<bonus type="2" duration="10" link="wave5" />	
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="4" duration="10" link="freezeAll" />	
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      	</bonus>
+		      	<bonusPosition>    		
+		       		<position startX="458 " startY="532" endX="489" endY="432" outX="533" outY="532" />
+					<position startX="501" startY="-35" endX="557" endY="108" outX="609" outY="-36" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="6">
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle4" posX="610" posY="279" size="0.9" />					
+					<obstacle link="mov_obstacle2" posX="260" posY="302" size="0.8" />
+				</obstacles>	
+		    </level>
+		    
+		    <!-- Level 26  Royal -->			
+		    <level time="600" perfectTime="100" frequency="2">
+		      	<paths wayLink="way_path18">
+			      	<path link="path18_1" />
+			      	<path link="path18_2" />
+			      	<path link="path18_3" />
+			      	<path link="path18_4" />
+			    </paths>
+				<paintingMachine posX="401" posY="154" />
+		      	<butterflies distinctColor="4" size="1">
+		      		<butterfly part="2" count="5">
+		      			<color>1</color>
+		      			<color>2</color>
+		      		</butterfly>
+		      		<butterfly part="1" count="4">
+		      			<color>1</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="5">
+		      			<color>4</color>
+		      			<color>3</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="5">
+		      			<color>2</color>
+		      			<color>3</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="5" >	
+		      		<bonus type="4" duration="10" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="2" duration="5" link="wave5" />		
+		      	</bonus>
+		      	<bonusPosition>    		
+		       		<position startX="458 " startY="532" endX="489" endY="432" outX="533" outY="532" />
+					<position startX="501" startY="-35" endX="557" endY="108" outX="609" outY="-36" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="6">
+					<position firstTween="3" lastTween="3" startX="-17" startY="415" startRotation="74" endX="346" endY="331" endRotation="74" outX="-41" outY="288" outRotation="-2" />
+					<position firstTween="3" lastTween="3" startX="966" startY="401" startRotation="-79" endX="547" endY="323" endRotation="-79" outX="981" outY="256" outRotation="177" />
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle11" posX="260" posY="192" size="1" />
+					<obstacle link="obstacle12" posX="330" posY="380" size="1" />
+				</obstacles>	
+		    </level> 
+		    
+		    
+		     <!-- Level 27  Royal -->			
+		    <level time="600" perfectTime="120" frequency="2">		      
+		      	<paths wayLink="way_path19">
+			      	<path link="path19_1" />
+			      	<path link="path19_2" />
+			      	<path link="path19_3" />
+			      	<path link="path19_4" />
+			    </paths>
+				<paintingMachine posX="478" posY="245" />
+		      	<butterflies distinctColor="1" size="1">
+		      		<butterfly part="1" count="50">
+		      			<color>4</color>		      			
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="15" >	
+		      		<bonus type="2" duration="5" link="wave5" />			
+		      	</bonus>
+		      	<bonusPosition>    		
+		       		<position startX="557 " startY="532" endX="582" endY="432" outX="633" outY="533" />
+					<position startX="501" startY="-35" endX="555" endY="73" outX="609" outY="-36" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="5">
+					<position firstTween="3" lastTween="3" startX="-40" startY="375" startRotation="73" endX="300" endY="270" endRotation="74" outX="-60" outY="134" outRotation="-2" />
+					<position firstTween="3" lastTween="3" startX="976" startY="353" startRotation="-79" endX="650" endY="200" endRotation="-79" outX="981" outY="256" outRotation="177" />
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle5" posX="480" posY="419" size="1" />
+					<obstacle link="obstacle7" posX="290" posY="150" size="1" />
+				</obstacles>	
+		    </level> 
+		    
+		    
+		    <!-- Level 28  Royal -->			
+		    <level time="600" perfectTime="110" frequency="2">
+		      	<paths wayLink="way_path22">
+			      	<path link="path20_1" />
+			      	<path link="path20_2" />
+			      	<path link="path20_3" />
+			      	<path link="path20_4" />
+			    </paths>
+				<paintingMachine posX="306" posY="231" />
+		      	<butterflies distinctColor="4" size="1">
+		      		<butterfly part="2" count="4">
+		      			<color>4</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="4">		      	
+		      			<color>2</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="4">
+		      			<color>1</color>
+		      			<color>3</color>
+		      		</butterfly>
+		      		<butterfly part="2" count="4">
+		      			<color>2</color>
+		      			<color>4</color>
+		      		</butterfly>
+		      	</butterflies>	
+		      	<bonus delay ="5" >	
+		      		<bonus type="4" duration="10" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="4" duration="5" link="freezeAll" />
+		      		<bonus type="2" duration="5" link="wave5" />		
+		      	</bonus>
+		      	<bonusPosition>    		
+		       		<position startX="422 " startY="540" endX="440" endY="420" outX="495" outY="537" />
+					<position startX="503" startY="-35" endX="500" endY="150" outX="576" outY="-36" /> 	
+				</bonusPosition>    
+				<beetleBugs size="0.5" life="1" frequency="5">
+					<position firstTween="3" lastTween="3" startX="960" startY="205" startRotation="-79" endX="650" endY="180" endRotation="-79" outX="983" outY="119" outRotation="178" />
+					<position firstTween="3" lastTween="3" startX="542" startY="562" startRotation="1.5" endX="537" endY="422" endRotation="1.5" outX="398" outY="622" outRotation="-92" />
+				</beetleBugs>
+				<obstacles>
+					<obstacle link="obstacle1" posX="360" posY="139" size="1" />
+				</obstacles>	
+		    </level> 
+		</levels>	
+	</config>
+</panel>

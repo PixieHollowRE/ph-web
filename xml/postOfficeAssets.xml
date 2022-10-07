@@ -1,0 +1,340 @@
+<PostOfficeAssets>
+	<copy>
+		
+		<!-- CATEGORIES -->
+		<category1>Arrival Day</category1>	
+		<category2>Seasons</category2>
+		<category3>Holidays</category3>
+		<category4>Animal Friends</category4>
+		<category5>Fashion</category5>
+		<category6>Congratulations</category6>
+		<category7>Get Well</category7>
+		<category8>Thank You</category8>
+		<category9>New Homes</category9>
+		<category10>Parties</category10>
+		<category11>Games</category11>
+		<category12>Gifts</category12>
+		<category13>I'm Sorry</category13>
+		<category14>Fairy Gardens</category14>
+		
+		
+		<!-- CATEGORY 1 -->
+		<message1>Happy Arrival Day, pixie pal!</message1>
+		<message2>Welcome to the Hollow!</message2>
+		<message3>Happy Birthday!</message3>
+		
+		<!-- CATEGORY 2 -->
+		<message4>Happy spring! </message4>
+		<message5>Spring has sprung!</message5>
+		<message6>Happy autumn!</message6>
+		<message7>Have a ball this fall!</message7>
+		<message8>Happy winter!</message8>
+		<message9>Have a magical winter!</message9>
+		<message10>Season's Greetings!</message10>
+		<message11>Happy summer!</message11>
+		<message12>Give a cheer, summer is here!</message12>
+		
+		<!-- CATEGORY 3 -->
+		<message13>Happy Fairy Friendship Festival!</message13>
+		<message14>Be my pixie pal!</message14>
+		<message15>You're my best fairy friend!</message15>
+		<message16>Happy Fairy Feast!</message16>
+		<message17>Happy Animal Masquerade!</message17>
+		<message18>Let's get spooky for Animal Masquerade!</message18>
+		<message19>Happy Great Winter Light-Up!</message19>
+		<message20>Your friendship lights up my life!</message20>
+		<message21>Happy Never Dove Egg Hunt!</message21>
+		<message22>Let's hunt for Never Dove eggs!</message22>
+		<message23>Happy Silly Days!</message23>
+		<message24>You're my silliest friend!</message24>
+		<message25>Mermaid friends forever!</message25>
+		<message26>Happy Summer Splash!</message26>
+		<message27>Friends are nature's sisters!</message27>
+		<message28>You're like a sister to me!</message28>
+
+		
+		<!-- CATEGORY 4 -->
+		<message29>Congrats! Your new baby ladybug is flaptastic!</message29>
+		<message30>Congrats! Your new baby hummingbird is flitterific!</message30>
+		<message31>Congrats! Your new baby dragonfly is flaptastic!</message31>
+		<message32>Congrats! Your new baby firefly is glowtastic!</message32>
+		<message33>Congrats! Your new baby bee is buzz-riffic!</message33>
+		<message34>I hope your Animal Friend feels better soon!</message34>
+		<message35>Your Animal Friend is the cutest!</message35>
+		<message36>I think our Animal Friends should be best pals!</message36>
+		<message37>Congratulations on your full-grown Animal Friend!</message37>
+		
+		
+		<!-- CATEGORY 5 -->
+		<message38>You're a Fairy fashionista!</message38>
+		<message39>You're the most stylish Fairy I know!</message39>
+		<message40>You're my best-dressed pixie pal!</message40>
+		<message41>Want to go shopping?</message41>
+
+		<message42>Fashion contest at my house!</message42>
+		<message43>Let's go shopping! Meet me at Summit Style!</message43>
+		<message44>Let's go shopping! Meet me at Gale's Outfitters!</message44>
+		<message45>Let's go shopping! Meet me at Bella's Baubles!</message45>
+		<message46>Let's go shopping! Meet me at Coal's Clothiers!</message46>
+		<message47>Let's go shopping! Meet me at the Queen's Boutique!</message47>
+		<message48>Let's go shopping! Meet me at Cassie's Costume Shop!</message48>
+		<message49>Let's go shopping! Meet me at Zephyr's Zoom Room!</message49>
+		<!-- <message45>Let's go shopping! Meet me at Gavin's Gear!</message45> -->
+		
+		<!-- CATEGORY 6 -->
+		<message50>Congratulations!</message50>
+		<message51>You did it!</message51>
+		<message52>You're flaptastic!</message52>
+		<message53>Best wishes!</message53>
+		<message54>Great work!</message54>
+		
+		
+		<!-- CATEGORY 7 -->
+		<message55>Get well soon!</message55>
+		<message56>Hope you feel better!</message56>
+		
+		
+		<!-- CATEGORY 8 -->
+		<message57>Thank you!</message57>
+		<message58>Thanks so much, pixie pal!</message58>
+		<message59>Thank you! You're a great friend!</message59>
+		<message60>Thanks for inviting me to your party!</message60>
+		<message61>Thank you for the flitterific gift!</message61>
+		
+		
+		<!-- CATEGORY 9 -->
+		<message62>Congratulations on your new home!</message62>
+		<message63>Your new home is flaptastic!</message63>
+		<message64>Your new water-talent home is splashtastic!</message64>
+		<message65>Your new light-talent home is shimmerific!</message65>
+		<message66>Your new animal-talent home is paw-some!</message66>
+		<message67>Your new garden-talent home is plant-tastic!</message67>
+		<message68>Your new tinker-talent home is tinkeriffic!</message68>
+		
+		
+		<!-- CATEGORY 10 -->
+		<message69>You're invited to my party!</message69>
+		<message70>Come to a party at my house!</message70>
+		<message71>Nothing beats a pixie party!</message71>
+		<message72>Let's celebrate!</message72>
+		<message73>Fly to my party to play Simone Says!</message73>
+		<message74>Fly to my party to play Rock, Paper, Scissors!</message74>
+		<message75>Fly to my party to play Pass the Popcorn!</message75>
+		<message76>Fly to my party to play Crazy Cakes!</message76>
+		<message77>Fly to my party to play Two for Tea!</message77>
+		
+		
+		<!-- CATEGORY 11 -->
+		<message78>Let's play Animal Derby!</message78>
+		<message79>Let's race!</message79>
+		<message80>Let's play Two For Tea!</message80>
+		<message81>Let's play a sweet game of Crazy Cakes!</message81>
+		<message82>Meet me in the Tearoom!</message82>
+		<message83>Meet me in the Fairy Coliseum!</message83>
+		
+		
+		<!-- CATEGORY 12 -->
+		<message84>A gift for my Fairy friend!</message84>
+		<message85>I hope you enjoy this gift!</message85>
+		<message86>A present for my pixie pal!</message86>
+		<message87>Wings crossed that you love this gift!</message87>
+		<message88>Just a little something from me to you!</message88>
+
+		<!-- CATEGORY 13 -->
+		<message89>Sorry about that, pixie pal!</message89>
+		<message90>Just a note to say I'm sorry!</message90>
+		<message91>I'd fly backwards if I could!</message91>
+
+		<!-- CATEGORY 14 -->
+		<message92>Come to my garden party!</message92>
+		<message93>Your Fairy Garden is plant-tastic!</message93>
+		<message94>Please sing to my plants!</message94>
+		<message95>Would love it if you sang to my plants!</message95>
+		<message96>Thanks for singing to my plants!</message96>
+	</copy>
+	<config>
+		<postCardCollections collectionsIds="7001,7002" />
+		<messageBlocks>
+			<messageBlock categoryId="1" copyId="category1">
+				<messages>
+					<message id="1" copyId="message1" />
+					<message id="2" copyId="message2" />
+					<message id="3" copyId="message3" />
+					
+				</messages>	
+			</messageBlock>
+			<messageBlock categoryId="2" copyId="category2">
+				<messages>
+					<message id="4" copyId="message4" />
+					<message id="5" copyId="message5" />
+					<message id="6" copyId="message6" />
+					<message id="7" copyId="message7" />
+					<message id="8" copyId="message8" />
+					<message id="9" copyId="message9" />
+					<message id="10" copyId="message10" />
+					<message id="11" copyId="message11" />
+					<message id="12" copyId="message12" />
+				</messages>	
+			</messageBlock>
+			<messageBlock categoryId="3" copyId="category3">
+				<messages>
+					<message id="13" copyId="message13" />
+					<message id="14" copyId="message14" />
+					<message id="15" copyId="message15" />
+					<message id="16" copyId="message16" />
+					<message id="17" copyId="message17" />
+					<message id="18" copyId="message18" />
+					<message id="19" copyId="message19" />
+					<message id="20" copyId="message20" />
+					<message id="21" copyId="message21" />
+					<message id="22" copyId="message22" />
+					<message id="23" copyId="message23" />
+					<message id="24" copyId="message24" />
+					<message id="25" copyId="message25" />
+					<message id="26" copyId="message26" />
+					<message id="27" copyId="message27" />
+					<message id="28" copyId="message28" />
+					
+				</messages>	
+			</messageBlock>
+			<messageBlock categoryId="4" copyId="category4">
+				<messages>
+					<message id="29" copyId="message29" />
+					<message id="30" copyId="message30" />
+					<message id="31" copyId="message31" />
+					<message id="32" copyId="message32" />
+					<message id="33" copyId="message33" />
+					<message id="34" copyId="message34" />
+					<message id="35" copyId="message35" />
+					<message id="36" copyId="message36" />
+					<message id="37" copyId="message37" />
+
+				</messages>	
+			</messageBlock>
+			<messageBlock categoryId="5" copyId="category5">
+				<messages>
+					<message id="38" copyId="message38" />
+					<message id="39" copyId="message39" />
+					<message id="40" copyId="message40" />
+					<message id="41" copyId="message41" />
+					<message id="42" copyId="message42" />
+					<message id="43" copyId="message43" />
+					<message id="44" copyId="message44" />
+					<message id="45" copyId="message45" />
+					<message id="46" copyId="message46" />
+					<message id="47" copyId="message47" />
+					<message id="48" copyId="message48" />
+					<message id="49" copyId="message49" />
+					<!-- <message id="45" copyId="message45" /> -->
+				</messages>	
+			</messageBlock>
+			<messageBlock categoryId="6" copyId="category6">
+				<messages>
+					<message id="50" copyId="message50" />
+					<message id="51" copyId="message51" />
+					<message id="52" copyId="message52" />
+					<message id="53" copyId="message53" />
+					<message id="54" copyId="message54" />
+				</messages>	
+			</messageBlock>
+			<messageBlock categoryId="7" copyId="category7">
+				<messages>
+					<message id="55" copyId="message55" />
+					<message id="56" copyId="message56" />
+				</messages>	
+			</messageBlock>
+			<messageBlock categoryId="8" copyId="category8">
+				<messages>
+					<message id="57" copyId="message57" />
+					<message id="58" copyId="message58" />
+					<message id="59" copyId="message59" />
+					<message id="60" copyId="message60" />
+					<message id="61" copyId="message61" />
+				</messages>	
+			</messageBlock>
+			<messageBlock categoryId="9" copyId="category9">
+				<messages>
+					<message id="62" copyId="message62" />
+					<message id="63" copyId="message63" />
+					<message id="64" copyId="message64" />
+					<message id="65" copyId="message65" />
+					<message id="66" copyId="message66" />
+					<message id="67" copyId="message67" />
+					<message id="68" copyId="message68" />
+				</messages>	
+			</messageBlock>
+			<messageBlock categoryId="10" copyId="category10">
+				<messages>
+					<message id="69" copyId="message69" />
+					<message id="70" copyId="message70" />
+					<message id="71" copyId="message71" />
+					<message id="72" copyId="message72" />
+					<message id="73" copyId="message73" />
+					<message id="74" copyId="message74" />
+					<message id="75" copyId="message75" />
+					<message id="76" copyId="message76" />
+					<message id="77" copyId="message77" />
+				</messages>	
+			</messageBlock>
+			<messageBlock categoryId="11" copyId="category11">
+				<messages>
+					<message id="78" copyId="message78" />
+					<message id="79" copyId="message79" />
+					<message id="80" copyId="message80" />
+					<message id="81" copyId="message81" />
+					<message id="82" copyId="message82" />
+					<message id="83" copyId="message83" />
+				</messages>	
+			</messageBlock>
+			<messageBlock categoryId="12" copyId="category12">
+				<messages>
+					<message id="84" copyId="message84" />
+					<message id="85" copyId="message85" />
+					<message id="86" copyId="message86" />
+					<message id="87" copyId="message87" />
+					<message id="88" copyId="message88" />
+				</messages>	
+			</messageBlock>
+			<messageBlock categoryId="13" copyId="category13">
+				<messages>
+					<message id="89" copyId="message89" />
+					<message id="90" copyId="message90" />
+					<message id="91" copyId="message91" />
+				</messages>	
+			</messageBlock>
+			<messageBlock categoryId="14" copyId="category14">
+				<messages>
+					<message id="92" copyId="message92" />
+					<message id="93" copyId="message93" />
+					<message id="94" copyId="message94" />
+					<message id="95" copyId="message95" />
+					<message id="96" copyId="message96" />
+				</messages>	
+			</messageBlock>
+		</messageBlocks>
+		
+		<postcards>
+			<postcard id="88501" image="{panelAJPG}/postcards/animal-derby.ajpg" />
+			<postcard id="88502" image="{panelAJPG}/postcards/animal-friend-congrats.ajpg" />
+			<postcard id="88503" image="{panelAJPG}/postcards/animal-friend-farewell.ajpg" />
+			<postcard id="88504" image="{panelAJPG}/postcards/animal-friend-farewell-v2.ajpg" />
+			<postcard id="88505" image="{panelAJPG}/postcards/animal-friend-get-well.ajpg" />
+			<postcard id="88506" image="{panelAJPG}/postcards/animal-masquerade.ajpg" />
+			<postcard id="88507" image="{panelAJPG}/postcards/arrival-day.ajpg" />
+			<postcard id="88508" image="{panelAJPG}/postcards/bday.ajpg" />
+			<postcard id="88509" image="{panelAJPG}/postcards/congrats.ajpg" />
+			<postcard id="88510" image="{panelAJPG}/postcards/fairy-feast.ajpg" />
+			<postcard id="88511" image="{panelAJPG}/postcards/friendship-festival.ajpg" />
+			<postcard id="88512" image="{panelAJPG}/postcards/misc-monocle-owl.ajpg" />
+			<postcard id="88513" image="{panelAJPG}/postcards/never-dove.ajpg" />
+			<postcard id="88514" image="{panelAJPG}/postcards/seasons-autumn.ajpg" />
+			<postcard id="88515" image="{panelAJPG}/postcards/seasons-spring.ajpg" />
+			<postcard id="88516" image="{panelAJPG}/postcards/seasons-summer.ajpg" />
+			<postcard id="88517" image="{panelAJPG}/postcards/seasons-winter.ajpg" />
+			<postcard id="88518" image="{panelAJPG}/postcards/silly-days.ajpg" />
+			<postcard id="88519" image="{panelAJPG}/postcards/summer-splash.ajpg" />
+			<postcard id="88520" image="{panelAJPG}/postcards/thank-you.ajpg" />
+			<postcard id="88521" image="{panelAJPG}/postcards/winter-lightup.ajpg" />
+		</postcards>
+	</config>
+</PostOfficeAssets>

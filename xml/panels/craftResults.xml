@@ -1,0 +1,53 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/craftResults.swf</swf>
+		<swf type="code">{panelCode}/craftResults.swf</swf>
+	</swfs>
+	<copy>
+		<title_community target = "bg_container.background.title_community.title">Congratulations</title_community>
+		<title_personal target = "bg_container.background.title_personal.title">Congratulations</title_personal>		
+		<newRecipesTitle_community target = "newRecipeContainer.newRecipes.bg_container.background.title_community.title">Congratulations</newRecipesTitle_community>
+		<newRecipesTitle_personal target = "newRecipeContainer.newRecipes.bg_container.background.title_personal.title">Congratulations</newRecipesTitle_personal>		
+		<newRecipeText target = "newRecipeContainer.newRecipes.newRecipeText.label">Nice work! Your list of patterns keeps growing!</newRecipeText>		
+		<quality_label target = "quality_label.label">Crafting Score</quality_label>
+		<nextButtonLabel target = "nextButtonContainer.nextButton.label">Done</nextButtonLabel>
+		<backButtonLabel target = "backButtonContainer.backButton.label">Quit</backButtonLabel>
+		<showDetails target="detailsButtonContainer.detailsButton.label">Details</showDetails>
+		<newRecord target="recordTextContainer.recordText.NewRecordText.label">NEW RECORD</newRecord>
+
+		<tailoring_typePlural>Patterns</tailoring_typePlural>
+		<baking_typePlural>Recipes</baking_typePlural>
+		<tinkering_typePlural>Blueprints</tinkering_typePlural>
+
+		<tailoring_verb>tailor</tailoring_verb>
+		<baking_verb>bake</baking_verb>
+		<tinkering_verb>tinker</tinkering_verb>
+
+		<tailoring_verbing>Tailoring</tailoring_verbing>
+		<baking_verbing>Baking</baking_verbing>
+		<tinkering_verbing>Tinkering</tinkering_verbing>
+		
+		<tailoring_type>Pattern</tailoring_type>
+		<baking_type>Recipe</baking_type>
+		<tinkering_type>Blueprint</tinkering_type>
+		<tailoring_points>Experience Points</tailoring_points>
+		<baking_points>Experience Points</baking_points>
+		<tinkering_points>Experience Points</tinkering_points>
+		<tailoring_new>Nice work! Your list of patterns keeps growing!</tailoring_new>
+		<baking_new>Nice work! Your list of recipes keeps growing!</baking_new>
+		<tinkering_new>Nice work! Your list of blueprints keeps growing!</tinkering_new>
+		<complete>COMPLETE</complete>
+		<hideDetails>Summary</hideDetails>
+		<bonus>x#POINT# BONUS!</bonus>
+		<output>You made #NUM#!</output>
+		<bakers_dozen>Baker's Dozen</bakers_dozen>
+
+		<seasonalSuccessTitle>#CRAFT# Unlocked!</seasonalSuccessTitle>
+		<seasonalSuccessExplanation>Go to "Personal #ACTIONING#" to #ACTION# one of these #CRAFTS# for yourself!</seasonalSuccessExplanation>
+
+		<seasonalFailureTitle>Keep Trying!</seasonalFailureTitle>
+		<seasonalFailureExplanation>You need a score of #REQUIREDSCORE# or above to unlock this #CRAFTLOWERCASE# in "Personal #ACTIONING#."</seasonalFailureExplanation>
+	</copy>
+	<config>
+	</config>
+</panel>

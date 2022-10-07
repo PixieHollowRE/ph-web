@@ -1,0 +1,21 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/calendar.swf</swf>
+		<swf type="code">{publishPanelCode}/calendar.swf</swf>
+	</swfs>
+	<copy>
+		<title>Camp Pixie Dust Is Coming!</title>
+		<subtitle>Starting June 21, get ready to fly away for summer camp in Pixie Hollow where you can:</subtitle>
+		<blurb1>Play new games with your pixie pals</blurb1>
+		<blurb2>Show off your talent troop pride with all-new Fairy Outfits</blurb2>
+		<blurb3>Decorate your house like a camp cabin with flitterific new furniture</blurb3>
+		<blurb4>Earn lots of new summer camp badges</blurb4>
+		<blurb5>Earn lots of new summer camp badges</blurb5>
+		<blurb6>Show off your talent troop pride with all-new Fairy Outfits</blurb6>
+		<okbutton><![CDATA[OK]]></okbutton>
+		<genericerror><![CDATA[There was an error processing your request. Please try again later.]]></genericerror>
+	</copy>
+	<config>
+		<randomConfig>true</randomConfig>
+	</config>
+</panel>

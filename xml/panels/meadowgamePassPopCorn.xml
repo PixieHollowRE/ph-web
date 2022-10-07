@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/mgPassPopCorn.swf</swf>
+		<swf type="code">{panelCode}/mgPassPopCorn.swf</swf>
+	</swfs>
+	
+	<copy>
+		<title>Pass the Popcorn</title>
+		
+		<gameoverHeader>Game Over</gameoverHeader>
+		<gameoverBodyBelowMinimum>Sorry! A player has left the game. There are not enough players to continue the game.</gameoverBodyBelowMinimum>		
+			
+		<!-- WANT TO LEAVE ALERT -->
+		<wantToLeaveHeader>Just Checking</wantToLeaveHeader>	
+		<wantToLeaveCopy>Are you sure you would like to leave this game? You will lose your current progress.</wantToLeaveCopy>
+		<yes>Yes</yes>
+		<no>No</no>
+		
+		<!-- UI: INSTRUCTIONS -->
+		<inst_screen_title target="instructions.title.heading">Instructions</inst_screen_title>
+		
+		<instruction0 target="instructions.btnContainer.page0.label">Pass the popcorn between you and your friends by clicking on their picture.</instruction0>
+		<instruction1 target="instructions.btnContainer.page1.label">Poppy will show a color or a shape - or both! Pass to the player that matches!</instruction1>
+		<instruction2 target="instructions.btnContainer.page2.label">Make a long passing chain and score more points for everyone!</instruction2>
+		<instruction3 target="instructions.btnContainer.page3.label">You also get points when the popcorn pops - as long as it doesn't pop on you!</instruction3>		
+		
+		<!-- <instruction4 target="instructions.btnContainer.page4.label">Click on yourself to wave and get other players' attention!</instruction4> -->		
+		
+		<!-- UI: ABORT GAME -->
+		<abort1>Sorry!  The party host has left the game.</abort1>
+		<abort2>Sorry!  There are not enough players to continue the game.</abort2>
+		<abort3>Oops!  Someone left your party before it could start. Please try again.</abort3>
+		
+		<!-- Before Round 1 -->
+		<start0_0>Hi, my name's Poppy. Are you ready to play?</start0_0>
+		<start0_1>Name's Poppy, nice to meet you. Now how fast can you pass?</start0_1>
+		<start0_2>Welcome to my game. Be sure to pass to Fairies who match the rules.</start0_2>
+		
+		<!-- Before Round 2 -->
+		<start1_0>Wow, great job! Now we'll add some new rules.</start1_0>
+		<start1_1>Are you ready for round two?</start1_1>
+		<start1_2>Have you all been practicing?</start1_2>
+		
+		<!-- Before Round 3 -->
+		<start2_0>This is the last round so be sure to pass quickly.</start2_0>
+		<start2_1>This next round is the hardest, good luck.</start2_1>
+		<start2_2>Great job, now we'll use two rules at once.</start2_2>
+		
+		<!-- Outro -->
+		<outro0_0>Thanks for playing! Let's do it again soon.</outro0_0>
+		<outro0_1>You all did a terrific job! Now it's time for prizes!</outro0_1>
+		<outro0_2>That was some impressive passing! You get better every time.</outro0_2>
+		
+		<!-- Round End (Round 1, 2, 3) -->
+		<end0_0>Sorry _, better luck next time.</end0_0>
+		<end1_0>Oops, looks like it popped on _!</end1_0>
+		<end2_0>It popped on _! That was exciting.</end2_0>
+		
+		<!-- HOST DIALOG : COUNTDOWN COMMENTS -->
+		<countdown0_0>Ready.</countdown0_0>
+		<countdown0_1>Aim.</countdown0_1>
+		<countdown0_2>Pass!</countdown0_2>
+		
+		<countdown1_0>On your mark.</countdown1_0>
+		<countdown1_1>Get set.</countdown1_1>
+		<countdown1_2>Pass!</countdown1_2>
+		
+		<countdown2_0>Pass..</countdown2_0>
+		<countdown2_1>that..</countdown2_1>
+		<countdown2_2>Popcorn!</countdown2_2>
+	</copy>
+	<config>
+		<!-- Duration in seconds of a Fairy comment -->
+		<commentDuration>5</commentDuration>
+		<!-- Duration in seconds of a single comment for countdown sequences -->
+		<countdownDuration>1.5</countdownDuration>
+		<!-- Duration in seconds player can hold popcorn before automatic pop -->
+		<holdTime>5</holdTime>
+
+		<!-- Game variables -->
+		<playerMin>3</playerMin>
+		
+		<npcDNA>"107/97/90/0/-15/25/-15/0/12/0/0/28/101/6:27:159/512:157:-1/1031:10:151/1507:10:-1/2002:10:111/2515:157:-1/3001:37:-1/3508:10:118/4005:123:101/4515:101:-1/5010:78:-1/5508:78:-1/6004:111:-1"</npcDNA>
+		
+		<!-- Points -->
+		<pointPass>5</pointPass>
+		<pointPop>10</pointPop>
+		
+		<!-- Round times -->
+		<roundTime>60</roundTime>
+		<roundTime>40</roundTime>
+		<roundTime>20</roundTime>
+
+		<round>
+			<!-- Intro Comments for Round 1 -->
+			<comment  text="comment_round_1_1"/>
+			<comment  text="comment_round_1_2"/>
+			<comment  text="comment_round_1_3"/>
+		</round>
+		<round>
+			<!-- Intro Comments for Round 2 -->
+			<comment  text="comment_round_2_1"/>
+			<comment  text="comment_round_2_2"/>
+			<comment  text="comment_round_2_3"/>
+		</round>
+		<round>
+			<!-- Intro Comments for Round 3 -->
+			<comment  text="comment_round_3_1"/>
+			<comment  text="comment_round_3_2"/>
+			<comment  text="comment_round_3_3"/>
+		</round>
+		<round>
+			<!-- End game Comments -->
+			<comment  text="comment_game_end_1"/>
+			<comment  text="comment_game_end_2"/>
+			<comment  text="comment_game_end_3"/>
+		</round>
+		<round>
+			<!-- Consolation Comments for end of each round, where _ is replaced with player name -->
+			<comment  text="comment_consolation_1"/>
+			<comment  text="comment_consolation_2"/>
+			<comment  text="comment_consolation_3"/>
+		</round>
+		<countdown>
+				<comment  text="countdown_1_1"/>
+				<comment  text="countdown_1_2"/>
+				<comment  text="countdown_1_3"/>
+		</countdown>
+		<countdown>
+				<comment  text="countdown_2_1"/>
+				<comment  text="countdown_2_2"/>
+				<comment  text="countdown_2_3"/>
+		</countdown>
+		<countdown>
+				<comment  text="countdown_3_1"/>
+				<comment  text="countdown_3_2"/>
+				<comment  text="countdown_3_3"/>
+		</countdown>
+	</config>
+</panel>

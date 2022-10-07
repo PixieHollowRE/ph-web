@@ -1,0 +1,131 @@
+<zone>
+  <name>Knothole Nest</name>
+  <zoneID>900</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>home_music_animal</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="6210" height="3712">
+        <image x="2700" y="1614" type="none">background_04.swf</image>
+      </layer>
+      <layer type="ground" width="7714" height="4671">
+        <image x="3354" y="2031" type="none">action_03.swf</image>
+        <image x="3354" y="2031" type="none" party="1">animal_flag_party_02.swf</image>
+        <image x="3354" y="2031" type="none" party="2">animal_flower_party_02.swf</image>
+        <image x="3354" y="2031" type="none" party="3">animal_lighting_party_02.swf</image>
+        <image x="3354" y="2031" type="none" party="4">animal_winter_party_02.swf</image>
+        <image x="3354" y="2031" type="none" party="5">animal_spring_party_02.swf</image>
+        <image x="3354" y="2031" type="none" party="6">animal_summer_party_02.swf</image>
+        <image x="3354" y="2031" type="none" party="7">animal_autumn_party_02.swf</image>
+      </layer>
+      <layer type="normal" width="9315" height="6210">
+        <image x="4050" y="2700" type="none">dust_02.swf</image>
+      </layer>
+      <layer type="normal" width="8280" height="5706">
+        <image x="3600" y="2481" type="none">foreground_01.swf</image>
+        <image x="3600" y="2481" type="none" party="1">animal_flag_party_04.swf</image>
+        <image x="3600" y="2481" type="none" party="2">animal_flower_party_04.swf</image>
+        <image x="3600" y="2481" type="none" party="3">animal_lighting_party_04.swf</image>
+		<image x="3600" y="2481" type="none" party="4">foreground_winter_01.swf</image>
+		<image x="3600" y="2481" type="none" party="5">foreground_spring_01.swf</image>
+		<image x="3600" y="2481" type="none" party="6">foreground_summer_01.swf</image>
+		<image x="3600" y="2481" type="none" party="7">foreground_autumn_01.swf</image>
+      </layer>
+    </layers>
+    <validArea>
+      <vertex x="3440" y="2205"/>
+      <vertex x="4390" y="2205"/>
+      <vertex x="4390" y="2580"/>
+      <vertex x="3440" y="2580"/>
+    </validArea>
+  </clientLayout>
+  <locations>
+    <location x="3784" y="2431">frontDoor</location>
+    <location x="3898" y="2409">signPost</location>
+    <location x="3950" y="2525">animalFriend</location>
+    <location x="3850" y="2575">meadowSurprise1</location>
+    <location x="4050" y="2575">meadowSurprise3</location>
+    <location x="3700" y="2540">meadowSurprise4</location>
+    <location x="4200" y="2575">meadowSurprise5</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>home_music_animal</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.1855</volumeHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  <validArea type="polygon">
+    
+    <vertex x="3440" y="2205"/>
+    
+    <vertex x="4390" y="2205"/>
+    
+    <vertex x="4390" y="2580"/>
+    
+    <vertex x="3440" y="2580"/>
+    
+  </validArea>
+  
+  <rooms>
+    
+    <room index="1" x="3889" y="2401">
+      
+      <bounds type="box">
+        
+        <left>3405</left>
+        
+        <right>4439</right>
+        
+        <top>2196</top>
+        
+        <bottom>2645</bottom>
+        
+      </bounds>
+      
+      <nearPlane>
+        
+        <left>3405</left>
+        
+        <right>4439</right>
+        
+        <top>2196</top>
+        
+        <bottom>2645</bottom>
+        
+      </nearPlane>
+      
+      <farPlane>
+        
+        <left>3405</left>
+        
+        <right>4439</right>
+        
+        <top>2196</top>
+        
+        <bottom>2645</bottom>
+        
+      </farPlane>
+      
+    </room>
+    
+  </rooms>
+  
+  <decorations/>
+  
+</zone>

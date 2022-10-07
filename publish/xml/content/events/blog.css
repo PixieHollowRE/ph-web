@@ -1,0 +1,97 @@
+a:link  {
+	text-decoration: underline;
+}
+.pageTitle {   
+	text-align: center;
+	font-family: Pristina-4FRTL; 
+	font-size: 48px;
+	color: #FFF04C;
+}
+.title {   
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 22px;
+	color: #FFF04C;
+	text-decoration: bold;
+}
+.titleCentered {   
+	text-align: center;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 22px;
+	color: #FFF04C;
+	text-decoration: bold;
+}
+.body {   
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+.bodyBlack {   
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 11px;
+	color: #000000;
+}
+.bodyCenter {   
+	text-align: center;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+.bodyYellow {   
+	text-align: center;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 16px;
+	color: #FFF04C;
+}
+.bodyYellowLarge {   
+	text-align: center;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 24px;
+	color: #FFF04C;
+}
+.bodyLeft {   
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 15px;
+	color: #FFF04C;
+}
+.bodyRight {   
+	text-align: right;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 15px;
+	color: #FFF04C;
+}
+.bodyLeftSmall {   
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.radio {   
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.navBody {
+	text-decoration: none;
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+.navSelected {
+	text-decoration: none;
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 15px;
+	color: #FFF04C;
+}
+.navBracket {
+	text-decoration: none;
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 15px;
+	color: #FFFFFF;
+}

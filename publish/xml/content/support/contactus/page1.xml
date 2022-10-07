@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<config>
+		<taglines>
+			<tagline align="center" font="pristina" title="true" titlex="50" titley="0" yOffset="20">header</tagline>	
+		</taglines>
+	<!--	<controls>
+			<header icon_id="6"><![CDATA[<span class="newsbodytext">Something not working? Get technical help:</span>]]></header>
+			
+			<control><![CDATA[<span class="newsbodytext"><ul>
+			<li><a href="help/reportabug.html"><u>Report a problem</u></a> or technical issue you are having.</li>
+			<li><a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl"><u>Ask a question</u></a> or tell us what you think!</li>
+			<li><a href="liveSupport.html">Try our <u>Live Chat</u></a> if you need help right away.</li>
+			</ul></span>]]>
+			</control>
+		</controls>
+	-->
+		<controls>
+			<header icon_id="6">body1</header>
+			
+			<control>body2</control>
+		</controls>
+		<contacts>
+			<header icon_id="7">body3</header>
+			<knownissue>body4</knownissue>
+		</contacts>
+		
+		<contacts>
+			<header icon_id="5">body5</header>
+			<knownissue>body6</knownissue>
+		</contacts>
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">Contact Us</span>]]></header>
+		<body1><![CDATA[<span class="newsbodytext">Something not working? Get technical help:</span>]]></body1>
+		<body2><![CDATA[<span class="newsbodytext"><ul>
+			<li><a href="help/reportabug.html"><u>Report a problem</u></a> or technical issue you are having.</li>
+			<li><a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl"><u>Ask a question</u></a> or tell us what you think!</li>
+			<li>Try our <a href="liveSupport.html"><u>Live Chat</u></a> if you need help right away.</li>
+			</ul></span>]]></body2>
+		<body3><![CDATA[<span class="newsbodytext">Questions about your account?  Get answers here.</span>]]></body3>
+		<body4><![CDATA[<span class="newsbodytext"><ul>
+			<li><a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl&formId=account"><u>Ask</u></a> account questions.</li>
+			<li>Talk with a helpful Pixie Hollow support team member using our <a href="liveSupport.html"><u>Live Chat</u></a>.</li>
+			</ul></span>]]></body4>
+		<body5><![CDATA[<span class="newsbodytext">Proud parent of a Fairy?  Learn about our Parental Controls.</span>]]></body5>
+		<body6><![CDATA[<span class="newsbodytext"><ul>
+			<li>Use our <a href="http://disney.go.com/fairies/pixiehollow/accountmanagement.html">Account Manager</a> to set chat permissions and other settings to keep your child’s Fairy flying safely.</li>
+			</ul></span>]]></body6>
+	</copy>
+</page>

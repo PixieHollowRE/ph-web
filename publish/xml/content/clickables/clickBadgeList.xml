@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ClickBadgeList>
+	<badge>
+		<type>0</type>
+		<icon>ff</icon>
+	</badge>
+	<badge>
+		<type>0</type>
+		<icon>animal</icon>
+	</badge>
+	<badge>
+		<type>0</type>
+		<icon>garden</icon>
+	</badge>
+	<badge>
+		<type>0</type>
+		<icon>nature</icon>
+	</badge>
+	<badge>
+		<type>1</type>
+		<icon>charms</icon>
+	</badge>
+	<badge>
+		<type>2</type>
+		<icon>friendA</icon>
+	</badge>
+	<badge>
+		<type>2</type>
+		<icon>friendB</icon>
+	</badge>
+	<badge>
+		<type>3</type>
+		<icon>tpA</icon>
+	</badge>
+	<badge>
+		<type>3</type>
+		<icon>tpB</icon>
+	</badge>
+	<badge>
+		<type>3</type>
+		<icon>tpC</icon>
+	</badge>
+	<copy>
+		<ff>Collect All Famous Fairies Charms</ff>
+		<animal>Collect All Animal Charms</animal>
+		<garden>Collect All Garden Charms</garden>
+		<nature>Collect All Nature Charms</nature>
+		<charms>Collect All Charms in All Categories</charms>
+		<friendA>Make 5 Friendships with your Bracelet</friendA>
+		<friendB>Make 10 Friendships with your Bracelet</friendB>
+		<tpA>Exchange 2,500 Tink Points</tpA>
+		<tpB>Exchange 10,000 Tink Points</tpB>
+		<tpC>Exchange 25,000 Tink Points</tpC>
+	</copy>
+</ClickBadgeList>

@@ -1,0 +1,13 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/meadowHotspotControls.swf</swf>
+		<swf type="code">{panelCode}/meadowHotspotControls.swf</swf>
+	</swfs>
+	<copy>
+		<setButtonToolTip>OK</setButtonToolTip>
+		<returnButtonToolTip>Return</returnButtonToolTip>
+	</copy>
+	<config>
+		
+	</config>
+</panel>

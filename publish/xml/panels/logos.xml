@@ -1,0 +1,10 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/logos.swf</swf>
+		<swf type="code">{publishPanelCode}/logos.swf</swf> 
+	</swfs>
+		<copy>
+		</copy>
+	<config>
+	</config>
+</panel>

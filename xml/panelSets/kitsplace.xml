@@ -1,0 +1,12 @@
+<panelSet>
+	<panels>
+		<panel id="bboard" x="0" y="-135" alwaysOnTop="false">{panelData}/kitsplace.xml</panel>
+		<panel id="details" x="0" y="0" hidden="false" closeable="true">{panelData}/questDetails.xml</panel>
+	</panels>
+	<config>
+		<avatarScale>0.6</avatarScale>
+		<detailsMode>automatic</detailsMode>
+	</config>
+	<copy>
+	</copy>
+</panelSet>

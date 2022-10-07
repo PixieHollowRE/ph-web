@@ -1,0 +1,66 @@
+﻿<!-- REBUILD BUNDLES!!! -->
+<game>
+	<copy>
+		<quitUI_heading>Quit?</quitUI_heading>
+		<quitUI_description>Are you sure you want to quit?</quitUI_description>
+		<quitUI_cancelBtn>Cancel</quitUI_cancelBtn>
+		<quitUI_confirmBtn>Quit</quitUI_confirmBtn>
+
+		<finishedUI_headingWin>Good job!</finishedUI_headingWin>
+		<finishedUI_headingLose>Try again!</finishedUI_headingLose>
+		<finishedUI_stat1Label>Total Score</finishedUI_stat1Label>
+		<finishedUI_stat2Label>Current Happiness Meter</finishedUI_stat2Label>
+		<finishedUI_stat3Label>Total Growth Level Points Earned</finishedUI_stat3Label>
+		<finishedUI_continueBtn>Continue</finishedUI_continueBtn>
+
+		<messageDefaultTitle>How To Play</messageDefaultTitle>
+		<!--<avatarTurn>It's #COLOR#'s turn!</avatarTurn>-->
+		<!--<localAvatarTurn>It's your turn!</localAvatarTurn>-->
+		<localAvatarTurn><![CDATA[<font color="#HEX#">It's your turn!</font>]]></localAvatarTurn>
+		<avatarTurn><![CDATA[<font color="#HEX#">It's #COLOR#'s turn!</font>]]></avatarTurn>
+	</copy>
+	<config>
+		<adjustVolumeOnStart>0.5</adjustVolumeOnStart>
+
+		<sharedUIOffsetCoordsSandbox>0,0</sharedUIOffsetCoordsSandbox>
+		<panelOffsetCoordsSandbox>0,0</panelOffsetCoordsSandbox>
+
+		<!-- <sharedUIOffsetCoordsMMO>60,50</sharedUIOffsetCoordsMMO> --> <!-- old way -->
+		<sharedUIOffsetCoordsMMO>0,0</sharedUIOffsetCoordsMMO> <!-- new way with separate game/bg/ui layers -->
+		<gameOffsetCoordsMMO>0,0</gameOffsetCoordsMMO>
+		<wildernessGameGridCoordsMMO>293,142</wildernessGameGridCoordsMMO>
+		<!-- <panelOffsetCoordsMMO>50,57</panelOffsetCoordsMMO> --> <!-- outer panelset -->
+		
+		<panelOffsetCoordsMMO>0,0</panelOffsetCoordsMMO> <!-- inner panelset -->
+			
+		<countdownWords>Ready###Go!</countdownWords>
+		<countdownFrames>1</countdownFrames>
+		<gridConfigs>
+			<gridConfig id="microgameMPSWilderness" assetId="wildernessGameGrid" gameAreaHeight="308" gameAreaWidth="308" rows="7" gridPointOffset="44" />
+		</gridConfigs>
+		
+		<playerColors>
+			<playerColors id="0" label="Red" />
+			<playerColors id="1" label="Blue" />
+			<playerColors id="2" label="Yellow" />
+			<playerColors id="3" label="Green" />
+		</playerColors>
+		
+		<gameconfigs>
+			<game id="0" sandboxDNA="73000" name="MPSSingleClickSingleSpawning" />
+			<game id="1" sandboxDNA="73000" name="MPSSingleClickMultipleSpawning" />
+			<game id="2" sandboxDNA="73000" name="MPSFastClickSingle" />
+			<game id="3" sandboxDNA="73000" name="MPSFastClickMultiple" />
+			<game id="4" sandboxDNA="73000" name="MPSClickAndDragMove" />
+			<game id="5" sandboxDNA="73000" name="MPSClickAndDragRemove" />
+			<game id="6" sandboxDNA="73000" name="MPSClickAndDragSort" />
+			<game id="7" sandboxDNA="73000" name="MPSShake" />
+			<game id="9" sandboxDNA="73000" name="MPSRolloverSpawningMultiple" />
+			<game id="13043" sandboxDNA="73001" iconFrame="ladybug" name="AFFindTheBug" />
+			<game id="13044" sandboxDNA="73002" iconFrame="hummingbird" name="AFBounce" />
+			<game id="13045" sandboxDNA="73003" iconFrame="dragonfly" name="AFDragonflyRacing" />	
+			<game id="13046" sandboxDNA="73004" iconFrame="bee" name="AFBeesEye" />	
+		</gameconfigs>	
+	</config>
+</game>
+		

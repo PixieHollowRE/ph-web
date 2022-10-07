@@ -1,0 +1,83 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/keyEntry.swf</swf>
+		<swf type="code">{panelCode}/keyEntry.swf</swf>
+	</swfs>
+	<copy>
+		<touUserNotFound><![CDATA[this.panel.getCopy("userNotFound")]]></touUserNotFound>
+		<header_content>Never Council News</header_content>
+		<accountid>Account Id</accountid>
+		<password>Password</password>
+		<noaccount><![CDATA[Don't have an account yet? <a href="disneyfairies.com"><u>Click here</u></a> to create an account and make a Fairy or Sparrow Man]]></noaccount>
+		<termsofuse><![CDATA[<b>Terms and Conditions</b>
+				     <br><br>It is the long-standing policy of The Walt Disney Company not to accept unsolicited submissions of creative material. This is to avoid any misunderstandings if your ideas are similar to those we have developed independently. We must therefore request that you do not send to us any original creative materials such as screenplays, stories, song lyrics, limericks, Fairy poetry, gameplay ideas, etc.
+
+				    <br><br>Any communication or material that you transmit to the Site by electronic mail or otherwise will be treated as non-confidential and non-proprietary. Anything you transmit or post may be used by The Walt Disney Company or its affiliates for any purpose, including, but not limited to, reproduction, disclosure, transmission, publication, broadcast, and posting.
+
+				    <br><br>Furthermore, The Walt Disney Company is free to use any ideas, concepts, know-how, or techniques contained in any communication you send to the Site for any purpose whatsoever, including, but not limited to, developing, manufacturing, and marketing products using such information.
+				    
+				      <br><br>The Terms of Use contain important provisions governing your and our rights including, among other things, acceptable conduct on the Walt Disney Internet Group family of sites (including Disney.com, and other Internet sites affiliated with The Walt Disney Company), intellectual property rights (including our right to use information, content and materials you submit to us), and other rights and remedies available to you and us.]]></termsofuse>
+		<sysreq_pc><![CDATA[
+			<b>PC</b><br>
+			Windows 2000, XP, Vista<br>
+			Adobe Flash v9.0<br>
+			P3 800 Mhz or faster processor<br>
+			256 MB RAM<br>
+			350 KB or faster Internet connection<br>
+		]]></sysreq_pc>
+		<sysreq_mac><![CDATA[
+			<b>MAC</b><br>
+			OS 10.4.6 (Tiger)<br>
+			Adobe Flash v9.0<br>
+			PowerPC G4<br>
+			256 MB RAM<br>
+			350 KB or faster Internet connection<br>
+		]]></sysreq_mac>
+		
+		<noagree>NO AGREE TEXT</noagree>
+		<nokey>NO KEY TEXT</nokey>
+		<noagreekey>NO AGREE OR KEY TEXT</noagreekey>
+		<nobutton>OK</nobutton>
+		<invalidkey>THAT KEY IS NOT VALID, PLEASE TRY AGAIN</invalidkey>
+	</copy>
+	<config>
+		<iconbase>swf/avatar/icon.swf</iconbase>
+		<profileicons>swf/website/icons.swf</profileicons>
+		<css>css/stylesheet.css</css>
+		<keysucces_url>previewConfirmation.html</keysucces_url>
+		<icons>
+		  <icon icon_id="1" bg="blue" fg="icon1"/>
+		  <icon icon_id="2" bg="green" fg="icon1"/>
+		  <icon icon_id="3" bg="lavender" fg="icon1"/>
+		  <icon icon_id="4" bg="orange" fg="icon1"/>
+		  <icon icon_id="5" bg="pink" fg="icon1"/>
+		  <icon icon_id="6" bg="purple" fg="icon1"/>
+		  <icon icon_id="7" bg="yellow" fg="icon1"/>
+		  <icon icon_id="8" bg="blue" fg="icon2"/>
+		  <icon icon_id="9" bg="green" fg="icon2"/>
+		  <icon icon_id="10" bg="lavender" fg="icon2"/>
+		  <icon icon_id="11" bg="orange" fg="icon2"/>
+		  <icon icon_id="12" bg="pink" fg="icon2"/>
+		  <icon icon_id="13" bg="purple" fg="icon2"/>
+		  <icon icon_id="14" bg="yellow" fg="icon2"/>
+		  <icon icon_id="15" bg="blue" fg="icon3"/>
+		  <icon icon_id="16" bg="green" fg="icon3"/>
+		  <icon icon_id="17" bg="lavender" fg="icon3"/>
+		  <icon icon_id="18" bg="orange" fg="icon3"/>
+		  <icon icon_id="19" bg="pink" fg="icon3"/>
+		  <icon icon_id="20" bg="purple" fg="icon3"/>
+		  <icon icon_id="21" bg="yellow" fg="icon3"/>
+		  <icon icon_id="22" bg="blue" fg="icon23"/>
+		  <icon icon_id="23" bg="green" fg="icon23"/>
+		  <icon icon_id="24" bg="lavender" fg="tink"/>
+		</icons>
+		<pages>
+			<page>xml/site_news/page1.xml</page>
+			<page>xml/site_news/page2.xml</page>
+			<page>xml/site_news/page3.xml</page>
+			<page>xml/site_news/page4.xml</page>
+			<page>xml/site_news/page5.xml</page>
+		</pages>
+		
+	</config>
+</panel>

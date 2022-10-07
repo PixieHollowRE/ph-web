@@ -1,0 +1,28 @@
+<page>
+	<config>
+		
+
+		<taglines type="contentheader" headertype="long">
+			<bannergraphic type="image">{publishPanelImages}/GFR_video_games_page.png</bannergraphic>
+			<tagline font="pristina">header</tagline>	
+			<tagline>body1</tagline>
+		</taglines>
+		<!-- <vgPanel type="panel" panel="videogames" x="30" />  -->
+		
+      
+
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext"><font size="24px">Disney Fairies: "Tinker Bell and the Great Fairy Rescue"</font></span>]]></header>
+		
+		
+		<body1><![CDATA[<span class="newsbodytext"><font size="-1">The Minister of Summer has a very special task for you - to find and grow the rare Rainbow Lily for this year's End-of-Summer Celebration! Interact with Lizzy and team up with your Fairy friends to bring each of the six rare lilies to Fairy Camp. Complete quests, play mini-games and adventure through the Mainland to capture the Rainbow Lily before summer is over!</font></span>]]></body1>
+		<spacer><![CDATA[<br/><br/>]]></spacer>
+	
+		<!--<headerbtn><![CDATA[Read More]]></headerbtn>-->
+	
+	
+	</copy>
+	
+
+</page>

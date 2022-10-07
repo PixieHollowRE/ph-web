@@ -1,0 +1,84 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/dyePanel.swf</swf>
+		<swf type="code">{panelCode}/dyePanel.swf</swf>
+	</swfs>
+
+	<copy>
+		<modecopy_lowercase_w>wardrobe</modecopy_lowercase_w>
+		<modecopy_lowercase_s>storage</modecopy_lowercase_s>
+		<modecopy_capitalized_w>Wardrobe</modecopy_capitalized_w>
+		<modecopy_capitalized_s>Storage</modecopy_capitalized_s>
+
+		<!-- <wardrobeTabLabel target="panelContents.tabset.btn0.caption">Wardrobe</wardrobeTabLabel> -->
+		<wardrobeTabLabel>Wardrobe</wardrobeTabLabel>
+		<dyeTabLabel target="panelContents.tabset.btn1.caption">Dyes</dyeTabLabel>
+		<dropdownLabel target="panelContents.tabset.content0.dropdownLabel">Show Me</dropdownLabel>
+		<previewPanelTitle target="panelContents.previewTitle">Preview</previewPanelTitle>
+		<!-- <nothingPickedMsg target="panelContents.previewPane.nothingPicked.msg">No Wardrobe Item Selected</nothingPickedMsg> -->
+		<dyeButton target="panelContents.dyeBtn.caption">Dye Item</dyeButton>
+		<!-- <swapButton target="panelContents.previewPane.swapBtn.caption">SWAP</swapButton>-->
+		<resetButton target="panelContents.previewPane.resetBtn.caption">Reset</resetButton>
+		<cancelButton target="panelContents.cancelBtn.caption">Exit</cancelButton>
+		<costDescription target="panelContents.previewPane.costLabel">Cost to dye Item</costDescription>
+
+		<noItemSelectedText>Choose a ###MODE_LOWER### item.</noItemSelectedText>
+
+		<instructions1>Step 1: Choose a ###MODE_LOWER### item to dye.</instructions1>
+		<instructions2>Step 2: Choose dye(s).</instructions2>
+		<!-- <instructions3>Step 3: Click the "Dye" button to really do it!</instructions3> -->
+
+		<swapToolTip>Swap Colors!</swapToolTip>
+
+		<alertTitle>Oops!</alertTitle>
+		<undyeableError>This is a special item that cannot be dyed!</undyeableError>
+		<lacksFundsError>You do not have enough ###GATHERABLE### to buy this. You need ###SHORTFALL### more.</lacksFundsError>
+		<onlyOneDyeError>You only own one dye bottle in this color.</onlyOneDyeError>
+		<notEnoughDyeError>You can't use another dye bottle of this color.</notEnoughDyeError>
+		<unchangedError>This item is already dyed this way!</unchangedError>
+		<miscError>An error occurred! Please try again later.</miscError>
+		<freePlayersCantDyePaidItems>Only members can dye this item. Or, upgrade it!</freePlayersCantDyePaidItems>
+
+		<preDyeConfirmTitle>Just Checking...</preDyeConfirmTitle>
+		<preDyeConfirmMsg>Are you sure you want to dye this item in this color?</preDyeConfirmMsg>
+		<preDyeConfirmExtraTitle>Price</preDyeConfirmExtraTitle>
+
+		<wearItConfirmTitle>You've Dyed It!</wearItConfirmTitle>
+		<wearItConfirmMsg>Your dye job is complete! You can find your new clothes in your Leaf Journal. Would you like to wear your new clothes now?</wearItConfirmMsg>
+
+		<alertButton>OK</alertButton>
+		<confirmYes>Yes</confirmYes>
+		<confirmNo>No</confirmNo>
+		<nextButton0>Next</nextButton0>
+		<nextButton1>Back</nextButton1>
+		<convertButton>Upgrade</convertButton>
+
+		<itemNameWardrobe0>Tops</itemNameWardrobe0>
+		<itemNameWardrobe1>Skirts &amp; Trousers</itemNameWardrobe1>
+		<itemNameWardrobe2>Belts</itemNameWardrobe2>
+		<itemNameWardrobe3>Headpieces</itemNameWardrobe3>
+		<itemNameWardrobe4>Necklaces</itemNameWardrobe4>
+		<itemNameWardrobe5>Bracelets</itemNameWardrobe5>
+		<itemNameWardrobe6>Anklets</itemNameWardrobe6>
+		<itemNameWardrobe7>Shoes</itemNameWardrobe7>
+
+		<itemNameStorage0>Furniture</itemNameStorage0>
+		<itemNameStorage1>Lamps</itemNameStorage1>
+		<itemNameStorage2>Decorations</itemNameStorage2>
+
+		<originalLead>Original Color:</originalLead>
+		<lockedLead>Locked Color:</lockedLead>
+		<singleColorItem>This Item Can Only Have One Color</singleColorItem>
+
+		<genderAlertTitle>You've Dyed It!</genderAlertTitle>
+		<genderAlertBody>Reminder... #GENDERS# cannot wear this item!</genderAlertBody>
+		<genderAlertOkBtn>OK</genderAlertOkBtn>
+	</copy>
+
+	<config>
+		<xOffsetForSingleDyeMode>71</xOffsetForSingleDyeMode>
+
+		<forceTwoColorModeIds>7019</forceTwoColorModeIds> <!-- comma delimited set of id's; see DyePanel.as for explanation -->
+	</config>
+
+</panel>

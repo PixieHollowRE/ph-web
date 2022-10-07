@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/microMeter.swf</swf>
+		<swf type="code">{panelCode}/microMeter.swf</swf>
+	</swfs>
+	<copy>
+		
+		<title>Distract</title>
+		<clickMe target="clickBtn.caption">Click Me!</clickMe>
+		<missed>Missed! (###)</missed>
+		<instructions>Click at the right moment!</instructions>
+	</copy>
+	<config>
+		<test>false</test>
+		<microGameId>Distract</microGameId>
+		<spellName>distract</spellName>
+		<button delay="1"/>
+		<colors>
+			<color id="white">166</color>
+			<color id="green">2</color>
+			<color id="yellow">9</color>
+			<color id="red">45</color>
+			<color id="orange">12</color>
+			<color id="purple">14</color>
+			
+			<color id="yellow_inner">0xfec2a1</color>
+			<color id="yellow_outer">0xe2763b</color>
+			<color id="yellow_upper">0xb85925</color>
+
+			<!-- Water Talent Colors -->
+			<color id="water_bar">45</color>
+			<color id="water_bg">42</color>
+			<color id="water_sight">43</color>
+			<color id="water_zone1">50</color>
+			<color id="water_zone2">118</color>
+			<color id="water_zone3">136</color>
+			<color id="water_zone4">42</color>
+			<color id="water_zone5">73</color>			
+		</colors>
+		<visuals>
+			<visual id="star">Star</visual>
+			<visual id="scoreDot">scoreDot</visual>
+			<visual id="zone_plain">plain</visual>
+			<visual id="bar_plain">bar_plain</visual>
+			<visual id="bg_plain">bg_plain</visual>
+			<visual id="sight_diamond">sight_diamond</visual>
+			<visual id="sight_line">sight_greenLine</visual>
+			<visual id="curved_bg">gameBackground</visual>
+			<visual id="blueBG">challengeBG</visual>
+			<visual id="finalBG">background_final</visual>
+			<visual id="finalBar">bar_final</visual>
+			<visual id="finalZone">final_target</visual>
+			<visual id="finalSight">final_sight</visual>
+			<visual id="sunsight">sight_sun</visual>
+		</visuals>
+		<levels>
+			<level number="0" lifetime="7">
+				<background visual="finalBG" color_inner="yellow_inner" color_outer="yellow_outer" color_upper="yellow_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>1,2,3</rounds>
+			</level>
+			<level number="1" lifetime="7">
+				<background visual="finalBG" color_inner="yellow_inner" color_outer="yellow_outer" color_upper="yellow_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>1,2,3</rounds>
+			</level>
+			<level number="2" lifetime="7">
+				<background visual="finalBG" color_inner="yellow_inner" color_outer="yellow_outer" color_upper="yellow_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>1,2,3</rounds>
+			</level>
+			<level number="3" lifetime="7">
+				<background visual="finalBG" color_inner="yellow_inner" color_outer="yellow_outer" color_upper="yellow_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>1,2,3</rounds>
+			</level>
+			<level number="4" lifetime="7">
+				<background visual="finalBG" color_inner="yellow_inner" color_outer="yellow_outer" color_upper="yellow_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>1,2,3</rounds>
+			</level>
+		</levels>
+		<rounds>
+			<round id="0" direction="horizontal">
+				<bar height="29" width="268" visual="finalBar"/>
+				<sight speed="5" startPos="0" visual="sunsight"/>			
+				<zone distance="40" pos="random:5,30" visual="finalZone"/>
+			</round>			
+			<round id="1" direction="horizontal">
+				<bar height="40" width="300" visual="finalBar"/>
+				<sight speed="5" startPos="0" visual="sunsight"/>			
+				<zone distance="35" pos="random:5,50" visual="finalZone"/>
+			</round>
+			<round id="2" direction="horizontal">
+				<bar height="40" width="300" visual="finalBar"/>
+				<sight speed="6" startPos="0" visual="sunsight"/>			
+				<zone distance="20" pos="random:5,60" visual="finalZone"/>
+			</round>
+			<round id="3" direction="horizontal">
+				<bar height="40" width="300" visual="finalBar"/>
+				<sight speed="6" startPos="0" visual="sunsight"/>			
+				<zone distance="20" pos="random:10,20" visual="finalZone"/>
+			</round>
+			<round id="4" direction="horizontal">
+				<bar height="40" width="300" visual="finalBar"/>
+				<sight speed="7" startPos="0" visual="sunsight"/>			
+				<zone distance="20" pos="random:50,60" visual="finalZone"/>
+			</round>
+			<round id="5" direction="horizontal">
+				<bar height="40" width="300" visual="finalBar"/>
+				<sight speed="7" startPos="0" visual="sunsight"/>			
+				<zone distance="10" pos="random:35,65" visual="finalZone"/>
+			</round>			
+		</rounds>
+	</config>
+</panel>

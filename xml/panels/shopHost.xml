@@ -1,0 +1,32 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/shopHost.swf</swf>
+		<swf type="code">{panelCode}/shopHost.swf</swf>
+	</swfs>
+	<copy>
+        <!-- pretty sure these welcomes are obsolete -->
+		<welcome0>Hm, someone is in dire need of baubling, I see! Bella Rose, that's the name to remember, dear friend. I sell all those sparkly fun odds and ends that take any outfit from boring to soaring! Go, go, poke about and see if anything puts a gleam in your eye!</welcome0>
+		<welcome1>Fly with you! Here in my boutique you'll find the perfect outfit for any occasion! Almost everything here is handmade by me with plenty of tender loving care - just for Fairies like you!  </welcome1>
+		<welcome2>What's this? A butterfly! A social butterfly, that is! You've come to the right place, let me tell you! Summit Style carries the latest Fairy fashions, guaranteed to impress. Everything is picked out by yours truly, the fabulous Diva Wings! So go on, take a look around!</welcome2>
+		<welcome3>Brrrrr! Do you feel that wind in your wings? These parts of the Hollow sure do get awful chilly! Why not warm up with a brand new winter outfit?</welcome3>
+		<welcome1000>Come right in! My philosophy is that form and function must coexist like earth and sky. Breathe deep, relax your mind, and explore my collections. Remember, if it's useable and beautiful, it must be from Harmony's!</welcome1000>
+		<welcome1001>Looking for housewares? I'm Trinket, just the Fairy you want to see! My shop supplies Pixie Hollow with d&#233;cor and furniture for everyday use. If you need it, I've got it! Oh, and don't be afraid to try stuff out - I'm certainly not!</welcome1001>
+		<welcome1002>You look like someone who wants to get out of the cold! You also look like someone with great taste! Take a look around my shop - because no one knows "warm and cozy" like Ember!</welcome1002>
+		<welcome2000>Fly with you, sweetie! Welcome to Daisy's Dyes! Here you will find those gentle, subtle dye colors that soothe and comfort the spirit. Please, take your time picking out just what you need.</welcome2000>
+		<welcome2001>Come on in, pixie pal! Got my own place here, Prism's Paints. See, I'm always hungry for the best colors in life...and anything else that's yummy! So hey, browse around, look all you want, 'cuz I'm sure you'll find colors to satisfy your artistic appetite!</welcome2001>
+	
+		<nextBtn target="btnContainer.nextBtn.caption">Shop</nextBtn>
+	</copy>
+	<config>
+        <!-- pretty sure these dnas are obsolete -->
+		<hostDNA shopId="0">99/105/91/0/-8/20/-22/-1/12/0/10/35/101/1:31:-1/512:71:-1/1001:31:-1/1502:13:-1/2018:35:-1/2504:18:-1/3002:13:-1/3511:31:-1/4007:70:101/4511:101:102/5018:13:-1/5519:13:-1/6004:110:-1</hostDNA>
+		<hostDNA shopId="1">99/105/91/0/-8/20/-22/-1/12/0/10/35/94/2:63:-1/509:51:-1/1015:60:-1/1501:13:-1/2016:5:-1/2501:12:-1/3001:-1:-1/3504:60:-1/4002:23:94/4509:94:102/5001:76:-1/5519:76:-1/6003:112:-1</hostDNA>
+		<hostDNA shopId="2">99/105/91/0/-8/20/-22/-1/12/0/10/35/93/3:55:-1/516:60:-1/1010:55:-1/1507:37:-1/2010:37:-1/2502:37:-1/3001:-1:-1/3507:55:-1/4011:141:93/4515:93:102/5010:76:-1/5508:76:-1/6005:112:-1</hostDNA>
+		<hostDNA shopId="3">100/95/88/0/-15/25/-15/0/12/0/0/28/107/15:499:-1/509:132:-1/1016:153:-1/1503:128:-1/2009:132:-1/2507:128:-1/3001:37:-1/3506:499:-1/4001:129:107/4501:107:-1/5018:109:-1/5504:109:-1/6003:128:-1</hostDNA>
+		<hostDNA shopId="1000">99/105/91/0/-8/20/-22/-1/12/0/10/35/106/6:7:-1/509:10:-1/1011:35:-1/1509:38:-1/2013:47:-1/2511:83:-1/3001:-1:-1/3501:83:-1/4007:57:106/4521:106:102/5008:73:-1/5510:73:-1/6006:111:-1</hostDNA>
+		<hostDNA shopId="1001">99/105/91/0/-8/20/-22/-1/12/0/10/35/94/11:37:-1/509:18:-1/1008:1:-1/1501:53:-1/2018:16:-1/2510:53:-1/3013:47:-1/3508:19:-1/4004:6:94/4504:94:-1/5015:90:-1/5517:90:-1/6005:165:-1</hostDNA>
+		<hostDNA shopId="1002">100/95/88/0/-15/25/-15/0/12/0/0/28/107/25:128:-1/506:141:-1/1017:499:-1/1509:141:-1/2002:128:-1/2506:141:-1/3001:37:-1/3505:141:-1/4001:150:107/4501:107:-1/5008:141:-1/5509:141:-1/6003:128:-1</hostDNA>
+		<hostDNA shopId="2000">99/105/91/0/-8/20/-22/-1/12/0/10/35/104/3:9:-1/521:1:-1/1001:9:-1/1511:54:-1/2019:1:-1/2510:54:-1/3007:1:-1/3512:37:-1/4001:66:104/4514:104:102/5019:78:-1/5517:78:-1/6005:110:-1</hostDNA>
+		<hostDNA shopId="2001">99/105/91/0/-8/20/-22/-1/12/0/10/35/101/4:8:-1/503:12:-1/1007:31:-1/1506:13:-1/2006:13:-1/2509:12:-1/3001:-1:-1/3512:26:-1/4015:15:101/4515:101:102/5017:80:-1/5520:80:-1/6004:110:-1</hostDNA>
+	</config>
+</panel>

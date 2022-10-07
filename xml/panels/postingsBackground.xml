@@ -1,0 +1,10 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/postingsBackground.swf</swf>
+		<swf type="code">{panelCode}/postingsBackground.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+	</config>
+</panel>

@@ -1,0 +1,170 @@
+<pixieDustMillShow>
+	<copy>
+		<!--TALENT_ANIMAL = 1
+		TALENT_GARDEN = 2
+		TALENT_LIGHT = 3
+		TALENT_WATER = 4
+		TALENT_TINKER = 5 -->
+		
+		<lowerCaseTalents>animal,garden,light,water,tinker</lowerCaseTalents>
+		<prepLowerCaseTalents>an animal,a garden,a light,a water,a tinker</prepLowerCaseTalents>
+		<upperCaseTalents>ANIMAL,GARDEN,LIGHT,WATER,TINKER</upperCaseTalents>
+		<mixCaseTalents>Animal,Garden,Light,Water,Tinker</mixCaseTalents>
+		<excitedWord>flaptastic,plant-tastic,flashtastic,splashtastic,flitterific</excitedWord>
+		<nickname>chickadee,sugar,sunshine,raindrop,tinker pal</nickname>
+		
+		<!-- first skill first time in mill -->
+		<ftsL1T0>#NAME#! Welcome to the Pixie Dust Mill! I'm Terence -- nice to meet you!</ftsL1T0>
+		<ftsL2T0>#MENTOR# and I need to tell you all about earning TALENT POINTS in Pixie Hollow and how to master your talent!</ftsL2T0>
+		
+		<ftsL3F0>All pixies are talented, but I think someday you could become an amazing #LT#-talent!</ftsL3F0>
+		
+		<ftsL4F0>It's easy to start -- just go out and earn TALENT POINTS!</ftsL4F0>
+		
+		<ftsL5T0>You can earn Talent Points by playing games, completing quests -- even baking and tailoring! And each time you earn enough Talent Points, you'll reach a new #UT#-TALENT LEVEL!</ftsL5T0>
+		
+		<ftsL6T0>This keeps track of your Talent Points so you always know how close you are to reaching the next #MT#-Talent Level.</ftsL6T0>
+		
+		<ftsL7F0>Each time you reach a new #MT#-Talent Level, your skills will grow stronger, and you'll earn #EW# NEW rewards!</ftsL7F0>
+		
+		<ftsL8F0>Here, I brought you some NEW crafting patterns. Work on these to earn Talent Points and you'll reach the next Talent Level in no time!</ftsL8F0>
+		
+		<ftsL800F0>On this level, you've just earned a new Talent Skill! It's called #SKILL#!</ftsL800F0>
+		
+		<ftsL900F0>Take these, too. They'll help you reach the NEXT Talent Level.</ftsL900F0>
+		
+		<ftsL9T0>Soon, you'll also be earning secret TALENT SKILL powers that you can use in all new places around Pixie Hollow!</ftsL9T0>
+		
+		<ftsL10T0>You'll need PIXIE DUST to use your Talent Skills though.</ftsL10T0>
+		
+		<ftsL11T0>See? It's right up here. Dust-keeper-talents like me fill your cup of pixie dust every day.</ftsL11T0>
+		
+		<ftsL12F0>I know you've got what it takes, #NN#. Don't forget, the seasons really need you!</ftsL12F0>
+		
+		<ftsL13F0>Pixie Hollow is so much more magical than you can imagine. Now get out there and start earning TALENT POINTS!</ftsL13F0>
+		
+		<!-- level-up show -->
+		<luL1F0>Congratulations!</luL1F0>
+		<luL1T0>Way to go!</luL1T0>
+		<luL2F0>You've reached a new Talent Level! You've been so busy and helpful that you've earned enough Talent Points to become a Talent Level #FAIRY_LEVEL#!</luL2F0>
+		
+		<luL3F0>Remember your goal -- to learn everything about your Talent so that you can become a true #UT#-TALENT MASTER! It's the highest honor #PREP_LT#-talent can ever reach!</luL3F0>
+		
+		<luL4T0>You'll need a little more pixie dust each day now, so you can practice all the flaptastic new stuff you've learned.</luL4T0>
+		<luL5T0>Here's a bigger Pixie Dust Jar!</luL5T0>
+		<luL6T0>Remember, you can use your Talent Skills in the meadows, so keep an eye out for places to try it. You can also practice your skills in the Wilderness anytime you want with friends!</luL6T0>
+		
+		<luL7F0>I have a few top secret rewards for you, too, #NN#! First, you've just earned a new Talent Skill! It's called #SKILL#!</luL7F0>
+		<luL7F5>I have a few top secret rewards for you, too! First, you've just earned a new Talent Skill! It's called #SKILL#!</luL7F5>
+		
+		<luL8F0>Take these, too. They'll help you reach the NEXT Talent Level.</luL8F0>
+		
+		<luL9F1>Keep up the critterific work! If you're a Member, come visit me for a Talent Skill quest to use your new skill!</luL9F1>
+		<luL9F0>Keep up the #EW# work! If you're a Member you can visit me any time for a Talent Skill quest to use your new skill!</luL9F0>
+		
+		<luL10F1>Well, I'd better get back to sorting critter snacks. Fly with you later, #NN#!</luL10F1>
+		<luL10F2>Well, I'd better get back to catching flower petals. Fly with you later, #NN#!</luL10F2>
+		<luL10F3>Well, I'd better get back to making rainbows. Fly with you later, #NN#!</luL10F3>
+		<luL10F4>Well, I'd better get back to bubble bouncing. Fly with you later, #NN#!</luL10F4>
+		<luL10F5>Well, I'd better get back to tinkering. Fly with you later, #NN#!</luL10F5>
+		
+		<luL11T0>And I've got dust deliveries to make. Later, #NAME#!</luL11T0>
+		
+		
+		<mlL1T0>Wow, you did it, #NAME#! You've made it as far as any pixie in the Hollow has ever gone!</mlL1T0>
+		
+		<mlL2F0>He means, as far as any pixie has ever gone SO FAR.</mlL2F0>
+		
+		<mlL3F0>The Ministers of the Seasons and all the talent guilds are still working hard to discover new ways for us to use our Talents.</mlL3F0>
+		
+		<mlL4T0>And the dust-talents are researching new ways to use pixie dust!</mlL4T0>
+		
+		<mlL5F0>That's right! So as we discover more and more, we'll be able to reach higher and higher Talent Levels. We'll share the secrets with you as we learn them, okay, #NN#?</mlL5F0>
+		
+		<mlL6F0>Until then, keep practicing your Talent Skills, help us change the seasons, and have fun crafting. Here are a few rewards to help you along.</mlL6F0>
+		
+		<mlL7F0>We're so very proud of you, #NAME#.</mlL7F0>
+		
+		<mlL8T0>Fly with you later!</mlL8T0>
+		<mlL8F0>Fly with you later!</mlL8F0>
+		
+		<next>Next</next>
+		<ok>OK</ok>
+	</copy>
+	<config>
+		<!--<action tBubble="11" tMove="x,y" tEmote="0" tLine="1" fBubble="11" fMove="x,y" fEmote="0" fLine="11" sound="name,loops,delayLow,delayHigh,volumeLo,volumeHigh" delay="animation, or milliseconds" animation="" showPanel="newItems or newLevel or newLevelItems"/>-->
+		<shows>
+			<firstTimeShow copyKey="fts">
+				<action showPanel="talentAlert"/>
+				<action tEmote="12" tMove="450,275" fMove="525,275" tLine="1"/>
+				<action tLine="2"/>
+				<action animation="#TALENT#Talent_explosion1" fMove="450,275" tMove="525,275" fLine="3" sound="tq_fireworks,1,2400,2400,1,1"/>
+				<action fLine="4"/>
+				<action tMove="695,275" fMove="770,275" tLine="5" animation="magic_mirror_open" sound="tq_bubble_appear,1,0,0,1,1"/>
+				<action animation="magic_mirror_close" delay="animation" sound="tq_bubble_disappear,1,0,0,1,1"/>
+				<action animation="talent_points_pdSparkle" fMove="525,275" tMove="525,100" tLine="6"/>
+				<action fMove="450,275" tMove="525,275" fLine="7"/>
+				<action animation="level_up_pixie_dust_shower" sound="tq_rain_pixie_dust,1,0,0,1,1" fEmote="0" fLine="8"/>
+				<action showPanel="newItems"/>
+				<action tMove="450,275" fMove="525,275" tLine="9"/>
+				<action tLine="10"/>
+				<action tMove="425,150" tLine="11" animation="pixie_dust_meter_pdSparkle"/>
+				<action fMove="450,275" tMove="525,275" fLine="12"/>
+				<action fLine="13"/>
+			</firstTimeShow>
+			<firstTimeSkillShow copyKey="fts">
+				<action showPanel="talentAlert"/>
+				<action tEmote="12" tMove="450,275" fMove="525,275" tLine="1"/>
+				<action tLine="2"/>
+				<action animation="#TALENT#Talent_explosion1" fMove="450,275" tMove="525,275" fLine="3" sound="tq_fireworks,1,2400,2400,1,1"/>
+				<action fLine="4"/>
+				<action tMove="695,275" fMove="770,275" tLine="5" animation="magic_mirror_open" sound="tq_bubble_appear,1,0,0,1,1"/>
+				<action animation="magic_mirror_close" delay="animation" sound="tq_bubble_disappear,1,0,0,1,1"/>
+				<action animation="talent_points_pdSparkle" fMove="525,275" tMove="525,100" tLine="6"/>
+				<action fMove="450,275" tMove="525,275" fLine="7"/>
+				<action animation="level_up_pixie_dust_shower" sound="tq_rain_pixie_dust,1,0,0,1,1" fEmote="0" fLine="800"/>
+				<action showPanel="newLevel"/>
+				<action fLine="900"/>
+				<action showPanel="newItems"/>
+				<action tMove="450,275" fMove="525,275" tLine="10"/>
+				<action tMove="425,150" tLine="11" animation="pixie_dust_meter_pdSparkle"/>
+				<action fMove="450,275" tMove="525,275" fLine="12"/>
+				<action fLine="13"/>
+			</firstTimeSkillShow>
+			<levelUp copyKey="lu">
+				<action tMove="600,275" fMove="480,275" delay="fMove"/>
+				<action tEmote="25" fEmote="25" delay="3000" sound="tq_congratulation_horn,1,0,0,1,1"/>
+				<action tBubble="1" fBubble="1" animation="level_up_pixie_dust_shower" delay="5000"/>
+				<action fLine="2" fMove="450,275"/>
+				<action fLine="3"/>
+				<action tMove="450,275" fMove="525,275" delay="tMove"/>
+				<action animation="pixie_dust_jar" tLine="4"/>
+				<action animation="level_up_pixie_dust_jar" tLine="5" dispatchPDJUpdate="2000"/>
+				<action tLine="6"/>
+				<action tMove="525,275" fMove="450,275" fLine="7"/>
+				<action showPanel="newLevel"/>
+				<action fLine="8"/>
+				<action showPanel="newItems"/>
+				<action fLine="9"/>
+				<action fLine="10"/>
+				<action tLine="11"/>
+				<action fMove="1000,275" tMove="1000,275" delay="tMove"/>
+			</levelUp>
+			<maxLevel copyKey="ml">
+				<action fMove="600,275" tMove="480,275" delay="fMove"/>
+				<action tEmote="28" fEmote="28" delay="3000" sound="tq_congratulation_horn,1,0,0,1,1"/>
+				<action animation="level_up_pixie_dust_shower" delay="5000"/>
+				<action tLine="1" tMove="450,275"/>
+				<action tMove="525,275" fMove="450,275" fLine="2" fEmote="4"/>
+				<action fLine="3"/>
+				<action fMove="525,275" tMove="450,275" tLine="4"/>
+				<action tMove="525,275" fMove="450,275" fLine="5"/>
+				<action fLine="6"/>
+				<action showPanel="newItems"/>
+				<action fLine="7"/>
+				<action tBubble="8" fBubble="8" delay="5000"/>
+				<action fMove="1000,275" tMove="1000,275" delay="tMove"/>
+			</maxLevel>
+		</shows>
+	</config>
+</pixieDustMillShow>

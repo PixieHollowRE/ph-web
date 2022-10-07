@@ -1,0 +1,251 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/mpsContainer.swf</swf>
+		<swf type="code">{panelCode}/mpsContainer.swf</swf>
+	</swfs>
+	<copy>		
+		<title>Fix</title>		
+		<instructions>Click the tacks in the right order!</instructions>
+		<timer><![CDATA[<font color="#ffffff">#SS#</font>]]></timer>
+		<timerWarning><![CDATA[<font color="#ff0000">#SS#</font>]]></timerWarning>
+	</copy>
+	<config>
+		<microGameId>MPSSingleClickSpawning</microGameId>
+		<test>false</test>
+		<spellName>fix</spellName>
+		<primaryObject>
+			<visual id="0">primary_truffle1</visual>
+			<visual id="1">primary_firefly_small1</visual>
+			<visual id="2">primary_vine1</visual>
+			<visual id="3">primary_branch1</visual>
+			<visual id="4">primary_rock1</visual>
+			<visual id="5">primary_droplet1</visual>
+			<visual id="6">primary_music_note1</visual>
+			<visual id="7">primary_soil1</visual>
+			<visual id="8">primary_leaf1</visual>
+			<visual id="9">primary_sun1</visual>
+			<visual id="10">primary_cob_web1</visual>
+			<visual id="11">primary_scoop1</visual>
+			<visual id="12">primary_bandage1</visual>
+			<visual id="13">primary_honeycomb1</visual>
+			<visual id="14">primary_star1</visual>
+			<visual id="15">primary_brown_grass1</visual>
+			<visual id="16">primary_moth1</visual>
+			<visual id="17">primary_ivy1</visual>
+			<visual id="18">primary_spiky_burs1</visual>
+			<visual id="19">primary_lizard1</visual>
+			<visual id="20">primary_cloud1</visual>
+			<visual id="21">primary_twig1</visual>
+			<visual id="22">primary_wasp1</visual>
+			<visual id="23">primary_empty_speech1</visual>
+			<visual id="24">primary_flower1</visual>
+			<visual id="25">primary_ulit_lantern1</visual>
+			<visual id="26">primary_cross1</visual>
+			<visual id="27">primary_maracas1</visual>
+			<visual id="28">primary_baby_butterfly1</visual>
+			<visual id="29">primary_frog1</visual>
+			<visual id="30">primary_light_dot1</visual>
+			<visual id="31">primary_vine_small1</visual>
+			<visual id="32">primary_unlit_firefly1</visual>
+			<visual id="33">primary_nut1</visual>
+			<visual id="34">primary_berry1</visual>
+			<visual id="35">primary_acorn1</visual>
+			<visual id="36">primary_arrow1</visual>
+			<visual id="37">primary_hammer1</visual>
+			<visual id="38">primary_thermometer1</visual>
+			<visual id="39">primary_thorn1</visual>
+			<visual id="40">primary_lilypad1</visual>
+			<visual id="41">primary_exclamation1</visual>
+			<visual id="42">primary_scissors1</visual>
+			<visual id="43">primary_flower_cup1</visual>
+			<visual id="44">primary_frog_print1</visual>
+			<visual id="45">primary_fire_ants1</visual>
+			<visual id="46">primary_web_thread1</visual>
+			<visual id="47">primary_acorn_branch1</visual>
+			<!-- TEMP -->
+			
+			<visual id="48">primary_frogprint1</visual>
+			<visual id="49">primary_frogprint1</visual>
+			<visual id="50">primary_frogprint1</visual>
+				
+				
+			
+			<visual id="1000">dustMeter</visual>
+		<!-- value to end game: 1053 -->
+		<!-- interaction="roll" -->
+		</primaryObject>
+		<secondaryObject>
+			<visual id="0">-</visual><!-- THIS HAS BEEN RETIRED -->
+			<visual id="1">-</visual><!-- THIS HAS BEEN RETIRED -->
+			<visual id="2">secondary_leaf1</visual>
+			<visual id="3">secondary_frog1</visual>
+			<visual id="4">secondary_light_cluster1</visual>
+			<visual id="5">secondary_happyface1</visual>
+			<visual id="6">secondary_honey1</visual>
+			<visual id="7">-</visual><!-- THIS HAS BEEN RETIRED -->
+			<visual id="8">secondary_bat1</visual>
+			<visual id="9">-</visual><!-- THIS HAS BEEN RETIRED -->
+			<visual id="10">secondary_flower_cup2</visual>
+			<visual id="11">secondary_exclamation_speech1</visual>
+			<visual id="12">secondary_leaf_cup1</visual>
+			<visual id="13">secondary_droplet1</visual>
+			<visual id="14">secondary_lit_lantern1</visual>
+			<visual id="15">-</visual><!-- THIS HAS BEEN RETIRED -->
+			<visual id="16">secondary_music_note1</visual>
+			<visual id="17">secondary_arrow2</visual>
+			<visual id="18">-</visual><!-- THIS HAS BEEN RETIRED -->
+			<visual id="19">secondary_nest1</visual>
+			<visual id="20">secondary_lit_firefly1</visual>
+			<visual id="21">secondary_nut_cracked1</visual>
+			<visual id="22">secondary_injured_bird1</visual>
+			<visual id="23">secondary_muddy_bird1</visual>
+			<visual id="24">secondary_acorn_pile1</visual>
+			<visual id="25">-</visual><!-- THIS HAS BEEN RETIRED -->
+			<visual id="26">secondary_hut1</visual>
+			<visual id="27">secondary_acorn1</visual>
+			<visual id="28">secondary_vine1</visual>
+			<visual id="29">secondary_boo1</visual>
+			<visual id="30">secondary_frog_print_lit1</visual>
+			<visual id="31">secondary_green_grass1</visual>
+			<visual id="32">-</visual><!-- PART OF A METER -->
+			<visual id="33">-</visual><!-- THIS HAS BEEN RETIRED -->
+			
+			<!-- TEMP -->
+			<visual id="34">secondary_cob_web1</visual>
+			<visual id="35">secondary_fire_ants_wet1</visual>
+			<visual id="36">secondary_lit_frog_print1</visual>
+			<visual id="37">secondary_lit_frog_print1</visual>
+			<visual id="38">secondary_lit_frog_print1</visual>
+			<visual id="39">secondary_lit_frog_print1</visual>
+			
+			
+			<visual id="1001">secondary_blank_square</visual>
+		</secondaryObject>
+		<soundFX>
+			<sfx id="0">grab_object</sfx>
+			<sfx id="1">drag_success</sfx>
+			<sfx id="2">single_note</sfx>
+			<sfx id="3">water_splash</sfx>
+			<sfx id="4">grow_bigger</sfx>
+			<sfx id="5">branch_shake</sfx>
+			<sfx id="6">drop_from_shake</sfx>
+			<sfx id="7">pixie_dust_cup_shake</sfx>
+			<sfx id="8">bandage</sfx>
+			<sfx id="9">correct_click</sfx>
+			<sfx id="10">honey_shake</sfx>
+			<sfx id="11">click_moth</sfx>
+			<sfx id="12">cloud_shake</sfx>
+			<sfx id="13">click_wasp</sfx>
+			<sfx id="14">click_small_butterfly</sfx>
+			<sfx id="15">maracas_shake</sfx>
+			<sfx id="16">click_berry</sfx>
+			<sfx id="17">hammers</sfx>
+			<sfx id="18">medicine</sfx>
+			<sfx id="19">frog_feet</sfx>
+			<sfx id="20">scissors</sfx>
+			<sfx id="21">rollover_note_1</sfx>
+			<sfx id="22">rollover_note_2</sfx>
+		</soundFX>
+		
+		
+		<mouseVisuals>
+			<visual id="0">nest</visual>
+			<visual id="1">circle</visual>
+			<visual id="2">cross</visual>
+		</mouseVisuals>
+		<meters>
+			<visual id="0">starsFilledMeter</visual>
+			<visual id="1">horizBarMeter</visual>
+		</meters>	
+		<colors>
+			<color id="brown_inner">0xefa37a</color>
+			<color id="brown_outer">0x965836</color>
+			<color id="brown_upper">0x6d3d22</color>
+			<color id="yellow">0xeddd70</color>
+			<color id="blue">0x66b3f4</color>
+			<color id="purple">0xb288f7</color>
+			<color id="red">0xef9380</color>
+			<color id="green">0x8bed8b</color>
+		</colors>
+		<levels>
+			<level number="0" lifetime="9">
+				<!-- click all the dots in order-->
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="1" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="2" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="3" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="4" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+		</levels>
+		<rounds>
+			<round id="0">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot value="10" x="10" y="random" ymin="20" ymax="60" order="0" visual="nailBrown" />
+					<dot value="10" x="40" y="random" ymin="20" ymax="60" order="1" visual="nailBrown" />
+					<dot value="10" x="75" y="random" ymin="20" ymax="60" order="2" visual="nailBrown" />			
+				</dots>
+			</round>
+			<round id="1">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot value="10" x="75" y="random" ymin="20" ymax="60" order="0" visual="nailBrown" />
+					<dot value="10" x="60" y="random" ymin="20" ymax="60" order="1" visual="nailBrown" />
+					<dot value="10" x="40" y="random" ymin="20" ymax="60" order="2" visual="nailBrown" />
+					<dot value="10" x="15" y="random" ymin="20" ymax="60" order="3" visual="nailBrown" />				
+				</dots>
+			</round>
+			<round id="2">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot value="10" x="15" y="random" ymin="20" ymax="60" order="0" visual="nailBrown" />
+					<dot value="10" x="40" y="random" ymin="20" ymax="60" order="1" visual="nailBrown" />
+					<dot value="10" x="60" y="random" ymin="20" ymax="60" order="2" visual="nailBrown" />
+					<dot value="10" x="80" y="random" ymin="20" ymax="60" order="3" visual="nailBrown" />				
+				</dots>
+			</round>
+			<round id="3">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot value="10" x="random" y="30" order="0" visual="nailBrown" />
+					<dot value="10" x="random" y="40" order="1" visual="nailBrown" />
+					<dot value="10" x="random" y="50" order="2" visual="nailBrown" />
+					<dot value="10" x="random" y="60" order="3" visual="nailBrown" />				
+					<dot value="10" x="random" y="70" order="4" visual="nailBrown" />
+				</dots>
+			</round>
+			<round id="4">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot value="10" x="random" y="10" order="0" visual="nailBrown" />
+					<dot value="10" x="random" y="20" order="1" visual="nailBrown" />
+					<dot value="10" x="random" y="30" order="2" visual="nailBrown" />
+					<dot value="10" x="random" y="40" order="3" visual="nailBrown" />
+					<dot value="10" x="random" y="50" order="4" visual="nailBrown" />
+					<dot value="10" x="random" y="60" order="5" visual="nailBrown" />
+					<dot value="10" x="random" y="70" order="6" visual="nailBrown" />
+					<dot value="10" x="random" y="80" order="7" visual="nailBrown" />			
+				</dots>
+			</round>
+		</rounds>
+	</config>
+</panel>

@@ -1,0 +1,75 @@
+<panel>
+  <swfs>
+    <swf type="content">{panelContent}/selectFriendAndMessage.swf</swf>
+    <swf type="code">{panelCode}/selectFriendAndMessage.swf</swf>
+    
+  </swfs>
+  
+  <copy>
+	<header target="header">Send To A Friend</header>
+	
+	<cancelBtn target="cancelbutton.caption">Cancel</cancelBtn>
+	<confirmBtn target="confirmbutton.caption">Next</confirmBtn>
+	<wildernessItemAlert>Oops! You can't give your Wilderness ingredients!</wildernessItemAlert>
+	<notEnoughItemsAlert>Please pick some items to trade!</notEnoughItemsAlert>
+	<ok>OK</ok>
+	<or>or</or>
+	
+	<onlinetab target="activeTypeSelector.btn0.copy">ONLINE</onlinetab>
+	<offlinetab target="activeTypeSelector.btn1.copy">OFFLINE</offlinetab>
+	
+	<defaultSearchText>Search</defaultSearchText>
+	
+	<errorNoName>Please select the friend you wish to send a #GIFTTYPE# to.</errorNoName>
+	<errorNoMessage>Please select the message you want your friend to see.</errorNoMessage>
+	<errorNoCurrency>Sorry, you need more Pixie Diamonds.</errorNoCurrency>
+	
+	<selectAFairyPanelHeader target="selectAFairyPanel.header">Select a Fairy Friend</selectAFairyPanelHeader>
+	<selectAMessagePanel target="holder_selectAMessagePanel.selectAMessagePanel.header">Select a Message</selectAMessagePanel>
+	<noIngredientsText target="givePanel.noIngredientsText">You have no ingredients to trade!</noIngredientsText>
+	
+	<dataDisplay>#GIVENUM# #GIVENAME# = #GETNUM# #GETNAME#</dataDisplay>
+	<giveItemName>#GIVENAME#</giveItemName>
+	<getItemName>#GETNUM# #GETNAME#</getItemName>
+	<notEnoughGiveItems>You need more #GIVENAME# to trade.</notEnoughGiveItems>
+	<overMaxItems>You can only hold 10,000 #GETNAME# in your pouch.</overMaxItems>
+	<wouldPutOverMaxItems>This trade with #GIVENAME# will put you over the limit for #GETNAME#.</wouldPutOverMaxItems>
+    <simplePlural>s</simplePlural>
+	
+	<postcardLabel>Post Card</postcardLabel>
+	<giftsetLabel>Gift Set</giftsetLabel>
+	
+	<selectFairyMessaging_noOfflineFriends>None of your friends are currently offline from Pixie Hollow. You can still send Gift Sets and Postcards to your Online friends.</selectFairyMessaging_noOfflineFriends>
+	<selectFairyMessaging_noOlineFriends>None of your friends are currently online in Pixie Hollow. You can still send Gift Sets and Postcards to your Offline friends.</selectFairyMessaging_noOlineFriends>
+	
+	<fairyGenderSparrowmen>Sorry, you can't send Sparrow Man items to a Fairy.</fairyGenderSparrowmen>
+	<fairyGenderFairy>Sorry, you can't send Fairy items to a Sparrow Man.</fairyGenderFairy>
+	
+	<currencySelectorTitle>How would you like to pay?</currencySelectorTitle>
+	<currencySelectorDiamond_title target="currencySelector.diamonds_header">Diamonds</currencySelectorDiamond_title>
+	<currencySelectorIngredient_title target="currencySelector.ingredients_header">Ingredients</currencySelectorIngredient_title>
+	<currencySelectorDiamond>Gift Set items you get with Pixie Diamonds become Diamond Items and can be shared with any of your friends!</currencySelectorDiamond>
+	<currencySelectorIngredient>Gift Set items you get with Ingredients can only be shared with Members.</currencySelectorIngredient>
+	<currencySelectorDiamond_postcard>ANYONE can use Pixie Diamonds to send Postcards!</currencySelectorDiamond_postcard>
+	<currencySelectorDiamond_giftset>Send Gift Sets to ANY player!</currencySelectorDiamond_giftset>
+	<currencySelectorIngredient_postcard>Only Members can use ingredients to send Postcards.</currencySelectorIngredient_postcard>
+	<currencySelectorIngredient_giftset>Send Gift Sets to Members Only.</currencySelectorIngredient_giftset>
+	
+	
+	<currencySelectorExitButton>Cancel</currencySelectorExitButton>
+	<currencySelectorContinueButton>OK</currencySelectorContinueButton>
+    
+  </copy>
+  
+  <config>
+    <multiplierTimerDelay>500</multiplierTimerDelay> <!-- in ticks -->
+	<multiplierTimerCounters>
+		<timerCounter frames="7" count="4" />
+		<timerCounter frames="4" count="3" />
+		<timerCounter frames="1" count="5" />
+	</multiplierTimerCounters>
+    <multiplierAmount>0</multiplierAmount>
+    
+  </config>
+  
+</panel>

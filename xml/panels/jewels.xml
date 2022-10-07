@@ -1,0 +1,685 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/jewels.swf</swf>
+		<swf type="code">{panelCode}/jewels.swf</swf>
+	</swfs>
+	<copy>
+		<title>Gem Juggle</title>
+		<scoreTitleString>Level %LEVEL% Complete!</scoreTitleString>
+
+		<tutorial_title>Gem Juggle</tutorial_title>
+		<scoreTitleHowToPlayComplete>How To Play Complete!</scoreTitleHowToPlayComplete>
+		<scoreBodyTutorialComplete>Let's match those gems!</scoreBodyTutorialComplete>
+		
+		<szPerfectBonusInfo><![CDATA[Match these in <font color="#ff0000">%MM%:%SS%</font> for a bonus!]]></szPerfectBonusInfo>
+		<szPerfectBonusGone>Bonus missed! Finish the level!</szPerfectBonusGone>
+		<szBonusTime>BONUS</szBonusTime>
+
+		<szWelcome>Welcome!</szWelcome>
+		<szTransition>Welcome!</szTransition>
+		<szDidYouKnow>Did You Know?</szDidYouKnow>
+		<szYouWin>You Win!</szYouWin>
+		<szYouWinAttaboy>Great job matching all those gems!</szYouWinAttaboy>
+		<szGetReady>Get Ready!</szGetReady>
+		
+		<!-- Level complete -->
+		<szWONPOPUP0>GREAT JOB!</szWONPOPUP0>
+		<szWONPOPUP1>GREAT JOB!</szWONPOPUP1>
+		<szWONPOPUP2>GREAT JOB!</szWONPOPUP2>
+		<szWONPOPUP3>GREAT JOB!</szWONPOPUP3>
+		<szWONPOPUP4>GREAT JOB!</szWONPOPUP4>
+		<szWONPOPUP5>GREAT JOB!</szWONPOPUP5>
+		<szWONPOPUP6>GREAT JOB!</szWONPOPUP6>
+		<szWONPOPUP7>GREAT JOB!</szWONPOPUP7>
+		<szWONPOPUP8>GREAT JOB!</szWONPOPUP8>
+		<szWONPOPUP9>GREAT JOB!</szWONPOPUP9>
+		
+		<!-- Level complete -->
+		<szPERFECTION>PERFECT!</szPERFECTION>
+		<szGOODENOUGH>GOOD JOB!</szGOODENOUGH>
+		<szFAILED>OH, NO! TIME'S UP!</szFAILED>
+		<szGemsBonus>Gems Bonus:</szGemsBonus>
+		<szTimeBonus>Time Bonus:</szTimeBonus>
+		<szPerfectBonus>Perfect Bonus:</szPerfectBonus>
+		<szPrevScore>Your Last Score:</szPrevScore>
+		<szTotalScore>Your Total Score:</szTotalScore>
+		<szCONTINUE>Continue</szCONTINUE>
+		<szNEXT>NEXT</szNEXT>
+
+		<szUseHint>HINT</szUseHint>
+		
+		<scoreTitleFail>Game Over</scoreTitleFail>
+		<szGameOverFail><![CDATA[Oh no! You ran out of time!<br/><br/>Try again, I'm sure you can do it!]]></szGameOverFail>
+
+		<szScore>Score:</szScore>
+		<szNeed>%NEED%</szNeed>
+		<szJustNeed></szJustNeed>
+		<szNeedX>%NEED%</szNeedX>
+		<szAnd>and</szAnd>
+		<szX>%TOTAL%</szX>
+		<szHave>%TOTAL%</szHave> 
+		<szTime>%MM%:%SS%</szTime>
+		<szTimeWarning><![CDATA[<font color="#ff0000">%MM%:%SS%</font>]]></szTimeWarning>
+		<szLevel>Level %LEVEL%</szLevel>
+		<szLevelHowToPlay>How to play</szLevelHowToPlay>
+		<szLetsCollect>Let's collect...</szLetsCollect>
+		<szPerfectNeed><![CDATA[in a time of <font size="18" color="#ff0000">%MM%:%SS%</font> for a bonus!]]></szPerfectNeed>
+		<szMessage></szMessage>
+		<szPerfect></szPerfect>
+		<total_score></total_score>
+		<total_bonus_label></total_bonus_label>
+		<total_bonus_count></total_bonus_count>
+		<perfect_label></perfect_label>
+		<point_bonus_label>Level Completion Bonus</point_bonus_label>
+		<point_bonus_count></point_bonus_count>
+		<point_time_label>score</point_time_label>
+		<point_time_count></point_time_count>
+		<score_before_label>score</score_before_label>
+		<score_before_count></score_before_count>
+		<total_label>score</total_label>
+		<total_score></total_score>
+		<label></label>
+
+		<host_name>Iridessa</host_name>
+		
+		<goal>Goal</goal>
+		
+		<!-- Tutorial pages -->
+		<Intro>Hi, sunshine! Sorting gems from The Never Mine is a really important job. Let me show you how to do it!</Intro>
+		<Basics>Match three gems of the same color. The gems can be in a row or in a column.</Basics>
+		<Match>Start by choosing a gem. Next choose a gem above, below, or next to it to make those 2 gems switch places.</Match>
+		<Swap>The gems will switch places ONLY when the switch creates a 3-gem match. All three matching gems will disappear into the sorting bins!</Swap>
+		<Fill>Each time you make a 3-gem match, new gems will take their place so that you can continue making more matches.</Fill>
+		<MatchMore>Matching more than three gems gives you big bonuses!</MatchMore>
+		<YouTry>Now you give it a try! Swap two gems to make a 3-gem match.</YouTry>
+		<Needs>For the Easy and Medium levels, you can match any 3 gems. In higher levels, you'll have to match specific TYPES of gems for it to count. </Needs>
+		<Timer>Oh, and watch the clock! Make all your matches fast and you'll get a bonus!</Timer>
+		<ByeBye>I'll be right here with you, alright? Now let's get matching, sunshine!</ByeBye>
+		<Impatient>Match 3 of the same kind of gem to clear them!</Impatient>
+
+		<!-- Instructions -->
+		<instruction0><![CDATA[Click on pairs of gems to switch their places. You can only switch gems when the switch makes three or more matching gems in a row or column.]]></instruction0>
+		<instruction1><![CDATA[Match more than three gems to earn bonuses and power-ups!]]></instruction1>
+		<instruction2><![CDATA[Complete the level goal within a certain amount of time for a bonus. Complete it before time runs out, or the game will end.]]></instruction2>
+		<instruction3><![CDATA[If you ever get stuck, you'll have a few hints to help find matches.]]></instruction3>
+		<instruction4><![CDATA[Most power-ups can be switched with other gems without making a match.]]></instruction4>
+		<instruction5><![CDATA[Hazards can't be switched. Try using a power-up to get rid of them.]]></instruction5>
+		
+		<szSkip>Skip This</szSkip>
+
+		<szNoMore>NO MORE MOVES!</szNoMore>
+		
+		<!-- Up to 1000 attaboys -->
+		<awesome1>Good Job!</awesome1>
+		<awesome2>Awesome!</awesome2>
+		<awesome3>Terrific!</awesome3>
+		<awesome4>Well Done!</awesome4>
+		<awesome5>Good Work!</awesome5>
+		<awesome6>Nice Going!</awesome6>
+		<awesome7>Nice Going!</awesome7>
+		<awesome8>Keep It Coming!</awesome8>
+		<awesome9>Excellent!</awesome9>
+		<awesome10>Excellent!</awesome10>
+
+		<!-- Warning lookup text: Undefined during quick pass automatic text insertion; usually formatted -->
+		<text></text>
+		<title_txt></title_txt>
+		<numHint></numHint>
+
+		<!-- Additional copy moved inline with levels, because it's HORRIBLE to edit in two places -->
+	</copy>
+	<config>
+		<colorPalette>2</colorPalette>
+		<!-- Change the music volume here -->
+		<music_volume>1.0</music_volume>
+
+		<!-- How many matched jewels at once to get attaboy message -->
+		<awesome_threshhold>4</awesome_threshhold>
+		
+		<difficultyChoices layout="5small">
+			<!-- We attach start and end level numbers to this XML for easy configuration -->
+			<difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"		level_start="1" 	level_end="7" />
+			<difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"		level_start="8"		level_end="17" />
+			<difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"		level_start="18"	level_end="28" />
+			<difficultyChoice descriptor="royal" displayName="Royal" paidOnly="false"	level_start="29" 	level_end="49" />
+			<difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"	level_start="1"		level_end="49" />
+		</difficultyChoices>
+
+		<supportsTutorial>true</supportsTutorial>
+
+		<Sounds>
+			<!-- Sounds reference symbols exported from panel_content/jewels.swf -->
+
+			<!-- No match from swap -->
+			<fxMismatch>match_not_made</fxMismatch>
+
+			<!-- Gem is not selectable -->
+			<fxBlocked>match_not_made</fxBlocked>
+
+			<!-- Swap matched -->
+			<fxMatch>match_is_made</fxMatch>
+
+			<!-- Played at beginning of level -->
+			<fxLevelStart>level_start</fxLevelStart>
+
+			<!-- Played at end of level -->
+			<fxLevelEnd>level_end</fxLevelEnd>
+			
+			<!-- Perfect level -->
+			<fxLevelPerfect>perfect_completion</fxLevelPerfect>
+			
+			<!-- Hint -->
+			<fxHint>sfx_Hint</fxHint>
+			
+			
+			<!--
+				Progressive cascade sounds when gems fall and match
+				Fill with same sound over & over if you don't have enough
+			-->
+			<fxCascade1>combo_match</fxCascade1>
+			<fxCascade2>combo_match</fxCascade2>
+			<fxCascade3>combo_match</fxCascade3>
+			<fxCascade4>combo_match</fxCascade4>
+			<fxCascade5>combo_match</fxCascade5>
+			<fxCascade6>combo_match</fxCascade6>
+			<fxCascade7>combo_match</fxCascade7>
+			<fxCascade8>combo_match</fxCascade8>
+			<fxCascade9>combo_match</fxCascade9>
+
+			<!-- Played when no matches left and whole game board blows up -->
+			<fxNoMatchesLeft>match_is_made</fxNoMatchesLeft>
+
+			<!-- Power-ups in use -->
+			<fxUseRow>row_collapser_used</fxUseRow>
+			<fxUseCol>row_collapser_used</fxUseCol>
+			<fxUsePlus>crossroad_collapser_used</fxUsePlus>
+			<fxUseRandom>lucky_berry_used</fxUseRandom>
+			<fxUsePick>pick_used</fxUsePick>
+
+			<!-- Cave-in blows up on bottom -->
+			<fxCaveinExplode>cave_in_removed</fxCaveinExplode>
+
+			<!-- When locks come off -->
+			<fxUnlocked>freeze_block_removed</fxUnlocked>
+
+			<!-- Mouse over gem sound -->
+			<fxRollOverGem></fxRollOverGem>
+			
+			<!-- Clicked gem sound -->
+			<fxClickGem>click_gem</fxClickGem>
+			
+			<!-- Countdown noise -->
+			<fxCountdown>Countdown</fxCountdown>
+			
+			<!-- Fireworks noise -->
+			<fxFireworks>fireworks</fxFireworks>
+			
+			<!-- Bonus ran out -->
+			<fxNoBonus>BonusGoalFailed</fxNoBonus>
+
+			<!-- Hurry up bell -->
+			<fxHurry>HurryUp</fxHurry>
+
+		</Sounds>
+
+		<!-- Various things score differently -->
+		<Score>
+			<time>15</time>
+			<reset>10000</reset>
+			<lock>100</lock>
+			<red>5</red>
+			<white>5</white>
+			<yellow>5</yellow>
+			<green>5</green>
+			<blue>5</blue>
+			<magenta>5</magenta>
+			<orange>5</orange>
+			<row>100</row>
+			<col>100</col>
+			<plus>200</plus>
+			<random>150</random>
+			<pick>100</pick>
+			<rainbow>100</rainbow>
+			<cavein>100</cavein>
+		</Score>
+
+		<!-- Milliseconds to add to clock for collecting each jewel -->
+		<msPerJewel>0</msPerJewel>
+
+		<!-- Larger gem matches multiply score (0 is for 0 matches) -->
+		<Score_Multiplier>0,1,1,1,2,3,4,5,6,7,8,9,10</Score_Multiplier>
+
+		<!-- Configure tutorial levels... -->
+		<Tutorial>
+			<!-- Tutorial levels -->
+<!--1-->	<Level time="" perfectbonus="1000" perfect="" need_gems="3" >
+				<notes>Make a column of red.</notes>
+				<Map>
+					green,blue ,green,blue,green,blue ,green,blue ,green,
+					blue ,green,blue ,green,blue ,green,blue ,green,blue, 
+					green,blue ,green,blue,green,blue ,green,blue ,green,
+					blue ,green,blue ,red,magenta,yellow,white,green,blue, 
+					green,blue ,green,red,white,magenta,yellow,blue,green,
+					blue,green,blue,yellow,red,white,magenta,green,blue,
+					green,blue ,green,blue ,green,blue ,green,blue ,green,
+					blue ,green,blue ,green,blue ,green,blue ,green,blue , 
+					green,blue ,green,blue ,green,blue ,green,blue ,green,
+					,orange,white,yellow
+				</Map>
+				<gems>red,white,yellow,magenta, blue,green,orange</gems>
+				<powers></powers>
+				<hazards></hazards>
+			</Level> <!-- Last row are 'extra' gems after initial match -->
+		</Tutorial>
+
+		<NPC_Chat NPC_CHAT_TIMEOUT="5" >
+			<!-- Timer warning -->
+			<TIMER queue="high" emote="concerned">You're running out of time!</TIMER>
+		
+			<!-- Special events -->
+			<MISSED_CLICK emote="concerned" queue="high">Remember, you need to match three gems in a line!</MISSED_CLICK>
+			<MISSED_CLICK emote="concerned" queue="high">Oops! You need three or more gems to make a match!</MISSED_CLICK>
+			<MISSED_CLICK emote="concerned" queue="high"><![CDATA[Hmmm...]]></MISSED_CLICK>
+			<MISSED_CLICK emote="concerned" queue="high">Let's try that again.</MISSED_CLICK>
+			<MISSED_CLICK emote="concerned" queue="high">That doesn't seem quite right.</MISSED_CLICK>
+			<MISSED_CLICK emote="concerned" queue="high">That's not right.</MISSED_CLICK>
+			<MISSED_CLICK emote="concerned" queue="high">That won't work!</MISSED_CLICK>
+			
+			<RANDOM queue="low" emote="happy">You did it!</RANDOM>
+			<RANDOM queue="low" emote="happy">Shimmerific matching, sunshine!</RANDOM>
+			<RANDOM queue="low" emote="happy">Good!</RANDOM>
+			<RANDOM queue="low" emote="happy">You get bonus points if you make matches!</RANDOM>
+			<RANDOM queue="low" emote="happy">Yay!</RANDOM>
+			<RANDOM queue="low" emote="happy">Oh, yes!</RANDOM>
+			<RANDOM queue="low" emote="happy">Great!</RANDOM>
+			<RANDOM queue="low" emote="happy">Shimmerific!</RANDOM>
+			<RANDOM queue="low" emote="happy">You have a real gift for matching gems!</RANDOM>
+			
+			
+			<RANDOM_4 emote="happy">I wonder if you can match five gems in a row. I bet you can!</RANDOM_4>
+			<RANDOM_4 emote="happy">Okay, but can you match five in a row?</RANDOM_4>
+			<RANDOM_4 emote="happy">Wow! Flashtastic!</RANDOM_4>
+			
+			<RANDOM_5 emote="happy">You matched five in a row! Excellent job, sunshine!</RANDOM_5>
+			<RANDOM_5 emote="happy">You matched five gems! That's amazing!</RANDOM_5>
+			<RANDOM_5 emote="happy">You got five gems all at once! I'm impressed!</RANDOM_5>
+
+			<RANDOM_MORE emote="happy">Sunshine, you're on a roll!</RANDOM_MORE>
+			<RANDOM_MORE emote="happy">Out come the mad matching skills!</RANDOM_MORE>
+			<RANDOM_MORE emote="happy">You can match up gems better than anyone!</RANDOM_MORE>
+
+			<USE_PICK emote="happy">Bless my wings, look at how many gems you removed!</USE_PICK>
+			<USE_PICK emote="happy">The Pick Axe helps a lot, doesn't it?</USE_PICK>
+			<USE_PICK emote="happy">Great, you found the Pick! Useful, isn't it?</USE_PICK>
+			<USE_RAINBOW emote="happy">This certainly makes gem matching easier!</USE_RAINBOW>
+			<USE_RAINBOW emote="happy">I love Rainbow Gems. They match anything!</USE_RAINBOW>
+			<USE_RAINBOW emote="happy">Excellent, you found a Rainbow Gem!</USE_RAINBOW>
+			<USE_RANDOM emote="happy">Great, you found a Mining Hat!</USE_RANDOM>
+			<USE_RANDOM emote="happy">You never know what will disappear with the Mining Hat!</USE_RANDOM>
+			<USE_RANDOM emote="happy">The Mining Hat is so flitterific!</USE_RANDOM>
+			<USE_ROW emote="happy">Well, that's one way to take out a whole row.</USE_ROW>
+			<USE_ROW emote="happy">You got a whole row at once! Excellent!</USE_ROW>
+			<USE_ROW emote="happy">A whole row at once! Way to go, sunshine!</USE_ROW>
+			<USE_COL emote="happy">What a great way to zap an entire column of gems!</USE_COL>
+			<USE_COL emote="happy">Good one, sunshine!</USE_COL>
+			<USE_COL emote="happy">A whole column, gone at once! Good going, sunshine!</USE_COL>
+			<USE_CROSS emote="happy">Whoa, that's one useful Cross!</USE_CROSS>
+			<USE_CROSS emote="happy">Now that's what I call clearing the board!</USE_CROSS>
+			<USE_CROSS emote="happy">This will make matching gems much easier!</USE_CROSS>
+			
+			<!-- Icon events -->
+			<pick emote="happy">Try the Pick Axe!</pick>
+			<rainbow emote="happy">The Rainbow Gem matches any gem!</rainbow>
+			<random emote="happy">Look! The Mining Hat! What gems will disappear?</random>
+			<row emote="happy">Demolish a whole row of gems with this!</row>
+			<col emote="happy">Take out a column and earn points!</col>
+			<plus emote="happy">Whoa! Remove a row and column with the Cross!</plus>
+			<cavein emote="concerned">Hurry! Get rid of that rock!</cavein>
+			<lock emote="concerned">Frozen gems must be matched to defrost them!</lock>
+
+		</NPC_Chat>
+		
+		<Levels>
+
+			<!-- Easy Levels -->
+<!--1-->	<Level time="150" perfectbonus="1000" perfect="120" hurry="60" need_gems="30" hints="10" >
+				<intro>Let's start making some gem matches!</intro>
+				<tipicon>rowgems</tipicon>
+				<tiptext>Match any 3 of the same gem to collect them! Try to match them as fast as you can.</tiptext>
+				<notes>Let's get these easy levels out of the way!</notes>
+				<gems>red,orange,yellow,green,blue</gems>
+				<powers></powers>
+				<hazards></hazards>
+<!-- Test map for NO MATCHES LEFT situations
+<Map>
+	red,orange,yellow,green,white,violet,white,white,cavein,
+	cavein,cavein,cavein,cavein,cavein,cavein,cavein,cavein,cavein,
+	cavein,cavein,cavein,cavein,cavein,cavein,cavein,cavein,cavein,
+	cavein,cavein,cavein,cavein,cavein,cavein,cavein,cavein,cavein,
+	cavein,cavein,cavein,cavein,plus,green,cavein,cavein,cavein,
+	cavein,cavein,cavein,cavein,cavein,cavein,cavein,cavein,cavein,
+	cavein,cavein,cavein,cavein,cavein,cavein,cavein,cavein,cavein,
+	cavein,cavein,cavein,cavein,cavein,cavein,cavein,cavein,cavein,
+	red,orange,yellow,green,white,violet,white,red,orange,
+</Map>
+-->
+			</Level>
+<!--2-->	<Level time="120" perfectbonus="1000" perfect="90" hurry="60" need_gems="60" hints="10" >
+				<notes>That wasn't so hard. Let's try the next batch!</notes>
+				<gems>red,orange,yellow,green,blue</gems>
+				<powers></powers>
+				<hazards></hazards>
+			</Level>
+<!--3-->	<Level time="120" perfectbonus="1000" perfect="90" hurry="60" need_gems="60" hints="10" >
+				<notes>Match gems at the bottom first!</notes>
+				<gems>red,orange,yellow,green,blue</gems>
+				<powers></powers>
+				<hazards></hazards>
+			</Level>
+<!--4-->	<Level time="120" perfectbonus="1000" perfect="90" hurry="60" need_gems="60" hints="10" >
+				<gems>red,orange,yellow,green,blue</gems>
+				<notes>Flashtastic job so far sunshine!</notes>
+				<powers></powers>
+				<hazards></hazards>
+			</Level>
+<!--5-->	<Level time="120" perfectbonus="1000" perfect="90" hurry="60" need_gems="60" hints="10" >
+				<gems>red,orange,yellow,green,blue</gems>
+				<tipicon>rainbow</tipicon>
+				<tiptext>Look, we have a Magic Gem! It can be matched with any of the other gems!</tiptext>
+				<notes>Try the rainbow out!</notes>
+				<powers>rainbow</powers>
+				<hazards></hazards>
+			</Level>
+<!--6-->	<Level time="120" perfectbonus="1000" perfect="90" hurry="60" need_gems="60" hints="10" >
+				<tipicon>lock</tipicon>
+				<tiptext>Watch out for Frozen Gems. Match them once to break the ice, and then match them again to collect it.</tiptext>
+				<notes>If you see a gem in ice, match it to unfreeze it.</notes>
+				<gems>red,orange,yellow,green,blue</gems>
+				<powers>rainbow</powers>
+			</Level>
+<!--7-->	<Level time="120" perfectbonus="1000" perfect="90" hurry="60" need_gems="60" hints="10" >
+				<notes>Great news -- you're doing amazing!</notes>
+				<gems>red,orange,yellow,green,blue</gems>
+				<powers>rainbow</powers>
+				<hazards>lock</hazards>
+			</Level>
+
+			<!-- Medium Levels -->
+<!--8-->	<Level time="120" perfectbonus="1000" perfect="60" hurry="30" need_gems="60" hints="5" >
+				<intro>Watch out, this next batch of gems will be a little harder to match up!</intro>
+<!--			<transition>Great matching sunshine! But we've got plenty more gems to find.</transition> -->
+				<notes>Ok, now it's a little harder. You have less time!</notes>
+				<gems>red,orange,yellow,green,blue,magenta</gems>
+				<powers>rainbow</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--9-->	<Level time="120" perfectbonus="1000" perfect="60" hurry="30" need_gems="63" hints="5" >
+				<notes>You're doing some marvelous matching. Now keep it up!</notes>
+				<gems>red,orange,yellow,green,blue,magenta</gems>
+				<powers>rainbow</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--10-->	<Level time="120" perfectbonus="1000" perfect="60" hurry="30" need_gems="66" hints="5" >
+				<notes>I need you to match 66 gems this time!</notes>
+				<gems>red,orange,yellow,green,blue,magenta</gems>
+				<powers>rainbow</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--11-->	<Level time="120" perfectbonus="1000" perfect="60" hurry="30" need_gems="66" hints="5" >
+				<notes>I bet you can match all these gems no sweat!</notes>
+				<gems>red,orange,yellow,green,blue,magenta</gems>
+				<powers>rainbow</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--12-->	<Level time="130" perfectbonus="1000" perfect="60" hurry="30" need_gems="70" hints="5" >
+				<tipicon>pick</tipicon>
+				<tiptext>Do you know what a Mining Pick does? Match it with any gem and find out!</tiptext>
+				<notes>Look for the pick. Match it with any gem!</notes>
+				<gems>red,orange,yellow,green,blue,magenta</gems>
+				<powers>rainbow,pick</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--13-->	<Level time="130" perfectbonus="1000" perfect="60" hurry="30" need_gems="72" hints="5" >
+				<notes>You're getting awfully good at this. Match 72 gems this time!</notes>
+				<gems>red,orange,yellow,green,blue,magenta</gems>
+				<powers>rainbow,pick</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--14-->	<Level time="130" perfectbonus="1000" perfect="60" hurry="30" need_gems="72" hints="5" >
+				<notes>Let's see if you can score more points this time!</notes>
+				<gems>red,orange,yellow,green,blue,magenta</gems>
+				<powers>rainbow,pick</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--15-->	<Level time="130" perfectbonus="1000" perfect="60" hurry="30" need_gems="75" hints="5" >
+				<notes>You're a real match maker! Match 75 gems!</notes>
+				<gems>red,orange,yellow,green,blue,magenta</gems>
+				<powers>rainbow,pick</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--16-->	<Level time="130" perfectbonus="1000" perfect="60" hurry="30" need_gems="75" hints="5" >
+				<notes>I dare you to match 75 gems AND do it faster this time!</notes>
+				<gems>red,orange,yellow,green,blue,magenta</gems>
+				<powers>rainbow,pick</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--17-->	<Level time="130" perfectbonus="1000" perfect="60" hurry="30" need_gems="75" hints="5" >
+				<notes>Wow, finish this round and we'll move on to the Hard levels! Ready?</notes>
+				<gems>red,orange,yellow,green,blue,magenta</gems>
+				<powers>rainbow,pick</powers>
+				<hazards>lock</hazards>
+			</Level>
+
+			<!-- Hard Levels -->
+<!--18-->	<Level time="140" perfectbonus="1000" perfect="75" hurry="30" need_gems="35red" hints="3" >
+				<intro>I just got an order for LOTS of gems. Let's get matching!</intro>
+<!--			<transition>You are a gem matching champ! Now it starts to get tricky.</transition> -->
+				<notes>Let's change it up a little! Now match 35 red gems!</notes>
+				<gems>red,red,red,white,yellow,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--19-->	<Level time="140" perfectbonus="1000" perfect="75" hurry="30" need_gems="35white" hints="3" >
+				<tipicon>random</tipicon>
+				<tiptext>Here's a new trick! Match the Mining Hat with any other gem and a bunch of gems will be collected at one time!</tiptext>
+				<notes>The Mining Hat removes a bunch of gems at once!</notes>
+				<gems>red,white,white,white,yellow,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--20-->	<Level time="140" perfectbonus="1000" perfect="75" hurry="30" need_gems="35yellow" hints="3" >
+				<gems>red,white,yellow,yellow,yellow,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--21-->	<Level time="140" perfectbonus="1000" perfect="75" hurry="30" need_gems="35green" hints="3" >
+				<notes>Let the Mining Hat help you match 35 green gems!</notes>
+				<gems>red,white,yellow,green,green,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--22-->	<Level time="140" perfectbonus="1000" perfect="75" hurry="30" need_gems="35blue" hints="3" >
+				<notes>Now match 35 blue gems!</notes>
+				<gems>red,white,yellow,green,blue,blue,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--23-->	<Level time="140" perfectbonus="1000" perfect="75" hurry="30" need_gems="45magenta" hints="3" >
+				<notes>Let's try matching up 45 gems, okay?</notes>
+				<gems>red,white,yellow,green,blue,magenta,magenta,magenta,orange</gems>
+				<powers>pick,rainbow,random</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--24-->	<Level time="140" perfectbonus="1000" perfect="75" hurry="30" need_gems="45white" hints="3" >
+				<tipicon>row</tipicon>
+				<tiptext>These are Arrows and they're a big help! Match this with any other gem and watch a whole line of gems get collected!</tiptext>
+				<notes>Wipe out whole rows with the Arrow icon.</notes>
+				<gems>red,white,white,white,yellow,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--25-->	<Level time="140" perfectbonus="1000" perfect="75" hurry="30" need_gems="45red" hints="3" >
+				<notes>You're amazing at this! Try to match 45 red gems this time!</notes>
+				<gems>red,red,red,white,yellow,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--26-->	<Level time="140" perfectbonus="1000" perfect="75" hurry="30" need_gems="45green" hints="3" >
+				<notes> Nice job! Let's go for 45 green!</notes>
+				<gems>red,white,yellow,green,green,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--27-->	<Level time="140" perfectbonus="1000" perfect="75" hurry="30" need_gems="45blue" hints="3" >
+				<notes>Let's not forget the blue gems! Match 45 of those!</notes>
+				<gems>red,white,yellow,green,blue,blue,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--28-->	<Level time="140" perfectbonus="1000" perfect="75" hurry="30" need_gems="45magenta" hints="3" >
+				<notes>Guess what! 45 magenta gems will win the level!</notes>
+				<gems>red,white,yellow,green,blue,magenta,magenta,orange</gems>
+				<powers>pick,rainbow,random,row</powers>
+				<hazards>lock</hazards>
+			</Level>
+
+			<!-- Royal Levels -->
+<!--29-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="20red,20orange" hints="3" >
+				<intro>You'll need to match two kinds of gems for this job!</intro>
+<!--			<transition>You're doing a fabulous job sunshine! This is going to be the toughest matching yet.</transition> -->
+				<tipicon>col</tipicon>
+				<tiptext>This kind of Arrow will collect a whole column of gems! Just match it with any other gem and watch the fun.</tiptext>
+				<notes>Collect 20 orange and 20 red gems.</notes>
+				<gems>red,red,red,white,yellow,green,blue,magenta,orange,orange,orange</gems>
+				<powers>pick,rainbow,random,row,col</powers>
+				<hazards>lock</hazards>
+			</Level>
+<!--30-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="20red,20yellow" hints="3" >
+				<tipicon>cavein</tipicon>
+				<tiptext>Look out for this Rock icon. You can remove it when you use a Pick or Arrow, or when it hits the bottom row!</tiptext>
+				<notes>Look out for the rocks!</notes>
+				<gems>red,red,red,white,yellow,yellow,yellow,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--31-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="20red,20green" hints="3" >
+				<notes>Here's a challenge -- match 20 red gems AND 20 green gems!</notes>
+				<gems>red,red,red,white,yellow,green,green,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--32-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="20red,20blue" hints="3" >
+				<notes>This is fun! Now match 20 red and 20 blue gems.</notes>
+				<gems>red,red,red,white,yellow,green,blue,blue,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--33-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="20red,20magenta" hints="3" >
+				<notes>Should we match 20 red and 20 magenta gems? I say YES!</notes>
+				<gems>red,red,red,white,yellow,green,blue,magenta,magenta,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--34-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="25red,25white" hints="3" >
+				<notes>Now match 25 red and 25 white.</notes>
+				<gems>red,red,red,white,white,white,yellow,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--35-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="25white,25yellow" hints="3" >
+				<tipicon>plus</tipicon>
+				<tiptext>Keep your eye out for the Cross piece! Match it with any other gem and BOTH a line and column will be collected.</tiptext>
+				<notes>Look for a Cross Piece! Match it to see what happens.</notes>
+				<gems>red,white,white,white,yellow,yellow,yellow,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--36-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="25white,25green" hints="3" >
+				<notes>25 white gems and 25 green gems -- go get 'em, sunshine!</notes>
+				<gems>red,white,white,white,yellow,green,green,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--37-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="25white,25blue" hints="3" >
+				<notes>Now we need to match 25 white and 25 blue gems.</notes>
+				<gems>red,white,white,white,yellow,green,blue,blue,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--38-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="25white,25magenta" hints="3" >
+				<notes>Shimmering sunbeams, you're good at this!</notes>
+				<gems>red,white,white,white,yellow,green,blue,magenta,magenta,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--39-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="30white,30orange" hints="3" >
+				<notes>Ok, now you are gonna need some crazy skills!</notes>
+				<gems>red,white,white,white,yellow,green,blue,magenta,orange,orange,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--40-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="30yellow,30green" hints="3" >
+				<notes>We haven’t tried 30 yellow and 30 green gems yet!</notes>
+				<gems>red,white,yellow,yellow,yellow,green,green,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--41-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="30yellow,30blue" hints="3" >
+				<notes>Now match 30 yellow gems and 30 blue gems!</notes>
+				<gems>red,white,yellow,yellow,yellow,green,blue,blue,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--42-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="30yellow,30magenta" hints="3" >
+				<notes>Flashtastic job! Now match 30 yellow and 30 magenta!</notes>
+				<gems>red,white,yellow,yellow,yellow,green,blue,magenta,magenta,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--43-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="30yellow,30white" hints="3" >
+				<notes>Next up -- match 30 yellow and 30 white!</notes>
+				<gems>red,white,white,white,yellow,yellow,yellow,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--44-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="30green,30blue" hints="3" >
+				<notes>We need 30 green gems and 30 blue gems.</notes>
+				<gems>red,white,yellow,green,green,green,blue,blue,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--45-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="30green,30magenta" hints="3" >
+				<notes>We're getting so many gems sorted!</notes>
+				<gems>red,white,yellow,green,green,green,blue,magenta,magenta,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--46-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="30green,30white" hints="3" >
+				<notes>We're almost at the end! Match 30 green and 30 white gems!</notes>
+				<gems>red,white,white,white,yellow,green,green,green,blue,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--47-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="30magenta,30blue" hints="3" >
+				<notes>30 blue and 30 magenta to go!</notes>
+				<gems>red,white,yellow,green,blue,blue,blue,magenta,magenta,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--48-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="30blue,30orange" hints="3" >
+				<notes>Keep up the mad matching skills sunshine!</notes>
+				<gems>red,white,yellow,green,blue,blue,blue,magenta,orange,orange,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+<!--49-->	<Level time="150" perfectbonus="1000" perfect="90" hurry="30" need_gems="30magenta,30white" hints="3" >
+				<notes>Last level!</notes>
+				<gems>red,white,white,white,yellow,green,blue,magenta,magenta,magenta,orange</gems>
+				<powers>pick,rainbow,random,row,col,plus</powers>
+				<hazards>lock,cavein</hazards>
+			</Level>
+		</Levels>
+	</config>
+</panel>
+

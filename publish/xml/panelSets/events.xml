@@ -1,0 +1,15 @@
+<panelSet>
+	<panels>
+		<panel id="events" x="225" y="120" alwaysOnTop="true" transition="none">{publishPanelData}/events.xml</panel>
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>true</headercontrols>
+		<trackingid>knownissues</trackingid>
+		<sectionid>community</sectionid>
+		<pageid>knownissues</pageid>
+	</config>
+	<copy>
+		
+	</copy>
+</panelSet>

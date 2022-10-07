@@ -1,0 +1,84 @@
+<emoticonData>
+	<!-- Mapping of Emote ID and Emote Linkage Names -->
+	<emote id="12" tags="" audio="" characterType="fairy" rollover="Happy" text=":]">emote12</emote>
+	<emote id="0" tags="" audio="" characterType="fairy" rollover="Excited" text=":)">emote0</emote>
+	<emote id="5" tags="" audio="" characterType="fairy" rollover="Angry" text="&gt;:[">emote5</emote>
+	<emote id="1" tags="" audio="" characterType="fairy" rollover="Shocked" text=":O">emote1</emote>
+	<emote id="8" tags="" audio="" characterType="fairy" rollover="Confused" text="?:|">emote8</emote>
+	<emote id="10" tags="" audio="" characterType="fairy" rollover="Grossed Out" text=":-r">emote10</emote>
+	<emote id="9" tags="" audio="" characterType="fairy" rollover="Teasing" text=";p">emote9</emote>
+	<emote id="7" tags="" audio="" characterType="fairy" rollover="Embarrassed" text=": \">emote7</emote>
+	<emote id="11" tags="" audio="" characterType="fairy" rollover="Laughing" text=":D">emote11</emote>
+	<emote id="2" tags="" audio="" characterType="fairy" rollover="Scared" text=":&lt;">emote2</emote>
+	<emote id="6" tags="" audio="" characterType="fairy" rollover="Sad" text=":(">emote6</emote>
+	<emote id="4" tags="" audio="" characterType="fairy" rollover="Winking" text=";)">emote4</emote>
+	<emote id="3" tags="" audio="" characterType="fairy" rollover="Innocent" text="o:)">emote3</emote>
+	<emote id="15" tags="" audio="" characterType="fairy" rollover="Cake" text="::cake::">emote15</emote>
+	<emote id="16" tags="" audio="" characterType="any" rollover="Flowers" text="@}--">emote16</emote>
+	<emote id="14" tags="" audio="" characterType="any" rollover="Sun" text="::sun::">emote14</emote>
+	<emote id="13" tags="" audio="" characterType="any" rollover="Rain" text="::raincloud::">emote13</emote>
+	<emote id="17" tags="" audio="" characterType="any" rollover="Sleepy" text="::sleeping::">emote17</emote>
+
+
+	<emote id="18" tags="" audio="" characterType="fairy" rollover="Rock" text="::rock::">emote18</emote>
+	<emote id="19" tags="" audio="" characterType="fairy" rollover="Paper" text="::paper::">emote19</emote>
+	<emote id="20" tags="" audio="" characterType="fairy" rollover="Scissors" text="::scissors::">emote20</emote>
+	<emote id="22" tags="" audio="" characterType="fairy" rollover="Good Luck" text="::luck::">emote22</emote>
+	<emote id="24" tags="" audio="" characterType="any" rollover="Heart" text="::heart::">emote24</emote>
+	<emote id="25" tags="" audio="" characterType="any" rollover="Party" text="*~&lt;]: )">emote25</emote>
+	
+	<emote id="21" tags="" audio="" characterType="fairy" type="restricted" rollover="Autumn Acorn" text="{:  )">emote21</emote>
+	<emote id="23" tags="" audio="" characterType="any" rollover="Rainbow" text="::rainbow::">emote23</emote>
+	
+	<emote id="26" tags="" audio="" characterType="fairy" type="restricted" rollover="afk" text="::afk::">emote17</emote>	
+
+	<emote id="29" tags="" audio="" characterType="fairy" rollover="Teacup" text="::teacup::">emote29</emote> 
+	<emote id="30" tags="" audio="" characterType="fairy" rollover="Cupcake" text="::cupcake::">emote30</emote> 
+	<emote id="31" tags="" audio="" characterType="any" rollover="Popcorn" text="::popcorn::">emote31</emote> 
+
+	<emote id="27" tags="" audio="" characterType="any" rollover="Singing" text="::singing::">emote27</emote> 
+	<emote id="28" tags="" audio="" characterType="any" rollover="Clapping" text="::clapping::">emote28</emote> 
+
+	<emote id="39" tags="Emote_PartyGameRibbons" audio="" characterType="fairy" rollover="Bronze Ribbon" text="::bronze::">emote39</emote> 
+	<emote id="40" tags="Emote_PartyGameRibbons" audio="" characterType="fairy" rollover="Silver Ribbon" text="::silver::">emote40</emote> 
+	<emote id="41" tags="Emote_PartyGameRibbons" audio="" characterType="fairy" rollover="Gold Ribbon" text="::gold::">emote41</emote> 
+	<emote id="42" tags="Emote_Camp" audio="" characterType="fairy" rollover="S'more" text="::s'more::">emote42</emote> 
+	<emote id="43" tags="Emote_PumpkinCake" audio="" characterType="fairy" rollover="Pumpkin Cake" text="::pumpkincake::">emote43</emote> 
+						
+	<emote id="45" tags="Meadow_WinterWonder2012" audio="" characterType="fairy" rollover="Snowflake" text="::snowflake::">emote45</emote>
+	
+	<emote id="46" tags="Emote_Camp" audio="" characterType="fairy" rollover="Butterfly" text="::butterfly::">emote46</emote>
+ 	<emote id="47" tags="Emote_Camp" audio="" characterType="fairy" rollover="Glowworm" text="::glowworm::">emote47</emote>
+	<emote id="48" tags="Emote_Camp" audio="" characterType="fairy" rollover="Otter" text="::otter::">emote48</emote>
+	<emote id="49" tags="Emote_Camp" audio="" characterType="fairy" rollover="Rabbit" text="::rabbit::">emote49</emote>
+	<emote id="50" tags="Emote_Camp" audio="" characterType="fairy" rollover="Turtle" text="::turtle::">emote50</emote>
+	
+	<emote id="70" tags="Meadow_Sister2012" audio="" characterType="fairy" rollover="" text="">emote70</emote>
+	<emote id="71" tags="" audio="" characterType="fairy" rollover="" text="">emote71</emote>
+	<emote id="72" tags="Emote_Camp" audio="" characterType="fairy" rollover="Unicorn" text="::unicorn::">emote72</emote>	
+	
+	<!-- animal friend emotes -->
+	<emote id="32" tags="" audio="" characterType="pet" type="restricted" rollover="Happy" text="">emote32</emote>
+	<emote id="33" tags="" audio="" characterType="pet" type="restricted" rollover="Eating" text="">emote33</emote>
+	<emote id="34" tags="" audio="" characterType="pet" type="restricted" rollover="Feeling Better" text="">emote34</emote>
+	<emote id="35" tags="" audio="" characterType="pet" type="restricted" rollover="Bored" text="">emote35</emote>
+	<emote id="36" tags="" audio="" characterType="pet" type="restricted" rollover="Hungry" text="">emote36</emote>
+	<emote id="37" tags="" audio="" characterType="pet" type="restricted" rollover="Sick" text="">emote37</emote>
+	<emote id="38" tags="" audio="" characterType="pet" type="restricted" rollover="Confused" text="">emote38</emote>
+	<emote id="44" tags="" audio="" characterType="pet" type="restricted" rollover="Gifting" text="">emote44</emote>
+	
+	<!-- hotspot action emotes -->
+	<emote id="29501" tags="" audio="" characterType="fairy" type="restricted" rollover="" text="">emote29501</emote>
+	
+	<!-- Garden Emotes -->
+	<emote id="60" tags="" audio="" characterType="fairy" type="restricted" rollover="" text="">emote60</emote>
+	<emote id="61" tags="" audio="" characterType="fairy" type="restricted" rollover="" text="">emote61</emote>
+	<emote id="62" tags="" audio="" characterType="fairy" type="restricted" rollover="" text="">emote62</emote>
+	<emote id="63" tags="" audio="" characterType="fairy" type="restricted" rollover="" text="">emote63</emote>
+	<emote id="64" tags="" audio="" characterType="fairy" type="restricted" rollover="" text="">emote64</emote>
+	<!-- <emote id="65" tags="" audio="" characterType="fairy" type="restricted" rollover="" text="">emote65</emote>
+	<emote id="66" tags="" audio="" characterType="fairy" type="restricted" rollover="" text="">emote66</emote> -->
+	<emote id="67" tags="" audio="" characterType="fairy" type="restricted" rollover="" text="::Rescued a plant::">emote67</emote>
+	<emote id="68" tags="" audio="" characterType="fairy" type="restricted" rollover="" text="::Dusted a plant::">emote68</emote>
+	<emote id="69" tags="" audio="" characterType="fairy" type="restricted" rollover="" text="::Used Insta-Bloom::">emote69</emote>
+</emoticonData> 

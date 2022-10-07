@@ -1,0 +1,39 @@
+<zone>
+  <name>Rosetta's Quest Zone</name>
+  <zoneID>802</zoneID>
+  <assetURL/>
+  <audioLibrary>quest_music_rosetta</audioLibrary>
+  <layers>
+    <layer type="ground" width="888" height="509">
+      <image x="0" y="0">RQA_action01.swf</image>
+    </layer>
+    <layer type="normal" width="888" height="509">
+      <image x="0" y="0">RQA_foregound02.swf</image>
+    </layer>
+  </layers>
+  <locations>
+    <location x="443" y="250">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>quest_music_rosetta</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.1855</volumeHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  <maximumSpawnStacks/>
+  
+  
+  
+  <baseAvatarScale>0.20</baseAvatarScale>
+  
+  
+  
+  <decorations/>
+  
+</zone>

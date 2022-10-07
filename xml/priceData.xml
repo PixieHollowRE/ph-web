@@ -1,0 +1,30 @@
+<!--
+Price Data for converting items to Diamond items.
+
+NOTE :: this is bundled into MMOConfigBundle.as
+-->
+<priceData>
+	<conversionPrices>
+		<categories>
+			<category id="0" price="6"/> <!-- tops -->
+			<category id="1" price="4"/> <!-- belts -->
+			<category id="2" price="7"/> <!-- bottoms -->
+			<category id="3" price="3"/> <!-- bracelets -->
+			<category id="4" price="5"/> <!-- head -->
+			<category id="5" price="3"/> <!-- necklace -->
+			<category id="6" price="3"/> <!-- anklets -->
+			<category id="7" price="5"/> <!-- shoes -->
+			<category id="13" price="6"/> <!-- furniture -->
+			<category id="14" price="4"/> <!-- lamps -->
+			<category id="15" price="5"/> <!-- decoration -->
+		</categories>
+		<items>
+			<item id="73000" price="20"/> <!-- firefly -->
+			<item id="73001" price="22"/> <!-- ladybug -->
+			<item id="73002" price="26"/> <!-- hummingbird -->
+			<item id="73003" price="15"/> <!-- dragonfly -->
+			<item id="73004" price="17"/> <!-- bee -->
+			<item id="73006" price="45"/> <!-- butterfly -->
+		</items>
+	</conversionPrices>
+</priceData>

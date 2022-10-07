@@ -1,0 +1,20 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/hub_promoshort.swf</swf>
+		<!-- -->
+		<swf type="code">{publishPanelCode}/hub_promomodule.swf</swf>
+		
+	</swfs>
+	<copy>
+
+	</copy>
+	<config>
+		<id>createdbyyou</id>
+		<promos>
+			<promo>
+				
+				
+			</promo>
+		</promos>
+	</config>
+</panel>

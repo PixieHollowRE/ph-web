@@ -1,0 +1,46 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/chatInterface.swf</swf>
+		<swf type="code">{panelCode}/chatInterface.swf</swf>
+	</swfs>
+	<copy>
+		<scPopupTitle target="scPopup.title">What is SpeedChat Plus?</scPopupTitle>
+		<scPopupDetails target="scPopup.details">SpeedChat Plus is a filtered and moderated keyboard chat system that uses a dictionary of Pixie Hollow friendly words.  If someone types a word that is not in the dictionary, that word will not be seen by other players.</scPopupDetails>
+		<scPopupAskBtn target="scPopup.askBtn.caption">Ask for SpeedChat Plus</scPopupAskBtn>
+		<scPopupCancelBtn target="scPopup.cancelBtn.caption">Cancel</scPopupCancelBtn>
+
+		<emote1 target="broadcastBar.emoteChatParent.emoteContainer.top.emote">Emotes</emote1>
+		<emote2 target="whisperBar.emoteChatParent.emoteContainer.top.emote">Emotes</emote2>
+		<whisperTo>Whisper to: </whisperTo>
+		<chatModeTitle>Chat Mode</chatModeTitle>
+		<defaultWhisperTo>Whisper To: One Friend</defaultWhisperTo>
+		<whisperAllCopy>Whisper To: All Friends</whisperAllCopy>
+		<broadcastLabel>Public Chat</broadcastLabel>
+		<restrictBroadcast>Whisper Disabled</restrictBroadcast>
+		<whisperLabel>Whisper To One</whisperLabel>
+		<whisperAllLabel>Whisper To All</whisperAllLabel>
+		<helpLabel>Help</helpLabel>
+		<sendLabel>Send</sendLabel>
+		<emoteLabel>Emotes</emoteLabel>
+		<speedChatLabel>SpeedChat</speedChatLabel>
+		<selectFairy>Click the "Whisper" button on a player's profile to start whispering with them.</selectFairy>
+		<meadowNotification>You can't whisper with $$ right now, because you are in different meadows.</meadowNotification>
+		<avatarOfflineNotification>You can't whisper with $$ right now, because they left Pixie Hollow.</avatarOfflineNotification>
+		<playerOfflineNotification>You can't whisper with $$ right now, because they logged off.</playerOfflineNotification>
+		<pauseGameText1 target="gamePauseBar.text1">Press</pauseGameText1>
+		<pauseGameText2 target="gamePauseBar.text2">Spacebar</pauseGameText2>
+		<pauseGameText3 target="gamePauseBar.text3">to Pause the Game</pauseGameText3>
+		<muteText target="mutedBG.content.whisperText">Only whispers are allowed right now.</muteText>
+		<okay>okay</okay>
+		<speedchatUpgradeTop>You are currently set to SpeedChat.</speedchatUpgradeTop>
+		<speedchatUpgradeBottom>Click to learn more about SpeedChat Plus!</speedchatUpgradeBottom>
+		<speedchatErrorMessage>There was an error requesting SpeedChat Plus. Try again later.</speedchatErrorMessage>
+		<speedchatSuccessMessage>To complete your request for SpeedChat Plus, we have sent an email to the address you entered during registration for verification. Please follow the instructions listed in the email to complete your request.</speedchatSuccessMessage>
+		<speedchatPopupButtonLabel>OK</speedchatPopupButtonLabel>
+		<hiddenBroadcastCopy>YOU ARE NOT ALLOWED TO SEE THIS MESSAGE.</hiddenBroadcastCopy>
+	</copy>
+	<config>
+		<tutorialSpeedChatId>5660</tutorialSpeedChatId>
+		<whisperOffSpeedChatId>6043</whisperOffSpeedChatId>
+	</config>
+</panel>

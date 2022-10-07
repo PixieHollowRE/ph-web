@@ -1,0 +1,15 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/livePerson.swf</swf>
+		<!-- -->
+		<swf type="code">{publishPanelCode}/livePerson.swf</swf> 
+		
+	</swfs>
+	<copy>
+		<loginCopy><![CDATA[You need to login to use this feature. Once you are logged in please return to this page.]]></loginCopy>
+	</copy>
+	<config>
+		 <copyPos x="490" y="984"></copyPos>
+		<buttonPos x="510" y="954"></buttonPos>
+	</config>
+</panel>

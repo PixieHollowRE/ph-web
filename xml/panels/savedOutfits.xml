@@ -1,0 +1,32 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/savedOutfits.swf</swf>
+		<swf type="code">{panelCode}/savedOutfits.swf</swf>
+	</swfs>
+	<copy>
+		<title>Saved Outfits</title>
+		<copy></copy>
+		<alt_title></alt_title>
+		<alt_copy></alt_copy>
+		<ok>OK</ok>
+		<cancel>Cancel</cancel>
+		<edit>Edit</edit>
+		<print>Print</print>
+		<delete>Delete</delete>
+		<wear>Wear</wear>
+		<outfit>Outfit #X# of #Y#</outfit>
+		<next>Next</next>
+		<previous>Previous</previous>
+		<create>Create</create>
+		<upgradeMessage>Are you sure you want to purchase another outfit tab?</upgradeMessage>
+		<moreDiamondsCaption>Buy Diamonds</moreDiamondsCaption>
+		<moreDiamondsTitle>Oops!</moreDiamondsTitle>
+		<learnMoreText>Learn More</learnMoreText>
+		<deleteOutfitMsg>Are you sure you want to delete this outfit?##NEWLINE##You will not lose any of your items!</deleteOutfitMsg>
+		<deleteOutfitOkTxt>OK</deleteOutfitOkTxt>
+		<deleteOutfitCancelTxt>Cancel</deleteOutfitCancelTxt>
+		<acquiredPaidItemMsg>This saved outfit has one or more items that are for Members only. Visit your Leaf Journal to upgrade these items or delete this outfit to save a new one.</acquiredPaidItemMsg>
+		<acquiredPaidItemOK>OK</acquiredPaidItemOK>
+	</copy>
+	<config></config>
+</panel>

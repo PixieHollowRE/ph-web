@@ -1,0 +1,158 @@
+<level>
+
+<!-- This level has four fireflies closely guarded
+ by four moths, with an extra chasing moth. Without
+ a way of luring the guards, one must use the orange
+ light to lure the fireflies. -->
+
+	<light x = "95" y = "203">orange</light>
+	<light x = "95" y = "303">orange</light>	
+	<light x = "783" y = "203">orange</light>
+	<light x = "783" y = "303">yellow</light>
+
+<!-- moth #1 of 5 (top left guard) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="394" y="298" />
+			<point x="488" y="223" />
+			<point x="538" y="298" />
+			<point x="488" y="373" />
+			<point x="300" y="223" />
+			<point x="250" y="298" />
+			<point x="300" y="373" />		
+		</path>
+		<drift>0</drift>
+		<speed>6</speed>
+		<type>blindmoth</type>	
+	</firefly>
+
+<!-- moth #2 of 5 (top right guard) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="484" y="298" />
+			<point x="578" y="223" />
+			<point x="628" y="298" />
+			<point x="578" y="373" />
+			<point x="390" y="223" />
+			<point x="340" y="298" />
+			<point x="390" y="373" />		
+		</path>
+		<drift>0</drift>
+		<speed>6</speed>
+		<type>blindmoth</type>	
+	</firefly>
+
+<!-- moth #3 of 5 (bottom right guard) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="484" y="208" />
+			<point x="578" y="133" />
+			<point x="628" y="208" />
+			<point x="578" y="283" />
+			<point x="390" y="133" />
+			<point x="340" y="208" />
+			<point x="390" y="283" />	
+		</path>
+		<drift>0</drift>
+		<speed>6</speed>
+		<type>blindmoth</type>	
+	</firefly>
+
+<!-- moth #4 of 5 (bottom left guard) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="394" y="208" />
+			<point x="488" y="133" />
+			<point x="538" y="208" />
+			<point x="488" y="283" />
+			<point x="300" y="133" />
+			<point x="250" y="208" />
+			<point x="300" y="283" />
+		</path>
+		<drift>0</drift>
+		<speed>6</speed>
+		<type>blindmoth</type>	
+	</firefly>
+
+<!-- moth #5 of 5 (chaser) -->
+	<firefly image="moth">
+		<path source = "random">
+			<topLeft x="310" y="178" />
+			<bottomRight x="568" y="328"/>
+		</path>
+		<speed>7</speed>
+		<type>moth</type>
+		<attract>25</attract>
+	</firefly>
+
+<!-- firefly #1 of 4 (top) -->
+	<firefly image="firefly">
+		<path friction="0.2">	
+			<point x="439" y="278" />
+			<point x="533" y="203" />
+			<point x="583" y="278" />
+			<point x="533" y="353" />
+			<point x="345" y="203" />
+			<point x="295" y="278" />
+			<point x="345" y="353" />
+		</path>
+		<drift>0</drift>
+		<jitter>0</jitter>
+		<speed>6</speed>
+		<attract>15</attract>
+	</firefly>
+
+<!-- firefly #2 of 4 (right) -->
+	<firefly image="firefly">
+		<path friction="0.2">	
+			<point x="464" y="253" />
+			<point x="558" y="178" />
+			<point x="608" y="253" />
+			<point x="558" y="328" />
+			<point x="370" y="178" />
+			<point x="320" y="253" />
+			<point x="370" y="328" />
+		</path>
+		<drift>0</drift>
+		<jitter>0</jitter>
+		<speed>6</speed>
+		<attract>15</attract>		
+	</firefly>
+
+<!-- firefly #3 of 4 (bottom) -->
+	<firefly image="firefly">
+		<path friction="0.2">	
+			<point x="439" y="228" />
+			<point x="533" y="153" />
+			<point x="583" y="228" />
+			<point x="533" y="303" />
+			<point x="345" y="153" />
+			<point x="295" y="228" />
+			<point x="345" y="303" />
+
+		</path>
+		<drift>0</drift>
+		<jitter>0</jitter>
+		<speed>6</speed>
+		<attract>15</attract>
+	</firefly>
+
+<!-- firefly #4 of 4 (left) -->
+	<firefly image="firefly">
+		<path friction="0.2">	
+			<point x="414" y="253" />
+			<point x="508" y="178" />
+			<point x="558" y="253" />
+			<point x="508" y="328" />
+			<point x="320" y="178" />
+			<point x="270" y="253" />
+			<point x="320" y="328" />
+
+		</path>
+		<drift>0</drift>
+		<jitter>0</jitter>
+		<speed>6</speed>
+		<attract>15</attract>
+	</firefly>
+
+</level>

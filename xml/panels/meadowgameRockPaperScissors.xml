@@ -1,0 +1,197 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/mgRockPaperScissors.swf</swf>
+		<swf type="code">{panelCode}/mgRockPaperScissors.swf</swf>
+	</swfs>
+	
+	<copy>
+		<!-- lobby panel title -->
+		<title>Rock, Paper, Scissors</title>
+
+		<!-- UI: INSTRUCTIONS -->
+		<inst_screen_title target="instructions.title.heading">Instructions</inst_screen_title>
+		<instruction0 target="instructions.btnContainer.page0.label">Choose either Rock, Paper or Scissors.</instruction0>
+		<instruction1 target="instructions.btnContainer.page1.label">You are playing against Rochelle only - players can team up or go it alone to earn bonus points.</instruction1>
+		<instruction2 target="instructions.btnContainer.page2.label">You can change your choice as many times as you like before the time runs out.</instruction2>
+		<instruction3 target="instructions.btnContainer.page3.label">To win - Rock breaks Scissors, Scissors cut Paper and Paper covers Rock.</instruction3>		
+
+		<!-- abort message -->
+		<abort1>Sorry! The party host has left the game.</abort1>
+		<abort2>Sorry!  There are not enough players to continue the game.</abort2>
+		
+		<leftGame>Left Game</leftGame>
+
+		<winner>WINNER!</winner>	
+		<gameoverHeader>Game Over</gameoverHeader>
+		<gameoverBodyBelowMinimum>Sorry! A player has left the game. There are not enough players to continue the game.</gameoverBodyBelowMinimum>		
+								<!-- WANT TO LEAVE ALERT -->
+		<wantToLeaveHeader>Just Checking</wantToLeaveHeader>	
+		<wantToLeaveCopy>Are you sure you would like to leave this game? You will lose your current progress.</wantToLeaveCopy>
+		<yes>Yes</yes>
+		<no>No</no>
+		
+		<!-- game messages -->
+		<gameEmpty></gameEmpty>
+		<gameNpcHasChosen>I chose:</gameNpcHasChosen>
+		<gameChooseRPS>Choose rock, paper, or scissors! Quick!</gameChooseRPS>
+		<gameNpcHasChosen2>I chose...</gameNpcHasChosen2>
+
+		<!-- intro messages -->
+		<intro0_0>Hi everyone! I'm Rochelle!</intro0_0>
+		<intro0_1>Welcome all! My name is Rochelle!</intro0_1>
+		<intro0_2>Hiya everyone! I'm Rochelle!</intro0_2>
+		<intro0_3>Fly with you all! Rochelle here!</intro0_3>
+
+		<intro1_0>I've got a great game!</intro1_0>
+		<intro1_1>Let's play a game!</intro1_1>
+		<intro1_2>I'm here to play!</intro1_2>
+
+		<intro2_0>Are you ready to play?</intro2_0>
+		<intro2_1>Ready to play?</intro2_1>
+		<intro2_2>Are you ready?</intro2_2>
+
+		<outro0_0>Great game all!</outro0_0>
+		<outro0_1>Good job everyone!</outro0_1>
+		<outro0_2>You're all awesome!</outro0_2>
+		<outro0_3>Fantastic job!</outro0_3>
+
+		<outro1_0>Thanks for all the fun!</outro1_0>
+		<outro1_1>Let's play again soon!</outro1_1>
+		<outro1_2>That was so much fun!</outro1_2>
+
+		<outro2_0>Bye!</outro2_0>
+		<outro2_1>See you later!</outro2_1>
+		<outro2_2>Fly with you later!</outro2_2>
+		
+
+		<!-- npc chose ... -->
+		<!--
+		<choseRock_1>I chose rock!</choseRock_1>
+		<choseRock_2>I picked rock!</choseRock_2>
+
+		<chosePaper_1>I chose paper!</chosePaper_1>
+		<chosePaper_2>I picked paper!</chosePaper_2>
+		
+		<choseScissor_1>I chose scissors!</choseScissor_1>
+		<choseScissor_2>I picked scissors!</choseScissor_2>
+		-->
+
+		<choseRock_1>Rock!</choseRock_1>
+		<chosePaper_1>Paper!</chosePaper_1>
+		<choseScissor_1>Scissors!</choseScissor_1>
+
+		<!-- comment according to player choice -->
+		<!-- when the player chose rock -->
+		<npcTieRock_1>We both picked rock! It's a tie!</npcTieRock_1>
+		<npcTieRock_2>It's a tie! Two rocks!</npcTieRock_2>
+		<npcTieRock_3>We must think alike!</npcTieRock_3>
+		<npcWinPaper_1>Paper covers rock! I win.</npcWinPaper_1>
+		<npcWinPaper_2>I win this time! Paper covers rock.</npcWinPaper_2>
+		<npcWinPaper_3>Looks like I won this round.</npcWinPaper_3>
+		<npcLoseScissor_1>Rock breaks scissors! You win!</npcLoseScissor_1>
+		<npcLoseScissor_2>Your rock wins this round!</npcLoseScissor_2>
+		<npcLoseScissor_3>You chose rock! You win!</npcLoseScissor_3>
+
+		<!-- when the player chose paper -->
+		<npcLoseRock_1>Paper covers rock! You win!</npcLoseRock_1>
+		<npcLoseRock_2>Your paper wins this round!</npcLoseRock_2>
+		<npcLoseRock_3>You chose Paper! You win!</npcLoseRock_3>
+		<npcTiePaper_1>We both put out paper! It's a tie!</npcTiePaper_1>
+		<npcTiePaper_2>We must think alike! It's a tie!</npcTiePaper_2>
+		<npcTiePaper_3>Two papers!? That's a tie!</npcTiePaper_3>
+		<npcWinScissor_1>Scissors cut paper! I win!</npcWinScissor_1>
+		<npcWinScissor_2>I win! The scissors cut paper!</npcWinScissor_2>
+		<npcWinScissor_3>I win this round!</npcWinScissor_3>
+
+		<!-- when the player chose scissor -->
+		<npcWinRock_1>Rock beats scissors! I win!</npcWinRock_1>
+		<npcWinRock_2>I win! The rock beats scissors!</npcWinRock_2>
+		<npcWinRock_3>I win this round!</npcWinRock_3>
+		<npcLosePaper_1>Scissors cut paper! You win!</npcLosePaper_1>
+		<npcLosePaper_2>Your scissors win this round!</npcLosePaper_2>
+		<npcLosePaper_3>You chose scissors! You win!</npcLosePaper_3>
+		<npcTieScissor_1>Our picks match!</npcTieScissor_1>
+		<npcTieScissor_2>We both put out scissors! It's a tie!</npcTieScissor_2>
+		<npcTieScissor_3>It's a tie! We picked the same thing!</npcTieScissor_3>
+
+		<!-- player did not choose anything -->
+		<playerChoseNada_1>Be sure to pick something next time!</playerChoseNada_1>
+		<playerChoseNada_2>You ran out of time to pick this round!</playerChoseNada_2>
+		<playerChoseNada_3>Time's up! Be sure to pick something next time!</playerChoseNada_3>
+
+		<!-- final comment -->
+		<conclusionWinSingular_1>Only one player beat me that time!</conclusionWinSingular_1>
+		<conclusionWinSingular_2>One player beat me that time!</conclusionWinSingular_2>
+		<conclusionWinSingular_3>A single player beat me!</conclusionWinSingular_3>
+		<conclusionWin_1>#NUM# players beat me that time!</conclusionWin_1>
+		<conclusionWin_2>#NUM# players guessed right!</conclusionWin_2>
+		<conclusionWin_3>#NUM# players won that time!</conclusionWin_3>
+		<conclusionLose_1>Looks like I was undefeated!</conclusionLose_1>
+		<conclusionLose_2>No one beat me that time!</conclusionLose_2>
+		<conclusionLose_3>No one won that time!</conclusionLose_3>
+
+
+		<!-- old comments -->
+		<!-- comments (player won) -->
+		<won_1>Great pick!</won_1>
+		<won_2>Great job!</won_2>
+		<won_3>You picked a winner!</won_3>
+		<won_4>Awesome pick!</won_4>
+		
+		<!-- comments (player tie) -->
+		<tie_1>It's a tie!</tie_1>
+		<tie_2>We picked the same thing!</tie_2>
+		<tie_3>We tied!</tie_3>
+		
+		<!-- comments (player lost) -->
+		<lost_1>Better luck next time!</lost_1>
+		<lost_2>I won that round.</lost_2>
+		<lost_3>Looks like I won this time.</lost_3>
+		<lost_4>I won this time.</lost_4>
+		
+		<!-- lose/tie/win -->
+		<losetext>Lose</losetext>
+		<tietext>Tie!</tietext>
+		<wintext>Win!</wintext>
+
+		<!-- game end hud -->
+		<stepComplete>Step Complete!</stepComplete>
+		<continue>Continue</continue>
+	</copy>
+	<config>
+		<!-- npc dna -->
+		<npcDna>99/105/88/0/-8/20/-29/0/12/0/-1/28/100/11:72:166/512:5:-1/1011:33:-1/1501:38:-1/2015:51:-1/2513:5:-1/3001:18:-1/3513:32:166/4011:60:100/4511:100:-1/5028:74:-1/5523:74:-1/6004:112:-1</npcDna>
+		<npcScale>0.25</npcScale>
+		<!-- npc balloon -->
+		<npcBalloonX>656</npcBalloonX>
+		<npcBalloonY>75</npcBalloonY>
+		
+		<npcX>800</npcX>
+		<npcY>325</npcY>
+		
+		<controlsUI xPos="95" yPos="0" />
+		
+		<!-- delay (in seconds) -->
+		<refreshNpcThinkDelay>3</refreshNpcThinkDelay>
+		<refreshNpcAnswerDelay>5</refreshNpcAnswerDelay>
+		<refreshNpcCommentDelay1>5</refreshNpcCommentDelay1>
+		<refreshNpcCommentDelay2>5</refreshNpcCommentDelay2>
+		<refreshDelay>5</refreshDelay>
+		<endDelay>1.6</endDelay>
+
+		<!-- category: is which 'intro' -->
+		<!-- time: is which how long the corresponding 'intro' will be shown (in seconds) -->
+
+		<!-- intro related -->
+		<intro category="intro0" time="3" />
+		<intro category="intro1" time="3" />
+		<intro category="intro2" time="3" />
+		<!-- outro related -->
+		<outro category="outro0" time="3" />
+		<outro category="outro1" time="3" />
+		
+		<!-- total iterations until game end -->
+		<game iterations="3" />
+	</config>
+</panel>

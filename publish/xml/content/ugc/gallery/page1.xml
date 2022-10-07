@@ -1,0 +1,111 @@
+<page>
+	<config>
+		<taglines type="contentheader" headertype="long" configtype="grid" >
+			<bannergraphic type="image">{publishPanelImages}/tabby_signature.png</bannergraphic>
+			<tagline font="pristina">header</tagline>	
+			<tagline>tagline</tagline>
+				<tagline>tagline2</tagline>
+		</taglines>
+		<submitpanel type="grid" xOffset="50">
+			
+			<!-- ROW ONE -->
+			
+			<popup type="popup">
+				<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/2011_Sep_6/amber_vanillatwist.png</bannergraphic>
+				<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/2011_Sep_6/amber_vanillatwist.jpg</bannergraphic>
+				<bannergraphic type="imagename">name1</bannergraphic>
+			</popup>
+			
+			<popup type="popup">
+				<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/2011_Sep_6/cinnamon.png</bannergraphic>
+				<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/2011_Sep_6/cinnamon.jpg</bannergraphic>
+				<bannergraphic type="imagename">name2</bannergraphic>
+			</popup>
+			
+			<popup type="popup">
+				<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/2011_Sep_6/fern_foxthistle.png</bannergraphic>
+				<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/2011_Sep_6/fern_foxthistle.jpg</bannergraphic>
+				<bannergraphic type="imagename">name3</bannergraphic>
+			</popup>
+
+			<!-- ROW TWO -->
+
+			<popup type="popup">
+				<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/2011_Sep_6/holly.png</bannergraphic>
+				<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/2011_Sep_6/holly.jpg</bannergraphic>
+				<bannergraphic type="imagename">name4</bannergraphic>
+			</popup>
+			
+			<popup type="popup">
+				<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/2011_Sep_6/june_waterwish.png</bannergraphic>
+				<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/2011_Sep_6/june_waterwish.jpg</bannergraphic>
+				<bannergraphic type="imagename">name5</bannergraphic>
+			</popup>
+			
+			<popup type="popup">
+				<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/2011_Sep_6/karina_sweetlily.png</bannergraphic>
+				<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/2011_Sep_6/karina_sweetlily.jpg</bannergraphic>
+				<bannergraphic type="imagename">name6</bannergraphic>
+			</popup>
+
+			<!-- ROW THREE -->
+			
+			<popup type="popup">
+				<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/2011_Sep_6/lemony_glitterdew.png</bannergraphic>
+				<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/2011_Sep_6/lemony_glitterdew.jpg</bannergraphic>
+				<bannergraphic type="imagename">name7</bannergraphic>
+			</popup>
+			<popup type="popup">
+				<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/2011_Sep_6/mary_roseflip.png</bannergraphic>
+				<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/2011_Sep_6/mary_roseflip.jpg</bannergraphic>
+				<bannergraphic type="imagename">name8</bannergraphic>
+			</popup>
+		
+			<popup type="popup">
+				<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/2011_Sep_6/scarlet_hollygem.png</bannergraphic>
+				<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/2011_Sep_6/scarlet_hollygem.jpg</bannergraphic>
+				<bannergraphic type="imagename">name9</bannergraphic>
+			</popup>
+			
+			<!-- ROW FOUR -->			
+			
+			<popup type="popup">
+				<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/2011_Sep_6/sunshine.png</bannergraphic>
+				<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/2011_Sep_6/sunshine.jpg</bannergraphic>
+				<bannergraphic type="imagename">name10</bannergraphic>
+			</popup>	
+<!--			
+			<popup type="popup">
+				<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/2011_Sep_6/winnie.png</bannergraphic>
+				<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/2011_Sep_6/winnie.jpg</bannergraphic>
+				<bannergraphic type="imagename">name11</bannergraphic>
+			</popup>
+
+			<popup type="popup">
+				<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/2011_Sep_6/Valorie-Starshine.png</bannergraphic>
+				<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/2011_Sep_6/Valorie-Starshine.jpg</bannergraphic>
+				<bannergraphic type="imagename">name12</bannergraphic>
+			</popup>
+-->
+		</submitpanel>
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">Fairy Art Gallery</span>]]></header>
+		<tagline><![CDATA[<span class="newsbodytext">Hello Pixie Pals! It's always a pleasure when our talented Fairies in the Hollow express themselves creatively. I thought I'd share some of their work with you.<br><br>Fly with you!</span>]]></tagline>
+		<tagline2><![CDATA[<span class="newsbodytext"></span>]]></tagline2>
+		<name1><![CDATA[By Amber Vanillatwist]]></name1>
+		<name2><![CDATA[By Cinnamon]]></name2>
+		<name3><![CDATA[By Fern Foxthistle]]></name3>
+		<name4><![CDATA[By Holly]]></name4>
+		<name5><![CDATA[By June Waterwish]]></name5>
+		<name6><![CDATA[By Karina Sweetlily]]></name6>
+		<name7><![CDATA[By Lemony Glitterdew]]></name7>
+		<name8><![CDATA[By Mary Roseflip]]></name8>
+		<name9><![CDATA[By Scarlet Hollygem]]></name9>
+		<name10><![CDATA[By Sunshine]]></name10>
+<!--		<name11><![CDATA[By Winnie]]></name11>
+		<name12><![CDATA[By Valorie Starshine]]></name12> -->
+	</copy>
+	
+
+</page>

@@ -1,0 +1,48 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/pouch.swf</swf>
+		<swf type="code">{panelCode}/pouch.swf</swf>
+	</swfs>
+	<config>
+		<closePanels>profile</closePanels>
+	</config>
+	<copy>
+		<loading target="title.label">My Pouch</loading>
+		<defaultText></defaultText>
+		<tab0tooltip>Ingredients</tab0tooltip>
+		<tab1tooltip>Dye Bottles</tab1tooltip>
+		<tab2tooltip>Party Decorations</tab2tooltip>
+		<tab3tooltip>Party Games</tab3tooltip>
+		<tab4tooltip>Sweets</tab4tooltip> <!-- formerly Cookies and Cupcakes -->
+		<tab5tooltip>Silly Sweets</tab5tooltip>
+		<tab6tooltip>Seeds</tab6tooltip>
+		<tab7tooltip>Diamonds</tab7tooltip>
+		<btnEat>Eat!</btnEat>
+		<btnPlant>Plant!</btnPlant>
+		<btnPlace>Play!</btnPlace>
+		<btnFeedPet>Feed Animal Friend!</btnFeedPet>
+		<cupcakesForWildernessOnly>You can only eat cupcakes while adventuring in the Wilderness!</cupcakesForWildernessOnly>
+		<dropgameforHomeOrGarden>Oops!  You can only play Party Games while you are in your Home or Garden.</dropgameforHomeOrGarden>
+		<dropgameHasPlaceholder>Oops!  Please set the current game before adding a new one.</dropgameHasPlaceholder>
+		<dropgameTooManyTables>Oops!  You have the maximum amount of games allowed at one time.</dropgameTooManyTables>
+		<dropgameHasActiveMeadowGame>Oops!  You are already joining a game, please quit out of that game before adding a new one.</dropgameHasActiveMeadowGame>
+		<plantingRequiresGarden>You need to be in your garden to plant Surprise Seeds.</plantingRequiresGarden>
+		<plantingRequiresSelectedPlot>Click on an empty Planting Patch to use Surprise Seeds.</plantingRequiresSelectedPlot>
+		<yourDiamonds>Your Pixie Diamonds</yourDiamonds>
+		<simplePlural>s</simplePlural>
+		<hasBalance>has a balance of:</hasBalance>
+		<amount>#BALANCE# Pixie Diamond</amount>
+		<buy target="tabs.conent7.buyButton.caption">Buy Diamonds</buy>
+		<learnMore><![CDATA[<u>Learn More</u>]]></learnMore>
+		<ok>Ok</ok>
+
+		<seedTab0>1 Day</seedTab0>
+		<seedTab1>3 Day</seedTab1>
+		<seedTab2>5 Day</seedTab2>
+		<seedTab3>Special</seedTab3>
+
+		<seedPurchaseHeader>Aw Jingles!</seedPurchaseHeader>
+		<seedPurchaseInstructions>You don't have any seeds. Would you like to visit Garden Supply to get seeds?</seedPurchaseInstructions>
+		<goToGardenBtnLabel>Visit Brook's</goToGardenBtnLabel>
+	</copy>
+</panel>

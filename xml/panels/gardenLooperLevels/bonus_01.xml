@@ -1,0 +1,16 @@
+<level>
+	<objectiveTitle>Hi sweet pea!</objectiveTitle>
+	<objective>My, you're just busting with pixie power!  Let's see you loop all the petals you can!</objective>
+
+	<rosettaStartMessage>Hurry and loop as many petals as you can!</rosettaStartMessage>
+	<bees>0</bees>
+	<multiplierChance>0</multiplierChance>
+	<randomPetalConfig>0-14,0-14</randomPetalConfig>
+	<!--
+	<petals rose="5" lily="5" sun="5"/>
+	<targets/>
+	-->
+	<powerups/>
+	<timeLimit>15</timeLimit>
+	<isBonusLevel>true</isBonusLevel>
+</level>

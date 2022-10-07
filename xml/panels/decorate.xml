@@ -1,0 +1,73 @@
+<panel>
+
+	<swfs>
+		<swf type="content">{panelContent}/decoratePanel.swf</swf>
+		<swf type="code">{panelCode}/decoratePanel.swf</swf>
+	</swfs>
+	<copy>
+		<interact target="interactPanel.caption">Controls</interact>
+		<furnitureTab>Furniture</furnitureTab>
+		<decorTab>Decorations</decorTab>
+		<lampTab>Lamps</lampTab>
+		<createdByTag>Created By:</createdByTag>
+		<createdByTagSpecial>Special item from:</createdByTagSpecial>
+		<placeTooltip>Place Item</placeTooltip>
+		<removeTooltip>Put Item Away</removeTooltip>
+		<loadString>Fetching your items from storage...</loadString>
+		<placeString>Moving item out of storage...</placeString>
+		<removeString>Moving item back into storage...</removeString>
+		<closeString>Putting away storage...</closeString>
+		<showString>Show</showString>
+		<hideString>Hide</hideString>
+		<flipTip>Flip Item</flipTip>
+		<printTip>Print Room</printTip>
+		<gardenPrintTip>Print Garden</gardenPrintTip>
+		<nearTip>Near</nearTip>
+		<farTip>Far</farTip>
+		<forwardTip>Move Forward</forwardTip>
+		<backwardTip>Move Backward</backwardTip>
+		<inFront>Already in front</inFront>
+		<inBack>Already in back</inBack>
+		
+		<returnTip>Put Item Away</returnTip>
+		<scaleTip>Drag to Scale</scaleTip>
+		<exitTooltip>Stop Decorating</exitTooltip>
+		<expandOutTip>Expand</expandOutTip>
+		<expandInTip>Shrink</expandInTip>
+		<storageTip>View Toggler</storageTip>
+		<realmTimeout>We're sorry, but the server is busy right now.</realmTimeout>
+		<realmTimeoutOk>Okay</realmTimeoutOk>
+		<tooManyItems>Your room's full of items. You'll have to remove some items before you place new ones in.</tooManyItems>
+		<gardenTooManyItems>Your garden's full of items. You'll have to remove some items before you place new ones in.</gardenTooManyItems>
+		<alreadyIn>This item has already been placed.</alreadyIn>
+		<tooManyItemsConfirm>Okay</tooManyItemsConfirm>
+		<nowPrinting>Printing Room...</nowPrinting>
+		<acquired>Oldest to Newest</acquired>
+		<reverseAcquired>Newest to Oldest</reverseAcquired>
+		<itemType>Diamond Items</itemType>
+		<color>Color</color>
+		<alphabet>Alphabetical</alphabet>
+		<sortCopy>Sort By:</sortCopy>
+		<removeAllToolTip>Put Away All Items</removeAllToolTip>
+		<removeAllCopyHome>Are you sure you would like to return all of your furniture from your Home back to your storage?</removeAllCopyHome>
+		<removeAllCopyGarden>Are you sure you would like to return all of your furniture from your Garden back to your storage?</removeAllCopyGarden>
+		<okay>Yes</okay>
+		<cancel>No</cancel>
+		<convert target="maxiStorage.maxiDesc.convertHolder.convert.caption">Upgrade</convert>
+		<convertFee>Upgrade this for #COST# Pixie Diamonds.</convertFee>
+		<inGardenTooltip>Item in Garden</inGardenTooltip>
+		<inHomeTooltip>Item in Home</inHomeTooltip>
+	</copy>
+	<config>
+		<homeRealmTimeout>10000</homeRealmTimeout>
+		<removeButtonMaxY>270</removeButtonMaxY>
+		<removeButtonMaxX>0</removeButtonMaxX>
+		<removeButtonMinY>0</removeButtonMinY>
+		<removeButtonMinX>0</removeButtonMinX>
+		
+		<placeRemoveButtonMinY>-2</placeRemoveButtonMinY>
+		<placeRemoveButtonMinX>-60</placeRemoveButtonMinX>
+		<placeRemoveButtonMaxY>0</placeRemoveButtonMaxY>
+		<placeRemoveButtonMaxX>0</placeRemoveButtonMaxX>
+	</config>
+</panel>

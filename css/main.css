@@ -1,0 +1,46 @@
+* {
+border:0;
+padding:0;
+margin:0;
+}
+
+
+object { outline:none; }
+/* EMS */
+/* Begin Live Emergency Msg */
+#emsg {
+  width:auto;
+  height:auto;
+  font-family:verdana,arial;
+  background-color:green;
+  color:#ffe769;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align:center;
+  display: none;
+  visibility: hidden;
+}
+
+#footer {
+	padding-top: 50px;
+}
+
+.emsg_inner {
+  padding-left:5px;
+  padding-right:5px;
+}
+.emsgB {
+  font-weight:bold;
+}
+/* End Live Emergency Msg */
+#chrome {
+background:url(../images/background.jpg);
+}
+
+.normalbg {
+background:url(../images/background.jpg);
+}
+
+.longbg {
+background:url(../images/background_long.jpg);
+}

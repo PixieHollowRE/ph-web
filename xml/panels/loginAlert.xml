@@ -1,0 +1,12 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/loginAlert.swf</swf>
+		<swf type="code">{panelCode}/loginAlert.swf</swf>
+	</swfs>
+	<copy>
+		<go target="go.caption">Go Now!</go>
+	</copy>
+	<config>
+		<dataUrl>xml/login-alert/loginAlertInfo.xml</dataUrl>
+	</config>
+</panel>

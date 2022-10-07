@@ -1,0 +1,81 @@
+﻿<data>
+	<copy>
+		<item13070>Crazy Cakes</item13070>
+		<desc13070>Be the first player to get rid of all your cards by matching the colors or numbers.</desc13070>
+		<item951015>Crazy Cakes</item951015>
+		<desc951015>Crazy 8's (2-4 players)</desc951015>
+		
+		<!-- chat copy -->
+		<title><![CDATA[Chat]]></title>
+		<initText13070><![CDATA[<font color="#FFFFFF">Welcome to the Crazy Cakes chat log!</font><br><br><font color="#9ce86a">Click on a name in the chat log to whisper to that player.</font><br><br>]]></initText13070>
+		
+		<item13072>Two For Tea</item13072>
+		<desc13072>Find the pairs and get the most points!</desc13072>
+		
+		
+		
+		<initText13072><![CDATA[<font color="#FFFFFF">Welcome to the Two For Tea chat log!</font><br><br><font color="#9ce86a">Click on a name in the chat log to whisper to that player.</font><br><br>]]></initText13072>
+		
+		<item13073>Animal Derby</item13073>
+		<desc13073>Race friendly animals by helping them avoid obstacles and using Power-Ups!</desc13073>
+		<initText13073><![CDATA[<font color="#FFFFFF">Welcome to the Animal Derby Racing chat log!</font><br><br><font color="#9ce86a">Click on a name in the chat log to whisper to that player.</font><br><br>]]></initText13073>
+		
+		<!-- 
+		<item30001>Crazy Cakes</item30001>
+		<desc30001>Be the first player to get rid of all your cards by matching the colors or numbers.</desc30001>
+		-->
+		
+		<item13017>Crazy Cakes</item13017>
+		<desc13017>Be the first player to get rid of all your cards by matching the colors or numbers. For 2-4 players</desc13017>
+		
+		<item13018>Two For Tea</item13018>
+		<desc13018>Test your memory by finding matching pairs. For 2 players</desc13018>
+		
+		<item13016>Rock, Paper, Scissors</item13016>
+		<desc13016>Classic fun with a Fairy twist. For 2-12 players</desc13016>
+		
+		<item13013>Simone Says</item13013>
+		<desc13013>Do what Simone does, but only if she says Simone Says! For 2-12 players</desc13013>
+		
+		<item13012>Pass the Popcorn</item13012>
+		<desc13012>Things are heating up, don't be the last one holding the popcorn! For 3-12 players</desc13012>
+		
+		<collisionAlert>Oops! You can't place Party Games here.</collisionAlert>
+		<placementModeAlert>Oops! Please place your other party game first.</placementModeAlert>
+		
+		
+		
+		
+	</copy>
+	<config>
+		<minPlayers13070>2</minPlayers13070>
+		<gameAssetsId13070>MGCrazyEight</gameAssetsId13070>
+		<helpTargetId13070>tearoom</helpTargetId13070>
+		
+		<gameAssetsId951015>MGCrazyEight</gameAssetsId951015>
+
+		<minPlayers13072>2</minPlayers13072>
+		<gameAssetsId13072>MGMatchGame</gameAssetsId13072>
+		<helpTargetId13072>tearoom</helpTargetId13072>
+		
+		<gameAssetsId13073>MGDerbyCartRacing</gameAssetsId13073>
+		<helpTargetId13073>mgDerbyCartRacing</helpTargetId13073>
+		
+		<helpTargetId13017>partyGames</helpTargetId13017>
+		<helpTargetId13018>partyGames</helpTargetId13018>
+		<helpTargetId13016>partyGames</helpTargetId13016>
+		<helpTargetId13013>partyGames</helpTargetId13013>
+		<helpTargetId13012>partyGames</helpTargetId13012>
+		
+		<gameconfig13017 dhsId="35001" />		
+		<!-- <gameconfig30001 dhsId="35001" /> -->
+		<gameconfig13018 dhsId="35002" />
+		<gameconfig13016 dhsId="35003" />
+		<gameconfig13013 dhsId="35004" />
+		<gameconfig13012 dhsId="35005" />
+
+		<!-- comma separated list of meadow game id's that we should pause meadow music for -->
+		<pauseMeadowMusicForGames>13013,13016,13012</pauseMeadowMusicForGames>
+		
+	</config>
+</data>

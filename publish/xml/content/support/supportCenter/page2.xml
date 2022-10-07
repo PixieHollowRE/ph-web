@@ -1,0 +1,98 @@
+<page>
+	<config>
+		<tagline>
+			<tag align="center" font="pristina" yOffset="20">header</tag>
+		</tagline>
+<!--
+		<faqs>
+			<header icon_id="4">body1</header>
+			<techsupport>body2</techsupport>
+		</faqs>
+		<livechat>
+			<header icon_id="4">body3</header>
+			<techsupport>body4</techsupport>
+		</livechat>
+		<knownissues>
+			<header icon_id="7">body5</header>
+			<techsupport>body6</techsupport>
+		</knownissues>
+		<parentalcontrols>
+			<header icon_id="5">body7</header>
+			<techsupport>body8</techsupport>
+		</parentalcontrols>
+-->
+		<accountmanagements>
+			<header icon_id="1">body11</header>
+			<accountmanagement>body12</accountmanagement>
+		</accountmanagements>
+		<createaccount>
+			<header icon_id="1">body19</header>
+			<createaccountcopy>body20</createaccountcopy>
+		</createaccount>
+		<reportbadbehavior>
+			<header icon_id="1">body9</header>
+			<accountmanagement>body10</accountmanagement>
+		</reportbadbehavior>
+			<gameandchatpolicies>
+			<header icon_id="6">body13</header>
+			<techsupport>body14</techsupport>
+		</gameandchatpolicies>
+		<gamehelps>
+			<header icon_id="2">body15</header>
+			<gamehelp>body16</gamehelp>
+		</gamehelps>
+		<newcoats>
+			<header icon_id="3">body17</header>
+			<newcoat>body18</newcoat>
+		</newcoats>
+				
+		<!--
+		<techsupports type="multicolumn" valign="center">
+			<techsupport width="150"><![CDATA[<img src="http://a.disney.go.com/pirates/online/v3/global/images/news/news_items/newsletter13/icon_mylo.jpg" width="150" height="80" align="Left" hspace="15">]]></techsupport>
+			<techsupport><![CDATA[<span class="newsbodytext"><a href="http://apps.pirates.go.com/pirates/v3/#/community/contests.html" target='_blank'><u>Technical Support</u></a><br><br>Information and assistance with technical problems.</span>]]></techsupport>
+		</techsupports>
+		<accountmanagements type="multicolumn" valign="center">
+			<techsupport width="150"><![CDATA[<img src="http://a.disney.go.com/pirates/online/v3/global/images/news/news_items/newsletter13/icon_mylo.jpg" width="150" height="80" align="Left" hspace="15">]]></techsupport>
+			<accountmanagement><![CDATA[<span class="newsbodytext"><a href="http://apps.pirates.go.com/pirates/v3/#/community/contests.html" target='_blank'><u>Account Management</u></a><br><br>Manage chat permissions and product subscriptions.</span>]]></accountmanagement>
+		</accountmanagements>
+		<accountsupports type="multicolumn" valign="center">
+			<techsupport width="150"><![CDATA[<img src="http://a.disney.go.com/pirates/online/v3/global/images/news/news_items/newsletter13/icon_mylo.jpg" width="150" height="80" align="Left" hspace="15">]]></techsupport>
+			<accountsupport><![CDATA[<span class="newsbodytext"><a href="http://apps.pirates.go.com/pirates/v3/#/community/contests.html" target='_blank'><u>Account Support</u></a><br><br>Information and assistance with account issues.</span>]]></accountsupport>
+		</accountsupports>
+		<gamehelps type="multicolumn" valign="center">
+			<techsupport width="150"><![CDATA[<img src="http://a.disney.go.com/pirates/online/v3/global/images/news/news_items/newsletter13/icon_mylo.jpg" width="150" height="80" align="Left" hspace="15">]]></techsupport>
+			<gamehelp><![CDATA[<span class="newsbodytext"><a href="http://apps.pirates.go.com/pirates/v3/#/community/contests.html" target='_blank'><u>Game Help/Player Support</u></a><br><br>Hints and tips for playing Pixie Hollow.</span>]]></gamehelp>
+		</gamehelps>
+		<newcoats type="multicolumn" valign="center">
+			<techsupport width="150"><![CDATA[<img src="http://a.disney.go.com/pirates/online/v3/global/images/news/news_items/newsletter13/icon_mylo.jpg" width="150" height="80" align="Left" hspace="15">]]></techsupport>
+			<newcoat><![CDATA[<span class="newsbodytext"><a href="http://apps.pirates.go.com/pirates/v3/#/community/contests.html" target='_blank'><u>Contact Us</u></a><br><br>Contact us with questions, to report any bugs you find, or for general assistance.</span>]]></newcoat>
+		</newcoats>
+		-->
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">Page 2 - Help</span>]]></header>
+		<body1><![CDATA[<a href="faqs.xml">World FAQs - Frequently Asked Questions about the world of<br>Pixie Hollow</a>]]></body1>
+		<body2><![CDATA[<span class="newsbodytext">This is where you can find answers to your fellow Fairies' most Frequently Asked Questions. It's a good idea to visit this page before you send us your question.</span>]]></body2>
+		<membershipfaq_header><![CDATA[<a href="membershipfaqs.xml">Membership FAQs - Frequently Asked Questions about Membership</a>]]></membershipfaq_header>
+		<membershipfaq_content><![CDATA[Look here for answers about becoming a Member in Pixie Hollow.]]></membershipfaq_content>
+		<body3><![CDATA[<a href="liveSupport.xml">Live Chat</a>]]></body3>
+		<body4><![CDATA[<span class="newsbodytext">Didn't see your question in the FAQs? Then it's time to log in to <a href="liveSupport.xml">Live Chat</a> and get that answer!</span>]]></body4>
+		<body5><![CDATA[<a href="http://blog.pixiehollow.go.com/blog/issues/">Known Issues</a>]]></body5>
+		<body6><![CDATA[<span class="newsbodytext">If you think you have found a problem with the world of Pixie Hollow, please check this list of release notes/known issues before reporting a bug or sending an email.</span>]]></body6>
+		<body7><![CDATA[<a href="parentalcontrols.xml">Parental Controls</a>]]></body7>
+		<body8><![CDATA[<span class="newsbodytext">Pixie Hollow has a variety of account settings to keep your child safe, including various chat options.  Find out how to use them here.</span>]]></body8>
+		<body9><![CDATA[<a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl&formId=misbehavior">Report Bad Behavior</a>]]></body9>
+		<body10><![CDATA[<span class="newsbodytext">Now and then a Fairy might try to disturb others.  Report any non-Fairy-friendly behavior in the game here.</span>]]></body10>
+		<body11><![CDATA[<a href="http://disney.go.com/fairies/pixiehollow/accountmanagement_pv.html">Account Management</a>]]></body11>
+		<body12><![CDATA[<span class="newsbodytext">Manage chat permissions and account settings.</span>]]></body12>
+		<body13><![CDATA[<a href="gamepolicies.xml">Game and Chat Policies</a>]]></body13>
+		<body14><![CDATA[<span class="newsbodytext">Review the Pixie Hollow Code of Conduct and the various chat options available in Pixie Hollow.</span>]]></body14>
+		<body15><![CDATA[<a href="http://a.disney.go.com/fairies/pixiehollow/pdfs/gameguides.pdf"><u>Game Guides</u></a>]]></body15>
+		<body16><![CDATA[<span class="newsbodytext">Download hints and tips for playing Pixie Hollow.</span>]]></body16>
+		<body17><![CDATA[<a href="contactus.xml">Contact Us</a>]]></body17>
+		<body18><![CDATA[<span class="newsbodytext">If you think you've found a problem with the world of Pixie Hollow, please check our <a href="http://blog.pixiehollow.go.com/blog/issues/">Known Issues</a> before reporting your problem.  Another Fairy may have already reported that same problem, which means our team is already working on fixing it! <br><br>If you have a question, you can try our <a href="faqs.xml">FAQs</a> page for the answer. If you do not find information on the problem you are having you can <a href="help/reportabug.html">Report a Problem</a> using our online form or call 877-78-PIXIE.</span>]]></body18>
+		<body19><![CDATA[<a href="http://disney.go.com/fairies/pixiehollow/accountmanagement_pv.html">Create Account</a>]]></body19>
+		<body20><![CDATA[<span class="newsbodytext">Create a new Disney.com account here to start playing Pixie Hollow.</span>]]></body20>
+		
+	</copy>
+</page>

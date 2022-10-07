@@ -1,0 +1,78 @@
+<panel>
+	<swfs>
+
+		<swf type="content">{publishPanelContent}/distributionindex.swf</swf>
+		<swf type="code">{publishPanelCode}/distributionsplash.swf</swf>
+
+	</swfs>
+	<copy>
+		<menutitle>Pixie Hollow Online World</menutitle>
+		<newseventstitle><![CDATA[News & Events]]></newseventstitle>
+		<newseventsbtn><![CDATA[News Blog]]></newseventsbtn>
+		<membershiptitle><![CDATA[Membership]]></membershiptitle>
+		<membershipbtn><![CDATA[Become a Member]]></membershipbtn>
+		<menu1><![CDATA[Membership]]></menu1>
+		<menu2><![CDATA[About Pixie Hollow]]></menu2>
+		<menu3><![CDATA[Parents]]></menu3>
+		<menu4><![CDATA[Help]]></menu4>
+		<logout><![CDATA[Log Out]]></logout>
+	</copy>
+	<config>
+		<links>
+			<startButton><![CDATA[https://disney.go.com/fairies/pixiehollow/registration/nochrome.html]]></startButton>
+			<leftButton><![CDATA[communityhome.html]]></leftButton>
+			<rightButton>membershiphub.html</rightButton>
+			<menu1>membershiphub.html</menu1>
+			<menu2>aboutgame.html</menu2>
+			<menu3>parentscenter.html</menu3>
+			<menu4>supportcenter.html</menu4>
+		</links>
+		<backgrounds>
+
+			
+			<image name="become_a_fairy" imgPath="{publishPanelImages}/distribution/become_fairy.jpg"/>
+			<image name="animal_friend" imgPath="{publishPanelImages}/distribution/animal_friend.jpg"/>
+			<image name="tinkering" imgPath="{publishPanelImages}/distribution/tinkering.jpg"/>
+
+			
+		</backgrounds>
+		<tracking>
+			<default tag="ph">
+				<page trackingId="74" name="startbutton" />
+				<page trackingId="75" name="become_a_fairy" />
+				
+				<page trackingId="88" name="animal_friend"/>
+				<page trackingId="89" name="tinkering"/>
+				<page trackingId="90" name="nature_days"/>
+				
+				<page trackingId="76" name="tailor_fashions"/>
+				<page trackingId="77" name="dress_in_style"/>
+				<page trackingId="78" name="celebrate_with_friends"/>
+				<page trackingId="79" name="clover_celebration"/>
+				<page trackingId="80" name="baking"/>
+				<page trackingId="81" name="hair_salon"/>
+
+			</default>
+			<PpPHPixCst tag="cs"> //Candystand
+				<page trackingId="58" name="become_a_fairy" />
+				<page trackingId="62" name="clover_celebration"/>
+				<page trackingId="63" name="baking"/>
+				<page trackingId="64" name="hair_salon"/>
+				<page trackingId="72" name="startbutton" />
+				<page trackingId="85" name="animal_friend"/>
+				<page trackingId="86" name="tinkering"/>
+				<page trackingId="87" name="nature_days"/>
+			</PpPHPixCst >
+			<PpPHPixMnc tag="mc"> //Miniclip
+				<page trackingId="65" name="become_a_fairy" />
+				<page trackingId="69" name="clover_celebration"/>
+				<page trackingId="70" name="baking"/>
+				<page trackingId="71" name="hair_salon"/>
+				<page trackingId="73" name="startbutton" />
+				<page trackingId="82" name="animal_friend"/>
+				<page trackingId="83" name="tinkering"/>
+				<page trackingId="84" name="nature_days"/>
+			</PpPHPixMnc >
+		</tracking>
+	</config>
+</panel>

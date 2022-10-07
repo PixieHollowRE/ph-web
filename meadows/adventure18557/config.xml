@@ -1,0 +1,123 @@
+<zone>
+  <name>Charming the Wilderness</name>
+  <zoneID>18557</zoneID>
+  <assetURL/>
+  <audioLibrary>wildernessForest</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="1519" height="600">
+        <image x="0" y="0" type="none">../wildernessAssets/forest_background.swf</image>
+      </layer>
+      <layer type="ground" width="2828" height="1842">
+        <image x="0" y="0" type="none">../wildernessAssets/empty.swf</image>
+      </layer>
+      <layer type="normal" width="2828" height="1842">
+        <image x="0" y="0" type="none">../wildernessAssets/forest1_foreground.swf</image>
+      </layer>
+    </layers>
+    <validArea>
+      <vertex x="419" y="156"/>
+      <vertex x="585.25" y="328"/>
+      <vertex x="824.5" y="252"/>
+      <vertex x="1068.4" y="311.5"/>
+      <vertex x="1405.35" y="169"/>
+      <vertex x="1835.65" y="251"/>
+      <vertex x="2151" y="252"/>
+      <vertex x="2334.5" y="281.25"/>
+      <vertex x="2657" y="499.5"/>
+      <vertex x="2569.5" y="768.75"/>
+      <vertex x="2581.15" y="938.5"/>
+      <vertex x="2652.85" y="1052.3"/>
+      <vertex x="2730.7" y="1275.15"/>
+      <vertex x="2672.25" y="1444.25"/>
+      <vertex x="2697.85" y="1627.4"/>
+      <vertex x="2300.85" y="1707.65"/>
+      <vertex x="2062.35" y="1647.55"/>
+      <vertex x="1551.8" y="1577.45"/>
+      <vertex x="1285.6" y="1598.3"/>
+      <vertex x="1158.4" y="1478.95"/>
+      <vertex x="954.7" y="1484.55"/>
+      <vertex x="943.75" y="1595.9"/>
+      <vertex x="852.85" y="1611.35"/>
+      <vertex x="712.1" y="1497.75"/>
+      <vertex x="590.25" y="1669.55"/>
+      <vertex x="437.8" y="1707.35"/>
+      <vertex x="263.55" y="1675.25"/>
+      <vertex x="184.95" y="1473.2"/>
+      <vertex x="203.65" y="1226.15"/>
+      <vertex x="403.35" y="1097.55"/>
+      <vertex x="532.45" y="1152.7"/>
+      <vertex x="605.6" y="1247.9"/>
+      <vertex x="679.7" y="1219.1"/>
+      <vertex x="743.85" y="1254.35"/>
+      <vertex x="856.35" y="1163.55"/>
+      <vertex x="1024.9" y="1145.75"/>
+      <vertex x="1233" y="1155.2"/>
+      <vertex x="1427.75" y="1074.45"/>
+      <vertex x="1598.55" y="1173.75"/>
+      <vertex x="1777.85" y="1250.3"/>
+      <vertex x="1922.9" y="1165.85"/>
+      <vertex x="2002.4" y="1244.65"/>
+      <vertex x="2125.95" y="1231.45"/>
+      <vertex x="2187.1" y="1095.6"/>
+      <vertex x="2144.55" y="923.05"/>
+      <vertex x="2089.4" y="780.95"/>
+      <vertex x="2206.25" y="639.85"/>
+      <vertex x="2113" y="590"/>
+      <vertex x="1884.3" y="674.85"/>
+      <vertex x="1866.6" y="545.75"/>
+      <vertex x="1683.25" y="541.5"/>
+      <vertex x="1491.85" y="722.25"/>
+      <vertex x="1268.5" y="646"/>
+      <vertex x="841.85" y="683.25"/>
+      <vertex x="719" y="580"/>
+      <vertex x="595.85" y="719.6"/>
+      <vertex x="524.3" y="791.4"/>
+      <vertex x="390.75" y="795.25"/>
+      <vertex x="234.1" y="710.85"/>
+      <vertex x="230.5" y="566.5"/>
+      <vertex x="140.85" y="505.85"/>
+      <vertex x="229.25" y="288.25"/>
+    </validArea>
+  </clientLayout>
+  <locations>
+    <location x="1682" y="408">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>wilderness_music_forest</id>
+      <loops>0</loops>
+      <volumeLow>0.1</volumeLow>
+      <volumeHigh>0.1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm>
+      <id>wilderness_ambient_forest</id>
+      <loops>0</loops>
+      <volumeLow>1.2</volumeLow>
+      <volumeHigh>1.2</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  <barriers>
+    <barrier itemId="19503" x="946" y="159"/>
+    <barrier itemId="19507" x="2067" y="680" index="1"/>
+    <barrier itemId="19502" x="1669" y="967" index="2"/>
+    <barrier itemId="19502" x="625" y="959" index="3"/>
+    <barrier itemId="19503" x="679" y="174"/>
+  </barriers>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

@@ -1,0 +1,21 @@
+<panelSet>
+	<panels>
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{publishPanelData}/leftSideStatic.xml</panel>
+		<panel id="camppixiedust" x="120" y="-38" alwaysOnTop="true">{publishPanelData}/wallpapers.xml</panel>
+	</panels>
+	<config>
+		<logolink>true</logolink>
+		<menu>
+			<config nav="true" title="false"/>
+		</menu>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>wallpapers</trackingid>
+		<sectionid>community</sectionid>
+		<pageid>wallpapers</pageid>
+	</config>
+	<copy>
+		<menutitle>Wallpapers</menutitle>
+	</copy>
+
+</panelSet>

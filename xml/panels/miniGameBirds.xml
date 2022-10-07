@@ -1,0 +1,4257 @@
+<?xml version="1.0"?>
+<panel>
+    <swfs>
+        <swf type="content">
+            {panelContent}/birds.swf
+        </swf>
+        <swf type="code">
+            {panelCode}/birds.swf
+        </swf>
+    </swfs>
+    <copy>
+        <!-- hud -->
+        <title>
+            First Flight
+        </title>
+        <level>
+            Level
+        </level>
+
+		<hudTitleWelcome>First Flight</hudTitleWelcome>
+		<hudSubTitleWelcome>Get Ready</hudSubTitleWelcome>
+		
+        
+        <left_scorecard_title>
+            Attempts
+        </left_scorecard_title>
+        <left_scorecard_title_one>
+        	Attempt
+        </left_scorecard_title_one>
+        <right_scorecard_title>
+            Score:
+        </right_scorecard_title>
+        <right_accent_title>
+            Birds Landed:
+        </right_accent_title>
+        <right_accent_title_bonus_level>
+            Fruits Collected 
+        </right_accent_title_bonus_level>
+        <bonus_level_title_min>
+        	Bonus Level
+        </bonus_level_title_min>
+        <level_tip_title>
+           Did You Know? 
+        </level_tip_title>
+        <hostname>
+            Minister of Summer
+        </hostname>
+        <great>
+        	Done
+        </great>
+        <chooseDiff>
+            Choose difficulty
+        </chooseDiff>
+        
+        <!-- UI: TITLE SCREEN -->
+        <title_screen target="title.title_container.title_text">
+            Silvermist's Snowflakes
+        </title_screen>
+        <title_play target="title.btnContainer.play_text">
+            Play
+        </title_play>
+        <title_help target="title.btnContainer.help_text">
+            How To Play
+        </title_help>
+        <title_quit target="title.btnContainer.quit_text">
+            Quit
+        </title_quit>
+        
+        <!-- UI: WELCOME -->
+        <welcome_title>
+            Welcome!
+        </welcome_title>
+        <welcome_text>
+            Hello I am the Minister of Summer. Can you help me teach the baby birds to fly? Click and HOLD to make them flap and they will follow you. Try to collect all of the hanging fruit and get the bird from the nest to the platform.
+        </welcome_text>
+        <welcome_play>
+            Continue
+        </welcome_play>
+        
+        <!-- UI: GAME OVER -->
+        <!-- titles -->
+        <game_over_win>
+            You Win!
+        </game_over_win>
+        <game_over_lose>
+            Nice Try!
+        </game_over_lose>
+        <!-- buttons -->
+        <game_over_continue>
+            Done
+        </game_over_continue>
+        <!-- comments (win) -->        
+        <game_over_win_0>
+            Oh, I'm so excited! You taught all these little birds to fly! Do come back and help again soon!
+        </game_over_win_0>
+        <game_over_win_1>
+            Such a good job, my dear! You turned these little birds into flying masters! Thank you, and come back again!
+        </game_over_win_1>
+        <game_over_win_2>
+            You're such a good flight instructor! Thank you, and I'd love your help again anytime!
+        </game_over_win_2>
+        <game_over_win_3>
+            Look at all those happy birds flapping around! And there will always be more who need to learn, so come back soon!
+        </game_over_win_3>
+        <game_over_win_4>
+            You did a flaptastic job! Please come back soon to help again. You're a first rate flight instructor!
+        </game_over_win_4>
+        <!-- comments (lose) -->
+        <game_over_lose_0>
+            Oh no! We ran out of birds to teach! Well, you can always try again. Thank you for helping me!
+        </game_over_lose_0>
+        <game_over_lose_1>
+            Well, you gave it a good try. Don't worry, next time we'll teach them all to fly!
+        </game_over_lose_1>
+        <game_over_lose_moth_0>
+            Oh dear, we ran out of birds to teach. But you can come back any time and help me again!
+        </game_over_lose_moth_0>
+        
+        <game_restart_title>Nice Try!</game_restart_title>
+        
+        <game_restart_explanation>
+            Oh no! Try again, you have another chance!
+        </game_restart_explanation>
+        <game_restart_last_attempt>
+            Holy cow! Now it is our last chance!!!
+        </game_restart_last_attempt>
+        <game_restart_continue>
+            Continue
+        </game_restart_continue>
+        
+        <!-- UI: LEVEL COMPLETE -->
+        <level_complete>
+            Level {level} Complete!
+        </level_complete>
+        <level_complete_bonus>
+            Bonus Level Complete!
+        </level_complete_bonus>
+        <bonus_level_title>
+            Bonus Level
+        </bonus_level_title>
+        <perfect_level>
+            PERFECT! You got an extra attempt!
+        </perfect_level>
+        <time_bonus>
+            Time bonus :
+        </time_bonus>
+        <fruits_bonus>
+            Bonus Fruit :
+        </fruits_bonus>
+        <birds_bonus>
+            Birds Points :
+        </birds_bonus>
+        <millet_bonus>
+            Bonus Points :
+        </millet_bonus>
+        <perfect_combo>
+            Perfect Bonus :
+        </perfect_combo>
+        <your_score>
+            Your Score :
+        </your_score>
+        <score_total>
+            Total Score :
+        </score_total>
+        <your_last_score>Your Last Score :</your_last_score>
+        <wrong_platform>
+            Wrong Platform!
+        </wrong_platform>
+        
+        <!-- AVATAR ALERT -->
+        <clock_alert_0>
+            Watch the clock! Go faster!
+        </clock_alert_0>
+        <clock_alert_1>
+            Be careful! Don't run out of time!
+        </clock_alert_1>
+        
+        
+        <!-- New life -->
+        <life_0>
+            Good job! You won another chance!
+        </life_0>
+        <life_1>
+            Nice! You get an extra chance!
+        </life_1>
+        
+        <!-- Loose a life -->
+        <loose_a_life_title>
+            Try Again
+        </loose_a_life_title>
+        <loose_a_life_0>
+            Time is up, I'm afraid. Please try again!
+        </loose_a_life_0>
+        
+        <!-- UI: INSTRUCTIONS -->
+        <inst_screen_title target="instructions.instructionsContainer.instruction_text">
+            How To Play
+        </inst_screen_title>        
+        <instruction0 target="instructions.btnContainer.page0.text_container.label">
+            Press and HOLD the mouse button down to get a bird to flap its wings. If you stop pressing, the bird will float down.
+        </instruction0>
+        <instruction1 target="instructions.btnContainer.page1.text_container.label">
+           When landing a bird, be sure that the color of the bird and the color of the platform match. That's how you get the most points!
+        </instruction1>
+        <instruction2 target="instructions.btnContainer.page2.text_container.label">
+            Collect the hanging fruit to get a bonus!
+        </instruction2>
+        
+        <inst_play target="instructions.btnContainer.playBtn.play_text">
+            Play!
+        </inst_play>
+        <inst_back target="instructions.btnContainer.backBtn.back_text">
+            Back
+        </inst_back>
+        <inst_cont target="instructions.btnContainer.continueBtn.continue_text">
+            Continue
+        </inst_cont>
+        <inst_quit target="instructions.btnContainer.quitBtn.quit_text">
+            Quit
+        </inst_quit>
+        
+        
+        <!-- Emotes -->
+        <good_platform_0>A perfect landing!</good_platform_0>
+        <good_platform_1>You did it!</good_platform_1>
+        <good_platform_3>An excellent flight lesson! Next!</good_platform_3>
+        <good_platform_3>That's correct! Good for you!</good_platform_3>
+        <good_platform_3>Oh, you did that so well!</good_platform_3>
+        
+        <wrong_platform_0>Oops! Wrong platform!</wrong_platform_0>
+        <wrong_platform_1>Check the color of that platform!</wrong_platform_1>
+        <wrong_platform_2>I think you're on the wrong platform.</wrong_platform_2>
+        <wrong_platform_3>Oh dear, that's the wrong color platform.</wrong_platform_3>
+        <wrong_platform_4>Are you sure that's the correct platform?</wrong_platform_4>
+        
+        <hit_by_leaf_0>Don't let your bird fall!</hit_by_leaf_0>
+        <hit_by_leaf_1>Keep flapping to save your bird!</hit_by_leaf_1>
+        <hit_by_leaf_2>Keep flapping and guide your bird back up!</hit_by_leaf_2>
+		
+		<hit_by_wasp_0>Oh, those pesky wasps!</hit_by_wasp_0>
+		<hit_by_wasp_1>Don't let your bird touch the wasps!</hit_by_wasp_1>
+		<hit_by_wasp_2>Ouch! Keep flapping. Try to save your bird.</hit_by_wasp_2>
+		
+		<collect_bonus_fruit_0>Very good, very good!</collect_bonus_fruit_0>
+		<collect_bonus_fruit_1>Ooo, that one looked tasty!</collect_bonus_fruit_1>
+		<collect_bonus_fruit_2>Good aim!</collect_bonus_fruit_2>
+		<collect_bonus_fruit_3>Nicely done!</collect_bonus_fruit_3>
+		<collect_bonus_fruit_4>That's one, get another!</collect_bonus_fruit_4>
+		
+		<loose_bird_0>Your bird is all right, don't worry.</loose_bird_0>
+		<loose_bird_1>It's okay, your bird will try again.</loose_bird_1>
+		<loose_bird_2>Don't worry, your bird is fine. Not all students learn easily!</loose_bird_2>
+		<loose_bird_3>Oh dear, your bird wasn't ready. He'll come back later.</loose_bird_3>
+		<loose_bird_4>Oh, that little bird will have to try again later.</loose_bird_4>
+        
+        <x2_bonus_0>Double points! Hooray for you!</x2_bonus_0>
+        <x2_bonus_1>Nice catch, little bird!</x2_bonus_1>
+        <x2_bonus_2>I knew you could get that one!</x2_bonus_2>
+        
+        <leaf_disappear_0>Good, that will help you!</leaf_disappear_0>
+        <leaf_disappear_1>Yes, you need that!</leaf_disappear_1>
+        <leaf_disappear_2>Get as many of those as you can!</leaf_disappear_2>
+        
+        <wasp_disappear_0>Good catch!</wasp_disappear_0>
+        <wasp_disappear_1>Yes, get those whenever you can!</wasp_disappear_1>
+        <wasp_disappear_2>Yes, keep your eye out for more of those!</wasp_disappear_2>
+        
+        <collect_fruit_bonus_level_0>Flap faster, you can do it!</collect_fruit_bonus_level_0>
+        <collect_fruit_bonus_level_1>Get them all, don't miss any!</collect_fruit_bonus_level_1>
+        <collect_fruit_bonus_level_2>Come on, gobble gobble gobble!</collect_fruit_bonus_level_2>
+        <collect_fruit_bonus_level_3>The more you get, the bigger your bonus!</collect_fruit_bonus_level_3>
+        <collect_fruit_bonus_level_4>Choose your path carefully to get all the fruit!</collect_fruit_bonus_level_4>
+        <collect_fruit_bonus_level_5>Try to get all the fruit!</collect_fruit_bonus_level_5>
+        <collect_fruit_bonus_level_6>Get the fruit for bonus points -- and a good snack!</collect_fruit_bonus_level_6>
+        
+        <general_encouragement_0>Show them your best flying techniques!</general_encouragement_0>
+        <general_encouragement_1>The birdies trust you, so don't let them down!</general_encouragement_1>
+        <general_encouragement_2>You flap very well, my dear!</general_encouragement_2>
+        <general_encouragement_3>You have good teaching techniques!</general_encouragement_3>
+        <general_encouragement_4>Look how eager your bird is to learn!</general_encouragement_4>
+        <general_encouragement_5>Do your best! The baby birds depend on you!</general_encouragement_5>
+        <general_encouragement_6>You're doing a marvelous job!</general_encouragement_6>
+        <general_encouragement_7>Look, the birds like you!</general_encouragement_7>
+        <general_encouragement_8>I'm so pleased at how well you're doing!</general_encouragement_8>
+        <general_encouragement_9>Teaching is a tough job, and you're doing it so well!</general_encouragement_9> 
+        
+        
+        <!-- Story -->
+        <easy_story>
+            Baby birds need to learn how to fly. We must help them!
+        </easy_story>
+        <medium_story>
+            These baby birds need to master the art of flapping. I'm so glad you're here to help!
+        </medium_story>
+        <hard_story>
+            These baby birds need more flying practice. Flapping is one thing, but real flying is another. Let's show them how!
+        </hard_story>
+        <royal_story>
+            The baby birds are getting better, but now we need to help them become expert fliers!
+        </royal_story>
+        
+        <easy_exitstory>
+            A wonderful job, my dear! Thank you!
+        </easy_exitstory>
+        <medium_exitstory>
+            Oh, look at all the happy baby birds! You get the credit for that!
+        </medium_exitstory>
+        <hard_exitstory>
+           You have impressive teaching skills! The baby birds are flying beautifully!
+        </hard_exitstory>
+        <royal_exitstory>
+            Look, you helped them all land safely on their platforms!  I salute you, my dear!
+        </royal_exitstory>
+        
+        <allmedium_story>
+            A good start, but we need to keep teaching. Birds must learn to avoid stray branches and leaves.
+        </allmedium_story>
+        <allhard_story>
+            You're a wonderful teacher! But now the birds must learn the finer points of flying. Let's get to it!
+        </allhard_story>
+        <allroyal_story>
+            More and more baby birds need our help to fly. Let's focus on teaching them to land safely on the platforms!
+        </allroyal_story>
+        
+        
+		<!-- UI: TUTORIAL -->
+		<tutorial_next>NEXT</tutorial_next>
+		<tutorial_skip>Skip This</tutorial_skip>		
+
+		<tutorial_replay>How To Play</tutorial_replay>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		<tutorial_hudtitle>How to play</tutorial_hudtitle>
+		
+        <tutorial_replay>
+            How To Play
+        </tutorial_replay>
+        <tutorial_finalscore_title>
+            How To Play Complete!
+        </tutorial_finalscore_title>
+        <tutorial_finalscore_label>
+            Now, let's teach these birds to fly!
+        </tutorial_finalscore_label>
+        <tutorial_title_goal>
+            Goal
+        </tutorial_title_goal>
+        <win_tutorial_secondText>
+            Complete!
+        </win_tutorial_secondText>
+		
+		<tutorial_stepIntro>Welcome to Flapaway Point! I'm going to show you how to teach baby birds to fly.</tutorial_stepIntro>
+
+		<tutorial_step1>First things first. You need to get the birds to flap their wings.</tutorial_step1>
+		<tutorial_step1_bis>Watch me. I'll show you.</tutorial_step1_bis>
+        <tutorial_step2>The baby bird will always follow you.</tutorial_step2>
+        <tutorial_step3>If you stop flapping, the bird will stop flapping too.</tutorial_step3>
+        <tutorial_step4>We want the birds to land safely on the platform.</tutorial_step4>
+        <tutorial_step5>Some platforms have different colored banners, so be sure that the bird and platform colors match. That's how you get the most points!</tutorial_step5>
+        <tutorial_step6>Try to get the bird to eat the fruit we've tied to the trees. If they eat enough, you'll get a surprise!</tutorial_step6>
+        <tutorial_step7>This shows how many pieces of fruit the birds need to eat for you to get a bonus!</tutorial_step7>
+        <tutorial_step7bis>Here is your score. And this shows how many birds must land safely for you to finish.</tutorial_step7bis>
+        <tutorial_step8>This shows how many attempts you have left. If you don't keep flapping, you'll lose one. Remember, I'll be over here if you need me!</tutorial_step8>
+		<tutorial_step9>That's all there is to it! Now, get those baby birds flapping!</tutorial_step9>
+		<tutorial_step10>Great job! Now you're ready to help the baby birds!</tutorial_step10>
+		
+		<bubble_step1>HOLD down the mouse button.</bubble_step1>
+		<bubble_step2>Don't forget to hold down the LEFT mouse button.</bubble_step2>
+		<bubble_step3>Well done!</bubble_step3>
+		<bubble_step4>Watch me. I'll show you.</bubble_step4>
+		<bubble_step5>Nicely done!</bubble_step5>
+		<bubble_step6>Now you try it!</bubble_step6>
+		
+        <!-- LEVEL TIPS --> 
+        <level_tip_1>
+            Help the blue bird land on the blue platform.  
+        </level_tip_1>
+        <level_tip_2>
+            Don't forget to have the birds eat all the fruit you can find!
+        </level_tip_2>
+        <level_tip_3>
+            Guide your bird over the falling "x2" power-up to double the number of points you get for landing it safely.
+        </level_tip_3>
+        <level_tip_4>
+           Watch out for leaves. If a bird flies into a leaf, they will fall a little bit. Just keep flapping and don't give up!
+        </level_tip_4>
+        <level_tip_5>
+            Guide your bird over the falling "leaf" power-up, and you'll clear all the leaves off the screen at once!
+        </level_tip_5>
+        <level_tip_6>
+            Now you have two different colored birds to teach! Be sure to land each one on its matching color platform!
+        </level_tip_6>
+        <level_tip_10>
+            There are more berries than you think! Collect them and more will appear. Try to get them all!
+        </level_tip_10>
+        <level_tip_11>
+            Here come pesky wasps who will get in the way. Don't let the birds fly into them!
+        </level_tip_11>
+        <level_tip_14>
+            Guide your bird over the falling "wasp" power-up and you'll clear all the wasps off the screen at one time!
+        </level_tip_14>
+        <level_tip_19>
+            You'd better dodge these trees. Try flying the birds into the hole and watch where they pop out. Be alert!
+        </level_tip_19>
+        <level_tip_24>
+            Land all your birds safely on their platforms and you'll win the game! Come on, I know you can do it!
+        </level_tip_24>
+        
+        <level_tip_generic>
+            Get ready for level {level}!
+        </level_tip_generic>
+        
+        <!-- HOST LEVEL -->
+        <host_level_1_0>
+            How about we start with one bird at a time?
+        </host_level_1_0>
+        <host_level_1_1>
+            Let's start out with some easy flapping and get a feel for it.
+        </host_level_1_1>
+        <host_level_1_2>
+           	I think we should take it slow at first, all right?
+        </host_level_1_2>
+        <host_level_2_0>
+           	Keep those birds flying!
+        </host_level_2_0>
+        <host_level_2_1>
+           	Flap those wings, little birdie!
+        </host_level_2_1>
+        <host_level_3_0>
+            Keep your eyes alert and your wings flapping!
+        </host_level_3_0>
+        <host_level_3_1>
+           	Watch for just the right color platform!
+        </host_level_3_1>
+        <host_level_4_0>
+          	You can't fly through branches, you must go around them!
+        </host_level_4_0>
+        <host_level_4_1>
+           Watch out for the branches!
+        </host_level_4_1>
+        <host_level_5_0>
+            Get all the fruit! Birds get hungry flapping like this!
+        </host_level_5_0>
+        <host_level_5_1>
+            You can do it! Keep flapping!
+        </host_level_5_1>
+        <host_level_6_0>
+            Look at those baby birds -- they're really flying!
+        </host_level_6_0>
+        <host_level_6_1>
+            Don't let your birds fall down into the leaves!
+        </host_level_6_1>
+        <host_level_7_0>
+            Remember, you'll get a bonus when you collect enough fruit!
+        </host_level_7_0>
+        <host_level_7_1>
+           Keep going, keep going!
+        </host_level_7_1>
+        <host_level_8_0>
+           You're really good at this! Keep it up!
+        </host_level_8_0>
+        <host_level_8_1>
+           That was a good one!
+        </host_level_8_1>
+        <host_level_9_0>
+           Oh, the mother birds are going to be so proud!
+        </host_level_9_0>
+        <host_level_9_1>
+            You're very good at this. I'm impressed!
+        </host_level_9_1>
+        <host_level_10_0>
+            Isn't it fun to help baby birds fly?
+        </host_level_10_0>
+        <host_level_10_1>
+           Be careful! Look out for leaves!
+        </host_level_10_1>
+        <host_level_11_0>
+           Flap those wings, little birdie!
+        </host_level_11_0>
+        <host_level_11_1>
+           Get ready to flap, baby bird!
+        </host_level_11_1>
+        <host_level_12_0>
+            My, look at all those little birds go!
+        </host_level_12_0>
+        <host_level_12_1>
+            Teaching baby birds to fly is so important!
+        </host_level_12_1>
+        <host_level_13_0>
+           The birds are really catching on here... thanks to you!
+        </host_level_13_0>
+        <host_level_13_1>
+            Keep those wings flapping!
+        </host_level_13_1>
+        <host_level_14_0>
+            Guide all your birds to the right colored platforms!
+        </host_level_14_0>
+        <host_level_14_1>
+           Flight lessons are such a joy to watch!
+        </host_level_14_1>
+        <host_level_15_0>
+           I think the birds are getting the hang of it!
+        </host_level_15_0>
+        <host_level_15_1>
+            Great score!
+        </host_level_15_1>
+        <host_level_16_0>
+            Oh joy, you got a bonus!
+        </host_level_16_0>
+        <host_level_16_1>
+           Your teaching technique is superb!
+        </host_level_16_1>
+        <host_level_17_0>
+           I think the baby birds like you!
+        </host_level_17_0>
+        <host_level_17_1>
+            Keep flapping!
+        </host_level_17_1>
+        <host_level_18_0>
+           There's nothing cuter than a baby bird!
+        </host_level_18_0>
+        <host_level_18_1>
+            Yes! You did it!
+        </host_level_18_1>
+        <host_level_19_0>
+            That was excellent!
+        </host_level_19_0>
+        <host_level_19_1>
+            Guide all your birds to right platforms!
+        </host_level_19_1>
+        <host_level_20_0>
+            Look how good these birds can fly now!
+        </host_level_20_0>
+        <host_level_20_1>
+            You must get all your birds to the proper platforms!
+        </host_level_20_1>
+        <host_level_21_0>
+            Guide your bird carefully!
+        </host_level_21_0>
+        <host_level_21_1>
+            This is fun, isn't it?
+        </host_level_21_1>
+        <host_level_22_0>
+            Your wings can't be tired yet, keep flapping!
+        </host_level_22_0>
+        <host_level_22_1>
+            Can you get your birds to their platforms faster? 
+        </host_level_22_1>
+        <host_level_23_0>
+            Get those birds flying as fast as you can!
+        </host_level_23_0>
+        <host_level_24_0>
+            Look out for obstacles!
+        </host_level_24_0>
+        
+        <!--<bonus_level_title>Special Bonus Level ! ! !</bonus_level_title>-->
+        <bonus_level_1>
+            Congratulations! You won a bonus level for collecting fruit! Try to get as much of the fruit as possible before the timer runs out.
+        </bonus_level_1>
+        <bonus_level_2>
+            Excellent! You won a bonus level for collecting fruit! Try to get as much of the fruit as possible before the timer runs out.
+        </bonus_level_2>
+		<bonus_level_3>
+            Congratulations! You won a bonus level for collecting fruit! Try to get as much of the fruit as possible before the timer runs out.
+        </bonus_level_3>
+        <bonus_level_4>
+            Excellent! You won a bonus level for collecting fruit! Try to get as much of the fruit as possible before the timer runs out.
+        </bonus_level_4>
+		<bonus_level_5>
+            Congratulations! You won a bonus level for collecting fruit! Try to get as much of the fruit as possible before the timer runs out.
+        </bonus_level_5>
+        <bonus_level_6>
+            Excellent! You won a bonus level for collecting fruit! Try to get as much of the fruit as possible before the timer runs out.
+        </bonus_level_6>
+        
+    </copy>
+    
+    <config>
+        
+        <difficultyChoices layout="5small">
+            
+            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+            
+            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+            
+            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"/>
+            
+            <difficultyChoice descriptor="master" displayName="Royal" paidOnly="false"/>
+            
+            <difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"/>
+            
+        </difficultyChoices>
+        
+        <supportsTutorial>
+            true
+        </supportsTutorial>
+        
+        <!-- required palette param -->
+        <colorPalette>
+            4
+        </colorPalette>
+        
+        <!-- sound params 0.2-->
+        <music_volume>
+            0
+        </music_volume>
+        
+        <attempts>
+            3
+        </attempts>
+        <!-- Number of lives -->
+        
+        <score>
+            <points_by_bird>
+                200
+            </points_by_bird>
+            
+            <!--Point for each fruit bonus or falling bonus-->
+            <points_by_bonus>
+                50
+            </points_by_bonus>
+            
+            <!-- points by fruit in level Bonus -->
+            <points_special_bonus>
+                100
+            </points_special_bonus>
+            
+            <!-- point for perfect level-->
+            <perfect_level>
+                1000
+            </perfect_level>
+        </score>
+        
+        <birds>
+            <clazz type="blue">
+                gl_birds1
+            </clazz>
+            <clazz type="red">
+                gl_birds2
+            </clazz>
+            <clazz type="yellow">
+                gl_birds3
+            </clazz>
+        </birds>
+        
+        <nests>
+            <clazz type="blue">
+                c_plateforme_bleu
+            </clazz>
+            <clazz type="red">
+                c_plateforme_rouge
+            </clazz>
+            <clazz type="yellow">
+                c_plateforme_jaune
+            </clazz>
+            <area_class>
+                gl_nestZone
+            </area_class>
+        </nests>
+        
+        <berries>
+            <berry_class>
+                c_feuilleAnim
+            </berry_class>
+        </berries>
+        
+        <recovery_time>
+            <branch time="200"/>
+            <leaf time="2000"/>
+            <wasp time="2500"/>
+            <border time="1000"/>
+            <nest time="500"/>
+        </recovery_time>
+		
+        <bonus_levels>
+            <bonus_level id="1" bonus_class="Bonus_fruit_01" requiredBonus="5" time="31">
+                <bonus posX="438" posY="320"/>
+                <bonus posX="473" posY="320"/>
+                <bonus posX="403" posY="284"/>
+                <bonus posX="438" posY="284"/>
+                <bonus posX="473" posY="284"/>
+                <bonus posX="507" posY="284"/>
+                <bonus posX="403" posY="320"/>
+                <bonus posX="438" posY="354"/>
+                <bonus posX="368" posY="284"/>
+                <bonus posX="403" posY="249"/>
+                <bonus posX="438" posY="249"/>
+                <bonus posX="473" posY="249"/>
+                <bonus posX="507" posY="249"/>
+                <bonus posX="368" posY="249"/>
+                <bonus posX="542" posY="249"/>
+                <bonus posX="332" posY="249"/>
+                <bonus posX="403" posY="215"/>
+                <bonus posX="438" posY="215"/>
+                <bonus posX="473" posY="215"/>
+                <bonus posX="507" posY="215"/>
+                <bonus posX="368" posY="215"/>
+                <bonus posX="542" posY="215"/>
+                <bonus posX="332" posY="215"/>
+                <bonus posX="297" posY="215"/>
+                <bonus posX="577" posY="215"/>
+                <bonus posX="403" posY="179"/>
+                <bonus posX="438" posY="179"/>
+                <bonus posX="473" posY="179"/>
+                <bonus posX="507" posY="179"/>
+                <bonus posX="368" posY="179"/>
+                <bonus posX="542" posY="179"/>
+                <bonus posX="332" posY="179"/>
+                <bonus posX="297" posY="179"/>
+                <bonus posX="577" posY="179"/>
+                <bonus posX="403" posY="144"/>
+                <bonus posX="473" posY="144"/>
+                <bonus posX="507" posY="144"/>
+                <bonus posX="368" posY="144"/>
+                <bonus posX="542" posY="144"/>
+                <bonus posX="332" posY="144"/>
+                <bonus posX="297" posY="144"/>
+                <bonus posX="577" posY="144"/>
+                <bonus posX="507" posY="109"/>
+                <bonus posX="368" posY="109"/>
+                <bonus posX="542" posY="109"/>
+                <bonus posX="332" posY="109"/>
+                <bonus posX="438" posY="387"/>
+                <bonus posX="472" posY="354"/>
+                <bonus posX="403" posY="354"/>
+                <bonus posX="542" posY="285"/>
+                <bonus posX="577" posY="249"/>
+                <bonus posX="508" posY="320"/>
+                <bonus posX="611" posY="215"/>
+                <bonus posX="611" posY="179"/>
+                <bonus posX="366" posY="320"/>
+                <bonus posX="331" posY="284"/>
+                <bonus posX="295" posY="249"/>
+                <bonus posX="263" posY="215"/>
+                <bonus posX="262" posY="179"/>
+                <bonus posX="263" posY="144"/>
+                <bonus posX="298" posY="109"/>
+                <bonus posX="611" posY="144"/>
+                <bonus posX="577" posY="109"/>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            58
+                        </x>
+                        <y>
+                            269
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch10
+                        </clazz>
+                        <x>
+                            -3
+                        </x>
+                        <y>
+                            349
+                        </y>
+                    </branche>
+				</branches>
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2
+                        </speed>
+                    </bird>
+                </birds>				
+            </bonus_level>
+            <bonus_level id="2" bonus_class="Bonus_fruit_01" requiredBonus="8" time="31">
+                <bonus posX="228" posY="258"/>
+                <bonus posX="262" posY="258"/>
+                <bonus posX="332" posY="292"/>
+                <bonus posX="332" posY="258"/>
+                <bonus posX="332" posY="222"/>
+                <bonus posX="369" posY="292"/>
+                <bonus posX="369" posY="258"/>
+                <bonus posX="369" posY="222"/>
+                <bonus posX="403" posY="363"/>
+                <bonus posX="403" posY="327"/>
+                <bonus posX="403" posY="292"/>
+                <bonus posX="403" posY="258"/>
+                <bonus posX="403" posY="222"/>
+                <bonus posX="403" posY="153"/>
+                <bonus posX="403" posY="187"/>
+                <bonus posX="475" posY="363"/>
+                <bonus posX="475" posY="327"/>
+                <bonus posX="475" posY="292"/>
+                <bonus posX="475" posY="258"/>
+                <bonus posX="475" posY="222"/>
+                <bonus posX="475" posY="153"/>
+                <bonus posX="475" posY="187"/>
+                <bonus posX="509" posY="292"/>
+                <bonus posX="509" posY="258"/>
+                <bonus posX="509" posY="222"/>
+                <bonus posX="543" posY="292"/>
+                <bonus posX="543" posY="258"/>
+                <bonus posX="543" posY="222"/>
+                <bonus posX="613" posY="258"/>
+                <bonus posX="647" posY="258"/>
+                <bonus posX="439" posY="363"/>
+                <bonus posX="439" posY="327"/>
+                <bonus posX="439" posY="397"/>
+                <bonus posX="439" posY="292"/>
+                <bonus posX="439" posY="258"/>
+                <bonus posX="439" posY="222"/>
+                <bonus posX="439" posY="153"/>
+                <bonus posX="439" posY="83"/>
+                <bonus posX="439" posY="187"/>
+                <bonus posX="439" posY="432"/>
+                <bonus posX="404" posY="397"/>
+                <bonus posX="474" posY="397"/>
+                <bonus posX="577" posY="292"/>
+                <bonus posX="577" posY="258"/>
+                <bonus posX="577" posY="222"/>
+                <bonus posX="297" posY="292"/>
+                <bonus posX="297" posY="258"/>
+                <bonus posX="297" posY="222"/>
+                <bonus posX="403" posY="117"/>
+                <bonus posX="475" posY="117"/>
+                <bonus posX="439" posY="117"/>
+                <bonus posX="367" posY="327"/>
+                <bonus posX="509" posY="327"/>
+                <bonus posX="369" posY="188"/>
+                <bonus posX="509" posY="188"/>
+                 <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            58
+                        </x>
+                        <y>
+                            269
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch10
+                        </clazz>
+                        <x>
+                            -3
+                        </x>
+                        <y>
+                            349
+                        </y>
+                    </branche>
+				</branches>
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2
+                        </speed>
+                    </bird>
+                </birds>
+            </bonus_level>
+            <bonus_level id="3" bonus_class="Bonus_fruit_01" requiredBonus="10" time="31">
+				<bonus posX="353" posY="170"/>
+				<bonus posX="353" posY="205"/>
+				<bonus posX="353" posY="240"/>
+				<bonus posX="353" posY="275"/>
+				<bonus posX="353" posY="310"/>
+				<bonus posX="353" posY="346"/>
+				<bonus posX="389" posY="135"/>
+				<bonus posX="389" posY="379"/>
+				<bonus posX="423" posY="415"/>
+				<bonus posX="458" posY="415"/>
+				<bonus posX="492" posY="415"/>
+				<bonus posX="458" posY="101"/>
+				<bonus posX="492" posY="101"/>
+				<bonus posX="423" posY="101"/>
+				<bonus posX="527" posY="101"/>
+				<bonus posX="562" posY="135"/>
+				<bonus posX="527" posY="415"/>
+				<bonus posX="562" posY="379"/>
+				<bonus posX="389" posY="170"/>
+				<bonus posX="389" posY="205"/>
+				<bonus posX="389" posY="240"/>
+				<bonus posX="389" posY="275"/>
+				<bonus posX="389" posY="310"/>
+				<bonus posX="389" posY="346"/>
+				<bonus posX="423" posY="135"/>
+				<bonus posX="423" posY="379"/>
+				<bonus posX="423" posY="170"/>
+				<bonus posX="423" posY="205"/>
+				<bonus posX="423" posY="240"/>
+				<bonus posX="423" posY="275"/>
+				<bonus posX="423" posY="310"/>
+				<bonus posX="423" posY="346"/>
+				<bonus posX="458" posY="135"/>
+				<bonus posX="458" posY="170"/>
+				<bonus posX="492" posY="135"/>
+				<bonus posX="458" posY="379"/>
+				<bonus posX="458" posY="346"/>
+				<bonus posX="492" posY="379"/>
+				<bonus posX="527" posY="135"/>
+				<bonus posX="527" posY="379"/>
+				<bonus posX="318" posY="205"/>
+				<bonus posX="318" posY="240"/>
+				<bonus posX="318" posY="275"/>
+				<bonus posX="318" posY="310"/>
+				<bonus posX="353" posY="135"/>
+				<bonus posX="353" posY="379"/>
+                 <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            58
+                        </x>
+                        <y>
+                            269
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch10
+                        </clazz>
+                        <x>
+                            -3
+                        </x>
+                        <y>
+                            349
+                        </y>
+                    </branche>
+				</branches>
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2
+                        </speed>
+                    </bird>
+                </birds>
+            </bonus_level>
+             <bonus_level id="4" bonus_class="Bonus_fruit_01" requiredBonus="15" time="31">
+                 <bonus posX="436" posY="91"/>
+                <bonus posX="399" posY="99"/>
+                <bonus posX="472" posY="99"/>
+                <bonus posX="368" posY="127"/>
+                <bonus posX="400" posY="133"/>
+                <bonus posX="436" posY="124"/>
+                <bonus posX="472" posY="133"/>
+                <bonus posX="503" posY="127"/>
+                <bonus posX="361" posY="166"/>
+                <bonus posX="400" posY="164"/>
+                <bonus posX="436" posY="155"/>
+                <bonus posX="472" posY="164"/>
+				<bonus posX="511" posY="166"/>
+                <bonus posX="371" posY="205"/>
+                <bonus posX="400" posY="195"/>
+                <bonus posX="436" posY="186"/>
+                <bonus posX="472" posY="195"/>
+                <bonus posX="503" posY="205"/>
+                <bonus posX="400" posY="232"/>
+                <bonus posX="436" posY="219"/>
+                <bonus posX="472" posY="232"/>
+                <bonus posX="436" posY="250"/>
+                <bonus posX="329" posY="233"/>
+                <bonus posX="546" posY="233"/>
+                <bonus posX="296" posY="243"/>
+                <bonus posX="363" posY="243"/>
+                <bonus posX="510" posY="243"/>
+                <bonus posX="579" posY="243"/>
+                <bonus posX="263" posY="266"/>
+                <bonus posX="296" posY="274"/>
+                <bonus posX="329" posY="266"/>
+                <bonus posX="363" posY="274"/>
+                <bonus posX="393" posY="266"/>
+                <bonus posX="479" posY="266"/>
+                <bonus posX="510" posY="274"/>
+                <bonus posX="546" posY="266"/>
+                <bonus posX="579" posY="274"/>
+                <bonus posX="609" posY="266"/>
+                <bonus posX="255" posY="305"/>
+                <bonus posX="295" posY="305"/>
+                <bonus posX="329" posY="301"/>
+                <bonus posX="364" posY="307"/>
+                <bonus posX="393" posY="305"/>
+                <bonus posX="418" posY="287"/>
+                <bonus posX="451" posY="287"/>
+                <bonus posX="478" posY="305"/>
+                <bonus posX="510" posY="305"/>
+                <bonus posX="546" posY="302"/>
+                <bonus posX="578" posY="305"/>
+                <bonus posX="621" posY="303"/>
+                <bonus posX="263" posY="346"/>
+                <bonus posX="295" posY="338"/>
+                <bonus posX="329" posY="340"/>
+                <bonus posX="363" posY="336"/>
+                <bonus posX="393" posY="346"/>
+				<bonus posX="418" posY="327"/>
+				<bonus posX="453" posY="327"/>
+				<bonus posX="478" posY="346"/>
+				<bonus posX="510" posY="336"/>
+				<bonus posX="546" posY="337"/>
+				<bonus posX="579" posY="336"/>
+				<bonus posX="609" posY="342"/>
+				<bonus posX="295" posY="373"/>
+				<bonus posX="363" posY="373"/>
+				<bonus posX="329" posY="382"/>
+				<bonus posX="510" posY="373"/>
+				<bonus posX="579" posY="373"/>
+				<bonus posX="546" posY="382"/>
+				<bonus posX="436" posY="359"/>
+				<bonus posX="431" posY="395"/>
+				<bonus posX="417" posY="425"/>
+				<bonus posX="384" posY="434"/>				
+                 <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            58
+                        </x>
+                        <y>
+                            269
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch10
+                        </clazz>
+                        <x>
+                            -3
+                        </x>
+                        <y>
+                            349
+                        </y>
+                    </branche>
+				</branches>
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2
+                        </speed>
+                    </bird>
+                </birds>
+            </bonus_level>
+           <bonus_level id="5" bonus_class="Bonus_fruit_01" requiredBonus="20" time="31">
+                <bonus posX="436" posY="162"/>
+                <bonus posX="436" posY="197"/>
+                <bonus posX="436" posY="232"/>
+                <bonus posX="436" posY="267"/>
+                <bonus posX="436" posY="302"/>
+                <bonus posX="436" posY="338"/>
+                <bonus posX="436" posY="371"/>
+                <bonus posX="504" posY="162"/>
+                <bonus posX="504" posY="197"/>
+                <bonus posX="504" posY="232"/>
+                <bonus posX="504" posY="267"/>
+                <bonus posX="504" posY="302"/>
+                <bonus posX="504" posY="338"/>
+                <bonus posX="536" posY="127"/>
+                <bonus posX="536" posY="371"/>
+                <bonus posX="570" posY="93"/>
+                <bonus posX="536" posY="162"/>
+                <bonus posX="536" posY="197"/>
+                <bonus posX="536" posY="302"/>
+                <bonus posX="536" posY="338"/>
+                <bonus posX="570" posY="127"/>
+                <bonus posX="570" posY="371"/>
+                <bonus posX="570" posY="162"/>
+                <bonus posX="570" posY="338"/>
+                <bonus posX="469" posY="197"/>
+                <bonus posX="469" posY="232"/>
+                <bonus posX="469" posY="267"/>
+                <bonus posX="469" posY="302"/>
+                <bonus posX="504" posY="127"/>
+                <bonus posX="504" posY="371"/>
+                <bonus posX="294" posY="162"/>
+                <bonus posX="362" posY="197"/>
+                <bonus posX="399" posY="232"/>
+                <bonus posX="362" posY="267"/>
+                <bonus posX="328" posY="302"/>
+                <bonus posX="292" posY="338"/>
+                <bonus posX="331" posY="127"/>
+                <bonus posX="329" posY="371"/>
+                <bonus posX="331" posY="162"/>
+                <bonus posX="399" posY="197"/>
+                <bonus posX="365" posY="302"/>
+                <bonus posX="329" posY="338"/>
+                <bonus posX="365" posY="127"/>
+                <bonus posX="363" posY="371"/>
+                <bonus posX="365" posY="162"/>
+                <bonus posX="363" posY="338"/>
+                <bonus posX="328" posY="197"/>
+                <bonus posX="365" posY="232"/>
+                <bonus posX="294" posY="127"/>
+                <bonus posX="292" posY="371"/>
+                <bonus posX="399" posY="266"/>
+                <bonus posX="606" posY="93"/>
+                <bonus posX="399" posY="302"/>
+                <bonus posX="293" posY="93"/>
+                <bonus posX="256" posY="93"/>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            58
+                        </x>
+                        <y>
+                            269
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch10
+                        </clazz>
+                        <x>
+                            -3
+                        </x>
+                        <y>
+                            349
+                        </y>
+                    </branche>
+				</branches>
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2
+                        </speed>
+                    </bird>
+                </birds>
+            </bonus_level>
+            <bonus_level id="6" bonus_class="Bonus_fruit_01" requiredBonus="30" time="31">
+                <bonus posX="392" posY="300"/>
+                <bonus posX="425" posY="335"/>
+                <bonus posX="321" posY="371"/>
+                <bonus posX="391" posY="408"/>
+                <bonus posX="425" posY="408"/>
+                <bonus posX="355" posY="408"/>
+                <bonus posX="391" posY="335"/>
+                <bonus posX="321" posY="300"/>
+                <bonus posX="321" posY="335"/>
+                <bonus posX="563" posY="300"/>
+                <bonus posX="563" posY="335"/>
+                <bonus posX="495" posY="300"/>
+                <bonus posX="563" posY="371"/>
+                <bonus posX="529" posY="408"/>
+                <bonus posX="459" posY="408"/>
+                <bonus posX="493" posY="335"/>
+                <bonus posX="426" posY="161"/>
+                <bonus posX="322" posY="196"/>
+                <bonus posX="391" posY="230"/>
+                <bonus posX="425" posY="230"/>
+                <bonus posX="321" posY="230"/>
+                <bonus posX="392" posY="161"/>
+                <bonus posX="356" posY="161"/>
+                <bonus posX="321" posY="267"/>
+                <bonus posX="321" posY="123"/>
+                <bonus posX="391" posY="267"/>
+                <bonus posX="563" posY="123"/>
+                <bonus posX="564" posY="196"/>
+                <bonus posX="563" posY="230"/>
+                <bonus posX="493" posY="230"/>
+                <bonus posX="459" posY="230"/>
+                <bonus posX="530" posY="161"/>
+                <bonus posX="494" posY="161"/>
+                <bonus posX="497" posY="267"/>
+                <bonus posX="460" posY="161"/>
+                <bonus posX="563" posY="267"/>
+                <bonus posX="285" posY="408"/>
+                <bonus posX="286" posY="161"/>
+                <bonus posX="249" posY="371"/>
+                <bonus posX="249" posY="300"/>
+                <bonus posX="249" posY="335"/>
+                <bonus posX="250" posY="196"/>
+                <bonus posX="249" posY="230"/>
+                <bonus posX="249" posY="267"/>
+                <bonus posX="598" posY="408"/>
+                <bonus posX="599" posY="161"/>
+                <bonus posX="632" posY="300"/>
+                <bonus posX="632" posY="335"/>
+                <bonus posX="632" posY="371"/>
+                <bonus posX="633" posY="196"/>
+                <bonus posX="632" posY="230"/>
+                <bonus posX="632" posY="267"/>
+                <bonus posX="425" posY="91"/>
+                <bonus posX="392" posY="91"/>
+                <bonus posX="357" posY="91"/>
+                <bonus posX="530" posY="91"/>
+                <bonus posX="495" posY="91"/>
+                <bonus posX="459" posY="91"/>
+                <bonus posX="494" posY="374"/>
+                <bonus posX="564" posY="408"/>
+                <bonus posX="494" posY="408"/>
+                <bonus posX="319" posY="408"/>
+                <bonus posX="391" posY="442"/>
+                <bonus posX="425" posY="442"/>
+                <bonus posX="355" posY="442"/>
+                <bonus posX="529" posY="442"/>
+                <bonus posX="459" posY="442"/>
+                <bonus posX="285" posY="442"/>
+                <bonus posX="598" posY="442"/>
+                <bonus posX="564" posY="442"/>
+                <bonus posX="494" posY="442"/>
+                <bonus posX="319" posY="442"/>
+                <bonus posX="215" posY="442"/>
+                <bonus posX="249" posY="442"/>
+                <bonus posX="667" posY="442"/>
+                <bonus posX="633" posY="442"/>
+                <bonus posX="214" posY="408"/>
+                <bonus posX="180" posY="371"/>
+                <bonus posX="145" posY="337"/>
+                <bonus posX="181" posY="442"/>
+                <bonus posX="249" posY="409"/>
+                <bonus posX="632" posY="408"/>
+                <bonus posX="391" posY="372"/>
+                <bonus posX="425" posY="372"/>
+                <bonus posX="355" posY="372"/>
+                <bonus posX="529" posY="372"/>
+                <bonus posX="459" posY="372"/>
+                <bonus posX="285" posY="372"/>
+                <bonus posX="598" posY="372"/>
+                <bonus posX="668" posY="408"/>
+                <bonus posX="702" posY="442"/>
+                 <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            58
+                        </x>
+                        <y>
+                            269
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch10
+                        </clazz>
+                        <x>
+                            -3
+                        </x>
+                        <y>
+                            349
+                        </y>
+                    </branche>
+				</branches>
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2
+                        </speed>
+                    </bird>
+                </birds>
+            </bonus_level>
+        </bonus_levels>
+        
+        <!-- All levels -->
+        
+        <!-- <bonus probability="80" delay="5" type="shield" clazz="shield"/> -->
+        
+            
+        
+        
+        <levels>
+			 <level num="-2">
+                <availableBird>100000</availableBird>
+                <requiredBird>1</requiredBird>
+                <requiredBonus>1</requiredBonus>
+                <visibleBonus>1</visibleBonus>
+                <bonuses />
+                <birds>
+                    <bird>
+                        <type>red</type>
+                        <speed>2.2</speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>red</type>
+                        <x>588</x>
+                        <y>256</y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>c_nidNaissance</clazz>
+                        <x>194</x>
+                        <y>173</y>
+                    </respawn>
+                </respawns>
+                <branches>                	
+                    <branche skipBonus="1">
+                        <clazz>branch01</clazz>
+                        <x>606</x>
+                        <y>300</y>
+                    </branche>
+                    <branche skipBonus="1">
+                        <clazz>branch04</clazz>
+                        <x>-17</x>
+                        <y>266</y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch08
+                        </clazz>
+                        <x>
+                            300
+                        </x>
+                        <y>
+                            -200
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>0</timerDelay>
+                    <maxLength>0</maxLength>
+                    <speed>1</speed>
+                </berries>
+                <wasps/>
+            </level>
+        	<level num="-1">
+                <availableBird>100000</availableBird>
+                <requiredBird>1</requiredBird>
+                <requiredBonus>0</requiredBonus>
+                <visibleBonus>0</visibleBonus>
+                <bonuses />
+                <birds>
+                    <bird>
+                        <type>blue</type>
+                        <speed>2.2</speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>blue</type>
+                        <x>588</x>
+                        <y>256</y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>c_nidNaissance</clazz>
+                        <x>194</x>
+                        <y>173</y>
+                    </respawn>
+                </respawns>
+                <branches>                	
+                    <branche>
+                        <clazz>branch01</clazz>
+                        <x>606</x>
+                        <y>300</y>
+                    </branche>
+                    <branche>
+                        <clazz>branch04</clazz>
+                        <x>-17</x>
+                        <y>266</y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>0</timerDelay>
+                    <maxLength>0</maxLength>
+                    <speed>1</speed>
+                </berries>
+                <wasps/>
+            </level>
+            <level num="1">
+                <availableBird>1</availableBird>
+                <requiredBird>1</requiredBird>
+                <requiredBonus>0</requiredBonus>
+                <visibleBonus>0</visibleBonus>                
+                <bonuses>                    
+                </bonuses>
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            666
+                        </x>
+                        <y>
+                            251
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            203
+                        </x>
+                        <y>
+                            217
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>                	
+                    <branche>
+                        <clazz>
+                            branch01
+                        </clazz>
+                        <x>
+                            615
+                        </x>
+                        <y>
+                            305
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch04
+                        </clazz>
+                        <x>
+                            -10
+                        </x>
+                        <y>
+                            313
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        0
+                    </timerDelay>
+                    <maxLength>
+                        0
+                    </maxLength>
+                    <speed>
+                        1
+                    </speed>
+                </berries>
+                <wasps/>
+            </level>
+            <level num="2">
+                <availableBird>2</availableBird>
+                <requiredBird>2</requiredBird>
+                <requiredBonus>1</requiredBonus>
+                <visibleBonus>1</visibleBonus>                
+                <bonuses>
+                </bonuses>                
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            583
+                        </x>
+                        <y>
+                            327
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            58
+                        </x>
+                        <y>
+                            269
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche skipBonus="1">
+                        <clazz>
+                            branch02
+                        </clazz>
+                        <x>
+                            498
+                        </x>
+                        <y>
+                            377
+                        </y>
+                    </branche>
+                    <branche skipBonus="1">
+                        <clazz>
+                            branch10
+                        </clazz>
+                        <x>
+                            -3
+                        </x>
+                        <y>
+                            349
+                        </y>
+                    </branche>
+					<branche>
+                        <clazz>
+                            branch08
+                        </clazz>
+                        <x>
+                            300
+                        </x>
+                        <y>
+                            -200
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        0
+                    </timerDelay>
+                    <maxLength>
+                        0
+                    </maxLength>
+                    <speed>
+                        1
+                    </speed>
+                </berries>
+                <wasps/>
+            </level>
+            <level num="3">
+                <availableBird>
+                    3
+                </availableBird>
+                <requiredBird>
+                    3
+                </requiredBird>
+                <requiredBonus>
+                    3
+                </requiredBonus>
+                <visibleBonus>
+                    1
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="30" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="0" delay="3" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="0" delay="3" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            507
+                        </x>
+                        <y>
+                            123
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            107
+                        </x>
+                        <y>
+                            243
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch03
+                        </clazz>
+                        <x>
+                            521
+                        </x>
+                        <y>
+                            -8
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch02
+                        </clazz>
+                        <x>
+                            -33
+                        </x>
+                        <y>
+                            333
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        0
+                    </timerDelay>
+                    <maxLength>
+                        0
+                    </maxLength>
+                    <speed>
+                        1
+                    </speed>
+                </berries>
+                <wasps/>
+            </level>
+            <level num="4">
+                <availableBird>
+                    3
+                </availableBird>
+                <requiredBird>
+                    3
+                </requiredBird>
+                <requiredBonus>
+                    3
+                </requiredBonus>
+                <visibleBonus>
+                    1
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="30" delay="3" type="double" clazz="X2"/>
+                    <bonus probability="0" delay="5" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="0" delay="5" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            181
+                        </x>
+                        <y>
+                            208
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            438
+                        </x>
+                        <y>
+                            367
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch04
+                        </clazz>
+                        <x>
+                            -11
+                        </x>
+                        <y>
+                            262
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch05
+                        </clazz>
+                        <x>
+                            755
+                        </x>
+                        <y>
+                            234
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch15
+                        </clazz>
+                        <x>
+                            398
+                        </x>
+                        <y>
+                            395
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        8000
+                    </timerDelay>
+                    <maxLength>
+                        1
+                    </maxLength>
+                    <speed>
+                        2.2
+                    </speed>
+                </berries>
+                <wasps/>
+            </level>
+            <level num="5">
+                <availableBird>
+                    3
+                </availableBird>
+                <requiredBird>
+                    3
+                </requiredBird>
+                <requiredBonus>
+                    6
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="20" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="30" delay="3" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="0" delay="5" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            119
+                        </x>
+                        <y>
+                            280
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            475
+                        </x>
+                        <y>
+                            380
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch02
+                        </clazz>
+                        <x>
+                            50
+                        </x>
+                        <y>
+                            329
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch01
+                        </clazz>
+                        <x>
+                            620
+                        </x>
+                        <y>
+                            201
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch20
+                        </clazz>
+                        <x>
+                            409
+                        </x>
+                        <y>
+                            445
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        8000
+                    </timerDelay>
+                    <maxLength>
+                        1
+                    </maxLength>
+                    <speed>
+                        2
+                    </speed>
+                </berries>
+                <wasps/>
+            </level>
+            <level num="6">
+                <availableBird>
+                    3
+                </availableBird>
+                <requiredBird>
+                    3
+                </requiredBird>
+                <requiredBonus>
+                    6
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="25" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="25" delay="2" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="0" delay="5" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            462
+                        </x>
+                        <y>
+                            193
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            648
+                        </x>
+                        <y>
+                            131
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            691
+                        </x>
+                        <y>
+                            358
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch06
+                        </clazz>
+                        <x>
+                            368
+                        </x>
+                        <y>
+                            162
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch10
+                        </clazz>
+                        <x>
+                            -25
+                        </x>
+                        <y>
+                            308
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch20
+                        </clazz>
+                        <x>
+                            630
+                        </x>
+                        <y>
+                            423
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        7000
+                    </timerDelay>
+                    <maxLength>
+                        1
+                    </maxLength>
+                    <speed>
+                        2
+                    </speed>
+                </berries>
+                <wasps/>
+            </level>
+            
+            <level num="7">
+                <availableBird>
+                    3
+                </availableBird>
+                <requiredBird>
+                    3
+                </requiredBird>
+                <requiredBonus>
+                    6
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="25" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="30" delay="2" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="0" delay="5" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            176
+                        </x>
+                        <y>
+                            196
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            689
+                        </x>
+                        <y>
+                            218
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            115
+                        </x>
+                        <y>
+                            334
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch07
+                        </clazz>
+                        <x>
+                            -57
+                        </x>
+                        <y>
+                            228
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch01
+                        </clazz>
+                        <x>
+                            649
+                        </x>
+                        <y>
+                            273
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch20
+                        </clazz>
+                        <x>
+                            48
+                        </x>
+                        <y>
+                            396
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        7000
+                    </timerDelay>
+                    <maxLength>
+                        1
+                    </maxLength>
+                    <speed>
+                        2
+                    </speed>
+                </berries>
+                <wasps/>
+            </level>
+            <level num="8">
+                <availableBird>
+                    3
+                </availableBird>
+                <requiredBird>
+                    3
+                </requiredBird>
+                <requiredBonus>
+                    6
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="25" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="25" delay="2" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="0" delay="5" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            678
+                        </x>
+                        <y>
+                            150
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            305
+                        </x>
+                        <y>
+                            170
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            102
+                        </x>
+                        <y>
+                            313
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch03
+                        </clazz>
+                        <x>
+                            641
+                        </x>
+                        <y>
+                            8
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch08
+                        </clazz>
+                        <x>
+                            296
+                        </x>
+                        <y>
+                            -10
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch20
+                        </clazz>
+                        <x>
+                            35
+                        </x>
+                        <y>
+                            385
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        7000
+                    </timerDelay>
+                    <maxLength>
+                        2
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps/>
+            </level>
+            <level num="9">
+                <availableBird>
+                    3
+                </availableBird>
+                <requiredBird>
+                    3
+                </requiredBird>
+                <requiredBonus>
+                    6
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="25" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="20" delay="2" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="0" delay="5" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            626
+                        </x>
+                        <y>
+                            275
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            290
+                        </x>
+                        <y>
+                            275
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            302
+                        </x>
+                        <y>
+                            45
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch12
+                        </clazz>
+                        <x>
+                            329
+                        </x>
+                        <y>
+                            319
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch06
+                        </clazz>
+                        <x>
+                            274
+                        </x>
+                        <y>
+                            40
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        6000
+                    </timerDelay>
+                    <maxLength>
+                        3
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps/>
+            </level>
+            <level num="10">
+                <availableBird>
+                    4
+                </availableBird>
+                <requiredBird>
+                    4
+                </requiredBird>
+                <requiredBonus>
+                    8
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="25" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="25" delay="2" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="0" delay="5" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            648
+                        </x>
+                        <y>
+                            120
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            53
+                        </x>
+                        <y>
+                            217
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            612
+                        </x>
+                        <y>
+                            370
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch02
+                        </clazz>
+                        <x>
+                            -28
+                        </x>
+                        <y>
+                            264
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch06
+                        </clazz>
+                        <x>
+                            359
+                        </x>
+                        <y>
+                            150
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch20
+                        </clazz>
+                        <x>
+                            548
+                        </x>
+                        <y>
+                            432
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        6000
+                    </timerDelay>
+                    <maxLength>
+                        3
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps/>
+            </level>
+            <level num="11">
+                <availableBird>
+                    4
+                </availableBird>
+                <requiredBird>
+                    4
+                </requiredBird>
+                <requiredBonus>
+                    8
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="25" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="25" delay="2" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="0" delay="5" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            695
+                        </x>
+                        <y>
+                            153
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            172
+                        </x>
+                        <y>
+                            217
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            121
+                        </x>
+                        <y>
+                            338
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch03
+                        </clazz>
+                        <x>
+                            674
+                        </x>
+                        <y>
+                            7
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch07
+                        </clazz>
+                        <x>
+                            -46
+                        </x>
+                        <y>
+                            246
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch20
+                        </clazz>
+                        <x>
+                            54
+                        </x>
+                        <y>
+                            411
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        6000
+                    </timerDelay>
+                    <maxLength>
+                        1
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_straight" posX="491" posY="226"/>
+                </wasps>
+            </level>
+            <level num="12">
+                <availableBird>
+                    4
+                </availableBird>
+                <requiredBird>
+                    4
+                </requiredBird>
+                <requiredBonus>
+                    8
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="25" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="25" delay="2" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="0" delay="5" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            444
+                        </x>
+                        <y>
+                            254
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            161
+                        </x>
+                        <y>
+                            298
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            725
+                        </x>
+                        <y>
+                            293
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch02
+                        </clazz>
+                        <x>
+                            75
+                        </x>
+                        <y>
+                            346
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch14
+                        </clazz>
+                        <x>
+                            366
+                        </x>
+                        <y>
+                            128
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        6000
+                    </timerDelay>
+                    <maxLength>
+                        3
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_straight" posX="521" posY="136"/>
+                </wasps>
+            </level>
+            <level num="13">
+                <availableBird>
+                    4
+                </availableBird>
+                <requiredBird>
+                    4
+                </requiredBird>
+                <requiredBonus>
+                    8
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="25" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="25" delay="2" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="0" delay="5" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            yellow
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            570
+                        </x>
+                        <y>
+                            116
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            yellow
+                        </type>
+                        <x>
+                            83
+                        </x>
+                        <y>
+                            245
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            236
+                        </x>
+                        <y>
+                            368
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch08
+                        </clazz>
+                        <x>
+                            561
+                        </x>
+                        <y>
+                            -61
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch07
+                        </clazz>
+                        <x>
+                            -88
+                        </x>
+                        <y>
+                            277
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch20
+                        </clazz>
+                        <x>
+                            170
+                        </x>
+                        <y>
+                            440
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        7000
+                    </timerDelay>
+                    <maxLength>
+                        2
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_straight" posX="461" posY="136"/>
+                </wasps>
+            </level>
+            <level num="14">
+                <availableBird>
+                    4
+                </availableBird>
+                <requiredBird>
+                    4
+                </requiredBird>
+                <requiredBonus>
+                    8
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="25" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="20" delay="1" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="30" delay="1" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            yellow
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            yellow
+                        </type>
+                        <x>
+                            556
+                        </x>
+                        <y>
+                            156
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            441
+                        </x>
+                        <y>
+                            344
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            203
+                        </x>
+                        <y>
+                            332
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch16
+                        </clazz>
+                        <x>
+                            216
+                        </x>
+                        <y>
+                            129
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch20
+                        </clazz>
+                        <x>
+                            136
+                        </x>
+                        <y>
+                            404
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        7000
+                    </timerDelay>
+                    <maxLength>
+                        2
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_straight" posX="214" posY="127"/>
+                </wasps>
+            </level>
+            <level num="15">
+                <availableBird>
+                    4
+                </availableBird>
+                <requiredBird>
+                    4
+                </requiredBird>
+                <requiredBonus>
+                    8
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="25" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="25" delay="1" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="25" delay="1" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            yellow
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            175
+                        </x>
+                        <y>
+                            320
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            yellow
+                        </type>
+                        <x>
+                            470
+                        </x>
+                        <y>
+                            317
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            232
+                        </x>
+                        <y>
+                            86
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch07
+                        </clazz>
+                        <x>
+                            -24
+                        </x>
+                        <y>
+                            158
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch12
+                        </clazz>
+                        <x>
+                            216
+                        </x>
+                        <y>
+                            364
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        6000
+                    </timerDelay>
+                    <maxLength>
+                        2
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_straight" posX="547" posY="124"/>
+                </wasps>
+            </level>
+            <level num="16">
+                <availableBird>
+                    4
+                </availableBird>
+                <requiredBird>
+                    4
+                </requiredBird>
+                <requiredBonus>
+                    8
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="20" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="25" delay="1" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="25" delay="1" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            yellow
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            yellow
+                        </type>
+                        <x>
+                            744
+                        </x>
+                        <y>
+                            170
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            498
+                        </x>
+                        <y>
+                            245
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            51
+                        </x>
+                        <y>
+                            150
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch05
+                        </clazz>
+                        <x>
+                            749
+                        </x>
+                        <y>
+                            204
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch08
+                        </clazz>
+                        <x>
+                            403
+                        </x>
+                        <y>
+                            -9
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch02
+                        </clazz>
+                        <x>
+                            161
+                        </x>
+                        <y>
+                            365
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch20
+                        </clazz>
+                        <x>
+                            -16
+                        </x>
+                        <y>
+                            221
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        6000
+                    </timerDelay>
+                    <maxLength>
+                        2
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_circle" posX="170" posY="290"/>
+                </wasps>
+            </level>
+            <level num="17">
+                <availableBird>
+                    5
+                </availableBird>
+                <requiredBird>
+                    5
+                </requiredBird>
+                <requiredBonus>
+                    10
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="20" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="20" delay="1" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="25" delay="1" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            yellow
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            100
+                        </x>
+                        <y>
+                            342
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            yellow
+                        </type>
+                        <x>
+                            272
+                        </x>
+                        <y>
+                            306
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            222
+                        </x>
+                        <y>
+                            72
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch02
+                        </clazz>
+                        <x>
+                            167
+                        </x>
+                        <y>
+                            352
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch07
+                        </clazz>
+                        <x>
+                            -4
+                        </x>
+                        <y>
+                            146
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch05
+                        </clazz>
+                        <x>
+                            777
+                        </x>
+                        <y>
+                            139
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        6000
+                    </timerDelay>
+                    <maxLength>
+                        2
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_circle" posX="486" posY="288"/>
+					<wasp path="c_wasp_straight" posX="30" posY="230"/>
+                </wasps>
+            </level>
+            <level num="18">
+                <availableBird>
+                    5
+                </availableBird>
+                <requiredBird>
+                    5
+                </requiredBird>
+                <requiredBonus>
+                    10
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="20" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="20" delay="1" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="25" delay="1" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            yellow
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            red
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            yellow
+                        </type>
+                        <x>
+                            52
+                        </x>
+                        <y>
+                            146
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            red
+                        </type>
+                        <x>
+                            686
+                        </x>
+                        <y>
+                            111
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            120
+                        </x>
+                        <y>
+                            366
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch10
+                        </clazz>
+                        <x>
+                            -7
+                        </x>
+                        <y>
+                            191
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch07
+                        </clazz>
+                        <x>
+                            -32
+                        </x>
+                        <y>
+                            270
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch01
+                        </clazz>
+                        <x>
+                            659
+                        </x>
+                        <y>
+                            157
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch20
+                        </clazz>
+                        <x>
+                            55
+                        </x>
+                        <y>
+                            439
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        5000
+                    </timerDelay>
+                    <maxLength>
+                        2
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_eight" posX="538" posY="274"/>
+					<wasp path="c_wasp_circle" posX="160" posY="130"/>
+                </wasps>
+            </level>
+            
+            
+            <level num="19">
+                <availableBird>
+                    4
+                </availableBird>
+                <requiredBird>
+                    4
+                </requiredBird>
+                <requiredBonus>
+                    8
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="10" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="20" delay="1" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="20" delay="1" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            yellow
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            580
+                        </x>
+                        <y>
+                            345
+                        </y>
+                    </nest>
+                     <nest>
+                        <type>
+                            yellow
+                        </type>
+                        <x>
+                            518
+                        </x>
+                        <y>
+                            218
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            100
+                        </x>
+                        <y>
+                            217
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch26
+                        </clazz>
+                        <x>
+                            -100
+                        </x>
+                        <y>
+                            220
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch25
+                        </clazz>
+                        <x>
+                            270
+                        </x>
+                        <y>
+                            -30
+                        </y>
+                    </branche>
+					<!--
+                    <branche is_front="1">
+                        <clazz>
+                            branch25_front
+                        </clazz>
+                        <x>
+                            270
+                        </x>
+                        <y>
+                            -30
+                        </y>
+                    </branche>
+					-->
+                </branches>
+                <berries>
+                    <timerDelay>
+                        5000
+                    </timerDelay>
+                    <maxLength>
+                        2
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_eight" posX="160" posY="290"/>
+					<wasp path="c_wasp_eight" posX="595" posY="210"/>
+                </wasps>
+            </level>
+            
+            <level num="20">
+                <availableBird>
+                    4
+                </availableBird>
+                <requiredBird>
+                    4
+                </requiredBird>
+                <requiredBonus>
+                    8
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="20" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="20" delay="1" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="10" delay="1" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            yellow
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            615
+                        </x>
+                        <y>
+                            252
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            yellow
+                        </type>
+                        <x>
+                            549
+                        </x>
+                        <y>
+                            134
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            253
+                        </x>
+                        <y>
+                            216
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch27
+                        </clazz>
+                        <x>
+                            193
+                        </x>
+                        <y>
+                            -11
+                        </y>
+                    </branche>
+					<!--
+                    <branche is_front="1">
+                        <clazz>
+                            branch27_front
+                        </clazz>
+                        <x>
+                            193
+                        </x>
+                        <y>
+                            -11
+                        </y>
+                    </branche>
+					-->
+                </branches>
+                <berries>
+                    <timerDelay>
+                        5000
+                    </timerDelay>
+                    <maxLength>
+                        2
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_circle" posX="451" posY="-23"/>
+					<wasp path="c_wasp_straight" posX="10" posY="160"/>
+                </wasps>
+            </level>
+            
+            <level num="21">
+                <availableBird>
+                    5
+                </availableBird>
+                <requiredBird>
+                    5
+                </requiredBird>
+                <requiredBonus>
+                    10
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="20" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="20" delay="1" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="10" delay="1" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            yellow
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            434
+                        </x>
+                        <y>
+                            158
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            yellow
+                        </type>
+                        <x>
+                            434
+                        </x>
+                        <y>
+                            316
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            176
+                        </x>
+                        <y>
+                            272
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch28
+                        </clazz>
+                        <x>
+                            380
+                        </x>
+                        <y>
+                            87
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch29
+                        </clazz>
+                        <x>
+                            -6
+                        </x>
+                        <y>
+                            327
+                        </y>
+                    </branche>
+					<!--
+                    <branche is_front="1">
+                        <clazz>
+                            branch28_front
+                        </clazz>
+                        <x>
+                            380
+                        </x>
+                        <y>
+                            87
+                        </y>
+                    </branche>
+					-->
+                </branches>
+                <berries>
+                    <timerDelay>
+                        5000
+                    </timerDelay>
+                    <maxLength>
+                        2
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_circle" posX="468" posY="23"/>
+					<wasp path="c_wasp_straight" posX="50" posY="80"/>
+                </wasps>
+            </level>
+            
+            <level num="22">
+                <availableBird>
+                    5
+                </availableBird>
+                <requiredBird>
+                    5
+                </requiredBird>
+                <requiredBonus>
+                    10
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="20" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="15" delay="1" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="10" delay="1" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            yellow
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            yellow
+                        </type>
+                        <x>
+                            458
+                        </x>
+                        <y>
+                            255
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            90
+                        </x>
+                        <y>
+                            321
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch30
+                        </clazz>
+                        <x>
+                            255
+                        </x>
+                        <y>
+                            273
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch31
+                        </clazz>
+                        <x>
+                            52
+                        </x>
+                        <y>
+                            -26.3
+                        </y>
+                    </branche>
+					<!--
+                    <branche is_front="1">
+                        <clazz>
+                            branch31_front
+                        </clazz>
+                        <x>
+                            52
+                        </x>
+                        <y>
+                            -26.3
+                        </y>
+                    </branche>
+					-->
+                </branches>
+                <berries>
+                    <timerDelay>
+                        5000
+                    </timerDelay>
+                    <maxLength>
+                        2
+                    </maxLength>
+                    <speed>
+                        3
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_eight" posX="560" posY="156"/>
+                    <wasp path="c_wasp_straight" posX="516" posY="143"/>
+                </wasps>
+            </level>
+            
+            <level num="23">
+                <availableBird>
+                    6
+                </availableBird>
+                <requiredBird>
+                    6
+                </requiredBird>
+                <requiredBonus>
+                    12
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="20" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="10" delay="1" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="10" delay="1" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            yellow
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            425
+                        </x>
+                        <y>
+                            257
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            yellow
+                        </type>
+                        <x>
+                            730
+                        </x>
+                        <y>
+                            304
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            85
+                        </x>
+                        <y>
+                            338
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch32
+                        </clazz>
+                        <x>
+                            31
+                        </x>
+                        <y>
+                            -26
+                        </y>
+                    </branche>
+					<!--
+                    <branche is_front="1">
+                        <clazz>
+                            branch32_front
+                        </clazz>
+                        <x>
+                            31
+                        </x>
+                        <y>
+                            -26
+                        </y>
+                    </branche>
+					-->
+                    <branche>
+                        <clazz>
+                            branch33
+                        </clazz>
+                        <x>
+                            416
+                        </x>
+                        <y>
+                            -23
+                        </y>
+                    </branche>
+					<!--
+                    <branche is_front="1">
+                        <clazz>
+                            branch33_front
+                        </clazz>
+                        <x>
+                            416
+                        </x>
+                        <y>
+                            -23
+                        </y>
+                    </branche>
+					-->
+                    <branche>
+                        <clazz>
+                            branch34
+                        </clazz>
+                        <x>
+                            748
+                        </x>
+                        <y>
+                            326
+                        </y>
+                    </branche>
+                </branches>
+                <berries>
+                    <timerDelay>
+                        5000
+                    </timerDelay>
+                    <maxLength>
+                        2
+                    </maxLength>
+                    <speed>
+                        4
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_straight_short" posX="270" posY="280"/>
+					<wasp path="c_wasp_circle" posX="300" posY="60"/>
+                </wasps>
+            </level>
+            
+            <level num="24">
+                <availableBird>
+                    6
+                </availableBird>
+                <requiredBird>
+                    6
+                </requiredBird>
+                <requiredBonus>
+                    12
+                </requiredBonus>
+                <visibleBonus>
+                    2
+                </visibleBonus>
+                
+                <bonuses>
+                    <bonus probability="20" delay="2" type="double" clazz="X2"/>
+                    <bonus probability="15" delay="1" type="clear_leaves" clazz="clear_leaves"/>
+                    <bonus probability="10" delay="1" type="clear_bees" clazz="clear_bees"/>
+                </bonuses>
+                
+                <birds>
+                    <bird>
+                        <type>
+                            blue
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                    <bird>
+                        <type>
+                            yellow
+                        </type>
+                        <speed>
+                            2.2
+                        </speed>
+                    </bird>
+                </birds>
+                <nests>
+                    <nest>
+                        <type>
+                            blue
+                        </type>
+                        <x>
+                            126
+                        </x>
+                        <y>
+                            361
+                        </y>
+                    </nest>
+                    <nest>
+                        <type>
+                            yellow
+                        </type>
+                        <x>
+                            119
+                        </x>
+                        <y>
+                            205
+                        </y>
+                    </nest>
+                </nests>
+                <respawns>
+                    <respawn>
+                        <clazz>
+                            c_nidNaissance
+                        </clazz>
+                        <x>
+                            612
+                        </x>
+                        <y>
+                            55
+                        </y>
+                    </respawn>
+                </respawns>
+                <branches>
+                    <branche>
+                        <clazz>
+                            branch35
+                        </clazz>
+                        <x>
+                            -9
+                        </x>
+                        <y>
+                            360
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch36
+                        </clazz>
+                        <x>
+                            -7
+                        </x>
+                        <y>
+                            135
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch37
+                        </clazz>
+                        <x>
+                            210
+                        </x>
+                        <y>
+                            -25                       
+                        </y>
+                    </branche>
+                    <branche>
+                        <clazz>
+                            branch38
+                        </clazz>
+                        <x>
+                            365
+                        </x>
+                        <y>
+                            143
+                        </y>
+                    </branche>
+					<!--
+                    <branche is_front="1">
+                        <clazz>
+                            branch38_front
+                        </clazz>
+                        <x>
+                            373
+                        </x>
+                        <y>
+                            143
+                        </y>
+                    </branche>
+					-->
+                </branches>
+                <berries>
+                    <timerDelay>
+                        5000
+                    </timerDelay>
+                    <maxLength>
+                        2
+                    </maxLength>
+                    <speed>
+                        4
+                    </speed>
+                </berries>
+                <wasps>
+                    <wasp path="c_wasp_eight" posX="456" posY="416"/>
+                    <wasp path="c_wasp_circle" posX="173" posY="263"/>
+                </wasps>
+            </level>
+            
+        </levels>
+    </config>
+</panel>

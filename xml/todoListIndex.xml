@@ -1,0 +1,72 @@
+<todoListIndex>
+	<copy>
+		<default id="0">Make new friends.</default>
+		<default id="1">Earn Gatherables playing Talent Games.</default>
+		<default id="2">Collect Gatherables in the Meadows.</default>
+		<default id="3">Play games at a pixie party.</default>
+		<default id="4">Read the latest news in Pixie Postings.</default>
+		<default id="5">Read a Fairy Tale or a Pixie Poem.</default>
+		<default id="6">Help new players find their way around.</default>
+		<default id="7">Check out the latest fashions.</default>
+		<default id="8">Chat with friendly players.</default>
+		<default id="9">See what's new in shops.</default>
+		<petfeed id="73000">Find gatherables to feed your Firefly Friend.</petfeed>
+		<petfeed id="73001">Find gatherables to feed your Ladybug Friend.</petfeed>
+		<petfeed id="73002">Find gatherables to feed your Hummingbird Friend.</petfeed>
+		<petfeed id="73003">Find gatherables to feed your Dragonfly Friend.</petfeed>
+		<petfeed id="73004">Find gatherables to feed your Bee Friend.</petfeed>
+		<petheal id="73000">Heal your Firefly Friend.</petheal>
+		<petheal id="73001">Heal your Ladybug Friend.</petheal>
+		<petheal id="73002">Heal your Hummingbird Friend.</petheal>
+		<petheal id="73003">Heal your Dragonfly Friend.</petheal>
+		<petheal id="73004">Heal your Bee Friend.</petheal>
+		<petplay id="73000">Play with your Firefly Friend.</petplay>
+		<petplay id="73001">Play with your Ladybug Friend.</petplay>
+		<petplay id="73002">Play with your Hummingbird Friend.</petplay>
+		<petplay id="73003">Play with your Dragonfly Friend.</petplay>
+		<petplay id="73004">Play with your Bee Friend.</petplay>
+		<dailySpin>Win prizes at Vidia's Daily Spin!</dailySpin>
+		<pixieDustMill>Visit Terence in the Pixie Dust Mill!</pixieDustMill>
+	</copy>
+	<config>
+		<dailySpin zone="200" />
+		<pixieDustMill zone="807"/>
+		<badges>
+			<badgePagesToShow>
+				<badgePage id="12019" />
+				<badgePage id="12020" />
+				<badgePage id="12021" />
+				<badgePage id="12022" />
+				<badgePage id="12023" />
+				<badgePage id="12024" />
+				<badgePage id="12025" />
+				<badgePage id="12026" />
+				<badgePage id="12027" />
+				<badgePage id="12028" />
+				<badgePage id="12032" />
+				<badgePage id="12033" />
+			</badgePagesToShow>
+			
+		</badges>
+		<petInfo>
+			<species id="73000" feedzone="402" healzone="103" playzone="home" /> <!-- Fireflies -->
+			<species id="73001" feedzone="102" healzone="103" playzone="home" /> <!-- Lady Bugs -->
+			<species id="73002" feedzone="203" healzone="103" playzone="home"/> <!-- Baby Hummingbirds -->
+			<species id="73003" feedzone="401" healzone="103" playzone="home" /> <!-- Dragonflies -->
+			<species id="73004" feedzone="100" healzone="103" playzone="home" /> <!-- Bees -->
+		</petInfo>
+		<defaultInfo>
+			<default id="0" zone="102" />
+			<default id="1" zone="203" />
+			<default id="2" zone="103" />
+			<default id="3" zone="1200" />
+			<default id="4" zone="1200" />
+			<default id="5" zone="1200" />
+			<default id="6" zone="500" />
+			<default id="7" zone="200" smzone="201" />
+			<default id="8" zone="102" />
+			<default id="9" zone="200" />
+		</defaultInfo>
+		
+	</config>
+</todoListIndex>

@@ -1,0 +1,29 @@
+<panelSet>
+
+	<panels>
+
+		<!--panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{publishPanelData}/bg_gradient.xml</panel-->
+		<panel id="leftSideStatic" x="0" y="0" transition="none" alwaysOnBottom="true">{publishPanelData}/leftSideStatic.xml</panel>
+		 <panel id="manager" x="70" y="-38"  transition="none">{publishPanelData}/liveSupport.xml</panel>  
+		 <panel id="controller" x="0" y="0" alwaysOnTop="true"   >{publishPanelData}/livePersonController.xml</panel>
+
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<supportbuttontime>fairy_page</supportbuttontime>
+		<trackingid>livechatsupport</trackingid>
+		<headercontrols>false</headercontrols>
+		<sectionid>support</sectionid>
+		<pageid>livechat</pageid>
+		<menu>
+			<title>
+				<text>menutitle</text>
+				<subtext>menusubtitle</subtext>
+				<!--channel>home.htm</channel-->       
+			</title>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>Pixie Hollow Game Preview</menutitle>
+	</copy>
+</panelSet>

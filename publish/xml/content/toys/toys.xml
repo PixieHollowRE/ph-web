@@ -1,0 +1,60 @@
+<page>
+	<config>
+		<!-- -->
+
+		<taglines type="contentheader" headertype="long">
+			<bannergraphic type="image">{publishPanelImages}/all_about_toys.png</bannergraphic>
+			<tagline font="pristina">header</tagline>	
+			<tagline>body1</tagline>
+			
+			
+		</taglines>
+		<columnset1 type="columnset" colsettype="columnset3_toys_config">
+			<colset url="clickables.html">
+				<tagline font="pristina" xOffset="10">colset1header</tagline>				
+				<bannergraphic type="image">{publishPanelImages}/clickables_toys.png</bannergraphic>
+				<tagline font="column" xOffset="15">colset1body</tagline>
+				<tagline type="button" btntype="btn_blue">colset1btn</tagline>
+			</colset>
+			<colset channel="dolls.xml">
+				<tagline font="pristina" xOffset="10">colset2header</tagline>				
+				<bannergraphic type="image">{publishPanelImages}/playmates.png</bannergraphic>
+				<tagline font="column" xOffset="15">colset2body</tagline>
+				<tagline type="button" btntype="btn_blue">colset2btn</tagline>
+			</colset>
+			  
+			<colset channel="videogames.xml">
+				<tagline font="pristina" xOffset="10">colset3header</tagline>
+				<bannergraphic type="image">{publishPanelImages}/lost_treasure_image.png</bannergraphic>
+				<tagline font="column" xOffset="10">colset3body</tagline>
+				<tagline type="button" btntype="btn_blue">colset3btn</tagline>
+			</colset>
+		</columnset1>
+	<columnset2 >
+		<tagline xOffset="170" yOffset="65">body2</tagline>
+	</columnset2>
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">All About Toys</span>]]></header>
+		<body1><![CDATA[<span class="newsbodytext">Are you a Fairy who is looking for a little more magic on the mainland?  Look for our toys that connect with PixieHollow.com and enhance your experience in the Hollow.<font color="#FFEF4B">*</font></span>]]></body1>
+		<body2><![CDATA[<font color="#FFEF4B" size="12"><br/><br/><br/>*Toys are only sold in retail stores in the USA.</font>]]></body2>
+		<!--<headerbtn><![CDATA[Read More]]></headerbtn>-->
+		
+		<colset1header><![CDATA[<span class="newsbodytext">Clickables<font size="16px">&#x2122;</font></span>]]></colset1header>
+		<colset1body><![CDATA[<span class="newsbodytext">Clickables toys include magical jewelry &amp; a portable game that connect with PixieHollow.com. Now, girls can connect off-line play with real-world friends in amazing new ways.</span>]]></colset1body>
+		<colset1btn><![CDATA[Read More]]></colset1btn>
+		
+		<colset2header><![CDATA[Dolls & Playsets]]></colset2header>
+		<colset2body><![CDATA[Play with your favorite Fairies on the mainland with Fairies dolls, playsets, and more! Select Fairies toys come with a Secret Code that unlocks special gifts in the online world of Pixie Hollow.]]></colset2body>
+		<colset2btn><![CDATA[Read More]]></colset2btn>
+		
+		<colset3header><![CDATA[<span class="newsbodytext">Video Games</span>]]></colset3header>
+		<colset3body><![CDATA[<span class="newsbodytext">Play as Tinker Bell on the Nintendo DS™ system and travel north of Never Land to find the lost treasure.  Create your own Fairy and connect to the online world of PixieHollow.com for more fun.</span>]]></colset3body>
+		<colset3btn><![CDATA[Read More]]></colset3btn>
+		
+		<url>http://disneystore.go.com/transfer/297652/disney/store/Category_10002_10051_13932_-1_13932_____Disney-Fairies?CMP=OTL-DOL&att=Fairies</url>
+
+	</copy>
+	
+
+</page>

@@ -1,0 +1,60 @@
+﻿<panel>
+
+	<swfs>
+		<swf type="content">{panelContent}/AdventureChooser.swf</swf>
+		<swf type="code">{panelCode}/AdventureChooser.swf</swf>
+	</swfs>
+	<copy>
+		<chooseTitle target="title">Join an Adventure Group</chooseTitle>
+		<startTitle>Lead An Adventure Group</startTitle>
+		<ok>Okay</ok>
+		<yes>Yes</yes>
+		<no>No</no>
+		<dropAdventureLeader>Do you want to cancel the group you are currently leading?</dropAdventureLeader>
+		<dropAdventure>Do you want to leave the group you are currently in?</dropAdventure>
+		<joinRejected>Sorry, this group is already full.</joinRejected>
+		<triggerRejected>Oops, there seems to be a problem loading this adventure, please try again later.</triggerRejected>
+		<matchCanceled>Sorry, the adventure was canceled.</matchCanceled>
+		<chooseAdventure>Join an Adventure Group!</chooseAdventure>
+		<startAdventure>Lead an Adventure!</startAdventure>
+		<chooseCount>Available Groups: </chooseCount>
+		<startCount>Your Adventures:</startCount>
+		<modeTitle>What do you want to do?</modeTitle>
+		<memberCount>Players in this group: </memberCount>
+		<backLabel target="background.switchBtn.caption">Back</backLabel>
+		<backLabel2 target="waitingHolder.waitingBG.switchBtn.caption">Cancel</backLabel2>
+		<rejectedBtn target="waitingHolder.waitingBG.rejectedBtn.caption">OK</rejectedBtn>
+		<backLabel3 target="messagingBG.OKBtn.caption">OK</backLabel3>
+		
+		<storyPanelHeader>Wilderness</storyPanelHeader>
+		<storyPanelClose target="storyPanel.closeBtn.caption">Close</storyPanelClose>
+		<storyPanelBody target="storyPanel.bodycopy"><![CDATA[You need to be Talent Level 3 to enter the Wilderness.]]></storyPanelBody>
+		
+		<exploreTitle>Go Scouting!</exploreTitle>
+		<unknownTitle>Help with a Quest</unknownTitle>
+		<leadBy>with</leadBy>
+		<mypowers target="myVerbs.mypowerstext">MY SKILLS</mypowers>
+		<waiting target="waitingHolder.wait.waitNotice">Asking to join an adventure group led by</waiting>
+		<waitingtitle target="waitingHolder.wait.title">Please Wait</waitingtitle>
+		<rejectedtitle target="waitingHolder.reject.title">Sorry!</rejectedtitle>
+		<rejected target="waitingHolder.reject.rejectNotice">is waiting to adventure with a different player.</rejected>
+		
+		<noSpellsTitle><![CDATA[First things first...]]></noSpellsTitle>
+		<noSpellsHeader><![CDATA[You're almost ready to enter the Wilderness!]]></noSpellsHeader>
+		<noSpells1><![CDATA[You need to learn your first Talent Skill before you enter the Wilderness. Go see Fawn at Fawn's Hideout in Maple Tree Hill and complete your "Learn to Charm" quest!]]></noSpells1>
+		<noSpells2><![CDATA[You need to learn your first Talent Skill before you enter the Wilderness. Go see Rosetta at Rosetta's Garden in Cherryblossom Heights and complete your "Learn to Grow" quest!]]></noSpells2>
+		<noSpells3><![CDATA[You need to learn your first Talent Skill before you enter the Wilderness. Go see Iridessa at Iridessa's Glade in Sunflower Gully and complete your "Learn to Illuminate" quest!]]></noSpells3>
+		<noSpells4><![CDATA[You need to learn your first Talent Skill before you enter the Wilderness. Go see Silvermist at Sivermist's Grotto in Dewdrop Vale and complete your "Learn to Splash" quest!]]></noSpells4>
+		<noSpells5><![CDATA[You need to learn your first Talent Skill before you enter the Wilderness. Go see Tinker Bell at Tinker's Nook in Cottonpuff Field and complete your "Learn to Fix" quest!]]></noSpells5>
+		
+		<noCookiesTitle><![CDATA[First things first...]]></noCookiesTitle>
+		<noCookiesHeader><![CDATA[You need to get Cookies!]]></noCookiesHeader>
+		<noCookiesBody><![CDATA[Visit Dulcie's Kitchen in Neverberry Thicket and use Personal Baking to fill your pouch with pixie-dust-filled cookies! You'll need them to refill your supply of pixie dust and complete all the challenges in the Wilderness!]]></noCookiesBody>
+		
+		<noWelcomeQuestTitle><![CDATA[First things first...]]></noWelcomeQuestTitle>
+		<noWelcomeQuestHeader><![CDATA[Are you ready to enter the Wilderness?]]></noWelcomeQuestHeader>
+		<noWelcomeQuestBody><![CDATA[The first step is to go see Tinker Bell and complete your "Welcome to Pixie Hollow" quest.  You can find her at Tinker's Nook in Cottonpuff Field!]]></noWelcomeQuestBody>
+		</copy>
+	<config>
+	</config>
+</panel>

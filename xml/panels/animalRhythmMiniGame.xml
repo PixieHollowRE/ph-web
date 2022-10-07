@@ -1,0 +1,254 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/animalRhythm.swf</swf>
+		<swf type="code">{panelCode}/animalRhythm.swf</swf>
+	</swfs>
+	<copy>
+		<title>Snowy Lullaby</title>
+		<title_screen target="title.titleContainer.titleBar.title_txt">Snowy Lullaby</title_screen>
+		<title_play target="title.btnContainer.playBtn.btn_txt">Play</title_play>
+		<title_help target="title.btnContainer.helpBtn.btn_txt">Instructions</title_help>    
+		<title_quit target="title.btnContainer.quitBtn.btn_txt">Quit</title_quit>
+
+		<hudTitleWelcome>Snowy Lullaby</hudTitleWelcome>
+		<hudSubTitleWelcome>Get Ready</hudSubTitleWelcome>
+		
+
+		<instruction0>Play a soft lullaby to soothe the little animals to sleep by following the notes on the leaf music scroll.</instruction0>
+		<instruction1>When the song begins, arrows will begin to move across the leaf music scroll at the bottom of the screen.</instruction1>
+		<instruction2>As the arrow reaches the yellow bar, press the same arrow key on your keyboard to play the music note. </instruction2>
+		<instruction3>If you hit the wrong key or hit the key too late, a sad note will play and the animals might wake up. </instruction3>
+		<instruction4>Play the song successfully and the animals will fall asleep. </instruction4>
+
+		<statBoardLabel_combo>Current Streak:</statBoardLabel_combo>
+		<statBoardLabel_hit>Hit:</statBoardLabel_hit>
+		<statBoardLabel_missed>Missed:</statBoardLabel_missed>
+		<statBoardLabel_wrong>Wrong Key:</statBoardLabel_wrong>
+		<statBoardLabel_score>Success Meter:</statBoardLabel_score>
+
+	    <hudTitle>Snowy Lullaby</hudTitle>
+	    <hudSubTitle>Level ###levelNumber###</hudSubTitle>
+		<hudHostName>Fawn</hudHostName>
+	    <scoreHeading>Score:</scoreHeading>
+		<playerLives>Scroll###Scrolls</playerLives>
+
+		<levelIntroTitleBar>Get Ready!</levelIntroTitleBar>
+		<levelIntroButtonLabel>Go!</levelIntroButtonLabel>
+		<welcomeTitleBar>Welcome!</welcomeTitleBar>
+		<interLevelTitle>Level ###levelNumber### Complete!</interLevelTitle>
+		<interLevelPerfect>PERFECT!  You get an extra scroll!</interLevelPerfect>
+		<interLevelLine1>Longest Streak : </interLevelLine1>
+		<interLevelLine2>Bonus Notes : </interLevelLine2>
+		<interLevelLine3>Sleeping Animals : </interLevelLine3>
+		<interLevelLine4>Total Bonus : </interLevelLine4>
+		<interLevelLine5>Your Score : </interLevelLine5>
+		<interLevelStreak>###streakLength### hits</interLevelStreak>
+
+		<retryHeader>Try Again</retryHeader>
+		<retryMessage>Oh thistles! All the critters woke up! Let's try that song again quick!</retryMessage>
+
+		<gameOverTitleWin>You Win!</gameOverTitleWin>
+		<gameOverTitleLose>Nice Try!</gameOverTitleLose>
+		<gameOverQuit>Continue</gameOverQuit>
+		<gameOverWin>Jumpin' jackrabbits, you might as well be a music-talent! That was some playin'!###Congrats, chickadee! Flitterific job! And come back anytime to help me again!###You did it, chickadee! Thanks to you, all the critters will snooze their way through winter!###Sweet dreams, little critters! And thanks, chickadee. I couldn't have done it without ya!###You're so good I almost fell asleep myself! I hope you can come back an' help again!</gameOverWin>
+		<gameOverLose>Don't worry, I'll get these little guys asleep. But I could always use your help again! Come back, okay?###Wow, this is a real fussy bunch o' nappers, huh? Don't worry, you can always come back to try again!###Talk about a tough crowd! But it's okay -- you'll play even better next time, right? Hope I see ya again soon!###Whoa, I've never met such a cranky bunch o' critters! Anytime you want to try again, I'd appreciate the help, okay?</gameOverLose>
+		<gameOverLabel>Total Score:</gameOverLabel>
+
+		<scoreMeterTitle>Sleepiness</scoreMeterTitle>
+		<scoreMeterBad>Awake</scoreMeterBad>
+		<scoreMeterGood>Zzzz</scoreMeterGood>
+
+		<!-- fawn dialog -->
+		<fawnCongratsRequiredNotes>Hooray! You've lulled the animals to sleep!</fawnCongratsRequiredNotes>
+		<fawnPlayerTargetsStart>Get ready to play!</fawnPlayerTargetsStart>
+		<fawnAutoplayTargetsStart>Watch me!</fawnAutoplayTargetsStart>
+		<fawnGoodNote>Good job!###Beautiful music!###Well played!###Great!###Perfect!!!###Keep on playing!###Perfect timing!###Awesome!###You're doing great!###Flitteriffic playing!###Keep the music going!</fawnGoodNote>
+		<fawnGoodTransition>Great job! You're helping that animal sleep!</fawnGoodTransition>
+		<fawnMissedNote>Wait until the arrow reaches the yellow bar!###Pay attention to the beat to help your timing.###Ooo, keep your eye on that music scroll!###Wait for the right moment before playing the notes!###Don't forget to look ahead to see what note is coming next!###Don't hit the notes too early or too late!</fawnMissedNote>
+		
+		<fawnWrongNote>Oops! Make sure you play the right notes!###O, wrong note! Watch the music scroll!###Don't just play any note - make sure it's the right note!###Gotta play the correct keys for each note!</fawnWrongNote>
+
+		<upperRightHudHeading>Notes Needed</upperRightHudHeading>
+		<sleepingAnimalsScorecard>###asleep### / ###total###</sleepingAnimalsScorecard>
+
+		<scorePopupRequired>+###score###</scorePopupRequired>
+		<scorePopupBonus>Bonus +###score###</scorePopupBonus>
+
+		<metLevelRequirement></metLevelRequirement>
+		<metLevelRequirementExtra>You're earning bonus notes!</metLevelRequirementExtra>
+		
+		<!-- Story -->		
+		<easy_story>This little mouse needs his nap, but he's having trouble falling asleep. Let's play a nice slow lullaby for him.</easy_story>
+		<medium_story>I want to see some yawns here! An' I know just the lullaby to play!</medium_story>
+		<hard_story>So many baby critters, and all so tired! Let's play a few different tunes to get 'em all nice an' sleepy.</hard_story>
+		<royal_story>Hm, what lullabies will get all these little guys sleepy at once? Oh, I know! Follow me!</royal_story>
+		
+		<easy_exitstory>Aw, you played that song perfectly. Good job! I'm sure the babies would love to hear you play anytime!</easy_exitstory>
+		<medium_exitstory>Say, you're pretty good with the lullabies, chickadee! Thanks for the help!</medium_exitstory>
+		<hard_exitstory>YAWN! Wow, I'm getting' tired myself! Good job, chickadee! Come back anytime!</hard_exitstory>
+		<royal_exitstory>Jumpin' jackrabbits, you really know how to play your lullabies! Thanks for helpin' me out!</royal_exitstory>
+		
+		<allmedium_story>Ooo, the baby critters have the yawns! Let's play more lullabies and get them to sleep!</allmedium_story>
+		<allhard_story>Looks like the first bunch of babies are happily snoozing. Now let's move to the next bunch!</allhard_story>
+		<allroyal_story>Look at all the babies we lulled to sleep! GREAT! Oops, shhh! I'd better not wake them. We still have a few more to help.</allroyal_story>
+		
+		<!-- UI: TUTORIAL -->
+		<hostname>Fawn</hostname>
+		<tutorial_next>NEXT</tutorial_next>
+		<tutorial_skip>Skip This</tutorial_skip>
+		<tutorial_continue>Continue</tutorial_continue>
+		<score_total>Your Score : </score_total>
+		<your_final_score>Your Final Score : </your_final_score>
+		<tutorial_replay>Play Again</tutorial_replay>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		<tutorial_finalscore_label>Let's play some sleepy lullabies!</tutorial_finalscore_label>
+		<tutorial_hudtitle>How to play</tutorial_hudtitle>
+		
+		
+		
+		<host_bubble_1>Now you try it!</host_bubble_1>
+		<host_bubble_1A>Use the same ARROW KEYS on your keyboard to play the notes.</host_bubble_1A>
+		<host_bubble_1B>Play the notes by PRESSING that direction with the ARROW KEYS!</host_bubble_1B>
+		<host_bubble_1C>Beautiful!</host_bubble_1C>
+		<host_bubble_2>Try again!</host_bubble_2>
+		<host_bubble_3>Let me show you!</host_bubble_3>
+		
+		<tutorial_title_goal>Goal</tutorial_title_goal>
+		<win_tutorial_secondText>Complete!</win_tutorial_secondText>
+		
+		<tutorial_stepIntro>Welcome to Drowsy Den! I'm gonna show you how to lull the baby critters to sleep with music.</tutorial_stepIntro>
+		<tutorial_step2>Play a soft lullaby by following the notes on the music scroll.</tutorial_step2>
+		<!--<tutorial_step4>When each note reaches the yellow bar, go ahead and play it!</tutorial_step4>-->
+		<tutorial_step6>When each note reaches the yellow bar, go ahead and play it.</tutorial_step6>
+		<tutorial_step8>Your turn! See if you can play some notes!</tutorial_step8>
+		<tutorial_step10>If you play the song just right, the baby critters will fall asleep!</tutorial_step10>
+		<tutorial_step12>Your turn! See if you can play some notes!</tutorial_step12>
+		<tutorial_step14>That's the way to do it!</tutorial_step14>
+		<tutorial_step16>Be careful, 'cuz if you hit the wrong note, the critters might wake up.</tutorial_step16>
+		<tutorial_step17>Now here's where to see how many notes you need to play.</tutorial_step17>
+		<tutorial_step18>This shows you how many music scrolls you have. If you make too many mistakes an' lose all the scrolls, the game is over.</tutorial_step18>
+		<tutorial_step22>I think you're ready to help some drowsy critters!</tutorial_step22>
+		<!--<tutorial_step22>Nice playing, chickadee! The little critter is happily snoozing away!</tutorial_step22>-->
+		
+	</copy>
+	<config>
+		<colorPalette>4</colorPalette>
+
+		<difficultyChoices layout="5small">
+            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"/>			
+			<difficultyChoice descriptor="royal" displayName="Royal" paidOnly="false"/>			
+			<difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"/>			
+		</difficultyChoices>
+		
+		<supportsTutorial>true</supportsTutorial>
+
+		<allowLevelWrapping>false</allowLevelWrapping> <!-- true if you want the guest to get to go back to the start if they finish, false if you want game to end then -->
+		<recordingMode>false</recordingMode>
+
+		<!-- Levels-->
+
+		<level type="xml">animalRhythmLevels/lv01_s1_1_dble_easy.xml</level>
+		<level type="xml">animalRhythmLevels/lv02_s1_2_dble_easy.xml</level>
+		<level type="xml">animalRhythmLevels/lv03_s3_1_dble_easy.xml</level>
+		<level type="xml">animalRhythmLevels/lv04_s3_2_dble_easy.xml</level>
+		<level type="xml">animalRhythmLevels/lv05_s3_3_dble_easy.xml</level>
+		<level type="xml">animalRhythmLevels/lv06_s5_1_dble_easy.xml</level>
+		<level type="xml">animalRhythmLevels/lv07_s5_23_easy.xml</level>
+		<level type="xml">animalRhythmLevels/lv08_s5_45_easy.xml</level>
+		<level type="xml">animalRhythmLevels/lv09_s1_1_dble_med.xml</level>
+		<level type="xml">animalRhythmLevels/lv10_s1_2_dble_med.xml</level>
+		<level type="xml">animalRhythmLevels/lv11_s3_1_dble_med.xml</level>
+		<level type="xml">animalRhythmLevels/lv12_s3_2_dble_med.xml</level>
+		<level type="xml">animalRhythmLevels/lv13_s3_3_dble_med.xml</level>
+		<level type="xml">animalRhythmLevels/lv14_s5_1_dble_med.xml</level>	
+		<level type="xml">animalRhythmLevels/lv15_s5_23_med.xml</level>	
+		<level type="xml">animalRhythmLevels/lv16_s5_45_med.xml</level>			
+		<level type="xml">animalRhythmLevels/lv17_s1_full_hard.xml</level>
+		<level type="xml">animalRhythmLevels/lv18_s3_full_hard.xml</level>
+		<level type="xml">animalRhythmLevels/lv19_s5_full_hard.xml</level>	
+		
+		<!-- these values can be overridden in individual level xml -->
+		<viewableMS_DEFAULT>3600</viewableMS_DEFAULT><!--viewableMS_DEFAULT used to be 2000-->
+		<losingLevelCountdown_DEFAULT>10000</losingLevelCountdown_DEFAULT>
+		<successMeterStart_DEFAULT>0</successMeterStart_DEFAULT>
+		<successMeterBadPenalty_DEFAULT>1</successMeterBadPenalty_DEFAULT>
+		<successMeterGoodReward_DEFAULT>1</successMeterGoodReward_DEFAULT>
+		<successMeterMultikeyMultiplier_DEFAULT>2</successMeterMultikeyMultiplier_DEFAULT>
+		<successMeterSustainMultiplier_DEFAULT>2</successMeterSustainMultiplier_DEFAULT>
+		<famousAvatarInstrument_DEFAULT>harp</famousAvatarInstrument_DEFAULT>
+		<playerAvatarInstrument_DEFAULT>harp</playerAvatarInstrument_DEFAULT>
+		<hitThreshold_DEFAULT>380</hitThreshold_DEFAULT> <!-- in ms, how close do you need to be used to be 120-->
+		<famousAvatarIdleCoordinates_DEFAULT>-1000,-1000</famousAvatarIdleCoordinates_DEFAULT>
+		<famousAvatarActiveCoordinates_DEFAULT>-1000,-1000</famousAvatarActiveCoordinates_DEFAULT>
+		<playerAvatarIdleCoordinates_DEFAULT>190,390</playerAvatarIdleCoordinates_DEFAULT>
+		<playerAvatarActiveCoordinates_DEFAULT>190,390</playerAvatarActiveCoordinates_DEFAULT>
+
+		<!-- 3 means 1/3 of the bar will be logical (hidden), rest is visual.  4 means 1/4 hidden.  So higher number means more visible. -->
+		<hiddenLogicalHitPortion_DEFAULT>3</hiddenLogicalHitPortion_DEFAULT>
+		<!-- if you want to see the entire logical area, set this to true.  NOT FOR REAL DEPLOYMENT!  Not level specific value either, just global -->
+		<debugLogicalHitArea>false</debugLogicalHitArea>
+
+		<!-- points -->
+		<goodNoteScore_DEFAULT>10</goodNoteScore_DEFAULT>
+		<goodMultikeyNoteScore_DEFAULT>20</goodMultikeyNoteScore_DEFAULT>
+		<goodSustainNoteMultiplier_DEFAULT>2</goodSustainNoteMultiplier_DEFAULT>
+		<goodBonusNoteMultiplier_DEFAULT>1.5</goodBonusNoteMultiplier_DEFAULT>
+		<endLevelMaxStreakMultiplier_DEFAULT>10</endLevelMaxStreakMultiplier_DEFAULT>
+		<endLevelSleepingAnimalsMultiplier_DEFAULT>100</endLevelSleepingAnimalsMultiplier_DEFAULT>
+
+		<!-- animal defaults. Squirrel must correspond to the "type" in a level "animal" node, which corresponds to a library clip in the fla -->
+		<animalDefaults_Mouse_wakeStates>0-0, 1-8, 9-19, 20-130</animalDefaults_Mouse_wakeStates>
+		<animalDefaults_Mouse2_wakeStates>0-7, 8-17, 18-29, 30-130</animalDefaults_Mouse2_wakeStates>
+		<animalDefaults_Chipmunk_wakeStates>0-11, 12-25, 26-43, 44-130</animalDefaults_Chipmunk_wakeStates>
+		<animalDefaults_Squirrel_wakeStates>0-15, 16-31, 32-49, 50-130</animalDefaults_Squirrel_wakeStates>
+		<animalDefaults_Rabbit_wakeStates>0-19, 20-43, 44-69, 70-130</animalDefaults_Rabbit_wakeStates>
+		
+		<playerLives>3</playerLives>
+		<successMeterMin>0</successMeterMin>
+		<successMeterMax>130</successMeterMax>
+
+		<!-- after an animal finishes an animation cycle, wait this many frames before starting up again -->
+		<animalIdleAnimationFrames>128</animalIdleAnimationFrames>
+		<animalIdleAnimationPadder>20</animalIdleAnimationPadder>
+
+		<targetWidth>56</targetWidth>
+
+		<!-- positions - these can be used in placement of animals/nests instead of having to specify x/y coords each time -->
+		<position name="bunny" x="40" y="210"/>
+		<position name="mouse" x="270" y="270"/>
+		<position name="mouse2" x="380" y="270"/>
+		<position name="chipmunk" x="475" y="210"/>	
+		<position name="squirrel" x="665" y="200"/>	
+
+		<levelCompletionDelay>15</levelCompletionDelay>
+
+		<hostFrameReset>120</hostFrameReset> <!-- when host mood/text changes, we reset to neutral after this many frames -->
+
+		<instrumentAnimation instrument="flute" keyTrigger="UP" startFrame="1" endFrame="24"/>
+		<instrumentAnimation instrument="flute" keyTrigger="DOWN" startFrame="25" endFrame="48"/>
+		<instrumentAnimation instrument="flute" keyTrigger="LEFT" startFrame="49" endFrame="72"/>
+		<instrumentAnimation instrument="flute" keyTrigger="RIGHT" startFrame="73" endFrame="96"/>
+
+		<instrumentAnimation instrument="harp" keyTrigger="UP" startFrame="1" endFrame="24"/>
+		<instrumentAnimation instrument="harp" keyTrigger="DOWN" startFrame="25" endFrame="48"/>
+		<instrumentAnimation instrument="harp" keyTrigger="LEFT" startFrame="49" endFrame="72"/>
+		<instrumentAnimation instrument="harp" keyTrigger="RIGHT" startFrame="73" endFrame="96"/>
+
+		<instrumentAnimation instrument="horn" keyTrigger="UP" startFrame="1" endFrame="24"/>
+		<instrumentAnimation instrument="horn" keyTrigger="DOWN" startFrame="25" endFrame="48"/>
+		<instrumentAnimation instrument="horn" keyTrigger="LEFT" startFrame="49" endFrame="72"/>
+		<instrumentAnimation instrument="horn" keyTrigger="RIGHT" startFrame="73" endFrame="96"/>
+
+		<roundedArrowUpdates>true</roundedArrowUpdates>
+		<noteRenderPerFrames>1</noteRenderPerFrames>
+
+		<scorePopupCoordinates>230,400</scorePopupCoordinates>
+
+		<instrumentPosition type="horn" male="5,-5" female="5,-5"/>
+		<instrumentPosition type="flute" male="3,-3" female="3,-3"/>
+		<instrumentPosition type="harp" male="5,0" female="5,0"/>
+	</config>
+</panel>

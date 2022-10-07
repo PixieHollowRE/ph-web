@@ -1,0 +1,95 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/bboardConstruction.swf</swf>
+		<swf type="code">{panelCode}/BBoardConstruction.swf</swf>
+	</swfs>
+	<copy>
+		<title>Pixie Postings</title>
+		<cat1name>From the Mainland</cat1name>
+		<cat2name>Seasonal Scoop</cat2name>
+		<cat3name>Tabby's Tell-All</cat3name>
+		<cat4name>Featured Items</cat4name>
+		<cat5name>Brilliant Badges</cat5name>
+		<cat6name>Featured Homes</cat6name>
+		<cat7name>Countdown to %SEASON</cat7name>
+		<spring>Spring</spring>
+		<summer>Summer</summer>
+		<fall>Fall</fall>
+		<winter>Winter</winter>
+		<text target="background.leave.caption">Close</text>
+		<text target="background.boardLabel">Pixie Postings</text>
+		<text target="content.seasoncountholder.title">Pixie Postings</text>
+		<text target="content.seasoncountholder.daysuntil">Days Until</text>
+		<rwqPaper>Visit Kit</rwqPaper>
+		<partypostit>Fairy Parties!</partypostit>
+		<closebtn>Fly To Meadow</closebtn>
+		<clockpaper>Pixie Standard Time</clockpaper>
+		<countdownTillNextSeason>Count Down Till Next Season</countdownTillNextSeason>
+		<countFromStartOfSeason>It's #SEASON#!!</countFromStartOfSeason>
+		<tooltip>Pixie Standard Time</tooltip>
+		<lastposttoday>Last Posted: Today</lastposttoday>
+		<lastposted1day>Last Posted: #DAYS# day ago</lastposted1day>
+		<lastposteddays>Last Posted: #DAYS# days ago</lastposteddays>
+	</copy>
+	<config>
+		<dummyMode>true</dummyMode>
+		<dummyNewsResponse>xml/demoResponses/FairiesNewsResponse.xml</dummyNewsResponse>
+		<maxNewsRetrievalAttempts>5</maxNewsRetrievalAttempts>
+		<nextSeason>fall</nextSeason>
+		<showseasonbannerdays>7</showseasonbannerdays>
+		<numOfSpots>4</numOfSpots>
+		<categories>
+			<category id="default">
+				<name>defaultName</name>
+				<leaf>leaf1</leaf>
+			</category>
+			<category id="mainland">
+				<name>cat1name</name>
+				<leaf>leaf1</leaf>
+			</category>
+			<category id="seasonalScoop">
+				<name>cat2name</name>
+				<leaf>leaf2</leaf>
+			</category>
+			<category id="tellAll">
+				<name>cat3name</name>
+				<leaf>leaf3</leaf>
+			</category>
+			<category id="brilliantBadges">
+				<name>cat4name</name>
+				<leaf>leaf4</leaf>
+			</category>
+			<!--<category id="featuredHomes">
+				<name>cat6name</name>
+				<leaf>leaf6</leaf>
+			</category>-->		
+		</categories>
+		<styles>
+			<default>1</default>
+			<style id="1">
+				<spots>4</spots>
+				<spot id="1">1</spot>
+				<spot id="2">2</spot>
+				<spot id="3">3</spot>
+				<spot id="4">4</spot>
+				<!--<spot id="5">3</spot>-->
+			</style>
+			<style id="2">
+				<spots>4</spots>
+				<spot id="1">1</spot>
+				<spot id="2">2</spot>
+				<spot id="3">3</spot>
+				<spot id="4">4</spot>
+				<!--<spot id="5">6</spot>-->
+			</style>
+			<style id="3">
+				<spots>4</spots>
+				<spot id="1">1</spot>
+				<spot id="2">2</spot>
+				<spot id="3">3</spot>
+				<spot id="4">4</spot>
+				<!--<spot id="5">6</spot>-->
+			</style>			
+		</styles>				
+	</config>
+</panel>

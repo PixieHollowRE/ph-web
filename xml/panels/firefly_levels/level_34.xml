@@ -1,0 +1,169 @@
+<level>
+
+<!-- Testing whether moths can hide outside the frame. -->
+
+	<light x = "95" y = "303">blue</light>
+	<light x = "783" y = "203">blue</light>
+	<light x = "95" y = "203">yellow</light>
+	<light x = "783" y = "303">yellow</light>
+
+
+<!-- moth #1 of 4 -->
+	<firefly image="moth">
+		<path >
+			<point x="10" y="520" />
+			<point x="-10" y="520" />		
+			<point x="10" y="510" />		
+		</path>
+		<speed>10</speed>
+		<turnspeed>0.4</turnspeed>
+		<attract>50</attract>
+		<type>moth</type>
+	</firefly>
+
+<!-- moth #2 of 4 -->
+	<firefly image="moth">
+		<path >
+			<point x="868" y="520" />
+			<point x="888" y="520" />
+			<point x="868" y="510" />		
+		</path>
+		<speed>10</speed>
+		<turnspeed>0.4</turnspeed>
+		<attract>50</attract>
+		<type>moth</type>
+	</firefly>
+
+<!-- moth #3 of 4 -->
+	<firefly image="moth">
+		<path >
+			<point x="30" y="10" />
+			<point x="10" y="10" />
+			<point x="30" y="20" />		
+		</path>
+		<speed>10</speed>
+		<turnspeed>0.4</turnspeed>
+		<attract>50</attract>
+		<type>moth</type>
+	</firefly>
+
+<!-- moth #4 of 4 -->
+	<firefly image="moth">
+		<path >
+			<point x="848" y="10" />
+			<point x="868" y="10" />		
+			<point x="848" y="20" />		
+		</path>
+		<speed>10</speed>
+		<turnspeed>0.4</turnspeed>
+		<attract>50</attract>
+		<type>moth</type>
+	</firefly>
+
+<!-- firefly #1 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">	
+			<startPoint x="590" y="355" />						
+			<topLeft x="470" y="280" />
+			<bottomRight x="710" y="430"/>
+			<waitFrameCountMax value="2" />			
+			<stopRange value = "50" />
+		</path>
+		<drift>30</drift>
+		<speed>10</speed>
+	</firefly>
+
+<!-- firefly #2 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">	
+			<startPoint x="590" y="355" />						
+			<topLeft x="470" y="280" />
+			<bottomRight x="710" y="430"/>
+			<waitFrameCountMax value="2" />			
+			<stopRange value = "50" />
+		</path>
+		<drift>30</drift>
+		<speed>8</speed>
+	</firefly>
+
+<!-- firefly #3 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">	
+			<startPoint x="590" y="355" />						
+			<topLeft x="470" y="280" />
+			<bottomRight x="710" y="430"/>
+			<waitFrameCountMax value="2" />			
+			<stopRange value = "50" />
+		</path>
+		<drift>30</drift>
+		<speed>6</speed>
+	</firefly>
+
+<!-- firefly #4 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">	
+			<startPoint x="590" y="355" />						
+			<topLeft x="470" y="280" />
+			<bottomRight x="710" y="430"/>
+			<waitFrameCountMax value="2" />			
+			<stopRange value = "50" />
+		</path>
+		<drift>30</drift>
+		<speed>4</speed>
+	</firefly>
+
+<!-- firefly #5 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">	
+			<startPoint x="290" y="145" />						
+			<topLeft x="410" y="220" />
+			<bottomRight x="170" y="70"/>
+			<waitFrameCountMax value="2" />			
+			<stopRange value = "50" />
+		</path>
+		<drift>30</drift>
+		<speed>10</speed>
+	</firefly>
+
+<!-- firefly #6 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">	
+			<startPoint x="290" y="145" />						
+			<topLeft x="410" y="220" />
+			<bottomRight x="170" y="70"/>
+			<waitFrameCountMax value="2" />			
+			<stopRange value = "50" />
+		</path>
+		<drift>30</drift>
+		<speed>8</speed>
+	</firefly>
+
+<!-- firefly #7 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">	
+			<startPoint x="290" y="145" />						
+			<topLeft x="410" y="220" />
+			<bottomRight x="170" y="70"/>
+			<waitFrameCountMax value="2" />			
+			<stopRange value = "50" />
+
+		</path>
+		<drift>30</drift>
+		<speed>6</speed>
+	</firefly>
+
+<!-- firefly #8 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">	
+			<startPoint x="290" y="145" />						
+			<topLeft x="410" y="220" />
+			<bottomRight x="170" y="70"/>
+			<waitFrameCountMax value="2" />			
+			<stopRange value = "50" />
+
+		</path>
+		<drift>30</drift>
+		<speed>4</speed>
+	</firefly>
+
+</level>

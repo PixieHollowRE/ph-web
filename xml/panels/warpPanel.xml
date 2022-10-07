@@ -1,0 +1,24 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/warpPanel.swf</swf>
+		<swf type="code">{panelCode}/warpPanel.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<warpTypes>
+			<warp id="WARP_MISSING_ANIMAL_FRIEND">
+				<buttonLabel>Visit Beck's</buttonLabel>
+				<mainCopy>You need an Animal Friend.</mainCopy>
+				<targetZone>115000</targetZone>
+				<image>warpAsset_petShop</image>
+			</warp>
+			<warp id="WARP_NOT_WEARING_TREAT_BAG">
+				<buttonLabel>Visit Cassie's</buttonLabel>
+				<mainCopy>You need to be wearing the treat bag.</mainCopy>
+				<targetZone>110004</targetZone>
+				<image>warpAsset_cassieHalloween</image>
+			</warp>
+		</warpTypes>
+	</config>
+</panel>

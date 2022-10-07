@@ -1,0 +1,49 @@
+<page>
+	<config>
+		<tagline>
+		
+			<tagline align="center" font="pristina" title="true" titlex="50" titley="0" yOffset="20">tagline</tagline>
+		</tagline>
+		<fairystory>
+			<control>body1</control>
+			<control>body2</control>
+			<control>body3</control>
+			<control>body4</control>
+			<control>body5</control>
+			<control>body6</control>
+			<control>body7</control>
+			<control>body8</control>
+			<control>body9</control>
+			<control>body10</control>
+			<!--<control>body11</control>-->
+			<control>body12</control>
+			<control>body13</control>
+		</fairystory>
+
+		<entrybutton type="multicolumn">
+				<button btntype="btn_blue" type="button" xOffset="320" yOffset="10" url="http://a.disney.go.com/fairies/pixiehollow/pdfs/fairystory_v3.pdf"  target="blank"><![CDATA[<span class="newsbodytext">Download</span>]]></button>
+    </entrybutton>
+
+	</config>
+	
+	<copy>
+		<tagline><![CDATA[<span class="newsbodytext">Fairy Story</span>]]></tagline>
+		<header><![CDATA[<span class="newsbodytext">The Pixie Hollow Code of Conduct</span>]]></header>
+		
+		<body1><![CDATA[<span class="newsbodytext">The changing of the seasons is like magic, isn't it? Spring flowers seem to know just when to bloom. Summer berries seem to know just when to ripen. In autumn, leaves seem to know just the right moment to drop from their branches.<br><br></span>]]></body1>
+		<body2><![CDATA[<span class="newsbodytext">How does all this happen? Who gathers flower petals as they float on the breeze or chooses the perfect dewdrops to place on blades of grass? The seasons are full of so many details. How do they all come together so smoothly?<br><br></span>]]></body2>
+		<body3><![CDATA[<span class="newsbodytext">The answer is simple: It is all because of Fairies. The Fairies in Pixie Hollow are real, and it is their hard work that brings each season to the mainland.<br><br></span>]]></body3>
+		<body4><![CDATA[<span class="newsbodytext">Fairies live in the heart of Never Land in a place called Pixie Hollow. This magical domain spreads out in all directions and is divided into the four seasons: To the east lies lovely Spring Valley, golden-hued Autumn Forest is found to the west, the ever-snowy Winter Woods is to the north, and warm, sunny Summer Glade lies to the south.<br><br></span>]]></body4>
+		<body5><![CDATA[<span class="newsbodytext">Pixie Hollow's Fairies ensure that nature stays in balance, and that each season arrives just as it should. And fortunately for Fairies, work is play!<br><br></span>]]></body5>
+		<body6><![CDATA[<span class="newsbodytext">Are you ready to lend Tinker Bell and her friends a hand?<br><br></span>]]></body6>
+		<body7><![CDATA[<span class="newsbodytext">The water-talent Fairy, Silvermist, is always looking for help Bubble Bouncing fish upstream -- she needs to make sure they stay in Spring Valley's cool waters.<br><br></span>]]></body7>
+		<body8><![CDATA[<span class="newsbodytext">Iridessa, a light-talent Fairy, could use an extra pair of wings to help her light the fireflies -- they'll be needed when the Fairies bring summer to the mainland.<br><br></span>]]></body8>
+		<body9><![CDATA[<span class="newsbodytext">Rosetta, a garden-talent Fairy, really appreciates friends who help her catch much-needed flower petals as they flutter in the breeze.<br><br></span>]]></body9>
+		<body10><![CDATA[<span class="newsbodytext">And let's not forget the animal-talent Fairy Fawn, who can usually be found in the Pumpkin Patch gathering nuts and berries for all the animals preparing to settle in for the winter. She always appreciates a little help with her Harvest Hustle.<br><br></span>]]></body10>
+		<!--<body11><![CDATA[<span class="newsbodytext">When you're done, spend some time flying through Spring Valley and perhaps make a stop in Autumn Forest. You'll find you can gather everything from daisy and buttercup petals to blueberries and maple leaves. When you have enough, donate them to the Pixie Hollow community to earn special badges, or visit one of Pixie Hollow's shops and trade them for new clothes or furniture for your Fairy home.<br><br></span>]]></body11>-->
+		<body12><![CDATA[<span class="newsbodytext">Don't forget to make new friends along the way. Fairies make sure there is always plenty of time for fun. They love chatting, playing games, and making new friends!<br><br></span>]]></body12>
+		<body13><![CDATA[<span class="newsbodytext">It's a good thing Fairies are here to watch over nature. They ensure that it stays in balance -- and they love doing it.<br><br></span>]]></body13>
+		
+	</copy>
+	
+</page>

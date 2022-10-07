@@ -1,0 +1,128 @@
+<zone>
+  <name>Mosswall Cottage</name>
+  <zoneID>904</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>home_music_tinker</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <clientLayout>
+    <layers>
+      <layer type="ground" width="7714" height="4671">
+        <image x="3354" y="2031" type="none">TinkerHome_action02.swf</image>
+        <image x="3354" y="2031" type="none" party="1">tinker_flag_party_02.swf</image>
+        <image x="3354" y="2031" type="none" party="2">tinker_flower_party_02.swf</image>
+        <image x="3354" y="2031" type="none" party="3">tinker_lighting_party_02.swf</image>
+		<image x="3354" y="2031" type="none" party="4">TinkerHome_winter_action02.swf</image>
+		<image x="3354" y="2031" type="none" party="5">TinkerHome_spring_action02.swf</image>
+		<image x="3354" y="2031" type="none" party="6">TinkerHome_summer_action02.swf</image>
+		<image x="3354" y="2031" type="none" party="7">TinkerHome_autumn_action02.swf</image>
+      </layer>
+      <layer type="normal" width="9315" height="5175">
+        <image x="4050" y="2200" type="none">TinkerHome_dust01.swf</image>
+      </layer>
+      <layer type="normal" width="8280" height="5023">
+		<image x="3600" y="2184" type="none">TinkerHome_foreground00.swf</image>
+        <image x="3600" y="2184" type="merge" party="1">tinker_flag_party_04.swf</image>
+        <image x="3600" y="2184" type="merge" party="2">tinker_flower_party_04.swf</image>
+        <image x="3600" y="2184" type="merge" party="3">tinker_lighting_party_04.swf</image>
+		<image x="3600" y="2184" type="none" party="4">TinkerHome_winter_foreground00.swf</image>
+		<image x="3600" y="2184" type="none" party="5">TinkerHome_spring_foreground00.swf</image>
+		<image x="3600" y="2184" type="none" party="6">TinkerHome_summer_foreground00.swf</image>
+		<image x="3600" y="2184" type="none" party="7">TinkerHome_autumn_foreground00.swf</image>
+      </layer>
+    </layers>
+    <validArea>
+      <vertex x="3450" y="2200"/>
+      <vertex x="4375" y="2200"/>
+      <vertex x="4375" y="2595"/>
+      <vertex x="3450" y="2595"/>
+    </validArea>
+  </clientLayout>
+  <locations>
+    <location x="3685" y="2442">frontDoor</location>
+    <location x="3815" y="2416">signPost</location>
+    <location x="3950" y="2525">animalFriend</location>
+    <location x="3850" y="2575">meadowSurprise1</location>
+    <location x="4050" y="2575">meadowSurprise3</location>
+    <location x="3700" y="2540">meadowSurprise4</location>
+    <location x="4200" y="2575">meadowSurprise5</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>home_music_tinker</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.1855</volumeHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  <validArea type="polygon">
+    
+    <vertex x="3450" y="2200"/>
+    
+    <vertex x="4375" y="2200"/>
+    
+    <vertex x="4375" y="2595"/>
+    
+    <vertex x="3450" y="2595"/>
+    
+  </validArea>
+  
+  <rooms>
+    
+    <room index="1" x="3919" y="2381">
+      
+      <bounds type="box">
+        
+        <left>3415</left>
+        
+        <right>4389</right>
+        
+        <top>2116</top>
+        
+        <bottom>2640</bottom>
+        
+      </bounds>
+      
+      <nearPlane>
+        
+        <left>3415</left>
+        
+        <right>4389</right>
+        
+        <top>2116</top>
+        
+        <bottom>2640</bottom>
+        
+      </nearPlane>
+      
+      <farPlane>
+        
+        <left>3415</left>
+        
+        <right>4389</right>
+        
+        <top>2116</top>
+        
+        <bottom>2640</bottom>
+        
+      </farPlane>
+      
+    </room>
+    
+  </rooms>
+  
+  <decorations/>
+  
+</zone>

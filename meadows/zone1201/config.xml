@@ -1,0 +1,24 @@
+<zone>
+  <name>Pixie Postings</name>
+  <zoneID>1201</zoneID>
+  <assetURL/>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <layers>
+    <layer type="ground" width="924" height="532">
+      <image x="30" y="10" type="none">postingsConstructionBG.swf</image>
+    </layer>
+  </layers>
+  <locations>
+    <location x="895" y="50">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>meadow_music_spring_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.185</volumeHigh>
+    </bgm>
+  </bgms>
+  <maximumSpawnStacks/>
+  <decorations/>
+</zone>

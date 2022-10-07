@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+
+		<meta property="og:image" content="http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/facebook/generic.png" />
+
+<script type="text/javascript">
+	var PROTOCOL = (window.location.protocol && window.location.protocol == 'https:') ? 'https' : 'http';
+
+	var PATH = {
+		root:		'http://disney.go.com/fairies',
+		SSLRoot:	'https://disney.go.com/fairies',
+		API:		'http://apps.ladev3.fairies.go.com/fairies/api',
+		SSLAPI:		'http://apps.ladev3.fairies.go.com/fairies/api',
+		renderer:	PROTOCOL + '://apps.pixiehollow.go.com/fairies-render',
+		goKart:		'https://register.go.com/fairies/pixiehollow',
+		blog:		'http://blog.pixiehollow.go.com/blog',
+		DXD:		PROTOCOL + '://apps.dxd.go.com/dxd/flashAPI',
+		CDN:		PROTOCOL + '://' + ((PROTOCOL == 'https') ? 's.dolimg.com' : 'cdn.dolimg.com') + '/franchise/fairies',
+		UGC:		'http://premium.disney.go.com/fairies2',
+		globalElements: '//' + ((PROTOCOL == 'https') ? 'home' : 'ahome') + '.disney.go.com/globalelements'
+	};
+
+	document.write('<link href="' + PATH.CDN + '/wings.ico" rel="icon" type="image/x-icon" />');
+	document.write('<link href="' + PATH.CDN + '/wings.ico" rel="shortcut icon" type="image/x-icon" />');
+
+	document.write('<link rel="stylesheet" type="text/css" href="' + PATH.CDN + '/pixie-hollow/css/combinded.css" media="screen" />');
+	document.write('<link rel="stylesheet" type="text/css" href="' + PATH.CDN + '/pixie-hollow/css/print.css" media="print" />');
+	document.write('<scr' + 'ipt type="text/javascript" src="' + PATH.CDN + '/pixie-hollow/js/head.js"></scr' + 'ipt>');
+</script>
+<script type="text/javascript">
+	head.ready('plugin', function() {
+		var flashvars = { ready: '$.flashProxy.init' };
+		var params = { menu: 'false', wmode: 'transparent', quality: 'best', scale: 'noscale', allowScriptAccess: 'always' };
+		var attributes = { };
+		swfobject.embedSWF('swf/proxy.swf', 'flash-proxy', '1', '1', '10', null, flashvars, params, attributes);
+	});
+
+	head.ready('dom', function() {
+		head.js({ plugin: PATH.CDN + '/pixie-hollow/js/plugin.js' }, function() {
+			window.fairies = new Fairies();
+			fairies.API = new API();
+			fairies.miniManager = new MiniManager({
+				selectors: {
+					loginForm: '#login-form',
+					login: '#login-form .submit-button',
+					loginPopup: '.popup-manager',
+					promo: '.popup-promo',
+					content: '.popup-manager .popup-info',
+					selectFairy: '.popup-manager .popup-info .fairy',
+					playFairy: '.popup-manager .popup-info .button-game',
+					pixiePage: '.popup-manager .popup-info .button-pixie-page',
+					createFairy: '.popup-manager .popup-info .button-create',
+					deleteFairy: '.popup-manager .popup-info .fairy .delete-fairy',
+					loader: 'mini-manager-loader',
+					loaderContainer: '.popup-manager .popup-info .loader-container'
+				},
+				calls: {
+					login: PATH.SSLAPI + '/AccountLoginRequest',
+					deleteFairy: PATH.SSLAPI + '/FairiesDeleteFairyRequest',
+					game: 'live.html',
+					pixiePage: 'pixie-pages/index.html',
+					createFairy: 'create.html',
+					renderer: PATH.renderer + '/render/',
+					signup: PATH.SSLRoot + '/pixie-hollow/membership/registration.html',
+					purchase: PATH.SSLRoot + '/pixie-hollow/membership/purchase.html',
+					membershipInfo: PATH.root + '/pixie-hollow/membership/',
+					loyaltyXML: PATH.CDN + '/pixie-hollow/xml/loyalty.xml',
+					loyaltySWF: PATH.CDN + '/pixie-hollow/swf/loyalty.swf',
+					loaderSWF: PATH.CDN + '/pixie-hollow/swf/loader.swf',
+					membershipIcon: PATH.CDN + '/pixie-hollow/img/content/mini-manager/icon.membership.png',
+					pixiePostingText: PATH.CDN + '/pixie-hollow/img/content/mini-manager/pixie-posting-text.png'
+				},
+				promos: {
+					chooseAFairy: PATH.CDN + '/pixie-hollow/img/publishing/mini-manager/promo.choose-fairy.jpg',
+					login: PATH.CDN + '/pixie-hollow/img/publishing/mini-manager/promo.login.jpg'
+				}
+			});
+			fairies.popup = new Popup();
+			
+			fairies.API.listen('whoAmI', function() { fairies.API.openMiniManager(); });
+		});
+	});
+</script>
+
+
+		<title>How to Get Help | Parents | Pixie Hollow | Disney Fairies</title>
+
+		<meta name="Description" content="Find answers to your questions about your child's Pixie Hollow account." />
+		<meta name="Keywords" content="Parent help, help for parents, child account help, parent assistance ,assitance for parents, child account assistance, parent question, child account question" />
+	</head>
+	<body id="template-interior">
+		<div id="popup-fade" style="display: block; position: inherit;">
+			<div class="popup popup-manager" style="display: block;">
+				<a href="#" class="close-button popup-close"><span>Close</span></a>
+				<div class="popup-logo">
+					<span>Disney Fairies Pixie Hollow</span>
+				</div>
+				<div class="popup-promo">
+					<div class="top-extras"></div>
+					<img src="https://s.dolimg.com/franchise/fairies/pixie-hollow/img/misc/blank.gif" width="363" height="361" alt="" />
+					<div class="bottom-extras"></div>
+				</div>
+				<div class="popup-info">
+					<div class="loader-container"><div id="mini-manager-loader"></div></div>
+					<div class="login">
+						<h2>Log In</h2>
+						<p>
+							If you previously registered here or at any other Disney site, you can log in below with your existing Account ID and Password.
+						</p>
+			
+						<form id="login-form" method="post" action="/" onsubmit="return false;">
+							<h5>Account ID</h5>
+							<p>
+								<input type="text" class="text-input" name="username" tabindex="1" />
+							</p>
+							<div class="forgot-link">
+								<a href="https://register.go.com/global/fairies/recoverMemberNames?affiliateName=Disney_Fairies&appRedirect=http%3A%2F%2Fpixiehollow.com" target="_blank">Forgot Account ID</a>
+							</div>
+			
+							<h5>Password</h5>
+							<p>
+								<input type="password" class="text-input" name="password" tabindex="2" />
+							</p>
+							<div class="forgot-link">
+								<a href="https://register.go.com/global/fairies/recoverPassword?affiliateName=Disney_Fairies&appRedirect=http%3A%2F%2Fpixiehollow.com" target="_blank">Forgot Password?</a>
+							</div>
+			
+							<p>
+								<div class="clear">&nbsp;</div>
+							</p>
+			
+							<p class="center">
+								<a href="#" class="button-orange submit-button"><span>Log In</span></a>
+							</p>
+						</form>
+					</div>
+					<div class="choose">
+						
+					</div>
+				</div>
+			</div>		
+		</div>
+		<div id="container">
+			<div id="header">
+<div id="flash-proxy">
+</div>
+
+<div class="member-info">
+	<div class="member-info-content">
+	</div>
+</div>
+<script type="text/javascript">
+	head.ready('plugin', function() {
+		fairies.preload([
+			PATH.CDN + '/pixie-hollow/img/templates/popup/manager.png'
+		]);
+	});
+</script>
+			</div>
+			<div id="footer">
+			</div>
+	</body>
+</html>

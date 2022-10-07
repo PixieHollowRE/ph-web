@@ -1,0 +1,102 @@
+<zone>
+  <name>Lotus Loft</name>
+  <zoneID>704</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>home_music_water</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <layers>
+    <layer type="normal" width="6348" height="3795">
+      <image x="2760" y="1650">../home4/background_04.swf</image>
+    </layer>
+    <layer type="ground" width="7714" height="4671">
+      <image x="3354" y="2031">../home4/action_03.swf</image>
+    </layer>
+    <layer type="normal" width="8025" height="4865">
+      <image x="3489" y="2115">../home4/toplight_02.swf</image>
+    </layer>
+    <layer type="normal" width="8280" height="5706">
+      <image x="3600" y="2481">../home4/foreground_01.swf</image>
+    </layer>
+  </layers>
+  <locations>
+	<location x="3934" y="2359">default</location>
+    <location x="4239" y="2391">frontDoor</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>home_music_water</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.1855</volumeHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  
+  
+  
+  
+  
+  
+  <validArea type="polygon">
+    
+    <vertex x="3445" y="2190"/>
+    <vertex x="4400" y="2190"/>
+    <vertex x="4400" y="2600"/>
+    <vertex x="3445" y="2600"/>
+    
+  </validArea>
+  
+  <rooms>
+    
+    <room index="1" x="3919" y="2381">
+      
+      <bounds type="box">
+        
+        <left>3489</left>
+        
+        <right>4315</right>
+        
+        <top>2190</top>
+        
+        <bottom>2547</bottom>
+        
+      </bounds>
+      
+      <nearPlane>
+        
+        <left>3510</left>
+        
+        <right>4329</right>
+        
+        <top>2221</top>
+        
+        <bottom>2571</bottom>
+        
+      </nearPlane>
+      
+      <farPlane>
+        
+        <left>3584</left>
+        
+        <right>4244</right>
+        
+        <top>2221</top>
+        
+        <bottom>2471</bottom>
+        
+      </farPlane>
+      
+    </room>
+    
+  </rooms>
+  
+  
+  
+  <decorations/>
+  
+</zone>

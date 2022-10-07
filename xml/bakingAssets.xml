@@ -1,0 +1,723 @@
+<BakingItems>
+  
+  <copy>
+    
+    <item22501>Acorn Cookie</item22501>
+    
+    <plural22501>Acorn Cookies</plural22501>
+    
+    <desc22501>A basic cookie - simple but tasty - restores 10 smidges of Pixie Dust.</desc22501>
+    
+    <item22502>Sunflower Cookie</item22502>
+    
+    <plural22502>Sunflower Cookies</plural22502>
+    
+    <desc22502>This sunflower seed cookie restores 20 smidges of Pixie Dust!</desc22502>
+    
+    <item22503>Honey Cookie</item22503>
+    
+    <plural22503>Honey Cookies</plural22503>
+    
+    <desc22503>A tasty cookie with honey frosting - restores 30 smidges of Pixie Dust.</desc22503>
+    
+    <item22504>Raspberry Cookie</item22504>
+    
+    <plural22504>Raspberry Cookies</plural22504>
+    
+    <desc22504>Raspberry frosting tops this cookie - restores 40 smidges of Pixie Dust!</desc22504>
+    
+    <item22505>Blueberry Cookie</item22505>
+    
+    <plural22505>Blueberry Cookies</plural22505>
+    
+    <desc22505>A sweet, fruity cookie that restores 50 smidges of Pixie Dust.</desc22505>
+    
+    <item22506>Honey Maple Cookie</item22506>
+    
+    <plural22506>Honey Maple Cookies</plural22506>
+    
+    <desc22506>If you have a sweet-tooth this cookie is for you - restores 60 smidges of Pixie Dust!</desc22506>
+    
+    <item22507>Truffle Cookie</item22507>
+    
+    <plural22507>Truffle Cookies</plural22507>
+    
+    <desc22507>Try the sweet truffle taste of this cookie - restores 70 smidges of Pixie Dust.</desc22507>
+    
+    <item22508>Honey Truffle Cookie</item22508>
+    
+    <plural22508>Honey Truffle Cookies</plural22508>
+    
+    <desc22508>This cookie has sweet AND savory flavors - restores 80 smidges of Pixie Dust!</desc22508>
+    
+    <item22509>Raspberry Truffle Cookie</item22509>
+    
+    <plural22509>Raspberry Truffle Cookies</plural22509>
+    
+    <desc22509>Raspberry adds a nice zing to this cookie - restores 90 smidges Pixie Dust.</desc22509>
+    
+    <item22510>Blueberry Truffle Cookie</item22510>
+    
+    <plural22510>Blueberry Truffle Cookies</plural22510>
+    
+    <desc22510>A savory cookie with blueberry frosting - restores 100 smidges of Pixie Dust!</desc22510>
+    
+    <item22511>S'more</item22511>
+    
+    <plural22511>S'mores</plural22511>
+    
+    <desc22511>Available just in time for Camp Pixie Dust - restores 10 smidges of Pixie Dust!</desc22511>
+    
+    <item22512>Pumpkin Cake</item22512>
+    
+    <plural22512>Pumpkin Cakes</plural22512>
+    
+    <desc22512>Available during the Fairy Feast - restores 10 smidges of Pixie Dust.</desc22512>
+    
+    <item22513>Clover Cookie</item22513>
+    
+    <plural22513>Clover Cookies</plural22513>
+    
+    <desc22513>Available during the Spring Celebration - restores 10 smidges of Pixie Dust.</desc22513>
+    
+    <item22514>Pink Silly Sweet</item22514>
+    
+    <plural22514>Pink Silly Sweets</plural22514>
+    
+    <desc22514>Eat your way to the brightest Cupcake Pink skin with this yummy cupcake.</desc22514>
+    
+    <item22515>White Silly Sweet</item22515>
+    
+    <plural22515>White Silly Sweets</plural22515>
+    
+    <desc22515>Enjoy the snowiest Snow White skin with this yummy cupcake.</desc22515>
+    
+    <item22516>Blue Silly Sweet</item22516>
+    
+    <plural22516>Blue Silly Sweets</plural22516>
+    
+    <desc22516>Be bold in Silvermist Blue skin when you eat this yummy cupcake.</desc22516>
+    
+    <item22517>Gray Silly Sweet</item22517>
+    
+    <plural22517>Gray Silly Sweets</plural22517>
+    
+    <desc22517>Feeling gray today? Eat this cupcake and your skin will be Squirrel Gray too.</desc22517>
+    
+    <item22518>Green Silly Sweet</item22518>
+    
+    <plural22518>Green Silly Sweets</plural22518>
+    
+    <desc22518>All will be green with envy when they see your skin after eating this sweet.</desc22518>
+    
+    <item22519>Purple Silly Sweet</item22519>
+    
+    <plural22519>Purple Silly Sweets</plural22519>
+    
+    <desc22519>Pop goes the purple with this sweet! Eat one and your skin turns Mulberry Purple.</desc22519>
+    
+    <item22520>Red Silly Sweet</item22520>
+    
+    <plural22520>Red Silly Sweets</plural22520>
+    
+    <desc22520>Want skin as beautiful as fresh berries? Eat this cupcake and turn Strawberry Red.</desc22520>
+    
+    <item22521>Orange Silly Sweet</item22521>
+    
+    <plural22521>Orange Silly Sweets</plural22521>
+    
+    <desc22521>Want skin as orange as a pumpkin? Eat this cupcake and turn Pumpkin Orange.</desc22521>
+    
+    <item22522>Yellow Silly Sweet</item22522>
+    
+    <plural22522>Yellow Silly Sweets</plural22522>
+    
+    <desc22522>Eat this sweet and your skin will turn as fresh and yellow as a Marigold.</desc22522>
+    
+    <item22523>Cool Rainbow Silly Sweet</item22523>
+    
+    <plural22523>Cool Rainbow Silly Sweets</plural22523>
+    
+    <desc22523>Eat this sweet and your skin will turn different cool colors!</desc22523>
+    
+    <item22524>Bright Rainbow Silly Sweet</item22524>
+    
+    <plural22524>Bright Rainbow Silly Sweets</plural22524>
+    
+    <desc22524>Eat this sweet and your skin will turn different bright colors!</desc22524>
+    
+    <item22525>Invisible Silly Sweet</item22525>
+    
+    <plural22525>Invisible Silly Sweets</plural22525>
+    
+    <desc22525>This cupcake of soured cream will help you perform a disappearing act.</desc22525>
+    
+    <item22526>Bubble Silly Sweet</item22526>
+    
+    <plural22526>Bubble Silly Sweets</plural22526>
+    
+    <desc22526>These swirls of sugar and cream will blow a bubble around you!</desc22526>
+    
+    <item22527>Rainbow Glow Silly Sweet</item22527>
+    
+    <plural22527>Rainbow Glow Silly Sweets</plural22527>
+    
+    <desc22527>Eat this sweet and your aura will turn every color of the rainbow!</desc22527>
+    
+    <item22528>Dizzy Silly Sweet</item22528>
+    
+    <plural22528>Dizzy Silly Sweets</plural22528>
+    
+    <desc22528>A brown sugar delight so good it will make you dizzy!</desc22528>
+    
+    <item22529>Bright Idea Silly Sweet</item22529>
+    
+    <plural22529>Bright Idea Silly Sweets</plural22529>
+    
+    <desc22529>A buttery cream cupcake that will give you bright ideas.</desc22529>
+    
+    <item22530>Tornado Silly Sweet</item22530>
+    
+    <plural22530>Tornado Silly Sweets</plural22530>
+    
+    <desc22530>A tasty mix sure to whip up a tornado around you.</desc22530>
+    
+    <item22531>Tea Scone</item22531>
+    
+    <plural22531>Tea Scones</plural22531>
+    
+    <desc22531>Available during the Garden Tea Party - restores 10 smidges of Pixie Dust.</desc22531>
+    
+    <item22532>Sunflower Double Truffle Cookie</item22532>
+    
+    <plural22532>Sunflower Double Truffle Cookies</plural22532>
+    
+    <desc22532>This double dose of sunflower cookies restores 120 smidges of Pixie Dust!</desc22532>
+    
+    <item22533>Honey Double Truffle Cookie</item22533>
+    
+    <plural22533>Honey Double Truffle Cookies</plural22533>
+    
+    <desc22533>This double stack of honey cookies restores 150 smidges of Pixie Dust!</desc22533>
+    
+    <item22534>Raspberry Double Truffle Cookie</item22534>
+    
+    <plural22534>Raspberry Double Truffle Cookies</plural22534>
+    
+    <desc22534>This duo of raspberry cookies restores 180 smidges of Pixie Dust!</desc22534>
+    
+    <item22535>Blueberry Double Truffle Cookie</item22535>
+    
+    <plural22535>Blueberry Double Truffle Cookies</plural22535>
+    
+    <desc22535>These twin blueberry cookies restore 210 smidges of Pixie Dust!</desc22535>
+    
+    <item22536>Fairy Cupcake Silly Sweet</item22536>
+    
+    <plural22536>Fairy Cupcake Silly Sweets</plural22536>
+    
+    <desc22536>Try this tasty treat to discover the true meaning behind, "You are what you eat!"</desc22536>
+    
+    <item22537>Fireworks Silly Sweet</item22537>
+    
+    <plural22537>Fireworks Silly Sweets</plural22537>
+    
+    <desc22537>Eat this sweet to put on your own fireworks display!</desc22537>
+    
+    <item22538>Snowglobe Silly Sweet</item22538>
+    
+    <plural22538>Snowglobe Silly Sweets</plural22538>
+    
+    <desc22538>This frosty delight will surround you with your own snowglobe!</desc22538>
+    
+    <item22539>Puffy Cloud Silly Sweet</item22539>
+    
+    <plural22539>Snow Cloud Silly Sweets</plural22539>
+    
+    <desc22539>A fluffy treat that will let you ride around on your own cloud!</desc22539>
+    
+    <item22540>Ice Cube Silly Sweet</item22540>
+    
+    <plural22540>Ice Cube Silly Sweets</plural22540>
+    
+    <desc22540>An icy treat guaranteed to make you go, "Brrr!"</desc22540>
+    
+    <item22541>Snowman Silly Sweet</item22541>
+    
+    <plural22541>Snowman Silly Sweets</plural22541>
+    
+    <desc22541>A frosty cupcake that will turn you into a snowman!</desc22541>
+    
+    <item22542>Honey Maple Double Truffle</item22542>
+    
+    <plural22542>Honey Maple Double Truffles</plural22542>
+    
+    <desc22542>This pair of honey maple cookies restores 240 smidges of Pixie Dust!</desc22542>
+    
+    <item22543>Bubble Trail Silly Sweet</item22543>
+    
+    <plural22543>Bubble Trail Silly Sweets</plural22543>
+    
+    <desc22543>A perfect snack for when you're feeling bubbly.</desc22543>
+    
+    <item22544>Flower Trail Silly Sweet</item22544>
+    
+    <plural22544>Flower Trail Silly Sweets</plural22544>
+    
+    <desc22544>A flutter of flower petals will trail behind you after tasting this delicious delight.</desc22544>
+    
+    <item22545>Snowflake Trail Silly Sweet</item22545>
+    
+    <plural22545>Snowflake Trail Silly Sweets</plural22545>
+    
+    <desc22545>Feel the rush of winter behind you after trying this tasty treat.</desc22545>
+    
+    <item22546>Raining Cloud Silly Sweet</item22546>
+    
+    <plural22546>Raining Cloud Silly Sweets</plural22546>
+    
+    <desc22546>Feeling gloomy? Let everyone else know with this morose morsel.</desc22546>
+    
+    <item22547>Snowing Cloud Silly Sweet</item22547>
+    
+    <plural22547>Snowing Cloud Silly Sweets</plural22547>
+    
+    <desc22547>Let it snow, let it snow, let it snow!</desc22547>
+    
+    <item22548>Shrinking Silly Sweet</item22548>
+    
+    <plural22548>Shrinking Silly Sweets</plural22548>
+    
+    <desc22548>You will feel quite small after eating this delectable delicacy.</desc22548>
+    
+    <item22549>Growing Silly Sweet</item22549>
+    
+    <plural22549>Growing Silly Sweets</plural22549>
+    
+    <desc22549>Watch yourself grow taller once you try this savory snack.</desc22549>
+    
+    <item22550>Flip-Flop Silly Sweet</item22550>
+    
+    <plural22550>Flip-Flop Silly Sweets</plural22550>
+    
+    <desc22550>See the world from a different point of view with this delightful treat.</desc22550>
+    
+    <item22551>Sunflower Cupcake</item22551>
+    
+    <plural22551>Sunflower Cupcakes</plural22551>
+    
+    <desc22551>This cupcake restores 60 smidges of Pixie Dust to you and your friends!</desc22551>
+    
+    <item22552>Honey Cupcake</item22552>
+    
+    <plural22552>Honey Cupcakes</plural22552>
+    
+    <desc22552>This cupcake restores 90 smidges of Pixie Dust to you and your friends!</desc22552>
+    
+    <item22553>Raspberry Cupcake</item22553>
+    
+    <plural22553>Rapsberry Cupcakes</plural22553>
+    
+    <desc22553>This cupcake restores 120 smidges of Pixie Dust to you and your friends!</desc22553>
+    
+    <item22554>Jack o' Lantern Cookie</item22554>
+    
+    <plural22554>Jack o' Lantern Cookies</plural22554>
+    
+    <desc22554>Available during the Animal Masquerade - restores 10 smidges of Pixie Dust.</desc22554>
+    
+    <item22555>Blackberry Silly Sweet</item22555>
+    
+    <plural22555>Blackberry Silly Sweets</plural22555>
+    
+    <desc22555>This extra special Silly Sweet turns you into a bunch of blackberries!</desc22555>
+    
+    <item22556>Deluxe Cupcake Silly Sweet</item22556>
+    
+    <plural22556>Deluxe Cupcake Silly Sweets</plural22556>
+    
+    <desc22556>This extra special Silly Sweet turns you into a deluxe cupcake!</desc22556>
+    
+    <item22557>Ice Cream Silly Sweet</item22557>
+    
+    <plural22557>Ice Cream Silly Sweets</plural22557>
+    
+    <desc22557>This extra special Silly Sweet turns you into an ice cream cone!</desc22557>
+    
+    <item22558>"Pixie Pals" Silly Sweet</item22558>
+    
+    <plural22558>"Pixie Pals" Silly Sweets</plural22558>
+    
+    <desc22558>This special Silly Sweet turns you into a candy heart that says "Pixie Pals"!</desc22558>
+    
+    <item22559>"Fly With U" Silly Sweet</item22559>
+    
+    <plural22559>"Fly With U" Silly Sweets</plural22559>
+    
+    <desc22559>This special Silly Sweet turns you into a candy heart that says "Fly With U"!</desc22559>
+    
+    <item22560>"Sweet Heart" Silly Sweet</item22560>
+    
+    <plural22560>"Sweet Heart" Silly Sweets</plural22560>
+    
+    <desc22560>This special Silly Sweet turns you into a candy heart that says "Sweet Heart"!</desc22560>
+    
+    <item22561>Heart Trail Silly Sweet</item22561>
+    
+    <plural22561>Heart Trail Silly Sweets</plural22561>
+    
+    <desc22561>This special Silly Sweet causes a trail of hearts to appear behind you!</desc22561>
+    
+    <item22562>Rainbow Trail Silly Sweet</item22562>
+    
+    <plural22562>Rainbow Trail Silly Sweets</plural22562>
+    
+    <desc22562>This special Silly Sweet causes a rainbow trail to appear behind you!</desc22562>
+    
+    <item22563>Fish Bubble Silly Sweet</item22563>
+    
+    <plural22563>Fish Bubble Silly Sweets</plural22563>
+    
+    <desc22563>Available during Silly Days - puts you in a bubble with fish!</desc22563>
+    
+    <item22564>Camp Fireworks Silly Sweet</item22564>
+    
+    <plural22564>Camp Fireworks Silly Sweets</plural22564>
+    
+    <desc22564>Eat this sweet to put on your own special Camp Pixie Dust fireworks display!</desc22564>
+    
+    <item22565>Troop Rabbit Silly Sweet</item22565>
+    
+    <plural22565>Troop Rabbit Silly Sweets</plural22565>
+    
+    <desc22565>Eat this special Silly Sweet to show your support for Troop Rabbit!</desc22565>
+    
+    <item22566>Troop Butterfly Silly Sweet</item22566>
+    
+    <plural22566>Troop Butterfly Silly Sweets</plural22566>
+    
+    <desc22566>Eat this special Silly Sweet to show your support for Troop Butterfly!</desc22566>
+    
+    <item22567>Troop Otter Silly Sweet</item22567>
+    
+    <plural22567>Troop Otter Silly Sweets</plural22567>
+    
+    <desc22567>Eat this special Silly Sweet to show your support for Troop Otter!</desc22567>
+    
+    <item22568>Troop Turtle Silly Sweet</item22568>
+    
+    <plural22568>Troop Turtle Silly Sweets</plural22568>
+    
+    <desc22568>Eat this special Silly Sweet to show your support for Troop Turtle!</desc22568>
+    
+    <item22569>Troop Glowworm Silly Sweet</item22569>
+    
+    <plural22569>Troop Glowworm Silly Sweets</plural22569>
+    
+    <desc22569>Eat this special Silly Sweet to show your support for Troop Glowworm!</desc22569>
+    
+    <item22570>Candy Corn Silly Sweet</item22570>
+    
+    <plural22570>Candy Corn Silly Sweets</plural22570>
+    
+    <desc22570>Eat this sweet to turn yourself into a giant candy corn!</desc22570>
+    
+    <item22571>Sparkly Wing Silly Sweet</item22571>
+    
+    <plural22571>Sparkly Wings Silly Sweets</plural22571>
+    
+    <desc22571>A special Silly Sweet to make your wings sparkle and shine!</desc22571>
+    
+    <item22572>Pepper Black Wings Silly Sweet</item22572>
+    
+    <plural22572>Pepper Black Wings Silly Sweets</plural22572>
+    
+    <desc22572>A special Silly Sweet to turn your wings Pepper Black!</desc22572>
+    
+    <item22573>Bluejay Blue Wings Silly Sweet</item22573>
+    
+    <plural22573>Bluejay Blue Wings Silly Sweets</plural22573>
+    
+    <desc22573>A special Silly Sweet to turn your wings Bluejay Blue!</desc22573>
+    
+    <item22574>Electric Blue Wings Silly Sweet</item22574>
+    
+    <plural22574>Electric Blue Wings Silly Sweets</plural22574>
+    
+    <desc22574>A special Silly Sweet to turn your wings Electric Blue!</desc22574>
+    
+    <item22575>Friendship Pink Wings Silly Sweet</item22575>
+    
+    <plural22575>Friendship Pink Wings Silly Sweets</plural22575>
+    
+    <desc22575>A special Silly Sweet to turn your wings Friendship Pink!</desc22575>
+    
+    <item22576>Electric Pink Wings Silly Sweet</item22576>
+    
+    <plural22576>Electric Pink Wings Silly Sweets</plural22576>
+    
+    <desc22576>A special Silly Sweet to turn your wings Electric Pink!</desc22576>
+    
+    <item22577>Electric Orange Wings Silly Sweet</item22577>
+    
+    <plural22577>Electric Orange Wings Silly Sweets</plural22577>
+    
+    <desc22577>A special Silly Sweet to turn your wings Electric Orange!</desc22577>
+    
+    <item22578>Electric Purple Wings Silly Sweet</item22578>
+    
+    <plural22578>Electric Purple Wings Silly Sweets</plural22578>
+    
+    <desc22578>A special Silly Sweet to turn your wings Electric Purple!</desc22578>
+    
+    <item22579>Lemon Yellow Wings Silly Sweet</item22579>
+    
+    <plural22579>Lemon Yellow Wings Silly Sweets</plural22579>
+    
+    <desc22579>A special Silly Sweet to turn your wings Lemon Yellow!</desc22579>
+    
+    <item22580>Rosetta Red Wings Silly Sweet</item22580>
+    
+    <plural22580>Rosetta Red Wings Silly Sweets</plural22580>
+    
+    <desc22580>A special Silly Sweet to turn your wings Rosetta Red!</desc22580>
+    
+    <item22581>Electric Green Wings Silly Sweet</item22581>
+    
+    <plural22581>Electric Green Wings Silly Sweets</plural22581>
+    
+    <desc22581>A special Silly Sweet to turn your wings Electric Green!</desc22581>
+    
+    <item22582>Baby Bunny Silly Sweet</item22582>
+    
+    <plural22582>Baby Bunny Silly Sweets</plural22582>
+    
+    <desc22582>A special Silly Sweet to celebrate the Baby Bunny!</desc22582>
+    
+    <item22583>Baby Chipmunk Silly Sweet</item22583>
+    
+    <plural22583>Baby Chipmunk Silly Sweets</plural22583>
+    
+    <desc22583>A special Silly Sweet to celebrate the Baby Chipmunk!</desc22583>
+    
+    <item22584>Baby Owl Silly Sweet</item22584>
+    
+    <plural22584>Baby Owl Silly Sweets</plural22584>
+    
+    <desc22584>A special Silly Sweet to celebrate the Baby Owl!</desc22584>
+    
+    <item22585>Baby Kitten Silly Sweet</item22585>
+    
+    <plural22585>Baby Kitten Silly Sweets</plural22585>
+    
+    <desc22585>A special Silly Sweet to celebrate the Baby Kitten!</desc22585>
+    
+    <item22586>Bunny Bubble Silly Sweet</item22586>
+    
+    <plural22586>Bubble Bunny Silly Sweets</plural22586>
+    
+    <desc22586>A special Silly Sweet that creates a bubbly bunny effect!</desc22586>
+    
+    <item22587>Magic Tea Cake</item22587>
+    
+    <plural22587>Magic Tea Cakes</plural22587>
+    
+    <desc22587>What happens when you eat this cake? Try it and find out!</desc22587>
+    
+    <item22588>Magic Tea Drink</item22588>
+    
+    <plural22588>Magic Tea Drinks</plural22588>
+    
+    <desc22588>What happens when you drink this bottle? Try it and find out!</desc22588>
+    
+    <item22700>TEMP CUPCAKE 1</item22700>
+    
+    <plural22700>TEMP CUPCAKE(S) 1</plural22700>
+    
+    <desc22700>TEMP CUPCAKE 1 DESCRIPTION</desc22700>
+    
+  </copy>
+  
+  <bakedItems>
+    
+    <bakedItem itemId="22501" pixiePower="10" bakedType="cookie"/>
+    
+    <bakedItem itemId="22502" pixiePower="20" bakedType="cookie"/>
+    
+    <bakedItem itemId="22503" pixiePower="30" bakedType="cookie"/>
+    
+    <bakedItem itemId="22504" pixiePower="40" bakedType="cookie"/>
+    
+    <bakedItem itemId="22505" pixiePower="50" bakedType="cookie"/>
+    
+    <bakedItem itemId="22506" pixiePower="60" bakedType="cookie"/>
+    
+    <bakedItem itemId="22507" pixiePower="70" bakedType="cookie"/>
+    
+    <bakedItem itemId="22508" pixiePower="80" bakedType="cookie"/>
+    
+    <bakedItem itemId="22509" pixiePower="90" bakedType="cookie"/>
+    
+    <bakedItem itemId="22510" pixiePower="100" bakedType="cookie"/>
+    
+    <bakedItem itemId="22511" pixiePower="10" bakedType="cookie"/>
+    
+    <bakedItem itemId="22512" pixiePower="10" bakedType="cookie"/>
+    
+    <bakedItem itemId="22513" pixiePower="10" bakedType="cookie"/>
+    
+    <bakedItem itemId="22514" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22515" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22516" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22517" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22518" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22519" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22520" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22521" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22522" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22523" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22524" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22525" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22526" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22527" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22528" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22529" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22530" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22531" pixiePower="10" bakedType="cookie"/>
+    
+    <bakedItem itemId="22532" pixiePower="120" bakedType="cookie"/>
+    
+    <bakedItem itemId="22533" pixiePower="150" bakedType="cookie"/>
+    
+    <bakedItem itemId="22534" pixiePower="180" bakedType="cookie"/>
+    
+    <bakedItem itemId="22535" pixiePower="210" bakedType="cookie"/>
+    
+    <bakedItem itemId="22536" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22537" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22538" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22539" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22540" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22541" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22542" pixiePower="240" bakedType="cookie"/>
+    
+    <bakedItem itemId="22543" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22544" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22545" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22546" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22547" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22548" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22549" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22550" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22551" pixiePower="60" bakedType="cupcake"/>
+    
+    <bakedItem itemId="22552" pixiePower="90" bakedType="cupcake"/>
+    
+    <bakedItem itemId="22553" pixiePower="120" bakedType="cupcake"/>
+    
+    <bakedItem itemId="22554" pixiePower="10" bakedType="cookie"/>
+    
+    <bakedItem itemId="22555" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22556" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22557" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22558" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22559" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22560" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22561" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22562" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22563" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22564" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22565" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22566" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22567" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22568" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22569" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22570" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22571" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22572" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22573" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22574" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22575" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22576" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22577" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22578" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22579" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22580" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22581" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22582" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22583" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22584" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22585" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22586" pixiePower="5" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22587" pixiePower="25" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22588" pixiePower="25" bakedType="sillysweet"/>
+    
+    <bakedItem itemId="22700" pixiePower="5" bakedType="cupcake"/>
+    
+  </bakedItems>
+  
+</BakingItems>

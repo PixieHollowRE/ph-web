@@ -1,0 +1,65 @@
+<zone>
+  <name>Frosted Forest</name>
+  <zoneID>304</zoneID>
+  <assetURL/>
+  <audioLibrary>icePalace</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="1838" height="1234" locked="true">
+        <image x="0" y="0" type="none">FrostedForest_sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="1100" height="737">
+        <image x="0" y="0" type="none">FrostedForest_far_02.swf</image>
+      </layer>
+      <layer type="ground" width="1838" height="1234">
+        <image x="0" y="0" type="merge">FrostedForest_action_03.swf</image>
+      </layer>
+      <layer type="normal" width="2828" height="1900">
+        <image x="0" y="0" type="none">FrostedForest_foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="980" y="605">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>icePalaceBG</id>
+      <loops>0</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  <hotspots>
+    <hotspot id="27603" x="572" y="395" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="1">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="116" frequency="1" win="false"/>
+        <keyframe number="282" frequency="1" win="false"/>
+        <keyframe number="421" frequency="1" win="false"/>
+        <keyframe number="586" frequency="1" win="false"/>
+      </keyframes>
+    </hotspot>
+    <hotspot id="27690" x="0" y="0" setVelvetRope="0" shared="true" refresh="120" playType="full" itemEventId="0" tagId="4"/>
+    <hotspot tags="Meadow_WinterWonderland_2011" id="27682" x="562" y="582" setVelvetRope="1" shared="true" serverParm="8021" clientTrigger="6" clientParm="4" refresh="2" threshold="30" playType="keyframe" itemEventId="18023" snapTargetPos="610,540,0" tagId="3">
+      <keyframes>
+        <keyframe number="209" frequency="1" win="true"/>
+      </keyframes>
+    </hotspot>
+    <hotspot tags="Meadow_Sister2012" id="27739" x="1210" y="927" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="8"/>
+    <hotspot tags="Signpost_WWL2011" id="27662" x="787" y="733" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="2"/>
+  </hotspots>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

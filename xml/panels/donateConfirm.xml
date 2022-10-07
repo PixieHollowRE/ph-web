@@ -1,0 +1,16 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/donate_confirm.swf</swf>
+		<swf type="code">{panelCode}/donateConfirm.swf</swf>
+	</swfs>
+	<copy>
+		<title>Donate this item?</title>
+		<copy>You will lose this item and saved outfits with it!</copy>
+		<alt_title>Oops!</alt_title>
+		<alt_copy>Sorry.  You can't donate this item because you are wearing it right now!</alt_copy>
+		<ok target="okbutton.caption">OK</ok>
+		<confirm target="confirmbutton.caption">Yes</confirm>
+		<close target="closebutton.caption">No</close>
+	</copy>
+	<config></config>
+</panel>

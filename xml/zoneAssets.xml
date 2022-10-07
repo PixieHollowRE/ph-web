@@ -1,0 +1,1738 @@
+<zoneAssets>
+  
+  <zone id="default" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/empty.xml" dclibs=""/>
+  
+  <zone id="100" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/adventureMatch.xml" dclibs=""/>
+  
+  <zone id="101" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/adventureMatch.xml" dclibs=""/>
+  
+  <zone id="102" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/adventureMatch.xml" dclibs=""/>
+  
+  <zone id="103" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/adventureMatch.xml" dclibs=""/>
+  
+  <zone id="104" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/adventureMatch.xml" dclibs=""/>
+  
+  <zone id="105" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="106" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="200" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/adventureMatch.xml" dclibs=""/>
+  
+  <zone id="201" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/adventureMatch.xml" dclibs=""/>
+  
+  <zone id="202" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/adventureMatch.xml" dclibs=""/>
+  
+  <zone id="203" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/adventureMatch.xml" dclibs=""/>
+  
+  <zone id="204" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="205" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="300" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/adventureMatch.xml" dclibs=""/>
+  
+  <zone id="301" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/adventureMatch.xml" dclibs=""/>
+  
+  <zone id="302" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/adventureMatch.xml" dclibs=""/>
+  
+  <zone id="701" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/previewHomes.xml" dclibs=""/>
+  
+  <zone id="702" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/previewHomes.xml" dclibs=""/>
+  
+  <zone id="703" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/previewHomes.xml" dclibs=""/>
+  
+  <zone id="704" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/previewHomes.xml" dclibs=""/>
+  
+  <zone id="705" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/previewHomes.xml" dclibs=""/>
+  
+  <zone id="721" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/previewHomes.xml" dclibs=""/>
+  
+  <zone id="722" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/previewHomes.xml" dclibs=""/>
+  
+  <zone id="723" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/previewHomes.xml" dclibs=""/>
+  
+  <zone id="724" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/previewHomes.xml" dclibs=""/>
+  
+  <zone id="725" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/previewHomes.xml" dclibs=""/>
+  
+  <zone id="726" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/previewHomes.xml" dclibs=""/>
+  
+  <zone id="800" innerChannel="{panelSetData}/quest.xml" outerChannel="{panelSetData}/empty.xml" dclibs="questlib"/>
+  
+  <zone id="801" innerChannel="{panelSetData}/quest.xml" outerChannel="{panelSetData}/empty.xml" dclibs="questlib"/>
+  
+  <zone id="802" innerChannel="{panelSetData}/quest.xml" outerChannel="{panelSetData}/empty.xml" dclibs="questlib"/>
+  
+  <zone id="803" innerChannel="{panelSetData}/quest.xml" outerChannel="{panelSetData}/empty.xml" dclibs="questlib"/>
+  
+  <zone id="804" innerChannel="{panelSetData}/quest.xml" outerChannel="{panelSetData}/empty.xml" dclibs="questlib"/>
+  
+  <zone id="805" innerChannel="{panelSetData}/kitsplace.xml" outerChannel="{panelSetData}/empty.xml" dclibs="questlib"/>
+  
+  <zone id="806" innerChannel="{panelSetData}/quest.xml" outerChannel="{panelSetData}/empty.xml" dclibs="questlib"/>
+  
+  <zone id="807" innerChannel="{panelSetData}/pixieDustMillInner.xml" outerChannel="{panelSetData}/pixieDustMillOuter.xml" dclibs="questlib"/>
+  
+  <zone id="808" innerChannel="{panelSetData}/quest.xml" outerChannel="{panelSetData}/empty.xml" dclibs="questlib"/>
+  
+  <zone id="899" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/empty.xml" dclibs=""/>
+  
+  <zone id="900" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/empty.xml" dclibs=""/>
+  
+  <zone id="997" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/empty.xml" dclibs="wildernesslib"/>
+  
+  <zone id="998" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/empty.xml" dclibs=""/>
+  
+  <zone id="999" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/empty.xml" dclibs=""/>
+  
+  <zone id="1200" innerChannel="{panelSetData}/pixiePostings.xml" outerChannel="{panelSetData}/empty.xml" dclibs="questlib"/>
+  
+  <zone id="110000" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="110001" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="110002" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="110003" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="110004" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="110009" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="110010" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="110011" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="111000" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="111001" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="111002" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="112000" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="112001" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="112002" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="112003" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="113000" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="114000" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="115000" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="116000" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="117000" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="otherHome" innerChannel="{panelSetData}/meadowGames.xml" outerChannel="{panelSetData}/homeOther.xml" dclibs="homelib,gamelib"/>
+  
+  <zone id="myHome" innerChannel="{panelSetData}/meadowGames.xml" outerChannel="{panelSetData}/homeVisit.xml" dclibs="homelib,gamelib"/>
+  
+  <zone id="talentMiniGame" innerChannel="{panelSetData}/talentMiniGame.xml" outerChannel="{panelSetData}/empty.xml" dclibs="gamelib"/>
+  
+  <zone id="multiplayerMiniGame" innerChannel="{panelSetData}/talentMiniGame.xml" outerChannel="{panelSetData}/empty.xml" dclibs="gamelib"/>
+  
+  <zone id="craftingMiniGame" innerChannel="{panelSetData}/craftCave.xml" outerChannel="{panelSetData}/empty.xml" dclibs="gamelib"/>
+  
+  <zone id="wilderness" innerChannel="{panelSetData}/wildernessInner.xml" outerChannel="{panelSetData}/wilderness.xml" dclibs="wildernesslib"/>
+  
+  <zone id="400" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/empty.xml" dclibs=""/>
+  
+  <zone id="401" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/empty.xml" dclibs=""/>
+  
+  <zone id="402" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="403" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="404" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="500" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/empty.xml" dclibs=""/>
+  
+  <zone id="501" innerChannel="{panelSetData}/empty.xml" outerChannel="{panelSetData}/empty.xml" dclibs=""/>
+  
+  <zone id="18511" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18512" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18513" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18514" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18515" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18516" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18517" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18518" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18519" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18521" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18522" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18523" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18524" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18525" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18526" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18527" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18528" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18529" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18530" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18531" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18532" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18533" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18534" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18535" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18536" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18540" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18541" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18598" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="18599" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="libwilderness"/>
+  
+  <zone id="1201" innerChannel="{panelSetData}/pixiepostingscontruction.xml" outerChannel="{panelSetData}/empty.xml" dclibs="questlib"/>
+  
+  <zone id="999999" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="403" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="403" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="501" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="503" innerChannel="{panelSetData}/tearoom.xml" outerChannel="{panelSetData}/meadowGameLaunchers.xml" dclibs="gamelib"/>
+  
+  <zone id="502" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="600" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="601" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="110005" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="110006" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="110007" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="110008" innerChannel="{panelSetData}/shop.xml" outerChannel="{panelSetData}/empty.xml" dclibs="shoplib"/>
+  
+  <zone id="504" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="505" innerChannel="{panelSetData}/coliseum.xml" outerChannel="{panelSetData}/meadowGameLaunchers.xml" dclibs="gamelib"/>
+  
+  <zone id="303" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="304" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="403" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs=""/>
+  
+  <zone id="809" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="shoplib"/>
+  
+  <zone id="810" innerChannel="{emptyPanelSet}" outerChannel="{emptyPanelSet}" dclibs="shoplib"/>
+  
+  <dclib id="homelib" url="{dcCode}/libhome.swf" classes="DistributedHomeItem,DistributedHome,DistributedParty,DistributedPartyMatchMaker,DistributedHomeHotspot"/>
+  
+  <dclib id="gamelib" url="{dcCode}/libgame.swf" classes="DistributedTalentMinigame,DistributedCraftingMinigame,DistributedMultiplayerMinigame"/>
+  
+  <dclib id="shoplib" url="{dcCode}/libshop.swf" classes="DistributedFairyShopkeeperNPC"/>
+  
+  <dclib id="questlib" url="{dcCode}/libquest.swf" classes="DistributedFairyQuestNPC"/>
+  
+  <dclib id="wildernesslib" url="{dcCode}/libwilderness.swf" classes="DistributedEnemy,DistributedWilderness"/>
+  
+  <zoneAssetPath zoneAssetPath_id="water">{mmoContent}/meadows/waterTalent</zoneAssetPath>
+  
+  <zoneAssetPath zoneAssetPath_id="garden">{mmoContent}/meadows/gardenTalent</zoneAssetPath>
+  
+  <zoneAssetPath zoneAssetPath_id="light">{mmoContent}/meadows/lightTalent</zoneAssetPath>
+  
+  <zoneAssetPath zoneAssetPath_id="animal">{mmoContent}/meadows/animalTalent</zoneAssetPath>
+  
+  <zoneAssetPath zoneAssetPath_id="tinker">{mmoContent}/meadows/tinkerTalent</zoneAssetPath>
+  
+  <zoneAssetPath zoneAssetPath_id="meadow">meadows/zone###</zoneAssetPath>
+  
+  <zoneAssetPath zoneAssetPath_id="home">meadows/home###</zoneAssetPath>
+  
+  <zoneAssetPath zoneAssetPath_id="gardens">meadows/garden###</zoneAssetPath>
+  
+  <zoneAssetPath zoneAssetPath_id="adventure">meadows/adventure###</zoneAssetPath>
+  
+  <copy>
+    
+    <spellMiss>Try again!</spellMiss>
+    
+    <spellAbort>A player has left, try again.</spellAbort>
+    
+    <enemyDefeated>You did it!</enemyDefeated>
+    
+    <temporaryPhraseForHomes>A Fairy Home</temporaryPhraseForHomes>
+    
+    <temporaryPhraseForGardens>A Fairy Garden</temporaryPhraseForGardens>
+    
+    <phraseForHomes>#NAME#'s Home</phraseForHomes>
+    
+    <phraseForGardens>#NAME#'s Garden</phraseForGardens>
+    
+    <phraseForParties>#NAME#'s Party!</phraseForParties>
+    
+    <temporaryPhraseForGames>A Talent Game</temporaryPhraseForGames>
+    
+    <temporaryPhraseForPartyGames>A Party Game</temporaryPhraseForPartyGames>
+    
+    <temporaryPhraseForPartyWilderness>Wilderness</temporaryPhraseForPartyWilderness>
+    
+    <zoneName100>Cherryblossom Heights</zoneName100>
+    
+    <zoneName101>Springtime Orchard</zoneName101>
+    
+    <zoneName102>Dewdrop Vale</zoneName102>
+    
+    <zoneName103>Neverberry Thicket</zoneName103>
+    
+    <zoneName104>Treetop Bend</zoneName104>
+    
+    <zoneName105>Troop Butterfly Hideout</zoneName105>
+    
+    <zoneName106>Troop Otter Hideout</zoneName106>
+    
+    <zoneName200>Acorn Summit</zoneName200>
+    
+    <zoneName201>Cottonpuff Field</zoneName201>
+    
+    <zoneName202>Maple Tree Hill</zoneName202>
+    
+    <zoneName203>Pumpkin Patch</zoneName203>
+    
+    <zoneName204>Troop Rabbit Hideout</zoneName204>
+    
+    <zoneName205>Troop Turtle Hideout</zoneName205>
+    
+    <zoneName300>Evergreen Overlook</zoneName300>
+    
+    <zoneName301>Snowcap Glade</zoneName301>
+    
+    <zoneName302>Chilly Falls</zoneName302>
+    
+    <zoneName800>Fawn's Hideout</zoneName800>
+    
+    <zoneName801>Iridessa's Glade</zoneName801>
+    
+    <zoneName802>Rosetta's Garden</zoneName802>
+    
+    <zoneName803>Silvermist's Grotto</zoneName803>
+    
+    <zoneName804>Tinker's Nook</zoneName804>
+    
+    <zoneName806>Elixa's Hospital</zoneName806>
+    
+    <zoneName807>Pixie Dust Mill</zoneName807>
+    
+    <zoneName899>[Chiisai Heights]</zoneName899>
+    
+    <zoneName900>Knothole Nest</zoneName900>
+    
+    <zoneName997>Wilderness Spoofing Meadow</zoneName997>
+    
+    <zoneName998>Giveaway Meadow</zoneName998>
+    
+    <zoneName999>TEST</zoneName999>
+    
+    <zoneName1200>Pixie Postings</zoneName1200>
+    
+    <zoneName110000>Bella's Baubles</zoneName110000>
+    
+    <zoneName110001>Garden Supply</zoneName110001>
+    
+    <zoneName110002>Summit Style</zoneName110002>
+    
+    <zoneName111000>Harmony's Home Collection</zoneName111000>
+    
+    <zoneName111001>Treetop Housewares</zoneName111001>
+    
+    <zoneName111002>Ember's Essentials</zoneName111002>
+    
+    <zoneName110003>Gale's Outfitters</zoneName110003>
+    
+    <zoneName112000>Daisy's Dyes</zoneName112000>
+    
+    <zoneName112001>Prism's Paints</zoneName112001>
+    
+    <zoneName112002>Colette's Colors</zoneName112002>
+    
+    <zoneName112003>Sunny's Shades</zoneName112003>
+    
+    <gameName1>Firefly Light-Up in Springtime Orchard</gameName1>
+    
+    <gameName1Short>Firefly Light-Up Game</gameName1Short>
+    
+    <gameName2>Bubble Bounce in Dewdrop Vale</gameName2>
+    
+    <gameName2Short>Bubble Bounce Game</gameName2Short>
+    
+    <gameName7>Water Web in Neverberry Thicket</gameName7>
+    
+    <gameName7Short>Water Web Game</gameName7Short>
+    
+    <gameName9>Petal Pick-Up in Cherryblossom Heights</gameName9>
+    
+    <gameName9Short>Petal Pick-Up Game</gameName9Short>
+    
+    <gameName8>Harvest Hustle in Pumpkin Patch</gameName8>
+    
+    <gameName8Short>Harvest Hustle Game</gameName8Short>
+    
+    <gameName10>Fairy Fireworks in Acorn Summit</gameName10>
+    
+    <gameName10Short>Fairy Fireworks Game</gameName10Short>
+    
+    <gameName11>Snowflake Sweep in Evergreen Overlook</gameName11>
+    
+    <gameName11Short>Snowflake Sweep Game</gameName11Short>
+    
+    <gameName14>Tinker Toss in Cottonpuff Field</gameName14>
+    
+    <gameName14Short>Tinker Toss Game</gameName14Short>
+    
+    <gameName15>Snowy Lullaby in Snowcap Glade</gameName15>
+    
+    <gameName15Short>Snowy Lullaby Game</gameName15Short>
+    
+    <gameName42>Tinker Toss in Cottonpuff Field</gameName42>
+    
+    <gameName42Short>Tinker Toss Game</gameName42Short>
+    
+    <gameName43>Seed Sorter in Treetop Bend</gameName43>
+    
+    <gameName43Short>Seed Sorter Game</gameName43Short>
+    
+    <gameName44>First Flight in Neverfruit Grove</gameName44>
+    
+    <gameName44Short>First Flight Game</gameName44Short>
+    
+    <gameName45>Butterfly Painter in Palm Tree Cove</gameName45>
+    
+    <gameName45Short>Butterfly Painter Game</gameName45Short>
+    
+    <gameName46>Vidia's Daily Spin in Acorn Summit</gameName46>
+    
+    <gameName46Short>Vidia's Daily Spin</gameName46Short>
+    
+    <gameName47>Pinecone Pop in Snowcap Glade</gameName47>
+    
+    <gameName47Short>Pinecone Pop Game</gameName47Short>
+    
+    <gameName48>Sunbeam Bend in Sunflower Gully</gameName48>
+    
+    <gameName48Short>Sunbeam Bend Game</gameName48Short>
+    
+    <gameName49>Gem Juggle in Chilly Falls</gameName49>
+    
+    <gameName49Short>Gem Juggle Game</gameName49Short>
+    
+    <craftName0>Bobbin's Tailoring Nook</craftName0>
+    
+    <craftName1>Mendy's Tailoring Nook</craftName1>
+    
+    <craftName2>Dulcie's Kitchen</craftName2>
+    
+    <craftName3>Copper's Tinkering Nook</craftName3>
+    
+    <!-- gateways -->
+    
+    <item9000>Nongateway</item9000>
+    
+    <desc9000>Gateway to Nowhere</desc9000>
+    
+    <item9001>North Spring Signpost</item9001>
+    
+    <desc9001>North Spring Signpost</desc9001>
+    
+    <item9002>Northeast Spring Signpost</item9002>
+    
+    <desc9002>Northeast Spring Signpost</desc9002>
+    
+    <item9003>East Spring Signpost</item9003>
+    
+    <desc9003>East Spring Signpost</desc9003>
+    
+    <item9004>Southeast Spring Signpost</item9004>
+    
+    <desc9004>Southeast Spring Signpost</desc9004>
+    
+    <item9005>South Spring Signpost</item9005>
+    
+    <desc9005>South Spring Signpost</desc9005>
+    
+    <item9006>Southwest Spring Signpost</item9006>
+    
+    <desc9006>Southwest Spring Signpost</desc9006>
+    
+    <item9007>West Spring Signpost</item9007>
+    
+    <desc9007>West Spring Signpost</desc9007>
+    
+    <item9008>Northwest Spring Signpost</item9008>
+    
+    <desc9008>Northwest Spring Signpost</desc9008>
+    
+    <item9009>Firefly Signpost</item9009>
+    
+    <desc9009>Firefly Signpost</desc9009>
+    
+    <item9010>Fish Bouncer Signpost</item9010>
+    
+    <desc9010>Fish Bouncer Signpost</desc9010>
+    
+    <item9011>Crafting Signpost</item9011>
+    
+    <desc9011>Crafting Signpost</desc9011>
+    
+    <item9012>Crafting Signpost</item9012>
+    
+    <desc9012>Crafting Signpost</desc9012>
+    
+    <item9013>Water Web</item9013>
+    
+    <desc9013>Water Web</desc9013>
+    
+    <item9014>Petal Pick Up</item9014>
+    
+    <desc9014>Petal Pick Up</desc9014>
+    
+    <item9015>Harvest Hustle</item9015>
+    
+    <desc9015>Harvest Hustle</desc9015>
+    
+    <item9016>Coming Soon!</item9016>
+    
+    <desc9016>Coming Soon!</desc9016>
+    
+    <item9017>Daisy's Dyes</item9017>
+    
+    <desc9017>Daisy's Dyes</desc9017>
+    
+    <item9018>Harmony's Home Collections</item9018>
+    
+    <desc9018>Harmony's Home Collections</desc9018>
+    
+    <item9019>Treetop Houswares</item9019>
+    
+    <desc9019>Treetop Houswares</desc9019>
+    
+    <item9020>Bella's Baubles</item9020>
+    
+    <desc9020>Bella's Baubles</desc9020>
+    
+    <item9021>Garden Supply</item9021>
+    
+    <desc9021>Garden Supply</desc9021>
+    
+    <item9022>Prism's Paints</item9022>
+    
+    <desc9022>Prism's Paints</desc9022>
+    
+    <desc9023>Summit Style</desc9023>
+    
+    <item9023>Summit Style</item9023>
+    
+    <desc9024>Fairy Fireworks</desc9024>
+    
+    <item9024>Fairy Fireworks</item9024>
+    
+    <desc9025>Silvermist's Grotto</desc9025>
+    
+    <item9025>Silvermist's Grotto</item9025>
+    
+    <desc9026>Tinker's Nook</desc9026>
+    
+    <item9026>Tinker's Nook</item9026>
+    
+    <desc9027>Fawn's Hideout</desc9027>
+    
+    <item9027>Fawn's Hideout</item9027>
+    
+    <desc9028>Pixie Post Office</desc9028>
+    
+    <item9028>Pixie Post Office</item9028>
+    
+    <desc9125>Snowflake Sweep</desc9125>
+    
+    <item9125>Snowflake Sweep</item9125>
+    
+    <desc9126>[Shop01 in Snowcap Glade]</desc9126>
+    
+    <item9126>[Shop01 in Snowcap Glade]</item9126>
+    
+    <desc9124>Ember's Essentials</desc9124>
+    
+    <item9124>Ember's Essentials</item9124>
+    
+    <desc9028>Springtime Orchard East</desc9028>
+    
+    <item9028>Springtime Orchard East</item9028>
+    
+    <desc9029>Springtime Orchard Northeast</desc9029>
+    
+    <item9029>Springtime Orchard Northeast</item9029>
+    
+    <desc9030>Springtime Orchard North</desc9030>
+    
+    <item9030>Springtime Orchard North</item9030>
+    
+    <desc9031>Springtime Orchard Northwest</desc9031>
+    
+    <item9031>Springtime Orchard Northwest</item9031>
+    
+    <desc9032>Springtime Orchard Southeast</desc9032>
+    
+    <item9032>Springtime Orchard Southeast</item9032>
+    
+    <desc9033>Springtime Orchard South</desc9033>
+    
+    <item9033>Springtime Orchard South</item9033>
+    
+    <desc9034>Springtime Orchard Southwest</desc9034>
+    
+    <item9034>Springtime Orchard Southwest</item9034>
+    
+    <desc9035>Springtime Orchard West</desc9035>
+    
+    <item9035>Springtime Orchard West</item9035>
+    
+    <desc9168>FairyTaleGateway</desc9168>
+    
+    <item9168>FairyTaleGateway</item9168>
+    
+    <desc9036>Cherryblossom Heights East</desc9036>
+    
+    <item9036>Cherryblossom Heights East</item9036>
+    
+    <desc9037>Cherryblossom Heights Northeast</desc9037>
+    
+    <item9037>Cherryblossom Heights Northeast</item9037>
+    
+    <desc9038>Cherryblossom Heights North</desc9038>
+    
+    <item9038>Cherryblossom Heights North</item9038>
+    
+    <desc9039>Cherryblossom Heights Northwest</desc9039>
+    
+    <item9039>Cherryblossom Heights Northwest</item9039>
+    
+    <desc9040>Cherryblossom Heights Southeast</desc9040>
+    
+    <item9040>Cherryblossom Heights Southeast</item9040>
+    
+    <desc9041>Cherryblossom Heights South</desc9041>
+    
+    <item9041>Cherryblossom Heights South</item9041>
+    
+    <desc9042>Cherryblossom Heights Southwest</desc9042>
+    
+    <item9042>Cherryblossom Heights Southwest</item9042>
+    
+    <desc9043>Cherryblossom Heights West</desc9043>
+    
+    <item9043>Cherryblossom Heights West</item9043>
+    
+    <desc9044>Dewdrop Vale East</desc9044>
+    
+    <item9044>Dewdrop Vale East</item9044>
+    
+    <desc9045>Dewdrop Vale Northeast</desc9045>
+    
+    <item9045 g="1">Dewdrop Vale Northeast</item9045>
+    
+    <desc9046>Dewdrop Vale North</desc9046>
+    
+    <item9046>Dewdrop Vale North</item9046>
+    
+    <desc9047>Dewdrop Vale Northwest</desc9047>
+    
+    <item9047>Dewdrop Vale Northwest</item9047>
+    
+    <desc9048>Dewdrop Vale Southeast</desc9048>
+    
+    <item9048>Dewdrop Vale Southeast</item9048>
+    
+    <desc9049>Dewdrop Vale South</desc9049>
+    
+    <item9049>Dewdrop Vale South</item9049>
+    
+    <desc9050>Dewdrop Vale Southwest</desc9050>
+    
+    <item9050>Dewdrop Vale Southwest</item9050>
+    
+    <desc9051>Dewdrop Vale West</desc9051>
+    
+    <item9051>Dewdrop Vale West</item9051>
+    
+    <desc9052>Neverberry Thicket East</desc9052>
+    
+    <item9052>Neverberry Thicket East</item9052>
+    
+    <desc9053>Neverberry Thicket Northeast</desc9053>
+    
+    <item9053>Neverberry Thicket Northeast</item9053>
+    
+    <desc9054>Neverberry Thicket North</desc9054>
+    
+    <item9054>Neverberry Thicket North</item9054>
+    
+    <desc9055>Neverberry Thicket Northwest</desc9055>
+    
+    <item9055>Neverberry Thicket Northwest</item9055>
+    
+    <desc9056>Neverberry Thicket Southeast</desc9056>
+    
+    <item9056>Neverberry Thicket Southeast</item9056>
+    
+    <desc9057>Neverberry Thicket South</desc9057>
+    
+    <item9057>Neverberry Thicket South</item9057>
+    
+    <desc9058>Neverberry Thicket Southwest</desc9058>
+    
+    <item9058>Neverberry Thicket Southwest</item9058>
+    
+    <desc9059>Neverberry Thicket West</desc9059>
+    
+    <item9059>Neverberry Thicket West</item9059>
+    
+    <desc9060>Treetop Bend East</desc9060>
+    
+    <item9060>Treetop Bend East</item9060>
+    
+    <desc9061>Treetop Bend Northeast</desc9061>
+    
+    <item9061>Treetop Bend Northeast</item9061>
+    
+    <desc9062>Treetop Bend North</desc9062>
+    
+    <item9062>Treetop Bend North</item9062>
+    
+    <desc9063>Treetop Bend Northwest</desc9063>
+    
+    <item9063>Treetop Bend Northwest</item9063>
+    
+    <desc9064>Treetop Bend Southeast</desc9064>
+    
+    <item9064>Treetop Bend Southeast</item9064>
+    
+    <desc9065>Treetop Bend South</desc9065>
+    
+    <item9065>Treetop Bend South</item9065>
+    
+    <desc9066>Treetop Bend Southwest</desc9066>
+    
+    <item9066>Treetop Bend Southwest</item9066>
+    
+    <desc9067>Treetop Bend West</desc9067>
+    
+    <item9067>Treetop Bend West</item9067>
+    
+    <desc9068>Acorn Summit East</desc9068>
+    
+    <item9068>Acorn Summit East</item9068>
+    
+    <desc9069>Acorn Summit Northeast</desc9069>
+    
+    <item9069>Acorn Summit Northeast</item9069>
+    
+    <desc9070>Acorn Summit North</desc9070>
+    
+    <item9070>Acorn Summit North</item9070>
+    
+    <desc9071>Acorn Summit Northwest</desc9071>
+    
+    <item9071>Acorn Summit Northwest</item9071>
+    
+    <desc9072>Acorn Summit Southeast</desc9072>
+    
+    <item9072>Acorn Summit Southeast</item9072>
+    
+    <desc9073>Acorn Summit South</desc9073>
+    
+    <item9073>Acorn Summit South</item9073>
+    
+    <desc9074>Acorn Summit Southwest</desc9074>
+    
+    <item9074>Acorn Summit Southwest</item9074>
+    
+    <desc9075>Acorn Summit West</desc9075>
+    
+    <item9075>Acorn Summit West</item9075>
+    
+    <desc9076>Cottonpuff Field East</desc9076>
+    
+    <item9076>Cottonpuff Field East</item9076>
+    
+    <desc9077>Cottonpuff Field Northeast</desc9077>
+    
+    <item9077>Cottonpuff Field Northeast</item9077>
+    
+    <desc9078>Cottonpuff Field North</desc9078>
+    
+    <item9078>Cottonpuff Field North</item9078>
+    
+    <desc9079>Cottonpuff Field Northwest</desc9079>
+    
+    <item9079>Cottonpuff Field Northwest</item9079>
+    
+    <desc9080>Cottonpuff Field Southeast</desc9080>
+    
+    <item9080>Cottonpuff Field Southeast</item9080>
+    
+    <desc9081>Cottonpuff Field South</desc9081>
+    
+    <item9081>Cottonpuff Field South</item9081>
+    
+    <desc9082>Cottonpuff Field Southwest</desc9082>
+    
+    <item9082>Cottonpuff Field Southwest</item9082>
+    
+    <desc9083>Cottonpuff Field West</desc9083>
+    
+    <item9083>Cottonpuff Field West</item9083>
+    
+    <desc9080>Sign</desc9080>
+    
+    <item9080>Sign</item9080>
+    
+    <desc9084>Sign</desc9084>
+    
+    <item9084>Sign</item9084>
+    
+    <desc9085>Sign</desc9085>
+    
+    <item9085>Sign</item9085>
+    
+    <desc9086>Sign</desc9086>
+    
+    <item9086>Sign</item9086>
+    
+    <desc9089>Sign</desc9089>
+    
+    <item9089>Sign</item9089>
+    
+    <desc9091>Sign</desc9091>
+    
+    <item9091>Sign</item9091>
+    
+    <desc9098>Sign</desc9098>
+    
+    <item9098>Sign</item9098>
+    
+    <desc9100>Evergreen Overlook East</desc9100>
+    
+    <item9100>Evergreen Overlook East</item9100>
+    
+    <desc9101>Evergreen Overlook Northeast</desc9101>
+    
+    <item9101>Evergreen Overlook Northeast</item9101>
+    
+    <desc9102>Evergreen Overlook North</desc9102>
+    
+    <item9102>Evergreen Overlook North</item9102>
+    
+    <desc9103>Evergreen Overlook Northwest</desc9103>
+    
+    <item9103>Evergreen Overlook Northwest</item9103>
+    
+    <desc9104>Evergreen Overlook Southeast</desc9104>
+    
+    <item9104>Evergreen Overlook Southeast</item9104>
+    
+    <desc9105>Evergreen Overlook South</desc9105>
+    
+    <item9105>Evergreen Overlook South</item9105>
+    
+    <desc9106>Evergreen Overlook Southwest</desc9106>
+    
+    <item9106>Evergreen Overlook Southwest</item9106>
+    
+    <desc9107>Evergreen Overlook West</desc9107>
+    
+    <item9107>Evergreen Overlook West</item9107>
+    
+    <desc9108>Sign</desc9108>
+    
+    <item9108>Sign</item9108>
+    
+    <desc9114>Sign</desc9114>
+    
+    <item9114>Sign</item9114>
+    
+    <item9116>Chilly Falls East</item9116>
+    
+    <item9117>Chilly Falls Northeast</item9117>
+    
+    <item9118>Chilly Falls North</item9118>
+    
+    <item9119>Chilly Falls Northwest</item9119>
+    
+    <item9120>Chilly Falls Southest</item9120>
+    
+    <item9121>Chilly Falls South</item9121>
+    
+    <item9122>Chilly Falls Southwest</item9122>
+    
+    <item9123>Chilly Falls West</item9123>
+    
+    <item9128>Palmtree Beach East</item9128>
+    
+    <item9129>Palmtree Beach Northeast</item9129>
+    
+    <item9130>Palmtree Beach North</item9130>
+    
+    <item9131>Palmtree Beach Northwest</item9131>
+    
+    <item9132>Palmtree Beach Southest</item9132>
+    
+    <item9133>Palmtree Beach South</item9133>
+    
+    <item9134>Palmtree Beach Southwest</item9134>
+    
+    <item9135>Palmtree Beach West</item9135>
+    
+    <item9136>Sunflower Grotto East</item9136>
+    
+    <item9137>Sunflower Grotto Northeast</item9137>
+    
+    <item9138>Sunflower Grotto North</item9138>
+    
+    <item9139>Sunflower Grotto Northwest</item9139>
+    
+    <item9140>Sunflower Grotto Southest</item9140>
+    
+    <item9141>Sunflower Grotto South</item9141>
+    
+    <item9142>Sunflower Grotto Southwest</item9142>
+    
+    <item9143>Sunflower Grotto West</item9143>
+    
+    <item9144>Lullaby Game Gateway</item9144>
+    
+    <item9145>Sorting Game Gateway</item9145>
+    
+    <item9146>Iridessas Quest Gateway</item9146>
+    
+    <item9147>Party Shop 01</item9147>
+    
+    <item9148>Hair Shop 01</item9148>
+    
+    <item9149>Rosetta's Quest Gateway</item9149>
+    
+    <item9150>Chilly Falls Dye Shop</item9150>
+    
+    <item9151>Swamp Gateway</item9151>
+    
+    <item9152>Forest Gateway</item9152>
+    
+    <item9153>Cave Gateway</item9153>
+    
+    <item9154>Tinkering Nook</item9154>
+    
+    <item9155>Baking Flag</item9155>
+    
+    <item9156>NeverFruit Grove East</item9156>
+    
+    <item9157>NeverFruit Grove Northeast</item9157>
+    
+    <item9158>NeverFruit Grove North</item9158>
+    
+    <item9159>NeverFruit Grove Northwest</item9159>
+    
+    <item9160>NeverFruit Grove Southest</item9160>
+    
+    <item9161>NeverFruit Grove South</item9161>
+    
+    <item9162>NeverFruit Grove Southwest</item9162>
+    
+    <item9163>NeverFruit Grove West</item9163>
+    
+    <item9164>Summer Dye Shop</item9164>
+    
+    <item9165>Lullaby Game Gateway Closed</item9165>
+    
+    <item9166>Cave Gateway Closed</item9166>
+    
+    <item9167>Tinkering Nook</item9167>
+    
+    <desc9169>FairyTaleTheater_CS_shop</desc9169>
+    
+    <item9169>FairyTaleTheater_CS_shop</item9169>
+    
+    <zoneName400>Palm Tree Cove</zoneName400>
+    
+    <zoneName401>Sunflower Gully</zoneName401>
+    
+    <zoneName701>Knothole Nest</zoneName701>
+    
+    <zoneName702>Blossom Bungalow</zoneName702>
+    
+    <zoneName703>Sunflower Studio</zoneName703>
+    
+    <zoneName704>Lotus Loft</zoneName704>
+    
+    <zoneName705>Mosswall Cottage</zoneName705>
+    
+    <zoneName721>Hollow Tree Heights</zoneName721>
+    
+    <zoneName722>Petalstem Palace</zoneName722>
+    
+    <zoneName723>Sunglow Spire</zoneName723>
+    
+    <zoneName724>Streamside Suite</zoneName724>
+    
+    <zoneName725>Greenleaf Tower</zoneName725>
+    
+    <zoneName726>Snowflake Estate</zoneName726>
+    
+    <zoneName115000>Beck's Animal Nursery</zoneName115000>
+    
+    <zoneName114000>Schelly's Hair Salon</zoneName114000>
+    
+    <zoneName113000>Phoebe's Party Favors</zoneName113000>
+    
+    <zoneName116000>Neville's New Homes</zoneName116000>
+    
+    <zoneName117000>Prism's Pixie Spa</zoneName117000>
+    
+    <zoneName19599>Testing</zoneName19599>
+    
+    <zoneName19599>testing</zoneName19599>
+    
+    <zoneName18599>Test</zoneName18599>
+    
+    <zoneName18599>Test</zoneName18599>
+    
+    <zoneName402>Neverfruit Grove</zoneName402>
+    
+    <zoneName18598>Test</zoneName18598>
+    
+    <zoneName18598>Testing zone</zoneName18598>
+    
+    <wilderness3>The Bubbly Bog</wilderness3>
+    
+    <wilderness2>The Silver Trees</wilderness2>
+    
+    <wilderness1>The Never Mine</wilderness1>
+    
+    <zoneName18511>Cave 5 Challenge Layout</zoneName18511>
+    
+    <zoneName18512>Cave 7 Challenge Layout</zoneName18512>
+    
+    <zoneName18513>Cave 9 Challenge Layout</zoneName18513>
+    
+    <zoneName18514>Talent Skill 6 Quest, Step 1</zoneName18514>
+    
+    <zoneName18515>Talent Skill 6 Quest, Step 4</zoneName18515>
+    
+    <zoneName18516>Talent Skill 7 Quest, Step 2</zoneName18516>
+    
+    <zoneName18517>Talent Skill 7 Quest, Step 7</zoneName18517>
+    
+    <zoneName18518>Talent Skill 8 Quest, Step 1</zoneName18518>
+    
+    <zoneName18519>Talent Skill 8, Step 8</zoneName18519>
+    
+    <zoneName18521>Forest 4 Challenge Layout</zoneName18521>
+    
+    <zoneName18522>Forest 6 Challenge Layout</zoneName18522>
+    
+    <zoneName18523>Forest 8 Challenge Layout</zoneName18523>
+    
+    <zoneName18524>Talent Skill 3 Quest</zoneName18524>
+    
+    <zoneName18525>Talent Skill 4 Quest</zoneName18525>
+    
+    <zoneName18526>Talent Skill 5 Quest, Step 1</zoneName18526>
+    
+    <zoneName18527>Talent Skill 5 Quest, Step 2</zoneName18527>
+    
+    <zoneName18528>Fawn Quest 216, Step 4</zoneName18528>
+    
+    <zoneName18529>Forest 4 Challenge Layout</zoneName18529>
+    
+    <zoneName18530>Silvermist Quest 401, Step 5</zoneName18530>
+    
+    <zoneName18531>Swamp 3 Challenge  Layout</zoneName18531>
+    
+    <zoneName18532>Swamp 5 Challenge Layout</zoneName18532>
+    
+    <zoneName18533>Swamp 7 Challenge Layout</zoneName18533>
+    
+    <zoneName18534>Talent Skill 1 Quest</zoneName18534>
+    
+    <zoneName18535>Talent Skill 2 Quest</zoneName18535>
+    
+    <zoneName18535>Fawn Quest 225, Step 2</zoneName18535>
+    
+    <zoneName805>Kit's Place</zoneName805>
+    
+    <zoneName1201>Pixie Postings</zoneName1201>
+    
+    <zoneName999999>***TEST***</zoneName999999>
+    
+    <zoneName500>Havendish Square</zoneName500>
+    
+    <zoneName501>Fairy Tale Theater</zoneName501>
+    
+    <zoneName110004>Cassie's Costume Shop</zoneName110004>
+    
+    <zoneName503>The Tearoom</zoneName503>
+    
+    <item9178>Ballroom Gateway</item9178>
+    
+    <desc9178>Ballroom Gateway</desc9178>
+    
+    <item9179>Theater Gateway</item9179>
+    
+    <desc9179>Theater Gateway</desc9179>
+    
+    <item9180>Tea Room Gateway</item9180>
+    
+    <desc9180>Tea Room Gateway</desc9180>
+    
+    <item9181>Pixie Postings Autumn</item9181>
+    
+    <desc9181>Pixie Postings Autumn</desc9181>
+    
+    <item9182>Kit Gateway</item9182>
+    
+    <desc9182>Kit Gateway</desc9182>
+    
+    <item9183>Pixie Postings Winter</item9183>
+    
+    <desc9183>Pixie Postings Winter</desc9183>
+    
+    <item9184>Ballroom Gateway Winter Open</item9184>
+    
+    <desc9184>Ballroom Gateway Winter Open</desc9184>
+    
+    <item9170>Gateway West Havendish</item9170>
+    
+    <desc9170>Gateway West Havendish</desc9170>
+    
+    <item9171>Gateway Southwest Havendish Alt</item9171>
+    
+    <desc9171>Gateway Southwest Havendish Alt</desc9171>
+    
+    <item9172>Gateway Northwest Havendish</item9172>
+    
+    <desc9172>Gateway Northwest Havendish</desc9172>
+    
+    <item9173>Gateway North Havendish</item9173>
+    
+    <desc9173>Gateway North Havendish</desc9173>
+    
+    <item9174>Gateway North Havendish</item9174>
+    
+    <desc9174>Gateway North Havendish</desc9174>
+    
+    <item9175>Gateway East Havendish</item9175>
+    
+    <desc9175>Gateway East Havendish</desc9175>
+    
+    <item9176>Gateway South EastHavendish</item9176>
+    
+    <desc9176>Gateway South East Havendish</desc9176>
+    
+    <item9177>Gateway South Havendish</item9177>
+    
+    <desc9177>Gateway South Havendish</desc9177>
+    
+    <item9185>Gateway Southwest Havendish</item9185>
+    
+    <desc9185>Gateway Southwest Havendish</desc9185>
+    
+    <zoneName502>The Ballroom</zoneName502>
+    
+    <item9186>BallroomGatewayToHavendish_Alt</item9186>
+    
+    <desc9186>BallroomGatewayToHavendish_Alt</desc9186>
+    
+    <item9187>Seed Sorting Gateway</item9187>
+    
+    <desc9187>Seed Sorting Gateway</desc9187>
+    
+    <item9188>Ballroom Gateway Open</item9188>
+    
+    <desc9188>Ballroom Gateway Open</desc9188>
+    
+    <item9189>GatewaySHOPEastAcornSummit</item9189>
+    
+    <desc9189>GatewaySHOPEastAcornSummit</desc9189>
+    
+    <item9190>GatewaySHOPEastPumpkinPatch</item9190>
+    
+    <desc9190>GatewaySHOPEastPumpkinPatch</desc9190>
+    
+    <item9190>GatewaySHOPEastPumpkinPatch</item9190>
+    
+    <desc9190>GatewaySHOPEastPumpkinPatch</desc9190>
+    
+    <item9191>GatewaySHOPEastSunflowerGrotto</item9191>
+    
+    <desc9191>GatewaySHOPEastSunflowerGrotto</desc9191>
+    
+    <item9192>GatewaySHOPEastNeverFruitGrove</item9192>
+    
+    <desc9192>GatewaySHOPEastNeverFruitGrove</desc9192>
+    
+    <item9193>GatewaySHOPEastPalmtreeBeach</item9193>
+    
+    <desc9193>GatewaySHOPEastPalmtreeBeach</desc9193>
+    
+    <item9194>GatewaySHOPEastDewdropVale</item9194>
+    
+    <desc9194>GatewaySHOPEastDewdropVale</desc9194>
+    
+    <item9195>GatewaySHOPEastNeveryberryThicket</item9195>
+    
+    <desc9195>GatewaySHOPEastNeveryberryThicket</desc9195>
+    
+    <item9196>GatewaySHOPEastCherryBlossomHeights</item9196>
+    
+    <desc9196>GatewaySHOPEastCherryBlossomHeights</desc9196>
+    
+    <item9197>GatewaySHOPEastTreetopBend</item9197>
+    
+    <desc9197>GatewaySHOPEastTreetopBend</desc9197>
+    
+    <item9198>GatewaySHOPHavendishFTTWest</item9198>
+    
+    <desc9198>GatewaySHOPHavendishFTTWest</desc9198>
+    
+    <item9199>SnowdriftSHOPGatewayEast</item9199>
+    
+    <desc9199>SnowdriftSHOPGatewayEast</desc9199>
+    
+    <item9200>GatewaySHOPEastChillyFalls</item9200>
+    
+    <desc9200>GatewaySHOPEastChillyFalls</desc9200>
+    
+    <zoneName600>Havendish10%</zoneName600>
+    
+    <zoneName601>Havendish15%</zoneName601>
+    
+    <item9201>GatewaySouthPumpkinPatch</item9201>
+    
+    <desc9201>GatewaySouthPumpkinPatch</desc9201>
+    
+    <item9202>MG_snowflake_winter</item9202>
+    
+    <desc9202>MG_snowflake_winter</desc9202>
+    
+    <item9203>animal_nursery_Gateway</item9203>
+    
+    <desc9203>animal_nursery_Gateway</desc9203>
+    
+    <item9204>animal_nursery_Rain_Gateway</item9204>
+    
+    <desc9204>animal_nursery_Rain_Gateway</desc9204>
+    
+    <item9205>Elixa'sGateway</item9205>
+    
+    <desc9205>Elixa'sGateway</desc9205>
+    
+    <item9206>PixiePostingSpringGateway</item9206>
+    
+    <desc9206>PixiePostingSpringGateway</desc9206>
+    
+    <item9207>SHOP Springtime Southwest</item9207>
+    
+    <desc9207>SHOP Springtime Southwest</desc9207>
+    
+    <item9209 g="1">FirstFlightGateway</item9209>
+    
+    <desc9209>FirstFlightGateway</desc9209>
+    
+    <item9210>Coals_Gateway</item9210>
+    
+    <desc9210>Coals_Gateway</desc9210>
+    
+    <item9211>Gabes_Gateway</item9211>
+    
+    <desc9211>Gabes_Gateway</desc9211>
+    
+    <zoneName110005>Coal's Clothiers</zoneName110005>
+    
+    <zoneName110006>Gavin's Gear</zoneName110006>
+    
+    <zoneName110007>Zephyr's Zoom Room</zoneName110007>
+    
+    <zoneName110008>Pixie Post Office</zoneName110008>
+    
+    <item9212>GatewaySHOPEvergreenWest</item9212>
+    
+    <desc9212>GatewaySHOPEvergreenWest</desc9212>
+    
+    <item9213>GatewaySHOPCottonpuffWest</item9213>
+    
+    <desc9213>GatewaySHOPCottonpuffWest</desc9213>
+    
+    <item9214>CassieGateway</item9214>
+    
+    <desc9214>CassieGateway</desc9214>
+    
+    <item9215>GatewaySHOPHavendish</item9215>
+    
+    <desc9215>GatewaySHOPHavendish</desc9215>
+    
+    <item9216>B_PaintingGateway</item9216>
+    
+    <desc9216>B_PaintingGateway</desc9216>
+    
+    <item9217>Left_Crazy8CardGateway</item9217>
+    
+    <desc9217>Left_Crazy8CardGateway</desc9217>
+    
+    <item9218>Right_Crazy8CardGateway</item9218>
+    
+    <desc9218>Right_Crazy8CardGateway</desc9218>
+    
+    <item9219>PixiePostingsCampPixieDust</item9219>
+    
+    <desc9219>PixiePostingsCampPixieDust</desc9219>
+    
+    <item9220>FairyFireworks_SummerSparkler</item9220>
+    
+    <desc9220>FairyFireworks_SummerSparkler</desc9220>
+    
+    <item9221>AS_shop_SummerSparkler</item9221>
+    
+    <desc9221>AS_shop_SummerSparkler</desc9221>
+    
+    <item9222>AnimalNursey_SS</item9222>
+    
+    <desc9222>AnimalNursey_SS</desc9222>
+    
+    <item9223>Org_CostumeGateway</item9223>
+    
+    <desc9223>Org_CostumeGateway</desc9223>
+    
+    <item9224>GatewaySHOPHomeTreetopBend</item9224>
+    
+    <desc9224>GatewaySHOPHomeTreetopBend</desc9224>
+    
+    <item9225>PixiePostings_Summer</item9225>
+    
+    <desc9225>PixiePostings_Summer</desc9225>
+    
+    <item9226>Lizzys_rollover_Cottonpuff</item9226>
+    
+    <desc9226>Lizzys_rollover_Cottonpuff</desc9226>
+    
+    <item9227>Lizzys_rollover_Acorn</item9227>
+    
+    <desc9227>Lizzys_rollover_Acorn</desc9227>
+    
+    <item9228>Vidia_Daily_Gateway</item9228>
+    
+    <desc9228>Vidia_Daily_Gateway</desc9228>
+    
+    <item9229>HairShop01_Animalmasq</item9229>
+    
+    <desc9229>HairShop01_Animalmasq</desc9229>
+    
+    <item9230>neverberry_shop_AnimalMasq</item9230>
+    
+    <desc9230>neverberry_shop_AnimalMasq</desc9230>
+    
+    <item9231>summerDeyShop01AnimalM</item9231>
+    
+    <desc9231>summerDeyShop01AnimalM</desc9231>
+    
+    <item9232>Gabes_shop_winterlightup2010</item9232>
+    
+    <desc9232>Gabes_shop_winterlightup2010</desc9232>
+    
+    <item9233>MG_snowflake_WinterLightup2010</item9233>
+    
+    <desc9233>MG_snowflake_WinterLightup2010</desc9233>
+    
+    <item9234>lullaby_game_gateway_Winterlightup</item9234>
+    
+    <desc9234>lullaby_game_gateway_Winterlightup</desc9234>
+    
+    <item9235>caveWildernessGatewayWinter</item9235>
+    
+    <desc9235>caveWildernessGatewayWinter</desc9235>
+    
+    <item9236>LizzysGateway</item9236>
+    
+    <desc9236>LizzysGateway</desc9236>
+    
+    <zoneName504>Lizzy's Home</zoneName504>
+    
+    <zoneName505>Fairy Coliseum</zoneName505>
+    
+    <zoneName903>Lotus Loft</zoneName903>
+    
+    <zoneName922>Petalstem Palace</zoneName922>
+    
+    <zoneName924>Streamside Suite</zoneName924>
+    
+    <zoneName925>Greenleaf Tower</zoneName925>
+    
+    <zoneName926>Ice Theme</zoneName926>
+    
+    <zoneName923>Sunglow Spire</zoneName923>
+    
+    <item9237>LizzysGatewayToHavendish</item9237>
+    
+    <desc9237>LizzysGatewayToHavendish</desc9237>
+    
+    <item9238>IcePalaceGateway</item9238>
+    
+    <desc9238>IcePalaceGateway</desc9238>
+    
+    <zoneName303>Ice Palace</zoneName303>
+    
+    <zoneName304>Frosted Forest</zoneName304>
+    
+    <item9239>IcePalace_GatewayToHavendish</item9239>
+    
+    <desc9239>IcePalace_GatewayToHavendish</desc9239>
+    
+    <item9240>acornSummit_AnimalMasq</item9240>
+    
+    <desc9240>acornSummit_AnimalMasq</desc9240>
+    
+    <zoneName904>Mosswall Cottage</zoneName904>
+    
+    <zoneName921>Hollow Tree Heights</zoneName921>
+    
+    <zoneName901>Blossom Bungalow</zoneName901>
+    
+    <zoneName902>Sunflower Studio</zoneName902>
+    
+    <item9241>mermaid_gateway_cottonpuff</item9241>
+    
+    <desc9241>mermaid_gateway_cottonpuff</desc9241>
+    
+    <item9242>mermaid_gateway_dewdrop</item9242>
+    
+    <desc9242>mermaid_gateway_dewdrop</desc9242>
+    
+    <item9243>mermaid_gateway_snowcap</item9243>
+    
+    <desc9243>mermaid_gateway_snowcap</desc9243>
+    
+    <item9244>mermaid_gateway_havendish</item9244>
+    
+    <desc9244>mermaid_gateway_havendish</desc9244>
+    
+    <item9245>mermaid_gateway_springtime</item9245>
+    
+    <desc9245>mermaid_gateway_springtime</desc9245>
+    
+    <item9246>pinecone_pop_game_gateway</item9246>
+    
+    <desc9246>pinecone_pop_game_gateway</desc9246>
+    
+    <item9247>mermaid_gateway_palmtree</item9247>
+    
+    <desc9247>mermaid_gateway_palmtree</desc9247>
+    
+    <item9248>Elixa_SpringCelebBegins</item9248>
+    
+    <desc9248>Elixa_SpringCelebBegins</desc9248>
+    
+    <item9249>firefly_SpringCelebBegins</item9249>
+    
+    <desc9249>firefly_SpringCelebBegins</desc9249>
+    
+    <item9250>animal_nursery_Gateway_SpringCeleb</item9250>
+    
+    <desc9250>animal_nursery_Gateway_SpringCeleb</desc9250>
+    
+    <item9251>petalPickingGateway_DROUGHT</item9251>
+    
+    <desc9251>petalPickingGateway_DROUGHT</desc9251>
+    
+    <item9252>RosettaQuestGateway_DROUGHT</item9252>
+    
+    <desc9252>RosettaQuestGateway_DROUGHT</desc9252>
+    
+    <item9253>spiderSilkGateway_DROUGHT</item9253>
+    
+    <desc9253>spiderSilkGateway_DROUGHT</desc9253>
+    
+    <item9254>Elixa'sGateway_DROUGHT</item9254>
+    
+    <desc9254>Elixa'sGateway_DROUGHT</desc9254>
+    
+    <item9255>bakingFlag_DROUGHT</item9255>
+    
+    <desc9255>bakingFlag_DROUGHT</desc9255>
+    
+    <item9256>neverberry_shop_DROUGHT</item9256>
+    
+    <desc9256>neverberry_shop_DROUGHT</desc9256>
+    
+    <item9257>fireflyGateway_DROUGHT</item9257>
+    
+    <desc9257>fireflyGateway_DROUGHT</desc9257>
+    
+    <item9258>topsandBottom_DROUGHT</item9258>
+    
+    <desc9258>topsandBottom_DROUGHT</desc9258>
+    
+    <item9259>animal_nursery_Gateway_DROUGHT</item9259>
+    
+    <desc9259>animal_nursery_Gateway_DROUGHT</desc9259>
+    
+    <item9260>SMquestGateway_DROUGHT</item9260>
+    
+    <desc9260>SMquestGateway_DROUGHT</desc9260>
+    
+    <item9261>fishbouncerGateway_DROUGHT</item9261>
+    
+    <desc9261>fishbouncerGateway_DROUGHT</desc9261>
+    
+    <item9262>swampWildernessGateway_DROUGHT</item9262>
+    
+    <desc9262>swampWildernessGateway_DROUGHT</desc9262>
+    
+    <item9263>SeedSortingGateway_DROUGHT</item9263>
+    
+    <desc9263>SeedSortingGateway_DROUGHT</desc9263>
+    
+    <item9264>treetop_shop2_DROUGHT</item9264>
+    
+    <desc9264>treetop_shop2_DROUGHT</desc9264>
+    
+    <zoneName403>Mermaid Grotto</zoneName403>
+    
+    <zoneName404>Troop Glowworm Hideout</zoneName404>
+    
+    <item9265>Mermaird_GatewayToPalmTree</item9265>
+    
+    <desc9265>Mermaird_GatewayToPalmTree</desc9265>
+    
+    <item9266>treetop_shop1_DROUGHT</item9266>
+    
+    <desc9266>treetop_shop1_DROUGHT</desc9266>
+    
+    <item9267>PixieDustMill Gateway</item9267>
+    
+    <desc9267>PixieDustMill Gateway</desc9267>
+    
+    <item9268>Sunflower_GardenTea_gateway</item9268>
+    
+    <desc9268>Sunflower_GardenTea_gateway</desc9268>
+    
+    <item9269>JemJuggle</item9269>
+    
+    <desc9269>JemJuggle</desc9269>
+    
+    <item9270>PixiePostingsSpring_GardenTea</item9270>
+    
+    <desc9270>PixiePostingsSpring_GardenTea</desc9270>
+    
+    <item9271>PixiePostingsSpring_AnimalMothers</item9271>
+    
+    <desc9271>PixiePostingsSpring_AnimalMothers</desc9271>
+    
+    <zoneName18536>Fawn Quest 225, Step 2</zoneName18536>
+    
+    <item9272>Light_pipe_gateway</item9272>
+    
+    <desc9272>Light_pipe_gateway</desc9272>
+    
+    <item9273>Marina_Gateway</item9273>
+    
+    <desc9273>Marina_Gateway</desc9273>
+    
+    <zoneName808>Marina's Place</zoneName808>
+    
+    <item9274>Stadium_GatewayEastHavendish</item9274>
+    
+    <desc9274>Stadium_GatewayEastHavendish</desc9274>
+    
+    <item9275>PixiePostings_Winter_Night</item9275>
+    
+    <desc9275>PixiePostings_Winter_Night</desc9275>
+    
+    <item9276>Zephyr_shop</item9276>
+    
+    <desc9276>Zephyr_shop</desc9276>
+    
+    <item9277>Stadium_GatewayWestHavendish</item9277>
+    
+    <desc9277>Stadium_GatewayWestHavendish</desc9277>
+    
+    <item9278>PostOfficeGateway</item9278>
+    
+    <desc9278>PostOfficeGateway</desc9278>
+    
+    <item9279>PostOffice_Gateway</item9279>
+    
+    <desc9279>PostOffice_Gateway</desc9279>
+    
+    <zoneNamegarden1>Garden Test 1</zoneNamegarden1>
+    
+    <zoneNamegarden2>Garden Test 2</zoneNamegarden2>
+    
+    <zoneNamegarden3>Garden Test 3</zoneNamegarden3>
+    
+    <zoneNamegarden4>Garden Test 4</zoneNamegarden4>
+    
+    <item9280>Kits</item9280>
+    
+    <desc9280>Kits</desc9280>
+    
+    <zoneName809>Queen's Boutique</zoneName809>
+    
+    <zoneName810>Spike's Sweets</zoneName810>
+    
+    <item9282>QueenClarionGateway</item9282>
+    
+    <desc9282>QueenClarionGateway</desc9282>
+    
+    <item9283>QueenC_Havendish_Gateway</item9283>
+    
+    <desc9283>QueenC_Havendish_Gateway</desc9283>
+    
+    <item9284>PartyShop_MothersDay2012</item9284>
+    
+    <desc9284>PartyShop_MothersDay2012</desc9284>
+    
+    <item9285>BrooksGateway</item9285>
+    
+    <desc9285>BrooksGateway</desc9285>
+    
+    <zoneName110009>Queen's Boutique</zoneName110009>
+    
+    <zoneName110010>Harmony's Sweet Shop</zoneName110010>
+    
+    <zoneName110011>Spike's Sweet Shop</zoneName110011>
+    
+    <item9286>Harmonys_SS_Xterior_Gateway</item9286>
+    
+    <desc9286>Harmonys_SS_Xterior_Gateway</desc9286>
+    
+    <item9087>Harmonys_SweetShop_Gateway</item9087>
+    
+    <desc9087>Harmonys_SweetShop_Gateway</desc9087>
+    
+    <item9287>Harmonys_SweetShop_Gateway</item9287>
+    
+    <desc9287>Harmonys_SweetShop_Gateway</desc9287>
+    
+    <item9288>SpikesGateway</item9288>
+    
+    <desc9288>SpikesGateway</desc9288>
+    
+    <item9289>Kits_Winter</item9289>
+    
+    <desc9289>Kits_Winter</desc9289>
+    
+    <item9292>FairyTaleTheater_CS_shop_HauntedHouse</item9292>
+    
+    <desc9292>FairyTaleTheater_CS_shop_HauntedHouse</desc9292>
+    
+    <item9291>FrostedForestGateway</item9291>
+    
+    <desc9291>FrostedForestGateway</desc9291>
+    
+    <item9290>Spikes_Gateway</item9290>
+    
+    <desc9290>Spikes_Gateway</desc9290>
+    
+    <zoneName926>Ice Theme</zoneName926>
+    
+    <item9293>treetop_shop2_Rainy</item9293>
+    
+    <desc9293>treetop_shop2_Rainy</desc9293>
+    
+    <item9294>treetop_shop1_Rainy</item9294>
+    
+    <desc9294>treetop_shop1_Rainy</desc9294>
+    
+    <item9295>animal_nursery_Gateway_SpingCrisisBegins</item9295>
+    
+    <desc9295>animal_nursery_Gateway_SpingCrisisBegins</desc9295>
+    
+    <item9296>FairyTaleGatewayMermaid</item9296>
+    
+    <desc9296>FairyTaleGatewayMermaid</desc9296>
+    
+    <item9297>Elixa'sGatewaySpringCrisis2013</item9297>
+    
+    <desc9297>Elixa'sGatewaySpringCrisis2013</desc9297>
+    
+    <item9298>BallroomGatewayToHavendish_SpringEquinox</item9298>
+    
+    <desc9298>BallroomGatewayToHavendish_SpringEquinox</desc9298>
+    
+    <item9299>SpaShop</item9299>
+    
+    <desc9299>SpaShop</desc9299>
+    
+    <item9300>SpaShopGateway</item9300>
+    
+    <desc9300>SpaShopGateway</desc9300>
+    
+    <item9301>TroopGatewayMapleTree</item9301>
+    
+    <desc9301>TroopGatewayMapleTree</desc9301>
+    
+    <item9302>TroopGatewayCherryBlossom</item9302>
+    
+    <desc9302>TroopGatewayCherryBlossom</desc9302>
+    
+    <item9303 g="1">TroopGatewayDewdrop</item9303>
+    
+    <desc9303>TroopGatewayDewdrop</desc9303>
+    
+    <item9304>TroopGatewayCottonpuff</item9304>
+    
+    <desc9304>TroopGatewayCottonpuff</desc9304>
+    
+    <item9305>TroopGatewaySunflower</item9305>
+    
+    <desc9305>TroopGatewaySunflower</desc9305>
+    
+  </copy>
+  
+  <animationEvents>
+    
+    <!--anim anim_id="2" layer="ground">swf/TinkAnim_cherryBlossom.swf</anim>
+		<anim anim_id="1" layer="below">swf/TinkAnim_greendot_cherryBlossom.swf</anim>
+		<anim anim_id="4" layer="ground">swf/TinkAnim_neverberry.swf</anim>
+		<anim anim_id="3" layer="below">swf/TinkAnim_greendot_neverberry.swf</anim>
+		<anim anim_id="6" layer="ground">swf/TinkAnim_springTimeOrchard.swf</anim>
+		<anim anim_id="5" layer="below">swf/TinkAnim_greendot_springTimeOrchard.swf</anim>
+		<anim anim_id="8" layer="ground">swf/TinkAnim_springTimeValley.swf</anim>
+		<anim anim_id="7" layer="below">swf/TinkAnim_greendot_springTimeValley.swf</anim>
+		<anim anim_id="10" layer="ground">swf/TinkAnim_treeTopBend.swf</anim>
+		<anim anim_id="9" layer="below">swf/TinkAnim_greendot_treeTopBend.swf</anim-->
+    
+  </animationEvents>
+  
+</zoneAssets>

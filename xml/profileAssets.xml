@@ -1,0 +1,1235 @@
+<profileAssets>
+	<copy>
+		<arrival_day>Arrival Day</arrival_day>
+		<jan>January</jan>
+		<feb>February</feb>
+		<mar>March</mar>
+		<apr>April</apr>
+		<may>May</may>
+		<jun>June</jun>
+		<jul>July</jul>
+		<aug>August</aug>
+		<sep>September</sep>
+		<oct>October</oct>
+		<nov>November</nov>
+		<dec>December</dec>
+		<skilllevel>Talent Skill Level</skilllevel>
+		<talentMastery>Talent Mastery</talentMastery>
+		<levelDisplay>Level ###level###</levelDisplay>
+		<skilllevel98>Expert</skilllevel98>
+		<skilllevel99>Mentor</skilllevel99>
+		<favorite_badge>Favorite Badge:</favorite_badge>
+		<recent_badge>Most Recent Badge:</recent_badge>
+		<total_badges>Badges Earned:</total_badges>
+		<many_badges>All</many_badges>
+		<question1>Favorite Color</question1>
+		<question2>Favorite Food</question2>
+		<question3>Favorite Animal</question3>
+		<question4>Favorite Flower</question4>
+		<question5>Favorite Hobby</question5>
+		<question6>Dislikes</question6>
+		<question7>Favorite Tailoring Pattern</question7>
+		<question8>Favorite Baking Pattern</question8>
+		<question9>Favorite Tinkering Pattern</question9>
+		<question10>Favorite Hollow Day</question10>
+		<answer0>None</answer0>
+		<answer1>Acorn Pancakes</answer1>
+		<answer2>Ambrosia Salad</answer2>
+		<answer3>Anything sweet!</answer3>
+		<answer4>Apple Popovers</answer4>
+		<answer5>Berry Parfaits</answer5>
+		<answer6>Blueberry Pie</answer6>
+		<answer7>Blueberry Trifle</answer7>
+		<answer8>Bonbons</answer8>
+		<answer9>Carrot Cupcakes</answer9>
+		<answer10>Cheesecake</answer10>
+		<answer11>Chocolate Cake</answer11>
+		<answer12>Cinnamon Scones</answer12>
+		<answer13>Cinnamon Spice Cake</answer13>
+		<answer14>Cranberry Crumble</answer14>
+		<answer15>Everfruit</answer15>
+		<answer16>Fairy Cake</answer16>
+		<answer17>Fairy Macaroons</answer17>
+		<answer18>Fairy Toast</answer18>
+		<answer19>Gingerbread</answer19>
+		<answer20>Hazelnut Soup</answer20>
+		<answer21>Lemon Tarts</answer21>
+		<answer22>Ollallaberry Pie</answer22>
+		<answer23>Petit Fours</answer23>
+		<answer24>Poppy-puff Rolls</answer24>
+		<answer25>Puff Pastries</answer25>
+		<answer26>Pumpkin Muffins</answer26>
+		<answer27>Raspberries</answer27>
+		<answer28>Rhubarb Pie</answer28>
+		<answer29>Rose Petal Teacakes</answer29>
+		<answer30>Strawberries</answer30>
+		<answer31>Sunflower Seed Souffle</answer31>
+		<answer32>Tea and Cookies</answer32>
+		<answer33>Watermelon Ice</answer33>
+		<answer34>Buttercup</answer34>
+		<answer35>Cactus</answer35>
+		<answer36>Carnation</answer36>
+		<answer37>Daisy</answer37>
+		<answer38>Dandelion</answer38>
+		<answer39>Delphinium</answer39>
+		<answer40>Foxglove</answer40>
+		<answer41>Geranium</answer41>
+		<answer42>Honeysuckle</answer42>
+		<answer43>Hyacinth</answer43>
+		<answer44>Iris</answer44>
+		<answer45>Lilac</answer45>
+		<answer46>Lily</answer46>
+		<answer47>Lupine</answer47>
+		<answer48>Marigold</answer48>
+		<answer49>Orchid</answer49>
+		<answer50>Pansy</answer50>
+		<answer51>Rose</answer51>
+		<answer52>Silverbell</answer52>
+		<answer53>Sunflower</answer53>
+		<answer54>Tulip</answer54>
+		<answer55>Water Lily</answer55>
+		<answer56>Baking fairycake</answer56>
+		<answer57>Dancing</answer57>
+		<answer58>Daydreaming</answer58>
+		<answer59>Drawing pictures</answer59>
+		<answer60>Exploring</answer60>
+		<answer61>Fairy tag</answer61>
+		<answer62>Flying</answer62>
+		<answer63>Flying -- fast!</answer63>
+		<answer64>Helping Animals</answer64>
+		<answer65>Hide-and-seek</answer65>
+		<answer66>Making friends</answer66>
+		<answer67>Making jewelry</answer67>
+		<answer68>Making new clothes</answer68>
+		<answer69>Painting pictures</answer69>
+		<answer70>Pixie-dusting</answer70>
+		<answer71>Planting seeds</answer71>
+		<answer72>Playing music</answer72>
+		<answer73>Practical jokes</answer73>
+		<answer74>Racing</answer74>
+		<answer75>Shopping</answer75>
+		<answer76>Singing</answer76>
+		<answer77>Singing -- loud!</answer77>
+		<answer78>Telling stories</answer78>
+		<answer79>Blueberry Blue</answer79>
+		<answer80>Raspberry Red</answer80>
+		<answer81>Chestnut Brown</answer81>
+		<answer82>Chocolate Brown</answer82>
+		<answer83>Carnation White</answer83>
+		<answer84>Sapphire Blue</answer84>
+		<answer85>Sparkling Yellow</answer85>
+		<answer86>Pine Green</answer86>
+		<answer87>Foxtail Orange</answer87>
+		<answer88>Wisteria Purple</answer88>
+		<answer89>Goldfish Orange</answer89>
+		<answer90>Hawk Brown</answer90>
+		<answer91>Lemon Yellow</answer91>
+		<answer92>Forget-Me-Not Blue</answer92>
+		<answer93>Grassblade Green</answer93>
+		<answer94>Pepper Black</answer94>
+		<answer95>Peanut Yellow</answer95>
+		<answer96>Orchid Pink</answer96>
+		<answer97>Soil Brown</answer97>
+		<answer98>Thundercloud Gray</answer98>
+		<answer99>Almond Brown</answer99>
+		<answer100>Pale Rose Red</answer100>
+		<answer101>Boysenberry Purple</answer101>
+		<answer102>Seashore Brown</answer102>
+		<answer103>Sea Green</answer103>
+		<answer104>Sky Blue</answer104>
+		<answer105>Snow White</answer105>
+		<answer343>Strawberry Red</answer343>
+		<answer106>Pomegranate Purple</answer106>
+		<answer107>Starry White</answer107>
+		<answer108>Summer Green</answer108>
+		<answer109>Sunset Orange</answer109>
+		<answer110>Sunglow Yellow</answer110>
+		<answer111>Waterfall Blue</answer111>
+		<answer112>Frosty Blue</answer112>
+		<answer113>Friendship Pink</answer113>
+		<answer114>Bear</answer114>
+		<answer115>Bluebird</answer115>
+		<answer116>Bumble Bee</answer116>
+		<answer117>Bunny</answer117>
+		<answer118>Butterfly</answer118>
+		<answer119>Caterpillar</answer119>
+		<answer120>Chipmunk</answer120>
+		<answer121>Dolphin</answer121>
+		<answer122>Dove</answer122>
+		<answer123>Dragonfly</answer123>
+		<answer124>Flying Fish</answer124>
+		<answer125>Fox</answer125>
+		<answer126>Frog</answer126>
+		<answer127>Goldfish</answer127>
+		<answer128>Hummingbird</answer128>
+		<answer129>Ladybug</answer129>
+		<answer130>Mole</answer130>
+		<answer131>Monkey</answer131>
+		<answer132>Moth</answer132>
+		<answer133>Mouse</answer133>
+		<answer134>Nightingale</answer134>
+		<answer135>Owl</answer135>
+		<answer136>Pony</answer136>
+		<answer137>Seahorse</answer137>
+		<answer138>Spider</answer138>
+		<answer139>Squirrel</answer139>
+		<answer140>Arguing</answer140>
+		<answer141>Bad hair days</answer141>
+		<answer142>Being bored</answer142>
+		<answer143>Bossyboots</answer143>
+		<answer144>Cheaters</answer144>
+		<answer145>Cloudy days</answer145>
+		<answer146>Dark places</answer146>
+		<answer147>Eavesdroppers</answer147>
+		<answer148>Feeling left out</answer148>
+		<answer149>Gossips</answer149>
+		<answer150>Hawks</answer150>
+		<answer151>Know-it-alls</answer151>
+		<answer152>Meanies</answer152>
+		<answer153>Neat Freaks</answer153>
+		<answer154>Phonies</answer154>
+		<answer155>Rainy days</answer155>
+		<answer156>Sad endings</answer156>
+		<answer157>Show-offs</answer157>
+		<answer158>Slobs</answer158>
+		<answer159>Thunderstorms</answer159>
+		<answer160>Waking up early</answer160>
+		<answer161>Waking up late</answer161>
+		<answer162>Weeds</answer162>
+		<answer163>Buttercup Soup</answer163>
+		<answer164>Lemon Meringue Pie</answer164>
+		<answer165>Water Chestnuts</answer165>
+		<answer166>Acorn Butter</answer166>
+		<answer167>Firefly</answer167>
+		<answer168>All Animals!</answer168>
+		<answer169>Fixing things</answer169>
+		<answer170>Gardening</answer170>
+		<answer171>Learning new things</answer171>
+		<answer172>Bad jokes</answer172>
+		<answer173>Organizing</answer173>
+		<answer174>Catastrophe</answer174>
+		<answer175>Aster</answer175>
+		<answer176>Plum Purple</answer176>
+		<answer177>All Colors!</answer177>
+		<answer178>Frosty Blue</answer178>
+		<answer179>Roasted Chestnuts</answer179>
+		<answer180>Prickly Pear Blossoms</answer180>
+		<answer181>January Jasmine</answer181>
+		<answer182>Being the fastest</answer182>
+		<answer183>Sharing art</answer183>
+		<answer184>Efficiency</answer184>
+		<answer185>Poppy Seeds</answer185>
+		<answer186>Criticism</answer186>
+		<answer187>Distractions</answer187>
+		<answer188>Never Dove</answer188>
+		<answer189>Springtime Green</answer189>
+		<answer190>Fiddlehead Fern</answer190>
+		<answer191>Camellia</answer191>
+		<answer192>Being orderly</answer192>
+		<answer193>Unexpected problems</answer193>
+    <answer194>Oak Top</answer194>
+    <answer195>Maple Top</answer195>
+    <answer196>Maple Leaf Wrap</answer196>
+    <answer197>Ivy Tank Top</answer197>
+    <answer198>Twirly Oak Top</answer198>
+    <answer199>Daisy Wrap</answer199>
+    <answer200>Lily Top</answer200>
+    <answer201>Fringe Flower Top</answer201>
+    <answer202>Rose Cami</answer202>
+    <answer203>Buttercup Scoop</answer203>
+    <answer204>Meadow Grass Top</answer204>
+    <answer205>Lily Blossom Top</answer205>
+    <answer206>Spider Silk Silhouette</answer206>
+    <answer207>Ivy Leaf Skirt</answer207>
+    <answer208>Leafy Bubble Skirt</answer208>
+    <answer209>Long Grass Skirt</answer209>
+    <answer210>Oval Oak Skirt</answer210>
+    <answer211>Long Lily Skirt</answer211>
+    <answer212>Ivy Petal Pushers</answer212>
+    <answer213>Long Petal Skirt</answer213>
+    <answer214>Buttercup Skirt</answer214>
+    <answer215>Daisy Pettiskirt</answer215>
+    <answer216>Petal Swirl Skirt</answer216>
+    <answer217>Meadow Grass Sarong</answer217>
+    <answer218>Maple Mini</answer218>
+    <answer219>Grass Petal Pushers</answer219>
+    <answer220>Lily Classic</answer220>
+    <answer221>Grassweave Belt</answer221>
+    <answer222>Twirly Leaf Belt</answer222>
+    <answer223>Oak Leaf Sash</answer223>
+    <answer224>Single Leaf Sash</answer224>
+    <answer225>Rounded Leaf Sash</answer225>
+    <answer226>Maple Sash</answer226>
+    <answer227>Sunflower Maple Sash</answer227>
+    <answer228>Rose Petal Sash</answer228>
+    <answer229>Lily Petal Sash</answer229>
+    <answer230>Draping Petal Sash</answer230>
+    <answer231>Petal Chain Belt</answer231>
+    <answer232>Sparkle Sash</answer232>
+    <answer233>Moonbeam Belt</answer233>
+    <answer234>Flower Slippers</answer234>
+    <answer235>Grassy Weaves</answer235>
+    <answer236>Twirly Slippers</answer236>
+    <answer237>Twirly Wraps</answer237>
+    <answer238>Twirly Boots</answer238>
+    <answer239>Bubble Slippers</answer239>
+    <answer240>Striders</answer240>
+    <answer241>Leaf Topper Boots</answer241>
+    <answer242>Puffies</answer242>
+    <answer243>Acorn Cookie</answer243>
+    <answer244>Sunflower Cookie</answer244>
+    <answer245>Honey Cookie</answer245>
+    <answer246>Raspberry Cookie</answer246>
+    <answer247>Blueberry Cookie</answer247>
+    <answer248>Honey Maple Cookie</answer248>
+    <answer249>Truffle Cookie</answer249>
+    <answer250>Honey Truffle Cookie</answer250>
+    <answer251>Raspberry Truffle Cookie</answer251>
+    <answer252>Blueberry Truffle Cookie</answer252>
+    <answer253>Sweet Tea Light</answer253>
+    <answer254>Petal Candle</answer254>
+    <answer255>Tiki Torch</answer255>
+    <answer256>Candelabra</answer256>
+    <answer257>Rose of Sharon Lamp</answer257>
+    <answer258>Daisy Table Lamp</answer258>
+    <answer259>Curly Glow Lamp</answer259>
+    <answer260>Tulip Floor Lamp</answer260>
+    <answer261>Buttercup Floor Lamp</answer261>
+    <answer262>Hanging Flower Light</answer262>
+    <answer263>Leaf Blanket</answer263>
+    <answer264>Wind Chime</answer264>
+    <answer265>Posy Pillow</answer265>
+    <answer266>Fluffy Fish Pillow</answer266>
+    <answer267>Spider Silk Curtains</answer267>
+    <answer268>Clay Pot</answer268>
+    <answer269>Watering Tin</answer269>
+    <answer270>Hot Cocoa Mug</answer270>
+    <answer271>Hot Cocoa Kettle</answer271>
+    <answer272>Juice Glass</answer272>
+    <answer273>Juice Pitcher</answer273>
+    <answer274>Tinker Pot</answer274>
+    <answer275>Jewel Box</answer275>
+    <answer276>Neverwood Trellis</answer276>
+    <answer277>Seedpod Fan</answer277>
+    <answer278>Leaf Curtain</answer278>
+    <answer279>Twig Porch Swing</answer279>
+    <answer280>Big Comfy Chair</answer280>
+    <answer281>Neverwood Chair</answer281>
+    <answer282>Tenderleaf Table</answer282>
+    <answer283>Maple Mat</answer283>
+    <answer284>Sunflower Loveseat</answer284>
+    <answer285>Daisy Bloom Swing</answer285>
+    <answer286>Leaf Lounger</answer286>
+    <answer287>Lily Pad Mat</answer287>
+    <answer288>Waterdrop Wall Shelf</answer288>
+    <answer289>Tinker's Workbench</answer289>
+    <answer290>Cozy Fireplace</answer290>
+    <answer291>Arrival Day</answer291>
+    <answer292>Carnival Day</answer292>
+    <answer293>Fairy Friendship Festival</answer293>
+    <answer294>Clover Celebration</answer294>
+    <answer295>Silly Days</answer295>
+    <answer296>Never Dove Egg Hunt</answer296>
+    <answer297>Great Games Day</answer297>
+    <answer298>Formally Spring</answer298>
+    <answer299>Summer Solstice</answer299>
+    <answer300>Animal Masquerade</answer300>
+    <answer301>Changing of the Leaves</answer301>
+    <answer302>Autumn Revelry</answer302>
+    <answer303>Fairy Feast</answer303>
+    <answer304>Great Winter Light-Up</answer304>
+    <answer305>Winter Wonderland</answer305>
+    <answer306>Watching Plays</answer306>
+    <answer307>Performing Plays</answer307>
+    <answer308>Hosting parties</answer308>
+    <answer309>Playing party games</answer309>
+    <answer310>Reading the News</answer310>
+    <answer311>Reading Pixie Postings</answer311>
+    <answer312>Adventuring</answer312>
+    <answer313>Scouting</answer313>
+    <answer314>Helping Animals</answer314>
+    <answer315>Earning Badges</answer315>
+    <answer316>Tinkering</answer316>
+    <answer317>Mainland Quests</answer317>
+    <answer318>Having my hair done</answer318>
+    <answer319>Having tea with friends</answer319>
+    <answer320>Fashion shows</answer320>
+    <answer321>Nerine</answer321>
+    <answer322>Lantana</answer322>
+    <answer323>Bougainvillea</answer323>
+    <answer324>Gentian</answer324>
+    <answer325>Saffron</answer325>
+    <answer326>Dahlia</answer326>
+    <answer327>Cosmos</answer327>
+    <answer328>Aster</answer328>
+    <answer329>Poinsettia</answer329>
+    <answer330>Curcuma</answer330>
+    <answer331>Euphorbia</answer331>
+    <answer332>Tillandsia</answer332>
+    <answer333>Helenium</answer333>
+    <answer334>Birds of Paradise</answer334>
+    <answer335>Wet Wings</answer335>
+    <answer336>Mermaids</answer336>
+    <answer338>Snakes</answer338>
+    <answer339>Pirates</answer339>
+    <answer340>Sour Plums</answer340>
+    <answer341>Speaking to animals</answer341>
+    <answer342>Disagreements</answer342>
+    <answer344>Hollyhock</answer344>
+    <answer345>Enjoying summer</answer345>
+    <answer346>Spoilsports</answer346>
+    <answer347>Carrot Soup</answer347>
+    <answer348>Stargazer Lily</answer348>
+    <answer349>Never Gold</answer349>
+    <answer350>Fig-chocolate Cake</answer350>
+    <answer351>Calla Lily</answer351>
+    <answer352>Ruling Pixie Hollow</answer352>
+    <answer353>Hurricanes</answer353>
+    <answer354>Strawberry Cake</answer354>
+    <answer355>Delivering Pixie Dust</answer355>
+    <answer356>Oversleeping</answer356>
+    <answer357>All flowers!</answer357>
+    <answer358>Going for the Gold</answer358>
+    <answer359>Negativity</answer359>
+    <answer360>Baking</answer360>
+    <answer361>Burnt cookies</answer361>
+	<answer362>Ice sliding</answer362>
+	<answer363>Periwinkle</answer363>
+	
+		<!-- Music Names-->
+		<musicName0>None</musicName0>
+		<musicName1>Morning Dew</musicName1>
+		<musicName2>Evening Shade</musicName2>
+		<musicName3>Whispering Meadow</musicName3>
+		<musicName4>Babbling Brook</musicName4>
+		<musicName5>Fairy Garden</musicName5>
+		<musicName6>Autumn Breeze</musicName6>
+		<musicName7>Wooded Glen</musicName7>
+		<musicName8>Forest Stream</musicName8>
+		<!--Favorite Names-->
+		<favoriteName1>Snowy Lullaby</favoriteName1>
+		<favoriteName2>Bubble Bounce</favoriteName2>
+		<favoriteName3>Fairy Fireworks</favoriteName3>
+		<favoriteName4>Firefly Light-Up</favoriteName4>
+		<favoriteName5>Harvest Hustle</favoriteName5>
+		<favoriteName6>Petal Pick-Up</favoriteName6>
+		<favoriteName7>Snowflake Sweep</favoriteName7>
+		<favoriteName8>Tinker Toss</favoriteName8>
+		<favoriteName9>Water Web</favoriteName9>
+		<favoriteName10>Simone Says</favoriteName10>
+		<favoriteName11>Pass the Popcorn</favoriteName11>
+		<favoriteName12>Rock, Paper, Scissors</favoriteName12>
+		<favoriteName13>Fairy Tag</favoriteName13>
+		<favoriteName14>Seed Sorter</favoriteName14>
+		<favoriteName15>Butterfly Painter</favoriteName15>
+		<favoriteName16>Crazy Cakes</favoriteName16>
+		<favoriteName17>First Flight</favoriteName17>
+		<favoriteName18>Daily Spin</favoriteName18>
+		<favoriteName19>Pinecone Pop</favoriteName19>
+		<!--Quiz Names-->
+		<quizName1>Fairy Magic Quiz</quizName1>
+		<quizName2>Fairy Fashion Quiz</quizName2>
+		<quizName3>Fairy Bug Quiz</quizName3>
+		<quizName4>Fairy Forecast Quiz</quizName4>
+		<quizName5>Fairy Competition Quiz</quizName5>
+		<quizName6>Feathered Friends Quiz</quizName6>
+		<quizName7>Fairy Friendship Quiz</quizName7>
+		<quizName8>Adventurous Animal Quiz</quizName8>
+		<!--Poll Names-->
+		<pollName1>Favorite Food</pollName1>
+		<pollName2>A Day in Pixie Hollow</pollName2>
+		<pollName3>Fairy Page Activities</pollName3>
+		<pollName4>Favorite Fairy Game</pollName4>
+		<pollName5>Favorite Time of Day</pollName5>
+		<pollName6>Favorite Season</pollName6>
+		<pollName7>Meet in Pixie Hollow</pollName7>
+		<pollName8>Explore Never Land</pollName8>
+		<pollName9>Never Land Treasure</pollName9>
+		<pollName10>Being a Fairy</pollName10>
+	</copy>
+	<success>true</success>
+	<themes>
+		<theme theme_id="1">
+			<swf>swf/theme_0.swf</swf>
+			<primary>133 195 86</primary>
+			<secondary>105 110 194</secondary>
+			<backgroundImageURL><![CDATA[images/Style0Sliver.jpg]]></backgroundImageURL>
+		</theme>
+		<theme theme_id="2">
+			<swf>swf/theme_1.swf</swf>
+			<primary>78 141 194</primary>
+			<secondary>106 167 196</secondary>
+			<backgroundImageURL><![CDATA[images/Style1Sliver.jpg]]></backgroundImageURL>
+		</theme>
+		<theme theme_id="3">
+			<swf>swf/theme_2.swf</swf>
+			<primary>195 79 92</primary>
+			<secondary>189 102 118</secondary>
+			<backgroundImageURL><![CDATA[images/Style2Sliver.jpg]]></backgroundImageURL>
+		</theme>
+		<theme theme_id="4">
+			<swf>swf/theme_3.swf</swf>
+			<primary>103 203 131</primary>
+			<secondary>105 195 144</secondary>
+			<backgroundImageURL><![CDATA[images/Style3Sliver.jpg]]></backgroundImageURL>
+		</theme>
+		<theme theme_id="5">
+			<swf>swf/theme_4.swf</swf>
+			<primary>166 104 203</primary>
+			<secondary>150 104 196</secondary>
+			<backgroundImageURL><![CDATA[images/Style4Sliver.jpg]]></backgroundImageURL>
+		</theme>
+		<theme theme_id="6">
+			<swf>swf/theme_5.swf</swf>
+			<primary>199 145 109</primary>
+			<secondary>243 152 69</secondary>
+			<backgroundImageURL><![CDATA[images/Style5Sliver.jpg]]></backgroundImageURL>
+		</theme>
+		<theme theme_id="7">
+			<swf>swf/theme_6.swf</swf>
+			<primary>210 173 59</primary>
+			<secondary>193 110 104</secondary>
+			<backgroundImageURL><![CDATA[images/Style6Sliver.jpg]]></backgroundImageURL>
+		</theme>
+	</themes>
+	<music_tracks>
+		<location>swf/audio_ambience_preview.swf</location>
+		<music_track music_track_id="1">
+			<location>none</location>
+			<name>musicName0</name>
+		</music_track>
+		<music_track music_track_id="2">
+			<location>swf/audio_content/ambience1.swf</location>
+			<name>musicName1</name>
+		</music_track>
+		<music_track music_track_id="3">
+			<location>swf/audio_content/ambience2.swf</location>
+			<name>musicName2</name>
+		</music_track>
+		<music_track music_track_id="4">
+			<location>swf/audio_content/ambience3.swf</location>
+			<name>musicName3</name>
+		</music_track>
+		<music_track music_track_id="5">
+			<location>swf/audio_content/ambience4.swf</location>
+			<name>musicName4</name>
+		</music_track>
+		<music_track music_track_id="6">
+			<location>swf/audio_content/ambience5.swf</location>
+			<name>musicName5</name>
+		</music_track>
+		<music_track music_track_id="7">
+			<location>swf/audio_content/ambience6.swf</location>
+			<name>musicName6</name>
+		</music_track>
+		<music_track music_track_id="8">
+			<location>swf/audio_content/ambience7.swf</location>
+			<name>musicName7</name>
+		</music_track>
+		<music_track music_track_id="9">
+			<location>swf/audio_content/ambience8.swf</location>
+			<name>musicName8</name>
+		</music_track>
+	</music_tracks>
+	<bio_questions>
+		<question id="1">
+			<text>question1</text>
+			<answer answer_id="0">answer0</answer>
+			<answer answer_id="79">answer79</answer>
+			<answer answer_id="80">answer80</answer>
+			<answer answer_id="81">answer81</answer>
+			<answer answer_id="82">answer82</answer>
+			<answer answer_id="83">answer83</answer>
+			<answer answer_id="84">answer84</answer>
+			<answer answer_id="85">answer85</answer>
+			<answer answer_id="86">answer86</answer>
+			<answer answer_id="87">answer87</answer>
+			<answer answer_id="88">answer88</answer>
+			<answer answer_id="89">answer89</answer>
+			<answer answer_id="90">answer90</answer>
+			<answer answer_id="91">answer91</answer>
+			<answer answer_id="92">answer92</answer>
+			<answer answer_id="93">answer93</answer>
+			<answer answer_id="94">answer94</answer>
+			<answer answer_id="95">answer95</answer>
+			<answer answer_id="96">answer96</answer>
+			<answer answer_id="97">answer97</answer>
+			<answer answer_id="176">answer176</answer>
+			<answer answer_id="98">answer98</answer>
+			<answer answer_id="99">answer99</answer>
+			<answer answer_id="100">answer100</answer>
+			<answer answer_id="101">answer101</answer>
+			<answer answer_id="102">answer102</answer>
+			<answer answer_id="103">answer103</answer>
+			<answer answer_id="104">answer104</answer>
+			<answer answer_id="105">answer105</answer>
+			<answer answer_id="106">answer106</answer>
+			<answer answer_id="189">answer189</answer>
+			<answer answer_id="107">answer107</answer>
+			<answer answer_id="108">answer108</answer>
+			<answer answer_id="109">answer109</answer>
+			<answer answer_id="110">answer110</answer>
+			<answer answer_id="111">answer111</answer>
+			<answer answer_id="112">answer112</answer>
+			<answer answer_id="113">answer113</answer>
+			<answer answer_id="343">answer343</answer>
+		</question>
+		<question id="2">
+			<text>question2</text>
+			<answer answer_id="0">answer0</answer>
+			<answer answer_id="166">answer166</answer>
+			<answer answer_id="1">answer1</answer>
+			<answer answer_id="2">answer2</answer>
+			<answer answer_id="3">answer3</answer>
+			<answer answer_id="4">answer4</answer>
+			<answer answer_id="5">answer5</answer>
+			<answer answer_id="6">answer6</answer>
+			<answer answer_id="7">answer7</answer>
+			<answer answer_id="8">answer8</answer>
+			<answer answer_id="163">answer163</answer>
+			<answer answer_id="9">answer9</answer>
+			<answer answer_id="10">answer10</answer>
+			<answer answer_id="11">answer11</answer>
+			<answer answer_id="12">answer12</answer>
+			<answer answer_id="13">answer13</answer>
+			<answer answer_id="14">answer14</answer>
+			<answer answer_id="15">answer15</answer>
+			<answer answer_id="16">answer16</answer>
+			<answer answer_id="17">answer17</answer>
+			<answer answer_id="18">answer18</answer>
+			<answer answer_id="190">answer190</answer>
+			<answer answer_id="19">answer19</answer>
+			<answer answer_id="20">answer20</answer>
+			<answer answer_id="164">answer164</answer>
+			<answer answer_id="21">answer21</answer>
+			<answer answer_id="22">answer22</answer>
+			<answer answer_id="23">answer23</answer>
+			<answer answer_id="24">answer24</answer>
+			<answer answer_id="25">answer25</answer>
+			<answer answer_id="26">answer26</answer>
+			<answer answer_id="27">answer27</answer>
+			<answer answer_id="28">answer28</answer>
+			<answer answer_id="179">answer179</answer>
+			<answer answer_id="29">answer29</answer>
+			<answer answer_id="30">answer30</answer>
+			<answer answer_id="31">answer31</answer>
+			<answer answer_id="32">answer32</answer>
+			<answer answer_id="165">answer165</answer>
+			<answer answer_id="33">answer33</answer>
+			<answer answer_id="347">answer347</answer>
+		</question>
+		<question id="3">
+			<text>question3</text>
+			<answer answer_id="0">answer0</answer>
+			<answer answer_id="168">answer168</answer>
+			<answer answer_id="114">answer114</answer>
+			<answer answer_id="115">answer115</answer>
+			<answer answer_id="116">answer116</answer>
+			<answer answer_id="117">answer117</answer>
+			<answer answer_id="118">answer118</answer>
+			<answer answer_id="119">answer119</answer>
+			<answer answer_id="120">answer120</answer>
+			<answer answer_id="121">answer121</answer>
+			<answer answer_id="122">answer122</answer>
+			<answer answer_id="123">answer123</answer>
+			<answer answer_id="167">answer167</answer>
+			<answer answer_id="124">answer124</answer>
+			<answer answer_id="125">answer125</answer>
+			<answer answer_id="126">answer126</answer>
+			<answer answer_id="127">answer127</answer>
+			<answer answer_id="128">answer128</answer>
+			<answer answer_id="129">answer129</answer>
+			<answer answer_id="130">answer130</answer>
+			<answer answer_id="131">answer131</answer>
+			<answer answer_id="132">answer132</answer>
+			<answer answer_id="133">answer133</answer>
+			<answer answer_id="134">answer134</answer>
+			<answer answer_id="135">answer135</answer>
+			<answer answer_id="136">answer136</answer>
+			<answer answer_id="137">answer137</answer>
+			<answer answer_id="138">answer138</answer>
+			<answer answer_id="139">answer139</answer>
+		</question>
+		<question id="4">
+			<text>question4</text>
+			<answer answer_id="0">answer0</answer>
+			<answer answer_id="175">answer175</answer>
+			<answer answer_id="34">answer34</answer>
+			<answer answer_id="35">answer35</answer>
+			<answer answer_id="191">answer191</answer>
+			<answer answer_id="36">answer36</answer>
+			<answer answer_id="37">answer37</answer>
+			<answer answer_id="38">answer38</answer>
+			<answer answer_id="39">answer39</answer>
+			<answer answer_id="40">answer40</answer>
+			<answer answer_id="41">answer41</answer>
+			<answer answer_id="42">answer42</answer>
+			<answer answer_id="43">answer43</answer>
+			<answer answer_id="44">answer44</answer>
+			<answer answer_id="181">answer181</answer>
+			<answer answer_id="45">answer45</answer>
+			<answer answer_id="46">answer46</answer>
+			<answer answer_id="47">answer47</answer>
+			<answer answer_id="48">answer48</answer>
+			<answer answer_id="49">answer49</answer>
+			<answer answer_id="50">answer50</answer>
+			<answer answer_id="180">answer180</answer>
+			<answer answer_id="51">answer51</answer>
+			<answer answer_id="52">answer52</answer>
+			<answer answer_id="53">answer53</answer>
+			<answer answer_id="54">answer54</answer>
+			<answer answer_id="55">answer55</answer>
+      <answer answer_id="321">answer321</answer>
+      <answer answer_id="322">answer322</answer>
+      <answer answer_id="323">answer323</answer>
+      <answer answer_id="324">answer324</answer>
+      <answer answer_id="325">answer325</answer>
+      <answer answer_id="326">answer326</answer>
+      <answer answer_id="327">answer327</answer>
+      <answer answer_id="329">answer329</answer>
+      <answer answer_id="330">answer330</answer>
+      <answer answer_id="331">answer331</answer>
+      <answer answer_id="332">answer332</answer>
+      <answer answer_id="333">answer333</answer>
+			<answer answer_id="334">answer334</answer>
+			<answer answer_id="344">answer344</answer>
+			<answer answer_id="363">answer363</answer>
+		</question>
+		<question id="5">
+			<text>question5</text>
+			<answer answer_id="0">answer0</answer>
+			<answer answer_id="56">answer56</answer>
+			<answer answer_id="192">answer192</answer>
+			<answer answer_id="182">answer182</answer>
+			<answer answer_id="57">answer57</answer>
+			<answer answer_id="58">answer58</answer>
+			<answer answer_id="59">answer59</answer>
+			<answer answer_id="184">answer184</answer>
+			<answer answer_id="60">answer60</answer>
+			<answer answer_id="61">answer61</answer>
+			<answer answer_id="169">answer169</answer>
+			<answer answer_id="62">answer62</answer>
+			<answer answer_id="63">answer63</answer>
+			<answer answer_id="170">answer170</answer>
+			<answer answer_id="171">answer171</answer>
+			<answer answer_id="64">answer64</answer>
+			<answer answer_id="65">answer65</answer>
+			<answer answer_id="66">answer66</answer>
+			<answer answer_id="67">answer67</answer>
+			<answer answer_id="68">answer68</answer>
+			<answer answer_id="173">answer173</answer>
+			<answer answer_id="69">answer69</answer>
+			<answer answer_id="70">answer70</answer>
+			<answer answer_id="71">answer71</answer>
+			<answer answer_id="72">answer72</answer>
+			<answer answer_id="73">answer73</answer>
+			<answer answer_id="74">answer74</answer>
+			<answer answer_id="183">answer183</answer>
+			<answer answer_id="75">answer75</answer>
+			<answer answer_id="76">answer76</answer>
+			<answer answer_id="77">answer77</answer>
+			<answer answer_id="78">answer78</answer>
+      <answer answer_id="306">answer306</answer>
+      <answer answer_id="307">answer307</answer>
+      <answer answer_id="308">answer308</answer>
+      <answer answer_id="309">answer309</answer>
+      <answer answer_id="310">answer310</answer>
+      <answer answer_id="311">answer311</answer>
+      <answer answer_id="312">answer312</answer>
+      <answer answer_id="313">answer313</answer>
+      <answer answer_id="315">answer315</answer>
+      <answer answer_id="316">answer316</answer>
+      <answer answer_id="317">answer317</answer>
+      <answer answer_id="318">answer318</answer>
+      <answer answer_id="319">answer319</answer>
+      <answer answer_id="320">answer320</answer>
+      <answer answer_id="345">answer345</answer>
+	  <answer answer_id="362">answer362</answer>
+		</question>
+		<question id="6">
+			<text>question6</text>
+			<answer answer_id="0">answer0</answer>
+			<answer answer_id="140">answer140</answer>
+			<answer answer_id="141">answer141</answer>
+			<answer answer_id="142">answer142</answer>
+			<answer answer_id="172">answer172</answer>
+			<answer answer_id="143">answer143</answer>
+			<answer answer_id="174">answer174</answer>
+			<answer answer_id="144">answer144</answer>
+			<answer answer_id="145">answer145</answer>
+			<answer answer_id="186">answer186</answer>
+			<answer answer_id="146">answer146</answer>
+			<answer answer_id="187">answer187</answer>
+			<answer answer_id="147">answer147</answer>
+			<answer answer_id="148">answer148</answer>
+			<answer answer_id="149">answer149</answer>
+			<answer answer_id="150">answer150</answer>
+			<answer answer_id="151">answer151</answer>
+			<answer answer_id="152">answer152</answer>
+			<answer answer_id="153">answer153</answer>
+			<answer answer_id="154">answer154</answer>
+			<answer answer_id="185">answer185</answer>
+			<answer answer_id="155">answer155</answer>
+			<answer answer_id="156">answer156</answer>
+			<answer answer_id="157">answer157</answer>
+			<answer answer_id="158">answer158</answer>
+			<answer answer_id="159">answer159</answer>
+			<answer answer_id="193">answer193</answer>
+			<answer answer_id="160">answer160</answer>
+			<answer answer_id="161">answer161</answer>
+			<answer answer_id="162">answer162</answer>
+			<answer answer_id="335">answer335</answer>
+			<answer answer_id="336">answer336</answer>
+			<answer answer_id="338">answer338</answer>
+			<answer answer_id="339">answer339</answer>
+			<answer answer_id="340">answer340</answer>
+			<answer answer_id="346">answer346</answer>
+			<answer answer_id="359">answer359</answer>
+		</question>
+		<!--<question id="7">
+			<text>question7</text>
+      <answer answer_id="194">answer194</answer>
+      <answer answer_id="195">answer195</answer>
+      <answer answer_id="196">answer196</answer>
+      <answer answer_id="197">answer197</answer>
+      <answer answer_id="198">answer198</answer>
+      <answer answer_id="199">answer199</answer>
+      <answer answer_id="200">answer200</answer>
+      <answer answer_id="201">answer201</answer>
+      <answer answer_id="202">answer202</answer>
+      <answer answer_id="203">answer203</answer>
+      <answer answer_id="204">answer204</answer>
+      <answer answer_id="205">answer205</answer>
+      <answer answer_id="206">answer206</answer>
+      <answer answer_id="207">answer207</answer>
+      <answer answer_id="208">answer208</answer>
+      <answer answer_id="209">answer209</answer>
+      <answer answer_id="210">answer210</answer>
+      <answer answer_id="211">answer211</answer>
+      <answer answer_id="212">answer212</answer>
+      <answer answer_id="213">answer213</answer>
+      <answer answer_id="214">answer214</answer>
+      <answer answer_id="215">answer215</answer>
+      <answer answer_id="216">answer216</answer>
+      <answer answer_id="217">answer217</answer>
+      <answer answer_id="218">answer218</answer>
+      <answer answer_id="219">answer219</answer>
+      <answer answer_id="220">answer220</answer>
+      <answer answer_id="221">answer221</answer>
+      <answer answer_id="222">answer222</answer>
+      <answer answer_id="223">answer223</answer>
+      <answer answer_id="224">answer224</answer>
+      <answer answer_id="225">answer225</answer>
+      <answer answer_id="226">answer226</answer>
+      <answer answer_id="227">answer227</answer>
+      <answer answer_id="228">answer228</answer>
+      <answer answer_id="229">answer229</answer>
+      <answer answer_id="230">answer230</answer>
+      <answer answer_id="231">answer231</answer>
+      <answer answer_id="232">answer232</answer>
+      <answer answer_id="233">answer233</answer>
+      <answer answer_id="234">answer234</answer>
+      <answer answer_id="235">answer235</answer>
+      <answer answer_id="236">answer236</answer>
+      <answer answer_id="237">answer237</answer>
+      <answer answer_id="238">answer238</answer>
+      <answer answer_id="239">answer239</answer>
+      <answer answer_id="240">answer240</answer>
+      <answer answer_id="241">answer241</answer>
+      <answer answer_id="242">answer242</answer>
+		</question>-->			
+		<!--<question id="8">
+			<text>question7</text>
+      <answer answer_id="243">answer243</answer>
+      <answer answer_id="244">answer244</answer>
+      <answer answer_id="245">answer245</answer>
+      <answer answer_id="246">answer246</answer>
+      <answer answer_id="247">answer247</answer>
+      <answer answer_id="248">answer248</answer>
+      <answer answer_id="249">answer249</answer>
+      <answer answer_id="250">answer250</answer>
+      <answer answer_id="251">answer251</answer>
+      <answer answer_id="252">answer252</answer>
+		</question>-->					
+		<!--<question id="9">
+			<text>question7</text>
+      <answer answer_id="253">answer253</answer>
+      <answer answer_id="254">answer254</answer>
+      <answer answer_id="255">answer255</answer>
+      <answer answer_id="256">answer256</answer>
+      <answer answer_id="257">answer257</answer>
+      <answer answer_id="258">answer258</answer>
+      <answer answer_id="259">answer259</answer>
+      <answer answer_id="260">answer260</answer>
+      <answer answer_id="261">answer261</answer>
+      <answer answer_id="262">answer262</answer>
+      <answer answer_id="263">answer263</answer>
+      <answer answer_id="264">answer264</answer>
+      <answer answer_id="265">answer265</answer>
+      <answer answer_id="266">answer266</answer>
+      <answer answer_id="267">answer267</answer>
+      <answer answer_id="268">answer268</answer>
+      <answer answer_id="269">answer269</answer>
+      <answer answer_id="270">answer270</answer>
+      <answer answer_id="271">answer271</answer>
+      <answer answer_id="272">answer272</answer>
+      <answer answer_id="273">answer273</answer>
+      <answer answer_id="274">answer274</answer>
+      <answer answer_id="275">answer275</answer>
+      <answer answer_id="276">answer276</answer>
+      <answer answer_id="277">answer277</answer>
+      <answer answer_id="278">answer278</answer>
+      <answer answer_id="279">answer279</answer>
+      <answer answer_id="280">answer280</answer>
+      <answer answer_id="281">answer281</answer>
+      <answer answer_id="282">answer282</answer>
+      <answer answer_id="283">answer283</answer>
+      <answer answer_id="284">answer284</answer>
+      <answer answer_id="285">answer285</answer>
+      <answer answer_id="286">answer286</answer>
+      <answer answer_id="287">answer287</answer>
+      <answer answer_id="288">answer288</answer>
+      <answer answer_id="289">answer289</answer>
+      <answer answer_id="290">answer290</answer>
+		</question>-->		
+		<!--<question id="10">
+			<text>question7</text>
+      <answer answer_id="290">answer290</answer>
+      <answer answer_id="291">answer291</answer>
+      <answer answer_id="292">answer292</answer>
+      <answer answer_id="293">answer293</answer>
+      <answer answer_id="294">answer294</answer>
+      <answer answer_id="295">answer295</answer>
+      <answer answer_id="296">answer296</answer>
+      <answer answer_id="297">answer297</answer>
+      <answer answer_id="298">answer298</answer>
+      <answer answer_id="299">answer299</answer>
+      <answer answer_id="300">answer300</answer>
+      <answer answer_id="301">answer301</answer>
+      <answer answer_id="302">answer302</answer>
+      <answer answer_id="303">answer303</answer>
+      <answer answer_id="304">answer304</answer>
+      <answer answer_id="305">answer305</answer>
+		</question>-->		
+	</bio_questions>
+	<ComFavorites>
+		<favorite favorite_id="1">
+			<icon>images/minigameIcons/bubblebouncer_pp_icon.png</icon>
+			<name>favoriteName2</name>
+		</favorite>
+		<favorite favorite_id="15">
+			<icon>images/minigameIcons/butterflypainter_pp_icon.png</icon>
+			<name>favoriteName15</name>
+		</favorite>
+		<favorite favorite_id="8">
+			<icon>images/minigameIcons/fairyfireworks_pp_icon.png</icon>
+			<name>favoriteName3</name>
+		</favorite>
+		<favorite favorite_id="2">
+			<icon>images/minigameIcons/fireflyLightup_pp_icon.png</icon>
+			<name>favoriteName4</name>
+		</favorite>
+		<favorite favorite_id="17">
+			<icon>images/minigameIcons/firstflight_pp_icon.png</icon>
+			<name>favoriteName17</name>
+		</favorite>
+		<favorite favorite_id="3">
+			<icon>images/minigameIcons/harvesthustle_pp_icon.png</icon>
+			<name>favoriteName5</name>
+		</favorite>
+		<favorite favorite_id="4">
+			<icon>images/minigameIcons/petalpickup_pp_icon.png</icon>
+			<name>favoriteName6</name>
+		</favorite>
+		<favorite favorite_id="19">
+			<icon>images/minigameIcons/pineconepop_pp_icon.png</icon>
+			<name>favoriteName19</name>
+		</favorite>
+		<favorite favorite_id="5">
+			<icon>images/minigameIcons/snowflakesweep_pp_icon.png</icon>
+			<name>favoriteName7</name>
+		</favorite>
+		<favorite favorite_id="14">
+			<icon>images/minigameIcons/seed_sorter_pp_icon.png</icon>
+			<name>favoriteName14</name>
+		</favorite>
+		<favorite favorite_id="9">
+			<icon>images/minigameIcons/animallullaby_pp_icon.png</icon>
+			<name>favoriteName1</name>
+		</favorite>
+		<favorite favorite_id="6">
+			<icon>images/minigameIcons/sortingsupplies_pp_icon.png</icon>
+			<name>favoriteName8</name>
+		</favorite>
+		<favorite favorite_id="7">
+			<icon>images/minigameIcons/waterweb_pp_icon.png</icon>
+			<name>favoriteName9</name>
+		</favorite>
+		<favorite favorite_id="18">
+			<icon>images/minigameIcons/dailychance_pp_icon.png</icon>
+			<name>favoriteName18</name>
+		</favorite>
+		<favorite favorite_id="10">
+			<icon>images/minigameIcons/simone_pp_icon.png</icon>
+			<name>favoriteName10</name>
+		</favorite>
+		<favorite favorite_id="11">
+			<icon>images/minigameIcons/popcorn_pp_icon.png</icon>
+			<name>favoriteName11</name>
+		</favorite>
+		<favorite favorite_id="12">
+			<icon>images/minigameIcons/rockpaper_pp_icon.png</icon>
+			<name>favoriteName12</name>
+		</favorite>
+		<favorite favorite_id="16">
+			<icon>images/minigameIcons/crazycakes_pp_icon.png</icon>
+			<name>favoriteName16</name>
+		</favorite>
+		<favorite favorite_id="13">
+			<icon>images/minigameIcons/fairytag_pp_icon.png</icon>
+			<name>favoriteName13</name>
+		</favorite>
+	</ComFavorites>
+	<quizzes>
+		<quiz quiz_id="1">
+			<name>quizName1</name>
+			<external_id>magic</external_id>
+		</quiz>
+		<quiz quiz_id="2">
+			<name>quizName2</name>
+			<external_id>fashion</external_id>
+		</quiz>
+		<quiz quiz_id="3">
+			<name>quizName3</name>
+			<external_id>bug</external_id>
+		</quiz>
+		<quiz quiz_id="4">
+			<name>quizName4</name>
+			<external_id>forecast</external_id>
+		</quiz>
+		<quiz quiz_id="5">
+			<name>quizName5</name>
+			<external_id>competition</external_id>
+		</quiz>
+		<quiz quiz_id="6">
+			<name>quizName6</name>
+			<external_id>memory</external_id>
+		</quiz>
+		<quiz quiz_id="7">
+			<name>quizName7</name>
+			<external_id>friendship</external_id>
+		</quiz>
+		<quiz quiz_id="8">
+			<name>quizName8</name>
+			<external_id>whatforestcreatureareyou</external_id>
+		</quiz>
+	</quizzes>
+	<polls>
+		<poll poll_id="1">
+			<name>pollName1</name>
+			<external_id>favfood</external_id>
+		</poll>
+		<poll poll_id="2">
+			<name>pollName2</name>
+			<external_id>dayinpixiehollow</external_id>
+		</poll>
+		<poll poll_id="3">
+			<name>pollName3</name>
+			<external_id>enjoydoingmost</external_id>
+		</poll>
+		<poll poll_id="4">
+			<name>pollName4</name>
+			<external_id>favfairygame</external_id>
+		</poll>
+		<poll poll_id="5">
+			<name>pollName5</name>
+			<external_id>favtimeofday</external_id>
+		</poll>
+		<poll poll_id="6">
+			<name>pollName6</name>
+			<external_id>favseason</external_id>
+		</poll>
+		<poll poll_id="7">
+			<name>pollName7</name>
+			<external_id>meetinpixiehollow</external_id>
+		</poll>
+		<poll poll_id="8">
+			<name>pollName8</name>
+			<external_id>exploreneverland</external_id>
+		</poll>
+		<poll poll_id="9">
+			<name>pollName9</name>
+			<external_id>treasureinneverland</external_id>
+		</poll>
+		<poll poll_id="10">
+			<name>pollName10</name>
+			<external_id>beingafairy</external_id>
+		</poll>
+	</polls>
+	<profileBGs>
+		<profileBG bg_id="0">
+			<url><![CDATA[images/loyalty_bgs/lbg0.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="1">
+			<url><![CDATA[images/loyalty_bgs/lbg1.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="2">
+			<url><![CDATA[images/loyalty_bgs/lbg2.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="3">
+			<url><![CDATA[images/loyalty_bgs/lbg3.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="4">
+			<url><![CDATA[images/loyalty_bgs/lbg4.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="5">
+			<url><![CDATA[images/loyalty_bgs/lbg5.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="6">
+			<url><![CDATA[images/loyalty_bgs/lbg6.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="7">
+			<url><![CDATA[images/loyalty_bgs/lbg7.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="8">
+			<url><![CDATA[images/loyalty_bgs/lbg8.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="9">
+			<url><![CDATA[images/loyalty_bgs/lbg9.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="10">
+			<url><![CDATA[images/loyalty_bgs/lbg10.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="11">
+			<url><![CDATA[images/loyalty_bgs/lbg11.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="12">
+			<url><![CDATA[images/loyalty_bgs/lbg12.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="13">
+			<url><![CDATA[images/loyalty_bgs/lbg13.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="14">
+			<url><![CDATA[images/loyalty_bgs/lbg14.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="15">
+			<url><![CDATA[images/loyalty_bgs/lbg15.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="16">
+			<url><![CDATA[images/loyalty_bgs/lbg16.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="17">
+			<url><![CDATA[images/loyalty_bgs/lbg17.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="18">
+			<url><![CDATA[images/loyalty_bgs/lbg18.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="19">
+			<url><![CDATA[images/loyalty_bgs/lbg19.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="20">
+			<url><![CDATA[images/loyalty_bgs/lbg20.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="21">
+			<url><![CDATA[images/loyalty_bgs/lbg21.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="22">
+			<url><![CDATA[images/loyalty_bgs/lbg22.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="23">
+			<url><![CDATA[images/loyalty_bgs/lbg23.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="24">
+			<url><![CDATA[images/loyalty_bgs/lbg24.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="25">
+			<url><![CDATA[images/loyalty_bgs/lbg25.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="26">
+			<url><![CDATA[images/loyalty_bgs/lbg26.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="27">
+			<url><![CDATA[images/loyalty_bgs/lbg27.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="28">
+			<url><![CDATA[images/loyalty_bgs/lbg28.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="29">
+			<url><![CDATA[images/loyalty_bgs/lbg29.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="30">
+			<url><![CDATA[images/loyalty_bgs/lbg30.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="31">
+			<url><![CDATA[images/loyalty_bgs/lbg31.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="32">
+			<url><![CDATA[images/loyalty_bgs/lbg32.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="33">
+			<url><![CDATA[images/loyalty_bgs/lbg33.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="34">
+			<url><![CDATA[images/loyalty_bgs/lbg34.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="35">
+			<url><![CDATA[images/loyalty_bgs/lbg35.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="36">
+			<url><![CDATA[images/loyalty_bgs/lbg36.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="37">
+			<url><![CDATA[images/loyalty_bgs/lbg37.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="38">
+			<url><![CDATA[images/loyalty_bgs/lbg38.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="39">
+			<url><![CDATA[images/loyalty_bgs/lbg39.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="40">
+			<url><![CDATA[images/loyalty_bgs/lbg40.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="41">
+			<url><![CDATA[images/loyalty_bgs/lbg41.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="42">
+			<url><![CDATA[images/loyalty_bgs/lbg42.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="43">
+			<url><![CDATA[images/loyalty_bgs/lbg43.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="44">
+			<url><![CDATA[images/loyalty_bgs/lbg44.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="45">
+			<url><![CDATA[images/loyalty_bgs/lbg45.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="46">
+			<url><![CDATA[images/loyalty_bgs/lbg46.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="47">
+			<url><![CDATA[images/loyalty_bgs/lbg47.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="48">
+			<url><![CDATA[images/loyalty_bgs/lbg48.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="49">
+			<url><![CDATA[images/loyalty_bgs/lbg49.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="50">
+			<url><![CDATA[images/loyalty_bgs/lbg50.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="51">
+			<url><![CDATA[images/loyalty_bgs/lbg51.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="52">
+			<url><![CDATA[images/loyalty_bgs/lbg52.jpg]]></url>
+		</profileBG>
+		<profileBG bg_id="53">
+			<url><![CDATA[images/loyalty_bgs/lbg53.jpg]]></url>
+		</profileBG>
+	</profileBGs>
+</profileAssets>
+
+<!--      <answer answer_id="314">answer314</answer>-->

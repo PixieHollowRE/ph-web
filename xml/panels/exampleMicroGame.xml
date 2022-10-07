@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/exampleMicrogame.swf</swf>
+		<swf type="code">{panelCode}/exampleMicrogame.swf</swf>
+	</swfs>
+	<copy>
+		<title>Example Microgame</title>
+		
+		<!-- an example of automatic readable-text insertion -->
+		<textClickBtn target="clickBtn.caption">Cancel</textClickBtn>
+	</copy>
+	<config>
+		<microGameId>ClickMeGame</microGameId>
+	</config>
+</panel>

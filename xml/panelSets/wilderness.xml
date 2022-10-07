@@ -1,0 +1,48 @@
+﻿<panelSet>
+      <panels>
+		<!-- <panel id="spellChooser" x="0" y="0" alwaysOnTop="true" hidden="true" transition="fade">{panelData}/spellChooser.xml</panel> 	
+		<panel id="exampleMicroGame" x="315" y="200" alwaysOnTop="true" transition="none">{panelData}/exampleMicroGame.xml</panel>
+		<panel id="Distract" x="300" y="75" alwaysOnTop="true" transition="none">{panelData}/microgameDistract.xml</panel>
+		<panel id="Grow" x="300" y="75" alwaysOnTop="true" transition="none">{panelData}/microgameGrow.xml</panel>
+		<panel id="Move" x="300" y="90" alwaysOnTop="true" transition="none">{panelData}/microgameMove.xml</panel>
+		<panel id="Charm" x="300" y="75" alwaysOnTop="true" transition="none">{panelData}/microgameCharm.xml</panel>		
+		<panel id="Splash" x="300" y="75" alwaysOnTop="true" transition="none">{panelData}/microgameSplash.xml</panel>	
+		<panel id="Heal" x="300" y="75" alwaysOnTop="true" transition="none">{panelData}/microgameHeal.xml</panel>
+		<panel id="Fix" x="300" y="75" alwaysOnTop="true" transition="none">{panelData}/microgameFix.xml</panel>
+		
+		<panel id="Illuminate" x="300" y="75" alwaysOnTop="true" transition="none">{panelData}/microgameIlluminate.xml</panel>-->	
+		<panel id="itemAlert" x="50" y="50" alwaysOnTop="true">{panelData}/itemAlert.xml</panel>
+		<panel id="AdventureNotices"  x="0" y="0" alwaysOnTop="true" hidden="true" transition="none">{panelData}/AdventureNotices.xml</panel>
+      </panels>
+      <config>
+		  <waitingForPlayersDelay>25</waitingForPlayersDelay>
+		  <alertDelay>3</alertDelay>
+		  <soundFXConfig>
+			<sound id="wilderness_Bird" loop="true" />
+			<sound id="wilderness_Butterfly" loop="true" /> 
+			<sound id="wilderness_Truffle" loop="true" /> 	
+			<sound id="wilderness_Squirrel" loop="true" />
+			<sound id="wilderness_Spider" loop="true" />
+			<sound id="wilderness_Frog" loop="true" />
+			<sound id="wilderness_Lizard" loop="true" />
+			<sound id="wilderness_Firefly" loop="true" />
+		  </soundFXConfig>
+	  </config>
+      <copy>
+		  <teleportWarn>There are still Challenges left to complete in this Wilderness Adventure. Are you sure you want to exit?</teleportWarn>
+		  <teleportWarnComplete>Are you sure you want to leave the Wilderness?</teleportWarnComplete>
+		  <playerLeavingEalryWarnTitle>Wilderness Alert</playerLeavingEalryWarnTitle>
+		  <playerLeavingEalryWarn>#fairyname# has left this Wilderness Adventure. You can still continue on without #HIM/HER#.</playerLeavingEalryWarn>
+		  <waitingForPlayersTitle>Hold On!</waitingForPlayersTitle>
+		  <waitingForPlayersDetails>Waiting for all players to join you in the Wilderness. Thanks for your pixie patience!</waitingForPlayersDetails>
+		  <missingPlayersWarn>Some fairies didn't make it into the Wilderness. You should still be able to complete all the challenges.</missingPlayersWarn>
+		  <wildernessComplete>Wilderness Complete!</wildernessComplete>
+		  <wildernessCompleteDetails>You did it! You have completed all the challenges in this Wilderness!</wildernessCompleteDetails>
+		   <wildernessStillLoading>One Moment -- Waiting for all players to enter the Wilderness.</wildernessStillLoading>
+		   <wildernessStillLoadingOnePlayer>Waiting for all challenges to load. Click OK and try again.</wildernessStillLoadingOnePlayer>
+		   <him>him</him>
+		   <her>her</her>
+		  <yes>Yes</yes>
+		  <no>No</no>
+	  </copy>
+</panelSet>

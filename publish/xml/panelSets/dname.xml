@@ -1,0 +1,25 @@
+<panelSet>
+	<panels>
+		<panel id="dname" x="70" y="-38" alwaysOnTop="true" transition="none">{publishPanelData}/dname.xml</panel>
+	</panels>
+	<config>
+	<trackingid>dname</trackingid>
+	
+		<logolink>false</logolink>
+		<menu>
+			<config nav="false" title="true"/>
+			<title>
+				<text>menutitle</text>
+			</title>
+		</menu>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<!--trackingid>dname</trackingid-->
+		<sectionid>dname</sectionid>
+		<pageid>dname</pageid>
+	</config>
+	<copy>
+		<menutitle>D-Name</menutitle>
+	</copy>
+
+</panelSet>

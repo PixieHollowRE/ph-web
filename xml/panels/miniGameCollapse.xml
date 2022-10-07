@@ -1,0 +1,339 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/collapseGame.swf</swf>
+		<swf type="code">{panelCode}/collapseGame.swf</swf>
+	</swfs>
+	<copy>
+		<!-- hud -->
+		<title>Harvest Hustle</title>		
+		<level>Level</level>
+
+		<hudTitleWelcome>Harvest Hustle</hudTitleWelcome>
+		<hudSubTitleWelcome>Get Ready</hudSubTitleWelcome>
+		
+		
+		<left_scorecard_title>TO COLLECT</left_scorecard_title>
+		<right_scorecard_title>Score</right_scorecard_title>		
+		<right_accent_title>Collected</right_accent_title>		
+		<level_tip_title>Get Ready!</level_tip_title>
+		<hostname>Fawn</hostname>
+		
+		<!-- UI: TITLE SCREEN -->
+		<title_screen target="title.title_container.title_text">Harvest Hustle</title_screen>
+		<title_play target="title.btnContainer.play_text">Play</title_play>
+		<title_help target="title.btnContainer.help_text">Instructions</title_help>		
+		<title_quit target="title.btnContainer.quit_text">Quit</title_quit>		
+		
+		<!-- UI: WELCOME -->
+		<welcome_title>Welcome!</welcome_title>
+		<welcome_text>Heya, chickadee, welcome to Knothole Pantry! Let's organize snacks for all the little critters to eat! Match food in sets of 3 or more to send them to the storeroom!</welcome_text>
+		<welcome_play>Continue</welcome_play>
+		
+		<!-- UI: SCORE CARD -->		
+		<scorecard_group>Biggest Group : </scorecard_group>
+		<scorecard_bonus>Group Bonus : </scorecard_bonus>
+		<scorecard_score>Total Score : </scorecard_score>	
+		<scorecard_final>Your Final Score : </scorecard_final>	
+		<scorecard_last>Last Level Score : </scorecard_last>	
+		<scorecard_your>Your Score : </scorecard_your>
+		
+		<!-- UI: TUTORIAL -->
+		<tutorial_next>NEXT</tutorial_next>
+		<tutorial_skip>Skip This</tutorial_skip>
+		<tutorial_try>Now you try it!</tutorial_try>
+		<tutorial_try2>Grab the same kind of food when they're next to each other!</tutorial_try2>
+		<tutorial_try3>Nice work! Keep going!</tutorial_try3>
+		<tutorial_good>Great job!</tutorial_good>
+		<tutorial_replay>How To Play</tutorial_replay>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		<tutorial_finalscore_label>Critterific! Let's get started!</tutorial_finalscore_label>
+		<tutorial_hudtitle>How to play</tutorial_hudtitle>
+		
+		
+		<host_level_tutorial_1>Give it a try!</host_level_tutorial_1>
+		<host_level_tutorial_2>Your turn!</host_level_tutorial_2>
+		<host_bubble_1>Give it a try!</host_bubble_1>
+		<host_bubble_2>Your turn!</host_bubble_2>
+		
+		<tutorial_stepIntro>Welcome to Knothole Pantry! I'm gonna show you how to organize critter snacks for next season!</tutorial_stepIntro>
+		<tutorial_step2>Grab the same kinds of food when they're next to each other.</tutorial_step2>
+		<tutorial_step3>There must be at least 3 pieces of food touching each other for you to grab them.</tutorial_step3>
+		<tutorial_step4>If there are more than 3 pieces touching, you get more points!</tutorial_step4>
+		<tutorial_step5>Here's where you can see how many snacks you need to collect for the little critters.</tutorial_step5>
+		<tutorial_step6>I'll be here in case ya need me, 'kay?</tutorial_step6>
+		<!--<tutorial_step7>Way to go! Let's start collecting!” </tutorial_step7>-->
+		
+		<tutorial_title_goal>Goal</tutorial_title_goal>
+		<win_tutorial_secondText>Complete!</win_tutorial_secondText>
+		
+		<!-- UI: STORY SCREEN -->
+		<easy_story>Let's get the little stuff out of the way first, 'kay?</easy_story>
+		<medium_story>Boy, the Pantry is a MESS! Get ready to organize!</medium_story>
+		<hard_story>There's food EVERYWHERE! Get to it!</hard_story>
+		<royal_story>Hey, snack sortin' pro! Ready for a challenge? Start flappin'!</royal_story>
+		<all_story>Hi there Fairy Friend! Welcome to Sunflower Meadow! I'm sorting seeds to plant in the Spring. I get a little mixed up sometimes. Can you help me pick up pairs of seeds?</all_story>
+		
+		<easy_exitstory>Pretty good, chickadee! You're the best!</easy_exitstory>
+		<medium_exitstory>Great job there! Thanks, chickadee!</medium_exitstory>
+		<hard_exitstory>Flaptastic job! Me an' all the little critters say thanks!</hard_exitstory>
+		<royal_exitstory>Jumpin' jackrabbits, I've never seen Knothole Pantry so tidy! THANKS!</royal_exitstory>
+		
+		<allmedium_story>Keep goin'! There's so much more to do!</allmedium_story>
+		<allhard_story>Wow, you're good at this! Don't stop now!</allhard_story>
+		<allroyal_story>Here comes the toughest part! Ready? Set? HUSTLE!</allroyal_story>
+		
+		
+		<!-- UI: INSTRUCTIONS -->
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">Instructions</inst_screen_title>
+		
+		<instruction0>Match 3 or more pieces of the same kind of food to collect them.</instruction0>
+		<instruction1>The more food you match in one group, the more points you get!</instruction1>
+		<instruction2>If the food overflows the tree, the game is over.</instruction2>		
+		<instruction3></instruction3>
+	
+		<inst_play target="instructions.btnContainer.playBtn.play_text">Play</inst_play>
+		<inst_back target="instructions.btnContainer.backBtn.back_text">Back</inst_back>		
+		<inst_cont target="instructions.btnContainer.continueBtn.continue_text">Continue</inst_cont>		
+		<inst_quit target="instructions.btnContainer.quitBtn.quit_text">Quit</inst_quit>
+		
+		<!-- UI: PRIZES -->
+		<prize_scrn target="prize.prize_container.prize_text">Rewards</prize_scrn>
+		
+		<!-- UI: GAME OVER -->
+		<!-- titles -->
+		<game_over_win>You Win!</game_over_win>
+		<game_over_lose>Nice Try!</game_over_lose>
+		<!-- buttons -->
+		<game_over_continue>Continue</game_over_continue>	
+		<game_over_quit>Quit</game_over_quit>
+		<!-- comments (win) -->
+		<game_over_win_0>Wow, you're a top-notch harvest hustler, wings down! Thanks for helping the critters!</game_over_win_0>
+		<game_over_win_1>I couldn't have done it without you. Thanks -- from me AND the critters!</game_over_win_1>
+		<game_over_win_2>You're a harvest pro! Come back any time to hustle up more snacks, 'kay?</game_over_win_2>
+		<game_over_win_3>There won't be a snack shortage now, that's for sure. Come back any time!</game_over_win_3>
+		<game_over_win_4>This is great! We've got snacks galore! Come back again, 'kay? Thanks for your help!</game_over_win_4>		
+		<!-- comments (lose) -->
+		<game_over_lose_0>Oops. Looks like things overloaded. But hey, you can try again any time! Thanks for helping!</game_over_lose_0>
+		<game_over_lose_1>Rats, things sort of... overflowed. But hey, why not try again? I can always use help!</game_over_lose_1>
+		<game_over_lose_2>Yikes! Harvest overload! Oh well, want to try again?</game_over_lose_2>
+		
+		<!-- UI: LEVEL COMLETE -->
+		<level_complete>Level {level} Complete!</level_complete>
+		
+		<!-- LEVEL TIPS -->
+		<level_tip_1>Start by collecting 40!</level_tip_1>
+		<level_tip_2>Collect 50 to get to the next level!</level_tip_2>
+		<level_tip_3>Don't let the rocks get in your way!</level_tip_3>
+		<level_tip_4>Use those buckets of Pixie Dust to make any match, 'cuz now you need to collect 60!</level_tip_4>
+		<level_tip_5>I found neverberries! YUM!</level_tip_5>
+		<level_tip_6>Keep flappin'! Collect 75 to get to the next level, 'kay?</level_tip_6>
+		<level_tip_7>Ooo, I LOVE neverberry cake! Hmm, I wonder what will happen if you touch one...? </level_tip_7>
+		<level_tip_9>Blueberries coming up! Now you have to collect 80.</level_tip_9>
+		<level_tip_10>I wonder what happens if you collect a blueberry cake? Oh, an' you need 90 to keep going!</level_tip_10>
+		<level_tip_13>Watch out, the swirly wind blows away a whole row! By the way, collect 100 this time!</level_tip_13>
+		<level_tip_19>Collect 110 pieces this time. Keep going!</level_tip_19>
+		<level_tip_24>120 more, please! Keep playing!</level_tip_24>
+		<level_tip_26>You can collect 130, can't ya? 'Course you can!</level_tip_26>
+		<level_tip_28>You're up to 140 now, woo-hoo!</level_tip_28>
+		<level_tip_30>Now there are walnuts to collect for the animals as well!</level_tip_30>
+		<level_tip_31>Water bubbles are a huge help. They clear everything around them!</level_tip_31>
+		<level_tip_40>Collect all 150 pieces of food here and you'll win the game! C'mon, do it, do it, get right to it!</level_tip_40>
+		
+		<level_tip_generic>Get ready for level {level}!</level_tip_generic>
+		
+		<!-- HOST DIALOG : events -->
+		<not_a_match_0>Oops! You need 3 or more!</not_a_match_0>
+		<not_a_match_1>Make sure you have 3 of the same kind!</not_a_match_1>
+		
+		<tree_overflow_0>Look out! The tree is going to overflow!</tree_overflow_0>
+		<tree_overflow_1>Hurry! The food is almost to the top!</tree_overflow_1>
+		
+		<match_0>Thunderin' thistles, that's a lot of food!</match_0>
+		<match_1>Great food stacking! Keep flappin'!</match_1>
+		  
+		<match_big_0>That's a lot of food! Pat yourself on the wing!</match_big_0>
+		<match_big_1>The little fuzzies will have a feast this winter!</match_big_1>
+		  
+		<match_cake_red_0>I like the cakes. Yummy!</match_cake_red_0>
+		<match_cake_red_1>Neverberries! Can't get enough of those!</match_cake_red_1>
+		  
+		<match_cake_purple_0>Blueberry cakes are pixie-licious!</match_cake_purple_0>
+		<match_cake_purple_1>I love blueberry cakes!</match_cake_purple_1>
+		  
+		<match_vortex_0>Swirly winds sure are helpful, huh?</match_vortex_0>		
+		
+		<match_wildcard_0>Remember, buckets of Pixie Dust match anything!</match_wildcard_0>
+		<match_wildcard_1>Try to match as many as you can for the most points!</match_wildcard_1>
+		
+		<match_bomb_0>Water bubbles clear everything around them!</match_bomb_0>
+		<match_bomb_1>Aren't those water bubbles a big help!</match_bomb_1>
+		
+		<fall_rock_0>EEP, rock in the way! Oh no!</fall_rock_0>
+		<fall_rock_1>Hurry, get rid of that rock!</fall_rock_1>
+		
+		<fall_vortex_0>Swirly winds sure are helpful.</fall_vortex_0>
+		<fall_vortex_1>There's another swirly wind! Go for it!</fall_vortex_1>
+		
+		<!-- HOST DIALOG : begin level -->
+		<host_level_1_0>Let's start small and work our way up, 'kay?</host_level_1_0>
+		<host_level_1_1>This shouldn't be too bad.</host_level_1_1>
+		<host_level_1_2>Let's start out a little slow.</host_level_1_2>
+		
+		<host_level_2_0>Try to stack at least 3!</host_level_2_0>
+		<host_level_2_1>If you stack 4 or more you get more points!</host_level_2_1>
+		
+		<host_level_3_0>Wait for the right moment!</host_level_3_0>
+		<host_level_3_1>Sometimes being patient is important!</host_level_3_1>
+		
+		<host_level_4_0>Use the buckets of pixie dust to make a match!</host_level_4_0>
+		<host_level_4_1>Look out for the rocks! They'll block your match!</host_level_4_1>
+		
+		<host_level_5_0>Neverberries are sooooo yummy!</host_level_5_0>
+		<host_level_5_1>Okay, this one's a little tricky.</host_level_5_1>
+		
+		<host_level_6_0>75 sounds like a lot, but you can do it!</host_level_6_0>
+		<host_level_6_1>How long of a match can you do?</host_level_6_1>
+		
+		<host_level_7_0>Don't forget the neverberry cakes!</host_level_7_0>
+		<host_level_7_1>You're doing great, chickadee!</host_level_7_1>
+		
+		<host_level_8_0>The critters are grateful for your help!</host_level_8_0>
+		<host_level_8_1>Flaptastic job!</host_level_8_1>
+		
+		<host_level_9_0>Oh, I LOVE blueberries, yum yum!</host_level_9_0>
+		<host_level_9_1>Thanks for your help!</host_level_9_1>
+		
+		<host_level_10_0>Neverberry cakes are helpful. What about blueberry?</host_level_10_0>
+		<host_level_10_1>See how many blueberries you can stack at once!</host_level_10_1>
+		
+		<host_level_11_0>They're coming faster! Keep it up!</host_level_11_0>
+		<host_level_11_1>Get lots of cakes! They'll really speed things up!</host_level_11_1>
+		
+		<host_level_12_0>How many do you think you can get in one try?</host_level_12_0>
+		<host_level_12_1>The critters will love all this chow! This is flaptastic!</host_level_12_1>
+		
+		<host_level_13_0>Click on the swirly wind to get rid of a row!</host_level_13_0>
+		<host_level_13_1>Those rocks sure get in the way, don't they?</host_level_13_1>
+		
+		<host_level_14_0>The more you stack at once, the more points you get!</host_level_14_0>
+		<host_level_14_1>I tell ya, the critters are gonna love you for this!</host_level_14_1>
+		
+		<host_level_15_0>You got the touch, chickadee! Keep it up!</host_level_15_0>
+		<host_level_15_1>Try to get as many as you can at one time!</host_level_15_1>
+		
+		<host_level_16_0>The critters love neverberry cakes as much as I do!</host_level_16_0>
+		<host_level_16_1>Yummy, corn! I can eat a whole kernel by myself, y'know.</host_level_16_1>
+		
+		<host_level_17_0>You're doing a super-duper job!</host_level_17_0>
+		<host_level_17_1>C'mon, fly as fast as your wings can flap!</host_level_17_1>
+		
+		<host_level_18_0>If you find 3 rocks together, match 'em to get 'em out of the way!</host_level_18_0>
+		<host_level_18_1>Keep up the good work, chickadee!</host_level_18_1>
+		
+		<host_level_19_0>Boy, the critters do love those blueberry cakes!</host_level_19_0>
+		<host_level_19_1>Click on the swirly wind if you need more time!</host_level_19_1>
+		
+		<host_level_20_0>Woo-hoo, great score!</host_level_20_0>
+		<host_level_20_1>Lots of critters love acorns! Do you like 'em? </host_level_20_1>
+		
+		<host_level_21_0>Keep stacking as fast as you can!</host_level_21_0>
+		<host_level_21_1>Yay, you did it!</host_level_21_1>
+		
+		<host_level_22_0>Wow, you really know how to harvest!</host_level_22_0>
+		<host_level_22_1>Remember, your hard work will really make a difference!</host_level_22_1>
+		
+		<host_level_23_0>See if you can get 10 acorns at once!</host_level_23_0>
+		
+		<host_level_24_0>Ooo, do you hear it? The critters' tummies are grumbling!</host_level_24_0>
+		
+		<host_level_25_0>Fly as fast as you can!</host_level_25_0>
+		
+		<host_level_26_0>See if you can get 5 kernels of corn at once!</host_level_26_0>
+		
+		<host_level_27_0>You fly like the wind!</host_level_27_0>
+		
+		<host_level_28_0>You have to fly fast here! Really flap those wings!</host_level_28_0>
+		
+		<host_level_29_0>Can you get 5 blueberries at once? </host_level_29_0>
+		
+		<host_level_30_0>C'mon, fly faster!</host_level_30_0>
+		<host_level_30_1>You are almost there!</host_level_30_1>
+
+	</copy>
+	<config>
+		<difficultyChoices layout="5small">		
+            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"/>			
+			<difficultyChoice descriptor="royal" displayName="Royal" paidOnly="false"/>			
+			<difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"/>	
+		</difficultyChoices>
+		
+		<supportsTutorial>true</supportsTutorial>
+	
+		<!-- required palette param -->		
+		<colorPalette>4</colorPalette>	
+		
+		<!-- sound params -->
+		<music_volume>0.7</music_volume>
+		
+		<!-- game params -->
+		<min_block_matches>3</min_block_matches>					<!-- number of blocks in a row to trigger a match -->
+		<score_per_block>10</score_per_block>						<!-- base points per block without bonus multipliers -->
+		<score_multipliers>3:1,4:2,7:3,10:4,15:5,999:5</score_multipliers><!-- bonus multiplier thresholds. Format is minimum_matches:multiplier. Comma delimited -->
+		
+		<!-- levels -->
+		<!--1-->
+		<!--<level types="3" cake="0" 	wildcard="0" 	blocker="0" 	vortex="0"  	blockFallSpeed="200"	blockFrequency="100"  startBlocks="40" targetBlocks="40" tip_text = "" tip_accent = "" />-->
+		
+		<level types="3" cake="0" 	wildcard="0" 	blocker="0" 	vortex="0"  	blockFallSpeed="1000"	blockFrequency="600"  startBlocks="40" targetBlocks="40" tip_text = "" tip_accent = "" />	
+		<level types="3" cake="0" 	wildcard="0" 	blocker="0" 	vortex="0"		blockFallSpeed="1000"	blockFrequency="500"  startBlocks="40" targetBlocks="50" tip_text = "" tip_accent = "" />
+		<level types="3" cake="0" 	wildcard="0" 	blocker="0.03" 	vortex="0"		blockFallSpeed="1000"	blockFrequency="500"  startBlocks="40" targetBlocks="50" tip_text = "" tip_accent = "" />
+		<level types="3" cake="0"	wildcard="0.05"	blocker="0.02" 	vortex="0"		blockFallSpeed="1000"	blockFrequency="500"  startBlocks="40" targetBlocks="60" tip_text = "" tip_accent = "" />			
+		<level types="4" cake="0" 	wildcard="0.05"	blocker="0"	 	vortex="0"		blockFallSpeed="1000"	blockFrequency="500"  startBlocks="40" targetBlocks="60" tip_text = "" tip_accent = "" />			
+		<!--6-->
+		<level types="4" cake="0" 	wildcard="0.05"	blocker="0"    vortex="0"		blockFallSpeed="1000"	blockFrequency="490"  startBlocks="40" targetBlocks="75" tip_text = "" tip_accent = "" />
+		<level types="4" cake="0.05" wildcard="0.04"	blocker="0"    vortex="0"		blockFallSpeed="1000"	blockFrequency="490"  startBlocks="40" targetBlocks="75" tip_text = "" tip_accent = "" />
+		<level types="4" cake="0.05" wildcard="0.04"	blocker="0.02" vortex="0"		blockFallSpeed="1000"	blockFrequency="490"  startBlocks="40" targetBlocks="75" tip_text = "" tip_accent = "" />
+		<level types="5"  cake="0.04" blueberrycake="false" wildcard="0.04"	blocker="0.02" vortex="0"		blockFallSpeed="1000"	blockFrequency="490"  startBlocks="40" targetBlocks="80" tip_text = "" tip_accent = "" />
+		<level types="5"  cake="0.05"  wildcard="0.04"	blocker="0.02" vortex="0"		blockFallSpeed="1000"	blockFrequency="480"  startBlocks="40" targetBlocks="90" tip_text = "" tip_accent = "" />
+		<!--11-->
+		<level types="5" cake="0.05" wildcard="0.04"	blocker="0.03" vortex="0"		blockFallSpeed="1000"	blockFrequency="470"  startBlocks="40" targetBlocks="90" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.04" wildcard="0.04"	blocker="0.03" vortex="0"		blockFallSpeed="1000"	blockFrequency="460"  startBlocks="40" targetBlocks="90" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.04" wildcard="0.04"	blocker="0.03" vortex="0.03"	blockFallSpeed="1000"	blockFrequency="450"  startBlocks="40" targetBlocks="100" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.04" wildcard="0.03"	blocker="0.03" vortex="0.03"	blockFallSpeed="1000"	blockFrequency="440"  startBlocks="40" targetBlocks="100" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.04" wildcard="0.03"	blocker="0.04" vortex="0.03"	blockFallSpeed="1000"	blockFrequency="430"  startBlocks="40" targetBlocks="100" tip_text = "" tip_accent = "" />
+		<!--16-->
+		<level types="5" cake="0.04" wildcard="0.03"	blocker="0.04" vortex="0.04"	blockFallSpeed="1000"	blockFrequency="420"  startBlocks="40" targetBlocks="100" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.03" wildcard="0.03"	blocker="0.04" vortex="0.04"	blockFallSpeed="1000"	blockFrequency="410"  startBlocks="40" targetBlocks="100" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.03" wildcard="0.03"	blocker="0.04" vortex="0.04"	blockFallSpeed="1000"	blockFrequency="400"  startBlocks="40" targetBlocks="100" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.03" wildcard="0.03"	blocker="0.04" vortex="0.04"	blockFallSpeed="1000"	blockFrequency="390"  startBlocks="40" targetBlocks="110" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.03" wildcard="0.03"	blocker="0.05" vortex="0.04"	blockFallSpeed="1000"	blockFrequency="380"  startBlocks="40" targetBlocks="110" tip_text = "" tip_accent = "" />
+		<!--21-->
+		<level types="5" cake="0.04" wildcard="0.03"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="370"  startBlocks="40" targetBlocks="110" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.04" wildcard="0.03"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="360"  startBlocks="40" targetBlocks="110" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.04" wildcard="0.03"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="350"  startBlocks="40" targetBlocks="110" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.04" wildcard="0.03"	blocker="0.05" vortex="0.04"	blockFallSpeed="1000"	blockFrequency="340"  startBlocks="40" targetBlocks="120" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.05" wildcard="0.04"	blocker="0.05" vortex="0.04"	blockFallSpeed="1000"	blockFrequency="330"  startBlocks="45" targetBlocks="120" tip_text = "" tip_accent = "" />
+		<!--26-->
+		<level types="5" cake="0.05" wildcard="0.04"	blocker="0.05" vortex="0.04"	blockFallSpeed="1000"	blockFrequency="320"  startBlocks="45" targetBlocks="130" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.05" wildcard="0.04"	blocker="0.05" vortex="0.04"	blockFallSpeed="1000"	blockFrequency="310"  startBlocks="50" targetBlocks="130" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.05" wildcard="0.04"	blocker="0.05" vortex="0.04"	blockFallSpeed="1000"	blockFrequency="300"  startBlocks="50" targetBlocks="140" tip_text = "" tip_accent = "" />
+		<level types="5" cake="0.05" wildcard="0.04"	blocker="0.05" vortex="0.04"	blockFallSpeed="1000"	blockFrequency="290"  startBlocks="55" targetBlocks="140" tip_text = "" tip_accent = "" />
+		<level types="6" bomb="0.00" cake="0.05" wildcard="0.04"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="300"  startBlocks="60" targetBlocks="150" tip_text = "" tip_accent = "" />
+		<!--31-->
+		<level types="6" bomb="0.05" cake="0.05" wildcard="0.04"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="290"  startBlocks="60" targetBlocks="150" tip_text = "" tip_accent = "" />
+		<level types="6" bomb="0.05" cake="0.05" wildcard="0.04"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="280"  startBlocks="60" targetBlocks="150" tip_text = "" tip_accent = "" />
+		<level types="6" bomb="0.05" cake="0.05" wildcard="0.04"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="270"  startBlocks="60" targetBlocks="150" tip_text = "" tip_accent = "" />
+		<level types="6" bomb="0.05" cake="0.05" wildcard="0.04"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="260"  startBlocks="60" targetBlocks="150" tip_text = "" tip_accent = "" />
+		<level types="6" bomb="0.05" cake="0.05" wildcard="0.04"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="250"  startBlocks="60" targetBlocks="150" tip_text = "" tip_accent = "" />
+		<!--36-->
+		<level types="6" bomb="0.05" cake="0.05" wildcard="0.04"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="240"  startBlocks="60" targetBlocks="150" tip_text = "" tip_accent = "" />
+		<level types="6" bomb="0.05" cake="0.06" wildcard="0.04"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="230"  startBlocks="60" targetBlocks="150" tip_text = "" tip_accent = "" />
+		<level types="6" bomb="0.05" cake="0.06" wildcard="0.04"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="220"  startBlocks="60" targetBlocks="150" tip_text = "" tip_accent = "" />
+		<level types="6" bomb="0.05" cake="0.06" wildcard="0.04"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="210"  startBlocks="60" targetBlocks="150" tip_text = "" tip_accent = "" />
+		<level types="6" bomb="0.05" cake="0.06" wildcard="0.04"	blocker="0.05" vortex="0.05"	blockFallSpeed="1000"	blockFrequency="200"  startBlocks="60" targetBlocks="150" tip_text = "" tip_accent = "" />
+		
+	</config>
+</panel>

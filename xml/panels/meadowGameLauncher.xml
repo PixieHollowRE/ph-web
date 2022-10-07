@@ -1,0 +1,40 @@
+﻿<panel>
+
+	<swfs>
+		<swf type="content">{panelContent}/meadowGameLauncher.swf</swf>
+		<swf type="code">{panelCode}/meadowGameLauncher.swf</swf>
+	</swfs>
+	<copy>
+		<waiting target="matchmaker.contentPanels.matchmakerholder.waitingCopyHolder.waitingCopy">Waiting for more players...</waiting>
+		<waitingformoreplayers>Waiting for more players...</waitingformoreplayers>
+		<waitingTwoPlayerGame>Waiting for one more player...</waitingTwoPlayerGame>
+		<cancel target="waiting.cancelBtn.label">Cancel</cancel>
+		<notEnoughPlayers>Sorry, there aren't enough Fairies who want to play that game right now.</notEnoughPlayers>
+		<cancelMessage target="canceledDialog.copy" >Sorry, the game was canceled.</cancelMessage>
+		<confirmCancel>Do you really want to cancel your game?</confirmCancel>
+		<countDown target="matchmaker.contentPanels.matchmakerholder.countDownHolder.countdownHeader">Game will begin in:</countDown>
+		<joinYes target="matchmaker.contentPanels.joinRequestHolder.yesBtn.caption">Yes</joinYes>
+		<joinNo target="matchmaker.contentPanels.joinRequestHolder.noBtn.caption">No</joinNo>
+		<joinRemove target="matchmaker.contentPanels.joinRequestHolder.removeBtn.caption">Remove</joinRemove>
+		<wantToJoin target="matchmaker.contentPanels.joinRequestHolder.wouldyouliketojoinCopy">Would you like to play?</wantToJoin>
+		<popupBeGuestHeader>Aww, jingles!</popupBeGuestHeader>
+		<popupBeGuestCopy>This game has already started! Would you like to watch this game?</popupBeGuestCopy>
+		<popupWaitHeader>Oops!</popupWaitHeader>
+		<popupWaitCopy>This game is ending. Please wait for the next game to start.</popupWaitCopy>
+		<popupWaitTillGameStartCopy>This game is full and starting soon. You can watch this game once it begins.</popupWaitTillGameStartCopy>
+		<popupGameStartedHeader>Aww, jingles!</popupGameStartedHeader>
+		<popupGameStartedCopy>This game has already started! Try one of the other tables to play a game.</popupGameStartedCopy>
+		<learnMore>Learn More</learnMore>
+		<ok>OK</ok>	
+		<yes>Yes</yes>	
+		<no>No</no>
+		
+		<joinRejected>Sorry, this party game is already full.</joinRejected>
+		<triggerRejected>Oops, there seems to be a problem loading this party game, please try again later.</triggerRejected>
+		<matchCanceled>Oops! The host has cancelled this game.</matchCanceled>
+	</copy>
+	<config>
+		<timeout>10000</timeout>
+		<cancelTimer>5</cancelTimer>
+	</config>
+</panel>

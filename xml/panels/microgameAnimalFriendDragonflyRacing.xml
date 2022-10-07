@@ -1,0 +1,312 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/afDragonflyRacing.swf</swf>
+		<swf type="code">{panelCode}/afDragonflyRacing.swf</swf>
+	</swfs>
+	<copy>		
+		<okBtnLabel>OK</okBtnLabel>
+		<roundLabel>Round ###currRound###</roundLabel>
+		<scoreLabel>Score ###currScore###</scoreLabel>
+		<raceLabel>Win###Wins</raceLabel>
+		<raceLegs>###playerWins### of ###total###</raceLegs>
+		<testRandom>test 1###test 2###test 3</testRandom>
+
+		<instructions>Dragonflies always want to race! To race against your Dragonfly Friend, click on the checkered flag to fly towards it. The first one to reach the checkered flag wins the race!</instructions>
+	</copy>
+	<config>
+		<!-- particle manager -->
+		<maxNumParticles>500</maxNumParticles> <!-- maximum number of particles of a given type (smoke, spark, etc.) to display.   -->
+		<sparkColors>0xFFFF00,0xFFFF66,0xFFFFCC</sparkColors> <!-- colors to use when generating sparks -->
+
+		<microGameId>AFDragonflyRacing</microGameId>
+
+		<randomFlagRegions>
+			<region name="upperLeft" corner1="180,70" corner2="378,255"/>
+			<region name="upperMiddle" corner1="380,70" corner2="578,255"/>			
+			<region name="upperRight" corner1="580,70" corner2="780,255"/>
+			<region name="lowerLeft" corner1="180,258" corner2="378,440"/>
+			<region name="lowerMiddle" corner1="380,258" corner2="578,440"/>
+			<region name="lowerRight" corner1="580,258" corner2="780,440"/>
+		</randomFlagRegions>
+
+		<levels>
+			<level number="0">
+				<rounds>0,1</rounds>
+			</level>
+			<level number="1">
+				<intro></intro>
+				<rounds>2,3</rounds>
+			</level>
+			<level number="2">
+				<rounds>4,5</rounds>
+			</level>
+			<level number="3">
+				<intro></intro>
+				<rounds>6,7</rounds>
+			</level>
+			<level number="4">
+				<rounds>8,9</rounds>
+			</level>
+			<level number="5">
+				<intro></intro>
+				<rounds>10,11</rounds>
+			</level>
+			<level number="6">
+				<rounds>12,13</rounds>
+			</level>
+			<level number="7">
+				<intro></intro>
+				<rounds>14,15</rounds>
+			</level>
+			<level number="8">
+				<intro></intro>
+				<rounds>16,17</rounds>
+			</level>
+			<level number="9">
+				<intro></intro>
+				<rounds>18,19</rounds>
+			</level>
+		</levels>
+		<rounds>
+			<round id="0" pointsPerTouch="200">
+				<playerStartPosition>200,200</playerStartPosition>
+				<petStartPosition>200,400</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>4</petSpeed>
+				<legs>
+					<leg region="upperMiddle"/>
+					<leg region="lowerRight"/>
+				</legs>
+			</round>
+			<round id="1" pointsPerTouch="200">
+				<playerStartPosition>700,300</playerStartPosition>
+				<petStartPosition>700,380</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>4</petSpeed>
+				<legs>
+					<leg region="lowerMiddle"/>
+					<leg region="upperLeft"/>
+					<leg region="upperMiddle"/>
+				</legs>
+			</round>
+			<round id="2" pointsPerTouch="214">
+				<playerStartPosition>100,200</playerStartPosition>
+				<petStartPosition>100,280</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>4</petSpeed>
+				<legs>
+					<leg region="upperRight"/>
+					<leg region="lowerMiddle"/>
+					<leg region="upperLeft"/>
+				</legs>
+			</round>
+			<round id="3" pointsPerTouch="214">
+				<playerStartPosition>100,200</playerStartPosition>
+				<petStartPosition>100,280</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>4</petSpeed>
+				<legs>
+					<leg region="upperRight"/>
+					<leg region="lowerRight"/>
+					<leg region="lowerLeft"/>
+					<leg region="upperLeft"/>
+				</legs>
+			</round>
+			<round id="4" pointsPerTouch="286">
+				<playerStartPosition>100,200</playerStartPosition>
+				<petStartPosition>100,280</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>6</petSpeed>
+				<legs>
+					<leg region="lowerRight"/>
+					<leg region="lowerLeft"/>
+					<leg region="upperMiddle"/>
+				</legs>
+			</round>
+			<round id="5" pointsPerTouch="286">
+				<playerStartPosition>100,200</playerStartPosition>
+				<petStartPosition>100,280</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>6</petSpeed>
+				<legs>
+					<leg region="lowerMiddle"/>
+					<leg region="upperRight"/>
+					<leg region="upperLeft"/>
+					<leg region="lowerRight"/>
+				</legs>
+			</round>
+			<round id="6" pointsPerTouch="313">
+				<playerStartPosition>100,200</playerStartPosition>
+				<petStartPosition>100,280</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>6</petSpeed>
+				<legs>
+					<leg region="upperRight"/>
+					<leg region="lowerRight"/>
+					<leg region="lowerLeft"/>
+					<leg region="upperRight"/>
+				</legs>
+			</round>
+			<round id="7" pointsPerTouch="313">
+				<playerStartPosition>700,300</playerStartPosition>
+				<petStartPosition>700,380</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>6</petSpeed>
+				<legs>
+					<leg region="lowerLeft"/>
+					<leg region="upperLeft"/>
+					<leg region="upperRight"/>
+					<leg region="lowerLeft"/>
+				</legs>
+			</round>
+			<round id="8" pointsPerTouch="429">
+				<playerStartPosition>100,200</playerStartPosition>
+				<petStartPosition>100,280</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>8</petSpeed>
+				<legs>
+					<leg region="upperRight"/>
+					<leg region="lowerLeft"/>
+					<leg region="lowerRight"/>
+				</legs>
+			</round>
+			<round id="9" pointsPerTouch="429">
+				<playerStartPosition>700,300</playerStartPosition>
+				<petStartPosition>700,380</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>8</petSpeed>
+				<legs>
+					<leg region="lowerLeft"/>
+					<leg region="upperLeft"/>
+					<leg region="upperRight"/>
+					<leg region="lowerRight"/>
+				</legs>
+			</round>
+			<round id="10" pointsPerTouch="438">
+				<playerStartPosition>100,200</playerStartPosition>
+				<petStartPosition>100,280</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>8</petSpeed>
+				<legs>
+					<leg region="lowerRight"/>
+					<leg region="lowerLeft"/>
+					<leg region="upperRight"/>
+					<leg region="upperLeft"/>
+				</legs>
+			</round>
+			<round id="11" pointsPerTouch="438">
+				<playerStartPosition>700,300</playerStartPosition>
+				<petStartPosition>700,380</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>8</petSpeed>
+				<legs>
+					<leg region="upperLeft"/>
+					<leg region="upperRight"/>
+					<leg region="lowerLeft"/>
+					<leg region="lowerRight"/>
+				</legs>
+			</round>
+			<round id="12" pointsPerTouch="500">
+				<playerStartPosition>100,200</playerStartPosition>
+				<petStartPosition>100,280</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>10</petSpeed>
+				<legs>
+					<leg region="upperRight"/>
+					<leg region="lowerLeft"/>
+					<leg region="lowerRight"/>
+					<leg region="upperLeft"/>
+				</legs>
+			</round>
+			<round id="13" pointsPerTouch="500">
+				<playerStartPosition>700,300</playerStartPosition>
+				<petStartPosition>700,380</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>10</petSpeed>
+				<legs>
+					<leg region="lowerLeft"/>
+					<leg region="upperRight"/>
+					<leg region="upperLeft"/>
+					<leg region="lowerRight"/>
+				</legs>
+			</round>
+			<round id="14" pointsPerTouch="500">
+				<playerStartPosition>100,200</playerStartPosition>
+				<petStartPosition>100,280</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>10</petSpeed>
+				<legs>
+					<leg region="lowerLeft"/>
+					<leg region="upperRight"/>
+					<leg region="lowerLeft"/>
+					<leg region="lowerRight"/>
+				</legs>
+			</round>
+			<round id="15" pointsPerTouch="500">
+				<playerStartPosition>700,300</playerStartPosition>
+				<petStartPosition>700,380</petStartPosition>
+				<petReactionTime>12</petReactionTime>
+				<petSpeed>10</petSpeed>
+				<legs>
+					<leg region="lowerLeft"/>
+					<leg region="lowerRight"/>
+					<leg region="upperRight"/>
+					<leg region="upperLeft"/>
+					<leg region="upperRight"/>
+				</legs>
+			</round>
+			<round id="16" pointsPerTouch="556">
+				<playerStartPosition>700,300</playerStartPosition>
+				<petStartPosition>700,380</petStartPosition>
+				<petReactionTime>10</petReactionTime>
+				<petSpeed>12</petSpeed>
+				<legs>
+					<leg region="upperRight"/>
+					<leg region="lowerLeft"/>
+					<leg region="upperRight"/>
+					<leg region="upperLeft"/>
+				</legs>
+			</round>
+			<round id="17" pointsPerTouch="556">
+				<playerStartPosition>100,200</playerStartPosition>
+				<petStartPosition>100,280</petStartPosition>
+				<petReactionTime>10</petReactionTime>
+				<petSpeed>12</petSpeed>
+				<legs>
+					<leg region="upperRight"/>
+					<leg region="upperLeft"/>
+					<leg region="lowerLeft"/>
+					<leg region="lowerRight"/>
+					<leg region="lowerLeft"/>
+				</legs>
+			</round>
+			<round id="18" pointsPerTouch="550">
+				<playerStartPosition>100,200</playerStartPosition>
+				<petStartPosition>100,280</petStartPosition>
+				<petReactionTime>10</petReactionTime>
+				<petSpeed>14</petSpeed>
+				<legs>
+					<leg region="lowerRight"/>
+					<leg region="upperLeft"/>
+					<leg region="upperRight"/>
+					<leg region="lowerLeft"/>
+					<leg region="upperRight"/>
+				</legs>
+			</round>
+			<round id="19" pointsPerTouch="550">
+				<playerStartPosition>700,300</playerStartPosition>
+				<petStartPosition>700,380</petStartPosition>
+				<petReactionTime>10</petReactionTime>
+				<petSpeed>14</petSpeed>
+				<legs>
+					<leg region="upperLeft"/>
+					<leg region="lowerRight"/>
+					<leg region="lowerLeft"/>
+					<leg region="upperRight"/>
+					<leg region="lowerLeft"/>
+				</legs>
+			</round>
+		</rounds>
+	</config>
+</panel>

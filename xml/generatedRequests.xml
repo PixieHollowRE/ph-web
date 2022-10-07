@@ -1,0 +1,39 @@
+<generatedRequests>
+	<!-- Mapping of Generated Request IDs to the XML file -->
+	<!-- Note that this is only the mapping. Adding IDs here will not enable support for them -->
+	<!-- If you adding an id here, add a corresponding method to GeneratedTableRequest.as -->
+
+	<request id="activeTopFive">LB/FairiesLBActiveTop5.xml</request>
+	<request id="activeTopHundred">LB/FairiesLBActive.xml</request>
+	<request id="activeTopHundredAnimal">LB/FairiesLBActive-1.xml</request>
+	<request id="activeTopHundredGarden">LB/FairiesLBActive-2.xml</request>
+	<request id="activeTopHundredLight">LB/FairiesLBActive-3.xml</request>
+	<request id="activeTopHundredWater">LB/FairiesLBActive-4.xml</request>
+
+	<request id="ratedTopFive">LB/FairiesLBRatedTop5.xml</request>
+	<request id="ratedTopHundred">LB/FairiesLBRated.xml</request>
+	<request id="ratedTopHundredAnimal">LB/FairiesLBRated-1.xml</request>
+	<request id="ratedTopHundredGarden">LB/FairiesLBRated-2.xml</request>
+	<request id="ratedTopHundredLight">LB/FairiesLBRated-3.xml</request>
+	<request id="ratedTopHundredWater">LB/FairiesLBRated-4.xml</request>
+
+	<!--request id="recentTopFive">LB/FairiesLBRecentTop5.xml</request-->
+	<request id="recentTopHundred">LB/FairiesLBRecent.xml</request>
+	<request id="recentTopHundredAnimal">LB/FairiesLBRecent-1.xml</request>
+	<request id="recentTopHundredGarden">LB/FairiesLBRecent-2.xml</request>
+	<request id="recentTopHundredLight">LB/FairiesLBRecent-3.xml</request>
+	<request id="recentTopHundredWater">LB/FairiesLBRecent-4.xml</request>
+
+	<request id="visitedTopFive">LB/FairiesLBVisitedTop5.xml</request>
+	<request id="visitedTopHundred">LB/FairiesLBVisited.xml</request>
+	<request id="visitedTopHundredAnimal">LB/FairiesLBVisited-1.xml</request>
+	<request id="visitedTopHundredGarden">LB/FairiesLBVisited-2.xml</request>
+	<request id="visitedTopHundredLight">LB/FairiesLBVisited-3.xml</request>
+	<request id="visitedTopHundredWater">LB/FairiesLBVisited-4.xml</request>
+
+	<request id="featuredFairies">LB/FairiesLBFeatured.xml</request>
+	<request id="letterCounts">LetterCounts.xml</request>
+
+	<request id="directory">ALLDIRECTORY.xml</request>
+
+</generatedRequests>

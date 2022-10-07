@@ -1,0 +1,25 @@
+<panelSet>
+	<panels>
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{publishPanelData}/leftSideStaticCongrats.xml</panel>
+		<panel id="congrats" x="70" y="-38" alwaysOnTop="true" transition="none">{publishPanelData}/congrats.xml</panel>
+	</panels>
+	<config>
+		<logolink>false</logolink>
+		<menu>
+			<config nav="false" title="false"/>
+			<title>
+				<text>menutitle</text>
+			</title>
+		</menu>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>congratulations</trackingid>
+		<sectionid>congrats</sectionid>
+		<pageid>congrats</pageid>
+		<hideHeader>true</hideHeader>
+	</config>
+	<copy>
+		<menutitle>Congratulations</menutitle>
+	</copy>
+
+</panelSet>

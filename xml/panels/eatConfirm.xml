@@ -1,0 +1,15 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/eatConfirm.swf</swf>
+		<swf type="code">{panelCode}/eatConfirm.swf</swf>
+	</swfs>
+	<copy>
+		<title>Just Checking...</title>
+		<simplePlural>s</simplePlural>
+		<copy>Are you sure you would like to eat this much?</copy>
+		<copySingular>Are you sure you want to eat this?</copySingular>
+		<confirm target="confirmbutton.caption">Yes</confirm>
+		<close target="closebutton.caption">No</close>
+	</copy>
+	<config></config>
+</panel>

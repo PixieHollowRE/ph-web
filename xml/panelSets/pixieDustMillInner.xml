@@ -1,0 +1,13 @@
+<panelSet>
+	<panels>
+		<panel id="pixieDustMill" x="0" y="-8" alwaysOnTop="false">{panelData}/pixieDustMill.xml</panel>
+		<panel id="pixieDustMillAnimations" x="0" y="0" alwaysOnTop="true">{panelData}/pixieDustMillAnimations.xml</panel>
+	</panels>
+	<config>
+		<avatarScale>0.6</avatarScale>
+		<showConfig>xml/pixieDustMillShow.xml</showConfig>
+		<maxLevel>20</maxLevel>
+	</config>
+	<copy>
+	</copy>
+</panelSet>

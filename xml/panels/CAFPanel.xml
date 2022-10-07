@@ -1,0 +1,298 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/caf.swf</swf>
+		<swf type="code">{panelCode}/caf.swf</swf>
+		<!--swf type="audio">caf</swf-->
+	</swfs>
+	<copy>
+		<introText>sample text to go in the intro movie, pulling from "introText" xml node in CAFPanel.xml</introText>
+		<clarionName>Queen Clarion</clarionName>
+
+		<!-- Menu Labels -->
+		<menuBackLabel target="backlabel">Back</menuBackLabel>
+		<menuNextLabel target="nextlabel">Next</menuNextLabel>
+
+		<menuTab1>Size</menuTab1>
+		<menuTab2>Face</menuTab2>
+		<menuTab3>Hairstyle</menuTab3>
+		<menuTab4>Wings Style</menuTab4>
+		<menuTab5>Fairy Talents</menuTab5>
+		<menuTab6>Choose a Top</menuTab6>
+		<menuTab7>Choose a Bottom</menuTab7>
+		<menuTab8>Choose a Sash</menuTab8>
+		<menuTab9>Choose a Barrette</menuTab9>
+		<!--
+		<menuTab10>Choose a Necklace</menuTab10>
+		<menuTab11>Choose a Bracelet</menuTab11>
+		<menuTab12>Choose an Anklet</menuTab12>
+		<menuTab13>Choose Shoes</menuTab13>
+		<menuTab14>Name Your Fairy</menuTab14>
+		<menuTab15>Pose Your Fairy</menuTab15>
+		<menuTab16>Save and Print</menuTab16>
+		-->
+		<menuTab10>Choose Shoes</menuTab10>
+		<menuTab11>Name Your Fairy</menuTab11>
+		<menuTab12>Save and Print</menuTab12>
+
+		<!--
+		<introMovie1 target="introMovie.continueBtn.caption">Proceed...</introMovie1>
+		-->
+
+		<!-- Save Screen -->
+		<saveScreen1 target="saveScreen.continueBtn.caption">Continue</saveScreen1>
+		<saveScreen2 target="saveScreen.skipBtn.caption">Skip Ahead</saveScreen2>
+		<savepanel1 target = "saveScreen.saveText">Would you like to go to your Arrival Day Party or would you like to skip ahead and fly into Pixie Hollow?</savepanel1>
+		<savepanelSiteClosed>Ooops! The Hollow is not currently available. We have saved your Fairy. Please try and fly in later!</savepanelSiteClosed>
+		<savepanelSiteClosedButton>Back</savepanelSiteClosedButton>
+		<!--
+		<congrats target = "saveScreen.congratTxt">Congratulations!</congrats>
+		<savepanel1 target = "saveScreen.txt1">You now have your very own Pixie Page at:</savepanel1>
+		<savepanel2 target = "saveScreen.txt2">Use your Pixie Page as a quick way to show your friends what you've been up to in Pixie Hollow. Check it out whenever you want!</savepanel2>
+		<savepanel3 target = "saveScreen.txt3">Take to the skies, meet and chat with other Fairies, and play games, in the magical world of Pixie Hollow Online!</savepanel3>
+		-->
+
+		<!--Labels for Scene1-->
+		<scene1Animal target="scene1MC.animal.hit.field"></scene1Animal>
+		<scene1Garden target="scene1MC.garden.hit.field"></scene1Garden>
+		<scene1Light target="scene1MC.light.hit.field"></scene1Light>
+		<scene1Water target="scene1MC.water.hit.field"></scene1Water>
+		<scene1Tinker target="scene1MC.tinker.hit.field"></scene1Tinker>
+
+		<scene1LightHeading>Light-Talent Fairy</scene1LightHeading>
+		<scene1LightDescription>Light-talent Fairies are responsible for keeping Pixie Hollow aglow once the sun sets, and train fireflies and glowworms to work as torches and lanterns. Light-talent Fairies also love to make rainbows in the day.</scene1LightDescription>
+		<scene1WaterHeading>Water-Talent Fairy</scene1WaterHeading>
+		<scene1WaterDescription>Water-talent Fairies can manipulate water in astonishing ways. They can mold it like clay, make it freeze or boil, or create waves in puddles and ponds with just a flick of pixie dust.</scene1WaterDescription>
+		<scene1GardenHeading>Garden-Talent Fairy</scene1GardenHeading>
+		<scene1GardenDescription>Garden-talent Fairies have a special relationship with all things that grow. They can sense what a plant needs and have an intuitive understanding of how to help them blossom and grow.</scene1GardenDescription>
+		<scene1AnimalHeading>Animal-Talent Fairy</scene1AnimalHeading>
+		<scene1AnimalDescription>Animal-talent Fairies have the unique ability to speak with any animal, whether it be Raccoon, Bird or Squirrel. They are very sensitive and can "read" an animal's thoughts or emotions.</scene1AnimalDescription>
+		<scene1TinkerHeading>Tinker-Talent Fairy</scene1TinkerHeading>
+		<scene1TinkerDescription>Tinker-talent Fairies are the builders and fixers of Pixie Hollow.  They use their vivid imaginations to make things work and invent new gadgets! </scene1TinkerDescription>
+
+		<!-- Scene2 Tab Labels -->
+		<scene2Heading1 target="scene2MC.heading1">Size</scene2Heading1>
+		<scene2Heading2 target="scene2MC.heading2">Face</scene2Heading2>
+		<scene2Heading3 target="scene2MC.heading3">Hair</scene2Heading3>
+		<scene2Heading4 target="scene2MC.heading4">Wings</scene2Heading4>
+
+		<!-- Scene2 Size Labels -->
+		<scene2TabsSize_ShortCaption target="scene2MC.tabs.tabsize.ShortCaption">Short</scene2TabsSize_ShortCaption>
+		<scene2TabsSize_ShorterCaption target="scene2MC.tabs.tabsize.ShorterCaption">Shorter</scene2TabsSize_ShorterCaption>
+		<scene2TabsSize_RulerTopLabel target="scene2MC.tabs.tabsize.rulertoplabel">5 1/2"</scene2TabsSize_RulerTopLabel>
+		<scene2TabsSize_RulerMidLabel target="scene2MC.tabs.tabsize.rulermidlabel">5"</scene2TabsSize_RulerMidLabel>
+		<scene2TabsSize_RulerBottomLabel target="scene2MC.tabs.tabsize.rulerbottomlabel">4 1/2"</scene2TabsSize_RulerBottomLabel>
+		<scene2TabsSize_RulerLittleCaption target="scene2MC.tabs.tabsize.LittleCaption">Little</scene2TabsSize_RulerLittleCaption>
+		<scene2TabsSize_RulerLittlerCaption target="scene2MC.tabs.tabsize.LittlerCaption">Littler</scene2TabsSize_RulerLittlerCaption>
+		<scene2TabsSize_RulerCaption target="scene2MC.tabs.tabsize.rulercaption">Fairies are approximately 5 inches tall.</scene2TabsSize_RulerCaption>
+
+		<!-- Scene2 Face Labels -->
+		<scene2TabsFace_Face target="scene2MC.tabs.tabface.FaceCaption">Face</scene2TabsFace_Face>
+		<scene2TabsFace_SkinColor target="scene2MC.tabs.tabface.SkinColorCaption">Skin Color</scene2TabsFace_SkinColor>
+		<scene2TabsFace_EyeColor target="scene2MC.tabs.tabface.EyeColorCaption">Eye Color</scene2TabsFace_EyeColor>
+
+		<!-- Scene2 Hair Labels -->
+		<scene2TabsHair_HairFront target="scene2MC.tabs.tabhair.HairFrontCaption">Hair Front</scene2TabsHair_HairFront>
+		<scene2TabsHair_HairBack target="scene2MC.tabs.tabhair.HairBackCaption">Hair Back</scene2TabsHair_HairBack>
+		<scene2TabsHair_HairColor target="scene2MC.tabs.tabhair.HairColorCaption">Hair Color</scene2TabsHair_HairColor>
+
+		<!-- Scene2 Wing Labels -->
+		<scene2TabsWings_Wings target="scene2MC.tabs.tabwing.WingsCaption">Wings</scene2TabsWings_Wings>
+
+		<!-- Scene3 Button labels -->
+		<scene3ShirtLabel target="scene3MC.toplabel">Top</scene3ShirtLabel>
+		<scene3DressLabel target="scene3MC.skirtlabel">Bottom</scene3DressLabel>
+		<scene3SashLabel target="scene3MC.sashlabel">Sash</scene3SashLabel>
+		<scene3HeadPieceLabel target="scene3MC.headpiecelabel">Barrette</scene3HeadPieceLabel>
+		<scene3NecklaceLabel target="scene3MC.necklacelabel">Necklace</scene3NecklaceLabel>
+		<scene3BraceletLabel target="scene3MC.braceletlabel">Bracelet</scene3BraceletLabel>
+		<scene3AnkletLabel target="scene3MC.ankletlabel">Anklet</scene3AnkletLabel>
+		<scene3ShoesLabel target="scene3MC.shoeslabel">Shoes</scene3ShoesLabel>
+		<scene3Caption target="scene3MC.scene3Caption">Each talent has a unique set of colors.</scene3Caption>
+
+		<!-- Scene3 Individual Tab labels -->
+		<scene3AnkletTabHeading1 target="scene3MC.tabAnkleItem.heading1">Anklets</scene3AnkletTabHeading1>
+		<scene3AnkletTabHeading2 target="scene3MC.tabAnkleItem.heading2">Color</scene3AnkletTabHeading2>
+		<scene3BraceletTabHeading1 target="scene3MC.tabWristItem.heading1">Bracelets</scene3BraceletTabHeading1>
+		<scene3BraceletTabHeading2 target="scene3MC.tabWristItem.heading2">Color</scene3BraceletTabHeading2>
+		<scene3HeadpieceTabHeading1 target="scene3MC.tabHeadItem.heading1">Barrettes</scene3HeadpieceTabHeading1>
+		<scene3HeadpieceTabHeading2 target="scene3MC.tabHeadItem.heading2">Color</scene3HeadpieceTabHeading2>
+		<scene3NecklacesTabHeading1 target="scene3MC.tabNecklace.heading1">Necklaces</scene3NecklacesTabHeading1>
+		<scene3NecklacesTabHeading2 target="scene3MC.tabNecklace.heading2">Color</scene3NecklacesTabHeading2>
+		<scene3SashesTabHeading1 target="scene3MC.tabBelt.heading1">Sashes</scene3SashesTabHeading1>
+		<scene3SashesTabHeading2 target="scene3MC.tabBelt.heading2">Color</scene3SashesTabHeading2>
+		<scene3ShoesTabHeading1 target="scene3MC.tabShoes.heading1">Shoes</scene3ShoesTabHeading1>
+		<scene3ShoesTabHeading2 target="scene3MC.tabShoes.heading2">Color</scene3ShoesTabHeading2>
+		<scene3SkirtTabHeading1 target="scene3MC.tabSkirt.heading1">Bottoms</scene3SkirtTabHeading1>
+		<scene3SkirtTabHeading2 target="scene3MC.tabSkirt.heading2">Color</scene3SkirtTabHeading2>
+		<scene3TopsTabHeading1 target="scene3MC.tabShirt.heading1">Tops</scene3TopsTabHeading1>
+		<scene3TopsTabHeading2 target="scene3MC.tabShirt.heading2">Color</scene3TopsTabHeading2>
+
+		<!-- Scene4 Labels -->
+		<scene4FirstToggleLabel target="scene4MC.firsttogglelabel">First</scene4FirstToggleLabel>
+		<scene4LastToggleLabel target="scene4MC.lasttogglelabel">Last</scene4LastToggleLabel>
+		<scene4RandomLabel target="scene4MC.random.caption">Random</scene4RandomLabel>
+
+		<!-- Scene5 Labels -->
+		<scene5SubHeading0 target="scene5MC.subheading0">Head</scene5SubHeading0>
+		<scene5Caption0 target="scene5MC.caption0">Her Right Side</scene5Caption0>
+		<scene5Caption1 target="scene5MC.caption1">Her Left Side</scene5Caption1>
+		<scene5SubHeading1A target="scene5MC.subheading1a">Arm</scene5SubHeading1A>
+		<scene5SubHeading1B target="scene5MC.subheading1b">Arm</scene5SubHeading1B>
+		<scene5SubHeading2A target="scene5MC.subheading2a">Elbow</scene5SubHeading2A>
+		<scene5SubHeading2B target="scene5MC.subheading2b">Elbow</scene5SubHeading2B>
+		<scene5SubHeading3A target="scene5MC.subheading3a">Leg</scene5SubHeading3A>
+		<scene5SubHeading3B target="scene5MC.subheading3b">Leg</scene5SubHeading3B>
+		<scene5SubHeading4A target="scene5MC.subheading4a">Knee</scene5SubHeading4A>
+		<scene5SubHeading4B target="scene5MC.subheading4b">Knee</scene5SubHeading4B>
+
+		<!-- Scene6 Labels -->
+		<scene6PrintLabel target="scene6MC.printButton.caption">Print</scene6PrintLabel>
+		<scene6NowPrintingLabel target="scene6MC.printing.label">Now Printing...</scene6NowPrintingLabel>
+		<scene6SaveLabel target="scene6MC.saveButton.caption">Save</scene6SaveLabel>
+		<scene6NowPresentingLabel target="scene6MC.nowPresenting">Presenting</scene6NowPresentingLabel>
+		
+		<!-- Misc -->
+		<saveFail>Something is wrong. Try saving later!</saveFail>
+		<tinkTipsText1 target="tinkbutton.tinksTip1">Tink's</tinkTipsText1>
+		<tinkTipsText2 target="tinkbutton.tinksTip2">Tips</tinkTipsText2>
+
+		<!-- Tink Tips-->
+		<!-- important - do not reorder these - keep light mapped to 1, animal to 4, etc.! --> 
+		<tinkTip10>Change your Fairy's face, hair and wings.</tinkTip10>
+		<tinkTip20><![CDATA[All the talents are good ones. %0A%0APick the one you like best!]]></tinkTip20>
+		<tinkTip21><![CDATA[Fairy Facts: Light-Talent Fairies %0A%0A -These Fairies can project beams of light in any direction.%0A%0A -These Fairies are good friends with glowworms and fireflies.]]></tinkTip21>
+		<tinkTip22><![CDATA[Fairy Facts: Garden-Talent Fairies %0A%0A -These Fairies instinctively know what a plant needs in order to blossom and grow. %0A%0A -These Fairies sometimes train animals and insects to help them.     ]]></tinkTip22>
+		<tinkTip23><![CDATA[Fairy Facts: Water-Talent Fairies %0A%0A -These Fairies make canoes out of birch-bark and leaves. %0A%0A -These Fairies can boil or freeze water with just a sprinkle of pixie dust.  ]]></tinkTip23>
+		<tinkTip24><![CDATA[Fairy Facts: Animal-Talent Fairies %0A%0A -These Fairies are great at tracking and are often called upon to help find lost Fairies. %0A%0A -These Fairies can sense an animal's thoughts and emotions.  ]]></tinkTip24>
+		<tinkTip25><![CDATA[Fairy Facts: Tinker-Talent Fairies %0A%0A -These Fairies use Lost Things to make tools for all of Pixie Hollow. %0A%0A -These Fairies instinctively know how to fix broken tools and items.  ]]></tinkTip25>
+		<tinkTip30>Choose a top, a skirt, shoes and all kinds of jewelry! Try all the colors, too!</tinkTip30>
+		<tinkTip40>Pick the name parts that you like. Try 'First Only' if you want a short name. Try 'Random' if you are looking for ideas!</tinkTip40>
+		<tinkTip50>Pose your Fairy and have her stand any way you like. Give it a try!</tinkTip50>
+		<tinkTip60>Go back to make changes, or go ahead and create her new home.</tinkTip60>
+		
+		<!-- Greetings -->
+		<!--
+		<greeting00>Hi there! I'm Tinker Bell. Are you ready to create your own Fairy?</greeting00>
+		<greeting01>Great! First you'll need to pick your Fairy's talent - something she's good at. Pick any talent you like!</greeting01>
+		-->
+		<!--Disabling Tinks tips on all screens, except screen1-->
+		<!--
+		<greeting20>This is where you decide what your Fairy will look like. Don't forget to fix her hair!##Fairy Fact - A Fairy's glow changes color and intensity with her mood.</greeting20>
+		<greeting30>What will your Fairy wear?  There are lots of choices.  And don't forget to accessorize!##Fairy Fact - All Fairy clothes are organic. Flowers, silkworm thread, and dandelion fluff are all popular materials.</greeting30>
+		<greeting40>It's time to name your Fairy!  Pick a first name, a last name, or both.  Try 'Random' for new ideas!##Fairy Fact -  Fly with you  is a common and polite Fairy saying.</greeting40>
+		<greeting50>Almost done!  Now it's time to pose your Fairy.  You can have her stand the way you like!##Fairy Fact - Fairies can be vain, and enjoy looking in the mirror.</greeting50>
+		-->
+		<greetingNextConfirm>Next</greetingNextConfirm>
+		<greetingOKConfirm>Okay</greetingOKConfirm>
+
+		<sceneBody_clarionSpeech>Welcome to Pixie Hollow!###etc. etc.</sceneBody_clarionSpeech>
+		<sceneTalent_clarionSpeech>Pick out a talent!###etc. etc.</sceneTalent_clarionSpeech>
+		<sceneClothing_talentSpeech>These are our very own fairy colors!  Pick out your clothing!###etc. etc.</sceneClothing_talentSpeech>
+		<sceneName_talentSpeech>What's your fairy name?###etc. etc.</sceneName_talentSpeech>
+	</copy>
+	<config>
+		<scene2>
+			<headSliderBounds>92.5 97.5</headSliderBounds>
+			<limbSliderBounds>92.5 107.5</limbSliderBounds>
+			<bodySliderBounds>81 95</bodySliderBounds>
+		</scene2>
+		<util>
+		</util>
+		<Animal>
+			<Skin>101</Skin>
+			<Eyes>58</Eyes>
+			<Hair>79</Hair>
+			<Wing>109</Wing>
+			<HeadItem>150</HeadItem>
+			<Necklace>150</Necklace>
+			<Shirt>87</Shirt>
+			<Skirt>114</Skirt>
+			<Shoes>82</Shoes>
+			<Belt>150</Belt>
+			<WristItem>150</WristItem>
+			<AnkleItem>150</AnkleItem>
+		</Animal>
+		<Garden>
+			<Skin>102</Skin>
+			<Eyes>65</Eyes>
+			<Hair>82</Hair>
+			<Wing>110</Wing>
+			<HeadItem>61</HeadItem>
+			<Necklace>61</Necklace>
+			<Shirt>130</Shirt>
+			<Skirt>140</Skirt>
+			<Shoes>113</Shoes>
+			<Belt>61</Belt>
+			<WristItem>61</WristItem>
+			<AnkleItem>61</AnkleItem>
+		</Garden>
+		<Light>
+			<Skin>92</Skin>
+			<Eyes>56</Eyes>
+			<Hair>74</Hair>
+			<Wing>111</Wing>
+			<HeadItem>90</HeadItem>
+			<Necklace>37</Necklace>
+			<Shirt>47</Shirt>
+			<Skirt>9</Skirt>
+			<Shoes>27</Shoes>
+			<Belt>90</Belt>
+			<WristItem>90</WristItem>
+			<AnkleItem>90</AnkleItem>
+		</Light>
+		<Water>
+			<Skin>107</Skin>
+			<Eyes>63</Eyes>
+			<Hair>73</Hair>
+			<Wing>112</Wing>
+			<HeadItem>18</HeadItem>
+			<Necklace>18</Necklace>
+			<Shirt>23</Shirt>
+			<Skirt>4</Skirt>
+			<Shoes>22</Shoes>
+			<Belt>18</Belt>
+			<WristItem>18</WristItem>
+			<AnkleItem>18</AnkleItem>
+		</Water>
+		<Tinker>
+			<Skin>100</Skin>
+			<Eyes>61</Eyes>
+			<Hair>90</Hair>
+			<Wing>165</Wing>
+			<HeadItem>122</HeadItem>
+			<Necklace>122</Necklace>
+			<Shirt>2</Shirt>
+			<Skirt>64</Skirt>
+			<Shoes>3</Shoes>
+			<Belt>122</Belt>
+			<WristItem>122</WristItem>
+			<AnkleItem>122</AnkleItem>
+		</Tinker>
+		<cafData>xml/caf/cafData.xml</cafData>
+		<nameGenerator>xml/caf/nameGenerator.xml</nameGenerator>
+		<initDNA>xml/caf/initDNA.xml</initDNA>
+
+		<!-- settings for the various animated positions of the avatars... -->
+		<initial_clarionAvatar_position>1500,1500,.5,left</initial_clarionAvatar_position>
+		<sceneBody_playerAvatar_position1>-200,-200,.3,right</sceneBody_playerAvatar_position1>
+		<sceneBody_playerAvatar_position2>629,290,.58,right</sceneBody_playerAvatar_position2>
+		<sceneBody_clarionAvatar_position1>1140,200,.8,left</sceneBody_clarionAvatar_position1>
+		<sceneClothing_playerAvatar_position1>350,200,.15,right</sceneClothing_playerAvatar_position1>
+		<sceneClothing_talentAvatar_position1>500,200,.15,left</sceneClothing_talentAvatar_position1>
+		<sceneName_playerAvatar_position1>350,200,.15,right</sceneName_playerAvatar_position1>
+		<sceneName_talentAvatar_position1>500,200,.15,left</sceneName_talentAvatar_position1>
+
+		<sceneBody_defaultPlayerPosition>629,290,.58,right</sceneBody_defaultPlayerPosition>	
+		<sceneTalent_defaultPlayerPosition>425,250,.58,right</sceneTalent_defaultPlayerPosition>	
+		<sceneClothing_defaultPlayerPosition>210,290,.58,right</sceneClothing_defaultPlayerPosition>	
+		<sceneName_defaultPlayerPosition>210,290,.58,right</sceneName_defaultPlayerPosition>	
+		<sceneSave_defaultPlayerPosition>410,290,.93,right</sceneSave_defaultPlayerPosition>	
+
+		<sceneBody_defaultTalentPosition>749,190,.15,right</sceneBody_defaultTalentPosition>	
+		<sceneTalent_defaultTalentPosition>649,190,.15,right</sceneTalent_defaultTalentPosition>	
+		<sceneClothing_defaultTalentPosition>360,100,.15,right</sceneClothing_defaultTalentPosition>	
+		<sceneName_defaultTalentPosition>360,100,.15,right</sceneName_defaultTalentPosition>	
+		<sceneSave_defaultTalentPosition>-410,-440,.15,right</sceneSave_defaultTalentPosition>	
+	</config>
+</panel>
+

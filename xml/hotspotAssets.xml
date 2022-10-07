@@ -1,0 +1,1931 @@
+<HotspotAssets>
+  
+  <copy>
+    <cannotSendPackage>You have already sent your package for the day. Try again tomorrow.</cannotSendPackage>
+    <sendPackage>Great Job! Would you like to send a friendship gift to all your friends?</sendPackage>
+    <packageSent>A Gift Box has been sent to your friend's Fairy homes!</packageSent>
+    <dontHaveSkill>Oops! You need to learn the #SPELL# TALENT SKILL to use any pixie dust here!</dontHaveSkill>
+    <notEnoughDust>Oops! You need to eat desserts to refill your pixie dust!</notEnoughDust>
+    <castSpell>Do you want to use your #SPELL# TALENT SKILL here? It will cost you #COST# smidges of pixie dust.</castSpell>
+    <yes>Yes</yes>
+    <no>No</no>
+    <ok>OK</ok>
+	<dynamicHotspotTooltipCopy>Play</dynamicHotspotTooltipCopy>
+    
+    <item27500>Test Circle</item27500>
+    <desc27500>Test Circle</desc27500>
+    
+    <item27501>Curtains</item27501>
+    <desc27501>Curtains - Mermaid</desc27501>
+    
+    <item27502>Rock</item27502>
+    <desc27502>Rock - Mermaid</desc27502>
+    
+    <item27503>Coral</item27503>
+    <desc27503>Coral - Mermaid</desc27503>
+    
+    <item27504>Gate</item27504>
+    <desc27504>Gate - Fairy Mary</desc27504>
+    
+    <item27505>Iced Tea</item27505>
+    <desc27505>Iced Tea - Fairy Mary</desc27505>
+    
+    <item27506>Workbench</item27506>
+    <desc27506>Workbench - Fairy Mary</desc27506>
+    
+    <item27507>Squirrel</item27507>
+    <desc27507>Squirrel - Cheese</desc27507>
+    
+    <item27508>Thistle</item27508>
+    <desc27508>Thistle - Cheese</desc27508>
+    
+    <item27509>Wasp</item27509>
+    <desc27509>Wasp - Cheese</desc27509>
+    
+    <item27510>Card Table</item27510>
+    <desc27510>Card Table - Tearoom</desc27510>
+    
+    <item27511>Table 01</item27511>
+    <desc27511>Table 01 - Tearoom</desc27511>
+    
+    <item27512>Table 02</item27512>
+    <desc27512>Table 02 - Tearoom</desc27512>
+    
+    <item27513>Table 03</item27513>
+    <desc27513>Table 03 - Tearoom</desc27513>
+    
+    <item27514>Table 04</item27514>
+    <desc27514>Table 04 - Tearoom</desc27514>
+    
+    <item27515>Table 05</item27515>
+    <desc27515>Table 05 - Tearoom</desc27515>
+    
+    <item27516>Table 06</item27516>
+    <desc27516>Table 06 - Tearoom</desc27516>
+    
+    <item27517>Table 07</item27517>
+    <desc27517>Table 07 - Tearoom</desc27517>
+    
+    <item27518>Table 08</item27518>
+    <desc27518>Table 08 - Tearoom</desc27518>
+    
+    <item27519>Table 09</item27519>
+    <desc27519>Table 09 - Tearoom</desc27519>
+	
+    <item27520>Sparkles oven</item27520>   
+    <desc27520>Sparkles oven</desc27520>
+    
+    <item27521>Sparkles flower</item27521>   
+    <desc27521>Sparkles flower</desc27521>
+    
+    <item27522>Desk</item27522>
+    <desc27522>Desk-Sparkles</desc27522>
+
+    <item27523>Tree</item27523>
+    <desc27523>Tree-Gem</desc27523>
+
+    <item27524>Sand</item27524>
+    <desc27524>Sand-Gem</desc27524>
+
+    <item27525>Orchid</item27525>
+    <desc27525>Orchid-Gem</desc27525>
+
+    <item27526>Gem</item27526>
+    <desc27526>Gem-Gem</desc27526>
+
+    <item27527>Beachball</item27527>
+    <desc27527>Ballroom Summer Beachball</desc27527>
+
+    <item27528>Meadow Table 01</item27528>
+    <desc27528>Meadow Table 01</desc27528>
+    
+    <item27529>Meadow Table 02</item27529>
+    <desc27529>Meadow Table 02</desc27529>
+    
+    <item27530>Meadow Table 03</item27530>
+    <desc27530>Meadow Table 03</desc27530>
+    
+    <item27531>Meadow Table 04</item27531>
+    <desc27531>Meadow Table 04</desc27531>
+    
+    <item27532>Bees Darts 01</item27532>
+    <desc27532>Bee's Darts</desc27532>
+    
+    <item27533>Bees Darts 02</item27533>
+    <desc27533>Bee's Darts</desc27533>
+    
+    <item27534>Berry Basketball 01</item27534>
+    <desc27534>Berry Basketball</desc27534>
+    
+    <item27535>Berry Basketball 02</item27535>
+    <desc27535>Berry Basketball</desc27535>
+    
+    <item27536>Snow Angel 01</item27536>
+    <desc27536>Snow Angel</desc27536>
+    
+    <item27537>Snow Angel 02</item27537>
+    <desc27537>Snow Angel</desc27537>
+    
+    <item27538>Snow Angel 03</item27538>
+    <desc27538>Snow Angel</desc27538>
+    
+    <item27539>Snow Angel 04</item27539>
+    <desc27539>Snow Angel</desc27539>
+    
+    <item27540>Snow Angel 05</item27540>
+    <desc27540>Snow Angel</desc27540>
+    
+    <item27541>Rock Paper Scissors</item27541>
+    <desc27541>Rock Paper Scissors</desc27541>
+    
+    <item27542>Tic Tac Toe</item27542>
+    <desc27542>Tic Tac Toe</desc27542>
+    
+    <item27543>Cricket Chorus 01</item27543>
+    <desc27543>Cricket Chorus</desc27543>
+    
+    <item27544>Cricket Chorus 02</item27544>
+    <desc27544>Cricket Chorus</desc27544>
+    
+    <item27545>Cricket Chorus 03</item27545>
+    <desc27545>Cricket Chorus</desc27545>
+    
+    <item27546>Cricket Chorus 04</item27546>
+    <desc27546>Cricket Chorus</desc27546>
+    
+    <item27547>Cricket Chorus 05</item27547>
+    <desc27547>Cricket Chorus</desc27547>
+    
+    <item27548>Cricket Chorus 06</item27548>
+    <desc27548>Cricket Chorus</desc27548>
+    
+    <item27549>Cricket Chorus 07</item27549>
+    <desc27549>Cricket Chorus</desc27549>
+    
+    <item27550>Cricket Chorus 08</item27550>
+    <desc27550>Cricket Chorus</desc27550>
+    
+    <item27551>Tic Tac Toe Wipe</item27551>
+    <desc27551>Clear Board</desc27551>
+	
+	<item27552>Lyria Pixie Dust</item27552>
+    <desc27552>pixie dust swirl</desc27552>
+	
+	<item27553>Lyria Reveal</item27553>
+    <desc27553>pixie dust reveal</desc27553>
+	
+	<item27554>Ice Rink Patterns</item27554>
+    <desc27554>Ice Rink</desc27554>
+
+    <item27555>Tearoom_Left_table</item27555>
+    <desc27555>Crazy 8's</desc27555>
+
+    <item27556>Tearoom_Right_table</item27556>
+    <desc27556>Crazy 8's</desc27556>
+
+    <item27557>Trapdoor hotspot</item27557>
+    <desc27557>Trapdoor hotspot</desc27557>
+
+    <item27558>Vine hotspot</item27558>
+    <desc27558>Vine hotspot</desc27558>
+
+    <item27559>thornbush hotspot</item27559>
+    <desc27559>thornbush hotspot</desc27559>
+
+    <item27560>ballroom fountain</item27560>
+    <desc27560>fountain</desc27560>
+
+    <item27758>ballroom snowmaker</item27758>
+    <desc27758>snowmaker</desc27758>	
+    
+    <item27561>vidia mobile</item27561>
+    <desc27561>vidia mobile</desc27561>
+    
+    <item27562>vidia tea table 4</item27562>
+    <desc27562>vidia tea table 4</desc27562>
+    
+    <item27563>vidia tea table 2</item27563>
+    <desc27563>vidia tea table 2</desc27563>
+    
+    <item27564>cake station</item27564>
+    <desc27564>Cake Station</desc27564>
+    
+    <item27565>soup cauldron</item27565>
+    <desc27565>Soup Cauldron</desc27565>
+    
+    <item27566>lantern cf 01</item27566>
+    <desc27566>lantern</desc27566>
+    
+    <item27567>lantern cf 02</item27567>
+    <desc27567>lantern</desc27567>
+    
+    <item27568>lantern cf 03</item27568>
+    <desc27568>lantern</desc27568>
+    
+    <item27569>lantern cf 04</item27569>
+    <desc27569>lantern</desc27569>
+    
+    <item27570>lantern cf 05</item27570>
+    <desc27570>lantern</desc27570>
+    
+    <item27571>lantern cf 06</item27571>
+    <desc27571>lantern</desc27571>
+    
+    <item27572>lantern cf 07</item27572>
+    <desc27572>lantern</desc27572>
+    
+    <item27573>lantern cf 08</item27573>
+    <desc27573>lantern</desc27573>
+    
+    <item27574>lantern eo 01</item27574>
+    <desc27574>lantern</desc27574>
+    
+    <item27575>lantern eo 02</item27575>
+    <desc27575>lantern</desc27575>
+    
+    <item27576>lantern eo 03</item27576>
+    <desc27576>lantern</desc27576>
+    
+    <item27577>lantern eo 04</item27577>
+    <desc27577>lantern</desc27577>
+    
+    <item27578>lantern eo 05</item27578>
+    <desc27578>lantern</desc27578>
+    
+    <item27579>lantern eo 06</item27579>
+    <desc27579>lantern</desc27579>
+    
+    <item27580>lantern eo 07</item27580>
+    <desc27580>lantern</desc27580>
+    
+    <item27581>lantern eo 08</item27581>
+    <desc27581>lantern</desc27581>
+    
+    <item27582>lantern eo 09</item27582>
+    <desc27582>lantern</desc27582>
+    
+    <item27583>lantern eo 10</item27583>
+    <desc27583>lantern</desc27583>
+    
+    <item27584>lantern eo 11</item27584>
+    <desc27584>lantern</desc27584>
+    
+    <item27585>lantern sg 01</item27585>
+    <desc27585>lantern</desc27585>
+    
+    <item27586>lantern sg 02</item27586>
+    <desc27586>lantern</desc27586>
+    
+    <item27587>lantern sg 03</item27587>
+    <desc27587>lantern</desc27587>
+    
+    <item27588>lantern sg 04</item27588>
+    <desc27588>lantern</desc27588>
+    
+    <item27589>lantern sg 05</item27589>
+    <desc27589>lantern</desc27589>
+    
+    <item27590>lantern sg 06</item27590>
+    <desc27590>lantern</desc27590>
+    
+    <item27591>lantern sg 07</item27591>
+    <desc27591>lantern</desc27591>
+    
+    <item27592>left back snowball</item27592>
+    <desc27592>Snowball</desc27592>
+    
+    <item27593>left middle snowball</item27593>
+    <desc27593>Snowball</desc27593>
+    
+    <item27594>left front snowball</item27594>
+    <desc27594>Snowball</desc27594>
+    
+    <item27595>right back snowball</item27595>
+    <desc27595>Snowball</desc27595>
+    
+    <item27596>right middle snowball</item27596>
+    <desc27596>Snowball</desc27596>
+    
+    <item27597>right front snowball</item27597>
+    <desc27597>Snowball</desc27597>
+	
+	<item27598>humming bird food bowl</item27598>
+    <desc27598>...</desc27598>
+	
+	<item27599>firelfly food bowl</item27599>
+    <desc27599>...</desc27599>
+	
+	<item27600>dragonfly food bowl</item27600>
+    <desc27600>...</desc27600>
+	
+	<item27601>ladybug food bowl</item27601>
+    <desc27601>...</desc27601>
+	
+	<item27602>bee food bowl</item27602>
+    <desc27602>...</desc27602>
+	
+	<item27603>ice palace piano</item27603>
+    <desc27603>Piano</desc27603>
+		
+	<item27756>ice palace holiday tree</item27756>
+    <desc27756>holiday tree</desc27756>	
+	
+	<item27757>ice palace weasel pop up</item27757>
+    <desc27757>weasel pop up</desc27757>		
+	
+	<item27604>gift box creation brush</item27604>
+    <desc27604>Brush</desc27604>
+	
+	<item27605>gift box creation cards</item27605>
+    <desc27605>Cards</desc27605>
+	
+	<item27606>gift box creation glue</item27606>
+    <desc27606>Glue</desc27606>
+	
+	<item27607>gift box creation paint</item27607>
+    <desc27607>Paint</desc27607>
+	
+	<item27608>gift box creation ribbon</item27608>
+    <desc27608>Ribbon</desc27608>
+	
+	<item27609>mermaid lagoon can o worms</item27609>
+    <desc27609>Can O Worms</desc27609>
+	
+	<item27610>mermaid lagoon clam</item27610>
+    <desc27610>Clam</desc27610>
+	
+	<item27611>mermaid lagoon lobster</item27611>
+    <desc27611>Lobster</desc27611>
+	
+	<item27612>mermaid lagoon mermaid</item27612>
+    <desc27612>Mermaid</desc27612>
+	
+	<item27613>rain cloud</item27613>
+    <desc27613>Clouds</desc27613>
+	
+	<item27614>rain flower</item27614>
+    <desc27614>Flower</desc27614>
+	
+	<item27615>theater drums</item27615>
+    <desc27615>Drums</desc27615>
+	
+	<item27616>theater trombone</item27616>
+    <desc27616>Trombone</desc27616>
+	
+	<item27617>theater cricket</item27617>
+    <desc27617>Cricket</desc27617>
+	
+	<item27618>ballroom flower</item27618>
+    <desc27618>Flower</desc27618>
+    
+    <item27619>ff left back snowball</item27619>
+    <desc27619>Snowball</desc27619>
+    
+    <item27620>ff left middle snowball</item27620>
+    <desc27620>Snowball</desc27620>
+    
+    <item27621>ff left front snowball</item27621>
+    <desc27621>Snowball</desc27621>
+    
+    <item27622>ff right back snowball</item27622>
+    <desc27622>Snowball</desc27622>
+    
+    <item27623>ff right middle snowball</item27623>
+    <desc27623>Snowball</desc27623>
+    
+    <item27624>ff right front snowball</item27624>
+    <desc27624>Snowball</desc27624>
+	
+	<item27625>Tearoom Memory Table</item27625>
+    <desc27625>TearoomMemoryTable</desc27625>
+	
+	<item27626>CottonPuff Skill</item27626>
+    <desc27626>CottonPuffSkill</desc27626>
+	
+	<item27627>dewdrop vale Skill</item27627>
+    <desc27627>dewdrop vale Skill</desc27627>
+	
+	<item27628>Evergreen Outlook Skill</item27628>
+    <desc27628>Evergreen Outlook Skill</desc27628>
+	
+	<item27629>Neverberry Thicket Skill</item27629>
+    <desc27629>Neverberry Thicket Skill</desc27629>
+	
+	<item27630>SpringtimeOrchard Skill</item27630>
+    <desc27630>SpringtimeOrchard Skill</desc27630>
+	
+	<item27631>MapleHill Skill</item27631>
+    <desc27631>MapleHill Skill</desc27631>
+	
+	<item27632>Sunflower Skill</item27632>
+    <desc27632>Sunflower Skill</desc27632>
+	
+	<item27633>cake cutting pink</item27633>
+    <desc27633>cake</desc27633>
+	
+	<item27634>cake cutting purple</item27634>
+    <desc27634>cake</desc27634>
+	
+	<item27635>pouring teapot blue / green</item27635>
+    <desc27635>teapot</desc27635>
+	
+	<item27636>pouring teapot pink / green</item27636>
+    <desc27636>teapot</desc27636>
+	
+	<item27637>brewing tea</item27637>
+    <desc27637>teapot</desc27637>
+	
+	<item27638>Cherryblossom Skill</item27638>
+    <desc27638>Cherryblossom Skill</desc27638>
+	
+	<item27800>Cherryblossom Rainy Day Skill</item27800>
+    <desc27800>Cherryblossom Rainy Day Skill</desc27800>	
+	
+	<item27639>Animal Mothers Chipmunk</item27639>
+    <desc27639>Chipmunk</desc27639>
+	
+	<item27640>Animal Mothers Owl</item27640>
+    <desc27640>Owl</desc27640>
+	
+	<item27740>Animal Mothers Kitten</item27740>
+    <desc27740>Kitten</desc27740>	
+	
+	<item27641>Animal Mothers Bucket 1</item27641>
+    <desc27641>Bucket</desc27641>
+    
+	<item27642>Animal Mothers Bucket 2</item27642>
+    <desc27642>Bucket</desc27642>
+    
+	<item27643>Animal Mothers Bucket 3</item27643>
+    <desc27643>Bucket</desc27643>
+    
+	<item27644>Animal Mothers Bucket 4</item27644>
+    <desc27644>Bucket</desc27644>
+    
+	<item27645>Animal Mothers Bucket 5</item27645>
+    <desc27645>Bucket</desc27645>
+    
+	<item27646>Animal Mothers Bunny</item27646>
+    <desc27646>Bunny</desc27646>
+    
+	<item27647>Smoothie Bar</item27647>
+    <desc27647>Smoothie Bar</desc27647>
+    
+	<item27648>cotl juicer</item27648>
+    <desc27648>Juicer</desc27648>
+    
+	<item27649>cotl roller</item27649>
+    <desc27649>Leaf Roller</desc27649>
+    
+	<item27650>cotl painter</item27650>
+    <desc27650>Leaf Painter</desc27650>
+    
+	<item27651>cotl bundles</item27651>
+    <desc27651>Leaf Bundle</desc27651>
+	
+	<item27652>ftt garden jinx hotspots 1</item27652>
+    <desc27652>FTT Garden Jinx Hotspots 1</desc27652>
+	
+	<item27653>ftt garden jinx hotspots 2</item27653>
+    <desc27653>FTT Garden Jinx Hotspots 2</desc27653>
+	
+	<item27654>ftt garden jinx hotspots 3</item27654>
+    <desc27654>FTT Garden Jinx Hotspots 3</desc27654>
+	
+	<item27655>ftt garden jinx hotspots recap</item27655>
+    <desc27655>FTT Garden Jinx Hotspots Recap</desc27655>
+	
+	<item27656>Fairy Feast Soup Cauldron 2011</item27656>
+    <desc27656>Soup Cauldron</desc27656>
+	
+	<item27657>Fairy Feast Cake Station 2011</item27657>
+    <desc27657>Cake Station</desc27657>
+	
+	<item27658>cake slicing purple 2011</item27658>
+    <desc27658>Cake</desc27658>
+	
+	<item27659>Pixie Hollow Leaderboards</item27659>
+    <desc27659>Pixie Hollow Leaderboards</desc27659>
+	
+	<item27660>jack o lantern Palm Tree</item27660>
+    <desc27660>Jack O Lantern</desc27660>
+	
+	<item27737>Happy Autumn!</item27737>
+    <desc27737>Happy Autumn!</desc27737>
+	
+	<item27738>Trick or Treat for Prizes!</item27738>
+    <desc27738>Trick or Treat for Prizes!</desc27738>
+	
+	<item27739>Friends are Nature's Sisters!</item27739>
+    <desc27739>Friends are Nature's Sisters!</desc27739>
+	
+	<item27770>Sister Celebration</item27770>
+    <desc27770>Sister Celebration</desc27770>
+	
+	<item27741>Winter Checklist</item27741>
+    <desc27741>Winter Checklist</desc27741>
+	
+	<item27760>From the Minister of Winter</item27760>
+    <desc27760>From the Minister of Winter</desc27760>
+	
+	<item27761>Note from Silvermist</item27761>
+    <desc27761>Note from Silvermist</desc27761>
+	
+	<item27661>PH Games Official Roster</item27661>
+    <desc27661>PH Games Official Roster</desc27661>
+	
+	<item27662>How to Make Snow</item27662>
+    <desc27662>How to Make Snow</desc27662>
+	
+	<item27663>Winter Wonderland To-Do List</item27663>
+    <desc27663>Winter Wonderland To-Do List</desc27663>
+	
+	<item27664>cake slicing pink 2011</item27664>
+    <desc27664>Cake</desc27664>
+
+    <item27665>Winter Lanterns</item27665>
+    <desc27665>Winter Lanterns</desc27665>
+
+    <item27666>Animal Derby Table 01</item27666>
+    <desc27666>Animal Derby</desc27666>
+
+    <item27667>Animal Derby Table 02</item27667>
+    <desc27667>Animal Derby</desc27667>
+
+    <item27668>Animal Derby Table 03</item27668>
+    <desc27668>Animal Derby</desc27668>
+
+    <item27669>Animal Derby Table 04</item27669>
+    <desc27669>Animal Derby</desc27669>
+
+    <item27670>Animal Derby Table 05</item27670>
+    <desc27670>Animal Derby</desc27670>
+
+    <item27671>Animal Derby Table 06</item27671>
+    <desc27671>Animal Derby</desc27671>
+
+    <item27672>jack o lantern Acorn</item27672>
+    <desc27672>Jack O Lantern</desc27672>
+
+    <item27673>jack o lantern Treetop</item27673>
+    <desc27673>Jack O Lantern</desc27673>
+
+    <item27674>jack o lantern Cherry</item27674>
+    <desc27674>Jack O Lantern</desc27674>
+
+    <item27675>jack o lantern Chilly</item27675>
+    <desc27675>Jack O Lantern</desc27675>
+
+    <item27676>jack o lantern Dewdrop</item27676>
+    <desc27676>Jack O Lantern</desc27676>
+
+    <item27677>jack o lantern Evergreen</item27677>
+    <desc27677>Jack O Lantern</desc27677>
+
+    <item27678>jack o lantern Neverberry</item27678>
+    <desc27678>Jack O Lantern</desc27678>
+
+    <item27679>jack o lantern Pumpkin</item27679>
+    <desc27679>Jack O Lantern</desc27679>
+
+    <item27680>jack o lantern Snowcap</item27680>
+    <desc27680>Jack O Lantern</desc27680>
+
+    <item27681>jack o lantern Springtime</item27681>
+    <desc27681>Jack O Lantern</desc27681>
+
+	<item27682>Ice Palace Skill</item27682>
+    <desc27682>IcePalaceSkill</desc27682>
+
+	<item27683>Box</item27683>
+    <desc27683>Stadium Box</desc27683>
+    
+	<item27684>Flag</item27684>
+    <desc27684>Stadium Flag Role</desc27684>
+    
+	<item27685>Flags</item27685>
+    <desc27685>Stadium Flags</desc27685>
+    
+	<item27686>Leafs</item27686>
+    <desc27686>Stadium Leafs</desc27686>
+    
+	<item27687>Trumpet</item27687>
+    <desc27687>Stadium Trumpet</desc27687>
+    
+	<item27688>Cooler</item27688>
+    <desc27688>Stadium Water Cooler</desc27688>
+
+    <item27689>jack o lantern Neverfruit</item27689>
+    <desc27689>Jack O Lantern</desc27689>
+
+    <item27690>ice palace snowflake maker</item27690>
+    <desc27690>Snowflakes</desc27690>
+
+    <item27691>gift wrapping station 2001</item27691>
+    <desc27691>Gift Wrapping</desc27691>
+
+    <item27692>slideshow Pixie Hollow Games</item27692>
+    <desc27692>Slideshow</desc27692>
+
+    <item27693>mermaid grotto mermaids</item27693>
+    <desc27693>Mermaid</desc27693>
+
+    <item27694>never dove egg</item27694>
+    <desc27694>Never Dove Egg</desc27694>
+
+    <item27695>bulbs planting</item27695>
+    <desc27695>Bulbs</desc27695>
+
+    <item27696>Fairy Friendship Festival</item27696>
+    <desc27696>Fairy Friendship Festival</desc27696>
+
+    <item27697>Spring_Signpost</item27697>
+    <desc27697>Spring_Signpost</desc27697>
+
+    <item27698>Spring_Signpost</item27698>
+    <desc27698>Spring_Signpost</desc27698>
+
+    <item27699>Spring_Signpost</item27699>
+    <desc27699>Spring_Signpost</desc27699>
+
+    <item27700>Spring_Signpost</item27700>
+    <desc27700>Spring_Signpost</desc27700>
+
+    <item27701>Spring Equinox</item27701>
+    <desc27701>Spring Equinox</desc27701>
+
+    <item27702>Spring_Signpost</item27702>
+    <desc27702>Spring_Signpost</desc27702>
+
+    <item27703>Spring_Signpost</item27703>
+    <desc27703>Spring_Signpost</desc27703>
+
+    <item27704>Spring_Signpost</item27704>
+    <desc27704>Spring_Signpost</desc27704>
+
+    <item27705>Spring_Signpost</item27705>
+    <desc27705>Spring_Signpost</desc27705>
+
+    <item27706>Never Dove Egg Hunt</item27706>
+    <desc27706>Never Dove Egg Hunt</desc27706>
+
+    <item27707>Spring_Signpost</item27707>
+    <desc27707>Spring_Signpost</desc27707>
+
+    <item27708>Spring_Signpost</item27708>
+    <desc27708>Spring_Signpost</desc27708>
+
+    <item27709>Spring_Signpost</item27709>
+    <desc27709>Spring_Signpost</desc27709>
+
+    <item27710>Silly Days</item27710>
+    <desc27710>Silly Days</desc27710>
+
+    <item27711>Spring_Signpost</item27711>
+    <desc27711>Spring_Signpost</desc27711>
+
+    <item27712>Mermaid Party</item27712>
+    <desc27712>Mermaid Party</desc27712>
+
+    <item27771>Mermaid Party</item27771>
+    <desc27771>Mermaid Party</desc27771>
+	
+	<item27772>Spring_Signpost</item27772>
+    <desc27772>Spring_Signpost</desc27772>
+
+    <item27724>Recipe for Tea</item27724>
+    <desc27724>Recipe for Tea</desc27724>
+
+    <item27725>Time for Tea!</item27725>
+    <desc27725>Time for Tea!</desc27725>
+
+    <item27726>Time for Tea!</item27726>
+    <desc27726>Time for Tea!</desc27726>
+
+    <item27727>Serve the Tables!</item27727>
+    <desc27727>Serve the Tables!</desc27727>
+
+    <item27728>Show Troop Rabbit Spirit!</item27728>
+    <desc27728>Show Troop Rabbit Spirit!</desc27728>
+
+    <item27729>Show Troop Butterfly Spirit!</item27729>
+    <desc27729>Show Troop Butterfly Spirit!</desc27729>
+
+    <item27730>Show Troop Otter Spirit!</item27730>
+    <desc27730>Show Troop Otter Spirit!</desc27730>	
+
+    <item27731>Show Troop Turtle Spirit!</item27731>
+    <desc27731>Show Troop Turtle Spirit!</desc27731>	
+
+    <item27732>Show Troop Glowworm Spirit!</item27732>
+    <desc27732>Show Troop Glowworm Spirit!</desc27732>
+
+    <item27733>Wash the Bunny!</item27733>
+    <desc27733>Wash the Bunny!</desc27733>	
+
+    <item27734>Feed the Chipmunk!</item27734>
+    <desc27734>Feed the Chipmunk!</desc27734>	
+
+    <item27735>Sing to the Owl!</item27735>
+    <desc27735>Sing to the Owl!</desc27735>
+
+    <item27736>Play with the Kitten!</item27736>
+    <desc27736>Play with the Kitten!</desc27736>
+	
+	
+	<item27742>fairyTaleTheater Kitchen 2012 teapot</item27742>
+    <desc27742>teapot</desc27742>
+	
+	<item27743>fairyTaleTheater Kitchen 2012 saltPepper</item27743>
+    <desc27743>saltPepper</desc27743>	
+	
+	<item27744>fairyTaleTheater Kitchen 2012 pumpkin</item27744>
+    <desc27744>pumpkin</desc27744>
+	
+	<item27745>fairyTaleTheater Kitchen 2012 onion</item27745>
+    <desc27745>onion</desc27745>
+	
+	<item27746>fairyTaleTheater Kitchen 2012 cake</item27746>
+    <desc27746>cake</desc27746>	
+	
+	<item27747>fairyTaleTheater Kitchen 2012 bubbles</item27747>
+    <desc27747>bubbles</desc27747>
+		
+	<item27748>fairyTaleTheater Haunted House 2012 Organ</item27748>
+    <desc27748>organ</desc27748>
+	
+	<item27749>fairyTaleTheater Haunted House 2012 Drapes</item27749>
+    <desc27749>drapes</desc27749>
+	
+	<item27750>fairyTaleTheater Haunted House 2012 top floor painting</item27750>
+    <desc27750>top floor painting</desc27750>
+	
+	<item27751>fairyTaleTheater Haunted House 2012 clock</item27751>
+    <desc27751>clock</desc27751>
+	
+	<item27752>fairyTaleTheater Haunted House 2012 cheeseghost behindchair</item27752>
+    <desc27752>cheeseghost behindchair</desc27752>
+	
+	<item27753>fairyTaleTheater Haunted House 2012 crystal Ball Chandelier</item27753>
+    <desc27753>crystal Ball Chandelier</desc27753>
+	
+	<item27754>fairyTaleTheater Haunted House 2012 crystal Ball Chandelier</item27754>
+    <desc27754>crystal Ball Chandelier</desc27754>
+	
+	<item27755>fairyTaleTheater Haunted House 2012 rug cheeseMouse</item27755>
+    <desc27755>rug cheeseMouse</desc27755>
+	
+	<item27801>ftt underwater treasurechest</item27801>
+    <desc27801>underwater treasurechest</desc27801>
+	
+	<item27802>ftt underwater seahorsebubbles</item27802>
+    <desc27802>underwater seahorsebubbles</desc27802>
+	
+	<item27803>ftt underwater schooloffish</item27803>
+    <desc27803>underwater schooloffish</desc27803>
+	
+	<item27804>ftt underwater rightclamshell</item27804>
+    <desc27804>underwater rightclamshell</desc27804>	
+	
+	<item27805>ftt underwater peekabooworms</item27805>
+    <desc27805>underwater peekabooworms</desc27805>
+	
+	<item27806>ftt_underwater_leftclamshell</item27806>
+    <desc27806>underwater peekabooworms</desc27806>
+	
+	<item27807>ftt underwater fishgoggle</item27807>
+    <desc27807>underwater fishgoggle</desc27807>
+	
+	<item27808>ftt underwater fishbottle</item27808>
+    <desc27808>underwater fishbottle</desc27808>
+	
+	<item27809>ftt underwater clamsparkle</item27809>
+    <desc27809>underwater clamsparkle</desc27809>	
+	
+    <item27713>Bleeding Hearts Acorn Summit</item27713>
+    <desc27713>Bleeding Hearts</desc27713>
+
+    <item27714>Bleeding Hearts Ballroom</item27714>
+    <desc27714>Bleeding Hearts</desc27714>
+
+    <item27715>Bleeding Hearts Ever Green</item27715>
+    <desc27715>Bleeding Hearts</desc27715>
+
+    <item27716>Bleeding Hearts Never Fruit</item27716>
+    <desc27716>Bleeding Hearts</desc27716>
+
+    <item27717>Bleeding Hearts Treetop Bend</item27717>
+    <desc27717>Bleeding Hearts</desc27717>
+
+    <item27718>Rock Band Guitar</item27718>
+    <desc27718>Guitar</desc27718>
+
+    <item27719>Rock Band Bass</item27719>
+    <desc27719>Bass</desc27719>
+
+    <item27720>Rock Band Drums</item27720>
+    <desc27720>Drums</desc27720>
+
+    <item27721>Rock Band Turntables</item27721>
+    <desc27721>Turntables</desc27721>
+	
+    <item35001>Crazy Cake Dynamic table</item35001>
+    <desc35001>Crazy Cake Dynamic table</desc35001>
+	
+    <item35002>Memory Dynamic table</item35002>
+    <desc35002>Memory Dynamic table</desc35002>
+	
+    <item35003>Rock Paper Scissors</item35003>
+    <desc35003>Rock Paper Scissors</desc35003>	
+	
+    <item35004>Simone Says</item35004>
+    <desc35004>Simone Says</desc35004>
+	
+    <item35005>Popcorn</item35005>
+    <desc35005>Popcorn</desc35005>
+	
+    <item27722>SpringtimeOrchard Skill_EndSummer</item27722>
+    <desc27722>SpringtimeOrchard Skill_EndSummer</desc27722>
+	
+	<item27723>Summer Splash Party!</item27723>
+    <desc27723>Summer Splash Party!</desc27723>
+
+  </copy>
+  
+  <createMessage>FairiesCreateMessageRequest?messageType=3&amp;fairy_id=</createMessage>
+  <chatTriggers>
+	  <chatTrigger message="trick or treat" hotspotid="27660" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27672" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27674" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27681" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27676" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27678" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27679" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27677" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27680" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27675" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27673" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27689" delay="3" />
+	  
+  </chatTriggers>
+  
+  <hotspots>
+  	<hotspot id="27501">
+  		<frame id="2" sound="LongStemmedSeaweed" />
+  	</hotspot>
+  	<hotspot id="27502">
+  		<frame id="2" sound="BadSteam" />
+  	</hotspot>
+  	<hotspot id="27503">
+  		<frame id="2" sound="CheerfulBubble" />
+  	</hotspot>
+  	<hotspot id="27504">
+  		<frame id="2" sound="bird_squawk" />
+  	</hotspot>
+  	<hotspot id="27505">
+  		<frame id="2" sound="pitcher" />
+  	</hotspot>
+  	<hotspot id="27506">
+  		<frame id="1" sound="workbench_bed_setup" />
+  		<frame id="2" sound="workbench_bed_setup" />
+  	</hotspot>
+  	<hotspot id="27507">
+  		<frame id="1" sound="baby_squirrel" />
+  		<frame id="2" sound="baby_squirrel" />
+  	</hotspot>
+  	<hotspot id="27508">
+  		<frame id="1" sound="thistles_popup" />
+  		<frame id="2" sound="thistles_popup" />
+  	</hotspot>
+  	<hotspot id="27509">
+  		<frame id="1" sound="wasps" targetY="-82"/>
+  		<frame id="2" sound="wasps" targetY="142"/>
+  	</hotspot>
+  	<hotspot id="27510" soundForwardOnly="true">
+  		<frame id="2" sound="tea_cup"/>
+  		<frame id="3" sound="tea_cup"/>
+  	</hotspot>
+  	<hotspot id="27511" soundForwardOnly="true">
+  		<frame id="2" sound="tea_cup"/>
+  		<frame id="3" sound="plate"/>
+  		<frame id="4" sound="bowl"/>
+  		<frame id="5" sound="cake"/>
+  	</hotspot>
+  	<hotspot id="27512" soundForwardOnly="true">
+  		<frame id="2" sound="tea_cup"/>
+  		<frame id="3" sound="plate"/>
+  		<frame id="4" sound="bowl"/>
+  		<frame id="5" sound="cake"/>
+  	</hotspot>
+  	<hotspot id="27513" soundForwardOnly="true">
+  		<frame id="2" sound="tea_cup"/>
+  		<frame id="3" sound="plate"/>
+  		<frame id="4" sound="bowl"/>
+  		<frame id="5" sound="cake"/>
+  	</hotspot>
+  	<hotspot id="27514" soundForwardOnly="true">
+  		<frame id="2" sound="tea_cup"/>
+  		<frame id="3" sound="plate"/>
+  		<frame id="4" sound="bowl"/>
+  		<frame id="5" sound="cake"/>
+  	</hotspot>
+  	<hotspot id="27515" soundForwardOnly="true">
+  		<frame id="2" sound="tea_cup"/>
+  		<frame id="3" sound="plate"/>
+  		<frame id="4" sound="bowl"/>
+  		<frame id="5" sound="cake"/>
+  	</hotspot>
+  	<hotspot id="27516" soundForwardOnly="true">
+  		<frame id="2" sound="tea_cup"/>
+  		<frame id="3" sound="plate"/>
+  		<frame id="4" sound="bowl"/>
+  		<frame id="5" sound="cake"/>
+  	</hotspot>
+  	<hotspot id="27517" soundForwardOnly="true">
+  		<frame id="2" sound="tea_cup"/>
+  		<frame id="3" sound="plate"/>
+  		<frame id="4" sound="bowl"/>
+  		<frame id="5" sound="cake"/>
+  	</hotspot>
+  	<hotspot id="27518" soundForwardOnly="true">
+  		<frame id="2" sound="tea_cup"/>
+  		<frame id="3" sound="plate"/>
+  		<frame id="4" sound="bowl"/>
+  		<frame id="5" sound="cake"/>
+  	</hotspot>
+  	<hotspot id="27519" soundForwardOnly="true">
+  		<frame id="2" sound="tea_cup"/>
+  		<frame id="3" sound="plate"/>
+  		<frame id="4" sound="bowl"/>
+  		<frame id="5" sound="cake"/>
+  	</hotspot>
+  	<hotspot id="27520">
+  		<frame id="2" sound="oven_opening" />
+  	</hotspot>
+  	<hotspot id="27521">
+  		<frame id="2" sound="large_sunflower_moves" />
+  	</hotspot>
+  	<hotspot id="27522">
+  		<frame id="2" sound="wooden_sign_painted" />
+  	</hotspot>
+  	<hotspot id="27523">
+  		<frame id="2" sound="coconut" />
+  	</hotspot>
+  	<hotspot id="27524">
+  		<frame id="2" sound="sand_dune_face" />
+  	</hotspot>
+  	<hotspot id="27525">
+  		<frame id="2" sound="orchid_magic_arrow" />
+  	</hotspot>
+  	<hotspot id="27526">
+  		<frame id="2" sound="gem_appears_in_water" />
+  	</hotspot>
+  	<hotspot id="27527" audioLibrary="beachBall" stopFrames="1,74,129,196,284,342,427,493,610,750,884,953,1016,1131,1198,1265,1330">
+  		<frame id="1" targetX="152" targetY="283"/>
+  		<frame id="2" sound="beach_ball_hit"/>
+  		<frame id="39" sound="beach_ball_splash"/>
+  		<frame id="74" targetX="62" targetY="264"/>
+  		<frame id="75" sound="beach_ball_hit"/>
+  		<frame id="93" sound="beach_ball_splash"/>
+  		<frame id="129" targetX="-57" targetY="254"/>
+  		<frame id="130" sound="beach_ball_hit"/>
+  		<frame id="163" sound="beach_ball_splash"/>
+  		<frame id="196" targetX="-59" targetY="366"/>
+  		<frame id="197" sound="beach_ball_hit"/>
+  		<frame id="246" sound="beach_ball_splash"/>
+  		<frame id="284" targetX="-206" targetY="374"/>
+  		<frame id="285" sound="beach_ball_hit"/>
+  		<frame id="304" sound="beach_ball_splash"/>
+  		<frame id="342" targetX="-135" targetY="210"/>
+  		<frame id="343" sound="beach_ball_hit"/>
+  		<frame id="385" sound="beach_ball_splash"/>
+  		<frame id="427" targetX="-97" targetY="170"/>
+  		<frame id="431" sound="beach_ball_hit"/>
+  		<frame id="457" sound="beach_ball_splash"/>
+  		<frame id="493" targetX="75" targetY="267"/>
+  		<frame id="494" sound="beach_ball_hit"/>
+  		<frame id="559" sound="beach_ball_splash"/>
+  		<frame id="610" targetX="194" targetY="235"/>
+  		<frame id="611" sound="beach_ball_hit"/>
+  		<frame id="721" sound="beach_ball_splash"/>
+  		<frame id="750" targetX="384" targetY="179"/>
+  		<frame id="751" sound="beach_ball_hit"/>
+  		<frame id="789" sound="beach_ball_splash"/>
+  		<frame id="817" sound="beach_ball_splash"/>
+  		<frame id="832" sound="beach_ball_splash"/>
+  		<frame id="884" targetX="-84" targetY="252"/>
+  		<frame id="885" sound="beach_ball_hit"/>
+  		<frame id="922" sound="beach_ball_splash"/>
+  		<frame id="953" targetX="-203" targetY="307"/>
+  		<frame id="954" sound="beach_ball_hit"/>
+  		<frame id="985" sound="beach_ball_splash"/>
+  		<frame id="1016" targetX="-225" targetY="168"/>
+  		<frame id="1017" sound="beach_ball_hit"/>
+  		<frame id="1101" sound="beach_ball_splash"/>
+  		<frame id="1131" targetX="-54" targetY="153"/>
+  		<frame id="1132" sound="beach_ball_hit"/>
+  		<frame id="1164" sound="beach_ball_splash"/>
+  		<frame id="1198" targetX="-53" targetY="203"/>
+  		<frame id="1199" sound="beach_ball_hit"/>
+  		<frame id="1234" sound="beach_ball_splash"/>
+  		<frame id="1265" targetX="-115" targetY="272"/>
+  		<frame id="1266" sound="beach_ball_hit"/>
+  		<frame id="1297" sound="beach_ball_splash"/>
+  		<frame id="1330" targetX="-6" targetY="378"/>
+  		<frame id="1331" sound="beach_ball_hit"/>
+  		<frame id="1380" sound="beach_ball_splash"/>
+  	</hotspot>
+	<hotspot id="27652" audioLibrary="theatrePHGames">
+  		<frame id="2" sound="lyrias_pixie_dust"/>
+  		<frame id="3" sound="lyrias_pixie_dust"/>
+  		<frame id="4" sound="lyrias_pixie_dust"/>
+	</hotspot>
+	<hotspot id="27653" audioLibrary="theatrePHGames">
+  		<frame id="2" sound="lyrias_pixie_dust"/>
+  		<frame id="3" sound="lyrias_pixie_dust"/>
+  		<frame id="4" sound="lyrias_pixie_dust"/>
+	</hotspot>
+	<hotspot id="27654" audioLibrary="theatrePHGames">
+  		<frame id="2" sound="lyrias_pixie_dust"/>
+  		<frame id="3" sound="lyrias_pixie_dust"/>
+  		<frame id="4" sound="lyrias_pixie_dust"/>
+	</hotspot>
+	<hotspot id="27655" audioLibrary="theatrePHGames">
+  		<frame id="2" sound="lyrias_pixie_dust"/>
+  		<frame id="3" sound="lyrias_pixie_dust"/>
+  		<frame id="4" sound="lyrias_pixie_dust"/>
+		<frame id="5" sound="lyrias_pixie_dust"/>
+  		<frame id="6" sound="lyrias_pixie_dust"/>
+  		<frame id="7" sound="lyrias_pixie_dust"/>
+		<frame id="8" sound="lyrias_pixie_dust"/>
+  		<frame id="9" sound="lyrias_pixie_dust"/>
+  		<frame id="10" sound="lyrias_pixie_dust"/>
+	</hotspot>
+  	<hotspot id="27528" audioLibrary="meadowHotspotTables">
+  		<frame id="2" sound="meadow_pitcher"/>
+  	</hotspot>
+  	<hotspot id="27529" soundForwardOnly="true" audioLibrary="meadowHotspotTables">
+  		<frame id="2" sound="meadow_tea_cup"/>
+  	</hotspot>
+  	<hotspot id="27530" soundForwardOnly="true" audioLibrary="meadowHotspotTables">
+  		<frame id="2" sound="meadow_tea_cup"/>
+  		<frame id="3" sound="meadow_plate"/>
+  		<frame id="4" sound="meadow_bowl"/>
+  	</hotspot>
+  	<hotspot id="27531" soundForwardOnly="true" audioLibrary="meadowHotspotTables">
+  		<frame id="2" sound="meadow_tea_cup"/>
+  		<frame id="3" sound="meadow_plate"/>
+  		<frame id="4" sound="meadow_bowl"/>
+  	</hotspot>
+  	<hotspot id="27532" audioLibrary="beesDarts" forceFieldX="34" forceFieldY="45" forceFieldSize="100" flyTo="true" stopFrames="1,104,203,322,424,531,629,729,849,969">
+  		<frame id="40" sound="bee_hit"/>
+  		<frame id="135" sound="bee_hit"/>
+  		<frame id="252" sound="bee_hit"/>
+  		<frame id="350" sound="bee_hit"/>
+  		<frame id="458" sound="bee_missed"/>
+  		<frame id="563" sound="bee_hit"/>
+  		<frame id="665" sound="bee_missed"/>
+  		<frame id="760" sound="bee_missed"/>
+  		<frame id="880" sound="bee_hit"/>
+  		<frame id="1000" sound="bee_hit"/>
+  	</hotspot>
+  	<hotspot id="27533" audioLibrary="beesDarts" forceFieldX="34" forceFieldY="45" forceFieldSize="100" flyTo="true" stopFrames="1,104,203,322,424,531,629,729,849,969">
+  		<frame id="40" sound="bee_hit"/>
+  		<frame id="135" sound="bee_hit"/>
+  		<frame id="252" sound="bee_hit"/>
+  		<frame id="350" sound="bee_hit"/>
+  		<frame id="458" sound="bee_missed"/>
+  		<frame id="563" sound="bee_hit"/>
+  		<frame id="665" sound="bee_missed"/>
+  		<frame id="760" sound="bee_missed"/>
+  		<frame id="880" sound="bee_hit"/>
+  		<frame id="1000" sound="bee_hit"/>
+  	</hotspot>
+  	<hotspot id="27534" audioLibrary="berryball" forceFieldX="34" forceFieldY="45" forceFieldSize="100" flyTo="true" stopFrames="1,61,107,160,210,280,332,383,445,498">
+  		<frame id="36" sound="berryball_missed"/>
+  		<frame id="95" sound="berryball_missed"/>
+  		<frame id="134" sound="berryball_made"/>
+  		<frame id="196" sound="berryball_missed"/>
+  		<frame id="267" sound="berryball_made"/>
+  		<frame id="319" sound="berryball_missed"/>
+  		<frame id="367" sound="berryball_missed"/>
+  		<frame id="417" sound="berryball_missed"/>
+  		<frame id="472" sound="berryball_made"/>
+  		<frame id="533" sound="berryball_missed"/>
+  	</hotspot>
+  	<hotspot id="27535" audioLibrary="berryball" forceFieldX="34" forceFieldY="45" forceFieldSize="100" flyTo="true" stopFrames="1,46,79,134,190,229,288,336,388,441">
+  		<frame id="39" sound="berryball_missed"/>
+  		<frame id="76" sound="berryball_made"/>
+  		<frame id="114" sound="berryball_missed"/>
+  		<frame id="180" sound="berryball_missed"/>
+  		<frame id="223" sound="berryball_missed"/>
+  		<frame id="263" sound="berryball_missed"/>
+  		<frame id="326" sound="berryball_missed"/>
+  		<frame id="381" sound="berryball_missed"/>
+  		<frame id="432" sound="berryball_missed"/>
+  		<frame id="500" sound="berryball_made"/>
+  	</hotspot>
+  	<hotspot id="27536" soundForwardOnly="true" audioLibrary="snowAngel">
+  		<frame id="2" sound="snowAngel"/>
+  	</hotspot>
+  	<hotspot id="27537" soundForwardOnly="true" audioLibrary="snowAngel">
+  		<frame id="2" sound="snowAngel"/>
+  	</hotspot>
+  	<hotspot id="27538" soundForwardOnly="true" audioLibrary="snowAngel">
+  		<frame id="2" sound="snowAngel"/>
+  	</hotspot>
+  	<hotspot id="27539" soundForwardOnly="true" audioLibrary="snowAngel">
+  		<frame id="2" sound="snowAngel"/>
+  	</hotspot>
+  	<hotspot id="27540" soundForwardOnly="true" audioLibrary="snowAngel">
+  		<frame id="2" sound="snowAngel"/>
+  	</hotspot>
+  	<hotspot id="27541" audioLibrary="rockPaperScissors">
+  		<frame id="2" sound="rpsCrank"/>
+  		<frame id="14" sound="rpsCrank"/>
+  		<frame id="26" sound="rpsCrank"/>
+  		<frame id="38" sound="rpsCrank"/>
+  		<frame id="50" sound="rpsCrank"/>
+  	</hotspot>
+  	<hotspot id="27542" audioLibrary="ticTacToe">
+  		<frame id="2" sound="x_o_writing"/>
+  		<frame id="3" sound="x_o_writing"/>
+  		<frame id="4" sound="x_o_writing"/>
+  	</hotspot>
+  	<hotspot id="27543" audioLibrary="cricketChorus">
+  		<frame id="2" sound="cricketNote1"/>
+  	</hotspot>
+  	<hotspot id="27544" audioLibrary="cricketChorus">
+  		<frame id="2" sound="cricketNote2"/>
+  	</hotspot>
+  	<hotspot id="27545" audioLibrary="cricketChorus">
+  		<frame id="2" sound="cricketNote3"/>
+  	</hotspot>
+  	<hotspot id="27546" audioLibrary="cricketChorus">
+  		<frame id="2" sound="cricketNote4"/>
+  	</hotspot>
+  	<hotspot id="27547" audioLibrary="cricketChorus">
+  		<frame id="2" sound="cricketNote5"/>
+  	</hotspot>
+  	<hotspot id="27548" audioLibrary="cricketChorus">
+  		<frame id="2" sound="cricketNote6"/>
+  	</hotspot>
+  	<hotspot id="27549" audioLibrary="cricketChorus">
+  		<frame id="2" sound="cricketNote7"/>
+  	</hotspot>
+  	<hotspot id="27550" audioLibrary="cricketChorus">
+  		<frame id="2" sound="cricketNote8"/>
+  	</hotspot>
+  	<hotspot id="27659" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.generic.MeadowLazyPanelLauncher" actionData="leaderboards"/>
+	
+	<!-- Autumn Equinox / Happy Autumn -->
+	<hotspot id="27737" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="phHappyAutumn"/>
+	<!-- Trick or Treat -->
+	<hotspot id="27738" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="phTrickOrTreat"/>
+	<!-- Nature Sisters -->
+	<hotspot id="27739" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="phNatureSisters"/>
+	<!-- Sister Celebration -->
+	<hotspot id="27770" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="phSisterCelebration"/>
+	<!-- Sister Celebration -->
+	<hotspot id="27741" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="phWinterChecklist"/>
+	<!-- Sister Celebration -->
+	<hotspot id="27760" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="phMinisterOfWinter"/>
+	<!-- Sister Celebration -->
+	<hotspot id="27761" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="phGreatWinterLightUp"/>
+	
+	<!-- PH Games prep-->
+	<hotspot id="27661" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="phGamesPrep"/>
+	<!-- Winter Wonderland-->
+	<hotspot id="27662" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="winterWonderland"/>
+	<!-- Winter Wonderland Checklist-->
+	<hotspot id="27663" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="winterWonderlandChecklist"/>
+	<!-- Fairy Friendship-->
+	<hotspot id="27696" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="fairyFriendshipFestival"/>	
+	<!-- Spring Equinox -->
+	<hotspot id="27701" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="springEquinox"/>
+	<!-- Neverdove Egg Hunt -->
+	<hotspot id="27706" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="neverDoveEggHunt"/>
+
+	<!-- GARDEN TEA PARTY -->
+	<!-- tearoom -->	
+	<hotspot id="27724" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="gardenTeaPartTearoom"/>	
+	<!-- Sunflower Gully -->	
+	<hotspot id="27725" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="gardenTeaPartSunflowerGully"/>	
+	<!-- Neverfruit Grove -->	
+	<hotspot id="27726" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="gardenTeaPartNeverfruitGrove"/>	
+	<!-- Palm Tree Cove -->	
+	<hotspot id="27727" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="gardenTeaPartPalmTreeCove"/>	
+	
+	
+	<!-- TROOP RABBIT -->
+	<!-- Fairy Coliseum -->	
+	<hotspot id="27728" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="troopRabbitFairyColiseum"/>
+	
+	<!-- TROOP BUTTERFLY -->
+	<!-- Palm Tree Cove -->	
+	<hotspot id="27729" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="troopButterflyPalmTreeCove"/>	
+	
+	<!-- TROOP OTTER -->
+	<!-- Dewdrop Vale -->	
+	<hotspot id="27730" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="troopOtterDewdropVale"/>
+	
+	<!-- TROOP TURTLE -->
+	<!-- Cottonpuff -->	
+	<hotspot id="27731" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="troopTurtleCottonpuff"/>	
+	
+	<!-- TROOP GLOWWORM -->
+	<!-- Chilly Falls -->	
+	<hotspot id="27732" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="troopGlowwormChillyFalls"/>	
+	
+	
+	<!-- ANIMAL MOTHERS DAY 2012 -->
+	<!-- Bunny -->	
+	<hotspot id="27733" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="animalMothersDay2012Bunny"/>		
+	
+	<!-- ANIMAL MOTHERS DAY 2012 -->
+	<!-- Chipmunk -->	
+	<hotspot id="27734" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="animalMothersDay2012Chipmunk"/>		
+	
+	<!-- ANIMAL MOTHERS DAY 2012 -->
+	<!-- Owl -->	
+	<hotspot id="27735" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="animalMothersDay2012Owl"/>	
+	
+	<!-- ANIMAL MOTHERS DAY 2012 -->
+	<!-- Kitten -->	
+	<hotspot id="27736" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" audioLibrary="animalMothersDayKitten" actionData="animalMothersDay2012Kitten" />
+	
+	<!-- Silly Days Fairy tale -->
+	<hotspot id="27710" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="sillyDaysActivities"/>
+	<!-- Silly Days Mermaid Grotto -->
+	<hotspot id="27712" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="sillyDaysMermaid"/>
+	<!-- Silly Days Mermaid Party -->
+	<hotspot id="27771" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="mermaidParty"/>
+	<!-- Summer Splash Party -->
+	<hotspot id="27723" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="summerSplashParty"/>	
+		
+		
+	<hotspot id="27551" audioLibrary="ticTacToe" tooltip="true">
+  		<frame id="2" sound="clear_tic_tac_toe"/>
+  	</hotspot>
+  	
+	<hotspot id="27554" audioLibrary="iceSkating" flyTo="true">
+  		<frame id="2" sound="iceSkating"/>
+  		<frame id="122" sound="iceSkating"/>
+  		<frame id="242" sound="iceSkating"/>
+  		<frame id="362" sound="iceSkating"/>
+  		<frame id="482" sound="iceSkating"/>
+  		<frame id="602" sound="iceSkating"/>
+  	</hotspot>
+  	<hotspot id="27560" audioLibrary="beachBall">
+  		<frame id="3" sound="beach_ball_splash"/>
+  		<frame id="5" sound="beach_ball_splash"/>
+  		<frame id="7" sound="beach_ball_splash"/>
+  		<frame id="9" sound="beach_ball_splash"/>
+  		<frame id="11" sound="beach_ball_splash"/>
+  	</hotspot>
+	
+	
+	<hotspot id="27758" soundForwardOnly="true">
+  		<frame id="2" sound="trap_door"/>
+  	</hotspot>
+	<hotspot id="27557" soundForwardOnly="true">
+  		<frame id="2" sound="trap_door"/>
+  	</hotspot>
+	<hotspot id="27558" soundForwardOnly="true">
+  		<frame id="2" sound="water_dumped_on_person"/>
+  	</hotspot>
+	<hotspot id="27559" soundForwardOnly="true">
+  		<frame id="2" sound="pixie_skull_cloud"/>
+  	</hotspot>
+	<hotspot id="27552" soundForwardOnly="true">
+  		<frame id="2" sound="pixie_dust"/>
+  	</hotspot>
+	<hotspot id="27561" soundForwardOnly="true" audioLibrary="vidiaMobile">
+  		<frame id="2" sound="vidia_spinning_mobile"/>
+  	</hotspot>
+  	<hotspot id="27562" soundForwardOnly="true" audioLibrary="meadowHotspotTables">
+  		<frame id="2" sound="meadow_tea_cup"/>
+  		<frame id="3" sound="meadow_tea_cup"/>
+  		<frame id="4" sound="meadow_tea_cup"/>
+  		<frame id="5" sound="meadow_tea_cup"/>
+  	</hotspot>
+  	<hotspot id="27563" soundForwardOnly="true" audioLibrary="meadowHotspotTables">
+  		<frame id="2" sound="meadow_tea_cup"/>
+  		<frame id="3" sound="meadow_tea_cup"/>
+  	</hotspot>
+  	<hotspot id="27564" audioLibrary="cakeDecorations">
+  		<target ids="0">
+  			<frame ids="1" action="play" sound="cake_icing"/>
+  			<frame ids="2,3,4" action="gotoAndStop" gotoFrame="1" sound="cake_interactive_negative"/>
+  		</target>
+  		<target ids="1">
+  			<frame ids="2" action="play" sound="cake_sprinkles"/>
+  			<frame ids="1,3,4" action="gotoAndStop" gotoFrame="1" sound="cake_interactive_negative"/>
+  		</target>
+  		<target ids="2">
+  			<frame ids="3" action="play" sound="cake_squeeze_pipe"/>
+  			<frame ids="1,2,4" action="gotoAndStop" gotoFrame="1" sound="cake_interactive_negative"/>
+  		</target>
+  		<target ids="3">
+  			<frame ids="4" action="play" sound="cake_cherry" sendToServer="true"/>
+  			<frame ids="1,2,3" action="gotoAndStop" gotoFrame="1" sound="cake_interactive_negative"/>
+  		</target>
+  	</hotspot>
+  	<hotspot id="27565" audioLibrary="soupCauldron">
+  		<target ids="0">
+  			<frame ids="1" action="play" sound="soup_chopping"/>
+  			<frame ids="2,3,4,5" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="1">
+  			<frame ids="2" action="play" sound="soup_sugar_pour"/>
+  			<frame ids="1,3,4,5" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="2">
+  			<frame ids="3" action="play" sound="soup_pumpkin"/>
+  			<frame ids="1,2,4,5" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="3">
+  			<frame ids="4" action="play" sound="soup_pour_milk"/>
+  			<frame ids="1,2,3,5" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="4">
+  			<frame ids="5" action="play" sound="soup_salt_pepper" sendToServer="true"/>
+  			<frame ids="1,2,3,4" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="5">
+  			<frame ids="1,2,3,4,5" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="6">
+  			<frame ids="1,2,3,4,5" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="7">
+  			<frame ids="1,2,3,4,5" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="8">
+  			<frame ids="1,2,3,4,5" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="9">
+  			<frame ids="1,2,3,4,5" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="10">
+  			<frame ids="1,2,3,4,5" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="11">
+  			<frame ids="1,2,3,4,5" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  		</target>
+  	</hotspot>
+  	<hotspot id="27592" audioLibrary="snowball" forceFieldX="0" forceFieldY="0" forceFieldSize="100" stopFrames="1,35,69,106,144">
+  		<frame id="2" sound="throw_snowball"/>
+  		<frame id="36" sound="throw_snowball"/>
+  		<frame id="70" sound="throw_snowball"/>
+  		<frame id="107" sound="throw_snowball"/>
+  		<frame id="145" sound="throw_snowball"/>
+  	</hotspot>
+  	<hotspot id="27593" audioLibrary="snowball" forceFieldX="0" forceFieldY="0" forceFieldSize="100" stopFrames="1,36,105,144,199">
+  		<frame id="2" sound="throw_snowball"/>
+  		<frame id="37" sound="throw_snowball"/>
+  		<frame id="106" sound="throw_snowball"/>
+  		<frame id="145" sound="throw_snowball"/>
+  		<frame id="200" sound="throw_snowball"/>
+  	</hotspot>
+  	<hotspot id="27594" audioLibrary="snowball" forceFieldX="0" forceFieldY="0" forceFieldSize="100" stopFrames="1,37,81,122,169">
+  		<frame id="2" sound="throw_snowball"/>
+  		<frame id="38" sound="throw_snowball"/>
+  		<frame id="82" sound="throw_snowball"/>
+  		<frame id="123" sound="throw_snowball"/>
+  		<frame id="170" sound="throw_snowball"/>
+  	</hotspot>
+  	<hotspot id="27595" audioLibrary="snowball" forceFieldX="0" forceFieldY="0" forceFieldSize="100" stopFrames="1,39,80,117,154">
+  		<frame id="2" sound="throw_snowball"/>
+  		<frame id="40" sound="throw_snowball"/>
+  		<frame id="81" sound="throw_snowball"/>
+  		<frame id="118" sound="throw_snowball"/>
+  		<frame id="155" sound="throw_snowball"/>
+  	</hotspot>
+  	<hotspot id="27596" audioLibrary="snowball" forceFieldX="0" forceFieldY="0" forceFieldSize="100" stopFrames="1,46,108,181,224">
+  		<frame id="2" sound="throw_snowball"/>
+  		<frame id="47" sound="throw_snowball"/>
+  		<frame id="109" sound="throw_snowball"/>
+  		<frame id="182" sound="throw_snowball"/>
+  		<frame id="225" sound="throw_snowball"/>
+  	</hotspot>
+  	<hotspot id="27597" audioLibrary="snowball" forceFieldX="0" forceFieldY="0" forceFieldSize="100" stopFrames="1,38,73,118,161">
+  		<frame id="2" sound="throw_snowball"/>
+  		<frame id="39" sound="throw_snowball"/>
+  		<frame id="74" sound="throw_snowball"/>
+  		<frame id="119" sound="throw_snowball"/>
+  		<frame id="162" sound="throw_snowball"/>
+  	</hotspot>
+	
+	<hotspot id="27598" actionClass="com.disney.fairies.meadow.hotspotactions.animalfriends.food.HummingbirdFoodBowl" audioLibrary="" forceFieldX="50" forceFieldY="40" forceFieldSize="100" flyTo="true"/>
+	<hotspot id="27599" actionClass="com.disney.fairies.meadow.hotspotactions.animalfriends.food.FireflyFoodBowl" audioLibrary="" forceFieldX="75" forceFieldY="15" forceFieldSize="100" flyTo="true"/>
+  	<hotspot id="27600" actionClass="com.disney.fairies.meadow.hotspotactions.animalfriends.food.DragonflyFoodBowl" audioLibrary="" forceFieldX="60" forceFieldY="50" forceFieldSize="100" flyTo="true"/>
+	<hotspot id="27601" actionClass="com.disney.fairies.meadow.hotspotactions.animalfriends.food.LadybugFoodBowl" audioLibrary="" forceFieldX="25" forceFieldY="35" forceFieldSize="100" flyTo="true"/>
+	<hotspot id="27602" actionClass="com.disney.fairies.meadow.hotspotactions.animalfriends.food.BeeFoodBowl" audioLibrary="" forceFieldX="80" forceFieldY="0" forceFieldSize="100" flyTo="true"/>
+	
+  	<hotspot id="27603" stopFrames="1,116,282,421,586">
+  		<frame id="2" sound="icePalacePiano1"/>
+  		<frame id="117" sound="icePalacePiano2"/>
+  		<frame id="283" sound="icePalacePiano3"/>
+  		<frame id="422" sound="icePalacePiano4"/>
+  		<frame id="587" sound="icePalacePiano5"/>
+  	</hotspot>
+  	
+  	<hotspot id="27604" audioLibrary="giftBoxCreation" actionClass="com.disney.fairies.meadow.hotspotactions.multiSpot.GiftPackage">
+  		<frame id="2" sound="giftStationBrush"/>
+  	</hotspot>
+  	
+  	<hotspot id="27605" audioLibrary="giftBoxCreation" actionClass="com.disney.fairies.meadow.hotspotactions.multiSpot.GiftPackage">
+  		<frame id="2" sound="giftStationCards"/>
+  	</hotspot>
+  	
+  	<hotspot id="27606" audioLibrary="giftBoxCreation" actionClass="com.disney.fairies.meadow.hotspotactions.multiSpot.GiftPackage">
+  		<frame id="2" sound="giftStationGlue"/>
+  	</hotspot>
+  	
+  	<hotspot id="27607" audioLibrary="giftBoxCreation" actionClass="com.disney.fairies.meadow.hotspotactions.multiSpot.GiftPackage">
+  		<frame id="2" sound="giftStationPaint"/>
+  	</hotspot>
+  	
+  	<hotspot id="27608" audioLibrary="giftBoxCreation" actionClass="com.disney.fairies.meadow.hotspotactions.multiSpot.GiftPackage">
+  		<frame id="2" sound="giftStationRibbon"/>
+  	</hotspot>
+  	
+  	<hotspot id="27609" audioLibrary="mermaidGrottoInteractives">
+  		<frame id="2" sound="mermaid_grotto_springs"/>
+  	</hotspot>
+  	
+  	<hotspot id="27610" audioLibrary="mermaidGrottoInteractives">
+  		<frame id="20" sound="mermaid_grotto_clam"/>
+  	</hotspot>
+  	
+  	<hotspot id="27611" audioLibrary="mermaidGrottoInteractives">
+  		<frame id="2" sound="mermaid_grotto_lobster"/>
+  	</hotspot>
+  	
+  	<hotspot id="27612" audioLibrary="mermaidGrottoInteractives">
+  		<frame id="25" sound="mermaid_grotto_mermaid"/>
+  	</hotspot>
+  	
+  	<hotspot id="27613" audioLibrary="rainCloud">
+  		<frame id="2" sound="rain_cloud"/>
+  	</hotspot>
+  	
+  	<hotspot id="27615" audioLibrary="comedyTheater">
+  		<frame id="13" sound="comedy_theater_drum_roll"/>
+  	</hotspot>
+  	
+  	<hotspot id="27616" audioLibrary="comedyTheater">
+  		<frame id="37" sound="comedy_theater_sad_trombone"/>
+  	</hotspot>
+  	
+  	<hotspot id="27617" audioLibrary="comedyTheater">
+  		<frame id="2" sound="comedy_theater_crickets"/>
+  	</hotspot>
+  	
+  	<hotspot id="27618" audioLibrary="everBlossomPixieDust" stopFrames="1,41">
+  		<frame id="2" sound="EBPixieDust"/>
+  		<frame id="42" sound="EBPixieDust"/>
+  	</hotspot>
+  	
+  	<hotspot id="27614" audioLibrary="rainCloud">
+  		<frame id="37" sound="rain_cloud"/>
+  	</hotspot>
+    
+  	<hotspot id="27619" audioLibrary="snowball" forceFieldX="0" forceFieldY="0" forceFieldSize="100" stopFrames="1,35,69,106,145">
+  		<frame id="2" sound="throw_snowball"/>
+  		<frame id="36" sound="throw_snowball"/>
+  		<frame id="70" sound="throw_snowball"/>
+  		<frame id="107" sound="throw_snowball"/>
+  		<frame id="146" sound="throw_snowball"/>
+  	</hotspot>
+  	<hotspot id="27620" audioLibrary="snowball" forceFieldX="0" forceFieldY="0" forceFieldSize="100" stopFrames="1,36,114,151,206">
+  		<frame id="2" sound="throw_snowball"/>
+  		<frame id="37" sound="throw_snowball"/>
+  		<frame id="115" sound="throw_snowball"/>
+  		<frame id="152" sound="throw_snowball"/>
+  		<frame id="207" sound="throw_snowball"/>
+  	</hotspot>
+  	<hotspot id="27621" audioLibrary="snowball" forceFieldX="0" forceFieldY="0" forceFieldSize="100" stopFrames="1,38,82,123,170">
+  		<frame id="2" sound="throw_snowball"/>
+  		<frame id="39" sound="throw_snowball"/>
+  		<frame id="83" sound="throw_snowball"/>
+  		<frame id="124" sound="throw_snowball"/>
+  		<frame id="171" sound="throw_snowball"/>
+  	</hotspot>
+  	<hotspot id="27622" audioLibrary="snowball" forceFieldX="0" forceFieldY="0" forceFieldSize="100" stopFrames="1,41,82,119,156">
+  		<frame id="2" sound="throw_snowball"/>
+  		<frame id="42" sound="throw_snowball"/>
+  		<frame id="83" sound="throw_snowball"/>
+  		<frame id="120" sound="throw_snowball"/>
+  		<frame id="157" sound="throw_snowball"/>
+  	</hotspot>
+  	<hotspot id="27623" audioLibrary="snowball" forceFieldX="0" forceFieldY="0" forceFieldSize="100" stopFrames="1,46,108,181,225">
+  		<frame id="2" sound="throw_snowball"/>
+  		<frame id="47" sound="throw_snowball"/>
+  		<frame id="109" sound="throw_snowball"/>
+  		<frame id="182" sound="throw_snowball"/>
+  		<frame id="226" sound="throw_snowball"/>
+  	</hotspot>
+  	<hotspot id="27624" audioLibrary="snowball" forceFieldX="0" forceFieldY="0" forceFieldSize="100" stopFrames="1,38,75,121,168">
+  		<frame id="2" sound="throw_snowball"/>
+  		<frame id="39" sound="throw_snowball"/>
+  		<frame id="76" sound="throw_snowball"/>
+  		<frame id="122" sound="throw_snowball"/>
+  		<frame id="169" sound="throw_snowball"/>
+  	</hotspot>
+  	<hotspot id="27633" audioLibrary="gardenTeaParty">
+  		<frame id="30" sound="gtp_cake_cutting"/>
+  	</hotspot>
+  	<hotspot id="27634" audioLibrary="gardenTeaParty">
+  		<frame id="30" sound="gtp_cake_cutting"/>
+  	</hotspot>
+  	<hotspot id="27635" audioLibrary="gardenTeaParty">
+  		<frame id="34" sound="gtp_tea_pouring"/>
+  	</hotspot>
+  	<hotspot id="27636" audioLibrary="gardenTeaParty">
+  		<frame id="34" sound="gtp_tea_pouring"/>
+  	</hotspot>
+  	<hotspot id="27637" audioLibrary="gardenTeaParty">
+  		<frame id="2" sound="gtp_tea_brewing"/>
+  	</hotspot>
+      	<hotspot id="27742" audioLibrary="gardenTeaParty">
+  		<frame id="2" sound="gtp_tea_whistle"/>
+  	</hotspot>	
+    <hotspot id="27744" audioLibrary="soupCauldron">
+  		<frame id="2" sound="soup_chopping"/>
+  	</hotspot>
+    <hotspot id="27745" audioLibrary="soupCauldron">
+  		<frame id="2" sound="soup_chopping"/>
+  	</hotspot>
+    <hotspot id="27746" audioLibrary="gardenTeaParty">
+  		<frame id="2" sound="gtp_cake_cutting"/>
+  	</hotspot>
+    <hotspot id="27743" audioLibrary="soupCauldron">
+  		<frame id="2" sound="soup_salt_pepper"/>
+  	</hotspot>
+    <hotspot id="27747" audioLibrary="animalMothersBunny">
+  		<frame id="2" sound="ambBucket"/>
+  	</hotspot>
+	
+	
+	
+	<hotspot id="example" soundForwardOnly="true" audioLibrary="someAudioLibrary" actionClass="com.disney.fairies.hotspotactions.example" forceFieldX="34" forceFieldY="45" tooltip="true" forceFieldSize="100" flyTo="true" stopFrames="1,2,3" >
+  		<frame id="2" sound="some_sound_id" targetX="501" targetY="635"/>
+  		<target ids="0,1">
+  			<frame ids="1,2,3" action="play or gotoAndPlay or gotoAndStop" gotoFrame="4" sound="some_sound_id" sendToServer="true"/>
+  		</target>
+  	</hotspot>
+
+  	<hotspot id="27626" audioLibrary="skillAnimations" forceFieldX="30" forceFieldY="135" forceFieldSize="100">
+  		<frame id="2" sound="cottonpuff"/>
+  	</hotspot>
+  	<hotspot id="27627" audioLibrary="skillAnimations" forceFieldX="310" forceFieldY="-25" forceFieldSize="100">
+  		<frame id="2" sound="dewdrop_vale"/>
+  	</hotspot>
+  	<hotspot id="27628" audioLibrary="skillAnimations" forceFieldX="0" forceFieldY="135" forceFieldSize="100">
+  		<frame id="2" sound="evergreen_overlook"/>
+  	</hotspot>
+  	<hotspot id="27629" audioLibrary="skillAnimations" forceFieldX="15" forceFieldY="150" forceFieldSize="100">
+  		<frame id="2" sound="neverberry"/>
+  	</hotspot>
+  	<hotspot id="27630" audioLibrary="skillAnimations" forceFieldX="160" forceFieldY="75" forceFieldSize="100">
+  		<frame id="2" sound="springtime"/>
+  	</hotspot>
+  	<hotspot id="27631" audioLibrary="skillAnimations" forceFieldX="225" forceFieldY="175" forceFieldSize="100">
+  		<frame id="2" sound="maple_tree_hill"/>
+  	</hotspot>
+  	<hotspot id="27632" audioLibrary="skillAnimations" forceFieldX="260" forceFieldY="490" forceFieldSize="100">
+  		<frame id="2" sound="sunflower_gully"/>
+  	</hotspot>
+  	<hotspot id="27638" audioLibrary="skillAnimations" forceFieldX="160" forceFieldY="100" forceFieldSize="100">
+  		<frame id="2" sound="cherry_blossom"/>
+  	</hotspot>
+  	<hotspot id="27800" audioLibrary="skillAnimations" forceFieldX="160" forceFieldY="100" forceFieldSize="100">
+  		<frame id="2" sound="cherry_blossom"/>
+  	</hotspot>	
+  	<!--hotspot id="27682" audioLibrary="skillAnimations">
+  		<frame id="2" sound="ice_palace"/>
+  	</hotspot-->
+  	<hotspot id="27639" audioLibrary="animalMothersChipmunk" stopFrames="1,69,142,215,288,361">
+		<frame id="12" sound="amcEat"/>
+		<frame id="80" sound="amcEat"/>
+		<frame id="153" sound="amcEat"/>
+		<frame id="226" sound="amcEat"/>
+		<frame id="299" sound="amcEat"/>
+		<frame id="372" sound="amcEat"/>
+		<frame id="419" sound="amcGulp"/>
+  	</hotspot>
+	<hotspot id="27640" audioLibrary="animalMothersOwl">
+		<frame id="62" sound="amoYawn"/>
+		<frame id="100" sound="amoHoot"/>
+	</hotspot>
+	<hotspot id="27740" audioLibrary="animalMothersDayKitten">
+		<frame id="2" sound="amd_kitten_playing"/>
+	</hotspot>
+	<hotspot id="27641" actionClass="com.disney.fairies.meadow.hotspotactions.animalMotherBunny.ambBucket" audioLibrary="animalMothersBunny">
+		<frame id="4" sound="ambBucket"/>
+	</hotspot>
+	<hotspot id="27642" actionClass="com.disney.fairies.meadow.hotspotactions.animalMotherBunny.ambBucket" audioLibrary="animalMothersBunny">
+		<frame id="4" sound="ambBucket"/>
+	</hotspot>
+	<hotspot id="27643" actionClass="com.disney.fairies.meadow.hotspotactions.animalMotherBunny.ambBucket" audioLibrary="animalMothersBunny">
+		<frame id="4" sound="ambBucket"/>
+	</hotspot>
+	<hotspot id="27644" actionClass="com.disney.fairies.meadow.hotspotactions.animalMotherBunny.ambBucket" audioLibrary="animalMothersBunny">
+		<frame id="4" sound="ambBucket"/>
+	</hotspot>
+	<hotspot id="27645" actionClass="com.disney.fairies.meadow.hotspotactions.animalMotherBunny.ambBucket" audioLibrary="animalMothersBunny">
+		<frame id="4" sound="ambBucket"/>
+	</hotspot>
+	<hotspot id="27646" actionClass="com.disney.fairies.meadow.hotspotactions.animalMotherBunny.ambBunny" audioLibrary="animalMothersBunny">
+		<frame id="24" sound="ambGiggle"/>
+	</hotspot>
+	<hotspot id="27647" audioLibrary="meadowHotspotTables">
+		<frame id="35" sound="meadow_pitcher"/>
+		<frame id="123" sound="meadow_pitcher"/>
+		<frame id="211" sound="meadow_pitcher"/>
+		<frame id="299" sound="meadow_pitcher"/>
+  		<target ids="0">
+  			<frame ids="1,89,177,265" action="gotoAndPlay" gotoFrame="2" sendToServer="true"/>
+  		</target>
+  		<target ids="1">
+  			<frame ids="1,89,177,265" action="gotoAndPlay" gotoFrame="90" sendToServer="true"/>
+  		</target>
+  		<target ids="2">
+  			<frame ids="1,89,177,265" action="gotoAndPlay" gotoFrame="178" sendToServer="true"/>
+  		</target>
+  		<target ids="3">
+  			<frame ids="1,89,177,265" action="gotoAndPlay" gotoFrame="266" sendToServer="true"/>
+  		</target>
+	</hotspot>
+	
+	<hotspot id="27648" audioLibrary="cotlAcornJuicer">
+		<frame id="2" sound="cotl_acorn_juicer"/>
+	</hotspot>
+	<hotspot id="27649" audioLibrary="cotlLeafRoller">
+		<frame id="2" sound="cotl_leaf_roller"/>
+		<frame id="33" sound="cotl_leaf_roller"/>
+	</hotspot>
+	<hotspot id="27650" audioLibrary="cotlLeafPainter">
+		<frame id="2" sound="cotl_leaf_painter"/>
+		<frame id="65" sound="cotl_leaf_painter"/>
+	</hotspot>
+	<hotspot id="27651" audioLibrary="cotlLeafBundle">
+		<frame id="2" sound="cotl_leaf_bundle_wrap"/>
+		<frame id="68" sound="cotl_leaf_bundle_pop"/>
+	</hotspot>
+
+  	<hotspot id="27656" audioLibrary="soupCauldron">
+  		<target ids="0">
+  			<frame ids="1" action="play" sound="soup_chopping"/>
+  			<frame ids="121" action="gotoAndPlay" gotoFrame="507" sound="soup_interactive_negative"/>
+  			<frame ids="216" action="gotoAndPlay" gotoFrame="491" sound="soup_interactive_negative"/>
+  			<frame ids="318" action="gotoAndPlay" gotoFrame="477" sound="soup_interactive_negative"/>
+  			<frame ids="385" action="gotoAndPlay" gotoFrame="463" sound="soup_interactive_negative"/>
+  			<frame ids="449" action="gotoAndPlay" gotoFrame="449" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="1">
+  			<frame ids="121" action="play" sound="soup_sugar_pour"/>
+  			<frame ids="1" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  			<frame ids="216" action="gotoAndPlay" gotoFrame="491" sound="soup_interactive_negative"/>
+  			<frame ids="318" action="gotoAndPlay" gotoFrame="477" sound="soup_interactive_negative"/>
+  			<frame ids="385" action="gotoAndPlay" gotoFrame="463" sound="soup_interactive_negative"/>
+  			<frame ids="449" action="gotoAndPlay" gotoFrame="449" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="2">
+  			<frame ids="216" action="play" sound="soup_pumpkin"/>
+  			<frame ids="1" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  			<frame ids="121" action="gotoAndPlay" gotoFrame="507" sound="soup_interactive_negative"/>
+  			<frame ids="318" action="gotoAndPlay" gotoFrame="477" sound="soup_interactive_negative"/>
+  			<frame ids="385" action="gotoAndPlay" gotoFrame="463" sound="soup_interactive_negative"/>
+  			<frame ids="449" action="gotoAndPlay" gotoFrame="449" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="3">
+  			<frame ids="318" action="play" sound="soup_pour_milk"/>
+  			<frame ids="1" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  			<frame ids="121" action="gotoAndPlay" gotoFrame="507" sound="soup_interactive_negative"/>
+  			<frame ids="216" action="gotoAndPlay" gotoFrame="491" sound="soup_interactive_negative"/>
+  			<frame ids="385" action="gotoAndPlay" gotoFrame="463" sound="soup_interactive_negative"/>
+  			<frame ids="449" action="gotoAndPlay" gotoFrame="449" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="4">
+  			<frame ids="385" action="play" sound="soup_salt_pepper" sendToServer="true"/>
+  			<frame ids="1" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  			<frame ids="121" action="gotoAndPlay" gotoFrame="507" sound="soup_interactive_negative"/>
+  			<frame ids="216" action="gotoAndPlay" gotoFrame="491" sound="soup_interactive_negative"/>
+  			<frame ids="318" action="gotoAndPlay" gotoFrame="477" sound="soup_interactive_negative"/>
+  			<frame ids="449" action="gotoAndPlay" gotoFrame="449" sound="soup_interactive_negative"/>
+  		</target>
+  		<target ids="5,6,7,8,9,10,11">
+  			<frame ids="1" action="gotoAndStop" gotoFrame="1" sound="soup_interactive_negative"/>
+  			<frame ids="121" action="gotoAndPlay" gotoFrame="507" sound="soup_interactive_negative"/>
+  			<frame ids="216" action="gotoAndPlay" gotoFrame="491" sound="soup_interactive_negative"/>
+  			<frame ids="318" action="gotoAndPlay" gotoFrame="477" sound="soup_interactive_negative"/>
+  			<frame ids="385" action="gotoAndPlay" gotoFrame="463" sound="soup_interactive_negative"/>
+  			<frame ids="449" action="gotoAndPlay" gotoFrame="449" sound="soup_interactive_negative"/>
+  		</target>
+  	</hotspot>
+  	<hotspot id="27657" audioLibrary="cakeDecorations">
+  		<target ids="0">
+  			<frame ids="1" action="play" sound="cake_icing"/>
+  			<frame ids="40,69,128" action="gotoAndStop" gotoFrame="1" sound="cake_interactive_negative"/>
+  		</target>
+  		<target ids="1">
+  			<frame ids="40" action="play" sound="cake_sprinkles"/>
+  			<frame ids="1,69,128" action="gotoAndStop" gotoFrame="1" sound="cake_interactive_negative"/>
+  		</target>
+  		<target ids="2">
+  			<frame ids="69" action="play" sound="cake_squeeze_pipe"/>
+  			<frame ids="1,40,128" action="gotoAndStop" gotoFrame="1" sound="cake_interactive_negative"/>
+  		</target>
+  		<target ids="3">
+  			<frame ids="128" action="play" sound="cake_cherry" sendToServer="true" checkVelvet="false" disable="true"/>
+  			<frame ids="1,40,69" action="gotoAndStop" gotoFrame="1" sound="cake_interactive_negative"/>
+  		</target>
+  	</hotspot>
+  	<hotspot id="27658" audioLibrary="gardenTeaParty">
+  		<frame id="2" sound="gtp_cake_cutting"/>
+  	</hotspot>
+  	<hotspot id="27664" audioLibrary="gardenTeaParty">
+  		<frame id="2" sound="gtp_cake_cutting"/>
+  	</hotspot>
+  	<hotspot id="27690" audioLibrary="snowingJingle" actionClass="com.disney.fairies.meadow.hotspotactions.snowflake.snowflakeMaker"/>
+  	
+	<hotspot id="27691" audioLibrary="giftBoxCreation" actionClass="com.disney.fairies.meadow.hotspotactions.giftWrapping.GiftWrappingStation">
+		<frame id="2" sound="giftStationCards"/>
+		<frame id="57" sound="giftStationRibbon"/>
+		<frame id="89" sound="giftStationRibbon"/>
+		<frame id="117" sound="giftStationRibbon"/>
+		<frame id="151" sound="giftStationRibbon"/>
+		<frame id="195" sound="giftStationComplete"/>
+	</hotspot>
+	
+	<hotspot id="27660" audioLibrary="jackolantern">
+		<frame id="2" sound="jack_o_lantern"/>
+	</hotspot>
+	<hotspot id="27672" audioLibrary="jackolantern">
+		<frame id="2" sound="jack_o_lantern"/>
+	</hotspot>
+	<hotspot id="27674" audioLibrary="jackolantern">
+		<frame id="2" sound="jack_o_lantern"/>
+	</hotspot>
+	<hotspot id="27681" audioLibrary="jackolantern">
+		<frame id="2" sound="jack_o_lantern"/>
+	</hotspot>
+	<hotspot id="27676" audioLibrary="jackolantern">
+		<frame id="2" sound="jack_o_lantern"/>
+	</hotspot>
+	<hotspot id="27678" audioLibrary="jackolantern">
+		<frame id="2" sound="jack_o_lantern"/>
+	</hotspot>
+	<hotspot id="27679" audioLibrary="jackolantern">
+		<frame id="2" sound="jack_o_lantern"/>
+	</hotspot>
+	<hotspot id="27677" audioLibrary="jackolantern">
+		<frame id="2" sound="jack_o_lantern"/>
+	</hotspot>
+	<hotspot id="27680" audioLibrary="jackolantern">
+		<frame id="2" sound="jack_o_lantern"/>
+	</hotspot>
+	<hotspot id="27675" audioLibrary="jackolantern">
+		<frame id="2" sound="jack_o_lantern"/>
+	</hotspot>
+	<hotspot id="27673" audioLibrary="jackolantern">
+		<frame id="2" sound="jack_o_lantern"/>
+	</hotspot>
+	<hotspot id="27689" audioLibrary="jackolantern">
+		<frame id="2" sound="jack_o_lantern"/>
+	</hotspot>
+	<hotspot id="27692" audioLibrary="slideProjector">
+		<frame id="2" sound="change_slide"/>
+		<frame id="17" sound="change_slide"/>
+		<frame id="25" sound="change_slide"/>
+		<frame id="33" sound="change_slide"/>
+		<frame id="41" sound="change_slide"/>
+		<frame id="49" sound="change_slide"/>
+		<frame id="57" sound="change_slide"/>
+		<frame id="65" sound="change_slide"/>
+		<frame id="73" sound="change_slide"/>
+		<frame id="81" sound="change_slide"/>
+		<frame id="89" sound="change_slide"/>
+		<frame id="97" sound="change_slide"/>
+		<frame id="105" sound="change_slide"/>
+		<frame id="113" sound="change_slide"/>
+	</hotspot>
+	<hotspot id="27683" audioLibrary="coliseumConstruction">
+		<frame id="2" sound="cc_box_spring_open"/>
+	</hotspot>
+	<hotspot id="27684" audioLibrary="coliseumConstruction">
+		<frame id="2" sound="cc_banners_unrolling"/>
+	</hotspot>
+	<hotspot id="27685" audioLibrary="coliseumConstruction">
+		<frame id="2" sound="cc_banners_unrolling"/>
+	</hotspot>
+	<hotspot id="27686" audioLibrary="coliseumConstruction">
+		<frame id="2" sound="cc_leaf_peek"/>
+	</hotspot>
+	<hotspot id="27687" audioLibrary="coliseumConstruction">
+		<frame id="2" sound="cc_flower_jumping"/>
+	</hotspot>
+	<hotspot id="27688" audioLibrary="coliseumConstruction">
+		<frame id="2" sound="cc_package_unwrapping"/>
+	</hotspot>
+	<hotspot id="27694" audioLibrary="neverDoveEggHatch">
+		<frame id="2" sound="never_dove_egg_hatch"/>
+	</hotspot>
+	<hotspot id="27695" audioLibrary="plantingBulbs">
+		<frame id="15" sound="planting_bulbs"/>
+	</hotspot>
+  	<hotspot id="27693" audioLibrary="mermaidGrottoMermaids" stopFrames="1,83,205">
+  		<frame id="2" sound="mermaid1"/>
+  		<frame id="84" sound="mermaid2"/>
+  		<frame id="206" sound="mermaid3"/>
+  	</hotspot>
+	<hotspot id="27718" audioLibrary="theatreRockConcert">
+		<frame id="2" sound="rc_guitar_01,rc_guitar_02"/>
+	</hotspot>
+	<hotspot id="27719" audioLibrary="theatreRockConcert">
+		<frame id="2" sound="rc_bass_01,rc_bass_02"/>
+	</hotspot>
+	<hotspot id="27720" audioLibrary="theatreRockConcert" stopFrames="1,113">
+		<frame id="2" sound="rc_drum_01"/>
+		<frame id="114" sound="rc_drum_02"/>
+	</hotspot>
+	
+	<hotspot id="27721" audioLibrary="theatreRockConcert">
+		<frame id="2" sound="rc_turntable_01,rc_turntable_02"/>
+	</hotspot>
+
+  	<hotspot id="27757" audioLibrary="icePalace" stopFrames="1,21,69, 137">
+  		<frame id="2" sound="weasel"/>
+  		<frame id="23" sound="weasel"/>
+  		<frame id="71" sound="weasel"/>			
+  	</hotspot>	
+
+  	<hotspot id="27748" audioLibrary="theaterHauntedHouse" stopFrames="1,160,290">
+		<frame id="2" sound="spooky_picture_1"/>
+  		<frame id="217" sound="dashing_piano_mouse"/>
+  	</hotspot>
+
+  	<hotspot id="27749" audioLibrary="theaterHauntedHouse" stopFrames="1,90,304">
+		<frame id="2" sound="spooky_picture_2"/>
+  		<frame id="143" sound="rocking_horse"/>
+  	</hotspot>
+
+  	<hotspot id="27750" audioLibrary="theaterHauntedHouse" stopFrames="1,81">
+		<frame id="2" sound="spooky_picture_2"/>
+  	</hotspot>
+
+  	<hotspot id="27751" audioLibrary="theaterHauntedHouse" stopFrames="1,79">
+		<frame id="2" sound="spooky_clock"/>
+  	</hotspot>
+
+  	<hotspot id="27752" audioLibrary="theaterHauntedHouse" stopFrames="1,65">
+		<frame id="2" sound="mouse_pop_up"/>
+  	</hotspot>
+	
+  	<hotspot id="27753" audioLibrary="theaterHauntedHouse" stopFrames="1,104,209">
+		<frame id="2" sound="chandelier"/>
+		<frame id="107" sound="orb"/>
+  	</hotspot>		
+	
+  	<hotspot id="27754" audioLibrary="theaterHauntedHouse" stopFrames="1,117">
+		<!-- <frame id="2" sound="chandelier_orb"/> -->
+		<frame id="65" sound="swaying_curtains"/>
+  	</hotspot>	
+	
+  	<hotspot id="27755" audioLibrary="theaterHauntedHouse" stopFrames="1,251">
+		<!-- <frame id="2" sound="chandelier_orb"/> -->
+		<frame id="185" sound="mouse_pop_up"/>
+  	</hotspot>	
+	
+	
+	
+	
+	<!-- SHOP PURCHASED MEADOW GAMES / DYNAMIC HOTSPOT -->
+	<hotspot id="35001" tooltip="true" useTooltipCopy="true" setVelvetRope="0" statusHolding="2" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13017" tags="" snapTargetPos="-25,30,0|120,30,1|-40,45,0|135,45,1|-40,20,0|135,20,1|-55,30,0|150,30,1|-75,45,0|170,45,1|-75,20,0|170,20,1"/>
+    <hotspot id="35002" tooltip="true" useTooltipCopy="true" setVelvetRope="0" statusHolding="2" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13018" tags="" snapTargetPos="-25,30,0|120,30,1|-40,45,0|135,45,1|-40,20,0|135,20,1|-55,30,0|150,30,1|-75,45,0|170,45,1|-75,20,0|170,20,1"/>	
+    <hotspot id="35003" tooltip="true" useTooltipCopy="true" setVelvetRope="0" statusHolding="4" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13016" tags="" snapTargetPos="-25,30,0|120,30,1|-40,45,0|135,45,1|-40,20,0|135,20,1|-55,30,0|150,30,1|-75,45,0|170,45,1|-75,20,0|170,20,1"/>	
+	<hotspot id="35004" tooltip="true" useTooltipCopy="true" setVelvetRope="0" statusHolding="4" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13013" tags="" snapTargetPos="-25,30,0|120,30,1|-40,45,0|135,45,1|-40,20,0|135,20,1|-55,30,0|150,30,1|-75,45,0|170,45,1|-75,20,0|170,20,1"/>
+	<hotspot id="35005" tooltip="true" useTooltipCopy="true" setVelvetRope="0" statusHolding="4" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13012" tags="" snapTargetPos="-25,30,0|120,30,1|-40,45,0|135,45,1|-40,20,0|135,20,1|-55,30,0|150,30,1|-75,45,0|170,45,1|-75,20,0|170,20,1"/>
+	<!-- <hotspot id="35001" dynamic="true" gameId="30001" snapTargetPosOffset="-100,-100,0|100,-100,1|100,100,1|-100,100,0" /> -->
+		
+  	
+	  <chatTrigger message="trick or treat" hotspotid="27660" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27672" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27674" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27681" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27676" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27678" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27679" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27677" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27680" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27675" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27673" delay="3" />
+	  <chatTrigger message="trick or treat" hotspotid="27689" delay="3" />
+	
+
+  </hotspots>
+  
+</HotspotAssets>

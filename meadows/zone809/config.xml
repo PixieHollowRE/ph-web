@@ -1,0 +1,28 @@
+<zone>
+  <name>Queen's Boutique</name>
+  <zoneID>809</zoneID>
+  <assetURL/>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="980" height="780">
+        <image x="0" y="0" type="none">QB_sky_01.swf</image>
+      </layer>
+      <layer type="ground" width="1066" height="792">
+        <image x="0" y="0" type="merge">QB_action_03.swf</image>
+      </layer>
+      <layer type="normal" width="1266" height="992">
+        <image x="0" y="0" type="none">QB_foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="412" y="576">default</location>
+  </locations>
+  
+  
+  
+  
+  
+  
+  
+</zone>

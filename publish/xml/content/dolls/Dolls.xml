@@ -1,0 +1,38 @@
+<page>
+	<config>
+		<tagline>
+			<tagline align="center" font="pristina"titlex="150" titley="0" yOffset="0">header</tagline>
+		</tagline>
+		<dollpanel type="panel" panel="dolltabs" x="30" />
+		<columnset1 type="columnset" colsettype="columnset2_dolls_config">
+			<colset url="http://disneystore.go.com/transfer/297652/disney/store/Category_10002_10051_13932_-1_13932_____Disney-Fairies?CMP=OTL-DOL&att=Fairies">
+				<tagline font="pristina" xOffset="105">colset1header</tagline>
+				<bannergraphic type="image">{publishPanelImages}/disney_shopping_236w.png</bannergraphic>
+				<tagline font="column" xOffset="10">colset1body</tagline>
+				<tagline type="button" btntype="btn_pink">colset1btn</tagline>
+			</colset>
+			<colset url="secretcodes.html">
+				<tagline font="pristina" xOffset="70">colset2header</tagline>				
+				<bannergraphic type="image">{publishPanelImages}/secret_codes_toys.png</bannergraphic>
+				<tagline font="column" xOffset="15">colset2body</tagline>
+				<tagline type="button" btntype="btn_pink">colset2btn</tagline>
+			</colset>
+		</columnset1>
+		<columnset2>
+			<tagline xOffset="100">remark</tagline>
+		</columnset2>
+		
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">Dolls and Playsets</span>]]></header>
+				
+		<colset1header><![CDATA[<span class="newsbodytext">Shop</span>]]></colset1header>
+		<colset1body><![CDATA[<span class="newsbodytext">Wondering where to buy Clickables, dolls, and other Fairy favorites? Check out DisneyStore.com.</span>]]></colset1body>
+		<colset1btn><![CDATA[Shop Now]]></colset1btn>
+	
+		<colset2header><![CDATA[<span class="newsbodytext">Secret Codes</span>]]></colset2header>
+		<colset2body><![CDATA[<span class="newsbodytext">Select Fairies toys come with a Secret Code called a Pixie Pass. These codes can be used to unlock special gifts in the online world of Pixie Hollow.<font color="#FFEF4B">*</font></span>]]></colset2body>
+		<colset2btn><![CDATA[Enter Code]]></colset2btn>
+		<remark><![CDATA[<font color="#FFEF4B" size="12" size="12">*Toys with Pixie Passes are only sold in retail stores in the USA.</font>]]></remark>
+	</copy>
+</page>

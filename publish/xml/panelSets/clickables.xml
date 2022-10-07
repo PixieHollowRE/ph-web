@@ -1,0 +1,30 @@
+<panelSet>
+	<panels>
+		<panel id="clickables" x="70" y="-38" alwaysOnTop="false" transition="none">{publishPanelData}/clickables.xml</panel>
+		<panel id="printpopup" x="250" y="159" hidden="true" closeable="true" transition="none">{publishPanelData}/printpopup.xml</panel>
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>clickableshome</trackingid>
+		<regionid>community</regionid>
+		<sectionid>clickables</sectionid>
+		<pageid>clickables</pageid>
+		<menu>
+			<config nav="false" title="false"/>
+		</menu>
+	</config>
+	<copy>
+		<dnameAccepted><![CDATA[Your D-Name was approved!]]></dnameAccepted>
+		<dnameDenied><![CDATA[Please enter a different D-Name.]]></dnameDenied>
+		<header_content>Never Council News</header_content>
+		<accountid>Account ID:</accountid>
+		<password><![CDATA[<span class="newsbodytext">Password:</span>]]></password>
+		<noaccount><![CDATA[<span class="newsbodytext">Don't have an account yet? <a href="https://register.go.com/fairies/register/register"><u>Click here</u></a> to create an account and make a Fairy.</span>]]></noaccount>
+		<noid>NO ID TEXT</noid>
+		<nopswd>NO PASSWORD TEXT</nopswd>
+		<noidpswd>NO ID OR PASSWORD TEXT</noidpswd>
+		<nobutton>OK</nobutton>
+		<invalidlogin>THERE WAS A PROBLEM WITH YOUR LOGIN, PLEASE TRY AGAIN</invalidlogin>
+	</copy>
+</panelSet>

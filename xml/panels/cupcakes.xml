@@ -1,0 +1,161 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/cupcakes.swf</swf>
+		<swf type="code">{panelCode}/cupcakes.swf</swf>
+	</swfs>
+	<copy>
+		<title>Baking</title>
+		<subtitle>Cupcakes</subtitle>
+
+		<mainTitle>Baking</mainTitle>
+
+		<hudTitleWelcome>Baking</hudTitleWelcome>
+		<hudSubTitleWelcome>Cupcakes</hudSubTitleWelcome>
+
+		<level>Level</level>
+		<complete>Complete!</complete>
+		<score>SCORE</score>
+
+		<playBtn><![CDATA[Play]]></playBtn>
+
+		<timer><![CDATA[Timer]]></timer>
+		<helpBtn><![CDATA[?]]></helpBtn>
+		<makeThis><![CDATA[Make this pattern!]]></makeThis>
+		<timeLabel><![CDATA[TIME]]></timeLabel>
+		<submitLabel><![CDATA[SUBMIT]]></submitLabel>
+		<pauseBtn><![CDATA[Pause]]></pauseBtn>
+		<ScoreUILabel><![CDATA[Strings Left]]></ScoreUILabel>
+
+		<play_button target="title.btnContainer.playBtn.caption">Play!</play_button>
+		<help_button target="title.btnContainer.helpBtn.caption">Instructions</help_button>
+		<quit_button target="title.btnContainer.quitBtn.caption">Exit</quit_button>
+
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">How to Play</inst_screen_title>
+		<inst_quit_button target="instructions.btnContainer.quitBtn.caption">Quit</inst_quit_button>
+		<inst_cont_button target="instructions.btnContainer.continueBtn.caption">Continue</inst_cont_button>
+		<inst_play_button target="instructions.btnContainer.playBtn.caption">Play</inst_play_button>
+		
+		<instruction0>Follow the recipe to put the correct frosting and sprinkles on the freshly baked cupcakes. Complete all cupcakes on the recipe before time runs out.</instruction0>
+		<instruction1>Click on a cupcake to move it from the left treadmill to the frosting station.</instruction1>
+		<instruction2>Put the correct colored frosting on the correct colored cupcake.</instruction2>
+		<instruction3>Put all the necessary sprinkles on the cupcake at the sprinkle station.</instruction3>
+		<instruction4>Letting a cupcake fall off the treadmill will cause you to lose time.</instruction4>
+		<instruction5>Putting the wrong frosting or sprinkles on a cupcake will cause it to be discarded and you will lose time.</instruction5>
+		
+		<!-- Fairy Comments -->
+		<cupcake_complete_Dulcie_1>Wonderful!</cupcake_complete_Dulcie_1>
+		<cupcake_complete_Dulcie_2>Excellent cupcake!</cupcake_complete_Dulcie_2>
+		<cupcake_complete_Dulcie_3>You're good at making cupcakes!</cupcake_complete_Dulcie_3>
+		<cupcake_complete_Dulcie_4>That's going to be a yummy cupcake!</cupcake_complete_Dulcie_4>
+		<cupcake_complete_Dulcie_5>You're doing great! Keep going!</cupcake_complete_Dulcie_5>
+		<cupcake_complete_Dulcie_6>Well done!</cupcake_complete_Dulcie_6>
+		<cupcake_complete_Dulcie_7>Yes, that's quite correct!</cupcake_complete_Dulcie_7>
+		<cupcake_complete_Dulcie_8>Super cupcake making, my dear!</cupcake_complete_Dulcie_8>
+
+		<cupcake_fail_Dulcie_1>Nope, try that again!</cupcake_fail_Dulcie_1>
+		<cupcake_fail_Dulcie_2>Close but not quite. Keep trying!</cupcake_fail_Dulcie_2>
+		<cupcake_fail_Dulcie_3>I know ya can figure out how to make these cupcakes!</cupcake_fail_Dulcie_3>
+		<cupcake_fail_Dulcie_4>Hmm… that one wasn't quite right.</cupcake_fail_Dulcie_4>
+		<cupcake_fail_Dulcie_5>Pay attention to those frosting and sprinkle colors!</cupcake_fail_Dulcie_5>
+		<cupcake_fail_Dulcie_6>Making cupcakes can be tricky, eh?</cupcake_fail_Dulcie_6>
+		<cupcake_fail_Dulcie_7>Cupcake making isn't easy, is it?</cupcake_fail_Dulcie_7>
+		<cupcake_fail_Dulcie_8>That's OK, let's make another one!</cupcake_fail_Dulcie_8>
+
+		<gameOverTitle>Done!</gameOverTitle>
+		<gameOverMoreTitle>Keep Going!</gameOverMoreTitle> 
+		<gameOverQuitMessage>Continue</gameOverQuitMessage>
+
+		<quit_confirm_question>Are you sure you want to give up?</quit_confirm_question>
+		<quit_confirm_yes>Yes</quit_confirm_yes>
+		<quit_confirm_no>No</quit_confirm_no>
+
+		<!-- these are still used, although the cutoffs may need to be tweaked for the new scoring system -->
+		<win_gold>Awesome Job!</win_gold>
+		<awesomePercent>96</awesomePercent>
+		<win_silver>Great Job!</win_silver>
+		<greatPercent>81</greatPercent>
+		<win_bronze>Good Job!</win_bronze>
+		<goodPercent>67</goodPercent>
+		<fail>Nice Try!</fail>
+
+		<end_poor_Dulcie_1>Keep trying! You'll get better at cupcake making, I know ya will!</end_poor_Dulcie_1>
+		<end_poor_Dulcie_2>Don't lose heart. Practice makes perfect when it comes to cupcakes!</end_poor_Dulcie_2>
+		<end_poor_Dulcie_3>Making cupcakes can be a real challenge. You'll do better next time, my dear!</end_poor_Dulcie_3>
+		<end_poor_Dulcie_4>Well, you tried your best my dear. Remember, we can always try making cupcakes again!</end_poor_Dulcie_4>
+
+		<end_good_Dulcie_1>Nice job! You certainly have a knack for cupcake making!</end_good_Dulcie_1>
+		<end_good_Dulcie_2>Well done! You're a cupcake making champ!</end_good_Dulcie_2>
+		<end_good_Dulcie_3>Excellent! We've been practicing our cupcake making, haven't we?</end_good_Dulcie_3>
+		<end_good_Dulcie_4>Super! Practice certainly does make perfect, even when making cupcakes!</end_good_Dulcie_4>
+		
+		<end_great_Dulcie_1>Nice job! You certainly have a knack for cupcake making!</end_great_Dulcie_1>
+		<end_great_Dulcie_2>Well done! You're a cupcake making champ!</end_great_Dulcie_2>
+		<end_great_Dulcie_3>Excellent! We've been practicing our cupcake making, haven't we?</end_great_Dulcie_3>
+		<end_great_Dulcie_4>Super! Practice certainly does make perfect, even when making cupcakes!</end_great_Dulcie_4>
+		
+		<end_awesome_Dulcie_1>Nice job! You certainly have a knack for cupcake making!</end_awesome_Dulcie_1>
+		<end_awesome_Dulcie_2>Well done! You're a cupcake making champ!</end_awesome_Dulcie_2>
+		<end_awesome_Dulcie_3>Excellent! We've been practicing our cupcake making, haven't we?</end_awesome_Dulcie_3>
+		<end_awesome_Dulcie_4>Super! Practice certainly does make perfect, even when making cupcakes!</end_awesome_Dulcie_4>
+			
+		<!-- Game Constants  -->
+		<new_cupcake_time>3000</new_cupcake_time>        <!-- how long the cupcake entrance animation takes in milliseconds-->
+		<cupcake_scroll_time>800</cupcake_scroll_time>   <!-- how long the cupcake station-to-station animation normally takes -->
+		<faster_scroll_time>500</faster_scroll_time>     <!-- how long the cupcake station-to-station animation takes between trap doors -->
+		<trap_door_time>1000</trap_door_time>            <!-- how long the trap door animation takes -->
+			
+	</copy>
+	<config>
+	
+	<colorPalette>3</colorPalette>
+	
+	<!-- rather than calculate the score as a fixed percentage (like 4/12 cupcakes made = 25%), instead use this table to look up a score -->
+	<scores total="18">
+		<score>100</score>
+		<score>98</score>
+		<score>96</score>
+		<score>93</score>
+		<score>90</score>
+		<score>86</score>
+		<score>82</score>
+		<score>77</score>
+		<score>72</score>
+		<score>66</score>
+		<score>60</score>
+		<score>53</score>
+		<score>46</score>
+		<score>38</score>
+		<score>30</score>
+		<score>22</score>
+		<score>14</score>
+		<score>6</score>
+		<score>0</score>
+	</scores>
+
+    <levels>
+		<level num="1"  time="75"  bakeTime="3.6" cNeeded="3" vNeeded="0" sNeeded="3" cIcing="1" vIcing="2" sIcing="3" cTopping="0"  vTopping="0"  sTopping="4"  ></level>
+		<level num="2"  time="75"  bakeTime="3.6" cNeeded="2" vNeeded="2" sNeeded="2" cIcing="2" vIcing="1" sIcing="3" cTopping="2"  vTopping="1"  sTopping="0"  ></level>
+		<level num="3"  time="75"  bakeTime="3.6" cNeeded="2" vNeeded="3" sNeeded="0" cIcing="3" vIcing="2" sIcing="1" cTopping="4"  vTopping="12" sTopping="2"  ></level>
+		<level num="4"  time="75"  bakeTime="3.6" cNeeded="3" vNeeded="3" sNeeded="3" cIcing="1" vIcing="2" sIcing="3" cTopping="0"  vTopping="2"  sTopping="4"  ></level>
+		<level num="5"  time="75"  bakeTime="3.6" cNeeded="0" vNeeded="3" sNeeded="6" cIcing="1" vIcing="2" sIcing="3" cTopping="2"  vTopping="14" sTopping="1"  ></level>
+		<level num="6"  time="75"  bakeTime="3.6" cNeeded="3" vNeeded="4" sNeeded="5" cIcing="2" vIcing="3" sIcing="1" cTopping="24" vTopping="2"  sTopping="4"  ></level>
+		<level num="7"  time="75"  bakeTime="3.6" cNeeded="3" vNeeded="3" sNeeded="6" cIcing="3" vIcing="1" sIcing="2" cTopping="1"  vTopping="2"  sTopping="14" ></level>
+
+		<level num="8"  time="90"  bakeTime="3.2" cNeeded="3" vNeeded="0" sNeeded="6" cIcing="2" vIcing="1" sIcing="3" cTopping="1"  vTopping="2"  sTopping="14"  penalty="2" ></level>
+		<level num="9"  time="90"  bakeTime="3.2" cNeeded="5" vNeeded="4" sNeeded="0" cIcing="3" vIcing="2" sIcing="1" cTopping="12" vTopping="24" sTopping="14"  penalty="2" ></level>
+		<level num="10" time="90"  bakeTime="3.2" cNeeded="3" vNeeded="3" sNeeded="3" cIcing="1" vIcing="3" sIcing="2" cTopping="0"  vTopping="1"  sTopping="124" penalty="2" ></level>
+		<level num="11" time="90"  bakeTime="3.2" cNeeded="4" vNeeded="4" sNeeded="4" cIcing="3" vIcing="1" sIcing="2" cTopping="4"  vTopping="14" sTopping="2"   penalty="2" ></level>
+		<level num="12" time="90"  bakeTime="3.2" cNeeded="4" vNeeded="4" sNeeded="4" cIcing="2" vIcing="3" sIcing="1" cTopping="24" vTopping="1"  sTopping="12"  penalty="2" ></level>
+		<level num="13" time="90"  bakeTime="3.2" cNeeded="5" vNeeded="5" sNeeded="5" cIcing="1" vIcing="2" sIcing="3" cTopping="14" vTopping="24" sTopping="2"   penalty="2" ></level>
+		<level num="14" time="90"  bakeTime="3.2" cNeeded="5" vNeeded="5" sNeeded="5" cIcing="3" vIcing="1" sIcing="2" cTopping="12" vTopping="24" sTopping="14"  penalty="2" ></level>
+
+		<level num="15" time="120" bakeTime="2.8" cNeeded="9" vNeeded="3" sNeeded="3" cIcing="2" vIcing="3" sIcing="1" cTopping="24"  vTopping="1"   sTopping="124" penalty="5" ></level>
+		<level num="16" time="120" bakeTime="2.8" cNeeded="3" vNeeded="6" sNeeded="3" cIcing="3" vIcing="1" sIcing="2" cTopping="12"  vTopping="124" sTopping="24"  penalty="5" ></level>
+		<level num="17" time="120" bakeTime="2.8" cNeeded="4" vNeeded="4" sNeeded="4" cIcing="2" vIcing="1" sIcing="3" cTopping="24"  vTopping="12"  sTopping="12"  penalty="5" ></level>
+		<level num="18" time="120" bakeTime="2.8" cNeeded="5" vNeeded="5" sNeeded="5" cIcing="3" vIcing="2" sIcing="1" cTopping="14"  vTopping="24"  sTopping="12"  penalty="5" ></level>
+		<level num="19" time="120" bakeTime="2.8" cNeeded="5" vNeeded="5" sNeeded="5" cIcing="1" vIcing="3" sIcing="2" cTopping="124" vTopping="14"  sTopping="24"  penalty="5" ></level>
+		<level num="20" time="120" bakeTime="2.8" cNeeded="6" vNeeded="6" sNeeded="6" cIcing="2" vIcing="1" sIcing="3" cTopping="14"  vTopping="24"  sTopping="12"  penalty="5" ></level>
+		<level num="21" time="120" bakeTime="2.8" cNeeded="4" vNeeded="5" sNeeded="9" cIcing="3" vIcing="2" sIcing="1" cTopping="24"  vTopping="12"  sTopping="124" penalty="5" ></level>
+	</levels>
+	</config>
+</panel>

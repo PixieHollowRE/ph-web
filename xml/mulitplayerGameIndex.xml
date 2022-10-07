@@ -1,0 +1,8 @@
+<mulitplayerGameAssets>
+	<copy>
+		<disconnectplayer>Sorry, there were issues with connecting to the game.</disconnectplayer>
+		<toomanyplayers>Sorry, this game is full. Please try again.</toomanyplayers>
+	</copy>
+	<config>
+	</config>
+</mulitplayerGameAssets>

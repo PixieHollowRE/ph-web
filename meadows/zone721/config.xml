@@ -1,0 +1,60 @@
+<zone>
+  <name>Hollow Tree Heights</name>
+  <zoneID>721</zoneID>
+  <assetURL/>
+  <audioLibrary>home_music_animal</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  
+    <layers>
+      <layer type="normal" width="900" height="686">
+        <image x="0" y="0" type="none">../home21/background_01.swf</image>
+      </layer>
+      <layer type="ground" width="6665" height="10488">
+        <image x="2898" y="4560" type="none">../home21/action_02.swf</image>
+      </layer>
+      <layer type="normal" width="7817" height="11247">
+        <image x="3399" y="4890" type="none">../home21/foreground_03.swf</image>
+      </layer>
+    </layers>
+ 
+  <locations>
+	<location x="3349" y="5835">default</location>
+    <location x="3200" y="5000">frontDoor</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>home_music_animal</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.1855</volumeHigh>
+    </bgm>
+  </bgms>
+  <validArea type="polygon">    
+    <vertex x="2998" y="4660"/>    
+    <vertex x="3764" y="4660"/>    
+    <vertex x="3764" y="5980"/>    
+    <vertex x="2998" y="5980"/>    
+  </validArea>
+  <rooms>    
+    <room index="1" x="3400" y="5100">      
+      <bounds type="box">        
+        <left>2998</left>        
+        <right>3764</right>        
+        <top>4660</top>        
+        <bottom>5980</bottom>        
+      </bounds>      
+      <nearPlane>        
+        <left>2998</left>        
+        <right>3764</right>        
+        <top>4660</top>        
+        <bottom>5980</bottom>        
+      </nearPlane>      
+      <farPlane>        
+        <left>3008</left>        
+        <right>3754</right>        
+        <top>4670</top>        
+        <bottom>5970</bottom>        
+      </farPlane>      
+    </room>    
+  </rooms>
+</zone>

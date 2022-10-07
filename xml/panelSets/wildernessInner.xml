@@ -1,0 +1,23 @@
+﻿<panelSet>
+      <panels>
+		<panel id="MPSContainer" x="0" y="0" alwaysOnTop="true" transition="none">{panelData}/microgameMultiplayerSpellContainer.xml</panel>
+		
+      </panels>
+      <config>
+		  <waitingForPlayersDelay>25</waitingForPlayersDelay>
+	  </config>
+      <copy>
+		  <teleportWarn>Are you sure you want to leave the Wilderness? There are still more challenges to complete!</teleportWarn>
+		  <teleportWarnComplete>Are you sure you want to leave the Wilderness?</teleportWarnComplete>
+		  <playerLeavingEalryWarnTitle>Wilderness Alert</playerLeavingEalryWarnTitle>
+		  <playerLeavingEalryWarn>#fairyname# has left the Wilderness. You may not be able to complete all of the challenges without their Talent Skills.</playerLeavingEalryWarn>
+		  <waitingForPlayersTitle>Hold On!</waitingForPlayersTitle>
+		  <waitingForPlayersDetails>Waiting for all players to join you in the Wilderness. Thanks for your pixie patience!</waitingForPlayersDetails>
+		  <missingPlayersWarn>Some fairies didn't make it into the Wilderness. You may not be able to complete all of the challenges without them.</missingPlayersWarn>
+		  <wildernessComplete>Wilderness Complete!</wildernessComplete>
+		  <wildernessCompleteDetails>You did it! You have completed all the challenges in this Wilderness!</wildernessCompleteDetails>
+		   <wildernessStillLoading>One Moment -- Waiting for all players to enter the Wilderness.</wildernessStillLoading>
+		  <yes>Yes</yes>
+		  <no>No</no>
+	  </copy>
+</panelSet>

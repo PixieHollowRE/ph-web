@@ -1,0 +1,53 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/coreWeb.swf</swf>
+		<swf type="code">{panelCode}/coreWeb.swf</swf>
+	</swfs>
+	<copy>
+		<header_content>Account Support</header_content>
+		<history>Back</history>
+	</copy>
+	<config>
+		<wallpapercolor>0x77b750</wallpapercolor>
+		<iconbase>swf/avatar/icon.swf</iconbase>
+		<headergraphic>images/site_header_02.png</headergraphic>
+		<!--
+		<profileicons>swf/panel_content/site_icons.swf</profileicons>
+		-->
+		<sectionicons>swf/panel_content/section_icons.swf</sectionicons>
+		<css>css/stylesheet.css</css>
+		<panelsetbase>xml/panelSets/</panelsetbase>
+		<sectionicon bg="clear" fg="plum"/>
+		<icons>
+			  <icon icon_id="1" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="2" bg="clear" fg="help"/>
+			  <icon icon_id="3" bg="clear" fg="overview"/>
+			  <icon icon_id="4" bg="clear" fg="faq"/>
+			  <icon icon_id="5" bg="clear" fg="controls"/>
+			  <icon icon_id="6" bg="clear" fg="techsupport"/>
+			  <icon icon_id="7" bg="clear" fg="accntsupport"/>
+			  <icon icon_id="8" bg="clear" fg="butterfly"/>
+			  <icon icon_id="9" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="10" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="11" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="12" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="13" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="14" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="15" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="16" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="17" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="18" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="19" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="20" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="21" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="22" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="23" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="24" bg="clear" fg="accntManagment"/>
+		</icons>
+
+		<pages>
+			<page>site_dynamiccontent/support/accountsupport/page1.xml</page>
+		</pages>
+		
+	</config>
+</panel>

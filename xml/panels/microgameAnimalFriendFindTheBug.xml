@@ -1,0 +1,401 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/afFindTheBug.swf</swf>
+		<swf type="code">{panelCode}/afFindTheBug.swf</swf>
+	</swfs>
+	<copy>		
+		<title>Find The Bug</title>		
+		<instructions>Ladybugs love to play hide and seek! Follow the walnut shell your Ladybug Friend is hiding under. When the shells stop moving, click one to see if your Ladybug Friend is there! </instructions>
+		
+		<okBtnLabel>OK</okBtnLabel>
+	</copy>
+	<config>
+		<microGameId>AFFindTheBug</microGameId>
+		<interNoteDelayDefault>40</interNoteDelayDefault>
+		<test>false</test>
+		<spellName>fix</spellName>
+		<roundDelay endOfRoundDelay="1" startOfRoundDelay="1.5" showPrivateScoreWaitTimer="2" />
+		<visuals>
+			<visual id="shell">shell</visual>
+			<visual id="star">Star</visual>
+			<visual id="starDot">dot_star</visual>
+			<visual id="starYellow">yellowStar</visual>
+			<visual id="starBlue">blueStar</visual>
+			<visual id="starGreen">greenStar</visual>
+			<visual id="starPurple">purpleStar</visual>
+			<visual id="starRed">redStar</visual>
+			<visual id="nailBrown">nailBrown</visual>
+		<!-- value to end game: 1053 -->
+		<!-- interaction="roll" -->
+		</visuals>
+		<mouseVisuals>
+			<mouseVisual id="hammer">hammer</mouseVisual>
+		</mouseVisuals>
+		<colors>
+			<color id="brown_inner">0xefa37a</color>
+			<color id="brown_outer">0x965836</color>
+			<color id="brown_upper">0x6d3d22</color>
+			<color id="yellow">0xeddd70</color>
+			<color id="blue">0x66b3f4</color>
+			<color id="purple">0xb288f7</color>
+			<color id="red">0xef9380</color>
+			<color id="green">0x8bed8b</color>
+		</colors>
+		<levels>
+			<level number="0" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="star"/>
+				<rounds>0,1</rounds>
+			</level>
+			<level number="1" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="star"/>
+				<rounds>2,3</rounds>
+			</level>
+			<level number="2" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="star"/>
+				<rounds>4,5</rounds>
+			</level>
+			<level number="3" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="star"/>
+				<rounds>6,7</rounds>
+			</level>
+			<level number="4" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="star"/>
+				<rounds>8,9</rounds>
+			</level>
+			<level number="5" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="star"/>
+				<rounds>10,11</rounds>
+			</level>
+			<level number="6" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="star"/>
+				<rounds>12,13</rounds>
+			</level>
+			<level number="7" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="star"/>
+				<rounds>14,15</rounds>
+			</level>
+			<level number="8" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="star"/>
+				<rounds>16,17</rounds>
+			</level>
+			<level number="9" lifetime="9">
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="star"/>
+				<rounds>18,19</rounds>
+			</level>
+		</levels>
+		<rounds>
+			<round id="0">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="333" />
+					<correctChance points="167" />
+				</scoring>
+				<shells type="defined" speed="0.16" swapcount="3">
+					<shell value="10" x="70" y="100" visual="shell" />
+					<shell value="10" x="110" y="100" visual="shell" />
+					<shell value="10" x="150" y="100" visual="shell" />	
+				</shells>
+			</round>
+			<round id="1">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="667" />
+					<correctChance points="501" />
+					<correctChance points="334" />
+					<correctChance points="167" />
+				</scoring>
+				<shells type="defined"  speed="0.16" swapcount="4">
+					<shell value="10" x="85" y="70" visual="shell" />
+					<shell value="10" x="130" y="70" visual="shell" />
+					<shell value="10" x="70" y="170" visual="shell" />
+					<shell value="10" x="110" y="170" visual="shell" />
+					<shell value="10" x="150" y="170" visual="shell" />		
+				</shells>
+			</round>
+			<round id="2">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="500" />
+					<correctChance points="250" />
+				</scoring>
+				<shells type="defined" speed="0.16" swapcount="5">
+					<shell value="10" x="70" y="100" visual="shell" />
+					<shell value="10" x="110" y="100" visual="shell" />
+					<shell value="10" x="150" y="100" visual="shell" />	
+				</shells>
+			</round>
+			<round id="3">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="1000" />
+					<correctChance points="750" />
+					<correctChance points="500" />
+					<correctChance points="250" />
+				</scoring>
+				<shells type="defined" speed="0.16" swapcount="6">
+					<shell value="10" x="85" y="70" visual="shell" />
+					<shell value="10" x="130" y="70" visual="shell" />
+					<shell value="10" x="70" y="170" visual="shell" />
+					<shell value="10" x="110" y="170" visual="shell" />
+					<shell value="10" x="150" y="170" visual="shell" />
+				</shells>
+			</round>
+			<round id="4">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="857" />
+					<correctChance points="572" />
+					<correctChance points="286" />
+				</scoring>
+				<shells type="defined" speed="0.18" swapcount="7">
+					<shell value="10" x="70" y="70" visual="shell" />
+					<shell value="10" x="125" y="70" visual="shell" />
+					<shell value="10" x="70" y="170" visual="shell" />
+					<shell value="10" x="125" y="170" visual="shell" />
+				</shells>
+			</round>
+			<round id="5">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="1143" />
+					<correctChance points="858" />
+					<correctChance points="572" />
+					<correctChance points="286" />
+				</scoring>
+				<shells type="defined" speed="0.18" swapcount="8">
+					<shell value="10" x="85" y="70" visual="shell" />
+					<shell value="10" x="130" y="70" visual="shell" />
+					<shell value="10" x="70" y="170" visual="shell" />
+					<shell value="10" x="110" y="170" visual="shell" />
+					<shell value="10" x="150" y="170" visual="shell" />
+				</shells>
+			</round>
+		
+			<round id="6">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="833" />
+					<correctChance points="417" />
+				</scoring>
+				<shells type="defined" speed="0.18" swapcount="4">
+					<shell value="10" x="70" y="100" visual="shell" />
+					<shell value="10" x="110" y="100" visual="shell" />
+					<shell value="10" x="150" y="100" visual="shell" />	
+				</shells>
+			</round>
+		
+			<round id="7">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="1667" />
+					<correctChance points="1251" />
+					<correctChance points="834" />
+					<correctChance points="417" />
+				</scoring>
+				<shells type="defined" speed="0.18" swapcount="5">
+					<shell value="10" x="85" y="70" visual="shell" />
+					<shell value="10" x="130" y="70" visual="shell" />
+					<shell value="10" x="70" y="170" visual="shell" />
+					<shell value="10" x="110" y="170" visual="shell" />
+					<shell value="10" x="150" y="170" visual="shell" />
+				</shells>
+			</round>
+			
+					
+			<round id="8">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="1000" />
+					<correctChance points="500" />
+				</scoring>
+				<shells type="defined" speed="0.2" swapcount="6">
+					<shell value="10" x="70" y="100" visual="shell" />
+					<shell value="10" x="110" y="100" visual="shell" />
+					<shell value="10" x="150" y="100" visual="shell" />	
+				</shells>
+			</round>
+					
+			<round id="9">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="2000" />
+					<correctChance points="1500" />
+					<correctChance points="1000" />
+					<correctChance points="500" />
+				</scoring>
+				<shells type="defined" speed="0.2" swapcount="7">
+					<shell value="10" x="85" y="70" visual="shell" />
+					<shell value="10" x="130" y="70" visual="shell" />
+					<shell value="10" x="70" y="170" visual="shell" />
+					<shell value="10" x="110" y="170" visual="shell" />
+					<shell value="10" x="150" y="170" visual="shell" />
+				</shells>
+			</round>
+					
+			<round id="10">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="1500" />
+					<correctChance points="1000" />
+					<correctChance points="500" />
+				</scoring>
+				<shells type="defined" speed="0.2" swapcount="8">
+					<shell value="10" x="70" y="70" visual="shell" />
+					<shell value="10" x="125" y="70" visual="shell" />
+					<shell value="10" x="70" y="170" visual="shell" />
+					<shell value="10" x="125" y="170" visual="shell" />
+				</shells>
+			</round>
+					
+			<round id="11">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="2000" />
+					<correctChance points="1500" />
+					<correctChance points="1000" />
+					<correctChance points="500" />
+				</scoring>
+				<shells type="defined" speed="0.2" swapcount="9">
+					<shell value="10" x="85" y="70" visual="shell" />
+					<shell value="10" x="130" y="70" visual="shell" />
+					<shell value="10" x="70" y="170" visual="shell" />
+					<shell value="10" x="110" y="170" visual="shell" />
+					<shell value="10" x="150" y="170" visual="shell" />
+				</shells>
+			</round>
+					
+			<round id="12">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="1333" />
+					<correctChance points="667" />
+				</scoring>
+				<shells type="defined" speed="0.25" swapcount="5">
+					<shell value="10" x="70" y="100" visual="shell" />
+					<shell value="10" x="110" y="100" visual="shell" />
+					<shell value="10" x="150" y="100" visual="shell" />	
+				</shells>
+			</round>
+					
+			<round id="13">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="2667" />
+					<correctChance points="2001" />
+					<correctChance points="1333" />
+					<correctChance points="667" />
+				</scoring>
+				<shells type="defined" speed="0.25" swapcount="6">
+					<shell value="10" x="85" y="70" visual="shell" />
+					<shell value="10" x="130" y="70" visual="shell" />
+					<shell value="10" x="70" y="170" visual="shell" />
+					<shell value="10" x="110" y="170" visual="shell" />
+					<shell value="10" x="150" y="170" visual="shell" />
+				</shells>
+			</round>
+					
+			<round id="14">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="1500" />
+					<correctChance points="750" />
+				</scoring>
+				<shells type="defined" speed="0.25" swapcount="7">
+					<shell value="10" x="70" y="100" visual="shell" />
+					<shell value="10" x="110" y="100" visual="shell" />
+					<shell value="10" x="150" y="100" visual="shell" />	
+				</shells>
+			</round>
+					
+			<round id="15">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="3000" />
+					<correctChance points="2250" />
+					<correctChance points="1500" />
+					<correctChance points="750" />
+				</scoring>
+				<shells type="defined" speed="0.25" swapcount="8">
+					<shell value="10" x="85" y="70" visual="shell" />
+					<shell value="10" x="130" y="70" visual="shell" />
+					<shell value="10" x="70" y="170" visual="shell" />
+					<shell value="10" x="110" y="170" visual="shell" />
+					<shell value="10" x="150" y="170" visual="shell" />
+				</shells>
+			</round>
+					
+			<round id="16">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="1667" />
+					<correctChance points="833" />
+				</scoring>
+				<shells type="defined" speed="0.3" swapcount="9">
+					<shell value="10" x="70" y="100" visual="shell" />
+					<shell value="10" x="110" y="100" visual="shell" />
+					<shell value="10" x="150" y="100" visual="shell" />	
+				</shells>
+			</round>
+					
+			<round id="17">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="3333" />
+					<correctChance points="2500" />
+					<correctChance points="1667" />
+					<correctChance points="833" />
+				</scoring>
+				<shells type="defined" speed="0.3" swapcount="10">
+					<shell value="10" x="85" y="70" visual="shell" />
+					<shell value="10" x="130" y="70" visual="shell" />
+					<shell value="10" x="70" y="170" visual="shell" />
+					<shell value="10" x="110" y="170" visual="shell" />
+					<shell value="10" x="150" y="170" visual="shell" />
+				</shells>
+			</round>
+					
+			<round id="18">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="2357" />
+					<correctChance points="1522" />
+					<correctChance points="786" />
+				</scoring>
+				<shells type="defined" speed="0.3" swapcount="10">
+					<shell value="10" x="70" y="70" visual="shell" />
+					<shell value="10" x="125" y="70" visual="shell" />
+					<shell value="10" x="70" y="170" visual="shell" />
+					<shell value="10" x="125" y="170" visual="shell" />
+				</shells>
+			</round>
+					
+			<round id="19">
+				<area id="0" x="47" y="61" height="126" width="325" />
+				<scoring>
+					<correctChance points="3143" />
+					<correctChance points="2357" />
+					<correctChance points="1522" />
+					<correctChance points="786" />
+				</scoring>
+				<shells type="defined" speed="0.3" swapcount="10">
+					<shell value="10" x="85" y="70" visual="shell" />
+					<shell value="10" x="130" y="70" visual="shell" />
+					<shell value="10" x="70" y="170" visual="shell" />
+					<shell value="10" x="110" y="170" visual="shell" />
+					<shell value="10" x="150" y="170" visual="shell" />
+				</shells>
+			</round>
+		</rounds>
+	</config>
+</panel>

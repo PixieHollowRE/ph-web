@@ -1,0 +1,11 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/shopForeground.swf</swf>
+		<swf type="code">{panelCode}/shopForeground.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<path>swf/shops/foregrounds</path>
+	</config>
+</panel>

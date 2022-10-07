@@ -1,0 +1,20 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/globalShopPurchase.swf</swf>
+		<swf type="code">{panelCode}/globalShopPurchase.swf</swf>
+	</swfs>
+	<copy>
+
+		<ok>OK</ok>
+		<cancel>Cancel</cancel>
+		<upgradeMessage>Are you sure you want to purchase another outfit tab?</upgradeMessage>
+		<moreDiamondsCaption>Buy Diamonds</moreDiamondsCaption>
+		<moreDiamondsTitle>Oops!</moreDiamondsTitle>
+		<moreDiamondsMsg>You need ###NEED### more Pixie Diamond###PLURAL### to make this purchase!</moreDiamondsMsg>
+		<learnMoreText>Learn More</learnMoreText>
+		
+		<purchaseFail>There was a problem with the purchase. Please try again later.</purchaseFail>
+		
+	</copy>
+	<config></config>
+</panel>

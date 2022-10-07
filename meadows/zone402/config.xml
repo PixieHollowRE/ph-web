@@ -1,0 +1,119 @@
+<zone>
+  <name>Neverfruit Grove</name>
+  <zoneID>402</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow402</audioLibrary>
+  <audioLibrary tags="Meadow_AnimalMasq2010">animalMasquerade2010</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="900" height="615" locked="true">
+        <image x="0" y="0" type="none">sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="1100" height="683">
+        <image x="0" y="0" type="none">far_02.swf</image>
+      </layer>
+      <layer type="ground" width="1464" height="1000">
+        <image x="0" y="0" type="merge" tag="Meadow_GreatGames2010">action_greatgamesbanner_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_CampSummer">action_Meadow_CampSummer_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SummerAll">action_Meadow_SummerAll_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMasq2010">action_AnimalMasq_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Friendship2011">action_FairyFriendship2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMothers2011">action_AnimalMothers2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_TeaParty2011">action_Meadow_TeaParty2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Fairy_Friendship_2012">action_FairyFriendship_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Masquerade2012">action_Masquerade2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFriendship">action_FairyFriendship_2013_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_TeaParty">action_Meadow_TeaParty2012_03.swf</image>
+        <image x="0" y="0" type="merge">action_03.swf</image>
+      </layer>
+      <layer type="normal" width="2828" height="1931" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy">foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="380" y="278">default</location>
+    <location x="517" y="495">fromZone112003</location>
+    <location x="847" y="828">fromZone400</location>
+    <location x="274" y="241">fromZone401</location>
+    <location x="1181" y="514">fromZone50044</location>
+    <location x="453" y="211">fromZone110008</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_402</id>
+      <loops>0</loops>
+      <volumeLow>0.35</volumeLow>
+      <volumeHigh>0.35</volumeHigh>
+    </sfx>
+    <sfx tags="Meadow_AnimalMasq2010">
+      <id>ambient_birds_am</id>
+      <loops>0</loops>
+      <volumeLow>0.35</volumeLow>
+      <volumeHigh>0.35</volumeHigh>
+    </sfx>
+    <bgm>
+      <id>meadow_music_402</id>
+      <loops>1</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm>
+      <id>meadow_music_summer_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.15</volumeLow>
+      <volumeHigh>0.15</volumeHigh>
+      <delayLow>14000</delayLow>
+      <delayHigh>14000</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_AnimalMasq2010">
+      <id>animalMasquerade2010</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <chatTriggers>
+    
+    <!-- TRIGGER HOT SPOT -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" eligibleGiveAwayId="22549" typeToTrigger="1" delay="3" itemid="27689" setVelvetRope="1" tagId="5" tags=""/>
+    
+    <!-- TRIGGER WARDOBE -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" typeToTrigger="2" delay="3" itemid="22549" setVelvetRope="1" tagId="4" setColor1="19" setColor2="141" tags=""/>
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="3" delay="3" itemid="6634" setColor1="159" setColor2="29" tags="" /> TRIGGER STORAGE -->
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="4" delay="3" itemid="15128" amount="3" tags="" /> TRIGGER POUCH -->
+    
+  </chatTriggers>
+  
+  <hotspots>
+    <hotspot tags="Meadow_AnimalMothers2011" id="27598" x="178" y="501" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" itemEventId="0" tagId="2"/>
+    <hotspot tags="Meadow_FairyFriendship" id="27696" x="1058" y="656" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="6"/>
+    <hotspot tags="Meadow_FairyFriendship" id="27716" x="73" y="146.95" setVelvetRope="0" shared="false" refresh="5" playType="full" itemEventId="0" tagId="7"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27689" x="783" y="389" setVelvetRope="0" shared="false" serverParm="1" clientTrigger="7" clientParm="4" refresh="2" playType="keyframe" itemEventId="0" tagId="5"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27738" x="420" y="884" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="9"/>
+    <hotspot tags="Meadow_TeaParty" id="27635" x="758" y="716" setVelvetRope="0" shared="true" refresh="7" playType="full" clientParm="2" itemEventId="0" tagId="3"/>
+    <hotspot tags="Meadow_TeaParty" id="27636" x="594" y="776" setVelvetRope="0" shared="true" refresh="7" playType="full" clientParm="2" itemEventId="0" tagId="4"/>
+    <hotspot tags="Meadow_TeaParty" id="27726" x="420.95" y="884" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="8"/>
+  </hotspots>
+</zone>

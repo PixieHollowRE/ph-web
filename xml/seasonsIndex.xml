@@ -1,0 +1,73 @@
+<seasonsIndex>
+	<copy>
+		<spring_countdown>Spring is almost here!</spring_countdown>
+		<spring_arrives>Hurray! Spring is here!</spring_arrives>
+		<summer_countdown>Summer is almost here!</summer_countdown>
+		<summer_arrives>Hurray! Summer is here!</summer_arrives>
+		<autumn_countdown>Autumn is almost here!</autumn_countdown>
+		<autumn_arrives>Hurray! Autumn is here!</autumn_arrives>
+		<winter_countdown>Autumn is almost here!</winter_countdown>
+		<winter_arrives>Hurray! Autumn is here!</winter_arrives>
+		<am>am</am>
+		<pm>pm</pm>
+	</copy>
+	<config>
+		<years>
+			<year id="2009">
+				<season id="spring" label="Spring" eventTime="2009-03-20 00:00" />
+				<season id="summer" label="Summer" eventTime="2009-06-21 00:00" />
+				<season id="autumn" label="Autumn" eventTime="2009-09-22 00:00" />
+				<season id="winter" label="Winter" eventTime="2009-12-21 00:00" />
+			</year>
+			<year id="2010">
+				<season id="spring" label="Spring" eventTime="2010-03-20 00:00" />
+				<season id="summer" label="Summer" eventTime="2010-06-21 00:00" />
+				<season id="autumn" label="Autumn" eventTime="2010-09-23 00:00" />
+				<season id="winter" label="Winter" eventTime="2010-12-21 00:00" />
+			</year>
+			
+			<year id="2011">
+				<season id="spring" label="Spring" eventTime="2011-03-20 00:00" />
+				<season id="summer" label="Summer" eventTime="2011-06-21 00:00" />
+				<season id="autumn" label="Autumn" eventTime="2011-09-23 00:00" />
+				<season id="winter" label="Winter" eventTime="2011-12-21 00:00" />
+			</year>
+			<year id="2012">
+				<season id="spring" label="Spring" eventTime="2012-03-20 00:00" />
+				<season id="summer" label="Summer" eventTime="2012-06-20 00:00" />
+				<season id="autumn" label="Autumn" eventTime="2012-09-22 00:00" />
+				<season id="winter" label="Winter" eventTime="2012-12-21 00:00" />
+			</year>
+			<year id="2013">
+				<season id="spring" label="Spring" eventTime="2013-03-20 00:00" />
+				<season id="summer" label="Summer" eventTime="2013-06-21 00:00" />
+				<season id="autumn" label="Autumn" eventTime="2013-09-22 00:00" />
+				<season id="winter" label="Winter" eventTime="2013-12-21 00:00" />
+			</year>
+			<year id="2014">
+				<season id="spring" label="Spring" eventTime="2014-03-20 00:00" />
+				<season id="summer" label="Summer" eventTime="2014-06-21 00:00" />
+				<season id="autumn" label="Autumn" eventTime="2014-09-23 00:00" />
+				<season id="winter" label="Winter" eventTime="2014-12-21 00:00" />
+			</year>
+			<year id="2015">
+				<season id="spring" label="Spring" eventTime="2015-03-20 00:00" />
+				<season id="summer" label="Summer" eventTime="2015-06-21 00:00" />
+				<season id="autumn" label="Autumn" eventTime="2015-09-23 00:00" />
+				<season id="winter" label="Winter" eventTime="2015-12-21 00:00" />
+			</year>
+			<year id="2016">
+				<season id="spring" label="Spring" eventTime="2016-03-20 00:00" />
+				<season id="summer" label="Summer" eventTime="2016-06-20 00:00" />
+				<season id="autumn" label="Autumn" eventTime="2016-09-22 00:00" />
+				<season id="winter" label="Winter" eventTime="2016-12-21 00:00" />
+			</year>
+			<year id="2017">
+				<season id="spring" label="Spring" eventTime="2016-03-20 00:00" />
+				<season id="summer" label="Summer" eventTime="2016-06-21 00:00" />
+				<season id="autumn" label="Autumn" eventTime="2016-09-22 00:00" />
+				<season id="winter" label="Winter" eventTime="2016-12-21 00:00" />
+			</year>
+		</years>
+	</config>
+</seasonsIndex>

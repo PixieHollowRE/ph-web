@@ -1,0 +1,17 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/whisperBubbles.swf</swf>
+		<swf type="code">{panelCode}/whisperBubbles.swf</swf>
+	</swfs>
+	<copy>
+		<groupFromText>From $$</groupFromText>
+		<fromText>From $$</fromText>
+		<toText>To $$</toText>
+		<groupToText>To All Friends</groupToText>
+		<unknownFairy>Fairy</unknownFairy>
+		<unknownUser>Someone</unknownUser>
+	</copy>
+	<config>
+		<nameTruncLimit>20</nameTruncLimit>
+	</config>
+</panel>

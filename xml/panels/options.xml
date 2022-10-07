@@ -1,0 +1,75 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/options.swf</swf>
+		<swf type="code">{panelCode}/options.swf</swf>
+	</swfs>
+	<copy>
+		<title target="title">Settings</title>
+		<game_settings target="game_settings">Game Settings</game_settings>
+		<account_settings target="account_settings">Account Settings</account_settings>
+		<tutorials_radioset target="tutorials_radioset.text">Tutorials</tutorials_radioset>
+		<effects_radioset target="effects_radioset.text">Sound</effects_radioset>
+		<names_radioset target="names_radioset.text">Names</names_radioset>
+		<music_radioset target="music_radioset.text">Music</music_radioset>
+		<mode_radioset target="mode_radioset.text">Mode</mode_radioset>
+		<home_tray target="home_radioset.text">Home</home_tray>
+		<alerts_radioset target="alerts_radioset.text">Alerts</alerts_radioset>
+		<tutorials_on target="tutorials_radioset.radioset.btn1_text">On</tutorials_on>
+		<tutorials_off target="tutorials_radioset.radioset.btn0_text">Off</tutorials_off>
+		<effects_on target="effects_radioset.radioset.btn1_text">On</effects_on>
+		<effects_off target="effects_radioset.radioset.btn0_text">Off</effects_off>
+		<names_on target="names_radioset.radioset.btn1_text">On</names_on>
+		<names_off target="names_radioset.radioset.btn0_text">Off</names_off>
+		<music_on target="music_radioset.radioset.btn1_text">On</music_on>
+		<music_off target="music_radioset.radioset.btn0_text">Off</music_off>
+		<mode_normal>Normal</mode_normal>
+		<mode_lite>Basic</mode_lite>
+		<mode_minimal>Minimal</mode_minimal>
+		<home_public>Everyone can visit</home_public>
+		<home_private>Only friends can visit</home_private>
+		<alerts_on target="alerts_radioset.radioset.btn1_text">On</alerts_on>
+		<alerts_off target="alerts_radioset.radioset.btn0_text">Off</alerts_off>
+		<alerts_minigames target="alerts_minigames.caption">Show alerts in minigames</alerts_minigames>
+		<show_names target="show_names.caption">Always show Name Tags</show_names>
+		<whisper_radioset target="whisper_radioset.text">Whisper</whisper_radioset>
+		<whisper_on>All Whispers On</whisper_on>
+		<whisper_one_only>Group Whispers Off</whisper_one_only>
+		<whisper_off>All Whispers Off</whisper_off>
+		<save target="save.text">Save</save>
+		<!--
+		<change target="change_btn.text">Change your other Account Settings</change>
+		<member target="member_btn.text">Become a Member</member>
+		<speedchatplus target="speedchatplus_btn.text">Request SpeedChat Plus</speedchatplus>
+		-->
+		<change>Other Account Settings</change>
+		<becomeMember>Purchase Options</becomeMember>
+		<isMember>Purchase Options</isMember>
+		<speedchatplus>Request SpeedChat Plus</speedchatplus>
+		<pixiepage>Your Pixie Page</pixiepage>
+		<account_text target="account_text">To change your Account Settings please click below.</account_text>
+		<!-- <pixiePage_text target="pixiePage_text">To view your Pixie Page please click below.</pixiePage_text> -->
+		<managePopupText>To manage your Account Settings, you will need to leave Pixie Hollow.  Do you want to continue?</managePopupText>
+		<memberPopupText>To learn about Membership and Pixie Diamonds, you will need to leave Pixie Hollow. Are you sure you would like to leave Pixie Hollow to find out more about Membership and Pixie Diamonds?</memberPopupText>
+		<speedChatPlusPopupText>In order to complete your request, please check the e-mail address that you entered during registration.  You will receive an e-mail asking you to click an orange button labeled "Click Here to Activate", which will then complete your request.</speedChatPlusPopupText>
+		<speedChatPlusErrorText>There was an error requesting SpeedChat Plus.  Try again later.</speedChatPlusErrorText>
+		<modeChangeMessage>Changing to or from Low Performance Mode will reload the meadow when the leaf journal closes.</modeChangeMessage>
+		<ok>OK</ok>
+		<yes>Yes</yes>
+		<no>No</no>
+		<learnMore>Learn More</learnMore>
+		<stay>Cancel</stay>
+
+		<!-- Facebook -->
+		<fbGroupTitle target="facebookConnectOptions.facebook_settings">Facebook Connect</fbGroupTitle>
+		<fbPromptLabel target="facebookConnectOptions.fbPrompt_radioset.text">Prompts</fbPromptLabel>
+		<fbRevokeConfirmText>Are you sure you want to disable Facebook Connect? You will need to re-authorize the Pixie Hollow app if you change your mind later.</fbRevokeConfirmText>
+		<fbEnableButtonLabel>Enable</fbEnableButtonLabel>
+		<fbDisableButtonLabel>Disable</fbDisableButtonLabel>
+	</copy>
+	<config>
+		<changeLink_width>217</changeLink_width>
+		<memberLink_width>115</memberLink_width>
+		<speedchatplusLink_width>152</speedchatplusLink_width>
+		<pixiePageLink_width>100</pixiePageLink_width>
+	</config>
+</panel>

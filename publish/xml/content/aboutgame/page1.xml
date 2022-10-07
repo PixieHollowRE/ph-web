@@ -1,0 +1,51 @@
+<page>
+	<config>
+		<!-- -->
+		<taglines type="contentheader" headertype="short">
+			<bannergraphic type="image">{publishPanelImages}/1_151_152.png</bannergraphic>
+			<tagline font="pristina">header</tagline>	
+			<tagline>tagline</tagline>
+			<tagline type="button" btntype="btn_purple" xOffset="-5" yOffset="-50" channel="downloads_parents.xml">topPodBtn1</tagline>
+	</taglines>
+	<columnset1 type="columnset">
+		<colset>
+			<tagline font="pristina">colset1header</tagline>				
+			<bannergraphic type="image">{publishPanelImages}/4_151x102.png</bannergraphic>
+			<tagline font="column">colset1body</tagline>
+		</colset>
+		<colset>
+			<tagline font="pristina">colset2header</tagline>				
+			<bannergraphic type="image">{publishPanelImages}/3_151x102_v2.png</bannergraphic>
+			<tagline font="column">colset2body</tagline>
+		</colset>
+		<colset>
+			<tagline font="pristina">colset3header</tagline>
+			<bannergraphic type="image">{publishPanelImages}/2_151x102.png</bannergraphic>	
+			<tagline font="column">colset3body</tagline>
+		</colset>
+		<colset>
+			<tagline font="pristina">colset4header</tagline>
+			<bannergraphic type="image">{publishPanelImages}/1_151x102.png</bannergraphic>
+			<tagline font="column">colset4body</tagline>
+		</colset>
+	</columnset1>
+	</config>
+	
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">About Pixie Hollow</span>]]></header>
+		<tagline><![CDATA[<span class="newsbodytext">Experience the wonder and magic of Tinker Bell's world when you create your very own Fairy and take flight into Pixie Hollow for high-flying fun and endless excitement! Parents can join in with our Arrival Day Kit.</span>]]></tagline>				
+		<topPodBtn1><![CDATA[Read More]]></topPodBtn1>
+		<colset1header><![CDATA[<span class="newsbodytext">Experience</span>]]></colset1header>
+		<colset1body><![CDATA[<span class="newsbodytext">Fly into Pixie Hollow and experience life as a Fairy. Explore the meadows - the place to meet other Fairies for chatting and making tons of Fairy friends.</span>]]></colset1body>
+		
+		<colset2header><![CDATA[<span class="newsbodytext">Customize</span>]]></colset2header>
+		<colset2body><![CDATA[<span class="newsbodytext">Create and customize your own Fairy or Sparrow Man - from wings to toes! Dress in the latest fashion and decorate your home with stylish furniture and delightful decorations.</span>]]></colset2body>
+		
+		<colset3header><![CDATA[<span class="newsbodytext">Play</span>]]></colset3header>
+		<colset3body><![CDATA[<span class="newsbodytext">Play magical talent games. Help fish swim upstream with the water-talent Fairies or light up the fireflies with the light-talent Fairies.</span>]]></colset3body>
+		
+		<colset4header><![CDATA[<span class="newsbodytext">Collect</span>]]></colset4header>
+		<colset4body><![CDATA[<span class="newsbodytext">Find and collect tons of curious things like flowers and leaves to help change the seasons. Complete fun Fairy tasks and earn special badges to showcase in your Leaf Journal.</span>]]></colset4body>
+				
+	</copy>
+</page>

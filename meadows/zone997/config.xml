@@ -1,0 +1,19 @@
+<zone>
+  <name>WILDERNESS_SPOOF</name>
+  <zoneID>997</zoneID>
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  <layers>
+    <layer width="1125" height="722" type="ground">
+      <image x="0" y="0">pitt.swf</image>
+    </layer>
+  </layers>
+  <locations>
+    <location x="935" y="552">default</location>
+  </locations>
+  <barriers>
+  	<barrier itemId="19501" x="500" y="0" />
+  	<barrier index="0" itemId="19502" x="600" y="100" />
+  </barriers>
+  <gateways/>
+  <decorations/>
+</zone>

@@ -1,0 +1,147 @@
+<zone>
+  <name>Palm Tree Cove</name>
+  <zoneID>400</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>meadow400</audioLibrary>
+  <audioLibrary tags="Meadow_AnimalMasq2010">animalMasquerade2010</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="977" height="650" locked="true">
+        <image x="0" y="0" type="none" tag="Meadow_SillyDays2011">sky_mermaid_01.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_MermaidParty">sky_mermaid_01.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_EndofDays">sky_mermaid_01.swf</image>
+        <image x="0" y="0" type="none">sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="1058" height="702">
+        <image x="0" y="0" type="none" tag="Meadow_Decorations_SummerSplash">far_02_SummerSplashParty.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_Theater_CampPixie2012">far_03_SummerSplashParty.swf</image>
+        <image x="0" y="0" type="none">far_02.swf</image>
+      </layer>
+      <layer type="normal" width="1144" height="702">
+        <image x="0" y="0" type="none" tag="Meadow_Decorations_SummerSplash">far_03_SummerSplashParty.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_GardenTea2010">far_03_GardenParty.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_AnimalMasq2010">far_AnimalMasq_03.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_Theater_TroopOtter2012">far_02_SummerSplashParty_2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_Masquerade2012">far_AnimalMasq_2011_03.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_TeaParty">far_03_GardenParty.swf</image>
+        <image x="0" y="0" type="none">far_03.swf</image>
+      </layer>
+      <layer type="ground" width="1960" height="1204">
+        <image x="0" y="0" type="merge" tag="Box_Closed">action_04_sillyday_boxClosed.swf</image>
+        <image x="0" y="0" type="merge" tag="Box_Open">action_04_sillyday_boxOpen.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Decorations_SummerSplash">actions_04_SummerSplashParty.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SillyDays2010">action_04_sillydays_ms11.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_NatureDays2010">action_04_NatureDays.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_GardenTea2010">action_04_GardenParty.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMasq2010">action_04_AnimalMasq.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_NeverDove2011">action_04_NeverDoveEgg.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_TeaParty2011">action_04_Meadow_Tearoom_Animation.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Marina_SummerSplash">action_04_Meadow_SummerSplash_2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Tinker_Games">action_04_Meadow_Tinker_Talent.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Marina_Default">action_04_Meadow_Marina_Default.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Marina_NoBanners">action_04_Meadow_Marina_NoBanners.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_TroopOtter2012">actions_04_SummerSplashParty.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_TroopButterfly2012">action_04_Meadow_TheaterTroopButterfly_2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Masquerade2012">action_04_Animal_Masquerade2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_NeverDove">action_04_NeverDoveEgg.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SummerSplash">action_04_Meadow_SummerSplash_2013.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_TeaParty">action_04_Meadow_TeaParty.swf</image>
+        <image x="0" y="0" type="merge">action_04.swf</image>
+      </layer>
+      <layer type="normal" width="2828" height="1737" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy">foreground_05.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="451" y="1044">fromZone401</location>
+    <location x="1522" y="318">fromZone102</location>
+    <location x="689" y="944">fromZone114000</location>
+    <location x="382" y="271">fromZone402</location>
+    <location x="1551" y="603">fromZone50045</location>
+    <location x="1339" y="765">default</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_400</id>
+      <loops>0</loops>
+      <volumeLow>0.35</volumeLow>
+      <volumeHigh>0.35</volumeHigh>
+    </sfx>
+    <sfx tags="Meadow_AnimalMasq2010">
+      <id>summer_environment1_am</id>
+      <loops>0</loops>
+      <volumeLow>0.35</volumeLow>
+      <volumeHigh>0.35</volumeHigh>
+    </sfx>
+    <bgm>
+      <id>meadow_music_400</id>
+      <loops>1</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm>
+      <id>meadow_music_summer_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.15</volumeLow>
+      <volumeHigh>0.15</volumeHigh>
+      <delayLow>22000</delayLow>
+      <delayHigh>22000</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_AnimalMasq2010">
+      <id>animalMasquerade2010</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <chatTriggers>
+    
+    <!-- TRIGGER HOT SPOT -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" eligibleGiveAwayId="22551" typeToTrigger="1" delay="3" itemid="27660" setVelvetRope="1" tagId="6" tags=""/>
+    
+    <!-- TRIGGER WARDOBE -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" typeToTrigger="2" delay="3" itemid="22537" setVelvetRope="1" tagId="21" setColor1="19" setColor2="141" tags=""/>
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="3" delay="3" itemid="6634" setColor1="159" setColor2="29" tags="" /> TRIGGER STORAGE -->
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="4" delay="3" itemid="15128" amount="3" tags="" /> TRIGGER POUCH -->
+    
+  </chatTriggers>
+  
+  <hotspots>
+    <hotspot tags="Meadow_GardenTea2010" id="27528" x="1020" y="840" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="0"/>
+    <hotspot tags="Meadow_GardenTea2010" id="27529" x="1141" y="850" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="3" itemEventId="0" tagId="1"/>
+    <hotspot tags="Meadow_GardenTea2010" id="27530" x="998" y="939" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="5" itemEventId="0" tagId="2"/>
+    <hotspot tags="Meadow_GardenTea2010" id="27531" x="1361" y="896" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="5" itemEventId="0" tagId="3"/>
+    <hotspot tags="Meadow_SummerSplash" id="27723" x="1208" y="1029" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="13"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27660" x="1279" y="582" setVelvetRope="0" shared="false" serverParm="1" clientTrigger="7" clientParm="4" refresh="2" playType="keyframe" itemEventId="0" tagId="6"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27738" x="1136" y="822" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="12"/>
+    <hotspot tags="Meadow_PHG2011_Prep" id="27661" x="1309" y="946" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="7"/>
+    <hotspot tags="Meadow_NeverDove" id="27706" x="1136" y="822" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="8"/>
+    <hotspot tags="Meadow_TeaParty" id="27633" x="991" y="909" setVelvetRope="0" shared="true" refresh="7" playType="full" itemEventId="0" tagId="4"/>
+    <hotspot tags="Meadow_TeaParty" id="27634" x="1339" y="881" setVelvetRope="0" shared="true" refresh="7" playType="full" itemEventId="0" tagId="5"/>
+    <hotspot tags="Meadow_TeaParty" id="27727" x="1261" y="1018" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="10"/>
+    <hotspot tags="Meadow_Theater_TroopButterfly2012" id="27729" x="1096" y="960" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="11"/>
+    <hotspot tags="Meadow_MermaidParty" id="27771" x="1327" y="944" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="9"/>
+  </hotspots>
+</zone>

@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<soundAssets>
+	<libraries>
+		<library id="caf" url="{mmoContent}/swf/audio_content/cafSound.swf">
+			<sound id="cafprimary">primary</sound>
+			<sound id="cafsecondary">secondary</sound>
+			<sound id="cafButtonPop">ButtonPop</sound>
+			<sound id="cafFairyAppear">FairyAppear</sound>
+			<sound id="cafFairyPresent">FairyPresent</sound>
+			<sound id="cafItemScroll">ItemScroll</sound>
+			<sound id="cafPixieAppear">PixieAppear</sound>
+			<sound id="cafPixieDust">PixieDust</sound>
+			<sound id="cafPixieDust2">PixieDust2</sound>
+			<sound id="cafSceneTrans">SceneTrans</sound>
+			<sound id="cafTabChange">TabChange</sound>
+			<sound id="cafTalentRoll">TalentRoll</sound>
+			<sound id="cafVOIntro">IntroVoiceover</sound>
+			<sound id="cafSaveFlourish">SaveFlourish</sound>
+			<sound id="cafBabyLaugh">BabyGiggle</sound>
+			<sound id="queen_1">queen_1</sound>
+			<sound id="queen_2">queen_2</sound>
+			<sound id="queen_3">queen_3</sound>
+			<sound id="queen_4">queen_4</sound>
+			<sound id="queen_5">queen_5</sound>
+			<sound id="queen_6">queen_6</sound>
+			<sound id="queen_7">queen_7</sound>
+			<sound id="queen_8">queen_8</sound>
+			<sound id="queen_9">queen_9</sound>
+			<sound id="queen_10">queen_10</sound>
+			<sound id="queen_11">queen_11</sound>
+			<sound id="queen_12">queen_12</sound>
+			<sound id="queen_13">queen_13</sound>
+			<sound id="queen_14">queen_14</sound>
+			<sound id="cafBubbleAppear">cafBubbleAppear</sound>
+			<sound id="cafBubbleDisappear">cafBubbleDisappear</sound>
+			<sound id="cafBlueberryPop">cafBlueberryPop</sound>
+			<sound id="cafBlueberryWhoosh">cafBlueberryWhoosh</sound>
+			<sound id="cafClothesSwoop">clothes_swoop</sound>
+			<sound id="cafBubbleBounce">smallBounce</sound>
+		</library>
+		<library id="sidenav" url="{mmoContent}/swf/audio_content/xyloAudio.swf">
+			<sound id="xylo1">xylo1</sound>
+			<sound id="xylo2">xylo2</sound>
+			<sound id="xylo3">xylo3</sound>
+			<sound id="xylo4">xylo4</sound>
+			<sound id="xylo5">xylo5</sound>
+			<sound id="xylo6">xylo6</sound>
+			<sound id="xylo7">xylo7</sound>
+			<sound id="xylo8">xylo8</sound>
+		</library>
+		<library id="fairyPagePreview" url="{mmoContent}/swf/audio_content/ambience_preview.swf">
+			<sound id="FPPreview1">amb_1_prev.wav</sound>
+			<sound id="FPPreview2">amb_2_prev.wav</sound>
+			<sound id="FPPreview3">amb_3_prev.wav</sound>
+			<sound id="FPPreview4">amb_4_prev.wav</sound>
+			<sound id="FPPreview5">amb_5_prev.wav</sound>
+			<sound id="FPPreview6">amb_6_prev.wav</sound>
+			<sound id="FPPreview7">amb_7_prev.wav</sound>
+			<sound id="FPPreview8">amb_8_prev.wav</sound>
+		</library>
+		<library id="scrapbook" url="{mmoContent}/swf/audio_content/audioScrapbook.swf">
+			<sound id="flyHome">button_flyHome</sound>
+			<sound id="leafRollover">button_leaf_rollover</sound>
+			<sound id="scrapbookOpen">interface_scrapbook_open</sound>
+			<sound id="scrapbookPageTurn">interface_scrapbook_pageFlip</sound>
+		</library>
+		<library id="interface" url="{mmoContent}/swf/audio_content/audioInterface.swf">
+			<sound id="basicRollover">basic_rollover</sound>
+			<sound id="panelClose">panel_close</sound>
+			<sound id="panelOpen">panel_open</sound>
+			<sound id="transisitonOpen">transisiton_open</sound>
+		</library>
+		<library id="fairyPageAmbience2" url="{mmoContent}/swf/audio_content/ambience1.swf">
+			<sound id="FPAmbienceP2">primary</sound>
+			<sound id="FPAmbienceS2">secondary</sound>
+		</library>
+		<library id="fairyPageAmbience3" url="{mmoContent}/swf/audio_content/ambience2.swf">
+			<sound id="FPAmbienceP3">primary</sound>
+			<sound id="FPAmbienceS3">secondary</sound>
+		</library>
+		<library id="fairyPageAmbience4" url="{mmoContent}/swf/audio_content/ambience3.swf">
+			<sound id="FPAmbienceP4">primary</sound>
+			<sound id="FPAmbienceS4">secondary</sound>
+		</library>
+		<library id="fairyPageAmbience5" url="{mmoContent}/swf/audio_content/ambience4.swf">
+			<sound id="FPAmbienceP5">primary</sound>
+			<sound id="FPAmbienceS5">secondary</sound>
+		</library>
+		<library id="fairyPageAmbience6" url="{mmoContent}/swf/audio_content/ambience5.swf">
+			<sound id="FPAmbienceP6">primary</sound>
+			<sound id="FPAmbienceS6">secondary</sound>
+		</library>
+		<library id="fairyPageAmbience7" url="{mmoContent}/swf/audio_content/ambience6.swf">
+			<sound id="FPAmbienceP7">primary</sound>
+			<sound id="FPAmbienceS7">secondary</sound>
+		</library>
+		<library id="fairyPageAmbience8" url="{mmoContent}/swf/audio_content/ambience7.swf">
+			<sound id="FPAmbienceP8">primary</sound>
+			<sound id="FPAmbienceS8">secondary</sound>
+		</library>
+		<library id="fairyPageAmbience9" url="{mmoContent}/swf/audio_content/ambience8.swf">
+			<sound id="FPAmbienceP9">primary</sound>
+			<sound id="FPAmbienceS9">secondary</sound>
+		</library>
+		<library id="meadow_sfx" url="{mmoContent}/swf/audio_content/meadow_sfx.swf">
+			<sound id="core_alert_negative">alert_negative</sound>
+			<sound id="core_alert_neutral">alert_neutral</sound>
+			<sound id="core_alert_positive">alert_positive</sound>
+			<sound id="core_alert_quest">alert_quest</sound>
+			<sound id="core_alert_contextual">alert_contextual</sound>
+			<sound id="core_bag_jiggle">bag_jiggle</sound>
+			<sound id="core_bag_transition_in">bag_transition_in</sound>
+			<sound id="core_bag_transition_out">bag_transition_out</sound>
+			<sound id="core_bell">bell</sound>
+			<sound id="core_book_jiggle">book_jiggle</sound>
+			<sound id="core_button_mouseover_growStyle">button_mouseover_growStyle</sound>
+			<sound id="core_button_mouseover_highlightStyle">button_mouseover_highlightStyle</sound>
+			<sound id="core_button_mouseover_highlightStyle_alt1">button_mouseover_highlightStyle_alt1</sound>
+			<sound id="core_button_mouseover_highlightStyle_alt2">button_mouseover_highlightStyle_alt2</sound>
+			<sound id="core_button_mouseover_shiftStyle">button_mouseover_shiftStyle</sound>
+			<sound id="core_character_flying_in_meadow">character_flying_in_meadow</sound>
+			<sound id="core_chest_jiggle">chest_jiggle</sound>
+			<sound id="core_chest_transition_in">chest_transition_in</sound>
+			<sound id="core_chest_transition_out">chest_transition_out</sound>
+			<sound id="core_click">click</sound>
+			<sound id="core_contract">contract</sound>
+			<sound id="core_expand">expand</sound>
+			<sound id="core_spawn">spawn</sound>
+			<sound id="core_donate">donate</sound>
+			<sound id="core_npc_tinkerbell_jingle">npc_tinkerbell_jingle</sound>
+			<sound id="core_inventory_item_drop">inventory_item_drop</sound>
+			<sound id="core_inventory_item_pickup">inventory_item_pickup</sound>
+			<sound id="core_leaf_transition_in">leaf_transition_in</sound>
+			<sound id="core_leaf_transition_out">leaf_transition_out</sound>
+			<sound id="core_leafVines_transition_in">leafVines_transition_in</sound>
+			<sound id="core_leafVines_transition_out">leafVines_transition_out</sound>
+			<sound id="core_page_turn">page_turn</sound>
+			<sound id="core_panel_close">panel_close</sound>
+			<sound id="core_panel_open">panel_open</sound>
+			<sound id="core_pixe_dust_jingle">pixe_dust_jingle</sound>
+			<sound id="core_pixie_burst">pixie_burst</sound>
+			<sound id="core_pixie_dust_transition_in">pixie_dust_transition_in</sound>
+			<sound id="core_pixie_dust_transition_out">pixie_dust_transition_out</sound>
+			<sound id="core_pop_bubbleStyle_tone1">pop_bubbleStyle_tone1</sound>
+			<sound id="core_pop_bubbleStyle_tone2">pop_bubbleStyle_tone2</sound>
+			<sound id="core_pop_bubbleStyle_tone3">pop_bubbleStyle_tone3</sound>
+			<sound id="core_switch">switch</sound>
+			<sound id="core_tinyWhoosh_transition_in">tinyWhoosh_transition_in</sound>
+			<sound id="core_tinyWhoosh_transition_out">tinyWhoosh_transition_out</sound>
+			<sound id="core_tooltip_popup">tooltip_popup</sound>
+			<sound id="core_whisper_listen">whisper_listen</sound>
+			<sound id="core_whisper_say">whisper_say</sound>
+			<sound id="core_whoosh_transition_in">whoosh_transition_in</sound>
+			<sound id="core_whoosh_transition_out">whoosh_transition_out</sound>
+			<sound id="core_loading">loading</sound>
+			<sound id="quests_flourish_newTask">quests_flourish_newTask</sound>
+			<sound id="quests_flourish_completedTask">quests_flourish_completedTask</sound>
+			<sound id="quests_flourish_completedQuest">quests_flourish_completedQuest</sound>
+			<sound id="quests_flourish_acceptedNewQuest">quests_flourish_acceptedNewQuest</sound>
+			<sound id="wilderneess_invite_alert">wilderneess_invite_alert</sound>
+			<sound id="wilderness_charm">wilderness_charm</sound>
+			<sound id="wilderness_distract">wilderness_distract</sound>
+			<sound id="wilderness_fix">wilderness_fix</sound>
+			<sound id="wilderness_grow">wilderness_grow</sound>
+			<sound id="wilderness_illuminate">wilderness_illuminate</sound>
+			<sound id="wilderness_move">wilderness_move</sound>
+			<sound id="wilderness_splash">wilderness_splash</sound>
+			<sound id="wilderness_heal">wilderness_heal</sound>
+			<sound id="wilderness_fail">wilderness_miss</sound>
+			<sound id="wilderness_barrier_19501">barriers_stalagmite</sound>
+			<sound id="wilderness_barrier_19505">barriers_stalagmite</sound>
+			<sound id="wilderness_barrier_19509">barriers_stalagmite</sound>
+			<sound id="wilderness_barrier_19502">barriers_spiderweb</sound>
+			<sound id="wilderness_barrier_19506">barriers_spiderweb</sound>
+			<sound id="wilderness_barrier_19503">barriers_roots</sound>
+			<sound id="wilderness_barrier_19504">barriers_roots</sound>
+			<sound id="wilderness_barrier_19507">barriers_roots</sound>
+			<sound id="wilderness_barrier_19508">barriers_roots</sound>
+			
+			<sound id="core_MPGatherablePickup">MPGatherablePickup</sound>
+			<sound id="core_MPGatherableCollected">MPGatherableCollected</sound>
+			<sound id="core_MPGatherableCountdown">MPGatherableCountdown</sound>
+			
+			<sound id="core_animalFriendFlip">animalFriendFlip</sound>
+			<sound id="core_animalFriendDance">animalFriendDance</sound>
+			<sound id="core_animalFriendShake">animalFriendShake</sound>
+			<sound id="core_animalFriendSing">animalFriendSing</sound>
+			<sound id="core_animalFriendDoubleFlip">animalFriendDoubleFlip</sound>
+			<sound id="core_animalFriendFriends">animalFriendFriends</sound>
+			<sound id="core_animalFriendCircle">animalFriendCircle</sound>
+			<sound id="core_animalFriendHop">animalFriendHop</sound>
+			<sound id="core_animalFriendBackwards">animalFriendBackwards</sound>
+				
+			<sound id="defeatChallenge">wilderness_defeatChallenge</sound>
+			<sound id="defeatedAllChallenges">wilderness_defeatedAllChallenges</sound>
+			
+			<sound id="challengeWin">wilderness_challengeWin</sound>
+			<sound id="challengeGameLost">wilderness_gameLost</sound>
+			<sound id="challengeGameWin">wilderness_gameWin</sound>
+			<sound id="challengeGameHurryUp">wilderness_HurryUp</sound>
+			
+			
+			<sound id="wilderness_Bird">wilderness_bird</sound>
+			<sound id="wilderness_Butterfly">wilderness_butterfly</sound>
+			<sound id="wilderness_Truffle">wilderness_truffle</sound>
+			<sound id="wilderness_Squirrel">wilderness_squirrel</sound>
+			<sound id="wilderness_Spider">wilderness_spider</sound>
+			<sound id="wilderness_Frog">wilderness_frog</sound>
+			<sound id="wilderness_Lizard">wilderness_lizard</sound>
+			<sound id="wilderness_Firefly">wilderness_firefly</sound>
+			
+			<sound id="pixiePowerBurst">pixiePowerBurst</sound>
+			
+			
+			<sound id="core_GM_serverSound_ID_1">core_GM_serverSound_ID_1</sound>
+			<sound id="core_GM_serverSound_ID_2">core_GM_serverSound_ID_2</sound>
+
+			<sound id="core_fairyLevelUp">levelUp</sound>
+
+		</library>
+		<library id="meadow_bgm" url="{mmoContent}/swf/audio_content/meadow_bgm.swf">
+			<sound id="meadow_music_autum_generic">meadow_music_autum_generic</sound>
+			<sound id="meadow_music_spring_generic">meadow_music_spring_generic</sound>
+			<sound id="meadow_music_winter_generic">meadow_music_winter_generic</sound>
+			<sound id="meadow_music_summer_generic">meadowGenericSummer</sound>
+		</library>
+		<library id="home_music_animal" url="{mmoContent}/swf/audio_content/home_animal_bgm.swf">
+			<sound id="home_music_animal">home_music_animal</sound>
+		</library>
+		<library id="home_music_garden" url="{mmoContent}/swf/audio_content/home_garden_bgm.swf">
+			<sound id="home_music_garden">home_music_garden</sound>
+		</library>
+		<library id="home_music_light" url="{mmoContent}/swf/audio_content/home_light_bgm.swf">
+			<sound id="home_music_light">home_music_light</sound>
+		</library>
+		<library id="home_music_water" url="{mmoContent}/swf/audio_content/home_water_bgm.swf">
+			<sound id="home_music_water">home_music_water</sound>
+		</library>
+		<library id="home_music_tinker" url="{mmoContent}/swf/audio_content/home_tinker_bgm.swf">
+			<sound id="home_music_tinker">home_music_tinker</sound>
+		</library>
+		<library id="quest_music_fawn" url="{mmoContent}/swf/audio_content/quest_music_fawn.swf">
+			<sound id="quest_music_fawn">quest_music_fawn</sound>
+		</library>
+		<library id="quest_music_iridessa" url="{mmoContent}/swf/audio_content/quest_music_iridessa.swf">
+			<sound id="quest_music_iridessa">quest_music_iridessa</sound>
+		</library>
+		<library id="quest_music_rosetta" url="{mmoContent}/swf/audio_content/quest_music_rosetta.swf">
+			<sound id="quest_music_rosetta">quest_music_rosetta</sound>
+		</library>
+		<library id="quest_music_silvermist" url="{mmoContent}/swf/audio_content/quest_music_silvermist.swf">
+			<sound id="quest_music_silvermist">quest_music_silvermist</sound>
+		</library>
+		<library id="quest_music_tinkerbell" url="{mmoContent}/swf/audio_content/quest_music_tinkerbell.swf">
+			<sound id="quest_music_tinkerbell">quest_music_tinkerbell</sound>
+		</library>
+		<library id="quest_music_elixa" url="{mmoContent}/swf/audio_content/quest_music_elixa.swf">
+			<sound id="quest_music_elixa">quest_music_elixa</sound>
+		</library>
+		<library id="quest_music_marina" url="{mmoContent}/swf/audio_content/quest_music_marina.swf">
+			<sound id="quest_music_marina">quest_music_marina</sound>
+		</library>
+		<library id="quest_music_terence" url="{mmoContent}/swf/audio_content/quest_music_terence.swf">
+			<sound id="quest_music_terence">quest_music_terence</sound>
+			<sound id="tq_congratulation_horn">tq_congratulation_horn</sound>
+			<sound id="tq_fireworks">tq_fireworks</sound>
+			<sound id="tq_pixie_dust_long">tq_pixie_dust_long</sound>
+			<sound id="tq_rain_pixie_dust">tq_rain_pixie_dust</sound>
+			<sound id="tq_bubble_appear">tq_bubble_appear</sound>
+			<sound id="tq_bubble_disappear">tq_bubble_disappear</sound>
+		</library>
+		<library id="meadow100" url="{mmoContent}/swf/audio_content/meadow100.swf">
+			<sound id="meadow_ambient_100">meadow_ambient_spring_sky</sound>
+			<sound id="meadow_music_100">meadow_music_spring_sky</sound>
+		</library>
+		<library id="meadow101" url="{mmoContent}/swf/audio_content/meadow101.swf">
+			<sound id="meadow_ambient_101">meadow_ambient_spring_grasses</sound>
+			<sound id="meadow_music_101">meadow_music_spring_floral</sound>
+		</library>
+		<library id="meadow102" url="{mmoContent}/swf/audio_content/meadow102.swf">
+			<sound id="meadow_ambient_102">meadow_ambient_spring_riverside</sound>
+			<sound id="meadow_music_102">meadow_music_spring_riverside</sound>
+		</library>
+		<library id="meadow103" url="{mmoContent}/swf/audio_content/meadow103.swf">
+			<sound id="meadow_ambient_103">meadow_ambient_spring_riverside</sound>
+			<sound id="meadow_music_103">meadow_music_spring_grasses</sound>
+		</library>
+		<library id="meadow104" url="{mmoContent}/swf/audio_content/meadow104.swf">
+			<sound id="meadow_ambient_104">meadow_ambient_spring_sky</sound>
+			<sound id="meadow_music_104">meadow_music_spring_trees</sound>
+		</library>
+		<library id="meadow10xRainAmbient" url="{mmoContent}/swf/audio_content/meadow10xRainAmbient.swf">
+			<sound id="meadow_ambient_10xRain">ambient_background_rain</sound>
+		</library>
+		<library id="meadow200" url="{mmoContent}/swf/audio_content/meadow200.swf">
+			<sound id="meadow_ambient_200">meadow_ambient_autumn_birds_in_trees</sound>
+			<sound id="meadow_music_200">meadow_music_acornSummit</sound>
+		</library>
+		<library id="meadow201" url="{mmoContent}/swf/audio_content/meadow201.swf">
+			<sound id="meadow_ambient_201">meadow_ambient_autumn_wind_distant_birds</sound>
+			<sound id="meadow_music_201">meadow_music_cottonpuffField</sound>
+		</library>
+		<library id="meadow202" url="{mmoContent}/swf/audio_content/meadow202.swf">
+			<sound id="meadow_ambient_202">meadow_ambient_autumn_birds_overhead</sound>
+			<sound id="meadow_music_202">meadow_music_mapleHill</sound>
+		</library>
+		<library id="meadow203" url="{mmoContent}/swf/audio_content/meadow203.swf">
+			<sound id="meadow_ambient_203">meadow_ambient_autumn_ground_sounds</sound>
+			<sound id="meadow_music_203">meadow_music_pumpkinPatch</sound>
+		</library>
+		<library id="meadow300" url="{mmoContent}/swf/audio_content/meadow300.swf">
+			<sound id="meadow_music_300">location_PineTreeTower</sound>
+			<sound id="meadow_ambient_300">meadow_ambient_autumn_wind_distant_birds</sound>
+		</library>
+		<library id="meadow301" url="{mmoContent}/swf/audio_content/meadow301.swf">
+			<sound id="meadow_music_301">location_WinterLog</sound>
+			<sound id="meadow_ambient_301">ambient_winter_meadow_301</sound>
+		</library>
+		<library id="meadow302" url="{mmoContent}/swf/audio_content/meadow302.swf">
+			<sound id="meadow_music_302">location_WinterMeadow2a</sound>
+			<sound id="meadow_ambient_302">ambient_winter_meadow_302</sound>
+		</library>
+		<library id="meadow30xAlt" url="{mmoContent}/swf/audio_content/meadow30xAlt.swf">
+			<sound id="meadow_30x_alt">tinkers_at_work_winter_meadow_audio</sound>
+		</library>
+		<library id="meadow400" url="{mmoContent}/swf/audio_content/meadow400.swf">
+			<sound id="meadow_music_400">PalmTreeMeadow</sound>
+			<sound id="meadow_ambient_400">summer_environment1</sound>
+		</library>
+		<library id="meadow401" url="{mmoContent}/swf/audio_content/meadow401.swf">
+			<sound id="meadow_music_401">SunFlowerMeadow</sound>
+			<sound id="meadow_ambient_401">summer_environment2</sound>
+		</library>
+		<library id="meadow402" url="{mmoContent}/swf/audio_content/meadow402.swf">
+			<sound id="meadow_music_402">meadow_intro_neverfruit</sound>
+			<sound id="meadow_ambient_402">ambient_birds</sound>
+		</library>
+		<library id="meadow500" url="{mmoContent}/swf/audio_content/meadow500.swf">
+			<sound id="havendish_intro_mix3">havendish_intro_mix3</sound>
+			<sound id="havendish_square_mix3">havendish_square_mix3</sound>
+			<sound id="meadow_ambient_500">meadow_ambient_spring_riverside</sound>
+		</library>
+		<library id="meadow502" url="{mmoContent}/swf/audio_content/meadow502.swf">
+			<sound id="ballroom_standard_FINAL">ballroom_standard_FINAL</sound>
+		</library>
+				<library id="meadow502" url="{mmoContent}/swf/audio_content/meadow502.swf">
+			<sound id="WinterBallroom_FINAL">WinterBallroom_FINAL</sound>
+		</library>
+		<library id="meadow502Spring" url="{mmoContent}/swf/audio_content/meadow502Spring.swf">
+			<sound id="SpringBallroom">SpringBallroom</sound>
+		</library>
+		<library id="meadow502Hawaii" url="{mmoContent}/swf/audio_content/meadow502Hawaii.swf">
+			<sound id="HawaiiBallroom">ballroom_hawaii</sound>
+		</library>
+		<library id="meadow502Autumn" url="{mmoContent}/swf/audio_content/meadow502Autumn.swf">
+			<sound id="AutumnBallroom">AutumnBallroom</sound>
+		</library>
+		<library id="meadow502Generic" url="{mmoContent}/swf/audio_content/meadow502Generic.swf">
+			<sound id="ballroomStandard">ballroom_standard</sound>
+		</library>
+		<library id="meadow503" url="{mmoContent}/swf/audio_content/meadow503.swf">
+			<sound id="tearoom_mix3">tearoom_mix3</sound>
+			<sound id="tea_whistle">tea_whistle</sound>
+			<sound id="bowl">bowl</sound>
+			<sound id="cake">cake</sound>
+			<sound id="plate">plate</sound>
+			<sound id="tea_cup">tea_cup</sound>
+		</library>
+		<library id="meadow504" url="{mmoContent}/swf/audio_content/meadow504.swf">
+			<sound id="LizzysHouse">LizzysHouse</sound>
+		</library>
+		<library id="meadow505Construction" url="{mmoContent}/swf/audio_content/meadow505Construction.swf">
+			<sound id="meadow_ambient_505_construction">ambience_coliseum_construction</sound>
+		</library>
+		<library id="meadow505" url="{mmoContent}/swf/audio_content/meadow505.swf">
+			<sound id="meadow_ambient_505">fairy_coliseum_ambient</sound>
+			<sound id="meadow_music_505">fairy_coliseum</sound>
+		</library>
+		<library id="meadow805" url="{mmoContent}/swf/audio_content/meadow805.swf">
+			<sound id="kitshideout_mix2">kitshideout_mix2</sound>
+		</library>
+		<library id="theatreCheerZone" url="{mmoContent}/swf/audio_content/theatreCheerZone.swf">
+			<sound id="theater_cheer_zone">Meadow_Theater_Cheer_Zone</sound>
+		</library>
+		<library id="theatrePHGames" url="{mmoContent}/swf/audio_content/theatrePHGames.swf">
+			<sound id="ambient_woods_phg">ambient_woods_phg</sound>
+			<sound id="wilderness_bgm_swamp_mix1">wilderness_bgm_swamp_mix1</sound>
+			<sound id="lyrias_pixie_dust">lyrias_pixie_dust</sound>
+		</library>
+		<library id="theatreMermaid" url="{mmoContent}/swf/audio_content/theatreMermaid.swf">
+			<sound id="mermaid_mix">mermaid_mix</sound>
+			<sound id="BadSteam">BadSteam</sound>
+			<sound id="CheerfulBubble">CheerfulBubble</sound>
+			<sound id="LongStemmedSeaweed">LongStemmedSeaweed</sound>
+		</library>
+		<library id="theatreCheese" url="{mmoContent}/swf/audio_content/theatreCheese.swf">
+			<sound id="cheese_mix">cheese_mix</sound>
+			<sound id="baby_squirrel">baby_squirrel</sound>
+			<sound id="thistles_popup">thistles_popup</sound>
+			<sound id="wasps">wasps</sound>
+		</library>
+		<library id="theatreFairyMary" url="{mmoContent}/swf/audio_content/theatreFairyMary.swf">
+			<sound id="bird_squawk">bird_squawk</sound>
+			<sound id="pitcher">pitcher</sound>
+			<sound id="workbench_bed_setup">workbench_bed_setup</sound>
+			<sound id="fairy_mary_mix">fairy_mary_mix</sound>
+		</library>
+		<library id="theatreMissingSparkles" url="{mmoContent}/swf/audio_content/theatreMissingSparkles.swf">
+			<sound id="missing_sparkles_mix">missing_sparkles_mix</sound>
+			<sound id="large_sunflower_moves">large_sunflower_moves</sound>
+			<sound id="oven_opening">oven_opening</sound>
+			<sound id="wooden_sign_painted">wooden_sign_painted</sound>
+		</library>
+		<library id="theatrePirate" url="{mmoContent}/swf/audio_content/theatrePirate.swf">
+			<sound id="pirate_mix">pirate_mix</sound>
+			<sound id="pixie_skull_cloud">pixie_skull_cloud</sound>
+			<sound id="trap_door">trap_door</sound>
+			<sound id="water_dumped_on_person">water_dumped_on_person</sound>
+		</library>
+		<library id="theatreCamp" url="{mmoContent}/swf/audio_content/theatreCamp.swf">
+			<sound id="ambient_woods">ambient_woods</sound>
+			<sound id="pixie_dust">pixie_dust</sound>
+		</library>
+		<library id="theatrePurpleGem" url="{mmoContent}/swf/audio_content/theatrePurpleGem.swf">
+			<sound id="purple_gem_mix">purple_gem_mix</sound>
+			<sound id="coconut">coconut</sound>
+			<sound id="orchid_magic_arrow">orchid_magic_arrow</sound>
+			<sound id="sand_dune_face">sand_dune_face</sound>
+			<sound id="gem_appears_in_water">gem_appears_in_water</sound>
+		</library>
+		<library id="theaterHauntedHouse" url="{mmoContent}/swf/audio_content/theaterHauntedHouse.swf">
+			<sound id="swaying_curtains">FTT_HauntedHouse_swaying_curtains</sound>
+			<sound id="spooky_picture_2">FTT_HauntedHouse_spooky_picture_2</sound>
+			<sound id="spooky_picture_1">FTT_HauntedHouse_spooky_picture_1</sound>
+			<sound id="spooky_clock">FTT_HauntedHouse_spooky_clock</sound>
+			<sound id="rocking_horse">FTT_HauntedHouse_old_rocking_horse</sound>
+			<sound id="mouse_pop_up">FTT_HauntedHouse_mouse_pop_up</sound>
+			<sound id="dashing_piano_mouse">FTT_HauntedHouse_dashing_piano_mouse</sound>
+			<sound id="chandelier_orb">FTT_HauntedHouse_chandelier_orb</sound>
+			<sound id="chandelier">FTT_HauntedHouse_chandelier</sound>
+			<sound id="orb">FTT_HauntedHouse_spooky_orb</sound>
+			<sound id="HauntedHouse_bg">FTT_HauntedHouse_bg</sound>			
+			
+			
+		</library>
+		<library id="wildernessSwamp" url="{mmoContent}/swf/audio_content/wildernessSwamp.swf">
+			<sound id="wilderness_music_swamp">wilderness_music_swamp</sound>
+			<sound id="wilderness_ambient_swamp">wilderness_ambient_swamp</sound>
+			<sound id="wilderness_ambient_swamp2">wilderness_ambient_swamp2</sound>
+		</library>
+		<library id="wildernessForest" url="{mmoContent}/swf/audio_content/wildernessForest.swf">
+			<sound id="wilderness_music_forest">wilderness_music_forest</sound>
+			<sound id="wilderness_ambient_forest">wilderness_ambient_forest</sound>
+		</library>
+		<library id="wildernessCave" url="{mmoContent}/swf/audio_content/wildernessCave.swf">
+			<sound id="wilderness_music_cave">wilderness_music_cave</sound>			
+			<sound id="wilderness_ambient_cave">wilderness_ambient_cave</sound>			
+		</library>
+		<library id="shop" url="{mmoContent}/swf/audio_content/shop.swf">
+			<sound id="sfx_theme">sfx_theme</sound>
+			<sound id="sfx_deny">sfx_deny</sound>
+			<sound id="tiButtonPop">ButtonPop</sound>		
+		</library>
+		<library id="shop_animal_friend" url="{mmoContent}/swf/audio_content/shop_animal_friend.swf">
+			<sound id="petshop_mix">petshop_mix</sound>
+			<sound id="ambient_background_sleeping">ambient_background_sleeping</sound>
+			<sound id="afsItemScroll">ItemScroll</sound>
+			<sound id="afsButtonPop">ButtonPop</sound>
+			<sound id="aftiButtonPop">ButtonPop</sound>
+		</library>
+		<library id="shop_qb" url="{mmoContent}/swf/audio_content/shop_qb.swf">
+			<sound id="qb_themeSong">qb_themeSong</sound>
+		</library>
+		<library id="animalFriendMicroGames" url="{mmoContent}/swf/audio_content/animalFriendMicrogameSharedSounds.swf">
+			<sound id="afMicroGameEnd">sfx_gameEnd</sound>
+			<sound id="afMicroRoundEnd">sfx_roundEnd</sound>
+			<sound id="afMicroCountdownN">countdown_n</sound>
+			<sound id="afMicroCountdownGo">countdown_0</sound>
+		</library>
+		<library id="multiplayerSpellMicroGames" url="{mmoContent}/swf/audio_content/multiplayerSpellMicroGameSharedSounds.swf">
+			<sound id="mpsMicroGameEnd">sfx_gameEnd</sound>
+			<sound id="mpsMicroRoundEnd">sfx_roundEnd</sound>
+			<sound id="mpsMicroCountdownN">countdown_n</sound>
+			<sound id="mpsMicroCountdownGo">countdown_0</sound>
+		</library>
+		<library id="giveawayCollectedSounds" url="{mmoContent}/swf/audio_content/giveawayCollectedSounds.swf">
+			<sound id="sad_trombone">sad_trombone</sound>
+			<sound id="pixie_camp_sign_up">pixie_camp_sign_up</sound>
+		</library>
+		<library id="dsSurpriseSounds" url="{mmoContent}/swf/audio_content/ds_fireworks_sound.swf">
+			<sound id="ds_fireworks_1">ds_fireworks_1</sound>
+			<sound id="ds_fireworks_2">ds_fireworks_2</sound>
+			<sound id="ds_fireworks_3">ds_fireworks_3</sound>
+		</library>
+		<library id="meadowHotspotTables" url="{mmoContent}/swf/audio_content/meadowHotspotTables.swf">
+			<sound id="meadow_pitcher">meadow_pitcher</sound>
+			<sound id="meadow_tea_cup">meadow_tea_cup</sound>
+			<sound id="meadow_plate">meadow_plate</sound>
+			<sound id="meadow_bowl">meadow_bowl</sound>
+		</library>
+		<library id="cricketChorus" url="{mmoContent}/swf/audio_content/cricketChorus.swf">
+			<sound id="cricketNote1">cricketNote1</sound>
+			<sound id="cricketNote2">cricketNote2</sound>
+			<sound id="cricketNote3">cricketNote3</sound>
+			<sound id="cricketNote4">cricketNote4</sound>
+			<sound id="cricketNote5">cricketNote5</sound>
+			<sound id="cricketNote6">cricketNote6</sound>
+			<sound id="cricketNote7">cricketNote7</sound>
+			<sound id="cricketNote8">cricketNote8</sound>
+		</library>
+		<library id="ticTacToe" url="{mmoContent}/swf/audio_content/ticTacToe.swf">
+			<sound id="x_o_writing">x_o_writing</sound>
+			<sound id="clear_tic_tac_toe">clear_tic_tac_toe</sound>
+		</library>
+		<library id="berryball" url="{mmoContent}/swf/audio_content/berryball.swf">
+			<sound id="berryball_made">berryball_made</sound>
+			<sound id="berryball_missed">berryball_missed</sound>
+		</library>
+		<library id="beesDarts" url="{mmoContent}/swf/audio_content/beesDarts.swf">
+			<sound id="bee_hit">bee_hit</sound>
+			<sound id="bee_missed">bee_missed</sound>
+		</library>
+		<library id="snowAngel" url="{mmoContent}/swf/audio_content/snowAngel.swf">
+			<sound id="snowAngel">snow_angel</sound>
+		</library>
+		<library id="iceSkating" url="{mmoContent}/swf/audio_content/iceSkating.swf">
+			<sound id="iceSkating">ice_skating</sound>
+		</library>
+		<library id="beachBall" url="{mmoContent}/swf/audio_content/beachBall.swf">
+			<sound id="beach_ball_hit">beach_ball_hit</sound>
+			<sound id="beach_ball_splash">beach_ball_splash</sound>
+		</library>
+		<library id="aura_sfx" url="{mmoContent}/swf/audio_content/aura_sfx.swf">
+			<sound id="cupcake_refill">cupcake_refill</sound>
+		</library>
+		<library id="rockPaperScissors" url="{mmoContent}/swf/audio_content/rockPaperScissors.swf">
+			<sound id="rpsCrank">rpsCrank</sound>
+		</library>
+		<library id="cafTalent1Name" url="{mmoContent}/swf/audio_content/cafTalent1Name.swf">
+			<sound id="cafTalent1_1">cafTalent1_1</sound>
+			<sound id="cafTalent1_2">cafTalent1_2</sound>
+			<sound id="cafTalent1_3">cafTalent1_3</sound>
+			<sound id="cafTalent1_4">cafTalent1_4</sound>
+			<sound id="cafTalent1_5">cafTalent1_5</sound>
+		</library>
+		<library id="cafTalent2Name" url="{mmoContent}/swf/audio_content/cafTalent2Name.swf">
+			<sound id="cafTalent2_1">cafTalent2_1</sound>
+			<sound id="cafTalent2_2">cafTalent2_2</sound>
+			<sound id="cafTalent2_3">cafTalent2_3</sound>
+			<sound id="cafTalent2_4">cafTalent2_4</sound>
+			<sound id="cafTalent2_5">cafTalent2_5</sound>
+		</library>
+		<library id="cafTalent3Name" url="{mmoContent}/swf/audio_content/cafTalent3Name.swf">
+			<sound id="cafTalent3_1">cafTalent3_1</sound>
+			<sound id="cafTalent3_2">cafTalent3_2</sound>
+			<sound id="cafTalent3_3">cafTalent3_3</sound>
+			<sound id="cafTalent3_4">cafTalent3_4</sound>
+			<sound id="cafTalent3_5">cafTalent3_5</sound>
+		</library>
+		<library id="cafTalent4Name" url="{mmoContent}/swf/audio_content/cafTalent4Name.swf">
+			<sound id="cafTalent4_1">cafTalent4_1</sound>
+			<sound id="cafTalent4_2">cafTalent4_2</sound>
+			<sound id="cafTalent4_3">cafTalent4_3</sound>
+			<sound id="cafTalent4_4">cafTalent4_4</sound>
+			<sound id="cafTalent4_5">cafTalent4_5</sound>
+		</library>
+		<library id="cafTalent5Name" url="{mmoContent}/swf/audio_content/cafTalent5Name.swf">
+			<sound id="cafTalent5_1">cafTalent5_1</sound>
+			<sound id="cafTalent5_2">cafTalent5_2</sound>
+			<sound id="cafTalent5_3">cafTalent5_3</sound>
+			<sound id="cafTalent5_4">cafTalent5_4</sound>
+			<sound id="cafTalent5_5">cafTalent5_5</sound>
+		</library>
+		<library id="cafTalent1Map1" url="{mmoContent}/swf/audio_content/cafTalent1Map1.swf">
+			<sound id="cafTalent1_6">cafTalent1_6</sound>
+			<sound id="cafTalent1_7">cafTalent1_7</sound>
+			<sound id="cafTalent1_8">cafTalent1_8</sound>
+			<sound id="cafTalent1_9">cafTalent1_9</sound>
+		</library>
+		<library id="cafTalent2Map1" url="{mmoContent}/swf/audio_content/cafTalent2Map1.swf">
+			<sound id="cafTalent2_6">cafTalent2_6</sound>
+			<sound id="cafTalent2_7">cafTalent2_7</sound>
+			<sound id="cafTalent2_8">cafTalent2_8</sound>
+			<sound id="cafTalent2_9">cafTalent2_9</sound>
+		</library>
+		<library id="cafTalent3Map1" url="{mmoContent}/swf/audio_content/cafTalent3Map1.swf">
+			<sound id="cafTalent3_6">cafTalent3_6</sound>
+			<sound id="cafTalent3_7">cafTalent3_7</sound>
+			<sound id="cafTalent3_8">cafTalent3_8</sound>
+			<sound id="cafTalent3_9">cafTalent3_9</sound>
+		</library>
+		<library id="cafTalent4Map1" url="{mmoContent}/swf/audio_content/cafTalent4Map1.swf">
+			<sound id="cafTalent4_6">cafTalent4_6</sound>
+			<sound id="cafTalent4_7">cafTalent4_7</sound>
+			<sound id="cafTalent4_8">cafTalent4_8</sound>
+			<sound id="cafTalent4_9">cafTalent4_9</sound>
+		</library>
+		<library id="cafTalent5Map1" url="{mmoContent}/swf/audio_content/cafTalent5Map1.swf">
+			<sound id="cafTalent5_6">cafTalent5_6</sound>
+			<sound id="cafTalent5_7">cafTalent5_7</sound>
+			<sound id="cafTalent5_8">cafTalent5_8</sound>
+			<sound id="cafTalent5_9">cafTalent5_9</sound>
+		</library>
+		<library id="cafTalent1Map2" url="{mmoContent}/swf/audio_content/cafTalent1Map2.swf">
+			<sound id="cafTalent1_10">cafTalent1_10</sound>
+			<sound id="cafTalent1_11">cafTalent1_11</sound>
+			<sound id="cafTalent1_12a">cafTalent1_12a</sound>
+			<sound id="cafTalent1_12b">cafTalent1_12b</sound>
+			<sound id="cafTalent1_13">cafTalent1_13</sound>
+			<sound id="cafTalent1_14">cafTalent1_14</sound>
+			<sound id="cafTalent1_15">cafTalent1_15</sound>
+			<sound id="cafTalent1_19a">cafTalent1_19a</sound>
+			<sound id="cafTalent1_19b">cafTalent1_19b</sound>
+			<sound id="cafTalent1_20">cafTalent1_20</sound>
+			<sound id="cafTalent1_21">cafTalent1_21</sound>
+			<sound id="cafTalent1_22">cafTalent1_22</sound>
+			<sound id="cafTalent1_23">cafTalent1_23</sound>
+			<sound id="cafTalent1_24">cafTalent1_24</sound>
+			<sound id="cafTalent1_25">cafTalent1_25</sound>
+		</library>
+		<library id="cafTalent2Map2" url="{mmoContent}/swf/audio_content/cafTalent2Map2.swf">
+			<sound id="cafTalent2_10">cafTalent2_10</sound>
+			<sound id="cafTalent2_11">cafTalent2_11</sound>
+			<sound id="cafTalent2_12a">cafTalent2_12a</sound>
+			<sound id="cafTalent2_12b">cafTalent2_12b</sound>
+			<sound id="cafTalent2_13">cafTalent2_13</sound>
+			<sound id="cafTalent2_14">cafTalent2_14</sound>
+			<sound id="cafTalent2_15">cafTalent2_15</sound>
+			<sound id="cafTalent2_19a">cafTalent2_19a</sound>
+			<sound id="cafTalent2_19b">cafTalent2_19b</sound>
+			<sound id="cafTalent2_20">cafTalent2_20</sound>
+			<sound id="cafTalent2_21">cafTalent2_21</sound>
+			<sound id="cafTalent2_22">cafTalent2_22</sound>
+			<sound id="cafTalent2_23">cafTalent2_23</sound>
+			<sound id="cafTalent2_24">cafTalent2_24</sound>
+			<sound id="cafTalent2_25">cafTalent2_25</sound>
+		</library>
+		<library id="cafTalent3Map2" url="{mmoContent}/swf/audio_content/cafTalent3Map2.swf">
+			<sound id="cafTalent3_10">cafTalent3_10</sound>
+			<sound id="cafTalent3_11">cafTalent3_11</sound>
+			<sound id="cafTalent3_12a">cafTalent3_12a</sound>
+			<sound id="cafTalent3_12b">cafTalent3_12b</sound>
+			<sound id="cafTalent3_13">cafTalent3_13</sound>
+			<sound id="cafTalent3_14">cafTalent3_14</sound>
+			<sound id="cafTalent3_15">cafTalent3_15</sound>
+			<sound id="cafTalent3_19a">cafTalent3_19a</sound>
+			<sound id="cafTalent3_19b">cafTalent3_19b</sound>
+			<sound id="cafTalent3_20">cafTalent3_20</sound>
+			<sound id="cafTalent3_21">cafTalent3_21</sound>
+			<sound id="cafTalent3_22">cafTalent3_22</sound>
+			<sound id="cafTalent3_23">cafTalent3_23</sound>
+			<sound id="cafTalent3_24">cafTalent3_24</sound>
+			<sound id="cafTalent3_25">cafTalent3_25</sound>
+		</library>
+		<library id="cafTalent4Map2" url="{mmoContent}/swf/audio_content/cafTalent4Map2.swf">
+			<sound id="cafTalent4_10">cafTalent4_10</sound>
+			<sound id="cafTalent4_11">cafTalent4_11</sound>
+			<sound id="cafTalent4_12a">cafTalent4_12a</sound>
+			<sound id="cafTalent4_12b">cafTalent4_12b</sound>
+			<sound id="cafTalent4_13">cafTalent4_13</sound>
+			<sound id="cafTalent4_14">cafTalent4_14</sound>
+			<sound id="cafTalent4_15">cafTalent4_15</sound>
+			<sound id="cafTalent4_19a">cafTalent4_19a</sound>
+			<sound id="cafTalent4_19b">cafTalent4_19b</sound>
+			<sound id="cafTalent4_20">cafTalent4_20</sound>
+			<sound id="cafTalent4_21">cafTalent4_21</sound>
+			<sound id="cafTalent4_22">cafTalent4_22</sound>
+			<sound id="cafTalent4_23">cafTalent4_23</sound>
+			<sound id="cafTalent4_24">cafTalent4_24</sound>
+			<sound id="cafTalent4_25">cafTalent4_25</sound>
+		</library>
+		<library id="cafTalent5Map2" url="{mmoContent}/swf/audio_content/cafTalent5Map2.swf">
+			<sound id="cafTalent5_10">cafTalent5_10</sound>
+			<sound id="cafTalent5_11">cafTalent5_11</sound>
+			<sound id="cafTalent5_12a">cafTalent5_12a</sound>
+			<sound id="cafTalent5_12b">cafTalent5_12b</sound>
+			<sound id="cafTalent5_13">cafTalent5_13</sound>
+			<sound id="cafTalent5_14">cafTalent5_14</sound>
+			<sound id="cafTalent5_15">cafTalent5_15</sound>
+			<sound id="cafTalent5_19a">cafTalent5_19a</sound>
+			<sound id="cafTalent5_19b">cafTalent5_19b</sound>
+			<sound id="cafTalent5_20">cafTalent5_20</sound>
+			<sound id="cafTalent5_21">cafTalent5_21</sound>
+			<sound id="cafTalent5_22">cafTalent5_22</sound>
+			<sound id="cafTalent5_23">cafTalent5_23</sound>
+			<sound id="cafTalent5_24">cafTalent5_24</sound>
+			<sound id="cafTalent5_25">cafTalent5_25</sound>
+		</library>
+		<library id="cakeDecorations" url="{mmoContent}/swf/audio_content/cakeDecorations.swf">
+			<sound id="cake_cherry">cake_cherry</sound>
+			<sound id="cake_icing">cake_icing</sound>
+			<sound id="cake_sprinkles">cake_sprinkles</sound>
+			<sound id="cake_squeeze_pipe">cake_squeeze_pipe</sound>
+			<sound id="cake_interactive_negative">cake_interactive_negative</sound>
+		</library>
+		<library id="soupCauldron" url="{mmoContent}/swf/audio_content/soupCauldron.swf">
+			<sound id="soup_chopping">soup_chopping</sound>
+			<sound id="soup_pour_milk">soup_pour_milk</sound>
+			<sound id="soup_pumpkin">soup_pumpkin</sound>
+			<sound id="soup_salt_pepper">soup_salt_pepper</sound>
+			<sound id="soup_sugar_pour">soup_sugar_pour</sound>
+			<sound id="soup_interactive_negative">soup_interactive_negative</sound>
+		</library>
+		<library id="vidiaMobile" url="{mmoContent}/swf/audio_content/vidiaMobile.swf">
+			<sound id="vidia_spinning_mobile">vidia_spinning_mobile</sound>
+		</library>
+		<library id="animalMasquerade2010" url="{mmoContent}/swf/audio_content/animalMasquerade2010.swf">
+			<sound id="animalMasquerade2010">animalMasquerade2010</sound>
+			<sound id="meadow_ambient_spring_sky_am">meadow_ambient_spring_sky_am</sound>
+			<sound id="meadow_ambient_spring_grasses_am">meadow_ambient_spring_grasses_am</sound>
+			<sound id="meadow_ambient_spring_riverside_am">meadow_ambient_spring_riverside_am</sound>
+			<sound id="meadow_ambient_autumn_birds_in_trees_am">meadow_ambient_autumn_birds_in_trees_am</sound>
+			<sound id="meadow_ambient_autumn_ground_sounds_am">meadow_ambient_autumn_ground_sounds_am</sound>
+			<sound id="meadow_ambient_autumn_wind_distant_birds_am">meadow_ambient_autumn_wind_distant_birds_am</sound>
+			<sound id="summer_environment1_am">summer_environment1_am</sound>
+			<sound id="ambient_birds_am">ambient_birds_am</sound>
+		</library>
+		
+		
+		<library id="jackolantern" url="{mmoContent}/swf/audio_content/jackolantern.swf">
+			<sound id="jack_o_lantern">jack_o_lantern</sound>
+		</library>
+		
+		
+		<library id="icePalace" url="{mmoContent}/swf/audio_content/icePalace.swf">
+			<sound id="icePalaceBG">IcePalace</sound>
+			<sound id="icePalacePiano1">ice_palace_piano_1</sound>
+			<sound id="icePalacePiano2">ice_palace_piano_2</sound>
+			<sound id="icePalacePiano3">ice_palace_piano_3</sound>
+			<sound id="icePalacePiano4">ice_palace_piano_4</sound>
+			<sound id="icePalacePiano5">ice_palace_piano_5</sound>
+			<sound id="weasel">weasel</sound>
+		</library>
+		<library id="meadow500Winter" url="{mmoContent}/swf/audio_content/meadow500Winter.swf">
+			<sound id="havendishWinter">HavendishWinter</sound>
+			<sound id="meadow_ambient_500_winter">meadow_ambient_spring_riverside_winter</sound>
+		</library>
+		<library id="snowball" url="{mmoContent}/swf/audio_content/snowball.swf">
+			<sound id="throw_snowball">throw_snowball</sound>
+		</library>
+		<library id="rainCloud" url="{mmoContent}/swf/audio_content/rainCloud.swf">
+			<sound id="rain_cloud">rain_cloud</sound>
+		</library>
+		<library id="mermaidGrottoInteractives" url="{mmoContent}/swf/audio_content/mermaidGrottoInteractives.swf">
+			<sound id="mermaid_grotto_springs">mermaid_grotto_springs</sound>
+			<sound id="mermaid_grotto_mermaid">mermaid_grotto_mermaid</sound>
+			<sound id="mermaid_grotto_lobster">mermaid_grotto_lobster</sound>
+			<sound id="mermaid_grotto_clam">mermaid_grotto_clam</sound>
+		</library>
+		<library id="comedyTheater" url="{mmoContent}/swf/audio_content/comedyTheater.swf">
+			<sound id="comedy_theater_crickets">comedy_theater_crickets</sound>
+			<sound id="comedy_theater_drum_roll">comedy_theater_drum_roll</sound>
+			<sound id="comedy_theater_sad_trombone">comedy_theater_sad_trombone</sound>
+			<sound id="comedy_theater_music">comedy_theater_music</sound>
+		</library>
+		<library id="animalFriendGiftBoxes" url="{mmoContent}/swf/audio_content/animalFriendGiftBoxes.swf">
+			<sound id="afBubbleGift">afGiftFireworks</sound>
+			<sound id="afGrassGift">afGiftFireworks</sound>
+			<sound id="afConfettiGift">afGiftFireworks</sound>
+			<sound id="af_gift_flare">afGiftFlare</sound>
+		</library>
+		<library id="everBlossomPixieDust" url="{mmoContent}/swf/audio_content/everBlossomPixieDust.swf">
+			<sound id="EBPixieDust">Ever_Blossom_Pixie_Dust</sound>
+		</library>
+		<library id="bubbleSurpriseSounds" url="{mmoContent}/swf/audio_content/bubbleSurpriseSounds.swf">
+			<sound id="bubbleSurprise">bubble_surprise</sound>
+		</library>
+		<library id="giftBoxCreation" url="{mmoContent}/swf/audio_content/giftBoxCreation.swf">
+			<sound id="giftStationRibbon">gift_station_ribbon</sound>
+			<sound id="giftStationPaint">gift_station_paint</sound>
+			<sound id="giftStationBrush">gift_station_brush</sound>
+			<sound id="giftStationCards">gift_station_cards</sound>
+			<sound id="giftStationGlue">gift_station_glue</sound>
+			<sound id="giftStationComplete">gift_station_complete</sound>
+		</library>
+		<library id="gardenTeaParty" url="{mmoContent}/swf/audio_content/gardenTeaParty.swf">
+			<sound id="gtp_kitchen_ambient">gtp_kitchen_ambient</sound>
+			<sound id="gtp_kitchen_bg">gtp_kitchen_bg</sound>
+			<sound id="gtp_cake_cutting">gtp_cake_cutting</sound>
+			<sound id="gtp_tea_pouring">gtp_tea_pouring</sound>
+			<sound id="gtp_tea_brewing">gtp_tea_brewing</sound>
+			<sound id="gtp_tea_whistle">gtp_tea_whistle</sound>
+			<sound id="gtp_kitten_playing">gtp_kitten_playing</sound>
+		</library>
+		<library id="animalMothersDayKitten" url="{mmoContent}/swf/audio_content/animalMothersDayKitten.swf">
+			<sound id="amd_kitten_playing">amd_kitten_playing</sound>
+		</library>
+		<library id="meadow403" url="{mmoContent}/swf/audio_content/meadow403.swf">
+			<sound id="meadow_ambient_403">meadow_mermaid_grotto_ambience</sound>
+			<sound id="meadow_music_403">meadow_mermaid_grotto_music</sound>
+		</library>
+		<library id="skillAnimations" url="{mmoContent}/swf/audio_content/skillAnimations.swf">
+			<sound id="cherry_blossom">cherry_blossom</sound>
+			<sound id="cottonpuff">cottonpuff</sound>
+			<sound id="dewdrop_vale">dewdrop_vale</sound>
+			<sound id="evergreen_overlook">evergreen_overlook</sound>
+			<sound id="maple_tree_hill">maple_tree_hill</sound>
+			<sound id="neverberry">rain_pixie_dust</sound>
+			<sound id="springtime">springtime</sound>
+			<sound id="sunflower_gully">sunflower_gully</sound>
+		</library>
+		<library id="animalMothersBunny" url="{mmoContent}/swf/audio_content/animalMothersBunny.swf">
+			<sound id="ambBucket">ambBucket</sound>
+			<sound id="ambGiggle">ambGiggle</sound>
+			<sound id="ambSneeze">ambSneeze</sound>
+		</library>
+		<library id="animalMothersOwl" url="{mmoContent}/swf/audio_content/animalMothersOwl.swf">
+			<sound id="amoHoot">amoHoot</sound>
+			<sound id="amoYawn">amoYawn</sound>
+		</library>
+		<library id="cotlAcornJuicer" url="{mmoContent}/swf/audio_content/cotlAcornJuicer.swf">
+			<sound id="cotl_acorn_juicer">cotl_acorn_juicer</sound>
+		</library>
+		<library id="cotlLeafRoller" url="{mmoContent}/swf/audio_content/cotlLeafRoller.swf">
+			<sound id="cotl_leaf_roller">cotl_leaf_roller</sound>
+		</library>
+		<library id="cotlLeafBundle" url="{mmoContent}/swf/audio_content/cotlLeafBundle.swf">
+			<sound id="cotl_leaf_bundle_wrap">cotl_leaf_bundle_wrap</sound>
+			<sound id="cotl_leaf_bundle_pop">cotl_leaf_bundle_pop</sound>
+		</library>
+		<library id="cotlLeafPainter" url="{mmoContent}/swf/audio_content/cotlLeafPainter.swf">
+			<sound id="cotl_leaf_painter">cotl_leaf_painter</sound>
+		</library>
+		<library id="animalMothersChipmunk" url="{mmoContent}/swf/audio_content/animalMothersChipmunk.swf">
+			<sound id="amcEat">amcEat</sound>
+			<sound id="amcGulp">amcGulp</sound>
+		</library>
+		<library id="slideProjector" url="{mmoContent}/swf/audio_content/slideProjector.swf">
+			<sound id="change_slide">change_slide</sound>
+		</library>
+		<library id="coliseumConstruction" url="{mmoContent}/swf/audio_content/coliseumConstruction.swf">
+			<sound id="cc_package_unwrapping">cc_package_unwrapping</sound>
+			<sound id="cc_leaf_peek">cc_leaf_peek</sound>
+			<sound id="cc_flower_jumping">cc_flower_jumping</sound>
+			<sound id="cc_box_spring_open">cc_box_spring_open</sound>
+			<sound id="cc_banners_unrolling">cc_banners_unrolling</sound>
+		</library>
+		<library id="snowingJingle" url="{mmoContent}/swf/audio_content/snowingJingle.swf">
+			<sound id="snowing_jingle">snowing_jingle</sound>
+		</library>
+		<library id="neverDoveEggHatch" url="{mmoContent}/swf/audio_content/neverDoveEggHatch.swf">
+			<sound id="never_dove_egg_hatch">never_dove_egg_hatch</sound>
+		</library>
+		<library id="postOfficeSurprises" url="{mmoContent}/swf/audio_content/postOfficeSurprises.swf">
+			<sound id="postcardSurprise">postcardSurprise</sound>
+			<sound id="giftSetSurprise">giftSetSurprise</sound>
+			<sound id="po_show_items">poShowItems</sound>
+		</library>
+		<library id="mermaidGrottoMermaids" url="{mmoContent}/swf/audio_content/mermaidGrottoMermaids.swf">
+			<sound id="mermaid1">mermaid1</sound>
+			<sound id="mermaid2">mermaid2</sound>
+			<sound id="mermaid3">mermaid3</sound>
+		</library>
+		<library id="plantingBulbs" url="{mmoContent}/swf/audio_content/plantingBulbs.swf">
+			<sound id="planting_bulbs">planting_bulbs</sound>
+		</library>
+		<library id="theatreFFHangout" url="{mmoContent}/swf/audio_content/theatreFFHangout.swf">
+			<sound id="theatre_ff_hangout">theatre_ff_hangout</sound>
+		</library>
+		<library id="theatreRockConcert" url="{mmoContent}/swf/audio_content/theatreRockConcert.swf">
+			<sound id="theatre_rock_concert">theatre_rock_concert</sound>
+			<sound id="rc_drum_01">rc_drum_01</sound>
+			<sound id="rc_drum_02">rc_drum_02</sound>
+			<sound id="rc_bass_01">rc_bass_01</sound>
+			<sound id="rc_bass_02">rc_bass_02</sound>
+			<sound id="rc_guitar_01">rc_guitar_01</sound>
+			<sound id="rc_guitar_02">rc_guitar_02</sound>
+			<sound id="rc_turntable_01">rc_turntable_01</sound>
+			<sound id="rc_turntable_02">rc_turntable_02</sound>
+		</library>
+		<library id="gardenSounds" url="{mmoContent}/swf/audio_content/gardenSounds.swf">
+			<sound id="garden_click">click</sound>
+			<sound id="garden_grow">grow</sound>
+			<sound id="garden_dust">dust</sound>
+			<sound id="garden_harvest">harvest</sound>
+			<sound id="garden_instaGrow1">instaGrow1</sound>
+			<sound id="garden_instaGrow2">instaGrow2</sound>
+			<sound id="garden_instaGrow3">instaGrow3</sound>
+			<sound id="garden_plant">plant</sound>
+			<sound id="garden_remove">remove</sound>
+			<sound id="garden_revive">revive</sound>
+			<sound id="garden_skill">skill</sound>
+			<sound id="garden_rewardNormal">rewardNormal</sound>
+			<sound id="garden_rewardBonus">rewardBonus</sound>
+			<sound id="garden_sing">sing</sound>
+			<sound id="garden_music_ambient">garden_music_ambient</sound>
+		</library>
+	</libraries>
+</soundAssets>

@@ -1,0 +1,15 @@
+<NewsResponse>
+      <success>true</success>
+      <news_read>
+            <category>cat1</category>
+            <stamp>2008-03-19</stamp>
+      </news_read>
+      <news_read>
+            <category>cat2</category>
+            <stamp>2008-03-12</stamp>
+      </news_read>
+      <news_read>
+            <category>cat3</category>
+            <stamp>2008-03-12</stamp>
+      </news_read>
+</NewsResponse> 

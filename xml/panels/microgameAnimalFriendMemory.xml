@@ -1,0 +1,234 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/afMemory.swf</swf>
+		<swf type="code">{panelCode}/afMemory.swf</swf>
+	</swfs>
+	<copy>		
+		<!-- if you don't specify nodes in the level/round xml, game will use these defaults.
+			 empty nodes mean the UI will be skipped altogether -->
+		<bugDefault></bugDefault>
+		<playerDefault></playerDefault>
+		<introDefault>It's time to play the firefly lighting game! Watch the fireflies light up in different colors as they play a song. When it's your turn, repeat their song using your colored lanterns.</introDefault>
+
+		<okBtnLabel>OK</okBtnLabel>
+
+		<roundLabel>Round ###currRound###</roundLabel>
+		<scoreLabel>Score ###currScore###</scoreLabel>
+	</copy>
+	<config>
+		<microGameId>AFMemory</microGameId>
+
+		<petAutoPosition>250,380</petAutoPosition>
+		<petPlayingPosition>575,380</petPlayingPosition>
+		<avatarPosition>575,300</avatarPosition>
+		<interNoteDelayDefault>40</interNoteDelayDefault>
+		<autoLightupDurationDefault>30</autoLightupDurationDefault>
+		<playerLightupDurationDefault>10</playerLightupDurationDefault>
+
+		<!-- position the conductor stand at the pet positions, +/- these offsets -->
+		<conductorStandOffsetX>-20</conductorStandOffsetX>
+		<conductorStandOffsetY>10</conductorStandOffsetY>
+
+		<colors>
+			<!-- see colorAssets.xml for what these map to. Do not re-order! -->
+			<bugBodyColors>
+				<bugBodyColor>38</bugBodyColor>
+				<bugBodyColor>38</bugBodyColor>
+				<bugBodyColor>38</bugBodyColor>
+				<bugBodyColor>38</bugBodyColor>
+			</bugBodyColors>
+
+			<bugOffColors>
+				<bugOffColor>51</bugOffColor> <!-- blue -->
+				<bugOffColor>90</bugOffColor> <!-- yellow -->
+				<bugOffColor>113</bugOffColor> <!-- red -->
+				<bugOffColor>127</bugOffColor> <!-- green -->
+			</bugOffColors>
+
+			<bugOnColors>
+				<bugOnColor>163</bugOnColor>
+				<bugOnColor>137</bugOnColor>
+				<bugOnColor>140</bugOnColor>
+				<bugOnColor>115</bugOnColor>
+			</bugOnColors>
+		</colors>
+
+		<levels>
+			<level number="0">
+				<rounds>0,1</rounds>
+			</level>
+			<level number="1">
+				<rounds>2,3</rounds>
+			</level>
+			<level number="2">
+				<rounds>4,5</rounds>
+			</level>
+			<level number="3">
+				<rounds>6,7</rounds>
+			</level>
+			<level number="4">
+				<rounds>8,9</rounds>
+			</level>
+			<level number="5">
+				<rounds>10,11</rounds>
+			</level>
+			<level number="6">
+				<rounds>12,13</rounds>
+			</level>
+			<level number="7">
+				<rounds>14,15</rounds>
+			</level>
+			<level number="8">
+				<rounds>16,17</rounds>
+			</level>
+			<level number="9">
+				<rounds>18,19</rounds>
+			</level>
+		</levels>
+		<rounds>
+			<round id="0" pointsPerNote="200">
+				<interNoteDelay>40</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+                <notes randomNotes="2"></notes>
+			</round>
+			<round id="1" pointsPerNote="200">
+				<interNoteDelay>40</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+                <notes randomNotes="3"></notes>		
+			</round>
+			<round id="2" pointsPerNote="250">
+				<interNoteDelay>40</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+                <notes randomNotes="3"></notes>		
+			</round>
+			<round id="3" pointsPerNote="250">
+				<interNoteDelay>40</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+                <notes randomNotes="3"></notes>	
+			</round>
+			<round id="4" pointsPerNote="286">
+				<interNoteDelay>40</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+                <notes randomNotes="3"></notes>	
+			</round>
+			<round id="5" pointsPerNote="286">
+				<interNoteDelay>40</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+				<notes>
+					<note idx="0"/>
+					<note idx="2"/>
+					<note idx="3"/>
+					<note idx="1"/>
+				</notes>
+			</round>
+			<round id="6" pointsPerNote="313">
+				<interNoteDelay>40</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+                <notes randomNotes="4"></notes>	
+			</round>
+			<round id="7" pointsPerNote="313">
+				<interNoteDelay>40</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+                <notes randomNotes="4"></notes>	
+			</round>
+			<round id="8" pointsPerNote="333">
+				<interNoteDelay>30</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+                <notes randomNotes="4"></notes>	
+			</round>
+			<round id="9" pointsPerNote="333">
+				<interNoteDelay>30</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+				<notes>
+					<note idx="1"/>
+					<note idx="0"/>
+					<note idx="1"/>
+					<note idx="2"/>
+					<note idx="3"/>
+				</notes>
+			</round>
+			<round id="10" pointsPerNote="350">
+				<interNoteDelay>30</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+                <notes randomNotes="5"></notes>	
+			</round>
+			<round id="11" pointsPerNote="350">
+				<interNoteDelay>30</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+				<notes>
+					<note idx="0"/>
+					<note idx="1"/>
+					<note idx="2"/>
+					<note idx="3"/>
+					<note idx="1"/>
+				</notes>
+			</round>
+			<round id="12" pointsPerNote="400">
+				<interNoteDelay>30</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+                <notes randomNotes="5"></notes>	
+			</round>
+			<round id="13" pointsPerNote="400">
+				<interNoteDelay>30</interNoteDelay>
+				<autoLightupDuration>30</autoLightupDuration>
+                <notes randomNotes="5"></notes>	
+			</round>
+			<round id="14" pointsPerNote="409">
+				<interNoteDelay>30</interNoteDelay>
+				<autoLightupDuration>20</autoLightupDuration>
+                <notes randomNotes="5"></notes>	
+			</round>			
+			<round id="15" pointsPerNote="409">
+				<interNoteDelay>30</interNoteDelay>
+				<autoLightupDuration>20</autoLightupDuration>
+				<notes>
+					<note idx="0"/>
+					<note idx="2"/>
+					<note idx="1"/>
+					<note idx="3"/>
+					<note idx="0"/>
+					<note idx="1"/>
+					<note idx="2"/>
+				</notes>
+			</round>
+			<round id="16" pointsPerNote="417">
+				<interNoteDelay>30</interNoteDelay>
+				<autoLightupDuration>20</autoLightupDuration>
+                <notes randomNotes="6"></notes>	
+			</round>	
+			<round id="17" pointsPerNote="417">
+				<interNoteDelay>30</interNoteDelay>
+				<autoLightupDuration>20</autoLightupDuration>
+				<notes>
+					<note idx="3"/>
+					<note idx="1"/>
+					<note idx="2"/>
+					<note idx="0"/>
+					<note idx="3"/>
+					<note idx="1"/>
+				</notes>
+			</round>	
+			<round id="18" pointsPerNote="423">
+				<interNoteDelay>30</interNoteDelay>
+				<autoLightupDuration>20</autoLightupDuration>
+                <notes randomNotes="6"></notes>	
+			</round>	
+			<round id="19" pointsPerNote="423">
+				<interNoteDelay>30</interNoteDelay>
+				<autoLightupDuration>20</autoLightupDuration>
+				<notes>
+					<note idx="3"/>
+					<note idx="0"/>
+					<note idx="2"/>
+					<note idx="0"/>
+					<note idx="3"/>
+					<note idx="2"/>
+					<note idx="1"/>
+				</notes>
+			</round>								
+		</rounds>
+	</config>
+</panel>
+
+

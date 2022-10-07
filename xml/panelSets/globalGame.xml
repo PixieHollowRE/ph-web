@@ -1,0 +1,142 @@
+<panelSet>
+  <panels stream="true">
+  	<!-- don't change the order!  it's important for streaming! -->
+  
+    <panel id="chrome" x="0" y="0" hidden="false" alwaysOnTop="true" closeable="false" transition="none">{panelData}/chrome.xml</panel>
+    <panel id="notification" x="756" y="450" hidden="true" alwaysOnTop="true">{panelData}/notification.xml</panel>
+	<panel id="diecut" x="41" y="54" alwaysOnBottom="true" transition="none" hasTutorial="true">{panelData}/diecut.xml</panel>
+    <panel id="buttons" x="3" y="15" alwaysOnTop="true" transition="none">{panelData}/gameButtons.xml</panel>
+	<panel id="friends" x="765" y="59" alwaysOnTop="true" closeable="true" hidden="true" refocusable="true" hasTutorial="true" displayWhenClosed="true">{panelData}/friends.xml</panel>
+	<panel id="teleporting" x="313" y="190" hidden="true" alwaysOnBottom="true" transition="none">{panelData}/teleporting.xml</panel>
+    <panel id="shardChooser" x="253" y="95" draggable="false" closeable="true"  hidden="true" alwaysOnTop="true" refocusable="true" transition="none">{panelData}/shardChooser.xml</panel>
+	<panel id="fairyConversation" x="0" y="0" alwaysOnTop="true" hidden="true">{panelData}/fairyConversation.xml</panel> <!-- FairyConversationPanel -->
+    <panel id="whisper" x="12" y="300" closeable="false">{panelData}/whisperBubbles.xml</panel>
+    <panel id="chat" x="203" y="490" hidden="true" alwaysOnTop="true" refocusable="true" hasTutorial="true" transition="none">{panelData}/chatInterface.xml</panel>
+    <panel id="friendMessages" x="764" y="141" interfaceItem="true" closeable="false" refocusable="true">{panelData}/friendMessages.xml</panel>
+	<panel id="profile" x="249" y="75" draggable="true" hidden="true" closeable="true" interfaceItem="true" refocusable="true" hasTutorial="true">{panelData}/profile.xml</panel>
+	<panel id="accountProfile" x="249" y="75" draggable="true" hidden="true" closeable="true" interfaceItem="true" refocusable="true">{panelData}/accountProfile.xml</panel>
+	<panel id="sitting" x="3" y="15" hidden="true" interfaceItem="true" transition="none">{panelData}/sittingMenu.xml</panel> 
+	<panel id="help" x="340" y="623" hidden="false" interfaceItem="true" transition="none">{panelData}/helpButton.xml</panel>   
+	<panel id="chatBtn" x="3" y="15" hidden="true" interfaceItem="true" transition="none">{panelData}/chatButton.xml</panel>   
+	<panel id="chatLog" x="15" y="265" hidden="true" interfaceItem="true" refocusable="true" draggable="true">{panelData}/chatLog.xml</panel>
+	<panel id="limitedProfile" x="249" y="75" draggable="true" hidden="true" closeable="true" interfaceItem="true" refocusable="true">{panelData}/limitedProfile.xml</panel>
+	<panel id="pixieDustMeter" x="325" y="50" hidden="true" alwaysOnTop="true" refocusable="true" transition="none">{panelData}/pixieDustMeter.xml</panel>
+	<panel id="loginAlert" x="80" y="50" hidden="true" hasTutorial="false">{panelData}/loginAlert.xml</panel>
+	<!--panel id="recipeCard" x="210" y="170" alwaysOnTop="true" hidden="true" closeable="true">recipeCard.xml</panel-->
+	<!--panel id="tutorial" x="0" y="71" alwaysOnTop="true" draggable="false" closeable="true" hidden="true" transition="none">tutorials.xml</panel-->
+	<!--panel id="musicalChairs" x="0" y="0" hidden="true" alwaysOnTop="true" transition="fade">{panelData}/musicalChairs.xml</panel-->
+	<!--panel id="fbConnectOrInvite" x="500" y="663" hidden="false" interfaceItem="true" transition="none">{panelData}/facebookLowerChromeButton.xml</panel-->   
+
+	<!-- ms21 - moved trading out of shops panelSet and into global, so that it can be triggered from diamond icon in the chrome -->
+	<panel id="tradeIngredients" x="65" y="57" alwaysOnTop = "true" hidden="true">{panelData}/tradeIngredients.xml</panel>
+	<panel id="tradeConfirm" x="48" y="40" alwaysOnTop = "true" hidden="true">{panelData}/tradeConfirm.xml</panel>
+
+	<panel id="warpPanel" x="0" y="0" alwaysOnTop = "true" hidden="true">{panelData}/warpPanel.xml</panel>
+	
+  </panels>
+	<sharedMedia>
+		<media id="emoticons" type="media">swf/emoticons.swf</media>
+	</sharedMedia>
+  <config>
+  </config>
+  <copy>
+	<teleportFail>You can't get there right now. Try again later.</teleportFail>
+	<teleportToHomeFail>Sorry, that home is full right now. Try again later.</teleportToHomeFail>
+	<teleportToFairyFail>You can't fly to that player right now. Try again later.</teleportToFairyFail>
+	<teleportToFairyInHomeFail>Sorry, this player is in a full home right now. Try flying to them again later.</teleportToFairyInHomeFail>
+	<teleportToBootedFairyHomeFail>This #GENDER#'s home and garden are not available right now.</teleportToBootedFairyHomeFail>
+	<teleportToFairyCraftingFail>Sorry, this player is busy Tailoring right now. Try flying to them later.</teleportToFairyCraftingFail>
+	<teleportToFairyCraftingFail100002>Sorry, this player is busy Baking right now. Try flying to them later.</teleportToFairyCraftingFail100002>
+	<teleportToFairyCraftingFail100003>Sorry, this player is busy Tinkering right now. Try flying to them later.</teleportToFairyCraftingFail100003>
+	<teleportToFairyGameFail>Sorry, this player is playing a game right now. Try flying to them later.</teleportToFairyGameFail>
+	<teleportToFairyQuietZoneFail>Sorry, this player is busy right now. Try flying to them later.</teleportToFairyQuietZoneFail>
+	<onBootedFromZone>This fairy's home and garden are not available right now.</onBootedFromZone>
+	<quit>Quit</quit>
+	<reconnect>Reconnect</reconnect>
+	<getLogin>Learning your name and talent...</getLogin>
+	<loginError>Your log-in information wasn't recognized - please try logging in again.</loginError>
+	<loginDuplicate>One of your other Fairies is entering Pixie Hollow. Please exit the game!</loginDuplicate>	
+	<homeLoad>Preparing your Fairy's home...</homeLoad>	
+	<DCServerConnect>Flying to Pixie Hollow...</DCServerConnect>
+	<acceptGameConnectionLost>Leaving Pixie Hollow...</acceptGameConnectionLost>
+	<DCServerLogin>Flying to the Pixie Dust Tree...</DCServerLogin>	
+	<DCConnectFail>Oops...there was a problem flying you into the world. Please try logging in again.</DCConnectFail>
+	<securityError>Oops...there was a problem entering Pixie Hollow. Please try logging in again.</securityError>
+	<socketClose>Oops...there was a problem reaching Pixie Hollow. Please try logging in again.</socketClose>
+	<IOError>Oops...there was a problem in Pixie Hollow. Please try logging in again.</IOError>
+	<gameConnectionLost>Oops...there was a problem with your connection to the game. Please try logging in again.</gameConnectionLost>
+	<goneIdleAndKicked>Your Fairy or Sparrow Man has been idle for more than #TIME# minutes. Please fly in again!</goneIdleAndKicked>
+	<banned>There has been a reported violation of our Terms of Use connected to this account. For safety purposes, we have placed a temporary hold on the account. For more details, please review the messages sent to the e-mail address associated with this account.</banned>
+	<suggestMinSpec>It looks like Pixie Hollow is running slowly on your computer. Would you like to switch to Basic Mode to speed things up?</suggestMinSpec>
+	<minSpecConfirm>You have now switched to Basic Mode! You can change back to Normal Mode at any time from the Options tab in your Leaf Journal.</minSpecConfirm>
+	<yes>Yes</yes>
+	<no>No</no>
+	<ok>OK</ok>
+	<go>Go</go>
+	<cancel>Cancel</cancel>
+	<noSpells1>Sorry, you can't enter the Wilderness yet. Visit Fawn, your animal-talent Mentor Fairy, to unlock your Talent Skills!</noSpells1>
+	<noSpells2>Sorry, you can't enter the Wilderness yet. Visit Rosetta, your garden-talent Mentor Fairy, to unlock your Talent Skills!</noSpells2>
+	<noSpells3>Sorry, you can't enter the Wilderness yet. Visit Iridessa, your light-talent Mentor Fairy, to unlock your Talent Skills!</noSpells3>
+	<noSpells4>Sorry, you can't enter the Wilderness yet. Visit Silvermist, your water-talent Mentor Fairy, to unlock your Talent Skills!</noSpells4>
+	<noSpells5>Sorry, you can't enter the Wilderness yet. Visit Tinker Bell, your tinker-talent Mentor Fairy, to unlock your Talent Skills!</noSpells5>
+	
+	<!-- TARGETED POP-UPS -->
+	<defaultPopupConfirm>Confirm</defaultPopupConfirm>
+	<defaultPopupCancel>Cancel</defaultPopupCancel>
+	<skipThisAd>Skip Ad in #SECONDS#</skipThisAd>
+	<differentTermsCopy>By clicking this ad you are leaving the Pixie Hollow website, where different terms of use and privacy policy will apply.</differentTermsCopy>
+	<adLoading>This ad is sponsored by...</adLoading>
+	<leaderboardGifts>You really know your way around Talent Games! Here's a Mega Trophy to prove it!</leaderboardGifts>
+	<leaderboardGiftsTitle>Congratulations!</leaderboardGiftsTitle>	
+	
+<!--
+	<gatewayTooltipPrefix>Fly To</gatewayTooltipPrefix>
+-->
+	<gatewayTooltipPrefix></gatewayTooltipPrefix>
+<!--
+	<shopGatewayTooltipPrefix>Visit</shopGatewayTooltipPrefix>
+	<minigameGatewayTooltipPrefix>Play</minigameGatewayTooltipPrefix>
+	<craftingGatewayTooltipPrefix>Enter</craftingGatewayTooltipPrefix>
+-->
+	<shopGatewayTooltipPrefix></shopGatewayTooltipPrefix>
+	<minigameGatewayTooltipPrefix></minigameGatewayTooltipPrefix>
+	<craftingGatewayTooltipPrefix></craftingGatewayTooltipPrefix>
+	<wildernessGatewayTooltipPrefix></wildernessGatewayTooltipPrefix>
+	<wildExitGatewayTooltipPrefix>EXIT</wildExitGatewayTooltipPrefix>
+<!-- gatewayClosedSuffix is now empty since this shows in the gateway signage -->
+	<gatewayClosedSuffix></gatewayClosedSuffix>
+	
+	<ballroomClosedMembers>The Ballroom is closed right now, but will exclusively open for all Members during select Pixie Hollow Events.</ballroomClosedMembers>
+	<lizziesGatewayBadge>Lizzy's Fairy Home is locked! Visit Tinker Bell and complete her new quest to get the key. </lizziesGatewayBadge>
+	<coliseumGatewayBadge>The Fairy Coliseum is locked! Visit Marina and complete her new quest to get the key. </coliseumGatewayBadge>
+	<iceCastleGatewayBadge>The Ice Palace is locked! Visit Silvermist to help with winter and get the key!</iceCastleGatewayBadge>
+	<frostedForestGatewayBadge>You need the Chilly Traveler Badge to fly into Frosted Forest! Visit Tink to help with the animal crossing and get the badge!</frostedForestGatewayBadge>
+	<spikesGatewayBadge><![CDATA[You need the Chilly Traveler Badge to fly into Spike's Sweet Shop! Visit Tink to help with the animal crossing and get the badge!]]></spikesGatewayBadge>
+	<troopRabbitGatewayItem><![CDATA[You need to be wearing a Troop Rabbit top to enter.  Visit Cassie's in Havendish Square.]]></troopRabbitGatewayItem>
+	<troopButterflyGatewayItem><![CDATA[You need to be wearing a Troop Butterfly top to enter.  Visit Cassie's in Havendish Square.]]></troopButterflyGatewayItem>
+	<troopOtterGatewayItem><![CDATA[You need to be wearing a Troop Otter top to enter.  Visit Cassie's in Havendish Square.]]></troopOtterGatewayItem>
+	<troopTurtleGatewayItem><![CDATA[You need to be wearing a Troop Turtle top to enter.  Visit Cassie's in Havendish Square.]]></troopTurtleGatewayItem>
+	<troopGlowwormGatewayItem><![CDATA[You need to be wearing a Troop Glowworm top to enter.  Visit Cassie's in Havendish Square.]]></troopGlowwormGatewayItem>
+	
+	<mermaidGatewayBadge>You can't go to Mermaid Grotto without the key! Visit Silvermist and complete her new quest to get in.</mermaidGatewayBadge>
+	<AFFoodBowl><![CDATA[You need to have a #ANIMAL# following you to use this feeding bowl!#NL##NL#Click GO to get one from Beck's Animal Nursery now.]]></AFFoodBowl>
+	<AFFoodBowlFull>Oops! These treats sure look tasty, but your #ANIMAL# is full.</AFFoodBowlFull>
+	
+	<invalidCraftError>Sorry, it looks like you can't make that now.</invalidCraftError>
+	<inventoryFullWarning>Sorry, you need to make some room in your inventory before you can get that.</inventoryFullWarning>
+	<unknownPlayerName>NotFound</unknownPlayerName>
+	<unknownPlayerNameReplacement>Guest###</unknownPlayerNameReplacement>
+	<gmAnnouncement>#NAME# is here!</gmAnnouncement>
+	<gmExit>#NAME# has left.</gmExit>
+	<partyInvite>#NAME# has invited you to their party!</partyInvite>
+	<partyInviteTitle>You're Invited!</partyInviteTitle>
+	<quest_response_1>Sorry, this quest is not available right now.</quest_response_1>
+	<quest_response_2>Sorry, this quest is only for Members.</quest_response_2>
+	<quest_response_3>Sorry, there is a problem with this quest</quest_response_3>
+	<quest_response_4>Sorry, this quest can only be completed by Members.</quest_response_4>
+	<quest_response_5>Sorry, there seems to be a problem with this quest step.</quest_response_5>
+	<quest_response_6>Sorry, you can't turn in this quest here!</quest_response_6>
+	<quest_response_7>Sorry, you can't turn in this quest yet!</quest_response_7>
+	<comingSoon>Coming Soon</comingSoon>
+  </copy>
+</panelSet>

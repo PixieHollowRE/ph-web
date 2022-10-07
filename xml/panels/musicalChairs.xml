@@ -1,0 +1,22 @@
+<panel>
+
+	<swfs>
+		<swf type="content">{panelContent}/musicalChairs.swf</swf>
+		<swf type="code">{panelCode}/musicalChairs.swf</swf>
+	</swfs>
+	<copy>
+		<start>Click 'join' to join the game</start>
+		<starthost>Click 'join' to join the game, and 'start' to start it</starthost>
+		<wait>Get ready to go!</wait>
+		<go>Quick! Click on a mushroom!!</go>
+		<personOut>Oh no! #PLAYER# is out! Better luck next time!</personOut>
+		<youOut>Whoops! You got out! I'm sure you'll do better next time!</youOut>
+		<youWon>Hurrah! You won! Great job!</youWon>
+		<watch>You're out for this round, but let's watch everyone else play!</watch>
+		<personWin>Yay! #PLAYER# won! Good job everyone!</personWin>
+		<claimed>You got it! Now wait for everyone else!</claimed>
+	</copy>
+	<config>
+		<hostPlayerName>Saffron Starglow</hostPlayerName>		
+	</config>
+</panel>

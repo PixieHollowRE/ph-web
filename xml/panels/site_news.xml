@@ -1,0 +1,40 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/coreWeb.swf</swf>
+		<swf type="code">{panelCode}/coreWeb.swf</swf>
+	</swfs>
+	<copy>
+		<header_content>Never Council News</header_content>
+		<history>Back</history>
+	</copy>
+	<config>
+		<!--
+		<wallpapercolor>0x443578</wallpapercolor>
+		-->
+		<iconbase>swf/avatar/icon.swf</iconbase>
+		<!--
+		<headergraphic>images/site_header_05.png</headergraphic>
+
+		<profileicons>swf/panel_content/site_icons.swf</profileicons>
+		-->
+		<sectionicons>swf/panel_content/section_icons.swf</sectionicons>
+		<css>css/stylesheet.css</css>
+		<panelsetbase>xml/panelSets/</panelsetbase>
+		<sectionicon bg="clear" fg="leaf2"/>
+		<icons>
+		  <icon icon_id="1" bg="clear" fg="leaf2"/>
+		  <icon icon_id="2" bg="clear" fg="leaf2"/>
+		  <icon icon_id="3" bg="clear" fg="leaf2"/>
+		  <icon icon_id="4" bg="clear" fg="leaf2"/>
+		  <icon icon_id="5" bg="clear" fg="leaf2"/>
+		  <icon icon_id="6" bg="clear" fg="leaf2"/>
+		  <icon icon_id="7" bg="clear" fg="leaf2"/>
+		  <icon icon_id="8" bg="clear" fg="leaf2"/>
+		  <icon icon_id="9" bg="clear" fg="leaf2"/>
+		</icons>
+		<pages>
+			<page>site_dynamiccontent/site_news/page1.xml</page>
+		</pages>
+		
+	</config>
+</panel>

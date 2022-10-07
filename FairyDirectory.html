@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Featured Fairies | Pixie Hollow | Disney Fairies</title>
+    <meta name="description" content="A directory of Fairies in Pixie Hollow."/>
+    <META NAME="ROBOTS" CONTENT="NONE">
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript" src="http://a.disney.go.com/detect/scripts/master_flash_light.js"></script>
+<script type="text/javascript" src="http://a.disney.go.com/fairies/pixiehollow/js/javascripts.js"></script>
+<script type="text/javascript" src="fairies_framework.js"></script>
+<script type="text/javascript" src="environment.js"></script>
+		<link rel="icon" href="http://a.disney.go.com/fairies/wings.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="http://a.disney.go.com/fairies/wings.ico" type="image/x-icon" />
+<script type="text/javascript">
+	 DetectFlash("10","http://disney.go.com/fairies/pixiehollow/flashupgrade.html");
+</script>
+<script type="text/javascript">
+	var varCssPath = baseSwfPath+"css/main.css";
+	document.write('<style type="text/css">@import url('+varCssPath+');</style>');
+</script>
+
+</head>
+<body align="center">
+	<!-- Chrome -->
+	<div id="chrome" align="center">
+		<script type="text/javascript" src="http://a.disney.go.com/fairies/pixiehollow/js/breadcrumb.js"></script>
+		<script type="text/javascript" src="http://ahome.disney.go.com/globalelements/chrome.js?chromeStyle=darkGray"></script>
+	</div>
+	<div id="wrapper" align="center" class="longbg">
+		<div id="maincontent" align="center">
+						<!-- **** EMS MESSAGING **** -->
+			<div id="emsg">
+		    	<div class="emsg_inner" id="EMSText"><span></span></div>
+		    </div>
+			<!-- **** END EMS MESSAGING **** -->
+			<div id="flashcontent">
+				<div id="innerflashcontent">
+				</div>
+			</div>
+
+			<script type="text/javascript">
+
+				var varSwfPath = baseSwfPath+"swf/container.swf"
+					
+				var flashvars = {};
+				flashvars.session = "xml/sessions/fairyDirectory.xml";
+				flashvars.currentUrl = getCurrentUrl()	
+				flashvars.htmlEnvironment = var_html_environment;
+				flashvars.base = baseSwfPath;
+					
+				var flashparams = {};
+				flashparams.allowScriptAccess = "always"
+				flashparams.bgcolor = "#060d20"
+				flashparams.wmode = "default"
+				flashparams.base = baseSwfPath;
+				
+				var attributes = {
+					id: "pixiehollowcontent",
+					 name: "pixiehollowcontent"
+				};
+				
+				swfobject.embedSWF(varSwfPath, "flashcontent", "994", "1800", "10.0.0","http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, flashparams, attributes);	
+				
+			</script>
+		</div>
+		<!-- Footer -->
+		<div id="footer">
+			<script type="text/javascript" src="http://ahome.disney.go.com/globalelements/footer.js?footerDisplayMode=legalOnly&footerStyleSet=dark"></script>
+		</div>
+	</div>
+<!-- START DOL Web Analytics 1.0 -->
+<script type="text/javascript" src="http://aglobal.go.com/stat/dolWebAnalytics.js"></script>
+<script type="text/javascript">
+cto=new CTO();
+cto.account="pixiehollow";
+cto.category="dgame";
+cto.site="fai";
+cto.siteSection="pixiehollow:website:html";
+cto.pageName="fairydirectory_html";
+cto.contentType="regular";
+cto.property="fai";
+cto.track();//Required. Do not remove.
+</script>
+<!-- END DOL Web Analytics 1.0 -->
+</body>
+</html>
+

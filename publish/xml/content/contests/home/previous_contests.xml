@@ -1,0 +1,58 @@
+<page>
+	<config>
+
+		<tagline>
+			<tagline align="center" font="pristina" title="true" titlex="0" titley="0" yOffset="20">header</tagline>
+		</tagline>
+
+		<types>
+			<!--<tagline font="pristina">tagline</tagline>-->	
+			<contestcopy yOffset="20">body1</contestcopy>			
+		</types>
+
+						
+		<entrybutton type="multicolumn">
+			<!--<button btntype="btn_purple" type="button" xOffset="300" yOffset="10"  target="blank" url="http://a.disney.go.com/fairies/pixiehollow/pdfs/Fairy_Friend_art_contest.pdf"><![CDATA[<span class="newsbodytext">Mail-In</span>]]></button>-->
+			<!--<button btntype="btn_purple" type="button" xOffset="310" yOffset="10" event="onContestEntry"><![CDATA[<span class="newsbodytext">Online Entry</span>]]></button>-->
+		</entrybutton>
+			
+		<types>
+			<contestcopy align="center" xOffset="-30" yOffset="10">body2</contestcopy>			
+		</types>
+		
+			
+	</config>
+
+	<copy>
+	
+    
+
+		<!--FRIEND IN PROGRESS-->
+		<header><![CDATA[<span class="newsbodytext">Pixie Hollow Sweepstakes and Contest Winners</span>]]></header>		
+		<body1><![CDATA[<span class="newsbodytext"><br>Browse through the lucky winners of Pixie Hollow's past sweepstakes and contests! </span>]]></body1>		
+		<body2><![CDATA[
+			<span class="newsbodytext"><font face="pristina" size="30" color="#fff000">View Previous Winners</font>
+			<br><br>
+			<a href="spring_sweepstakes_winners.xml">Spring Sweepstakes Winners</a><br><br>
+			<a href="happy_hollow_days_winners.xml">Happy Hollow-days Sweepstakes Winners</a><br><br>
+			<a href="fashion_design_winners.xml">Fairy Fashion Design Contest Winners</a><br><br>
+			<a href="campfire_winners.xml">Campfire Story Writing Contest Winners</a><br><br>
+			<a href="designfairyhouse_winners.xml">Design a Fairy House Art Contest Winner</a><br><br>
+			<a href="pixieplaypack_winners.xml">Pixie Play Pack Sweepstakes Winners</a><br><br>
+			<a href="designascepter_winners.xml">Design a Scepter Art Contest Winners</a><br><br>
+			<a href="hiddenleafsweepstakes_winners.xml">Hidden Leaf Sweepstakes Winners</a><br><br>
+			<a href="summersweepstakes_winners.xml">Pixie Hollow Summer Vacation Sweepstakes Winner</a><br><br>
+			<a href="fairypartypiccontest_winners.xml">Fairy Party Screenshot Contest Winners</a><br><br>
+			<a href="fairyfriendartcontest_winners.xml">Fairy Friend Art Contest Winners</a><br><br>
+			<a href="vacationcelebration_winners.xml">Vacation Celebration Sweepstakes Winners</a><br><br>
+			<a href="butterflybuddy_winners.xml">Butterfly Buddy Sweepstakes Winners</a><br><br>
+			<a href="clickandplay_winners.xml">Click and Play Sweepstakes Winners</a><br><br>
+			<a href="tinksweepstakes_winners.xml">Tinker Bell Sweepstakes Winners</a><br><br>
+			<a href="pumpkinpatch_winners.xml">Pixie Pumpkin Patch Art Contest Winners </a><br><br>
+			</span>
+		]]></body2>
+
+		
+		
+	</copy>
+</page>

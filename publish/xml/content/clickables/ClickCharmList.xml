@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ClickCharmList imageType="png" imgRootPath="{publishPanelImages}/clickables">
+	<charms>
+		<charm id="394497" image="tink"></charm>
+		<charm id="134742528" image="blue_butterfly"></charm>
+		<charm id="101123328" image="pastel_flowers"></charm>
+		<charm id="67504128" image="rosetta"></charm>
+		<charm id="33882369" image="raspberry"></charm>
+		<charm id="263169" image="rose"></charm>
+		<charm id="67239936" image="silvermist"></charm>
+		<charm id="33620736" image="shell"></charm>
+		<charm id="1536" image="pearl"></charm>
+		<charm id="134744064" image="fawn"></charm>
+		<charm id="101122305" image="leaf"></charm>
+		<charm id="67503105" image="lady_bug"></charm>
+		<charm id="134479872" image="iridessa"></charm>
+		<charm id="100860672" image="nut"></charm>
+		<charm id="67241472" image="lightning_bug"></charm>
+		<charm id="33622272" image="vidia"></charm>
+		<charm id="513" image="mushroom"></charm>
+		<charm id="134743041" image="dragonfly"></charm>
+		<charm id="34013184" image="queen_clarion"></charm>
+		<charm id="393984" image="walnut"></charm>
+		<charm id="134481408" image="feather"></charm>
+		<charm id="100862208" image="blue_bird"></charm>
+		<charm id="67240449" image="fish"></charm>
+		<charm id="33621249" image="frog"></charm>
+		<charm id="101253120" image="sunflower"></charm>
+		<charm id="67633920" image="daisy"></charm>
+		<charm id="34014720" image="orchid"></charm>
+		<charm id="134480385" image="mouse"></charm>
+		<charm id="100861185" image="acorn"></charm>
+		<charm id="131328" image="rabbit"></charm>
+		<charm id="134218752" image="fairy_mary"></charm>
+		<charm id="67635456" image="clickables_logo_Y_charm"></charm>
+	</charms>
+
+	<copy>
+		<_394497>
+			<category>Famous Fairies</category>
+			<inGameItem>Tinker Fluff Necklace</inGameItem>
+			<name>Tink Charm</name>
+		</_394497>
+		<_134742528>
+			<category>Animal</category>
+			<inGameItem>Butterfly Glider</inGameItem>
+			<name>Blue Butterfly Charm</name>
+		</_134742528>
+		<_101123328>
+			<category>Garden</category>
+			<inGameItem>Blooming Orchid Lamp</inGameItem>
+			<name>Pastel Flowers Charm</name>
+		</_101123328>
+		<_67504128>
+			<category>Famous Fairies</category>
+			<inGameItem>Blooming Rose Headband</inGameItem>
+			<name>Rosetta Charm</name>
+		</_67504128>
+		<_33882369>
+			<category>Garden</category>
+			<inGameItem>Raspberry Puff Top</inGameItem>
+			<name>Raspberry Charm</name>
+		</_33882369>
+		<_263169>
+			<category>Garden</category>
+			<inGameItem>Tiered Rose Petal Skirt</inGameItem>
+			<name>Rose Charm</name>
+		</_263169>
+		<_67239936>
+			<category>Famous Fairies</category>
+			<inGameItem>Studded Seahorse Comb</inGameItem>
+			<name>Silvermist Charm</name>
+		</_67239936>
+		<_33620736>
+			<category>Nature</category>
+			<inGameItem>Secret Shell Necklace</inGameItem>
+			<name>Shell Charm</name>
+		</_33620736>
+		<_1536>
+			<category>Nature</category>
+			<inGameItem>Pure Pearl Barette</inGameItem>
+			<name>Pearl Charm</name>
+		</_1536>
+		<_134744064>
+			<category>Famous Fairies</category>
+			<inGameItem>Soft Plume Barette</inGameItem>
+			<name>Fawn Charm</name>
+		</_134744064>
+		<_101122305>
+			<category>Garden</category>
+			<inGameItem>Timberleaf Sash</inGameItem>
+			<name>Leaf Charm</name>
+		</_101122305>
+		<_67503105>
+			<category>Animal</category>
+			<inGameItem>Ladybug Longskirt</inGameItem>
+			<name>Lady Bug Charm</name>
+		</_67503105>
+		<_134479872>
+			<category>Famous Fairies</category>
+			<inGameItem>Bellflower Chandelier</inGameItem>
+			<name>Iridessa Charm</name>
+		</_134479872>
+		<_100860672>
+			<category>Nature</category>
+			<inGameItem>Chestnut Basin</inGameItem>
+			<name>Nut Charm</name>
+		</_100860672>
+		<_67241472>
+			<category>Animal</category>
+			<inGameItem>Misty Petal Lamp</inGameItem>
+			<name>Lightning Bug Charm</name>
+		</_67241472>
+		<_33622272>
+			<category>Famous Fairies</category>
+			<inGameItem>Raven Feather Skirt</inGameItem>
+			<name>Vidia Charm</name>
+		</_33622272>
+		<_513>
+			<category>Nature</category>
+			<inGameItem>Toadstool Lamp</inGameItem>
+			<name>Mushroom Charm</name>
+		</_513>
+		<_134743041>
+			<category>Animal</category>
+			<inGameItem>Dragonfly Gown</inGameItem>
+			<name>Dragonfly Charm</name>
+		</_134743041>
+		<_34013184>
+			<category>Famous Fairies</category>
+			<inGameItem>Gold Glimmer Necklace</inGameItem>
+			<name>Queen Clarion Charm</name>
+		</_34013184>
+		<_393984>
+			<category>Nature</category>
+			<inGameItem>Wild Walnut Basket</inGameItem>
+			<name>Walnut Charm</name>
+		</_393984>
+		<_134481408>
+			<category>Nature</category>
+			<inGameItem>Feather Pillow</inGameItem>
+			<name>Feather Charm</name>
+		</_134481408>
+		<_100862208>
+			<category>Animal</category>
+			<inGameItem>Indigo Feather Belt</inGameItem>
+			<name>Bluebird Charm</name>
+		</_100862208>
+		<_67240449>
+			<category>Animal</category>
+			<inGameItem>Riverstone Stand</inGameItem>
+			<name>Fish Charm</name>
+		</_67240449>
+		<_33621249>
+			<category>Animal</category>
+			<inGameItem>Lilypad Rug</inGameItem>
+			<name>Frog Charm</name>
+		</_33621249>
+		<_101253120>
+			<category>Garden</category>
+			<inGameItem>Sunpetal Loveseat</inGameItem>
+			<name>Sunflower Charm</name>
+		</_101253120>
+		<_67633920>
+			<category>Garden</category>
+			<inGameItem>Shimmering Daisy Skirt</inGameItem>
+			<name>Daisy Charm</name>
+		</_67633920>
+		<_34014720>
+			<category>Garden</category>
+			<inGameItem>Orchid Belt</inGameItem>
+			<name>Orchid Charm</name>
+		</_34014720>
+		<_134480385>
+			<category>Animal</category>
+			<inGameItem>Squeaks</inGameItem>
+			<name>Mouse Charm</name>
+		</_134480385>
+		<_100861185>
+			<category>Nature</category>
+			<inGameItem>Acorn Teapot</inGameItem>
+			<name>Acorn Charm</name>
+		</_100861185>
+		<_131328>
+			<category>Animal</category>
+			<inGameItem>Blue-Tipped Potted Plant</inGameItem>
+			<name>Rabbit Charm</name>
+		</_131328>
+		<_134218752>
+			<category>Famous Fairies</category>
+			<inGameItem>Fairy Mary Hair Clip</inGameItem>
+			<name>Fairy Mary Charm</name>
+		</_134218752>
+		<_67635456>
+			<category></category> 
+			<inGameItem>Pea Pod Slippers</inGameItem> 
+			<name>Special Item</name> 
+		</_67635456>
+	</copy>
+</ClickCharmList>

@@ -1,0 +1,16 @@
+<panelSet>
+	<panels>
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{publishPanelData}/leftSideStatic.xml</panel>
+		<panel id="nevernews" x="225" y="120" alwaysOnTop="true" transition="none">{publishPanelData}/nevernews.xml</panel>
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>true</headercontrols>
+		<trackingid>nevernews</trackingid>
+		<sectionid>community</sectionid>
+		<pageid>nevernews</pageid>
+	</config>
+	<copy>
+		
+	</copy>
+</panelSet>

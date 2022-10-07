@@ -1,0 +1,177 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/caterCutting.swf</swf>
+		<swf type="code">{panelCode}/caterCutting.swf</swf>
+	</swfs>
+	<copy>
+		<mainTitle>Tailoring</mainTitle>
+		<title>Caterpillar Cutting</title>
+		<timeBonus>TIME BONUS</timeBonus>
+		<grabbedBonus>Time Bonus!</grabbedBonus>
+		<instr_title target = "instructions.instructionsContainer.caption">How to Play</instr_title>
+		<instruction0>Move the mouse left and right to steer the caterpillar.</instruction0>
+		<instruction1>The caterpillar is cutting your fabric pieces, so keep him nibbling carefully along the dotted line.</instruction1>
+		<instruction2>Use the compass at the bottom to help steer.</instruction2>
+		<instruction3>Click the mouse button to JUMP hurdles.</instruction3>
+		<wrongWay>Wrong way!</wrongWay>
+		<jumpNow>Click to jump!</jumpNow>
+
+		<host0WrongWay0>Yikes! That's the wrong way!</host0WrongWay0>
+		<host0WrongWay1>Wrong way! Turn around, silly!</host0WrongWay1>
+		<host0WrongWay2>Oops! Other way, other way!</host0WrongWay2>
+		<host1WrongWay0>Oh dear, we're going the wrong way!</host1WrongWay0>
+		<host1WrongWay1>Turn around, that's the wrong way!</host1WrongWay1>
+		<host1WrongWay2>That's the wrong direction, my dear, turn round!</host1WrongWay2>
+
+		<host0Hurdle0>You have to jump the hurdles!</host0Hurdle0>
+		<host0Hurdle1>Oh, no! Jump those hurdles!</host0Hurdle1>
+		<host0Hurdle2>Don't hit the hurdles. Jump them!</host0Hurdle2>
+		<host1Hurdle0>You have to jump the hurdles!</host1Hurdle0>
+		<host1Hurdle1>Oh, no! Jump those hurdles!</host1Hurdle1>
+		<host1Hurdle2>Don't hit the hurdles. Jump them!</host1Hurdle2>
+		
+		<host0Star0>Yippee, ya got a star!</host0Star0>
+		<host0Star1>I am SEW impressed! Hee hee!</host0Star1>
+		<host1Star0>How lovely, we got a star!</host1Star0>
+		<host1Star1>Quite a flitterific job!</host1Star1>
+		<host0Encourage0>You're really CUT OUT for this task, ha!</host0Encourage0>
+		<host0Encourage1>Wow, that's one hungry caterpillar!</host0Encourage1>
+		<host0Encourage2>Help the caterpillar nibble carefully along the line!</host0Encourage2>
+		<host1Encourage0>We are quite a caterpillar-cutting natural!</host1Encourage0>
+		<host1Encourage1>Let's move carefully so our cuts are precise!</host1Encourage1>
+		<host1Encourage2>Remember, we need to cut carefully!</host1Encourage2>
+		
+
+		<gameOverQuitMessage>Continue</gameOverQuitMessage>
+		<gameOverTitle>Done!</gameOverTitle>
+		<awesomeString0>Awesome Job!</awesomeString0>
+		<awesomeString1>Awesome Job!</awesomeString1>
+		<greatString0>Great Job!</greatString0>
+		<greatString1>Great Job!</greatString1>
+		<goodString0>Good Job!</goodString0>
+		<goodString1>Good Job!</goodString1>
+		<notGoodString0>Nice Try!</notGoodString0>
+
+		<host0NextLevel>Nice nibbling! Get ready for the next set!</host0NextLevel>
+		<host1NextLevel>Mmm, there is a bit more to cut, so we must keep that caterpillar nibbling!</host1NextLevel>
+		<host0LastLevel>Here ya go! The last piece!</host0LastLevel>
+		<host1LastLevel>We are almost done, my dear. One more piece remains.</host1LastLevel>
+
+
+		<host0Poor0>Well, that was a good run. I betcha you'll do better next time!</host0Poor0>
+		<host0Poor1>Not bad cutting. Keep at it!</host0Poor1>
+		<host0Poor2>Keep up the cuttin' practice - I know ya can do better!</host0Poor2>
+		<host0Poor3>Whatever ya do, don't give up! A little more practice, and you'll be cutting like a pro!</host0Poor3>
+
+		<host1Poor0>Let's give the caterpillar a rest, shall we? I think we'll do better next time.</host1Poor0>
+		<host1Poor1>Dearie me, we need more practice cutting, don't we? </host1Poor1>
+		<host1Poor2>We all have our difficulties cutting some days, my dear. More practice is the key!</host1Poor2>
+		<host1Poor3>My my, handling that caterpillar can be a real challenge, can't it? More practice will help.</host1Poor3>
+
+		<host0Good0>That was a thimble-rific job! Have ya cut this pattern before?</host0Good0>
+		<host0Good1>Hey-oh! That was some snappy caterpillar cutting! Ya make me proud!</host0Good1>
+		<host0Good2>Great chomping caterpillars! You're getting pretty good!</host0Good2>
+		<host0Good3>Hey, you're pretty good with caterpillars, ya know that? In fact, I think he likes ya!</host0Good3>
+		<host1Good0>Not a bad cut, my dear, not bad at all.</host1Good0>
+		<host1Good1>Lovely cutting, my dear. And remember, we'll get even better with regular practice!</host1Good1>
+		<host1Good2>My my, we certainly have a knack for cutting, don't we?</host1Good2>
+		<host1Good3>Lovely cutting! We have a way with caterpillars, don't we?</host1Good3>
+
+		<host0Great0>Wow-ee! You're not a cutting-talent, are ya?</host0Great0>
+		<host0Great1>Way ta go! I think ya got the makings of a tailoring natural!</host0Great1>
+		<host0Great2>That's some wow-ee precision cutting there! You're great!</host0Great2>
+		<host0Great3>Well, knot my thread, that was super-spectacular cutting! Ya made that caterpillar really happy!</host0Great3>
+		<host1Great0>We certainly have quite a talent for caterpillar cutting!</host1Great0>
+		<host1Great1>We're quite impressed! Superb cutting!</host1Great1>
+		<host1Great2>Quite lovely caterpillar cutting, my dear!</host1Great2>
+		<host1Great3>We've been practicing our cutting, haven't we? Lovely work!</host1Great3>
+
+		<host0Awesome0>Okay, I'm totally wowed. That was super tailor-tastic cutting!</host0Awesome0>
+		<host0Awesome1>Say, ya might be the best caterpillar cutter I've ever seen! </host0Awesome1>
+		<host0Awesome2>Your cutting skills are caterpillar-ific!</host0Awesome2>
+		<host0Awesome3>Now that's what I call caterpillar-ific cutting! You're the best!</host0Awesome3>
+		<host1Awesome0>Lovely, my dear! What amazing cutting skills we have!</host1Awesome0>
+		<host1Awesome1>This just goes to show that practice does make for a perfect cut!</host1Awesome1>
+		<host1Awesome2>Astounding, my dear!  We couldn't have cut it out better!</host1Awesome2>
+		<host1Awesome3>We're quite a superb cutter now, aren't we! Even the caterpillar was impressed!</host1Awesome3>
+
+		<host0>Bobbin</host0>
+		<host1>Mendy</host1>
+	</copy>
+	<config>
+		<timeBonusXPosition>760</timeBonusXPosition>
+		<timeBonusYPosition>340</timeBonusYPosition>
+		<compassX>440</compassX>
+		<compassY>480</compassY>		
+		<levelPrefix>caterCutting_levels</levelPrefix>
+		<backgroundSwfPath>swf/minigame_assets/</backgroundSwfPath>
+		<playwidth>878</playwidth>
+		<playheight>507</playheight>
+
+		<maxspeed>4.0</maxspeed>
+		<minspeed>4.0</minspeed>
+		<basespeed>1.0</basespeed>
+		<maxturn>3.5</maxturn>
+		<minturn>0.0</minturn>
+		<maxheadrot>20.0</maxheadrot>
+		<minheadrot>0.0</minheadrot>
+		<maxspeedcomp>1.0</maxspeedcomp>
+		<minspeedcomp>1.0</minspeedcomp>
+
+		<turnscalefactor>0.3</turnscalefactor>
+		
+		<!--
+		<rotLowerAsymp>0.0</rotLowerAsymp>
+		<rotUpperAsymp>100.0</rotUpperAsymp>
+		<rotMaxTime>160.0</rotMaxTime>
+		<rotGrowthRate>0.07</rotGrowthRate>
+		<rotMaxAsymp>0.5</rotMaxAsymp>
+		-->
+		<rotLowerAsymp>0.0</rotLowerAsymp>
+		<rotUpperAsymp>100.0</rotUpperAsymp>
+		<rotMaxTime>160.0</rotMaxTime>
+		<rotGrowthRate>0.02</rotGrowthRate>
+		<rotMaxAsymp>0.5</rotMaxAsymp>
+
+		<posLowerAsymp>0.0</posLowerAsymp>
+		<posUpperAsymp>100.0</posUpperAsymp>
+		<posMaxTime>100.0</posMaxTime>
+		<posGrowthRate>0.07</posGrowthRate>
+		<posMaxAsymp>0.5</posMaxAsymp>
+
+		<headDist>20</headDist>
+		<minSpecHeadDist>50</minSpecHeadDist>
+
+		<bitePosVar>8</bitePosVar>
+		<lineBiteSize>30</lineBiteSize>
+		<maxBiteSize>20</maxBiteSize>
+		<minBiteSize>17</minBiteSize>
+
+		<borderSpacing>45</borderSpacing>
+		<finishedRatio>1.4</finishedRatio>
+		<bonusDistTolerance>15</bonusDistTolerance>
+		<bonusMapScale>0.5</bonusMapScale>
+		<bonusSmallScale>0.5</bonusSmallScale>
+
+		<backTrackHistory>2</backTrackHistory>
+
+		<ikAngle>35</ikAngle>
+		<ikDistance>28</ikDistance>
+
+		<!-- viewRadius>250</viewRadius -->
+		<viewRadius>180</viewRadius>
+		<wiggleMaxSpeed>5</wiggleMaxSpeed>
+		<bugX>440</bugX>
+		<bugY>253</bugY>
+		<debugMode>0</debugMode>
+
+		<awesomePercent>96</awesomePercent>
+		<greatPercent>81</greatPercent>
+		<goodPercent>51</goodPercent>
+		<penaltyPercent>6.5</penaltyPercent>
+
+		<colorPalette>3</colorPalette>
+	</config>
+</panel>
+

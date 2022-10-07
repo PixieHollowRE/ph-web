@@ -1,0 +1,18 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/sittingMenu.swf</swf>
+		<swf type="code">{panelCode}/sittingMenu.swf</swf>
+	</swfs>
+	<copy>
+		<tooltipSitLabel>Sit</tooltipSitLabel>
+		<tooltipFlyLabel>Fly</tooltipFlyLabel>
+	</copy>
+	<config>
+		<types>
+			<type id="default" label="default" />
+			<!-- <type id="crosslegged" label="cross-legged" /> -->
+		</types>
+		<delayconfig sitdelayactive="true" sitdelay="3" flipdelay="3" />
+		<sitRange max="0" />
+	</config>
+</panel>

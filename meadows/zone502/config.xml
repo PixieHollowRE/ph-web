@@ -1,0 +1,351 @@
+<zone>
+  <name>The Ballroom</name>
+  <zoneID>502</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow502</audioLibrary>
+  <audioLibrary tags="Meadow_Spring">meadow502Spring</audioLibrary>
+  <audioLibrary tags="Meadow_Spring_Tea">meadow502Spring</audioLibrary>
+  <audioLibrary tags="Meadow_Summer_Ball_Open,Meadow_CampPixie2012">meadow502Hawaii</audioLibrary>
+  <audioLibrary tags="Meadow_Autumn_Ball_Open,Meadow_Autumn">meadow502Autumn</audioLibrary>
+  <audioLibrary tags="Meadow_Ballroom_Lily">meadow502Autumn</audioLibrary>
+  <audioLibrary tags="Meadow_Lizzy_Ballroom">meadow502Autumn</audioLibrary>
+  <audioLibrary tags="Meadow_SpringPrep">meadow502Generic</audioLibrary>
+  <audioLibrary tags="Meadow_Fairy_Friendship_2012">meadow502Generic</audioLibrary>
+  <audioLibrary tags="Meadow_SpringCelebration">meadow502Spring</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="1464" height="1000" locked="true">
+        <image x="0" y="0" type="none" tag="Meadow_WinterWonder2012">Ballroom_sky_01.swf</image>
+        <image x="0" y="0" type="none">Ballroom_SpringBegins_sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="1404" height="940">
+        <image x="0" y="0" type="none">Ballroom_far_02.swf</image>
+      </layer>
+      <layer type="ground" width="1464" height="1000">
+        <image x="0" y="0" type="merge" tag="Meadow_Spring_Celebration">action_SpringBegins_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Spring_Tea">action_SpringBegins_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Ballroom_SummerCelebration">action_CampPixieDust_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFeast2010">action_Autumn2010_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMasq2010">action_AnimalMasq2010_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Ballroom_Lily">action_Autumn2010_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Lizzy_Ballroom">action_AutumnEquinoxLizzys_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WinterWonder2010">action_Winter2010_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Friendship2011">action_FairyFriendship2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringCelebration">action_SpringBegins2010_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Ball_NeverDove">action_SpringBegins_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Summer2011">action_Meadow_Summer2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMothers2011">action_Meadow_AnimalMothers2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Animal_Games">action_Meadow_Animal_Games_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Light_Games">action_Meadow_Light_Games_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Garden_Games">action_Meadow_Garden_Games_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Water_Games">action_Meadow_Water_Games_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_GWL2011">action_Winter2010_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Ballroom_GWL2011">action_Winter2010_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Ballroom_FairyFeast2011">action_Ballroom_FairyFeast_2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringEquinox_2012_Open">action_Spring_Equinox_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_NeverDove_2012_Open">action_NeverDoveEgg_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Fairy_Friendship_2012">action_FairyFriendship_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_MothersDay2012">action_MothersDay2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Tinker_Games">action_Meadow_Tinker_Games_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Masquerade2012">action_Meadow_AnimalMasquerade_2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFeast2012">action_Meadow_FairyFeast_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_ArtMonth2012">action_AutumnEquinoxLizzys_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Sister2012">action_Meadow_Sister_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WinterLightup2012">action_Meadow_Winter_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WinterWonder2012">action_Winter2010_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AutumnEquinox2012">action_Autumn_Equinox_2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringPrep">action_SpringCelebPrep_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFriendship">action_FairyFriendship_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_MothersDay">action_Meadow_AnimalMothers2013_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringFlood">action_Meadow_SpringCrisis_2013_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_NeverDove">action_NeverDoveEgg_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringEquinox">action_SpringBegins2010_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Spring">action_Spring_Equinox_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_Camp">action_Meadow_CampPixie2012_03.swf</image>
+        <image x="0" y="0" type="merge">action_03.swf</image>
+      </layer>
+      <layer type="normal" width="1444" height="1000" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_Spring_Celebration">Ballroom_SpringBegins_foreground_04.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_Spring_Tea">Ballroom_SpringBegins_foreground_04.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_SpringCelebration">Ballroom_foreground_04.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_WinterLightup2012">Ballroom_foreground_winter_04.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_WinterWonder2012">Ballroom_foreground_winter_04.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy">Ballroom_foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="592" y="489">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>ballroom_standard_FINAL</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Winter">
+      <id>WinterBallroom_FINAL</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Spring">
+      <id>SpringBallroom</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_CampPixie2012">
+      <id>HawaiiBallroom</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Autumn_Ball_Open,Meadow_Autumn">
+      <id>AutumnBallroom</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Ballroom_Lily">
+      <id>AutumnBallroom</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Lizzy_Ballroom">
+      <id>AutumnBallroom</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_SpringPrep">
+      <id>ballroomStandard</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Fairy_Friendship_2012">
+      <id>ballroomStandard</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_MothersDay2012">
+      <id>SpringBallroom</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <hotspots>
+    <hotspot tags="Meadow_SpringEquinox" id="27618" x="610" y="340" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="6" playType="keyframe" itemEventId="0" tagId="9"/>
+    <hotspot tags="Meadow_Friendship2011" id="27620" x="507" y="653" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="2">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="36" frequency="1" win="false"/>
+        <keyframe number="114" frequency="1" win="false"/>
+        <keyframe number="151" frequency="1" win="false"/>
+        <keyframe number="206" frequency="1" win="false"/>
+      </keyframes>
+      <badges>
+        <badge event="friendship_snowballfight" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Friendship2011" id="27619" x="589" y="594" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="3">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="35" frequency="1" win="false"/>
+        <keyframe number="69" frequency="1" win="false"/>
+        <keyframe number="106" frequency="1" win="false"/>
+        <keyframe number="145" frequency="1" win="false"/>
+      </keyframes>
+      <badges>
+        <badge event="friendship_snowballfight" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Friendship2011" id="27621" x="389" y="733" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="4">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="38" frequency="1" win="false"/>
+        <keyframe number="82" frequency="1" win="false"/>
+        <keyframe number="123" frequency="1" win="false"/>
+        <keyframe number="170" frequency="1" win="false"/>
+      </keyframes>
+      <badges>
+        <badge event="friendship_snowballfight" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Friendship2011" id="27622" x="870" y="601" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="5">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="41" frequency="1" win="false"/>
+        <keyframe number="82" frequency="1" win="false"/>
+        <keyframe number="119" frequency="1" win="false"/>
+        <keyframe number="156" frequency="1" win="false"/>
+      </keyframes>
+      <badges>
+        <badge event="friendship_snowballfight" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Friendship2011" id="27623" x="983" y="647" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="6">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="46" frequency="1" win="false"/>
+        <keyframe number="108" frequency="1" win="false"/>
+        <keyframe number="181" frequency="1" win="false"/>
+        <keyframe number="225" frequency="1" win="false"/>
+      </keyframes>
+      <badges>
+        <badge event="friendship_snowballfight" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Snowball_Fight" id="27593" x="507" y="653" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="2">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="36" frequency="1" win="false"/>
+        <keyframe number="105" frequency="1" win="false"/>
+        <keyframe number="144" frequency="1" win="false"/>
+        <keyframe number="199" frequency="1" win="false"/>
+      </keyframes>
+      <badges>
+        <badge event="ballroom_snowballfight" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Snowball_Fight" id="27593" x="507" y="653" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="2">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="36" frequency="1" win="false"/>
+        <keyframe number="105" frequency="1" win="false"/>
+        <keyframe number="144" frequency="1" win="false"/>
+        <keyframe number="199" frequency="1" win="false"/>
+      </keyframes>
+      <badges>
+        <badge event="ballroom_snowballfight" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Snowball_Fight" id="27593" x="507" y="653" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="2">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="36" frequency="1" win="false"/>
+        <keyframe number="105" frequency="1" win="false"/>
+        <keyframe number="144" frequency="1" win="false"/>
+        <keyframe number="199" frequency="1" win="false"/>
+      </keyframes>
+      <badges>
+        <badge event="ballroom_snowballfight" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Snowball_Fight" id="27592" x="589" y="594" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="3">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="35" frequency="1" win="false"/>
+        <keyframe number="69" frequency="1" win="false"/>
+        <keyframe number="106" frequency="1" win="false"/>
+        <keyframe number="144" frequency="1" win="false"/>
+      </keyframes>
+      <badges>
+        <badge event="ballroom_snowballfight" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Snowball_Fight" id="27594" x="389" y="733" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="4">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="37" frequency="1" win="false"/>
+        <keyframe number="87" frequency="1" win="false"/>
+        <keyframe number="122" frequency="1" win="false"/>
+        <keyframe number="169" frequency="1" win="false"/>
+      </keyframes>
+      <badges>
+        <badge event="ballroom_snowballfight" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Snowball_Fight" id="27595" x="870" y="601" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="5">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="39" frequency="1" win="false"/>
+        <keyframe number="80" frequency="1" win="false"/>
+        <keyframe number="117" frequency="1" win="false"/>
+        <keyframe number="154" frequency="1" win="false"/>
+      </keyframes>
+      <badges>
+        <badge event="ballroom_snowballfight" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Snowball_Fight" id="27596" x="983" y="647" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="6">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="46" frequency="1" win="false"/>
+        <keyframe number="108" frequency="1" win="false"/>
+        <keyframe number="181" frequency="1" win="false"/>
+        <keyframe number="224" frequency="1" win="false"/>
+      </keyframes>
+      <badges>
+        <badge event="ballroom_snowballfight" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Snowball_Fight" id="27597" x="1068" y="726" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="7">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="38" frequency="1" win="false"/>
+        <keyframe number="73" frequency="1" win="false"/>
+        <keyframe number="118" frequency="1" win="false"/>
+        <keyframe number="161" frequency="1" win="false"/>
+      </keyframes>
+      <badges>
+        <badge event="ballroom_snowballfight" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_SpringPrep" id="27614" x="763" y="625" setVelvetRope="0" shared="true" playType="full" itemEventId="0" tagId="8"/>
+    <hotspot tags="Meadow_Theater_Camp" id="27527" x="721" y="586" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="14"/>
+    <hotspot tags="Meadow_NeverDove" id="27694" x="823" y="817" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="5" playType="full" itemEventId="0" tagId="11"/>
+    <hotspot tags="Meadow_NeverDove" id="27694" x="823" y="817" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="5" playType="full" itemEventId="0" tagId="11"/>
+    <hotspot tags="Meadow_NeverDove" id="27694" x="823" y="817" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="5" playType="full" itemEventId="0" tagId="11"/>
+    <hotspot tags="Meadow_NeverDove" id="27694" x="823" y="817" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="5" playType="full" itemEventId="0" tagId="11"/>
+    <hotspot tags="Meadow_Sister2012" id="27758" x="699" y="790" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="5" playType="full" itemEventId="0" tagId="14"/>
+    <hotspot tags="Fairy_Friendship_2012" id="27696" x="1100" y="758" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="12"/>
+    <hotspot tags="Fairy_Friendship_2012" id="27714" x="546" y="332" setVelvetRope="0" shared="false" refresh="5" playType="keyframe" itemEventId="0" tagId="13"/>
+  </hotspots>
+</zone>

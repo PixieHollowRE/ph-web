@@ -1,0 +1,11 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/KitTip.swf</swf>
+		<swf type="code">{panelCode}/KitTip.swf</swf>
+	</swfs>
+	<copy>
+		<title target="titlebar.title">Welcome to Pixie Hollow</title>
+		<continue target="bg.continue.caption">Continue</continue>
+	</copy>
+	<config></config>
+</panel>

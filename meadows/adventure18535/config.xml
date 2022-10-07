@@ -1,0 +1,161 @@
+<zone>
+  <name>Talent Skill 2 Quest</name>
+  <zoneID>18535</zoneID>
+  <assetURL/>
+  <audioLibrary>wildernessSwamp</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="1100" height="976">
+        <image x="0" y="0" type="none">../wildernessAssets/swamp_background.swf</image>
+      </layer>
+      <layer type="ground" width="3124" height="2978">
+        <image x="0" y="0" type="none">../wildernessAssets/empty.swf</image>
+      </layer>
+      <layer type="normal" width="3124" height="2978">
+        <image x="0" y="0" type="none">../wildernessAssets/swamp_new_foreground.swf</image>
+      </layer>
+    </layers>
+    <validArea>
+      <vertex x="377" y="798"/>
+      <vertex x="258.5" y="654.5"/>
+      <vertex x="292.25" y="426.75"/>
+      <vertex x="393" y="253"/>
+      <vertex x="793" y="252"/>
+      <vertex x="932" y="303.5"/>
+      <vertex x="960" y="437"/>
+      <vertex x="1215.75" y="563.25"/>
+      <vertex x="1509.5" y="462.5"/>
+      <vertex x="1630.2" y="275.35"/>
+      <vertex x="2147.6" y="250.15"/>
+      <vertex x="2373.8" y="273.05"/>
+      <vertex x="2621" y="231"/>
+      <vertex x="2735.5" y="297.7"/>
+      <vertex x="2785.25" y="362.55"/>
+      <vertex x="2858.05" y="436.45"/>
+      <vertex x="2879.8" y="494.7"/>
+      <vertex x="2843.6" y="683"/>
+      <vertex x="2849.15" y="801.55"/>
+      <vertex x="2885" y="1135"/>
+      <vertex x="2676.3" y="1165.8"/>
+      <vertex x="2705.65" y="1435.9"/>
+      <vertex x="2672" y="1753"/>
+      <vertex x="1942" y="1763"/>
+      <vertex x="1879.85" y="1625.9"/>
+      <vertex x="1663.4" y="1648.3"/>
+      <vertex x="1530" y="1605.75"/>
+      <vertex x="1299.15" y="1668.65"/>
+      <vertex x="1154" y="1760"/>
+      <vertex x="967.5" y="1778.5"/>
+      <vertex x="861.75" y="1704.25"/>
+      <vertex x="753" y="1720"/>
+      <vertex x="780.65" y="1808.3"/>
+      <vertex x="848.3" y="1868.6"/>
+      <vertex x="798.65" y="2115.25"/>
+      <vertex x="817.05" y="2206.4"/>
+      <vertex x="895.5" y="2270.55"/>
+      <vertex x="975.95" y="2259.35"/>
+      <vertex x="1042.4" y="2180.2"/>
+      <vertex x="1360.35" y="2165.85"/>
+      <vertex x="1636.15" y="2156.65"/>
+      <vertex x="1762.05" y="2222.5"/>
+      <vertex x="1973.8" y="2383.15"/>
+      <vertex x="1985.15" y="2592.45"/>
+      <vertex x="1709.55" y="2648.8"/>
+      <vertex x="1637.5" y="2735.8"/>
+      <vertex x="854.4" y="2735.85"/>
+      <vertex x="649.4" y="2706.35"/>
+      <vertex x="476.4" y="2636.95"/>
+      <vertex x="436.05" y="2417.6"/>
+      <vertex x="457.75" y="2180.25"/>
+      <vertex x="474.45" y="2036.4"/>
+      <vertex x="579.15" y="1920.55"/>
+      <vertex x="564.95" y="1807.15"/>
+      <vertex x="574.2" y="1532.25"/>
+      <vertex x="562.35" y="1367.8"/>
+      <vertex x="656.5" y="1215.4"/>
+      <vertex x="997.25" y="1190.7"/>
+      <vertex x="1116" y="1183"/>
+      <vertex x="1220.85" y="1220.15"/>
+      <vertex x="1368.85" y="1309.1"/>
+      <vertex x="1570.9" y="1371.05"/>
+      <vertex x="1686" y="1287"/>
+      <vertex x="1845.85" y="1267"/>
+      <vertex x="1921.7" y="1181.5"/>
+      <vertex x="2096.65" y="1184.85"/>
+      <vertex x="2257.1" y="1183.55"/>
+      <vertex x="2367.6" y="1260.25"/>
+      <vertex x="2535.55" y="1207.05"/>
+      <vertex x="2534.85" y="1031.35"/>
+      <vertex x="2574.6" y="998.75"/>
+      <vertex x="2529.4" y="933.15"/>
+      <vertex x="2607" y="827"/>
+      <vertex x="2579.6" y="783.15"/>
+      <vertex x="2319.55" y="811.95"/>
+      <vertex x="2052.5" y="786.8"/>
+      <vertex x="1672.95" y="805.15"/>
+      <vertex x="1601.45" y="713.55"/>
+      <vertex x="1523.3" y="660.05"/>
+      <vertex x="1371" y="705.4"/>
+      <vertex x="1215.7" y="753.8"/>
+      <vertex x="1059.4" y="738.2"/>
+      <vertex x="984.1" y="667.6"/>
+      <vertex x="888" y="796"/>
+      <vertex x="672.75" y="831"/>
+      <vertex x="501.5" y="819"/>
+    </validArea>
+  </clientLayout>
+  <locations>
+    <location x="373" y="505">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>wilderness_music_swamp</id>
+      <loops>0</loops>
+      <volumeLow>0.2</volumeLow>
+      <volumeHigh>0.2</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm>
+      <id>wilderness_ambient_swamp</id>
+      <loops>0</loops>
+      <volumeLow>1.2</volumeLow>
+      <volumeHigh>1.2</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+	<bgm tags="Wilderness_AnimalMasquerade2011">
+      <id>wilderness_ambient_swamp2</id>
+      <loops>0</loops>
+      <volumeLow>1.2</volumeLow>
+      <volumeHigh>1.2</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  <barriers>
+    <barrier itemId="19504" x="860" y="384" index="1"/>
+    <barrier itemId="19508" x="2326" y="1000"/>
+    <barrier itemId="19508" x="2472" y="842"/>
+  </barriers>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--
+  <barriers>
+    <barrier itemId="19504" x="852" y="293" index="1"/>
+    <barrier itemId="19508" x="2310" y="893"/>
+    <barrier itemId="19508" x="2456" y="722"/>
+  </barriers>
+  -->
+  
+</zone>

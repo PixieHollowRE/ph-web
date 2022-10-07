@@ -1,0 +1,307 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/velvetRope.swf</swf>
+		<swf type="code">{panelCode}/velvetRope.swf</swf>
+	</swfs>
+	<copy>
+		<!-- NOTE ALL GAMES WILL USE THE SNEAK PEAK COPY (COPY3) UNLESS THE ZONE IS ADDED TO THE TOZONES TAGS -->
+		<ok>Become a Member</ok>
+		<no>No Thanks!</no>	
+		<more>Learn More</more>
+		<title target = "content.title">Aw, jingles!</title>
+		<watchCopy target = "content.watchBtn.caption">Watch</watchCopy>
+		<cantWatchCopy>This game hasn't started yet, please try again later.</cantWatchCopy>
+		<cantWatchCopyOK>OK</cantWatchCopyOK>
+		<copy0>This feature is only available to Members of Pixie Hollow.</copy0>
+		<copy1><![CDATA[To fly into the Ballroom during events, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Fly into the Ballroom during events</li><li>Unlock special patterns for tailoring, tinkering and baking </li><li>Play all the games in Pixie Hollow</li></ul>]]></copy1>
+		<copy2><![CDATA[To fly into the Ballroom during events, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Fly into the Ballroom during events</li><li>Unlock special patterns for tailoring, tinkering and baking </li><li>Play all the games in Pixie Hollow</li></ul>]]></copy2>
+		<copy3><![CDATA[Sneak peeks at new games are only available to Members of Pixie Hollow.<br><a href='event:text'><u><font color='#FFFF42'>Learn more about this feature</font></u></a>]]></copy3>
+		<copy4><![CDATA[To Personal Tinker furnishings for your home, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Tinker furniture for your home </li><li>Unlock special patterns for tailoring, tinkering and baking </li><li>Play all the games in Pixie Hollow</li></ul>]]></copy4>
+		<copy5><![CDATA[To explore the Wilderness with friends, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Trade Ingredients for Pixie Diamonds </li><li>Experience tons of quests</li><li>Play all the games in Pixie Hollow</li></ul>]]></copy5>
+		<copy6><![CDATA[To shop for fashions, costumes, and furniture, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Earn lots of badges </li><li>Tailor outfits for your wardrobe</li><li>Fly in the Ballroom during events</li></ul>]]></copy6>
+		<copy7><![CDATA[To get a new hairstyle at Schelly's Hair Salon, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Learn new talent skills to use in the Wilderness </li><li>Unlock special patterns for tailoring, tinkering and baking </li><li>Tailor outfits for your wardrobe</li></ul>]]></copy7>
+		<copy8><![CDATA[To shop for party games and decorations, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Learn new talent skills to use in the Wilderness</li><li>Unlock special patterns for tailoring, tinkering and baking</li><li>Play all the games in Pixie Hollow</li></ul>]]></copy8>
+		<copy9><![CDATA[To Personal Bake sweet treats in Dulcie's Kitchen,  you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Bake treats to take into the Wilderness</li><li>Experience tons of quests</li><li>Play all the games in Pixie Hollow</li></ul>]]></copy9>
+		<copy10><![CDATA[To Personal Tailor fashions for your wardrobe, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Tailor outfits for your wardrobe</li><li>Earn lots of badges </li><li>Play all the games in Pixie Hollow</li></ul>]]></copy10>
+		<copy11><![CDATA[To Personal Tailor fashions for your wardrobe, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Tailor outfits for your wardrobe</li><li>Earn lots of badges </li><li>Play all the games in Pixie Hollow</li></ul>]]></copy11>
+		<copy12><![CDATA[To go on this quest, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Experience tons of quests</li><li>Play all the games in Pixie Hollow</li><li>Unlock special patterns for tailoring, tinkering and baking </li></ul>]]></copy12>
+		<copy13><![CDATA[To shop for new dyes in the boutiques, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.<br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Earn lots of badges </li><li>Fly in the Ballroom during events</li><li>Tailor outfits for your wardrobe</li></ul>]]></copy13>
+		<copy14><![CDATA[To model Fairy fashions and costumes in the shops, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Earn lots of badges </li><li>Tailor outfits for your wardrobe</li><li>Fly in the Ballroom during events</li></ul>]]></copy14>
+		<copy15><![CDATA[To model a new hairstyle at Schelly's Hair Salon, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Learn new talent skills to use in the Wilderness </li><li>Earn lots of badges </li><li>Tailor outfits for your wardrobe</li></ul>]]></copy15>
+		<copy16><![CDATA[To play certain difficulty levels in games, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Play all of the levels of every game</li><li>Earn lots of badges</li><li>Experience tons of quests</li></ul>]]></copy16>
+		<copy17><![CDATA[To use this item you must be a <font color='#FFFF42'>Member</font> of Pixie Hollow or Upgrade it using Pixie Diamonds.<br/><br/><b><font color='#FFFF42'>As a Member you can:</font></b><br/><br/><ul><li>Shop for new fashions using Ingredients</li><li>Use all items while a Member</li><li>Play all the games in Pixie Hollow</li></ul>]]></copy17>
+		<!--
+        <copy18><![CDATA[To host a party in your home, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Host parties in your Fairy home</li><li>Shop in the Fairy boutiques </li><li>Play all the games in Pixie Hollow</li></ul>]]></copy18>
+		-->
+        <copy19><![CDATA[To play with Animal Friends you must be a <font color='#FFFF42'>Member</font>of Pixie Hollow or Upgrade it using Pixie Diamonds.<br/><br/><b><font color='#FFFF42'>As a Member you can:</font></b><br/><br/><ul><li>Adopt an Animal Friend using Ingredients</li><li>Change your Animal Friend's outfits</li><li>Go on Wilderness adventures</li></ul>]]></copy19>
+		<copy20><![CDATA[To feed an Animal Friend, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Trade Ingredients for Pixie Diamonds!</li><li>Play all the games in Pixie Hollow</li><li>Experience tons of quests</li></ul>]]></copy20>
+		<copy21><![CDATA[To play games with an Animal Friend, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Trade Ingredients for Pixie Diamonds </li><li>Play all the games in Pixie Hollow</li><li>Experience tons of quests</li></ul>]]></copy21>
+		<copy22><![CDATA[To play with Animal Friends you must be a <font color='#FFFF42'>Member</font> or Upgrade them using Pixie Diamonds.<br/><br/><b><font color='#FFFF42'>As a Member you can:</font></b><br/><br/><ul><li>Adopt Animal Friends using Ingredients</li><li>Tailor outfits for your Wardrobe</li><li>Go on Wilderness adventures</li></ul>]]></copy22>
+		<copy23><![CDATA[To visit Elixa's Hospital, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Trade Ingredients for Pixie Diamonds </li><li>Play all the games in Pixie Hollow</li><li>Experience tons of quests</li></ul>]]></copy23>
+		<copy24><![CDATA[To play First Flight, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Play every game in Pixie Hollow</li><li>Earn lots of badges</li><li>Experience tons of quests</li></ul>]]></copy24>
+		<copy25><![CDATA[To shop in the Sparrow Men stores, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Earn lots of badges </li><li>Tailor outfits for your wardrobe</li><li>Fly in the Ballroom during events</li></ul>]]></copy25>
+		<copy26><![CDATA[To model clothes and accesssories in the Sparrow Men shops, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Earn lots of badges </li><li>Tailor outfits for your wardrobe</li><li>Fly in the Ballroom during events</li></ul>]]></copy26>
+		<copy27><![CDATA[To earn this badge, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Earns lots of badges</li><li>Play all the games in Pixie Hollow</li><li>Unlock special patterns for tailoring, tinkering and baking </li></ul>]]></copy27>
+		<copy28><![CDATA[To play Butterfly Painter, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Play every game in Pixie Hollow</li><li>Earn lots of badges</li><li>Experience tons of quests</li></ul>]]></copy28>		
+		<copy29><![CDATA[To re-dye your clothes and storage items different colors, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Re-dye your clothes and storage items in the dye shops</li><li>Bake treats to take into the Wilderness </li><li>Tailor outfits for your wardrobe</li></ul>]]></copy29>
+		<copy30><![CDATA[To play Crazy Cakes, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Play all the games in Pixie Hollow</li><li>Get a Pixie Diamond allowance!</li><li>Experience tons of quests</li></ul>]]></copy30>
+		<copy31><![CDATA[To Trick-or-Treat, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Play all the games in Pixie Hollow</li><li>Unlock special patterns for tailoring, tinkering and baking </li><li>Fly into the Ballroom during events</li></ul>]]></copy31>
+		<copy32><![CDATA[To enter this special event location, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Fly into the Ballroom during events</li><li>Unlock special patterns for tailoring, tinkering and baking </li><li>Bake treats to take into the Wilderness</li></ul>]]></copy32>
+		<copy33><![CDATA[To buy new homes and furniture, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Trade Ingredients for Pixie Diamonds </li><li>Play all of the games in Pixie Hollow</li><li>Tinker furniture for your home </li></ul>]]></copy33>
+		<copy34><![CDATA[To enter this special event location, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Play all the games in Pixie Hollow</li><li>Unlock special patterns for tailoring, tinkering and baking </li><li>Fly into the Ballroom during events</li></ul>]]></copy34>
+		<copy35><![CDATA[To enter this special event location, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Play all the games in Pixie Hollow</li><li>Unlock special patterns for tailoring, tinkering and baking </li><li>Fly into the Ballroom during events</li></ul>]]></copy35>
+		<copy36><![CDATA[To play Pinecone Pop, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Play all the games in Pixie Hollow</li><li>Unlock special patterns for tailoring, tinkering and baking </li><li>Fly into the Ballroom during events</li></ul>]]></copy36>
+		<copy37><![CDATA[To send a friendship Gift Box to your friends, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Play all the games in Pixie Hollow</li><li>Unlock special patterns for tailoring, tinkering and baking </li><li>Fly into the Ballroom during events</li></ul>]]></copy37>
+		<copy38><![CDATA[To play Two for Tea, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Play all the games in Pixie Hollow</li><li>Get a Pixie Diamond allowance!</li><li>Experience tons of quests</li></ul>]]></copy38>
+		<copy39><![CDATA[To feed an Animal Friend, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Trade Ingredients for Pixie Diamonds!</li><li>Play all the games in Pixie Hollow</li><li>Experience tons of quests</li></ul>]]></copy39>
+		<copy40><![CDATA[To use your Talent Skills in the Meadows to make ingredient bunches, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Trade Ingredients for Pixie Diamonds</li><li>Earn lots of badges</li><li>Experience tons of quests</li></ul>]]></copy40>
+		<copy41><![CDATA[To become a Talent Master, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><ul><li>Unlock special patterns for tailoring, tinkering, and baking</li><li>Learn new talent skills to use in the Wilderness</li><li>Play all of the games in Pixie Hollow</li></ul>]]></copy41>
+		<copy42><![CDATA[To receive this holiday gift, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Play all the games in Pixie Hollow</li><li>Unlock special patterns for tailoring, tinkering and baking </li><li>Fly into the Ballroom during events</li></ul>]]></copy42>
+		<copy43><![CDATA[To model clothing and costumes in the shops, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Bake treats to take into the Wilderness </li><li>Tailor outfits for your wardrobe</li><li>Fly in the Ballroom during events</li></ul>]]></copy43>
+		<copy44><![CDATA[To enter the Fairy Coliseum while it's being built, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Fly in the Ballroom during events</li><li>Unlock special patterns for tailoring, tinkering and baking </li><li>Play all the games in Pixie Hollow</li></ul>]]></copy44>
+		<copy45><![CDATA[To send a gift, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Unlock special patterns for tailoring, tinkering and baking</li><li>Trade Ingredients for Pixie Diamonds</li><li>Play all the games in Pixie Hollow</li></ul>]]></copy45>
+		<copy46><![CDATA[To get more backgrounds, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Unlock special patterns for tailoring, tinkering and baking</li><li>Trade Ingredients for Pixie Diamonds</li><li>Play all the games in Pixie Hollow</li></ul>]]></copy46>
+		<copy47><![CDATA[To race with more animals, you must become a <font color='#FFFF42'>Member</font> of Pixie Hollow.  <br/><br/><b><font color='#FFFF42'>When you're a Member, you can:</font></b><br/><br/><ul><li>Unlock special patterns for tailoring, tinkering and baking</li><li>Trade Ingredients for Pixie Diamonds</li><li>Play all the games in Pixie Hollow</li></ul>]]></copy47>
+		<copy48><![CDATA[To decorate your Fairy Home with this item you must be a <font color='#FFFF42'>Member</font> or Upgrade it using Pixie Diamonds.<br/><br/><b><font color='#FFFF42'>As a Member you can:</font></b><br/><br/><ul><li>Shop for decorations using Ingredients</li><li>Tinker furniture</li><li>Receive gifts in the Ballroom</li></ul>]]></copy48>
+		<confirmLink>To learn about Membership, you will need to leave Pixie Hollow. Are you sure you would like to leave Pixie Hollow to find out more about Membership?</confirmLink>
+		<confirmYes>Learn More</confirmYes>
+		<confirmNo>Stay</confirmNo>				
+	</copy>
+	<config>
+		<buyZones>
+			<zone id="100000" index="10"/><!-- Tailoring Bobbin's -->
+			<zone id="100001" index="11"/><!-- Tailoring Mendy's -->
+			<zone id="100002" index="9"/> <!-- Baking Dulcie's -->
+			<zone id="100003" index="4"/> <!-- Tinkering Copper -->
+			<zone id="110000" index="6"/> <!-- Clothing Shop --> 
+			<zone id="110001" index="6"/> <!-- Clothing Shop --> 
+			<zone id="110002" index="6"/> <!-- Clothing Shop -->
+			<zone id="110003" index="6"/> <!-- Clothing Shop -->
+			<zone id="110004" index="6"/> <!-- Clothing Shop -->
+			<zone id="110005" index="25"/> <!-- Coal Clothing Shop -->
+			<zone id="110006" index="25"/> <!-- Gavin Gear Shop -->
+			<zone id="110007" index="6"/> <!-- Clothing Shop -->
+			<zone id="111000" index="6"/> <!-- Furniture Shop -->
+			<zone id="111001" index="6"/> <!-- Furniture Shop --> 
+			<zone id="111002" index="6"/> <!-- Furniture Shop -->
+			<zone id="112000" index="13"/><!-- Dye Shop -->
+			<zone id="112001" index="13"/><!-- Dye Shop -->
+			<zone id="112002" index="13"/><!-- Dye Shop -->
+			<zone id="112003" index="13"/><!-- Dye Shop -->
+			<zone id="113000" index="8"/> <!-- Party Shop Phoebe's -->
+			<zone id="114000" index="7"/> <!-- Hair Shop Schelly -->
+			<zone id="115000" index="19"/> <!-- Animal Friend Shop -->
+			<zone id="116000" index="33"/> <!-- Animal Friend Shop -->
+		</buyZones>
+		<toZones>
+			<zone id="806" index="23"/> <!-- Elixa's Hospital -->
+			<zone id="50044" index="24"/> <!-- First Flight -->
+			<zone id="50045" index="28"/> <!-- Butterfly Painter -->
+			<zone id="50047" index="36"/> <!-- pinecone pop -->
+		</toZones>
+		<modelZones>
+			<zone id="110000" index="14"/> <!-- Clothing Shop -->
+			<zone id="110001" index="43"/> <!-- Brook's Clothing Shop --> 
+			<zone id="110002" index="14"/> <!-- Clothing Shop -->
+			<zone id="110003" index="14"/> <!-- Clothing Shop -->
+			<zone id="110004" index="14"/> <!-- Clothing Shop -->
+			<zone id="110005" index="26"/> <!-- Clothing Shop -->
+			<zone id="110006" index="26"/> <!-- Clothing Shop -->
+			<zone id="110007" index="14"/> <!-- Clothing Shop -->
+			<zone id="114000" index="15"/> <!-- Hair Shop Schelly -->
+		</modelZones>
+		<ajpg0>{panelAJPG}/velvetRope/Coin.ajpg</ajpg0>
+		<ajpg1>{panelAJPG}/velvetRope/Ballroom.ajpg</ajpg1>
+		<ajpg2>{panelAJPG}/velvetRope/Ballroom.ajpg</ajpg2>
+		<ajpg3>{panelAJPG}/velvetRope/Games.ajpg</ajpg3>
+		<ajpg4>{panelAJPG}/velvetRope/Coppers.ajpg</ajpg4>
+		<ajpg5>{panelAJPG}/velvetRope/wilderness.ajpg</ajpg5>
+		<ajpg6>{panelAJPG}/velvetRope/Shopping.ajpg</ajpg6>
+		<ajpg7>{panelAJPG}/velvetRope/Hair_Salons.ajpg</ajpg7>
+		<ajpg8>{panelAJPG}/velvetRope/Party.ajpg</ajpg8>
+		<ajpg9>{panelAJPG}/velvetRope/Baking.ajpg</ajpg9>
+		<ajpg10>{panelAJPG}/velvetRope/Tailoring_Bobbins.ajpg</ajpg10>
+		<ajpg11>{panelAJPG}/velvetRope/Tailoring_Mendys.ajpg</ajpg11>
+		<ajpg12>{panelAJPG}/velvetRope/Quests.ajpg</ajpg12>
+		<ajpg13>{panelAJPG}/velvetRope/Dye_shops.ajpg</ajpg13>
+		<ajpg14>{panelAJPG}/velvetRope/Modeling_Fashions.ajpg</ajpg14>
+		<ajpg15>{panelAJPG}/velvetRope/Hair_Salons.ajpg</ajpg15>
+		<ajpg16>{panelAJPG}/velvetRope/Games.ajpg</ajpg16>
+		<ajpg17>{panelAJPG}/velvetRope/wardrobe.ajpg</ajpg17>
+		<!--
+        <ajpg18>{panelAJPG}/velvetRope/Hosting_Games.ajpg</ajpg18>
+		-->
+        <ajpg19>{panelAJPG}/velvetRope/animal_friends_feeding.ajpg</ajpg19>
+		<ajpg20>{panelAJPG}/velvetRope/animal_friends_feeding.ajpg</ajpg20>
+		<ajpg21>{panelAJPG}/velvetRope/animal_friends_games.ajpg</ajpg21>
+		<ajpg22>{panelAJPG}/velvetRope/Animal_Friends_Follow.ajpg</ajpg22>
+		<ajpg23>{panelAJPG}/velvetRope/elixa.ajpg</ajpg23>
+		<ajpg24>{panelAJPG}/velvetRope/first_flight.ajpg</ajpg24>
+		<ajpg25>{panelAJPG}/velvetRope/shopping_sparrow_men.ajpg</ajpg25>
+		<ajpg26>{panelAJPG}/velvetRope/shopping_sparrow_men.ajpg</ajpg26>
+		<ajpg27>{panelAJPG}/velvetRope/Badges.ajpg</ajpg27>
+		<ajpg28>{panelAJPG}/velvetRope/butterfly_painting.ajpg</ajpg28>
+		<ajpg29>{panelAJPG}/velvetRope/ReDye_clothes.ajpg</ajpg29>
+		<ajpg30>{panelAJPG}/velvetRope/Crazy8s.ajpg</ajpg30>
+		<ajpg31>{panelAJPG}/velvetRope/giveaway.ajpg</ajpg31>
+		<ajpg32>{panelAJPG}/velvetRope/Lizzys_House.ajpg</ajpg32>
+		<ajpg33>{panelAJPG}/velvetRope/Nevilles.ajpg</ajpg33>
+		<ajpg34>{panelAJPG}/velvetRope/Ice_Palace.ajpg</ajpg34>
+		<ajpg35>{panelAJPG}/velvetRope/mermaidLagoon.ajpg</ajpg35>
+		<ajpg36>{panelAJPG}/velvetRope/pinecone_pop.ajpg</ajpg36>
+		<ajpg37>{panelAJPG}/velvetRope/friendshipGift.ajpg</ajpg37>
+		<ajpg38>{panelAJPG}/velvetRope/twoForTea.ajpg</ajpg38>
+		<ajpg39>{panelAJPG}/velvetRope/feeding_dishes.ajpg</ajpg39>
+		<ajpg40>{panelAJPG}/velvetRope/Talent_Skill_Meadow.ajpg</ajpg40>
+		<ajpg41>{panelAJPG}/velvetRope/Talent_Masters.ajpg</ajpg41>
+		<ajpg42>{panelAJPG}/velvetRope/giveaway_owlhat.ajpg</ajpg42>
+		<ajpg43>{panelAJPG}/velvetRope/Modeling_Fashions_Gndr_Neutral.ajpg</ajpg43>
+		<ajpg44>{panelAJPG}/velvetRope/colosseum.ajpg</ajpg44>
+		<ajpg45>{panelAJPG}/velvetRope/gift_station.ajpg</ajpg45>
+		<ajpg46>{panelAJPG}/velvetRope/profile_bgs.ajpg</ajpg46>
+		<ajpg47>{panelAJPG}/velvetRope/animal_derby.ajpg</ajpg47>
+		<ajpg48>{panelAJPG}/velvetRope/storage.ajpg</ajpg48>
+		<help3>talentGames</help3>
+		<help4>tinkering</help4>
+		<help5>wilderness</help5>
+		<help6>shops</help6>
+		<help7>shops</help7>
+		<help8>parties</help8>
+		<help9>baking</help9>
+		<help10>crafting</help10>
+		<help11>crafting</help11>
+		<help12>quests</help12>
+		<help13>shops</help13>
+		<help14>shops</help14>
+		<help16>talentGames</help16>
+		<help17>membership</help17>
+		<!--
+        <help18>parties</help18>
+		-->
+        <help19>animalFriend</help19>
+		<help20>animalFriend</help20>
+		<help21>animalFriend</help21>
+		<help22>membership</help22>
+		<help23>animalFriend</help23>
+		<help24>talentGames</help24>
+		<help25>shops</help25>
+		<help26>shops</help26>
+		<help27>badges</help27>
+		<help28>talentGames</help28>
+		<help29>redye</help29>
+		<help33>shops</help33>
+		<help36>talentGames</help36>
+		<help37>giftBoxes</help37>
+		<help39>animalFriend</help39>
+		<help40>talent</help40>
+		<help41>membership</help41>
+		<help43>shops</help43>
+		<help48>membership</help48>
+		<tracking>
+			<pages>
+				<omniturePage9>VROPE_BAKING_OPEN</omniturePage9>
+				<omniturePage11>VROPE_TAILORING_MENDY_OPEN</omniturePage11>
+				<omniturePage10>VROPE_TAILORING_BOBBIN_OPEN</omniturePage10>
+				<omniturePage4>VROPE_TINKERING_COPPER_OPEN</omniturePage4>
+				<omniturePage1>VROPE_BALLROOM_CLOSED_MEMBERSONLY_OPEN</omniturePage1>
+				<omniturePage2>VROPE_BALLROOM_MEMBERSONLY_OPEN</omniturePage2>
+				<omniturePage13>VROPE_DYESHOP_OPEN</omniturePage13>
+				<omniturePage29>VROPE_DYESHOP_REDYE_OPEN</omniturePage29>
+				<omniturePage8>VROPE_PARTYSHOP_OPEN</omniturePage8>
+				<omniturePage6>VROPE_WSSHOP_OPEN</omniturePage6>
+				<omniturePage7>VROPE_HAIRSALON_OPEN</omniturePage7>
+				<omniturePage3>VROPE_TALGAMESPREV_OPEN</omniturePage3>
+				<omniturePage16>VROPE_TALGAMESDIFF_OPEN</omniturePage16>
+				<omniturePage5>VROPE_WILD_OPEN</omniturePage5>
+				<omniturePage12>VROPE_QUESTS_OPEN</omniturePage12>
+				<omniturePage15>VROPE_HAIRSALON_TRY_OPEN</omniturePage15>
+				<omniturePage17>VROPE_WS_JOURNAL_OPEN</omniturePage17>
+				<omniturePage14>VROPE_WS_TRY_OPEN</omniturePage14>
+				<!-- <omniturePage18>VROPE_PARTY_HOST_OPEN</omniturePage18> -->
+				<omniturePage30>VROPE_TEAGAMES_CRAZY8_OPEN</omniturePage30>
+				<omniturePage19>VROPE_AFNPCS_OPEN</omniturePage19>
+				<omniturePage20>VROPE_AFNPCS_OPEN</omniturePage20>
+				<omniturePage21>VROPE_AFNPCS_OPEN</omniturePage21>
+				<omniturePage22>VROPE_AFNPCS_OPEN</omniturePage22>
+				<omniturePage23>VROPE_AFNPCS_OPEN</omniturePage23>
+				<omniturePage24>VROPE_TALGAMESMEMONLY_OPEN</omniturePage24>
+				<omniturePage28>VROPE_TALGAMESMEMONLY_OPEN</omniturePage28>
+				<omniturePage25>VROPE_WSSHOP_OPEN</omniturePage25>
+				<omniturePage26>VROPE_WS_TRY_OPEN</omniturePage26>
+				<omniturePage33>VROPE_WSSHOP_OPEN</omniturePage33>
+				<omniturePage38>VROPE_TEAGAMES_CRAZY8_OPEN</omniturePage38>
+			</pages>
+			<links>
+				<omnitureLink9b>VROPE_BAKING_BECOME</omnitureLink9b>
+				<omnitureLink9x>VROPE_BAKING_X</omnitureLink9x>
+				<omnitureLink11b>VROPE_TAILORING_MENDY_BECOME</omnitureLink11b>
+				<omnitureLink11x>VROPE_TAILORING_MENDY_X</omnitureLink11x>
+				<omnitureLink10b>VROPE_TAILORING_BOBBIN_BECOME</omnitureLink10b>
+				<omnitureLink10x>VROPE_TAILORING_BOBBIN_X</omnitureLink10x>
+				<omnitureLink4b>VROPE_TINKERING_COPPER_BECOME</omnitureLink4b>
+				<omnitureLink4x>VROPE_TINKERING_COPPER_X</omnitureLink4x>
+				<omnitureLink1b>VROPE_BALLROOM_CLOSED_MEMBERSONLY_BECOME</omnitureLink1b>
+				<omnitureLink1x>VROPE_BALLROOM_CLOSED_MEMBERSONLY_X</omnitureLink1x>
+				<omnitureLink2b>VROPE_BALLROOM_MEMBERSONLY_BECOME</omnitureLink2b>
+				<omnitureLink2x>VROPE_BALLROOM_MEMBERSONLY_X</omnitureLink2x>
+				<omnitureLink13b>VROPE_DYESHOP_BECOME</omnitureLink13b>
+				<omnitureLink13x>VROPE_DYESHOP_X</omnitureLink13x>
+				<omnitureLink29b>VROPE_DYESHOP_REDYE_BECOME</omnitureLink29b>
+				<omnitureLink29x>VROPE_DYESHOP_REDYE_X</omnitureLink29x>
+				<omnitureLink8b>VROPE_PARTYSHOP_BECOME</omnitureLink8b>
+				<omnitureLink8x>VROPE_PARTYSHOP_X</omnitureLink8x>
+				<omnitureLink6b>VROPE_WSSHOP_BECOME</omnitureLink6b>
+				<omnitureLink6x>VROPE_WSSHOP_X</omnitureLink6x>
+				<omnitureLink7b>VROPE_HAIRSALON_BECOME</omnitureLink7b>
+				<omnitureLink7x>VROPE_HAIRSALON_X</omnitureLink7x>
+				<omnitureLink3b>VROPE_TALGAMESPREV_BECOME</omnitureLink3b>
+				<omnitureLink3x>VROPE_TALGAMESPREV_X</omnitureLink3x>
+				<omnitureLink16b>VROPE_TALGAMESDIFF_BECOME</omnitureLink16b>
+				<omnitureLink16x>VROPE_TALGAMESDIFF_X</omnitureLink16x>
+				<omnitureLink5b>VROPE_WILD_BECOME</omnitureLink5b>
+				<omnitureLink5x>VROPE_WILD_X</omnitureLink5x>
+				<omnitureLink12b>VROPE_QUESTS_BECOME</omnitureLink12b>
+				<omnitureLink12x>VROPE_QUESTS_X</omnitureLink12x>
+				<omnitureLink15b>VROPE_HAIRSALON_TRY_BECOME</omnitureLink15b>
+				<omnitureLink15x>VROPE_HAIRSALON_TRY_X</omnitureLink15x>
+				<omnitureLink17b>VROPE_WS_JOURNAL_BECOME</omnitureLink17b>
+				<omnitureLink17x>VROPE_WS_JOURNAL_X</omnitureLink17x>
+				<omnitureLink14b>VROPE_WS_TRY_TRY_BECOME</omnitureLink14b>
+				<omnitureLink14x>VROPE_WS_TRY_TRY_X</omnitureLink14x>
+				<!-- <omnitureLink18b>VROPE_PARTY_HOST_BECOME</omnitureLink18b> -->
+				<!-- <omnitureLink18x>VROPE_PARTY_HOST_X</omnitureLink18x> -->
+				<omnitureLink30b>VROPE_TEAGAMES_CRAZY8_BECOME</omnitureLink30b>
+				<omnitureLink30x>VROPE_TEAGAMES_CRAZY8_X</omnitureLink30x>
+				<omnitureLink19b>VROPE_AFNPCS_BECOME</omnitureLink19b>
+				<omnitureLink19x>VROPE_AFNPCS_X</omnitureLink19x>
+				<omnitureLink20b>VROPE_AFNPCS_BECOME</omnitureLink20b>
+				<omnitureLink20x>VROPE_AFNPCS_X</omnitureLink20x>
+				<omnitureLink21b>VROPE_AFNPCS_BECOME</omnitureLink21b>
+				<omnitureLink21x>VROPE_AFNPCS_X</omnitureLink21x>
+				<omnitureLink22b>VROPE_AFNPCS_BECOME</omnitureLink22b>
+				<omnitureLink22x>VROPE_AFNPCS_X</omnitureLink22x>
+				<omnitureLink23b>VROPE_AFNPCS_BECOME</omnitureLink23b>
+				<omnitureLink23x>VROPE_AFNPCS_X</omnitureLink23x>
+				<omnitureLink24b>VROPE_AFNPCS_BECOME</omnitureLink24b>
+				<omnitureLink24x>VROPE_AFNPCS_X</omnitureLink24x>
+				<omnitureLink24b>VROPE_TALGAMESMEMONLY_BECOME</omnitureLink24b>
+				<omnitureLink24x>VROPE_TALGAMESMEMONLY_X</omnitureLink24x>
+				<omnitureLink28b>VROPE_TALGAMESMEMONLY_BECOME</omnitureLink28b>
+				<omnitureLink28x>VROPE_TALGAMESMEMONLY_X</omnitureLink28x>
+				<omnitureLink25b>VROPE_WSSHOP_BECOME</omnitureLink25b>
+				<omnitureLink25x>VROPE_WSSHOP_X</omnitureLink25x>
+				<omnitureLink26b>VROPE_WS_TRY_TRY_BECOME</omnitureLink26b>
+				<omnitureLink26x>VROPE_WS_TRY_TRY_X</omnitureLink26x>
+				<omnitureLink33b>VROPE_WSSHOP_BECOME</omnitureLink33b>
+				<omnitureLink33x>VROPE_WSSHOP_X</omnitureLink33x>
+				<omnitureLink38b>VROPE_TEAGAMES_CRAZY8_BECOME</omnitureLink38b>
+				<omnitureLink38x>VROPE_TEAGAMES_CRAZY8_X</omnitureLink38x>
+			</links>
+		</tracking>
+		<displayModes>
+			<mode30>2</mode30>
+			<mode38>2</mode38>
+		</displayModes>
+	</config>
+
+</panel>

@@ -1,0 +1,102 @@
+<zone>
+  <name>Sunflower Gully</name>
+  <zoneID>401</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>meadow401</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="900" height="686" locked="true">
+        <image x="0" y="0" type="none">sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="900" height="1003">
+        <image x="0" y="0" type="none">far_02.swf</image>
+      </layer>
+      <layer type="normal" width="900" height="1295">
+        <image x="0" y="0" type="none">reflection_03.swf</image>
+      </layer>
+      <layer type="ground" width="1115" height="1603">
+        <image x="0" y="0" type="merge" tag="Meadow_Decorations_TeaParty">action_04_teaParty.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_GardenTea2010">action_04_GardenParty.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_TeaParty2011">action_04_Meadow_TeaParty2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Light_Games">action_04_Meadow_Light_Pipe.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_PHG2011_Prep">action_04_Meadow_PGH2011_Prep.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_PGH2011">action_04_Meadow_PGH2011.swf</image>
+        <image x="0" y="0" type="merge" tag="old_default">action_04.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_TroopGlowworm2012">action_04_Meadow_TheaterTroopGlowworm_2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_TeaParty">action_04_Meadow_TeaParty2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_MothersDay">action_04_Meadow_MothersDay.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Camp2013">action_04_Meadow_TheaterTroopGlowworm_2013.swf</image>
+        <image x="0" y="0" type="merge">action_04_Meadow_Light_Pipe.swf</image>
+      </layer>
+      <layer type="normal" width="1771" height="2547" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy">forground_05.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="500" y="1365">fromZone201</location>
+    <location x="341" y="1222">fromZone801</location>
+    <location x="341" y="1222">famousFairyHome</location>
+    <location x="834" y="943">fromZone50048</location>
+    <location x="837" y="385">fromZone402</location>
+    <location x="292" y="815">default</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_401</id>
+      <loops>0</loops>
+      <volumeLow>0.35</volumeLow>
+      <volumeHigh>0.35</volumeHigh>
+      <y>5</y>
+    </sfx>
+    <bgm>
+      <id>meadow_music_401</id>
+      <loops>1</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm>
+      <id>meadow_music_summer_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.15</volumeLow>
+      <volumeHigh>0.15</volumeHigh>
+      <delayLow>18000</delayLow>
+      <delayHigh>18000</delayHigh>
+    </bgm>
+  </bgms>
+  <hotspots>
+    <hotspot id="27632" x="220" y="280" setVelvetRope="0" shared="true" serverParm="8010" clientTrigger="6" clientParm="2" refresh="2" threshold="30" playType="keyframe" itemEventId="18013" snapTargetPos="415,554,0" tagId="6">
+      <keyframes>
+        <keyframe number="72" frequency="1" win="true"/>
+      </keyframes>
+    </hotspot>
+    <hotspot tags="Meadow_MothersDay" id="27736" x="451" y="1208" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="8"/>
+    <hotspot tags="Meadow_MothersDay" id="27740" x="545" y="1196" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="8" playType="full" itemEventId="0" tagId="9">
+      <badges>
+        <badge event="animalhelper_kitten" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_TeaParty" id="27725" x="445.9" y="1181.95" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="7"/>
+    <hotspot tags="Meadow_TeaParty" id="27636" x="582" y="973" setVelvetRope="0" shared="true" refresh="7" playType="full" clientParm="2" itemEventId="0" tagId="4"/>
+    <hotspot tags="Meadow_Camp2013" id="27732" x="445.9" y="1181.95" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="7"/>
+    <hotspot tags="Meadow_TeaParty" id="27635" x="607" y="1060" setVelvetRope="0" shared="true" refresh="7" clientParm="2" playType="full" itemEventId="0" tagId="5"/>
+    <hotspot tags="Meadow_GardenTea2010" id="27528" x="438" y="1174" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="0"/>
+    <hotspot tags="Meadow_GardenTea2010" id="27529" x="536" y="1268" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="3" itemEventId="0" tagId="1"/>
+    <hotspot tags="Meadow_GardenTea2010" id="27530" x="613" y="1087" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="5" itemEventId="0" tagId="2"/>
+    <hotspot tags="Meadow_GardenTea2010" id="27531" x="575" y="984" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="5" itemEventId="0" tagId="3"/>
+  </hotspots>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

@@ -1,0 +1,71 @@
+<data>
+	<!--
+	
+	These Lazy Panel Declarations are packaged in the mmo bundle SWF, and indicate
+	panels which are not loaded in PanelSetRequests, but are instead requested on-demand
+	when they're required, and then unloaded with the PanelSet they're targetting.
+	
+	Therefore, be aware that, in the normal lifecycle of the game, on-demand system and
+	global lazy panels will never be unloaded, and are therefore not generally suitable
+	targets for ephemeral, lazy panels.
+	
+	-->
+	
+	<defaultTimeout>10000</defaultTimeout>
+	
+	<lazyPanelGroup panelSet="system">
+	</lazyPanelGroup>
+
+	<lazyPanelGroup panelSet="global">
+   		<panel id="mapX" x="41" y="54" alwaysOnBottom="true">{panelData}/mapX.xml</panel>
+		<panel id="kitTip" x="195" y="116" closeable="true" alwaysOnTop="true">{panelData}/kitTip.xml</panel>
+		<panel id="scrapbook" x="118" y="73">{panelData}/scrapbook.xml</panel>
+		<panel id="savedOutfits" x="118" y="73">{panelData}/savedOutfits.xml</panel>
+    	<panel id="pouch" x="203" y="70" hasTutorial="true">{panelData}/pouch.xml</panel>
+	</lazyPanelGroup>
+
+	<lazyPanelGroup panelSet="outer">
+		<panel id="report" x="345" y="113" transition="none">{panelData}/report.xml</panel>  
+		<panel id="confirmInvite" x="345" y="130" transition="none">{panelData}/confirmInvite.xml</panel>
+		<panel id="confirmIgnore" x="345" y="130" transition="none">{panelData}/confirmIgnore.xml</panel>
+		<panel id="velvetRope" x="500" y="325" hasTutorial="true">{panelData}/velvetRope.xml</panel>
+		<panel id="tinkTip" x="195" y="116" closeable="true">{panelData}/tinkTip.xml</panel>
+		<panel id="tutorial" x="181" y="66" alwaysOnTop="true" closeable="true">{panelData}/tutorials.xml</panel>
+		<panel id="alert_storage" x="0" y="0" transition="none">{panelData}/alert_storage.xml</panel>
+		<panel id="donateConfirm" x="3" y="15" transition="none">{panelData}/donateConfirm.xml</panel>
+		<panel id="eatConfirm" x="3" y="15" transition="none">{panelData}/eatConfirm.xml</panel>
+		<panel id="pixieWallet" x="3" y="15" transition="none">{panelData}/pixieWallet.xml</panel>
+		<panel id="feedPetPanel" x="3" y="15" transition="none">{panelData}/feedPet.xml</panel>
+		<panel id="healPetPanel" x="3" y="15" transition="none">{panelData}/healPet.xml</panel>
+		<panel id="globalShopPurchase" x="3" y="15" transition="none"alwaysOnTop="true">{panelData}/globalShopPurchase.xml</panel>
+		<!-- <panel id="meadowGameLauncher" x="0" y="0">{panelData}/meadowGameLauncher.xml</panel> -->
+		<!-- <panel id="meadowGameResults" x="0" y="50">{panelData}/meadowGameResults.xml</panel> -->
+		<panel id="scriptPad" x="700" y="80" hidden="true" alwaysOnTop="true" closeable="true">{panelData}/scriptPad.xml</panel>
+		<panel id="handWrittenNote" x="260" y="100" transition="none">{panelData}/handWrittenNote.xml</panel>
+		<panel id="facebookConf" x="0" y="0" alwaysOnTop="true">{panelData}/facebookConfirmation.xml</panel>
+		<panel id="animalFriendResultsPanel" x="0" y="0" transition="none">{panelData}/animalFriendResults.xml</panel>
+		<panel id="currencyExplanation" x="222" y="110" alwaysOnTop="true">{panelData}/currencyExplanation.xml</panel>
+		<panel id="convertItem" x="70" y="40" alwaysOnTop="true">{panelData}/convertItem.xml</panel>
+		<panel id="fairyNameSelector" x="230" y="60" transition="none">{panelData}/fairyNameSelector.xml</panel>
+	</lazyPanelGroup>
+
+	<lazyPanelGroup panelSet="inner">
+		
+		<panel id="AFMemory" x="0" y="0" transition="none">{panelData}/microgameAnimalFriendMemory.xml</panel>
+		<panel id="AFFindTheBug" x="300" y="275" transition="none">{panelData}/microgameAnimalFriendFindTheBug.xml</panel>
+		<panel id="AFDragonflyRacing" x="0" y="0" alwaysOnTop="true">{panelData}/microgameAnimalFriendDragonflyRacing.xml</panel>	
+		<panel id="AFBounce" x="0" y="0" transition="none">{panelData}/microgameAnimalFriendBounce.xml</panel>
+		<!-- <panel id="MGDerbyCartRacing" x="0" y="0" transition="none">{panelData}/meadowgameDerbyCartRacing.xml</panel> -->
+		<!-- <panel id="MGCrazyEight" x="0" y="0" transition="none">{panelData}/meadowgameCrazyEight.xml</panel>-->
+		<!-- <panel id="MGMatchGame" x="0" y="0" transition="none">{panelData}/meadowgameMemory.xml</panel> -->
+		<panel id="AFBeesEye" x="0" y="0" alwaysOnTop="true">{panelData}/microgameAnimalFriendBeesEye.xml</panel>	
+		<panel id="levelUpPanel" x="0" y="0" transition="none">{panelData}/levelUpPanel.xml</panel>
+		<panel id="meadowSignpost" x="0" y="0" transition="none">{panelData}/meadowSignpost.xml</panel>
+		<panel id="leaderboards" x="0" y="0" transition="none">{panelData}/leaderboards.xml</panel>
+		<panel id="postcards" x="68" y="40">{panelData}/postcards.xml</panel>
+		<panel id="postOfficePostcards" x="68" y="40">{panelData}/postOfficePostcards.xml</panel>
+		<panel id="postOfficeGiftSets" x="147" y="40">{panelData}/postOfficeGiftSets.xml</panel>
+		<panel id="postcardsBubbles" x="68" y="40">{panelData}/postcardsBubbles.xml</panel>
+	</lazyPanelGroup>
+
+</data>

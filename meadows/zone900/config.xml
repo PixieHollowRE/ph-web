@@ -1,0 +1,52 @@
+<zone>
+  <name>Cherryblossom Heights</name>
+  <zoneID>100</zoneID>
+  <assetURL>http://</assetURL>
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  <audioLibrary>meadow100</audioLibrary>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_100</id> 
+      <loops>0</loops> 
+      <volumeLow>0.75</volumeLow> 
+      <volumeHigh>0.75</volumeHigh>
+      <y>5</y> 
+    </sfx>
+    <bgm>
+      <id>meadow_music_100</id> 
+      <loops>1</loops> 
+      <volumeLow>0.5</volumeLow> 
+      <volumeHigh>0.5</volumeHigh> 
+    </bgm>
+    <bgm>
+      <id>meadow_music_spring_generic</id> 
+      <loops>0</loops> 
+      <volumeLow>0.185</volumeLow> 
+      <volumeHigh>0.185</volumeHigh> 
+      <delayLow>24000</delayLow> 
+      <delayHigh>24000</delayHigh> 
+    </bgm>
+  </bgms>
+  <layers>
+    <layer width="950" height="568" type="normal">
+      <image x="0" y="0">sky_01.swf</image>
+    </layer>
+    <layer width="1200" height="722" type="normal">
+      <image x="0" y="0">far_02.swf</image>
+    </layer>
+    <layer width="2008" height="1190" type="ground">
+      <image type="merge" x="0" y="0">action_03.swf</image>
+    </layer>
+    <layer width="2828" height="1677" type="normal" lazy="true">
+      <image type="tileUnlessLazy" x="0" y="0">foreground_04.swf</image>
+    </layer>
+  </layers>
+  <locations>
+    <location x="761" y="535">default</location>
+    <location x="408" y="750">fromSpringtimeOrchard</location>
+    <location x="1589" y="927">fromNeverberryThicket</location>
+    <location x="1473" y="519">fromTreetopBend</location>
+  </locations>
+  <gateways/>    
+  <decorations/>
+</zone>

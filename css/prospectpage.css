@@ -1,0 +1,517 @@
+.pixieContent {
+  width:994px;
+  height:377px;
+  background: transparent url(../publish/images/prospect/spring_bg.jpg) no-repeat scroll 58px 0;
+  text-align:  left;
+}
+.pixieContentMainLogo{
+	background: transparent url(../publish/images/prospect/logo_winter.png) no-repeat scroll 58px 0;
+}
+
+.disneyFairies{
+	margin:0 0 0 60px;
+	width:169px;
+	height:40px;
+	float: left;
+	background: transparent url(../publish/images/prospect/visitdisneyfairies.png) no-repeat scroll 0 0;
+}
+
+.disneyFairies a {
+	width:100%;
+	height:100%;
+	display: block;
+	border:0px;
+}
+
+
+
+.pixieLogin{
+	margin:0 0 0 380px;
+	width:300px;
+	height:40px;
+	float:left;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align: right;
+	padding: 0 50px 0 0;
+	display: inline;
+}
+
+.pixieLogin a {
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+
+
+
+
+
+.pixiePlay{
+	margin:100px 0 0 430px;
+	padding:42px 0 0 0;
+	width:240px;
+	height:173px;
+	float: left;
+	display: inline;
+	
+
+}
+.pixiePlayText{
+	width:240px;
+	font-family: Arial,Helvetica, sans-serif;
+	font-size: 18px;
+	color:#fff000;
+	text-align:center;
+	height:50px;
+}
+.pixiePlayBtn{
+	margin: 5px 0 0 0;
+}
+
+
+.pixieNews{
+	margin:100px 0 0 0;
+	width:270px;
+	height:233px;
+	float:left;
+}
+.panelContent{
+	width:994px;
+	height:262px;
+	margin: 0 0 0 0;
+	text-align: left;
+}
+
+
+
+
+.pixiePanelNews{
+	width:207px;
+	height:253px;
+	background: transparent url(../publish/images/prospect/section_news.png) no-repeat scroll 0 0;
+	float:left;
+}
+
+.pixiePanelMember{
+	width:195px;
+	height:253px;;
+	background: transparent url(../publish/images/prospect/section_members.png) no-repeat scroll 0 26px;
+	float:left;
+}
+
+.pixiePanelAbout{
+	width:190px;
+	height:253px;
+	background: transparent url(../publish/images/prospect/section_about.png) no-repeat scroll 0 20px;
+	float:left;
+}
+
+.pixiePanelParents{
+	width:194px;
+	height:253px;
+	background: transparent url(../publish/images/prospect/section_parents.png) no-repeat scroll 0 11px;
+	float:left;
+}
+
+.pixiePanelToys{
+	width:198px;
+	height:253px;
+	background: transparent url(../publish/images/prospect/section_toys.png) no-repeat scroll 0 20px;
+	float:left;
+}
+
+.pixiePanelHelp{
+	width:198px;
+	height:253px;
+	background: transparent url(../publish/images/prospect/section_help.png) no-repeat scroll 0 20px;
+	float:left;
+}
+
+
+
+.pixiePanelButton{
+	width: 198px;
+	height: 193px;
+	padding-top: 3px;
+}
+.pixiePanelButtonNews{
+	background: transparent url(../publish/images/prospect/greenbutton.png) no-repeat scroll 56px 170px;
+	
+}
+.pixiePanelButtonMember{
+	background: transparent url(../publish/images/prospect/greenbutton.png) no-repeat scroll 44px 170px;
+
+}
+.pixiePanelButtonAbout{
+	background: transparent url(../publish/images/prospect/greenbutton.png) no-repeat scroll 45px 170px;
+
+}
+.pixiePanelButtonParents{
+	background: transparent url(../publish/images/prospect/greenbutton.png) no-repeat scroll 48px 170px;
+
+}
+.pixiePanelButtonHelp{
+	background: transparent url(../publish/images/prospect/greenbutton.png) no-repeat scroll 50px 170px;
+
+}
+
+.pixiePanelButton a {
+  	display: block;
+  	width: 92px;
+ 	height:25px;
+ 	
+	color: #aef364;
+	border:none;
+	text-decoration: none;
+	cursor: pointer; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.pixiePanelButtonNews a{
+	padding: 170px 25px 0 67px;
+}
+.pixiePanelButtonMember a{
+	
+	padding: 170px 25px 0 52px;
+}
+.pixiePanelButtonAbout a{
+	padding: 170px 25px 0 58px;
+}
+.pixiePanelButtonParents a{
+	padding: 170px 25px 0 66px;
+}
+.pixiePanelButtonHelp a{
+	padding: 170px 25px 0 84px;
+}
+
+
+.pixiePanelButton a:hover {
+  	text-decoration: none;
+	color: #fff04c;
+}
+
+
+
+
+
+.pixieClickablesButton{
+	width: 92px;
+	height: 23px;
+	padding-top: 3px;
+	
+}
+
+.pixieClickablesButton a{
+	width: 92px;
+	height: 23px;
+	background: transparent url(../publish/images/prospect/greenbutton.png) no-repeat scroll 0 0;
+	padding-top: 3px;
+	
+}
+
+.pixieClickablesButton a:hover {
+  	text-decoration: none;
+	color: #fff04c;
+}
+
+
+
+
+
+.pedalPanelButton{
+	width: 92px;
+	height: 46px;
+	background: transparent url(../publish/images/prospect/greenbutton.png) no-repeat scroll 0 0;
+	padding-top: 3px;
+}
+
+
+.pedalPanelButton a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  cursor: pointer; 
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #aef364;
+	text-align: center;
+	border:none;
+	
+	padding: 20px 0 0 50px;
+}
+ 
+.pedalPanelButton a:hover {
+  	text-decoration: none;
+	color: #fff04c;
+}
+
+
+
+
+
+
+
+
+
+.pixiePanelButton3{
+	width:198px;
+	height: 235px;
+	background: transparent url(../publish/images/prospect/greenbutton.png) no-repeat scroll 49px 140px;
+}
+
+
+
+.pixiePanelButton3{
+	width:198px;
+	height: 235px;
+	background: transparent url(../publish/images/prospect/greenbutton.png) no-repeat scroll 49px 140px;
+}
+
+.pixiePanelButton3 .greentop a{
+  display: block;
+  width: 100%;
+  height: 60px;
+  text-decoration: none;
+  cursor: pointer; 
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #aef364;
+	text-align: center;
+	border:none;
+	
+	padding-top: 140px;
+}
+ 
+.pixiePanelButton3 .greenbot a:hover {
+  	text-decoration: none;
+	color: #fff04c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearFloat {
+	float:none;
+}
+
+.pedalsContent{
+	width:994px;
+	height:100px;
+}
+
+.pedalsRowLeft{
+	width: 216px;
+	height: 100px;
+	float: left;
+	background: transparent url(../publish/images/prospect/petals_left.gif) no-repeat scroll 0px 20px;
+}
+
+.pedalsRowCodes{
+	width: 170px;
+	height: 100px;
+	float: left;
+	text-align: center;
+}
+
+.pedalsTopCodes {
+	height: 47px;
+	width: 170px;
+	margin-top: 17px;
+}
+
+.pedalsTopCodes a {
+	height: 100%;
+	width: 100%;
+	display: block;
+	border:0px;
+	background: transparent url(../publish/images/prospect/btn_codes_normal.png) no-repeat scroll 0 0;
+}
+.pedalsTopCodes a:hover{
+	height: 100%;
+	width: 100%;
+	display: block;
+	border:0px;
+	background: transparent url(../publish/images/prospect/btn_codes_rollover.png) no-repeat scroll 0 0;
+}
+.pedalsCenterGreenBtnCodes {
+	padding: 4px 0 0 39px;
+}
+
+
+
+
+
+
+
+
+.pedalsPanelButton{
+	width: 92px;
+	height: 35px;
+	background: transparent url(../publish/images/prospect/greenbutton.png) no-repeat scroll 0 0;
+}
+
+.pedalsPanelButton a{
+  display: block;
+  width: 90px;
+  height: 60px;
+  text-decoration: none;
+  cursor: pointer; 
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #aef364;
+	text-align: center;
+	border:none;
+	padding: 3px 0 0 0;
+
+}
+ 
+.pedalsPanelButton a:hover {
+  	text-decoration: none;
+	color: #fff04c;
+}
+
+
+
+
+
+
+
+.pedalsRowConnected{
+	width: 240px;
+	height: 103px;
+	margin-right: 20px;
+	float: left;
+}
+.pedalsTopConnected{
+	height: 70px;
+	width: 245px;
+	border: 0px;
+}
+.pedalsTopConnected a{
+	height: 100%;
+	width: 100%;
+	display: block;
+	border:0px;
+	background: transparent url(../publish/images/prospect/how_will_you_train_button.png) no-repeat scroll 50px 15px;
+}
+.pedalsTopConnected a:hover{
+	height: 100%;
+	width: 100%;
+	display: block;
+	border:0px;
+	background: transparent url(../publish/images/prospect/how_will_you_train_button_rollover.png) no-repeat scroll 50px 15px;
+}
+.pedalsCenterGreenBtnConnected{
+	padding: 0px 0 0 35px;
+}
+
+
+
+.pedalsRowClickables{
+	width: 170px;
+	height: 100px;
+	float: left;
+}
+
+.pedalsTopClickables {
+	height: 47px;
+	width: 170px;
+	border: 0px;
+	margin-top: 17px;
+}
+
+.pedalsTopClickables a {
+	height: 100%;
+	width: 100%;
+	display: block;
+	border:0px;
+	background: transparent url(../publish/images/prospect/btn_clickables_normal.png) no-repeat scroll 20px 0;
+}
+.pedalsTopClickables a:hover{
+	height: 100%;
+	width: 100%;
+	display: block;
+	border:0px;
+	background: transparent url(../publish/images/prospect/btn_clickables_rollover.png) no-repeat scroll 20px 0;
+}
+
+.pedalsCenterGreenBtnClickables {
+	padding: 4px 0 0 20px;
+}
+
+
+.pedalsRowRight{
+	width: 120px;
+	height: 100px;
+	float: left;
+	background: transparent url(../publish/images/prospect/petals_right.png) no-repeat scroll 30px 20px;
+}
+
+
+
+
+
+
+
+
+#flashContent{
+	position: relative;
+	z-index:100;
+}
+
+.login{
+	display:inline;
+}
+.logout{
+	display:none;
+}
+
+.quickLoginContentHolder{
+	position: relative;
+	top:150px;
+	left:230px;
+	
+	
+}
+.flashFloatContainer{
+	position: relative;
+	top:0px;
+	left: -500px;
+	width:1px;
+	height: 1px;
+	
+}
+.wrongUserText{
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight:bold;
+	}
+	

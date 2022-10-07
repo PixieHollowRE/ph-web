@@ -1,0 +1,13 @@
+<globalShoppingConfig>
+  
+  <copy>
+    
+  </copy>
+  <config>
+	  <items>
+		  <item id="90001" cacheId="savedOutfitSlot" />
+		  <item id="90002" cacheId="instahealIcon" />
+		  <item id="90003" cacheId="avatarnameIcon" />
+	  </items>
+  </config>
+</globalShoppingConfig>

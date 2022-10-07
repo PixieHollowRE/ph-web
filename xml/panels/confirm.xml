@@ -1,0 +1,10 @@
+<panel>
+	<swfs>
+		<swf type="content" app="standalone">{panelContent}/mmo_confirm.swf</swf>
+		<swf type="content" app="tools">{panelContent}/confirm.swf</swf>
+		<swf type="content" app="mmo">{panelContent}/mmo_confirm.swf</swf>
+		<swf type="content" app="miniGameUnitTest">{panelContent}/mmo_confirm.swf</swf>
+	</swfs>
+	<copy></copy>
+	<config></config>
+</panel>

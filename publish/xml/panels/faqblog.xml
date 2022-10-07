@@ -1,0 +1,56 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/faqblog.swf</swf>
+		<swf type="code">{publishPanelCode}/faqblog.swf</swf>
+	</swfs>
+	<copy>
+		<header_content>FAQs</header_content>
+		<history>Back</history>
+		<title_text>FAQs &amp; Game Guides</title_text>
+		<categories_text>Categories</categories_text>
+		<read_more>Read more FAQs</read_more>
+		<per_page>10</per_page>
+		<page_gap>2</page_gap>
+		<error_loading>There was an error loading the FAQs</error_loading>
+		<no_entries>No Entries Found</no_entries>
+	</copy>
+	<config>
+		<iconbase>swf/avatar/icon.swf</iconbase>
+		<headergraphic>{publishPanelImages}/headers/FAQ_image.png</headergraphic>
+		<wallpapercolor>0x77b750</wallpapercolor>
+		<sectionicons>{publishPanelContent}/section_icons.swf</sectionicons>
+		<css>css/stylesheet.css</css>
+		<panelsetbase>xml/panelSets/</panelsetbase>
+		<blog_url>http://blog.pixiehollow.go.com/blog/help/category/General</blog_url>
+		<sectionicon bg="clear" fg="leaf"/>
+		<icons>
+			  <icon icon_id="1" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="2" bg="clear" fg="help"/>
+			  <icon icon_id="3" bg="clear" fg="overview"/>
+			  <icon icon_id="4" bg="clear" fg="faq"/>
+			  <icon icon_id="5" bg="clear" fg="controls"/>
+			  <icon icon_id="6" bg="clear" fg="techsupport"/>
+			  <icon icon_id="7" bg="clear" fg="accntsupport"/>
+			  <icon icon_id="8" bg="clear" fg="butterfly"/>
+			  <icon icon_id="9" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="10" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="11" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="12" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="13" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="14" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="15" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="16" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="17" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="18" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="19" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="20" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="21" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="22" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="23" bg="clear" fg="accntManagment"/>
+			  <icon icon_id="24" bg="clear" fg="accntManagment"/>
+		</icons>
+		<pages>
+	        <page>{publishContentData}/support/faqs/blog.xml</page>
+		</pages>
+	</config>
+</panel>

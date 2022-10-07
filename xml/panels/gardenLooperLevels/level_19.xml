@@ -1,0 +1,13 @@
+<level>
+	<rosettaStartMessage>Be quick and loop those petals as fast as you can!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>
+	<objective>Capture 8 ###petal1### petals, 10 ###petal2### petals and 10 ###petal3### petals!</objective>
+	
+	<randomPetalConfig>8-8,10-8,10-8</randomPetalConfig>
+	<multiplierChance>8</multiplierChance>
+	<bees>2</bees>
+	<petalspeed min="1" max="3"/>
+	<powerups stopwind="1" extratime="1" removebees="2"/>
+	<timeLimit>40</timeLimit>
+</level>

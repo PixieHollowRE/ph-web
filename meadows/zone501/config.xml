@@ -1,0 +1,336 @@
+<zone>
+  <name>Fairy Tale Theater</name>
+  <zoneID>501</zoneID>
+  <assetURL/>
+  <audioLibrary tags="Meadow_PHG2011_Prep">theatreCheerZone</audioLibrary>
+  <audioLibrary tags="Meadow_PGH2011">theatreCheerZone</audioLibrary>
+  <audioLibrary tags="Meadow_Theater_PHGames">theatrePHGames</audioLibrary>
+  <audioLibrary tags="Meadow_Theater_Mermaid">theatreMermaid</audioLibrary>
+  <audioLibrary tags="Meadow_Theater_Fairy_Mary">theatreFairyMary</audioLibrary>
+  <audioLibrary>theatreCheese</audioLibrary>
+  <audioLibrary tags="Meadow_Theater_Sparkles">theatreMissingSparkles</audioLibrary>
+  <audioLibrary tags="Meadow_Theater_CampAwards">meadow104</audioLibrary>
+  <audioLibrary tags="Meadow_Theater_BadDayPirate">theatrePirate</audioLibrary>
+  <audioLibrary tags="Meadow_Theater_PurpleGem">theatrePurpleGem</audioLibrary>
+  <audioLibrary tags="Meadow_Theater_Camp">theatreCamp</audioLibrary>
+  <audioLibrary tags="Meadow_SillyDays_2012_Closed">comedyTheater</audioLibrary>
+  <audioLibrary tags="Meadow_Theater_FastFlyer">theatreFFHangout</audioLibrary>
+  <audioLibrary tags="Meadow_Theater_ConcertStage">theatreRockConcert</audioLibrary>
+  <audioLibrary tags="Meadow_Theater_Kitchen">gardenTeaParty</audioLibrary>
+  <audioLibrary tags="Meadow_Theater_Dollhouse">theaterHauntedHouse</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="1469" height="820">
+        <image x="0" y="0" type="none">far_02.swf</image>
+      </layer>
+      <layer type="ground" width="1470" height="830">
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_CampAwards">action_camp_stage_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SillyDays_2012_Closed">action_SillyDays2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_PHGames">action_PH_Games_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_Mermaid">action_Mermaid_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_CheerZone">action_Meadow_CheerZone_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_CheerZone_Dark">action_Meadow_CheerZone_Dark_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_Fairy_Mary">action_FairyMary_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_FastFlyer">action_Meadow_Theater_Fast_Flyer_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_PurpleGem">action_Gem_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_BadDayPirate">action_Pirate_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_CampPixie2012">action_campfire_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_Cheese">action_Cheese_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_Sparkles">action_Sparkles_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_Dollhouse">action_Meadow_Theater_H_House_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_HolidayKitchen">action_Meadow_Theater_Kitchen_Holiday_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_Tea">action_Meadow_Theater_Kitchen_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_Comedy">action_SillyDays2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_ConcertStage">action_Meadow_Theater_ConcertStage_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_MermaidParty">action_Meadow_Theater_MermaidParty_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Camp2013">action_campfire_03.swf</image>
+        <image x="0" y="0" type="merge">action_03.swf</image>
+      </layer>
+      <layer type="normal" width="1784" height="1130" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_Theater_CampAwards">foreground_camp_stage_05.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_CampPixie2012">foreground_campfire_05.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_Theater_Dollhouse">foreground_haunted_house_05.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_MermaidParty">foreground_Mermaid_Party_05.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy">foreground_05.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="1112" y="391">fromZone110004</location>
+    <location x="754" y="674">default</location>
+    <location x="326" y="205">fromZone500</location>
+  </locations>
+  <bgms>
+    <sfx tags="Meadow_Theater_PHGames">
+      <id>ambient_woods_phg</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+    </sfx>
+    <sfx tags="Meadow_Theater_Kitchen">
+      <id>gtp_kitchen_ambient</id>
+      <loops>0</loops>
+      <volumeLow>0.75</volumeLow>
+      <volumeHigh>0.75</volumeHigh>
+      <y>5</y>
+    </sfx>
+    <bgm tags="Meadow_Theater_Kitchen">
+      <id>gtp_kitchen_bg</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+    </bgm>
+    <bgm tags="Meadow_Theater_HolidayKitchen">
+      <id>winter_kitchen_bg</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+    </bgm>
+    <bgm tags="Meadow_Theater_Dollhouse">
+      <id>HauntedHouse_bg</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+    </bgm>
+    <bgm tags="Meadow_PHG2011_Prep">
+      <id>theater_cheer_zone</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_PGH2011">
+      <id>theater_cheer_zone</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Theater_PHGames">
+      <id>wilderness_bgm_swamp_mix1</id>
+      <loops>0</loops>
+      <volumeLow>0.3</volumeLow>
+      <volumeHigh>0.3</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Theater_Mermaid">
+      <id>mermaid_mix</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Theater_Fairy_Mary">
+      <id>fairy_mary_mix</id>
+      <loops>0</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm>
+      <id>cheese_mix</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Theater_Sparkles">
+      <id>missing_sparkles_mix</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Theater_BadDayPirate">
+      <id>pirate_mix</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Theater_Camp">
+      <id>ambient_woods</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Theater_CampAwards">
+      <id>meadow_music_spring_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.2</volumeLow>
+      <volumeHigh>0.2</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Theater_PurpleGem">
+      <id>purple_gem_mix</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_SillyDays_2012_Closed">
+      <id>comedy_theater_music</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Theater_FastFlyer">
+      <id>theatre_ff_hangout</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Theater_ConcertStage">
+      <id>theatre_rock_concert</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+   <scripts>
+    <script tags="Meadow_Theater_CheerScript" x="0" y="0" file="xml/scripts/FTTCheerScript.xml" tagId="16"/>
+    <script tags="Script_Theater_Animal_Jokes" x="0" y="0" file="xml/scripts/FTTTriviaJokesAnimal.xml" tagId="4"/>
+    <script tags="Script_Theater_Garden_Jokes" x="0" y="0" file="xml/scripts/FTTTriviaJokesGarden.xml" tagId="14"/>
+    <script tags="Meadow_Theater_Sparkles" x="0" y="0" file="xml/scripts/FTTMissingSparkles.xml" tagId="1"/>
+    <script tags="Script_Theater_Water_Jokes" x="0" y="0" file="xml/scripts/FTTTriviaJokesWater.xml" tagId="12"/>
+    <script tags="Meadow_Theater_ConcertStage" x="0" y="0" file="xml/scripts/FTTConcertChat.xml" tagId="18"/>
+    <script tags="Script_Theater_Light_Jokes" x="0" y="0" file="xml/scripts/FTTTriviaJokesLight.xml" tagId="15"/>
+    <script tags="Meadow_Theater_Fairy_Mary" x="0" y="0" file="xml/scripts/FTTFMarysDayOff.xml" tagId="9"/>
+    <script tags="Meadow_Theater_Comedy" x="0" y="0" file="xml/scripts/FTTSillyDaysJokes.xml" tagId="19"/>
+    <script tags="Meadow_Theater_CampStory2" x="0" y="0" file="xml/scripts/UGC_discovery.xml" tagId="10"/>
+    <script tags="Meadow_Theater_Cheese" x="0" y="0" file="xml/scripts/FFTCheesesGreatAdventure.xml" tagId="0"/>
+    <script tags="Meadow_Theater_HolidayKitchen" x="0" y="0" file="xml/scripts/FTTHolidayKitchen.xml" tagId="24"/>
+    <script tags="Meadow_Theater_FastFlyer" x="0" y="0" file="xml/scripts/FFHangout.xml" tagId="17"/>
+    <script tags="Meadow_Theater_Underwater" x="0" y="0" file="xml/scripts/FFTUnderwaterRoleplay.xml" tagId="25"/>
+    <script tags="Meadow_Theater_BadDayPirate" x="0" y="0" file="xml/scripts/FTTPirate.xml" tagId="3"/>
+    <script tags="Meadow_Theater_CampStory3" x="0" y="0" file="xml/scripts/UGC_snake.xml" tagId="13"/>
+    <script tags="Meadow_Theater_CampStory4" x="0" y="0" file="xml/scripts/UGC_divaWings.xml" tagId="5"/>
+    <script tags="Meadow_Theater_CampPixie2012" x="0" y="0" file="xml/scripts/FFTLyriaChatter.xml" tagId="21"/>
+    <script tags="End_of_Summer_Sparkler" x="0" y="0" file="xml/scripts/TROOPOtter.xml" tagId="0"/>
+    <script tags="End_of_Summer_Sparkler" x="0" y="0" file="xml/scripts/TROOPRabbit.xml" tagId="0"/>
+    <script tags="End_of_Summer_Sparkler" x="0" y="0" file="xml/scripts/TROOPTurtle.xml" tagId="0"/>
+    <script tags="End_of_Summer_Sparkler" x="0" y="0" file="xml/scripts/TROOPGlowworm.xml" tagId="0"/>
+    <script tags="End_of_Summer_Sparkler" x="0" y="0" file="xml/scripts/TROOPButterfly.xml" tagId="0"/>
+    <script tags="Meadow_Theater_Tea" x="0" y="0" file="xml/scripts/FFTKitchenRoleplay.xml" tagId="20"/>
+    <script tags="Meadow_Theater_PurpleGem" x="0" y="0" file="xml/scripts/FFTPurpleGem.xml" tagId="8"/>
+    <script tags="Meadow_Theater_CampStory1" x="0" y="0" file="xml/scripts/UGC_campfire.xml" tagId="7"/>
+    <script tags="Meadow_Theater_Dollhouse" x="0" y="0" file="xml/scripts/FTTHauntedDollHouse.xml" tagId="23"/>
+    <script tags="Meadow_Theater_CampStory5" x="0" y="0" file="xml/scripts/UGC_ghost.xml" tagId="6"/>
+    <script tags="Script_Theater_Tinker_Jokes" x="0" y="0" file="xml/scripts/FTTTriviaJokesTinker.xml" tagId="2"/>
+    <script tags="Meadow_Theater_Mermaid" x="0" y="0" file="xml/scripts/FFTMermaidFriends.xml" tagId="11"/>
+    <script tags="Meadow_FairyFeast2012" x="0" y="0" file="xml/scripts/FTTFairyFeastKitchen.xml" tagId="22"/>
+  </scripts>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <hotspots>
+    <hotspot tags="Meadow_Theater_Sparkles" id="27522" x="770" y="230" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="11"/>
+    <hotspot tags="Meadow_Theater_Sparkles" id="27520" x="450" y="200" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="9"/>
+    <hotspot tags="Meadow_Theater_Sparkles" id="27521" x="609" y="37" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="10"/>
+    <hotspot tags="Meadow_Theater_ConcertStage" id="27721" x="1047" y="476" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="5" playType="keyframe" itemEventId="0" tagId="34"/>
+    <hotspot tags="Meadow_Theater_ConcertStage" id="27718" x="592" y="257" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="5" playType="keyframe" itemEventId="0" tagId="35"/>
+    <hotspot tags="Meadow_Theater_ConcertStage" id="27720" x="723" y="277" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="36">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="113" frequency="1" win="false"/>
+      </keyframes>
+    </hotspot>
+    <hotspot tags="Meadow_Theater_ConcertStage" id="27719" x="901" y="340" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="5" playType="keyframe" itemEventId="0" tagId="37"/>
+    <hotspot tags="Meadow_Theater_Fairy_Mary" id="27504" x="744" y="302" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="3"/>
+    <hotspot tags="Meadow_Theater_Fairy_Mary" id="27505" x="538" y="387" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="4"/>
+    <hotspot tags="Meadow_Theater_Fairy_Mary" id="27506" x="890" y="374" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="5"/>
+    <hotspot tags="Play_Lyria_PHGames_3" id="27654" x="780" y="214" setVelvetRope="0" shared="false" refresh="5" playType="keyframe" itemEventId="0" tagId="29"/>
+    <hotspot tags="Play_Lyria_PHGames_3" id="27654" x="780" y="214" setVelvetRope="0" shared="false" refresh="5" playType="keyframe" itemEventId="0" tagId="29"/>
+    <hotspot tags="Meadow_Theater_Comedy" id="27615" x="971" y="602" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" playType="full" itemEventId="0" tagId="24"/>
+    <hotspot tags="Meadow_Theater_Comedy" id="27616" x="1165" y="616" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" playType="full" itemEventId="0" tagId="25"/>
+    <hotspot tags="Meadow_Theater_Comedy" id="27617" x="1204" y="550" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" playType="full" itemEventId="0" tagId="26"/>
+    <hotspot tags="Meadow_PGH2011" id="27692" x="784" y="310" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="4" playType="keyframe" itemEventId="0" tagId="31"/>
+    <hotspot tags="Meadow_Theater_Cheese" id="27507" x="950" y="285" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="6"/>
+    <hotspot tags="Meadow_Theater_Cheese" id="27508" x="755" y="389" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="7"/>
+    <hotspot tags="Meadow_Theater_Cheese" id="27509" x="586" y="102" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="8"/>
+    <hotspot tags="Meadow_SillyDays_2012_Closed" id="27615" x="971" y="602" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" playType="full" itemEventId="0" tagId="24"/>
+    <hotspot tags="Meadow_SillyDays_2012_Closed" id="27616" x="1165" y="616" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" playType="full" itemEventId="0" tagId="25"/>
+    <hotspot tags="Meadow_SillyDays_2012_Closed" id="27617" x="1204" y="550" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" playType="full" itemEventId="0" tagId="26"/>
+    <hotspot tags="Meadow_Theater_FastFlyer" id="27561" x="578" y="87" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="3" refresh="0.1" playType="full" itemEventId="0" tagId="32"/>
+    <hotspot tags="Meadow_Theater_FastFlyer" id="27561" x="920" y="68.95" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="3" refresh="0.1" playType="full" itemEventId="0" tagId="33"/>
+    <hotspot tags="Meadow_Theater_Underwater" id="27801" x="729" y="324" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="52"/>
+    <hotspot tags="Meadow_Theater_Underwater" id="27802" x="730" y="325" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="53"/>
+    <hotspot tags="Meadow_Theater_Underwater" id="27803" x="730" y="325" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="54"/>
+    <hotspot tags="Meadow_Theater_Underwater" id="27804" x="730" y="320" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="55"/>
+    <hotspot tags="Meadow_Theater_Underwater" id="27805" x="730" y="325" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="56"/>
+    <hotspot tags="Meadow_Theater_Underwater" id="27806" x="730" y="320" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="57"/>
+    <hotspot tags="Meadow_Theater_Underwater" id="27807" x="728" y="323" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="58"/>
+    <hotspot tags="Meadow_Theater_Underwater" id="27808" x="730" y="325" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="59"/>
+    <hotspot tags="Meadow_Theater_Underwater" id="27809" x="730" y="325" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="60"/>
+    <hotspot tags="Play_Lyria_PHGames_Combined" id="27655" x="780" y="214" setVelvetRope="0" shared="false" refresh="5" playType="keyframe" itemEventId="0" tagId="30"/>
+    <hotspot tags="Meadow_Theater_BadDayPirate" id="27558" x="617" y="243" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="19"/>
+    <hotspot tags="Meadow_Theater_BadDayPirate" id="27557" x="851" y="459" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="20"/>
+    <hotspot tags="Meadow_Theater_BadDayPirate" id="27559" x="771" y="304" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="21"/>
+    <hotspot tags="Meadow_Theater_Cheese,Meadow_Theater_CampPixie2012" id="27552" x="780" y="254" setVelvetRope="0" shared="false" playType="keyframe" itemEventId="0" tagId="22"/>
+    <hotspot tags="Meadow_Theater_Cheese,Meadow_Theater_CampPixie2012" id="27553" x="780" y="214" setVelvetRope="0" shared="false" refresh="5" playType="keyframe" itemEventId="0" tagId="23"/>
+    <hotspot tags="Play_Lyria_PHGames_2" id="27653" x="780" y="214" setVelvetRope="0" shared="false" refresh="5" playType="keyframe" itemEventId="0" tagId="28"/>
+    <hotspot tags="Meadow_Theater_PurpleGem" id="27524" x="960" y="342" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="9" playType="full" itemEventId="0" tagId="13"/>
+    <hotspot tags="Meadow_Theater_PurpleGem" id="27526" x="621" y="326" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="15"/>
+    <hotspot tags="Meadow_Theater_PurpleGem" id="27523" x="490" y="50" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="17"/>
+    <hotspot tags="Meadow_Theater_PurpleGem" id="27525" x="580" y="292" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="18"/>
+    <hotspot tags="Meadow_Theater_Dollhouse" id="27749" x="735" y="423" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="44"/>
+    <hotspot tags="Meadow_Theater_Dollhouse" id="27748" x="733" y="420" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="45"/>
+    <hotspot tags="Meadow_Theater_Dollhouse" id="27750" x="765" y="47" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.2" playType="keyframe" itemEventId="0" tagId="46"/>
+    <hotspot tags="Meadow_Theater_Dollhouse" id="27751" x="445" y="490" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="47"/>
+    <hotspot tags="Meadow_Theater_Dollhouse" id="27752" x="1131" y="426" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.2" playType="keyframe" itemEventId="0" tagId="48"/>
+    <hotspot tags="Meadow_Theater_Dollhouse" id="27753" x="736" y="414" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="49"/>
+    <hotspot tags="Meadow_Theater_Dollhouse" id="27754" x="733" y="421" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="50"/>
+    <hotspot tags="Meadow_Theater_Dollhouse" id="27755" x="733" y="421" setVelvetRope="0" shared="true" clientTrigger="2" clientParm="3" refresh="0.1" playType="keyframe" itemEventId="0" tagId="51"/>
+    <hotspot tags="Play_Lyria_PHGames_1" id="27652" x="780" y="214" setVelvetRope="0" shared="false" refresh="5" playType="keyframe" itemEventId="0" tagId="27"/>
+    <hotspot tags="Meadow_Theater_Tea" id="27742" x="1002" y="366" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" playType="full" itemEventId="0" tagId="38"/>
+    <hotspot tags="Meadow_Theater_Tea" id="27743" x="481.95" y="311" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" playType="full" itemEventId="0" tagId="39"/>
+    <hotspot tags="Meadow_Theater_Tea" id="27744" x="1214" y="715" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" playType="full" itemEventId="0" tagId="40"/>
+    <hotspot tags="Meadow_Theater_Tea" id="27745" x="495" y="375" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" playType="full" itemEventId="0" tagId="41"/>
+    <hotspot tags="Meadow_Theater_Tea" id="27746" x="726" y="413" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" playType="full" itemEventId="0" tagId="42"/>
+    <hotspot tags="Meadow_Theater_Tea" id="27747" x="1355" y="693" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" playType="full" itemEventId="0" tagId="43"/>
+    <hotspot tags="Meadow_Theater_Mermaid" id="27501" x="632" y="-21" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="0"/>
+    <hotspot tags="Meadow_Theater_Mermaid" id="27502" x="823" y="226" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="1"/>
+    <hotspot tags="Meadow_Theater_Mermaid" id="27503" x="914" y="150" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="2"/>
+  </hotspots>
+</zone>

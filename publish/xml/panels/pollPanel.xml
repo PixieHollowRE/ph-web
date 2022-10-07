@@ -1,0 +1,31 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/poll.swf</swf>
+		<swf type="code">{publishPanelCode}/poll.swf</swf>
+	</swfs>
+	<copy>
+		<genericerror><![CDATA[There was a problem loading this page, please try again later.]]></genericerror>
+		<loading><![CDATA[Loading Pixie Polls]]></loading>
+		<nobutton><![CDATA[OK]]></nobutton>
+		<voteButtonText>Vote</voteButtonText>
+		<alreadyVoted>You have already voted.</alreadyVoted>
+		<pollLoadFailed>There was a problem loading poll data. Please try again later.</pollLoadFailed>
+		<htmlTitleReplace><![CDATA[<span class="title"><p>##</p></span>]]></htmlTitleReplace>
+		<currentPollTitle><![CDATA[<span class="currentTitle"><p>##</p></span>]]></currentPollTitle>
+		<htmlBodyReplace><![CDATA[<span class="bodyAlignRight"><p>##</p></span>]]></htmlBodyReplace>
+		<htmlBodyYellowReplace><![CDATA[<span class="bodySmallYellow"><p>##</p></span>]]></htmlBodyYellowReplace>
+		<noSelection>Please select an answer before voting.</noSelection>
+	</copy>
+	<config>
+		<PollApiURL><![CDATA[http://quiz.disney.go.com/quizdos/fairies/index?def=]]></PollApiURL>
+		<showResults>true</showResults>
+		<css><![CDATA[publish/xml/content/polls/polls.css]]></css>
+		<decoratorXML><![CDATA[publish/xml/content/polls/page.xml]]></decoratorXML>
+		<pollDef>ph_poll_2011_9_13</pollDef>
+		<pastPolls>
+			<pastPollDef>ph_poll_2011_9_6</pastPollDef>
+			<pastPollDef>ph_poll_2011_8_30</pastPollDef>
+			<!--<pastPollDef>test_poll</pastPollDef>-->
+		</pastPolls>
+	</config>
+</panel>

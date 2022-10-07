@@ -1,0 +1,180 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/painting.swf</swf>
+		<swf type="code">{panelCode}/painting.swf</swf>
+	</swfs>
+	<copy>
+		<title>Tailoring</title>
+		<subtitle>Screen Printing</subtitle>
+
+		<mainTitle>Tailoring</mainTitle>
+
+		<hudTitleWelcome>Tailoring</hudTitleWelcome>
+		<hudSubTitleWelcome>Screen Printing</hudSubTitleWelcome>
+
+		<level>Level</level>
+		<complete>Complete!</complete>
+		<score>SCORE</score>
+
+		<playBtn><![CDATA[Play]]></playBtn>
+
+		<timer><![CDATA[Timer]]></timer>
+		<helpBtn><![CDATA[?]]></helpBtn>
+		<makeThis><![CDATA[Make this pattern!]]></makeThis>
+		<timeLabel><![CDATA[TIME]]></timeLabel>
+
+		<submitLabel><![CDATA[Print]]></submitLabel>
+		<waterLabel><![CDATA[Reset]]></waterLabel>
+		<swatchLabel><![CDATA[Choose Color]]></swatchLabel>
+		<chartLabel><![CDATA[Color Guide]]></chartLabel>
+
+		<pauseBtn><![CDATA[Pause]]></pauseBtn>
+		<ScoreUILabel><![CDATA[Strings Left]]></ScoreUILabel>
+
+		<play_button target="title.btnContainer.playBtn.caption">Play!</play_button>
+		<help_button target="title.btnContainer.helpBtn.caption">Instructions</help_button>
+		<quit_button target="title.btnContainer.quitBtn.caption">Exit</quit_button>
+
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">How to Play</inst_screen_title>
+		<inst_quit_button target="instructions.btnContainer.quitBtn.caption">Quit</inst_quit_button>
+		<inst_cont_button target="instructions.btnContainer.continueBtn.caption">Continue</inst_cont_button>
+		<inst_play_button target="instructions.btnContainer.playBtn.caption">Play</inst_play_button>
+		
+		<instruction0>Click on the ink in the shell to select a color.</instruction0>
+		<instruction1>You can only put ONE COLOR at a time into each screen!</instruction1>
+		<instruction2>Fill in the pieces of the patterns with the correct color that matches the sample image and click the PRINT squeegee.</instruction2>
+		<instruction3>You may have to mix colors on some patterns. Look at the color guide to see which colors to mix.</instruction3>
+		<instruction4>Once one mix color is printed down, the same screen will come back again for you to put the next mixing color onto it.</instruction4>
+		<instruction5>You can ONLY mix colors by printing one color down on the work area at a time.</instruction5>
+		<instruction6>Use the RESET sponge to remove any ink you have put down on a screen or your brush.</instruction6>
+		
+		<!-- Fairy Comments -->
+		<submit_correct_Mendy_1>Well done!</submit_correct_Mendy_1>
+		<submit_correct_Mendy_2>Nice work, my dear!</submit_correct_Mendy_2>
+		<submit_correct_Mendy_3>Correct!</submit_correct_Mendy_3>
+		<submit_correct_Mendy_4>Looking good!</submit_correct_Mendy_4>
+		<submit_correct_Bobbin_1>You're good at screen printing!</submit_correct_Bobbin_1>
+		<submit_correct_Bobbin_2>Super screen printing, my dear!</submit_correct_Bobbin_2>
+		<submit_correct_Bobbin_3>This is going to look great!</submit_correct_Bobbin_3>
+		<submit_correct_Bobbin_4>Outstanding work!</submit_correct_Bobbin_4>
+
+		<submit_wrong_Mendy_1>Not quite! Let's try that again.</submit_wrong_Mendy_1>
+		<submit_wrong_Mendy_2>Screen printing can be tricky, eh?</submit_wrong_Mendy_2>
+		<submit_wrong_Mendy_3>Pay attention to those colors!</submit_wrong_Mendy_3>
+		<submit_wrong_Bobbin_1>Nope, try again!</submit_wrong_Bobbin_1>
+		<submit_wrong_Bobbin_2>Hmm… that wasn't quite right.</submit_wrong_Bobbin_2>
+		<submit_wrong_Bobbin_3>I know ya can figure out this screen printing stuff!</submit_wrong_Bobbin_3>
+
+		<take_paint_Mendy_1>Remember dear, only one color at a time!</take_paint_Mendy_1>
+		<take_paint_Mendy_2>You can only use one color at a time, so choose wisely!</take_paint_Mendy_2>
+		<take_paint_Bobbin_1>Just one color at a time, my dear, so make it count!</take_paint_Bobbin_1>
+		<take_paint_Bobbin_2>Clear the brush with the sponge to choose a different color.</take_paint_Bobbin_2>
+
+		<gameOverTitle>Done!</gameOverTitle>
+		<gameOverMoreTitle>Keep Going!</gameOverMoreTitle> 
+		<gameOverQuitMessage>Continue</gameOverQuitMessage>
+
+		<quit_confirm_question>Are you sure you want to give up?</quit_confirm_question>
+		<quit_confirm_yes>Yes</quit_confirm_yes>
+		<quit_confirm_no>No</quit_confirm_no>
+
+		<win_gold>Awesome Job!</win_gold>
+		<awesomePercent>96</awesomePercent>
+		<win_silver>Great Job!</win_silver>
+		<greatPercent>81</greatPercent>
+		<win_bronze>Good Job!</win_bronze>
+		<goodPercent>67</goodPercent>
+		<fail>Nice Try!</fail>
+		
+		<end_poor_Bobbin_1>Screen printing can be a real challenge. You'll do better next time!</end_poor_Bobbin_1>
+		<end_poor_Mendy_1>Keep trying! You'll get better at screen printing, I know ya will!</end_poor_Mendy_1>
+		<end_poor_Bobbin_2>Remember, we can always try printing that pattern again!</end_poor_Bobbin_2>
+		<end_poor_Mendy_2>Let's not lose heart. Each print pattern gets easier with practice.</end_poor_Mendy_2>
+		
+		<end_good_Bobbin_1>Screen printing can be a real challenge. You'll do better next time!</end_good_Bobbin_1>
+		<end_good_Mendy_1>Keep trying! You'll get better at screen printing, I know ya will!</end_good_Mendy_1>
+		<end_good_Bobbin_2>Remember, we can always try printing that pattern again!</end_good_Bobbin_2>
+		<end_good_Mendy_2>Let's not lose heart. Each print pattern gets easier with practice.</end_good_Mendy_2>
+		
+		<end_great_Bobbin_1>Excellent! We've been practicing our screen printing, haven't we?</end_great_Bobbin_1>
+		<end_great_Mendy_1>Nice job! You certainly have a knack for screen printing!</end_great_Mendy_1>
+		<end_great_Bobbin_2>Super! Practice certainly does make perfect – even with screen printing!</end_great_Bobbin_2>
+		<end_great_Mendy_2>Well done! You're a screen printing champ!</end_great_Mendy_2>
+		
+		<end_awesome_Bobbin_1>Excellent! We've been practicing our screen printing, haven't we?</end_awesome_Bobbin_1>
+		<end_awesome_Mendy_1>Nice job! You certainly have a knack for screen printing!</end_awesome_Mendy_1>
+		<end_awesome_Bobbin_2>Super! Practice certainly does make perfect, even with screen printing!</end_awesome_Bobbin_2>
+		<end_awesome_Mendy_2>Well done! You're a screen printing champ!</end_awesome_Mendy_2>
+		
+		<!-- Game Constants  -->
+		<canvas_x>200</canvas_x>                 <!-- where the canvas is on the stage -->
+		<canvas_y>23</canvas_y>        
+		<translucent_per>.5</translucent_per>    <!-- alpha value for mixing colors -->
+		<blink_delay>1500</blink_delay>          <!-- how long the UI blink animations take in milliseconds -->
+		<red_x_timer>500</red_x_timer>           <!-- how long the mistake markers stay visible -->
+		<show_red_x>true</show_red_x>            <!-- could be used to disable mistake markers (type anything except 'true') -->
+
+	</copy>
+	<config>
+	
+	<colorPalette>3</colorPalette> <!-- colorPalette has nothing to do with the gameplay (this line appears in every game) -->
+
+	<!-- Default paint colors -->
+	<colors>
+		<color red="0xF9" green="0x0F" blue="0x0F"></color> <!-- 0 red,     always -->
+		<color red="0xFF" green="0xE8" blue="0x1A"></color> <!-- 1 yellow,  always -->
+		<color red="0x36" green="0x63" blue="0xB4"></color> <!-- 2 blue,    always -->
+		<color red="0xBC" green="0xDE" blue="0xFE"></color> <!-- 3 special, changes per level -->
+		<color red="0xFF" green="0xFF" blue="0xFF"></color> <!-- 4 white,   unpainted segments -->
+		<color red="0x00" green="0x00" blue="0x00"></color> <!-- 5 black,   used for mistakes / ruined segments -->
+		<color red="0xEE" green="0x8E" blue="0x00"></color> <!-- 6 orange   -->
+		<color red="0x30" green="0xB6" blue="0x30"></color> <!-- 7 green    -->
+		<color red="0xB0" green="0x04" blue="0xFB"></color> <!-- 8 purple   -->
+		<color red="0x90" green="0x5D" blue="0x2C"></color> <!-- 9 brown,   triple combination -->
+	</colors>
+	
+    <levels>
+		<level num="1"  seconds="90" image="1"  numParts="12" pattern="00077777111" HideJar3="1" ></level>
+		<level num="2"  seconds="90" image="2"  numParts="23" pattern="2222222888888880000001" HideJar3="1" firstStencil="2" ></level>
+		<level num="3"  seconds="90" image="3"  numParts="31" pattern="333333333333000000222222111111" color3red="0xBC" color3green="0xDE" color3blue="0xFE" firstStencil="2" ></level>
+		<level num="4"  seconds="90" image="4"  numParts="14" pattern="8322697777777" color3red="0xBC" color3green="0xDE" color3blue="0xFE" firstStencil="1" ></level>
+		<level num="5"  seconds="90" image="5"  numParts="17" pattern="0000007777722288" HideJar3="1" ></level>
+		<level num="6"  seconds="90" image="6"  numParts="17" pattern="8811110666668222" HideJar3="1" firstStencil="1" ></level>
+		<level num="7"  seconds="90" image="7"  numParts="21" pattern="70000001119999288333" color3red="0xBC" color3green="0xDE" color3blue="0xFE" stencilAcolor1="8" stencilCcolor1="6" ></level>
+		<level num="8"  seconds="90" image="8"  numParts="21" pattern="66667700000011112288" HideJar3="1" ></level>
+
+		<level num="9"  seconds="90" image="9"  numParts="31" pattern="333330000888811111682222266666" color3red="0x01" color3green="0xFE" color3blue="0xDE" firstStencil="1" ></level>
+		<level num="10" seconds="90" image="10" numParts="13" pattern="661111222233" color3red="0xBC" color3green="0xDE" color3blue="0xFE" firstStencil="1" ></level>
+		<level num="11" seconds="90" image="11" numParts="12" pattern="00000011117" HideJar3="1" ></level>
+		<level num="12" seconds="90" image="12" numParts="9"  pattern="66668871" HideJar3="1" ></level>
+		<level num="13" seconds="90" image="13" numParts="17" pattern="1888887777766666" HideJar3="1" firstStencil="1" ></level>
+		<level num="14" seconds="90" image="14" numParts="27" pattern="00000000001111111166699999" HideJar3="1" stencilAcolor1="8" stencilCcolor1="6" ></level>
+		<level num="15" seconds="90" image="15" numParts="26" pattern="0666666663333331111111116" color3red="0xFD" color3green="0xE8" color3blue="0xCA" ></level>
+		<level num="16" seconds="90" image="16" numParts="15" pattern="00066117722888" HideJar3="1"></level>
+
+		<level num="17" seconds="90" image="17" numParts="13" pattern="222211777888" HideJar3="1" ></level>
+		<level num="18" seconds="90" image="18" numParts="13" pattern="822222277773" color3red="0xBC" color3green="0xDE" color3blue="0xFE" ></level>
+		<level num="19" seconds="90" image="19" numParts="13" pattern="166600088827" HideJar3="1" ></level>
+		<level num="20" seconds="90" image="20" numParts="12" pattern="33399992111" color3red="0xBC" color3green="0xDE" color3blue="0xFE" stencilAcolor0="9"></level>
+		<level num="21" seconds="90" image="21" numParts="16" pattern="333333000007771" color3red="0xFF" color3green="0x9D" color3blue="0xFF" ></level>
+		<level num="22" seconds="90" image="22" numParts="27" pattern="66666222221111111111111111" HideJar3="1" ></level>
+		<level num="23" seconds="90" image="23" numParts="24" pattern="33332222111000667799998" color3red="0xFF" color3green="0x71" color3blue="0xD8" ></level>
+		<level num="24" seconds="90" image="24" numParts="16" pattern="701333338883339"color3red="0xFF" color3green="0x71" color3blue="0xD8" stencilAcolor1="9" ></level>
+		
+		<level num="25" seconds="90" image="25" numParts="15" pattern="88866662227777" HideJar3="1" ></level>
+		<level num="26" seconds="90" image="26" numParts="18" pattern="11188666363333888" color3red="0xFD" color3green="0xE8" color3blue="0xCA" firstStencil="2" ></level>
+		<level num="27" seconds="90" image="27" numParts="12" pattern="71111311111" color3red="0xFD" color3green="0xE8" color3blue="0xCA" ></level>
+		<level num="28" seconds="90" image="28" numParts="9"  pattern="99961188" HideJar3="1" ></level>
+		<level num="29" seconds="90" image="29" numParts="25" pattern="666666000000000033333111" color3red="0xBC" color3green="0xDE" color3blue="0xFE" stencilAcolor1="8" stencilCcolor1="6" ></level>
+		<level num="30" seconds="90" image="30" numParts="17" pattern="1777777333322661" color3red="0x06" color3green="0x60" color3blue="0x06" ></level>
+		<level num="31" seconds="90" image="31" numParts="25" pattern="666699996666000061199999" HideJar3="1" ></level>
+		<level num="32" seconds="90" image="32" numParts="26" pattern="1777777777777777700003333" color3red="0xFF" color3green="0x71" color3blue="0xD8" ></level>
+
+		<level num="33" seconds="90" image="33" numParts="15" pattern="77102222226666" HideJar3="1" firstStencil="1" ></level>
+		<level num="34" seconds="90" image="34" numParts="18" pattern="33333311666222777" color3red="0x55" color3green="0x55" color3blue="0x55" firstStencil="1" ></level>
+		<level num="35" seconds="90" image="35" numParts="16" pattern="888811116663327" color3red="0xFF" color3green="0x71" color3blue="0xD8" firstStencil="2" ></level>
+		<level num="36" seconds="90" image="36" numParts="27" pattern="88833333688886771111111122" color3red="0xFD" color3green="0xE8" color3blue="0xCA" firstStencil="2" ></level>
+		
+	</levels>
+	</config>
+</panel>

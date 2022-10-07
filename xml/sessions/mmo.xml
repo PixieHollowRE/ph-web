@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<session>
+	<params>
+		<type>mmo</type>
+		<initialContent>{panelSetData}/empty.xml</initialContent>
+		<globalPanelSetOnBottom>true</globalPanelSetOnBottom>
+		<globalPanelSet>{panelSetData}/globalGame.xml</globalPanelSet>
+	</params>
+</session>

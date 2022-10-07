@@ -1,0 +1,11 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/handWrittenNote.swf</swf>
+		<swf type="code">{panelCode}/handWrittenNote.swf</swf>
+	</swfs>
+	<copy>
+		<message>Out making Pixie Dust deliveries!#NEW_LINE#I'll send you a message when it is time to meet.</message>
+	</copy>
+	<config>
+	</config>
+</panel>

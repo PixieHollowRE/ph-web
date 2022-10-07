@@ -1,0 +1,421 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/fireflies.swf</swf>
+		<swf type="code">{panelCode}/fireflies.swf</swf>
+	</swfs>
+	<copy>
+		<title_screen target="title.title_container.title_text">Firefly Light Up</title_screen>
+		
+		<instruction0>To light up a firefly, first click on a glowing dot of light to fill your basket.</instruction0>
+		<instruction1>Click again near a firefly to release the light. Light up more than one firefly at a time to earn more points!</instruction1>
+		<instruction2>Watch out for pesky moths. They love sparkly stuff!  They'll knock your light-filled basket right out of your hands!</instruction2>
+		<instruction3>If you run out of baskets, your game is over.</instruction3>
+		
+		
+		<title>Firefly Light-Up</title>
+		<welcome>Get Ready</welcome>
+		<welcome_play>Continue</welcome_play>
+		
+		<level_tip_title>Did You Know?</level_tip_title>
+		<score>Score : </score>
+		<level>Level</level>
+		<firefliesremain>Fireflies Lit : </firefliesremain>
+		<firefly_spacer>of</firefly_spacer>
+		<basketsremain>Baskets</basketsremain>
+		<basketremain>Basket</basketremain>
+		<hostname>Iridessa</hostname>
+		<level_fail>Nice Try!</level_fail>
+		<level_win_pre>Level</level_win_pre>
+		<level_win>Complete!</level_win>
+		<level_next>Continue</level_next>
+		<level_retry>Retry</level_retry>
+		<level_quit>Done</level_quit>
+		<add_basket>PERFECT! You get an extra basket!</add_basket>
+		<level_baskets>Baskets Lost : </level_baskets>
+		<score_basket>Basket Bonus : </score_basket>
+		<score_combo>Longest Chain : </score_combo>
+		<score_level>Chain Bonus : </score_level>
+		<score_total>Your Score : </score_total>
+		<score_final>Total Score : </score_final>
+		<combo_msg>Color Bonus</combo_msg>
+		<level_tip>Do You Know?</level_tip>
+		<first_level_tip>Welcome!</first_level_tip>
+		<your_score>Your Last Score : </your_score>
+		
+		<!-- UI: TUTORIAL -->
+		<tutorial_next>NEXT</tutorial_next>
+		<tutorial_skip>Skip This</tutorial_skip>		
+		<tutorial_replay>How To Play</tutorial_replay>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		<tutorial_finalscore_label>Let's light up those fireflies!</tutorial_finalscore_label>
+		<tutorial_hudtitle>How to play</tutorial_hudtitle>
+		
+		<host_bubble_1>Now you try it!</host_bubble_1>
+		<host_bubble_1B>Fill your basket with light, then put it on a firefly!</host_bubble_1B>
+		<host_bubble_2>You did it!</host_bubble_2>
+		<host_bubble_2B>Use the light when both fireflies are right next to you!</host_bubble_2B>
+		<host_bubble_3>SHIMMERIFIC!</host_bubble_3>
+		
+		
+		<tutorial_stepIntro>Welcome to Twilight Glen! Come on, I'll show you how to light up the fireflies!</tutorial_stepIntro>
+		<tutorial_step1>First, fill your basket with a glowing light by picking up a light dot.</tutorial_step1>
+		<tutorial_step2>Then put the light on the firefly.</tutorial_step2>
+		<tutorial_step3>Your turn. Go ahead and light up a firefly!</tutorial_step3>
+		<tutorial_step4>Flickerific job! Watch out for those pesky moths. You'll lose a basket if you run into them!</tutorial_step4>
+		<tutorial_step5>This shows you how many baskets you have left. The game ends if you run out of baskets.</tutorial_step5>
+		<tutorial_step6>And this shows you how many fireflies you need to light up to finish. Don't worry, I'll be here with you!</tutorial_step6>
+		<tutorial_step7>Now check this out -- you can light up more than one firefly at a time!</tutorial_step7>
+		<tutorial_step8>Wow! I think you're ready!</tutorial_step8>
+		
+		<!-- Story -->		
+		<easy_story>It's firefly lighting time! Let's get going!</easy_story>
+		<medium_story>There are lots more fireflies to light up. Are you ready?</medium_story>
+		<hard_story>Here come more fireflies. It's time to get your glow on!</hard_story>
+		<royal_story>These fireflies aren't easy to light up, but they glow so brightly! I can't wait to see them shine!</royal_story>
+		
+		<easy_exitstory>You did it, sunshine! Flashtastic!</easy_exitstory>
+		<medium_exitstory>Thanks to you, the fireflies are glowing with happiness. You're the best!</medium_exitstory>
+		<hard_exitstory>Thanks for helping, sunshine. I've never seen brighter fireflies!</hard_exitstory>
+		<royal_exitstory>We did it! SHIMMERIFIC! I couldn't have done it without you, sunshine. Thanks!</royal_exitstory>
+		
+		<allmedium_story>Flickerific job, sunshine! But there are more fireflies waiting. We need to keep going!</allmedium_story>
+		<allhard_story>Flashtastic! There are more still to light up -- don't stop now!</allhard_story>
+		<allroyal_story>Shimmering sunbeams, so many fireflies still need to be lit! Come on!</allroyal_story>
+		
+		
+		<level_tip_basket>Hi there, moonbeam! Welcome to Twilight Glen! I need your help to light up fireflies. I'll make dots of light, then you gather them up and put them onto fireflies! Get ready!</level_tip_basket>
+		<level_tip_blue>Blue moonlight gives a big burst when you release it!</level_tip_blue>
+		<level_tip_moth>Those silly moths will knock down your basket if you're carrying a dot of light, so be careful!</level_tip_moth>
+		<level_tip_red>Red firelight spreads from firefly to firefly.</level_tip_red>
+		<level_tip_purple>Purple twilight lingers for a little bit, lighting every firefly that passes through it.</level_tip_purple>
+		<level_tip_green>The green moth light isn't for fireflies -- it attracts moths and keeps them busy for a little while.</level_tip_green>
+		<level_tip_orange>Orange sunlight draws fireflies toward it and then expands to light them up!</level_tip_orange>
+		<level_tip_chase>Really watch those yellow moths! They'll chase you if you have a dot of light in your basket!</level_tip_chase>
+		
+		<game_win>You Win!</game_win>
+		<game_fail>Nice Try!</game_fail>
+		
+
+   	    <host_game_win_0>Moon and stars, you really got those fireflies glowing! Thanks!</host_game_win_0>
+   	    <host_game_win_1>That's what I call a stellar job!  Thanks so much for your help!</host_game_win_1>
+    	<host_game_win_2>Wiggle my wingtips, I couldn't have done it without you! Thanks!</host_game_win_2>
+    	<host_game_win_3>Wow, you did so well I think the fireflies took a shine to you! Thanks for the help!</host_game_win_3>
+    	<host_game_win_4>I don't think I've ever seen Twilight Glen sparkle so much. Thanks for helping me!</host_game_win_4>
+
+    	<host_game_fail_0 >Looks like you ran out of baskets. That's ok- thanks for all your help so far!</host_game_fail_0>
+     	<host_game_fail_1>Lighting those little guys isn't easy, huh? It takes practice, so come back any time and try again!</host_game_fail_1>
+   	    <host_game_fail_2>Oops! That was your last basket. Well, don't worry you can try again whenever you want!</host_game_fail_2>
+
+
+		<host_title_0>temp host title screen</host_title_0>
+		<host_level_1_0>Here's an easy one for starters.</host_level_1_0>
+		<host_level_1_1>This one is really easy!</host_level_1_1>
+		<host_level_1_2>Let's start simple, okay?</host_level_1_2>
+		
+		<host_level_2_0>Now try to get both those fireflies!</host_level_2_0>
+		<host_level_2_1>See if you can light both of them at once!</host_level_2_1>
+		
+		<host_level_3_0>Wait for the right moment!</host_level_3_0>
+		<host_level_3_1>Lighting fireflies takes a lot of patience!</host_level_3_1>
+		
+		<host_level_4_0>Whoa, look out for that moth!</host_level_4_0>
+		<host_level_4_1>Watch it around that moth!</host_level_4_1>
+		
+		<host_level_5_0>This one's a little tricky!</host_level_5_0>
+		<host_level_5_1>You'll have to be quick to light them all at once!</host_level_5_1>
+		
+		<host_level_6_0>See if you can slip past those moths!</host_level_6_0>
+		<host_level_6_1>These fireflies are showing off their fancy flying!</host_level_6_1>
+		
+		<host_level_7_0>Try the blue moonlight for a big surprise!</host_level_7_0>
+		<host_level_7_1>The light of a blue moon gives off a super glow!</host_level_7_1>
+		
+		<host_level_8_0>Remember to use your blue moonlight at the right moment!</host_level_8_0>
+		<host_level_8_1>Remember to keep your light away from that moth!</host_level_8_1>
+		
+		<host_level_9_0>Try out the red firelight and watch it spread!</host_level_9_0>
+		<host_level_9_1>Give the red light a try!</host_level_9_1>
+
+		<host_level_10_0>Wait for the right moment!</host_level_10_0>
+		<host_level_10_1>Use your red firelight to light the fireflies in a row!</host_level_10_1>
+		
+		<host_level_11_0>I just love the red light, don't you?</host_level_11_0>
+		<host_level_11_1>These fireflies are really flapping, aren't they?</host_level_11_1>		
+		
+		<host_level_12_0>Try putting your purple twilight right in the center!</host_level_12_0>
+		<host_level_12_1>Purple twilight is flitterific!</host_level_12_1>
+		
+		<host_level_13_0>Can you figure out how to light all these fireflies at once?</host_level_13_0>
+		<host_level_13_1>Use your purple twilight and yellow moonlight together!</host_level_13_1>
+		
+		<host_level_14_0>Remember, your green light will distract those moths!</host_level_14_0>
+		<host_level_14_1>Be sure to lure those moths far away!</host_level_14_1>
+
+		<host_level_15_0>Try using all three lights!</host_level_15_0>
+		<host_level_15_1>Ooo purple, green, and yellow light all at once!</host_level_15_1>
+
+		<host_level_16_0>Watch out! One of those moths is not like the others!</host_level_16_0>
+		<host_level_16_1>Those yellow moths can really get in the way. Be careful!</host_level_16_1>
+
+		<host_level_17_0>This one is all about timing!</host_level_17_0>
+		<host_level_17_1>You'll have to fly quickly here!</host_level_17_1>
+
+		<host_level_18_0>Try to spread that red firelight all around!</host_level_18_0>
+
+		<host_level_19_0>Hmm, can you slip past those moths?</host_level_19_0>
+		<host_level_19_1>Watch out for that ring of moths!</host_level_19_1>
+
+		<host_level_20_0>Do you think you can light all these fireflies at once?</host_level_20_0>
+		<host_level_20_1>Use your blue moonlight well!</host_level_20_1>
+
+		<host_level_21_0>You should be able to get both those fireflies at once!</host_level_21_0>
+
+		<host_level_22_0>Hmm, I wonder where you should use that purple light?</host_level_22_0>
+
+		<host_level_23_0>Watch out for those chasing moths!</host_level_23_0>
+
+		<host_level_24_0>Look at all those fireflies in a row!</host_level_24_0>
+		<host_level_24_1>This shouldn't be too hard if you use your purple twilight.</host_level_24_1>
+
+		<host_level_25_0>Looks like those moths really like the lights!</host_level_25_0>
+
+		<host_level_26_0>Fireflies are really drawn to orange sunlight!</host_level_26_0>
+
+		<host_level_27_0>See if you can lure those fireflies away from those moths!</host_level_27_0>
+
+		<host_level_28_0>Try using sunlight and moonlight together!</host_level_28_0>
+
+		<host_level_29_0>Light that ring of fireflies!</host_level_29_0>
+
+		<host_level_30_0>This is tricky. Can you see where to use the red light?</host_level_30_0>
+		<host_level_30_1>Do you think you could light them all in a single shot?</host_level_30_1>
+		
+		<host_level_31_0>Look out! There's a lot of moths here that will chase you.</host_level_31_0>
+
+		<host_level_32_0>Sometimes even fireflies can be tricky!</host_level_32_0>
+
+		<host_level_33_0>I think a well placed red light could light all these guys.</host_level_33_0>
+
+		<host_level_34_0>Hmm, I wonder where those moths got to?</host_level_34_0>
+
+		<host_level_35_0>Hmm, how can you get that green moth light?</host_level_35_0>
+
+		<host_level_36_0>I think a well-placed red light could light all these guys.</host_level_36_0>
+
+		<host_level_36_1>Be careful of those pesky moths!</host_level_36_1>
+
+		<host_level_37_0>Think carefully about this one!</host_level_37_0>
+
+		<host_level_38_0>I think you know what to do here.</host_level_38_0>
+
+		<host_level_39_0>You can do this one!</host_level_39_0>
+
+		<host_level_40_0>Look at all those moths!</host_level_40_0>
+
+		<host_level_41_0>You've got to be fast here!</host_level_41_0>
+
+		<host_level_42_0>This one is sure to have you spinning in circles!</host_level_42_0>
+
+		<host_level_43_0>Look at all the colors of light!</host_level_43_0>
+
+		<host_level_44_0>With all those lights, you're sure to think of something!</host_level_44_0>	
+
+		<host_level_45_0>These fireflies are a bit shy, aren't they?</host_level_45_0>
+
+		<host_level_46_0>Wow- I've rarely seen so many lights!</host_level_46_0>
+
+		<host_level_47_0>Watch out for all those pesky moths!</host_level_47_0>
+
+		<host_level_48_0>If you're clever, you might be able to light them all at once!</host_level_48_0>
+
+		<host_level_49_0>Don't be scared by those moths!</host_level_49_0>
+	
+		<host_level_50_0>Just one little guy left! Light him up!</host_level_50_0>	
+		<host_level_50_1>You can make it through!</host_level_50_1>
+
+  	      <host_combo_0_0>Careful!</host_combo_0_0>
+  	      <host_combo_0_1>Don't waste your light!</host_combo_0_1>
+
+   	     <host_combo_1_0>Excellent, you got that one!</host_combo_1_0>
+   	     <host_combo_1_1>Now that's what I call a sparkle-rific firefly!</host_combo_1_1>
+     	    <host_combo_1_2>You got one! Keep going!</host_combo_1_2>
+
+    	    <host_combo_2_0>Two at once- way to go!</host_combo_2_0>
+    	    <host_combo_2_1>Two fireflies are better than one!</host_combo_2_1>
+    	    <host_combo_2_2>Wow, two fireflies in a single shot!</host_combo_2_2>
+
+    	    <host_combo_3_0>Yes, three in a row!</host_combo_3_0>
+    	    <host_combo_3_1>Wow, you got three!</host_combo_3_1>
+    	    <host_combo_3_2>That's three shining fireflies!</host_combo_3_2>
+
+    	    <host_combo_4_0>You got four at once!</host_combo_4_0>
+    	    <host_combo_4_1>Hooray, four different fireflies with one light!</host_combo_4_1>
+    	    <host_combo_4_2>Great job lighting all four of those fireflies!</host_combo_4_2>
+
+    	    <host_combo_many_0>You've got a real flare for this!</host_combo_many_0>
+    	    <host_combo_many_1>Look at all those glowing fireflies!</host_combo_many_1>
+    	    <host_combo_many_2>You're a natural!</host_combo_many_2>
+    	    <host_combo_many_3>You've made these fireflies so happy!</host_combo_many_3>
+    	    <host_combo_many_4>Those fireflies look as sparkly as a smile!</host_combo_many_4>
+    	    <host_combo_many_5>You really shine at this!</host_combo_many_5>
+    	    <host_combo_many_6>Ah, what a pretty glow you're spreading!</host_combo_many_6>
+
+    	    <host_combo_all_0>The night sky is lit up because of you!</host_combo_all_0>
+    	    <host_combo_all_1>Fantastic job! Keep it up!</host_combo_all_1>
+    	    <host_combo_all_2>Oh, I'm so proud of you!</host_combo_all_2>
+    	    <host_combo_all_3>Are we a good team or what?</host_combo_all_3>
+    	    <host_combo_all_4>Pixie Hollow's really going to glow now!</host_combo_all_4>
+
+
+     	   <host_moth_0>Oh, those pesky moths!</host_moth_0>
+	<host_moth_1>Oh no! Those moths are so sneaky!</host_moth_1>
+	<host_moth_2>Be careful of those moths! </host_moth_2>
+     	   <host_moth_3>Watch out! Those moths are fast.</host_moth_3>
+     	   <host_moth_4>Oh, that's ok. Let's try again!</host_moth_4>
+
+	</copy>
+	<config>	
+		<colorPalette>2</colorPalette>	
+		
+		
+		<difficultyChoices layout="5small">		
+            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"/>			
+			<difficultyChoice descriptor="royal" displayName="Royal" paidOnly="false"/>			
+			<difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"/>	
+		</difficultyChoices>
+		
+		<supportsTutorial>true</supportsTutorial>
+
+	
+		<levelTuto type="xml">firefly_levels/tuto_01.xml</levelTuto>  
+		<levelTuto type="xml">firefly_levels/tuto_02.xml</levelTuto>  
+	
+		
+		<!--level type="xml">firefly_levels/level_11.xml</level>  
+		<level type="xml">firefly_levels/level_18.xml</level>  
+		<level type="xml">firefly_levels/level_56.xml</level>  
+		<level type="xml">firefly_levels/level_59.xml</level>  
+		<level type="xml">firefly_levels/level_37.xml</level-->  
+
+
+		<level type="xml" tip_text = "level_tip_basket" tip_accent = "tip_basket" >firefly_levels/level_01.xml</level>
+		<level type="xml" >firefly_levels/level_02.xml</level>
+		<level type="xml">firefly_levels/level_03.xml</level>	
+		<level type="xml" tip_text = "level_tip_moth" tip_accent = "tip_moth">firefly_levels/level_04.xml</level>		
+		<level type="xml">firefly_levels/level_05.xml</level>
+		<level type="xml">firefly_levels/level_06.xml</level>						
+		<level type="xml" tip_text = "level_tip_blue" tip_accent = "tip_blue">firefly_levels/level_07.xml</level>	
+		<level type="xml" >firefly_levels/level_08.xml</level>
+		<level type="xml" tip_text = "level_tip_red" tip_accent = "tip_red">firefly_levels/level_09.xml</level>
+		<level type="xml">firefly_levels/level_10.xml</level>	
+		<level type="xml">firefly_levels/level_11.xml</level>
+		<!-- start of purple -->	
+		<level type="xml" tip_text = "level_tip_purple" tip_accent = "tip_purple">firefly_levels/level_12.xml</level>
+		<level type="xml">firefly_levels/level_13.xml</level>
+		<!-- start of green -->
+		<level type="xml" tip_text = "level_tip_green" tip_accent = "tip_green">firefly_levels/level_14.xml</level>
+		<level type="xml">firefly_levels/level_15.xml</level>								
+		<!-- start of chasers-->
+		<level type="xml"  tip_text = "level_tip_chase" tip_accent = "tip_chase">firefly_levels/level_16.xml</level>
+		<level type="xml">firefly_levels/level_17.xml</level>
+		<level type="xml">firefly_levels/level_18.xml</level>
+		<level type="xml">firefly_levels/level_19.xml</level>
+		<level type="xml">firefly_levels/level_20.xml</level>
+		<level type="xml">firefly_levels/level_21.xml</level> <!-- too similar to other blue moon levels? -->
+		<level type="xml">firefly_levels/level_22.xml</level>	
+		<level type="xml">firefly_levels/level_23.xml</level>
+		<level type="xml">firefly_levels/level_24.xml</level>
+		<level type="xml">firefly_levels/level_25.xml</level>
+		<level type="xml" tip_text = "level_tip_orange" tip_accent = "tip_orange">firefly_levels/level_26.xml</level>
+		<level type="xml">firefly_levels/level_27.xml</level>
+		<level type="xml">firefly_levels/level_28.xml</level>
+		<level type="xml">firefly_levels/level_29.xml</level>
+		<level type="xml">firefly_levels/level_30.xml</level>
+		<level type="xml">firefly_levels/level_31.xml</level>
+		<level type="xml">firefly_levels/level_32.xml</level> 
+		<level type="xml">firefly_levels/level_33.xml</level>
+		<level type="xml">firefly_levels/level_34.xml</level> 
+		<level type="xml">firefly_levels/level_35.xml</level> 
+		<level type="xml">firefly_levels/level_36.xml</level>
+		<level type="xml">firefly_levels/level_37.xml</level>		
+		<level type="xml">firefly_levels/level_38.xml</level>		
+		<level type="xml">firefly_levels/level_39.xml</level>		
+		<level type="xml">firefly_levels/level_40.xml</level>	
+		<level type="xml">firefly_levels/level_41.xml</level>		
+		<level type="xml">firefly_levels/level_42.xml</level>		
+		<level type="xml">firefly_levels/level_43.xml</level>					
+		<level type="xml">firefly_levels/level_44.xml</level>		
+		<level type="xml">firefly_levels/level_45.xml</level>	
+		<level type="xml">firefly_levels/level_46.xml</level>	
+		<level type="xml">firefly_levels/level_47.xml</level>	
+		<level type="xml">firefly_levels/level_48.xml</level>
+		<level type="xml">firefly_levels/level_49.xml</level>
+		<level type="xml">firefly_levels/level_50.xml</level>	
+		
+		<lightType>
+			<color>yellow</color>
+			<ammo>lightammo_yellow</ammo>
+			<bomb>lightbomb_yellow</bomb>
+			<twinkle>twinkle_yellow</twinkle>
+			<firefly>firefly_yellow</firefly>
+			<basket>basket_yellow</basket>
+			<drop>drop_basket_yellow</drop>
+			<sound>sfx_drop</sound>
+			<respawn/>
+		</lightType>
+		<lightType>
+			<color>orange</color>
+			<ammo>lightammo_orange</ammo>
+			<bomb>lightbomb_orange</bomb>
+			<twinkle>twinkle_orange</twinkle>
+			<firefly>firefly_orange</firefly>
+			<basket>basket_orange</basket>
+			<drop>drop_basket_orange</drop>
+			<sound>sfx_drop_orange</sound>
+			<lure/>
+		</lightType>
+		<lightType>
+			<color>red</color>
+			<ammo>lightammo_red</ammo>
+			<bomb>lightbomb_red</bomb>
+			<twinkle>twinkle_red</twinkle>
+			<firefly>firefly_red</firefly>
+			<basket>basket_red</basket>
+			<drop>drop_basket_red</drop>
+			<sound>sfx_drop_red</sound>
+			<chains>red</chains>
+		</lightType>
+		<lightType>
+			<color>purple</color>
+			<ammo>lightammo_purple</ammo>
+			<bomb>lightbomb_purple</bomb>
+			<twinkle>twinkle_purple</twinkle>
+			<firefly>firefly_purple</firefly>
+			<basket>basket_purple</basket>
+			<drop>drop_basket_purple</drop>
+			<sound>sfx_drop_purple</sound>
+		</lightType>
+		<lightType>
+			<color>green</color>
+			<ammo>lightammo_green</ammo>
+			<bomb>lightbomb_green</bomb>
+			<basket>basket_green</basket>
+			<drop>drop_basket_green</drop>
+			<sound>sfx_drop_green</sound>
+			<mothlure/>
+		</lightType>
+		<lightType>
+			<color>blue</color>
+			<ammo>lightammo_blue</ammo>
+			<bomb>lightbomb_blue</bomb>
+			<twinkle>twinkle_blue</twinkle>
+			<firefly>firefly_blue</firefly>
+			<basket>basket_blue</basket>			
+			<drop>drop_basket_blue</drop>
+			<sound>sfx_drop_blue</sound>
+		</lightType>
+	</config>			
+	
+</panel>

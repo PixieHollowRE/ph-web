@@ -1,0 +1,125 @@
+<level>
+	<light x = "95" y = "203">green</light>
+	<light x = "95" y = "303">purple</light>
+	<light x = "783" y = "253">yellow</light>
+
+<!-- this level has one fast, randomly moving moth
+ and a lot of fireflies traveling different paths
+ with overlap at (339, 300) -->
+
+<!-- randomly moving moth (#1 of 2) -->
+	<firefly image="moth">
+		<path source = "random">
+			<topLeft x="310" y="178" />
+			<bottomRight x="568" y="328"/>
+		</path>
+		<speed>7</speed>
+		<type>moth</type>
+		<attract>15</attract>
+	</firefly>
+
+<!-- hint moth (#2 of 2) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="339" y="300" />
+			<point x="350" y="311" />
+			<point x="328" y="289" />
+			<point x="339" y="300" />
+			<point x="328" y="311" />
+			<point x="350" y="289" />
+		</path>
+		<speed>2</speed>
+		<turnspeed>0.3</turnspeed>
+		<type>blindmoth</type>
+	</firefly>
+
+<!-- firefly #1 of 6 (goes up and down) -->
+	<firefly image="firefly">
+		<path>	
+			<point x="339" y="78" />
+			<point x="299" y="228" />
+			<point x="339" y="378" />
+			<point x="379" y="228" />
+		</path>
+		<drift>0</drift>
+		<turnspeed>0.3</turnspeed>
+		<speed>7</speed>
+	</firefly>
+
+<!-- firefly #2 of 6 (goes back and forth) -->
+	<firefly image="firefly">
+		<path>	
+			<point x="280" y="320" />
+			<point x="360" y="300" />
+			<point x="280" y="280" />
+			<point x="160" y="300" />
+		</path>
+		<drift>0</drift>
+		<turnspeed>0.3</turnspeed>
+		<speed>7</speed>
+	</firefly>
+
+<!-- firefly #3 of 6 (moves in a triangle up high) -->
+	<firefly image="firefly">
+		<path>	
+			<point x="649" y="78" />
+			<point x="339" y="300" />
+			<point x="200" y="100" />
+		</path>
+		<drift>0</drift>
+		<speed>7</speed>
+	</firefly>
+
+<!-- firefly #4 of 6 (moves in a triangle down low) -->
+	<firefly image="firefly">
+		<path>	
+			<point x="200" y="400" />
+			<point x="350" y="300" />
+			<point x="500" y="400"/>
+			<point x="600" y="350"/>
+			<point x="500" y="300"/>
+			<point x="350" y="400"/>
+			<point x="200" y="300"/>
+			<point x="100" y="350"/>
+		</path>
+		<drift>0</drift>
+		<speed>7</speed>
+		<turnspeed>0.3</turnspeed>
+	</firefly>
+
+<!-- firefly #5 of 6 (goes in a circle) -->
+	<firefly image="firefly">
+		<path>	
+			<point x="299" y="200" />
+			<point x="339" y="300" />
+			<point x="439" y="340" />
+			<point x="539" y="300" />
+			<point x="579" y="200" />
+			<point x="539" y="100" />
+			<point x="439" y="60" />
+			<point x="339" y="100" />
+		</path>
+		<drift>3</drift>
+		<speed>7</speed>
+	</firefly>
+
+<!-- firefly #6 of 6 (goes in zigzags) -->
+	<firefly image="firefly">
+		<path>
+			<point x="589" y="225" />
+			<point x="489" y="375" />
+			<point x="389" y="225" />
+			<point x="289" y="375" />
+			<point x="239" y="300" />
+			<point x="289" y="225" />
+			<point x="389" y="375" />
+			<point x="489" y="225" />
+			<point x="589" y="375" />
+			<point x="639" y="300" />		
+		</path>
+		<drift>0</drift>
+		<speed>7</speed>
+		<turnspeed>0.3</turnspeed>
+
+	</firefly>
+</level>

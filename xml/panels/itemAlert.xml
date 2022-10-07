@@ -1,0 +1,10 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/itemAlert.swf</swf>
+		<swf type="code">{panelCode}/itemAlert.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+	</config>
+</panel>

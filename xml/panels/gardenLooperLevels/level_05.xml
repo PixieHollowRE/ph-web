@@ -1,0 +1,16 @@
+<level>
+	<tip>Stay sharp! Now you have to catch 2 different types of petals!</tip>
+	<tipImage>06</tipImage>
+
+	<rosettaStartMessage>Don't forget - loop just one petal type at a time now!###It's getting trickier now - pay attention to the petal types!</rosettaStartMessage>
+
+	<objectiveTitle>We need to loop:</objectiveTitle>
+	<objective>4 ###petal1### petals and 6 ###petal2### petals!</objective>
+	
+	<randomPetalConfig>4-8,6-10</randomPetalConfig>
+	<multiplierChance>5</multiplierChance>
+	<bees>1</bees>
+	<petalspeed min="1" max="3"/>
+	<powerups stopwind="0" extratime="2" removebees="0"/>
+	<timeLimit>30</timeLimit>
+</level>

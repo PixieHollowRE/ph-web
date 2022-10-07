@@ -1,0 +1,63 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/previewLogin.swf</swf>
+		<swf type="code">{panelCode}/previewLogin.swf</swf>
+	</swfs>
+	<copy>
+		<dnameAccepted><![CDATA[Your D-Name was approved!]]></dnameAccepted>
+		<dnameDenied><![CDATA[Please enter a different D-Name.]]></dnameDenied>
+		<header_content>Never Council News</header_content>
+		<accountid>Account ID:</accountid>
+		<password><![CDATA[<span class="newsbodytext">Password:</span>]]></password>
+		<noaccount><![CDATA[<span class="newsbodytext">Don't have an account yet? <a href="http://disney.go.com/fairies/pixiehollow/registration/"><u>Click here</u></a> to create an account and make a Fairy.</span>]]></noaccount>
+		
+		<noid>You must enter an Account ID.</noid>
+		<nopswd>You must enter a Password.</nopswd>
+		<noidpswd>You must enter an Account ID and Password.</noidpswd>
+		<nobutton>OK</nobutton>
+		<invalidlogin>There was a problem with your login, please try again.</invalidlogin>
+	</copy>
+	<config>
+		<iconbase>swf/avatar/icon.swf</iconbase>
+		<profileicons>swf/website/icons.swf</profileicons>
+		<css>xml/css/stylesheet.css</css>
+		<keysucces_url>index.html</keysucces_url>
+		<tou_url>termsofuse.html</tou_url>
+		<dname_url>dname.html</dname_url>
+		<keyfail_url>previewKeyEntry.html</keyfail_url>
+		<icons>
+		  <icon icon_id="1" bg="blue" fg="icon1"/>
+		  <icon icon_id="2" bg="green" fg="icon1"/>
+		  <icon icon_id="3" bg="lavender" fg="icon1"/>
+		  <icon icon_id="4" bg="orange" fg="icon1"/>
+		  <icon icon_id="5" bg="pink" fg="icon1"/>
+		  <icon icon_id="6" bg="purple" fg="icon1"/>
+		  <icon icon_id="7" bg="yellow" fg="icon1"/>
+		  <icon icon_id="8" bg="blue" fg="icon2"/>
+		  <icon icon_id="9" bg="green" fg="icon2"/>
+		  <icon icon_id="10" bg="lavender" fg="icon2"/>
+		  <icon icon_id="11" bg="orange" fg="icon2"/>
+		  <icon icon_id="12" bg="pink" fg="icon2"/>
+		  <icon icon_id="13" bg="purple" fg="icon2"/>
+		  <icon icon_id="14" bg="yellow" fg="icon2"/>
+		  <icon icon_id="15" bg="blue" fg="icon3"/>
+		  <icon icon_id="16" bg="green" fg="icon3"/>
+		  <icon icon_id="17" bg="lavender" fg="icon3"/>
+		  <icon icon_id="18" bg="orange" fg="icon3"/>
+		  <icon icon_id="19" bg="pink" fg="icon3"/>
+		  <icon icon_id="20" bg="purple" fg="icon3"/>
+		  <icon icon_id="21" bg="yellow" fg="icon3"/>
+		  <icon icon_id="22" bg="blue" fg="icon23"/>
+		  <icon icon_id="23" bg="green" fg="icon23"/>
+		  <icon icon_id="24" bg="lavender" fg="tink"/>
+		</icons>
+		<pages>
+			<page>xml/site_news/page1.xml</page>
+			<page>xml/site_news/page2.xml</page>
+			<page>xml/site_news/page3.xml</page>
+			<page>xml/site_news/page4.xml</page>
+			<page>xml/site_news/page5.xml</page>
+		</pages>
+		
+	</config>
+</panel>

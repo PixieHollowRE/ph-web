@@ -1,0 +1,8 @@
+<panelSet>
+	<panels>
+			<panel id="meadowGameLauncher" x="0" y="0" hidden="true" alwaysOnTop="true">{panelData}/meadowGameLauncher.xml</panel>
+			<panel id="meadowGameResults" x="0" y="50" hidden="true" alwaysOnTop="true">{panelData}/meadowGameResults.xml</panel>	
+	</panels>
+	<config></config>
+	<copy></copy>
+</panelSet>

@@ -1,0 +1,201 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/beadingGame.swf</swf>
+		<swf type="code">{panelCode}/beadingGame.swf</swf>
+	</swfs>
+	<copy>
+		<hudTitleWelcome>Tailoring</hudTitleWelcome>
+		<hudSubTitleWelcome>Beading</hudSubTitleWelcome>
+
+		<level>Level</level>
+		<complete>Complete!</complete>
+		<score>SCORE</score>
+
+		<playBtn><![CDATA[Play]]></playBtn>
+
+		<timer><![CDATA[Timer]]></timer>
+		<helpBtn><![CDATA[?]]></helpBtn>
+		<makeThis><![CDATA[Make this pattern!]]></makeThis>
+		<timeLabel><![CDATA[TIME]]></timeLabel>
+		<pauseBtn><![CDATA[Pause]]></pauseBtn>
+		<ScoreUILabel><![CDATA[Strings Left]]></ScoreUILabel>
+
+		<play_button target="title.btnContainer.playBtn.caption">Play!</play_button>
+		<help_button target="title.btnContainer.helpBtn.caption">Instructions</help_button>
+		<quit_button target="title.btnContainer.quitBtn.caption">Exit</quit_button>
+
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">How to Play</inst_screen_title>
+		<inst_quit_button target="instructions.btnContainer.quitBtn.caption">Quit</inst_quit_button>
+		<inst_cont_button target="instructions.btnContainer.continueBtn.caption">Continue</inst_cont_button>
+		<inst_play_button target="instructions.btnContainer.playBtn.caption">Play</inst_play_button>
+		
+		<instruction0>Look at the pattern card and try to match the pattern.</instruction0>
+		<instruction1>Click to grab beads from the three cups, then drag them to the string.</instruction1>
+		<instruction2>Put the beads in the correct slot to match the pattern.</instruction2>
+		<instruction3>If you run out of time on a string it won't count.</instruction3>
+		<instruction4>Complete as many strings as you can before time runs out for the best score.</instruction4>
+		
+		<!-- Fairy Comments -->
+		<place_correct_Bobbin_1>Right on the mark!</place_correct_Bobbin_1>
+		<place_correct_Mendy_1>Yes, that's quite correct!</place_correct_Mendy_1>
+		<place_correct_Bobbin_2>Wonderful!</place_correct_Bobbin_2>
+		<place_correct_Mendy_2>Excellent work!</place_correct_Mendy_2>
+		<place_correct_Bobbin_3>You're good at beading!</place_correct_Bobbin_3>
+		<place_correct_Mendy_3>We have a real eye for finding beads!</place_correct_Mendy_3>
+		<place_correct_Bobbin_4>You're doing great, keep going!</place_correct_Bobbin_4>
+		<place_correct_Mendy_4>That's one bead closer!</place_correct_Mendy_4>
+
+		<place_wrong_Bobbin_1>Nope nope, try it again!</place_wrong_Bobbin_1>
+		<place_wrong_Mendy_1>Close but not quite. Let's try again!</place_wrong_Mendy_1>
+		<place_wrong_Bobbin_2>I know ya can figure out where the right bead goes!</place_wrong_Bobbin_2>
+		<place_wrong_Mendy_2>Let's look carefully. Where could that bead belong?</place_wrong_Mendy_2>
+		<place_wrong_Bobbin_3>Tricky, eh?</place_wrong_Bobbin_3>
+		<place_wrong_Mendy_3>Look really carefully!</place_wrong_Mendy_3>
+		<place_wrong_Bobbin_4>Are ya really sure that looks right?</place_wrong_Bobbin_4>
+		<place_wrong_Mendy_4>Hmmm... Let's think about that one again.</place_wrong_Mendy_4>
+		
+		<next_good_Bobbin_1>Get ready, here comes the next pattern!</next_good_Bobbin_1>
+		<next_good_Mendy_1>Here comes our next selection!</next_good_Mendy_1>
+		<next_good_Bobbin_2>Time to start beading!</next_good_Bobbin_2>
+		<next_good_Mendy_2>It's time to bead those patterns!</next_good_Mendy_2>
+		
+		<next_bad_Bobbin_1>Let's continue, shall we?</next_bad_Bobbin_1>
+		<next_bad_Mendy_1>Let's not lose heart. The next pattern will be easier.</next_bad_Mendy_1>
+		<next_bad_Bobbin_2>Keep thinking happy thoughts!</next_bad_Bobbin_2>
+		<next_bad_Mendy_2>Let's move on to the next pattern.</next_bad_Mendy_2>
+
+		<gameOverTitle>Done!</gameOverTitle>
+		<gameOverMoreTitle>Keep Going!</gameOverMoreTitle> 
+		<gameOverQuitMessage>Continue</gameOverQuitMessage>
+
+		<quit_confirm_question>Are you sure you want to give up?</quit_confirm_question>
+		<quit_confirm_yes>Yes</quit_confirm_yes>
+		<quit_confirm_no>No</quit_confirm_no>
+
+		<win_gold>Awesome Job!</win_gold>
+		<awesomePercent>96</awesomePercent>
+		<win_silver>Great Job!</win_silver>
+		<greatPercent>81</greatPercent>
+		<win_bronze>Good Job!</win_bronze>
+		<goodPercent>67</goodPercent>
+		<fail>Nice Try!</fail>
+		
+		<end_poor_Bobbin_1>Um-hmm-well, good try! I betcha you'll place the beads next time!</end_poor_Bobbin_1>
+		<end_poor_Mendy_1>Let's continue, shall we? We'll place those beads better next time I'm sure, my dear.</end_poor_Mendy_1>
+		<end_poor_Bobbin_2>Keep trying! You'll get better at beading, I know ya will!</end_poor_Bobbin_2>
+		<end_poor_Mendy_2>We tried our best, didn't we, my dear? And remember, we can always try beading again!</end_poor_Mendy_2>
+		<end_poor_Bobbin_3>Keep thinking happy thoughts! I know ya can place your beads better next time!</end_poor_Bobbin_3>
+		<end_poor_Mendy_3>Let's not lose heart. Each pattern gets easier with practice, my dear, truly it does.</end_poor_Mendy_3>
+		<end_poor_Bobbin_4>All it takes is a teensy bit more practice, and then you'll bead this string perfectly!</end_poor_Bobbin_4>
+		<end_poor_Mendy_4>This pattern can be a real challenge. There's always next time to do better, my dear!  </end_poor_Mendy_4>
+		
+		<end_good_Bobbin_1>Nice job! Have ya made this pattern before?</end_good_Bobbin_1>
+		<end_good_Mendy_1>Not bad beading, my dear, not bad at all!</end_good_Mendy_1>
+		<end_good_Bobbin_2>Hey-oh! Nice beading! Ya made the ants proud!</end_good_Bobbin_2>
+		<end_good_Mendy_2>Our beading skills are improving, my dear. Well done!</end_good_Mendy_2>
+		<end_good_Bobbin_3>Well, sleeves and stitches, you're good with this beading stuff!</end_good_Bobbin_3>
+		<end_good_Mendy_3>Mmm, we certainly have quite a knack for these beads, don't we?</end_good_Mendy_3>
+		<end_good_Bobbin_4>Ya know, you're awful good with this beading stuff!</end_good_Bobbin_4>
+		<end_good_Mendy_4>Splendid job, my dear. We're on our way to perfecting this pattern!</end_good_Mendy_4>
+		
+		<end_great_Bobbin_1>Wow-wee! Ya sure you're not a beading-talent?</end_great_Bobbin_1>
+		<end_great_Mendy_1>It looks as if we have quite a touch for beading!</end_great_Mendy_1>
+		<end_great_Bobbin_2>I'd call that a pretty bead-tastic job! Ya did great!</end_great_Bobbin_2>
+		<end_great_Mendy_2>We're quite impressed! Quite impressed indeed.</end_great_Mendy_2>
+		<end_great_Bobbin_3>You've been practicing, haven't ya? I knew it! Great job!</end_great_Bobbin_3>
+		<end_great_Mendy_3>We feel so proud. This is quite splendid work!</end_great_Mendy_3>
+		<end_great_Bobbin_4>What thimble-rific work! I'm not sure I could have done better myself!</end_great_Bobbin_4>
+		<end_great_Mendy_4>We've been practicing our beading, haven't we? Lovely work!</end_great_Mendy_4>
+		
+		<end_awesome_Bobbin_1>Okay, I mean it - you're sure you're not a tailor-talent?</end_awesome_Bobbin_1>
+		<end_awesome_Mendy_1>My dear, what utterly amazing beading skills we have!</end_awesome_Mendy_1>
+		<end_awesome_Bobbin_2>Ya sure finished that pattern in a flit! Great job!</end_awesome_Bobbin_2>
+		<end_awesome_Mendy_2>This just goes to show that practice does make perfect, doesn't it?</end_awesome_Mendy_2>
+		<end_awesome_Bobbin_3>Well done! You're a beading machine for sure!</end_awesome_Bobbin_3>
+		<end_awesome_Mendy_3>Truly astounding, my dear!  We couldn't have beaded that pattern better!</end_awesome_Mendy_3>
+		<end_awesome_Bobbin_4>Pleat my wings, you're a beading wonder!</end_awesome_Bobbin_4>
+		<end_awesome_Mendy_4>We simply adore your work! Superb job!</end_awesome_Mendy_4>
+		
+	</copy>
+	<config>
+	<colorPalette>3</colorPalette>
+    <levels>
+        <!-- easy -->
+		<level num="1"  sockets="3" seconds="30" a="1"  b="17" c="8"  need="2" dotsonly="true"></level>
+		<level num="2"  sockets="3" seconds="30" a="19" b="2"  c="15" need="2" dotsonly="true"></level>
+		<level num="3"  sockets="3" seconds="30" a="9"  b="3"  c="20" need="2" dotsonly="true"></level>
+		<level num="4"  sockets="3" seconds="30" a="11" b="17" c="4"  need="3" dotsonly="true"></level>
+		<level num="5"  sockets="3" seconds="30" a="5"  b="16" c="12" need="3" dotsonly="true"></level>
+        <!-- normal -->
+		<level num="6"  sockets="3" seconds="35" a="18" b="1"  c="7"  need="4" dotsonly="true"></level>
+		<level num="7"  sockets="3" seconds="35" a="20" b="14" c="2"  need="4" dotsonly="true"></level>
+		<level num="8"  sockets="3" seconds="35" a="1"  b="6"  c="12" need="4" dotsonly="true"></level>
+		<level num="9"  sockets="4" seconds="45" a="7"  b="13" c="17" need="4" dotsonly="true"></level>
+		<level num="10" sockets="4" seconds="45" a="18" b="11" c="3"  need="4" dotsonly="true"></level>
+        <!-- hard -->
+		<level num="11" sockets="4" seconds="50" a="10" b="15" c="16" need="5" dotsonly="true"></level>
+		<level num="12" sockets="4" seconds="50" a="14" b="19" c="2"  need="5" dotsonly="true"></level>
+		<level num="13" sockets="4" seconds="50" a="4"  b="13" c="9"  need="5" dotsonly="true"></level>
+		<level num="14" sockets="4" seconds="50" a="1"  b="2"  c="8"  need="5" dotsonly="true"></level>
+		<level num="15" sockets="4" seconds="50" a="11" b="3"  c="5"  need="5" dotsonly="true"></level>
+		<level num="16" sockets="4" seconds="55" a="6"  b="12" c="8"  need="6" dotsonly="true"></level>
+		<level num="17" sockets="4" seconds="55" a="18" b="10" c="9"  need="6" dotsonly="true"></level>
+		<level num="18" sockets="5" seconds="60" a="12" b="13" c="20" need="6" dotsonly="true"></level>
+		<level num="19" sockets="5" seconds="60" a="2"  b="14" c="15" need="6" dotsonly="true"></level>
+		<level num="20" sockets="5" seconds="60" a="7"  b="16" c="19" need="6" dotsonly="true"></level>
+        <!-- royal -->
+		<level num="21" sockets="5" seconds="60" a="17" b="20" c="1"  need="7" dotsonly="true"></level>
+		<level num="22" sockets="5" seconds="75" a="2"  b="3"  c="8"  need="7" dotsonly="true"></level>
+		<level num="23" sockets="5" seconds="75" a="9"  b="10" c="14" need="7" dotsonly="true"></level>
+		<level num="24" sockets="5" seconds="75" a="20" b="15" c="13" need="7" dotsonly="true"></level>
+		<level num="25" sockets="5" seconds="75" a="19" b="16" c="11" need="7" dotsonly="true"></level>
+		<level num="26" sockets="6" seconds="85" a="6"  b="7"  c="12" need="8" dotsonly="true"></level>
+		<level num="27" sockets="6" seconds="85" a="1"  b="2"  c="3"  need="8" dotsonly="true"></level>
+		<level num="28" sockets="6" seconds="85" a="6"  b="8"  c="9"  need="8" dotsonly="true"></level>
+		<level num="29" sockets="6" seconds="90" a="13" b="14" c="15" need="8" dotsonly="true"></level>
+		<level num="30" sockets="6" seconds="90" a="16" b="17" c="20" need="8" dotsonly="true"></level>
+	</levels>
+    <beads>
+        <!-- stars -->
+    	<bead id="1"  graphic="bead_00" shadow="0"  red="1.0" green=".0"  blue=".0"  alpha="1" percent="50"></bead>
+    	<bead id="2"  graphic="bead_00" shadow="0"  red=".0"  green=".80" blue=".0"  alpha="1" percent="45"></bead>
+    	<bead id="3"  graphic="bead_00" shadow="0"  red=".0"  green=".0"  blue="1.0" alpha="1" percent="35"></bead>
+    	<bead id="4"  graphic="bead_00" shadow="0"  red=".40" green=".0"  blue=".60" alpha="1" percent="45"></bead>
+    	<bead id="5"  graphic="bead_00" shadow="0"  red="1.0" green=".40" blue=".0"  alpha="1" percent="60"></bead>
+    	
+        <!-- hearts -->
+    	<bead id="6"  graphic="bead_07" shadow="7"  red="1.0" green=".0"  blue=".0"  alpha="1" percent="40"></bead>
+    	<bead id="7"  graphic="bead_07" shadow="7"  red=".0"  green=".8"  blue=".0"  alpha="1" percent="25"></bead>
+    	<bead id="8"  graphic="bead_07" shadow="7"  red=".0"  green=".0"  blue=".80" alpha="1" percent="35"></bead>
+    	<bead id="9"  graphic="bead_07" shadow="7"  red=".4"  green=".0"  blue=".60" alpha="1" percent="40"></bead>
+    	<bead id="10" graphic="bead_07" shadow="7"  red="1.0" green=".40" blue=".0"  alpha="1" percent="50"></bead>
+    	
+        <!-- swirls -->
+    	<bead id="11" graphic="bead_08" shadow="8"  red="1.0" green=".0"  blue=".0"  alpha="1" percent="25"></bead>
+    	<bead id="12" graphic="bead_08" shadow="8"  red=".0"  green=".80" blue=".0"  alpha="1" percent="25"></bead>
+    	<bead id="13" graphic="bead_08" shadow="8"  red=".0"  green=".0"  blue="1.0" alpha="1" percent="20"></bead>
+    	<bead id="14" graphic="bead_08" shadow="8"  red=".4"  green=".0"  blue=".4"  alpha="1" percent="35"></bead>
+    	<bead id="15" graphic="bead_08" shadow="8"  red="1.0" green=".40"  blue=".0"  alpha="1" percent="45"></bead>
+    	
+        <!-- long beads -->
+    	<bead id="16" graphic="bead_04" shadow="4"  red="1.0" green=".0"  blue=".0"  alpha="1" percent="30" isRect="1"></bead>
+    	<bead id="17" graphic="bead_04" shadow="4"  red=".0"  green="1.0" blue=".0"  alpha="1" percent="30" isRect="1"></bead>
+    	<bead id="18" graphic="bead_04" shadow="4"  red=".0"  green="0"   blue=".80" alpha="1" percent="20" isRect="1"></bead>
+    	<bead id="19" graphic="bead_04" shadow="4"  red=".40" green=".0"  blue=".80" alpha="1" percent="30" isRect="1"></bead>
+    	<bead id="20" graphic="bead_04" shadow="4"  red="1.0" green=".4"  blue=".0"  alpha="1" percent="50" isRect="1"></bead>
+    	    	
+        <!-- flowers -->
+    	<bead id="21" graphic="bead_11" shadow="11" red="1.0" green="1.0" blue="1.0" alpha="1" percent="0"></bead>
+    	<bead id="22" graphic="bead_12" shadow="12" red="1.0" green="1.0" blue="1.0" alpha="1" percent="0"></bead>
+    	<bead id="23" graphic="bead_13" shadow="13" red="1.0" green="1.0" blue="1.0" alpha="1" percent="0"></bead>
+    	<bead id="24" graphic="bead_14" shadow="14" red="1.0" green="1.0" blue="1.0" alpha="1" percent="0"></bead>
+
+        <!-- recently unused beads -->
+    	<bead id="25" graphic="bead_06" shadow="6"  red="1"   green="1"   blue="0"   alpha="1" percent="20"></bead>
+    	<bead id="26" graphic="bead_06" shadow="6"  red="0"   green="0"   blue="0"   alpha="1" percent="0"></bead>
+    	
+    	<bead id="27" graphic="bead_09" shadow="9"  red="1.0" green=".40" blue=".00" alpha="1" percent="50"></bead>
+    	<bead id="28" graphic="bead_09" shadow="9"  red=".4"  green=".0"  blue=".60" alpha="1" percent="30"></bead>
+	</beads>
+	</config>
+</panel>

@@ -1,0 +1,160 @@
+<zone>
+  <name>Never Mine</name>
+  <zoneID>18546</zoneID>
+  <assetURL/>
+  <audioLibrary>wildernessCave</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="1100" height="975">
+        <image x="0" y="0" type="none">../wildernessAssets/cave_background.swf</image>
+      </layer>
+      <layer type="ground" width="2400" height="2400">
+        <image x="0" y="0" type="none">../wildernessAssets/empty.swf</image>
+      </layer>
+      <layer type="normal" width="2400" height="2400">
+        <image x="0" y="0" type="none">../wildernessAssets/cave1_foreground.swf</image>
+      </layer>
+    </layers>
+    <validArea>
+      <vertex x="388" y="174"/>
+      <vertex x="490.6" y="226"/>
+      <vertex x="633.25" y="123"/>
+      <vertex x="736.5" y="345"/>
+      <vertex x="662.65" y="486.25"/>
+      <vertex x="529.85" y="625.5"/>
+      <vertex x="590.55" y="819.25"/>
+      <vertex x="562.9" y="1022.1"/>
+      <vertex x="459.55" y="1049.05"/>
+      <vertex x="390.9" y="1248"/>
+      <vertex x="576.2" y="1540.25"/>
+      <vertex x="568.35" y="1658.35"/>
+      <vertex x="532.55" y="1750.5"/>
+      <vertex x="522.25" y="1829"/>
+      <vertex x="735.65" y="1833"/>
+      <vertex x="1159.85" y="1699.5"/>
+      <vertex x="1414.45" y="1727.25"/>
+      <vertex x="1541.1" y="1824"/>
+      <vertex x="1713.05" y="1840.25"/>
+      <vertex x="1814.55" y="1733.85"/>
+      <vertex x="1816.05" y="1523.5"/>
+      <vertex x="1926" y="1349.75"/>
+      <vertex x="1874" y="1256.35"/>
+      <vertex x="1762.25" y="1260.25"/>
+      <vertex x="1637.5" y="1384.15"/>
+      <vertex x="1468.35" y="1358.35"/>
+      <vertex x="1197.3" y="1488.9"/>
+      <vertex x="1053" y="1436.1"/>
+      <vertex x="1044.75" y="1317.3"/>
+      <vertex x="986.25" y="1291.7"/>
+      <vertex x="875.25" y="1090.1"/>
+      <vertex x="914.5" y="985.7"/>
+      <vertex x="945.75" y="891.3"/>
+      <vertex x="1058.8" y="730.05"/>
+      <vertex x="1214.85" y="570.85"/>
+      <vertex x="1006.6" y="610.15"/>
+      <vertex x="897.95" y="602.8"/>
+      <vertex x="873.35" y="461.45"/>
+      <vertex x="1035.1" y="188.25"/>
+      <vertex x="1111.05" y="221.95"/>
+      <vertex x="1213" y="155.65"/>
+      <vertex x="1467.95" y="320.85"/>
+      <vertex x="1690.4" y="171.4"/>
+      <vertex x="1781" y="273"/>
+      <vertex x="1953.3" y="230.3"/>
+      <vertex x="2029.65" y="126.65"/>
+      <vertex x="2161.45" y="142.45"/>
+      <vertex x="2229.3" y="236.3"/>
+      <vertex x="2298.1" y="486.1"/>
+      <vertex x="2271.5" y="608.5"/>
+      <vertex x="2148.95" y="654.95"/>
+      <vertex x="1900.25" y="572.25"/>
+      <vertex x="1680.9" y="541.95"/>
+      <vertex x="1482.95" y="709.65"/>
+      <vertex x="1315" y="889.4"/>
+      <vertex x="1349.25" y="1052.55"/>
+      <vertex x="1516.1" y="1024.25"/>
+      <vertex x="1661" y="1063"/>
+      <vertex x="1754.05" y="950.85"/>
+      <vertex x="1893.1" y="952.75"/>
+      <vertex x="2127.65" y="887.6"/>
+      <vertex x="2266.25" y="972.5"/>
+      <vertex x="2241.5" y="1265"/>
+      <vertex x="2178" y="1469"/>
+      <vertex x="2208.65" y="1742.6"/>
+      <vertex x="2306.35" y="1934.2"/>
+      <vertex x="2198.75" y="2220.4"/>
+      <vertex x="2075.1" y="2300.6"/>
+      <vertex x="1945.5" y="2286.85"/>
+      <vertex x="1748.1" y="2219.3"/>
+      <vertex x="1690.75" y="2111.8"/>
+      <vertex x="1605.65" y="2184.9"/>
+      <vertex x="1568.55" y="2106"/>
+      <vertex x="1510.35" y="2150.25"/>
+      <vertex x="1388" y="2082.75"/>
+      <vertex x="1154" y="1990"/>
+      <vertex x="877" y="2166"/>
+      <vertex x="723.75" y="2160.75"/>
+      <vertex x="476.5" y="2275.5"/>
+      <vertex x="335.05" y="2277"/>
+      <vertex x="231.8" y="2235.75"/>
+      <vertex x="256.6" y="2088.5"/>
+      <vertex x="169.35" y="2093.25"/>
+      <vertex x="162.15" y="1994"/>
+      <vertex x="70.2" y="1868"/>
+      <vertex x="134.3" y="1752"/>
+      <vertex x="203.95" y="1610"/>
+      <vertex x="203.6" y="1413"/>
+      <vertex x="114.4" y="1328"/>
+      <vertex x="93.25" y="1208"/>
+      <vertex x="254.5" y="962"/>
+      <vertex x="184.3" y="888.9"/>
+      <vertex x="224.15" y="741.85"/>
+      <vertex x="332.85" y="607.75"/>
+      <vertex x="371.25" y="468.5"/>
+      <vertex x="225.9" y="495.85"/>
+      <vertex x="130.25" y="460.55"/>
+      <vertex x="154.6" y="355.25"/>
+    </validArea>
+  </clientLayout>
+  <locations>
+    <location x="478" y="347">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>wilderness_music_cave</id>
+      <loops>0</loops>
+      <volumeLow>0.2</volumeLow>
+      <volumeHigh>0.2</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm>
+      <id>wilderness_ambient_cave</id>
+      <loops>0</loops>
+      <volumeLow>1.5</volumeLow>
+      <volumeHigh>1.5</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  <barriers>
+    <barrier itemId="19505" x="519" y="1772" index="3"/>
+    <barrier itemId="19506" x="321" y="447" index="1"/>
+    <barrier itemId="19509" x="230" y="1328" index="2"/>
+    <barrier itemId="19509" x="1895" y="1347"/>
+    <barrier itemId="19502" x="1375" y="1575" index="4"/>
+    <barrier itemId="19509" x="1862" y="1515"/>
+  </barriers>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

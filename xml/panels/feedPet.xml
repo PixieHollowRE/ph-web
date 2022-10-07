@@ -1,0 +1,23 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/feedPet.swf</swf>
+		<swf type="code">{panelCode}/feedPet.swf</swf>
+	</swfs>
+	<copy>
+		<title>Just Checking...</title>
+		<simplePlural>s</simplePlural>
+		<feedCopy>Your Animal Friend needs ###amount### ###type### to be full.  Are you sure you would like to feed them this much?</feedCopy>
+		<friendsFeedCopy>This Animal Friend needs ###amount### ###type### to be full.  Are you sure you would like to feed them this much?</friendsFeedCopy>
+		<fullHeader>Eurp!</fullHeader>
+		<fullCopy>Your Animal Friend is full.</fullCopy>
+		<friendsFullCopy>This Animal Friend is full.</friendsFullCopy>
+		<outOfItem>Your Animal Friend needs ###amount### ###type### to be full.</outOfItem>
+		<friendOutOfItem>This Animal Friend needs ###amount### ###type### to be full.</friendOutOfItem>
+		<outOfItemAlert>You currently have 0 ###type###. Gather more to feed your Animal Friend.</outOfItemAlert>
+		<friendOutOfItemAlert>You currently have 0 ###type###. Gather more to feed this Animal Friend.</friendOutOfItemAlert>
+		<confirm>Yes</confirm>
+		<close>No</close>
+		<ok>Close</ok>
+	</copy>
+	<config></config>
+</panel>

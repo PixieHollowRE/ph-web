@@ -1,0 +1,164 @@
+<zone>
+  <name>Talent Skill 6, Step 1</name>
+  <zoneID>18540</zoneID>
+  <assetURL/>
+  <audioLibrary>wildernessForest</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="1519" height="600">
+        <image x="0" y="0" type="none">../wildernessAssets/forest_background.swf</image>
+      </layer>
+      <layer type="ground" width="4420" height="2192">
+        <image x="0" y="0" type="none">../wildernessAssets/empty.swf</image>
+      </layer>
+      <layer type="normal" width="4420" height="2192">
+        <image x="0" y="0" type="none">../wildernessAssets/forest_new_foreground.swf</image>
+      </layer>
+    </layers>
+    <validArea>
+      <vertex x="461" y="264"/>
+      <vertex x="309.3" y="301.75"/>
+      <vertex x="283.6" y="455.5"/>
+      <vertex x="252.9" y="683.25"/>
+      <vertex x="346.25" y="830"/>
+      <vertex x="866.5" y="825"/>
+      <vertex x="936.45" y="666.1"/>
+      <vertex x="1266.45" y="726.25"/>
+      <vertex x="1560.05" y="701.1"/>
+      <vertex x="1663.45" y="806.8"/>
+      <vertex x="1762.85" y="810.55"/>
+      <vertex x="1830.25" y="789.35"/>
+      <vertex x="1929.45" y="861.75"/>
+      <vertex x="2195.7" y="843.2"/>
+      <vertex x="2437.6" y="872.75"/>
+      <vertex x="2686.6" y="818.35"/>
+      <vertex x="2767.1" y="743.15"/>
+      <vertex x="2964.6" y="805.95"/>
+      <vertex x="3229.6" y="785.95"/>
+      <vertex x="3392.85" y="713.2"/>
+      <vertex x="3473.6" y="732.7"/>
+      <vertex x="3428.4" y="848.25"/>
+      <vertex x="3760" y="832.35"/>
+      <vertex x="3879.6" y="839.95"/>
+      <vertex x="3955" y="945.35"/>
+      <vertex x="3978.7" y="1088.05"/>
+      <vertex x="3958.35" y="1336.7"/>
+      <vertex x="3813.75" y="1310.6"/>
+      <vertex x="3673.95" y="1332.05"/>
+      <vertex x="3509.45" y="1316.55"/>
+      <vertex x="3392.7" y="1249.3"/>
+      <vertex x="3228.3" y="1290.65"/>
+      <vertex x="3080.1" y="1340.35"/>
+      <vertex x="2963.5" y="1289.2"/>
+      <vertex x="2745.2" y="1462.15"/>
+      <vertex x="2619.35" y="1520.35"/>
+      <vertex x="2495.55" y="1465.6"/>
+      <vertex x="2366.85" y="1448.9"/>
+      <vertex x="2168" y="1460.55"/>
+      <vertex x="2018.05" y="1329.85"/>
+      <vertex x="1912.1" y="1286.5"/>
+      <vertex x="1796.6" y="1294.85"/>
+      <vertex x="1708.35" y="1255"/>
+      <vertex x="1560.8" y="1277.05"/>
+      <vertex x="1474.25" y="1310.1"/>
+      <vertex x="1377.2" y="1306.65"/>
+      <vertex x="1227.65" y="1244.4"/>
+      <vertex x="1005.9" y="1252.8"/>
+      <vertex x="942.45" y="1251.9"/>
+      <vertex x="917" y="1339"/>
+      <vertex x="843.15" y="1515.2"/>
+      <vertex x="826.6" y="1724"/>
+      <vertex x="885.35" y="1843.4"/>
+      <vertex x="1008.1" y="1866.8"/>
+      <vertex x="1348.05" y="1865.4"/>
+      <vertex x="1604" y="1852.65"/>
+      <vertex x="1866.85" y="1854.15"/>
+      <vertex x="2037.55" y="1855.1"/>
+      <vertex x="2151.75" y="1834.05"/>
+      <vertex x="2218.95" y="1763"/>
+      <vertex x="2381.75" y="1781.85"/>
+      <vertex x="2601.95" y="1806.1"/>
+      <vertex x="2753.1" y="1742"/>
+      <vertex x="2834.35" y="1720.95"/>
+      <vertex x="2917.8" y="1767.85"/>
+      <vertex x="3086.7" y="1810.6"/>
+      <vertex x="3274.45" y="1862.1"/>
+      <vertex x="3502" y="1839.15"/>
+      <vertex x="3673.6" y="1841.3"/>
+      <vertex x="4022.25" y="1826.5"/>
+      <vertex x="4128.85" y="1678.7"/>
+      <vertex x="4213.15" y="1502.3"/>
+      <vertex x="4173.5" y="1381.9"/>
+      <vertex x="4114" y="1238.7"/>
+      <vertex x="4182.05" y="1119.3"/>
+      <vertex x="4201.2" y="1041.55"/>
+      <vertex x="4133.05" y="955.4"/>
+      <vertex x="4193.2" y="832.55"/>
+      <vertex x="4125.4" y="760.75"/>
+      <vertex x="4114.1" y="644.45"/>
+      <vertex x="4323.8" y="571.15"/>
+      <vertex x="4199.25" y="233.6"/>
+      <vertex x="4122.9" y="302.25"/>
+      <vertex x="4041.55" y="269.9"/>
+      <vertex x="3695.15" y="256.5"/>
+      <vertex x="3491.3" y="330.65"/>
+      <vertex x="3411.45" y="434.8"/>
+      <vertex x="3317.1" y="445.45"/>
+      <vertex x="3197.85" y="534.2"/>
+      <vertex x="3059.6" y="509"/>
+      <vertex x="2912.6" y="478.1"/>
+      <vertex x="2767.6" y="382.25"/>
+      <vertex x="2640.6" y="279.55"/>
+      <vertex x="2424.55" y="291.7"/>
+      <vertex x="2257.55" y="272.9"/>
+      <vertex x="2028.9" y="309.05"/>
+      <vertex x="1884.25" y="273.25"/>
+      <vertex x="1611.95" y="258.6"/>
+      <vertex x="1488.65" y="347"/>
+      <vertex x="1277.9" y="459.8"/>
+      <vertex x="1101.4" y="409.35"/>
+      <vertex x="968.4" y="348.5"/>
+      <vertex x="825.05" y="281.1"/>
+      <vertex x="691.7" y="275.75"/>
+    </validArea>
+  </clientLayout>
+  <locations>
+    <location x="390" y="493">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>wilderness_music_forest</id>
+      <loops>0</loops>
+      <volumeLow>0.2</volumeLow>
+      <volumeHigh>0.2</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm>
+      <id>wilderness_ambient_forest</id>
+      <loops>0</loops>
+      <volumeLow>1.2</volumeLow>
+      <volumeHigh>1.2</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  <barriers>
+    <barrier itemId="19503" x="859" y="317" index="1"/>
+    <barrier itemId="19503" x="2717" y="359" index="2"/>
+    <barrier itemId="19507" x="3807" y="891"/>
+    <barrier itemId="19507" x="3823" y="1000"/>
+  </barriers>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

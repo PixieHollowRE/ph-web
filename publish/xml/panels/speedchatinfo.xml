@@ -1,0 +1,21 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/speedchatinfo.swf</swf>
+		<swf type="code">{publishPanelCode}/speedchatinfo.swf</swf>
+	</swfs>
+	<copy>
+		<lefttitle><![CDATA[<span class="newsbodytext">SpeedChat (Safest Choice)</span>]]></lefttitle>
+		<righttitle><![CDATA[<span class="newsbodytext">SpeedChat Plus</span>]]></righttitle>
+		<leftbody><![CDATA[<span class="newsbodytext"><li>Open to all Fairies.</li><li>SpeedChat uses a set list of words and phrases that Fairies select from a drop-down Menu.</li></span>]]></leftbody>
+		<rightbody><![CDATA[<span class="newsbodytext"><li>Open to all Fairies, but it can be turned off using Disney's Parental Controls.</li><li>SpeedChat Plus is a keyboard chat system that uses a dictionary of Fairy-friendly words.</li><li>This chat is filtered and moderated. If a Fairy types a word that is not in the dictionary, that word will not be seen by other Fairies.</li></span>]]></rightbody>
+		<speedchat>Show Me</speedchat>
+		<speedchatplus>Show Me</speedchatplus>
+		<speedchatpopupheader>SpeedChat</speedchatpopupheader>
+		<speedchatpluspopupheader>SpeedChat Plus</speedchatpluspopupheader>
+	</copy>
+	<config>
+		<sheet>css/site.css</sheet>
+		<speedchatpopupgraphic>{publishPanelImages}/speedchat/pcontrols-speedchat_v1.jpg</speedchatpopupgraphic>
+		<speedchatpluspopupgraphic>{publishPanelImages}/speedchat/pcontrols-Speedchat_Plus.jpg</speedchatpluspopupgraphic>
+	</config>
+</panel>

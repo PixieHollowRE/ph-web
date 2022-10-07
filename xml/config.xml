@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<config>
+	<container>
+		<versionToken>24_b04</versionToken>
+		<frameworkURL>swf/framework.swf</frameworkURL>
+		<mmoURL>swf/mmo.swf</mmoURL>
+		<standaloneURL>swf/standalone.swf</standaloneURL>
+		<standalone>com.disney.fairies.PageController</standalone>
+		<mmo>com.disney.fairies.GameController</mmo>
+	</container>
+	<directory>
+		<generatedDirectorySubFolder/>
+	</directory>
+	<configManager>
+		<useBundles>true</useBundles>		
+		<bundle type="global">bundles/config_global.swf</bundle>
+		<bundle type="standalone">bundles/config_standalone.swf</bundle>
+		<bundle type="mmo">bundles/config_mmo.swf</bundle>
+		<bundle type="tools">bundles/config_tools.swf</bundle>
+
+		<tableFolder>xml</tableFolder>
+		<table name="avatar" type="global">avatarAssets.xml</table>
+		<table name="home" type="global">homeAssets.xml</table>
+		<table name="colors" type="global">colorAssets.xml</table>
+		<table name="items" type="global">items.xml</table>
+		<table name="profile" type="global">profileAssets.xml</table>
+		<table name="demodna" type="global">pickledDNA.xml</table>
+		<table name="zoneAssets" type="global">zoneAssets.xml</table>
+		<table name="cacheableMedia" type="global">cacheableMedia.xml</table>
+		<table name="audio" type="global">soundAssets.xml</table>
+		<table name="trackingHelpers" type="global">trackingHelpers.xml</table>
+		<table name="badgePages" type="global">badgePages.xml</table>
+		<table name="badges" type="global">badges.xml</table>
+		<table name="questNPCs" type="global">questNPCs.xml</table> <!-- moved from mmo for caf -->
+		<table name="spawnables" type="global">spawnableAssets.xml</table> <!-- moved from mmo for secret code redemption -->
+		<table name="animalFriendMicrogameConfig" type="global">animalFriendMicrogameConfig.xml</table>
+		<table name="multiplayerSpellMicrogameConfig" type="global">multiplayerSpellMicrogameConfig.xml</table>
+		<table name="minigames" type="global">minigames.xml</table>
+		<table name="facebookConnect" type="global">facebookConnectConfiguration.xml</table>
+		
+		<table name="generatedRequests" type="standalone">generatedRequests.xml</table>
+		<table name="createMessageAssets" type="standalone">createMessageAssets.xml</table>
+		
+		<table name="emoticons" type="mmo">emoteAssets.xml</table>
+		<table name="tutorials" type="mmo">tutorialAssets.xml</table>
+		<table name="invitation" type="mmo">invitationAssets.xml</table>
+		<table name="realms" type="mmo">realmAssets.xml</table>
+		<table name="recipes" type="mmo">recipes.xml</table>
+		<table name="giveaways" type="mmo">giveaways.xml</table>
+		<table name="quests" type="mmo">quests.xml</table>
+		<table name="partyNames" type="mmo">partyNames.xml</table>
+		<table name="partyAssets" type="mmo">partyAssets.xml</table>
+		<table name="meadowGameAssets" type="mmo">meadowGameAssets.xml</table>
+		<table name="lazyAssets" type="mmo">lazyPanelAssets.xml</table>
+		<table name="enemies" type="mmo">enemyAssets.xml</table>
+		<table name="enemyOriginAssets" type="mmo">enemyOriginAssets.xml</table>
+		<table name="spells" type="mmo">spellAssets.xml</table>
+		<table name="barriers" type="mmo">barrierAssets.xml</table>
+		<table name="hotspots" type="mmo">hotspotAssets.xml</table>
+		<table name="bakedItems" type="mmo">bakingAssets.xml</table>
+		<table name="adventureIndex" type="mmo">adventureIndex.xml</table>
+        <table name="seasonsIndex" type="mmo">seasonsIndex.xml</table>
+		<table name="todoListIndex" type="mmo">todoListIndex.xml</table>
+		<table name="mulitplayerGameIndex" type="mmo">mulitplayerGameIndex.xml</table>
+		<table name="animalFriendAssets" type="mmo">animalFriendAssets.xml</table>
+		<table name="animalFriendNames" type="mmo">animalFriendNames.xml</table>
+		<table name="sortData" type="mmo">sortData.xml</table>
+		<table name="animalFriendTricks" type="mmo">animalFriendTricks.xml</table>
+		<table name="whiteCase" type="mmo">whiteCase.xml</table>
+		<table name="gateways" type="mmo">gateways.xml</table>
+        <table name="homeUpgradeAssets" type="mmo">homeUpgradeAssets.xml</table>
+		<table name="postCardAssets" type="mmo">postCardAssets.xml</table>
+		<table name="gardenAssets" type="mmo">gardenAssets.xml</table>
+		<table name="ingredientItems" type="mmo">ingredientItems.xml</table>
+		
+        <table name="meadowToolItems" type="tools">../../../tools/xml/meadowTools.xml</table>
+		<table name="xpAssets" type="mmo">xpAssets.xml</table>
+		<table name="xpConfig" type="mmo">xpConfig.xml</table>
+		<table name="postOfficeAssets" type="mmo">postOfficeAssets.xml</table>
+		<table name="priceData" type="mmo">priceData.xml</table>
+		<table name="regions" type="mmo">regions.xml</table>
+		<table name="globalShoppingConfig" type="mmo">globalShoppingConfig.xml</table>
+		<table name="fairyNameGenerator" type="mmo">caf/nameGenerator.xml</table>
+		
+	</configManager>
+	<fontManager>
+		<swfURL>{mmoContent}/swf/fonts.swf</swfURL>
+	</fontManager>
+	<memberIconManager>
+		<swfURL>{mmoContent}/swf/memberIcon.swf</swfURL>
+
+		<memberIconText>
+			<font>
+				<face>Arial</face>
+				<size>12</size>
+				<color>0xFFFFFF</color>
+			</font>
+			<displayText>Member</displayText>
+			<radius>75</radius>
+			<steps>150</steps>
+			<arcStart>110</arcStart>
+			<arcEnd>70</arcEnd>
+			<positioner>0</positioner>
+			<drawGuides>false</drawGuides>
+			<rotateText>true</rotateText>
+		</memberIconText>
+	</memberIconManager>
+	<panelSetManager>
+		<systemPanelSet>{panelSetData}/system.xml</systemPanelSet>
+		<globalPanelSet>{panelSetData}/globalStandalone.xml</globalPanelSet>
+	</panelSetManager>
+	<chatManager>
+		<speedChat>{mmoContent}/xml/localization/SpeedChatEnglish.xml</speedChat>
+		<whiteList>{mmoContent}/xml/localization/WhiteListEnglish.xml</whiteList>
+		<cafNames>{mmoContent}/xml/caf/nameGenerator.xml</cafNames>
+	</chatManager>
+	<teleportManager>
+		<!-- 	initialZones list can probably go away. Originally it was used to sub-filter allowable start meadows
+				severside startMeadow is only set to valid meadows -->
+		<initialZones>100,101,102,103,104,200,201,202,203,300,301,302,400,401,402,500,501,505</initialZones>
+		<defaultEntryZone>500</defaultEntryZone>
+		<tutorialZone>102</tutorialZone>
+		<pixieDustMillZone>807</pixieDustMillZone>
+		<timeoutSeconds>30</timeoutSeconds>
+		<meadowgamePoseZones>503,505</meadowgamePoseZones>
+		<cardPoseZones>503</cardPoseZones>
+		<racingFormPoseZones>505</racingFormPoseZones>
+	</teleportManager>
+	<mediaManager>
+		<urltoken symbol="mmoContent"/>
+		<urltoken symbol="mmoRoot"/>
+		<urltoken symbol="questData">xml/quests</urltoken>
+		<urltoken symbol="panelData">xml/panels</urltoken>
+		<urltoken symbol="panelSetData">xml/panelSets</urltoken>
+		<urltoken symbol="panelContent">swf/panel_content</urltoken>
+		<urltoken symbol="panelCode">swf/panel_code</urltoken>
+		<urltoken symbol="dcCode">swf</urltoken>
+		<urltoken symbol="panelAJPG">alphaJPGs/panels</urltoken>
+		<urltoken symbol="images">images</urltoken>
+		
+		<urltoken symbol="emptyPanelSet">xml/panelSets/empty.xml</urltoken>
+		
+		<urltoken symbol="publishPanelData">publish/xml/panels</urltoken>
+		<urltoken symbol="publishPanelSetData">publish/xml/panelSets</urltoken>
+		<urltoken symbol="publishContentData">publish/xml/content</urltoken>
+		<urltoken symbol="publishPanelContent">publish/swf/panel_content</urltoken>
+		<urltoken symbol="publishPanelCode">publish/swf/panel_code</urltoken>
+		<urltoken symbol="publishPanelMedia">publish/swf/media</urltoken>
+		<urltoken symbol="publishPanelImages">publish/images</urltoken>
+
+		<dynamicMediaFiles>
+			<dynamicMediaFile urlPattern="shopPanel.xml" serverUpdateType="shop"/>
+			<dynamicMediaFile urlPattern="mapX.xml" serverUpdateType="map"/>
+			<dynamicMediaFile urlPattern="targetedPopUps.xml" serverUpdateType="targetedAds"/>
+		</dynamicMediaFiles>
+		
+		<maxConnections>4</maxConnections>
+		<defaultRetries>5</defaultRetries>
+	</mediaManager>
+	<copy>
+		<nofirstname1><![CDATA[Pixie Pal]]></nofirstname1>
+		<confirmLink>You will leave Pixie Hollow if you follow this link. Are you sure you would like to leave?</confirmLink>
+		<confirmLinkLeaveDisneySite>You're heading to a non-Disney site, where there's a different Terms of Use and Privacy Policy. Remember to get a parent's permission to buy anything online.</confirmLinkLeaveDisneySite>
+		<confirmYes>Leave</confirmYes>
+		<confirmNo>Stay</confirmNo>
+	</copy>
+	<genderFunctionalityState>0</genderFunctionalityState>
+</config>

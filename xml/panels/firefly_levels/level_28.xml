@@ -1,0 +1,81 @@
+<level>
+	<light x = "95" y = "203">orange</light>
+	<light x = "783" y = "203">yellow</light>
+	<light x = "95" y = "303">yellow</light>
+	<light x = "783" y = "303">blue</light>
+
+<!-- randomly moving moth (#1 of 1) -->
+	<firefly image="moth">
+		<path source = "random">
+			<topLeft x="310" y="178" />
+			<bottomRight x="568" y="328"/>
+			<stopRange value = "50" />
+		</path>
+		<speed>7</speed>
+		<type>moth</type>
+	</firefly>
+
+	<firefly image="firefly">
+		<path>
+			<point x="239" y="100" />		
+			<point x="199" y="150" />
+			<point x="279" y="350" />					
+			<point x="239" y="400" />		
+			<point x="199" y="350" />			
+			<point x="279" y="150" />		
+		</path>
+		<speed>3</speed>
+		<turnspeed>0.15</turnspeed>	
+	</firefly>
+	<firefly image="firefly">
+		<path>
+			<point x="339" y="100" />		
+			<point x="299" y="150" />
+			<point x="379" y="350" />					
+			<point x="339" y="400" />		
+			<point x="299" y="350" />			
+			<point x="379" y="150" />		
+		</path>
+		<speed>3</speed>
+		<turnspeed>0.15</turnspeed>	
+	</firefly>
+	<firefly image="firefly">
+		<path>
+			<point x="439" y="100" />		
+			<point x="399" y="150" />
+			<point x="479" y="350" />					
+			<point x="439" y="400" />		
+			<point x="399" y="350" />			
+			<point x="479" y="150" />		
+	
+		</path>
+		<speed>3</speed>
+		<turnspeed>0.15</turnspeed>	
+	</firefly>
+	<firefly image="firefly">
+		<path>
+			<point x="539" y="100" />		
+			<point x="499" y="150" />
+			<point x="579" y="350" />					
+			<point x="539" y="400" />		
+			<point x="499" y="350" />			
+			<point x="579" y="150" />		
+			
+		</path>
+		<speed>3</speed>
+		<turnspeed>0.15</turnspeed>	
+	</firefly>
+	<firefly image="firefly">
+		<path>
+			<point x="639" y="100" />		
+			<point x="599" y="150" />
+			<point x="679" y="350" />					
+			<point x="639" y="400" />		
+			<point x="599" y="350" />			
+			<point x="679" y="150" />		
+					
+		</path>
+		<speed>3</speed>
+		<turnspeed>0.15</turnspeed>	
+	</firefly>
+</level>

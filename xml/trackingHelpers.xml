@@ -1,0 +1,114 @@
+﻿<trackingHelpers>
+	<scrapbook>
+		<page id="toDoList">74</page>
+		<page id="wardrobe">75</page>
+		<page id="storage">76</page>
+		<page id="profileEdit">77</page>
+		<page id="badges">78</page>
+		<page id="Options">79</page>
+		<page id="recipes">167</page>
+		<page id="Quests">168</page>
+	</scrapbook>
+	<meadows>
+		<page id="100">69</page>
+		<page id="101">71</page>
+		<page id="102">67</page>
+		<page id="103">70</page>
+		<page id="104">68</page>
+		<page id="200">142</page>
+		<page id="201">141</page>
+		<page id="202">102</page>
+		<page id="203">103</page>
+		<page id="300">144</page>
+		<page id="301">143</page>
+		<page id="302">145</page>
+		<page id="400">147</page>
+		<page id="401">148</page>
+		<page id="402">146</page>
+		
+		<page id="800">163</page>
+		<page id="801">166</page>
+		<page id="802">165</page>
+		<page id="803">164</page>
+		<page id="804">162</page>
+		
+		<page id="50001">80</page>
+		<page id="50002">82</page>
+		<page id="50007">83</page>
+		<page id="50008">85</page>
+		<page id="50009">84</page>
+		<page id="50010">81</page>
+		<page id="50011">169</page>
+		<page id="50014">170</page>
+		<page id="50015">171</page>
+		<page id="50043">175</page>
+		
+		<page id="100000">149</page>
+		<page id="100001">150</page>
+		
+		<page id="110000">153</page>
+		<page id="110001">154</page>
+		<page id="110002">155</page>
+		<page id="110003">159</page>
+		<page id="111000">151</page>
+		<page id="111001">152</page>
+		<page id="111002">158</page>
+		<page id="112000">157</page>
+		<page id="112001">156</page>
+		<page id="113000">161</page>
+		<page id="114000">160</page>
+	</meadows>
+	<games>
+		<page id="1">86</page>
+		<page id="2">88</page>
+		<page id="7">89</page>
+		<page id="8">91</page>
+		<page id="9">90</page>
+		<page id="10">87</page>
+		<page id="11">172</page>
+		<page id="14">173</page>
+		<page id="15">174</page>
+	</games>
+	<caf>
+		<scene id="1">49</scene>
+		<scene id="2">50</scene>
+		<scene id="3">55</scene>
+		<scene id="4">64</scene>
+		<scene id="5">65</scene>
+		<scene id="6">66</scene>
+	</caf>
+	<bodyscreen>
+		<tab id="size">51</tab>
+		<tab id="face">52</tab>
+		<tab id="hair">53</tab>
+		<tab id="wing">54</tab>
+	</bodyscreen>
+	<wardrobescreen>
+		<tab id="0">56</tab>
+		<tab id="1">57</tab>
+		<tab id="2">58</tab>
+		<tab id="3">59</tab>
+		<tab id="4">60</tab>
+		<tab id="5">61</tab>
+		<tab id="6">62</tab>
+		<tab id="7">63</tab>
+	</wardrobescreen>
+	<talents>
+		<talent id="0">2</talent>
+		<talent id="1">3</talent>
+		<talent id="2">0</talent>
+		<talent id="3">1</talent>
+		<talent id="4">45</talent>
+	</talents>
+	<pixiepostings>
+		<category id="homeSweet">93</category>
+		<category id="featuredBadge">94</category>
+		<category id="seasonalScoop">95</category>
+		<category id="mainland">96</category>
+		<category id="tabbyTellAll">97</category>
+		<category id="artBox">98</category>
+		<category id="pixiePoets">99</category>
+		<category id="fairyTales">100</category>
+		<category id="talentSpot">101</category>
+	</pixiepostings>
+</trackingHelpers>

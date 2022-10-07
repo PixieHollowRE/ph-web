@@ -1,0 +1,122 @@
+<zone>
+  <name>Greenleaf Tower</name>
+  <zoneID>925</zoneID>
+  <assetURL/>
+  <audioLibrary>home_music_tinker</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="900" height="686">
+        <image x="0" y="0" type="none">background_01.swf</image>
+      </layer>
+      <layer type="ground" width="6665" height="10488">
+        <image x="2898" y="4560" type="none">action_02.swf</image>
+	<image x="2898" y="4560" type="none" party="1">action_banners_02.swf</image>
+	<image x="2898" y="4560" type="none" party="2">action_flowers_02.swf</image>
+	<image x="2898" y="4560" type="none" party="3">action_party_02.swf</image>
+	<image x="2898" y="4560" type="none" party="4">action_winter_02.swf</image>
+	<image x="2898" y="4560" type="none" party="5">action_spring_02.swf</image>
+	<image x="2898" y="4560" type="none" party="6">action_summer_02.swf</image>
+	<image x="2898" y="4560" type="none" party="7">action_autumn_02.swf</image>
+      </layer>
+      <layer type="normal" width="7817" height="11247">
+	<image x="3399" y="4890" type="none">foreground_03.swf</image>
+	<image x="3399" y="4890" type="none" party="1">foreground_banners_03.swf</image>
+	<image x="3399" y="4890" type="none" party="2">foreground_flowers_03.swf</image>
+	<image x="3399" y="4890" type="none" party="3">foreground_party_03.swf</image>
+	<image x="3399" y="4890" type="none" party="4">foreground_winter_03.swf</image>
+	<image x="3399" y="4890" type="none" party="5">foreground_spring_03.swf</image>
+	<image x="3399" y="4890" type="none" party="6">foreground_summer_03.swf</image>
+	<image x="3399" y="4890" type="none" party="7">foreground_autumn_03.swf</image>
+      </layer>
+    </layers>
+    <validArea>
+      <vertex x="2940" y="4640"/>
+      <vertex x="3823" y="4640"/>
+      <vertex x="3823" y="5980"/>
+      <vertex x="2940" y="5980"/>
+    </validArea>
+  </clientLayout>
+  <locations>
+    <location x="3400" y="5850">frontDoor</location>
+    <location x="3727" y="5841">signPost</location>
+    <location x="3395" y="5944">animalFriend</location>
+    <location x="3500" y="5940">meadowSurprise1</location>
+    <location x="3300" y="5940">meadowSurprise3</location>
+    <location x="3200" y="5905">meadowSurprise4</location>
+    <location x="3600" y="5940">meadowSurprise5</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>home_music_tinker</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.1855</volumeHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <validArea type="polygon">
+    
+    <vertex x="2940" y="4640"/>
+    
+    <vertex x="3823" y="4640"/>
+    
+    <vertex x="3823" y="5980"/>
+    
+    <vertex x="2940" y="5980"/>
+    
+  </validArea>
+  
+  <rooms>
+    
+    <room index="1" x="3400" y="5850">
+      
+      <bounds type="box">
+        
+        <left>2900</left>
+        
+        <right>3864</right>
+        
+        <top>4560</top>
+        
+        <bottom>6030</bottom>
+        
+      </bounds>
+      
+      <nearPlane>
+        
+        <left>2900</left>
+        
+        <right>3864</right>
+        
+        <top>4560</top>
+        
+        <bottom>6030</bottom>
+        
+      </nearPlane>
+      
+      <farPlane>
+        
+        <left>2900</left>
+        
+        <right>3864</right>
+        
+        <top>4560</top>
+        
+        <bottom>6030</bottom>
+        
+      </farPlane>
+      
+    </room>
+    
+  </rooms>
+  
+</zone>

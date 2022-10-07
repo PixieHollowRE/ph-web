@@ -1,0 +1,53 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/report.swf</swf>
+		<swf type="code">{panelCode}/report.swf</swf>
+	</swfs>
+	<copy>
+		<alreadyReportedBefore></alreadyReportedBefore>
+		<alreadyReportedAfter>has already been reported this session. Your report has already been sent to a Moderator for review.</alreadyReportedAfter>
+		<DialogTitle>Report A Player</DialogTitle>
+		<TopMenuHeader>This feature will send a complete report to a Moderator. Instead of sending a report, you might choose to do one of the following:</TopMenuHeader>
+		<MenuLi1>Ignore this player</MenuLi1>
+		<MenuLi2>Switch to another server</MenuLi2>
+		<MenuLi3>Remove a friendship</MenuLi3>
+		<TopMenuBefore>You will now report to the Moderator:</TopMenuBefore>
+		<TopMenuAfter></TopMenuAfter>		
+		<ChooseCatagoryBefore>You are about to report:</ChooseCatagoryBefore>
+		<ChooseCatagoryAfter>A Moderator will be alerted to your complaint and will take appropriate action. Please choose a reason for this report:</ChooseCatagoryAfter>
+		<CatagoryLabel1 target = "reasonButton1.caption">Foul Language</CatagoryLabel1>
+		<CatagoryLabel2 target = "reasonButton2.caption">Personal Info</CatagoryLabel2>
+		<CatagoryLabel3 target = "reasonButton3.caption">Rude Behavior</CatagoryLabel3>
+		<CatagoryLabel4 target = "reasonButton4.caption">Bad Name</CatagoryLabel4>
+		<ConfirmCatagoryBefore1>You are about to report that</ConfirmCatagoryBefore1>
+		<ConfirmCatagoryBefore2>You are about to report that</ConfirmCatagoryBefore2>
+		<ConfirmCatagoryBefore3>You are about to report that</ConfirmCatagoryBefore3>
+		<ConfirmCatagoryBefore4>You are about to report that</ConfirmCatagoryBefore4>
+		<ConfirmCatagoryAfter1>has used obscene, bigoted or sexually explicit language.</ConfirmCatagoryAfter1>
+		<ConfirmCatagoryAfter2>is being unsafe by giving out or requesting a phone number, address, last name, email address, password or account name.</ConfirmCatagoryAfter2>
+		<ConfirmCatagoryAfter3>is bullying, harassing, or using extreme behavior to disrupt the game.</ConfirmCatagoryAfter3>
+		<ConfirmCatagoryAfter4>has created a name that does not follow Disney's House Rules.</ConfirmCatagoryAfter4>
+		<FinalConfirm>We take reporting very seriously. Please do not make false reports or abuse the "Report a Player" system. Your report will be viewed by a Moderator who will take appropriate action against anyone breaking our rules. Are you absolutely sure you want to report this player?</FinalConfirm>
+		<ReportedPlayer>Thank you! Your report has been sent to a Moderator for review. There is no need to contact us again about the issue. The moderation team will take appropriate action.</ReportedPlayer>		
+		<RemovedFriendBefore>We have automatically removed</RemovedFriendBefore>
+		<RemovedFriendAfter>from your Friends List.  This player has been added to your Ignore list.</RemovedFriendAfter>
+		<ReportFailed>We're sorry, your report could not be sent.  Please try again later.</ReportFailed>
+		<FairyName>#NAME#</FairyName>
+		<ReportButton1 target = "reportButton1.caption">Report</ReportButton1>
+		<ReportButton2 target = "reportButton2.caption">Report</ReportButton2>
+		<CancelButton target = "cancelButton.caption">Cancel</CancelButton>
+		<FinishedButton target = "finishedButton.caption">Close</FinishedButton>
+	</copy>
+	<config>
+		<PlayerNameToken>#NAME#</PlayerNameToken>
+		<defaultConfigNote>This is an Automated Report from the Fairies Client</defaultConfigNote>
+		<catagory1>MODERATION_FOUL_LANGUAGE</catagory1>
+		<catagory2>MODERATION_PERSONAL_INFO</catagory2>
+		<catagory3>MODERATION_RUDE_BEHAVIOR</catagory3>
+		<catagory4>MODERATION_BAD_NAME</catagory4>
+		<textBlockStartX>21</textBlockStartX>
+		<textBlockStartY>76</textBlockStartY>
+		<util>
+		</util>
+	</config>
+</panel>

@@ -1,0 +1,43 @@
+<page>
+	
+	<!--codeSwfs>
+		<swf><![CDATA[directive.swf]]></swf>
+	</codeSwfs-->
+		
+	<!-- currently only one style and it is declared in panel xml >
+	<styles>
+		<css><![CDATA[decorator.css]]></css>
+	</styles-->
+	
+	<imgs>
+		<img id="1"><path><![CDATA[{publishPanelImages}/cardexpiration/background.swf]]></path></img>
+		<img id="2"><path><![CDATA[{publishPanelImages}/cardexpiration/header.png]]></path></img>
+	</imgs>
+	
+	<copy>
+	
+			
+	</copy> 
+	
+	<!--  only links not in html should be placed here 
+		html event links can be cased via text sent, currently must be programmed in flash.
+	-->
+	<links>
+	
+	</links>
+	
+	<!-- directives -->
+	<directives>
+
+		<!-- background img -->
+		<staticImg><x>70</x><y>0</y><src>1</src></staticImg>
+		<staticImg><x>90</x><y>50</y><src>2</src></staticImg>
+		
+	</directives>
+	
+	<!-- TEMPLATES -->
+	<templates>
+	</templates>
+</page>
+
+

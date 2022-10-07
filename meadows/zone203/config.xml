@@ -1,0 +1,295 @@
+<zone>
+  <name>Pumpkin Patch</name>
+  <zoneID>203</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow203</audioLibrary>
+  <audioLibrary tags="Meadow_AnimalMasq2010">animalMasquerade2010</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="900" height="529" locked="true">
+        <image x="0" y="0" type="none">sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="1010" height="595">
+        <image x="0" y="0" type="none">far_02.swf</image>
+      </layer>
+      <layer type="ground" width="1733" height="1019">
+        <image x="0" y="0" type="merge" tag="Great_Games_Days">action_03_greatGamesDay.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Decorations_Changing_Leaves_Berry_Harvest">action_03_ChangingofLeaves_A.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Decorations_Changing_Leaves_End">action_03_ChangingofLeaves_B.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Autumn_Revelry_Prep">action_03_autumn_revelry_A.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Autumn_Revelry_Begin">action_03_autumn_revelry_B.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Cornucopia_Half">action_03_FairyFeast_Full_Stage3.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Cornucopia_Full">action_03_FairyFeast_Full_Stage5.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Cornucopia_Empty">action_03_FairyFeast_Full_Stage1.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_GreatGames2010">action_greatgamesbanner_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AutumnAll">action_Meadow_AutumnAll_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_GGAutumn">action_Meadow_GGAutumn_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_CampAutumn">action_Meadow_CampAutumn_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMasq2010">action_03_AnimalMasq.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_ChangingLeaves2010">action_03_ChangingLeaves.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFeast2010">action_03_FullCorn2010.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMothers2011">action_03_AnimalMothers2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Animal_Games">action_03_Meadow_PixieHollowGames.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Autumn_Equinox_2011">action_03_AutumnEquinox_2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFeast2012">action_03_Meadow_FariyFeast_2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_ChangeLeaves">action_03_ChangingLeaves_2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Masquerade2012">action_03_AnimalMasquerade_2012.swf</image>
+        <image x="0" y="0" type="merge">action_03.swf</image>
+      </layer>
+      <layer type="normal" width="2546" height="1497" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy">foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="617" y="401">default</location>
+    <location x="1514" y="523">fromMapleHill</location>
+    <location x="886" y="83">fromAcornSummit</location>
+    <location x="1379" y="839">from50008</location>
+    <location x="692" y="728">fromZone112001</location>
+    <location x="365" y="283">fromWilderness</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_203</id>
+      <loops>0</loops>
+      <volumeLow>0.75</volumeLow>
+      <volumeHigh>0.75</volumeHigh>
+      <y>1100</y>
+    </sfx>
+    <sfx tags="Meadow_AnimalMasq2010">
+      <id>meadow_ambient_autumn_ground_sounds_am</id>
+      <loops>0</loops>
+      <volumeLow>0.75</volumeLow>
+      <volumeHigh>0.75</volumeHigh>
+      <y>1100</y>
+    </sfx>
+    <bgm>
+      <id>meadow_music_203</id>
+      <loops>1</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+    </bgm>
+    <bgm>
+      <id>meadow_music_autum_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.15</volumeLow>
+      <volumeHigh>0.15</volumeHigh>
+      <delayLow>24000</delayLow>
+      <delayHigh>24000</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_AnimalMasq2010">
+      <id>animalMasquerade2010</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <chatTriggers>
+    
+    <!-- TRIGGER HOT SPOT -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" eligibleGiveAwayId="89022" typeToTrigger="1" delay="3" itemid="27679" setVelvetRope="1" tagId="10" tags=""/>
+    
+    <!-- TRIGGER WARDOBE -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" typeToTrigger="2" delay="3" itemid="22551" setVelvetRope="1" tagId="9" setColor1="19" setColor2="141" tags=""/>
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="3" delay="3" itemid="6634" setColor1="159" setColor2="29" tags="" /> TRIGGER STORAGE -->
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="4" delay="3" itemid="15128" amount="3" tags="" /> TRIGGER POUCH -->
+    
+  </chatTriggers>
+  
+  <maximumSpawnStacks/>
+  
+  <decorations/>
+  
+  <hotspots>
+    <hotspot tags="Meadow_AutumnEquinox2012" id="27737" x="1254" y="298" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="11"/>
+    <hotspot tags="Meadow_AnimalMothers2011" id="27600" x="1227" y="68.95" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" itemEventId="0" tagId="8"/>
+    <hotspot tags="Meadow_AutumnAll" id="27543" x="1081" y="275" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="0">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27544" x="1123" y="240" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="1">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27545" x="1166" y="215" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="2">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27546" x="1206" y="196" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="3">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27547" x="1425" y="153" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="4">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27548" x="1462" y="156" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="5">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27549" x="1499" y="161" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="6">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27550" x="1540" y="171" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="7">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27543" x="1081" y="275" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="0">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27544" x="1123" y="240" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="1">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27545" x="1166" y="215" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="2">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27546" x="1206" y="196" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="3">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27547" x="1425" y="153" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="4">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27548" x="1462" y="156" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="5">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27549" x="1499" y="161" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="6">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnAll" id="27550" x="1540" y="171" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="7">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Masquerade2012" id="27679" x="516" y="194" setVelvetRope="0" shared="false" serverParm="1" clientTrigger="7" clientParm="4" refresh="2" playType="keyframe" itemEventId="0" tagId="10"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27738" x="1256" y="223" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="12"/>
+    <hotspot tags="Meadow_ChangeLeaves" id="27651" x="1254" y="298" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="5" playType="full" itemEventId="0" tagId="9">
+		<badges>
+			<badge event="leaf_painting" win="false"/>
+		</badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27543" x="1081" y="275" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="0">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27544" x="1123" y="240" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="1">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27545" x="1166" y="215" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="2">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27546" x="1206" y="196" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="3">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27547" x="1425" y="153" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="4">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27548" x="1462" y="156" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="5">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27549" x="1499" y="161" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="6">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27550" x="1540" y="171" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="7">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27543" x="1081" y="275" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="0">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27544" x="1123" y="240" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="1">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27545" x="1166" y="215" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="2">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27546" x="1206" y="196" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="3">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27547" x="1425" y="153" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="4">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27548" x="1462" y="156" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="5">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27549" x="1499" y="161" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="6">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27550" x="1540" y="171" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="2" playType="keyframe" itemEventId="0" tagId="7">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+  </hotspots>
+</zone>

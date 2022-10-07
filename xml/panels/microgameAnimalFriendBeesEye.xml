@@ -1,0 +1,325 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/afBeesEye.swf</swf>
+		<swf type="code">{panelCode}/afBeesEye.swf</swf>
+	</swfs>
+	<copy>		
+		<okBtnLabel>OK</okBtnLabel>
+		<roundLabel>Round ###currRound###</roundLabel>
+		<scoreLabel>Score ###currScore###</scoreLabel>
+		<chancesLabel>Chances</chancesLabel>
+		<chancesLeft>###current### of ###total###</chancesLeft>
+		<instructions>Bees just love to play "Bee's-Eye" darts! Click on the Bee and pull the slingshot to the left. Aim by lining up the dashed line with the target and let go. Keep an eye out for bonus stars which give you extra points!</instructions>
+		<popupBonus>+###bonusPoints### bonus!</popupBonus>
+	</copy>
+	<config>
+		<microGameId>AFBeesEye</microGameId>
+
+		<baseBeeStepsPerFrame>3</baseBeeStepsPerFrame> <!-- basically the speed of the bee while in flight -->
+		<incrementOneStepAfterNPulled>3</incrementOneStepAfterNPulled> <!-- every time you go above N pixels of rope pull, we bump the bump the speed by 1 -->
+		<framesOnTarget>30</framesOnTarget> <!-- number of frames to stay stuck on the target before reloading -->
+
+		<debugMode>false</debugMode>
+
+		<boundingBoxForBonus>330,150,500,250</boundingBoxForBonus>
+		<boundingBoxForTarget>670,200,825,370</boundingBoxForTarget>
+
+		<targets>
+			<!-- id doubles as linkage: BullsEye_{id} -->
+			<!-- BE SURE TO PUT THESE RINGS IN HERE IN ORDER, WITH SMALLEST/BESTSCORING COMING FIRST -->
+			<!-- 1 RING TARGETS -->
+			<target id="small1Ring">
+				<rings>
+					<ring yRadius="34" points="300"/>
+				</rings>
+			</target>
+			<target id="med1Ring">
+				<rings>
+					<ring yRadius="39" points="250"/>
+				</rings>
+			</target>
+			<target id="big1Ring">
+				<rings>
+					<ring yRadius="43" points="200"/>
+				</rings>
+			</target>
+			
+			<!-- 2 RING TARGETS -->
+			<target id="small2Rings">
+				<rings>
+					<ring yRadius="16" points="700"/>
+					<ring yRadius="34" points="500"/>
+				</rings>
+			</target>
+			<target id="med2Rings">
+				<rings>
+					<ring yRadius="18" points="600"/>
+					<ring yRadius="39" points="400"/>
+				</rings>
+			</target>
+			<target id="big2Rings">
+				<rings>
+					<ring yRadius="20" points="500"/>
+					<ring yRadius="43" points="300"/>
+				</rings>
+			</target>
+						
+			<!-- 3 RING TARGETS -->
+			<target id="small3Rings">
+				<rings>
+					<ring yRadius="12" points="800"/>
+					<ring yRadius="23" points="650"/>
+					<ring yRadius="34" points="500"/>
+				</rings>
+			</target>
+			<target id="med3Rings">
+				<rings>
+					<ring yRadius="13" points="700"/>
+					<ring yRadius="25" points="550"/>
+					<ring yRadius="39" points="400"/>
+				</rings>
+			</target>
+			<target id="big3Rings">
+				<rings>
+					<ring yRadius="15" points="600"/>
+					<ring yRadius="28" points="450"/>
+					<ring yRadius="43" points="350"/>
+				</rings>
+			</target>
+						
+			<!-- 4 RING TARGETS -->
+			<target id="small4Rings">
+				<rings>
+					<ring yRadius="8" points="900"/>
+					<ring yRadius="17" points="800"/>
+					<ring yRadius="25" points="750"/>
+					<ring yRadius="34" points="650"/>
+				</rings>
+			</target>
+			<target id="med4Rings">
+				<rings>
+					<ring yRadius="9" points="800"/>
+					<ring yRadius="19" points="700"/>
+					<ring yRadius="28" points="650"/>
+					<ring yRadius="39" points="550"/>
+				</rings>
+			</target>
+			<target id="big4Rings">
+				<rings>
+					<ring yRadius="11" points="700"/>
+					<ring yRadius="21" points="600"/>
+					<ring yRadius="31" points="550"/>
+					<ring yRadius="43" points="450"/>
+				</rings>
+			</target>
+									
+			<!-- 5 RING TARGETS -->
+			<target id="small5Rings">
+				<rings>
+					<ring yRadius="7" points="1000"/>
+					<ring yRadius="14" points="850"/>
+					<ring yRadius="20" points="750"/>
+					<ring yRadius="27" points="650"/>
+					<ring yRadius="34" points="550"/>
+				</rings>
+			</target>
+			<target id="med5Rings">
+				<rings>
+					<ring yRadius="7" points="900"/>
+					<ring yRadius="15" points="750"/>
+					<ring yRadius="22" points="650"/>
+					<ring yRadius="29" points="550"/>
+					<ring yRadius="39" points="450"/>
+				</rings>
+			</target>
+			<target id="big5Rings">
+				<rings>
+					<ring yRadius="8" points="800"/>
+					<ring yRadius="17" points="650"/>
+					<ring yRadius="25" points="550"/>
+					<ring yRadius="32" points="450"/>
+					<ring yRadius="43" points="350"/>
+				</rings>
+			</target>
+		</targets>
+
+		<levels>
+			<level number="0">
+				<rounds>0,1</rounds>
+				<chances>2</chances>
+			</level>
+			<level number="1">
+				<rounds>2,3</rounds>
+				<chances>2</chances>
+			</level>
+			<level number="2">
+				<rounds>4,5</rounds>
+				<chances>2</chances>
+			</level>
+			<level number="3">
+				<rounds>6,7</rounds>
+				<chances>2</chances>
+			</level>
+			<level number="4">
+				<rounds>8,9</rounds>
+				<chances>2</chances>
+			</level>
+			<level number="5">
+				<rounds>10,11</rounds>
+				<chances>3</chances>
+			</level>
+			<level number="6">
+				<rounds>12,13</rounds>
+				<chances>3</chances>
+			</level>
+			<level number="7">
+				<rounds>14,15</rounds>
+				<chances>3</chances>
+			</level>
+			<level number="8">
+				<rounds>16,17</rounds>
+				<chances>3</chances>
+			</level>
+			<level number="9">
+				<rounds>18,19</rounds>
+				<chances>3</chances>
+			</level>
+		</levels>
+
+		<rounds>
+			<!-- Growth Level 1 -->
+			<round id="0">
+				<target>big1Ring</target>
+				<previewPercentage>100</previewPercentage>
+			</round>
+
+			<round id="1">
+				<target>med1Ring</target>
+				<previewPercentage>100</previewPercentage>
+				<bonus clip="Star12" value="100"/>
+			</round>
+			
+			<!-- Growth Level 2 -->
+			<round id="2">
+				<target>small1Ring</target>
+				<previewPercentage>100</previewPercentage>
+				<bonus clip="Star12" value="100"/>
+			</round>
+
+			<round id="3">
+				<target>small1Ring</target>
+				<previewPercentage>90</previewPercentage>
+				<bonus clip="Star16" value="200"/>
+			</round>
+
+			<!-- Growth Level 3 -->
+			<round id="4">
+				<target>big2Rings</target>
+				<previewPercentage>85</previewPercentage>
+				<bonus clip="Star12" value="100"/>
+			</round>
+
+			<round id="5">
+				<target>big2Rings</target>
+				<previewPercentage>75</previewPercentage>
+				<bonus clip="Star16" value="200"/>
+			</round>
+
+			<!-- Growth Level 4 -->
+			<round id="6">
+				<target>big2Rings</target>
+				<previewPercentage>75</previewPercentage>
+				<bonus clip="Star16" value="200"/>
+			</round>
+
+			<round id="7">
+				<target>med2Rings</target>
+				<previewPercentage>85</previewPercentage>
+				<bonus clip="Star16" value="200"/>
+			</round>
+
+			<!-- Growth Level 5 -->
+			<round id="8">
+				<target>small2Rings</target>
+				<previewPercentage>85</previewPercentage>
+				<bonus clip="Star16" value="200"/>
+			</round>
+
+			<round id="9">
+				<target>small2Rings</target>
+				<previewPercentage>75</previewPercentage>
+				<bonus clip="Star16" value="200"/>
+			</round>
+
+			<!-- Growth Level 6 -->
+			<round id="10">
+				<target>big3Rings</target>
+				<previewPercentage>85</previewPercentage>
+				<bonus clip="Star12" value="100"/>
+			</round>
+
+			<round id="11">
+				<target>big3Rings</target>
+				<previewPercentage>75</previewPercentage>
+				<bonus clip="Star16" value="200"/>
+			</round>
+
+			<!-- Growth Level 7 -->
+			<round id="12">
+				<target>big3Rings</target>
+				<previewPercentage>75</previewPercentage>
+				<bonus clip="Star12" value="100"/>
+			</round>
+
+			<round id="13">
+				<target>med3Rings</target>
+				<previewPercentage>85</previewPercentage>
+				<bonus clip="Star16" value="200"/>
+			</round>
+
+			<!-- Growth Level 8 -->
+			<round id="14">
+				<target>big4Rings</target>
+				<previewPercentage>85</previewPercentage>
+				<bonus clip="Star16" value="200"/>
+			</round>
+
+			<round id="15">
+				<target>big4Rings</target>
+				<previewPercentage>75</previewPercentage>
+				<bonus clip="Star16" value="200"/>
+			</round>
+
+			<!-- Growth Level 9 -->
+			<round id="16">
+				<target>med4Rings</target>
+				<previewPercentage>85</previewPercentage>
+				<bonus clip="Star19" value="300"/>
+			</round>
+
+			<round id="17">
+				<target>big5Rings</target>
+				<previewPercentage>85</previewPercentage>
+				<bonus clip="Star19" value="300"/>
+			</round>
+
+			<!-- Growth Level 10 -->
+			<round id="18">
+				<target>big5Rings</target>
+				<previewPercentage>75</previewPercentage>
+				<bonus clip="Star19" value="300"/>
+			</round>
+
+			<round id="19">
+				<target>med5Rings</target>
+				<previewPercentage>75</previewPercentage>
+				<bonus clip="Star19" value="300"/>
+			</round>
+		</rounds>
+	</config>
+</panel>
+
+
+
+

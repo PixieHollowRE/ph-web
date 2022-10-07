@@ -1,0 +1,71 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/QuestBrowser.swf</swf>
+		<swf type="code">{panelCode}/QuestBrowser.swf</swf>
+	</swfs>
+	<copy>
+		<noQuests>You have no active quests right now!</noQuests>
+		<noQuests15500>You have no active quests for Fawn right now. Visit her hideout in Maple Tree Hill to get new quests!</noQuests15500>
+		<noQuests15501>You have no active quests for Iridessa right now. Visit her glade in Sunflower Gully to get new quests!</noQuests15501>
+		<noQuests15502>You have no active quests for Rosetta right now. Visit her garden in Cherryblossom Heights to get new quests!</noQuests15502>
+		<noQuests15503>You have no active quests for Silvermist right now. Visit her grotto in Dewdrop Vale to get new quests!</noQuests15503>
+		<noQuests15504>You have no active quests for Tinker Bell right now. Visit Tinker's Nook in Cottonpuff Field to get new quests!</noQuests15504>
+		<noQuests15505>You have no active quests for Kit right now. Visit her place in Evergreen Overlook to ask Kit for a new quest.</noQuests15505>
+		<noQuests15506>You have no active quests for Elixa right now. Visit her hospital in Neverberry Thicket if your Animal Friend is sick.</noQuests15506>
+		<noQuests15507>You have no active quests for Terence right now.</noQuests15507>
+		<noQuests15508>You have no active quests for Marina right now. Visit her in Fairy Coliseum to get new quests!</noQuests15508>
+
+		<dropQuest>Are you sure you want to drop the quest &quot;#questname#&quot;? You will lose all progress on this quest.</dropQuest>	
+		<yes>Yes</yes>
+		<no>No</no>
+		<abort target="mainView.dropButton.caption">Drop Quest</abort>
+		<abort2 target="questsView.questDescription.dropButton.caption">Drop Quest</abort2>
+		<seeAll target="mainView.seeAllButton.caption">See All Quests</seeAll>
+		<fairyTitle target="mainView.NPCbg.fairyListTitle">Fairies</fairyTitle>
+		<currentQuestTitle target="mainView.currentQuestTitle">Current Quest</currentQuestTitle>
+		<title target="txtTitle">Quests</title>
+		<back target="questsView.backToMain.caption">Back To Quest Givers</back>
+		<ffTitle>'s Quests</ffTitle>
+		<questDescriptionTitle target="questsView.questDescription.questDescriptionTitle">Quest Description</questDescriptionTitle>
+		<visit>Visit</visit>
+		<questsCategory1 target="questsView.quests.categoriesTabs.label_btn0">Story Quests</questsCategory1>
+		<questsCategory2 target="questsView.quests.categoriesTabs.label_btn1">Trade Quests</questsCategory2>
+		<questsCategory3 target="questsView.quests.categoriesTabs.label_btn2">Talent Skills</questsCategory3>
+		<categoryLabel0>story</categoryLabel0>
+		<categoryLabel1>trade</categoryLabel1>
+		<categoryLabel2>talent skills</categoryLabel2>
+		<currentQ>Current Quest</currentQ>
+		<lockedQ>Quest not Unlocked</lockedQ>
+		<completedQ>Quest Completed!</completedQ>
+		<memberQ>Quest for Members</memberQ>
+		<allQ>Quest for all Players</allQ>
+		<getBy>Start By:</getBy>
+		
+		<questsCategory1Noquest>#NPC# doesn't have any #CATEGORY# quests for you right now. Please check with the other Fairy Quest Givers or come back later!</questsCategory1Noquest>
+		<questLocked>#QUEST_NAME# is currently locked. Complete the #COMPLETE_QUEST# quest to unlock it.</questLocked>
+	</copy>
+	<config>
+		<questnametoken>#questname#</questnametoken>
+		<ffZone15500>800</ffZone15500>
+		<ffZone15501>801</ffZone15501>
+		<ffZone15502>802</ffZone15502>
+		<ffZone15503>803</ffZone15503>
+		<ffZone15504>804</ffZone15504>
+		<ffZone15505>805</ffZone15505>
+		<ffZone15506>806</ffZone15506>
+		<ffZone15507>807</ffZone15507>
+		<ffZone15508>808</ffZone15508>
+		
+		<ffmmZone15500>202</ffmmZone15500>
+		<ffmmZone15501>401</ffmmZone15501>
+		<ffmmZone15502>100</ffmmZone15502>
+		<ffmmZone15503>102</ffmmZone15503>
+		<ffmmZone15504>201</ffmmZone15504>
+		<ffmmZone15505>300</ffmmZone15505>
+		<ffmmZone15506>103</ffmmZone15506>
+		<ffmmZone15507>500</ffmmZone15507>
+		<ffmmZone15508>505</ffmmZone15508>
+		
+		<location>famousFairyHome</location>
+	</config>
+</panel>

@@ -1,0 +1,23 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/accountProfile.swf</swf>
+		<swf type="code">{panelCode}/accountProfile.swf</swf>
+	</swfs>
+	<copy>
+		<status_online>Currently playing in</status_online>
+		<status_offline>Currently</status_offline>
+		<offline>Offline</offline>
+		<online>Online</online>
+		<whisper>Whisper</whisper>
+		<friend>Be Friends</friend>
+		<unfriend>Remove Friend</unfriend>
+		<ignore>Ignore</ignore>
+		<unignore>Stop Ignoring</unignore>
+		<report>Report</report>
+		<Fairies>Pixie Hollow</Fairies>
+		<FairiesDev>Pixie Hollow</FairiesDev>
+		<Pirates>Pirates</Pirates>
+		<Toontown>Toontown</Toontown>
+	</copy>
+	<config></config>
+</panel>

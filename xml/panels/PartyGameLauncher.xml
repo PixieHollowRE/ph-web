@@ -1,0 +1,30 @@
+﻿<panel>
+
+	<swfs>
+		<swf type="content">{panelContent}/PartyGameLauncher.swf</swf>
+		<swf type="code">{panelCode}/PartyGameLauncher.swf</swf>
+	</swfs>
+	<copy>
+		<msg1 target="waiting.GameWarning1">Will start in</msg1>
+		<msg2 target="waiting.GameWarning2">Please Wait.</msg2>
+		<msg3 target="joinDialog.GameWarning1">Will start in</msg3>
+		<msg4 target="joinDialog.GameWarning2">Would you like to play?</msg4>
+		<msg5 target="away.label1">fairies are playing</msg5>
+		<msg6 target="away.label2">They will be back soon!</msg6>
+		<awayPlural>fairies are playing</awayPlural>
+		<awaySingular>fairy is playing</awaySingular>
+		<yes target="joinDialog.yesBtn.label">Yes</yes>
+		<no target="joinDialog.noBtn.label">No</no>
+		<cancel target="waiting.cancelBtn.label">Cancel</cancel>
+		<notEnoughPlayers>Sorry, there aren't enough players who want to play that game right now.</notEnoughPlayers>
+		<cancelMessage target="canceledDialog.copy" >Sorry, the game was canceled.</cancelMessage>
+		<ok>Okay</ok>	
+		<joinRejected>Sorry, this party game is already full.</joinRejected>
+		<triggerRejected>Oops, there seems to be a problem loading this party game, please try again later.</triggerRejected>
+		<matchCanceled>Sorry, the game was canceled.</matchCanceled>
+	</copy>
+	<config>
+		<timeout>10000</timeout>
+		<cancelTimer>5</cancelTimer>
+	</config>
+</panel>

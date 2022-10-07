@@ -1,0 +1,16 @@
+<level>
+	<tip>Keep alert! Now you have to loop 3 different types of petals!</tip>
+	<tipImage>07</tipImage>
+	
+	<rosettaStartMessage>We need to loop three different kinds of petals now!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>
+	<objective>Capture 4 ###petal1### petals, 8 ###petal2### petals and 8 ###petal3### petals!</objective>
+	
+	<randomPetalConfig>4-6,8-10,8-10</randomPetalConfig>
+	<multiplierChance>8</multiplierChance>
+	<bees>0</bees>
+	<petalspeed min="1" max="3"/>
+	<powerups stopwind="2" extratime="2" removebees="0"/>
+	<timeLimit>40</timeLimit>
+</level>

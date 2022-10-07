@@ -1,0 +1,8 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/facebookLowerChromeButton.swf</swf>
+		<swf type="code">{panelCode}/facebookLowerChromeButton.swf</swf>
+	</swfs>
+	<config></config>
+	<copy></copy>
+</panel>

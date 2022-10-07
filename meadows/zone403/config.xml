@@ -1,0 +1,63 @@
+<zone>
+  <name>Mermaid Grotto</name>
+  <zoneID>403</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow403</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="500" height="100" locked="true">
+        <image x="0" y="0" type="none">Mermaid_Grotto_sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="1100" height="800">
+        <image x="0" y="0" type="none">Mermaid_Grotto_far_02.swf</image>
+      </layer>
+      <layer type="ground" width="1895" height="1000">
+        <image x="0" y="0" type="merge">Mermaid_Grotto_action_03.swf</image>
+      </layer>
+      <layer type="normal" width="2828" height="1950" lazy="true">
+        <image x="0" y="0" type="none">Mermaid_Grotto_foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="399" y="219">default</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_403</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+    </sfx>
+    <bgm>
+      <id>meadow_music_403</id>
+      <loops>0</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+    </bgm>
+  </bgms>
+  <hotspots>
+    <hotspot id="27610" x="241" y="950" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="4" playType="full" itemEventId="0" tagId="0"/>
+    <hotspot id="27611" x="1751" y="916" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="8" playType="full" itemEventId="0" tagId="2"/>
+    <hotspot tags="Meadow_EndofDays" id="27693" x="0" y="0" setVelvetRope="0" shared="true" refresh="8" playType="keyframe" itemEventId="0" tagId="4">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="true"/>
+        <keyframe number="83" frequency="1" win="true"/>
+        <keyframe number="205" frequency="1" win="true"/>
+      </keyframes>
+    </hotspot>
+    <hotspot tags="Meadow_EndofDays" id="27712" x="354" y="895" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="5"/>
+  </hotspots>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

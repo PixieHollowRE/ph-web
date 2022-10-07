@@ -1,0 +1,32 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/convertItem.swf</swf>
+		<swf type="code">{panelCode}/convertItem.swf</swf>
+	</swfs>
+	<copy>
+		<oops target="notEnough.header">Oops!</oops>
+		<buy target="notEnough.buy.caption">OK</buy>
+		<learnMore><![CDATA[<u>Learn More</u>]]></learnMore>
+		<notEnoughMessageSingular>You need #AMOUNT# more Pixie Diamond to Upgrade this Member item into a Diamond Item.</notEnoughMessageSingular>
+		<notEnoughMessagePlural>You need #AMOUNT# more Pixie Diamonds to Upgrade this Member item into a Diamond Item.</notEnoughMessagePlural>
+		<notEnoughAnimalMessageSingular>You need #AMOUNT# more Pixie Diamond to Upgrade this Animal Friend into a Diamond Friend.</notEnoughAnimalMessageSingular>
+		<notEnoughAnimalMessagePlural>You need #AMOUNT# more Pixie Diamonds to Upgrade this Animal Friend into a Diamond Friend.</notEnoughAnimalMessagePlural>
+		<checking>Just Checking...</checking>
+		<messageChecking>Would you like to Upgrade this Members Only item into a Diamond Item?</messageChecking>
+		<messageCheckingAnimal>Would you like to Upgrade your Animal Friend into a Diamond Animal Friend?</messageCheckingAnimal>
+		<cost>#COST# Pixie Diamonds</cost>
+		<diamondItemHeader>Upgrade to a Diamond Item!</diamondItemHeader>
+		<yes>Yes</yes>
+		<no>No</no>
+		<convert target="convertAlert.convert.caption">Upgrade</convert>
+		<cancel>Cancel</cancel>
+		<ok>OK</ok>
+		<youGotIt>Upgrade Complete!</youGotIt>
+		<messageWardrobe>Your upgrade with Pixie Diamonds is complete! You can find your clothes in your Leaf Journal. Would you like to wear this item now?</messageWardrobe>
+		<messageWardrobeNoWear>Your upgrade with Pixie Diamonds is complete! You can find your clothes in your Leaf Journal.</messageWardrobeNoWear>
+		<messageStorage>Your upgrade with Pixie Diamonds is complete! You can find your item in your Leaf Journal.</messageStorage>
+		<messageAnimal>Your upgrade with Pixie Diamonds is complete! Your can now interact with your Animal Friend.</messageAnimal>
+		<convertAlertAnimalMessage>This is a Members Only friend. You can Upgrade it to a Diamond Friend and care for it without membership!</convertAlertAnimalMessage>
+		<convertAlertItemMessage>This is a Members Only item. You can Upgrade it to a Diamond Item and use it without membership!</convertAlertItemMessage>
+	</copy>
+</panel>

@@ -1,0 +1,136 @@
+<npcs>
+	<ActiveNPCs>
+		<ActiveNPC>15504</ActiveNPC>
+		<ActiveNPC>15500</ActiveNPC>
+		<ActiveNPC>15503</ActiveNPC>
+		<ActiveNPC>15502</ActiveNPC>
+		<ActiveNPC>15501</ActiveNPC>
+		<ActiveNPC>15505</ActiveNPC>
+		<ActiveNPC>15506</ActiveNPC>
+		<ActiveNPC hide="true">15507</ActiveNPC>
+		<ActiveNPC>15508</ActiveNPC>
+	</ActiveNPCs>
+	<gossip>
+		<gossip15508>{questData}/npc15508.xml</gossip15508>
+		<gossip15507>{questData}/npc15507.xml</gossip15507>
+		<gossip15506>{questData}/npc15506.xml</gossip15506>
+		<gossip15505>{questData}/npc15505.xml</gossip15505>
+		<gossip15504>{questData}/npc15504.xml</gossip15504>
+		<gossip15503>{questData}/npc15503.xml</gossip15503>
+		<gossip15502>{questData}/npc15502.xml</gossip15502>
+		<gossip15501>{questData}/npc15501.xml</gossip15501>
+		<gossip15500>{questData}/npc15500.xml</gossip15500>
+	</gossip>
+	<storyBoards>
+		<storyBoard id="noQuest15500">
+			<line>noQuest15500</line>
+		</storyBoard>
+		<storyBoard id="noQuestHistory15500">
+			<line>noQuest15500</line>
+			<line>noQuestHistory15500</line>
+		</storyBoard>
+		<storyBoard id="noQuest15501">
+			<line>noQuest15501</line>
+		</storyBoard>
+		<storyBoard id="noQuestHistory15501">
+			<line>noQuest15501</line>
+			<line>noQuestHistory15501</line>
+		</storyBoard>
+		<storyBoard id="noQuest15502">
+			<line>noQuest15502</line>
+		</storyBoard>
+		<storyBoard id="noQuestHistory15502">
+			<line>noQuest15502</line>
+			<line>noQuestHistory15502</line>
+		</storyBoard>
+		<storyBoard id="noQuest15503">
+			<line>noQuest15503</line>
+		</storyBoard>
+		<storyBoard id="noQuestHistory15503">
+			<line>noQuest15503</line>
+			<line>noQuestHistory15503</line>
+		</storyBoard>
+		<storyBoard id="noQuest15504">
+			<line>noQuest15504</line>
+		</storyBoard>
+		<storyBoard id="noQuestHistory15504">
+			<line>noQuest15504</line>
+			<line>noQuestHistory15504</line>
+		</storyBoard>
+		<storyBoard id="noQuest15505">
+			<line npcX="439" npcY="254" playerX="999" playerY="254" >noQuest15505</line>
+		</storyBoard>
+		<storyBoard id="noQuestHistory15505">
+			<line npcX="439" npcY="254" playerX="999" playerY="254" >noQuest15505</line>
+			<line npcX="439" npcY="254" playerX="999" playerY="254" >noQuestHistory15505</line>
+		</storyBoard>
+		<storyBoard id="noQuest15506">
+			<line>noQuest15506</line>
+		</storyBoard>
+		<storyBoard id="noQuestHistory15506">
+			<line>noQuest15506</line>
+			<line>noQuestHistory15506</line>
+		</storyBoard>
+		<storyBoard id="noQuest15507">
+			<line>noQuest15507</line>
+		</storyBoard>
+		<storyBoard id="noQuestHistory15507">
+			<line>noQuest15507</line>
+			<line>noQuestHistory15507</line>
+		</storyBoard>
+		<storyBoard id="noQuest15508">
+			<line>noQuest15508</line>
+		</storyBoard>
+		<storyBoard id="noQuestHistory15508">
+			<line>noQuest15508</line>
+			<line>noQuestHistory15508</line>
+		</storyBoard>
+	</storyBoards>
+	<copy>
+		<item15505>Kit</item15505>
+		<desc15505>Kit</desc15505>
+		<noQuest15505>I don't have any quests for you right now.</noQuest15505>
+		<noQuestHistory15505>You should go see Tinker Bell in Cottonpuff Field!</noQuestHistory15505>
+
+		<item15504>Tinker Bell</item15504>
+		<desc15504>Tinker Bell</desc15504>
+		<noQuest15504>I don't have any quests for you right now.</noQuest15504>
+		<noQuestHistory15504>Why don't you visit again later?</noQuestHistory15504>
+
+		<item15500>Fawn</item15500>
+		<desc15500>Fawn</desc15500>
+		<noQuest15500>There's nothing you can help me with right now.</noQuest15500>
+		<noQuestHistory15500>You should go see Tinker Bell in Cottonpuff Field!</noQuestHistory15500>
+
+		<item15503>Silvermist</item15503>
+		<desc15503>Silvermist</desc15503>
+		<noQuest15503>There's nothing you can help me with right now, try again later.</noQuest15503>
+		<noQuestHistory15503>You should go see Tinker Bell in Cottonpuff Field!</noQuestHistory15503>
+
+		<item15502>Rosetta</item15502>
+		<desc15502>Rosetta</desc15502>
+		<noQuest15502>Thanks sunshine, but there's nothing I need help with right now.</noQuest15502>
+		<noQuestHistory15502>You should go see Tinker Bell in Cottonpuff Field!</noQuestHistory15502>
+
+		<item15501>Iridessa</item15501>
+		<desc15501>Iridessa</desc15501>
+		<noQuest15501>I'm sorry, there's nothing you can help me with right now buttercup.</noQuest15501>
+		<noQuestHistory15501>You should go see Tinker Bell in Cottonpuff Field!</noQuestHistory15501>
+
+		<item15506>Elixa</item15506>
+		<desc15506>Elixa</desc15506>
+		<noQuest15506>Come back if you have an Animal Friend that needs to be healed.</noQuest15506>
+		<noQuestHistory15506>You should go see Tinker Bell in Cottonpuff Field!</noQuestHistory15506>
+
+		<item15507>Terence</item15507>
+		<desc15507>Terence</desc15507>
+		<noQuest15507>I'm sorry, there's nothing you can help me with right now.</noQuest15507>
+		<noQuestHistory15507>You should go see Tinker Bell in Cottonpuff Field!</noQuestHistory15507>
+
+		<item15508>Marina</item15508>
+		<desc15508>Marina</desc15508>
+		<noQuest15508>I'm sorry, there's nothing you can help me with right now.</noQuest15508>
+		<noQuestHistory15508>You should go see Tinker Bell in Cottonpuff Field!</noQuestHistory15508>
+
+	</copy>
+</npcs>

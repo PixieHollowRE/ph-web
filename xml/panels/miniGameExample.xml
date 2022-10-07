@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/miniGameExample.swf</swf>
+		<swf type="code">{panelCode}/miniGameExample.swf</swf>
+	</swfs>
+	<copy>
+		<title>Example Multiplayer Minigame</title>
+	</copy>
+	<config>
+	</config>
+</panel>

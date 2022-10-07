@@ -1,0 +1,8 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/confirmInvite.swf</swf>
+		<swf type="code">{panelCode}/confirmInvite.swf</swf>
+	</swfs>
+	<copy></copy>
+	<config></config>
+</panel>

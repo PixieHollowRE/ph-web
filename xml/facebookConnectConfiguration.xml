@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<facebookConfig>
+
+	<!-- don't forget there is copy that lives in the registration branch as well... -->
+
+	<enableFacebookConnect>1</enableFacebookConnect>
+
+	<!-- test app -->
+	<!-- <applicationId>192754347442534</applicationId> -->
+
+	<!-- real app -->
+	<applicationId>288941724456707</applicationId>
+	
+	<copy>
+		<shareBtnLabel>share</shareBtnLabel>
+
+		<alertBtnLabel>OK</alertBtnLabel>
+		<alertRevokeFailed>An error occurred while revoking Facebook Connect permissions.  Try again later.</alertRevokeFailed>
+		<alertRevokeSucceeded>You are no longer connected to Facebook. To reconnect, please click Connect with Facebook on the bottom of your screen!</alertRevokeSucceeded>
+
+		<yes>Yes</yes>
+		<no>No</no>
+
+		<!-- fb reports certain error codes that we listen for. If you add an entry for an OAuth code here, the user will see a popup about it. Otherwise it'll 
+			fail silently -->
+		<openAuthError_341>Sorry, you've reached the daily Facebook Wall posting limit! Try posting again tomorrow!</openAuthError_341>
+
+		<!-- if the user de-links us from Facebook site and we don't get notified, PH will think we're still connected. We look for this string in an error
+			msg and if it appears we msg the user appropriately and sever the connection on our end -->
+		<deauthProbe>Error validating access token: The session has been invalidated because the user has changed the password.</deauthProbe>
+		<deauthDisplayMsg>Oops! It looks like your account is no longer connected to Facebook. Please check your password and try reconnecting to Facebook.</deauthDisplayMsg>
+
+		<!-- Create A Fairy related items...keeping them here so as to minimize # of places that facebook related copy is stored -->
+		<cafPostCreatedFairy>Share your #AVATAR# on Facebook?</cafPostCreatedFairy>
+		<cafReconfirm>Thanks for setting up Facebook permissions - your photo is ready to be uploaded!</cafReconfirm>
+		<!-- <cafCaptionTemplate>#FBNAME# just created a #AVATAR# in Pixie Hollow! Create your own #AVATAR# and join the fun! Go to: #SITEURL#</cafCaptionTemplate> -->
+		<cafCaptionTemplate>Meet the newest #AVATAR# in Pixie Hollow, #FAIRYNAME#! Create your own #AVATAR# and join the fun! Go to: #SITEURL#</cafCaptionTemplate>
+
+		<possessiveGenderMale>his</possessiveGenderMale>
+		<possessiveGenderFemale>her</possessiveGenderFemale>
+
+		<pronounGenderMale>him</pronounGenderMale>
+		<pronounGenderFemale>her</pronounGenderFemale>
+
+		<avatarMale>Sparrow Man</avatarMale>
+		<avatarFemale>Fairy</avatarFemale>
+
+	</copy>
+
+	<urlAliases>
+		<url name="cdnBase">http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/facebook/wall-icons/</url>
+	</urlAliases>
+
+	<copySubstitutions>
+		<sub pattern="CDNBASE">http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/facebook/wall-icons/</sub>
+		<sub pattern="SITEURL">www.pixiehollow.com</sub>
+		<sub pattern="DEFAULTCAPTION"></sub>
+		<sub pattern="DEFAULTDESCRIPTION">&nbsp;</sub> <!-- if omitted, the description meta tag from the webpage is used -->
+	</copySubstitutions>
+
+	<events>
+		<event id="inviteFriends" fbTarget="wall">
+			<messageTemplate></messageTemplate>
+			<confirmationTemplate>Invite your friends?</confirmationTemplate>
+			<messageIcon>#CDNBASE#generic_ph_1.png</messageIcon>
+			<messageUrl>#SITEURL#</messageUrl>
+			<messageCaption>#FBNAME# has invited you to fly into the online world of Pixie Hollow and join the fun.</messageCaption>		
+			<messageDescription>#DEFAULTDESCRIPTION#</messageDescription>
+		</event>
+
+		<event id="gainedLevel" fbTarget="wall">
+			<messageTemplate></messageTemplate>		
+			<confirmationTemplate>Share the flaptastic news?</confirmationTemplate>
+			<messageIcon>someCustomUrlFromCode</messageIcon>
+			<messageUrl>#SITEURL#</messageUrl>
+			<messageCaption>#FAIRYNAME# just reached Level #LEVEL# in Pixie Hollow! Share the flaptastic news and Like #POSSESSIVEGENDER# new skills in Pixie Hollow.</messageCaption>
+			<messageDescription>#DEFAULTDESCRIPTION#</messageDescription>
+		</event>
+
+		<event id="earnedBadge" fbTarget="wall">
+			<messageTemplate></messageTemplate>		
+			<confirmationTemplate>Show off your new badge?</confirmationTemplate>
+			<messageIcon>#CDNBASE#generic_badge_1.png</messageIcon>
+			<messageUrl>#SITEURL#</messageUrl>
+			<messageCaption>#FAIRYNAME# earned the #BADGENAME# badge! Come fly with #PRONOUNGENDER# in Pixie Hollow!</messageCaption>
+			<messageDescription>#DEFAULTDESCRIPTION#</messageDescription>
+		</event>
+
+		<event id="shareBadgeFromJournal" fbTarget="wall">
+			<messageTemplate></messageTemplate>		
+			<confirmationTemplate>Show off your badge?</confirmationTemplate>
+			<messageIcon>#CDNBASE#generic_badge_1.png</messageIcon>
+			<messageUrl>#SITEURL#</messageUrl>
+			<messageCaption>#FAIRYNAME# earned the #BADGENAME# badge! Come fly with #PRONOUNGENDER# in Pixie Hollow!</messageCaption>
+			<messageDescription>#DEFAULTDESCRIPTION#</messageDescription>
+		</event>
+
+		<event id="boughtAnimalFriend" fbTarget="wall">
+			<!-- <messageTemplate>#FAIRYNAME# just adopted a new #ANIMALTYPE# named #ANIMALNAME#!</messageTemplate>		 -->
+			<messageTemplate></messageTemplate>		
+			<confirmationTemplate>Share your new Animal Friend?</confirmationTemplate>
+			<messageIcon>dynamicallyGeneratedInCode</messageIcon>
+			<messageUrl>#SITEURL#</messageUrl>
+			<messageCaption>#FAIRYNAME# just adopted an Animal Friend from Beck's Animal Nursery! Fly into Pixie Hollow and adopt one of your own!</messageCaption>		
+			<messageDescription>#DEFAULTDESCRIPTION#</messageDescription>
+		</event>
+		
+		<event id="shareOutfitFromJournal" fbTarget="photos">
+			<photoData>avatar</photoData>
+			<confirmationTemplate>Share your outfit?</confirmationTemplate>
+			<captionTemplate>Isn't this outfit flaptastic? #FBNAME# created this look in Pixie Hollow! Fly into Pixie Hollow now to check out the latest Fairy fashions! Go to: #SITEURL#</captionTemplate>
+		</event>
+
+		<event id="shareAnimalFriendFromJournal" fbTarget="photos">
+			<photoData>displayObject</photoData>
+			<confirmationTemplate>Show off your Animal Friend in this outfit?</confirmationTemplate>
+			<captionTemplate>Doesn't #FAIRYNAME#'s Animal Friend look adorable? Adopt an Animal Friend and collect all of the fashions in Pixie Hollow. Go to: #SITEURL#</captionTemplate>
+		</event>
+
+		<event id="shareOutfitFromCatalog" fbTarget="photos">
+			<photoData>avatar</photoData>
+			<confirmationTemplate>Show off this outfit?</confirmationTemplate>
+			<captionTemplate>Check out this stylish outfit from #SHOPNAME#. Isn't it to fly for? Fly into Pixie Hollow and check out all of the Fairy fashions. Go to: #SITEURL#</captionTemplate>
+		</event>
+
+		<event id="shareHairdoFromSalon" fbTarget="photos">
+			<photoData>avatar</photoData>
+			<confirmationTemplate>Show off this hairstyle?</confirmationTemplate>
+			<captionTemplate>What do you think of #FAIRYNAME#'s flitterific new hairstyle from #SHOPNAME#? Show off your Fairy style with a new look in Pixie Hollow. Go to: #SITEURL#</captionTemplate>
+		</event>
+	</events>
+</facebookConfig>

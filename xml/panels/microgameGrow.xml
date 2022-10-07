@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/microMeter.swf</swf>
+		<swf type="code">{panelCode}/microMeter.swf</swf>
+	</swfs>
+	<copy>
+		
+		<title>Grow</title>
+		<clickMe target="clickBtn.caption">Click Me!</clickMe>
+		<missed>Missed! (###)</missed>
+		<instructions>Click at the right moment!</instructions>
+	</copy>
+	<config>
+		<test>false</test>
+		<microGameId>Grow</microGameId>
+		<spellName>grow</spellName>
+		<button delay="1"/>
+		<colors>
+			<color id="white">166</color>
+			<color id="green">2</color>
+			<color id="yellow">9</color>
+			<color id="red">45</color>
+			<color id="orange">12</color>
+			<color id="purple">14</color>
+
+			<!-- Water Talent Colors -->
+			<color id="water_bar">45</color>
+			<color id="water_bg">42</color>
+			<color id="water_sight">43</color>
+			<color id="water_zone1">50</color>
+			<color id="water_zone2">118</color>
+			<color id="water_zone3">136</color>
+			<color id="water_zone4">42</color>
+			<color id="water_zone5">73</color>
+			<color id="green_inner">0xd2ffa2</color>
+			<color id="green_outer">0x7fb645</color>
+			<color id="green_upper">0x5b8f23</color>
+		</colors>
+		<visuals>
+			<visual id="star">Star</visual>
+			<visual id="scoreDot">scoreDot</visual>
+			<visual id="zone_plain">plain</visual>
+			<visual id="bar_plain">bar_plain</visual>
+			<visual id="bg_plain">bg_plain</visual>
+			<visual id="sight_diamond">sight_diamond</visual>
+			<visual id="sight_line">sight_greenLine</visual>
+			<visual id="curved_bg">gameBackground</visual>
+			<visual id="blueBG">challengeBG</visual>
+			<visual id="finalBG">background_final</visual>
+			<visual id="growBar">growBar</visual>
+			<visual id="finalZone">final_target</visual>
+			<visual id="growZone">grow_target</visual>
+			<visual id="finalSight">final_sight</visual>
+			<visual id="flowerSight">flower_sight</visual>
+			
+		</visuals>
+		<levels>
+			<level number="0" lifetime="7">
+				<background visual="finalBG" color_inner="green_inner" color_outer="green_outer" color_upper="green_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="1" lifetime="7">
+				<background visual="finalBG" color_inner="green_inner" color_outer="green_outer" color_upper="green_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="2" lifetime="7">
+				<background visual="finalBG" color_inner="green_inner" color_outer="green_outer" color_upper="green_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="3" lifetime="7">
+				<background visual="finalBG" color_inner="green_inner" color_outer="green_outer" color_upper="green_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="4" lifetime="7">
+				<background visual="finalBG" color_inner="green_inner" color_outer="green_outer" color_upper="green_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+		</levels>
+		<rounds>
+			<round id="0" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="5" startPos="0" visual="flowerSight"/>			
+				<zone distance="45" pos="random:40,50" visual="growZone"/>
+			</round>
+			<round id="1" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="5" startPos="0" visual="flowerSight"/>			
+				<zone distance="45" pos="random:20,40" visual="growZone"/>
+			</round>
+			<round id="2" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="5" startPos="0" visual="flowerSight"/>			
+				<zone distance="40" pos="random:40,60" visual="growZone"/>
+			</round>
+
+			<round id="3" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="5" startPos="0" visual="flowerSight"/>			
+				<zone distance="50" pos="random:20,40" visual="growZone"/>
+			</round>
+			<round id="4" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="5" startPos="0" visual="flowerSight"/>			
+				<zone distance="40" pos="random:40,60" visual="growZone"/>
+			</round>
+			<round id="5" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="6" startPos="0" visual="flowerSight"/>			
+				<zone distance="30" pos="random:60,70" visual="growZone"/>
+			</round>
+
+			<round id="6" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="5" startPos="0" visual="flowerSight"/>			
+				<zone distance="50" pos="random:20,40" visual="growZone"/>
+			</round>
+			<round id="7" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="5" startPos="0" visual="flowerSight"/>			
+				<zone distance="40" pos="random:40,60" visual="growZone"/>
+			</round>
+			<round id="8" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="6" startPos="0" visual="flowerSight"/>			
+				<zone distance="30" pos="random:60,70" visual="growZone"/>
+			</round>
+			<round id="9" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="6" startPos="0" visusal="flowerSight"/>			
+				<zone distance="20" pos="random:70,80" visual="growZone"/>
+			</round>
+			
+			<round id="10" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="5" startPos="0" visual="flowerSight"/>			
+				<zone distance="50" pos="random:10,15" visual="growZone"/>
+			</round>
+			<round id="11" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="5" startPos="0" visual="flowerSight"/>			
+				<zone distance="40" pos="random:20,30" visual="growZone"/>
+			</round>
+			<round id="12" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="6" startPos="0" visual="flowerSight"/>			
+				<zone distance="30" pos="random:45,55" visual="growZone"/>
+			</round>
+			<round id="13" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="6" startPos="0" visual="flowerSight"/>			
+				<zone distance="20" pos="random:65,75" visual="growZone"/>
+			</round>
+			<round id="14" direction="vertical">
+				<bar height="148" width="29" visual="growBar"/>
+				<sight speed="6" startPos="0" visual="flowerSight"/>			
+				<zone distance="10" pos="random:80,90" visual="growZone"/>
+			</round>
+
+		</rounds>
+	</config>
+</panel>

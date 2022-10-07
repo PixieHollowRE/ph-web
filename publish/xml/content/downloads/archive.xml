@@ -1,0 +1,203 @@
+<page>
+	<config>
+
+		<tagline>
+			<tagline align="center" font="pristina" title="true" titlex="0" titley="0" yOffset="20">header</tagline>
+		</tagline>
+
+		<types>
+			<archivecopy align="center">body1</archivecopy>
+			<tagline align="center" font="pristina" title="false" titlex="0" titley="0" yOffset="20">header1</tagline>
+			<archivecopy>body7</archivecopy>	
+			<archivecopy>body13</archivecopy>
+			
+			<tagline align="center" font="pristina" title="false" titlex="0" titley="0" yOffset="20">header2</tagline>
+			<archivecopy>body14</archivecopy>
+			<archivecopy>body11</archivecopy>
+			<archivecopy>body12</archivecopy>
+			<archivecopy>body16</archivecopy>
+			<archivecopy>body19</archivecopy>
+			<archivecopy>body24</archivecopy>
+			<archivecopy>body25</archivecopy>
+			<archivecopy>body27</archivecopy>
+			<archivecopy>body30</archivecopy>
+			<archivecopy>body32</archivecopy>
+			<archivecopy>body33</archivecopy>
+			<archivecopy>body36</archivecopy>
+			<archivecopy>body42</archivecopy>
+			<archivecopy>body46</archivecopy>
+			<archivecopy>body57</archivecopy>
+			<archivecopy>body70</archivecopy>
+			<archivecopy>body71</archivecopy>
+			<archivecopy>body73</archivecopy>
+			
+			<tagline align="center" font="pristina" title="false" titlex="0" titley="0" yOffset="20">header3</tagline>
+			<archivecopy>body9</archivecopy>
+			<archivecopy>body17</archivecopy>
+			<archivecopy>body21</archivecopy>
+			<archivecopy>body22</archivecopy>
+			<archivecopy>body29</archivecopy>
+			<archivecopy>body31</archivecopy>
+			<archivecopy>body38</archivecopy>
+			<archivecopy>body40</archivecopy>
+			<archivecopy>body43</archivecopy>
+			<archivecopy>body45</archivecopy>
+			<archivecopy>body49</archivecopy>
+			<archivecopy>body51</archivecopy>
+			<archivecopy>body54</archivecopy>
+			<archivecopy>body63</archivecopy>
+			<archivecopy>body65</archivecopy>
+			<archivecopy>body66</archivecopy>
+			<archivecopy>body69</archivecopy>
+			<archivecopy>body72</archivecopy>
+			
+			
+			
+			<tagline align="center" font="pristina" title="false" titlex="0" titley="0" yOffset="20">header4</tagline>
+			<archivecopy>body3</archivecopy>
+			<archivecopy>body20</archivecopy>
+			<!--<archivecopy>body35</archivecopy>-->
+			<archivecopy>body58</archivecopy>
+			<archivecopy>body64</archivecopy>
+			
+			<tagline align="center" font="pristina" title="false" titlex="0" titley="0" yOffset="20">header5</tagline>
+			<archivecopy>body52</archivecopy>
+			<archivecopy>body53</archivecopy>
+			<archivecopy>body59</archivecopy>
+			<archivecopy>body60</archivecopy>
+			<archivecopy>body61</archivecopy>
+			<archivecopy>body62</archivecopy>
+			<archivecopy>body67</archivecopy>
+			<archivecopy>body68</archivecopy>
+			
+			<tagline align="center" font="pristina" title="false" titlex="0" titley="0" yOffset="20">header6</tagline>
+			<archivecopy>body5</archivecopy>
+			<archivecopy>body4</archivecopy>
+			<archivecopy>body6</archivecopy>
+			<archivecopy>body15</archivecopy>
+			<archivecopy>body23</archivecopy>
+			<archivecopy>body26</archivecopy>
+			<archivecopy>body28</archivecopy>
+			<archivecopy>body37</archivecopy>
+			<archivecopy>body41</archivecopy>
+			<archivecopy>body44</archivecopy>
+			<archivecopy>body47</archivecopy>
+			<archivecopy>body55</archivecopy>
+			
+			<tagline align="center" font="pristina" title="false" titlex="0" titley="0" yOffset="20">header7</tagline>
+			<archivecopy>body2</archivecopy>
+			<archivecopy>body8</archivecopy>
+			<archivecopy>body10</archivecopy>
+			<archivecopy>body39</archivecopy>
+			
+			
+		</types>
+			
+	</config>
+
+	<copy>
+	
+		<!--HEADERS-->
+		<header><![CDATA[<span class="newsbodytext">Pixie Hollow Printables</span>]]></header>		
+		<header1><![CDATA[<span class="newsbodytext">Kits</span>]]></header1>
+		<header2><![CDATA[<span class="newsbodytext">Crafts</span>]]></header2>	
+		<header3><![CDATA[<span class="newsbodytext">Invitations/Cards/Notes</span>]]></header3>	
+		<header4><![CDATA[<span class="newsbodytext">Banners/Decorations</span>]]></header4>	
+		<header5><![CDATA[<span class="newsbodytext">Posters/Scripts</span>]]></header5>
+		<header6><![CDATA[<span class="newsbodytext">Recipes</span>]]></header6>	
+		<header7><![CDATA[<span class="newsbodytext">Other</span>]]></header7>
+		
+		<body1><![CDATA[<span class="newsbodytext"><br><br>
+		  Click on the titles below to download a Pixie Hollow printable!<br></span>]]>
+    </body1>
+    
+    <!-- Type of Download title -->
+        
+  <bodyTitle><![CDATA[<br><font face="Pristina" size="24" color="#fff000">Recipes</font></span>]]></bodyTitle>
+  <bodyTitle2><![CDATA[<br><font face="Pristina" size="24" color="#fff000">Invitations</font></span>]]></bodyTitle2>
+  <bodyTitle3><![CDATA[<br><font face="Pristina" size="24" color="#fff000">Crafts</font></span>]]></bodyTitle3>
+  <bodyTitle4><![CDATA[<br><font face="Pristina" size="24" color="#fff000">Guides</font></span>]]></bodyTitle4>
+  <bodyTitle5><![CDATA[<br><font face="Pristina" size="24" color="#fff000">Cards</font></span>]]></bodyTitle5>
+  <bodyTitle6><![CDATA[<br><font face="Pristina" size="24" color="#fff000">Other</font></span>]]></bodyTitle6>
+  
+
+    <!-- Links and Description -->
+
+
+	<body2><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/fairystory.pdf">Fairy Story</a></font> - Ever wanted to know more about Fairies?  Read our Fairy Story.</span>]]></body2>
+	<body3><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/doordecoration.pdf">Door Decoration</a></font> - Make a Fairy you know feel special with this pixie perfect door decoration.</span>]]></body3>	
+	<body4><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/MaplePumpkinCustard.pdf">Maple Pumpkin Custard Recipe</a></font> - Make Maple Pumpkin Custard quick as a flit with this delicious recipe!</span>]]></body4>
+	<body5><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/toast.pdf">Fairy Toast Recipe</a></font> - A traditional Fairy breakfast treat.</span>]]></body5>
+	<body6><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/NeverBerry_Punch.pdf">Neverberry Punch Recipe</a></font> - Delicious and easy to make Fairy Treat!</span>]]></body6>	
+	<body7><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/arrivaldaykit.pdf">Arrival Day Kit</a></font> - Celebrate the Arrival Day of a Fairy you know!</span>]]></body7>
+	<body8><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Game_Guides_v2.pdf">Game Guide</a></font> - Download hints and tips for playing in Pixie Hollow.</span>]]></body8>
+	<body9><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/invitations.pdf">Petal Note Invitation</a></font> - Fold-up flower invitations for inviting friends to meet you in Pixie Hollow!</span>]]></body9>	
+	<body10><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Leaf_Lettering_Decoder_Winter.pdf">Leaf Lettering Decoder (Winter)</a></font> - Translate hidden messages written in the language of the Never Fairies.</span>]]></body10>
+	<body11><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/pixiebeads.pdf">Pixie Bead Necklace</a></font> - Instructions for making "Pixie Beads" and a necklace or bracelet.</span>]]></body11>
+	<body12><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/pixiebox.pdf">Pixie Box</a></font> - This flitterific box is fabulous for storing Fairy things.</span>]]></body12>	
+	<body13><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/welcomekit.pdf">Welcome Kit</a></font> - A flitterfic kit of printables for new Fairies!</span>]]></body13>
+	<body14><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/animalmasquerade.pdf">Animal Masquerade Mask</a></font> - Dress up and celebrate with this fun printable.</span>]]></body14>
+	<body15><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/SweetTortillaSnowflakes_v2.pdf">Sweet Tortilla Snowflakes</a></font> - Learn how to turn tortillas into yummy snowflakes with this fun and easy recipe!</span>]]></body15>
+	<body16><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/bookmarks.pdf">Talent Bookmarks</a></font> - Use these talent bookmarks on your next reading adventure.</span>]]></body16>
+	<body17><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Table_Placecards.pdf">Table Place cards</a></font> - Use these place cards when setting the table at your next family feast!</span>]]></body17>
+	<body18><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/ingredients_guide.pdf">Ingredients Guide</a></font> - Print this helpful guide to find special ingredients in the Hollow.</span>]]></body18>	
+	<body19><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Firefly_lights.pdf">Firefly Lights</a></font> - Get into the spirit of the season with Festive Firefly lights!</span>]]></body19>
+	<body20><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Happy2009.pdf">Happy 2009 Banner</a></font> - Ring in the New Year with this pixie-licious decoration for your home!</span>]]></body20>
+	<body21><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Winter_card.pdf">Winter Wonderland Party Card</a></font> - A frosty greeting to send to all your Fairy friends!</span>]]></body21>	
+	<body22><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Games_invitation.pdf">Game Invitation</a></font> - Invite your friends to play Fairy games in Pixie Hollow.</span>]]></body22>
+	<body23><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/RaspberryTarts.pdf">Raspberry Tarts</a></font> - Make these sweet, heart-shaped treats for someone "Fairy" special!</span>]]></body23>
+	<body24><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Friendship_Bracelet.pdf">Friendship Bracelet</a></font> - Create and decorate bracelets for you and your best Fairy friend!</span>]]></body24>
+	<body25><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Rosetta_Clover_Frame.pdf">Rosetta's Clover Frame </a></font> - Showcase your memories in this one-of-a-kind picture frame!</span>]]></body25>
+	<body26><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/CloverCookies_v2.pdf">Clover Cookies </a></font> - Celebrate the coming of spring with these yummy green cookies!</span>]]></body26>
+	<body27><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/SillySpinner_v2.pdf">Silly Spinner</a></font> - Spin the pointer to find out which silly thing you will do next!</span>]]></body27>
+	<body28><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/FlutterDelightCupcakes.pdf">Flutter Delight Cupcakes</a></font> - A fun recipe for turning an ordinary cupcake into a yummy springtime treat!</span>]]></body28>
+	<body29><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/friendship_invitation_v2.pdf">Friendship Invitation</a></font> - Invite all of your friends to fly with you in the Hollow!</span>]]></body29>
+	<body30><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Egg_holders.pdf">Egg Holders</a></font> - Celebrate the Never Dove Egg Hunt with flitterific egg holders!</span>]]></body30>
+	<body31><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/silly_lunchtime_notes.pdf">Silly Lunchtime Notes</a></font> - Give your little one a giggle with these new Pixie Hollow Lunchtime Notes!</span>]]></body31>
+	<body32><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Spirit_Fingers.pdf">Great Games Spirit Fingers</a></font> - Show talent pride with fun Fairy-sized spirit fingers!</span>]]></body32>
+	<body33><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Kits_Paw_print.pdf">Kit's Paw Print Stickers</a></font> - Print out your very own paw print stickers - just like Kit's!</span>]]></body33>
+	<body34><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Great_Games_Card.pdf">Great Games Card</a></font> - Encourage your little one to put their best wing forward at the Great Games!</span>]]></body34>
+	<!--<body35><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Wake_Up_Its_Spring.pdf">Spring Room Decoration</a></font> - Celebrate spring with your child with this flitterfic door decoration!</span>]]></body35>-->
+	<body36><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Sunflower_WindStreamer.pdf">Sunflower Wind Streamer</a></font> - Keep Sunflowers blooming with this easy-to-make Sunflower Wind Streamer!</span>]]></body36>
+	<body37><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/LovelyLadybugs_v2.pdf">Lovely Ladybugs</a></font> - Honor the favorite bug buddy of garden-talent Fairies with this sweet snack!</span>]]></body37>
+	<body38><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Great_Games_Certificate.pdf">Great Games Certificate</a></font> - Display your triumphs with this Certificate, signed by the Never Council!</span>]]></body38>
+	<body39><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/ingredients_guide_v10.pdf">Ingredient Guide</a></font> - Print this helpful guide to find special ingredients in the Hollow!</span>]]></body39>
+	<body40><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Tea_Party_Invitation.pdf">Tea Party Invitation</a></font> - Invite friends to your Pixie Hollow Tea Party!</span>]]></body40>
+	<body41><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/SunTeaPunch.pdf">Sun Tea Punch</a></font> - Nothing says summer more than a cool glass for Sun Tea Punch!</span>]]></body41>
+	<body42><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Leaf_Fan.pdf">Leaf Fan</a></font> - Beat the heat with this one-of-a-kind Fairy Leaf Fan!</span>]]></body42>
+	<body43><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Summer_2009_card.pdf">Summer Card</a></font> - Send a sweet seasonal message to your favorite Fairy in the Hollow!</span>]]></body43>
+	<body44><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Oatmeal_cookies.pdf">Oatmeal Cookies</a></font> - Bake some yummy cookies with your little Fairies!</span>]]></body44>
+	<body45><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Tea_Party_Placecards.pdf">Tea Party Place Cards</a></font> - Adorable place cards for your next tea party on the mainland!</span>]]></body45>
+	<body46><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Leaf_Puzzle.pdf">Leaf Puzzle</a></font> - Put together a piece of autumn with this fun fall craft!</span>]]></body46>
+	<body47><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Pumpkin_delight.pdf">Pumpkin Delight</a></font> - Enjoy Pumpkin Delight - a recipe from a Pixie Hollow team member!</span>]]></body47>
+	<body49><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Back_to_School_Lunch_Notes.pdf">Back-to-School Lunchtime Notes</a></font> - Pack a loving note in your child's lunch!</span>]]></body49>
+	<body50><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Animal_Mask.pdf">Animal Mask</a></font> - Celebrate the Animal Masquerade on the mainland with this critterific mask!</span>]]></body50>
+	<body51><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/happy_autumn.pdf">Happy Autumn Card</a></font> - Give someone a seasonal message on the mainland with this cool new card!</span>]]></body51>
+	<body52><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Mermaid_Friends_Forever_script.pdf">Mermaid Script</a></font> - Assign roles and use this handy script to act out Mermaid Friends Forever at home.</span>]]></body52>
+	<body53><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Mermaid_Friends_Forever_Poster.pdf">Mermaid Poster</a></font> - Display this authentic play poster when you perform Mermaid Friends Forever at home!</span>]]></body53>
+	<body54><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Winter_Lunch_Notes.pdf">Winter Lunch Notes</a></font> - Pack warm wishes in your little one’s lunch box with these winter-themed notes.</span>]]></body54>
+	<body55><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Hot_Vanilla.pdf">Hot Vanilla</a></font> - This sweet treat is sure to warm tummie on a chilly winter evening!</span>]]></body55>
+	<body56></body56>
+	<body57><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Fairy_House.pdf">Fairy House Ornament</a></font> - Construct a cute Fairy House to display in a tree or on a special shelf in your home.</span>]]></body57>
+	<body58><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/HappyWinter2009_banner.pdf">Winter 2009 Banner</a></font> - Celebrate the winter season with this easy to assemble seasonal banner!</span>]]></body58>
+	<body59><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Fairy_Marys_day_off_Poster.pdf">Fairy Mary's Day Off Poster</a></font> - Display this authentic play poster when you perform Fairy Mary's Day Off at home!</span>]]></body59>
+	<body60><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Fairy_Marys_day_off_Script.pdf">Fairy Mary's Day Off Script</a></font> - Assign roles and use this handy script to act out Fairy Mary's Day Off at home.</span>]]></body60>
+	
+	<body61><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Cheeses_Great_Adventure_Script.pdf">Cheese's Great Adventure Script</a></font> - Act out Cheese's Great Adventure at home.</span>]]></body61>
+	<body62><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Cheeses_Great_Adventure_Poster.pdf">Cheese's Great Adventure Poster</a></font> - Display this Cheese's Great Adventure poster at home!</span>]]></body62>
+	<body63><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/BessArtAward.pdf">Bess' Offical Art Certificate</a></font> - Praise your pixie artists work with this official Pixie Hollow Art Certificate.</span>]]></body63>
+	<body64><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Spring_Banner.pdf">Spring Banner</a></font> - Ring in the spring season with this flitterific door decoration!</span>]]></body64>
+	<body65><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/lunch_notes_valentines_day.pdf">Sweet Lunchtime Notes</a></font> - Spread the love with these sweet little lunch notes!</span>]]></body65>
+	<body66><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Spring_Card.pdf">Spring Card</a></font> - Send a sweet spring greeting with this colorful new card!</span>]]></body66>
+	<body67><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Missing_Sparkles_Script.pdf">Missing Sparkles Script</a></font> - Act out Case of the Missing Sparkles at home.</span>]]></body67>
+	<body68><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Missing_Sparkles_Poster.pdf">Missing Sparkles Poster</a></font> - Display this Case of the Missing Sparkles poster at home!</span>]]></body68>
+	<body69><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Happy_Mothers_Day.pdf">Mother's Day Card</a></font> - An adorable way to show Mom how much you care on Mother's Day!</span>]]></body69>
+	<body70><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/First_Flight_Garland.pdf">First Flight Garland</a></font> - Celebrate the opening of Flapaway Point in Pixie Hollow with this adorable craft!</span>]]></body70>
+	<body71><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Pencil_Toppers.pdf">Pixie Pencil Toppers</a></font> - Make a statement at school with these flitterific pencil toppers.</span>]]></body71>
+	<body72><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/Camp_Lunchtime_Notes.pdf">Camp Lunchtime Notes</a></font> - Spread the love with these sweet little lunchtime notes - perfect for camp lunches!</span>]]></body72>
+	<body73><![CDATA[<br><font size="14" color="#fff000"><a href="blank:http://a.disney.go.com/fairies/pixiehollow/pdfs/ANIMAL_BEE_MASK.pdf">Animal Masquerade Bee Mask</a></font> - Celebrate the Animal Masquerade on the mainland with this critterific mask!</span>]]></body73>
+	
+	
+	
+	</copy>
+</page>

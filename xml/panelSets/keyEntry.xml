@@ -1,0 +1,70 @@
+<panelSet>
+
+	<panels>
+		<panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{panelData}/bg_gradient.xml</panel>
+		<!--
+		<panel id="header" x="0" y="0">{panelData}/xml/panels/header.xml</panel>
+		-->
+		<panel id="manager" x="20" y="0" alwaysOnTop="true">{panelData}/keyEntry.xml</panel>
+
+
+	</panels>
+	<config>
+		<logo>
+			<link>false</link>
+		</logo>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<logolink>false</logolink>
+		<trackingid>betakeyentry</trackingid>
+		<menu visible="false">
+			<title>
+				<text>menutitle</text>
+				<subtext>menusubtitle</subtext>
+				<!--channel>home.htm</channel-->       
+			</title>
+			<!--
+			<button>
+				<text>button1text</text>
+				<event>pixiePage</event>
+			</button>
+			<button>
+				<text>button2text</text>
+				<url>releasenotes/releasenotes.html</url>  
+
+			</button>
+
+			<button>
+				<text>button3text</text>
+				<url>support/supportcenter.html</url>      
+			</button>
+
+			<button>
+				<text>button4text</text>
+				<url>releasenotes/releasenotes.html</url>     
+			</button>
+			<button>
+				<text>button5text</text>
+				<url>releasenotes/releasenotes.html</url>      
+			</button>
+			<button>
+				<text>button6text</text>
+				<url>http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl</url>      
+			</button>
+			-->
+		</menu>
+	
+	
+		</config>
+		<copy>
+			<menutitle>Pixie Hollow Game Preview</menutitle>
+			<!--
+			<button1text>My Fairy Page</button1text>
+			<button2text>Never Council News</button2text>
+			<button3text>Support Center</button3text>
+			<button4text>Parents Center</button4text>
+			<button5text>Report a Bug</button5text>
+			<button6text>Contact Us</button6text>
+			-->
+	</copy>
+</panelSet>

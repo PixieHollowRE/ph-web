@@ -1,0 +1,87 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/ugc_gokartsubmit.swf</swf>
+		<swf type="code">{publishPanelCode}/gokartsubmit.swf</swf>
+	</swfs>
+	<copy>
+		<textUP1 target="submitcontent.upperCopy1">Please complete this form:</textUP1>
+		<textUP2 target="submitcontent.upperCopy2">Pixie Hollow Online</textUP2>
+		<text5 target="submitcontent.lowerCopy5" style="html"><![CDATA[Terms of Use:]]></text5>
+		<text6 target="submitcontent.lowerCopy6" style="html"><![CDATA[<body>If you are under 13 years old, please ask your parents to review the Disney Pixie Hollow Terms of Use with you.</body>]]></text6>
+		
+		
+		
+		
+		<txt_touaccept target="submitcontent.touTAHolder.txt_touaccept" style="html"><![CDATA[I agree to the Disney <a href="http://disney.go.com/corporate/privacy/terms.html?ppLink=pp_wdig"><u>Terms of Use<u></a>]]></txt_touaccept>
+		
+		
+		
+		<txt_link target="submitcontent.touTAHolder.toulinkholder.txt_link" style="html"><![CDATA[<body><u>Click here to see Sweepstakes and Submission Rules</u></body>]]></txt_link>
+		
+		
+		
+		
+		<maxcounttxt target="submitcontent.maxcounttxt" style="html"><![CDATA[<body>Your submission cannot be longer than 5000 characters.</body>]]></maxcounttxt>
+		
+		<text target="submitcontent.nameField">Member Name</text>
+		<text target="submitcontent.passField">Password</text>
+		
+		<browseBtn target="submitcontent.importfile.yourartHolder.browseBtn.caption" style="html">Browse</browseBtn>
+		<submitBtn target="submitcontent.submitBtn.caption" style="html"><![CDATA[Enter Now]]></submitBtn>
+		<resetBtn target="submitcontent.resetBtn.caption" style="html">Reset</resetBtn>
+		
+		
+		
+		<text target="submitcontent.cancelBtn.caption">Close</text>
+		<text target="submitcontent.loginBtn.caption">Login</text>
+		<text target="stillholding.lowerCopy1">Sorry, still not ready yet...</text>
+		<text target="stillholding.cancelBtn.caption">Close</text>
+		<text target="gameNowReady.upperCopy1"><![CDATA[Congratulations!]]></text>
+		<text target="gameNowReady.lowerCopy1"><![CDATA[The meadows are available.  If you would like to fly into Pixie Hollow, click Play.]]></text>
+		<text target="gameNowReady.cancelBtn.caption">Close</text>
+		
+		<text target="gotoCaf.copy1">Go now and</text>
+		<text target="gotoCaf.copy2">Create a Fairy</text>
+		<text target="gotoCaf.cancelBtn.caption">Cancel</text>
+		<text target="gotoCaf.createBtn.caption">Create</text>
+		<text target="fairyChoice.upperCopy">Choose a Fairy</text>
+		<text target="fairyChoice.cancelBtn.caption">Cancel</text>
+		<text target="fairyChoice.playBtn.caption">Play</text>
+		<text target="loading.loadingscreen.loadingText">Loading</text>
+		
+		<text target="stillholding.cancelBtn.caption">Cancel</text>
+		
+		
+		<browsebutton>Browse</browsebutton>
+		<submitbutton>Submit</submitbutton>
+		<resetbutton>Reset</resetbutton>
+		
+		
+		<notaccepttou><![CDATA[You must agree to the Terms of Use to submit.]]></notaccepttou>
+	
+		
+		
+		
+		<genericError><![CDATA[Oops! There was a problem entering the sweepstakes, please try again later.]]></genericError>
+		<MUTIPLE_CONTEST_SUBMISSIONS><![CDATA[Oops!  It appears you've already entered this sweepstakes.  You may only enter a sweepstakes once per account.]]></MUTIPLE_CONTEST_SUBMISSIONS>
+
+		<USER_LOGIN_STATUS_UNKNOWN><![CDATA[There was a problem with your login.  Please try again.]]></USER_LOGIN_STATUS_UNKNOWN>
+		<ALREADY_ENTERED_IN_TIMEUNIT><![CDATA[Oops!  It appears you've already entered this sweepstakes.  You may only enter a sweepstakes once per account.]]></ALREADY_ENTERED_IN_TIMEUNIT>
+		<PROMO_INACTIVE><![CDATA[Oops!  It appears the sweepstakes is already over.]]></PROMO_INACTIVE>
+		<USER_NOT_FOUND><![CDATA[There was a problem uploading your file.  There was a problem with your login.  Please try again.]]></USER_NOT_FOUND>
+		<erroralertok><![CDATA[OK]]></erroralertok>
+		
+	</copy>
+	<config>
+		<altbuttonconfig visible="false" x="-120"/>
+		<sheet>css/main.css</sheet>
+		<thankyou>{publishPanelSetData}/sweepstakes_thankyou.xml</thankyou>
+		<swidlink><![CDATA[lookupAccount]]></swidlink>
+		<gameid><![CDATA[ph_spring_sweeps]]></gameid>
+		<toulink><![CDATA[http://disney.go.com/corporate/privacy/terms.html?ppLink=pp_wdig]]></toulink>
+		<contestRuleslink><![CDATA[http://disney.go.com/fairies/pixiehollow/rules_springsweepstakes.html]]></contestRuleslink>
+		<contenttypes>
+		</contenttypes>
+	</config>
+</panel>
+

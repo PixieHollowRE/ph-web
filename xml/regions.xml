@@ -1,0 +1,103 @@
+<config>
+	<regions>
+		<region index="0" ro="66" gm="0.52" go="40" bo="-6" x="1060" y="475"><!--  Spring -->
+			<location index="0" zone="104" name="Treetop Bend">
+				<content name="Treetop Housewares Shop" frame="16" zone="111001" location="fromZone111001" icon="shop" iconX="1138" iconY="235"/>
+				<content name="Bella's Baubles Shop" frame="42" zone="110000" location="fromZone110000" icon="shop" iconX="1100" iconY="327"/>
+				<content name="Seed Sorter Game" frame="61" zone="50043" location="fromZone50043" icon="game" iconX="1150" iconY="343"/>
+				<content name="Neville's New Homes Shop" frame="35" zone="116000" location="fromZone116000" icon="shop" iconX="1045" iconY="227"/>
+			</location>
+			<location index="1" zone="100" name="Cherryblossom Heights">
+				<content name="Petal Pick-Up Game" frame="60" zone="50009" location="fromZone50009" icon="game" iconX="1035" iconY="390"/>
+				<content name="Daisy's Dyes Shop" frame="3" zone="112000" location="fromZone112000" icon="shop" iconX="980" iconY="415"/>
+				<content name="Rosetta's Garden" frame="12" zone="802" location="famousFairyHome" icon="quest" iconX="1025" iconY="435"/>
+			</location>
+			<location index="2" zone="101" name="Springtime Orchard">
+				<content name="Firefly Light-Up Game" frame="59" zone="50001" location="fromZone50001" icon="game" iconX="852" iconY="428"/>
+				<content name="Bobbin's Tailoring Games" frame="63" zone="100000" location="fromZone100000" icon="craftingNook" iconX="807" iconY="469"/>
+				<content name="Beck's Animal Nursery" frame="28" zone="115000" location="fromBeck'sAnimalNursery" icon="shop" iconX="801" iconY="410"/>
+			</location>
+			<location index="3" zone="102" name="Dewdrop Vale">
+				<content name="Bubble Bounce Game" frame="51" zone="50002" location="fromZone50002" icon="game" iconX="870" iconY="590"/>
+				<content name="Garden Supply Shop" frame="38" zone="110001" location="fromZone110001" icon="shop" iconX="900" iconY="554"/>
+				<content name="Silvermist's Grotto" frame="13" zone="803" location="famousFairyHome" icon="quest" iconX="968" iconY="600"/>
+				<content name="Bubbly Bog Adventures" frame="19" zone="" location="fromWilderness" icon="game" iconX="955" iconY="548"/>
+			</location>
+			<location index="4" zone="103" name="Neverberry Thicket">
+				<content name="Water Web Game" frame="52" zone="50007" location="fromZone50007" icon="game" iconX="1120" iconY="590"/>
+				<content name="Dulcie's Kitchen" frame="20" zone="100002" location="fromDulcie'sBakingGames" icon="craftingNook" iconX="1050" iconY="590"/>
+				<content name="Elixa's Hospital" frame="27" zone="806" location="famousFairyHome" icon="quest" iconX="1107" iconY="537"/>
+				<content name="Harmony's Sweet Shop" frame="40" zone="110010" location="fromZone110010" icon="shop" iconX="1160" iconY="557"/>
+			</location>
+		</region>
+		<region index="1" ro="40" go="-11" bo="-199" x="325" y="475"> <!-- Autumn -->
+			<location index="0" zone="200" name="Acorn Summit">
+				<content name="Fairy Fireworks Game" frame="53" zone="50010" location="from50010" icon="game" iconX="160" iconY="320"/>
+				<content name="Summit Style Shop" frame="43" zone="110002" location="fromZone110002" icon="shop" iconX="210" iconY="370"/>
+				<content name="Vidia's Daily Spin" frame="33" zone="50046" location="fromZone50046" icon="game" iconX="270" iconY="375"/>
+			</location>
+			<location index="1" zone="201" name="Cottonpuff Field">
+				<content name="Tinker Toss Game" frame="55" zone="50014" location="fromTinkerGame" icon="game" iconX="370" iconY="582"/>
+				<content name="Tinker's Nook" frame="14" zone="804" location="fromZone804" icon="quest" iconX="408" iconY="545"/>
+				<content name="Coal's Clothiers Shop" frame="29" zone="110005" location="fromCoal'sClothiersShop" icon="shop" iconX="350" iconY="532"/>
+			</location>
+			<location index="2" zone="202" name="Maple Tree Hill">
+				<content name="Mendy's Tailoring Games" frame="17" zone="100001" location="fromMendy'sTailoringGames" icon="craftingNook" iconX="340" iconY="420"/>
+				<content name="Fawn's Hideout" frame="10" zone="800" location="famousFairyHome" icon="quest" iconX="280" iconY="455"/>
+				<content name="Copper's Tinkering Games" frame="22" zone="100003" location="fromTinkering" icon="craftingNook" iconX="245" iconY="385"/>
+			</location>
+			<location index="3" zone="203" name="Pumpkin Patch">
+				<content name="Harvest Hustle Game" frame="50" zone="50008" location="from50008" icon="game" iconX="230" iconY="550"/>
+				<content name="Silver Trees Adventures" frame="19" zone="" location="fromWilderness" icon="game" iconX="135" iconY="540"/>
+			</location>
+		</region>
+		<region index="2" rm="0.58" gm="0.70" x="700" y="300"> <!-- Winter -->
+			<location index="0" zone="300" name="Evergreen Overlook">
+				<content name="Snowflake Sweep Game" frame="47" zone="50011" location="fromSnowdriftPass" icon="game" iconX="670" iconY="250"/>
+				<content name="Kit's Place" frame="25" zone="805" location="famousFairyHome" icon="quest" iconX="690" iconY="200"/>
+			</location>
+			<location index="1" zone="301" name="Snowcap Glade">
+				<content name="Gale's Outfitters Shop" frame="41" zone="110003" location="fromZone110003" icon="shop" iconX="370" iconY="230"/>
+				<content name="Snowy Lullaby Game" frame="48" zone="50015" location="fromSnowyLullabyGame" icon="game" iconX="410" iconY="270"/>
+				<content name="Pinecone Pop Game" frame="46" zone="50047" location="fromZone50047" icon="game" iconX="320" iconY="260"/>
+			</location>
+			<location index="2" zone="302" name="Chilly Falls">
+				<content name="Ember's Essentials Shop" frame="16" zone="111002" location="fromZone111002" icon="shop" iconX="853" iconY="285"/>
+				<content name="Never Mine Adventures" frame="19" zone="" location="fromWilderness" icon="game" iconX="750" iconY="325"/>
+				<content name="Gem Juggle Game" frame="49" zone="50049" location="fromGemJuggleGame" icon="game" iconX="845" iconY="335"/>
+			</location>
+		</region>
+		<region index="3" rm="0.66" bm="0.50" x="660" y="700"> <!-- Summer -->
+			<location index="0" zone="400" name="Palm Tree Cove">
+				<content name="Schelly's Hair Salon" frame="15" zone="114000" location="fromZone114000" icon="shop" iconX="820" iconY="745"/>
+				<content name="Prism's Pixie Spa" frame="64" zone="117000" location="fromZone117000" icon="shop" iconX="920" iconY="775"/>
+				<content name="Butterfly Painter Game" frame="58" zone="50045" location="fromZone50045" icon="game" iconX="898" iconY="730"/>
+			</location>
+			<location index="1" zone="401" name="Sunflower Gully">
+				<content name="Phoebe's Party Favors" frame="9" zone="113000" location="fromZone113000" icon="shop" iconX="450" iconY="730"/>
+				<content name="Iridessa's Glade" frame="11" zone="801" location="famousFairyHome" icon="quest" iconX="360" iconY="725"/>
+				<content name="Sunbeam Bend Game" frame="56" zone="50048" location="fromZone50048" icon="game" iconX="430" iconY="725"/>
+			</location>
+				
+			<location index="2" zone="402" name="Neverfruit Grove">
+				<content name="First Flight Game" frame="57" zone="50044" location="fromZone50044" icon="game" iconX="670" iconY="695"/>
+				<content name="Pixie Post Office" frame="37" zone="110008" location="fromZone110008" icon="shop" iconX="640" iconY="660"/>
+			</location>
+		</region>
+		<region index="4" rm="0.86" gm="0.41" bm="0.29" x="675" y="475" > <!-- Pixie Tree -->
+			<location index="0" zone="500" name="Havendish Square">
+				<content name="Tearoom Games" frame="62" zone="503" subName="Crazy Cakes, Two For Tea" location="fromTeaRoom" icon="game" iconX="665" iconY="480"/>
+				<content name="Queen's Boutique Shop" frame="39" zone="110009" location="fromZone110009" icon="shop" iconX="595" iconY="490"/>
+				<content name="Pixie Postings" frame="24" zone="1200" location="fromPixiePostings"/>
+				<content name="Fairy Tale Theater" frame="21" zone="501" location="fromFairyTaleTheater"/>
+				<content name="Cassie's Costume Shop" frame="44" zone="110004" location="fromZone110004" icon="shop" iconX="683" iconY="530"/>
+				<content name="The Ballroom" frame="23" zone="502" location="fromBallRoom" dropOutside="true"/>
+			</location>
+			<location index="1" zone="505" name="Fairy Coliseum">
+				<content name="Marina's Place" frame="36" zone="808" location="famousFairyHome" icon="quest" iconX="445" iconY="345"/>
+				<content name="Zephyr's Zoom Room Shop" frame="45" zone="110007" location="fromZone110007" icon="shop" iconX="455" iconY="415"/>
+				<content name="Animal Derby Game" frame="54" zone="505" location="default" icon="game" iconX="474" iconY="376"/>
+			</location>
+		</region>
+	</regions>
+</config>

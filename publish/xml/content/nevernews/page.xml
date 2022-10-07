@@ -1,0 +1,184 @@
+<page>
+	<!--codeSwfs>
+		<swf><![CDATA[directive.swf]]></swf>
+	</codeSwfs-->
+		
+	<!-- currently only one style and it is declared in panel xml >
+	<styles>
+		<css><![CDATA[decorator.css]]></css>
+	</styles-->
+	
+	<imgs>
+		<img id="1"><path><![CDATA[publish/images/blog/gifLarge.gif]]></path></img>
+		<img id="2"><path><![CDATA[publish/images/blog/gifBG.gif]]></path></img>
+	</imgs>
+	
+	<copy>
+		<vineImg><![CDATA[&nbsp;<img id='image0' checkPolicyFile='true' src='http://a.disney.go.com/fairies/pixiehollow/images/misc/vine.png' width='357' height='31' />]]></vineImg>
+		<commentTitle><![CDATA[<span class='titleCentered'>Leave a Comment</span>]]></commentTitle>
+		<commentBody><![CDATA[<span class='body'>We love to hear from our Fairy friends and try to share as many comments as we can. Remember, we get tons of comments and can't post them all - if you don't see yours this time, try again!<br><br>Comments don't show up immediately, so check back soon! If you have questions about commenting, please see our <a href='http://disney.go.com/fairies/pixiehollow/blog/guidelines.html'>guidelines</a>. Thank you!</span>]]></commentBody>
+		<fairyNickname><![CDATA[<span class='body'>Fairy Nickname:</span>]]></fairyNickname>
+		<comment><![CDATA[<span class='body'>Your Comment:</span>]]></comment>
+		<Submit><![CDATA[Submit]]></Submit>
+		<Preview><![CDATA[Preview]]></Preview>
+		<nextComments><![CDATA[Next Comments]]></nextComments>
+		<prevComments><![CDATA[Previous Comments]]></prevComments>
+		<home><![CDATA[<span class='body'>Home</span>]]></home>
+		<nextThread><![CDATA[<span class='body'>Next Thread</span>]]></nextThread>
+		<prevThread><![CDATA[<span class='body'>Previous Thread</span>]]></prevThread>
+		<homeLink><![CDATA[<a href='event:navlink_0'><span class='navSelected'>Home</span></a>]]></homeLink>
+		<navBody><![CDATA[<span class='body'>Read  more articles</span>]]></navBody>
+	</copy>
+	
+	<links>
+		<link id="1"><![CDATA[index.html]]></link>
+	</links>
+	
+	<!-- directives -->
+	<directives>
+		<!-- bg image -->
+		<staticImg><id>bufferBG</id><src>gifBG.gif</src><index>0</index></staticImg>
+		<!-- buffer image -->
+		<staticImg><id>buffer</id><src>gifLarge.gif</src><index>1</index></staticImg>
+	</directives>
+	
+	<!-- TEMPLATES -->
+	<templates>
+		<!-- Blog NAV TEMPLATE -->
+		<nav xmlNodeReference='nav'>
+			<!-- prev entry btn -->
+			<ButtonClassObjectEvent><id>leftArrow</id><drawToBuffer>true</drawToBuffer><def>prevEntry</def><x>0</x><y>5</y><button>true</button><eventTriggerType>click</eventTriggerType><funcName>prevPage</funcName></ButtonClassObjectEvent>
+			<!-- nav range text-->
+			<HTMLTxt><id>entryRange</id><textLink></textLink><css>bodyLeft</css><selectable>false</selectable><textWidth>640</textWidth><textHeight>22</textHeight><style>true</style><x>24</x><y>0</y></HTMLTxt>
+			<!-- next entry btn -->
+			<ButtonClassObjectEvent><id>rightArrow</id><drawToBuffer>true</drawToBuffer><def>nextEntry</def><x>90</x><y>5</y><button>true</button><eventTriggerType>click</eventTriggerType><funcName>nextPage</funcName></ButtonClassObjectEvent>
+			<!-- body text-->
+			<HTMLTxt><htmlText>navBody</htmlText><id>readMore</id><textWidth>640</textWidth><textHeight>5</textHeight><style>true</style><x>0</x><y>25</y></HTMLTxt>
+		</nav>
+		<!-- Blog entries TEMPLATE -->
+		<entry xmlNodeReference='entries'>
+			<!-- entry title text-->
+			<HTMLTxt><css>title</css><id>blogTitle</id><textWidth>680</textWidth><textHeight>50</textHeight><style>true</style><x>40</x><y>0</y></HTMLTxt>
+			<!-- entry posted by text-->
+			<HTMLTxt><css>bodyLeft</css><id>blogBy</id><textWidth>680</textWidth><textHeight>50</textHeight><style>true</style><x>40</x><vspace>17</vspace></HTMLTxt>
+			<!-- entry date text-->
+			<HTMLTxt><css>bodyRight</css><id>blogDate</id><textWidth>680</textWidth><textHeight>50</textHeight><style>true</style><x>40</x><vspace>-20</vspace></HTMLTxt>
+			<!-- entry body text-->
+			<HTMLTxt><css>body</css><id>blogBdy</id><textWidth>680</textWidth><textHeight>50</textHeight><style>true</style><x>40</x><vspace>17</vspace></HTMLTxt>
+			<!-- entry comment link text-->
+			<HTMLTxt><vspace>10</vspace><css>bodyLeft</css><id>commentLink</id><textLink></textLink><textWidth>680</textWidth><textHeight>14</textHeight><style>true</style><x>40</x></HTMLTxt>
+			<!-- seporator img -->
+			<HTMLTxt><vspace>0</vspace><id>vine</id><htmlText>vineImg</htmlText><textWidth>680</textWidth><textHeight>14</textHeight><x>210</x></HTMLTxt>
+		</entry>
+		<!-- comments Template -->
+		<comments xmlNodeReference='comments'>
+			<!-- background img -->
+			<staticImg><drawToBuffer>true</drawToBuffer><id>bg</id><templateStretchPadWidth>15</templateStretchPadWidth><templateStretchPadHeight>15</templateStretchPadHeight><x>30</x><y>-5</y>
+				<templateStretch></templateStretch>
+				<templateStretchColor>0x395988</templateStretchColor>
+				<templateStretchElipseHeight>25</templateStretchElipseHeight>
+				<templateStretchEllipseWidth>25</templateStretchEllipseWidth>
+			</staticImg>
+			<!-- comment postedBy text-->
+			<HTMLTxt><css>bodyLeft</css><id>postedBy</id><textWidth>680</textWidth><textHeight>5</textHeight><style>true</style><x>40</x><y>0</y></HTMLTxt>
+			<!-- comment commentBody text-->
+			<HTMLTxt><vspace>10</vspace><css>body</css><id>commentBody</id><textWidth>680</textWidth><textHeight>5</textHeight><style>true</style><x>40</x><y>0</y></HTMLTxt>
+			<!-- comment postTime text-->
+			<HTMLTxt><vspace>10</vspace><css>body</css><id>postTime</id><textWidth>680</textWidth><textHeight>5</textHeight><style>true</style><x>40</x><y>0</y></HTMLTxt>
+		</comments>
+		<!-- Add Comments Template -->
+		<formAction xmlNodeReference='formAction'>
+			<!-- title text-->
+			<HTMLTxt><id>commentTitle</id><htmlText>commentTitle</htmlText><textWidth>680</textWidth><textHeight>5</textHeight><style>true</style><x>40</x><y>0</y></HTMLTxt>
+			<!-- body text-->
+			<HTMLTxt><vspace>0</vspace><id>commentBody</id><htmlText>commentBody</htmlText><textWidth>560</textWidth><textHeight>5</textHeight><style>true</style><x>100</x><y>0</y></HTMLTxt>
+			<!-- name text-->
+			<HTMLTxt><vspace>20</vspace><id>name</id><htmlText>fairyNickname</htmlText><textWidth>680</textWidth><textHeight>5</textHeight><style>true</style><x>130</x><y>-2</y></HTMLTxt>
+			<!-- comment text-->
+			<HTMLTxt><vspace>5</vspace><id>comment</id><htmlText>comment</htmlText><textWidth>680</textWidth><textHeight>5</textHeight><style>true</style><x>130</x><y>2</y></HTMLTxt>
+			<!-- name inputTxt -->
+			<HTMLInputTxt><wordWrap>false</wordWrap><multiLine>false</multiLine><maxChars>50</maxChars><id>nameInput</id><x>260</x><y>160</y><textHeight>18</textHeight><textWidth>120</textWidth></HTMLInputTxt>
+			<!-- comment inputTxt -->
+			<HTMLInputTxt><maxChars>1000</maxChars><id>commentInput</id><x>260</x><y>190</y><textHeight>85</textHeight><textWidth>350</textWidth></HTMLInputTxt>
+			<!-- submit btn -->
+			<ButtonClassObjectEvent><drawToBuffer>true</drawToBuffer><id>submitbtn</id>
+				<inputTextParam>nameInput|commentInput</inputTextParam>
+				<def>pinkBtn</def><x>430</x><y>310</y><button>true</button><btnTxt>Submit</btnTxt>
+				<eventTriggerType>click</eventTriggerType><funcName>submitComment</funcName>
+			</ButtonClassObjectEvent>
+			<!-- preview btn -->
+			<ButtonClassObjectEvent><drawToBuffer>true</drawToBuffer><id>prevbtn</id>
+				<inputTextParam>nameInput|commentInput</inputTextParam>
+				<def>pinkBtn</def><x>150</x><y>310</y><button>true</button><btnTxt>Preview</btnTxt>
+				<eventTriggerType>click</eventTriggerType><funcName>submitPreviewComment</funcName>
+			</ButtonClassObjectEvent>
+		</formAction>
+		
+		<!-- commentHeaderText Template-->
+		<commentHeaderText xmlNodeReference='commentHeaderText'>
+			<!-- prev entry btn -->
+			<ButtonClassObjectEvent><drawToBuffer>true</drawToBuffer><id>leftArrow</id><def>prevEntry</def><x>40</x><y>40</y><button>true</button><eventTriggerType>click</eventTriggerType><funcName>prevEntry</funcName></ButtonClassObjectEvent>
+			<!-- nav range text-->
+			<HTMLTxt><id>entryRange</id><textLink></textLink><css>bodyLeft</css><selectable>false</selectable><textWidth>640</textWidth><textHeight>22</textHeight><style>true</style><x>66</x><y>35</y></HTMLTxt>
+			<!-- next entry btn -->
+			<ButtonClassObjectEvent><drawToBuffer>true</drawToBuffer><id>rightArrow</id><def>nextEntry</def><x>108</x><y>40</y><button>true</button><eventTriggerType>click</eventTriggerType><funcName>nextEntry</funcName></ButtonClassObjectEvent>
+			<!-- body text-->
+			<HTMLTxt><css>body</css><id>body</id><textWidth>680</textWidth><textHeight>5</textHeight><style>true</style><x>40</x><y>0</y></HTMLTxt>
+		</commentHeaderText>
+		<!-- Disabled Comments Template-->
+		<disabledCommentsText xmlNodeReference='disabledCommentsText'>
+			<!-- title text-->
+			<HTMLTxt><id>commentTitle</id><htmlText>commentTitle</htmlText><textWidth>680</textWidth><textHeight>5</textHeight><style>true</style><x>40</x><y>0</y></HTMLTxt>
+			<!-- body text-->
+			<HTMLTxt><vspace>0</vspace><id>commentBody</id><htmlText>commentBody</htmlText><textWidth>560</textWidth><textHeight>5</textHeight><style>true</style><x>100</x><y>0</y></HTMLTxt>
+			<!-- body text-->
+			<HTMLTxt><vspace>15</vspace><css>body</css><id>body</id><textWidth>680</textWidth><textHeight>5</textHeight><style>true</style><x>40</x><y>0</y></HTMLTxt>
+		</disabledCommentsText>
+		<!-- Error Template-->
+		<error xmlNodeReference='error'>
+			<!-- body text-->
+			<HTMLTxt><css>body</css><id>body</id><textWidth>680</textWidth><textHeight>5</textHeight><style>true</style><x>40</x><y>0</y></HTMLTxt>
+		</error>
+		<!-- status Template-->
+		<status xmlNodeReference='status'>
+			<!-- body text-->
+			<HTMLTxt><css>body</css><id>body</id><textWidth>680</textWidth><textHeight>5</textHeight><style>true</style><x>40</x><y>0</y></HTMLTxt>
+		</status>
+		<!-- previewHeaderText Template-->
+		<previewHeaderText xmlNodeReference='previewHeaderText'>
+			<!-- body text-->
+			<HTMLTxt><css>body</css><id>body</id><textWidth>680</textWidth><textHeight>5</textHeight><style>true</style><x>40</x><y>0</y></HTMLTxt>
+		</previewHeaderText>
+	</templates>
+	
+	<!-- TEMPLATE LAYOUT -->
+	<templateLayout>
+		<entry>
+			<x>0</x><y>50</y><columns>1</columns><hieghtSpacer>10</hieghtSpacer><widthSpacer>0</widthSpacer>
+		</entry>
+		<previewHeaderText>
+			<x>0</x><y>20</y><columns>1</columns><hieghtSpacer>10</hieghtSpacer><widthSpacer>0</widthSpacer>
+		</previewHeaderText>
+		<error>
+			<x>0</x><y>50</y><columns>1</columns><hieghtSpacer>10</hieghtSpacer><widthSpacer>0</widthSpacer>
+		</error>
+		<status>
+			<x>0</x><y>50</y><columns>1</columns><hieghtSpacer>10</hieghtSpacer><widthSpacer>0</widthSpacer>
+		</status>
+		<commentHeaderText>
+			<x>0</x><y>20</y><columns>1</columns><hieghtSpacer>10</hieghtSpacer><widthSpacer>0</widthSpacer>
+		</commentHeaderText>
+		<comments>
+			<x>0</x><y>20</y><columns>1</columns><hieghtSpacer>10</hieghtSpacer><widthSpacer>0</widthSpacer>
+		</comments>
+		<formAction>
+			<x>0</x><y>30</y><columns>1</columns><hieghtSpacer>10</hieghtSpacer><widthSpacer>0</widthSpacer>
+		</formAction>
+		<disabledCommentsText>
+			<x>0</x><y>20</y><columns>1</columns><hieghtSpacer>10</hieghtSpacer><widthSpacer>0</widthSpacer>
+		</disabledCommentsText>
+		<nav>
+			<x>40</x><y>20</y><columns>1</columns><hieghtSpacer>10</hieghtSpacer><widthSpacer>0</widthSpacer>
+		</nav>
+	</templateLayout>
+</page>

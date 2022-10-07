@@ -1,0 +1,52 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/craftModeChooser.swf</swf>
+		<swf type="code">{panelCode}/CraftModeChooser.swf</swf>
+	</swfs>
+	<copy>
+		<backButtonLabel target = "backButtonContainer.backButton.label">Exit</backButtonLabel>
+
+		<communityTitleTailoring>Practice Tailoring</communityTitleTailoring>
+		<personalTitleTailoring>Personal Tailoring</personalTitleTailoring>
+		<communityDescriptionTailoring></communityDescriptionTailoring>
+		<personalDescriptionTailoring></personalDescriptionTailoring>
+		
+		<communityTitleBaking>Practice Baking</communityTitleBaking>
+		<personalTitleBaking>Personal Baking</personalTitleBaking>
+		<communityDescriptionBaking></communityDescriptionBaking>
+		<personalDescriptionBaking></personalDescriptionBaking>
+		
+		<communityTitleTinkering>Practice Tinkering</communityTitleTinkering>
+		<personalTitleTinkering>Personal Tinkering</personalTitleTinkering>
+		<communityDescriptionTinkering></communityDescriptionTinkering>
+		<personalDescriptionTinkering></personalDescriptionTinkering>
+	</copy>
+	<config>
+		<zoneStrings>
+			<communityTitle>
+				<zone id="100000">communityTitleTailoring</zone>
+				<zone id="100001">communityTitleTailoring</zone>
+				<zone id="100002">communityTitleBaking</zone>
+				<zone id="100003">communityTitleTinkering</zone>
+			</communityTitle>
+			<personalTitle>
+				<zone id="100000">personalTitleTailoring</zone>
+				<zone id="100001">personalTitleTailoring</zone>
+				<zone id="100002">personalTitleBaking</zone>
+				<zone id="100003">personalTitleTinkering</zone>
+			</personalTitle>
+			<communityDescription>
+				<zone id="100000">communityDescriptionTailoring</zone>
+				<zone id="100001">communityDescriptionTailoring</zone>
+				<zone id="100002">communityDescriptionBaking</zone>
+				<zone id="100003">communityDescriptionTinkering</zone>
+			</communityDescription>
+			<personalDescription>
+				<zone id="100000">personalDescriptionTailoring</zone>
+				<zone id="100001">personalDescriptionTailoring</zone>
+				<zone id="100002">personalDescriptionBaking</zone>
+				<zone id="100003">personalDescriptionTinkering</zone>
+			</personalDescription>
+		</zoneStrings>
+	</config>
+</panel>

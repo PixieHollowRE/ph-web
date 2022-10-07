@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/mgCrazyEights.swf</swf>
+		<swf type="code">{panelCode}/mgCrazyEights.swf</swf>
+	</swfs>
+	<copy>
+	
+		<title>Crazy Eight's</title>
+	
+		<!-- UI: INSTRUCTIONS -->
+		<inst_screen_title target="instructions.title.heading">Instructions</inst_screen_title>
+		
+		<instruction0 target="instructions.btnContainer.page0.label">Pass the popcorn between you and your friends by clicking on their picture.</instruction0>
+		<instruction1 target="instructions.btnContainer.page1.label">Poppy will show a color or a shape - or both! Pass to the Fairy with the right kind of flower!</instruction1>
+		<instruction2 target="instructions.btnContainer.page2.label">Make a long passing chain and score more points for everyone!</instruction2>
+		<instruction3 target="instructions.btnContainer.page3.label">You also get points when the popcorn pops - as long as it doesn't pop on you!</instruction3>		
+		
+		<!-- END GAME -->
+		<winner>WINNER!</winner>	
+		<gameoverHeader>Game Over</gameoverHeader>
+		<gameoverBodyBelowMinimum>Sorry! A player has left the game. There are not enough players to continue the game.</gameoverBodyBelowMinimum>
+		<gameoverBodyCardMax>No more cards to play.</gameoverBodyCardMax>
+		<!-- <instruction4 target="instructions.btnContainer.page4.label">Click on yourself to wave and get other players' attention!</instruction4> -->		
+		
+		<!-- WANT TO LEAVE ALERT -->
+		<wantToLeaveHeader>Just Checking</wantToLeaveHeader>	
+		<wantToLeaveCopy>Are you sure you would like to leave this game? You will lose your current progress.</wantToLeaveCopy>
+		<yes>Yes</yes>
+		<no>No</no>
+		<leftGame>Left Game</leftGame>
+		
+		<changeColorNoticeHeader>Change Color!</changeColorNoticeHeader>	
+		<changeColorNoticeCopy>The color has been changed to #COLOR#.</changeColorNoticeCopy>
+			
+		<!-- cheat sheet -->
+		<cheatCardLabel1>Pixie&#xA;Power</cheatCardLabel1>	
+		<cheatCardLabel2>Change Color</cheatCardLabel2>
+		<cheatCardLabel3>Skip Next Player</cheatCardLabel3>
+		<cheatCardLabel4>Reverse</cheatCardLabel4>
+		<cheatCardLabel5>Next Player Draws 2</cheatCardLabel5>
+		<cheatSheetToolTip>Card Info</cheatSheetToolTip>
+		
+		<powerSpinnerChoice1>Extra Turn</powerSpinnerChoice1>	
+		<powerSpinnerChoice2>Reverse</powerSpinnerChoice2>
+		<powerSpinnerChoice3>Change Color</powerSpinnerChoice3>
+		<powerSpinnerChoice4>All Players Draw 1 Card</powerSpinnerChoice4>
+		<spinStopBtn>Click To Stop</spinStopBtn>
+		
+		<lastCard>Last Card</lastCard>
+		
+		<!-- tool tips -->
+		<cardToolTip>#SUIT# #VALUE#</cardToolTip>
+
+		<pixiePower>Pixie Power!</pixiePower>
+		<changeSuit>Change Color</changeSuit>
+		
+		<!-- power card copy -->
+		<header>Pixie Power!</header>
+		<extraCard>All players get an extra card!</extraCard>	
+		<extraTurnLocal>You get an extra turn!</extraTurnLocal>
+		<extraTurnPlayers>#PLAYER# gets an extra turn!</extraTurnPlayers>
+		<passCard>#PLAYER# has reversed the direction!</passCard>
+		<newSuitLocal>You picked a new color!</newSuitLocal>
+		<newSuitPlayer>#PLAYER# picked a new color!</newSuitPlayer>
+		
+		<changeSuitHeader>Change Color!</changeSuitHeader>
+		<changeSuitBodyCopy>Please choose a color.</changeSuitBodyCopy>
+		
+		<notLocalPlayersTurnLn1>#PLAYER#'s turn!</notLocalPlayersTurnLn1>
+		<notLocalPlayersTurnLn2>turn!</notLocalPlayersTurnLn2>
+		<localPlayersTurn>Your turn!</localPlayersTurn>
+		<hasActiveCards>Play a card.</hasActiveCards>
+		<noActiveCards>Draw a card.</noActiveCards>
+		
+		
+		<lastPlayType0>Passed</lastPlayType0> <!-- player passed -->
+		<lastPlayType1>Discarded a #CARDNUM# of #CARDSUIT#</lastPlayType1> <!-- discarded -->
+		<lastPlayType2>Drew a new card.</lastPlayType2>	
+			
+		<lastPlayConjunction>of</lastPlayConjunction>
+		
+		<suit101>Orange</suit101>
+		<suit102>Blue</suit102>
+		<suit103>Purple</suit103>
+		<suit104>Yellow</suit104>
+		<suit8>power card</suit8>
+		<suit4>change color</suit4>
+		
+		
+		
+		<action11>Draw Two</action11>
+		<action12>Reverse</action12>
+		<action13>Skip Turn</action13>
+		<action14>Any</action14>
+		<action23>Reverse</action23><!-- for power spinner -->
+		
+		<value21>all draw one</value21>
+		<value22>went again</value22>
+		<value23>all pass one</value23>
+		<value24>change color</value24>
+
+	</copy>
+	<config>
+		<meadowGameId>MGCrazyEight</meadowGameId>
+		<!-- Duration in seconds of a Fairy comment -->
+		<commentDuration>5</commentDuration>
+		<!-- Duration in seconds of a single comment for countdown sequences -->
+		<countdownDuration>1.5</countdownDuration>
+		<!-- Duration in seconds player can hold popcorn before automatic pop -->
+		<holdTime>5</holdTime>
+		
+		<changeSuitTime>15</changeSuitTime>
+		<popupTime>3</popupTime>
+
+		<powerSpinnerHoldDelay>3</powerSpinnerHoldDelay>
+		<powerSpinnerShowDelay>3</powerSpinnerShowDelay>
+		<!-- Game variables -->
+		<playerMin>2</playerMin>
+
+		
+		<animations>
+			<!-- DEAL ANIMATIONS -->
+			<animation playerId="2" action="DEAL">Deal_two</animation>
+			<animation playerId="3" action="DEAL">Deal_three</animation>
+			<animation playerId="4" action="DEAL">Deal_four</animation>
+			
+			<!-- DISCARD ANIMATIONS -->
+			<animation playerId="TOP" action="DISCARD">Discard_Top_Player</animation>
+			<animation playerId="BOTTOM" action="DISCARD">Discard_Bottom_Player</animation>
+			<animation playerId="RIGHT" action="DISCARD">Discard_Right_Player</animation>
+			<animation playerId="LEFT" action="DISCARD">Discard_Left_Player</animation>
+			
+			<animation playerId="TOP" action="DRAW">Draw_Top_Player</animation>
+			<animation playerId="BOTTOM" action="DRAW">Draw_Bottom_Player</animation>
+			<animation playerId="RIGHT" action="DRAW ">Draw_Right_Player</animation>
+			<animation playerId="LEFT" action="DRAW">Draw_Left_player</animation>
+			
+		</animations>
+		 
+	</config>
+</panel>

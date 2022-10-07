@@ -1,0 +1,65 @@
+<level>
+	<light x = "95" y = "253">red</light>
+	<light x = "783" y = "253">yellow</light>
+	<firefly image="firefly">
+		<path>	
+			<point x="241" y="253" />
+			<point x="439" y="253" />
+			<point x="340" y="154" />
+		</path>
+	</firefly>
+	<firefly image="firefly">
+		<path>	
+			<point x="333" y="129" />
+			<point x="462" y="279" />
+			<point x="472" y="139" />
+		</path>
+	</firefly>
+	<firefly image="firefly">
+		<path>	
+			<point x="484" y="129" />
+			<point x="418" y="315" />
+			<point x="544" y="255" />			
+		</path>
+	</firefly>		
+	<firefly image="firefly">
+		<path>	
+			<point x="531" y="216" />
+			<point x="347" y="290" />
+			<point x="477" y="345" />
+		</path>
+	</firefly>	
+	<firefly image="firefly">
+		<path>	
+			<point x="499" y="279" />
+			<point x="316" y="204" />
+			<point x="370" y="333" />
+		</path>
+	</firefly>
+	<firefly image="firefly">
+		<path>	
+			<point x="451" y="285" />
+			<point x="384" y="99" />
+			<point x="325" y="225" />
+			
+		</path>
+	</firefly>	
+	<firefly image="firefly">
+		<path>	
+			<point x="439" y="253" />
+			<point x="568" y="103" />
+			<point x="429" y="114" />
+			
+		</path>
+	</firefly>
+	<firefly image="blindmoth">
+		<path source = "random">
+			<startPoint x="439" y="253" />
+			<topLeft x="418" y="241" />
+			<bottomRight x="460" y="265"/>
+		</path>
+		<speed>2</speed>
+		<type>blindmoth</type>
+	</firefly>	
+
+</level>

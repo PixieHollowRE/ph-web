@@ -1,0 +1,133 @@
+<page>
+	<config>
+		<tagline>
+			<tagline align="center" font="pristina" title="true" titlex="150" titley="0" yOffset="20">header</tagline>
+		</tagline>
+		
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body-1</header>
+			<knownissue>body-2</knownissue>
+		</gamepolicies>
+		
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">tagline</header>
+			
+			<knownissue>body1</knownissue>
+			<knownissue>body2</knownissue>
+		</gamepolicies>
+		
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body16</header>
+		</gamepolicies>
+		<speedchatinfopanel type="panel" panel="speedchatinfo" x="30" />
+		
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body3</header>
+			<knownissue>body4</knownissue>
+		</gamepolicies>
+		
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body5</header>
+			<knownissue>body6</knownissue>
+			
+		</gamepolicies>
+
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body7</header>
+			<knownissue>body8</knownissue>
+			<knownissue>body9</knownissue>
+			<knownissue>body10</knownissue>
+			<knownissue>body11</knownissue>
+			<knownissue>body12</knownissue>
+			<knownissue>body13</knownissue>
+		</gamepolicies>
+		
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body32</header>
+			<knownissue>body33</knownissue>
+			<knownissue>body34</knownissue>
+			<knownissue>body35</knownissue>
+			
+		</gamepolicies>
+
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body23</header>
+			<knownissue>body24</knownissue>
+			<knownissue>body25</knownissue>
+			<knownissue>body26</knownissue>
+		</gamepolicies>
+		
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body27</header>
+			<knownissue>body28</knownissue>
+			<knownissue>body29</knownissue>
+			<knownissue>body30</knownissue>
+			<knownissue>body31</knownissue>
+			
+		</gamepolicies>
+
+		<!--  -->
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">Parental Controls</span>]]></header>
+		
+		<body-1><![CDATA[<span class="newsbodytext">Where are Parental Controls?</span>]]></body-1>
+		<body-2><![CDATA[<span class="newsbodytext">Parents can control child accounts using the Account Manager.</span>]]></body-2>
+		
+		<tagline><![CDATA[<span class="newsbodytext">What abilities do Parental Controls give parents?</span>]]></tagline>
+		
+		<body1><![CDATA[<span class="newsbodytext">Parental Controls let you control a variety of community settings for your child's Fairy, including:<br><br></span>]]></body1>
+		<body2><![CDATA[<span class="newsbodytext">
+			<li>What chat levels and permissions they may request*</li>
+			<li>What content they can upload</li>
+			<li>What they can post to message boards (within the entire Disney.com community)</li>
+			<br>*Please note that some chat settings require e-mail validation in order to activate. You can read more details in our FAQs below.</span>]]></body2>
+		<body16><![CDATA[<span class="newsbodytext">What are the different chat options available in the Pixie Hollow game?</span>]]></body16>
+		<body3><![CDATA[<span class="newsbodytext">How does an adult access Parental Controls?</span>]]></body3>
+		<body4><![CDATA[<span class="newsbodytext">To access Parental Controls for your child's Pixie Hollow account, you must become a Parental Authority.</span>]]></body4>
+		<body5><![CDATA[<span class="newsbodytext">How do I become a Parental Authority?</span>]]></body5>
+		<body6><![CDATA[<span class="newsbodytext">Visit the <a href="http://disney.go.com/fairies/pixiehollow/accountmanagement.html "><u>Account Manager</u></a> page, where you will be asked to either log in to your existing account or <a href="http://disney.go.com/fairies/pixiehollow/registration/" target="_new"><u>create a new account</u></a>.
+		<br><br>Once you are logged in, click on the Link an Existing Account button to link your child's account to your account.</span>]]></body6>
+		
+		<body7><![CDATA[<span class="newsbodytext">How do I change my child's Chat Settings?</span>]]></body7>
+		<body8><![CDATA[<span class="newsbodytext">To update the Chat Settings for your child's account, please visit the Membership tab and select Account Manager. Log in using your Parent Account ID and its associated password.  If you are a paid Member, this will be the Parent Account that was used to complete the initial Membership purchase. If you have forgotten your Parent Account ID, please click <a href="https://register.go.com/global/fairies/recoverMemberNames?affiliateName=Disney_Fairies">here</a>.  If you do not have a parent account, you can click <a href="http://disney.go.com/fairies/pixiehollow/accountmanagement.html ">here</a> to create one.<br><br></span>]]></body8>
+		<body9><![CDATA[<span class="newsbodytext"><ul><li>Once you have created your Parent Account and have logged in, please link your child's account by clicking on "Link an Account" found in the top right of the Account Manager. To complete this, you will need to enter your child's account ID and password.</li><br><br></span>]]></body9>
+		<body10><![CDATA[<span class="newsbodytext">From within the Account Manager, choose your child's account from the drop-down menu beside "Viewing Account," click on the far right tab called "Community Settings," and simply check or uncheck the desired Chat Setting.<br><br></span>]]></body10>
+		<body11><![CDATA[<span class="newsbodytext"><li>Please note that in order to type words and phrases, you must request SpeedChat Plus.  You may get a pop-up message saying "Account Not Validated" and that you need to send an e-mail to validate your account.  Click on "Send E-mail" and log out of the Account Manager.</li><br><br></span>]]></body11>
+		<body12><![CDATA[<span class="newsbodytext"><li>Check your e-mail and open the message entitled "Request for SpeedChat Plus Access."  Click on the button called "Click Here to Activate."  You will be brought to a page that says, "Congratulations, you're ready to Chat!"</li><br><br></span>]]></body12>
+		<body13><![CDATA[<span class="newsbodytext"><li>You may wish to log back into the Account Manager and confirm that the desired Chat Setting has been updated.</li></ul></span>]]></body13>
+		
+		<body32><![CDATA[<span class="newsbodytext">How do I update my e-mail address? </span>]]></body32>
+		<body33><![CDATA[<span class="newsbodytext">To update the e-mail address associated with your account, please select the Membership tab and choose the Account Manager button. Sign in using your Parent Account ID and its associated password.  If you are a paid Member, this will be the Parent Account that was used to complete the Membership initial purchase. If you have forgotten your Parent Account ID, please click <a href="https://register.go.com/global/fairies/recoverMemberNames?affiliateName=Disney_Fairies">here</a>.  If you do not have a parent account, you can click <a href="http://disney.go.com/fairies/pixiehollow/accountmanagement.html ">here</a> to create one.<br><br></span>]]></body33>
+		<body34><![CDATA[<span class="newsbodytext"><ul><li>Once you have created your Parent Account and have logged in, please link your child's account by clicking on "Link an Account" found in the top right of the Account Manager. To complete this, you will need to enter your child's account ID and password.</li><br><br></span>]]></body34>
+		<body35><![CDATA[<span class="newsbodytext">To the right of "Viewing Account," you will see your Parent Account ID. Under the tab "Account Details," you will have the option to type in a new e-mail address. Be sure to click "Save Changes" before logging out, to ensure that your new e-mail address has been updated.<br><br></span>]]></body35>
+	
+		
+		
+		<body14>What are the different chat options available in the Pixie Hollow game?</body14>
+		<body15>{publishContentData}/ugc/submit/thankyou.xml</body15>
+
+		<body23><![CDATA[<span class="newsbodytext">Do Parental Controls only govern children?</span>]]></body23>
+		<body24><![CDATA[<span class="newsbodytext">Parents of players age 12 and under are required to create a Parent Account which can then be linked to the child's account through the Account Manager. This Parent Account provides controls for a variety of Community Settings of the child's account (within the entire Disney.com community), including:<br><br></span>]]></body24>
+		<body25><![CDATA[<span class="newsbodytext"><ul>
+		<li>Chat settings and permissions*
+		<li>The kind of content they can upload
+		<li>What they can post to message boards 
+		<li>Pixie Hollow Membership subscription information
+		</ul><br><br></span>]]></body25>
+		<body26><![CDATA[<span class="newsbodytext">Parent Accounts can also monitor any teen account (between 13 -17) by linking to the teen's account through the Account Manager. The Parent Account must log in and select the linked teen account to monitor their chat settings.<br><br>
+		At age 18, accounts are given access to manage their own Community Settings.<br><br>
+		*Please note that some chat settings require e-mail validation and/or a paid subscription to activate.<br><br>
+		</span>]]></body26>
+		
+		<body27><![CDATA[<span class="newsbodytext">The <I>Pixie Hollow</I> Code of Conduct</span>]]></body27>
+		<body28><![CDATA[<span class="newsbodytext">1. Always be kind and respect other Fairies. The Never Council does not tolerate any swearing, cheating, bullying, or any kind of mean or inappropriate behavior. Any Fairy who does not follow these rules while playing will be dealt with appropriately.</span>]]></body28>
+		<body29><![CDATA[<span class="newsbodytext"><br>2. Never reveal any of your real world personal information. The best way to make sure you stay safe online is to NEVER share your real name, phone number, home address, e-mail, social networking site information, or pictures of yourself with ANYONE.  Also never exchange account information such as your member name or password with anyone under any circumstances.</span>]]></body29>
+		<body30><![CDATA[<span class="newsbodytext"><br>3. Chat nicely with other Fairies. The Never Council will not permit talk about drugs, sex, race, or topics that may disturb other Fairies. Any Fairy who does not respect the peace of Pixie Hollow will be asked to leave the game.</span>]]></body30>
+		<body31><![CDATA[<span class="newsbodytext"><br>4. No cheating. Any use of third party programs is not allowed. Fairies who use any third party programs while playing risk being permanently banned from the game.</span>]]></body31>
+
+	</copy>
+	
+	
+	
+</page>

@@ -1,0 +1,39 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/videogames.swf</swf>
+		<swf type="code">{publishPanelCode}/videogames.swf</swf>
+	</swfs>
+	<copy>
+		<ok><![CDATA[OK]]></ok>
+		<noSelection><![CDATA[Please make a selection before clicking on Submit.]]></noSelection>
+		<speedChatPlus><![CDATA[In order to confirm your chat preference, a verification has been sent to the e-mail address on record. Please follow the steps in the e-mail to complete your registration.]]></speedChatPlus>
+		<generalError><![CDATA[There was an error processing your request. Please try again later.]]></generalError>
+	</copy>
+	<config>
+		<clickRoot><![CDATA[{publishContentData}/videogames]]></clickRoot>
+		<trackingid>videogames</trackingid>
+		<images>
+			<img>publish/images/GFR_screenshot3.png</img>
+			<img>publish/images/GFR_screenshot2.png</img>
+			<img>publish/images/GFR_screenshot1.png</img>
+			<img>publish/images/GFR_screenshot4.png</img>
+		</images>
+		<copies>
+			<copy>Customize your Fairy avatar - Select from five Fairy talents and customize your Fairy's facial features, hair style, outfits and accessories</copy>
+			<copy>Team up with your Fairy friends - Tinker Bell, Silvermist, Iridessa, Rosetta, Fawn and Vidia - in six action-adventures</copy>
+			<copy>Connect to all the fun in PixieHollow.com - Download your Fairies from PixieHollow.com to the English Countryside on the Nintendo DS. Send postcards from Fairy Camp to friends in PixieHollow.com. Upload ingredients from the English Countryside to PixieHollow.com</copy>
+			<copy>Create new Fairy outfits - Select from over 260 clothing items and accessories</copy>
+			<copy>Compete in 30 mini-games - Explore the mainland in various quests, time-based minigames, puzzles and crafts</copy>
+		</copies>
+		<tradeMarks x="85" y="490">Nintendo DS and Nintendo WiFi Connection are trademarks of Nintendo. © 2009 Nintendo.</tradeMarks>
+		
+		<button btntype="btn_blue" type="button" xOffset="250" yOffset="10" event="onContestEntry"><![CDATA[<span class="newsbodytext">Online Entry</span>]]></button>
+		
+		
+		
+		<!--
+		<message x="170" y ="600"><![CDATA[<font color="#FFEF4B" size="12">*Connectivity features are only available for Guests in the USA.</font>]]></message>
+		-->
+	</config>
+</panel>
+ 

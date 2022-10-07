@@ -1,0 +1,59 @@
+<zone>
+  <name>Troop Rabbit Hideout</name>
+  <zoneID>204</zoneID>
+  <assetURL/>
+  <audioLibrary>icePalace</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="ground" width="994" height="650">
+        <image x="0" y="0" type="merge">TH_Rabbit_action_03.swf</image>
+      </layer>
+      <layer type="normal" width="1100" height="660">
+        <image x="0" y="0" type="none">TH_foreground_02.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="400" y="500">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>icePalaceBG</id>
+      <loops>0</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  <hotspots>
+    <hotspot id="27603" x="572" y="395" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="1">
+      <keyframes>
+        <keyframe number="1" frequency="1" win="false"/>
+        <keyframe number="116" frequency="1" win="false"/>
+        <keyframe number="282" frequency="1" win="false"/>
+        <keyframe number="421" frequency="1" win="false"/>
+        <keyframe number="586" frequency="1" win="false"/>
+      </keyframes>
+    </hotspot>
+    <hotspot id="27690" x="0" y="0" setVelvetRope="0" shared="true" refresh="120" playType="full" itemEventId="0" tagId="4"/>
+    <hotspot tags="Meadow_Sister2012" id="27739" x="1210" y="927" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="8"/>
+    <hotspot tags="Meadow_WinterWonderland_2011" id="27682" x="562" y="582" setVelvetRope="1" shared="true" serverParm="8021" clientTrigger="6" clientParm="4" refresh="2" threshold="30" playType="keyframe" itemEventId="18023" snapTargetPos="610,540,0" tagId="3">
+      <keyframes>
+        <keyframe number="209" frequency="1" win="true"/>
+      </keyframes>
+    </hotspot>
+    <hotspot tags="Signpost_WWL2011" id="27662" x="787" y="733" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="2"/>
+  </hotspots>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

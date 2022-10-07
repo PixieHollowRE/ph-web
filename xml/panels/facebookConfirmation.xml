@@ -1,0 +1,16 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/facebookConfirmation.swf</swf>
+		<swf type="code">{panelCode}/facebookConfirmation.swf</swf>
+	</swfs>
+	<copy>
+		<wallTitle>Post to your Facebook wall?</wallTitle>
+		<photoTitle>Post Photo &amp; Message to Facebook?</photoTitle>
+		<photoDestination>All Pixie Hollow photo uploads are kept in the Disney Fairies Pixie Hollow photo album.</photoDestination>
+		<captionPreviewPrefix>&lt;font color='#FFFF00'&gt;Message: &lt;/font&gt;</captionPreviewPrefix>
+		<cancelBtn>Cancel</cancelBtn>
+		<confirmBtn>Post</confirmBtn>
+	</copy>
+	<config>
+	</config>
+</panel>

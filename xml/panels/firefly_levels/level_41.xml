@@ -1,0 +1,206 @@
+﻿<level>
+
+<!-- This level has really scary moths, but the fireflies
+	are really close to the lights, so the player can 
+	pickup a light and drop it again quickly to
+	light each firefly-->
+
+	<light x = "219" y = "250">purple</light>
+	<light x = "659" y = "250">purple</light>
+	<light x = "319" y = "130">yellow</light>
+	<light x = "559" y = "130">yellow</light>
+	<light x = "319" y = "370">yellow</light>
+	<light x = "559" y = "370">yellow</light>
+
+
+	<!-- moth #2 of 9 (top left) -->
+	<firefly image="moth">
+		<path source = "random">
+			<startPoint x="559" y="253" />						
+			<topLeft x="439" y="130" />
+			<bottomRight x="659" y="370"/>
+			<headingToPointSpeed value="0.4" />
+			<waitingSpeed value="0.4" />
+		</path>
+		<speed>8</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>30</attract>
+		<type>moth</type>
+	</firefly>
+	
+	<!-- moth #2 of 9 (top left) -->
+	<firefly image="moth">
+		<path source = "random">
+			<startPoint x="319" y="253" />						
+			<topLeft x="219" y="130" />
+			<bottomRight x="439" y="370"/>
+			<headingToPointSpeed value="0.4" />
+			<waitingSpeed value="0.4" />
+		</path>
+		<speed>8</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>30</attract>
+		<type>moth</type>
+	</firefly>
+
+		<!-- moth #2 of 9 (top left) -->
+	<firefly image="moth">
+		<path source = "random">
+			<startPoint x="682" y="153" />						
+			<topLeft x="539" y="53" />
+			<bottomRight x="805" y="253"/>
+			<headingToPointSpeed value="0.4" />
+			<waitingSpeed value="0.4" />
+		</path>
+		<speed>8</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>30</attract>
+		<type>moth</type>
+	</firefly>
+	
+	<!-- moth #2 of 9 (top left) -->
+	<firefly image="moth">
+		<path source = "random">
+			<startPoint x="682" y="353" />						
+			<topLeft x="539" y="253" />
+			<bottomRight x="805" y="453"/>
+			<headingToPointSpeed value="0.4" />
+			<waitingSpeed value="0.4" />
+		</path>
+		<speed>8</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>30</attract>
+		<type>moth</type>
+	</firefly>
+	
+		<!-- moth #2 of 9 (top left) -->
+	<firefly image="moth">
+		<path source = "random">
+			<startPoint x="196" y="153" />						
+			<topLeft x="73" y="53" />
+			<bottomRight x="319" y="253"/>
+			<headingToPointSpeed value="0.4" />
+			<waitingSpeed value="0.4" />
+		</path>
+		<speed>8</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>30</attract>
+		<type>moth</type>
+	</firefly>
+	
+	<!-- moth #2 of 9 (top left) -->
+	<firefly image="moth">
+		<path source = "random">
+			<startPoint x="196" y="353" />						
+			<topLeft x="73" y="253" />
+			<bottomRight x="319" y="453"/>
+			<headingToPointSpeed value="0.4" />
+			<waitingSpeed value="0.4" />
+		</path>
+		<speed>8</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>30</attract>
+		<type>moth</type>
+	</firefly>
+	
+	
+<!-- moth #2 of 9 (top left) -->
+	<firefly image="firefly">
+		<path smooth = "30">
+			<point x="319" y="70" />
+			<point x="276" y="87" />
+			<point x="259" y="130" />
+			<point x="276" y="173" />
+			<point x="319" y="190" />
+			<point x="362" y="173" />
+			<point x="379" y="130" />
+			<point x="362" y="87" />		
+		</path>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+	</firefly>
+
+<!-- moth #4 of 9 (top right) -->
+	<firefly image="firefly">
+		<path smooth = "30">
+			<point x="559" y="70" />
+			<point x="516" y="87" />
+			<point x="499" y="130" />
+			<point x="516" y="173" />
+			<point x="559" y="190" />
+			<point x="602" y="173" />
+			<point x="619" y="130" />
+			<point x="602" y="87" />		
+		</path>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+	</firefly>
+
+<!-- moth #5 of 9 (middle left) -->
+	<firefly image="firefly">
+		<path smooth = "30">
+			<point x="219" y="310" />
+			<point x="262" y="293" />
+			<point x="279" y="250" />
+			<point x="262" y="207" />
+			<point x="219" y="190" />
+			<point x="176" y="207" />
+			<point x="159" y="250" />
+			<point x="176" y="293" />		
+		</path>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+	</firefly>
+
+<!-- moth #6 of 9 (middle right) -->
+	<firefly image="firefly">
+		<path smooth = "30">
+			<point x="659" y="310" />
+			<point x="702" y="293" />
+			<point x="719" y="250" />
+			<point x="702" y="207" />
+			<point x="659" y="190" />
+			<point x="616" y="207" />
+			<point x="599" y="250" />
+			<point x="616" y="293" />		
+		</path>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+	</firefly>
+
+<!-- moth #7 of 9 (bottom left) -->
+	<firefly image="firefly">
+		<path smooth = "30">
+			<point x="319" y="310" />
+			<point x="276" y="327" />
+			<point x="259" y="370" />
+			<point x="276" y="413" />
+			<point x="319" y="430" />
+			<point x="362" y="413" />
+			<point x="379" y="370" />
+			<point x="362" y="327" />	
+		</path>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+	</firefly>
+
+
+<!-- moth #9 of 9 (bottom right) -->
+	<firefly image="firefly">
+		<path smooth = "30">
+			<point x="559" y="310" />
+			<point x="516" y="327" />
+			<point x="499" y="370" />
+			<point x="516" y="413" />
+			<point x="559" y="430" />
+			<point x="602" y="413" />
+			<point x="619" y="370" />
+			<point x="602" y="327" />
+		</path>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+	</firefly>
+
+
+
+</level>

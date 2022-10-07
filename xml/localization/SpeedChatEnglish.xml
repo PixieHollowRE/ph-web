@@ -1,0 +1,1538 @@
+<!-- READ ME: 	Speedchat categories are now grouped into blocks of ID ranges. 
+				Use next available ID in the range or add a new block starting
+				with the "Next Available Block ID", if needed. -->
+
+<!-- LAST COMMENTER: 				Lauren Careccia on November 12, 2012 -->
+<!-- Next Available Block ID:		7500  --> 
+
+<SpeedChat>
+	<category name="Hi and Bye"> <!-- Uses IDs 0 to 499 -->
+		<category name="Hello"> <!-- 0 to 49 --->
+			<message id="0" tags="Tutorial">Hello!</message>
+			<message id="1" tags="">Hello?</message>
+			<message id="2" tags="">Hi!</message>      
+			<message id="3" tags="">Hi there!</message>
+			<message id="4" tags="Tutorial">Hi everybody!</message>
+			<message id="5" tags="Tutorial">I look forward to flying with you.</message>
+			<message id="6" tags="">How are you?</message>
+			<message id="7" tags="">What's up?</message>
+			
+			<!-- Hidden emotes speed chats --> <!-- 50 to 99 -->
+			<message id="50" tags="do_no_display">:]</message>
+			<message id="51" tags="do_no_display">:)</message>
+			<message id="52" tags="do_no_display">&gt;:[</message>
+			<message id="53" tags="do_no_display">:O</message>
+			<message id="54" tags="do_no_display">?:|</message>
+			<message id="55" tags="do_no_display">:-r</message>
+			<message id="56" tags="do_no_display">;p</message>
+			<message id="57" tags="do_no_display">: \</message>
+			<message id="58" tags="do_no_display">:D</message>
+			<message id="59" tags="do_no_display">:&lt;</message>
+			<message id="60" tags="do_no_display">:(</message>
+			<message id="61" tags="do_no_display">;)</message>
+			<message id="62" tags="do_no_display">o:)</message>
+			<message id="63" tags="do_no_display">::cake::</message>
+			<message id="64" tags="do_no_display">@}--</message>
+			<message id="65" tags="do_no_display">::sun::</message>
+			<message id="66" tags="do_no_display">::raincloud::</message>
+			<message id="67" tags="do_no_display">::sleeping::</message>
+			<message id="68" tags="do_no_display">::rock::</message>
+			<message id="69" tags="do_no_display">::paper::</message>
+			<message id="70" tags="do_no_display">::scissors::</message>
+			<message id="71" tags="do_no_display">::luck::</message>
+			<message id="72" tags="do_no_display">::heart::</message>
+			<message id="73" tags="do_no_display">*~&lt;]: )</message>
+			<message id="74" tags="do_no_display">{:  )</message>
+			<message id="75" tags="do_no_display">::rainbow::</message>
+			<message id="76" tags="do_no_display">::afk::</message>
+			<message id="77" tags="do_no_display">::teacup::</message> 
+			<message id="78" tags="do_no_display">::cupcake::</message> 
+			<message id="79" tags="do_no_display">::popcorn::</message> 
+			<message id="80" tags="do_no_display">::singing::</message> 
+			<message id="82" tags="do_no_display">::clapping::</message> 
+			<message id="83" tags="do_no_display">::bronze::</message> 
+			<message id="84" tags="do_no_display">::silver::</message> 
+			<message id="85" tags="do_no_display">::gold::</message> 
+			<message id="86" tags="do_no_display">::s'more::</message> 
+			<message id="87" tags="do_no_display">::pumpkincake::</message> 
+		</category>
+		
+		<category name="Bye"> <!-- 100 to 149 --->
+			<message id="100" tags="">Bye!</message>
+			<message id="101" tags="">Fly with you!</message>
+			<message id="102" tags="">Later!</message>
+			<message id="103" tags="">See ya!</message>
+			<message id="104" tags="">Good luck!</message>
+			<message id="105" tags="">Have fun!</message>
+			<message id="106" tags="">Keep it dusty!</message>
+			<message id="107" tags="">See ya' round the waterfall!</message>
+			<message id="108" tags="">Happy Flapping!</message>
+			<message id="109" tags="">I only have a few minutes.</message>
+			<message id="110" tags="">I have to go.</message>
+		</category>
+		
+		<category name="Be Right Back"> <!-- 150 to 199 --->
+			<message id="150" tags="">I'll be back later!</message>
+			<message id="151" tags="">I'll be right back.</message>
+			<message id="152" tags="" type="restricted">I'll be back in two shakes of a dragon's tail!</message>
+		</category>
+		
+		<category name="Friendly"> <!-- 200 to 249 --->
+			<message id="200" tags="">Are you new here?</message>
+			<message id="201" tags="">Welcome to Pixie Hollow!</message>
+			<message id="202" tags="">Please be my friend!</message>
+			<message id="203" tags="">Good luck!</message>
+			<message id="204" tags="">Good teamwork!</message>
+			<message id="205" tags="">Congratulations!</message>
+			<message id="206" tags="">Pots and kettles! You're my best friend!</message>
+		</category>
+		
+		<category name="Thanks"> <!-- 250 to 299 --->
+			<message id="250" tags="">Thanks!</message>
+			<message id="251" tags="">Thank you!</message>
+			<message id="252" tags="">That was fun!</message>
+			<message id="253" tags="">You're welcome!</message>
+			<message id="254" tags="">No problem.</message>
+		</category>
+	</category>
+  
+	<category name="Moods"> <!-- Uses IDs 500 to 999 -->
+		<category name="Happy"> <!-- 500 to 549 --->
+			<message id="500" tags="">Cool!</message>
+			<message id="501" tags="">Great!</message>
+			<message id="502" tags="">Ha ha!</message>
+			<message id="503" tags="">Hee hee!</message>
+			<message id="504" tags="">Whee!</message>
+			<message id="505" tags="">Woo hoo!</message>
+			<message id="506" tags="">Wow!</message>
+			<message id="507" tags="Tutorial">Flaptastic!</message>
+			<message id="508" tags="Tutorial">Flitterific!</message>
+			<message id="509" tags="Tutorial">Hooray!</message>
+			<message id="510" tags="Tutorial">Yay!</message>
+			<message id="511" tags="">Yeah!</message>
+			<message id="512" tags="" type="restricted">I'm all flap-happy!</message>
+			<message id="513" tags="" type="restricted">I'm fluttering with glee!</message>
+			<message id="514" tags="" type="restricted">I feel as light as dandelion fluff!</message>
+			<message id="515" tags="" type="restricted">I feel brighter around you.</message>
+			<message id="516" tags="" type="restricted">I feel fit as a fiddlehead fern!</message>
+			<message id="517" tags="">Our reason is the season!</message>
+		</category>
+		
+		<category name="Sad"> <!-- IDs 550 to 599 --->
+			<message id="550" tags="">Aw, jingles.</message>
+			<message id="551" tags="">Aw, spiderwebs.</message>
+			<message id="552" tags="">Drat!</message>
+			<message id="553" tags="">Huh?</message>
+			<message id="554" tags="">No!!!</message>
+			<message id="555" tags="">Oh no!</message>
+			<message id="556" tags="">Oof.</message>
+			<message id="557" tags="">Ouch!</message>
+			<message id="558" tags="">That's a problem.</message>
+			<message id="559" tags="">Uh oh.</message>
+			<message id="560" tags="">Yikes!</message>
+			<message id="561" tags="">You poor thing!</message>
+			<message id="562" tags="" type="restricted">Don't fly against the wind.</message>
+			<message id="563" tags="" type="restricted">Just let it roll off your wings.</message>
+		</category>
+		
+		<category name="Mad"> <!-- 600 to 649 --->
+			<message id="600" tags="">Hey, fly under the speed limit!</message>
+			<message id="601" tags="">I didn't arrive yesterday!</message>
+			<message id="602" tags="">That's not fair.</message>
+			<message id="603" tags="">No!</message>
+			<message id="604" tags="">I'm stuck.</message>
+			<message id="605" tags="">Why did you do that?</message>
+			<message id="606" tags="">Please go away.</message>
+			<message id="607" tags="">Don't be mean!</message>
+			<message id="608" tags="" type="restricted">Wherever I turn, you're always underwing.</message>
+		</category>
+		
+		<category name="Silly"> <!-- 650 to 699 --->
+			<message id="650" tags="">Look, I'm dancing on air!</message>
+			<message id="651" tags="">Make a wish!</message>
+			<message id="652" tags="">Leaping lizards!</message>
+			<message id="653" tags="">I'm as hungry as a caterpillar!</message>
+			<message id="654" tags="">I wonder what will turnip next!</message>
+			<message id="655" tags="">You're as pretty as a petunia!</message>
+			<message id="656" tags="">I hope our friendship blossoms.</message>
+			<message id="657" tags="">Everybody sparkles inside.</message>
+			<message id="658" tags="">I'll light your way.</message>
+			<message id="659" tags="">You brighten up any meadow!</message>
+			<message id="660" tags="">Tinkering is a way of life.</message>
+			<message id="661" tags="">I stop for Lost Things.</message>
+			<message id="662" tags="">Oh my pots and kettles -- you're flitterific!</message>
+			<message id="663" tags="">Don't get your wings wet!</message>
+			<message id="664" tags="">Anybody got a leaf umbrella?</message>
+			<message id="665" tags="">Just go with the flow.</message>
+		</category>
+		
+		<category name="Wait"> <!-- 700 to 749 --->
+			<message id="700" tags="">Wait!</message>
+			<message id="701" tags="">Wait a minute.</message>
+			<message id="702" tags="">Wait for me!</message>
+			<message id="703" tags="">Wait there.</message>
+			<message id="704" tags="">Let's wait for my friend.</message>
+			<message id="705" tags="">Let's try that again.</message>
+			<message id="706" tags="">Sorry, I couldn't wait any longer.</message>
+		</category>
+		
+		<category name="Sorry"> <!-- IDs 750 to 799 --->
+			<message id="750" tags="">Oops!</message>
+			<message id="751" tags="">I didn't mean to!</message>
+			<message id="752" tags="">I'd fly backwards if I could.</message>
+			<message id="753" tags="">Don't get your wings in a tangle.</message>
+			<message id="754" tags="">Sorry!</message>
+			<message id="755" tags="">Sorry, I can't.</message>
+			<message id="756" tags="">Sorry, I need to go.</message>
+			<message id="757" tags="">Sorry, I'm playing a game.</message>
+			<message id="758" tags="">Sorry, I'm crafting right now.</message>
+			<message id="759" tags="">Sorry, I'm busy on a quest!</message>
+			<message id="760" tags="">Sorry, I'm helping a friend!</message>
+			<message id="761" tags="">Sorry, I can't go to a party right now.</message>
+		</category>
+	</category>  
+  
+	<category name="Questions"> <!-- Uses IDs 1000 to 1499 -->
+		<message id="240" tags="">Huh?</message>
+		
+		<category name="Do you like ..."> <!-- 1000 to 1049 --->
+			<message id="1000" tags="">Do you like my Fairy name?</message>
+			<message id="1001" tags="">Do you like my hair?</message>
+			<message id="1002" tags="">Do you like my home?</message>
+			<message id="1003" tags="">Do you like my outfit?</message>
+			<message id="1004" tags="">Do you like my Animal Friend?</message>
+		</category>
+		
+		<category name="Do you want ..."> <!-- 1050 to 1099 --->
+			<message id="1050" tags="">Do you want to be friends?</message>
+			<message id="1051" tags="">Do you want to gather with me?</message>
+			<message id="1052" tags="">Do you want to shop with me?</message>
+			<message id="1053" tags="">Do you want to play a game?</message>
+			<message id="1054" tags="">Do you want to see a play?</message>
+			<message id="1055" tags="">Do you want to have tea?</message>
+		</category>
+		
+		<category name="How"> <!-- 1100 to 1149 --->
+			<message id="1100" tags="">How?</message>
+			<message id="1101" tags="">How did you do that?</message>
+			<message id="1102" tags="">How did you get that?</message>
+			<message id="1103" tags="">How do I do that?</message>
+			<message id="1104" tags="">How do I get that?</message>
+		</category>
+		
+		<category name="What"> <!-- 1150 to 1199 --->
+			<message id="1150" tags="">What did you say?</message>
+			<message id="1151" tags="">What are you doing?</message>
+			<message id="1152" tags="">What's that?</message>
+			<message id="1153" tags="">What are you looking for?</message>
+		</category>
+		
+		<category name="What's your favorite..."> <!-- 1200 to 1249 --->
+			<message id="1200" tags="">What's your favorite color?</message>
+			<message id="1201" tags="">What's your favorite game?</message>
+			<message id="1202" tags="">What's your favorite ingredient?</message>
+			<message id="1203" tags="">What's your favorite meadow?</message>
+			<message id="1204" tags="">What's your favorite shop?</message>
+			<message id="1205" tags="">What's your favorite talent?</message>
+			<message id="1206" tags="">What's your favorite Animal Friend?</message>
+		</category>
+		
+		<category name="Where"> <!-- 1250 to 1299 --->
+			<message id="1250" tags="">Where are you?</message>
+			<message id="1251" tags="">Where are you going?</message>
+			<message id="1252" tags="">Where should we go?</message>
+			<message id="1253" tags="">Where's that?</message>
+			<message id="1254" tags="">Where did you get that?</message>
+			<message id="1255" tags="">Where can I find that?</message>
+		</category>
+	</category>
+  
+	<category name="Answers"> <!-- Uses IDs 1500 to 2999 -->
+		<category name="Yes"> <!-- 1500 to 1549 --->
+			<message id="1500" tags="">Yes.</message>
+			<message id="1501" tags="">Okay.</message>
+			<message id="1502" tags="">I think so.</message>
+			<message id="1503" tags="">Sure!</message>
+		</category>
+		
+		<category name="No"> <!-- 1550 to 1599 --->
+			<message id="1550" tags="">No.</message>
+			<message id="1551" tags="">I don't think so.</message>
+			<message id="1552" tags="">No way.</message>
+			<message id="1553" tags="">Sorry, not right now.</message>
+		</category>
+		
+		<category name="Animal Friends"> <!-- 1600 to 1649 --->
+			<message id="1600" tags="">Fireflies</message>
+			<message id="1601" tags="">Ladybugs</message>
+			<message id="1602" tags="">Baby Hummingbirds</message>
+			<message id="1603" tags="">Dragonflies</message>
+			<message id="1604" tags="">Bees</message>
+		</category>
+		
+		<category name="Colors"> <!-- 1650 to 1699 --->
+			<message id="1650" tags="">Red</message>
+			<message id="1651" tags="">Orange</message>
+			<message id="1652" tags="">Yellow</message>
+			<message id="1653" tags="">Green</message>
+			<message id="1654" tags="">Blue</message>
+			<message id="1655" tags="">Purple</message>
+			<message id="1656" tags="">Pink</message>
+			<message id="1657" tags="">Brown</message>
+		</category>
+		
+		<category name="Famous Fairies"> <!-- 1700 to 1749 --->
+			<message id="1700" tags="">Beck</message>
+			<message id="1701" tags="">Bobbin</message>
+			<message id="1702" tags="">Copper</message>
+			<message id="1703" tags="">Dulcie</message>
+			<message id="1704" tags="">Elixa</message>
+			<message id="1705" tags="">Fawn</message>
+			<message id="1706" tags="">Iridessa</message>
+			<message id="1707" tags="">Kit</message>
+			<message id="1708" tags="">Marina</message>
+			<message id="1709" tags="">Mendy</message>
+			<message id="1710" tags="">Rosetta</message>
+			<message id="1711" tags="">Schelly</message>
+			<message id="1712" tags="">Silvermist</message>
+			<message id="1713" tags="">Sweet Pea</message>
+			<message id="1714" tags="">Tabby</message>
+			<message id="1715" tags="">Terence</message>
+			<message id="1716" tags="">Tinker Bell</message>
+			<message id="1717" tags="">Vidia</message>
+		</category>
+		
+		<category name="Games"> <!-- 1750 to 1799 --->
+			<message id="1750" tags="">Animal Derby</message>
+			<message id="1751" tags="">Bee's Eye</message>
+			<message id="1752" tags="">Bubble Bounce</message>
+			<message id="1753" tags="">Butterfly Painter</message>
+			<message id="1754" tags="">Crazy Cakes</message>
+			<message id="1755" tags="">Fairy Fireworks</message>
+			<message id="1756" tags="">Firefly Light-Up</message>
+			<message id="1757" tags="">First Flight</message>
+			<message id="1758" tags="">Gem Juggle</message>
+			<message id="1759" tags="">Harvest Hustle</message>
+			<message id="1760" tags="">Pass the Popcorn</message>
+			<message id="1761" tags="">Petal Pick-Up</message>
+			<message id="1762" tags="">Pinecone Pop</message>
+			<message id="1763" tags="">Rock, Paper, Scissors</message>
+			<message id="1764" tags="">Seed Sorter</message>
+			<message id="1765" tags="">Simone Says</message>
+			<message id="1766" tags="">Snowflake Sweep</message>
+			<message id="1767" tags="">Snowy Lullaby</message>
+			<message id="1768" tags="">Sunbeam Bend</message>
+			<message id="1769" tags="">Tic-Tac-Toe</message>
+			<message id="1770" tags="">Tinker Toss</message>
+			<message id="1771" tags="">Two For Tea</message>
+			<message id="1772" tags="">Vidia's Daily Spin</message>
+			<message id="1773" tags="">Water Web</message>    
+		</category>
+
+		<category name="Places"> <!-- 1800 to 1849 --->
+			<message id="1800" tags="">Beck's Animal Nursery</message>
+			<message id="1801" tags="">Bobbin's Tailoring Nook</message>
+			<message id="1802" tags="">Copper's Tinkering Nook</message>
+			<message id="1803" tags="">Dulcie's Kitchen</message>
+			<message id="1804" tags="">Elixa's Hospital</message>
+			<message id="1805" tags="">Fairy Tale Theater</message>
+			<message id="1806" tags="">Fawn's Hideout</message>
+			<message id="1807" tags="">Iridessa's Glade</message>
+			<message id="1808" tags="">Kit's Place</message>
+			<message id="1809" tags="">Marina's Place</message>
+			<message id="1810" tags="">Mendy's Tailoring Nook</message>     
+			<message id="1811" tags="">Pixie Dust Mill</message>      
+			<message id="1812" tags="">Rosetta's Garden</message>
+			<message id="1813" tags="">Silvermist's Grotto</message>
+			<message id="1814" tags="">Tinker's Nook</message>      
+			<message id="1815" tags="">The Ballroom</message>
+			<message id="1816" tags="">The Pixie Dust Tree</message>
+			<message id="1817" tags="">The Tearoom</message>
+		</category>
+		
+		<category name="Ingredients"> <!-- 1850 to 1899 --->
+			<message id="1850" tags="">Acorns</message>
+			<message id="1851" tags="">Bits of Metal</message>
+			<message id="1852" tags="">Blue Gems</message>
+			<message id="1853" tags="">Blueberries</message>
+			<message id="1854" tags="">Buttercup Petals</message>
+			<message id="1855" tags="">Daisy Petals</message>
+			<message id="1856" tags="">Dandelion Fluff</message>
+			<message id="1857" tags="">Feathers</message>
+			<message id="1858" tags="">Honeycombs</message>
+			<message id="1859" tags="">Ivy</message>
+			<message id="1860" tags="">Lily Petals</message>
+			<message id="1861" tags="">Maple Leaves</message>
+			<message id="1862" tags="">Meadow Grass</message>
+			<message id="1863" tags="">Oak Leaves</message>
+			<message id="1864" tags="">Pine Needles</message>
+			<message id="1865" tags="">Raspberries</message>
+			<message id="1866" tags="">Rose Petals</message>
+			<message id="1867" tags="">Snowflakes</message>
+			<message id="1868" tags="">Spider Silk</message>
+			<message id="1869" tags="">Sunflower Seeds</message>
+			<message id="1870" tags="">Truffles</message>
+			<message id="1871" tags="">Twigs</message>
+			<message id="1872" tags="">Yellow Gems</message>
+		</category>
+		
+		<category name="Shops"> <!-- 1900 to 1949 --->
+			<message id="1900" tags="">Bella's Baubles</message>
+			<message id="1901" tags="">Cassie's Costumes</message>
+			<message id="1902" tags="">Coal's Clothiers</message>
+			<message id="1903" tags="">Daisy's Dyes</message>
+			<message id="1904" tags="">Ember's Essentials</message>
+			<message id="1905" tags="">Gale's Outfitters</message>
+			<message id="1906" tags="">Garden Supply</message>
+			<message id="1907" tags="">Harmony's Sweets</message>
+			<message id="1908" tags="">Neville's New Homes</message>
+			<message id="1909" tags="">Phoebe's Party Favors</message>
+			<message id="1910" tags="">Pixie Post Office</message>
+			<message id="1911" tags="">Queen's Boutique</message>
+			<message id="1912" tags="">Schelly's Hair Salon</message>
+			<message id="1913" tags="">Summit Style</message>
+			<message id="1914" tags="">Treetop Housewares</message>
+			<message id="1915" tags="">Zephyr's Zoom Room</message>
+		</category>
+		
+		<category name="Talents and Skills"> <!-- 1950 to 1999 --->
+			<message id="1950" tags="">Animal</message>
+			<message id="1951" tags="">Garden</message>
+			<message id="1952" tags="">Light</message>
+			<message id="1953" tags="">Tinker</message>
+			<message id="1954" tags="">Water</message>
+			<message id="1955" tags="">"Distract!"</message>
+			<message id="1956" tags="">"Fix!"</message>
+			<message id="1957" tags="">"Charm!"</message>
+			<message id="1958" tags="">"Heal!"</message>
+			<message id="1959" tags="">"Illuminate!"</message>
+			<message id="1950" tags="">"Move!"</message>
+			<message id="1951" tags="">"Splash!"</message>
+			<message id="1952" tags="">"Grow!"</message>
+		</category>
+		
+		<category name="Tea"> <!-- 2000 to 2049 --->
+			<message id="2000" tags="">Black Tea</message>
+			<message id="2001" tags="">Bubble and Berry Tea</message>
+			<message id="2002" tags="">Chai Tea</message>
+			<message id="2003" tags="">Chamomile Tea</message>
+			<message id="2004" tags="">Jasmine Tea</message>
+			<message id="2005" tags="">Mango Tea</message>
+			<message id="2006" tags="">Mint Tea</message>
+			<message id="2007" tags="">Neverfruit Tea</message>
+			<message id="2008" tags="">Neverberry Ice Tea</message>
+			<message id="2009" tags="">Peppermint Tea</message>
+			<message id="2010" tags="">Pumpkin Orange Tea</message>
+			<message id="2011" tags="">Southern Julip Tea</message>
+			<message id="2012" tags="">Strawberry Green Tea</message>
+		</category>
+
+		<category name="Meadows"> <!-- 2050 to 2099 --->     
+			<message id="2050" tags="">Acorn Summit</message>
+			<message id="2051" tags="">Cherryblossom Heights</message>
+			<message id="2052" tags="">Chilly Falls</message>
+			<message id="2053" tags="">Cottonpuff Field</message>
+			<message id="2054" tags="">Dewdrop Vale</message>
+			<message id="2055" tags="">Evergreen Overlook</message>
+			<message id="2056" tags="">Fairy Coliseum</message>
+			<message id="2057" tags="">Havendish Square</message>
+			<message id="2058" tags="">Maple Tree Hill</message>
+			<message id="2059" tags="">Neverberry Thicket</message>
+			<message id="2060" tags="">Neverfruit Grove</message>
+			<message id="2061" tags="">Palm Tree Cove</message>
+			<message id="2062" tags="">Pumpkin Patch</message>           
+			<message id="2063" tags="">Snowcap Glade</message>
+			<message id="2064" tags="">Springtime Orchard</message>
+			<message id="2065" tags="">Sunflower Gully</message>
+			<message id="2066" tags="">The Bubbly Bog</message>
+			<message id="2067" tags="">The Never Mine</message>
+			<message id="2068" tags="">The Silver Trees</message>
+			<message id="2069" tags="">Treetop Bend</message>           
+		</category>
+		
+		<category name="Pixie Dust Tree"> <!-- 2100 to 2149 --->
+			<message id="2100" tags="">Fairy Tale Theater</message>
+			<message id="2101" tags="">Pixie Dust Mill</message>
+			<message id="2102" tags="">The Ballroom</message>
+			<message id="2103" tags="">The Pixie Postings</message>
+			<message id="2104" tags="">The Tearoom</message>
+		</category>
+	</category>
+  
+	<category name="Animal Friends"> <!-- Uses IDs 3000 to 3499 -->
+		<category name="Tricks"> <!-- 3000 to 3049 --->
+			<message id="3000" tags="" event="animalFriendShake">Shake!</message>
+			<message id="3001" tags="" event="animalFriendBackwards">Backwards!</message>
+			<message id="3002" tags="" event="animalFriendSing">Sing!</message>
+			<message id="3003" tags="" event="animalFriendCircle">Circle!</message>
+			<message id="3004" tags="" event="animalFriendFlip">Flip!</message>
+			<message id="3005" tags="" event="animalFriendDance">Dance!</message>
+			<message id="3006" tags="" event="animalFriendFriends">Friends!</message>
+			<message id="3007" tags="" event="animalFriendHop">Hop!</message>
+			<message id="3008" tags="" event="animalFriendDoubleFlip">Double Flip!</message>
+		</category>
+		
+		<category name="Watch..."> <!-- 3050 to 3099 --->
+			<message id="3050" tags="">Watch my Animal Friend shake!</message>
+			<message id="3051" tags="">Watch my Animal Friend fly backwards!</message>
+			<message id="3052" tags="">Watch my Animal Friend sing!</message>
+			<message id="3053" tags="">Watch my Animal Friend fly in a circle!</message>
+			<message id="3054" tags="">Watch my Animal Friend do a flip!</message>
+			<message id="3055" tags="">Watch my Animal Friend dance!</message>
+			<message id="3056" tags="">Watch my Animal Friend make friends!</message>
+			<message id="3057" tags="">Watch my Animal Friend hop!</message>
+			<message id="3058" tags="">Watch my Animal Friend double flip!</message>
+		</category>
+		
+		<category name="Gifts"> <!-- 3100 to 3149 --->
+			<message id="3100" tags="">How do the Animal Friends bring gifts?</message>
+			<message id="3101" tags="">Their Hunger, Health and Mood must be above 90.</message>
+			<message id="3102" tags="">The Animal Friend must be following you.</message>
+			<message id="3103" tags="">Animal Friends bring 2 gifts a day!</message>
+			<message id="3104" tags="">How did your Animal Friend get that outfit?</message>
+			<message id="3105" tags="">Animal outfits come in Gold gift boxes!</message>
+			<message id="3106" tags="">I love the gift my Animal Friend brought me!</message>
+			<message id="3107" tags="">My Animal Friend brought me ingredients!</message>
+			<message id="3108" tags="">My Animal Friend brought me Silly Sweets!</message>      
+			<message id="3109" tags="">My Animal Friend brought me dye!</message>      
+			<message id="3110" tags="">The Animal Friends have funny outfits!</message>
+			<message id="3111" tags="">My Butterfly brought me a Seed Pack!</message>
+			<message id="3112" tags="">My Butterfly brought me Pixie Diamonds!</message>
+		</category>
+		
+		<category name="More"> <!-- 3150 to 3199 --->
+			<message id="3150" tags="">Visit Beck to choose an Animal Friend.</message>    
+			<message id="3151" tags="">Click on your Animal Friend to check on it.</message>
+			<message id="3152" tags="">Visit Elixa to cure your Animal Friend.</message>
+			<message id="3153" tags="">Visit Elixa to let your Animal Friend go.</message>
+			<message id="3154" tags="">I like your Animal Friend.</message>
+			<message id="3155" tags="">I like your Animal Friend's name.</message>
+			<message id="3156" tags="">Your Animal Friend is adorable!</message>
+			<message id="3157" tags="">Is your Animal Friend sick?</message> 
+			<message id="3158" tags="">Fireflies love Honeycombs.</message>
+			<message id="3159" tags="">Ladybugs love Buttercup Petals.</message>
+			<message id="3160" tags="">Baby Hummingbirds love Blueberries.</message>
+			<message id="3161" tags="">Dragonflies love Meadow Grass.</message>
+			<message id="3162" tags="">Bees love Rose Petals.</message>
+			<message id="3163" tags="">Butterflies love Lily Petals.</message>
+		</category>
+	</category>
+  
+	<category name="Chatter"> <!-- Uses IDs 3500 to 4999 -->
+		<category name="Fairy Gardens"> <!-- 3500 to 3549 -->
+			<message id="3500" tags="">Fly to my Fairy Garden!</message>
+			<message id="3501" tags="">Your Fairy Garden is plant-tastic!</message>
+			<message id="3502" tags="">Get Surprise Seeds at Garden Supply!</message>
+			<message id="3503" tags="">I planted Surprise Seeds!</message>
+			<message id="3504" tags="">You don't have to wait with Insta-Bloom!</message>
+			<message id="3505" tags="">Will you please sing to my plants?</message>
+			<message id="3506" tags="">I can get a bonus if my friends sing!</message>
+			<message id="3507" tags="">Thanks for singing to my plants!</message>
+			<message id="3508" tags="">I can't wait to see what grows!</message>
+			<message id="3509" tags="">Look! My plant is fully-grown!</message>
+			<message id="3510" tags="">Time to pick the fruit!</message>
+			<message id="3511" tags="">Look at what grew in my Fairy Garden!</message>
+		</category>
+		
+		<category name="Pixie Diamonds"> <!-- 3550 to 3599 -->
+			<message id="3550" tags="">I got it with Pixie Diamonds!</message>
+			<message id="3551" tags="">How do you get Pixie Diamonds?</message>
+			<message id="3552" tags="">Click the Wallet to get Pixie Diamonds!</message>
+			<message id="3553" tags="">Did you get that with Pixie Diamonds?</message>
+			<message id="3554" tags="">I just got some Pixie Diamonds!</message>
+		</category>
+	
+		<category name="Pixie Post Office"> <!-- 3600 to 3649 -->
+			<message id="3600" tags="">The Pixie Post Office is open!</message>
+			<message id="3601" tags="">Fly to the Pixie Post Office!</message>
+			<message id="3602" tags="">Meet me at the Pixie Post Office!</message>
+			<message id="3603" tags="">You can send gifts to friends!</message>
+			<message id="3604" tags="">Have you sent a gift yet?</message>
+			<message id="3605" tags="">Have you sent a postcard yet?</message>
+			<message id="3606" tags="">My friend sent me a gift!</message>
+			<message id="3607" tags="">My friend sent me a postcard!</message>
+			<message id="3608" tags="">Thank you for the gift you sent me!</message>
+			<message id="3609" tags="">I've sent postcards to my friends!</message>
+			<message id="3610" tags="">I've sent gifts to my friends!</message>
+		</category>
+		
+		<category name="Queen's Boutique"> <!-- 3650 to 3699 -->
+			<message id="3650" tags="">The Queen's Boutique is in Havendish!</message>
+			<message id="3651" tags="">Let's shop at the Queen's Boutique!</message>
+			<message id="3652" tags="">That gown is absolutely to-fly-for!</message>
+			<message id="3653" tags="">I've never seen anything so gorgeous!</message>
+			<message id="3654" tags="">Bravo to the Queen's tailoring-talents!</message>
+			<message id="3655" tags="">Get that gown while you can!</message>
+			<message id="3656" tags="">There are only a few like that left!</message>
+			<message id="3657" tags="">This flitterific style will go fast!</message>
+			<message id="3658" tags="">You look just like royalty in your gown!</message>
+			<message id="3659" tags="">You look Ballroom-ready!</message>
+		</category>
+	
+		<category name="Baking"> <!-- 3700 to 3749 -->
+			<message id="3700" tags="">Let's bake in Dulcie's Kitchen!</message>
+			<message id="3701" tags="">I'm baking in Dulcie's Kitchen!</message>
+			<message id="3702" tags="">Dulcie's Kitchen is in Neverberry Thicket.</message>
+			<message id="3703" tags="">This is my first time baking.</message>
+			<message id="3704" tags="">Baking is a piece of cake!</message>
+			<message id="3705" tags="">Let's bake some treats in Dulcie's Kitchen.</message>
+			<message id="3706" tags="">Let's bake Silly Sweets!</message>
+			<message id="3707" tags="">Let's eat Silly Sweets!</message>
+			<message id="3708" tags="">I've got new recipes to bake!</message>
+			<message id="3709" tags="">Sweet Sugary Treats!</message>
+		</category>
+		
+		<category name="Countdown"> <!-- 3750 to 3799 -->
+			<message id="3750" tags="">Ready!</message>
+			<message id="3751" tags="">Set!</message>
+			<message id="3752" tags="">Go!</message>
+		</category>
+	
+		<category name="Fairy Coliseum"> <!-- 3800 to 3849 -->
+			<message id="3800" tags="">Fly with me to the Fairy Coliseum!</message>
+			<message id="3801" tags="">Let's fly to Marina's Place!</message>
+			<message id="3802" tags="">Let's fly to Zephyr's Zoom Room!</message>
+			<message id="3803" tags="">Let's play Animal Derby!</message>
+			<message id="3804" tags="">Marina's Place is so relaxing!</message>
+			<message id="3805" tags="">Zephyr's has the best racing gear!</message>
+			<message id="3806" tags="">I made it onto the Leaderboard!</message>
+			<message id="3807" tags="">Are you ready to race?</message>
+			<message id="3808" tags="">Who wants to race baby animals?</message>
+			<message id="3809" tags="">I'll race with the squirrel!</message>
+			<message id="3810" tags="">I'll race with the mouse!</message>
+			<message id="3811" tags="">I'll race with the rabbit!</message>
+			<message id="3812" tags="">I'll race with the turtle!</message>
+		</category>
+		
+		<category name="Fairy Tag"> <!-- 3850 to 3899 -->
+			<message id="3850" tags="">Let's play Fairy tag!</message>
+			<message id="3851" tags="">Tag, you're it!</message>
+			<message id="3852" tags="">Can't catch me!</message>
+			<message id="3853" tags="">Choose you!</message>
+			<message id="3854" tags="">Gotcha!</message>
+		</category>
+	
+		<category name="Fairy Tale Theater"> <!-- 3900 to 3949 -->
+			<message id="3900" tags="">Let's see a play at Fairy Tale Theater.</message>
+			<message id="3901" tags="">Let's perform at Fairy Tale Theater.</message>
+			<message id="3902" tags="">What play is running in the theater?</message>
+			<message id="3903" tags="">Let's get costumes from Cassie.</message>
+			<message id="3904" tags="">You should get a costume for the play.</message>
+			<message id="3905" tags="">Do you have a costume?</message>
+			<message id="3906" tags="">This is a costume from a play.</message>
+			<message id="3907" tags="">Your costume is beautiful!</message>
+			<message id="3908" tags="">Your costume is flitterific!</message>
+			<message id="3909" tags="">Your costume is fun!</message>
+			<message id="3910" tags="">Let's have a dress rehearsal.</message>
+			<message id="3911" tags="">We are having a dress rehearsal.</message>
+			<message id="3912" tags="">Stage left, please!</message>
+			<message id="3913" tags="">Stage right, please!</message>
+			<message id="3914" tags="">I'll be in charge of props.</message>
+			<message id="3915" tags="">Break a wing!</message>
+			<message id="3916" tags="">Shhh...the play has started.</message>
+			<message id="3917" tags="">Let's get concessions.</message>
+			<message id="3918" tags="">Would you like a cookie before the show?</message>
+			<message id="3919" tags="">Dulcie's treats make any play better!</message>
+			<message id="3920" tags="">What's my line?</message>
+			<message id="3921" tags="">Psssst...that's your line!</message>
+			<message id="3922" tags="">This play is terrific!</message>
+			<message id="3923" tags="">Bravo!</message>
+			<message id="3924" tags="">Encore!</message>
+		</category>
+	
+		<category name="Fairy Tale Theater: Play..."> <!-- 3950 to 4049 -->
+			<message id="3950" tags="Speedchat_MermaidFriendsForever">Mermaid Friends Forever!</message>
+			<message id="3951" tags="Speedchat_MermaidFriendsForever">Let's perform Mermaid Friends Forever.</message>
+			<message id="3952" tags="Speedchat_MermaidFriendsForever">I'll be Coral.</message>
+			<message id="3953" tags="Speedchat_MermaidFriendsForever">I'll be Sandy.</message>
+			<message id="3954" tags="Speedchat_MermaidFriendsForever">I'll be Flip.</message>
+			<message id="3955" tags="Speedchat_MermaidFriendsForever">I'll be Flop.</message>
+			<message id="3956" tags="Speedchat_MermaidFriendsForever">Flip and Flop are silly!</message>
+			<message id="3957" tags="Speedchat_MermaidFriendsForever">Wow! Look at those bubbles.</message>
+			<message id="3958" tags="Speedchat_MermaidFriendsForever">Everyone loves a mermaid.</message>
+			<message id="3959" tags="Speedchat_MermaidFriendsForever">My kingdom for a comb!</message>
+			
+			<message id="3960" tags="Speedchat_FairyMaryDayOff">Fairy Mary's Day Off!</message>
+			<message id="3961" tags="Speedchat_FairyMaryDayOff">Let's perform Fairy Mary's Day Off.</message>
+			<message id="3962" tags="Speedchat_FairyMaryDayOff">I'll be Fairy Mary.</message>
+			<message id="3963" tags="Speedchat_FairyMaryDayOff">I'll be Tinker Bell.</message>
+			<message id="3964" tags="Speedchat_FairyMaryDayOff">I'll be Copper.</message>
+			<message id="3965" tags="Speedchat_FairyMaryDayOff">I'll be Tin.</message>
+			<message id="3966" tags="Speedchat_FairyMaryDayOff">Wow! The stage looks like a beach.</message>
+			<message id="3967" tags="Speedchat_FairyMaryDayOff">Open the gate!</message>
+			<message id="3968" tags="Speedchat_FairyMaryDayOff">Pour some tea, please.</message>
+			<message id="3969" tags="Speedchat_FairyMaryDayOff">That's one loud bird.</message>
+			<message id="3970" tags="Speedchat_FairyMaryDayOff">I wish I could have a day off.</message>
+			
+			<message id="3971" tags="Speedchat_Cheese">Cheese's Great Adventure!</message>
+			<message id="3972" tags="Speedchat_Cheese">Let's perform Cheese's Great Adventure.</message>
+			<message id="3973" tags="Speedchat_Cheese">I'll be Cheese.</message>
+			<message id="3974" tags="Speedchat_Cheese">I'll be Bunny.</message>
+			<message id="3975" tags="Speedchat_Cheese">I'll be Chipmunk.</message>
+			<message id="3976" tags="Speedchat_Cheese">I'll be Bird.</message>
+			<message id="3977" tags="Speedchat_Cheese">I'll be Tinker Bell.</message>
+			<message id="3978" tags="Speedchat_Cheese">Whoa, a wasp!</message>
+			<message id="3979" tags="Speedchat_Cheese">Whoa, sprinting thistles!</message>
+			<message id="3980" tags="Speedchat_Cheese">Was that a squirrel?</message> 
+			<message id="3981" tags="Speedchat_Cheese">Cheese saved the garden!</message>
+			<message id="3982" tags="Speedchat_Cheese">Cheese saved Tinker's Nook!</message>
+
+			<message id="3983" tags="Speedchat_MissingSparkles">The Case of the Missing Sparkles!</message>
+			<message id="3984" tags="Speedchat_MissingSparkles">Let's perform Case of the Missing Sparkles.</message>
+			<message id="3985" tags="Speedchat_MissingSparkles">I'll be Bright Eyes.</message>
+			<message id="3986" tags="Speedchat_MissingSparkles">I'll be Fira.</message>
+			<message id="3987" tags="Speedchat_MissingSparkles">I'll be Dulcie.</message>
+			<message id="3988" tags="Speedchat_MissingSparkles">I'll be the Minister of Autumn.</message>
+			<message id="3989" tags="Speedchat_MissingSparkles">I'll be Blaze.</message>
+			<message id="3990" tags="Speedchat_MissingSparkles">Blaze is so sweet!</message>
+			<message id="3991" tags="Speedchat_MissingSparkles">Just follow the clues!</message>
+			<message id="3992" tags="Speedchat_MissingSparkles">I love a good mystery.</message>
+			<message id="3993" tags="Speedchat_MissingSparkles">Mysteries are just so...mysterious!</message>
+			<message id="3994" tags="Speedchat_MissingSparkles">Watch your sparkles!</message>
+			<message id="3995" tags="Speedchat_MissingSparkles">Iridessa makes a great detective.</message>
+			<message id="3996" tags="Speedchat_MissingSparkles">Bad detectives are just clueless.</message>
+			<message id="3997" tags="Speedchat_MissingSparkles">Let's solve a mystery!</message>
+			
+			<message id="3998" tags="Speedchat_PurpleGem">The Quest for the Purple Gem!</message>
+			<message id="3999" tags="Speedchat_PurpleGem">Let's perform Quest for the Purple Gem.</message>
+			<message id="4000" tags="Speedchat_PurpleGem">I'll be Flitter.</message>
+			<message id="4001" tags="Speedchat_PurpleGem">I'll be Flutter.</message>
+			<message id="4002" tags="Speedchat_PurpleGem">I'll be Flap.</message>
+			<message id="4003" tags="Speedchat_PurpleGem">Flap is goofy.</message>
+			<message id="4004" tags="Speedchat_PurpleGem">Sand dunes can't talk... can they??</message>
+			<message id="4005" tags="Speedchat_PurpleGem">I know where the Purple Gem is!</message>
+			<message id="4006" tags="Speedchat_PurpleGem">Don't fall in the pond!</message>
+			<message id="4007" tags="Speedchat_PurpleGem">I want some coconut milk.</message>
+			<message id="4008" tags="Speedchat_PurpleGem">I'm good at riddles.</message>
+			
+			<message id="4009" tags="Speedchat_BadDayPirate">Bad Day To Be a Pirate!</message>
+			<message id="4010" tags="Speedchat_BadDayPirate">I'm not afraid of Captain Hook!</message>
+			<message id="4011" tags="Speedchat_BadDayPirate">Those pirates will never find Pixie Hollow.</message>
+			<message id="4012" tags="Speedchat_BadDayPirate">I love playing tricks on pirates.</message>
+			<message id="4013" tags="Speedchat_BadDayPirate">I'll play Captain Hook.</message>
+			<message id="4014" tags="Speedchat_BadDayPirate">I'll play Smee.</message>
+			<message id="4015" tags="Speedchat_BadDayPirate">I want to be one of the fairies.</message>
+		</category>
+	
+		<category name="Flying Around"> <!-- 4050 to 4099 -->
+			<message id="4050" tags="">Fly to me.</message>
+			<message id="4051" tags="">Follow me!</message>
+			<message id="4052" tags="">Here.</message>
+			<message id="4053" tags="">Meet here.</message>
+			<message id="4054" tags="">This way.</message>
+			<message id="4055" tags="">Sit over here.</message>
+			<message id="4056" tags="">Let's fly this way!</message>
+			<message id="4057" tags="">Let's fly somewhere else.</message>
+			<message id="4058" tags="">Come visit me!</message>
+			<message id="4059" tags="">Can you fly to my home?</message>
+			<message id="4060" tags="">Fashion show at my place!</message>
+			<message id="4061" tags="">Click on me and select Fly To from my profile.</message>
+			<message id="4062" tags="">Let's fly to my home!</message>
+			<message id="4063" tags="">Let's fly to your home!</message>
+		</category>
+	
+		<category name="Gathering"> <!-- 4100 to 4149 -->
+			<message id="4100" tags="">Don't click just yet!</message>
+			<message id="4101" tags="">Everyone click the Bunch when I say "Go!"</message>
+			<message id="4102" tags="">Wait for more Fairies before we click!</message>
+			<message id="4103" tags="">Let's look for ingredients together!</message>
+			<message id="4104" tags="">Let's look for Bunches together!</message>
+			<message id="4105" tags="">I found one!</message>
+			<message id="4106" tags="">This isn't what I'm looking for.</message>
+			<message id="4107" tags="">Quick! Grab some of that Bunch!</message>
+			<message id="4108" tags="">Click the Bunch and we can share.</message>
+			<message id="4109" tags="">Come on everyone, gather this one!</message>
+			<message id="4110" tags="">Here's a Bunch for everyone!</message>
+			<message id="4111" tags="">Gathering Bunches is a team sport!</message>
+			<message id="4112" tags="">Gathering together is better.</message>
+			<message id="4113" tags="">The more the merrier!</message>	
+		</category>
+		
+		<category name="Home and Party"> <!-- 4150 to 4199 -->
+			<message id="4150" tags="">Welcome to my home!</message>
+			<message id="4151" tags="">Have you seen my new home?</message>
+			<message id="4152" tags="">My home is so big now!</message>
+			<message id="4153" tags="">Get a new home at Neville's!</message>
+			<message id="4154" tags="">I need to decorate.</message>
+			<message id="4155" tags="Tutorial">I'm having a party!</message>
+			<message id="4156" tags="">Why don't you host a party?</message>
+			<message id="4157" tags="">Let's go to a public party!</message>
+			<message id="4158" tags="">Come to my party!</message>
+			<message id="4159" tags="">I'm at a party.</message>
+			<message id="4160" tags="">Make your party public!</message>
+			<message id="4161" tags="">Let's play Pass the Popcorn!</message>
+			<message id="4162" tags="">Let's play Rock, Paper, Scissors!</message>
+			<message id="4163" tags="">Let's play Simone Says!</message>
+			<message id="4164" tags="">We need more players.</message>
+			<message id="4165" tags="">I win!</message>
+			<message id="4166" tags="">Good game everyone!</message>
+			<message id="4167" tags="">Let's play again!</message>
+			<message id="4168" tags="">This party is the best!</message>
+			<message id="4169" tags="Tutorial">Thanks for the great party!</message>
+			<message id="4170" tags="Tutorial">Thanks for coming everyone!</message>
+		</category>
+		
+		<category name="Honors and Badges"> <!-- 4200 to 4249 -->
+			<message id="4200" tags="">Wow! You're a Founding Fairy.</message>
+			<message id="4201" tags="">I love your Founding Fairy necklace.</message>
+			<message id="4202" tags="">Wow! You have a lot of badges.</message>
+			<message id="4203" tags="">I just earned a new badge!</message>
+			<message id="4204" tags="">I love earning badges.</message>
+			<message id="4205" tags="">We have the same favorite badge.</message>
+			<message id="4206" tags="">I wish there was a badge for just being me.</message>
+			<message id="4207" tags="">I love my member pin.</message>
+			<message id="4208" tags="">I love your member pin.</message>
+			<message id="4209" tags="">Your member pin has lots of jewels!</message>
+			<message id="4210" tags="">I reached the next level of Talent Mastery.</message>
+		</category>
+		
+		<category name="Let's ..."> <!-- 4250 to 4299 -->
+			<message id="4250" tags="">Let's gather.</message>
+			<message id="4251" tags="">Let's gather Bunches.</message>
+			<message id="4252" tags="">Let's go shopping.</message>
+			<message id="4253" tags="">Let's play a game!</message>
+			<message id="4254" tags="">Let's have a party!</message>
+			<message id="4255" tags="">Let's see a play!</message>
+			<message id="4256" tags="">Let's tailor stuff!</message>
+			<message id="4257" tags="">Let's tinker stuff!</message>
+			<message id="4258" tags="">Let's sit and chat for a while.</message>
+			<message id="4259" tags="">Let's sit and have tea.</message>
+			<message id="4260" tags="">Let's play hide &amp; seek.</message>
+			<message id="4261" tags="" type="restricted">Let's race!</message>
+			<message id="4262" tags="">Let's play Fairy tag!</message>
+			<message id="4263" tags="">Let's play again.</message>
+		</category>
+		
+		<category name="News and Postings"> <!-- 4300 to 4349 -->
+			<message id="4300" tags="">Did you read the Never News?</message>
+			<message id="4301" tags="">I love today's Never News.</message>
+			<message id="4302" tags="">Did you see the Events Blog?</message>
+			<message id="4303" tags="">I was featured in the Events Blog.</message>
+			<message id="4304" tags="">Did you read the Pixie Postings?</message>
+			<message id="4305" tags="">I love this week's Pixie Postings!</message>
+			<message id="4306" tags="">I was featured in the Pixie Postings.</message>
+			<message id="4307" tags="">Did you see Tabby post her Tell-All?</message>
+			<message id="4308" tags="">Did you read Tabby's Tell-All?</message>
+			<message id="4309" tags="">The public party list is in the Pixie Postings.</message>
+		</category>
+		
+		<category name="Quests"> <!-- 4350 to 4399 -->
+			<message id="4350" tags="">Help out in the Hollow by questing!</message>
+			<message id="4351" tags="">This is my first time questing.</message>
+			<message id="4352" tags="">Did you finish your quest?</message>
+			<message id="4353" tags="">Where can I get a quest?</message>
+		</category>
+		
+		<category name="Shopping"> <!-- 4400 to 4449 -->
+			<message id="4400" tags="">I need to go shopping.</message>
+			<message id="4401" tags="">I'm looking for a new outfit.</message>
+			<message id="4402" tags="">I'm looking for new home items.</message>
+			<message id="4403" tags="">I'm looking for some nice dye colors.</message>
+			<message id="4404" tags="">I'm looking for a costume.</message>
+			<message id="4405" tags="">I'm thinking of getting my hair done.</message>
+			<message id="4406" tags="">I'm picking up some party decorations!</message>
+			<message id="4407" tags="">I'm picking out some party games!</message>
+			<message id="4408" tags="">I am buying a bigger house!</message>
+			<message id="4409" tags="">I love this shop!</message>
+			<message id="4410" tags="">I love the new collections!</message>
+			<message id="4411" tags="">How do I look?</message>
+			<message id="4412" tags="">What do you think?</message>
+			<message id="4413" tags="">Should I get this?</message>
+			<message id="4414" tags="">I need more ingredients.</message>
+			<message id="4415" tags="">I'm saving up for this.</message>
+			<message id="4416" tags="">That is so beautiful.</message>
+			<message id="4417" tags="">That is so cute.</message>
+			<message id="4418" tags="">That is so elegant.</message>
+			<message id="4419" tags="">That is so flitterific.</message>
+			<message id="4420" tags="">That is so perfect!</message>
+			<message id="4421" tags="">That is so you!</message>
+			<message id="4422" tags="">Wow! Your new hairstyle looks great!</message>
+			<message id="4423" tags="">I love this hairstyle.</message>
+		</category>
+		
+		<category name="Tailoring"> <!-- 4450 to 4499 -->
+			<message id="4450" tags="">Let's tailor at Bobbin's Tailoring Nook.</message>
+			<message id="4451" tags="">Let's tailor at Mendy's Tailoring Nook.</message>
+			<message id="4452" tags="">I'm tailoring at Bobbin's Tailoring Nook.</message>
+			<message id="4453" tags="">I'm tailoring at Mendy's Tailoring Nook.</message>
+			<message id="4454" tags="">Bobbin's Nook is in Springtime Orchard.</message>
+			<message id="4455" tags="">Mendy's Nook is in Maple Tree Hill.</message>
+			<message id="4456" tags="">I need to earn more patterns.</message>
+			<message id="4457" tags="">I love the new patterns for tailoring!</message>
+			<message id="4458" tags="">I'm working on my Tailoring Badges.</message>
+			<message id="4459" tags="">You can make clothes at Bobbin's.</message>
+			<message id="4460" tags="">You can make accessories at Mendy's.</message>
+			<message id="4461" tags="">I tailored this myself.</message>
+			<message id="4462" tags="">I should tailor myself something new.</message>
+			<message id="4463" tags="">I need ingredients for tailoring.</message>
+		</category>
+		
+		<category name="Talent Masters"> <!-- 4500 to 4549 -->
+			<message id="4500" tags="">Visit the Pixie Dust Mill to see Terence.</message>
+			<message id="4501" tags="">Terence gave me a new pixie dust cup!</message>
+			<message id="4502" tags="">I need to earn more Talent Points.</message>
+			<message id="4503" tags="">I just unlocked new patterns!</message>
+			<message id="4504" tags="">I just unlocked a new talent skill!</message>
+			<message id="4505" tags="">Let's use our talent skills in the meadow.</message>
+			<message id="4506" tags="">I'm on my way to becoming a Talent Master!</message>
+		</category>
+		
+		<category name="Tearoom and Ballroom"> <!-- 4550 to 4599 -->
+			<message id="4550" tags="">Shall we sit and have some tea?</message>
+			<message id="4551" tags="">Let's sit and have tea.</message>
+			<message id="4552" tags="">If we sit down at the table, tea will appear.</message>
+			<message id="4553" tags="">Let's have huckleberry shortcake!</message>
+			<message id="4554" tags="">Let's celebrate with some tea.</message>
+			<message id="4555" tags="">Can I pour you some tea?</message>
+			<message id="4556" tags="">Look, an almond-shell honeypot!</message>
+			<message id="4557" tags="">Pass the four-leaf-clover honey, please.</message>
+			<message id="4558" tags="">I love tea time!</message>
+			<message id="4559" tags="">The Tearoom is crowded today.</message>
+			<message id="4560" tags="">Tea between talent games is just flitterific!</message>
+			<message id="4561" tags="">What is your favorite type of tea?</message>
+			<message id="4562" tags="">What type of tea shall I pour for you?</message>
+			<message id="4563" tags="">Do you want to play Crazy Cakes?</message>
+			<message id="4564" tags="">Do you want to play Two for Tea?</message>
+			<message id="4565" tags="">Click on a table to join a game.</message>
+			<message id="4566" tags="">Just the card I needed!</message>
+			<message id="4567" tags="">Just the color I needed!</message>
+			<message id="4568" tags="">What is the card color right now?</message>
+			<message id="4569" tags="">Draw a card.</message>
+			<message id="4570" tags="">Where is the card I need???</message>
+			<message id="4571" tags="">It's your turn.</message>
+			<message id="4572" tags="">Draw two? Aw, jingles.</message>
+			<message id="4573" tags="">I love Crazy Cakes!</message>
+			<message id="4574" tags="">I love Two for Tea!</message>
+			<message id="4575" tags="">Golden Pair? Flitterific!</message>
+			<message id="4576" tags="">Two for Tea in the Tearoom is fun!</message>
+			<message id="4577" tags="">Let's play Two for Tea in the Tearoom.</message>
+			<message id="4578" tags="">The Ballroom is always open to Members!</message>
+		</category>
+		
+		<category name="Tinkering"> <!-- 4600 to 4649 -->
+			<message id="4600" tags="">Let's tinker at Copper's Tinkering Nook!</message>
+			<message id="4601" tags="">I'm tinkering at Copper's Tinkering Nook.</message>
+			<message id="4602" tags="">The Tinkering Nook is in Maple Tree Hill.</message>
+			<message id="4603" tags="">I need to earn more blueprints.</message>
+			<message id="4604" tags="">I'm working on my Tinkering Badges.</message>
+			<message id="4605" tags="">I love it when a blueprint comes together!</message>
+			<message id="4606" tags="">I've got new blueprints to tinker!</message>
+			<message id="4607" tags="">I tinkered that myself.</message>
+			<message id="4608" tags="">I should tinker some new furniture.</message>
+			<message id="4609" tags="">I need ingredients for tinkering.</message>
+			<message id="4610" tags="">Tinker-tastic!</message>
+		</category>
+	
+		<category name="Wilderness"> <!-- 4650 to 4699 -->
+			<message id="4650" tags="">This is my first time in the Wilderness.</message>
+			<message id="4651" tags="">I need more Pixie Dust!</message>
+			<message id="4652" tags="">You need more Pixie Dust!</message>
+			<message id="4653" tags="">I need to eat a dessert!</message>
+			<message id="4654" tags="">You should eat a dessert!</message>
+			<message id="4655" tags="">Let's work together.</message>
+			<message id="4656" tags="">The Silver Trees are in Pumpkin Patch.</message>
+			<message id="4657" tags="">The Bubbly Bog is in Dewdrop Vale.</message>
+			<message id="4658" tags="">The Never Mine is in Chilly Falls.</message>
+			<message id="4659" tags="">Eat a dessert to refill your pixie dust!</message>
+			<message id="4660" tags="">Your color is red.</message>
+			<message id="4661" tags="">Your color is blue.</message>
+			<message id="4662" tags="">Your color is yellow.</message>
+			<message id="4663" tags="">Your color is green.</message>
+			<message id="4664" tags="">You need to click on them.</message>
+			<message id="4665" tags="">Click and shake it with your mouse.</message>
+			<message id="4666" tags="">Click and drag them with your mouse.</message>
+			<message id="4667" tags="">You need to roll over them with your mouse.</message>
+			<message id="4668" tags="">I don't understand what to do for this game.</message>
+			<message id="4669" tags="">I need help finishing this game.</message>
+		</category>
+	
+		<category name="More"> <!-- 4700 to 4749 -->
+			<message id="4700" tags="" type="restricted">Come on, it's time to flit!</message>
+			<message id="4701" tags="" type="restricted">Flap those wings and let's go!</message>
+			<message id="4702" tags="" type="restricted">Get ready, here I come!</message>
+			<message id="4703" tags="" type="restricted">Get those wings flappin'!</message>
+			<message id="4704" tags="" type="restricted">Last one there is a gooseberry!</message>
+			<message id="4705" tags="" type="restricted">Look out, just flying through!</message>
+			<message id="4706" tags="" type="restricted">Moon and stars!</message>
+			<message id="4707" tags="" type="restricted">Well, bless my wings!</message>
+			<message id="4708" tags="" type="restricted">You're as great as laughs and giggles.</message>
+			<message id="4709" tags="" type="restricted">You're as fluttery as a butterfly today.</message>
+			<message id="4710" tags="" type="restricted">You're as pretty as a posy.</message>
+			<message id="4711" tags="" type="restricted">You're as sweet as strawberry pie!</message>
+			<message id="4712" tags="" type="restricted">You're cute as a baby bird!</message>
+			<message id="4713" tags="" type="restricted">You're looking pretty as a rainbow!</message>
+			<message id="4714" tags="" type="restricted">You're my Fairy best friend!</message>
+			<message id="4715" tags="" type="restricted">You're my forever friend.</message>
+			<message id="4716" tags="" type="restricted">You're shining like never gold!</message>
+			<message id="4717" tags="" type="restricted">You're twinkling like a star.</message>
+		</category>
+	</category>
+  
+	<category name="Holiday"> <!-- Uses IDs 5000 to 6999 -->
+		<category name="Art Month"> <!-- 5000 to 5049 --->
+			<message id="5000" tags="Speedchat_ArtMonth">Happy Art Month!</message>
+			<message id="5001" tags="Speedchat_ArtMonth">Show off your artistic side!</message>
+			<message id="5002" tags="Speedchat_ArtMonth">Let your creativity soar!</message>
+			<message id="5003" tags="Speedchat_ArtMonth">You're so creative!</message>
+			<message id="5004" tags="Speedchat_ArtMonth">Art-talent Bess is my pixie hero!</message>
+			<message id="5005" tags="Speedchat_ArtMonth">I got a new hairdo at Schelly's Salon!</message>
+			<message id="5006" tags="Speedchat_ArtMonth">I dyed my hair crazy colors!</message>
+			<message id="5007" tags="Speedchat_ArtMonth">I decorated my Fairy Home for Art Month!</message>
+			<message id="5008" tags="Speedchat_ArtMonth">My outfit is in honor of Art Month!</message>
+		</category>
+		
+		<category name="Sweet Week"> <!-- 5050 to 5099 --->
+			<message id="5050" tags="Speedchat_SweetWeek">Sweet Week is candy-riffic!</message>
+			<message id="5051" tags="Speedchat_SweetWeek">Your outfit is SWEET!</message>
+			<message id="5052" tags="Speedchat_SweetWeek">Leave a tray of cookies in your home!</message>
+			<message id="5053" tags="Speedchat_SweetWeek">I got a Heart Trail Silly Sweet!</message>
+			<message id="5054" tags="Speedchat_SweetWeek">I tinkered a Cute as a Cupcake Vanity!</message>
+			<message id="5055" tags="Speedchat_SweetWeek">You can tinker your own at Copper's!</message>
+			<message id="5056" tags="Speedchat_SweetWeek">What's your favorite recipe?</message>
+			<message id="5057" tags="Speedchat_SweetWeek">I love cupcakes and cakes!</message>
+			<message id="5058" tags="Speedchat_SweetWeek">Dulcie's the best baking-talent ever!</message>
+			<message id="5059" tags="Speedchat_SweetWeek">Silly Sweet Parade!</message>
+		</category>
+	   
+		<category name="Fairy Friendship Festival"> <!-- 5110 to 5149 --->
+			<message id="5100" tags="Speedchat_FairyFriendship">Fairy friends are flitterific!</message>
+			<message id="5101" tags="Speedchat_FairyFriendship">Will you be my pixie pal?!</message>
+			<message id="5102" tags="Speedchat_FairyFriendship">You are my best Fairy friend forever.</message>
+			<message id="5103" tags="Speedchat_FairyFriendship">You're like a sister to me!</message>
+			<message id="5104" tags="Speedchat_FairyFriendship">Have you done Tink's new quest?</message>
+			<message id="5105" tags="Speedchat_FairyFriendship">Go see Tink to get a quest!</message>
+			<message id="5106" tags="Speedchat_FairyFriendship">Tink needs help with a gift for Peri!</message>
+			<message id="5107" tags="Speedchat_FairyFriendship">How do I get the friendship badge?</message>
+			<message id="5108" tags="Speedchat_FairyFriendship">Get the Heart Accessory Set!</message>
+			<message id="5109" tags="Speedchat_FairyFriendship">Put on your Heart Accessory Set!</message>
+			<message id="5110" tags="Speedchat_FairyFriendship">Everybody use the Heart Emote!</message>
+			<message id="5111" tags="Speedchat_FairyFriendship">Did your Animal Friend bring you a gift?</message>
+			<message id="5112" tags="Speedchat_FairyFriendship">My animal and I are both wearing hearts!</message>
+		</category>
+	
+		<category name="Spring Celebration Prep"> <!-- 5150 to 5199 --->
+			<message id="5150" tags="Speedchat_SpringPrep">I can't wait for spring to come!</message>
+			<message id="5151" tags="Speedchat_SpringPrep">Lend a wing for spring!</message>
+			<message id="5152" tags="Speedchat_SpringPrep">I am helping Rosetta plant seeds!</message>
+			<message id="5153" tags="Speedchat_SpringPrep">I got a seed packet for helping Rosetta!</message>
+			<message id="5154" tags="Speedchat_SpringPrep">Have you helped Rosetta with her quest?</message>
+			<message id="5155" tags="Speedchat_SpringPrep">I hope we can plant enough seeds!</message>
+			<message id="5156" tags="Speedchat_SpringPrep">Wings crossed for spring!</message>
+		</category>
+	   
+		<category name="Clover Chaos"> <!-- 5200 to 5249 --->
+			<message id="5200" tags="Speedchat_CloverCrisis">I am helping Fawn find the baby animals!</message>
+			<message id="5201" tags="Speedchat_CloverCrisis">Have you seen the missing baby animals?</message>
+			<message id="5202" tags="Speedchat_CloverCrisis">The baby animals have escaped!</message>
+			<message id="5203" tags="Speedchat_CloverCrisis">I got a badge for helping Fawn!</message>
+			<message id="5204" tags="Speedchat_CloverCrisis">There's so much clover in the  meadows!</message>
+			<message id="5205" tags="Speedchat_CloverCrisis">We must have planted a lot of seeds!</message>
+			<message id="5206" tags="Speedchat_CloverCrisis">It's clover chaos in the Hollow!</message>
+			<message id="5207" tags="Speedchat_CloverCrisis">Have you seen the new Silly Sweet?</message>
+			<message id="5208" tags="Speedchat_CloverCrisis">Rainbow Trail Silly Sweets at Dulcie's!</message>
+		</category>
+		
+		<category name="Flood"> <!-- 5250 to 5299 --->
+			<message id="5250" tags="Speedchat_SpringFlood">Oh no! The spring meadows are flooded!</message>
+			<message id="5251" tags="Speedchat_SpringFlood">Rain, rain, go away!</message>
+			<message id="5252" tags="Speedchat_SpringFlood">We have to save spring!</message>
+			<message id="5253" tags="Speedchat_SpringFlood">Try not to get your wings wet!</message>
+			<message id="5254" tags="Speedchat_SpringFlood">Fly to Iridessa for a new quest!</message>
+			<message id="5255" tags="Speedchat_SpringFlood">I helped Dessa make sunbeams for spring!</message>
+			<message id="5256" tags="Speedchat_SpringFlood">Where'd you get your umbrella?</message>
+			<message id="5257" tags="Speedchat_SpringFlood">I got my umbrella from the Ballroom!</message>
+			<message id="5258" tags="Speedchat_SpringFlood">The Everblossom's safe in the Ballroom!</message>
+			<message id="5259" tags="Speedchat_SpringFlood">The Everblossom is so beautiful!</message>
+		</category>
+	   
+		<category name="Spring Celebration"> <!-- 5300 to 5349 --->
+			<message id="5300" tags="Speedchat_SpringEquinox">Happy spring, pixie pal!</message>
+			<message id="5301" tags="Speedchat_SpringEquinox">We made spring bright for everyone!</message>
+			<message id="5302" tags="Speedchat_SpringEquinox">Check out all the rainbows!</message>
+			<message id="5303" tags="Speedchat_SpringEquinox">The meadows look shimmerific!</message>
+			<message id="5304" tags="Speedchat_SpringEquinox">I'm glad the sun's out again!</message>
+			<message id="5305" tags="Speedchat_SpringEquinox">Did you find all 10 golden clovers?</message>
+			<message id="5306" tags="Speedchat_SpringEquinox">I found all of the golden clovers!</message>
+			<message id="5307" tags="Speedchat_SpringEquinox">Where are the golden clovers?</message>
+			<message id="5308" tags="Speedchat_SpringEquinox">Golden clovers are in spring meadows!</message>
+			<message id="5309" tags="Speedchat_SpringEquinox">A golden clover's hidden right here!</message>
+			<message id="5310" tags="Speedchat_SpringEquinox">Get your rainbow seeds in the Ballroom!</message>
+		</category>
+	   
+		<category name="Never Dove Egg Hunt"> <!-- 5350 to 5399 --->
+			<message id="5350" tags="Speedchat_NeverDove">It's the Never Dove Egg Hunt!</message>
+			<message id="5351" tags="Speedchat_NeverDove">Did you find all 15 Never Dove Eggs?</message>
+			<message id="5352" tags="Speedchat_NeverDove">I got a badge for finding all 15 Eggs!</message>
+			<message id="5353" tags="Speedchat_NeverDove">I found the Golden Egg!</message>
+			<message id="5354" tags="Speedchat_NeverDove">Help me look for Never Dove Eggs!</message>
+			<message id="5355" tags="Speedchat_NeverDove">I can't find all the Never Dove Eggs.</message>
+			<message id="5356" tags="Speedchat_NeverDove">I saw an egg over here, follow me!</message>
+			<message id="5357" tags="Speedchat_NeverDove">There are eggs in Havendish!</message>
+			<message id="5358" tags="Speedchat_NeverDove">There are eggs in the Tearoom!</message>
+			<message id="5359" tags="Speedchat_NeverDove">There are eggs in the Ballroom!</message>
+			<message id="5360" tags="Speedchat_NeverDove">There are eggs in the Theater!</message>
+			<message id="5361" tags="Speedchat_NeverDove">There are eggs in the Fairy Coliseum!</message>
+			<message id="5362" tags="Speedchat_NeverDove">The Golden Egg is in the Ballroom!</message>
+			<message id="5363" tags="Speedchat_NeverDove">Good luck with the egg hunt!</message>
+			<message id="5364" tags="Speedchat_NeverDove">This party is "egg-cellent!"</message>
+			<message id="5365" tags="Speedchat_NeverDove">Check out the real egg in the Ballroom!</message>
+			<message id="5366" tags="Speedchat_NeverDove">Aww, the chickie is so cute!</message>
+			<message id="5367" tags="Speedchat_NeverDove">I am helping Fawn with a mystery!</message>
+			<message id="5368" tags="Speedchat_NeverDove">Fawn gave me a fancy egg purse!</message>
+			<message id="5369" tags="Speedchat_NeverDove">Wanna have an egg hunt at my Fairy Home?</message>
+		</category>	
+	   
+		<category name="Silly Days"> <!-- 5400 to 5449 --->
+			<message id="5400" tags="Speedchat_SillyDays">Happy Silly Days!</message>
+			<message id="5401" tags="Speedchat_SillyDays">Silly Days are so funny, I love jokes!</message>
+			<message id="5402" tags="Speedchat_SillyDays">Heard any good jokes lately?</message>
+			<message id="5403" tags="Speedchat_SillyDays">I just watched a comedy show!</message>
+			<message id="5404" tags="Speedchat_SillyDays">Put on your Wacky Rainbow Wig!</message>
+			<message id="5405" tags="Speedchat_SillyDays">Have you done Silvermist's new quest?</message>
+			<message id="5406" tags="Speedchat_SillyDays">I got the key to Mermaid Grotto!</message>
+			<message id="5407" tags="Speedchat_SillyDays">Have you been to Mermaid Grotto?</message>
+			<message id="5408" tags="Speedchat_SillyDays">Have you heard the mermaids giggling?</message>
+			<message id="5409" tags="Speedchat_SillyDays">Get the Lobster Suit in Mermaid Grotto!</message>
+			<message id="5410" tags="Speedchat_SillyDays">I love your lobster suit!</message>
+			<message id="5411" tags="Speedchat_SillyDays">There is some silly stuff at Cassie's!</message>
+			<message id="5412" tags="Speedchat_SillyDays">Mermaids love to sing!</message>
+			<message id="5413" tags="Speedchat_SillyDays">Use the Singing Emote!</message>
+		</category>
+		
+		<category name="Mermaid Party"> <!-- 5450 to 5499 --->
+			<message id="5450" tags="Speedchat_MermaidParty">The Mermaid Party is a dream come true!</message>
+			<message id="5451" tags="Speedchat_MermaidParty">Have you done Silvermist's new quest?</message>
+			<message id="5452" tags="Speedchat_MermaidParty">I got the key to Mermaid Grotto!</message>
+			<message id="5453" tags="Speedchat_MermaidParty">Meet you in Mermaid Grotto!</message>
+			<message id="5454" tags="Speedchat_MermaidParty">Get to the Grotto from Palm Tree Cove!</message>
+			<message id="5455" tags="Speedchat_MermaidParty">Did you see a mermaid?</message>
+			<message id="5456" tags="Speedchat_MermaidParty">MERMAID SIGHTING!</message>
+			<message id="5457" tags="Speedchat_MermaidParty">Mermaids love to sing!</message>
+			<message id="5458" tags="Speedchat_MermaidParty">Use the Singing Emote!</message>
+			<message id="5459" tags="Speedchat_MermaidParty">Get seashell furniture in the Grotto!</message>
+			<message id="5460" tags="Speedchat_MermaidParty">I'm the Merfairy Empress!</message>
+			<message id="5461" tags="Speedchat_MermaidParty">Your Merfairy outfit is splashtastic!</message>
+			<message id="5462" tags="Speedchat_MermaidParty">See Kit for a Nature Days quest!</message>
+			<message id="5463" tags="Speedchat_MermaidParty">Take a pledge for Nature!</message>
+			<message id="5464" tags="Speedchat_MermaidParty">Think of ways you can save water!</message>
+		</category>
+	   
+		<category name="Nature Days"> <!-- 5500 to 5549 --->
+			<message id="5500" tags="Speedchat_NatureDays">Nature needs our help!</message>
+			<message id="5501" tags="Speedchat_NatureDays">Kit has a paw-some new mainland quest!</message>
+			<message id="5502" tags="Speedchat_NatureDays">Have you gotten the new badge from Kit?</message>
+			<message id="5503" tags="Speedchat_NatureDays">How are you helping nature?</message>
+			<message id="5504" tags="Speedchat_NatureDays">I made a list of ways I can help nature!</message>
+			<message id="5505" tags="Speedchat_NatureDays">The little things add up!</message>
+			<message id="5506" tags="Speedchat_NatureDays">Let's keep the mainland beautiful!</message>
+			<message id="5507" tags="Speedchat_NatureDays">The Never News has more ways to help.</message>
+			<message id="5508" tags="Speedchat_NatureDays">Enter the Fairy Art for Nature Contest!</message>
+			<message id="5509" tags="Speedchat_NatureDays">A seed will be planted for every entry!</message>
+		</category>
+	
+		<category name="Animal Mother's Day"> <!-- 5550 to 5599 --->
+			<message id="5550" tags="Speedchat_MothersDay">Happy Animal Mother's Day!</message>
+			<message id="5551" tags="Speedchat_MothersDay">The animal mothers need a break!</message>
+			<message id="5552" tags="Speedchat_MothersDay">Have you gone on Rosetta's quest yet?</message>
+			<message id="5553" tags="Speedchat_MothersDay">Yes! I got my Animal Mother's Day badge!</message>     
+			<message id="5554" tags="Speedchat_MothersDay">Let's visit all of the baby animals.</message>
+			<message id="5555" tags="Speedchat_MothersDay">I love taking care of the baby animals.</message>
+			<message id="5556" tags="Speedchat_MothersDay">Wash the baby bunny!</message>    
+			<message id="5557" tags="Speedchat_MothersDay">He's giggling! Hee hee!</message> 
+			<message id="5558" tags="Speedchat_MothersDay">Feed the baby chipmunk!</message>
+			<message id="5559" tags="Speedchat_MothersDay">Those acorn chips look yummy!</message>
+			<message id="5560" tags="Speedchat_MothersDay">Sing the owl to sleep!</message>
+			<message id="5561" tags="Speedchat_MothersDay">Buy the Stars Are Out Cap at Cassie's!</message>
+			<message id="5562" tags="Speedchat_MothersDay">Play with the kitten in Sunflower Gully!</message>
+			<message id="5563" tags="Speedchat_MothersDay">Aww! The kitten is soo cute!</message>
+			<message id="5564" tags="Speedchat_MothersDay">Where'd you get that kitten hat?</message>
+			<message id="5565" tags="Speedchat_MothersDay">Get a Kitten Knit Hat in the Ballroom!</message>
+		</category>
+
+		<category name="Garden Tea Party"> <!-- 5600 to 5649 --->
+			<message id="5600" tags="Speedchat_TeaParty">Welcome to the Garden Tea Party!</message>
+			<message id="5601" tags="Speedchat_TeaParty">Would you care for some tea?</message>
+			<message id="5602" tags="Speedchat_TeaParty">A cup o' tea, please!</message>
+			<message id="5603" tags="Speedchat_TeaParty">How about some cake?</message>
+			<message id="5604" tags="Speedchat_TeaParty">Mmmm, delicious! Thanks!</message>
+			<message id="5605" tags="Speedchat_TeaParty">I got my Teatime Treat badge!</message>
+			<message id="5606" tags="Speedchat_TeaParty">I got my At Your Service badge!</message>
+			<message id="5607" tags="Speedchat_TeaParty">I got my Tip Top Tea Brewer badge!</message>
+			<message id="5608" tags="Speedchat_TeaParty">I'm helping Fawn find the white rabbit!</message>
+			<message id="5609" tags="Speedchat_TeaParty">I got this flitterific scepter from Fawn!</message>
+			<message id="5610" tags="Speedchat_TeaParty">I'm baking tea scones!</message>
+			<message id="5611" tags="Speedchat_TeaParty">I'm a baking-talent, just like Dulcie!</message>
+			<message id="5612" tags="Speedchat_TeaParty">Where did you get a Magic Tea Cake?</message>
+			<message id="5613" tags="Speedchat_TeaParty">I got a Magic Tea Cake at Harmony's!</message>
+			<message id="5614" tags="Speedchat_TeaParty">I got a Magic Tea Cake in the Ballroom!</message>
+			<message id="5615" tags="Speedchat_TeaParty">Where did you get a Magic Tea Drink?</message>
+			<message id="5617" tags="Speedchat_TeaParty">I got a Magic Tea Drink at Harmony's!</message>
+			<message id="5618" tags="Speedchat_TeaParty">I got a Magic Tea Drink in the Ballroom!</message>
+			<message id="5619" tags="Speedchat_TeaParty">Where did you get your fancy outfit?</message>
+			<message id="5620" tags="Speedchat_TeaParty">I got my fancy outfit at Cassie's!</message>
+			<message id="5621" tags="Speedchat_TeaParty">Where do I get the tea party hats?</message>
+			<message id="5622" tags="Speedchat_TeaParty">Get the tea party hats at Cassie's!</message>
+		</category>
+		
+		<category name="Summer Equinox"> <!-- 5650 to 5654 -->
+			<message id="5650" tags="Speedchat_SummerEquinox">The Minister of Summer is here!</message>
+			<message id="5651" tags="Speedchat_SummerEquinox">Clap for the Minister of Summer!</message>			
+		</category>
+		
+		<category name="Farewell Pixie Hollow">
+			<message id="7200" tags="Speedchat_EndofDays">When does Pixie Hollow close?</message>
+			<message id="7201" tags="Speedchat_EndofDays">Pixie Hollow closes on Sept 19, 2013!</message>
+			<message id="7202" tags="Speedchat_EndofDays">Thanks for being my fairy friend!</message>
+			<message id="7203" tags="Speedchat_EndofDays">I'm going to miss Pixie Hollow!</message>
+			<message id="7204" tags="Speedchat_EndofDays">Don't forget to print your outfits!</message>
+			<message id="7205" tags="Speedchat_EndofDays">Did you get the badge in the Ballroom?</message>
+			<message id="7506" tags="Speedchat_EndofDays">All fairies can go to the Ballroom now!</message>
+			<message id="7507" tags="Speedchat_EndofDays">It's been fun!</message>
+			<message id="7508" tags="Speedchat_EndofDays">Fly with you later!</message>
+		</category>
+		
+		<category name="Camp Pixie Dust"> <!-- 5655 to 5699 --->
+			<message id="5655" tags="Speedchat_Camp">I signed up for Camp Pixie Dust!</message>
+			<message id="5656" tags="Speedchat_Camp">Sign up for camp in Havendish!</message>
+			<message id="5657" tags="Speedchat_Camp">Which Camp Troop are you in?</message>
+			<message id="5663" tags="Speedchat_Camp">Yay! We're in the same troop!</message>
+			<message id="5664" tags="Speedchat_Camp">Summer is for eating s'mores!</message>
+			<message id="5665" tags="Speedchat_Camp">Everybody eat the Fireworks Silly Sweet!</message>
+			<message id="5666" tags="Speedchat_Camp">Pool Party in the Ballroom!</message>
+			<message id="5667" tags="Speedchat_Camp">Sign up for camp to help your troop!</message>
+			<message id="5668" tags="Speedchat_Camp">Hope my troop wins the Challenge!</message>
+			<message id="5669" tags="Speedchat_Camp">Let's see Lyria at Fairy Tale Theater!</message>
+			
+			<message id="5670" tags="Quest_Camp2013_1">I'm working on an epic Fawn quest!</message>
+			<message id="5671" tags="Quest_Camp2013_2">I'm working on an epic Rosetta quest!</message>
+			<message id="5672" tags="Quest_Camp2013_3">I'm working on an epic Tink quest!</message>
+			<message id="5673" tags="Quest_Camp2013_4">I'm working on an epic Silvermist quest!</message>
+			<message id="5674" tags="Quest_Camp2013_5">I'm working on an epic Iridessa quest!</message>
+			 
+			<message id="5675" tags="Quest_Camp2013_1">Have you found the Never Unicorn?</message>
+		
+			<message id="5676" tags="Quest_Camp2013_1">Where'd you get your bunny slippers?</message>
+			<message id="5677" tags="Quest_Camp2013_1">Tailor bunny slippers at Mendy's!</message>
+			<message id="5678" tags="Quest_Camp2013_2">I made a butterfly mosaic at Copper's!</message>
+			<message id="5679" tags="Quest_Camp2013_2">I put my mosaic in my Fairy Garden!</message>
+			<message id="5680" tags="Quest_Camp2013_3">Where'd you get your messenger bag?</message>
+			<message id="5681" tags="Quest_Camp2013_3">I made a Turtle Satchel at Bobbin's!</message>
+			<message id="5682" tags="Quest_Camp2013_4">Where'd you get your Otter Hat?</message>
+			<message id="5683" tags="Quest_Camp2013_4">Make a Furry Knit Otter Hat at Bobbin's!</message>
+			<message id="5684" tags="Quest_Camp2013_5">I made Glowworm Lights at Copper's!</message>
+		</category>
+		
+		<category name="Wilderness Explorer Weeks">
+			<message id="5685" tags="Speedchat_Camp_Wilderness">Help your troop save the squirrels!</message>
+			<message id="5686" tags="Speedchat_Camp_Wilderness">I got my Wilderness Explorer badge!</message>
+			<message id="5687" tags="Speedchat_Camp_Wilderness">How do I get the Wilderness Explorer badge?</message>
+			<message id="5688" tags="Speedchat_Camp_Wilderness">Go help 5 squirrels in the Wilderness!</message>
+			<message id="5689" tags="Speedchat_Camp_Wilderness">Hope my troop wins the Challenge!</message>
+		</category>
+		
+		<category name="Flower Power Weeks">
+			<message id="5690" tags="Speedchat_Camp_Flower">Plant seeds to help your troop!</message>
+			<message id="5691" tags="Speedchat_Camp_Flower">I got my Flower Power badge!</message>
+			<message id="5692" tags="Speedchat_Camp_Flower">How'd you get your Flower Power badge?</message>
+			<message id="5693" tags="Speedchat_Camp_Flower">Grow 5 1-day seeds in your Fairy Garden!</message>
+			<message id="5694" tags="Speedchat_Camp_Flower">Hope my troop wins the Challenge!</message>
+		</category>
+		
+		<category name="Summer Splash Party">
+			<message id="5695" tags="Speedchat_Camp_Craft">Where is the Lucky Fish?</message>
+			<message id="5696" tags="Speedchat_Camp_Craft">Follow me to the Lucky Fish!</message>
+			<message id="5697" tags="Speedchat_Camp_Craft">I found the Lucky Fish!</message>
+			<message id="5698" tags="Speedchat_Camp_Craft">Happy Summer Splash Party!</message>
+			<message id="5699" tags="Speedchat_Camp_Craft">Let's do the hula!</message>
+			<message id="5700" tags="Speedchat_Camp_Craft">I love your tropical outfit!</message>
+		</category>
+		
+		<category name="Pixie Party Weeks">
+			<message id="5701" tags="Speedchat_Camp_Party">Throw a Summer Party to help your troop!</message>
+			<message id="5702" tags="Speedchat_Camp_Party">I got my Pixie Party badge!</message>
+			<message id="5703" tags="Speedchat_Camp_Party">How'd you get your Pixie Party badge?</message>
+			<message id="5704" tags="Speedchat_Camp_Party">Host a Summer Party!</message>
+			<message id="5705" tags="Speedchat_Camp_Party">Where do I get a Summer Party?</message>
+			<message id="5706" tags="Speedchat_Camp_Party">Look for a Summer Party at Phoebe's!</message>
+			<message id="5707" tags="Speedchat_Camp_Party">Hope my troop wins the Challenge!</message>
+			<message id="5708" tags="Speedchat_Camp_Party">I love the Pixie Party dresses at Gale's!</message>
+		</category>
+		
+		<category name="Camp Craft Weeks">
+			<message id="5709" tags="Speedchat_Camp_Craft">Practice tinkering to help your troop!</message>
+			<message id="5710" tags="Speedchat_Camp_Craft">I got my Creative Crafting badge!</message>
+			<message id="5711" tags="Speedchat_Camp_Craft">How'd you get your Creative Crafting badge?</message>
+			<message id="5712" tags="Speedchat_Camp_Craft">Practice tinker 5 times!</message>
+			<message id="5713" tags="Speedchat_Camp_Craft">Hope my troop wins the Challenge!</message>
+		</category>
+		
+		<category name="The Never Unicorn">
+			<message id="5714" tags="Speedchat_Camp_Unicorn">Find the Never Unicorn to help your troop!</message>
+			<message id="5715" tags="Speedchat_Camp_Unicorn">I got my Never Unicorn Seeker badge!</message>
+			<message id="5716" tags="Speedchat_Camp_Unicorn">How do I get the Never Unicorn badge?</message>
+			<message id="5717" tags="Speedchat_Camp_Unicorn">Go see Iridessa in Sunflower Gully!</message>
+			<message id="5718" tags="Speedchat_Camp_Unicorn">Hope my troop wins the Challenge!</message>
+		</category>
+
+		<category name="End-of-Summer Sparkler"> <!-- 5950 to 5999 --->
+			<message id="5719" tags="Speedchat_Sparkler">Happy End-of-Summer Sparkler!</message>
+			<message id="5720" tags="Speedchat_Sparkler">Have you seen Springtime Orchard?</message>
+			<message id="5721" tags="Speedchat_Sparkler">Let's fly to Acorn Summit!</message>
+			<message id="5722" tags="Speedchat_Sparkler">The darkened meadows are so pretty!</message>
+			<message id="5723" tags="Speedchat_Sparkler">You light up my life, pixie pal!</message>
+			<message id="5724" tags="Speedchat_Sparkler">I'm throwing a Neverlight Party!</message>
+			<message id="5725" tags="Speedchat_Sparkler">Where do I get a Neverlight Party?</message>
+			<message id="5726" tags="Speedchat_Sparkler">Look for a Neverlight Party at Phoebe's!</message>
+			<message id="5727" tags="Speedchat_Sparkler">I got the End-of-Summer Sparkler badge!</message>
+			<message id="5728" tags="Speedchat_Sparkler">Can you believe summer is almost over?</message>
+			<message id="5729" tags="Speedchat_Sparkler">We made flaptastic memories at camp!</message>
+		</category>
+	
+		<category name="Troop Rabbit"> <!-- 5700 to 5749 --->
+			<message id="5658" tags="Speedchat_Camp">I'm in Troop Rabbit!</message>
+			<message id="5730" tags="Speedchat_Camp">Show off your Troop Rabbit spirit!</message>
+			<message id="5731" tags="Speedchat_Camp">Twitch your nose and flap your paw!</message>
+			<message id="5732" tags="Speedchat_Camp">We're the Rabbits, rah rah rah!</message>
+			<message id="5733" tags="Speedchat_Camp">Use the Troop Rabbit emote!</message>
+			<message id="5734" tags="Speedchat_Camp">All of the troops are critterific!</message>
+			<message id="5735" tags="Speedchat_Camp">How do I show Troop Rabbit spirit?</message>
+			<message id="5736" tags="Speedchat_Camp">First you have to go to Maple Tree Hill!</message>
+			<message id="5737" tags="Speedchat_Camp">Show the rabbit emote with 4 pixies!</message>
+		</category>
+		
+		<category name="Troop Butterfly"> <!-- 5750 to 5799 --->
+			<message id="5659" tags="Speedchat_Camp">I'm in Troop Butterfly!</message>
+			<message id="5738" tags="Speedchat_Camp">Show off your Troop Butterfly spirit!</message>
+			<message id="5739" tags="Speedchat_Camp">Raise your spirits, I'll tell you why!</message>
+			<message id="5740" tags="Speedchat_Camp">Cause we're the troop of the butterfly!</message>
+			<message id="5741" tags="Speedchat_Camp">Use the Troop Butterfly emote!</message>
+			<message id="5742" tags="Speedchat_Camp">Butterflies love playing pranks!</message>
+			<message id="5743" tags="Speedchat_Camp">All of the troops are plant-tastic!</message>
+			<message id="5744" tags="Speedchat_Camp">How do I show Troop Butterfly spirit?</message>
+			<message id="5745" tags="Speedchat_Camp">First you have to go to Cherryblossom!</message>
+			<message id="5746" tags="Speedchat_Camp">Show the butterfly emote with 4 pixies!</message>
+		</category>
+		
+  
+		<category name="Troop Otter"> <!-- 5800 to 5849 --->
+			<message id="5660" tags="Speedchat_Camp">I'm in Troop Otter!</message>
+			<message id="5747" tags="Speedchat_Camp">Show off your Troop Otter spirit!</message>
+			<message id="5748" tags="Speedchat_Camp">Make a splash, give a holler!</message>
+			<message id="5749" tags="Speedchat_Camp">Show off your pride for Troop Otter!</message>
+			<message id="5750" tags="Speedchat_Camp">Use the Troop Otter emote!</message>
+			<message id="5751" tags="Speedchat_Camp">Otter bonds can't be broken!</message>
+			<message id="5752" tags="Speedchat_Camp">All of the troops are splashtastic!</message>
+			<message id="5753" tags="Speedchat_Camp">How do I show Troop Otter spirit?</message>
+			<message id="5754" tags="Speedchat_Camp">First you have to go to Dewdrop Vale!</message>
+			<message id="5755" tags="Speedchat_Camp">Show the otter emote with 4 pixies!</message>			
+		</category>
+		
+		
+		<category name="Troop Turtle"> <!-- 5850 to 5899 --->
+			<message id="5661" tags="Speedchat_Camp">I'm in Troop Turtle!</message>
+			<message id="5756" tags="Speedchat_Camp">Show off your Troop Turtle spirit!</message>
+			<message id="5757" tags="Speedchat_Camp">Clap your hands and stomp your feet!</message>
+			<message id="5758" tags="Speedchat_Camp">Cause turtle spirit can't be beat!</message>
+			<message id="5759" tags="Speedchat_Camp">YAY TURTLES!</message>
+			<message id="5760" tags="Speedchat_Camp">Use the Troop Turtle emote!</message>
+			<message id="5761" tags="Speedchat_Camp">Turtles always carry a reminder of home!</message>
+			<message id="5762" tags="Speedchat_Camp">All of the troops are tinkertastic!</message>
+			<message id="5763" tags="Speedchat_Camp">How do I show Troop Turtle spirit?</message>
+			<message id="5764" tags="Speedchat_Camp">First you have to go to Cottonpuff!</message>
+			<message id="5765" tags="Speedchat_Camp">Show the turtle emote with 4 pixies!</message>
+		</category>
+		
+		<category name="Troop Glowworm"> <!-- 5900 to 5949 --->
+			<message id="5662" tags="Speedchat_Camp">I'm in Troop Glowworm!</message>
+			<message id="5766" tags="Speedchat_Camp">Show off your Troop Glowworm spirit!</message>
+			<message id="5767" tags="Speedchat_Camp">Show your spirit, shout out loud!</message>
+			<message id="5768" tags="Speedchat_Camp">We're the glowworms and we're proud!</message>
+			<message id="5769" tags="Speedchat_Camp">Use the Troop Glowworm emote!</message>
+			<message id="5770" tags="Speedchat_Camp">All of the troops are shimmerific!</message>
+			<message id="5771" tags="Speedchat_Camp">How do I show Troop Glowworm Spirit?</message>
+			<message id="5772" tags="Speedchat_Camp">First you have to go to Sunflower Gully!</message>
+			<message id="5773" tags="Speedchat_Camp">Show the glowworm emote with 4 pixies!</message>
+		</category>
+				
+		<category name="Changing of the Leaves"> <!-- 6000 to 6049 --->
+			<message id="6000" tags="Speedchat_ChangeLeaves">Happy Changing of the Leaves!</message>
+			<message id="6001" tags="Speedchat_ChangeLeaves">Think we can paint all these leaves in time?</message>
+			<message id="6002" tags="Speedchat_ChangeLeaves">Let's start painting!</message>
+			<message id="6003" tags="Speedchat_ChangeLeaves">Let's paint those leaves orange and red!</message>
+			<message id="6004" tags="Speedchat_ChangeLeaves">Autumn is on its way!</message>
+			<message id="6005" tags="Speedchat_ChangeLeaves">Have you earned the badge?</message>
+			<message id="6006" tags="Speedchat_ChangeLeaves">Click all 4 painting machines!</message>
+			<message id="6007" tags="Speedchat_ChangeLeaves">Autumn is my favorite season!</message>
+			<message id="6008" tags="Speedchat_ChangeLeaves">I can't wait for autumn!</message>
+		</category>
+	
+		<category name="Autumn Equinox"> <!-- 6050 to 6099 --->
+			<message id="6050" tags="Speedchat_AutumnEquinox">Pixies, Autumn has arrived!</message>
+			<message id="6051" tags="Speedchat_AutumnEquinox">Summer was so short!</message>
+			<message id="6052" tags="Speedchat_AutumnEquinox">The leaf-painting pixies did a good job!</message>
+			<message id="6053" tags="Speedchat_AutumnEquinox">I love when the leaves change color!</message>
+			<message id="6054" tags="Speedchat_AutumnEquinox">Autumn leaves are so pretty!</message>
+			<message id="6055" tags="Speedchat_AutumnEquinox">The Golden Acorn Hunt has begun!</message>
+			<message id="6056" tags="Speedchat_AutumnEquinox">Where are the golden acorns?</message>
+			<message id="6057" tags="Speedchat_AutumnEquinox">Look for acorns in the autumn meadows!</message>
+			<message id="6058" tags="Speedchat_AutumnEquinox">I found all 12 golden acorns!</message>
+			<message id="6059" tags="Speedchat_AutumnEquinox">I love your new autumn outfit!</message>
+			<message id="6060" tags="Speedchat_AutumnEquinox">I look like the Minister of Autumn!</message>	
+			<message id="6061" tags="Speedchat_AutumnEquinox">You look as pretty as an autumn leaf!</message>
+			<message id="6062" tags="Speedchat_AutumnEquinox">I want a golden acorn necklace, too!</message>
+			<message id="6063" tags="Speedchat_AutumnEquinox">I got my acorn necklace in the Ballroom!</message>
+			<message id="6064" tags="Speedchat_AutumnEquinox">I dyed my outfit autumn colors!</message>
+		</category>
+	
+		<category name="Animal Masquerade"> <!-- 6100 to 6149 --->
+			<message id="6100" tags="Speedchat_Masquerade">Trick or Treat!</message>
+			<message id="6101" tags="Speedchat_Masquerade">The Animal Masquerade is critterific!</message>
+			<message id="6102" tags="Speedchat_Masquerade">Visit Fawn for a fun and spooky quest!</message>
+			<message id="6103" tags="Speedchat_Masquerade">Fly to Fairy Tale Theater, if you dare!</message>
+			<message id="6104" tags="Speedchat_Masquerade">The animals made a Haunted Dollhouse!</message>
+			<message id="6105" tags="Speedchat_Masquerade">Want to go trick or treating?</message>
+			<message id="6106" tags="Speedchat_Masquerade">How do I trick or treat?</message>
+			<message id="6107" tags="Speedchat_Masquerade">Get a Trick or Treat Basket at Cassie's!</message>
+			<message id="6108" tags="Speedchat_Masquerade">Say "Trick or Treat!" near the pumpkins!</message>
+			<message id="6109" tags="Speedchat_Masquerade">I got the Animal Masquerade badge!</message>
+			<message id="6110" tags="Speedchat_Masquerade">Trick or Treat at all 12 spots for a badge!</message>
+			<message id="6111" tags="Speedchat_Masquerade">I got all 12 trick or treat prizes!</message>
+			<message id="6112" tags="Speedchat_Masquerade">I love your costume!</message>
+			<message id="6113" tags="Speedchat_Masquerade">I'm a flitterific fox!</message>
+			<message id="6114" tags="Speedchat_Masquerade">I'm a rockin' raccoon! </message>
+			<message id="6115" tags="Speedchat_Masquerade">I'm a pretty peacock!</message>
+			<message id="6116" tags="Speedchat_Masquerade">I'm a magical wizard!</message>
+			<message id="6117" tags="Speedchat_Masquerade">I'm a good witch!</message>
+			<message id="6118" tags="Speedchat_Masquerade">Guess what I am? BZZZZZZZ!</message>
+			<message id="6119" tags="Speedchat_Masquerade">I'm a lovely ladybug!</message>
+			<message id="6120" tags="Speedchat_Masquerade">I'm a blazing firefly!</message>
+			<message id="6121" tags="Speedchat_Masquerade">I'm a whizzing dragonfly!</message>
+			<message id="6122" tags="Speedchat_Masquerade">I love this hummingbird outfit!</message>
+			<message id="6123" tags="Speedchat_Masquerade">I baked Jack-o-lantern cookies!</message>
+		</category>
+  
+		<category name="Chilly Critter Crossing"> <!-- 6150 to 6199 --->
+			<message id="6150" tags="Speedchat_SisterPrep">Help Tink with the animal crossing!</message>
+			<message id="6151" tags="Speedchat_SisterPrep">Go see Tinker Bell for a quest!</message>
+			<message id="6152" tags="Speedchat_SisterPrep">Tink gave me the Chilly Traveler badge!</message>
+			<message id="6153" tags="Speedchat_SisterPrep">Did you get the Chilly Traveler badge?</message>
+			<message id="6154" tags="Speedchat_SisterPrep">Where are the snow animals crossing to?</message>
+			<message id="6155" tags="Speedchat_SisterPrep">Animals go deep into the Winter Woods!</message>
+			<message id="6156" tags="Speedchat_SisterPrep">That weasel just doesn't want to cross!</message>
+			<message id="6157" tags="Speedchat_SisterPrep">Silly snow weasel!</message>
+		</category>
+	
+		<category name="Sister Celebration"> <!-- 6200 to 6249 --->
+			<message id="6200" tags="Speedchat_Sister">I know the secret of the wings!</message>
+			<message id="6201" tags="Speedchat_Sister">Psst... want to hear a secret?</message>
+			<message id="6202" tags="Speedchat_Sister">Tinker Bell and Periwinkle are sisters!</message>
+			<message id="6203" tags="Speedchat_Sister">Happy Sister Celebration!</message>
+			<message id="6204" tags="Speedchat_Sister">It's a party for Perwinkle!</message>
+			<message id="6205" tags="Speedchat_Sister">Welcome Periwinkle!</message>
+			<message id="6206" tags="Speedchat_Sister">Help Periwinkle stay frosty!</message>
+			<message id="6207" tags="Speedchat_Sister">How do I get to the Frosted Forest?</message>
+			<message id="6208" tags="Speedchat_Sister">Enter the Forest in Evergreen Overlook!</message>
+			<message id="6209" tags="Speedchat_Sister">You need the Chilly Traveler badge!</message>
+			<message id="6210" tags="Speedchat_Sister">It's snowing in the Frosted Forest!</message>	
+			<message id="6211" tags="Speedchat_Sister">Have you earned the Sister badge?</message>
+			<message id="6212" tags="Speedchat_Sister">Read the signpost about the badge!</message>
+			<message id="6213" tags="Speedchat_Sister">Put on your Sparkly Wings Necklace!</message>
+			<message id="6214" tags="Speedchat_Sister">Ready, set, use the Sparkle Wings Emote!</message>
+			<message id="6215" tags="Speedchat_Sister">Yay! I got the Sister badge!</message>
+			<message id="6216" tags="Speedchat_Sister">I love your Tink-tastic outfit!</message>
+			<message id="6217" tags="Speedchat_Sister">You look just like a Frost Fairy!</message>
+			<message id="6218" tags="Speedchat_Sister">I love the color of your wings!</message>
+			<message id="6219" tags="Speedchat_Sister">Our wings are sparkling!</message>
+			<message id="6220" tags="Speedchat_Sister">We must be sisters!</message>
+			<message id="6221" tags="Speedchat_Sister">Go, snow weasel, go!</message>
+			<message id="6222" tags="Speedchat_Sister">My Fairy Home is totally iced over!</message>
+		</category>
+
+		<category name="Fairy Feast"> <!-- 6250 to 6299 --->
+			<message id="6250" tags="Speedchat_FairyFeast">Happy Fairy Feast!</message>
+			<message id="6251" tags="Speedchat_FairyFeast">Go see Iridessa for a new quest!</message>
+			<message id="6252" tags="Speedchat_FairyFeast">Bright Eyes has a mystery for us!</message>
+			<message id="6253" tags="Speedchat_FairyFeast">I know who sent Iridessa the invite!</message>
+			<message id="6254" tags="Speedchat_FairyFeast">Did you get the Fairy Feast badge?</message>
+			<message id="6255" tags="Speedchat_FairyFeast">Finish Iridessa's quest to get a badge!</message>
+			<message id="6556" tags="Speedchat_FairyFeast">I'm cooking in Fairy Tale Theater!</message>
+			<message id="6257" tags="Speedchat_FairyFeast">Want to decorate the cake in Cottonpuff?</message>
+			<message id="6258" tags="Speedchat_FairyFeast">Decorate the cake to get a badge!</message>
+			<message id="6259" tags="Speedchat_FairyFeast">Want to make soup in Acorn Summit?</message>
+			<message id="6260" tags="Speedchat_FairyFeast">Make some soup to get a badge!</message>
+			<message id="6261" tags="Speedchat_FairyFeast">There's a cornucopia in Pumpkin Patch!</message>
+			<message id="6262" tags="Speedchat_FairyFeast">Pick up a festive gift in the Ballroom!</message>
+			<message id="6263" tags="Speedchat_FairyFeast">Come to my Fairy Feast party!</message>
+			<message id="6264" tags="Speedchat_FairyFeast">There's plenty of food for everyone!</message>
+			<message id="6265" tags="Speedchat_FairyFeast">What's your favorite Fairy food?</message>
+		</category>
+  
+		<category name="Great Winter Light-Up"> <!-- 6300 to 6349 --->
+			<message id="6300" tags="Speedchat_WinterLightup">Winter Fairies at work!</message>
+			<message id="6301" tags="Speedchat_WinterLightup">Sil said we can help the Winter Fairies!</message>
+			<message id="6302" tags="Speedchat_WinterLightup">Visit Silvermist for a new quest!</message>
+			<message id="6303" tags="Speedchat_WinterLightup">I helped Silvermist make snowflakes!</message>
+			<message id="6304" tags="Speedchat_WinterLightup">Help Sil to get the Ice Palace Key!</message>
+			<message id="6305" tags="Speedchat_WinterLightup">You'll need the Ice Palace Key later!</message>
+			<message id="6306" tags="Speedchat_WinterLightup">Brrr! The Winter Woods are cold!</message>
+			<message id="6307" tags="Speedchat_WinterLightup">Whistle a winter tune while you work!</message>
+			<message id="6308" tags="Speedchat_WinterLightup">Hooray! Winter's on its way!</message>		
+		</category>
+	
+		<category name="Winter Wonderland"> <!-- IDs 6350 to 6399 --->
+			<message id="6350" tags="Speedchat_WinterWonder">Uh-oh! My wings are frozen!</message>
+			<message id="6351" tags="Speedchat_WinterWonder">We did it! Winter is here!</message>
+			<message id="6352" tags="Speedchat_WinterWonder">The winter decorations are flitterific!</message>
+			<message id="6353" tags="Speedchat_WinterWonder">Want to go to the Minister's Ice Palace?</message>
+			<message id="6354" tags="Speedchat_WinterWonder">Meet me at the Ice Palace!</message>
+			<message id="6355" tags="Speedchat_WinterWonder">How do I get to the Ice Palace?</message>
+			<message id="6356" tags="Speedchat_WinterWonder">The Ice Palace is in Chilly Falls!</message>
+			<message id="6357" tags="Speedchat_WinterWonder">You need the Ice Palace Key badge!</message>
+			<message id="6358" tags="Speedchat_WinterWonder">Help Sil to get the Ice Palace Key!</message>
+			<message id="6359" tags="Speedchat_WinterWonder">Flap your wings for the Frost Fairies!</message>
+			<message id="6360" tags="Speedchat_WinterWonder">Have you seen the snow weasel?</message>
+			<message id="6361" tags="Speedchat_WinterWonder">Look! The snow weasel!</message>
+			<message id="6362" tags="Speedchat_WinterWonder">What a beautiful ice piano!</message>
+			<message id="6363" tags="Speedchat_WinterWonder">Decorate the staircase with holly!</message>
+			<message id="6364" tags="Speedchat_WinterWonder">Thank you for the gifts!</message>
+			<message id="6365" tags="Speedchat_WinterWonder">What a wonderful winter outfit!</message>
+			<message id="6366" tags="Speedchat_WinterWonder">Let's throw snowballs in the Ballroom!</message>
+			<message id="6367" tags="Speedchat_WinterWonder">I'm cooking in Fairy Tale Theater!</message>
+			<message id="6368" tags="Speedchat_WinterWonder">Holiday party in my Fairy Home!</message>
+		</category>
+	</category>
+
+	<category name="Help"> <!-- Uses IDs 7000 to 7499 -->
+		<category name="Help"> <!-- 7000 to 7049 -->
+			<message id="7000" tags="">I need help!</message>
+			<message id="7001" tags="">Can you help me?</message>
+			<message id="7002" tags="">Do you need help?</message>
+			<message id="7003" tags="">Can I help?</message>
+			<message id="7004" tags="">I'd love to help!</message>
+			<message id="7005" tags="">Thanks for your help.</message>
+		</category>
+		
+		<category name="Chat"> <!-- 7050 to 7099 -->
+			<message id="7050" tags="">I can't understand you.</message>
+			<message id="7051" tags="">I can only see SpeedChat.</message>
+			<message id="7052" tags="">Please use SpeedChat.</message>
+			<message id="7053" tags="">Use SpeedChat!</message>
+		</category>
+		
+		<category name="Members"> <!-- 7100 to 7149 -->
+			<message id="7100" tags="">Where did you get that pin on your profile?</message>
+			<message id="7101" tags="">I earned the pin for being a member.</message>
+			<message id="7102" tags="">I'm a Member.</message>
+			<message id="7103" tags="">Are you a Member?</message>
+			<message id="7104" tags="">Being a Member is flitterific!</message>
+		</category>
+		
+		<category name="More"> <!-- 7150 to 7199 -->
+			<message id="7150" tags="">You should ask the Never Council.</message>
+			<message id="7151" tags="">You should report that problem.</message>
+			<message id="7152" tags="">Use the compass to open the map!</message>
+			<message id="7153" tags="">Use my profile to see my Pixie Page.</message>
+			<message id="7154" tags="">The question mark button is a tutorial.</message>
+		</category>
+	</category>
+</SpeedChat>

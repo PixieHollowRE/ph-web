@@ -1,0 +1,1428 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/mahjong.swf</swf>
+		<swf type="code">{panelCode}/mahjong.swf</swf>
+	</swfs>
+	<copy>
+		<hudTitleWelcome>Seed Sorter</hudTitleWelcome>
+		<hudSubTitleWelcome>Get Ready</hudSubTitleWelcome>
+		
+		<!-- hud -->
+		<title>Seed Sorter</title>
+		<level>Level</level>
+		<left_scorecard_title>Hints</left_scorecard_title>
+		<right_scorecard_title>Score:</right_scorecard_title>		
+		<right_accent_title>Completed:</right_accent_title>		
+		<level_tip_title>Did You Know?</level_tip_title>
+		<level_objectif_title>Get Ready!</level_objectif_title>
+		<hostname>Minister of Spring</hostname>
+		
+		<!-- UI: TITLE SCREEN -->
+		<title_screen target="title.title_container.title_text">Seed Sorting</title_screen>
+		<title_play target="title.btnContainer.play_text">Play!</title_play>
+		<title_help target="title.btnContainer.help_text">How To Play</title_help>		
+		<title_quit target="title.btnContainer.quit_text">Quit</title_quit>
+				
+		<!-- UI: WELCOME -->
+		<welcome_title>Welcome!</welcome_title>
+		<welcome_text>Hi there Fairy Friend! Welcome to Sunflower Meadow! I'm sorting seeds to plant in the Spring. I get a little mixed up sometimes. Can you help me pick up pairs of seeds? </welcome_text>		
+		<welcome_play>Continue</welcome_play>
+		
+		<!-- UI: TUTORIAL -->
+		<tutorial_next>NEXT</tutorial_next>
+		<tutorial_skip>Skip This</tutorial_skip>
+		
+
+		<tutorial_replay>How To Play</tutorial_replay>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		
+		<host_bubble_1>Now you try it!</host_bubble_1>
+		<host_bubble_2>Well done!</host_bubble_2>
+		<host_bubble_3>Choose packets that have the same picture.</host_bubble_3>
+		<host_bubble_4>Match both the picture and the number.</host_bubble_4>
+		<host_bubble_5>The picture and the number must match.</host_bubble_5>
+
+		<tutorial_replay>How To Play</tutorial_replay>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		<tutorial_finalscore_label>Let's get sorting!</tutorial_finalscore_label>
+				
+		<tutorial_title_goal>Goal</tutorial_title_goal>
+		<win_tutorial_secondText>Complete!</win_tutorial_secondText>		
+
+		<tutorial_step2>Welcome to Treetrunk Knoll! Let me show you how to sort seeds for the mainland!</tutorial_step2>
+		<tutorial_step2b>Find two seed packets with the same picture.</tutorial_step2b>
+		<tutorial_step4>You can't use a seed packet if it's surrounded by other seed packets or if another packet overlaps it.</tutorial_step4>
+		<tutorial_step7>Watch the clock if you want to earn bonus points.</tutorial_step7>
+		<tutorial_step8>This tells you which seed packets to sort first. If you sort them fast enough, you'll earn a bonus!</tutorial_step8>
+		<tutorial_step9>Look at the seed packets carefully -- some have numbers on them.</tutorial_step9>
+		<tutorial_step15>Think you got it? Then it's time to start sorting!</tutorial_step15>
+        <tutorial_hudtitle>How to play</tutorial_hudtitle>
+		
+		<!-- UI: OBJECTIF SCREEN -->
+		<objectifTitle>Let's pair:</objectifTitle>	
+		<objectifTime>in a time of</objectifTime>	
+		<objectifTime_2>for a bonus</objectifTime_2>	
+		
+		<!-- UI: STORY SCREEN
+		<level_tip_easy>Thanks for coming to help me here in Sunflower Meadow. We need to get the orders for the fruit seeds filled. Can you help me sort these?</level_tip_easy>
+		<level_tip_med>Glad you are here! The seeds here in sunflower meadow we will need your sorting. All the fruit seeds are sorted but now a very large order for flowers just arrived. Are you up for it?</level_tip_med>
+		<level_tip_hard>I have been checking my lists and all the flower seed orders are packed up and ready to go. Wonderful!  The vegetables are next on the list.  Ready to get sorting?</level_tip_hard>
+		<level_tip_royal>All seed packets for the vegetables are ready to be planted! As the Minister of Spring I need to make sure all the seed packets are sorted correctly and this time they are all mixed up! Lets get to sorting them and quickly!.</level_tip_royal>
+		<level_tip_all>Hi there Fairy Friend! Welcome to Sunflower Meadow! I'm sorting seeds to plant in the Spring. I get a little mixed up sometimes. Can you help me pick up pairs of seeds?</level_tip_all>
+		-->
+		
+		<!-- UI: GOAL HUD -->
+		<title_goal>Sort these in</title_goal>
+		<title_goal2>for a bonus.</title_goal2>
+		<win_goal>YOU GOT THE BONUS!</win_goal>
+		<win_secondText>Now complete the level!</win_secondText>
+		<fail_goal>TIME BONUS MISSED!</fail_goal>
+		<fail_secondText>Keep playing and finish the level!</fail_secondText>
+		
+		<!-- UI: GAME OVER -->
+		<!-- titles -->
+		<game_over_win>You Win!</game_over_win>
+		<game_over_lose>Good Try!</game_over_lose>
+		<!-- buttons -->
+		<game_over_quit>Quit</game_over_quit>		
+		<game_over_continue>Continue</game_over_continue>		
+		<!-- comments (win) -->
+		<game_over_win_0>All the seed packets are sorted and ready to go to the mainland. Thank you for your help!</game_over_win_0>
+		<game_over_win_1>Spectacular Seed Sorting. Come back anytime you want to help!</game_over_win_1>
+		<game_over_win_2>Congratulations! Superior seed sorting skills! I hope to see you again soon!</game_over_win_2>
+		<game_over_win_3>You really are a super seed sorter! The next time I need help, I'll be sure to look for you!</game_over_win_3>
+		<game_over_win_4>You are marvelous at making seed packet matches! Thank you for your help!</game_over_win_4>
+
+		<!-- comments (lose) -->
+		<game_over_lose_0>Looks like we've run out of time. But please come back to try again. I'd appreciate your help!</game_over_lose_0>
+		<game_over_lose_1>So many seeds, so little time. Don't worry, next time we'll match them all!</game_over_lose_1>
+		
+		
+		
+		<!-- UI: LEVEL COMPLETE -->
+		<level_complete>Level {level} Complete!</level_complete>
+
+		<perfect_level>PERFECT! You sorted all the seed packets!</perfect_level>		
+		<timebonus_level>GOOD WORK! You finished sorting in time!</timebonus_level>		
+
+		<point_bonus>Pairs Points :</point_bonus>	
+		<point_objectif>Goal :</point_objectif>	
+		<bonus_time>Time Bonus :</bonus_time>
+		<totalBonuSPoint>Perfect Bonus : </totalBonuSPoint>
+		<your_score>Your Last Score : </your_score>
+		<score_total>Your Score : </score_total>
+									
+		<!-- Fairy Emotion -->
+		<!-- Bad --> 	<!-- only if the snowflakes was on line -->
+		<bad_pair_1>Oh no! You make a bad pair! </bad_pair_1>	
+		<bad_pair_2>Oh no! It's a wrong pair!</bad_pair_2>			
+		<!-- Good -->
+		<goal_done_0>Great job! Keep playing!</goal_done_0>
+		<good_pair_1>A clever match!</good_pair_1>
+		<good_pair_2>I'm so impressed with your sorting skills!</good_pair_2>
+		<finish_family_0>Nice! You have completed a family!</finish_family_0>
+		<finish_family_1>Good job, you filled one family!</finish_family_1>
+		<finish_family_3>Very good, you finish a family!</finish_family_3>
+		<bonus_0>Great! You got a bonus!</bonus_0>
+		<bonus_1>Very nice! You use a bonus!</bonus_1>
+		<bonus_2> Nice! Bonus score!</bonus_2>
+	
+	
+		<!-- UI: INSTRUCTIONS -->
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">Instructions</inst_screen_title>
+		
+		<instruction0 target="instructions.btnContainer.page0.text_container.label">First we have to click on two seed packets which have the same picture on them.</instruction0>
+		<instruction1 target="instructions.btnContainer.page1.text_container.label">A tile is not playable if there are other seed packets partially covering it or if there are other seed packets on all sides.</instruction1>
+		<instruction2 target="instructions.btnContainer.page2.text_container.label">Look here to see which seeds packets you should match first. Match these in time to earn a bonus!</instruction2>
+		<instruction3 target="instructions.btnContainer.page3.text_container.label">Some seed packets have numbers and pictures. Match both to sort them!</instruction3>		 
+
+		<inst_play target="instructions.btnContainer.playBtn.play_text">Play!</inst_play>
+		<inst_back target="instructions.btnContainer.backBtn.back_text">Back</inst_back>		
+		<inst_cont target="instructions.btnContainer.continueBtn.continue_text">Continue</inst_cont>		
+		<inst_quit target="instructions.btnContainer.quitBtn.quit_text">Quit</inst_quit>
+		
+		<!-- Story -->		
+		<easy_story>These packets of fruit seeds must be sorted before they go to the mainland. It simply isn't springtime without pears and apples! </easy_story>
+		<medium_story>Every season brings its own unique flowers to the mainland. Sort these flower seed packets for delivery!</medium_story>
+		<hard_story>Vegetables are a mainland favorite, you know. These veggie seed packets need to be sorted right away for the new season!</hard_story>
+		<royal_story>By the Second Star, these seed packets are a jumbled mess! We need them all sorted right away for the mainland!</royal_story>
+		
+		<easy_exitstory>Wonderful sorting, Fairy friend! I do love a tidy supply of seeds.</easy_exitstory>
+		<medium_exitstory>These flowers will smell wonderful on the mainland! Thank you for helping to sort them!</medium_exitstory>
+		<hard_exitstory>Thank you for your help! Now the mainland will have more tasty vegetables than ever!</hard_exitstory>
+		<royal_exitstory>By the Second Star, you really are a sorting genius! Simply amazing! I'd love to have your help anytime!</royal_exitstory>
+		
+		<allmedium_story>Excellent fruit seed sorting. Now, what's next? Ah yes! Flower seeds!</allmedium_story>
+		<allhard_story>Splendid sorting, my Fairy friend! You've shown quite a knack for fruit and flower seeds. Now how about these truly tricky vegetables?</allhard_story>
+		<allroyal_story>Oh no! The wind toppled all the seed packets we already sorted! If you don't help straighten them out, the seeds won't be ready to go to the mainland!</allroyal_story>
+		
+		
+		<!-- LEVEL TIPS -->
+		<level_tip_1>Match seed packets that have the same picture.</level_tip_1>		
+		<level_tip_3>The seed packets have numbers on them now. You have to match them too!</level_tip_3>		
+		<level_tip_7>Packet Ants are waiting nearby with extra seed packets in case you get stuck.</level_tip_7>
+		<level_tip_8>The seed packets are stacked on top of each other now. Try to clear the ones on top first!</level_tip_8>				
+		<level_tip_22>The seed packets are stacked 3 layers high now!</level_tip_22>			
+		<level_tip_30>You're almost there! Pair up these seed packets and you'll be done!</level_tip_30>		
+		<level_tip_generic>Get ready for level {level}!</level_tip_generic>
+		
+		<!-- HOST LEVEL -->
+		<host_level_1_0>Find two seed packets that match.</host_level_1_0>
+		<host_level_1_1>It's not very hard. Look carefully.</host_level_1_1>
+		<host_level_1_2>Let's start slowly, shall we?</host_level_1_2>		
+		<host_level_2_0>You're doing a super-seed job!</host_level_2_0>	
+		<host_level_2_1>Watch the clock -- fly quickly!</host_level_2_1>
+		<host_level_3_0>Pay attention to the numbers!</host_level_3_0>	
+		<host_level_3_1>Keep going, keep going!</host_level_3_1>
+		<host_level_4_0>A perfect match!</host_level_4_0>							
+		<host_level_4_1>Match as quickly as you can!</host_level_4_1>		
+		<host_level_5_0>Keep flapping and keep matching!</host_level_5_0>
+		<host_level_5_1>Remember, these seeds are for the mainland!</host_level_5_1>
+		<host_level_6_0>Excellent work!</host_level_6_0>
+		<host_level_6_1>You're getting quite good!</host_level_6_1>		
+		<host_level_7_0>Be careful! Don't run out of time!</host_level_7_0>
+		<host_level_7_1>A good match!</host_level_7_1>
+		<host_level_8_0>Flap to it!</host_level_8_0>	
+		<host_level_8_1>Watch the numbers!</host_level_8_1>	
+		<host_level_9_0>Fly like the wind!</host_level_9_0>
+		<host_level_9_1>You're doing just fine!</host_level_9_1>		
+		<host_level_10_0>A powerful pixie, you are!</host_level_10_0>				
+		<host_level_10_1>Watch the clock! Go faster!</host_level_10_1>
+		<host_level_11_0>Flap to it!</host_level_11_0>		
+		<host_level_11_1>You really are good at this. Keep it up!</host_level_11_1>	
+		<host_level_12_0>Sort those seeds for the mainland!</host_level_12_0>
+		<host_level_12_1>Splendid seed sorting!</host_level_12_1>
+		<host_level_13_0>Flit to it, my flapping friend!</host_level_13_0>
+		<host_level_13_1>Flap those wings!</host_level_13_1>		
+		<host_level_14_0>Match match match!</host_level_14_0>
+		<host_level_14_1>We must match all seeds for all seasons!</host_level_14_1>
+		<host_level_15_0>Without these seeds, we'll be lost!</host_level_15_0>
+		<host_level_15_1>These seeds will create beautiful plants!</host_level_15_1>	
+		<host_level_16_0>You can do it, Fairy friend!</host_level_16_0>	
+		<host_level_16_1>Together we can match them all!</host_level_16_1>	
+		<host_level_17_0>Marvelous work, my little helper!</host_level_17_0>
+		<host_level_17_1>Watch your wings!</host_level_17_1>		
+		<host_level_18_0>Seeds for all seasons. That's just the thing!</host_level_18_0>
+		<host_level_18_1>Watch for special seeds for extra points!</host_level_18_1>
+		<host_level_19_0>Excellent!</host_level_19_0>
+		<host_level_19_1>We make a great match -- just like the seeds!</host_level_19_1>
+		<host_level_20_0>Imagine the tiny plants inside those seeds!</host_level_20_0>
+		<host_level_20_1>Match with speed, Fairy friend.</host_level_20_1>
+		<host_level_21_0>Flap like the brisk spring breeze!</host_level_21_0>
+		<host_level_21_1>Marvelous work, Fairy helper!</host_level_21_1>
+		<host_level_22_0>These seeds will give the mainland such beauty!</host_level_22_0>
+		<host_level_22_1>Match all that you can!</host_level_22_1>
+		<host_level_23_0>Fly faster!</host_level_23_0>
+		<host_level_24_0>Watch for special seeds for extra points!</host_level_24_0>
+		<host_level_25_0>Seeds give living gifts -- their plants last all season!</host_level_25_0>
+		<host_level_26_0>I daresay you'll be sorting seeds in your sleep!</host_level_26_0>
+		<host_level_27_0>Just wing it! You can do it!</host_level_27_0>		
+		<host_level_28_0>Speed for seeds -- you've got it!</host_level_28_0>
+		<host_level_29_0>You're almost finished!</host_level_29_0>
+		<host_level_30_0>Fly quickly, Fairy friend!</host_level_30_0>
+		<host_level_30_1>The soil on the mainland is perfect for these seeds!</host_level_30_1>
+		
+		<host_0>This is so exciting! </host_0>
+		<host_1>Very interesting.</host_1>
+		<host_2>What will your next move be?</host_2>
+		<host_3>I'm so impressed with your sorting skills!</host_3>
+		<host_4>The mainland is counting on you!</host_4>
+		<host_5>That's some fancy flying, my Fairy friend!</host_5>
+		<host_6>You sort so well! I must tell Queen Clarion!</host_6>
+		<host_7>Thank the seasons you came to help me.</host_7>
+		<host_8>Excellent wing work!</host_8>
+		<host_9>Don't slow down!</host_9>
+		<host_10>As the seeds would say, I'm ROOTING for you!</host_10>
+		<host_11>Fly like you mean it!</host_11>
+		<host_12>Don't lose focus, now.</host_12>
+		<host_13>You're doing great, my friend!</host_13>
+		<host_14>Wings down, you're simply amazing!</host_14>
+		<host_15>You're helping me so much -- keep going!</host_15>
+		<host_16>The sprouts are counting on you!</host_16>
+		<host_17>Just do your best!</host_17>
+		<host_18>I appreciate your help so much!</host_18>
+		<host_19>Take a deep breath and keep flapping!</host_19>
+		<host_20>The garden-talents will be so proud!</host_20>
+		<host_21>You're a powerful pixie packet pairer!</host_21>
+		<host_22>Think of the tasty things that will grow!</host_22>
+		<host_23>Imagine everything that will grow!</host_23>
+		<host_24>It's so kind of you to help like this!</host_24>
+		<host_25>Try not to get those packets mixed up!</host_25>
+		<host_26>This is a big job, but I know you can do it!</host_26>
+		<host_27>I hope your wings aren't getting tired!</host_27>
+		<host_28>This is an important job, so do your best!</host_28>
+		<host_29>I'm so pleased by your work so far!</host_29>
+		<host_30>What natural sorting skills you have!</host_30>
+		<host_31>Beat those wings faster, faster!</host_31>
+		<host_32>Are you sure you didn't sprout from a seed?</host_32>
+		<host_33>Put those packets together!</host_33>
+		<host_34>You're doing wonderfully! Keep going!</host_34>
+		<host_35>Just wing it! You can do it!</host_35>
+		<host_36>Imagine the tiny plants inside those seeds!</host_36>
+		<host_37>Match with speed, Fairy friend.</host_37>
+		<host_38>Flap like the brisk spring breeze!</host_38>
+		<host_39>Marvelous work, Fairy helper!</host_39>
+		<host_40>These seeds will give the mainland such beauty!</host_40>
+		<host_41>I daresay you'll be sorting seeds in your sleep!</host_41>
+		<host_42>Marvelous work, my little helper!</host_42>
+		<host_43>Watch your wings!</host_43>
+		<host_44>You really are good at this. Keep it up!</host_44>
+		<host_45>You're doing just fine!</host_45>
+		<host_46>A powerful pixie, you are!</host_46>
+		<host_47>Remember, these seeds are for the mainland!</host_47>
+		<host_48>Keep flapping and keep matching!</host_48>
+		<host_49>A clever match!</host_49>
+		
+		<time_bonus_soon_end>Hurry up! You're running out of time for the bonus.</time_bonus_soon_end>
+		<time_soon_end>Hurry up! You're about to run out of time.</time_soon_end>
+		<bad_pair>Click the packets that have the same picture.</bad_pair>
+		<bad_pair_number>Match both the picture and number on the packets.</bad_pair_number>
+				
+		<carrot>Carrot</carrot>
+		<carrot_p>Carrots</carrot_p>
+		<turnip>Turnip</turnip>
+		<turnip_p>Turnips</turnip_p>
+		<mushroom>Mushroom</mushroom>
+		<mushroom_p>Mushrooms</mushroom_p>
+		<bellpepper>Bell Pepper</bellpepper>
+		<bellpepper_p>Bell Peppers</bellpepper_p>
+		<broccoli>Broccoli</broccoli>
+		<broccoli_p>Broccoli</broccoli_p>
+		<onion>Onion</onion>
+		<onion_p>Onions</onion_p>
+		
+		<watermelon>Watermelon</watermelon>
+		<watermelon_p>Watermelons</watermelon_p>
+		<kiwi>Kiwi</kiwi>
+		<kiwi_p>Kiwis</kiwi_p>
+		<pear>Pear</pear>
+		<pear_p>Pears</pear_p>
+		<orange>Orange</orange>
+		<orange_p>Oranges</orange_p>
+		<strawberry>Strawberry</strawberry>
+		<strawberry_p>Strawberries</strawberry_p>
+		<apple>Apple</apple>
+		<apple_p>Apples</apple_p>
+		
+		<lavender>Lavender</lavender>
+		<lavender_p>Lavenders</lavender_p>
+		<orchid>Orchid</orchid>
+		<orchid_p>Orchids</orchid_p>
+		<pointsettia>Poinsettia</pointsettia>
+		<pointsettia_p>Poinsettia</pointsettia_p>
+		<hibiscus>Hibiscus</hibiscus>
+		<hibiscus_p>Hibiscus</hibiscus_p>
+		<tulip>Tulip</tulip>
+		<tulip_p>Tulips</tulip_p>
+		<iris>Iris</iris>
+		<iris_p>Iris</iris_p>
+		
+		<back>Back</back>
+		
+	</copy>
+	<config>
+		
+		<difficultyChoices layout="5small">		
+            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"/>			
+			<difficultyChoice descriptor="royal" displayName="Royal" paidOnly="false"/>			
+			<difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"/>	
+		</difficultyChoices>
+		
+		<supportsTutorial>true</supportsTutorial>
+		
+		<!-- required palette param -->		
+		<colorPalette>4</colorPalette>	
+			
+		
+		<!-- sound params -->
+		<music_volume>0.6</music_volume>
+		
+		<!-- game score -->
+		<points_by_pair>100</points_by_pair>						<!-- base points per tiles pair  -->
+		<points_by_bonus>50</points_by_bonus>					<!-- points by bonus used to fill pouch -->	
+		<othersTilesBonus>10</othersTilesBonus>					<!-- seconds increased per timeBonus-->
+		
+		<perfect_level>1500</perfect_level> 						<!-- Points by perfect level-->
+		<timeBonus>1500</timeBonus>
+		<numHint>5</numHint>									<!-- Number of hint-->
+
+		<numMissesBeforeHintSparkle>3</numMissesBeforeHintSparkle>
+		<hintSparklePoint1>10,65</hintSparklePoint1>
+		<hintSparklePoint2>137,65</hintSparklePoint2>
+		<hintSparklePoint3>137,105</hintSparklePoint3>
+		<hintSparklePoint4>110,105</hintSparklePoint4>
+		<hintSparklePoint5>110,145</hintSparklePoint5>
+		<hintSparklePoint6>37,145</hintSparklePoint6>
+		<hintSparklePoint7>37,105</hintSparklePoint7>
+		<hintSparklePoint8>10,105</hintSparklePoint8>
+			
+		<!-- All Tiles -->
+		<tiles>
+			<!-- carrot -->			
+			<tile mc_name="carrot_1" family="carrot" value="1"></tile>
+			<tile mc_name="carrot_2" family="carrot" value="2"></tile>
+			<tile mc_name="carrot_3" family="carrot" value="3"></tile>
+			<tile mc_name="carrot_4" family="carrot" value="4"></tile>
+			<tile mc_name="carrot_5" family="carrot" value="5"></tile>
+			<tile mc_name="carrot_6" family="carrot" value="6"></tile>
+			<tile mc_name="carrot_7" family="carrot" value="7"></tile>
+			<tile mc_name="carrot_8" family="carrot" value="8"></tile>
+			<tile mc_name="carrot_9" family="carrot" value="9"></tile>
+			
+			<!-- turnip -->
+			<tile mc_name="turnip_1" family="turnip" value="1"></tile>
+			<tile mc_name="turnip_2" family="turnip" value="2"></tile>
+			<tile mc_name="turnip_3" family="turnip" value="3"></tile>
+			<tile mc_name="turnip_4" family="turnip" value="4"></tile>
+			<tile mc_name="turnip_5" family="turnip" value="5"></tile>
+			<tile mc_name="turnip_6" family="turnip" value="6"></tile>
+			<tile mc_name="turnip_7" family="turnip" value="7"></tile>
+			<tile mc_name="turnip_8" family="turnip" value="8"></tile>
+			<tile mc_name="turnip_9" family="turnip" value="9"></tile>
+			
+			<!-- mushroom -->
+			<tile mc_name="mushroom_1" family="mushroom" value="1"></tile>
+			<tile mc_name="mushroom_2" family="mushroom" value="2"></tile>
+			<tile mc_name="mushroom_3" family="mushroom" value="3"></tile>
+			<tile mc_name="mushroom_4" family="mushroom" value="4"></tile>
+			<tile mc_name="mushroom_5" family="mushroom" value="5"></tile>
+			<tile mc_name="mushroom_6" family="mushroom" value="6"></tile>
+			<tile mc_name="mushroom_7" family="mushroom" value="7"></tile>
+			<tile mc_name="mushroom_8" family="mushroom" value="8"></tile>
+			<tile mc_name="mushroom_9" family="mushroom" value="9"></tile>
+			
+			<!-- bellpepper -->
+			<tile mc_name="bellpepper_1" family="bellpepper" value="1"></tile>
+			<tile mc_name="bellpepper_2" family="bellpepper" value="2"></tile>
+			<tile mc_name="bellpepper_3" family="bellpepper" value="3"></tile>
+			
+			<!-- broccoli -->
+			<tile mc_name="broccoli_1" family="broccoli" value="1"></tile>
+			<tile mc_name="broccoli_2" family="broccoli" value="2"></tile>
+			<tile mc_name="broccoli_3" family="broccoli" value="3"></tile>
+			
+			<!-- onion -->
+			<tile mc_name="onion_1" family="onion" value="1"></tile>
+			<tile mc_name="onion_2" family="onion" value="2"></tile>
+			<tile mc_name="onion_3" family="onion" value="3"></tile>
+			
+			
+			<!-- watermelon -->
+			<tile mc_name="watermelon_1" family="watermelon" value="1"></tile>
+			<tile mc_name="watermelon_2" family="watermelon" value="2"></tile>
+			<tile mc_name="watermelon_3" family="watermelon" value="3"></tile>	
+			
+			<!-- kiwi -->
+			<tile mc_name="kiwi_1" family="kiwi" value="1"></tile>
+			<tile mc_name="kiwi_2" family="kiwi" value="2"></tile>
+			<tile mc_name="kiwi_3" family="kiwi" value="3"></tile>
+			
+			<!-- pear -->
+			<tile mc_name="pear_1" family="pear" value="1"></tile>
+			<tile mc_name="pear_2" family="pear" value="2"></tile>
+			<tile mc_name="pear_3" family="pear" value="3"></tile>
+			
+			<!-- orange -->
+			<tile mc_name="orange_1" family="orange" value="1"></tile>
+			<tile mc_name="orange_2" family="orange" value="2"></tile>
+			<tile mc_name="orange_3" family="orange" value="3"></tile>
+			
+			<!-- strawberry -->
+			<tile mc_name="strawberry_1" family="strawberry" value="1"></tile>
+			<tile mc_name="strawberry_2" family="strawberry" value="2"></tile>
+			<tile mc_name="strawberry_3" family="strawberry" value="3"></tile>
+			
+			<!-- apple -->
+			<tile mc_name="apple_1" family="apple" value="1"></tile>
+			<tile mc_name="apple_2" family="apple" value="2"></tile>
+			<tile mc_name="apple_3" family="apple" value="3"></tile>	
+			
+						
+			<!-- lavender -->
+			<tile mc_name="lavender_1" family="lavender" value="1"></tile>
+			<tile mc_name="lavender_2" family="lavender" value="2"></tile>
+			<tile mc_name="lavender_3" family="lavender" value="3"></tile>
+			
+			<!-- orchid -->
+			<tile mc_name="orchid_1" family="orchid" value="1"></tile>
+			<tile mc_name="orchid_2" family="orchid" value="2"></tile>
+			<tile mc_name="orchid_3" family="orchid" value="3"></tile>	
+			
+			<!-- pointsettia -->
+			<tile mc_name="pointsettia_1" family="pointsettia" value="1"></tile>
+			<tile mc_name="pointsettia_2" family="pointsettia" value="2"></tile>
+			<tile mc_name="pointsettia_3" family="pointsettia" value="3"></tile>	
+			 
+			<!-- hibiscus -->
+			<tile mc_name="hibiscus_1" family="hibiscus" value="1"></tile>
+			<tile mc_name="hibiscus_2" family="hibiscus" value="2"></tile>
+			<tile mc_name="hibiscus_3" family="hibiscus" value="3"></tile>	
+			
+			<!-- tulip -->
+			<tile mc_name="tulip_1" family="tulip" value="1"></tile>
+			<tile mc_name="tulip_2" family="tulip" value="2"></tile>
+			<tile mc_name="tulip_3" family="tulip" value="3"></tile>	
+			
+			<!-- iris -->
+			<tile mc_name="iris_1" family="iris" value="1"></tile>
+			<tile mc_name="iris_2" family="iris" value="2"></tile>
+			<tile mc_name="iris_3" family="iris" value="3"></tile>	
+			
+			<!-- <tile mc_name="special" family="all" value="0"></tile>-->
+		</tiles>		
+		
+		<tilesWithoutNum>
+			<tile mc_name="carrot_0" family="carrot" value="0"></tile>
+			<tile mc_name="turnip_0" family="turnip" value="0"></tile>	
+			<tile mc_name="mushroom_0" family="mushroom" value="0"></tile>
+			<tile mc_name="bellpepper_0" family="bellpepper" value="0"></tile>
+			<tile mc_name="broccoli_0" family="broccoli" value="0"></tile>
+			<tile mc_name="onion_0" family="onion" value="0"></tile>
+			
+			<tile mc_name="watermelon_0" family="watermelon" value="0"></tile>	
+			<tile mc_name="kiwi_0" family="kiwi" value="0"></tile>
+			<tile mc_name="pear_0" family="pear" value="0"></tile>	
+			<tile mc_name="orange_0" family="orange" value="0"></tile>	
+			<tile mc_name="strawberry_0" family="strawberry" value="0"></tile>	
+			<tile mc_name="apple_0" family="apple" value="0"></tile>	
+				
+			<tile mc_name="lavender_0" family="lavender" value="0"></tile>
+			<tile mc_name="orchid_0" family="orchid" value="0"></tile>
+			<tile mc_name="pointsettia_0" family="pointsettia" value="0"></tile>
+			<tile mc_name="hibiscus_0" family="hibiscus" value="0"></tile>
+			<tile mc_name="tulip_0" family="tulip" value="0"></tile>
+			<tile mc_name="iris_0" family="iris" value="0"></tile>			
+		</tilesWithoutNum>
+		
+		<conditions posY="35" width="52" margin="30">			
+			<tile mc_name="carrot" family="carrot"></tile>	
+			<tile mc_name="turnip" family="turnip"></tile>	
+			<tile mc_name="mushroom" family="mushroom"></tile>		
+			<tile mc_name="bellpepper" family="bellpepper"></tile>		
+			<tile mc_name="broccoli" family="broccoli"></tile>		
+			<tile mc_name="onion" family="onion"></tile>		
+			
+			<tile mc_name="watermelon" family="watermelon"></tile>	
+			<tile mc_name="kiwi" family="kiwi"></tile>
+			<tile mc_name="pear" family="pear"></tile>		
+			<tile mc_name="orange" family="orange"></tile>		
+			<tile mc_name="strawberry" family="strawberry"></tile>		
+			<tile mc_name="apple" family="apple"></tile>		
+					
+			<tile mc_name="lavender" family="lavender"></tile>
+			<tile mc_name="orchid" family="orchid"></tile>
+			<tile mc_name="pointsettia" family="pointsettia"></tile>
+			<tile mc_name="hibiscus" family="hibiscus"></tile>
+			<tile mc_name="tulip" family="tulip"></tile>
+			<tile mc_name="iris" family="iris"></tile>
+		</conditions>	
+		
+		<!-- <configBonus posX="800" posY="240" /> -->
+		Tiles sizes -->
+		<configTiles width="49" height="45" verticalDepth="1" horizontalDepth="1" />
+		
+		<!-- Difficulty Choices
+		<difficultyChoices>
+            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="true"/>
+		</difficultyChoices>
+		 -->
+		
+		<!-- All levels -->
+		<levels>							
+			<!-- Level 1 	(special 20 pieces without numbers)-->			
+			<level num="1" noNumber="true" time="0.5">
+				<!-- Shield of the game -->
+				<bloc numX="6" numY="2">
+					<level height="6" width="6" empty="1,4,6,7,10,11,14,15,20,21,24,25,28,29,31,34"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->
+				<conditions>
+					<conditions familyType="9" number="2" />
+				</conditions>
+				<!-- Additionals families -->	
+				<family family="apple-kiwi"/>	
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />					
+				</bonus>
+			</level>			
+			
+			<!-- level 2 	Mushroom -->			
+			<level num="2" noNumber="true" time="0.5">			
+				<!-- Shield of the game -->	
+				<bloc numX="5" numY="2">
+					<level width="8" height="6" empty="0,1,2,3,4,5,6,7,10,11,12,13,17,30,31,35,36,37,40,41,42,43,44,45,46,47"/>		
+				</bloc>	
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->	
+				<conditions>
+					<conditions familyType="9" number="2" /> 
+					<conditions familyType="12" number="2" /> 
+				</conditions>
+				<!-- Additionals families -->
+				<family family="kiwi"/>
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>	
+			</level>			
+			
+			<!-- level 3 	Simple Flower -->			
+			<level num="3"  noNumber="false" time="0.75">			
+				<!-- Shield of the game -->
+				<bloc numX="5" numY="1">
+					<level width="7" height="7" empty="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48"/> 
+					<level width="7" height="7" empty="49,50,52,54,55,56,57,61,62,65,67,70,73,76,79,81,84,85,89,90,91,92,94,96,97"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->				
+				<conditions>
+					<conditions familyType="10" number="2" />
+					<conditions familyType="8" number="3" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="pear-apple"/>
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>				
+			</level>			
+			
+			<!-- level 4 	Twister -->	
+			<level num="4"  noNumber="false" time="0.75">			
+				<!-- Shield of the game -->
+				<bloc numX="5" numY="2">
+				<level height="6" width="7" empty="7,8,9,10,13,16,19,20,22,28,30,31,32,33,34,36"/>
+				</bloc> 
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->
+				<conditions>
+					<conditions familyType="10" number="4" />
+					<conditions familyType="7" number="4" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="kiwi-pear-apple"/>
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>				
+			</level>	
+			
+			<!-- level 5 	Fish -->			
+			<level num="5"  noNumber="false" time="0.75">			
+				<!-- Shield of the game -->
+				<bloc numX="4" numY="2">
+				<level height="5" width="10" empty="0,1,3,4,5,9,25,29,30,31,33,34,35,39,42,46,47,48"/>	
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->
+				<conditions>
+					<conditions familyType="7" number="4" />
+					<conditions familyType="12" number="4" />
+					<conditions familyType="11" number="1" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="pear-kiwi-orange"/>	
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>				
+			</level>
+						
+			<!-- level 6 	Dragonfly  -->			
+			<level num="6"  noNumber="false" time="0.75">			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="2">
+				<level height="6" width="11" empty="0,1,2,3,6,7,8,9,13,14,20,23,24,26,28,29,36,38,40,41,44,47,49,50,54,55,56,57,60,61,62,63"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->
+				<conditions>
+					<conditions familyType="11" number="4" />
+					<conditions familyType="10" number="4" />
+					<conditions familyType="8" number="1" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="watermelon-pear-apple"/>
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>
+			</level>
+		
+				
+			<!-- level 7 	Sweety Candy -->			
+			<level num="7"  noNumber="false" time="0.84">			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="2">
+					<level width="12" height="5" empty="5,9,10,11,13,14,15,19,40,44,45,46,48,49,50,54"/> 
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->				
+				<conditions>
+					<conditions familyType="14" number="4" />
+					<conditions familyType="17" number="4" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="iris-hibiscus"/>	
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>				
+			</level>				
+			
+			<!-- level 8 Tropical fish-->	
+				<level num="8"  noNumber="false" time="0.92">			
+				<!-- Shield of the game -->
+				<bloc numX="4" numY="1">
+				<level height="7" width="10" empty="0,1,2,3,4,5,6,7,10,13,14,15,19,20,21,22,23,25,26,27,29,33,49,55,56,57,61,62,63,64,65,67,68,69"/>
+				<level height="6" width="9" empty="70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,98,99,100,105,106,111,112,113,116,117,118,119,120,121,122,123"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->					
+				<conditions>
+					<conditions familyType="17" number="4" />
+					<conditions familyType="16" number="4" />
+					<conditions familyType="15" number="1" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="iris-orchid"/> 
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>				
+			</level>			
+			
+			<!-- level 9		Key -->	
+				<level num="9" noNumber="false" time="0.92">			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="2">
+				<level height="5" width="11" empty="0,4,20,24,25,26,28,29,30,31,33,34,35,36,38,39,43,44,45,48,49,53,54"/>
+				<level height="4" width="10" empty="55,56,57,58,59,62,63,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,89,90,91,93,94"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->					
+				<conditions>
+					<conditions familyType="15" number="4" />
+					<conditions familyType="18" number="4" />
+					<conditions familyType="14" number="1" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="tulip-hibiscus"/> 
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>				
+			</level>			
+			
+			<!-- level 10	Whale -->	
+				<level num="10"  noNumber="false" time="0.92">			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="1">
+				<level height="7" width="11" empty="0,1,2,3,4,6,7,8,11,12,14,19,21,27,28,33,35,39,40,42,45,46,48,49,52,53,54,55,56,60,63,64,69,70,71,72,73,74"/>
+				<level height="6" width="10" empty="77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,103,104,105,106,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->					
+				<conditions>
+					<conditions familyType="13" number="4" />
+					<conditions familyType="18" number="4" />
+					<conditions familyType="14" number="1" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="pointsettia-tulip-hibiscus"/> 
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					
+				</bonus>
+			</level>				
+				
+			<!-- level 11 	Fruit -->			
+			<level num="11"  noNumber="false" time="0.92">			
+				<!-- Shield of the game -->
+				<bloc numX="5" numY="1">
+					<level height="7" width="7" empty="0,1,5,7,12,18,20,26,27,32,34,35,40,42,43,47,48"/>
+					<level height="6" width="6" empty="49,50,53,54,55,58,59,60,64,65,66,70,71,72,73,76,77,78,79,80,83,84"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->					
+				<conditions>
+					<conditions familyType="13" number="4" />
+					<conditions familyType="16" number="5" />
+					<conditions familyType="17" number="1" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="orchid-pointsettia-iris"/>
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>	
+			</level>
+			
+			<!-- level 12	Star -->	
+				<level num="12"  noNumber="false" time="0.75">
+			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="1">
+				<level height="7" width="11" empty="0,1,2,3,4,5,6,7,8,9,11,12,13,15,16,18,19,21,23,25,27,28,29,33,34,42,43,47,48,49,51,53,55,57,58,60,61,63,64,65,67,68,69,70,71,72,73,74,75,76"/>				
+				<level height="6" width="10" empty="77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,105,106,107,108,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136"/>
+				<level height="5" width="5" empty="137,138,139,140,141,142,143,144,145,146,147,148,150,151,152,153,154,155,156,157,158,159,160,161"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->				
+				<conditions>
+					<conditions familyType="16" number="4" />
+					<conditions familyType="14" number="4" />
+					<conditions familyType="15" number="1" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="lavender-tulip-iris"/>
+				<!-- Ants bonus -->
+				<bonus>					
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>				
+			</level>
+			
+			
+			<!-- level 13	Turtle -->	
+				<level num="13"  noNumber="false" time="1.0">
+			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="3">
+				<level height="4" width="11" empty="0,3,4,7,8,10,11,15,16,20,24,28,35,36,38,39,40,42,43"/>
+				<level height="3" width="10" empty="44,46,47,48,49,50,51,52,53,55,56,59,62,65,67,68,69,70,71,72,73"/>
+				<level height="2" width="9" empty="74,75,76,77,78,79,80,81,82,84,86,87,88,89,90,91"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->				
+				<conditions>
+					<conditions familyType="18" number="5" />
+					<conditions familyType="17" number="5" />
+					<conditions familyType="16" number="1" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="lavender-tulip-hibiscus"/> 
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				
+				</bonus>				
+			</level>
+			
+			
+			<!-- level 14	Flower-->	
+				<level num="14"  noNumber="false" time="1.5">
+			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="1">
+				<level height="7" width="11" empty="0,1,2,3,4,5,6,7,8,9,13,14,15,16,20,21,22,23,27,28,29,30,31,33,34,35,36,37,38,40,41,42,43,44,45,47,48,49,50,51,53,54,55,59,62,63,64,65,66,70,71,72,73,74"/>
+				<level height="6" width="10" empty="77,78,79,82,83,84,89,90,95,96,97,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,130,131,132,133,134,135"/>
+				<level height="5" width="9" empty="137,138,139,140,141,142,143,144,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->				
+				<conditions>
+					<conditions familyType="1" number="6" />
+					<conditions familyType="5" number="6" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="mushroom-onion"/> 
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>				
+			</level>
+			
+			
+			<!-- level 15	Bell -->	
+				<level num="15"  noNumber="false" time="1.5">
+			
+				<!-- Shield of the game -->
+				<bloc numX="5" numY="1">
+				<level height="7" width="7" empty="0,2,3,4,5,6,7,12,13,14,20,28,34,35,40,41,42,44,45,46,47,48"/>
+				<level height="6" width="6" empty="49,50,51,52,53,54,55,59,60,61,66,67,72,73,77,78,79,80,81,82,83,84"/>
+				<level height="5" width="5" empty="85,86,87,88,89,90,91,92,93,94,95,99,100,101,102,103,104,105,106,107,108,109"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->				
+				<conditions>
+					<conditions familyType="6" number="5" />
+					<conditions familyType="1" number="5" />
+					<conditions familyType="2" number="5" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="mushroom-broccoli"/>
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+
+				</bonus>				
+			</level>
+						
+			<!-- level 16	Duck -->			
+			<level num="16"  noNumber="false" time="1.17">			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="1">
+				<level height="7" width="12" empty="0,1,2,3,5,6,7,8,9,10,13,14,15,16,17,20,21,26,27,31,32,33,34,39,40,41,47,48,55,63,66,70,71,73,74,77,78,79,80,81,82"/>
+				<level height="6" width="11" empty="84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,117,118,119,120,124,125,126,127,131,132,133,134,135,138,139,140,141,142,144,145,146,147,148,149"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->				
+				<conditions>
+					<conditions familyType="3" number="4" />
+					<conditions familyType="2" number="5" />
+					<conditions familyType="6" number="5" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="broccoli-carrot"/>
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>
+			</level>
+
+
+			<!-- level 17 	Squirrel-->	
+				<level num="17"  noNumber="false" time="1.25">			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="1">
+				<level height="7" width="12" empty="0,1,3,4,5,6,8,11,12,13,15,18,19,20,26,27,30,31,32,33,34,37,38,39,40,41,45,46,47,48,52,53,54,55,59,60,61,62,65,66,67,70,77"/>
+				<level height="6" width="11" empty="84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,109,110,111,112,113,115,116,117,118,119,122,123,124,125,128,129,130,131,133,134,135,136,137,138,139,140,141,142,144"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->					
+				<conditions>
+					<conditions familyType="4" number="4" />
+					<conditions familyType="3" number="5" />
+					<conditions familyType="5" number="5" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="carrot-turnip-onion"/>
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>
+			</level>
+			
+			
+				<!-- level 18	Geometric shape2 -->	
+				<level num="18"  noNumber="false" time="1.25">			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="1">
+				<level height="7" width="11" empty="2,3,4,9,10,11,14,15,16,18,19,20,21,22,26,27,28,34,41,42,48,49,50,54,55,56,57,58,60,61,62,65,66,67,72,73,74"/>
+				<level height="6" width="10" empty="78,79,80,81,83,84,85,86,87,88,89,90,91,92,93,94,95,96,99,100,101,106,107,112,113,114,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133,134,135"/>			
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->				
+				<conditions>
+					<conditions familyType="4" number="4" />
+					<conditions familyType="6" number="5" />
+					<conditions familyType="3" number="5" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="carrot-turnip-broccoli"/> 
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>
+			</level>			
+			
+			<!-- level 19 	Cherry -->			
+			<level num="19"  noNumber="false" time="1.25">			
+				<!-- Shield of the game -->
+				<bloc numX="2" numY="1">
+				<level height="7" width="12" empty="0,3,4,5,6,11,12,13,19,20,21,24,25,27,28,29,30,31,32,33,35,38,39,40,53,54,56,59,62,63,64,65,69,70,71,72,75,76,77,78,79,81,82,83"/>
+				<level height="6" width="11" empty="87,88,89,93,94,95,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,117,118,119,123,124,125,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->					
+				<conditions>
+					<conditions familyType="5" number="4" />
+					<conditions familyType="2" number="5" />
+					<conditions familyType="1" number="5" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="bellpepper-mushroom-onion"/>
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="300" rotation="125" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="300" rotation="125" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="300" rotation="125" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="300" rotation="125" sideX="left" sideY="top" />
+				</bonus>				
+			</level>			
+			
+			<!-- level 20	Rabbit-->			
+			<level num="20"  noNumber="false" time="1.34">			
+				<!-- Shield of the game -->
+				<bloc numX="2" numY="1">
+					<level height="7" width="13" empty="0,1,4,5,6,8,10,12,13,15,19,20,27,31,32,38,39,40,45,46,47,53,54,55,60,61,62,67,68,69,73,74,75,76,79,82,83,84,85,86,89,90"/>
+					<level height="6" width="12" empty="91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,116,117,118,119,120,122,123,124,125,126,129,130,131,132,136,137,138,142,143,144,147,148,149,150,152,153,154,155,156,157,158,159,160,161,162"/>
+					</bloc>	
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->
+				<conditions>
+					<conditions familyType="3" number="4" />
+					<conditions familyType="5" number="5" />
+					<conditions familyType="4" number="5" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="carrot-turnip-onion"/>	
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="290" posY1="-20" posY2="140" rotation="120" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="290" posY1="-20" posY2="140" rotation="120" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="290" posY1="-20" posY2="140" rotation="120" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="290" posY1="-20" posY2="140" rotation="120" sideX="left" sideY="top" />
+				</bonus>				
+			</level>						
+			
+			<!-- level 21	 Water Lily -->			
+			<level num="21"  noNumber="false" time="1.34">
+			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="1">
+					<level height="7" width="12" empty="0,1,2,4,5,6,7,11,12,13,14,18,19,24,25,27,33,34,54,55,59,60,62,63,67,68,70,74,75,76,77,78,79,81,82,83"/>
+					<level height="6" width="11" empty="84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,104,105,106,107,112,113,124,125,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->				
+				<conditions>
+					<conditions familyType="6" number="5" />
+					<conditions familyType="2" number="5" />
+					<conditions familyType="4" number="5" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="carrot-mushroom-broccoli"/>					
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>				
+			</level>	
+
+
+			<!-- level 22	Hourglass-->	
+				<level num="22"  noNumber="false" time="1.42">
+			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="1">
+				<level height="7" width="11" empty="0,1,2,4,5,6,7,8,10,12,13,14,15,16,17,18,19,20,23,24,25,31,45,51,52,53,56,57,58,59,60,61,62,63,64,66,68,69,70,71,72,74,75,76"/>
+				<level height="6" width="10" empty="77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,96,97,98,99,103,104,109,110,114,115,116,117,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136"/>
+				<level height="5" width="9" empty="137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,153,154,155,156,157,159,160,161,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->				
+				<conditions>
+					<conditions familyType="1" number="5" />
+					<conditions familyType="8" number="5" />
+					<conditions familyType="17" number="5" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="broccoli-strawberry-iris"/> 
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>				
+			</level>
+			
+			
+			<!-- level 23	Leaf -->	
+				<level num="23"  noNumber="false" time="1.42">
+				
+				<!-- Shield of the game -->
+				<bloc numX="4" numY="1">
+				<level height="7" width="9" empty="0,1,2,5,6,7,8,11,12,13,14,19,20,21,27,35,41,42,47,48,49,50,53,54,55,56,57,58,61,62"/>
+				<level height="6" width="8" empty="63,64,65,66,67,68,69,70,72,73,74,75,79,80,81,86,87,92,93,97,98,99,100,102,103,104,105,106,107,108,109,110"/>
+				<level height="5" width="7" empty="111,112,113,114,115,116,117,118,119,120,121,122,124,125,126,128,129,130,131,132,134,135,136,137,138,139,140,141,142,143,144,145"/>
+				</bloc>	
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->
+				<conditions>
+					<conditions familyType="5" number="5" />
+					<conditions familyType="11" number="5" />
+					<conditions familyType="18" number="5" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="carrot-kiwi-tulip"/>
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>				
+			</level>
+			
+			
+			<!-- level 24 	Geometric shape1 -->			
+			<level num="24"  noNumber="false" time="1.42">
+			
+				<!-- Shield of the game -->	
+				<bloc numX="2" numY="1">
+				<level height="7" width="13" empty="0,1,2,4,5,6,7,8,12,13,14,20,21,22,26,27,29,30,32,33,37,38,39,42,45,48,51,52,53,57,58,60,61,63,64,68,69,70,76,77,78,82,83,84,85,86,88,89,90"/>
+				<level height="6" width="12" empty="91,92,93,94,95,96,97,98,101,102,103,104,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,149,150,151,152,155,156,157,158,159,160,161,162"/>
+				<level height="5" width="11" empty="163,164,165,166,167,168,169,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,211,212,213,214,215,216,217"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->
+				<conditions>
+					<conditions familyType="1" number="5" />
+					<conditions familyType="11" number="5" />
+					<conditions familyType="17" number="5" />
+				</conditions>
+				<!-- Additionals families -->				
+				<family family="broccoli-kiwi-iris"/>
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="340" rotation="125" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="340" rotation="125" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="340" rotation="125" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="340" rotation="125" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="340" rotation="125" sideX="left" sideY="top" />
+				</bonus>				
+			</level>	
+			
+			
+			<!-- level 25	House -->	
+				<level num="25"  noNumber="false" time="1.84">
+			
+				<!-- Shield of the game -->
+				<bloc numX="5" numY="1">
+				<level height="7" width="7" empty="4,5,6,12,13,20,34,40,41,46,47,48"/>
+				<level height="6" width="6" empty="52,53,54,58,59,60,64,65,66,70,71,72,76,77,78,82,83,84"/>
+				<level height="5" width="5" empty="85,87,88,89,90,91,92,93,94,97,98,99,102,103,104,105,106,107,108,109"/>			
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->				
+				<conditions>
+					<conditions familyType="1" number="5" />
+					<conditions familyType="8" number="5" />
+					<conditions familyType="18" number="5" />
+				</conditions>
+				<!-- Additionals families -->
+				<family family="broccoli-strawberry-tulip"/>				
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>
+			</level>					
+						
+						
+			<!-- level 26 Heart & Decorations -->			
+			<level num="26"  noNumber="false" time="1.84">			
+				<!-- Shield of the game -->				
+				<!-- heart -->				
+				<bloc numX="4" numY="1">
+					<level width="9" height="7" empty="0,1,2,3,6,7,8,9,14,15,21,27,33,34,35,41,42,43,49,50,51,56,57,58,59,62"/>
+					<level width="6" height="4" empty="63,64,67,74,78,79,83,84"/>
+					<level width="5" height="3" empty="87,88,89,90,91,92,93,95,96,97,98,99,100,101"/>
+				</bloc>	
+				<!-- right decoration -->
+				<bloc numX="11" numY="4">
+					<level height="4" width="4" empty="102,103,104,106,107,109,110,112,113,115,116,117"/>
+				</bloc>
+				<!-- left decoration -->
+				<bloc numX="2" numY="4">
+					<level height="4" width="4" empty="119,120,121,122,124,125,126,127,129,130,131,132"/>
+				</bloc> 
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->
+				<conditions>
+					<conditions familyType="5" number="5" />
+					<conditions familyType="8" number="5" />
+					<conditions familyType="18" number="5" />
+				</conditions>
+				<!-- Additionals families -->	
+				<family family="carrot-strawberry-tulip"/>				
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="340" rotation="125" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="340" rotation="125" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="340" rotation="125" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="340" rotation="125" sideX="left" sideY="top" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="340" rotation="125" sideX="left" sideY="top" />
+				</bonus>				
+			</level>
+			
+			
+			<!-- level 27	Butterfly -->			
+			<level num="27"  noNumber="false" time="1.84">			
+				<!-- Shield of the game -->			
+				<bloc numX="3" numY="1">
+					<level height="7" width="11" empty="0,1,2,6,7,8,13,14,20,21,26,27,29,32,33,41,43,46,47,49,54,55,56,62,63,64,69,70,71,72,76"/>
+					<level height="6" width="10" empty="77,78,79,82,83,84,88,89,93,94,95,96,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,116,117,118,119,123,124,125,126,130,131,132,133,136"/>
+					<level height="5" width="9" empty="137,138,139,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,181"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->
+				<conditions>
+					<conditions familyType="5" number="5" />
+					<conditions familyType="8" number="5" />
+					<conditions familyType="17" number="5" />
+				</conditions>
+				<!-- Additionals families -->	
+				<family family="carrot-strawberry-iris"/>
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>
+			</level>				
+				
+				
+			<!-- level 28	 Ladybird-->			
+			<level num="28"  noNumber="false" time="1.84">
+			
+				<!-- Shield of the game -->
+				<bloc numX="4" numY="0">
+					<level width="10" height="8" empty="1,2,4,5,7,8,10,12,13,15,16,17,22,23,24,31,39,47,48,55,56,57,62,63,64,66,68,69,71,73,74,76,77,79"/>
+					<level height="7" width="9" empty="80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,99,100,101,107,114,115,121,122,123,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142"/>
+					<level height="6" width="8" empty="143,144,145,146,147,148,149,150,151,152,153,154,155,156,158,159,160,161,162,163,164,166,167,169,170,171,172,173,174,175,177,178,179,180,181,182,183,184,185,186,187,188,189,190"/>
+				</bloc>
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->				
+				<conditions>
+					<conditions familyType="1" number="5" />
+					<conditions familyType="11" number="5" />
+					<conditions familyType="18" number="5" />
+				</conditions>
+				<!-- Additionals families -->	
+				<family family="broccoli-kiwi-tulip"/>	
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>				
+			</level>
+			
+			
+			<!-- level 29	Geometric shape3 -->	
+				<level num="29"  noNumber="false" time="2">
+			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="1">
+					<level height="7" width="12" empty="0,1,5,6,7,8,9,10,11,12,13,14,21,22,29,30,37,38,45,46,53,54,61,62,69,70,71,72,73,74,75,76,77,78,82,83"/>
+					<level height="6" width="11" empty="84,85,86,87,88,89,90,91,92,93,94,95,96,97,102,103,104,108,109,110,111,115,116,117,118,122,123,124,125,129,130,131,136,137,138,139,140,141,142,143,144,145,146,147,148,149"/>
+					<level height="5" width="10" empty="150,151,152,153,154,155,156,157,158,159,160,161,162,165,166,167,168,170,171,172,173,174,175,176,177,178,179,181,182,183,184,187,188,189,190,191,192,193,194,195,196,197,198,199"/>
+				</bloc>	
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->	
+				<conditions>
+					<conditions familyType="5" number="5" />
+					<conditions familyType="11" number="5" />
+					<conditions familyType="17" number="5" />
+				</conditions>
+				<!-- Additionals families -->	
+				<family family="carrot-kiwi-iris"/> 
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="780" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="200" rotation="95" sideX="left" sideY="middle" />
+				</bonus>				
+			</level>		
+			
+			<!-- level 30	Jewel-->	
+			<level num="30"  noNumber="false" time="2.5">
+			
+				<!-- Shield of the game -->
+				<bloc numX="3" numY="1">
+				<level height="7" width="12" empty="0,2,3,4,6,8,9,10,11,12,14,15,19,20,21,27,56,62,63,64,68,69,71,72,73,74,75,77,79,80,81,83"/>
+				<level height="6" width="11" empty="84,85,86,87,88,89,90,91,92,93,94,95,96,97,100,101,102,107,126,131,132,133,136,137,138,139,140,141,142,143,144,145,146,147,148,149"/>
+				<level height="5" width="10" empty="150,151,152,153,154,155,156,157,158,159,160,161,163,164,165,169,180,184,185,186,188,189,190,191,192,193,194,195,196,197,198,199"/>
+				</bloc>	
+				<!-- *Quest* Family tiles to collect - Number of pairs to do-->	
+				<conditions>
+					<conditions familyType="1" number="5" />
+					<conditions familyType="8" number="5" />
+					<conditions familyType="17" number="5" />
+				</conditions>
+				<!-- Additionals families -->	
+				<family family="broccoli-strawberry-iris"/>
+				<!-- Ants bonus -->
+				<bonus>
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="300" rotation="125" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="300" rotation="125" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="300" rotation="125" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="300" rotation="125" sideX="left" sideY="middle" />
+					<bonus posX1="800" posX2="740" posY1="150" posY2="200" rotation="235" sideX="right" sideY="middle" />
+					<bonus posX1="-20" posX2="140" posY1="150" posY2="300" rotation="125" sideX="left" sideY="middle" />
+				</bonus>	
+			</level>				
+		</levels>	
+	</config>
+</panel>

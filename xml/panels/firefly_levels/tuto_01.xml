@@ -1,0 +1,13 @@
+<level>
+	<light x = "783" y = "253">yellow</light>	
+	
+<firefly image="firefly">
+		<path source = "random">
+			<topLeft x="240" y="150" />
+			<bottomRight x="640" y="350"/>
+			<waitFrameCountMax value="2" />	
+		</path>
+		<speed>2</speed>
+		<turnspeed>0.1</turnspeed>
+	</firefly>
+</level>

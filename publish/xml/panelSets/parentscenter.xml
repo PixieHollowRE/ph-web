@@ -1,0 +1,40 @@
+<panelSet>
+
+	<panels>
+	
+	 
+		<!--panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{publishPanelData}/bg_gradient.xml</panel-->
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{publishPanelData}/leftSideStatic.xml</panel>
+		
+		
+		<!--
+		<panel id="manager" x="70" y="-38" alwaysOnTop="true">{publishPanelData}/parentscenter.xml</panel>
+		<panel id="parentscenter_content" x="10" y="-38" hidden="true" transition="none">{publishPanelData}/parentscenter_content.xml</panel>
+		-->
+		
+		<panel id="parentscenter_content" x="58" y="100" alwaysOnTop="true" >{publishPanelData}/parentscenter_content.xml</panel>
+		
+		
+		
+	</panels>
+	<config>
+		<slider visible="false" />
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>parentscorner</trackingid>
+		
+		<regionid>community</regionid>
+		<sectionid>forparents</sectionid>
+		<pageid>parentscenter</pageid>
+		<menu>
+			<title>
+				<text>menutitle</text>
+				<subtext>menusubtitle</subtext>
+				<!--channel>home.htm</channel-->       
+			</title>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>Pixie Hollow Game Preview</menutitle>
+	</copy>
+</panelSet>

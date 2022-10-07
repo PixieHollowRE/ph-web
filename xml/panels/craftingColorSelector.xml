@@ -1,0 +1,22 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/craftingColorSelector.swf</swf>
+		<swf type="code">{panelCode}/craftingColorSelector.swf</swf>
+	</swfs>
+	<copy>
+		<title_community target = "bg_container.background.title_community.title">Choose a Color</title_community>
+		<title_personal target = "bg_container.background.title_personal.title">Choose a Color</title_personal>
+		<doneCrafting target = "backButtonContainer.backButton.label">Back</doneCrafting>
+		<nextButton target = "nextButtonContainer.nextButton.label">Next</nextButton>
+		<color1 target="colorsBG.two_color.color1">Color 1</color1>
+		<color2 target="colorsBG.two_color.color2">Color 2</color2>
+	</copy>
+	<config>
+		<colorList professionID="10">
+			<color>26</color>
+			<color>20</color>
+			<color>32</color>
+			<color>4</color>
+		</colorList>
+	</config>
+</panel>

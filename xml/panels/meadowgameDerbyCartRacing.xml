@@ -1,0 +1,361 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/mgDerbyCartRacing.swf</swf>
+		<swf type="code">{panelCode}/mgDerbyCartRacing.swf</swf>
+	</swfs>
+	<copy>
+	
+		<title>Derby Cart</title>
+		
+		<!-- UI: Cart Selector -->
+		<confirm target="cartSelectorScreen.confirmBtn.caption">Confirm</confirm>
+		<upgradeConfirm target="upgrade.confirm.caption">OK</upgradeConfirm>
+		<upgradeCancel target="upgrade.cancel.caption">Cancel</upgradeCancel>
+		<speed target="cartSelectorScreen.speedTxt">Speed:</speed>
+		<acceleration target="cartSelectorScreen.accelerationTxt">Acceleration:</acceleration>
+		<handling target="cartSelectorScreen.handlingTxt">Difficulty:</handling>
+		<race target="cartSelectorScreen.race">Race</race>
+		<startsIn target="cartSelectorScreen.startsIn">Starts In:</startsIn>
+		<selectAnimal target="cartSelectorScreen.selectAnimal">Select Your Animal</selectAnimal>
+		
+		<!-- UI: HUD -->
+		<jumpObstacle>JUMP!</jumpObstacle>
+		<duckObstacle>DUCK!</duckObstacle>
+		<waterObstacle>CLICK TO FILL THE METER!</waterObstacle>
+		<mudObstacle>CLICK FAST!</mudObstacle>
+		<powerUpTop1>Turbo</powerUpTop1>
+		<powerUpBottom1>Boost</powerUpBottom1>
+		<powerUpTop2>Thistle</powerUpTop2>
+		<powerUpBottom2>Whistle</powerUpBottom2>
+		<powerUpTop3>Bee</powerUpTop3>
+		<powerUpBottom3>Swarm</powerUpBottom3>
+		<powerUpTop4>Freeze</powerUpTop4>
+		<powerUpBottom4></powerUpBottom4>
+		<powerUpTop5>Tornado</powerUpTop5>
+		<powerUpBottom5></powerUpBottom5>
+		<place1>1st</place1>
+		<place2>2nd</place2>
+		<place3>3rd</place3>
+		<place4>4th</place4>
+		<placeEOR target="hudElement.placeEOR.place">PLACE:</placeEOR>
+		<placeExtension1>st</placeExtension1>
+		<placeExtension2>nd</placeExtension2>
+		<placeExtension3>rd</placeExtension3>
+		<placeExtension4>th</placeExtension4>
+		<duck target="hudElement.duckControl.duckBtn.actionTxt">CLICK</duck>
+		<jump target="hudElement.jumpControl.jumpBtn.actionTxt">CLICK</jump>
+		<mudBtnTxt target="hudElement.mudControl.mudBtn.actionTxt">CLICK</mudBtnTxt>
+		<waterBtnTxt target="hudElement.waterControl.waterBtn.actionTxt">CLICK</waterBtnTxt>
+		
+		<waterSuccess>WAY TO GO!</waterSuccess>
+		<duckSuccess>YOU DID IT!</duckSuccess>
+		<jumpSuccess>GOOD JOB!</jumpSuccess>
+		
+		<cartSelectorMember>Members</cartSelectorMember>
+		<cartSelectorOr>or</cartSelectorOr>		
+		
+		<waterFail>ALL WET!</waterFail>
+		<duckFail>MISSED IT!</duckFail>
+		<jumpFail>MISSED IT!</jumpFail>
+		
+		<!-- More Diamonds -->
+		<learnMore>Learn More</learnMore>
+		<buyDiamonds>Buy Diamonds</buyDiamonds>
+		<oops>Oops!</oops>
+		<diamond>Diamond</diamond>
+		<diamonds>Diamonds</diamonds>
+		<moreDiamondsMessage>You need #AMOUNT# more Pixie #DIAMOND# for this animal.</moreDiamondsMessage>
+		
+		<!-- END GAME -->
+		<winner>WINNER!</winner>	
+		<gameoverHeader>Game Over</gameoverHeader>
+		<gameoverBodyBelowMinimum>Sorry! A player has left the game. There are not enough players to continue the game.</gameoverBodyBelowMinimum>		
+		
+		<!-- WANT TO LEAVE ALERT -->
+		<wantToLeaveHeader>Just Checking</wantToLeaveHeader>	
+		<wantToLeaveCopy>Are you sure you would like to leave this game? You will lose your current progress and any rewards you may have earned!</wantToLeaveCopy>
+		<yes target="popup.confirm.caption">Yes</yes>
+		<yesPay target="popup.confirmPay.caption">Yes</yesPay>
+		<no target="popup.cancel.caption">No</no>
+		<leftGame>Left Game</leftGame>
+		
+		<payForCartHeader>Just Checking</payForCartHeader>
+		<payForCartMessage>Compete in this race using the #ANIMAL#?</payForCartMessage>
+		<payForCartPrice>Price:</payForCartPrice>
+	</copy>
+	<config>
+		<closePositionSelectionScreen x="734" y="86"/>
+		<closePositionGameScreen x="785" y="63"/>
+		<meadowGameId>MGDerbyCartRacing</meadowGameId>
+		<defaultCart>87500</defaultCart>
+		<possibleCartMaxSpeed>501</possibleCartMaxSpeed>
+		<possibleCartMinSpeed>424</possibleCartMinSpeed>
+		<possibleCartMaxAcceleration>151</possibleCartMaxAcceleration>
+		<possibleCartMinAcceleration>64</possibleCartMinAcceleration>
+		<possibleCartMaxHandling>2001</possibleCartMaxHandling>
+		<possibleCartMinHandling>1249</possibleCartMinHandling>
+		<thistleSpeed>1000</thistleSpeed>
+		<waterDifMult>1.5</waterDifMult>
+		<obstacleEarlyDetectionDistance>200</obstacleEarlyDetectionDistance>
+		<waspsDelayTime>5000</waspsDelayTime>
+		<freezeTime>5000</freezeTime>
+		<noPlayerTime>3000</noPlayerTime>
+		<tornadoTime>3000</tornadoTime>
+		<lanePosition_1_4>385</lanePosition_1_4>
+		<lanePosition_2_4>325</lanePosition_2_4>
+		<lanePosition_3_4>265</lanePosition_3_4>
+		<lanePosition_4_4>205</lanePosition_4_4>
+		<lanePosition_1_3>365</lanePosition_1_3>
+		<lanePosition_2_3>295</lanePosition_2_3>
+		<lanePosition_3_3>225</lanePosition_3_3>
+		<lanePosition_1_2>345</lanePosition_1_2>
+		<lanePosition_2_2>245</lanePosition_2_2>
+		<!-- 	1 - standing,
+				2 - anticipation,
+				3 - walking,
+				4 - running,
+				5 - tripping,
+				6 - jumping,
+				7 - water jump fail,
+				8 - water jump success,
+				9 - ducking,
+				10 - tornado -->
+		<carts>
+			<cart id="87500" maxSpeed="425" accel="125" cartName="Turtle" triggerTime="2000" diamondPrice="0" member="false">
+				<animation id="1" frameFullSpeed="30" frameSlowSpeed="30"/>
+				<animation id="2" frameFullSpeed="30" frameSlowSpeed="30" goInto="3"/>
+				<animation id="3" frameFullSpeed="45" frameSlowSpeed="15"/>
+				<animation id="4" frameFullSpeed="30" frameSlowSpeed="10"/>
+				<animation id="5" frameFullSpeed="30" frameSlowSpeed="30" goInto="2">
+					<frame id="10" sound="ad_trip"/>
+					<frame id="25" startAdjusting="285"/>
+				</animation>
+				<animation id="6" frameFullSpeed="30" frameSlowSpeed="30" goInto="3">
+					<frame id="26" startAdjusting="304"/>
+				</animation>
+				<animation id="7" frameFullSpeed="30" frameSlowSpeed="30" loop="false">
+					<frame id="15" changeAnimation="2"/>
+					<frame id="17" sound="ad_big_splash"/>
+					<frame id="20" startAdjusting="307"/>
+					<frame id="48" changeAnimation="1"/>
+					<frame id="59" sound="ad_swimming" loopSound="true"/>
+				</animation>
+				<animation id="8" frameFullSpeed="30" frameSlowSpeed="30" loop="false">
+					<frame id="21" sound="ad_land_lilypad"/>
+					<frame id="38" startAdjusting="160"/>
+					<frame id="49" sound="ad_riding_lilypad" loopSound="true"/>
+				</animation>
+				<animation id="9" frameFullSpeed="30" frameSlowSpeed="30" goInto="3">
+					<frame id="22" startAdjusting="267"/>
+				</animation>
+				<animation id="10" frameFullSpeed="30" frameSlowSpeed="30" afterTimeFrame="34" goInto="3">
+					<frame id="1" sound="ad_tornado" loopSound="true"/>
+					<frame id="33" gotoFrame="25"/>
+				</animation>
+			</cart>
+			<cart id="87504" maxSpeed="460" accel="140" cartName="Snow Weasel" triggerTime="1350" diamondPrice="1" member="true">
+				<animation id="1" frameFullSpeed="30" frameSlowSpeed="30"/>
+				<animation id="2" frameFullSpeed="30" frameSlowSpeed="30" goInto="3"/>
+				<animation id="3" frameFullSpeed="45" frameSlowSpeed="15"/>
+				<animation id="4" frameFullSpeed="30" frameSlowSpeed="10"/>
+				<animation id="5" frameFullSpeed="30" frameSlowSpeed="30" goInto="2">
+					<frame id="10" sound="ad_trip"/>
+					<frame id="25" startAdjusting="285"/>
+				</animation>
+				<animation id="6" frameFullSpeed="30" frameSlowSpeed="30" goInto="3">
+					<frame id="26" startAdjusting="304"/>
+				</animation>
+				<animation id="7" frameFullSpeed="30" frameSlowSpeed="30" loop="false">
+					<frame id="15" changeAnimation="2"/>
+					<frame id="17" sound="ad_big_splash"/>
+					<frame id="20" startAdjusting="307"/>
+					<frame id="48" changeAnimation="1"/>
+					<frame id="59" sound="ad_swimming" loopSound="true"/>
+				</animation>
+				<animation id="8" frameFullSpeed="30" frameSlowSpeed="30" loop="false">
+					<frame id="21" sound="ad_land_lilypad"/>
+					<frame id="38" startAdjusting="160"/>
+					<frame id="49" sound="ad_riding_lilypad" loopSound="true"/>
+				</animation>
+				<animation id="9" frameFullSpeed="30" frameSlowSpeed="30" goInto="3">
+					<frame id="13" startAdjusting="500"/>
+				</animation>
+				<animation id="10" frameFullSpeed="30" frameSlowSpeed="30" afterTimeFrame="34" goInto="3">
+					<frame id="1" sound="ad_tornado" loopSound="true"/>
+					<frame id="33" gotoFrame="25"/>
+				</animation>
+			</cart>
+			<cart id="87501" maxSpeed="475" accel="100" cartName="Mouse" triggerTime="1500" diamondPrice="1" member="true">
+				<animation id="1" frameFullSpeed="30" frameSlowSpeed="30"/>
+				<animation id="2" frameFullSpeed="30" frameSlowSpeed="30" goInto="3"/>
+				<animation id="3" frameFullSpeed="45" frameSlowSpeed="15"/>
+				<animation id="4" frameFullSpeed="30" frameSlowSpeed="10"/>
+				<animation id="5" frameFullSpeed="30" frameSlowSpeed="30" goInto="2">
+					<frame id="10" sound="ad_trip"/>
+					<frame id="25" startAdjusting="285"/>
+				</animation>
+				<animation id="6" frameFullSpeed="30" frameSlowSpeed="30" goInto="3">
+					<frame id="26" startAdjusting="304"/>
+				</animation>
+				<animation id="7" frameFullSpeed="30" frameSlowSpeed="30" loop="false">
+					<frame id="9" changeAnimation="2"/>
+					<frame id="17" sound="ad_big_splash"/>
+					<frame id="46" sound="ad_swimming" loopSound="true"/>
+					<frame id="47" changeAnimation="1"/>
+					<frame id="22" startAdjusting="321"/>
+				</animation>
+				<animation id="8" frameFullSpeed="30" frameSlowSpeed="30" loop="false">
+					<frame id="25" sound="ad_land_lilypad"/>
+					<frame id="38" startAdjusting="156"/>
+					<frame id="53" sound="ad_riding_lilypad" loopSound="true"/>
+				</animation>
+				<animation id="9" frameFullSpeed="30" frameSlowSpeed="30" goInto="3">
+					<frame id="8" changeAnimation="2"/>
+					<frame id="22" startAdjusting="380"/>
+					<frame id="26" changeAnimation="1"/>
+				</animation>
+				<animation id="10" frameFullSpeed="30" frameSlowSpeed="30" afterTimeFrame="34" goInto="3">
+					<frame id="1" sound="ad_tornado" loopSound="true"/>
+					<frame id="33" gotoFrame="25"/>
+				</animation>
+			</cart>
+			<cart id="87502" maxSpeed="500" accel="65" cartName="Rabbit" triggerTime="1250" diamondPrice="1" member="true">
+				<animation id="1" frameFullSpeed="30" frameSlowSpeed="30"/>
+				<animation id="2" frameFullSpeed="30" frameSlowSpeed="30" goInto="3"/>
+				<animation id="3" frameFullSpeed="45" frameSlowSpeed="15"/>
+				<animation id="4" frameFullSpeed="30" frameSlowSpeed="10"/>
+				<animation id="5" frameFullSpeed="30" frameSlowSpeed="30" goInto="2">
+					<frame id="10" sound="ad_trip"/>
+					<frame id="30" startAdjusting="298"/>
+				</animation>
+				<animation id="6" frameFullSpeed="30" frameSlowSpeed="30" goInto="3">
+					<frame id="11" startAdjusting="46"/>
+				</animation>
+				<animation id="7" frameFullSpeed="30" frameSlowSpeed="30" loop="false">
+					<frame id="5" changeAnimation="2"/>
+					<frame id="17" sound="ad_big_splash"/>
+					<frame id="46" sound="ad_swimming" loopSound="true"/>
+					<frame id="51" changeAnimation="1"/>
+					<frame id="20" startAdjusting="313"/>
+				</animation>
+				<animation id="8" frameFullSpeed="30" frameSlowSpeed="30" loop="false">
+					<frame id="23" startAdjusting="167"/>
+					<frame id="25" sound="ad_land_lilypad"/>
+					<frame id="53" sound="ad_riding_lilypad" loopSound="true"/>
+				</animation>
+				<animation id="9" frameFullSpeed="30" frameSlowSpeed="30" goInto="3">
+					<frame id="5" changeAnimation="2"/>
+					<frame id="22" startAdjusting="400"/>
+					<frame id="30" changeAnimation="1"/>
+				</animation>
+				<animation id="10" frameFullSpeed="30" frameSlowSpeed="30" afterTimeFrame="34" goInto="3">
+					<frame id="1" sound="ad_tornado" loopSound="true"/>
+					<frame id="33" gotoFrame="25"/>
+				</animation>
+			</cart>
+			<cart id="87503" maxSpeed="450" accel="150" cartName="Squirrel" triggerTime="1750" diamondPrice="1" member="true">
+				<animation id="1" frameFullSpeed="30" frameSlowSpeed="30"/>
+				<animation id="2" frameFullSpeed="30" frameSlowSpeed="30" goInto="3"/>
+				<animation id="3" frameFullSpeed="45" frameSlowSpeed="15"/>
+				<animation id="4" frameFullSpeed="30" frameSlowSpeed="10"/>
+				<animation id="5" frameFullSpeed="30" frameSlowSpeed="30" goInto="2">
+					<frame id="10" sound="ad_trip"/>
+					<frame id="25" startAdjusting="285"/>
+				</animation>
+				<animation id="6" frameFullSpeed="30" frameSlowSpeed="30" goInto="3">
+					<frame id="26" startAdjusting="304"/>
+				</animation>
+				<animation id="7" frameFullSpeed="30" frameSlowSpeed="30" loop="false">
+					<frame id="8" changeAnimation="2"/>
+					<frame id="13" sound="ad_big_splash"/>
+					<frame id="44" sound="ad_swimming" loopSound="true"/>
+					<frame id="51" changeAnimation="1"/>
+					<frame id="20" startAdjusting="290"/>
+				</animation>
+				<animation id="8" frameFullSpeed="30" frameSlowSpeed="30" loop="false">
+					<frame id="21" sound="ad_land_lilypad"/>
+					<frame id="38" startAdjusting="160"/>
+					<frame id="49" sound="ad_riding_lilypad" loopSound="true"/>
+				</animation>
+				<animation id="9" frameFullSpeed="30" frameSlowSpeed="30" goInto="3">
+					<frame id="5" changeAnimation="2"/>
+					<frame id="20" startAdjusting="420"/>
+					<frame id="25" changeAnimation="1"/>
+				</animation>
+				<animation id="10" frameFullSpeed="30" frameSlowSpeed="30" afterTimeFrame="34" goInto="3">
+					<frame id="1" sound="ad_tornado" loopSound="true"/>
+					<frame id="33" gotoFrame="25"/>
+				</animation>
+			</cart>
+		</carts>
+		
+		<tracks>
+			<track id="0" trackLength="35000">
+				<background ids="1,2,3"/>
+				
+				<!-- First Matching Tag or No Tag will be used -->
+				<trackTileOffset tag="AD_SnowWeasel">8</trackTileOffset>
+				<trackTileOffset tag="">0</trackTileOffset>
+				
+				<water tilesIn="16" midTiles="2"/> <!-- 11504 - 14380 -->
+				<mud tilesIn="30" midTiles="4"/> <!-- 21570 - 25884 -->
+				
+				<powerUp>2300</powerUp>
+				<powerUp>16500</powerUp>
+				<powerUp>28000</powerUp>
+				<obstacles>
+					<!-- Normal -->					
+					<obstacle id="0" position="1300" />
+					<!-- power up -->
+					<obstacle id="1" position="3850" />
+					<obstacle id="2" position="5250" />
+					<obstacle id="3" position="6600" />
+					<obstacle id="4" position="7950" />
+					<obstacle id="5" position="9400" />
+					<!-- water -->
+					<obstacle id="6" position="15650" />
+					<!-- power up -->
+					<obstacle id="7" position="18000" />
+					<obstacle id="8" position="19350" />
+					<obstacle id="9" position="20600" />
+					<!-- mud -->
+					<obstacle id="10" position="27150" />
+					<!-- power up -->
+					<obstacle id="11" position="29500" />
+					<obstacle id="12" position="30800" />
+					<obstacle id="13" position="32150" />
+					
+					<!-- Winter -->
+					<obstacle id="17" position="1300" />
+					<!-- power up -->
+					<obstacle id="18" position="3850" />
+					<obstacle id="19" position="5250" />
+					<obstacle id="20" position="6600" />
+					<obstacle id="21" position="7950" />
+					<obstacle id="22" position="9400" />
+					<!-- water -->
+					<obstacle id="23" position="15650" />
+					<!-- power up -->
+					<obstacle id="24" position="18000" />
+					<obstacle id="25" position="19350" />
+					<obstacle id="26" position="20600" />
+					<!-- mud -->
+					<obstacle id="27" position="27150" />
+					<!-- power up -->
+					<obstacle id="28" position="29500" />
+					<obstacle id="29" position="30800" />
+					<obstacle id="30" position="32150" />
+				</obstacles>
+			</track>
+		</tracks>
+				
+		<boostDecelerationDuration>500</boostDecelerationDuration>
+		<boostSpeed>650.0</boostSpeed>
+		<boostDuration>3000</boostDuration>
+		
+		<!-- Game variables -->
+		<playerMin>2</playerMin>
+		 
+	</config>
+</panel>

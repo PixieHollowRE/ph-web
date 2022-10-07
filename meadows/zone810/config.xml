@@ -1,0 +1,33 @@
+<zone>
+  <name>Spike's Sweets</name>
+  <zoneID>810</zoneID>
+  <assetURL/>
+  <audioLibrary>shop_qb</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="ground" width="900" height="531">
+        <image x="0" y="0" type="none">Spikes_action_03.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="399" y="301">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>qb_themeSong</id>
+      <loops>0</loops>
+      <volumeLow>0.6</volumeLow>
+      <volumeHigh>0.6</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+</zone>

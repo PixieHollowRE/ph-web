@@ -1,0 +1,16 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/dyeModeSelectionPanel.swf</swf>
+		<swf type="code">{panelCode}/dyeModeSelectionPanel.swf</swf>
+	</swfs>
+
+	<copy>
+		<modeExplanation>What do you want to dye?</modeExplanation>
+		<backBtn target="panelContents.backBtn.caption">Back</backBtn>
+		<wardrobeButtonLabel>Wardrobe</wardrobeButtonLabel>
+		<storageButtonLabel>Storage</storageButtonLabel>
+	</copy>
+
+	<config>
+	</config>
+</panel>

@@ -1,0 +1,22 @@
+<panelSet>
+	<panels>
+		<panel id="manager" x="8" y="96" alwaysOnTop="true" transition="none">{panelData}/manager.xml</panel>
+	</panels>
+	<config>
+		<menu hideplay="true" hidenews="true">
+			<config title="true" defaultbackbuttony="15" nav="true"/>
+			<title x="0" y ="30">
+				<text>menutitle</text>    
+			</title>
+			<backarrow>
+				<text>arrowtext</text>
+				<url>http://disney.go.com/fairies/#/pixiecentral</url>
+			</backarrow>
+		</menu>	
+
+	</config>
+	<copy>
+		<menutitle>My %0A Fairies</menutitle>
+		<arrowtext>Go Back</arrowtext>
+	</copy>
+</panelSet>

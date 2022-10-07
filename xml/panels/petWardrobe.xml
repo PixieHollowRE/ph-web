@@ -1,0 +1,102 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/petWardrobe.swf</swf>
+		<swf type="code">{panelCode}/petWardrobe.swf</swf>
+	</swfs>
+	<config>
+		<fbBtnCoordsPetWardrobe>577,76</fbBtnCoordsPetWardrobe>
+
+		<poserSlider1Label>HEAD</poserSlider1Label>
+		<poserSlider2Label>RIGHT_UPPER_ARM</poserSlider2Label>
+		<poserSlider3Label>LEFT_UPPER_ARM</poserSlider3Label>
+		<poserSlider4Label>RIGHT_LOWER_ARM</poserSlider4Label>
+		<poserSlider5Label>LEFT_LOWER_ARM</poserSlider5Label>
+		<poserSlider6Label>RIGHT_UPPER_LEG</poserSlider6Label>
+		<poserSlider7Label>LEFT_UPPER_LEG</poserSlider7Label>
+		<poserSlider8Label>RIGHT_LOWER_LEG</poserSlider8Label>
+		<poserSlider9Label>LEFT_LOWER_LEG</poserSlider9Label>
+	
+		
+		
+		<poserSlider1LowerBound>-10</poserSlider1LowerBound>
+		<poserSlider1UpperBound>15</poserSlider1UpperBound>
+		
+		<poserSlider2LowerBound>75</poserSlider2LowerBound>
+		<poserSlider2UpperBound>25</poserSlider2UpperBound>
+		
+		<poserSlider3LowerBound>-15</poserSlider3LowerBound>
+		<poserSlider3UpperBound>-110</poserSlider3UpperBound>
+		
+		<poserSlider4LowerBound>0</poserSlider4LowerBound>
+		<poserSlider4UpperBound>-52</poserSlider4UpperBound>
+		
+		<poserSlider5LowerBound>0</poserSlider5LowerBound>
+		<poserSlider5UpperBound>-90</poserSlider5UpperBound>
+		
+		<poserSlider6LowerBound>0</poserSlider6LowerBound>
+		<poserSlider6UpperBound>-15</poserSlider6UpperBound>
+		
+		<poserSlider7LowerBound>15</poserSlider7LowerBound>
+		<poserSlider7UpperBound>0</poserSlider7UpperBound>
+		
+		<poserSlider8LowerBound>90</poserSlider8LowerBound>
+		<poserSlider8UpperBound>0</poserSlider8UpperBound>
+		
+		<poserSlider9LowerBound>70</poserSlider9LowerBound>
+		<poserSlider9UpperBound>0</poserSlider9UpperBound>
+	</config>
+	<copy>
+		<wardrobeTitle>Wardrobe</wardrobeTitle>
+		<poseTitle>Pose</poseTitle>
+		<poseLabel1>Head</poseLabel1>
+		<poseLabel2>Right Side</poseLabel2>
+		<poseLabel3>Left Side</poseLabel3>
+		<poseLabel4>Arm</poseLabel4>
+		<poseLabel5>Arm</poseLabel5>
+		<poseLabel6>Elbow</poseLabel6>
+		<poseLabel7>Elbow</poseLabel7>
+		<poseLabel8>Leg</poseLabel8>
+		<poseLabel9>Leg</poseLabel9>
+		<poseLabel10>Knee</poseLabel10>
+		<poseLabel11>Knee</poseLabel11>
+		<tab0tooltip>Fireflies</tab0tooltip>
+		<tab1tooltip>Ladybugs</tab1tooltip>
+		<tab2tooltip>Hummingbirds</tab2tooltip>
+		<tab3tooltip>Dragonflies</tab3tooltip>
+		<tab4tooltip>Bees</tab4tooltip>
+		<tab5tooltip>Butterflies</tab5tooltip>
+		<tab6tooltip>Anklets</tab6tooltip>
+		<tab7tooltip>Shoes</tab7tooltip>
+		<printbuttontooltip>Print Your Fairy</printbuttontooltip>
+		<nextbutton>Pose</nextbutton>
+		<backbutton>Outfit</backbutton>
+		<from>Created by:</from>
+		<specialFrom>Special item from:</specialFrom>
+		<donate>Make a donation!</donate>
+		<acquired>Oldest to Newest</acquired>
+		<reverseAcquired>Newest to Oldest</reverseAcquired>
+		<color>Color</color>
+		<alphabet>Alphabetical</alphabet>
+		<gender>Gender</gender>
+		<sortCopy>Sort By:</sortCopy>
+		<multipleSlotsAvailableText>Room for #NUM# more items.</multipleSlotsAvailableText>
+		<singleSlotAvailableText>Room for 1 more item.</singleSlotAvailableText>
+		<noSlotsAvailableText>Your wardrobe is full.</noSlotsAvailableText>
+		<genderAlertTitle>Reminder...</genderAlertTitle>
+		<genderAlertBody>#GENDERS# cannot wear this item!</genderAlertBody>
+		<genderAlertDontShowAgain>Don't show this again.</genderAlertDontShowAgain>
+		<genderAlertOkBtn>OK</genderAlertOkBtn>
+		<wrongIconWithPet>Oops! You currently have a #PETTYPE#. Only a #WRONGPETTYPE# can wear this item.</wrongIconWithPet>
+		<wrongIconWithPetTitle>Wrong Pet</wrongIconWithPetTitle>
+		<wrongIconNoPet>Oops! You don't have an Animal Friend. You need a #PETTYPE# to wear this item!</wrongIconNoPet>
+		<wrongIconNoPetTitle>No Pet</wrongIconNoPetTitle>
+		<nonMember>Visit Beck's Animal Nursery in Springtime Orchard to adopt a new Animal Friend.</nonMember>
+		<ok>OK</ok>
+		<onlyOwnOneFriendText>You currently have a #PETTYPE#. You can only have one Animal Friend at a time.#BUTTERFLY_NOTE#</onlyOwnOneFriendText>
+		<butterflyNote>#NEWLINE##NEWLINE#There are currently no outfits for Butterflies.</butterflyNote>
+		<noAnimalFriendText>Visit Beck's Animal Nursery in Springtime Orchard to adopt a new Animal Friend.</noAnimalFriendText>
+		<growthTitle target="dresser.animalFriendInfoHolder.growthTitle">Age:</growthTitle>
+		<toolTipAnimalGrowthChart>Current Level: x of 10</toolTipAnimalGrowthChart>
+		<growthProgress>#current# of #next#</growthProgress>
+	</copy>
+</panel>

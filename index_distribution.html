@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta name="verify-v1" content="2Pi/1VPgqRbVgzrirYH04cv6HwrzPnwedIUZuXRXnG4=" />
+	<meta name="msvalidate.01" content="E5121C05B441452D963A1BD0A043F110" />
+	<meta name="y_key" content="dd3b901df994bbc3" >
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ 
+ <title>Create your very own Fairy and fly into Pixie Hollow! | Pixie Hollow | Disney Fairies</title>
+<meta name="description" content="Experience the wonder and magic of Tinker Bell's world when you create your very own Fairy and take flight into Pixie Hollow." />
+<meta name="keywords" content="fly a fairy, fairy game, virtual world, Disney Fairies, Fairies, Fairy, Pixie Hollow, Tinker Bell, " />
+<base target="_top"> 
+<style type="text/css">@import url(http://a.disney.go.com/fairies/pixiehollow/css/styles.css);</style>
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript" src="http://a.disney.go.com/detect/scripts/master_flash_light.js"></script>
+<script type="text/javascript" src="http://a.disney.go.com/fairies/pixiehollow/js/library.js"></script>
+<script type="text/javascript" src="http://a.disney.go.com/fairies/pixiehollow/js/javascripts.js"></script>
+
+<script type="text/javascript" src="http://a.disney.go.com/javascript/querypal.js"></script>
+<script type="text/javascript" src="fairies_framework.js"></script>
+<script type="text/javascript" src="environment.js"></script>
+<link rel="icon" href="http://a.disney.go.com/fairies/wings.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://a.disney.go.com/fairies/wings.ico" type="image/x-icon" />
+<script type="text/javascript"> 
+	 DetectFlash("10","http://disney.go.com/fairies/pixiehollow/nochromeflashUpgrade.html");
+</script>
+ 
+  <script type="text/javascript"> 
+    var varCssPath = baseSwfPath+"css/main.css";
+    document.write('<style type="text/css">@import url('+varCssPath+');</style>');
+  </script>
+ <script type="text/javascript"> 
+	var varCssPath = baseSwfPath+"css/distribution.css";
+	document.write('<style type="text/css">@import url('+varCssPath+');</style>');
+</script>
+
+<style type="text/css"> 
+<!--
+body,td,th {
+	font-size: 0.8em;
+}
+-->
+</style>
+
+<script type="text/javascript">
+	/* Set default values for ie6 styles switch  */
+	 var theExt = "png";	
+	 var noPngs = false; 
+</script>
+	
+	<!---  Switch style sheets for ie6 here --->
+    
+<!--[if lt IE 7]>
+<script type="text/javascript">noPngs = true;  theExt = "gif";</script>
+<![endif]-->
+
+
+
+   
+   
+<script type="text/javascript">
+if (noPngs) {
+	var varCssPath = baseSwfPath+"css/distribution_ie6.css";
+	//alert("IE6 style");
+} else {
+	var varCssPath = baseSwfPath+"css/distribution.css";
+}
+
+document.write('<style type="text/css">@import url('+varCssPath+');</style>');
+</script>
+
+<script type="text/javascript" src="login_distribution.js"></script>
+
+
+<!--  Javascript Whipped up for the rollovers -->
+<script type="text/javascript">
+ 
+var myimages=new Array()
+var theBG = "pixieContent";
+
+
+//Note: This is now returning 1, 2 or 3
+//		In order to keep the CSS intact 
+//		(and avoid build dependency)
+//		the three images in publish/images/distribution
+//		have to be named:
+//		become_fairy.jpg
+//		play_games_tinkerbell.jpg
+//		animal_friend.jpg
+//		- Michal K
+
+//randomly pick one of the three
+var theNum = (Math.round(Math.random() * (2)) + 1);
+
+// or just use this to force it to be a specific number
+theNum = 1;
+
+var theBG = "pixieContent"+theNum;
+
+var trackingsiteSection = "";
+var trackingpageName = "";
+
+
+
+var loc = top.location.href;
+
+
+	
+if (loc.indexOf("candystand") != -1) {
+	var topRefTag = "cs";
+} else if (loc.indexOf("miniclip") != -1) {
+	var topRefTag = "mc";
+			
+	
+	// Set custom environ var only for miniclip
+	var locHost = top.location.host + "/";
+
+	
+} else {
+	var topRefTag = "ds";
+}
+
+	
+	function PreloadImages(){
+		for (i=0;i<PreloadImages.arguments.length;i++){
+			myimages[i]=new Image()
+			myimages[i].src=PreloadImages.arguments[i]
+		}
+	}
+	
+	function SwapIt(theId,theSrc) {
+		if (document.images){
+			document.images[theId].src = theSrc;
+		}
+	}
+	
+	function goto(theLink) {
+		document.location(theLink);	
+	}
+	
+	if (noPngs) {
+		PreloadImages(baseSwfPath +  "publish/images/distribution/btn_play_rollover.gif");
+	} else {
+		PreloadImages(baseSwfPath +  "publish/images/distribution/btn_play_rollover.png");
+	}
+	
+	
+
+</script>
+
+</head>
+<body class="distribution" align="center">
+  <div id="#fullpage" class="distributionbg">
+  
+	<!-- Chrome -->
+	<div id="chrome" align="center">
+		&nbsp;
+	</div>
+	<!-- **** EMS MESSAGING **** -->
+	<div id="emsg">
+    	<div class="emsg_inner" id="EMSText"><span></span></div>
+  </div>
+	<!-- **** END EMS MESSAGING **** -->
+	<div id="wrapper" align="center">
+		<div id="maincontent" align="center">
+        
+
+        
+        
+		<div class="flashFloatContainer">
+			<!-- QuickLogin Div used to live here, now it moved down just above the swfobject javascript -->
+			<div class="flashExtraFloat">
+				<div id="flashcontent">Framework Here </div>
+            </div>
+		</div>
+		
+		
+								
+		
+        
+        
+        
+        <!--<div id="pixieContent" class="pixieContent">-->
+         <script type="text/javascript">
+		document.write('<div id="pixieContent" class="' + theBG + '">');	
+		 </script>
+			<div class="pixieMenuHolder">
+				<div class="pixieMenu">
+					<span class="pixieMenuItem"><a href="membershiphub.html" target="_new">Membership</a></span>
+					<span class="pixieMenuItem"><a href="aboutgame.html" target="_new">About Pixie Hollow</a></span>
+					<span class="pixieMenuItem"><a href="parentscenter.html" target="_new">Parents</a></span>
+					<span class="pixieMenuItem"><a href="supportcenter.html" target="_new">Help</a></span>
+					<span class="pixieMenuItem"><a href="communityhome.html" target="_new">News</a></span>
+				</div>
+			</div>
+				
+				
+
+				<div class="pixiePlay">
+                	<div class="pixiePlayLogo">
+						
+						<script type="text/javascript">
+								document.write('<img id="pixiePlayLogo" src="'+baseSwfPath+'publish/images/distribution/pixie_logo.'+theExt+'" alt="Start"  border="0"/>');
+						</script>
+						
+					</div>
+					
+					
+					
+
+					
+					 
+					
+					
+                    
+					<div class="pixiePlayBtn">
+                    	<a href="javascript:playBtnClicked();"  
+							onmouseover="SwapIt('playBtn', baseSwfPath +  'publish/images/distribution/btn_play_rollover.'+theExt)"  
+							onmouseout="SwapIt('playBtn',baseSwfPath +  'publish/images/distribution/btn_play.'+theExt)"
+							target="_self">
+						<script type="text/javascript">
+							
+							document.write('<img  id="playBtn" src="'+baseSwfPath+'publish/images/distribution/btn_play.'+theExt+'" alt="Start" width="215" height="105" border="0"/>');
+                            
+                            
+                           </script></a>
+					</div>
+                    <div class="pixiePlayBtnText">
+                    Already have a Fairy? <a href="javascript:playBtnClicked();" target="_self">Login</a>
+                    </div>
+                    
+				</div>
+                
+                <div class="pixieLogout"><span id="logout" class="logout"><a href="javascript:logoutUser();" target="_self">Log Out</a></span></div>
+                
+                
+				<br clear="all" />
+			</div>
+
+			<div class="panelContent">
+				<div class="pixiePanelLeft"></div>
+				
+				<div class="pixiePanelNews">
+					<div class="pixiePanelButton"><a href="communityhome.html" target="_new">News Blog</a></div>
+				</div>
+				
+				<div class="pixiePanelMid">
+					<div class="pixiePanelMidText">
+                    
+                    <a href="javascript:playBtnClicked();" target="_self">
+                    <script type="text/javascript">
+							document.write('<img src="'+baseSwfPath+'publish/images/distribution/Create_A_fairy.'+theExt+'" alt="Create a Fairy" width="268" height="72" border="0"/>');
+                           </script>
+                    </a>
+                    
+                    
+                   </div>
+					<div class="pixiePanelMidPedals"></div>
+				</div>
+				
+				<div class="pixiePanelMember">
+					<div class="pixiePanelButton"><a href="membershiphub.html" target="_new">Become a Member</a></div>
+				</div>
+				
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+				<div class="pixiePanelRight"></div>
+				
+				<br clear="all" />
+			</div>
+			
+			<br clear="all" />
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div id="quickLoginContent">Quick Login Here</div>
+        
+        
+        <script type="text/javascript">
+				var flashvars = {};
+				var flashparams = {};
+				flashparams.allowScriptAccess = "always";
+				flashparams.wmode = "transparent";
+				flashparams.base = baseSwfPath;
+				
+				var attributes = {
+					id: "quickLogin",
+					 name: "quickLogin"
+				};
+				
+				
+				var flashvars = {};
+				flashvars.var_app_environment = var_app_environment;
+				flashvars.htmlEnvironment = var_html_environment;
+				
+				// If on the Miniclip site set custom environ var
+				if (topRefTag == "mc") {
+					flashvars.htmlEnvironment = locHost;
+				}
+				
+				
+				
+				// flashvars.currentUrl = getCurrentUrl();
+         	 	//flashvars.initialContent = "{publishPanelSetData}/" + initialContent;
+         	 	
+          		//flashvars.base = baseSwfPath;
+				
+				
+				var varSwfPath = baseSwfPath+"publish/swf/flash_widgets/quicklogin.swf"
+				
+				//swfobject.embedSWF(varSwfPath, "quickLoginContent", "300", "200", "10.0.0","http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, flashparams, attributes);	
+
+				swfobject.embedSWF(varSwfPath, "quickLoginContent", "1", "1", "10.0.0","http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, flashparams, attributes);	
+				
+				
+			</script>
+        
+        
+        
+        
+        <script type="text/javascript">
+          //var fairy_id = parseAddress(siteUrl());
+          var searchParameters = new queryPal();
+          var channel = searchParameters.checkQueryString("channel");
+          var sessiontoken = searchParameters.checkQueryString("sessiontoken");
+          initialContent = "distributionhub.xml";
+		  //initialContent = "prospect.xml";
+          if (channel != null){
+            initialContent = channel+".xml"
+          }
+          var varSwfPath = baseSwfPath+"swf/container.swf"
+          
+          var flashvars = {};
+          flashvars.session = "publish/xml/sessions/distribution.xml";
+          //flashvars.fairy_id = fairy_id;
+          flashvars.currentUrl = getCurrentUrl();
+          flashvars.initialContent = "{publishPanelSetData}/" + initialContent;
+		  flashvars.htmlEnvironment = var_html_environment;
+		  flashvars.base = baseSwfPath;
+		  
+		  
+		  // If on the Miniclip site set custom environ var
+		  if (topRefTag == "mc") {
+				flashvars.htmlEnvironment = locHost;
+		  }
+		  
+
+          
+		  
+          
+          if (sessiontoken != null){
+            flashvars.sessiontoken = sessiontoken;
+          }
+          if(Get_Cookie('launchminimanger')){
+            flashvars.launchminimanger = Get_Cookie('launchminimanger');
+            Delete_Cookie( 'launchminimanger', '/', 'go.com' );
+          }
+          
+          if(((Get_Cookie('prospectpage'))==null)){
+            flashvars.firsttimeuser = "true";
+            Set_Cookie( 'prospectpage', 'true', '9999', '', '', '' );
+          }
+          
+          var flashparams = {};
+          flashparams.allowScriptAccess = "always";
+          flashparams.bgcolor = "#060d20";
+          flashparams.wmode = "transparent";
+          flashparams.base = baseSwfPath;
+          
+          var attributes = {
+            id: "pixiehollowcontent",
+             name: "pixiehollowcontent"
+          };
+          
+          swfobject.embedSWF(varSwfPath, "flashcontent", "994", "1", "10.0.0","http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, flashparams, attributes);	
+		 // swfobject.embedSWF(varSwfPath, "flashcontent", "994", "1200", "10.0.0","http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, flashparams, attributes);	
+		  
+		  
+		//  Tell above function it's ok to call this object by name
+		swfObjectsInitialized();
+		  
+		  
+   
+        </script>
+		</div><!--end wrapper-->
+      <!-- Footer -->
+          
+      <div id="footer">
+        <script type="text/javascript" src="http://ahome.disney.go.com/globalelements/footer.js?footerDisplayMode=legalOnly&footerStyleSet=dark"></script>
+      </div>
+	</div><!--end fullpage-->
+
+
+
+	
+
+	    <!-- START DOL Web Analytics 1.0 -->
+	    <script type="text/javascript" src="http://aglobal.go.com/stat/dolWebAnalytics.js"></script>
+	    <script type="text/javascript">
+	    cto=new CTO();
+	    cto.account="pixiehollow";
+	    cto.category="dgame";
+	    cto.site="fai";
+	    cto.siteSection="pixiehollow:website:html";
+	    cto.pageName="index_distribution_html";
+	    cto.contentType="regular";
+	    cto.property="fai";
+	    cto.track();//Required. Do not remove.
+		
+		//Will use this space to check for the TMA cookie, and reset it to be session based, since TMA tool doesn't
+		<!-- END DOL Web Analytics 1.0 -->
+		var TMACookie = Get_Cookie('SOURCE');
+		
+		if (TMACookie != null && TMACookie != "") //if the SOURCE cookie exists and it's not an enmpty string
+		{
+			Set_Cookie('SOURCE', TMACookie, null, '/', '.go.com');
+		}
+		
+	    </script>
+	    <!-- END DOL Web Analytics 1.0 -->
+		
+		
+		
+		
+		<!--  This one based on site bg start btn, was in flash  -->
+		  <!-- START DOL Web Analytics 1.0 -->
+		<script type="text/javascript">
+		<!--  Get random background number and send it to tracking  -->
+		function sendTracking(bgid) {
+			cto2=new CTO();
+			cto2.account="pixiehollow";
+			cto2.category="dgame";
+			cto2.site="fai";
+			
+		  if (bgid == 1) {
+			/*
+				NOTE!
+				To avoid changing the CSS file, those have to be adjusted as JPG files are replaced.
+				Currently, only first three images are used.
+				- Michal
+			*/
+			//trackingsiteSection = "dgame:fai:pixiehollow:website:homepage:cs_become_a_fairy";
+			//trackingpageName = "dgame:fai:pixiehollow:website:homepage:cs_become_a_fairy";
+			cto2.siteSection="pixiehollow:website:homepage"+topRefTag;
+			//cto2.pageName="pixiehollow:website:homepage:"+topRefTag+"_become_a_fairy";
+			cto2.pageName="pixiehollow:website:homepage:"+topRefTag+"_general";
+		  } else if (bgid == 2) {
+			cto2.siteSection="pixiehollow:website:homepage"+topRefTag;
+			//cto2.pageName="pixiehollow:website:homepage:"+topRefTag+"_tinkering";
+			cto2.pageName="pixiehollow:website:homepage:"+topRefTag+"_hangingout_neverfruit_grove";
+		  } else if (bgid == 3){
+			cto2.siteSection="pixiehollow:website:homepage"+topRefTag;
+			//cto2.pageName="pixiehollow:website:homepage:"+topRefTag+"_animal_friend";
+			cto2.pageName="pixiehollow:website:homepage:"+topRefTag+"_hangingout_neverfruit_grove";
+		  } else if (bgid == 4){
+			cto2.siteSection="pixiehollow:website:homepage:"+topRefTag;
+			cto2.pageName="pixiehollow:website:homepage:"+topRefTag+"_play_games_tinkerbell";
+		  } else if (bgid == 5){
+			cto2.siteSection="pixiehollow:website:homepage"+topRefTag;
+			cto2.pageName="pixiehollow:website:homepage:"+topRefTag+"_play_games";
+		  }  else if (bgid == 6){
+			cto2.siteSection="pixiehollow:website:homepage"+topRefTag;
+			cto2.pageName="pixiehollow:website:homepage:"+topRefTag+"_hangingout_animal_friends";
+		  } else {
+			cto2.siteSection="pixiehollow:website:homepage"+topRefTag;
+			cto2.pageName="pixiehollow:website:homepage:"+topRefTag+"_become_a_fairy"; 
+		  }
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+			//cto2.siteSection=trackingsiteSection;
+			//cto2.pageName=trackingpageName;
+			cto2.contentType="regular";
+			cto2.property="fai";
+			cto2.track();//Required. Do not remove.
+		  }
+		
+
+		sendTracking(theNum);
+		</script>
+		<!-- END DOL Web Analytics 1.0 -->
+		
+
+
+
+	</body>
+
+</html>

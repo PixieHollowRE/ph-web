@@ -1,0 +1,526 @@
+﻿<level>
+
+<!-- The fireflies are hiding... orange or purple (or red?) can light them up. -->
+
+	<light x = "95" y = "253">orange</light>
+	<light x = "783" y = "253">yellow</light>
+	<light x = "95" y = "178">purple</light>
+	<light x = "783" y = "178">orange</light>
+	<light x = "95" y = "328">blue</light>
+	<light x = "783" y = "328">red</light>
+
+<!-- moth #1 of 1 -->
+	<firefly image="moth">
+		<path source="random">
+			<topLeft x="195" y="190" />
+			<bottomRight x="683" y="400" />		
+			<headingToPointSpeed value="0.4" />
+			<waitingSpeed value="0.4" />
+		</path>
+		<speed>10</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>15</attract>
+		<type>moth</type>
+	</firefly>
+<!-- firefly 1 of 6 -->
+	<firefly image="firefly">
+		<path>
+			<point x="758" y="480" />
+			<point x="758" y="475" />
+			<point x="578" y="450" />
+			<point x="425" y="495" />
+			<point x="275" y="600" />
+			<point x="125" y="435" />
+			<point x="80" y="400" />
+			<point x="15" y="390" />
+			<point x="-100" y="260" />
+			<point x="25" y="130" />
+			<point x="160" y="100" />
+			<point x="230" y="25" />
+			<point x="440" y="-100" />
+			<point x="650" y="20" />
+			<point x="708" y="85" />
+			<point x="800" y="130" />
+			<point x="790" y="0" />
+			<point x="800" y="130" />
+			<point x="708" y="85" />
+			<point x="650" y="20" />
+			<point x="440" y="-100" />
+			<point x="230" y="25" />
+			<point x="160" y="100" />
+			<point x="25" y="130" />
+			<point x="-100" y="260" />
+			<point x="15" y="390" />
+			<point x="80" y="400" />
+			<point x="125" y="435" />
+			<point x="275" y="600" />
+			<point x="425" y="495" />
+			<point x="578" y="450" />
+			<point x="758" y="475" />
+			<point x="758" y="755" />
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.2</turnspeed>
+		<attract>20</attract>	
+	</firefly>
+
+<!-- firefly 2 of 6 -->
+	<firefly image="firefly">
+		<path>
+			<point x="578" y="450" />
+			<point x="425" y="495" />
+			<point x="275" y="600" />
+			<point x="125" y="435" />
+			<point x="80" y="400" />
+			<point x="15" y="390" />
+			<point x="-100" y="260" />
+			<point x="25" y="130" />
+			<point x="160" y="100" />
+			<point x="230" y="25" />
+			<point x="440" y="-100" />
+			<point x="650" y="20" />
+			<point x="708" y="85" />
+			<point x="800" y="130" />
+			<point x="790" y="0" />
+			<point x="800" y="130" />
+			<point x="708" y="85" />
+			<point x="650" y="20" />
+			<point x="440" y="-100" />
+			<point x="230" y="25" />
+			<point x="160" y="100" />
+			<point x="25" y="130" />
+			<point x="-100" y="260" />
+			<point x="15" y="390" />
+			<point x="80" y="400" />
+			<point x="125" y="435" />
+			<point x="275" y="600" />
+			<point x="425" y="495" />
+			<point x="578" y="450" />
+			<point x="758" y="475" />
+			<point x="758" y="755" />
+			<point x="758" y="535" />
+			<point x="758" y="475" />			
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.2</turnspeed>
+		<attract>20</attract>	
+	</firefly>
+
+<!-- firefly 3 of 6 -->
+	<firefly image="firefly">
+		<path>
+			<point x="275" y="600" />
+			<point x="125" y="435" />
+			<point x="80" y="400" />
+			<point x="15" y="390" />
+			<point x="-100" y="260" />
+			<point x="25" y="130" />
+			<point x="160" y="100" />
+			<point x="230" y="25" />
+			<point x="440" y="-100" />
+			<point x="650" y="20" />
+			<point x="708" y="85" />
+			<point x="800" y="130" />
+			<point x="790" y="0" />
+			<point x="800" y="130" />
+			<point x="708" y="85" />
+			<point x="650" y="20" />
+			<point x="440" y="-100" />
+			<point x="230" y="25" />
+			<point x="160" y="100" />
+			<point x="25" y="130" />
+			<point x="-100" y="260" />
+			<point x="15" y="390" />
+			<point x="80" y="400" />
+			<point x="125" y="435" />
+			<point x="275" y="600" />
+			<point x="425" y="495" />
+			<point x="578" y="450" />
+			<point x="758" y="475" />
+			<point x="758" y="755" />
+			<point x="758" y="590" />
+			<point x="758" y="475" />
+			<point x="578" y="450" />
+			<point x="425" y="495" />			
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.2</turnspeed>
+		<attract>20</attract>	
+	</firefly>
+
+<!-- firefly 4 of 6 -->
+	<firefly image="firefly">
+		<path>
+			<point x="80" y="400" />
+			<point x="15" y="390" />
+			<point x="-100" y="260" />
+			<point x="25" y="130" />
+			<point x="160" y="100" />
+			<point x="230" y="25" />
+			<point x="440" y="-100" />
+			<point x="650" y="20" />
+			<point x="708" y="85" />
+			<point x="800" y="130" />
+			<point x="790" y="0" />
+			<point x="800" y="130" />
+			<point x="708" y="85" />
+			<point x="650" y="20" />
+			<point x="440" y="-100" />
+			<point x="230" y="25" />
+			<point x="160" y="100" />
+			<point x="25" y="130" />
+			<point x="-100" y="260" />
+			<point x="15" y="390" />
+			<point x="80" y="400" />
+			<point x="125" y="435" />
+			<point x="275" y="600" />
+			<point x="425" y="495" />
+			<point x="578" y="450" />
+			<point x="758" y="475" />
+			<point x="758" y="755" />
+			<point x="758" y="645" />
+			<point x="758" y="475" />
+			<point x="578" y="450" />
+			<point x="425" y="495" />
+			<point x="275" y="600" />
+			<point x="125" y="435" />			
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.2</turnspeed>
+		<attract>20</attract>
+	</firefly>
+
+<!-- firefly 5 of 6 -->
+	<firefly image="firefly">
+		<path>
+			<point x="-100" y="260" />
+			<point x="25" y="130" />
+			<point x="160" y="100" />
+			<point x="230" y="25" />
+			<point x="440" y="-100" />
+			<point x="650" y="20" />
+			<point x="708" y="85" />
+			<point x="800" y="130" />
+			<point x="790" y="0" />
+			<point x="800" y="130" />
+			<point x="708" y="85" />
+			<point x="650" y="20" />
+			<point x="440" y="-100" />
+			<point x="230" y="25" />
+			<point x="160" y="100" />
+			<point x="25" y="130" />
+			<point x="-100" y="260" />
+			<point x="15" y="390" />
+			<point x="80" y="400" />
+			<point x="125" y="435" />
+			<point x="275" y="600" />
+			<point x="425" y="495" />
+			<point x="578" y="450" />
+			<point x="758" y="475" />
+			<point x="758" y="755" />
+			<point x="758" y="700" />
+			<point x="758" y="475" />
+			<point x="578" y="450" />
+			<point x="425" y="495" />
+			<point x="275" y="600" />
+			<point x="125" y="435" />
+			<point x="80" y="400" />
+			<point x="15" y="390" />			
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.2</turnspeed>
+		<attract>20</attract>
+	</firefly>
+
+<!-- firefly 6 of 6 -->
+	<firefly image="firefly">
+		<path>
+			<point x="160" y="100" />
+			<point x="230" y="25" />
+			<point x="440" y="-100" />
+			<point x="650" y="20" />
+			<point x="708" y="85" />
+			<point x="800" y="130" />
+			<point x="790" y="0" />
+			<point x="800" y="130" />
+			<point x="708" y="85" />
+			<point x="650" y="20" />
+			<point x="440" y="-100" />
+			<point x="230" y="25" />
+			<point x="160" y="100" />
+			<point x="25" y="130" />
+			<point x="-100" y="260" />
+			<point x="15" y="390" />
+			<point x="80" y="400" />
+			<point x="125" y="435" />
+			<point x="275" y="600" />
+			<point x="425" y="495" />
+			<point x="578" y="450" />
+			<point x="758" y="475" />
+			<point x="758" y="755" />
+			<point x="758" y="475" />
+			<point x="578" y="450" />
+			<point x="425" y="495" />
+			<point x="275" y="600" />
+			<point x="125" y="435" />
+			<point x="80" y="400" />
+			<point x="15" y="390" />
+			<point x="-100" y="260" />
+			<point x="25" y="130" />
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.2</turnspeed>
+		<attract>20</attract>
+	</firefly>
+<!-- firefly 1 of 6 -->
+	<firefly image="firefly">
+		<path>
+			<point x="790" y="0" />
+			<point x="800" y="130" />
+			<point x="708" y="85" />
+			<point x="650" y="20" />
+			<point x="440" y="-100" />
+			<point x="230" y="25" />
+			<point x="160" y="100" />
+			<point x="25" y="130" />
+			<point x="-100" y="260" />
+			<point x="15" y="390" />
+			<point x="80" y="400" />
+			<point x="125" y="435" />
+			<point x="275" y="600" />
+			<point x="425" y="495" />
+			<point x="578" y="450" />
+			<point x="758" y="475" />
+			<point x="758" y="755" />
+			<point x="758" y="480" />
+			<point x="758" y="475" />
+			<point x="578" y="450" />
+			<point x="425" y="495" />
+			<point x="275" y="600" />
+			<point x="125" y="435" />
+			<point x="80" y="400" />
+			<point x="15" y="390" />
+			<point x="-100" y="260" />
+			<point x="25" y="130" />
+			<point x="160" y="100" />
+			<point x="230" y="25" />
+			<point x="440" y="-100" />
+			<point x="650" y="20" />
+			<point x="708" y="85" />
+			<point x="800" y="130" />
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.2</turnspeed>
+		<attract>20</attract>	
+	</firefly>
+
+<!-- firefly 2 of 6 -->
+	<firefly image="firefly">
+		<path>
+			<point x="708" y="85" />
+			<point x="650" y="20" />
+			<point x="440" y="-100" />
+			<point x="230" y="25" />
+			<point x="160" y="100" />
+			<point x="25" y="130" />
+			<point x="-100" y="260" />
+			<point x="15" y="390" />
+			<point x="80" y="400" />
+			<point x="125" y="435" />
+			<point x="275" y="600" />
+			<point x="425" y="495" />
+			<point x="578" y="450" />
+			<point x="758" y="475" />
+			<point x="758" y="755" />
+			<point x="758" y="535" />
+			<point x="758" y="475" />			
+			<point x="578" y="450" />
+			<point x="425" y="495" />
+			<point x="275" y="600" />
+			<point x="125" y="435" />
+			<point x="80" y="400" />
+			<point x="15" y="390" />
+			<point x="-100" y="260" />
+			<point x="25" y="130" />
+			<point x="160" y="100" />
+			<point x="230" y="25" />
+			<point x="440" y="-100" />
+			<point x="650" y="20" />
+			<point x="708" y="85" />
+			<point x="800" y="130" />
+			<point x="790" y="0" />
+			<point x="800" y="130" />
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.2</turnspeed>
+		<attract>20</attract>	
+	</firefly>
+
+<!-- firefly 3 of 6 -->
+	<firefly image="firefly">
+		<path>
+			<point x="440" y="-100" />
+			<point x="230" y="25" />
+			<point x="160" y="100" />
+			<point x="25" y="130" />
+			<point x="-100" y="260" />
+			<point x="15" y="390" />
+			<point x="80" y="400" />
+			<point x="125" y="435" />
+			<point x="275" y="600" />
+			<point x="425" y="495" />
+			<point x="578" y="450" />
+			<point x="758" y="475" />
+			<point x="758" y="755" />
+			<point x="758" y="590" />
+			<point x="758" y="475" />
+			<point x="578" y="450" />
+			<point x="425" y="495" />			
+			<point x="275" y="600" />
+			<point x="125" y="435" />
+			<point x="80" y="400" />
+			<point x="15" y="390" />
+			<point x="-100" y="260" />
+			<point x="25" y="130" />
+			<point x="160" y="100" />
+			<point x="230" y="25" />
+			<point x="440" y="-100" />
+			<point x="650" y="20" />
+			<point x="708" y="85" />
+			<point x="800" y="130" />
+			<point x="790" y="0" />
+			<point x="800" y="130" />
+			<point x="708" y="85" />
+			<point x="650" y="20" />
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.2</turnspeed>
+		<attract>20</attract>	
+	</firefly>
+
+<!-- firefly 4 of 6 -->
+	<firefly image="firefly">
+		<path>
+			<point x="160" y="100" />
+			<point x="25" y="130" />
+			<point x="-100" y="260" />
+			<point x="15" y="390" />
+			<point x="80" y="400" />
+			<point x="125" y="435" />
+			<point x="275" y="600" />
+			<point x="425" y="495" />
+			<point x="578" y="450" />
+			<point x="758" y="475" />
+			<point x="758" y="755" />
+			<point x="758" y="645" />
+			<point x="758" y="475" />
+			<point x="578" y="450" />
+			<point x="425" y="495" />
+			<point x="275" y="600" />
+			<point x="125" y="435" />			
+			<point x="80" y="400" />
+			<point x="15" y="390" />
+			<point x="-100" y="260" />
+			<point x="25" y="130" />
+			<point x="160" y="100" />
+			<point x="230" y="25" />
+			<point x="440" y="-100" />
+			<point x="650" y="20" />
+			<point x="708" y="85" />
+			<point x="800" y="130" />
+			<point x="790" y="0" />
+			<point x="800" y="130" />
+			<point x="708" y="85" />
+			<point x="650" y="20" />
+			<point x="440" y="-100" />
+			<point x="230" y="25" />
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.2</turnspeed>
+		<attract>20</attract>
+	</firefly>
+
+<!-- firefly 5 of 6 -->
+	<firefly image="firefly">
+		<path>
+			<point x="-100" y="260" />
+			<point x="15" y="390" />
+			<point x="80" y="400" />
+			<point x="125" y="435" />
+			<point x="275" y="600" />
+			<point x="425" y="495" />
+			<point x="578" y="450" />
+			<point x="758" y="475" />
+			<point x="758" y="755" />
+			<point x="758" y="700" />
+			<point x="758" y="475" />
+			<point x="578" y="450" />
+			<point x="425" y="495" />
+			<point x="275" y="600" />
+			<point x="125" y="435" />
+			<point x="80" y="400" />
+			<point x="15" y="390" />			
+			<point x="-100" y="260" />
+			<point x="25" y="130" />
+			<point x="160" y="100" />
+			<point x="230" y="25" />
+			<point x="440" y="-100" />
+			<point x="650" y="20" />
+			<point x="708" y="85" />
+			<point x="800" y="130" />
+			<point x="790" y="0" />
+			<point x="800" y="130" />
+			<point x="708" y="85" />
+			<point x="650" y="20" />
+			<point x="440" y="-100" />
+			<point x="230" y="25" />
+			<point x="160" y="100" />
+			<point x="25" y="130" />
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.2</turnspeed>
+		<attract>20</attract>
+	</firefly>
+
+<!-- firefly 6 of 6 -->
+	<firefly image="firefly">
+		<path>
+			<point x="80" y="400" />
+			<point x="125" y="435" />
+			<point x="275" y="600" />
+			<point x="425" y="495" />
+			<point x="578" y="450" />
+			<point x="758" y="475" />
+			<point x="758" y="755" />
+			<point x="758" y="475" />
+			<point x="578" y="450" />
+			<point x="425" y="495" />
+			<point x="275" y="600" />
+			<point x="125" y="435" />
+			<point x="80" y="400" />
+			<point x="15" y="390" />
+			<point x="-100" y="260" />
+			<point x="25" y="130" />
+			<point x="160" y="100" />
+			<point x="230" y="25" />
+			<point x="440" y="-100" />
+			<point x="650" y="20" />
+			<point x="708" y="85" />
+			<point x="800" y="130" />
+			<point x="790" y="0" />
+			<point x="800" y="130" />
+			<point x="708" y="85" />
+			<point x="650" y="20" />
+			<point x="440" y="-100" />
+			<point x="230" y="25" />
+			<point x="160" y="100" />
+			<point x="25" y="130" />
+			<point x="-100" y="260" />
+			<point x="15" y="390" />			
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.2</turnspeed>
+		<attract>20</attract>
+	</firefly>
+
+</level>

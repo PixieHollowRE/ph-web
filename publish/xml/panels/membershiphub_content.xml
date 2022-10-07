@@ -1,0 +1,81 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/membershiphub_content.swf</swf>
+		<swf type="code">{publishPanelCode}/membershiphub_content.swf</swf>
+	</swfs>
+	<copy>
+		<pagetitle target="content.title">Become a Member!</pagetitle>
+		<!--tabs-->
+		<memberbtn target="content.tabs.tabs.memberbtn.copyclip">Buy a Membership</memberbtn>
+		<tab1title target="content.tabs.tabs.bg.tab1.tabt">Membership</tab1title>
+		<tab1bodytitle target="content.tabs.tabs.bg.tab1.t">Why Become a Member?</tab1bodytitle>
+		<tab1body target="content.tabs.tabs.bg.tab1.b">As a Member, you'll gain access to all of the fun. Visit the shops, fly into the Wilderness, host a party, and more! Plus ... experience even more gameplay with exclusive talent games and extra levels that are just for Members!</tab1body>
+		<tab2title target="content.tabs.tabs.bg.tab2.tabt">Shop</tab2title>
+		<tab2bodytitle target="content.tabs.tabs.bg.tab2.t">Shop at the Boutiques and Hair Salon!</tab2bodytitle>
+		<tab2body target="content.tabs.tabs.bg.tab2.b">Visit the shops and the hair salon to trade the things you've collected for new Fairy fashions and furnishings or a flitterific new hairstyle. And, as a Member, you'll have a bigger wardrobe and inventory with plenty of space to store all of your new Fairy clothes and decorations.</tab2body>
+		<tab3title target="content.tabs.tabs.bg.tab3.tabt">Create</tab3title>
+		<tab3bodytitle target="content.tabs.tabs.bg.tab3.t">Tailor Fairy Fashions and Bake Treats!</tab3bodytitle>
+		<tab3body target="content.tabs.tabs.bg.tab3.b">Use the ingredients in your pouch to make stylish fashions and accessories to add to your Fairy wardrobe, to tinker furniture for your home, or to make tasty pixie dust filled goodies to take into the Wilderness.</tab3body>
+		<tab4title target="content.tabs.tabs.bg.tab4.tabt">Explore</tab4title>
+		<tab4bodytitle target="content.tabs.tabs.bg.tab4.t">Experience Quests and the Wilderness!</tab4bodytitle>
+		<tab4body target="content.tabs.tabs.bg.tab4.b">Earn special gifts to add to your Fairy home and wardrobe by completing Members-only quests from Tinker Bell and her Fairy friends. Form an adventure group with your Fairy friends and use your talent skills to overcome obstacles in the Wilderness for more special ingredients and items!</tab4body>
+		<tab5title target="content.tabs.tabs.bg.tab5.tabt">Celebrate</tab5title>
+		<tab5bodytitle target="content.tabs.tabs.bg.tab5.t">Host a Fairy Party!</tab5bodytitle>
+		<tab5body target="content.tabs.tabs.bg.tab5.b">Decorate your Fairy home with flitterific party decorations and host a pixie party.  Invite your friends over and play pixielicious party games -- Pass the Popcorn, Simone Says, and Rock, Paper, Scissors.</tab5body>
+		<tab6title target="content.tabs.tabs.bg.tab6.tabt">Play</tab6title>
+		<tab6bodytitle target="content.tabs.tabs.bg.tab6.t">Care for an Animal Friend!</tab6bodytitle>
+		<tab6body target="content.tabs.tabs.bg.tab6.b">Fly by Beck's Animal Nursery to choose a baby animal to care for and nurture. With fireflies, ladybugs, hummingbirds, and dragonflies, there's a perfect baby animal for every Fairy! Earn beautiful badges by helping Animal Friends.</tab6body>
+		<!--member titles-->
+		<bottomtitle1 target="content.bottombox.t1.title">Membership Options</bottomtitle1>
+		<bottomtitle2 target="content.bottombox.t2.title">Activate              a Card</bottomtitle2>
+		<bottomtitle3 target="content.bottombox.t3.title">Gift Memberships</bottomtitle3>
+		<!--leaves-->
+		<leaf1title target="content.bottombox.l1.t">Monthly*</leaf1title>
+		<leaf1dollars target="content.bottombox.l1.dollars">$5</leaf1dollars>
+		<leaf1cents target="content.bottombox.l1.cents">95</leaf1cents>
+		<leaf2title target="content.bottombox.l2.t">Semi-Annual*</leaf2title>
+		<leaf2dollars target="content.bottombox.l2.dollars">$29</leaf2dollars>
+		<leaf2cents target="content.bottombox.l2.cents">95</leaf2cents>
+		<leaf3title target="content.bottombox.l3.t">Annual*</leaf3title>
+		<leaf3dollars target="content.bottombox.l3.dollars">$57</leaf3dollars>
+		<leaf3cents target="content.bottombox.l3.cents">95</leaf3cents>
+		
+		<legaltext target="content.bottombox.legaltext">*Pixie Hollow Memberships are automatically recurring.</legaltext>
+		
+		
+		<!--card-->
+		<cardtitle target="content.bottombox.card.t">Membership Card</cardtitle>
+		<cardbody target="content.bottombox.card.b"><![CDATA[<a href="event:gc"><u>Membership Cards</u></a> and <a href="event:mm"><u>Magical Membership Cards</u></a> can be redeemed for one month of Membership to PixieHollow.com.]]> 
+		</cardbody>
+		<cardbtn target="content.redeem.copyclip">Activate Now</cardbtn>
+		<!--gift-->
+		<gift1 target="content.bottombox.gift.b1.t">Redeem a Gift</gift1>
+		<gift2 target="content.bottombox.gift.b2.t">Buy a Gift</gift2>
+		<!-- cancel Btn -->
+		<cancel target="content.bottombox.clink"><![CDATA[<font size="+2"> Want to cancel your Membership? </font><br> Please visit our <a href="event:cm"><u>Account Manager</u></a> and click on the Manage Membership tab.]]> </cancel>
+	</copy>
+	<config>
+		<captionyoffset>4</captionyoffset>
+		<!--css>css/clickables.css</css-->
+		<buygifturl><![CDATA[https://register.go.com/premium/gifts/purchase/pixiehollow]]></buygifturl>
+		<redeemgifturl><![CDATA[https://register.go.com/premium/gifts/redeem/pixiehollow?httpsRedirect=true]]></redeemgifturl>
+		<annualquery><![CDATA[forcePaymentChoice=PH1Y]]></annualquery>
+		<semiannualquery><![CDATA[forcePaymentChoice=PH6M]]></semiannualquery>
+		<monthlyquery><![CDATA[forcePaymentChoice=PH1M]]></monthlyquery>
+		<wantamembershipquery><![CDATA[changingID=false]]></wantamembershipquery>
+		<!--<defaultbuyquery><![CDATA[changingID=false]]></defaultbuyquery>-->
+		<gamecardquery><![CDATA[forcePaymentChoice=GameCard]]></gamecardquery>
+		<!--<promocodequery><![CDATA[changingID=false]]></promocodequery>-->
+		<cancellink>
+			<url>https://disney.go.com/fairies/pixiehollow/accountmanagement.html?beginCancelFlow=true</url>
+		</cancellink>
+		<learnmore>
+			<channel>membershiplearnmore.xml</channel>
+		</learnmore>
+		<memberfaq>
+			<channel>membershipfaqs.xml</channel>
+		</memberfaq>
+	</config>
+	
+</panel>
+

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<config>
+
+		<taglines>
+
+			<tagline align="center" font="pristina" title="false" titlex="150" titley="0" yOffset="20">header</tagline>
+
+		</taglines>
+			
+		<technicalsupport>
+
+			<header icon_id="8">technicalsupportheader</header>
+
+			
+			
+			<expand type="expandableElement">
+
+				<knownissue>technicalsupport1_link</knownissue>
+
+				<header xOffset="35">technicalsupport1_Q</header>
+
+				<header xOffset="35">technicalsupport1_PCHeader</header>
+
+				<header xOffset="35">technicalsupport1_PCA</header>
+
+
+
+				<header xOffset="35">technicalsupport1_MACHeader</header>
+
+
+
+				<header xOffset="35">technicalsupport1_MACA</header>
+
+			
+
+			</expand>
+
+			
+
+			<expand type="expandableElement">
+
+				<knownissue>technicalsupport2_link</knownissue>
+
+				<header xOffset="35">technicalsupport2_Q</header>
+
+				<header xOffset="35">technicalsupport2_A</header>
+
+			</expand>
+
+			
+
+			<expand type="expandableElement">
+
+				<knownissue>technicalsupport3_link</knownissue>
+
+				<header xOffset="35">technicalsupport3_Q</header>
+
+				<header xOffset="35">technicalsupport3_A</header>
+
+			</expand>
+
+			
+
+			<expand type="expandableElement">
+
+				<knownissue>technicalsupport4_link</knownissue>
+
+				<header xOffset="35">technicalsupport4_Q</header>
+
+				<header xOffset="35">technicalsupport4_A</header>
+
+			</expand>
+
+	
+
+			
+
+			<expand type="expandableElement">
+
+				<knownissue>technicalsupport5_link</knownissue>
+
+				<header xOffset="35">technicalsupport5_Q</header>
+
+				<header xOffset="35">technicalsupport5_A</header>
+
+			</expand>
+
+			
+
+			<expand type="expandableElement">
+
+				<knownissue>technicalsupport6_link</knownissue>
+
+				<header xOffset="35">technicalsupport6_Q</header>
+
+				<header xOffset="35">technicalsupport6_A</header>
+
+			</expand>
+
+			<expand type="expandableElement">
+
+				<knownissue>technicalsupport7_link</knownissue>
+
+				<header xOffset="35">technicalsupport7_Q</header>
+
+				<header xOffset="35">technicalsupport7_A</header>
+
+			</expand>
+			<expand type="expandableElement">
+
+				<knownissue>technicalsupport8_link</knownissue>
+
+				<header xOffset="35">technicalsupport8_Q</header>
+
+				<header xOffset="35">technicalsupport8_A</header>
+
+			</expand>
+			
+			<expand type="expandableElement">
+
+				<knownissue>technicalsupport9_link</knownissue>
+
+				<header xOffset="35">technicalsupport9_Q</header>
+
+				<header xOffset="35">technicalsupport9_A</header>
+
+			</expand>
+
+			<expand type="expandableElement">
+
+				<knownissue>technicalsupport10_link</knownissue>
+
+				<header xOffset="35">technicalsupport10_Q</header>
+
+				<header xOffset="35">technicalsupport10_A</header>
+
+			</expand>
+			
+		</technicalsupport>
+
+		<additionalsupport>
+
+			<header icon_id="8">additionalsupport</header>
+
+		</additionalsupport>
+		<!--  -->
+<!--
+		<systemrequirements>
+		
+
+		
+
+			<header icon_id="8"><![CDATA[<span class="newsbodytext"><a href="#"><b>System Requirements:</b><a></span>]]></header>
+-->
+	
+<!--
+			<header icon_id="8">sysrequirementsheader</header>
+
+			<systemrequirement>sysrequirements_pcheader</systemrequirement>
+
+			<systemrequirement>sysrequirements_pc</systemrequirement>
+
+			
+
+			<systemrequirement>sysrequirements_macheader</systemrequirement>
+
+			
+
+			<systemrequirement>sysrequirements_mac</systemrequirement>
+
+			
+
+		</systemrequirements>
+
+  -->
+
+
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">Have a question? Below is a list <br> of the most frequently asked ones!</span>]]></header>
+		
+		<!-- BAN BUGS -->
+		<banbugsheader><![CDATA[<span class="newsbodytext">Account Ban Errors</span>]]></banbugsheader>
+		<banbugs1_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Why am I getting an error "Your Fairy log-in information was not recognized - please try again"?</a></ul></li></span>]]></banbugs1_link>
+		<banbugs1_Q><![CDATA[<span class="newsbodytext">Q: Why am I getting an error "Your Fairy log-in information was not recognized - please try again"?<br><br></span>]]></banbugs1_Q>
+		<banbugs1_A><![CDATA[<span class="newsbodytext">A: This could be the result of your account being banned due to a violation of our <a href="gamepolicies.xml">Game and Chat Policies</a>.  If this is the case you must <a href="http://apps.dxd.go.com/dxd/guestservices/your_account/account_hold">review and agree to our Terms of Use</a> before being allowed back into the Hollow.</span>]]></banbugs1_A>
+		
+		<banbugs2_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Why am I getting stuck on a Log In page?</a></ul></li></span>]]></banbugs2_link>
+		<banbugs2_Q><![CDATA[<span class="newsbodytext">Q: Why am I getting stuck on a Log In page?<br><br></span>]]></banbugs2_Q>
+		<banbugs2_A><![CDATA[<span class="newsbodytext">A: This could be the result of your account being banned due to a violation of our <a href="gamepolicies.xml">Game and Chat Policies</a>.  If this is the case you must <a href="http://apps.dxd.go.com/dxd/guestservices/your_account/account_hold">review and agree to our Terms of Use</a> before being allowed back into the Hollow.</span>]]></banbugs2_A>
+		
+		<gameoverviewheader><![CDATA[<span class="newsbodytext">Game Overview</span>]]></gameoverviewheader>
+		
+		<gameoverview1_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Where can I read more about Pixie Hollow?</a></ul></li></span>]]></gameoverview1_link>
+		<gameoverview1_Q><![CDATA[<span class="newsbodytext">Q: Where can I read more about Pixie Hollow?<br><br></span>]]></gameoverview1_Q>
+		<gameoverview1_A><![CDATA[<span class="newsbodytext">A: Have you ever wondered how nature in Pixie Hollow gets its glow? Who gives it light and color as the seasons come and go? The secret is it's all the work of Fairies.  Read more about Fairies by downloading our <a href="fairystory.xml">Fairy Story</a>.</span>]]></gameoverview1_A>
+		
+		<gameoverview2_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">What can my Fairy do in Pixie Hollow?</a></ul></li></span>]]></gameoverview2_link>
+		<gameoverview2_Q><![CDATA[<span class="newsbodytext">Q: What can my Fairy do in Pixie Hollow?<br><br></span>]]></gameoverview2_Q>
+		<gameoverview2_A><![CDATA[<span class="newsbodytext">A: There are tons of things to do! If you don't already have your own Fairy, you start by creating one from wings to toes, then fly her to Pixie Hollow where all Never Fairies live. Now you're ready to make friends, chat, decorate your very own house, explore the world, earn badges, and fly with hundreds of other Fairies.</span>]]></gameoverview2_A>
+		
+		<gameoverview3_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">How old do I have to be to play Pixie Hollow?</a></ul></li></span>]]></gameoverview3_link>
+		<gameoverview3_Q><![CDATA[<span class="newsbodytext">Q: How old do I have to be to play Pixie Hollow?<br><br></span>]]></gameoverview3_Q>
+		<gameoverview3_A><![CDATA[<span class="newsbodytext">A: Pixie Hollow is recommended for players ages 6 and up, but it was designed for Fairies of all ages to enjoy!</span>]]></gameoverview3_A>
+		
+		<gameoverview4_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">What should I do if I find a problem in Pixie Hollow?</a></ul></li></span>]]></gameoverview4_link>
+		<gameoverview4_Q><![CDATA[<span class="newsbodytext">Q: What should I do if I find a problem in Pixie Hollow?<br><br></span>]]></gameoverview4_Q>
+		<gameoverview4_A><![CDATA[<span class="newsbodytext">A: Tell us about it! Use the <a href="help/reportabug.html">Report a Problem</a> form to describe the problem you found, attach a screenshot if you can, and then click the "Submit" button to send it our way. If you need immediate help with the problem you are having, use the <a href="liveSupport.xml">Live Chat</a> feature to chat with members of the Pixie Hollow technical support team. For questions and comments about the game, check the FAQs or use the <a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl">Contact Us</a> e-mail form.</span>]]></gameoverview4_A>
+		
+		
+		<gamepreview1_header><![CDATA[<span class="newsbodytext">Beta</span>]]></gamepreview1_header>
+		
+		<gamepreview1_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">What is the Pixie Hollow Beta?</a></ul></li></span>]]></gamepreview1_link>
+		<gamepreview1_Q><![CDATA[<span class="newsbodytext">Q: What is the Pixie Hollow Beta?<br><br></span>]]></gamepreview1_Q>
+		<gamepreview1_A><![CDATA[<span class="newsbodytext">A: Pixie Hollow isn't quite finished yet - there are things that are broken and incomplete, and a lot of fun things that don't even exist yet! We've invited a special group of Fairies in for what we're calling the "Beta" to test the game and give us feedback so we can find and fix the problems before the game is officially open for everyone to play. By telling us what you think about the game and alerting us to problems you find, you are helping to make Pixie Hollow a better place to play.</span>]]></gamepreview1_A>
+		
+		<gamepreview2_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Can I give my Fairy a name I created?</a></ul></li></span>]]></gamepreview2_link>
+		<gamepreview2_Q><![CDATA[<span class="newsbodytext">Q: Can I give my Fairy a name I created?<br><br></span>]]></gamepreview2_Q>
+		<gamepreview2_A><![CDATA[<span class="newsbodytext">A: Right now you can only name your Fairy using the Name Selector. We spent a lot of time coming up with the pixie-licious names that are in there, but if there is another name you wish you could choose, please let us know! Send in your name suggestions <a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl&formId=suggestname">here</a>, and maybe one day your Fairy name will appear in the Name Selector!</span>]]></gamepreview2_A>
+		
+		<gamepreview3_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">What should I do if I find a problem in Pixie Hollow?</a></ul></li></span>]]></gamepreview3_link>
+		<gamepreview3_Q><![CDATA[<span class="newsbodytext">Q: What should I do if I find a problem in Pixie Hollow?<br><br></span>]]></gamepreview3_Q>
+		<gamepreview3_A><![CDATA[<span class="newsbodytext">A: Tell us about it! Use the <a href="help/reportabug.html">Report a Problem</a> form to describe the problem you found, attach a screenshot if you can, and then click the "Submit" button to send it our way. If you need immediate help with the problem you are having, use the <a href="liveSupport.xml">Live Chat</a> feature to chat with members of the Pixie Hollow technical support team. For questions and comments about the game, check the FAQs or use the <a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl">Contact Us</a> e-mail form.</span>]]></gamepreview3_A>
+		
+		<gettingstarted_header><![CDATA[<span class="newsbodytext">Getting Started</span>]]></gettingstarted_header>
+		
+		<gettingstarted1_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>How do I create a Fairy?</u></a></ul></li></span>]]></gettingstarted1_link>
+		<gettingstarted1_Q><![CDATA[<span class="newsbodytext">Q: How do I create a Fairy?<br><br></span>]]></gettingstarted1_Q>
+		<gettingstarted1_A><![CDATA[<span class="newsbodytext">A: After you create an account or log in with an existing account from Disney.com, you will be able to create your very own Fairy - hairstyle, fashions, eye color, and more! Just click the Play button on any page and you'll see your Fairy Manager.  Click on an empty slot labeled "Create a Fairy" and follow Tinker Bell's instructions.</span>]]></gettingstarted1_A>
+		
+		<gettingstarted2_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Can I give my Fairy a name I created?</a></ul></li></span>]]></gettingstarted2_link>
+		<gettingstarted2_Q><![CDATA[<span class="newsbodytext">Q: Can I give my Fairy a name I created?<br><br></span>]]></gettingstarted2_Q>
+		<gettingstarted2_A><![CDATA[<span class="newsbodytext">A: Right now you can only name your Fairy using the Name Selector. We spent a lot of time coming up with the pixie-licious names that are in there, but if there is another name you wish you could choose, please let us know! Send in your name suggestions <a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl&formId=suggestname">here</a>, and maybe one day your Fairy name will appear in the Name Selector!</span>]]></gettingstarted2_A>
+		
+		<gettingstarted3_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>Can I play Pixie Hollow by myself if I want, or do I have to play in a group?</u></a></ul></li></span>]]></gettingstarted3_link>
+		<gettingstarted3_Q><![CDATA[<span class="newsbodytext">Q: Can I play Pixie Hollow by myself if I want, or do I have to play in a group?<br><br></span>]]></gettingstarted3_Q>
+		<gettingstarted3_A><![CDATA[<span class="newsbodytext">A: It's up to you. Explore on your own, play with your real world friends who have Fairies, too, or make new friends in Pixie Hollow.</span>]]></gettingstarted3_A>
+		
+		<gettingstarted4_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>How many people can play Pixie Hollow at one time?</u></a></ul></li></span>]]></gettingstarted4_link>
+		<gettingstarted4_Q><![CDATA[<span class="newsbodytext">Q: How many people can play Pixie Hollow at one time?<br><br></span>]]></gettingstarted4_Q>
+		<gettingstarted4_A><![CDATA[<span class="newsbodytext">A: Pixie Hollow is a Massively Multiplayer Online Game (MMOG), which means you and all your friends can play together, along with thousands of other Fairies.</span>]]></gettingstarted4_A>
+		
+		<gettingstarted5_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>What controls do I use to make my Fairy fly?</u></a></ul></li></span>]]></gettingstarted5_link>
+		<gettingstarted5_Q><![CDATA[<span class="newsbodytext">Q: What controls do I use to make my Fairy fly?<br><br></span>]]></gettingstarted5_Q>
+		<gettingstarted5_A><![CDATA[<span class="newsbodytext">A: There are two ways to fly your Fairy. Either click on an area of your screen to make your Fairy fly there, or hold down your left mouse button and move your mouse around to fly her around the screen.</span>]]></gettingstarted5_A>
+		
+		<!--page one ends here-->
+		
+		<gettingstarted6_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>What is a Leaf Journal and how can I get one?</u></a></ul></li></span>]]></gettingstarted6_link>
+		<gettingstarted6_Q><![CDATA[<span class="newsbodytext">Q: What is a Leaf Journal and how can I get one?<br><br></span>]]></gettingstarted6_Q>
+		<gettingstarted6_A><![CDATA[<span class="newsbodytext">A: Every Fairy in <I>Pixie Hollow</I> gets her own Leaf Journal, a special book that holds all of her precious information and possessions. When you play, there is a green book icon in the top left corner of your screen. Click on it at any time to open your Leaf Journal, and flip through the pages to see your profile, wardrobe items, house decorations, game settings, and more! As you add items, change your profile, and earn badges, your Leaf Journal will show those changes so you'll always know how your Fairy is doing.</span>]]></gettingstarted6_A>
+		
+		<gettingstarted7_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>Is Pixie Hollow free?</u></a></ul></li></span>]]></gettingstarted7_link>
+		<gettingstarted7_Q><![CDATA[<span class="newsbodytext">Q: Is Pixie Hollow free?<br><br></span>]]></gettingstarted7_Q>
+		<gettingstarted7_A><![CDATA[<span class="newsbodytext">A: There is no cost for creating and customizing a Fairy and her Fairy home.  It is free to fly into Pixie Hollow to meet friends, chat, play games, and earn badges.</span>]]></gettingstarted7_A>
+		
+		<gettingstarted8_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>Is Pixie Hollow safe?</u></a></ul></li></span>]]></gettingstarted8_link>
+		<gettingstarted8_Q><![CDATA[<span class="newsbodytext">Q: Is Pixie Hollow safe?<br><br></span>]]></gettingstarted8_Q>
+		<gettingstarted8_A><![CDATA[<span class="newsbodytext">A: Pixie Hollow is dedicated to creating a safe environment for Fairies.  The game is free from third-party advertising and offers parental controls.</span>]]></gettingstarted8_A>
+		
+		<gettingstarted9_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>How do I report a misbehaving Fairy?</u></a></ul></li></span>]]></gettingstarted9_link>
+		<gettingstarted9_Q><![CDATA[<span class="newsbodytext">Q: How do I report a misbehaving Fairy?<br><br></span>]]></gettingstarted9_Q>
+		<gettingstarted9_A><![CDATA[<span class="newsbodytext">A: Now and then a Fairy might try to disturb others. Report any <br>non-Fairy-friendly behavior in the game by <a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl&formId=misbehavior">contacting us here</a>.</span>]]></gettingstarted9_A>
+		
+		<gettingstarted10_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>Have more questions about what to do in Pixie Hollow?</u></a></ul></li></span>]]></gettingstarted10_link>
+		<gettingstarted10_Q><![CDATA[<span class="newsbodytext">Q: Have more questions about what to do in Pixie Hollow?<br><br></span>]]></gettingstarted10_Q>
+		<gettingstarted10_A><![CDATA[<span class="newsbodytext">A: Download our <a href="http://a.disney.go.com/fairies/pixiehollow/pdfs/gameguides.pdf">Game Guides here</a>.</span>]]></gettingstarted10_A>
+		
+		
+		<secretcodesheader><![CDATA[<span class="newsbodytext">All About Secret Codes</span>]]></secretcodesheader>
+		
+		<secretcodes1_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>What are Secret Codes?</u></a></ul></li></span>]]></secretcodes1_link>
+		<secretcodes1_Q><![CDATA[<span class="newsbodytext">Q: What are Secret Codes?<br><br></span>]]></secretcodes1_Q>
+		<secretcodes1_A><![CDATA[<span class="newsbodytext">A: Secret Codes can be used to unlock special gifts in the Pixie Hollow online world.</span>]]></secretcodes1_A>
+		
+		<secretcodes2_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>Where can I get Secret Codes?</u></a></ul></li></span>]]></secretcodes2_link>
+		<secretcodes2_Q><![CDATA[<span class="newsbodytext">Q: Where can I get Secret Codes?<br><br></span>]]></secretcodes2_Q>
+		<secretcodes2_A><![CDATA[<span class="newsbodytext">A: Look for Secret Codes in select Disney Fairies products.</span>]]></secretcodes2_A>
+		
+		<secretcodes3_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>Why is there a problem using my Secret Code?</u></a></ul></li></span>]]></secretcodes3_link>
+		<secretcodes3_Q><![CDATA[<span class="newsbodytext">Q: Why is there a problem using my Secret Code?<br><br></span>]]></secretcodes3_Q>
+		<secretcodes3_A><![CDATA[<span class="newsbodytext">A: You must already have a Fairy created in order to use a Secret Code.  If you do not have a Fairy, create a Fairy and then return to the <a href="secretcodes.xml">Secret Codes page</a>.   If you do have a Fairy created, be sure you have entered the number correctly.   If you still have trouble, try using our <a href="liveSupport.xml">Live Chat</a>.</span>]]></secretcodes3_A>
+		
+		
+		<clickablesheader><![CDATA[<span class="newsbodytext">About Clickables</span>]]></clickablesheader>
+		
+		<clickables1_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>What are Clickables&#x2122;?</u></a></ul></li></span>]]></clickables1_link>
+		<clickables1_Q><![CDATA[<span class="newsbodytext">Q: What are Clickables&#x2122;?<br><br></span>]]></clickables1_Q>
+		<clickables1_A><![CDATA[<span class="newsbodytext">A: Clickables are a new type of toy that connects with PixieHollow.com.  You can play with the magical jewelry and Fairy game offline, but these toys also allow you to earn special items in the online world.</span>]]></clickables1_A>
+		
+		<clickables2_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>How can I use my Clickables Fairy  Game for items in Pixie Hollow?</u></a></ul></li></span>]]></clickables2_link>
+		<clickables2_Q><![CDATA[<span class="newsbodytext">Q: How can I use my Clickables Fairy  Game for items in Pixie Hollow?<br><br></span>]]></clickables2_Q>
+		<clickables2_A><![CDATA[<span class="newsbodytext">A: Playing games earns you Tink points that can be used to redeem a butterfly. Your butterfly will fly with you around in Pixie Hollow for a limited amount of time.</span>]]></clickables2_A>
+		
+		<clickables3_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>What is a butterfly for?</u></a></ul></li></span>]]></clickables3_link>
+		<clickables3_Q><![CDATA[<span class="newsbodytext">Q: What is a butterfly for?<br><br></span>]]></clickables3_Q>
+		<clickables3_A><![CDATA[<span class="newsbodytext">A: Butterflies are Fairies friends who fly with you in Pixie Hollow for a limited amount of time.  Your butterfly will be with your Fairy in Fairy homes and all public meadows.  They will not appear in "special" areas like games, crafting areas, or shops.</span>]]></clickables3_A>
+		
+		<clickables4_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>How do I get a butterfly?</u></a></ul></li></span>]]></clickables4_link>
+		<clickables4_Q><![CDATA[<span class="newsbodytext">Q: How do I get a butterfly?<br><br></span>]]></clickables4_Q>
+		<clickables4_A><![CDATA[<span class="newsbodytext">A: You can earn Tink Points by playing games on your Clickables handheld video game.  You these points to redeem a butterfly that flies with you in Pixie Hollow.</span>]]></clickables4_A>
+		
+		<technicalsupportheader><![CDATA[<span class="newsbodytext">Getting Technical Help</span>]]></technicalsupportheader>
+		
+		<technicalsupport1_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>What kind of computer do I need to be able to play?</u></a></ul></li></span>]]></technicalsupport1_link>
+		<technicalsupport1_Q><![CDATA[<span class="newsbodytext">Q: What kind of computer do I need to be able to play?<br><br></span>]]></technicalsupport1_Q>
+		<technicalsupport1_PCHeader><![CDATA[<span class="newsbodytext">PC</span>]]></technicalsupport1_PCHeader>
+		<technicalsupport1_PCA><![CDATA[<span class="newsbodytext"><ul>
+
+				<li>Windows 2000, XP, Vista</li>
+
+				<li>Adobe Flash 9.0.115 and higher</li>
+
+				<li>P3 800 MHz or faster processor</li>
+
+				<li>256 MB RAM</li>
+
+				<li>350 KB/s or faster Internet Connection</li>
+
+
+
+				</ul></span>]]></technicalsupport1_PCA>
+		<technicalsupport1_MACHeader><![CDATA[<span class="newsbodytext"><br>MAC</span>]]></technicalsupport1_MACHeader>	
+		<technicalsupport1_MACA><![CDATA[<span class="newsbodytext"><ul>
+
+				<li>OS 10.4.6 (Tiger)</li>
+
+				<li>Adobe Flash 9.0.115 and higher</li>
+
+				<li>PowerPC G4</li>
+
+				<li>256 MB RAM</li>
+
+				<li>350 KB/s or faster Internet Connection</li>
+
+								
+
+				</ul></span>]]></technicalsupport1_MACA>
+		
+		<technicalsupport2_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>Can I play in Windows Vista?</u></a></ul></li></span>]]></technicalsupport2_link>	
+		<technicalsupport2_Q><![CDATA[<span class="newsbodytext">Q: Can I play in Windows Vista?<br><br></span>]]></technicalsupport2_Q>
+		<technicalsupport2_A><![CDATA[<span class="newsbodytext">A: You bet! Pixie Hollow runs under Windows Vista.</span>]]></technicalsupport2_A>	
+		
+		<technicalsupport3_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>Can I play on a Macintosh?</u></a></ul></li></span>]]></technicalsupport3_link>
+		<technicalsupport3_Q><![CDATA[<span class="newsbodytext">Q: Can I play on a Macintosh?<br><br></span>]]></technicalsupport3_Q>
+		<technicalsupport3_A><![CDATA[<span class="newsbodytext">A: Of course! Pixie Hollow is available for the Mac.</span>]]></technicalsupport3_A>
+		
+		<technicalsupport4_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>What kind of Internet connection do I need to be able to play?</u></a></ul></li></span>]]></technicalsupport4_link>
+		<technicalsupport4_Q><![CDATA[<span class="newsbodytext">Q: What kind of Internet connection do I need to be able to play?<br><br></span>]]></technicalsupport4_Q>
+		<technicalsupport4_A><![CDATA[<span class="newsbodytext">A: A Broadband Internet connection is recommended but not required. The faster your connection, the better the game will operate.</span>]]></technicalsupport4_A>
+		
+		<technicalsupport5_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>What do I do if I'm trying to fly but my Fairy won't move? </u></a></ul></li></span>]]></technicalsupport5_link>
+		<technicalsupport5_Q><![CDATA[<span class="newsbodytext">Q: What do I do if I'm trying to fly but my Fairy won't move?<br><br></span>]]></technicalsupport5_Q>
+		<technicalsupport5_A><![CDATA[<span class="newsbodytext">A: This could be a problem with the servers that run the game. Pixie Hollow needs regular maintenance and updates. We try to schedule these when the fewest Fairies are online - usually late at night or on the weekends, from midnight to 1 AM PST, which is 3 to 4 AM EST. Fairies that are online will always be notified that these short, but necessary, shutdowns are coming. Occasionally our servers get the hiccups, which can cause them to unexpectedly shut down. We do our best to keep that from happening and try to fix any problems quick as a flit. Thank you for your patience!</span>]]></technicalsupport5_A>
+		
+		<technicalsupport6_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>What do I do if the game keeps quitting on me?</u></a></ul></li></span>]]></technicalsupport6_link>
+		<technicalsupport6_Q><![CDATA[<span class="newsbodytext">Q: What do I do if the game keeps quitting on me?<br><br></span>]]></technicalsupport6_Q>
+		<technicalsupport6_A><![CDATA[<span class="newsbodytext">A: This could be a problem with the servers we use to run the game. Pixie Hollow needs regular maintenance and updates. We try to schedule these when the fewest Fairies are online - usually late at night or on the weekends from midnight to 1 AM PST, which is 3 to 4 AM EST. Fairies that are online will always be notified that these short but necessary shutdowns are coming. Occasionally our servers get the hiccups, which can cause them to unexpectedly shut down. We do our best to keep that from happening and try to fix any problems quick as a flit. Thank you for your patience!</span>]]></technicalsupport6_A>
+		
+		<technicalsupport7_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>Why does the game feel slow on my computer?</u></a></ul></li></span>]]></technicalsupport7_link>
+		<technicalsupport7_Q><![CDATA[<span class="newsbodytext">Q: Why does the game feel slow on my computer?<br><br></span>]]></technicalsupport7_Q>
+		<technicalsupport7_A><![CDATA[<span class="newsbodytext">A: If you are noticing issues while playing Pixie Hollow it could be for one of many reasons. Please double check that your computer meets our system requirements to play this game.  If you are still experiencing issues, you can <a href="help/reportabug.html"><u>Report A Problem</u></a>.  We cannot respond to every issue individually, but for problems occuring to many users we will address them with system wide messaging on this Web site.</span>]]></technicalsupport7_A>
+		
+		<technicalsupport8_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>What if I forget my Account ID or Password?</u></a></ul></li></span>]]></technicalsupport8_link>
+		<technicalsupport8_Q><![CDATA[<span class="newsbodytext">Q: What if I forget my Account ID or Password?<br><br></span>]]></technicalsupport8_Q>
+		<technicalsupport8_A><![CDATA[<span class="newsbodytext">A: If a forgetful Fairy needs help remembering their Account ID or Password, all they need to do is click <a href="https://register.go.com/global/fairies/recoverMemberNames?affiliateName=Disney_Fairies&appRedirect=http%3A%2F%2Fpixiehollow.com">here</a> for Account ID or click <a href="https://register.go.com/global/fairies/recoverPassword?affiliateName=Disney_Fairies&appRedirect=http%3A%2F%2Fpixiehollow.com">here</a> for Password and follow the instructions on the page.</span>]]></technicalsupport8_A>
+		
+		<technicalsupport9_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>I'm having trouble chatting.  I've set my chat permissions to SpeedChat Plus and I still can't chat!</u></a></ul></li></span>]]></technicalsupport9_link>
+		<technicalsupport9_Q><![CDATA[<span class="newsbodytext">Q: I'm having trouble chatting.  I've set my chat permissions to SpeedChat Plus and I still can't chat!<br><br></span>]]></technicalsupport9_Q>
+		<!--technicalsupport9_A>
+		<![CDATA[<span class="newsbodytext">
+		A: If you are unable to use SpeedChat Plus and you have child account or an account that is under a Parental Authority, please visit our <a href="liveSupport.xml">Live Chat</a> support team for assistance. If you have a teen or adult account, you can change your chat settings by following the steps below:
+		<ol>
+			<li>If you are not already logged into the site, please do so now.</li>
+			<li>Click on the Help button on the navigation bar.</li>
+			<li>Next, click on the Manage Account button that appears below the Help button.</li>
+			<li>Click on the Chat Preferences or Parental Controls tab in the Account Manager - you should be able to see your chat settings there.</li>
+			<li>The option for SpeedChat Plus might be unchecked. If yes, click the checkbox to turn it on. If it is already checked and/or you can't change it, please visit <a href="liveSupport.xml">Live Chat</a> for more support. </li>
+			<li>If you were able to turn on SpeedChat Plus, a pop up should appear with a button for Begin Validation. Please click on that button.</li>
+			<li>If the e-mail address on account is correct, click Send E-mail to trigger the validation e-mail. If it isn't correct, enter a valid e-mail address into the field and click Change E-mail.</li>
+			<li>An e-mail has now been sent to your e-mail address. Please log out of the game at this point and follow the instructions on the e-mail.</li>
+			<li>When you are done, log back into the game and chat away!</li>
+		</ol>
+		</span>]]>
+		</technicalsupport9_A-->
+		<technicalsupport9_A><![CDATA[<span class="newsbodytext">A: If you are unable to use SpeedChat Plus and you have a child account or an account that is under a Parental Authority, please visit our <a href="liveSupport.xml">Live Chat</a> support team for assistance. If you have a teen or adult account, you can change your chat settings by going to the <a href="http://disney.go.com/fairies/pixiehollow/accountmanagement.html">Account Manager</a> here.]]></technicalsupport9_A>
+		<technicalsupport10_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable"><u>What if I cannot find an answer to my question on this FAQ page?</u></a></ul></li></span>]]></technicalsupport10_link>
+		<technicalsupport10_Q><![CDATA[<span class="newsbodytext">Q: What if I cannot find an answer to my question on this FAQ page?<br><br></span>]]></technicalsupport10_Q>
+		<technicalsupport10_A><![CDATA[<span class="newsbodytext">A: If you didn't find an answer to your question on this FAQ page, log in to <a href="liveSupport.xml">Live Chat</a> to get an answer.</span>]]></technicalsupport10_A>
+		
+		<additionalsupport><![CDATA[<span class="newsbodytext">If you didn't find your question in our FAQs, visit the <a href="supportCenter.xml"><u>Help</u></a> or <a href="contactus.xml"><u>Contact Us</u></a> sections of our Web site.</span>]]></additionalsupport>
+		
+		<sysrequirementsheader><![CDATA[<span class="newsbodytext"><b>System Requirements:</b></span>]]></sysrequirementsheader>
+		<sysrequirements_pcheader><![CDATA[<span class="newsbodytext">PC</span>]]></sysrequirements_pcheader>
+		<sysrequirements_pc><![CDATA[<span class="newsbodytext"><ul>
+
+			<li>Windows 2000, XP, Vista</li>
+
+			<li>Adobe Flash 9.0.115.0</li>
+
+			<li>P3 800 MHz or faster processor</li>
+
+			<li>256 MB RAM</li>
+
+			<li>350 KB/s or faster Internet connection</li>
+
+			
+
+			</ul></span>]]></sysrequirements_pc>
+		<sysrequirements_macheader><![CDATA[<span class="newsbodytext"><br>MAC</span>]]></sysrequirements_macheader>
+		<sysrequirements_mac><![CDATA[<span class="newsbodytext"><ul>
+
+			<li>OS 10.4.6 (Tiger)</li>
+
+			<li>Adobe Flash 9.0.115.0</li>
+
+			<li>PowerPC G4</li>
+
+			<li>256 MB RAM</li>
+
+			<li>350 KB/s or faster Internet connection</li>
+
+			
+
+			</ul></span>]]></sysrequirements_mac>
+		
+		
+		
+	</copy>
+</page>

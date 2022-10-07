@@ -1,0 +1,43 @@
+<zone>
+  <name>Fawn's Quest Zone</name>
+  <zoneID>800</zoneID>
+  <assetURL/>
+  <audioLibrary>quest_music_fawn</audioLibrary>
+  <layers>
+    <layer type="ground" width="888" height="517">
+      <image x="0" y="0">FQA_action01.swf</image>
+    </layer>
+    <layer type="normal" width="888" height="517">
+      <image x="0" y="0">FQA_foreground02.swf</image>
+    </layer>
+  </layers>
+  <locations>
+    <location x="443" y="250">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>quest_music_fawn</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.1855</volumeHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks/>
+  
+  <baseAvatarScale>0.20</baseAvatarScale>
+  
+  <decorations/>
+  
+</zone>

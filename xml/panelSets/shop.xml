@@ -1,0 +1,25 @@
+﻿<panelSet>
+	<panels>
+		<!--panel id="background" x="0" y="0" transition="none" alwaysOnBottom = "true" >{panelData}/shopBackground.xml</panel>
+		<panel id="host" x="0" y="0" transition="none" hidden="true">{panelData}/shopHost.xml</panel>
+		<panel id="foreground" x="0" y="0" transition="none" alwaysOnTop = "true" >{panelData}/shopForeground.xml</panel-->
+		<panel id="shop" x="0" y="0" alwaysOnTop = "true" hidden="true">{panelData}/shopPanel.xml</panel>
+		<!-- ms21 - moving trading out of shops panelSet and into global, so that it can be triggered from diamond icon in the chrome -->
+		<!--
+		<panel id="tradeIngredients" x="0" y="0" alwaysOnTop = "true" hidden="true">{panelData}/tradeIngredients.xml</panel>
+		<panel id="tradeConfirm" x="0" y="0" alwaysOnTop = "true" hidden="true">{panelData}/tradeConfirm.xml</panel>
+		-->
+		<panel id="partyList" x="200" y="100" alwaysOnTop="true" hidden="true">{panelData}/PublicPartyBrowser.xml</panel>
+		<panel id="dye" x="0" y="0" alwaysOnTop = "true" hidden="true">{panelData}/dyePanel.xml</panel>
+		<panel id="dyeMode" x="0" y="0" alwaysOnTop = "true" hidden="true">{panelData}/dyeModeSelectionPanel.xml</panel>
+		<panel id="shopTopicSelector" x="235" y="50" alwaysOnTop = "true" hidden="true">{panelData}/shopTopicSelector.xml</panel>
+		<panel id="selectFriendAndMessage" x="0" y="0" alwaysOnTop = "true" hidden="true"  transition="none">{panelData}/selectFriendAndMessage.xml</panel>
+		<panel id="postCardConfirmation" x="0" y="0" alwaysOnTop = "true" hidden="true"  transition="none">{panelData}/postCardConfirmation.xml</panel>
+		<panel id="giftSetConfirmation" x="0" y="0" alwaysOnTop = "true" hidden="true"  transition="none">{panelData}/giftSetConfirmation.xml</panel>
+	</panels>
+	<config>
+		<avatarScale>0.6</avatarScale>
+	</config>
+	<copy>
+	</copy>
+</panelSet>

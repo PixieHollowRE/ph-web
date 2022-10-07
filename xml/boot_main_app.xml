@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<boot app="swf/container.swf" id="container">
+	<libs>
+		<lib url="swf/fonts.swf"/>
+    </libs>
+</boot>

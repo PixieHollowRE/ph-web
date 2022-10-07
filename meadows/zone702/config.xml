@@ -1,0 +1,101 @@
+<zone>
+  <name>Blossom Bungalow</name>
+  <zoneID>702</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>home_music_garden</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <layers>
+    <layer type="normal" width="6348" height="3795">
+      <image x="2760" y="1650">../home2/background_04.swf</image>
+    </layer>
+    <layer type="ground" width="7714" height="4671">
+      <image x="3354" y="2031">../home2/action_03.swf</image>
+    </layer>
+    <layer type="normal" width="9315" height="5175">
+      <image x="4050" y="2200">../home2/lights_02.swf</image>
+    </layer>
+    <layer type="normal" width="8280" height="5023">
+      <image x="3600" y="2184">../home2/foreground_01.swf</image>
+    </layer>
+  </layers>
+  <locations>
+	<location x="3934" y="2359">default</location>
+    <location x="4004" y="2371">frontDoor</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>home_music_garden</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.185</volumeHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  <validArea type="polygon">
+    
+    <vertex x="3430" y="2180"/>
+    <vertex x="4400" y="2180"/>
+    <vertex x="4400" y="2600"/>
+    <vertex x="3430" y="2600"/>
+    
+  </validArea>
+  
+  <rooms>
+    
+    <room index="1" x="3914" y="2381">
+      
+      <bounds type="box">
+        
+        <left>3463</left>
+        
+        <right>4371</right>
+        
+        <top>2240</top>
+        
+        <bottom>2552</bottom>
+        
+      </bounds>
+      
+      <nearPlane>
+        
+        <left>3509</left>
+        
+        <right>4289</right>
+        
+        <top>2221</top>
+        
+        <bottom>2580</bottom>
+        
+      </nearPlane>
+      
+      <farPlane>
+        
+        <left>3604</left>
+        
+        <right>4194</right>
+        
+        <top>2221</top>
+        
+        <bottom>2491</bottom>
+        
+      </farPlane>
+      
+    </room>
+    
+  </rooms>
+  
+  <decorations/>
+  
+</zone>

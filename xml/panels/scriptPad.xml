@@ -1,0 +1,10 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/ScriptPad.swf</swf>
+		<swf type="code">{panelCode}/ScriptPad.swf</swf>
+	</swfs>
+	<copy>
+		<scene>Scene #NUM#</scene>
+	</copy>
+	<config></config>
+</panel>

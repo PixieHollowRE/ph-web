@@ -1,0 +1,19 @@
+<page>
+	<config>
+
+		<tagline>
+			<tagline align="center" font="pristina" title="true" titlex="0" titley="0" yOffset="0">header</tagline>
+		</tagline>
+
+		<types>
+			<contestcopy yOffset="20">body1</contestcopy>
+			<contestcopy align="center" xOffset="-30" yOffset="10">body2</contestcopy>
+		</types>
+	</config>
+
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">"How Will You Train?" Art Contest Is Over</span>]]></header>		
+		<body1><![CDATA[<span class="newsbodytext"><br>Thank you to all the Fairies that entered the Pixie Hollow "How Will You Train?" Art Contest! Our entry period ended on September 6, 2011 at 11:59 a.m. For more information, please visit our <a href="blank:http://a.disney.go.com/fairies/pixiehollow/rules_how_will_you_train_contest.html">official contest rules</a>.<br /><br />Please check back next month to see our list of winners!</span>]]></body1>		
+		<body2><![CDATA[<span class="newsbodytext"><br><font face="pristina" size="30" color="#fff000"><a href="contests_winners.html">View Previous Winners</a></font>]]></body2>
+	</copy>
+</page>

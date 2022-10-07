@@ -1,0 +1,46 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/badges.swf</swf>
+		<swf type="code">{panelCode}/badges.swf</swf>
+	</swfs>
+
+	<copy>
+		<textToc target="tableOfContents.txtTocTitle">Table of Contents</textToc>
+		<textBackToc target="backToToc.caption">Table of Contents</textBackToc>
+		<textComment target="tableOfContents.txtTocDesc">Find all your favorite badges!</textComment>
+
+		<textFav target="faveBadgeFrame.txtFaveBadge">My Favorite Badge</textFav>
+		<textDone target="badgeCloseup.doneButton.caption">Done</textDone>
+
+		<toctitle>My Badge Pages</toctitle>
+		<next>Next</next>
+		<previous>Previous</previous>
+		<earned>Complete!</earned>
+		<unearned>Not Yet Earned</unearned>
+		<fave>My Favorite!</fave>
+		<makefave>Make Favorite</makefave>
+		<settingFave>Setting Favorite Badge...</settingFave>
+		<pageCount>Page #CURRENT#/#TOTAL#</pageCount>
+		<earnedDate>Earned on #DATE#</earnedDate>
+		<complete>Complete!</complete>
+		<of>of</of>
+		<incomplete>Incomplete</incomplete>s
+		<horzOffset>-35</horzOffset>
+		<vertOffset>37</vertOffset>
+		<!-- if any progress string equals this string, it will not show the usual progress (0 of n) and show the progress string -->
+		<dont_show_progress_for_0>Keep working!</dont_show_progress_for_0> 
+		<dont_show_progress_for_1>Visit Rosetta in Cherryblossom Heights!</dont_show_progress_for_1>
+		<dont_show_progress_for_2>Check in the stream at Dewdrop Vale!</dont_show_progress_for_2>
+		<dont_show_progress_for_3>Visit Acorn Summit &amp; play Fairy Fireworks!</dont_show_progress_for_3>
+		<noFaveBadge>You can display your favorite badge here by clicking on the badge and choosing "Make Favorite"</noFaveBadge>
+		
+	</copy>
+	<config>
+		<fbBtnCoords>373,196</fbBtnCoords>
+
+		<dynamicX>-75</dynamicX>
+		<dynamicY>-20</dynamicY>
+		<dynamicWidth>750</dynamicWidth>
+		<dynamicHeight>500</dynamicHeight>
+	</config>
+</panel>

@@ -1,0 +1,54 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/stationery.swf</swf>
+		<swf type="code">{panelCode}/stationery.swf</swf>
+	</swfs>
+	<copy>
+		<fail>Sorry, something's not right.  Try back later!</fail>
+		<failconfirm>Okay</failconfirm>
+		<letter>Letterhead</letter>
+		<letterphrase>Send your closest friend a letter featuring your favorite Fairy!</letterphrase>
+		<cards>Calling Cards</cards>
+		<cardphrase>With these stylish cards, you and your Fairy will be the talk of the town!</cardphrase>
+		<printletter>Here's how your stationery will print!</printletter>
+		<printcards>Here's how your calling cards will print!</printcards>
+		<visitme>Come visit me at:</visitme>
+		<pixiehollow>PixieHollow.go.com/pixiepages/</pixiehollow>
+		<desk>From the desk of:</desk>
+		<deskfancy1>From the</deskfancy1>
+		<deskfancy2>desk of:</deskfancy2>
+		<noFairyText>You need a Fairy to access Stationery. Click Okay to create a Fairy!</noFairyText>
+		<okay>Okay</okay>
+		<!--headText target="dimClip.header">Choose a stationery theme to print and personalize %0A with your very own Fairy!</headText-->
+		<header target="dimClip.header">Choose a Fairy!</header>
+		<startedText target="dimClip.getStarted">Get Started!</startedText>
+		<switchFairyBtn target="dimClip.switchFairy.caption">Change Fairy</switchFairyBtn>
+		<preview1 target="dimClip.stationerySelector.preview_btn.caption">Preview</preview1>
+		<preview2 target="dimClip.cardSelector.preview_btn.caption">Preview</preview2>
+		<printBtn target="confirm.printBtn.caption">Print</printBtn>
+		<cancelBtn target="confirm.cancelBtn.caption">Cancel</cancelBtn>
+	</copy>
+	<config>
+		<sheet>css/loginformat.css</sheet>
+		<stationery>
+			<name>s1</name>
+			<name>s2</name>
+			<name>s3</name>
+			<name>s4</name>
+			<tb>stb1</tb>
+			<tb>stb2</tb>
+			<tb>stb3</tb>
+			<tb>stb4</tb>
+		</stationery>
+		<card>
+			<name>c1</name>
+			<name>c2</name>
+			<name>c3</name>
+			<name>c4</name>
+			<tb>ctb1</tb>
+			<tb>ctb2</tb>
+			<tb>ctb3</tb>
+			<tb>ctb4</tb>
+		</card>
+	</config>
+</panel>

@@ -1,0 +1,744 @@
+<Motions>
+	<!-- DANCE -->
+	<Motion duration="54" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+			<Source frameRate="30" x="0" y="0" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" symbolName="clip">
+				<dimensions>
+					<geom:Rectangle left="-31.2" top="-13" width="44.2" height="45.7"/>
+				</dimensions>
+				<transformationPoint>
+					<geom:Point x="0.7058823529411764" y="0.2844638949671772"/>
+				</transformationPoint>
+			</Source>
+		</source>
+
+		<Keyframe index="0" tweenSync="true"/>
+
+		<Keyframe index="2" tweenSync="true" x="10" y="-17" rotation="5"/>
+
+		<Keyframe index="4" tweenSync="true" x="30" y="-24" rotation="10"/>
+
+		<Keyframe index="6" tweenSync="true" x="46" y="-19" rotation="14"/>
+
+		<Keyframe index="8" tweenSync="true" x="67" y="8" rotation="21.8"/>
+
+		<Keyframe index="10" tweenSync="true" x="80" y="27"/>
+
+		<Keyframe index="12" tweenSync="true" x="97" y="35" rotation="0"/>
+
+		<Keyframe index="14" tweenSync="true" x="120" y="27"/>
+
+		<Keyframe index="16" tweenSync="true" x="130" y="6" rotation="-10"/>
+
+		<Keyframe index="18" tweenSync="true" x="120" y="-14" rotation="-14.8"/>
+
+		<Keyframe index="20" tweenSync="true" x="100" y="-24"/>
+
+		<Keyframe index="22" tweenSync="true" x="77" y="-16" rotation="-18"/>
+
+		<Keyframe index="24" tweenSync="true" x="53" y="9" rotation="-19.8"/>
+
+		<Keyframe index="26" tweenSync="true" x="33" y="29" rotation="-20"/>
+
+		<Keyframe index="28" tweenSync="true" x="16" y="35" rotation="-9"/>
+
+		<Keyframe index="30" tweenSync="true" x="-2" y="23" rotation="0"/>
+
+		<Keyframe index="32" tweenSync="true" x="-7" y="0"/>
+
+		<Keyframe index="34" tweenSync="true" x="-10" y="-11"/>
+
+		<Keyframe index="36" tweenSync="true" x="-8" y="-17"/>
+
+		<Keyframe index="38" tweenSync="true" x="-3" y="-18"/>
+
+		<Keyframe index="40" tweenSync="true" x="3" y="-15"/>
+
+		<Keyframe index="42" tweenSync="true" x="5" y="-12.5"/>
+
+		<Keyframe index="44" tweenSync="true" x="6" y="-6"/>
+
+		<Keyframe index="46" tweenSync="true" x="4.75" y="-3.75"/>
+
+		<Keyframe index="48" tweenSync="true" x="3" y="-2"/>
+
+		<Keyframe index="50" tweenSync="true" x="1.5" y="-0.5"/>
+
+		<Keyframe index="52" tweenSync="true" x="0" y="0"/>
+	</Motion>
+	<!-- FLIP -->
+	<Motion duration="51" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+			<Source frameRate="30" x="0" y="0" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" symbolName="clip">
+				<dimensions>
+					<geom:Rectangle left="-31.2" top="-13" width="44.2" height="45.7"/>
+				</dimensions>
+				<transformationPoint>
+					<geom:Point x="0.7058823529411764" y="0.2844638949671772"/>
+				</transformationPoint>
+			</Source>
+		</source>
+
+		<Keyframe index="0" tweenSync="true"/>
+
+		<Keyframe index="2" tweenSync="true" x="10" y="10" rotation="-16.8"/>
+
+		<Keyframe index="4" tweenSync="true" x="12" scaleX="0.999" scaleY="0.999" rotation="-23.8"/>
+
+		<Keyframe index="6" tweenSync="true" x="10" rotation="-29.9"/>
+
+		<Keyframe index="8" tweenSync="true" x="1" y="20" scaleX="0.998" scaleY="0.998" rotation="-48.4"/>
+
+		<Keyframe index="10" tweenSync="true" x="-18" y="25" scaleX="0.996" scaleY="0.996" rotation="-13.6"/>
+
+		<Keyframe index="12" tweenSync="true" x="-38" y="5" rotation="31.4"/>
+
+		<Keyframe index="14" tweenSync="true" y="-45" scaleX="0.995" scaleY="0.995" rotation="65"/>
+
+		<Keyframe index="16" tweenSync="true" x="-28" y="-65" scaleX="0.993" scaleY="0.993" rotation="103.6"/>
+
+		<Keyframe index="18" tweenSync="true" x="-18" y="-75" scaleX="0.992" scaleY="0.992" rotation="141.7"/>
+
+		<Keyframe index="20" tweenSync="true" x="-11" y="-78" scaleX="0.99" scaleY="0.99" rotation="163.8"/>
+
+		<Keyframe index="22" tweenSync="true" x="-1" y="-76" rotation="178"/>
+
+		<Keyframe index="24" tweenSync="true" x="10" y="-65" scaleX="0.988" scaleY="0.988" rotation="-150.9"/>
+
+		<Keyframe index="26" tweenSync="true" x="18.05" y="-49" scaleX="0.987" scaleY="0.987" rotation="-127.8"/>
+
+		<Keyframe index="28" tweenSync="true" x="23.05" y="-19" scaleX="0.986" scaleY="0.986" rotation="-103.2"/>
+
+		<Keyframe index="30" tweenSync="true" x="20.05" y="6" scaleX="0.985" scaleY="0.985" rotation="-88.6"/>
+
+		<Keyframe index="32" tweenSync="true" x="7.05" y="32" scaleX="0.983" scaleY="0.983" rotation="-51.8"/>
+
+		<Keyframe index="34" tweenSync="true" x="5.05" y="42" scaleX="0.982" scaleY="0.982" rotation="-23.7"/>
+
+		<Keyframe index="36" tweenSync="true" x="-14.95" rotation="21.3"/>
+
+		<Keyframe index="38" tweenSync="true" x="-20.95" y="36" scaleX="0.981" scaleY="0.981" rotation="33.8"/>
+
+		<Keyframe index="40" tweenSync="true" x="-17.95" rotation="40.6"/>
+
+		<Keyframe index="42" tweenSync="true" x="-13.95" y="34" scaleX="0.98" scaleY="0.98" rotation="4.8"/>
+
+		<Keyframe index="44" tweenSync="true" x="-2.95" y="20" scaleX="0.979" scaleY="0.979" rotation="-5"/>
+
+		<Keyframe index="46" tweenSync="true" x="-1.95" y="10"/>
+
+		<Keyframe index="48" tweenSync="true" y="4"/>
+
+		<Keyframe index="50" tweenSync="true" x="0" y="0" scaleX="1" scaleY="1" rotation="0"/>
+	</Motion>
+	<!-- SHAKE -->
+	<Motion duration="41" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+			<Source frameRate="30" x="0" y="0" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" symbolName="clip">
+				<dimensions>
+					<geom:Rectangle left="-31.2" top="-13" width="44.2" height="45.7"/>
+				</dimensions>
+				<transformationPoint>
+					<geom:Point x="0.7058823529411764" y="0.2844638949671772"/>
+				</transformationPoint>
+			</Source>
+		</source>
+
+		<Keyframe index="0" tweenSync="true"/>
+
+		<Keyframe index="3" tweenSync="true" x="50" y="10" scaleX="0.999" scaleY="0.999" rotation="16.3"/>
+
+		<Keyframe index="5" tweenSync="true" x="60" scaleX="1" scaleY="1" rotation="0"/>
+
+		<Keyframe index="8" tweenSync="true" x="10" y="20" scaleX="0.998" scaleY="0.998" rotation="-34.1"/>
+
+		<Keyframe index="10" tweenSync="true" x="0" scaleX="1" scaleY="1" rotation="0"/>
+
+		<Keyframe index="13" tweenSync="true" x="50" y="10" scaleX="0.999" scaleY="0.999" rotation="16.3"/>
+
+		<Keyframe index="15" tweenSync="true" x="60" scaleX="1" scaleY="1" rotation="0"/>
+
+		<Keyframe index="18" tweenSync="true" x="10" y="0" scaleX="0.999" scaleY="0.999" rotation="-21.3"/>
+
+		<Keyframe index="20" tweenSync="true" x="0" scaleX="1" scaleY="1" rotation="0"/>
+
+		<Keyframe index="23" tweenSync="true" x="50" y="10" scaleX="0.999" scaleY="0.999" rotation="16.3"/>
+
+		<Keyframe index="25" tweenSync="true" x="60" scaleX="1" scaleY="1" rotation="0"/>
+
+		<Keyframe index="28" tweenSync="true" x="10" y="20" scaleX="0.998" scaleY="0.998" rotation="-34.1"/>
+
+		<Keyframe index="30" tweenSync="true" x="0" scaleX="1" scaleY="1" rotation="0"/>
+
+		<Keyframe index="33" tweenSync="true" x="50" y="10" scaleX="0.999" scaleY="0.999" rotation="16.3"/>
+
+		<Keyframe index="35" tweenSync="true" x="60" scaleX="1" scaleY="1" rotation="0"/>
+
+		<Keyframe index="38" tweenSync="true" x="10" y="0" scaleX="0.999" scaleY="0.999" rotation="-21.3"/>
+
+		<Keyframe index="40" tweenSync="true" x="0" scaleX="1" scaleY="1" rotation="0"/>
+	</Motion>
+	<!-- HOP -->
+	<Motion duration="115" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+			<Source frameRate="30" x="0" y="0" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" symbolName="clip">
+				<dimensions>
+					<geom:Rectangle left="-31.2" top="-13" width="44.2" height="45.7"/>
+				</dimensions>
+				<transformationPoint>
+					<geom:Point x="0.7058823529411764" y="0.2844638949671772"/>
+				</transformationPoint>
+			</Source>
+		</source>
+
+		<Keyframe index="0" tweenSync="true" scaleX="1" scaleY="1"/>
+
+		<Keyframe index="1" tweenSync="true" scaleX="-1" scaleY="1"/>
+
+		<Keyframe index="3" tweenSync="true" x="10" y="-10" rotation="19.5"/>
+
+		<Keyframe index="5" tweenSync="true" x="20" y="-20" rotation="18.5"/>
+
+		<Keyframe index="7" tweenSync="true" x="25" y="-24"  rotation="0"/>
+
+		<Keyframe index="9" tweenSync="true" x="35" y="-14" rotation="-8"/>
+
+		<Keyframe index="11" tweenSync="true" x="45" y="-4" rotation="-12.8"/>
+
+		<Keyframe index="13" tweenSync="true" x="55" y="1" rotation="0"/>
+
+		<Keyframe index="15" tweenSync="true" x="65" y="-9" rotation="21.8"/>
+
+		<Keyframe index="17" tweenSync="true" x="75" y="-19" rotation="31.8"/>
+
+		<Keyframe index="18" tweenSync="true" x="85" y="-29" rotation="24.8"/>
+
+		<Keyframe index="20" tweenSync="true" x="91" y="-33" rotation="0"/>
+
+		<Keyframe index="22" tweenSync="true" x="101" y="-23" rotation="-12"/>
+
+		<Keyframe index="24" tweenSync="true" x="111" y="-13" rotation="-14"/>
+
+		<Keyframe index="26" tweenSync="true" x="121" y="-3" rotation="-11.8"/>
+
+		<Keyframe index="28" tweenSync="true" x="131" y="1" rotation="0"/>
+
+		<Keyframe index="30" tweenSync="true" x="141" y="-9" rotation="19"/>
+
+		<Keyframe index="32" tweenSync="true" x="151" y="-19" rotation="24.3"/>
+
+		<Keyframe index="34" tweenSync="true" x="161" y="-29" rotation="33.1"/>
+
+		<Keyframe index="36" tweenSync="true" x="166" y="-33" rotation="11.8"/>
+
+		<Keyframe index="38" tweenSync="true" x="176" y="-23" rotation="0"/>
+
+		<Keyframe index="40" tweenSync="true" x="186" y="-13" rotation="-10"/>
+
+		<Keyframe index="42" tweenSync="true" x="196" y="-3" rotation="-8.5"/>
+
+		<Keyframe index="44" tweenSync="true" x="206" y="1" rotation="0"/>
+
+		<Keyframe index="46" tweenSync="true" scaleX="1"/>
+
+		<Keyframe index="47" tweenSync="true"/>
+
+		<Keyframe index="61" tweenSync="true"/>
+
+		<Keyframe index="63" tweenSync="true" x="196" y="-9" scaleX="0.999" scaleY="0.999" rotation="-21.3"/>
+
+		<Keyframe index="65" tweenSync="true" x="186" y="-19" rotation="-22.5"/>
+
+		<Keyframe index="67" tweenSync="true" x="176" y="-29" scaleX="0.998" scaleY="0.998" rotation="-37.6"/>
+
+		<Keyframe index="69" tweenSync="true" x="171" y="-32" scaleX="1" scaleY="1" rotation="0"/>
+
+		<Keyframe index="71" tweenSync="true" x="161" y="-22" scaleX="0.999" scaleY="0.999" rotation="9"/>
+
+		<Keyframe index="73" tweenSync="true" x="151" y="-12" rotation="11.3"/>
+
+		<Keyframe index="75" tweenSync="true" x="141" y="-2" rotation="12.8"/>
+
+		<Keyframe index="77" tweenSync="true" x="131" y="1" scaleX="1" scaleY="1" rotation="0"/>
+
+		<Keyframe index="79" tweenSync="true" x="121" y="-9" scaleX="0.999" scaleY="0.999" rotation="-15"/>
+
+		<Keyframe index="81" tweenSync="true" x="111" y="-19" scaleX="0.998" scaleY="0.998" rotation="-33.6"/>
+
+		<Keyframe index="83" tweenSync="true" x="101" y="-29" scaleX="0.999" scaleY="0.999" rotation="-31.1"/>
+
+		<Keyframe index="85" tweenSync="true" x="97" y="-35" scaleX="1" scaleY="1" rotation="0"/>
+
+		<Keyframe index="87" tweenSync="true" x="87" y="-25"/>
+
+		<Keyframe index="89" tweenSync="true" x="77" y="-15" scaleX="0.999" scaleY="0.999" rotation="13.3"/>
+
+		<Keyframe index="91" tweenSync="true" x="67" y="-5" rotation="16.8"/>
+
+		<Keyframe index="93" tweenSync="true" x="57" y="1" scaleX="1" scaleY="1" rotation="0"/>
+
+		<Keyframe index="95" tweenSync="true" x="48" y="-9" scaleX="0.999" scaleY="0.999" rotation="-25"/>
+
+		<Keyframe index="97" tweenSync="true" x="39" y="-19" rotation="-30.3"/>
+
+		<Keyframe index="99" tweenSync="true" x="31" y="-29" rotation="-27.6"/>
+
+		<Keyframe index="101" tweenSync="true" x="25" y="-33" scaleX="1" scaleY="1" rotation="0"/>
+
+		<Keyframe index="103" tweenSync="true" x="15" y="-23" scaleX="0.999" scaleY="0.999" rotation="13.1"/>
+
+		<Keyframe index="105" tweenSync="true" x="6" y="-13" scaleX="1" scaleY="1" rotation="0"/>
+
+		<Keyframe index="107" tweenSync="true" x="2" y="-3"/>
+
+		<Keyframe index="109" tweenSync="true" x="0" y="0"/>
+
+		<Keyframe index="114" tweenSync="true"/>
+	</Motion>
+	<!-- circle -->
+	<Motion duration="69" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+			<Source frameRate="30" x="0" y="0" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" symbolName="clip">
+				<dimensions>
+					<geom:Rectangle left="-31.2" top="-13" width="44.2" height="45.7"/>
+				</dimensions>
+				<transformationPoint>
+					<geom:Point x="0.7058823529411764" y="0.2844638949671772"/>
+				</transformationPoint>
+			</Source>
+		</source>
+
+		<Keyframe index="0" tweenSync="true"/>
+
+		<Keyframe index="2" tweenSync="true" y="-3.25"/>
+
+		<Keyframe index="4" tweenSync="true" y="-3.75"/>
+
+		<Keyframe index="6" tweenSync="true" y="5.75"/>
+
+		<Keyframe index="8" tweenSync="true" y="7"/>
+
+		<Keyframe index="10" tweenSync="true" y="7.75"/>
+
+		<Keyframe index="12" tweenSync="true" y="4.9"/>
+
+		<Keyframe index="14" tweenSync="true" y="0"/>
+
+		<Keyframe index="16" tweenSync="true" x="0.5" y="-10"/>
+
+		<Keyframe index="18" tweenSync="true" x="9.25" y="-32.25" rotation="6.5"/>
+
+		<Keyframe index="20" tweenSync="true" x="22.5" y="-46.25" rotation="8.5"/>
+
+		<Keyframe index="22" tweenSync="true" x="39" y="-57" scaleX="0.999" scaleY="0.999" rotation="18.1"/>
+
+		<Keyframe index="24" tweenSync="true" x="54.25" y="-61.25" rotation="19"/>
+
+		<Keyframe index="26" tweenSync="true" x="68.25" rotation="22"/>
+
+		<Keyframe index="28" tweenSync="true" x="85" y="-58" rotation="26"/>
+
+		<Keyframe index="30" tweenSync="true" x="101.25" y="-49" scaleX="1" scaleY="1" rotation="27"/>
+
+		<Keyframe index="32" tweenSync="true" x="115.75" y="-33.75" rotation="20"/>
+
+		<Keyframe index="34" tweenSync="true" x="125" y="-13.25" rotation="10"/>
+
+		<Keyframe index="36" tweenSync="true" x="127" y="9.5" rotation="0"/>
+
+		<Keyframe index="38" tweenSync="true" x="120.7" y="30.05" rotation="-5"/>
+
+		<Keyframe index="40" tweenSync="true" x="104.2" y="51.05" rotation="-10"/>
+
+		<Keyframe index="42" tweenSync="true" x="82.2" y="63.8" rotation="-18"/>
+
+		<Keyframe index="44" tweenSync="true" x="60.45" y="65.8" rotation="-24"/>
+
+		<Keyframe index="46" tweenSync="true" x="40.45" y="63.3" rotation="-25"/>
+
+		<Keyframe index="48" tweenSync="true" x="27.2" y="54.55"/>
+
+		<Keyframe index="50" tweenSync="true" x="17.2" y="46.3"/>
+
+		<Keyframe index="52" tweenSync="true" x="6.7" y="31.8" rotation="-15"/>
+
+		<Keyframe index="54" tweenSync="true" x="1.95" y="22.55" rotation="-8"/>
+
+		<Keyframe index="56" tweenSync="true" x="0.2" y="12.8" rotation="0"/>
+
+		<Keyframe index="58" tweenSync="true" x="-0.05" y="5.8" rotation="5"/>
+
+		<Keyframe index="60" tweenSync="true" x="0" y="0" rotation="7"/>
+
+		<Keyframe index="62" tweenSync="true" y="-5.5" rotation="0"/>
+
+		<Keyframe index="64" tweenSync="true" y="-7" rotation="-5"/>
+
+		<Keyframe index="68" tweenSync="true" y="0" rotation="0"/>
+	</Motion>
+	<!-- backwards -->
+	<Motion duration="49" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+			<Source frameRate="30" x="0" y="0" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" symbolName="clip">
+				<dimensions>
+					<geom:Rectangle left="-31.2" top="-13" width="44.2" height="45.7"/>
+				</dimensions>
+				<transformationPoint>
+					<geom:Point x="0.7058823529411764" y="0.2844638949671772"/>
+				</transformationPoint>
+			</Source>
+		</source>
+
+		<Keyframe index="0" tweenSync="true"/>
+
+		<Keyframe index="2" tweenSync="true" x="8" rotation="3"/>
+
+		<Keyframe index="4" tweenSync="true" x="32" scaleX="1" scaleY="1" rotation="13.3"/>
+
+		<Keyframe index="6" tweenSync="true" x="70" rotation="22.9"/>
+
+		<Keyframe index="8" tweenSync="true" x="120"/>
+
+		<Keyframe index="9" tweenSync="true" rotation="0"/>
+
+		<Keyframe index="11" tweenSync="true" scaleX="0.998" scaleY="0.998" rotation="-11"/>
+
+		<Keyframe index="13" tweenSync="true" rotation="7.3"/>
+
+		<Keyframe index="14" tweenSync="true" rotation="0"/>
+
+		<Keyframe index="27" tweenSync="true" scaleX="-1"/>
+
+		<Keyframe index="28" tweenSync="true" />
+
+		<Keyframe index="30" tweenSync="true" x="115"/>
+
+		<Keyframe index="32" tweenSync="true" x="85" rotation="-13.5"/>
+
+		<Keyframe index="34" tweenSync="true" x="45" rotation="-27.1"/>
+
+		<Keyframe index="36" tweenSync="true" x="0" rotation="-42.1"/>
+
+		<Keyframe index="38" tweenSync="true" rotation="11"/>
+
+		<Keyframe index="40" tweenSync="true" rotation="-11.3"/>
+
+		<Keyframe index="41" tweenSync="true" rotation="0"/>
+		
+		<Keyframe index="47" tweenSync="true" scaleX="1"/>
+		
+		<Keyframe index="48" tweenSync="true"/>
+	</Motion>
+	<!-- sing -->
+	<Motion duration="64" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+			<Source frameRate="30" x="0" y="0" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" symbolName="clip">
+				<dimensions>
+					<geom:Rectangle left="-31.2" top="-13" width="44.2" height="45.7"/>
+				</dimensions>
+				<transformationPoint>
+					<geom:Point x="0.7058823529411764" y="0.2844638949671772"/>
+				</transformationPoint>
+			</Source>
+		</source>
+
+		<Keyframe index="0" tweenSync="true"/>
+
+		<Keyframe index="2" tweenSync="true" x="10" y="10"/>
+
+		<Keyframe index="4" tweenSync="true" x="13" y="20"/>
+
+		<Keyframe index="6" tweenSync="true" x="3" y="25"/>
+
+		<Keyframe index="8" tweenSync="true" x="-7" y="33"/>
+
+		<Keyframe index="10" tweenSync="true" x="-10" y="28"/>
+
+		<Keyframe index="12" tweenSync="true" x="0" y="20"/>
+
+		<Keyframe index="14" tweenSync="true" x="10" y="10"/>
+
+		<Keyframe index="16" tweenSync="true" x="13" y="0"/>
+
+		<Keyframe index="18" tweenSync="true" x="3" y="-10"/>
+
+		<Keyframe index="20" tweenSync="true" x="-7" y="-20"/>
+
+		<Keyframe index="22" tweenSync="true" x="-10" y="-30"/>
+
+		<Keyframe index="24" tweenSync="true" x="0" y="-33"/>
+
+		<Keyframe index="26" tweenSync="true" x="10" y="-22"/>
+
+		<Keyframe index="28" tweenSync="true" x="13" y="-11"/>
+
+		<Keyframe index="30" tweenSync="true" x="3" y="0"/>
+
+		<Keyframe index="32" tweenSync="true" x="-7" y="10"/>
+
+		<Keyframe index="34" tweenSync="true" x="-10" y="20"/>
+
+		<Keyframe index="36" tweenSync="true" x="0" y="30"/>
+
+		<Keyframe index="38" tweenSync="true" x="10" y="33"/>
+
+		<Keyframe index="40" tweenSync="true" x="13" y="22"/>
+
+		<Keyframe index="42" tweenSync="true" x="3" y="11"/>
+
+		<Keyframe index="44" tweenSync="true" x="-7" y="0"/>
+
+		<Keyframe index="46" tweenSync="true" x="-17" y="-10"/>
+
+		<Keyframe index="48" tweenSync="true" x="-25" y="-20"/>
+
+		<Keyframe index="50" tweenSync="true" x="-15" y="-30"/>
+
+		<Keyframe index="52" tweenSync="true" x="5"/>
+
+		<Keyframe index="54" tweenSync="true" x="15" y="-20"/>
+
+		<Keyframe index="56" tweenSync="true" x="18" y="-10"/>
+
+		<Keyframe index="58" tweenSync="true" x="8" y="0"/>
+
+		<Keyframe index="60" tweenSync="true" x="-2"/>
+
+		<Keyframe index="62" tweenSync="true" x="-10"/>
+	</Motion>
+	<!-- double flip -->
+	<Motion duration="91" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+			<Source frameRate="30" x="0" y="0" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" symbolName="clip">
+				<dimensions>
+					<geom:Rectangle left="-31.2" top="-13" width="44.2" height="45.7"/>
+				</dimensions>
+				<transformationPoint>
+					<geom:Point x="0.7058823529411764" y="0.2844638949671772"/>
+				</transformationPoint>
+			</Source>
+		</source>
+
+		<Keyframe index="0" tweenSync="true"/>
+
+		<Keyframe index="2" tweenSync="true" x="10" y="10" rotation="-16.8"/>
+
+		<Keyframe index="4" tweenSync="true" x="12" scaleX="0.999" scaleY="0.999" rotation="-23.8"/>
+
+		<Keyframe index="6" tweenSync="true" x="10" rotation="-29.9"/>
+
+		<Keyframe index="8" tweenSync="true" x="1" y="20" scaleX="0.998" scaleY="0.998" rotation="-48.4"/>
+
+		<Keyframe index="10" tweenSync="true" x="-18" y="25" scaleX="0.996" scaleY="0.996" rotation="-13.6"/>
+
+		<Keyframe index="12" tweenSync="true" x="-38" y="5" rotation="31.4"/>
+
+		<Keyframe index="14" tweenSync="true" y="-45" scaleX="0.995" scaleY="0.995" rotation="65"/>
+
+		<Keyframe index="16" tweenSync="true" x="-28" y="-65" scaleX="0.993" scaleY="0.993" rotation="103.6"/>
+
+		<Keyframe index="18" tweenSync="true" x="-18" y="-75" scaleX="0.992" scaleY="0.992" rotation="141.7"/>
+
+		<Keyframe index="20" tweenSync="true" x="-11" y="-78" scaleX="0.99" scaleY="0.99" rotation="163.8"/>
+
+		<Keyframe index="22" tweenSync="true" x="-1" y="-76" rotation="178"/>
+
+		<Keyframe index="24" tweenSync="true" x="10" y="-65" scaleX="0.988" scaleY="0.988" rotation="-150.9"/>
+
+		<Keyframe index="26" tweenSync="true" x="18.05" y="-49" scaleX="0.987" scaleY="0.987" rotation="-127.8"/>
+
+		<Keyframe index="28" tweenSync="true" x="23.05" y="-19" scaleX="0.986" scaleY="0.986" rotation="-103.2"/>
+
+		<Keyframe index="30" tweenSync="true" x="20.05" y="6" scaleX="0.985" scaleY="0.985" rotation="-88.6"/>
+
+		<Keyframe index="32" tweenSync="true" x="7.05" y="32" scaleX="0.983" scaleY="0.983" rotation="-51.8"/>
+
+		<Keyframe index="34" tweenSync="true" x="5.05" y="42" scaleX="0.982" scaleY="0.982" rotation="-23.7"/>
+
+		<Keyframe index="36" tweenSync="true" x="-14.95" rotation="21.3"/>
+
+		<Keyframe index="38" tweenSync="true" x="-24.95" y="26" scaleX="0.98" scaleY="0.98" rotation="55.9"/>
+
+		<Keyframe index="40" tweenSync="true" x="-28.95" y="-11" scaleX="0.979" scaleY="0.979" rotation="82.5"/>
+
+		<Keyframe index="42" tweenSync="true" y="-37" rotation="89"/>
+
+		<Keyframe index="44" tweenSync="true" x="-23.95" y="-61" scaleX="0.978" scaleY="0.978" rotation="95.8"/>
+
+		<Keyframe index="46" tweenSync="true" x="-14.95" y="-86" scaleX="0.977" scaleY="0.977" rotation="114.1"/>
+
+		<Keyframe index="48" tweenSync="true" x="-3.95" y="-100" scaleX="0.976" scaleY="0.976" rotation="139.8"/>
+
+		<Keyframe index="50" tweenSync="true" x="9.05" y="-110" scaleX="0.975" scaleY="0.975" rotation="152.8"/>
+
+		<Keyframe index="52" tweenSync="true" x="21.05" y="-118" scaleX="0.974" scaleY="0.974" rotation="169.9"/>
+
+		<Keyframe index="54" tweenSync="true" x="34.05" y="-117" scaleX="0.973" scaleY="0.973" rotation="-171.8"/>
+
+		<Keyframe index="56" tweenSync="true" x="46.05" y="-110" scaleX="0.972" scaleY="0.972" rotation="-150"/>
+
+		<Keyframe index="58" tweenSync="true" x="60.05" y="-89" scaleX="0.971" scaleY="0.971" rotation="-125.2"/>
+
+		<Keyframe index="60" tweenSync="true" x="79.05" y="-54" scaleX="0.97" scaleY="0.97" rotation="-104.9"/>
+
+		<Keyframe index="62" tweenSync="true" x="82.05" y="-1" rotation="-99.3"/>
+
+		<Keyframe index="64" tweenSync="true" x="79.05" y="40" scaleX="0.969" scaleY="0.969" rotation="-82.6"/>
+
+		<Keyframe index="66" tweenSync="true" x="59.05" y="60" scaleX="0.967" scaleY="0.967" rotation="-47.7"/>
+
+		<Keyframe index="68" tweenSync="true" x="36.05" y="69" scaleX="0.966" scaleY="0.966" rotation="-4.6"/>
+
+		<Keyframe index="70" tweenSync="true" x="14.1" y="61" scaleX="0.964" scaleY="0.964" rotation="16.5"/>
+
+		<Keyframe index="72" tweenSync="true" x="0.6" y="50.25" rotation="31.5"/>
+
+		<Keyframe index="74" tweenSync="true" x="-10.15" y="43.75"/>
+
+		<Keyframe index="76" tweenSync="true" x="-18.45" y="38.5" scaleX="0.981" scaleY="0.981" rotation="33.8"/>
+
+		<Keyframe index="78" tweenSync="true" x="-20.95" y="36" rotation="40.6"/>
+
+		<Keyframe index="80" tweenSync="true" x="-25.7" y="35" scaleX="0.98" scaleY="0.98" rotation="51.4"/>
+
+		<Keyframe index="82" tweenSync="true" x="-17.95" y="34" rotation="15"/>
+
+		<Keyframe index="84" tweenSync="true" x="-6.95" y="20" scaleX="0.979" scaleY="0.979" rotation="-5"/>
+
+		<Keyframe index="86" tweenSync="true" x="-1.95" y="10" rotation="-15"/>
+
+		<Keyframe index="88" tweenSync="true" y="4" rotation="-5"/>
+
+		<Keyframe index="90" tweenSync="true" x="0" y="0" scaleX="1" scaleY="1" rotation="0"/>
+	</Motion>
+	<!-- friends (heart) -->
+	<Motion duration="73" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+			<Source frameRate="30" x="0" y="0" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" symbolName="clip">
+				<dimensions>
+					<geom:Rectangle left="-31.2" top="-13" width="44.2" height="45.7"/>
+				</dimensions>
+				<transformationPoint>
+					<geom:Point x="0.7058823529411764" y="0.2844638949671772"/>
+				</transformationPoint>
+			</Source>
+		</source>
+
+		<Keyframe index="0" tweenSync="true"/>
+
+		<Keyframe index="2" tweenSync="true" x="-8" y="-4.25"/>
+
+		<Keyframe index="4" tweenSync="true" x="-7.5" y="-3.75"/>
+
+		<Keyframe index="6" tweenSync="true" x="-5" y="5.75"/>
+
+		<Keyframe index="8" tweenSync="true" x="-4" y="7"/>
+
+		<Keyframe index="10" tweenSync="true" y="7.75"/>
+
+		<Keyframe index="12" tweenSync="true" x="-5" y="4.9"/>
+
+		<Keyframe index="14" tweenSync="true" x="-6.5" y="0"/>
+
+		<Keyframe index="16" tweenSync="true" x="-9.5" y="-10"/>
+
+		<Keyframe index="18" tweenSync="true" x="-9.25" y="-32.25" rotation="6.5"/>
+
+		<Keyframe index="20" tweenSync="true" x="1.75" y="-46.25"/>
+
+		<Keyframe index="22" tweenSync="true" x="22.5" y="-52.75" rotation="8.5"/>
+
+		<Keyframe index="24" tweenSync="true" x="39" y="-49.5" scaleX="0.999" scaleY="0.999" rotation="18.1"/>
+
+		<Keyframe index="26" tweenSync="true" x="54.25" y="-27.75" rotation="19"/>
+
+		<Keyframe index="28" tweenSync="true" x="59.25" y="-21.75" rotation="22"/>
+
+		<Keyframe index="30" tweenSync="true" x="59.5" y="-17.5" scaleX="0.998" scaleY="0.998" rotation="12"/>
+
+		<Keyframe index="32" tweenSync="true" x="66.25" y="-30" scaleX="1" scaleY="1" rotation="27"/>
+
+		<Keyframe index="34" tweenSync="true" x="74.75" y="-41.25" rotation="20"/>
+
+		<Keyframe index="36" tweenSync="true" x="95" y="-52.75" rotation="10"/>
+
+		<Keyframe index="38" tweenSync="true" x="121" y="-46.5" rotation="0"/>
+
+		<Keyframe index="40" tweenSync="true" x="133.2" y="-27.95" rotation="-5"/>
+
+		<Keyframe index="42" tweenSync="true" x="130.2" y="-1.95" rotation="-10"/>
+
+		<Keyframe index="44" tweenSync="true" x="115.2" y="25.3" rotation="-18"/>
+
+		<Keyframe index="46" tweenSync="true" x="100.45" y="39.3" rotation="-24"/>
+
+		<Keyframe index="48" tweenSync="true" x="77.95" y="58.3" rotation="-25"/>
+
+		<Keyframe index="50" tweenSync="true" x="62.45" y="65.8"/>
+
+		<Keyframe index="52" tweenSync="true" x="40.2" y="60.55"/>
+
+		<Keyframe index="54" tweenSync="true" x="17.2" y="46.3"/>
+
+		<Keyframe index="56" tweenSync="true" x="6.7" y="31.8" rotation="-15"/>
+
+		<Keyframe index="58" tweenSync="true" x="1.95" y="22.55" rotation="-8"/>
+
+		<Keyframe index="60" tweenSync="true" x="0.2" y="12.8" rotation="0"/>
+
+		<Keyframe index="62" tweenSync="true" x="-0.05" y="5.8" rotation="5"/>
+
+		<Keyframe index="64" tweenSync="true" x="0" y="0" rotation="7"/>
+
+		<Keyframe index="66" tweenSync="true" y="-5.5" rotation="0"/>
+
+		<Keyframe index="68" tweenSync="true" y="-7" rotation="-5"/>
+
+		<Keyframe index="72" tweenSync="true" y="0" rotation="0"/>
+	</Motion>
+	<!-- gift getting excitement -->
+	<Motion duration="34" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+			<Source frameRate="30" x="0" y="0" scaleX="1" scaleY="1" rotation="0" elementType="movie clip" symbolName="clip">
+				<dimensions>
+					<geom:Rectangle left="-31.2" top="-13" width="44.2" height="45.7"/>
+				</dimensions>
+				<transformationPoint>
+					<geom:Point x="0.7058823529411764" y="0.2844638949671772"/>
+				</transformationPoint>
+			</Source>
+		</source>
+	
+		<Keyframe index="0" tweenSync="true"/>
+	
+		<Keyframe index="2" tweenSync="true" y="-20"/>
+	
+		<Keyframe index="4" tweenSync="true" y="-28"/>
+	
+		<Keyframe index="6" tweenSync="true" y="0"/>
+	
+		<Keyframe index="8" tweenSync="true" y="10"/>
+	
+		<Keyframe index="10" tweenSync="true" y="0"/>
+	
+		<Keyframe index="12" y="-20"/>
+	
+		<Keyframe index="14" y="-28"/>
+	
+		<Keyframe index="16" y="0"/>
+	
+		<Keyframe index="18" y="10"/>
+	
+		<Keyframe index="20" y="0"/>
+	
+		<Keyframe index="22" y="-20"/>
+	
+		<Keyframe index="24" y="-28"/>
+	
+		<Keyframe index="26" y="0"/>
+	
+		<Keyframe index="28" y="10"/>
+	
+		<Keyframe index="30" y="0"/>
+	</Motion>
+</Motions>

@@ -1,0 +1,49 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/manager.swf</swf>
+		<swf type="code">{panelCode}/manager.swf</swf>
+	</swfs>
+	<config>
+		<layout>
+			<subnav heading="My%0AFairies" subheading="" useicon="true">
+				<region background="none" access="public">
+					<item>
+						<label>Go Back</label>
+						<color>none</color>
+						<confirm>true</confirm>
+						<href>http://www.disneyfairies.com</href>
+					</item>
+				</region>
+			</subnav>
+			<util>
+				<createPanel>caf.xml</createPanel>
+			</util>
+		</layout>
+	</config>
+	<copy>
+		<dbfail>Sorry, something's not right.  Try back later!</dbfail>
+		<dbfailconfirm>Okay</dbfailconfirm>	
+		<deletesuccess>Fairy removed.</deletesuccess>
+		<deletesuccessconfirm>Okay</deletesuccessconfirm>
+		<removing>Removing Fairy...</removing>
+		<confirmremove>Are you sure you want to remove this Fairy?</confirmremove>
+		<removeyes>Yes</removeyes>
+		<removeno>No</removeno>
+		<login>Just a minute...</login>
+		<createafairy>Create A Fairy</createafairy>
+		<starthere>Start here to create a new Game Preview Fairy.</starthere>
+		<!--starthere>Start here to create a new Fairy!</starthere-->
+		<tink>Choose the Fairy you want to be today, or create a new Fairy!</tink>
+		<tinkconfirm>Okay</tinkconfirm>
+		<title>Which Fairy would you like to play with today?</title>
+		<playlabel>Play!</playlabel>
+		<deletelabel>Remove</deletelabel>
+		<pagelabel>Pixie Page</pagelabel>
+		<createlabel>Create</createlabel>
+		<previewInfo>Remember! You can only play with these Fairies in the Game Preview</previewInfo>
+		<tinkTipsText1 target="tinkbutton.tinksTip1">Tink's</tinkTipsText1>
+		<tinkTipsText2 target="tinkbutton.tinksTip2">Tips</tinkTipsText2>
+		<pleaseWait>Sorry, but the meadows are currently full.</pleaseWait>
+		<okay>Okay</okay>
+	</copy>
+</panel>

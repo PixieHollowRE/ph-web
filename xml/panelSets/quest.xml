@@ -1,0 +1,11 @@
+﻿<panelSet>
+	<panels>
+		<panel id="details" x="0" y="0" hidden="false" closeable="true">{panelData}/questDetails.xml</panel>
+		<panel id="inventoryItemSelectionPanel" x="0" y="0" alwaysOnTop="true" hidden="true">{panelData}/inventoryItemSelectionPanel.xml</panel>
+	</panels>
+	<config>
+		<avatarScale>0.6</avatarScale>
+	</config>
+	<copy>
+	</copy>
+</panelSet>

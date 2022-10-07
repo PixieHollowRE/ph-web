@@ -1,0 +1,14 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/site_bg.swf</swf>
+		<!-- -->
+		<swf type="code">{panelCode}/tinkSide.swf</swf>
+		
+	</swfs>
+	<copy>
+
+	</copy>
+	<config>
+
+	</config>
+</panel>

@@ -1,0 +1,32 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/levelUp.swf</swf>
+		<swf type="code">{panelCode}/levelUp.swf</swf>
+	</swfs>
+	<copy>
+		<!-- image interface -->
+		<congratulations>Congratulations!</congratulations>
+		<intro>Intro message...</intro>
+		<conclusion>You've just unlocked a new Talent Skill!</conclusion>
+		<gotoBtn>Go to the Pixie Dust Mill now!</gotoBtn>
+
+		<!-- rewards interface -->
+		<header>You've reached level ###LEVEL###!</header>
+		<requirements>Earn ###POINTS### Talent Points</requirements>
+		<okBtn>OK</okBtn>
+
+		<!-- <unlockHeader>###amount### ###craftType### at ###shopOwner###'s</unlockHeader>-->
+		<unlockHeader>###craftType###</unlockHeader>-->
+		<linkBtnText>Visit ###shopOwner###'s ###shopName### Now!</linkBtnText>
+
+		<journalLinkText>Check out all the rewards you've unlocked!</journalLinkText>
+
+		<!-- itemHelpers -->
+		<dyeHelper>Dye</dyeHelper>
+
+		<unlockedGreat>You've just unlocked these great things!</unlockedGreat>
+	</copy>
+	<config>
+		<fbBtnCoords>150,60</fbBtnCoords>
+	</config>
+</panel>

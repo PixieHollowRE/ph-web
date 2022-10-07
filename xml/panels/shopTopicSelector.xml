@@ -1,0 +1,92 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/shopTopicSelector.swf</swf>
+		<swf type="code">{panelCode}/shopTopicSelector.swf</swf>
+	</swfs>
+	<copy>
+		<openShop>Shop Store!</openShop>
+		<openCatalog>Shop Catalog!</openCatalog>
+		<dyeItems>Dye Items</dyeItems>
+		<tradeIngredients>Trade Ingredients</tradeIngredients>
+		<rename>Update Your Name!</rename>
+		
+		<!-- POST OFFICE -->
+		<shopGiftSets><![CDATA[Shop Gift Sets!]]></shopGiftSets>
+		<shopGiftSetsDescription><![CDATA[]]></shopGiftSetsDescription>
+		<sendPostCard>Send Postcards!</sendPostCard>
+		<buyGold>Buy Diamonds</buyGold>
+		
+		<publicPartyBrowser>Find a Party!</publicPartyBrowser>
+		<openBrowse>Browse!</openBrowse>
+		<openAnimal>View Animal Friends!</openAnimal>
+		<chat>Chat with #SHOPKEEPER#.</chat>
+		<lobbyChat>Chat in the Lobby.</lobbyChat>
+		<text target="cancelBtn.caption">Leave Shop</text>
+		<defaultChat>Hello!</defaultChat>
+		<title1>Welcome to #SHOPNAME#</title1>
+		<title2>run by #SHOPKEEPER#</title2>
+		<continue>NEXT</continue>
+		<alertTitle>Oops!</alertTitle>
+		<alertButton>OK</alertButton>
+		<noDyeableItems>You don't have any items to dye. Purchase a wardrobe or storage item from any shop first!</noDyeableItems>
+		<noDyes>You don't have any dyes. Get dyes from Daisy.</noDyes>
+		<oops>Oops!</oops>
+		<ok>OK</ok>
+		<confirmLeaveLink>You will leave Pixie Hollow if you follow this link. Are you sure you would like to leave?</confirmLeaveLink>
+		<confirmLeaveYes>Leave</confirmLeaveYes>
+		<confirmLeaveNo>Stay</confirmLeaveNo>
+	</copy>
+	<config>
+		<topics zone="115000">
+			<option>openAnimal</option>
+			<option>tradeIngredients</option>
+			<!-- <option>chat</option> -->
+			<!-- <option>lobbyChat</option> -->
+		</topics>
+		<topics zone="113000">
+			<option>openShop</option>
+			<option>tradeIngredients</option>
+			<option>publicPartyBrowser</option>
+			<!-- <option>chat</option> -->
+			<!-- <option>lobbyChat</option> -->
+		</topics>
+		<topics zone="110008">
+			<option description="shopGiftSetsDescription">shopGiftSets</option>
+			<option>sendPostCard</option>
+			<option>tradeIngredients</option>
+			<!-- <option>chat</option> -->
+			<!-- <option>lobbyChat</option> -->
+		</topics>
+		<topics zone="110001">
+			<option>openShop</option>
+			<option>tradeIngredients</option>
+		</topics>
+		<topics zone="110009">
+			<option>openCatalog</option>
+			<option>tradeIngredients</option>
+		</topics>
+		<topics zone="110010">
+			<option>openShop</option>
+			<option>tradeIngredients</option>
+		</topics>
+		<topics zone="117000">
+			<option>openShop</option>
+			<option>tradeIngredients</option>
+		</topics>
+		
+		<topics zone="*">
+			<option>openShop</option>
+			<option>openCatalog</option> <!-- panel will only show this if there are outfits... -->
+			<option restrictToShopTypes="2000">dyeItems</option>
+			<option>tradeIngredients</option>
+			<!-- <option>chat</option> -->
+			<!-- <option>lobbyChat</option> -->
+		</topics>
+		<topics zone="browsing">
+			<option>openBrowse</option>
+			<option>tradeIngredients</option>
+			<!-- <option>chat</option> -->
+			<!-- <option>lobbyChat</option> -->
+		</topics>
+	</config>
+</panel>

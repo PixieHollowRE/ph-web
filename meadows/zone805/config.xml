@@ -1,0 +1,37 @@
+<zone>
+  <name>Kit's Place</name>
+  <zoneID>805</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow805</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <clientLayout>
+    <layers>
+      <layer type="ground" width="924" height="532" locked="true">
+        <image x="0" y="0" type="none">postingsBackground_2012.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="895" y="50">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>kitshideout_mix2</id>
+      <loops>0</loops>
+      <volumeLow>0</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

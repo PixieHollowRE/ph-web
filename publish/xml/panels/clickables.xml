@@ -1,0 +1,126 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/clickables.swf</swf>
+		<swf type="code">{publishPanelCode}/clickables.swf</swf>
+	</swfs>
+	<copy>
+		<shoppingText><![CDATA[Check out DisneyStore.com for Clickables toys.]]></shoppingText>
+		<shopNowBtn><![CDATA[Shop Now]]></shopNowBtn>
+		<playModeText><![CDATA[Play!]]></playModeText>
+		<waitModeText><![CDATA[Wait]]></waitModeText>
+		<channel><![CDATA[]]></channel>
+		<panel><![CDATA[login]]></panel>
+		<url><![CDATA[]]></url>
+		<event><![CDATA[]]></event>
+		<backBtn>Back</backBtn>
+		<badgeTitle><![CDATA[Here's how to collect all of Pixie Hollow's Clickables Badges.]]></badgeTitle>
+		<viewCharmsFromBadge><![CDATA[<span class="pageLink"><u>View Charms Collection</u></span>]]></viewCharmsFromBadge>
+		<totalCharms><![CDATA[ currently has # Clickables exclusive SpeedChat phrases.]]></totalCharms>
+		<viewAllCharmsLink><![CDATA[<span class="pageLink"><u>View All Clickables Badges</u></span>]]></viewAllCharmsLink>
+		<clickablesMCTitle><![CDATA[Each Clickables Charm unlocks a new item for your Fairy in Pixie Hollow. Collect them and earn Badges for your Fairy, too!]]></clickablesMCTitle>
+		<macWarning><![CDATA[Clickables is not currently support for the Mac operating system.]]></macWarning>
+		<linuxWarning><![CDATA[Clickables is not currently support for the Linux operating system.]]></linuxWarning>
+		<collectAllNature><![CDATA[Collect all the Nature Charms to earn this Badge in Pixie Hollow.]]></collectAllNature>
+		<collectAllGarden><![CDATA[Collect all the Garden Charms to earn this Badge in Pixie Hollow.]]></collectAllGarden>
+		<collectAllAnimal><![CDATA[Collect all the Animal Charms to earn this Badge in Pixie Hollow.]]></collectAllAnimal>
+		<collectAllFF><![CDATA[Collect all the Famous Fairies Charms to earn this Badge in Pixie Hollow.]]></collectAllFF>
+		<collectAllCharms><![CDATA[Collect all the Charms to earn this Badge in Pixie Hollow.]]></collectAllCharms>
+		<loginLink><![CDATA[<span class="pageLink"><a href="event:doLogInClicked"><u>Log in to view your personal collection.</u></a></span>]]></loginLink>
+		<backPixHollow><![CDATA[Back to Pixie Hollow]]></backPixHollow>
+		<backHome><![CDATA[Back to Clickables Home]]></backHome>
+		<css>css/clickables.css</css>
+		<errorLoadingFAQXML><![CDATA[There was an error loading FAQ.]]></errorLoadingFAQXML>
+		<faqTitle><![CDATA[Frequently Asked Questions]]></faqTitle>
+		<errorLoadingBadgesXML><![CDATA[There was and error loading Badges.]]></errorLoadingBadgesXML>
+		<badgesPageTitle><![CDATA[Clickables Badge Collection]]></badgesPageTitle>
+		<errorLoadingCharmsXML><![CDATA[There was an error loading Clickables Charms.]]></errorLoadingCharmsXML>
+		<ffBtnText><![CDATA[Famous Fairies]]></ffBtnText>
+		<gardenBtnText><![CDATA[Garden]]></gardenBtnText>
+		<animalBtnText><![CDATA[Animal]]></animalBtnText>
+		<natureBtnText><![CDATA[Nature]]></natureBtnText>
+		<charmsSubTitle><![CDATA[= Collected]]></charmsSubTitle>
+		<allCharmsTitle><![CDATA[Charms Collection]]></allCharmsTitle>
+		<phraseNotLoggedInTitle><![CDATA[Clickables toys allow you to get additional SpeedChat phrases in Pixie Hollow! Click bracelets to exchange friendships and get SpeedChat phrases. You can point to these phrases in the SpeedChat menu to chat with other Fairies in Pixie Hollow.]]></phraseNotLoggedInTitle>
+		<phraseSubTitle><![CDATA[= Collected]]></phraseSubTitle>
+		<allPhrasesTitle><![CDATA[SpeedChat Phrase Collection]]></allPhrasesTitle>
+		<errorLoadingPhrasesXML><![CDATA[There was an error loading Clickables Phrases.]]></errorLoadingPhrasesXML>
+		<title><![CDATA[<span class="pageTitle"><p>Welcome to Clickables&#x2122;</p></span>]]></title>
+		<subTitle><![CDATA[Clickables Fun Stuff]]></subTitle>
+		<subsubTitle><![CDATA[Here are some fun things you can do!]]></subsubTitle>
+		
+		
+		<headerBody><![CDATA[Extend the Fairy fun with Clickables, toys that magically connect real world friends and unlock special treasures inside the world of Pixie Hollow.<font face="Arial" size="18" color="#FFF04C">*</font>]]></headerBody>
+		
+		<remark><![CDATA[<font face="Arial" size="18" color="#FFF04C">*Toys are only sold in retail stores in the USA.</sont>]]></remark>
+		
+		
+		<getStarted><![CDATA[Download Clickables Program]]></getStarted>
+		<forWindows><![CDATA[(For Windows PC only)]]></forWindows>
+		<needHelp><![CDATA[<span class="newsbodytext"><font face="Arial" size="18" color="#FFF04C"><a href="event:helpClicked"><u>Need Help?</u></a></font></span>]]></needHelp>
+		<charmsTitle><![CDATA[Collect Charms]]></charmsTitle>
+		<charmsBtn><![CDATA[View Collection]]></charmsBtn>
+		<charmsBody><![CDATA[Each charm unlocks a new item for your Fairy.  Collect them and earn badges in Pixie Hollow.]]></charmsBody>
+		<badgesTitle><![CDATA[Unlock Special Items]]></badgesTitle>
+		<badgesBtn><![CDATA[More Information]]></badgesBtn>
+		<badgesBody><![CDATA[Touch charms to the jewelry box and unlock special clothing, decor and accessories for your Fairy!]]></badgesBody>
+		<phrasesTitle><![CDATA[Make Friendships]]></phrasesTitle>
+		<phrasesBtn><![CDATA[View Collection]]></phrasesBtn>
+		<phrasesBody><![CDATA[Click Clickables Fairy Friendship Bracelets to receive SpeedChat phrases and become friends in Pixie Hollow.]]></phrasesBody>
+		<portraitTitle><![CDATA[Earn Butterflies]]></portraitTitle>
+		<portraitBtn><![CDATA[Print now!]]></portraitBtn>
+		<portraitBody><![CDATA[Play games offline & earn a butterfly to fly with your Fairy. Print your Fairy for your game cover.]]></portraitBody>
+	</copy>
+	<config>
+		<!--disShoppingLink><![CDATA[http://disneyshopping.go.com/transfer/297652/disney/store/Category_10002_10051_59524_-1_59524_____Disney-Clickables?CMP=OTL-DOL&att=FairiesClickable]]></disShoppingLink-->
+		<disShoppingLink><![CDATA[http://disneystore.go.com/disney/store/DSISearch?Ntt=clickables&Nr=AND%28OR%28pStoreID%3A10051%2CpStoreID%3A10601%2CpStoreID%3A10052%29%2CpPublished%3A1%29&Ntk=All_Shopping&langId=-1&storeId=10051&Ntx=mode+matchallpartial&catalogId=10002&N=1159499&Nu=pProductID&categoryId=11776&in_dim_search=1]]></disShoppingLink>
+		<clickRoot><![CDATA[{publishContentData}/clickables]]></clickRoot>
+		<clickPhrases><![CDATA[ClickGiftList.xml]]></clickPhrases>
+		<clickCharmList><![CDATA[ClickCharmList.xml]]></clickCharmList>
+		<clickBadgeList><![CDATA[clickBadgeList.xml]]></clickBadgeList>
+		<clickFAQ><![CDATA[clickFAQ.xml]]></clickFAQ>
+		<clickInvRequestURL><![CDATA[ClickInventoryRequest]]></clickInvRequestURL>
+		
+		<affiliate>disney_phclickables</affiliate>
+		<showAppBtn>true</showAppBtn>
+		<welcomePageURL>index.html</welcomePageURL>
+		<iconWidthMax>432</iconWidthMax>
+		<sheet>css/clickables.css</sheet>
+		<charmHolderNotLoggedInX>44</charmHolderNotLoggedInX>
+		<charmHolderNotLoggedInY>100</charmHolderNotLoggedInY>
+		<charmHolderLoggedInX>44</charmHolderLoggedInX>
+		<charmHolderLoggedInY>126</charmHolderLoggedInY>
+		<charmsTabX>-55</charmsTabX>
+		<charmsTabY>123</charmsTabY>
+		<phraseTabX>-35</phraseTabX>
+		<phraseTabY>123</phraseTabY>
+		<TabTintR>0x7E</TabTintR>
+		<TabTintG>0x54</TabTintG>
+		<TabTintB>0x79</TabTintB>
+		<TopNavTintR>40</TopNavTintR>
+		<TopNavTintG>3</TopNavTintG>
+		<TopNavTintB>3</TopNavTintB>
+		<charmsnoLoggedInX>270</charmsnoLoggedInX>
+		<charmsNotLoggedInY>330</charmsNotLoggedInY>
+		<badgeX>210</badgeX>
+		<badgeY>300</badgeY>
+		<charmsX>270</charmsX>
+		<charmsY>280</charmsY>
+		<phraseX>270</phraseX>
+		<phraseY>280</phraseY>
+		<faqX>270</faqX>
+		<faqY>310</faqY>
+		<phraseWidthSpacer>25</phraseWidthSpacer>
+		<phraseHeightSpacer>11</phraseHeightSpacer>
+		<charmsWidthSpacer>25</charmsWidthSpacer>
+		<charmsHeightSpacer>13</charmsHeightSpacer>
+		<charmHolderY>100</charmHolderY>
+		<charmHolderYLoggedIn>126</charmHolderYLoggedIn>
+		<badgesWidthSpacer>25</badgesWidthSpacer>
+		<badgesHeightSpacer>13</badgesHeightSpacer>
+		<css>xml/css/stylesheet.css</css>
+		<iconbase>swf/avatar/icon.swf</iconbase>
+		<headergraphic>images/site_header_06.png</headergraphic>
+		<tokenminimanager>true</tokenminimanager>
+	</config>
+</panel>
+

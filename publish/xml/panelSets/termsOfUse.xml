@@ -1,0 +1,23 @@
+<panelSet>
+	<panels>
+		<panel id="termsOfUse" x="70" y="-38" alwaysOnTop="true" transition="none">{publishPanelData}/termsOfUse.xml</panel>	
+	</panels>
+	<config>
+		<logolink>false</logolink>
+		<menu>
+			<config nav="false" title="true"/>
+			<title>
+				<text>menutitle</text>
+			</title>
+		</menu>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>termsofuse</trackingid>
+		<sectionid>termsofuse</sectionid>
+		<pageid>termsofuse</pageid>
+	</config>
+	<copy>
+		<menutitle>Terms Of Use</menutitle>
+	</copy>
+
+</panelSet>

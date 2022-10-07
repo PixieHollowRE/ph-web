@@ -1,0 +1,268 @@
+﻿<level>
+
+<!-- random insanity -->
+
+	<light x = "95" y = "278">orange</light>
+	<light x = "95" y = "228">green</light>
+	<light x = "95" y = "178">purple</light>
+	<light x = "95" y = "328">blue</light>
+	
+	<light x = "783" y = "253">yellow</light>
+	<light x = "783" y = "203">orange</light>
+	<light x = "783" y = "303">red</light>
+
+<!-- moth #1 of 1 -->
+	<firefly image="moth">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+			<headingToPointSpeed value="0.8" />
+			<waitingSpeed value="0.8" />
+		</path>
+		<speed>10</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>25</attract>
+		<type>moth</type>
+	</firefly>
+
+	<firefly image="moth">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+			<headingToPointSpeed value="0.8" />
+			<waitingSpeed value="0.8" />
+		</path>
+		<speed>10</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>25</attract>
+		<type>moth</type>
+	</firefly>
+	<firefly image="moth">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+			<headingToPointSpeed value="0.8" />
+			<waitingSpeed value="0.8" />
+		</path>
+		<speed>10</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>25</attract>
+		<type>moth</type>
+	</firefly>
+	<firefly image="moth">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+			<headingToPointSpeed value="0.8" />
+			<waitingSpeed value="0.8" />
+		</path>
+		<speed>10</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>25</attract>
+		<type>moth</type>
+	</firefly>
+	<firefly image="moth">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+			<headingToPointSpeed value="0.8" />
+			<waitingSpeed value="0.8" />
+		</path>
+		<speed>10</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>25</attract>
+		<type>moth</type>
+	</firefly>
+	
+	<firefly image="blindmoth">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>12</speed>
+		<turnspeed>0.35</turnspeed>
+		<attract>15</attract>		
+		<type>blindmoth</type>
+	</firefly>	
+	<firefly image="blindmoth">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>12</speed>
+		<turnspeed>0.35</turnspeed>
+		<attract>15</attract>		
+		<type>blindmoth</type>
+	</firefly>	
+	<firefly image="blindmoth">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>12</speed>
+		<turnspeed>0.35</turnspeed>
+		<attract>15</attract>		
+		<type>blindmoth</type>
+	</firefly>	
+	<firefly image="blindmoth">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>12</speed>
+		<turnspeed>0.35</turnspeed>
+		<attract>15</attract>				
+		<type>blindmoth</type>
+	</firefly>	
+	<firefly image="blindmoth">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>12</speed>
+		<turnspeed>0.35</turnspeed>
+		<attract>15</attract>				
+		<type>blindmoth</type>
+	</firefly>	
+
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.25</turnspeed>
+	</firefly>	
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>9</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>9</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>9</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+	
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>3</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>3</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>3</speed>
+		<turnspeed>0.25</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+	
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>11</speed>
+		<turnspeed>0.35</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>11</speed>
+		<turnspeed>0.35</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+	<firefly image="firefly">
+		<path source="random">
+			<topLeft x="140" y="150" />
+			<bottomRight x="740" y="400" />		
+		</path>
+		<speed>11</speed>
+		<turnspeed>0.35</turnspeed>
+		<attract>15</attract>				
+	</firefly>	
+
+	
+</level>

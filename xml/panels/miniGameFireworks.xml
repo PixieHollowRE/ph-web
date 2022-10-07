@@ -1,0 +1,790 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/fireworksGame.swf</swf>
+		<swf type="code">{panelCode}/fireworksGame.swf</swf>
+	</swfs>
+	<copy>		
+		<!-- hud -->
+		<title>Fairy Fireworks</title>
+		<level>Level</level>
+
+		<hudTitleWelcome>Fairy Fireworks</hudTitleWelcome>
+		<hudSubTitleWelcome>Get Ready</hudSubTitleWelcome>
+		
+		<left_scorecard_title>Baskets</left_scorecard_title>
+		<left_scorecard_title_one>Basket Left</left_scorecard_title_one>
+		<right_scorecard_title>Score:</right_scorecard_title>		
+		<right_accent_title>Patterns Filled</right_accent_title>		
+		<level_tip_title>Get Ready!</level_tip_title>
+		<hostname>Minister of Autumn</hostname>
+		
+		
+		<!-- UI: TITLE SCREEN -->
+		<title_screen target="title.title_container.title_text">Fairy Fireworks</title_screen>
+		<title_play target="title.btnContainer.play_text">Play</title_play>
+		<title_help target="title.btnContainer.help_text">Instructions</title_help>		
+		<title_quit target="title.btnContainer.quit_text">Quit</title_quit>
+		
+		
+		<!-- UI: WELCOME -->
+		<welcome_title>Welcome!</welcome_title>
+		<welcome_text>Welcome to Sunset Grove! As the Minister of Autumn, it is my duty to bring the season's light to the Mainland. Will you help? Catch the dots and place them in the patterns. As each pattern is filled, you will be rewarded with fireworks!</welcome_text>		
+		<welcome_play>Continue</welcome_play>
+
+		
+		
+		<!-- UI: TUTORIAL -->
+		<tutorial_next>NEXT</tutorial_next>
+		<tutorial_skip>Skip This</tutorial_skip>
+		<tutorial_continue>Continue</tutorial_continue>		
+		<tutorial_hudtitle>How to play</tutorial_hudtitle>
+		
+		<tutorial_replay>Show me again</tutorial_replay>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		<tutorial_finalscore_label>Let's begin filling patterns and making fireworks!</tutorial_finalscore_label>
+		
+		<host_level_tutorial_1>Hey! Now you try.</host_level_tutorial_1>
+		<host_level_tutorial_2>Wow! You did it!</host_level_tutorial_2>
+		
+		<host_bubble_1>Now you try it!</host_bubble_1>
+		<host_bubble_2>Wow you did it!</host_bubble_2>		
+		<host_bubble_3>Fill in the pattern with the colored lights!</host_bubble_3>
+		<host_bubble_4>Well done!</host_bubble_4>
+		<host_bubble_5>Make sure the pattern is filled with all 3 colors.</host_bubble_5>
+		
+		<tutorial_title_goal>Goal</tutorial_title_goal>
+		<win_tutorial_secondText>Complete!</win_tutorial_secondText>
+		
+		<tutorial_step1>Welcome to Sunset Grove! Let me show you how to make magical fireworks.</tutorial_step1>
+		<tutorial_step2>Catch the colored light with your basket.</tutorial_step2>
+		<tutorial_step4>Put it on a pattern that needs that color light.</tutorial_step4>
+		<tutorial_step6>Fill in the whole pattern, and you will be rewarded with the most amazing fireworks!</tutorial_step6>
+		<tutorial_step10>You can collect more than one light of the same color at the same time.</tutorial_step10>
+		<tutorial_step13>You can change the color of light in your basket by catching a new light.</tutorial_step13>
+		<tutorial_step16>You can also see how many dots of light you have in your basket here.</tutorial_step16>
+		<tutorial_step18>Now I have one blue light. I can check it here.</tutorial_step18>
+		<tutorial_step19>You can also check your score and see how many patterns you still need to fill. Fill them all before time runs out!</tutorial_step19>
+		<tutorial_step20>Watch out for moths! If you bump into them, you'll lose your light basket.</tutorial_step20>
+		<tutorial_step22>If you lose all your baskets, the game will end. Now, why don't you finish this pattern for me?</tutorial_step22>
+				
+		<!-- UI: INSTRUCTIONS -->
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">Instructions</inst_screen_title>
+		
+		<instruction0 target="instructions.btnContainer.page0.text_container.label">Click to catch the dots of light as they fly by.</instruction0>
+		<instruction1 target="instructions.btnContainer.page1.text_container.label">When you have a dot of light in your basket, click on a pattern to place it.</instruction1>
+		<instruction2 target="instructions.btnContainer.page2.text_container.label">Watch for extra-bright dots of white light. They'll fill any pattern you choose.</instruction2>
+		<instruction3 target="instructions.btnContainer.page3.text_container.label">If you catch more than one dot of light of the same color, you can fill more of that pattern with a single click. </instruction3>		
+		<instruction4 target="instructions.btnContainer.page4.text_container.label">When you finish filling a pattern, it will burst into a sparkling firework!</instruction4>	
+		<instruction5 target="instructions.btnContainer.page5.text_container.label">Fill the patterns as fast as you can or you'll run out of time!</instruction5>
+		
+		<inst_play target="instructions.btnContainer.playBtn.play_text">Play</inst_play>
+		<inst_back target="instructions.btnContainer.backBtn.back_text">Back</inst_back>		
+		<inst_cont target="instructions.btnContainer.continueBtn.continue_text">Continue</inst_cont>		
+		<inst_quit target="instructions.btnContainer.quitBtn.quit_text">Quit</inst_quit>
+		
+		<!-- UI: PRIZES -->		
+		<prize_scrn target="prize.prize_container.prize_text">Rewards</prize_scrn>
+		
+		<!-- Story -->		
+		<easy_story>It's time to bring some sparkle to the season! </easy_story>
+		<medium_story>Every season needs a bit of pixie dust. Let's prepare sparkling light for Autumn!</medium_story>
+		<hard_story>Twinkling lights are just what the sky needs this time of year. Are you ready?</hard_story>
+		<royal_story>What dazzling colors! Fill the patterns my friend, and see the brightest lights ever!</royal_story>
+		
+		<easy_exitstory>A most impressive start, little helper. Come back anytime!</easy_exitstory>
+		<medium_exitstory>Those moths gave you trouble, but you handled them well. Congratulations!</medium_exitstory>
+		<hard_exitstory>You filled those patterns with great skill, little helper. I'll be most happy to have your help again!</hard_exitstory>
+		<royal_exitstory>That was quite a light show! Wonderful! I hope you come back soon!</royal_exitstory>
+		
+		<allmedium_story>Autumn colors are so lovely. Keep them coming!</allmedium_story>
+		<allhard_story>These colors might be a little harder to manage, but I'm sure you can handle it!</allhard_story>
+		<allroyal_story>This will be a great challenge. Fill the patterns for the mainland!</allroyal_story>		
+		
+		<!-- UI: GAME OVER -->
+		<!-- titles -->
+		<game_over_win>You Win!</game_over_win>
+		<game_over_lose>Nice Try!</game_over_lose>
+		<!-- buttons -->
+		<game_over_continue>Done</game_over_continue>		
+		<!-- comments (win) -->
+		<game_over_win_0>Congratulations! I don't think I've ever seen anyone fill so many patterns so fast.</game_over_win_0>
+		<game_over_win_1>Excellent job! Seems you've got a real "flare" for this. I appreciate the help, and come back again any time.</game_over_win_1>
+		<game_over_win_2>You did it! I am delighted by your performance. Come back and help me again, will you?</game_over_win_2>
+		<game_over_win_3>Did you just finish them all? You did! Congratulations, and thank you for your help.</game_over_win_3>
+		<game_over_win_4>You did it! You filled every pattern I had! I'm not sure if anyone has ever done that before…</game_over_win_4>
+		<!-- comments (lose) -->
+		<game_over_lose_0>Perhaps you forgot to watch the clock - you ran out of time. Come back any time to try again.</game_over_lose_0>
+		<game_over_lose_1>Yes, I'm sure you gave it your best effort. Come back any time to try again!</game_over_lose_1>
+		<game_over_lose_moth_0>Yes, I'm sure you gave it your best effort. Come back any time to try again!</game_over_lose_moth_0>
+		
+		<!-- UI: LEVEL COMPLETE -->
+		<level_complete>Level {level} Complete!</level_complete>
+		<add_basket>PERFECT! You filled all the patterns!</add_basket>
+		<level_baskets>Baskets Lost: </level_baskets>
+		<score_combo>Longest Chain: </score_combo>
+		<score_level>Chain Bonus: </score_level>
+		<your_score>Your Last Score: </your_score>
+		<score_total>Your Score: </score_total>
+		<final_score>Your Final Score: </final_score>
+		
+		<!-- game copy -->		
+		<bonus>Bonus +</bonus>
+		
+		
+		<!-- LEVEL TIPS -->
+		<level_tip_1>Start by filling 3 patterns.</level_tip_1>
+		<level_tip_2>Catch an hourglass to gain extra time. Let's see if you can fill 4 patterns.</level_tip_2>
+		<level_tip_3>Did you know you'll earn a bonus for each pattern you fill?</level_tip_3>
+		<level_tip_4>Watch for extra-bright dots of white light. They'll fill any pattern you choose.</level_tip_4>
+		<level_tip_5>Let's see if you can fill 6 patterns.</level_tip_5>
+		<level_tip_6>How about filling 8 patterns?</level_tip_6>
+		<level_tip_7>Watch out for the moths - they'll knock the basket out of your hands.</level_tip_7>
+		<level_tip_8>Remember to watch for moths. Can you fill 8 patterns now?</level_tip_8>
+		<level_tip_9>Try filling 10 patterns this time. And fly carefully!</level_tip_9>
+		<level_tip_10>Things are getting a bit more complicated. Let's try to fill 3 patterns this time, shall we?</level_tip_10>
+		<level_tip_11>Let's see if you can fill 4 patterns.</level_tip_11>
+		<level_tip_12>You're doing rather well. How about filling 6 patterns?</level_tip_12>
+		<level_tip_13>Fly quickly and fill 8 patterns, would you?</level_tip_13>
+		<level_tip_16>We need 10 patterns filled this round, so watch your wingtips and avoid the moths.</level_tip_16>
+		<level_tip_17>Pesky moths. Maybe I should ask the Minister of Summer about them...</level_tip_17>
+		<level_tip_20>Get ready for a real challenge! Now the patterns take even more dots to fill!</level_tip_20>
+		<level_tip_23>Fly as fast as you can and fill 5 patterns!</level_tip_23>
+		<level_tip_24>Are you ready to fill 8 more patterns?</level_tip_24>
+		<!--<level_tip_25>More moths?  But we need to make 8 fireworks now!  Go away moths!</level_tip_25>-->
+		<level_tip_29>You're doing fine, just fine. Try filling 10 patterns.</level_tip_29>
+		<level_tip_30>Finish all the patterns in this level and we'll be done! Are you ready?</level_tip_30>
+		
+		<level_tip_generic>Get ready for level {level}!</level_tip_generic>
+		
+		<host_level_1_0>Should we start slowly? Yes, I think that's best.</host_level_1_0>
+		<host_level_1_1>It's important for you to start slowly.</host_level_1_1>
+		<host_level_1_2>Catch the dots of light as they go by.</host_level_1_2>		
+		<host_level_2_0>Remember to match the colors to the patterns.</host_level_2_0>
+		<host_level_2_1>We can speed things up a bit now, I think.</host_level_2_1>		
+		<host_level_3_0>Watch for just the right color.</host_level_3_0>
+		<host_level_3_1>If you see a group of lights, grab them quickly.</host_level_3_1>
+		<host_level_4_0>I think you're getting the hang of things!</host_level_4_0>							
+		<host_level_4_1>Watch for bright white lights. They match any color.</host_level_4_1>		
+		<host_level_5_0>Things are speeding up now. Fly with a purpose!</host_level_5_0>
+		<host_level_5_1>These will light up my autumn sky perfectly!</host_level_5_1>
+		<host_level_6_0>Don't forget about the clock. Fly quickly!</host_level_6_0>
+		<host_level_6_1>You'll get a bonus when you fill in a pattern!</host_level_6_1>		
+		<host_level_7_0>Keep it up, you're doing very well.</host_level_7_0>
+		<host_level_7_1>Have you done this before? You're very good.</host_level_7_1>
+		<host_level_8_0>Autumn is full of rich colors - just like this light!</host_level_8_0>		
+		<host_level_9_0>I do appreciate your help, by the way.</host_level_9_0>
+		<host_level_9_1>I hope you're enjoying your work here.</host_level_9_1>		
+		<host_level_10_0>Watch the clock. Don't run out of time!</host_level_10_0>		
+		<host_level_10_1>Wait for just the right dots of light!</host_level_10_1>				
+		<host_level_11_0>I think it's time you flew a bit faster.</host_level_11_0>		
+		<host_level_12_0>It's fun to fill the patterns, isn't it?</host_level_12_0>
+		<host_level_13_0>You really must fly quickly now.</host_level_13_0>
+		<host_level_14_0>Can't you flap your wings a bit faster?</host_level_14_0>
+		<host_level_15_0>Keep it up, you're doing very well.</host_level_15_0>
+		<host_level_16_0>Keep going, keep going!</host_level_16_0>						
+		<host_level_17_0>I think you're getting even better!</host_level_17_0>
+		<host_level_17_1>Fly like the autumn wind!</host_level_17_1>		
+		<host_level_18_0>This is rather exciting, isn't it?</host_level_18_0>
+		<host_level_18_1>I do appreciate your help, by the way.</host_level_18_1>
+		<host_level_19_0>Don't forget about the clock. Fly quickly!</host_level_19_0>
+		<host_level_19_1>You're doing a grand job, keep going!</host_level_19_1>
+		<host_level_20_0>This is rather exciting, isn't it?</host_level_20_0>
+		<host_level_20_1>Remember, watch for just the right color.</host_level_20_1>
+		<host_level_21_0>Fly like the autumn wind!</host_level_21_0>
+		<host_level_22_0>Don't lose your strength now. Keep flying!</host_level_22_0>		
+		<host_level_23_0>Let's see you fill the patterns even faster!</host_level_23_0>
+		<host_level_24_0>The wind is blowing the dots of light even faster.</host_level_24_0>
+		<host_level_25_0>Quickly now, there are still more patterns to fill.</host_level_25_0>
+		<host_level_26_0>You're doing a grand job, keep going!</host_level_26_0>
+		<host_level_27_0>The light is zipping around like fireflies!</host_level_27_0>
+		<host_level_28_0>Faster now, faster! You can do it!</host_level_28_0>
+		<host_level_29_0>This is rather exciting, isn't it?</host_level_29_0>
+		<host_level_30_0>Show me just how amazing you really are!</host_level_30_0>
+		
+		
+		
+		<clock_alert_0>Watch the clock. Don't run out of time!</clock_alert_0>									
+		<clock_alert_1>You really must fly quickly now.</clock_alert_1>
+		<clock_alert_2>Don't forget about the clock. Fly quickly!</clock_alert_2>		
+				
+		<drop_lost_0>Wait for just the right dots of light!</drop_lost_0>						
+		<drop_lost_1>You can do better, can't you?</drop_lost_1>
+		
+		<hit_moth_0>Keep going, keep going!</hit_moth_0>
+		<hit_moth_1>You've almost got it!</hit_moth_1>
+		<hit_moth_2>Finish all the patterns, I know you can do it!</hit_moth_2>
+		<hit_moth_3>You must fly faster!</hit_moth_3>
+
+		<firework_0>These will light up my autumn sky perfectly!</firework_0>
+		<firework_1>Keep it up, you're doing very well.</firework_1>
+		<firework_2>Have you done this before? You're very good.</firework_2>
+		<firework_3>Excellent flying!</firework_3>
+		<firework_4>If you're flying as fast as you can -- fly faster!</firework_4>
+		<firework_5>Autumn is full of rich colors - just like this light!</firework_5>
+		<firework_6>Your work is worthy of lighting autumn's skies.</firework_6>
+		<firework_7>Watch for just the right color.</firework_7>
+		<firework_8>Catch the dots of light as they go by.</firework_8>
+
+		<put_light_0>Excellent move.</put_light_0>		
+		<put_light_1>Your work here is outstanding!</put_light_1>
+		<put_light_2>You'll get a bonus when you fill in a pattern!</put_light_2>
+		<put_light_3>There, you see? Very good!</put_light_3>
+		<put_light_4>I think you've got the hang of things!</put_light_4>
+		
+		<time_bonus_0>Wonderful! You've earned a time bonus.</time_bonus_0>
+
+
+		
+	</copy>
+	<config>
+		
+		<difficultyChoices layout="5small">		
+            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"/>			
+			<difficultyChoice descriptor="royal" displayName="Royal" paidOnly="false"/>			
+			<difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"/>	
+		</difficultyChoices>
+		
+		<supportsTutorial>true</supportsTutorial>
+	
+		<!-- required palette param -->		
+		<colorPalette>2</colorPalette>		
+		
+		<!-- sound params -->
+		<music_volume>0.6</music_volume>
+		
+		<!-- game params -->
+		<points_per_light>50</points_per_light>			<!-- base points per light snapped in the pattern -->
+		<points_per_pattern>200</points_per_pattern>		<!-- base points per pattern completed-->
+		<points_per_pattern_wildcard>500</points_per_pattern_wildcard>  <!-- base points per pattern complted with multicolor light -->
+		<combo_one_pattern>2</combo_one_pattern>        <!-- place more than one same-colored light in one pattern -->
+		<combo_more_pattern>3</combo_more_pattern>		<!-- place more than one same-colored light in more than one pattern -->
+		
+		<time_bonus>10</time_bonus>						<!-- seconds increased per timeBonus-->
+		<chain_bonus>50</chain_bonus>					<!-- multiplier for the longuest chain -->
+		<firework_multiplier>10</firework_multiplier>	<!-- if you get the payoff you get the number of  lights in the pattern * this multiplier -->
+		
+		
+		<!-- pattern definitions					
+			
+		-->
+		<!--pattern easy-->
+		<pattern name="butterfly_1" lvl="1" mc="butterfly_1_easy" firework="butterfly1_explosion">
+			<color name="red"    num="4" />
+			<color name="green"  num="1" />
+			<color name="yellow" num="4" />
+		</pattern>		
+		<pattern name="butterfly_2" lvl="1" mc="butterfly_2_easy" firework="butterfly2_explosion">
+			<color name="red" num="4" />
+			<color name="green" num="3" />
+			<color name="yellow" num="2" />
+		</pattern>
+		<pattern name="butterfly_3" lvl="1" mc="butterfly_3_easy" firework="butterfly3_explosion">
+			<color name="red" num="3" />
+			<color name="green" num="2" />
+			<color name="blue" num="2" />
+		</pattern>
+		<pattern name="fish_1" lvl="1" mc="fish_1_easy" firework="fish1_explosion">
+			<color name="red" num="3" />
+			<color name="green" num="1" />
+			<color name="blue" num="3" />
+		</pattern>		
+		<pattern name="fish_2" lvl="1" mc="fish_2_easy" firework="fish2_explosion">
+			<color name="red" num="2" />
+			<color name="green" num="2" />
+			<color name="yellow" num="2" />
+		</pattern>		
+		<pattern name="fish_3" lvl="1" mc="fish_3_easy" firework="fish3_explosion">
+			<color name="red" num="2" />
+			<color name="green" num="4" />
+		</pattern>		
+		<pattern name="flower_1" lvl="1" mc="flower_1_easy" firework="flower1_explosion">
+			<color name="red" num="1" />
+			<color name="green" num="1" />
+			<color name="yellow" num="1" />
+		</pattern>		
+		<pattern name="flower_2" lvl="1" mc="flower_2_easy" firework="flower2_explosion">
+			<color name="green" num="1" />
+			<color name="blue" num="1" />
+			<color name="yellow" num="1" />
+		</pattern>		
+		<pattern name="flower_3" lvl="1" mc="flower_3_easy" firework="flower3_explosion">
+			<color name="red" num="1" />
+			<color name="yellow" num="1" />
+			<color name="green" num="1" />
+			<color name="blue" num="1" />
+		</pattern>		
+		<pattern name="star" lvl="1" mc="star_easy" firework="star1_explosion">
+			<color name="green" num="6" />
+			<color name="yellow" num="1" />
+		</pattern>		
+		<pattern name="sun" lvl="1" mc="sun_easy" firework="sun1_explosion">
+			<color name="red" num="1" />
+			<color name="green" num="1" />
+			<color name="yellow" num="1" />
+		</pattern>
+		<pattern name="rainbow" lvl="1" mc="rainbow_easy" firework="rainbow1_explosion">
+			<color name="red" num="1" />
+			<color name="green" num="1" />
+			<color name="blue" num="1" />
+			<color name="yellow" num="1" />
+		</pattern>
+		
+		<!--pattern medium-->
+		
+		<pattern name="butterfly_1" lvl="2" mc="butterfly_1_medium" firework="butterfly1_explosion">
+			<color name="red"    num="4" />
+			<color name="green"  num="2" />
+			<color name="blue"   num="3" />
+			<color name="yellow" num="2" />
+		</pattern>		
+		<pattern name="butterfly_2" lvl="2" mc="butterfly_2_medium" firework="butterfly2_explosion">
+			<color name="red"    num="4" />
+			<color name="green"  num="3" />
+			<color name="blue"   num="2" />
+			<color name="yellow" num="2" />
+		</pattern>
+		<pattern name="butterfly_3" lvl="2" mc="butterfly_3_medium" firework="butterfly3_explosion">
+			<color name="red"    num="3" />
+			<color name="green"  num="4" />
+			<color name="blue"   num="2" />
+		</pattern>
+		<pattern name="fish_1" lvl="2" mc="fish_1_medium" firework="fish1_explosion">
+			<color name="red"    num="4" />
+			<color name="green"  num="2" />
+			<color name="blue"   num="3" />
+		</pattern>		
+		<pattern name="fish_2" lvl="2" mc="fish_2_medium" firework="fish2_explosion">
+			<color name="red"    num="3" />
+			<color name="green"  num="2" />
+			<color name="blue"   num="5" />
+			<color name="yellow" num="3" />
+		</pattern>		
+		<pattern name="fish_3" lvl="2" mc="fish_3_medium" firework="fish3_explosion">
+			<color name="red"    num="2" />
+			<color name="green"  num="5" />
+			<color name="blue"   num="1" />
+		</pattern>		
+		<pattern name="flower_1" lvl="2" mc="flower_1_medium" firework="flower1_explosion">
+			<color name="red"    num="3" />
+			<color name="green"  num="1" />
+			<color name="yellow" num="3" />
+		</pattern>		
+		<pattern name="flower_2" lvl="2" mc="flower_2_medium" firework="flower2_explosion">
+			<color name="red"    num="3" />
+			<color name="green"  num="1" />
+			<color name="blue"   num="3" />
+			<color name="yellow" num="1" />
+		</pattern>		
+		<pattern name="flower_3" lvl="2" mc="flower_3_medium" firework="flower3_explosion">
+			<color name="red"    num="1" />
+			<color name="green"  num="2" />
+			<color name="blue"   num="2" />
+			<color name="yellow" num="2" />
+		</pattern>		
+		<pattern name="star" lvl="2" mc="star_medium" firework="star1_explosion">
+			<color name="red"    num="2" />
+			<color name="green"  num="7" />
+			<color name="blue"   num="2" />
+			<color name="yellow" num="2" />
+		</pattern>		
+		<pattern name="sun" lvl="2" mc="sun_medium" firework="sun1_explosion">
+			<color name="red"    num="2" />
+			<color name="green"  num="1" />
+			<color name="blue"   num="1" />
+			<color name="yellow" num="1" />
+		</pattern>		
+		<pattern name="rainbow" lvl="2" mc="rainbow_medium" firework="rainbow1_explosion">
+			<color name="red"    num="2" />
+			<color name="green"  num="2" />
+			<color name="blue"   num="2" />
+			<color name="yellow" num="2" />
+		</pattern>
+		
+		<!--pattern hard-->
+		<pattern name="butterfly_1" lvl="3" mc="butterfly_1_hard" firework="butterfly1_explosion">
+			<color name="red"    num="4" />
+			<color name="green"  num="5" />
+			<color name="blue"   num="1" />
+			<color name="yellow" num="4" />
+		</pattern>		
+		<pattern name="butterfly_2" lvl="3" mc="butterfly_2_hard" firework="butterfly2_explosion">
+			<color name="red"    num="4" />
+			<color name="green"  num="3" />
+			<color name="blue"   num="2" />
+			<color name="yellow" num="5" />
+		</pattern>
+		<pattern name="butterfly_3" lvl="3" mc="butterfly_3_hard" firework="butterfly3_explosion">
+			<color name="red"    num="3" />
+			<color name="green"  num="4" />
+			<color name="blue"   num="5" />
+		</pattern>
+		<pattern name="fish_1" lvl="3" mc="fish_1_hard" firework="fish1_explosion">
+			<color name="red"    num="8" />
+			<color name="green"  num="2" />
+			<color name="blue"   num="1" />
+			<color name="yellow" num="3" />
+		</pattern>		
+		<pattern name="fish_2" lvl="3" mc="fish_2_hard" firework="fish2_explosion">
+			<color name="red"    num="4" />
+			<color name="green"  num="5" />
+			<color name="blue"   num="6" />
+			<color name="yellow" num="4" />
+		</pattern>		
+		<pattern name="fish_3" lvl="3" mc="fish_3_hard" firework="fish3_explosion">
+			<color name="red"    num="2" />
+			<color name="green"  num="6" />
+			<color name="blue"   num="3" />
+		</pattern>		
+		<pattern name="flower_1" lvl="3" mc="flower_1_hard" firework="flower1_explosion">
+			<color name="red"    num="2" />
+			<color name="green"  num="2" />
+			<color name="yellow" num="4" />
+		</pattern>		
+		<pattern name="flower_2" lvl="3" mc="flower_2_hard" firework="flower2_explosion">
+			<color name="red"    num="7" />
+			<color name="green"  num="3" />
+			<color name="blue"   num="7" />
+			<color name="yellow" num="1" />
+		</pattern>		
+		<pattern name="flower_3" lvl="3" mc="flower_3_hard" firework="flower3_explosion">
+			<color name="red"    num="3" />
+			<color name="green"  num="2" />
+			<color name="blue"   num="2" />
+			<color name="yellow" num="5" />
+		</pattern>		
+		<pattern name="rainbow" lvl="3" mc="rainbow_hard" firework="rainbow1_explosion">
+			<color name="red"    num="3" />
+			<color name="green"  num="3" />
+			<color name="blue"   num="3" />
+			<color name="yellow" num="3" />
+		</pattern>
+		<pattern name="star" lvl="3" mc="star_hard" firework="star1_explosion">
+			<color name="red"    num="2" />
+			<color name="green"  num="7" />
+			<color name="blue"   num="7" />
+			<color name="yellow" num="2" />
+		</pattern>		
+		<pattern name="sun" lvl="3" mc="sun_hard" firework="sun1_explosion">
+			<color name="red"    num="5" />
+			<color name="green"  num="4" />
+			<color name="blue"   num="1" />
+			<color name="yellow" num="4" />
+		</pattern>		
+
+		
+<!-- level definitions -->				
+		<!-- 0 -->
+		<level time="60"  timePercent="0" multiColorPercent="0" lightSpeed="9|14" lightFrequency="2000" patternGoal="1" patterns="flower_1|1,sun|1,fish_1|1" >	
+		</level>
+		<!-- 1 -->
+		<level time="60"  timePercent="0" multiColorPercent="0" lightSpeed="9|14" lightFrequency="2000" patternGoal="3" patterns="flower_1|1,sun|1,fish_1|1" >	
+		</level>
+		<!-- 2 -->
+		<level time="60"  timePercent="40" multiColorPercent="0" lightSpeed="9|14" lightFrequency="2000" patternGoal="4" patterns="butterfly_1|1,flower_2|1,star|1,fish_1|1" >	
+		</level>
+		<!-- 3 -->
+		<level time="60"  timePercent="30" multiColorPercent="0" lightSpeed="9|14" lightFrequency="1800" patternGoal="4" patterns="rainbow|1,butterfly_2|1,fish_2|1,flower_1|1" >	
+		</level>
+		<!-- 4 -->
+		<level time="60"  timePercent="30" multiColorPercent="10" lightSpeed="9|12" lightFrequency="1800" patternGoal="5" patterns="fish_3|1,butterfly_3|1,flower_3|1,sun|1,fish_1|1">	
+		</level>
+		<!-- 5 -->
+		<level time="80"  timePercent="30" multiColorPercent="10" lightSpeed="9|12" lightFrequency="1600" patternGoal="6" patterns="all|1">				
+		</level>
+		<!-- 6-->
+		<level time="100"  timePercent="40" multiColorPercent="10" lightSpeed="7|11" lightFrequency="1600" patternGoal="8" patterns="all|1" >
+		</level>
+		<!-- 7-->
+		<level time="100"  timePercent="30" multiColorPercent="10" lightSpeed="7|11" lightFrequency="1600" patternGoal="8" patterns="all|1" >
+		<firefly image="blindmoth">
+		<path>
+			<point x="267" y="153" />
+			<point x="611" y="453" />
+			<point x="654" y="253" />
+			<point x="611" y="153" />
+			<point x="267" y="453" />
+			<point x="154" y="253" />
+		</path>
+		<type>blindmoth</type>
+		<speed>6</speed>
+	</firefly>
+		</level>
+		<!-- 8-->
+		<level time="120"  timePercent="40" multiColorPercent="15" lightSpeed="7|11" lightFrequency="1600" patternGoal="8" patterns="all|1" >
+			<firefly image="blindmoth">
+				<path>	
+					<point x="611" y="153" />
+					<point x="267" y="353" />
+					<point x="224" y="253" />
+					<point x="267" y="153" />
+					<point x="611" y="353" />
+					<point x="654" y="253" />
+				</path>
+				<type>blindmoth</type>
+				<speed>6</speed>
+			</firefly>
+		</level>		
+		<!-- 9-->
+		<level time="120"  timePercent="40" multiColorPercent="10" lightSpeed="7|11" lightFrequency="1400" patternGoal="10" patterns="all|1" >
+			<firefly image="blindmoth">
+				<path>	
+					<point x="150" y="150" />
+					<point x="225" y="300" />
+					<point x="650" y="150" />
+					<point x="525 " y="300" />
+				</path>
+				<type>blindmoth</type>
+				<speed>6</speed>
+			</firefly>
+		</level>
+		<!-- 10 -->
+		<level time="140"  timePercent="30" multiColorPercent="0" lightSpeed="7|11" lightFrequency="1400" patternGoal="3" patterns="flower_1|2,fish_1|2,sun|2" >
+		</level>
+		<!-- 11-->
+		<level time="150"  timePercent="30" multiColorPercent="0" lightSpeed="7|11" lightFrequency="1400" patternGoal="4" patterns="star|3,butterfly_1|2,flower_2|2,fish_2|2" >
+			<firefly image="blindmoth">
+				<path source = "random">
+					<startPoint x="400" y="200" />
+					<topLeft x="150" y="100" />
+					<bottomRight x="650" y="350"/>
+					<waitFrameCountMax value="2" />
+					<stopRange value="50" />
+				</path>
+				<type>blindmoth</type>
+				<turnspeed>0.1</turnspeed>
+			</firefly>
+		</level>
+		<!-- 12-->
+		<level time="140"  timePercent="30" multiColorPercent="05" lightSpeed="7|11" lightFrequency="1400" patternGoal="6" patterns="rainbow|2,butterfly_2|1,fish_1|2,flower_3|2,star|2,butterfly_1|2,flower_1|2" >
+			<firefly image="blindmoth">
+				<path source = "random">
+					<startPoint x="400" y="200" />
+					<topLeft x="150" y="100" />
+					<bottomRight x="650" y="350"/>
+					<waitFrameCountMax value="2" />
+					<stopRange value="50" />
+				</path>
+				<type>blindmoth</type>
+				<turnspeed>0.6</turnspeed>
+			</firefly>
+		</level>
+		<!-- 13 -->
+		<level time="150"  timePercent="30" multiColorPercent="05" lightSpeed="7|11" lightFrequency="1200" patternGoal="8" patterns="fish_3|2,butterfly_3|2,flower_3|2,sun|2,fish_1|2,star|2,butterfly_1|2,flower_2|2" >
+		</level>
+		<!-- 14-->
+		<level time="150"  timePercent="30" multiColorPercent="05" lightSpeed="6|10" lightFrequency="1200" patternGoal="8" patterns="all|2" >
+				<firefly image="blindmoth">
+		<path>
+			<point x="267" y="153" />
+			<point x="611" y="453" />
+			<point x="654" y="253" />
+			<point x="611" y="153" />
+			<point x="267" y="453" />
+			<point x="154" y="253" />
+		</path>
+		<type>blindmoth</type>
+		<speed>7</speed>
+	</firefly>
+	</level>
+			<!-- 15-->
+		<level time="150"  timePercent="30" multiColorPercent="05" lightSpeed="6|10" lightFrequency="1200" patternGoal="10" patterns="rainbow|2,butterfly_2|2,fish_1|2,flower_1|2,star|1,butterfly_1|2,flower_1|2,fish_3|1,flower_1|2,sun|2" >
+			<firefly image="blindmoth">
+				<path source = "random">
+					<startPoint x="400" y="200" />
+					<topLeft x="150" y="100" />
+					<bottomRight x="650" y="350"/>
+					<waitFrameCountMax value="2" />
+					<stopRange value="50" />
+				</path>
+				<type>blindmoth</type>
+				<turnspeed>0.1</turnspeed>
+			</firefly>
+			</level>
+			<!-- 16-->
+		<level time="150"  timePercent="30" multiColorPercent="05" lightSpeed="6|10" lightFrequency="1200" patternGoal="10" patterns="all|2" >
+			<firefly image="blindmoth">
+				<path source = "random">
+					<startPoint x="400" y="200" />
+					<topLeft x="150" y="50" />
+					<bottomRight x="700" y="300"/>
+					<waitFrameCountMax value="2" />
+					<stopRange value="50" />
+				</path>
+				<type>blindmoth</type>
+				<turnspeed>0.1</turnspeed>
+			</firefly>
+			</level>
+		<!-- 17-->
+		<level time="120" timePercent="30" multiColorPercent="1" lightSpeed="6|10" lightFrequency="1000" patternGoal="10" patterns="all|2" >
+			<firefly image="blindmoth">
+				<path>
+					<point x="267" y="153" />
+					<point x="611" y="453" />
+					<point x="654" y="253" />
+					<point x="611" y="153" />
+					<point x="267" y="453" />
+					<point x="154" y="253" />
+				</path>
+				<type>blindmoth</type>
+				<speed>7</speed>
+			</firefly>
+		</level>
+			<!-- 18-->
+		<level time="120" timePercent="30" multiColorPercent="2" lightSpeed="6|10" lightFrequency="1000" patternGoal="10" patterns="all|2" >
+			<firefly image="blindmoth">
+					<path>	
+					<point x="150" y="150" />
+					<point x="225" y="300" />
+					<point x="650" y="150" />
+					<point x="525 " y="300" />
+				</path>
+				<type>blindmoth</type>
+				<speed>7</speed>
+			</firefly>
+		</level>
+		<!-- 19-->
+		<level time="120" timePercent="30" multiColorPercent="2" lightSpeed="6|9" lightFrequency="1000" patternGoal="10" patterns="all|2" >
+			<firefly image="blindmoth">
+				<path>	
+					<point x="150" y="220" />
+					<point x="300" y="260" />
+					<point x="650" y="220" />
+					<point x="300" y="260" />
+				</path>
+				<type>blindmoth</type>
+				<speed>6</speed>
+			</firefly>
+		</level>
+		<!-- 20-->
+		<level time="120" timePercent="30" multiColorPercent="1" lightSpeed="6|9" lightFrequency="900" patternGoal="4" patterns="flower_1|3,sun|3,star|2,fish_1|3" >
+		</level>
+		<!-- 21-->
+		<level time="120" timePercent="30" multiColorPercent="2" lightSpeed="6|9" lightFrequency="900" patternGoal="4" patterns="butterfly_1|3,flower_2|3,star|3,sun|3" >
+		</level>
+		<!-- 22-->
+		<level time="130" timePercent="30" multiColorPercent="2" lightSpeed="6|9" lightFrequency="900" patternGoal="5" patterns="rainbow|3,flower_1|2,butterfly_2|3,fish_1|3,star|2" >
+			<firefly image="blindmoth">
+				<path>	
+					<point x="650" y="80" />
+					<point x="300" y="130" />
+					<point x="150" y="80" />
+					<point x="300" y="130" />
+				</path>
+				<type>blindmoth</type>
+				<speed>5</speed>
+			</firefly>
+		</level>
+		<!-- 23-->
+		<level time="140" timePercent="30" multiColorPercent="2" lightSpeed="5|8" lightFrequency="900" patternGoal="5" patterns="all|3" >
+			<firefly image="blindmoth">
+				<path source = "random">
+					<startPoint x="400" y="200" />
+					<topLeft x="150" y="50" />
+					<bottomRight x="700" y="300"/>
+					<waitFrameCountMax value="2" />
+					<stopRange value="50" />
+				</path>
+				<type>blindmoth</type>
+				<turnspeed>0.1</turnspeed>
+			</firefly>
+		</level>
+		<!-- 24-->
+		<level time="140" timePercent="30" multiColorPercent="2" lightSpeed="5|8" lightFrequency="900" patternGoal="8" patterns="all|3" >	
+			<firefly image="blindmoth">
+			<path>	
+				<point x="150" y="220" />
+				<point x="300" y="260" />
+				<point x="650" y="220" />
+				<point x="300" y="260" />
+			</path>
+			<type>blindmoth</type>
+			<speed>5</speed>
+			</firefly>
+		</level>
+		<!-- 25-->
+		<level time="150"  timePercent="30" multiColorPercent="2" lightSpeed="4|7" lightFrequency="900" patternGoal="8" patterns="all|3" >
+			<firefly image="blindmoth">
+				<path source = "random">
+					<startPoint x="400" y="410" />
+					<topLeft x="150" y="400" />
+					<bottomRight x="650" y="430"/>
+					<waitFrameCountMax value="2" />
+					<stopRange value="50" />
+				</path>
+				<type>blindmoth</type>
+				<turnspeed>0.1</turnspeed>
+			</firefly>
+			</level>
+		<!-- 26 -->
+		<level time="150" timePercent="20" multiColorPercent="2" lightSpeed="4|7" lightFrequency="900" patternGoal="8" patterns="all|3" >
+			<firefly image="blindmoth">
+				<path>	
+					<point x="500" y="300" />
+					<point x="400" y="50" />
+					<point x="300" y="300" />
+					<point x="400" y="450" />
+					
+				</path>
+				<speed>6</speed>
+				<type>blindmoth</type>
+			</firefly>
+		</level>
+			<!-- 27-->
+		<level time="150" timePercent="20" multiColorPercent="1" lightSpeed="4|7" lightFrequency="900" patternGoal="8" patterns="all|3" >
+			<firefly image="blindmoth">
+				<path source = "random">
+					<startPoint x="200" y="410" />
+					<topLeft x="150" y="400" />
+					<bottomRight x="650" y="450"/>
+					<waitFrameCountMax value="2" />
+					<stopRange value="50" />
+				</path>
+				<type>blindmoth</type>
+				<turnspeed>0.1</turnspeed>
+			</firefly>
+		</level>
+					<!-- 28-->
+		<level time="160"  timePercent="20" multiColorPercent="02" lightSpeed="3|6" lightFrequency="900" patternGoal="10" patterns="all|3" >
+			<firefly image="blindmoth">
+				<path source = "random">
+					<startPoint x="200" y="410" />
+					<topLeft x="150" y="400" />
+					<bottomRight x="650" y="450"/>
+					<waitFrameCountMax value="2" />
+					<stopRange value="50" />
+				</path>
+				<type>blindmoth</type>
+				<turnspeed>0.1</turnspeed>
+			</firefly>
+		</level>
+			<!-- 29-->
+		<level time="160"  timePercent="20" multiColorPercent="2" lightSpeed="3|6" lightFrequency="900" patternGoal="10" patterns="all|3" >
+			<firefly image="blindmoth">
+				<path>	
+					<point x="150" y="300" />
+					<point x="300" y="320" />
+					<point x="650" y="300" />
+					<point x="300" y="320" />
+				</path>
+				<type>blindmoth</type>
+				<speed>8</speed>
+			</firefly>
+		</level>
+			<!-- 30-->
+		<level time="200"  timePercent="20" multiColorPercent="0" lightSpeed="3|6" lightFrequency="900" patternGoal="12" patterns="all|3" >
+			<firefly image="blindmoth">
+				<path>	
+					<point x="150" y="220" />
+					<point x="300" y="260" />
+					<point x="650" y="220" />
+					<point x="300" y="260" />
+				</path>
+				<type>blindmoth</type>
+				<speed>9</speed>
+			</firefly>
+		</level>
+	</config>
+</panel>

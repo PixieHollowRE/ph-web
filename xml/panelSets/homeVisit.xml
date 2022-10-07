@@ -1,0 +1,17 @@
+<panelSet>
+
+      <panels>
+			<panel id="decorate" x="0" y="0" hidden="true" alwaysOnTop="true" transition="fade">{panelData}/decorate.xml</panel>
+			<panel id="party" x="0" y="0" hidden="true" alwaysOnTop="true" transition="fade" hasTutorial="true">{panelData}/party.xml</panel>
+			<panel id="matchmaker" x="0" y="0" hidden="true" alwaysOnTop="true" transition="fade">{panelData}/PartyGameLauncher.xml</panel>
+			<panel id="gardenAlert" x="0" y="0" hidden="true" alwaysOnTop="true" transition="fade">{panelData}/gardenAlert.xml</panel>
+			<panel id="meadowHotspotControls" x="0" y="0" hidden="true" alwaysOnTop="true" transition="none">{panelData}/meadowHotspotControls.xml</panel>
+			<panel id="meadowGameLauncher" x="0" y="0" hidden="true" alwaysOnTop="true">{panelData}/meadowGameLauncher.xml</panel>
+			<panel id="meadowGameResults" x="0" y="50" hidden="true" alwaysOnTop="true">{panelData}/meadowGameResults.xml</panel>		
+      </panels>
+
+      <config></config>
+
+      <copy></copy>
+
+</panelSet>

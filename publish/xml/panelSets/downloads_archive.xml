@@ -1,0 +1,27 @@
+<panelSet>
+
+	<panels>	
+		<!--panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{publishPanelData}/bg_gradient.xml</panel-->
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{publishPanelData}/leftSideStatic.xml</panel>
+		<panel id="manager" x="70" y="-38" alwaysOnTop="true">{publishPanelData}/downloads_archive.xml</panel>
+	</panels>
+	<config>
+		<slider visible="false" />
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>downloads</trackingid>
+		<regionid>community</regionid>
+		<sectionid>community</sectionid>
+		<pageid>downloadsarchive</pageid>
+		<menu>
+			<title>
+				<text>menutitle</text>
+				<subtext>menusubtitle</subtext>
+				<!--channel>home.htm</channel-->       
+			</title>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>Pixie Hollow Online World</menutitle>
+	</copy>
+</panelSet>

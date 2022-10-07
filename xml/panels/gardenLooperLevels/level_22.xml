@@ -1,0 +1,13 @@
+<level>
+	<rosettaStartMessage>The garden-talents are short on these petals!!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>
+	<objective>Capture 60 ###petal1### petals only!</objective>
+	
+	<randomPetalConfig>60-18,0-4,0-4</randomPetalConfig>
+	<multiplierChance>8</multiplierChance>
+	<bees>1</bees>
+	<petalspeed min="2" max="3"/>
+	<powerups stopwind="2" extratime="1" removebees="1"/>
+	<timeLimit>40</timeLimit>
+</level>

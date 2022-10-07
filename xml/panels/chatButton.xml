@@ -1,0 +1,10 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/chatButton.swf</swf>
+		<swf type="code">{panelCode}/chatButton.swf</swf>
+	</swfs>
+	<copy>
+		<tooltip>Chat Log</tooltip>
+	</copy>
+	<config></config>
+</panel>

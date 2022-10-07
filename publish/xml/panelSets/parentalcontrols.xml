@@ -1,0 +1,28 @@
+<panelSet>
+
+	<panels>
+		<!--panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{publishPanelData}/bg_gradient.xml</panel-->
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{publishPanelData}/leftSideStatic.xml</panel>
+		<panel id="manager" x="70" y="-38" alwaysOnTop="true">{publishPanelData}/parentalcontrols.xml</panel>
+		<panel id="speedchatinfo" x="30" hidden="true" transition="none">{publishPanelData}/speedchatinfo.xml</panel>
+		<panel id="thumbpopup" x="360" y="400" hidden="true" interfaceItem="true">{publishPanelData}/parentalcontrolspopupimage.xml</panel>
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<trackingid>parentalcontrols</trackingid>
+		<regionid>community</regionid>
+		<headercontrols>false</headercontrols>
+		<sectionid>forparents</sectionid>
+		<pageid>parentalcontrols</pageid>
+		<menu>
+			<title>
+				<text>menutitle</text>
+				<subtext>menusubtitle</subtext>
+				<!--channel>home.htm</channel-->       
+			</title>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>Pixie Hollow Game Preview</menutitle>
+	</copy>
+</panelSet>

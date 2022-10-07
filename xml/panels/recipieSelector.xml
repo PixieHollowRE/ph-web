@@ -1,0 +1,10 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/recipieSelector.swf</swf>
+		<swf type="code">{panelCode}/recipieSelector.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+	</config>
+</panel>

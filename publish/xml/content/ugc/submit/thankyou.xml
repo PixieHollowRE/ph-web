@@ -1,0 +1,20 @@
+<page>
+	<config>
+		<!-- -->
+		<tagline>
+			<tagline align="center" font="pristina" title="true" titlex="0" titley="0" yOffset="20">header</tagline>
+		</tagline>
+		<thankyou>
+			<header align="center" font="pristina">tagline</header>
+			<knownissue  align="center">body1</knownissue>
+			</thankyou>
+		<submitpanel type="panel" panel="thankyou" x="30" />
+
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">Share Your Creativity!</span>]]></header>
+		<tagline><![CDATA[<span class="newsbodytext">Thank you!</span>]]></tagline>
+		<body1><![CDATA[<span class="newsbodytext">Your submission has been sucessfully uploaded!<br><br>Keep checking the Pixie Postings and the<br><br>Art Gallery to see if your entry was picked!</span>]]></body1>
+	</copy>
+	
+</page>

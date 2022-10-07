@@ -1,0 +1,14 @@
+<level>
+	<rosettaStartMessage>Make sure you have more than one petal!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>	
+	<objective>Capture 6 ###petal1### petals, 8 ###petal2### petals, 10 ###petal3### petals, 12 ###petal4### petals and 14 ###petal4### petals!</objective>
+	
+	<randomPetalConfig>6-4,8-4,10-6,12-8,14-8</randomPetalConfig>
+	<multiplierChance>15</multiplierChance>
+	<bees>1</bees>
+	<petalspeed min="2" max="3"/>
+	<powerups stopwind="2" extratime="2" removebees="1"/>
+	<minLegalPetalCount>2</minLegalPetalCount>
+	<timeLimit>40</timeLimit>
+</level>

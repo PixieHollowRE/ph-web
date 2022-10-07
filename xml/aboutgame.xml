@@ -1,0 +1,18 @@
+<panelSet>
+	<panels>
+		<panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{panelData}/bg_gradient.xml</panel>
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{panelData}/leftSideStatic.xml</panel>
+		<panel id="manager" x="70" y="-38" alwaysOnTop="true">{panelData}/aboutgame.xml</panel>
+	
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>aboutthegame</trackingid>
+		<sectionid>forparents</sectionid>
+		<pageid>aboutgame</pageid>
+	</config>
+	<copy>
+		<menutitle>Pixie Hollow Game Preview</menutitle>
+	</copy>
+</panelSet>

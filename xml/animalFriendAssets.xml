@@ -1,0 +1,3329 @@
+<animalFriendAssets>
+  
+  <copy>
+    
+    <item73000/>
+    
+    <desc73000/>
+    
+    <item_game1>Memory</item_game1>
+    
+    <desc_game1>Memory</desc_game1>
+    
+    <item_game2>Find the Bug</item_game2>
+    
+    <desc_game2>Find the Bug</desc_game2>
+    
+    <item_game3>Memory</item_game3>
+    
+    <desc_game3>Memory</desc_game3>
+    
+    <item_game4>Find the Bug</item_game4>
+    
+    <desc_game4>Find the Bug</desc_game4>
+    
+    <item_game5>Bee's Eye</item_game5>
+    
+    <desc_game5>Bee's Eye</desc_game5>
+    
+    <days_word_plural>days</days_word_plural>
+    
+    <days_word_singular>day</days_word_singular>
+    
+    <days_left>Your Animal Friend is getting bored. In #DAYS# #DAYS_WORD# your Animal Friend will return to Beck's Nursery if you don't raise its Happiness level!</days_left>
+    
+    <ok>OK</ok>
+    
+    <animalFriendGift>Congratulations! [#A-Name] brought you: [#Number] [#Item]!</animalFriendGift>
+    
+    <animalFriendGiftSingular>a</animalFriendGiftSingular>
+    
+    <animalFriendGiftSingularProper>an</animalFriendGiftSingularProper>
+    
+  </copy>
+  
+  <growth>
+    
+    <!--  this is an ordered listing of levels -->
+    
+    <level pointsToLevel="0" hungerPtsPerFood="20" initSickLevel="8" sickFreeDays="2" sickChance="40" healGrowth="20" sadFreeDays="2" happyDegrade="25" label="Hatchling"/>
+    
+    <level pointsToLevel="200" hungerPtsPerFood="20" initSickLevel="8" sickFreeDays="2" sickChance="40" healGrowth="20" sadFreeDays="2" happyDegrade="25" label="Baby"/>
+    
+    <level pointsToLevel="290" hungerPtsPerFood="10" initSickLevel="8" sickFreeDays="3" sickChance="40" healGrowth="20" sadFreeDays="2" happyDegrade="15" label="Tot"/>
+    
+    <level pointsToLevel="490" hungerPtsPerFood="10" initSickLevel="8" sickFreeDays="3" sickChance="40" healGrowth="20" sadFreeDays="2" happyDegrade="15" label="Youngling"/>
+    
+    <level pointsToLevel="670" hungerPtsPerFood="7" initSickLevel="7" sickFreeDays="4" sickChance="40" healGrowth="20" sadFreeDays="2" happyDegrade="12" label="Youngster"/>
+    
+    <level pointsToLevel="990" hungerPtsPerFood="7" initSickLevel="7" sickFreeDays="4" sickChance="40" healGrowth="20" sadFreeDays="2" happyDegrade="12" label="Kiddie"/>
+    
+    <level pointsToLevel="1320" hungerPtsPerFood="5" initSickLevel="5" sickFreeDays="5" sickChance="40" healGrowth="20" sadFreeDays="2" happyDegrade="10" label="Kid"/>
+    
+    <level pointsToLevel="1995" hungerPtsPerFood="5" initSickLevel="5" sickFreeDays="5" sickChance="40" healGrowth="20" sadFreeDays="2" happyDegrade="10" label="Teen"/>
+    
+    <level pointsToLevel="2375" hungerPtsPerFood="4" initSickLevel="5" sickFreeDays="5" sickChance="40" healGrowth="20" sadFreeDays="2" happyDegrade="10" label="Grownup"/>
+    
+    <level pointsToLevel="3020" hungerPtsPerFood="4" initSickLevel="5" sickFreeDays="5" sickChance="40" healGrowth="20" sadFreeDays="2" happyDegrade="10" label="Full Grown"/>
+    
+  </growth>
+  
+  <unlocks>
+    
+    <tricks>
+      
+      <trick id="animalFriendShake" description="Shake!" unlocksAtLevel="2" soundVolume="0.7"/>
+      
+      <trick id="animalFriendBackwards" description="Backwards!" unlocksAtLevel="3" soundVolume="0.7"/>
+      
+      <trick id="animalFriendSing" description="Sing!" unlocksAtLevel="4" soundVolume="0.4"/>
+      
+      <trick id="animalFriendCircle" description="Circle!" unlocksAtLevel="5" soundVolume="0.7"/>
+      
+      <trick id="animalFriendFlip" description="Flip!" unlocksAtLevel="6" soundVolume="0.7"/>
+      
+      <trick id="animalFriendDance" description="Dance!" unlocksAtLevel="7" soundVolume="0.7"/>
+      
+      <trick id="animalFriendFriends" description="Friends!" unlocksAtLevel="8" soundVolume="0.7"/>
+      
+      <trick id="animalFriendHop" description="Hop!" unlocksAtLevel="9" soundVolume="0.7"/>
+      
+      <trick id="animalFriendDoubleFlip" description="Double Flip!" unlocksAtLevel="10" soundVolume="0.7"/>
+      
+    </tricks>
+    
+  </unlocks>
+  
+  <health initMeter="75">
+    
+    <level meter="0"/>
+    
+    <level meter="10"/>
+    
+    <level meter="20"/>
+    
+    <level meter="30"/>
+    
+    <level meter="40"/>
+    
+    <level meter="50"/>
+    
+    <level meter="60"/>
+    
+    <level meter="70"/>
+    
+    <level meter="80"/>
+    
+    <level meter="100"/>
+    
+  </health>
+  
+  <hunger hungerPerDay="14" hungerResetPoints="14" growthPerFoodItem="5" initMeter="75"/>
+  
+  <happiness minHealthForHappyGrow="50" minHungerForHappyGrow="50" initMeter="75" growthPerHappinessPoint="2"/>
+  
+  <meterColors>
+    
+    <happiness>
+      
+      <id color="state5" value="80"/>
+      
+      <id color="state4" value="60"/>
+      
+      <id color="state3" value="40"/>
+      
+      <id color="state2" value="20"/>
+      
+      <id color="state1" value="0"/>
+      
+    </happiness>
+    
+    <health>
+      
+      <id color="state5" value="80"/>
+      
+      <id color="state4" value="60"/>
+      
+      <id color="state3" value="40"/>
+      
+      <id color="state2" value="20"/>
+      
+      <id color="state1" value="0"/>
+      
+    </health>
+    
+    <hunger>
+      
+      <id color="state5" value="80"/>
+      
+      <id color="state4" value="60"/>
+      
+      <id color="state3" value="40"/>
+      
+      <id color="state2" value="20"/>
+      
+      <id color="state1" value="0"/>
+      
+    </hunger>
+    
+  </meterColors>
+  
+  <giftConfig minHealthForGift="90" minHungerForGift="90" minHappinessForGift="90" maxGiftsPerDay="2" petGiftBadgeEvent="0">
+    
+    <giftTime seconds="300" chance="20"/>
+    
+    <giftTime seconds="600" chance="40"/>
+    
+    <giftTime seconds="900" chance="60"/>
+    
+    <giftTime seconds="1200" chance="80"/>
+    
+    <giftTime seconds="1500" chance="100"/>
+
+
+
+    
+    <giftSet minLevel="1" maxLevel="2">
+
+      <!--Pink Giftbox-->
+
+      <!--Twigs-->
+      <gift id="8018" count="5" chance="8"/>
+
+      
+      <!--Snowflakes-->       
+      <gift id="8016" count="5" chance="8"/>
+
+      
+      <!--Dandelion Fluff-->     
+      <gift id="8013" count="5" chance="8"/>
+
+      
+      <!--Sunflower Seeds-->      
+      <gift id="8010" count="5" chance="8"/>
+
+      
+      <!--Spider Silk-->      
+      <gift id="8008" count="5" chance="8"/>
+
+      
+      <!--Daisy Petals-->      
+      <gift id="8005" count="5" chance="5"/>
+
+      
+      <!--Raspberries-->      
+      <gift id="8014" count="5" chance="5"/>
+
+      
+      <!--Maple Leaves-->      
+      <gift id="8002" count="5" chance="5"/> 
+ 
+
+      <!--Blueberries-->      
+      <gift id="8012" count="5" chance="5"/>
+
+
+      <!--Meadow Grass-->      
+      <gift id="8009" count="5" chance="5"/>
+
+
+      <!--Honeycombs-->      
+      <gift id="8017" count="5" chance="5"/>
+
+
+      <!--Pine Needles-->      
+      <gift id="8015" count="5" chance="5"/>
+
+
+      <!--Buttercup Petals-->      
+      <gift id="8007" count="5" chance="5"/>
+
+
+      <!--Ladybug Red Dye-->
+      <gift id="14189" count="1" chance="6"/>
+
+
+      <!--Firefly Green Dye-->      
+      <gift id="14190" count="1" chance="6"/>
+      
+
+      <!--Hummingbird Purple Dye-->      
+      <gift id="14184" count="1" chance="6"/>
+      
+
+      <!--Bumble Bee Yellow Dye-->      
+      <gift id="14142" count="1" chance="6"/>
+      
+
+      <!--Dragonfly Blue Dye-->      
+      <gift id="14133" count="1" chance="6"/>
+
+
+
+
+      <!--Blue Giftbox-->
+
+      <!--Cupcake Pink Silly Sweet-->
+      <gift id="22514" count="3" chance="3"/>
+      
+
+      <!--Snow White Silly Sweet-->      
+      <gift id="22515" count="3" chance="3"/>
+      
+
+      <!--Silvermist Blue Silly Sweet-->
+      <gift id="22516" count="3" chance="2"/>
+      
+
+      <!--Squirrel Gray Silly Sweet-->
+      <gift id="22517" count="3" chance="3"/>
+      
+
+      <!--Tinker Bell Green Silly Sweet-->
+      <gift id="22518" count="3" chance="2"/>
+      
+
+      <!--Mulberry Purple Silly Sweet-->
+      <gift id="22519" count="3" chance="3"/>
+      
+
+      <!--Strawberry Red Silly Sweet-->
+      <gift id="22520" count="3" chance="3"/>
+      
+
+
+      
+      <!--Gold Giftbox-->
+      
+      <!--Firefly Outfits-->
+      
+      <gift id="73530" chance="2" species="73000"/>
+      
+      <gift id="73531" chance="2" species="73000"/>
+      
+      <gift id="73532" chance="2" species="73000"/>
+      
+      <gift id="73533" chance="2" species="73000"/>
+      
+      <gift id="73534" chance="2" species="73000"/>
+      
+      <gift id="73535" chance="2" species="73000"/>
+
+      
+      <!--Ladybug Outfits-->
+      
+      <gift id="73516" chance="2" species="73001"/>
+      
+      <gift id="73517" chance="2" species="73001"/>
+      
+      <gift id="73518" chance="2" species="73001"/>
+      
+      <gift id="73519" chance="2" species="73001"/>
+      
+      <gift id="73520" chance="2" species="73001"/>
+      
+      <gift id="73521" chance="2" species="73001"/>
+
+      
+      <!--Hummingbird Outfits-->
+      
+      <gift id="73501" chance="2" species="73002"/>
+      
+      <gift id="73502" chance="2" species="73002"/>
+      
+      <gift id="73503" chance="2" species="73002"/>
+      
+      <gift id="73504" chance="2" species="73002"/>
+      
+      <gift id="73505" chance="2" species="73002"/>
+      
+      <gift id="73507" chance="2" species="73002"/>
+
+      
+      <!--Dragonfly Outfits-->
+      
+      <gift id="73522" chance="2" species="73003"/>
+      
+      <gift id="73523" chance="2" species="73003"/>
+      
+      <gift id="73525" chance="2" species="73003"/>
+      
+      <gift id="73526" chance="2" species="73003"/>
+      
+      <gift id="73527" chance="2" species="73003"/>
+      
+      <gift id="73528" chance="2" species="73003"/>
+
+      
+      <!--Bee Outfits-->
+      
+      <gift id="73508" chance="2" species="73004"/>
+      
+      <gift id="73509" chance="2" species="73004"/>
+      
+      <gift id="73510" chance="2" species="73004"/>
+      
+      <gift id="73511" chance="2" species="73004"/>
+      
+      <gift id="73512" chance="2" species="73004"/>
+      
+      <gift id="73513" chance="2" species="73004"/>
+      
+      <gift id="73514" chance="2" species="73004"/>
+
+      
+      <!--Winter Wonderland 2010 Gifts-->
+      
+      <gift id="73529" chance="1" species="73000"/>
+      
+      <gift id="73506" chance="1" species="73002"/>
+      
+      <gift id="73541" chance="1" species="73004"/>
+      
+      <gift id="73515" chance="1" species="73001"/>
+      
+      <gift id="73524" chance="1" species="73003"/>
+
+      
+      <!--Never Dove Egg Hunt 2011 Gifts-->
+      
+      <gift id="73540" chance="1" species="73000"/>
+      
+      <gift id="73536" chance="1" species="73002"/>
+      
+      <gift id="73537" chance="1" species="73004"/>
+      
+      <gift id="73538" chance="1" species="73001"/>
+      
+      <gift id="73539" chance="1" species="73003"/>
+
+      
+      <!--PH Games Training 2011 Gifts-->
+      
+      <gift id="73542" chance="1" species="73002"/>
+      
+      <gift id="73543" chance="1" species="73004"/>
+      
+      <gift id="73544" chance="1" species="73001"/>
+      
+      <gift id="73545" chance="1" species="73003"/>
+      
+      <gift id="73546" chance="1" species="73000"/>
+
+      
+      <!--Fairy Friendship Festival 2012 Gifts-->
+      
+      <gift id="73556" chance="1" species="73000"/>
+	  
+	  <gift id="73554" chance="1" species="73001"/>
+	  
+	  <gift id="73552" chance="1" species="73002"/>
+      
+	  <gift id="73555" chance="1" species="73003"/>
+	  
+	  <gift id="73553" chance="1" species="73004"/>
+
+
+      <!--Never Dove Egg Hunt 2012 Gifts-->
+      
+	  <gift id="73550" chance="1" species="73000"/>
+      
+	  <gift id="73548" chance="1" species="73001"/>
+	  
+	  <gift id="73551" chance="1" species="73002"/>
+      
+	  <gift id="73549" chance="1" species="73003"/>
+	  
+	  <gift id="73547" chance="1" species="73004"/>
+	  
+	   <!--Animal Mother's Day Gifts-->
+      
+	  <gift id="73561" chance="1" species="73000" tag="AF_MothersDay_Reg" />
+	  <gift id="73561" chance="1000" species="73000" tag="AF_MothersDay" />
+	  
+	  <gift id="73560" chance="1" species="73001" tag="AF_MothersDay_Reg" />
+	  <gift id="73560" chance="1000" species="73001" tag="AF_MothersDay" />
+	  
+	  <gift id="73559" chance="1" species="73002" tag="AF_MothersDay_Reg" />
+	  <gift id="73559" chance="1000" species="73002" tag="AF_MothersDay" />
+      
+	  <gift id="73558" chance="1" species="73003" tag="AF_MothersDay_Reg" />
+	  <gift id="73558" chance="1000" species="73003" tag="AF_MothersDay" />
+	  
+	  <gift id="73557" chance="1" species="73004" tag="AF_MothersDay_Reg" />
+	  <gift id="73557" chance="1000" species="73004" tag="AF_MothersDay" />	  
+	  
+	  <!--Animal Masquerade 2012 Gifts-->
+      
+	  <gift id="73562" chance="1" species="73004"/>
+
+	  <gift id="73563" chance="1" species="73003"/>
+	  
+	  <gift id="73564" chance="1" species="73002"/>
+	  
+	  <gift id="73565" chance="1" species="73001"/>
+	  
+	  <gift id="73566" chance="1" species="73000"/>
+	  
+	  <!-- Never Dove Egg Hunt 2013 -->
+	  <gift id="73567" chance="1" species="73004" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73567" chance="1000" species="73004" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73568" chance="1" species="73003" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73568" chance="1000" species="73003" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73569" chance="1" species="73002" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73569" chance="1000" species="73002" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73570" chance="1" species="73001" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73570" chance="1000" species="73001" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73571" chance="1" species="73000" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73571" chance="1000" species="73000" tag="AF_NeverDove2013"/>
+	  
+	  <!-- Friendship Day 2013 -->
+		  <gift id="73572" chance="1" species="73004" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73572" chance="1000" species="73004" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73573" chance="1" species="73003" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73573" chance="1000" species="73003" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73574" chance="1" species="73002" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73574" chance="1000" species="73002" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73575" chance="1" species="73001" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73575" chance="1000" species="73001" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73576" chance="1" species="73000" tag="AF_FairyFriendship2013_Reg"/>
+	  <gift id="73576" chance="1000" species="73000" tag="AF_FairyFriendship2013"/>
+	  
+    </giftSet>
+	
+
+
+    
+    <giftSet minLevel="3" maxLevel="4">
+
+      <!--Pink Giftbox-->
+
+      <!--Twigs-->      
+      <gift id="8018" count="10" chance="4"/>
+      
+
+      <!--Snowflakes-->      
+      <gift id="8016" count="10" chance="4"/>
+      
+
+      <!--Dandelion Fluff-->      
+      <gift id="8013" count="10" chance="4"/>
+      
+
+      <!--Sunflower Seeds-->      
+      <gift id="8010" count="10" chance="4"/>
+      
+
+      <!--Spider Silk-->      
+      <gift id="8008" count="10" chance="4"/>
+      
+
+      <!--Daisy Petals-->      
+      <gift id="8005" count="10" chance="4"/>
+      
+
+      <!--Raspberries-->      
+      <gift id="8014" count="10" chance="4"/>
+      
+
+      <!--Maple Leaves-->      
+      <gift id="8002" count="10" chance="4"/>
+      
+
+      <!--Blueberries-->      
+      <gift id="8012" count="10" chance="5"/>
+      
+
+      <!--Meadow Grass-->      
+      <gift id="8009" count="10" chance="5"/>
+      
+
+      <!--Honeycombs-->      
+      <gift id="8017" count="10" chance="5"/>
+      
+
+      <!--Pine Needles-->      
+      <gift id="8015" count="10" chance="5"/>
+      
+
+      <!--Buttercup Petals-->      
+      <gift id="8007" count="10" chance="5"/>
+      
+
+      <!--Acorns-->      
+      <gift id="8011" count="10" chance="5"/>
+      
+
+      <!--Oak Leaves-->      
+      <gift id="8001" count="10" chance="5"/>
+      
+
+      <!--Rose Petals-->      
+      <gift id="8004" count="10" chance="5"/>
+      
+
+      <!--Ivy-->      
+      <gift id="8003" count="10" chance="3"/>
+      
+
+      <!--Lily Petals-->      
+      <gift id="8006" count="10" chance="3"/>
+      
+
+      <!--Ladybug Red-->      
+      <gift id="14189" count="1" chance="4"/>
+      
+
+      <!--Firefly Green-->      
+      <gift id="14190" count="1" chance="4"/>
+      
+
+      <!--Hummingbird Purple-->      
+      <gift id="14184" count="1" chance="4"/>
+      
+
+      <!--Bumble Bee Yellow-->      
+      <gift id="14142" count="1" chance="4"/>
+      
+
+      <!--Dragonfly Blue-->      
+      <gift id="14133" count="1" chance="4"/>
+      
+
+      <!--Royal Purple-->      
+      <gift id="14192" count="1" chance="2"/>
+      
+
+      <!--Electric Green-->      
+      <gift id="14193" count="1" chance="2"/>
+      
+
+      <!--Electric Pink-->      
+      <gift id="14194" count="1" chance="2"/>
+      
+
+      <!--Electric Blue-->      
+      <gift id="14195" count="1" chance="2"/>
+      
+
+      <!--Electric Orange-->      
+      <gift id="14196" count="1" chance="2"/>
+      
+
+      <!--Electric Purple-->      
+      <gift id="14197" count="1" chance="2"/>
+      
+
+      <!--Electric Yellow-->      
+      <gift id="14198" count="1" chance="2"/>
+      
+
+
+
+      <!--Blue Giftbox-->
+
+      <!--Cupcake Pink Silly Sweet-->
+      <gift id="22514" count="3" chance="3"/>
+
+
+      <!--Snow White Silly Sweet-->
+      <gift id="22515" count="3" chance="3"/>
+
+
+      <!--Silvermist Blue Silly Sweet-->
+      <gift id="22516" count="3" chance="3"/>
+
+
+      <!--Squirrel Gray Silly Sweet-->
+      <gift id="22517" count="3" chance="3"/>
+
+      <!--Tinker Bell Green Silly Sweet-->
+      <gift id="22518" count="3" chance="3"/>
+
+
+      <!--Mulberry Purple Silly Sweet-->
+      <gift id="22519" count="3" chance="3"/>
+
+
+      <!--Strawberry Red Silly Sweet-->
+      <gift id="22520" count="3" chance="3"/>
+
+
+      <!--Pumpkin Orange Silly Sweet-->
+      <gift id="22521" count="3" chance="3"/>
+
+
+      <!--Marigold Yellow Silly Sweet-->
+      <gift id="22522" count="3" chance="3"/>
+
+
+      <!--Cool Rainbow Silly Sweet-->
+      <gift id="22523" count="3" chance="5"/>
+
+
+      <!--Bright Rainbow Silly Sweet-->
+      <gift id="22524" count="3" chance="5"/>
+
+
+      <!--Invisible Silly Sweet-->
+      <gift id="22525" count="3" chance="5"/>
+
+
+      <!--Bubble Silly Sweet-->
+      <gift id="22526" count="3" chance="5"/>
+
+
+
+
+      <!--Gold Giftbox-->
+      
+      <!--Firefly Outfits-->
+      
+      <gift id="73530" chance="3" species="73000"/>
+      
+      <gift id="73531" chance="3" species="73000"/>
+      
+      <gift id="73532" chance="3" species="73000"/>
+      
+      <gift id="73533" chance="3" species="73000"/>
+      
+      <gift id="73534" chance="3" species="73000"/>
+      
+      <gift id="73535" chance="3" species="73000"/>
+
+      
+      <!--Ladybug Outfits-->
+      
+      <gift id="73516" chance="3" species="73001"/>
+      
+      <gift id="73517" chance="3" species="73001"/>
+      
+      <gift id="73518" chance="3" species="73001"/>
+      
+      <gift id="73519" chance="3" species="73001"/>
+      
+      <gift id="73520" chance="3" species="73001"/>
+      
+      <gift id="73521" chance="3" species="73001"/>
+
+      
+      <!--Hummingbird Outfits-->
+      
+      <gift id="73501" chance="3" species="73002"/>
+      
+      <gift id="73502" chance="3" species="73002"/>
+      
+      <gift id="73503" chance="3" species="73002"/>
+      
+      <gift id="73504" chance="3" species="73002"/>
+      
+      <gift id="73505" chance="3" species="73002"/>
+      
+      <gift id="73507" chance="3" species="73002"/>
+
+      
+      <!--Dragonfly Outfits-->
+      
+      <gift id="73522" chance="3" species="73003"/>
+      
+      <gift id="73523" chance="3" species="73003"/>
+      
+      <gift id="73525" chance="3" species="73003"/>
+      
+      <gift id="73526" chance="3" species="73003"/>
+      
+      <gift id="73527" chance="3" species="73003"/>
+      
+      <gift id="73528" chance="3" species="73003"/>
+
+      
+      <!--Bee Outfits-->
+      
+      <gift id="73508" chance="3" species="73004"/>
+      
+      <gift id="73509" chance="3" species="73004"/>
+      
+      <gift id="73510" chance="3" species="73004"/>
+      
+      <gift id="73511" chance="3" species="73004"/>
+      
+      <gift id="73512" chance="3" species="73004"/>
+      
+      <gift id="73513" chance="3" species="73004"/>
+      
+      <gift id="73514" chance="3" species="73004"/>
+
+      
+      <!--Winter Wonderland 2010 Gifts-->
+      
+      <gift id="73529" chance="2" species="73000"/>
+      
+      <gift id="73506" chance="2" species="73002"/>
+      
+      <gift id="73541" chance="2" species="73004"/>
+      
+      <gift id="73515" chance="2" species="73001"/>
+      
+      <gift id="73524" chance="2" species="73003"/>
+
+      
+      <!--Never Dove Egg Hunt 2011 Gifts-->
+      
+      <gift id="73540" chance="2" species="73000"/>
+      
+      <gift id="73536" chance="2" species="73002"/>
+      
+      <gift id="73537" chance="2" species="73004"/>
+      
+      <gift id="73538" chance="2" species="73001"/>
+      
+      <gift id="73539" chance="2" species="73003"/>
+
+      
+      <!--PH Games Training 2011 Gifts-->
+      
+      <gift id="73542" chance="2" species="73002"/>
+      
+      <gift id="73543" chance="2" species="73004"/>
+      
+      <gift id="73544" chance="2" species="73001"/>
+      
+      <gift id="73545" chance="2" species="73003"/>
+      
+      <gift id="73546" chance="2" species="73000"/>
+
+      
+      <!--Fairy Friendship Festival 2012 Gifts-->
+      
+      <gift id="73556" chance="1" species="73000"/>
+	  
+	  <gift id="73554" chance="1" species="73001"/>
+	  
+	  <gift id="73552" chance="1" species="73002"/>
+      
+	  <gift id="73555" chance="1" species="73003"/>
+	  
+	  <gift id="73553" chance="1" species="73004"/>
+
+
+      <!--Never Dove Egg Hunt 2012 Gifts-->
+      
+	  <gift id="73550" chance="1" species="73000"/>
+      
+	  <gift id="73548" chance="1" species="73001"/>
+	  
+	  <gift id="73551" chance="1" species="73002"/>
+      
+	  <gift id="73549" chance="1" species="73003"/>
+	  
+	  <gift id="73547" chance="1" species="73004"/>
+	  
+	   <!--Animal Mother's Day Gifts-->
+      
+	  <gift id="73561" chance="1" species="73000" tag="AF_MothersDay_Reg" />
+	  <gift id="73561" chance="1000" species="73000" tag="AF_MothersDay" />
+	  
+	  <gift id="73560" chance="1" species="73001" tag="AF_MothersDay_Reg" />
+	  <gift id="73560" chance="1000" species="73001" tag="AF_MothersDay" />
+	  
+	  <gift id="73559" chance="1" species="73002" tag="AF_MothersDay_Reg" />
+	  <gift id="73559" chance="1000" species="73002" tag="AF_MothersDay" />
+      
+	  <gift id="73558" chance="1" species="73003" tag="AF_MothersDay_Reg" />
+	  <gift id="73558" chance="1000" species="73003" tag="AF_MothersDay" />
+	  
+	  <gift id="73557" chance="1" species="73004" tag="AF_MothersDay_Reg" />
+	  <gift id="73557" chance="1000" species="73004" tag="AF_MothersDay" />	  
+	  
+	  <!--Animal Masquerade 2012 Gifts-->
+      
+	  <gift id="73562" chance="1" species="73004"/>
+
+	  <gift id="73563" chance="1" species="73003"/>
+	  
+	  <gift id="73564" chance="1" species="73002"/>
+	  
+	  <gift id="73565" chance="1" species="73001"/>
+	  
+	  <gift id="73566" chance="1" species="73000"/>
+	  
+	  <!-- Never Dove Egg Hunt 2013 -->
+	  <gift id="73567" chance="1" species="73004" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73567" chance="1000" species="73004" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73568" chance="1" species="73003" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73568" chance="1000" species="73003" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73569" chance="1" species="73002" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73569" chance="1000" species="73002" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73570" chance="1" species="73001" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73570" chance="1000" species="73001" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73571" chance="1" species="73000" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73571" chance="1000" species="73000" tag="AF_NeverDove2013"/>
+	  
+	  <!-- Friendship Day 2013 -->
+		  <gift id="73572" chance="1" species="73004" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73572" chance="1000" species="73004" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73573" chance="1" species="73003" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73573" chance="1000" species="73003" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73574" chance="1" species="73002" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73574" chance="1000" species="73002" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73575" chance="1" species="73001" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73575" chance="1000" species="73001" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73576" chance="1" species="73000" tag="AF_FairyFriendship2013_Reg"/>
+	  <gift id="73576" chance="1000" species="73000" tag="AF_FairyFriendship2013"/>
+	  
+	</giftSet>
+    
+
+
+
+    <giftSet minLevel="5" maxLevel="6">
+
+      <!--Pink Giftbox-->
+
+      <!--Twigs-->      
+      <gift id="8018" count="10" chance="4"/>
+      
+
+      <!--Snowflakes-->      
+      <gift id="8016" count="10" chance="4"/>
+      
+
+      <!--Dandelion Fluff-->      
+      <gift id="8013" count="10" chance="4"/>
+      
+
+      <!--Sunflower Seeds-->      
+      <gift id="8010" count="10" chance="4"/>
+      
+
+      <!--Spider Silk-->      
+      <gift id="8008" count="10" chance="4"/>
+      
+
+      <!--Daisy Petals-->      
+      <gift id="8005" count="10" chance="4"/>
+      
+
+      <!--Raspberries-->      
+      <gift id="8014" count="10" chance="4"/>
+      
+
+      <!--Maple Leaves-->      
+      <gift id="8002" count="10" chance="4"/>
+      
+
+      <!--Blueberries-->      
+      <gift id="8012" count="10" chance="5"/>
+      
+
+      <!--Meadow Grass-->      
+      <gift id="8009" count="10" chance="5"/>
+      
+
+      <!--Honeycombs-->      
+      <gift id="8017" count="10" chance="5"/>
+      
+
+      <!--Pine Needles-->      
+      <gift id="8015" count="10" chance="5"/>
+      
+
+      <!--Buttercup Petals-->      
+      <gift id="8007" count="10" chance="5"/>
+      
+
+      <!--Acorns-->      
+      <gift id="8011" count="10" chance="5"/>
+      
+
+      <!--Oak Leaves-->      
+      <gift id="8001" count="10" chance="5"/>
+      
+
+      <!--Rose Petals-->      
+      <gift id="8004" count="10" chance="5"/>
+      
+
+      <!--Ivy-->      
+      <gift id="8003" count="10" chance="5"/>
+      
+
+      <!--Lily Petals-->      
+      <gift id="8006" count="10" chance="5"/>
+      
+
+      <!--Ladybug Red-->      
+      <gift id="14189" count="1" chance="7"/>
+      
+
+      <!--Firefly Green-->      
+      <gift id="14190" count="1" chance="7"/>
+      
+
+      <!--Hummingbird Purple-->      
+      <gift id="14184" count="1" chance="7"/>
+      
+
+      <!--Bumble Bee Yellow-->      
+      <gift id="14142" count="1" chance="7"/>
+      
+
+      <!--Dragonfly Blue-->      
+      <gift id="14133" count="1" chance="7"/>
+      
+
+      <!--Royal Purple-->      
+      <gift id="14192" count="1" chance="5"/>
+      
+
+      <!--Electric Green-->      
+      <gift id="14193" count="1" chance="5"/>
+      
+
+      <!--Electric Pink-->      
+      <gift id="14194" count="1" chance="5"/>
+      
+
+      <!--Electric Blue-->      
+      <gift id="14195" count="1" chance="5"/>
+      
+
+      <!--Electric Orange-->      
+      <gift id="14196" count="1" chance="5"/>
+      
+
+      <!--Electric Purple-->      
+      <gift id="14197" count="1" chance="5"/>
+      
+
+      <!--Electric Yellow-->      
+      <gift id="14198" count="1" chance="5"/>
+      
+
+
+
+      <!--Blue Giftbox-->
+
+      <!--Cupcake Pink Silly Sweet-->
+      <gift id="22514" count="3" chance="5"/>
+
+
+      <!--Snow White Silly Sweet-->
+      <gift id="22515" count="3" chance="5"/>
+
+
+      <!--Silvermist Blue Silly Sweet-->
+      <gift id="22516" count="3" chance="5"/>
+
+
+      <!--Squirrel Gray Silly Sweet-->
+      <gift id="22517" count="3" chance="5"/>
+
+
+      <!--Tinker Bell Green Silly Sweet-->
+      <gift id="22518" count="3" chance="5"/>
+
+
+      <!--Mulberry Purple Silly Sweet-->
+      <gift id="22519" count="3" chance="5"/>
+
+
+      <!--Strawberry Red Silly Sweet-->
+      <gift id="22520" count="3" chance="5"/>
+
+
+      <!--Pumpkin Orange Silly Sweet-->
+      <gift id="22521" count="3" chance="5"/>
+
+
+      <!--Marigold Yellow Silly Sweet-->
+      <gift id="22522" count="3" chance="5"/>
+
+
+      <!--Cool Rainbow Silly Sweet-->
+      <gift id="22523" count="3" chance="7"/>
+
+
+      <!--Bright Rainbow Silly Sweet-->
+      <gift id="22524" count="3" chance="7"/>
+
+
+      <!--Invisible Silly Sweet-->
+      <gift id="22525" count="3" chance="7"/>
+
+
+      <!--Bubble Silly Sweet-->
+      <gift id="22526" count="3" chance="7"/>
+
+
+      <!--Rainbow Glow Silly Sweet-->
+      <gift id="22527" count="3" chance="7"/>
+
+
+      <!--Dizzy Silly Sweet-->
+      <gift id="22528" count="3" chance="7"/>
+
+
+      <!--Bright Idea Silly Sweet-->
+      <gift id="22529" count="3" chance="7"/>
+
+
+      <!--Tornado Silly Sweet-->
+      <gift id="22530" count="3" chance="7"/>
+
+
+      <!--Fairy Cupcake Silly Sweet-->
+      <gift id="22536" count="3" chance="7"/>
+
+
+      <!--Fireworks Silly Sweet-->
+      <gift id="22537" count="3" chance="7"/>
+
+
+
+
+      <!--Gold Giftbox-->
+      
+      <!--Firefly Outfits-->
+      
+      <gift id="73530" chance="7" species="73000"/>
+      
+      <gift id="73531" chance="7" species="73000"/>
+      
+      <gift id="73532" chance="7" species="73000"/>
+      
+      <gift id="73533" chance="7" species="73000"/>
+      
+      <gift id="73534" chance="7" species="73000"/>
+      
+      <gift id="73535" chance="7" species="73000"/>
+
+      
+      <!--Ladybug Outfits-->
+      
+      <gift id="73516" chance="7" species="73001"/>
+      
+      <gift id="73517" chance="7" species="73001"/>
+      
+      <gift id="73518" chance="7" species="73001"/>
+      
+      <gift id="73519" chance="7" species="73001"/>
+      
+      <gift id="73520" chance="7" species="73001"/>
+      
+      <gift id="73521" chance="7" species="73001"/>
+
+      
+      <!--Hummingbird Outfits-->
+      
+      <gift id="73501" chance="7" species="73002"/>
+      
+      <gift id="73502" chance="7" species="73002"/>
+      
+      <gift id="73503" chance="7" species="73002"/>
+      
+      <gift id="73504" chance="7" species="73002"/>
+      
+      <gift id="73505" chance="7" species="73002"/>
+      
+      <gift id="73507" chance="7" species="73002"/>
+
+      
+      <!--Dragonfly Outfits-->
+      
+      <gift id="73522" chance="7" species="73003"/>
+      
+      <gift id="73523" chance="7" species="73003"/>
+      
+      <gift id="73525" chance="7" species="73003"/>
+      
+      <gift id="73526" chance="7" species="73003"/>
+      
+      <gift id="73527" chance="7" species="73003"/>
+      
+      <gift id="73528" chance="7" species="73003"/>
+
+      
+      <!--Bee Outfits-->
+      
+      <gift id="73508" chance="7" species="73004"/>
+      
+      <gift id="73509" chance="7" species="73004"/>
+      
+      <gift id="73510" chance="7" species="73004"/>
+      
+      <gift id="73511" chance="7" species="73004"/>
+      
+      <gift id="73512" chance="7" species="73004"/>
+      
+      <gift id="73513" chance="7" species="73004"/>
+      
+      <gift id="73514" chance="7" species="73004"/>
+
+      
+      <!--Winter Wonderland 2010 Gifts-->
+      
+      <gift id="73529" chance="5" species="73000"/>
+      
+      <gift id="73506" chance="5" species="73002"/>
+      
+      <gift id="73541" chance="5" species="73004"/>
+      
+      <gift id="73515" chance="5" species="73001"/>
+      
+      <gift id="73524" chance="5" species="73003"/>
+
+      
+      <!--Never Dove Egg Hunt 2011 Gifts-->
+      
+      <gift id="73540" chance="5" species="73000"/>
+      
+      <gift id="73536" chance="5" species="73002"/>
+      
+      <gift id="73537" chance="5" species="73004"/>
+      
+      <gift id="73538" chance="5" species="73001"/>
+      
+      <gift id="73539" chance="5" species="73003"/>
+
+      
+      <!--PH Games Training 2011 Gifts-->
+      
+      <gift id="73542" chance="5" species="73002"/>
+      
+      <gift id="73543" chance="5" species="73004"/>
+      
+      <gift id="73544" chance="5" species="73001"/>
+      
+      <gift id="73545" chance="5" species="73003"/>
+      
+      <gift id="73546" chance="5" species="73000"/>
+	  
+
+      <!--Fairy Friendship Festival 2012 Gifts-->
+      
+      <gift id="73556" chance="1" species="73000"/>
+	  
+	  <gift id="73554" chance="1" species="73001"/>
+	  
+	  <gift id="73552" chance="1" species="73002"/>
+      
+	  <gift id="73555" chance="1" species="73003"/>
+	  
+	  <gift id="73553" chance="1" species="73004"/>
+
+
+      <!--Never Dove Egg Hunt 2012 Gifts-->
+      
+	  <gift id="73550" chance="1" species="73000"/>
+      
+	  <gift id="73548" chance="1" species="73001"/>
+	  
+	  <gift id="73551" chance="1" species="73002"/>
+      
+	  <gift id="73549" chance="1" species="73003"/>
+	  
+	  <gift id="73547" chance="1" species="73004"/>
+	  
+	   <!--Animal Mother's Day Gifts-->
+      
+	  <gift id="73561" chance="1" species="73000" tag="AF_MothersDay_Reg" />
+	  <gift id="73561" chance="1000" species="73000" tag="AF_MothersDay" />
+	  
+	  <gift id="73560" chance="1" species="73001" tag="AF_MothersDay_Reg" />
+	  <gift id="73560" chance="1000" species="73001" tag="AF_MothersDay" />
+	  
+	  <gift id="73559" chance="1" species="73002" tag="AF_MothersDay_Reg" />
+	  <gift id="73559" chance="1000" species="73002" tag="AF_MothersDay" />
+      
+	  <gift id="73558" chance="1" species="73003" tag="AF_MothersDay_Reg" />
+	  <gift id="73558" chance="1000" species="73003" tag="AF_MothersDay" />
+	  
+	  <gift id="73557" chance="1" species="73004" tag="AF_MothersDay_Reg" />
+	  <gift id="73557" chance="1000" species="73004" tag="AF_MothersDay" />	  
+	  
+	  <!--Animal Masquerade 2012 Gifts-->
+      
+	  <gift id="73562" chance="1" species="73004"/>
+
+	  <gift id="73563" chance="1" species="73003"/>
+	  
+	  <gift id="73564" chance="1" species="73002"/>
+	  
+	  <gift id="73565" chance="1" species="73001"/>
+	  
+	  <gift id="73566" chance="1" species="73000"/>
+	  
+	  <!-- Never Dove Egg Hunt 2013 -->
+	  <gift id="73567" chance="1" species="73004" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73567" chance="1000" species="73004" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73568" chance="1" species="73003" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73568" chance="1000" species="73003" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73569" chance="1" species="73002" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73569" chance="1000" species="73002" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73570" chance="1" species="73001" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73570" chance="1000" species="73001" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73571" chance="1" species="73000" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73571" chance="1000" species="73000" tag="AF_NeverDove2013"/>	 
+
+	  <!-- Friendship Day 2013 -->
+		  <gift id="73572" chance="1" species="73004" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73572" chance="1000" species="73004" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73573" chance="1" species="73003" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73573" chance="1000" species="73003" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73574" chance="1" species="73002" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73574" chance="1000" species="73002" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73575" chance="1" species="73001" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73575" chance="1000" species="73001" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73576" chance="1" species="73000" tag="AF_FairyFriendship2013_Reg"/>
+	  <gift id="73576" chance="1000" species="73000" tag="AF_FairyFriendship2013"/>
+	  
+    </giftSet>
+
+
+
+    
+    <giftSet minLevel="7" maxLevel="8">
+
+      <!--Pink Giftbox-->
+
+      <!--Twigs-->      
+      <gift id="8018" count="10" chance="2"/>
+      
+
+      <!--Snowflakes-->      
+      <gift id="8016" count="10" chance="2"/>
+      
+
+      <!--Dandelion Fluff-->      
+      <gift id="8013" count="10" chance="2"/>
+      
+
+      <!--Sunflower Seeds-->      
+      <gift id="8010" count="10" chance="2"/>
+      
+
+      <!--Spider Silk-->      
+      <gift id="8008" count="10" chance="2"/>
+      
+
+      <!--Daisy Petals-->      
+      <gift id="8005" count="10" chance="2"/>
+      
+
+      <!--Raspberries-->      
+      <gift id="8014" count="10" chance="2"/>
+      
+
+      <!--Maple Leaves-->      
+      <gift id="8002" count="10" chance="2"/>
+      
+
+      <!--Blueberries-->      
+      <gift id="8012" count="10" chance="3"/>
+      
+
+      <!--Meadow Grass-->      
+      <gift id="8009" count="10" chance="3"/>
+      
+
+      <!--Honeycombs-->      
+      <gift id="8017" count="10" chance="3"/>
+      
+
+      <!--Pine Needles-->      
+      <gift id="8015" count="10" chance="3"/>
+      
+
+      <!--Buttercup Petals-->      
+      <gift id="8007" count="10" chance="3"/>
+      
+
+      <!--Acorns-->      
+      <gift id="8011" count="10" chance="3"/>
+      
+
+      <!--Oak Leaves-->      
+      <gift id="8001" count="10" chance="3"/>
+      
+
+      <!--Rose Petals-->      
+      <gift id="8004" count="10" chance="3"/>
+      
+
+      <!--Ivy-->      
+      <gift id="8003" count="10" chance="5"/>
+      
+
+      <!--Lily Petals-->        
+      <gift id="8006" count="10" chance="5"/>
+     
+ 
+      <!--Ladybug Red-->    
+      <gift id="14189" count="2" chance="4"/>
+      
+
+      <!--Firefly Green-->      
+      <gift id="14190" count="2" chance="4"/>
+      
+
+      <!--Hummingbird Purple-->      
+      <gift id="14184" count="2" chance="4"/>
+      
+
+      <!--Bumble Bee Yellow-->      
+      <gift id="14142" count="2" chance="4"/>
+      
+
+      <!--Dragonfly Blue-->      
+      <gift id="14133" count="2" chance="4"/>
+      
+
+      <!--Royal Purple-->      
+      <gift id="14192" count="1" chance="5"/>
+      
+
+      <!--Electric Green-->      
+      <gift id="14193" count="1" chance="5"/>
+      
+
+      <!--Electric Pink-->      
+      <gift id="14194" count="1" chance="5"/>
+      
+
+      <!--Electric Blue-->      
+      <gift id="14195" count="1" chance="5"/>
+      
+
+      <!--Electric Orange-->      
+      <gift id="14196" count="1" chance="5"/>
+      
+
+      <!--Electric Purple-->      
+      <gift id="14197" count="1" chance="5"/>
+      
+
+      <!--Electric Yellow-->      
+      <gift id="14198" count="1" chance="5"/>
+      
+
+
+
+      <!--Blue Giftbox-->
+
+      <!--Cupcake Pink Silly Sweet-->
+      <gift id="22514" count="3" chance="3"/>
+
+
+      <!--Snow White Silly Sweet-->
+      <gift id="22515" count="3" chance="3"/>
+
+
+      <!--Silvermist Blue Silly Sweet-->
+      <gift id="22516" count="3" chance="3"/>
+
+
+      <!--Squirrel Gray Silly Sweet-->
+      <gift id="22517" count="3" chance="3"/>
+
+
+      <!--Tinker Bell Green Silly Sweet-->
+      <gift id="22518" count="3" chance="3"/>
+
+
+      <!--Mulberry Purple Silly Sweet-->
+      <gift id="22519" count="3" chance="3"/>
+
+
+      <!--Strawberry Red Silly Sweet-->
+      <gift id="22520" count="3" chance="3"/>
+
+
+      <!--Pumpkin Orange Silly Sweet-->
+      <gift id="22521" count="3" chance="3"/>
+
+
+      <!--Marigold Yellow Silly Sweet-->
+      <gift id="22522" count="3" chance="3"/>
+
+
+      <!--Cool Rainbow Silly Sweet-->
+      <gift id="22523" count="3" chance="6"/>
+
+
+      <!--Bright Rainbow Silly Sweet-->
+      <gift id="22524" count="3" chance="6"/>
+
+
+      <!--Invisible Silly Sweet-->
+      <gift id="22525" count="3" chance="6"/>
+
+
+      <!--Bubble Silly Sweet-->
+      <gift id="22526" count="3" chance="6"/>
+
+
+      <!--Rainbow Glow Silly Sweet-->
+      <gift id="22527" count="3" chance="6"/>
+
+
+      <!--Dizzy Silly Sweet-->
+      <gift id="22528" count="3" chance="6"/>
+
+
+      <!--Bright Idea Silly Sweet-->
+      <gift id="22529" count="3" chance="6"/>
+
+
+      <!--Tornado Silly Sweet-->
+      <gift id="22530" count="3" chance="6"/>
+
+
+      <!--Fairy Cupcake Silly Sweet-->
+      <gift id="22536" count="3" chance="6"/>
+
+
+      <!--Fireworks Silly Sweet-->
+      <gift id="22537" count="3" chance="6"/>
+
+
+      <!--Snowglobe Silly Sweet-->
+      <gift id="22538" count="3" chance="6"/>
+
+
+      <!--Puffy Cloud Silly Sweet-->
+      <gift id="22539" count="3" chance="6"/>
+
+
+      <!--Ice Cube Silly Sweet-->
+      <gift id="22540" count="3" chance="6"/>
+
+
+      <!--Snowman Silly Sweet-->
+      <gift id="22541" count="3" chance="6"/>
+
+
+      <!--Bubble Trail Silly Sweet-->
+      <gift id="22543" count="3" chance="6"/>
+
+
+      <!--Flower Trail Silly Sweet-->
+      <gift id="22544" count="3" chance="6"/>
+
+
+
+
+      <!--Gold Giftbox-->
+      
+      <!--Firefly Outfits-->
+      
+      <gift id="73530" chance="7" species="73000"/>
+      
+      <gift id="73531" chance="7" species="73000"/>
+      
+      <gift id="73532" chance="7" species="73000"/>
+      
+      <gift id="73533" chance="7" species="73000"/>
+      
+      <gift id="73534" chance="7" species="73000"/>
+      
+      <gift id="73535" chance="7" species="73000"/>
+
+      
+      <!--Ladybug Outfits-->
+      
+      <gift id="73516" chance="7" species="73001"/>
+      
+      <gift id="73517" chance="7" species="73001"/>
+      
+      <gift id="73518" chance="7" species="73001"/>
+      
+      <gift id="73519" chance="7" species="73001"/>
+      
+      <gift id="73520" chance="7" species="73001"/>
+      
+      <gift id="73521" chance="7" species="73001"/>
+
+      
+      <!--Hummingbird Outfits-->
+      
+      <gift id="73501" chance="7" species="73002"/>
+      
+      <gift id="73502" chance="7" species="73002"/>
+      
+      <gift id="73503" chance="7" species="73002"/>
+      
+      <gift id="73504" chance="7" species="73002"/>
+      
+      <gift id="73505" chance="7" species="73002"/>
+      
+      <gift id="73507" chance="7" species="73002"/>
+
+      
+      <!--Dragonfly Outfits-->
+      
+      <gift id="73522" chance="7" species="73003"/>
+      
+      <gift id="73523" chance="7" species="73003"/>
+      
+      <gift id="73525" chance="7" species="73003"/>
+      
+      <gift id="73526" chance="7" species="73003"/>
+      
+      <gift id="73527" chance="7" species="73003"/>
+      
+      <gift id="73528" chance="7" species="73003"/>
+
+      
+      <!--Bee Outfits-->
+      
+      <gift id="73508" chance="7" species="73004"/>
+      
+      <gift id="73509" chance="7" species="73004"/>
+      
+      <gift id="73510" chance="7" species="73004"/>
+      
+      <gift id="73511" chance="7" species="73004"/>
+      
+      <gift id="73512" chance="7" species="73004"/>
+      
+      <gift id="73513" chance="7" species="73004"/>
+      
+      <gift id="73514" chance="7" species="73004"/>
+
+      
+      <!--Winter Wonderland 2010 Gifts-->
+      
+      <gift id="73529" chance="7" species="73000"/>
+      
+      <gift id="73506" chance="7" species="73002"/>
+      
+      <gift id="73541" chance="7" species="73004"/>
+      
+      <gift id="73515" chance="7" species="73001"/>
+      
+      <gift id="73524" chance="7" species="73003"/>
+
+      
+      <!--Never Dove Egg Hunt 2011 Gifts-->
+      
+      <gift id="73540" chance="7" species="73000"/>
+      
+      <gift id="73536" chance="7" species="73002"/>
+      
+      <gift id="73537" chance="7" species="73004"/>
+      
+      <gift id="73538" chance="7" species="73001"/>
+      
+      <gift id="73539" chance="7" species="73003"/>
+
+      
+      <!--PH Games Training 2011 Gifts-->
+      
+      <gift id="73542" chance="7" species="73002"/>
+      
+      <gift id="73543" chance="7" species="73004"/>
+      
+      <gift id="73544" chance="7" species="73001"/>
+      
+      <gift id="73545" chance="7" species="73003"/>
+      
+      <gift id="73546" chance="7" species="73000"/>
+
+	  
+      <!--Fairy Friendship Festival 2012 Gifts-->
+      
+      <gift id="73556" chance="1" species="73000"/>
+	  
+	  <gift id="73554" chance="1" species="73001"/>
+	  
+	  <gift id="73552" chance="1" species="73002"/>
+      
+	  <gift id="73555" chance="1" species="73003"/>
+	  
+	  <gift id="73553" chance="1" species="73004"/>
+
+
+      <!--Never Dove Egg Hunt 2012 Gifts-->
+      
+	  <gift id="73550" chance="1" species="73000"/>
+      
+	  <gift id="73548" chance="1" species="73001"/>
+	  
+	  <gift id="73551" chance="1" species="73002"/>
+      
+	  <gift id="73549" chance="1" species="73003"/>
+	  
+	  <gift id="73547" chance="1" species="73004"/>
+	  
+	  
+	  <!--Animal Masquerade 2012 Gifts-->
+      
+	  <gift id="73562" chance="1" species="73004"/>
+
+	  <gift id="73563" chance="1" species="73003"/>
+	  
+	  <gift id="73564" chance="1" species="73002"/>
+	  
+	  <gift id="73565" chance="1" species="73001"/>
+	  
+	  <gift id="73566" chance="1" species="73000"/>
+	  
+	   <!--Animal Mother's Day Gifts-->
+      
+	  <gift id="73561" chance="1" species="73000" tag="AF_MothersDay_Reg" />
+	  <gift id="73561" chance="1000" species="73000" tag="AF_MothersDay" />
+	  
+	  <gift id="73560" chance="1" species="73001" tag="AF_MothersDay_Reg" />
+	  <gift id="73560" chance="1000" species="73001" tag="AF_MothersDay" />
+	  
+	  <gift id="73559" chance="1" species="73002" tag="AF_MothersDay_Reg" />
+	  <gift id="73559" chance="1000" species="73002" tag="AF_MothersDay" />
+      
+	  <gift id="73558" chance="1" species="73003" tag="AF_MothersDay_Reg" />
+	  <gift id="73558" chance="1000" species="73003" tag="AF_MothersDay" />
+	  
+	  <gift id="73557" chance="1" species="73004" tag="AF_MothersDay_Reg" />
+	  <gift id="73557" chance="1000" species="73004" tag="AF_MothersDay" />	  
+	  
+	  <!-- Never Dove Egg Hunt 2013 -->
+	  <gift id="73567" chance="1" species="73004" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73567" chance="1000" species="73004" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73568" chance="1" species="73003" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73568" chance="1000" species="73003" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73569" chance="1" species="73002" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73569" chance="1000" species="73002" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73570" chance="1" species="73001" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73570" chance="1000" species="73001" tag="AF_NeverDove2013"/>
+	  
+	  <gift id="73571" chance="1" species="73000" tag="AF_NeverDove2013_Reg"/>
+	  <gift id="73571" chance="1000" species="73000" tag="AF_NeverDove2013"/>
+	  
+	  <!-- Friendship Day 2013 -->
+		  <gift id="73572" chance="1" species="73004" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73572" chance="1000" species="73004" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73573" chance="1" species="73003" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73573" chance="1000" species="73003" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73574" chance="1" species="73002" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73574" chance="1000" species="73002" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73575" chance="1" species="73001" tag="AF_FairyFriendship2013_Reg"/>
+		  <gift id="73575" chance="1000" species="73001" tag="AF_FairyFriendship2013"/>
+		  
+		  <gift id="73576" chance="1" species="73000" tag="AF_FairyFriendship2013_Reg"/>
+	  <gift id="73576" chance="1000" species="73000" tag="AF_FairyFriendship2013"/>
+	  
+	</giftSet>
+
+
+    
+    <giftSet minLevel="9" maxLevel="10">
+
+      
+      <!--Pink Giftbox-->
+
+      <!--Twigs-->      
+      <gift id="8018" count="10" chance="1" species="73000" />
+      <gift id="8018" count="10" chance="1" species="73001" />
+      <gift id="8018" count="10" chance="1" species="73002" />
+      <gift id="8018" count="10" chance="1" species="73003" />
+      <gift id="8018" count="10" chance="1" species="73004" />
+
+      <!--Snowflakes-->      
+      <gift id="8016" count="10" chance="1" species="73000" />
+      <gift id="8016" count="10" chance="1" species="73001" />
+      <gift id="8016" count="10" chance="1" species="73002" />
+      <gift id="8016" count="10" chance="1" species="73003" />
+      <gift id="8016" count="10" chance="1" species="73004" />
+
+      <!--Dandelion Fluff-->      
+      <gift id="8013" count="10" chance="1" species="73000" />
+      <gift id="8013" count="10" chance="1" species="73001" />
+      <gift id="8013" count="10" chance="1" species="73002" />
+      <gift id="8013" count="10" chance="1" species="73003" />
+      <gift id="8013" count="10" chance="1" species="73004" />
+
+      <!--Sunflower Seeds-->      
+      <gift id="8010" count="10" chance="1" species="73000" />
+      <gift id="8010" count="10" chance="1" species="73001" />
+      <gift id="8010" count="10" chance="1" species="73002" />
+      <gift id="8010" count="10" chance="1" species="73003" />
+      <gift id="8010" count="10" chance="1" species="73004" />
+
+      <!--Spider Silk-->      
+      <gift id="8008" count="10" chance="1" species="73000" />
+      <gift id="8008" count="10" chance="1" species="73001" />
+      <gift id="8008" count="10" chance="1" species="73002" />
+      <gift id="8008" count="10" chance="1" species="73003" />
+      <gift id="8008" count="10" chance="1" species="73004" />
+
+      <!--Daisy Petals-->      
+      <gift id="8005" count="10" chance="1" species="73000" />
+      <gift id="8005" count="10" chance="1" species="73001" />
+      <gift id="8005" count="10" chance="1" species="73002" />
+      <gift id="8005" count="10" chance="1" species="73003" />
+      <gift id="8005" count="10" chance="1" species="73004" />
+
+      <!--Raspberries-->      
+      <gift id="8014" count="10" chance="1" species="73000" />
+      <gift id="8014" count="10" chance="1" species="73001" />
+      <gift id="8014" count="10" chance="1" species="73002" />
+      <gift id="8014" count="10" chance="1" species="73003" />
+      <gift id="8014" count="10" chance="1" species="73004" />
+
+      <!--Maple Leaves-->      
+      <gift id="8002" count="10" chance="1" species="73000" />
+      <gift id="8002" count="10" chance="1" species="73001" />
+      <gift id="8002" count="10" chance="1" species="73002" />
+      <gift id="8002" count="10" chance="1" species="73003" />
+      <gift id="8002" count="10" chance="1" species="73004" />
+
+      <!--Blueberries-->      
+      <gift id="8012" count="10" chance="2" species="73000" />
+      <gift id="8012" count="10" chance="2" species="73001" />
+      <gift id="8012" count="10" chance="2" species="73002" />
+      <gift id="8012" count="10" chance="2" species="73003" />
+      <gift id="8012" count="10" chance="2" species="73004" />
+
+      <!--Meadow Grass-->      
+      <gift id="8009" count="10" chance="2" species="73000" />
+      <gift id="8009" count="10" chance="2" species="73001" />
+      <gift id="8009" count="10" chance="2" species="73002" />
+      <gift id="8009" count="10" chance="2" species="73003" />
+      <gift id="8009" count="10" chance="2" species="73004" />
+
+      <!--Honeycombs-->      
+      <gift id="8017" count="10" chance="2" species="73000" />
+      <gift id="8017" count="10" chance="2" species="73001" />
+      <gift id="8017" count="10" chance="2" species="73002" />
+      <gift id="8017" count="10" chance="2" species="73003" />
+      <gift id="8017" count="10" chance="2" species="73004" />
+
+      <!--Pine Needles-->      
+      <gift id="8015" count="10" chance="2" species="73000" />
+      <gift id="8015" count="10" chance="2" species="73001" />
+      <gift id="8015" count="10" chance="2" species="73002" />
+      <gift id="8015" count="10" chance="2" species="73003" />
+      <gift id="8015" count="10" chance="2" species="73004" />
+
+      <!--Buttercup Petals-->      
+      <gift id="8007" count="10" chance="2" species="73000" />
+      <gift id="8007" count="10" chance="2" species="73001" />
+      <gift id="8007" count="10" chance="2" species="73002" />
+      <gift id="8007" count="10" chance="2" species="73003" />
+      <gift id="8007" count="10" chance="2" species="73004" />
+
+      <!--Acorns-->      
+      <gift id="8011" count="10" chance="2" species="73000" />
+      <gift id="8011" count="10" chance="2" species="73001" />
+      <gift id="8011" count="10" chance="2" species="73002" />
+      <gift id="8011" count="10" chance="2" species="73003" />
+      <gift id="8011" count="10" chance="2" species="73004" />
+
+      <!--Oak Leaves-->      
+      <gift id="8001" count="10" chance="2" species="73000" />
+      <gift id="8001" count="10" chance="2" species="73001" />
+      <gift id="8001" count="10" chance="2" species="73002" />
+      <gift id="8001" count="10" chance="2" species="73003" />
+      <gift id="8001" count="10" chance="2" species="73004" />
+
+      <!--Rose Petals-->      
+      <gift id="8004" count="10" chance="2" species="73000" />
+      <gift id="8004" count="10" chance="2" species="73001" />
+      <gift id="8004" count="10" chance="2" species="73002" />
+      <gift id="8004" count="10" chance="2" species="73003" />
+      <gift id="8004" count="10" chance="2" species="73004" />
+
+      <!--Ivy-->      
+      <gift id="8003" count="10" chance="3" species="73000" />
+      <gift id="8003" count="10" chance="3" species="73001" />
+      <gift id="8003" count="10" chance="3" species="73002" />
+      <gift id="8003" count="10" chance="3" species="73003" />
+      <gift id="8003" count="10" chance="3" species="73004" />
+      <gift id="8003" count="10" chance="15" species="73006" />
+
+      <!--Lily Petals-->      
+      <gift id="8006" count="10" chance="3" species="73000" />
+      <gift id="8006" count="10" chance="3" species="73001" />
+      <gift id="8006" count="10" chance="3" species="73002" />
+      <gift id="8006" count="10" chance="3" species="73003" />
+      <gift id="8006" count="10" chance="3" species="73004" />
+      <gift id="8006" count="10" chance="15" species="73006" />
+	  
+	  <!-- Truffles -->
+	  <gift id="8019" count="5" chance="10" species="73006" />
+	  <gift id="8019" count="10" chance="5" species="73006" />
+	  
+	  <!-- Blue Gems -->
+	  <gift id="8020" count="5" chance="10" species="73006" />
+	  <gift id="8020" count="10" chance="5" species="73006" />
+	  
+	  <!-- Yellow Gems -->
+	  <gift id="8021" count="5" chance="10" species="73006" />
+	  <gift id="8021" count="10" chance="5" species="73006" />
+	  
+	  <!-- Feathers -->
+	  <gift id="8022" count="5" chance="10" species="73006" />
+	  <gift id="8022" count="10" chance="5" species="73006" />
+	  
+	  <!-- Bits of Metal -->
+	  <gift id="8023" count="5" chance="10" species="73006" />
+	  <gift id="8023" count="10" chance="5" species="73006" />
+	  
+      <!--Ladybug Red-->      
+      <gift id="14189" count="2" chance="2" species="73000" />
+      <gift id="14189" count="2" chance="2" species="73001" />
+      <gift id="14189" count="2" chance="2" species="73002" />
+      <gift id="14189" count="2" chance="2" species="73003" />
+      <gift id="14189" count="2" chance="2" species="73004" />      
+
+      <!--Firefly Green-->      
+      <gift id="14190" count="2" chance="2" species="73000" />
+      <gift id="14190" count="2" chance="2" species="73001" />
+      <gift id="14190" count="2" chance="2" species="73002" />
+      <gift id="14190" count="2" chance="2" species="73003" />
+      <gift id="14190" count="2" chance="2" species="73004" />
+
+      <!--Hummingbird Purple-->      
+      <gift id="14184" count="2" chance="2" species="73000" />
+      <gift id="14184" count="2" chance="2" species="73001" />
+      <gift id="14184" count="2" chance="2" species="73002" />
+      <gift id="14184" count="2" chance="2" species="73003" />
+      <gift id="14184" count="2" chance="2" species="73004" />
+
+      <!--Bumble Bee Yellow-->      
+      <gift id="14142" count="2" chance="2" species="73000" />
+      <gift id="14142" count="2" chance="2" species="73001" />
+      <gift id="14142" count="2" chance="2" species="73002" />
+      <gift id="14142" count="2" chance="2" species="73003" />
+      <gift id="14142" count="2" chance="2" species="73004" />
+
+      <!--Dragonfly Blue-->      
+      <gift id="14133" count="2" chance="2" species="73000" />
+      <gift id="14133" count="2" chance="2" species="73001" />
+      <gift id="14133" count="2" chance="2" species="73002" />
+      <gift id="14133" count="2" chance="2" species="73003" />
+      <gift id="14133" count="2" chance="2" species="73004" />
+
+      <!--Royal Purple-->      
+      <gift id="14192" count="2" chance="3" species="73000" />
+      <gift id="14192" count="2" chance="3" species="73001" />
+      <gift id="14192" count="2" chance="3" species="73002" />
+      <gift id="14192" count="2" chance="3" species="73003" />
+      <gift id="14192" count="2" chance="3" species="73004" />
+
+      <!--Electric Green-->      
+      <gift id="14193" count="2" chance="3" species="73000" />
+      <gift id="14193" count="2" chance="3" species="73001" />
+      <gift id="14193" count="2" chance="3" species="73002" />
+      <gift id="14193" count="2" chance="3" species="73003" />
+      <gift id="14193" count="2" chance="3" species="73004" />
+
+      <!--Electric Pink-->      
+      <gift id="14194" count="2" chance="3" species="73000" />
+      <gift id="14194" count="2" chance="3" species="73001" />
+      <gift id="14194" count="2" chance="3" species="73002" />
+      <gift id="14194" count="2" chance="3" species="73003" />
+      <gift id="14194" count="2" chance="3" species="73004" />
+
+      <!--Electric Blue-->      
+      <gift id="14195" count="2" chance="3" species="73000" />
+      <gift id="14195" count="2" chance="3" species="73001" />
+      <gift id="14195" count="2" chance="3" species="73002" />
+      <gift id="14195" count="2" chance="3" species="73003" />
+      <gift id="14195" count="2" chance="3" species="73004" />
+
+      <!--Electric Orange-->      
+      <gift id="14196" count="2" chance="3" species="73000" />
+      <gift id="14196" count="2" chance="3" species="73001" />
+      <gift id="14196" count="2" chance="3" species="73002" />
+      <gift id="14196" count="2" chance="3" species="73003" />
+      <gift id="14196" count="2" chance="3" species="73004" />
+
+      <!--Electric Purple-->      
+      <gift id="14197" count="2" chance="3" species="73000" />
+      <gift id="14197" count="2" chance="3" species="73001" />
+      <gift id="14197" count="2" chance="3" species="73002" />
+      <gift id="14197" count="2" chance="3" species="73003" />
+      <gift id="14197" count="2" chance="3" species="73004" />
+
+      <!--Electric Yellow-->      
+      <gift id="14198" count="2" chance="3" species="73000" />
+      <gift id="14198" count="2" chance="3" species="73001" />
+      <gift id="14198" count="2" chance="3" species="73002" />
+      <gift id="14198" count="2" chance="3" species="73003" />
+      <gift id="14198" count="2" chance="3" species="73004" />
+
+      <!--Cerulean Blue-->      
+      <gift id="14208" count="2" chance="10" species="73006" />
+
+      <!--Dandelion Yellow-->      
+      <gift id="14253" count="2" chance="10" species="73006" />
+	  
+      <!--Berry Purple-->      
+      <gift id="14280" count="2" chance="10" species="73006" />
+
+      <!--Dianthus Red-->      
+      <gift id="14287" count="2" chance="10" species="73006" />
+	  
+      <!--Gentian Purple-->      
+      <gift id="14211" count="2" chance="10" species="73006" />
+	  
+      <!--Shadow Green-->      
+      <gift id="14203" count="2" chance="10" species="73006" />
+	  
+      <!--Melon Orange-->      
+      <gift id="14237" count="2" chance="10" species="73006" />
+	  
+      <!--Raven Black-->      
+      <gift id="14206" count="2" chance="5" species="73006" />
+	  
+      <!--Magnolia White-->      
+      <gift id="14282" count="2" chance="5" species="73006" />
+	  
+	  
+	  
+      <!--Blue Giftbox-->
+
+      <!--Cupcake Pink Silly Sweet-->
+      <gift id="22514" count="2" chance="3" species="73000" />
+      <gift id="22514" count="2" chance="3" species="73001" />
+      <gift id="22514" count="2" chance="3" species="73002" />
+      <gift id="22514" count="2" chance="3" species="73003" />
+      <gift id="22514" count="2" chance="3" species="73004" />
+
+
+      <!--Snow White Silly Sweet-->
+      <gift id="22515" count="3" chance="3" species="73000" />
+      <gift id="22515" count="3" chance="3" species="73001" />
+      <gift id="22515" count="3" chance="3" species="73002" />
+      <gift id="22515" count="3" chance="3" species="73003" />
+      <gift id="22515" count="3" chance="3" species="73004" />
+
+
+      <!--Silvermist Blue Silly Sweet-->
+      <gift id="22516" count="3" chance="3" species="73000" />
+      <gift id="22516" count="3" chance="3" species="73001" />
+      <gift id="22516" count="3" chance="3" species="73002" />
+      <gift id="22516" count="3" chance="3" species="73003" />
+      <gift id="22516" count="3" chance="3" species="73004" />
+
+
+      <!--Squirrel Gray Silly Sweet-->
+      <gift id="22517" count="3" chance="3" species="73000" />
+      <gift id="22517" count="3" chance="3" species="73001" />
+      <gift id="22517" count="3" chance="3" species="73002" />
+      <gift id="22517" count="3" chance="3" species="73003" />
+      <gift id="22517" count="3" chance="3" species="73004" />
+
+      <!--Tinker Bell Green Silly Sweet-->
+      <gift id="22518" count="3" chance="3" species="73000" />
+      <gift id="22518" count="3" chance="3" species="73001" />
+      <gift id="22518" count="3" chance="3" species="73002" />
+      <gift id="22518" count="3" chance="3" species="73003" />
+      <gift id="22518" count="3" chance="3" species="73004" />
+
+
+      <!--Mulberry Purple Silly Sweet-->
+      <gift id="22519" count="3" chance="3" species="73000" />
+      <gift id="22519" count="3" chance="3" species="73001" />
+      <gift id="22519" count="3" chance="3" species="73002" />
+      <gift id="22519" count="3" chance="3" species="73003" />
+      <gift id="22519" count="3" chance="3" species="73004" />
+
+
+      <!--Strawberry Red Silly Sweet-->
+      <gift id="22520" count="3" chance="3" species="73000" />
+      <gift id="22520" count="3" chance="3" species="73001" />
+      <gift id="22520" count="3" chance="3" species="73002" />
+      <gift id="22520" count="3" chance="3" species="73003" />
+      <gift id="22520" count="3" chance="3" species="73004" />
+
+
+      <!--Pumpkin Orange Silly Sweet-->
+      <gift id="22521" count="3" chance="3" species="73000" />
+      <gift id="22521" count="3" chance="3" species="73001" />
+      <gift id="22521" count="3" chance="3" species="73002" />
+      <gift id="22521" count="3" chance="3" species="73003" />
+      <gift id="22521" count="3" chance="3" species="73004" />
+
+
+      <!--Marigold Yellow Silly Sweet-->
+      <gift id="22522" count="3" chance="3" species="73000" />
+      <gift id="22521" count="3" chance="3" species="73001" />
+      <gift id="22521" count="3" chance="3" species="73002" />
+      <gift id="22521" count="3" chance="3" species="73003" />
+      <gift id="22521" count="3" chance="3" species="73004" />
+
+
+      <!--Cool Rainbow Silly Sweet-->
+      <gift id="22523" count="3" chance="5" species="73000" />
+      <gift id="22523" count="3" chance="5" species="73001" />
+      <gift id="22523" count="3" chance="5" species="73002" />
+      <gift id="22523" count="3" chance="5" species="73003" />
+      <gift id="22523" count="3" chance="5" species="73004" />
+
+
+      <!--Bright Rainbow Silly Sweet-->
+      <gift id="22524" count="3" chance="5" species="73000" />
+      <gift id="22524" count="3" chance="5" species="73001" />
+      <gift id="22524" count="3" chance="5" species="73002" />
+      <gift id="22524" count="3" chance="5" species="73003" />
+      <gift id="22524" count="3" chance="5" species="73004" />
+
+
+      <!--Invisible Silly Sweet-->
+      <gift id="22525" count="3" chance="5" species="73000" />
+      <gift id="22525" count="3" chance="5" species="73001" />
+      <gift id="22525" count="3" chance="5" species="73002" />
+      <gift id="22525" count="3" chance="5" species="73003" />
+      <gift id="22525" count="3" chance="5" species="73004" />
+
+
+      <!--Bubble Silly Sweet-->
+      <gift id="22526" count="3" chance="5" species="73000" />
+      <gift id="22526" count="3" chance="5" species="73001" />
+      <gift id="22526" count="3" chance="5" species="73002" />
+      <gift id="22526" count="3" chance="5" species="73003" />
+      <gift id="22526" count="3" chance="5" species="73004" />
+
+
+      <!--Rainbow Glow Silly Sweet-->
+      <gift id="22527" count="3" chance="5" species="73000" />
+      <gift id="22527" count="3" chance="5" species="73001" />
+      <gift id="22527" count="3" chance="5" species="73002" />
+      <gift id="22527" count="3" chance="5" species="73003" />
+      <gift id="22527" count="3" chance="5" species="73004" />
+
+
+      <!--Dizzy Silly Sweet-->
+      <gift id="22528" count="3" chance="5" species="73000" />
+      <gift id="22528" count="3" chance="5" species="73001" />
+      <gift id="22528" count="3" chance="5" species="73002" />
+      <gift id="22528" count="3" chance="5" species="73003" />
+      <gift id="22528" count="3" chance="5" species="73004" />
+
+
+      <!--Bright Idea Silly Sweet-->
+      <gift id="22529" count="3" chance="5" species="73000" />
+      <gift id="22529" count="3" chance="5" species="73001" />
+      <gift id="22529" count="3" chance="5" species="73002" />
+      <gift id="22529" count="3" chance="5" species="73003" />
+      <gift id="22529" count="3" chance="5" species="73004" />
+
+
+      <!--Tornado Silly Sweet-->
+      <gift id="22530" count="3" chance="5" species="73000" />
+      <gift id="22530" count="3" chance="5" species="73001" />
+      <gift id="22530" count="3" chance="5" species="73002" />
+      <gift id="22530" count="3" chance="5" species="73003" />
+      <gift id="22530" count="3" chance="5" species="73004" />
+
+
+      <!--Fairy Cupcake Silly Sweet-->
+      <gift id="22536" count="3" chance="5" species="73000" />
+      <gift id="22536" count="3" chance="5" species="73001" />
+      <gift id="22536" count="3" chance="5" species="73002" />
+      <gift id="22536" count="3" chance="5" species="73003" />
+      <gift id="22536" count="3" chance="5" species="73004" />
+
+
+      <!--Fireworks Silly Sweet-->
+      <gift id="22537" count="3" chance="5" species="73000" />
+      <gift id="22537" count="3" chance="5" species="73001" />
+      <gift id="22537" count="3" chance="5" species="73002" />
+      <gift id="22537" count="3" chance="5" species="73003" />
+      <gift id="22537" count="3" chance="5" species="73004" />
+
+
+      <!--Snowglobe Silly Sweet-->
+      <gift id="22538" count="3" chance="5" species="73000" />
+      <gift id="22538" count="3" chance="5" species="73001" />
+      <gift id="22538" count="3" chance="5" species="73002" />
+      <gift id="22538" count="3" chance="5" species="73003" />
+      <gift id="22538" count="3" chance="5" species="73004" />
+
+
+      <!--Puffy Cloud Silly Sweet-->
+      <gift id="22539" count="3" chance="5" species="73000" />
+      <gift id="22539" count="3" chance="5" species="73001" />
+      <gift id="22539" count="3" chance="5" species="73002" />
+      <gift id="22539" count="3" chance="5" species="73003" />
+      <gift id="22539" count="3" chance="5" species="73004" />
+
+
+      <!--Ice Cube Silly Sweet-->
+      <gift id="22540" count="3" chance="5" species="73000" />
+      <gift id="22540" count="3" chance="5" species="73001" />
+      <gift id="22540" count="3" chance="5" species="73002" />
+      <gift id="22540" count="3" chance="5" species="73003" />
+      <gift id="22540" count="3" chance="5" species="73004" />
+
+
+      <!--Snowman Silly Sweet-->
+      <gift id="22541" count="3" chance="5" species="73000" />
+      <gift id="22541" count="3" chance="5" species="73001" />
+      <gift id="22541" count="3" chance="5" species="73002" />
+      <gift id="22541" count="3" chance="5" species="73003" />
+      <gift id="22541" count="3" chance="5" species="73004" />
+
+
+      <!--Bubble Trail Silly Sweet-->
+      <gift id="22543" count="3" chance="5" species="73000" />
+      <gift id="22543" count="3" chance="5" species="73001" />
+      <gift id="22543" count="3" chance="5" species="73002" />
+      <gift id="22543" count="3" chance="5" species="73003" />
+      <gift id="22543" count="3" chance="5" species="73004" />
+
+
+      <!--Flower Trail Silly Sweet-->
+      <gift id="22544" count="3" chance="5" species="73000" />
+      <gift id="22544" count="3" chance="5" species="73001" />
+      <gift id="22544" count="3" chance="5" species="73002" />
+      <gift id="22544" count="3" chance="5" species="73003" />
+      <gift id="22544" count="3" chance="5" species="73004" />
+
+
+      <!--Snowflake Trail Silly Sweet-->
+      <gift id="22545" count="3" chance="5" species="73000" />
+      <gift id="22545" count="3" chance="5" species="73001" />
+      <gift id="22545" count="3" chance="5" species="73002" />
+      <gift id="22545" count="3" chance="5" species="73003" />
+      <gift id="22545" count="3" chance="5" species="73004" />
+
+
+      <!--Raining Cloud Silly Sweet-->
+      <gift id="22546" count="3" chance="5" species="73000" />
+      <gift id="22546" count="3" chance="5" species="73001" />
+      <gift id="22546" count="3" chance="5" species="73002" />
+      <gift id="22546" count="3" chance="5" species="73003" />
+      <gift id="22546" count="3" chance="5" species="73004" />
+
+
+      <!--Snowing Cloud Silly Sweet-->
+      <gift id="22547" count="3" chance="5" species="73000" />
+      <gift id="22547" count="3" chance="5" species="73001" />
+      <gift id="22547" count="3" chance="5" species="73002" />
+      <gift id="22547" count="3" chance="5" species="73003" />
+      <gift id="22547" count="3" chance="5" species="73004" />
+
+
+      <!--Shrinking Silly Sweet-->
+      <gift id="22548" count="3" chance="10" species="73000" />
+      <gift id="22548" count="3" chance="10" species="73001" />
+      <gift id="22548" count="3" chance="10" species="73002" />
+      <gift id="22548" count="3" chance="10" species="73003" />
+      <gift id="22548" count="3" chance="10" species="73004" />
+
+
+      <!--Growing Trail Silly Sweet-->
+      <gift id="22549" count="3" chance="10" species="73000" />
+      <gift id="22549" count="3" chance="10" species="73001" />
+      <gift id="22549" count="3" chance="10" species="73002" />
+      <gift id="22549" count="3" chance="10" species="73003" />
+      <gift id="22549" count="3" chance="10" species="73004" />
+
+
+      <!--Flip-Flop Silly Sweet-->
+      <gift id="22550" count="3" chance="10" species="73000" />
+      <gift id="22550" count="3" chance="10" species="73001" />
+      <gift id="22550" count="3" chance="10" species="73002" />
+      <gift id="22550" count="3" chance="10" species="73003" />
+      <gift id="22550" count="3" chance="10" species="73004" />
+	  
+	  <!--Sunflower Double Truffle Cookie-->
+	  <gift id="22532" count="3" chance="10" species="73006" />
+	  
+	  <!--Honey Double Truffle Cookie-->
+	  <gift id="22533" count="3" chance="10" species="73006" />
+	  
+	  <!--Raspberry Double Truffle Cookie-->
+	  <gift id="22534" count="3" chance="10" species="73006" />
+	  
+	  <!--Blueberry Double Truffle Cookie-->
+	  <gift id="22535" count="3" chance="10" species="73006" />
+	  
+	  <!--Electric Blue Wings Silly Sweet-->
+	  <gift id="22574" count="3" chance="8" species="73006" />
+	  
+	  <!--Friendship Pink Wings Silly Sweet-->
+	  <gift id="22575" count="3" chance="8" species="73006" />
+	  
+	  <!--Electric Purple Wings Silly Sweet-->
+	  <gift id="22578" count="3" chance="8" species="73006" />
+	  
+	  <!--Lemon Yellow Wings Silly Sweet-->
+	  <gift id="22579" count="3" chance="8" species="73006" />
+	  
+	  <!--Rosetta Red Wings Silly Sweet-->
+	  <gift id="22580" count="3" chance="8" species="73006" />
+	  
+	  <!--Electric Green Wings Silly Sweet-->
+	  <gift id="22581" count="3" chance="8" species="73006" />
+	  
+	  <!--Ice Cream Silly Sweet-->
+	  <gift id="22557" count="3" chance="5" species="73006" />
+	  
+	  <!--Deluxe Cupcake Silly Sweet-->
+	  <gift id="22556" count="3" chance="5" species="73006" />
+	  
+	  <!--Rainbow Trail Silly Sweet-->
+	  <gift id="22562" count="3" chance="5" species="73006" />
+	  
+	  <!--Sparkly Wings Silly Sweet-->
+	  <gift id="22571" count="3" chance="5" species="73006" />
+	  
+	  <!--Fancy Flower Seeds-->
+	  <gift id="89004" count="1" chance="8" species="73006" />
+	  
+	  <!--Chilly Plants Seeds-->
+	  <gift id="89012" count="1" chance="8" species="73006" />
+	  
+	  <!--Autumn Harvest Plants-->
+	  <gift id="89019" count="1" chance="8" species="73006" />
+	  
+	  <!--Springtime Flower Seeds-->
+	  <gift id="89029" count="1" chance="8" species="73006" />
+	  
+	  <!--Garden Premier Seeds-->
+	  <gift id="89009" count="1" chance="5" species="73006" />
+	  
+	  <!--Winter Wardrobe Seeds-->
+	  <gift id="89021" count="1" chance="5" species="73006" />
+	  
+	  <!--Autumn Breeze Seeds-->
+	  <gift id="89022" count="1" chance="5" species="73006" />
+	  
+	  <!--Spring Style Seeds-->
+	  <gift id="89030" count="1" chance="5" species="73006" />
+
+
+
+
+      <!--Gold Giftbox-->
+	   
+      <!--Firefly Outfits-->
+      
+      <gift id="73530" chance="9" species="73000"/>
+      
+      <gift id="73531" chance="9" species="73000"/>
+      
+      <gift id="73532" chance="9" species="73000"/>
+      
+      <gift id="73533" chance="9" species="73000"/>
+      
+      <gift id="73534" chance="9" species="73000"/>
+      
+      <gift id="73535" chance="9" species="73000"/>
+
+      
+      <!--Ladybug Outfits-->
+      
+      <gift id="73516" chance="9" species="73001"/>
+      
+      <gift id="73517" chance="9" species="73001"/>
+      
+      <gift id="73518" chance="9" species="73001"/>
+      
+      <gift id="73519" chance="9" species="73001"/>
+      
+      <gift id="73520" chance="9" species="73001"/>
+      
+      <gift id="73521" chance="9" species="73001"/>
+
+      
+      <!--Hummingbird Outfits-->
+      
+      <gift id="73501" chance="9" species="73002"/>
+      
+      <gift id="73502" chance="9" species="73002"/>
+      
+      <gift id="73503" chance="9" species="73002"/>
+      
+      <gift id="73504" chance="9" species="73002"/>
+      
+      <gift id="73505" chance="9" species="73002"/>
+      
+      <gift id="73507" chance="9" species="73002"/>
+
+      
+      <!--Dragonfly Outfits-->
+      
+      <gift id="73522" chance="9" species="73003"/>
+      
+      <gift id="73523" chance="9" species="73003"/>
+      
+      <gift id="73525" chance="9" species="73003"/>
+      
+      <gift id="73526" chance="9" species="73003"/>
+      
+      <gift id="73527" chance="9" species="73003"/>
+      
+      <gift id="73528" chance="9" species="73003"/>
+
+      
+      <!--Bee Outfits-->
+      
+      <gift id="73508" chance="9" species="73004"/>
+      
+      <gift id="73509" chance="9" species="73004"/>
+      
+      <gift id="73510" chance="9" species="73004"/>
+      
+      <gift id="73511" chance="9" species="73004"/>
+      
+      <gift id="73512" chance="9" species="73004"/>
+      
+      <gift id="73513" chance="9" species="73004"/>
+      
+      <gift id="73514" chance="9" species="73004"/>
+
+      
+      <!--Winter Wonderland 2010 Gifts-->
+      
+      <gift id="73529" chance="7" species="73000"/>
+      
+      <gift id="73506" chance="7" species="73002"/>
+      
+      <gift id="73541" chance="7" species="73004"/>
+      
+      <gift id="73515" chance="7" species="73001"/>
+      
+      <gift id="73524" chance="7" species="73003"/>
+
+      
+      <!--Never Dove Egg Hunt 2011 Gifts-->
+      
+      <gift id="73540" chance="7" species="73000"/>
+      
+      <gift id="73536" chance="7" species="73002"/>
+      
+      <gift id="73537" chance="7" species="73004"/>
+      
+      <gift id="73538" chance="7" species="73001"/>
+      
+      <gift id="73539" chance="7" species="73003"/>
+
+      
+      <!--PH Games Training 2011 Gifts-->
+      
+      <gift id="73542" chance="7" species="73002"/>
+      
+      <gift id="73543" chance="7" species="73004"/>
+      
+      <gift id="73544" chance="7" species="73001"/>
+      
+      <gift id="73545" chance="7" species="73003"/>
+      
+      <gift id="73546" chance="7" species="73000"/>
+
+	  
+      <!--Fairy Friendship Festival 2012 Gifts-->
+      
+      <gift id="73556" chance="1" species="73000"/>
+	  
+	  <gift id="73554" chance="1" species="73001"/>
+	  
+	  <gift id="73552" chance="1" species="73002"/>
+      
+	  <gift id="73555" chance="1" species="73003"/>
+	  
+	  <gift id="73553" chance="1" species="73004"/>
+
+
+      <!--Never Dove Egg Hunt 2012 Gifts-->
+      
+	  <gift id="73550" chance="1" species="73000"/>
+      
+	  <gift id="73548" chance="1" species="73001"/>
+	  
+	  <gift id="73551" chance="1" species="73002"/>
+      
+	  <gift id="73549" chance="1" species="73003"/>
+	  
+	  <gift id="73547" chance="1" species="73004"/>
+	  
+	   <!--Animal Mother's Day 2012 Gifts-->
+      
+	  <gift id="73561" chance="1" species="73000" />
+	  
+	  <gift id="73560" chance="1" species="73001" />
+	  
+	  <gift id="73559" chance="1" species="73002" />
+      
+	  <gift id="73558" chance="1" species="73003" />
+	  
+	  <gift id="73557" chance="1" species="73004" />
+	  
+	  <!--Animal Masquerade 2012 Gifts-->
+      
+	  <gift id="73562" chance="1" species="73004"/>
+
+	  <gift id="73563" chance="1" species="73003"/>
+	  
+	  <gift id="73564" chance="1" species="73002"/>
+	  
+	  <gift id="73565" chance="1" species="73001"/>
+	  
+	  <gift id="73566" chance="1" species="73000"/>
+	  
+	  <!-- Never Dove Egg Hunt 2013 -->
+	  <gift id="73567" chance="1" species="73004"/>
+	  
+	  <gift id="73568" chance="1" species="73003"/>
+	  
+	  <gift id="73569" chance="1" species="73002"/>
+	  
+	  <gift id="73570" chance="1" species="73001" />
+	  
+	  <gift id="73571" chance="1" species="73000"/>
+
+	  <!-- Friendship Day 2013 -->
+	  <gift id="73572" chance="1" species="73004" />
+	  
+	  <gift id="73573" chance="1" species="73003" />
+	  
+	  <gift id="73574" chance="1" species="73002" />
+	  
+	  <gift id="73575" chance="1" species="73001" />
+	  
+	  <gift id="73576" chance="1" species="73000" />
+	  
+	  <!--Butterfly Rewards -->
+	  <gift id="7539" count="1" chance="5" species="73006" /> <!--Butterfly Glider-->
+	  
+	  <gift id="7631" count="1" chance="5" color1="208" color2="18" species="73006" /> <!--Butterfly Plush-->
+	  
+	  <gift id="7501" count="1" chance="5" color1="165" color2="0" species="73006" /> <!--Butterfly Bowl-->
+	  
+	  <gift id="7514" count="1" chance="5" color1="135" color2="0" species="73006" /> <!--Butterfly Sculpture-->
+	  
+	  <gift id="7034" count="1" chance="3" color1="199" color2="121" species="73006" /> <!--Flitter Flutter Lamp-->
+	  
+	  <gift id="6728" count="1" chance="3" color1="199" color2="121" species="73006" /> <!--Flitter Flutter Couch-->
+	  
+	  <gift id="6729" count="1" chance="3" color1="199" color2="121" species="73006" /> <!--Flitter Flutter Chair-->
+	  
+	  <gift id="6731" count="1" chance="3" color1="199" color2="121" species="73006" /> <!--Flitter Flutter Table-->
+	  
+	  <gift id="7772" count="1" chance="3" color1="121" color2="199" species="73006" /> <!--Flitter Flutter Curtains-->
+	  
+	  <gift id="7804" count="1" chance="2" color1="286" color2="267" species="73006" /> <!--Butterfly Statue-->
+	  
+	  <gift id="8499" count="1" chance="3" species="73006" />
+	  <gift id="8499" count="3" chance="2" species="73006" />
+	  <gift id="8499" count="5" chance="1" species="73006" />
+      
+    </giftSet>
+
+    
+  </giftConfig>
+  
+  <giftAudio library="animalFriendGiftBoxes">
+    
+    <gift type="1" id="afGrassGift"/>
+    
+    <gift type="2" id="afBubbleGift"/>
+    
+    <gift type="3" id="afConfettiGift"/>
+    
+  </giftAudio>
+  
+  <animalFriends>
+    <!-- Fireflies -->
+    <species id="73000" microgames="13042,5" favFood="8017" snackFood="8019" typelabel="Firefly" framelabel="firefly" followXOffset="15" followYOffset="-15" sittingXOffset="12" sittingYOffset="0" protoColor1="17" protoColor2="60" giftOffset="2,-32" healthHappinessExempt="false"/>
+    
+    <!-- Lady Bugs -->
+    <species id="73001" microgames="13043,5" favFood="8007" snackFood="8019" typelabel="Ladybug" framelabel="ladybug" followXOffset="15" followYOffset="-15" sittingXOffset="12" sittingYOffset="0" protoColor1="45" protoColor2="55" giftOffset="0,-38" healthHappinessExempt="false"/>
+    
+    <!-- Baby Hummingbirds -->
+    <species id="73002" microgames="13044,5" favFood="8012" snackFood="8019" typelabel="Hummingbird" framelabel="hummingbird" followXOffset="15" followYOffset="-25" sittingXOffset="15" sittingYOffset="0" protoColor1="64" protoColor2="128" giftOffset="0,-37" healthHappinessExempt="false"/>
+    
+    <!-- Dragonflies -->
+    <species id="73003" microgames="13045,5" favFood="8009" snackFood="8019" typelabel="Dragonfly" framelabel="dragonfly" followXOffset="15" followYOffset="-15" sittingXOffset="12" sittingYOffset="0" protoColor1="133" protoColor2="141" giftOffset="0,-34" healthHappinessExempt="false"/>
+    
+    <!-- Bees -->
+    <species id="73004" microgames="13046,5" favFood="8004" snackFood="8019" typelabel="Bee" framelabel="bee" followXOffset="15" followYOffset="-15" sittingXOffset="12" sittingYOffset="0" protoColor1="142" protoColor2="73" giftOffset="-8,-34" healthHappinessExempt="false"/>
+    
+    <!-- Tadpoles -->
+    <species id="73005" microgames="13045,5" favFood="8009" snackFood="8019" typelabel="Tadpole" framelabel="tadpole" followXOffset="15" followYOffset="-15" sittingXOffset="12" sittingYOffset="0" protoColor1="17" protoColor2="60" giftOffset="30,-10" healthHappinessExempt="false"/>
+    
+    <!-- Butterflies -->
+    <species id="73006" microgames="" favFood="8006" snackFood="8019" typelabel="Butterfly" framelabel="butterfly" followXOffset="15" followYOffset="-15" sittingXOffset="12" sittingYOffset="0" protoColor1="142" protoColor2="73" giftOffset="-8,-34" healthHappinessExempt="true"/>
+    
+  </animalFriends>
+  
+  <eventEmotes>
+    
+    <emote id="animalFriendDance">16</emote>
+    
+    <emote id="animalFriendShake">25</emote>
+    
+    <emote id="animalFriendFlip">23</emote>
+    
+    <emote id="animalFriendHop">31</emote>
+    
+    <emote id="animalFriendBackwards">13</emote>
+    
+    <emote id="animalFriendSing">27</emote>
+    
+    <emote id="animalFriendCircle">14</emote>
+    
+    <emote id="animalFriendFriends">24</emote>
+    
+    <emote id="animalFriendDoubleFlip">28</emote>
+    
+    <emote id="animalFriendSleeping">17</emote>
+    
+    <emote id="animalFriendConfused">38</emote>
+    
+    <emote id="animalFriendGiftGetting">44</emote>
+    
+  </eventEmotes>
+  
+  <butterflyOffset x="30" y="10"/>
+  
+  <clothing>
+    
+    <!-- Hummingbird -->
+    
+    <outfit id="73501" iconId="77001" forAnimalFriend="73002">
+      
+      <!-- bear -->
+      
+      <asset id="74010" color1="77" color2="78"/>
+      
+      <asset id="75001" color1="77" color2="78"/>
+      
+    </outfit>
+    
+    <outfit id="73502" iconId="77002" forAnimalFriend="73002">
+      
+      <!-- stiched jacket and hat 1 -->
+      
+      <asset id="74008" color1="93" color2="67"/>
+      
+      <asset id="74501" color1="93" color2="67"/>
+      
+    </outfit>
+    
+    <outfit id="73503" iconId="77003" forAnimalFriend="73002">
+      
+      <!-- boondock jacket 2-->
+      
+      <asset id="74009" color1="77" color2="77"/>
+      
+      <asset id="74502" color1="77" color2="111"/>
+      
+    </outfit>
+    
+    <outfit id="73504" iconId="77004" forAnimalFriend="73002">
+      
+      <!-- fur hat -->
+      
+      <asset id="74013" color1="55" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73505" iconId="77005" forAnimalFriend="73002">
+      
+      <!-- unicorn -->
+      
+      <asset id="74014" color1="129" color2="129"/>
+      
+    </outfit>
+    
+    <outfit id="73506" iconId="77006" forAnimalFriend="73002">
+      
+      <!-- snow hat -->
+      
+      <asset id="74012" color1="180" color2="166"/>
+      
+    </outfit>
+    
+    <outfit id="73507" iconId="77007" forAnimalFriend="73002">
+      
+      <!-- bonnet -->
+      
+      <asset id="74011" color1="189" color2="116"/>
+      
+    </outfit>
+    
+    <outfit id="73536" iconId="77008" forAnimalFriend="73002">
+      
+      <!-- rabbit ears -->
+      
+      <asset id="74037" color1="143" color2="143"/>
+      
+    </outfit>
+    
+    <outfit id="73542" iconId="77009" forAnimalFriend="73002">
+      
+      <!-- workout -->
+      
+      <asset id="74044" color1="143" color2="143"/>
+      
+      <asset id="74506" color1="143" color2="143"/>
+      
+      <asset id="75504" color1="143" color2="143"/>
+      
+    </outfit>
+    
+    <outfit id="73551" iconId="77010" forAnimalFriend="73002">
+      
+      <!-- rabbit ears white -->
+      
+      <asset id="74054" color1="-1" color2="-1"/>
+      
+    </outfit>
+        
+    <outfit id="73552" iconId="77011" forAnimalFriend="73002">
+      
+      <!-- heart glasses -->
+      
+      <asset id="74049" color1="-1" color2="-1"/>
+      
+    </outfit>
+	
+    <!-- Bee -->
+    
+    <outfit id="73508" iconId="78001" forAnimalFriend="73004">
+      
+      <!-- fur hat -->
+      
+      <asset id="74004" color1="55" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73509" iconId="78002" forAnimalFriend="73004">
+      
+      <!-- propeller hat -->
+      
+      <asset id="74007" color1="143" color2="142"/>
+      
+    </outfit>
+    
+    <outfit id="73510" iconId="78003" forAnimalFriend="73004">
+      
+      <!-- flower hat -->
+      
+      <asset id="74003" color1="152" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73511" iconId="78004" forAnimalFriend="73004">
+      
+      <!-- stovepipe hat -->
+      
+      <asset id="74005" color1="143" color2="21"/>
+      
+    </outfit>
+    
+    <outfit id="73512" iconId="78005" forAnimalFriend="73004">
+      
+      <!-- princess hat -->
+      
+      <asset id="74006" color1="121" color2="121"/>
+      
+    </outfit>
+    
+    <outfit id="73513" iconId="78006" forAnimalFriend="73004">
+      
+      <!-- crown 2 -->
+      
+      <asset id="74002" color1="168" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73514" iconId="78007" forAnimalFriend="73004">
+      
+      <!-- crown 1 -->
+      
+      <asset id="74001" color1="168" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73537" iconId="78008" forAnimalFriend="73004">
+      
+      <!-- rabbit ears -->
+      
+      <asset id="74035" color1="143" color2="143"/>
+      
+    </outfit>
+    
+    <outfit id="73541" iconId="78009" forAnimalFriend="73004">
+      
+      <!-- snow hat -->
+      
+      <asset id="74041" color1="180" color2="166"/>
+      
+    </outfit>
+    
+    <outfit id="73543" iconId="78010" forAnimalFriend="73004">
+      
+      <!-- workout -->
+      
+      <asset id="74042" color1="180" color2="166"/>
+      
+      <asset id="74504" color1="180" color2="166"/>
+      
+      <asset id="75007" color1="180" color2="166"/>
+      
+    </outfit>
+    
+    <outfit id="73547" iconId="78011" forAnimalFriend="73004">
+      
+      <!-- rabbit ears white -->
+      
+      <asset id="74052" color1="-1" color2="-1"/>
+      
+    </outfit>
+        
+    <outfit id="73553" iconId="78012" forAnimalFriend="73004">
+      
+      <!-- heart glasses -->
+      
+      <asset id="74047" color1="-1" color2="-1"/>
+      
+    </outfit>
+	
+    <!-- Ladybug -->
+    
+    <outfit id="73515" iconId="76501" forAnimalFriend="73001">
+      
+      <!-- snow hat -->
+      
+      <asset id="74028" color1="180" color2="166"/>
+      
+      <asset id="75004" color1="180" color2="166"/>
+      
+    </outfit>
+    
+    <outfit id="73516" iconId="76502" forAnimalFriend="73001">
+      
+      <!-- unicorn -->
+      
+      <asset id="74031" color1="129" color2="129"/>
+      
+    </outfit>
+    
+    <outfit id="73517" iconId="76503" forAnimalFriend="73001">
+      
+      <!-- fur hat -->
+      
+      <asset id="74029" color1="55" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73518" iconId="76504" forAnimalFriend="73001">
+      
+      <!-- leg cast and cone of shame -->
+      
+      <asset id="74024" color1="145" color2="-1"/>
+      
+      <asset id="75003" color1="145" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73519" iconId="76505" forAnimalFriend="73001">
+      
+      <!-- goggles -->
+      
+      <asset id="74030" color1="55" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73520" iconId="76506" forAnimalFriend="73001">
+      
+      <!-- bear -->
+      
+      <asset id="74022" color1="77" color2="156"/>
+      
+      <asset id="75002" color1="77" color2="55"/>
+      
+    </outfit>
+    
+    <outfit id="73521" iconId="76507" forAnimalFriend="73001">
+      
+      <!-- fishing hat -->
+      
+      <asset id="74026" color1="145" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73538" iconId="76508" forAnimalFriend="73001">
+      
+      <!-- rabbit ears -->
+      
+      <asset id="74039" color1="143" color2="143"/>
+      
+    </outfit>
+    
+    <outfit id="73544" iconId="76509" forAnimalFriend="73001">
+      
+      <!-- workout -->
+      
+      <asset id="74045" color1="143" color2="143"/>
+      
+      <asset id="75009" color1="143" color2="143"/>
+      
+    </outfit>
+    
+    <outfit id="73548" iconId="76510" forAnimalFriend="73001">
+      
+      <!-- rabbit ears white-->
+      
+      <asset id="74056" color1="-1" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73554" iconId="76511" forAnimalFriend="73001">
+      
+      <!-- heart glasses-->
+      
+      <asset id="74050" color1="-1" color2="-1"/>
+      
+    </outfit>
+    <!-- Dragonfly -->
+    
+    <outfit id="73522" iconId="77501" forAnimalFriend="73003">
+      
+      <!-- unicorn -->
+      
+      <asset id="74020" color1="129" color2="-1"/>
+      
+      <asset id="74503" color1="-1" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73523" iconId="77502" forAnimalFriend="73003">
+      
+      <!-- bat -->
+      
+      <asset id="74016" color1="141" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73524" iconId="77503" forAnimalFriend="73003">
+      
+      <!-- snow stuff -->
+      
+      <asset id="74018" color1="166" color2="166"/>
+      
+      <asset id="75501" color1="166" color2="166"/>
+      
+    </outfit>
+    
+    <outfit id="73525" iconId="77504" forAnimalFriend="73003">
+      
+      <!-- flower face -->
+      
+      <asset id="74017" color1="9" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73526" iconId="77505" forAnimalFriend="73003">
+      
+      <!-- viking -->
+      
+      <asset id="74021" color1="141" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73527" iconId="77506" forAnimalFriend="73003">
+      
+      <!-- aviator -->
+      
+      <asset id="74015" color1="91" color2="141"/>
+      
+    </outfit>
+    
+    <outfit id="73528" iconId="77507" forAnimalFriend="73003">
+      
+      <!-- fur hat -->
+      
+      <asset id="74019" color1="55" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73539" iconId="77508" forAnimalFriend="73003">
+      
+      <!-- rabbit ears -->
+      
+      <asset id="74038" color1="143" color2="143"/>
+      
+    </outfit>
+    
+    <outfit id="73545" iconId="77509" forAnimalFriend="73003">
+      
+      <!-- workout -->
+      
+      <asset id="74043" color1="143" color2="143"/>
+      
+      <asset id="74505" color1="143" color2="143"/>
+      
+      <asset id="75008" color1="143" color2="143"/>
+      
+    </outfit>
+    
+    <outfit id="73549" iconId="77510" forAnimalFriend="73003">
+      
+      <!-- rabbit ears white -->
+      
+      <asset id="74055" color1="143" color2="143"/>
+      
+    </outfit>
+        
+    <outfit id="73555" iconId="77511" forAnimalFriend="73003">
+      
+      <!-- heart glasses -->
+      
+      <asset id="74048" color1="143" color2="143"/>
+      
+    </outfit>
+	
+    <!-- Firefly / Lightningbug -->
+    
+    <outfit id="73529" iconId="76001" forAnimalFriend="73000">
+      
+      <!-- snow hat -->
+      
+      <asset id="74025" color1="180" color2="166"/>
+      
+    </outfit>
+    
+    <outfit id="73530" iconId="76002" forAnimalFriend="73000">
+      
+      <!-- fluffy items -->
+      
+      <asset id="74034" color1="81" color2="-1"/>
+      
+      <asset id="75006" color1="116" color2="-1"/>
+      
+      <asset id="75503" color1="81" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73531" iconId="76003" forAnimalFriend="73000">
+      
+      <!-- unicorn -->
+      
+      <asset id="74023" color1="129" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73532" iconId="76004" forAnimalFriend="73000">
+      
+      <!-- bear -->
+      
+      <asset id="74033" color1="77" color2="156"/>
+      
+      <asset id="75005" color1="77" color2="55"/>
+      
+    </outfit>
+    
+    <outfit id="73533" iconId="76005" forAnimalFriend="73000">
+      
+      <!-- acorn hat -->
+      
+      <asset id="74032" color1="55" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73534" iconId="76006" forAnimalFriend="73000">
+      
+      <!-- fur hat -->
+      
+      <asset id="74027" color1="55" color2="-1"/>
+      
+    </outfit>
+    
+    <outfit id="73535" iconId="76007" forAnimalFriend="73000">
+      
+      <!-- flower dress -->
+      
+      <asset id="75502" color1="142" color2="142"/>
+      
+    </outfit>
+    
+    <outfit id="73540" iconId="76008" forAnimalFriend="73000">
+      
+      <!-- rabbit ears -->
+      
+      <asset id="74036" color1="143" color2="143"/>
+      
+    </outfit>
+    
+    <outfit id="73546" iconId="76009" forAnimalFriend="73000">
+      
+      <!-- workout -->
+      
+      <asset id="74046" color1="143" color2="143"/>
+      
+      <asset id="74507" color1="143" color2="143"/>
+      
+      <asset id="75010" color1="143" color2="143"/>
+      
+    </outfit>
+    
+    <outfit id="73550" iconId="76010" forAnimalFriend="73000">
+      
+      <!-- white rabbit ears -->
+      
+      <asset id="74053" color1="-1" color2="-1"/>
+      
+    </outfit>
+        
+    <outfit id="73556" iconId="76011" forAnimalFriend="73000">
+      
+      <!-- heart glasses -->
+      
+      <asset id="74051" color1="-1" color2="-1"/>
+      
+    </outfit>
+	
+	        
+    <outfit id="73557" iconId="78013" forAnimalFriend="73004">
+      
+      <!-- bee cat -->
+      
+      <asset id="74057" color1="55" color2="54"/>
+      
+    </outfit>
+	        
+    <outfit id="73558" iconId="77512" forAnimalFriend="73003">
+      
+      <!-- dragonfly cat -->
+      
+      <asset id="74058" color1="55" color2="54"/>
+      
+    </outfit>
+	        
+    <outfit id="73559" iconId="77012" forAnimalFriend="73002">
+      
+      <!-- hummingbird cat -->
+      
+      <asset id="74059" color1="55" color2="54"/>
+      
+    </outfit>
+	        
+    <outfit id="73560" iconId="76512" forAnimalFriend="73001">
+      
+      <!-- ladybug cat -->
+      
+      <asset id="74060" color1="55" color2="54"/>
+      
+    </outfit>
+	        
+    <outfit id="73561" iconId="76012" forAnimalFriend="73000">
+      
+      <!-- lightningbug cat -->
+      
+      <asset id="74061" color1="55" color2="54"/>
+      
+    </outfit>
+	
+	
+	
+	<outfit id="73562" iconId="78014" forAnimalFriend="73004">
+      
+      <!-- bee pumpkin -->
+      
+      <asset id="74062" color1="-1" color2="-1"/>
+      
+    </outfit>
+	        
+    <outfit id="73563" iconId="77513" forAnimalFriend="73003">
+      
+      <!-- dragonfly pumpkin -->
+      
+      <asset id="74063" color1="-1" color2="-1"/>
+      
+    </outfit>
+	        
+    <outfit id="73564" iconId="77013" forAnimalFriend="73002">
+      
+      <!-- hummingbird pumpkin -->
+      
+      <asset id="74064" color1="-1" color2="-1"/>
+      
+    </outfit>
+	        
+    <outfit id="73565" iconId="76513" forAnimalFriend="73001">
+      
+      <!-- ladybug pumpkin -->
+      
+      <asset id="74065" color1="-1" color2="-1"/>
+      
+    </outfit>
+	        
+    <outfit id="73566" iconId="76013" forAnimalFriend="73000">
+      
+      <!-- lightningbug pumpkin -->
+      
+      <asset id="74066" color1="-1" color2="-1"/>
+      
+    </outfit>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<outfit id="73567" iconId="78016" forAnimalFriend="73004">
+      
+      <!-- bee rabbit ears pink -->
+      
+      <asset id="74067" color1="144" color2="199"/>
+      
+    </outfit>
+	  
+	  
+	       
+			
+			
+    <outfit id="73568" iconId="77515" forAnimalFriend="73003">
+      
+      <!-- dragonfly rabbit ears pink-->
+      
+      <asset id="74068" color1="144" color2="199"/>
+      
+    </outfit>
+	      
+		  
+		  
+		  
+		    
+    <outfit id="73569" iconId="77015" forAnimalFriend="73002">
+      
+      <!-- hummingbird rabbit ears pink -->
+      
+      <asset id="74069" color1="144" color2="199"/>
+      
+    </outfit>
+	      
+		  
+		  
+		  
+		    
+    <outfit id="73570" iconId="76515" forAnimalFriend="73001">
+      
+      <!-- ladybug rabbit ears pink -->
+      
+      <asset id="74070" color1="144" color2="199"/>
+      
+    </outfit>
+	  
+	  
+	  
+	  
+	        
+    <outfit id="73571" iconId="76015" forAnimalFriend="73000">
+      
+      <!-- lightningbug rabbit ears pink -->
+      
+      <asset id="74071" color1="144" color2="199"/>
+      
+    </outfit>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<outfit id="73572" iconId="78015" forAnimalFriend="73004">
+      
+      <!-- bee heartglasses -->
+      
+      <asset id="74072" color1="283" color2="200"/>
+      
+    </outfit>
+	
+	
+		
+    <outfit id="73573" iconId="77514" forAnimalFriend="73003">
+      
+      <!-- dragonfly heartglasses-->
+      
+      <asset id="74073" color1="283" color2="200"/>
+      
+    </outfit>
+	
+	
+	    
+    <outfit id="73574" iconId="77014" forAnimalFriend="73002">
+      
+      <!-- hummingbird heartglasses -->
+      
+      <asset id="74074" color1="283" color2="200"/>
+      
+    </outfit>
+	
+	
+    
+    <outfit id="73575" iconId="76514" forAnimalFriend="73001">
+      
+      <!-- ladybug heartglasses -->
+      
+      <asset id="74075" color1="283" color2="200"/>
+      
+    </outfit>
+	
+		  
+	        
+    <outfit id="73576" iconId="76014" forAnimalFriend="73000">
+      
+      <!-- lightningbug heartglasses -->
+      
+      <asset id="74076" color1="283" color2="200"/>
+      
+    </outfit>
+	
+	
+	
+	
+    <!-- last used outfit id 73576 -->
+    
+  </clothing>
+  
+</animalFriendAssets>

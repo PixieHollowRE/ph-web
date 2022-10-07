@@ -1,0 +1,11 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/TinkTip.swf</swf>
+		<swf type="code">{panelCode}/TinkTip.swf</swf>
+	</swfs>
+	<copy>
+		<title target="titlebar.title">Tinker Bell</title>
+		<continue target="bg.continue.caption">Continue</continue>
+	</copy>
+	<config></config>
+</panel>

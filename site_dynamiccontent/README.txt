@@ -1,0 +1,1 @@
+This folder does not exist on the live site thus everything inside is lost.

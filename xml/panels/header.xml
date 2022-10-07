@@ -1,0 +1,24 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/header.swf</swf>
+		<swf type="code">{panelCode}/header.swf</swf>
+	</swfs>
+	<copy>
+		<dbfail>Sorry, something's not right.  Try back later!</dbfail>
+		<dbfailconfirm>Okay</dbfailconfirm>
+		<logoutfail>Sorry, something's not right.  Try back later!</logoutfail>
+		<logoutfail_button>Okay</logoutfail_button>
+		<on_button>on</on_button>
+		<off_button>off</off_button>
+		<login>Log In</login>
+		<logout>Log Out</logout>
+		<guest>Create a Fairy and fly!</guest>
+	</copy>
+	<config>
+		<maxCharsInName>23</maxCharsInName>
+		<util>
+			<managerPanel>fairyManager.xml</managerPanel>
+		</util>
+	</config>
+
+</panel>

@@ -1,0 +1,14 @@
+<level>
+	<rosettaStartMessage>Keep looping all those petals, pumpkin!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>	
+	<objective>Capture 12 ###petal1### petals and 16 ###petal2### petals!</objective>
+	
+	<randomPetalConfig>12-10,16-16</randomPetalConfig>
+	<multiplierChance>12</multiplierChance>
+	<bees>1</bees>
+	<petalspeed min="1" max="3"/>
+	<powerups stopwind="1" extratime="2" removebees="1"/>
+	<minLegalPetalCount>2</minLegalPetalCount>
+	<timeLimit>30</timeLimit>
+</level>

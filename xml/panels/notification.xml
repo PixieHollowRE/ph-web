@@ -1,0 +1,257 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/notification.swf</swf>
+		<swf type="code">{panelCode}/notification.swf</swf>
+	</swfs>
+	<copy>
+		<pixieHollowAlert target="genericAlert.label2">Pixie Hollow Alert</pixieHollowAlert>
+		<gameAlert target="gameAlert.label2">Announcement</gameAlert>
+		<friendshipAlert target="friendAlert.container.label2">Friendship Alert</friendshipAlert>
+		<badgeAlert>New Badge!</badgeAlert>
+		<itemAlert>New Item!</itemAlert>
+		<itemAlerts>New Items!</itemAlerts>
+		<wardrobeGroupTitle>New Wardrobe Items!</wardrobeGroupTitle>
+		<storageGroupTitle>New Storage Items!</storageGroupTitle>
+		<pouchGroupTitle>New Pouch Items!</pouchGroupTitle>
+		<fromText target="itemAlert.container.from">From: </fromText>
+		<teleporting>is flying to you.</teleporting>
+		<friend_online>$$ has entered Pixie Hollow.</friend_online>
+		<friend_offline>$$ has left Pixie Hollow.</friend_offline>
+		<badge_earned>Congratulations! You've earned a new badge: %0A $$</badge_earned>
+
+		<questAlert>Task Finished!</questAlert>
+		<questDoneMsg1>You finished a quest task for</questDoneMsg1>
+		<questDoneMsg2>.</questDoneMsg2>
+		<questAlertMsg1>Visit</questAlertMsg1>
+		<questAlertMsg2>now!</questAlertMsg2>
+		
+		<!-- PIXIEPOWER ALERT -->
+		<pixiepowerAlert_title>Congratulations!</pixiepowerAlert_title>
+		
+		
+		<leaderboardGifts_msg>TEMP LEADERBOARD MESSAGE</leaderboardGifts_msg>
+		<leaderboardGifts_title>TEMP TITLE</leaderboardGifts_title>
+		
+		<received_wardrobe_items>Check your wardrobe!</received_wardrobe_items>
+		<received_inventory_items>Check your storage!</received_inventory_items>
+		<received_sc>New SpeedChat phrase!</received_sc>
+		<received_scs>Check your SpeedChat Menu!</received_scs>
+		<received_pouch_items>Check your Pouch!</received_pouch_items>
+		<received_badges>New Badges! Check your Scrapbook!!</received_badges>
+		<new_friend>[FAIRYNAME] is now your friend!</new_friend>
+		<new_friends>You have new friends!</new_friends>
+		<speedchat_title>New SpeedChat Phrase!</speedchat_title>
+		<speedchats_title>New SpeedChat Phrases!</speedchats_title>
+		<new_butterfly_title>New Butterfly!</new_butterfly_title>
+		<dead_butterfly_title>Butterfly Alert!</dead_butterfly_title>
+		<new_butterfly_text2>You have a new butterfly!</new_butterfly_text2>
+		<dcomp_title>Disney.com!</dcomp_title>
+		<dcomp_pouch>pouch</dcomp_pouch>
+		<dcomp_leaf>Leaf Journal</dcomp_leaf>
+		<dcomp_text>Congratulations! You've added $$ to your #LOC# by playing on Disney.com!</dcomp_text>
+		<dsT2_title>Ingredients Alert!</dsT2_title>
+		<dsT2_text>Ingredients have been added to your pouch from Nintendo DS!</dsT2_text>
+		<dsAv_title>Fairy Camp Alert!</dsAv_title>
+		<dsAv_text>Welcome back from fairy camp!</dsAv_text>
+		<sCode_title>Ingredients Alert!</sCode_title>
+		<sCode_text>Ingredients have been added to your pouch from a Secret Code!</sCode_text>
+		<petrem_title>Animal Friend Alert!</petrem_title>
+		<petrem_text>Aw jingles! Your Animal Friend got too bored and returned to the wild to look for some fun and adventure.</petrem_text>
+
+
+		<new_butterfly_text>You have $t remaining with your $b.</new_butterfly_text>
+		<day>day</day>
+		<days>days</days>
+		<hour>hour</hour>
+		<hours>hours</hours>
+		<minute>minute</minute>
+		<minutes>minutes</minutes>
+		<dead_butterfly_text>Your $b is out of time.</dead_butterfly_text>
+		<friendClickablesCopy>Through: </friendClickablesCopy>
+		<butterfly1>Dandelion Butterfly</butterfly1>
+		<butterfly2>Cornflower Butterfly</butterfly2>
+		<butterfly3>Wild Violet Butterfly</butterfly3>
+		<butterfly4>Fieldflower Monarch</butterfly4>
+		<butterfly5>Peachblossom Monarch</butterfly5>
+		<butterfly6>Riverblue Monarch</butterfly6>
+		<butterfly7>Neverberry Swallowtail</butterfly7>
+		<butterfly8>Merblossom Swallowtail</butterfly8>
+		<butterfly9>Pixie Shimmer Swallowtail</butterfly9>
+
+		<inContextLearnMore><![CDATA[<u><font color='#FFFFFF'>Learn More</font></u>]]></inContextLearnMore>
+	</copy>
+	<config>
+		<alertTextLimit>130</alertTextLimit>
+		<nameTruncLimit>22</nameTruncLimit>
+		<alert_threshold>2</alert_threshold>
+
+		<npcToFamousFairy_15500>2</npcToFamousFairy_15500> <!-- fawn -->
+		<npcToFamousFairy_15501>4</npcToFamousFairy_15501> <!-- iridessa -->
+		<npcToFamousFairy_15502>3</npcToFamousFairy_15502> <!-- rosetta -->
+		<npcToFamousFairy_15503>1</npcToFamousFairy_15503> <!-- silvermist -->
+		<npcToFamousFairy_15504>0</npcToFamousFairy_15504> <!-- tinkerbell -->
+		<npcToFamousFairy_15505>6</npcToFamousFairy_15505> <!-- kit -->
+		<npcToFamousFairy_15506>30</npcToFamousFairy_15506> <!-- Elixa -->
+		<npcToFamousFairy_15507>35</npcToFamousFairy_15507> <!-- Terence -->
+		<npcToFamousFairy_15508>7</npcToFamousFairy_15508> <!-- Marina -->
+
+		<inContextAlerts>
+			<!-- node names (inContextDecorating, inContextShops, etc.) correspond to id's in tutorialAssets.xml & consts in TutorialManager.as -->
+			<inContextDecorating>
+				<title>Decorate Your Fairy Home!</title>
+				<description>You can decorate your home with furniture found in your storage chest.</description>
+				<!-- <highlightData>-590,-385,25</highlightData>  --> <!-- either an x/y + radius, or a special case that InContextAlert.as handles -->
+				<highlightData>sparkelsandarrow,-590,-385,25,-485,-280,300</highlightData> <!-- arrow case means x/y coord plus rotation for the arrow -->
+				<featureIcon>chest</featureIcon> <!-- corresponds to a frame of In Context Alert Feature Icon in notification.fla -->
+				<tutorialToOpen>decorating</tutorialToOpen> <!-- corresponds to [tutorial id="x"] in tutorialAssets.xml -->
+				<leafjournalPage>decorating</leafjournalPage>	
+			</inContextDecorating>
+			<inContextShops>
+				<title>Buy new items in our shops!</title>
+				<description>Dress up in new fashions or decorate your home with new items!</description>
+				<highlightData>shopkeeper,-420,-255,-120,-255,-120,-195,-420,-195</highlightData> <!-- special case, set of points to follow -->
+				<featureIcon>shopkeeper</featureIcon>
+				<tutorialToOpen>shops</tutorialToOpen>
+				<leafjournalPage>shops</leafjournalPage>
+			</inContextShops>
+			<inContextParties>
+				<title>Have a Pixie Party!</title>
+				<description>In this shop, you can buy games and decorations to throw your own Pixie Party!</description>
+				<highlightData>shopkeeper,-420,-255,-120,-255,-120,-195,-420,-195</highlightData> <!-- special case, set of points to follow -->
+				<featureIcon>shopkeeper</featureIcon>
+				<tutorialToOpen>parties</tutorialToOpen>
+				<leafjournalPage>parties</leafjournalPage>
+			</inContextParties>
+
+			<inContextBadges>
+				<title>You've earned your first badge!</title>
+				<description>Badges are awarded to celebrate all the great things you do in Pixie Hollow!</description>
+				<!--<highlightData>-647,-360,30</highlightData>-->
+				<highlightData>sparkelsandarrow,-647,-360,30,-530,-250,300</highlightData> <!-- arrow case means x/y coord plus rotation for the arrow -->
+				<featureIcon>leafJournal</featureIcon>
+				<tutorialToOpen>badges</tutorialToOpen>
+				<leafjournalPage>badges</leafjournalPage>
+			</inContextBadges>
+
+			<inContextGathering>
+				<title>You found an ingredient!</title>
+				<description>Ingredients can be used all over Pixie Hollow for shopping and crafting!</description>
+				<highlightData>sparkelsandarrow,-686,-320,25,-580,-210,300</highlightData>
+				<featureIcon>pouch</featureIcon>
+				<tutorialToOpen>gathering</tutorialToOpen>
+				<leafjournalPage>gathering</leafjournalPage>
+			</inContextGathering>
+
+			<inContextNewHome>
+				<title>Move into a new Fairy Home!</title>
+				<description>In this shop, you can buy a new Fairy Home to live in!</description>
+				<highlightData>shopkeeper,-420,-255,-120,-255,-120,-195,-420,-195</highlightData> <!-- special case, set of points to follow -->
+				<featureIcon>shopkeeper</featureIcon>
+				<tutorialToOpen>shops</tutorialToOpen>
+				<leafjournalPage>shops</leafjournalPage>
+			</inContextNewHome>
+			
+			<inContextAnimalFriendGiftPouch>
+				<title>Animal Friend Gifts</title>
+				
+				<description>Looks like #FFAIRYNAME# has just found a gift - #MSG# #ITEM#! If you take good care of your Animal Friend, it will bring all kinds of gifts!</description>
+				<highlightData>sparkelsandarrow,-686,-320,25,-580,-210,300</highlightData>
+				<featureIcon>animalFriendGift</featureIcon>
+				<tutorialToOpen>animalFriend</tutorialToOpen>
+				<leafjournalPage>gathering</leafjournalPage>
+			</inContextAnimalFriendGiftPouch>
+			
+			<inContextAnimalFriendGiftJournal>
+				<title>Animal Friend Gifts</title>
+				<description>Looks like #FFAIRYNAME# has just found a gift - #MSG# #ITEM#! If you take good care of your Animal Friend, it will bring all kinds of gifts!</description>
+				<highlightData>sparkelsandarrow,-647,-360,30,-530,-250,300</highlightData>
+				<featureIcon>animalFriendGift</featureIcon>
+				<tutorialToOpen>animalFriend</tutorialToOpen>
+				<leafjournalPage>storage</leafjournalPage>
+			</inContextAnimalFriendGiftJournal>
+			
+			<inContextAnimalFriendGiftJournalAF>
+				<title>Animal Friend Gifts</title>
+				<description>Looks like #FFAIRYNAME# has just found a gift - #MSG# #ITEM#! If you take good care of your Animal Friend, it will bring all kinds of gifts!</description>
+				<highlightData>sparkelsandarrow,-647,-360,30,-530,-250,300</highlightData>
+				<featureIcon>animalFriendGift</featureIcon>
+				<tutorialToOpen>animalFriend</tutorialToOpen>
+				<leafjournalPage>animalFriend</leafjournalPage>
+			</inContextAnimalFriendGiftJournalAF>
+
+			<inContextDiamondWallet>
+				<!-- custom alert that has special handling in the in context alert class...these values don't really get used for anything -->
+				<title>Pixie Diamonds!</title>
+				<description>Ready for a shopping spree?  Click on your Pixie Diamonds Wallet to get started!</description>
+				<highlightData>arrow,-400,-340,330</highlightData>
+				<featureIcon>diamondWallet</featureIcon>
+				<tutorialToOpen>pixiediamonds</tutorialToOpen>
+				<leafjournalPage>pixiediamonds</leafjournalPage>
+				<alternateCornerIconItemId>8499</alternateCornerIconItemId>
+			</inContextDiamondWallet>
+
+			<inContextPostOfficeEntry>
+				<title>Welcome to the Pixie Post Office!</title>
+				<description>Send Gift Sets to your friends and you get a matching set to wear too!&lt;br&gt;&lt;br&gt;Brighten your friends day by sending a Postcard with a customized message and design!</description>
+				<highlightData></highlightData>
+				<featureIcon>blank</featureIcon>
+				<tutorialToOpen>postoffice</tutorialToOpen>
+				<leafjournalPage></leafjournalPage>
+				<!-- <alternateCornerIconItemId>8499</alternateCornerIconItemId> -->
+				<alternateCornerIconFrame>postOfficeEntry</alternateCornerIconFrame>
+			</inContextPostOfficeEntry>
+
+			<inContextPostOfficePackageReceived>
+				<title>Special Delivery!</title>
+				<description>Your friend sent you a package from the Pixie Post Office!&lt;br&gt;&lt;br&gt;Click your Fairy Home icon when you see a gift next to it.</description>
+				<highlightData></highlightData>
+				<featureIcon>blank</featureIcon>
+				<tutorialToOpen>postoffice</tutorialToOpen>
+				<leafjournalPage></leafjournalPage>
+				<!-- <alternateCornerIconItemId>8499</alternateCornerIconItemId> -->
+				<alternateCornerIconFrame>postOfficeGift</alternateCornerIconFrame>
+			</inContextPostOfficePackageReceived>
+
+			<inContextQueensBoutique>
+				<title>Welcome to the Queen's Boutique!</title>
+				<description>Look like royalty with a stunning gown fit for Queen Clarion herself.&lt;br&gt;&lt;br&gt;These limited outfits won't last forever.&lt;br&gt;&lt;br&gt;Get yours before they sell out!
+				</description>
+				<highlightData>shopkeeper,-420,-255,-120,-255,-120,-195,-420,-195</highlightData>
+				<featureIcon>blank</featureIcon>
+				<tutorialToOpen>queens</tutorialToOpen>
+				<leafjournalPage></leafjournalPage>
+				<alternateCornerIconFrame>queensBoutique</alternateCornerIconFrame>
+			</inContextQueensBoutique>
+
+			<inContextGardenShop>
+				<title>Garden Supply Shop</title>
+				<description>Welcome to Brook's Garden Supply Shop, home of Surprise Seeds!&lt;br&gt;&lt;br&gt;Plant some in your garden today and see what grows!</description>
+				<highlightData>shopkeeper,-420,-255,-120,-255,-120,-195,-420,-195</highlightData>
+				<featureIcon>blank</featureIcon>
+				<tutorialToOpen>fairygardens</tutorialToOpen>
+				<leafjournalPage></leafjournalPage>
+				<alternateCornerIconFrame>garden</alternateCornerIconFrame>
+			</inContextGardenShop>
+
+			<inContextOwnGarden>
+				<title>Welcome to your Fairy Garden!</title>
+				<description>Plant Surprise Seeds in your Fairy Garden to grow all sorts of exciting rewards! Just click on any planting patch to get started.&lt;br&gt;&lt;br&gt;Visit Brook's Garden Supply in Dewdrop Vale to get more Surprise Seeds!</description>
+				<highlightData></highlightData>
+				<featureIcon>blank</featureIcon>
+				<tutorialToOpen>fairygardens</tutorialToOpen>
+				<leafjournalPage></leafjournalPage>
+				<alternateCornerIconFrame>garden</alternateCornerIconFrame>
+			</inContextOwnGarden>
+
+			<inContextOtherGarden>
+				<title>Sing to your friends' plants!</title>
+				<description>Did you know that plants like music? It's true!&lt;br&gt;&lt;br&gt;Just click on your friends' plants and then click the sing button.&lt;br&gt;&lt;br&gt;Keep singing to help your friends grow bonus surprises!</description>
+				<highlightData></highlightData>
+				<featureIcon>blank</featureIcon>
+				<tutorialToOpen>fairygardens</tutorialToOpen>
+				<leafjournalPage></leafjournalPage>
+				<alternateCornerIconFrame>garden</alternateCornerIconFrame>
+			</inContextOtherGarden>
+		</inContextAlerts>
+	</config>
+</panel>

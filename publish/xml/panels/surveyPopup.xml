@@ -1,0 +1,16 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/surveyPopup.swf</swf>
+		<swf type="code">{publishPanelCode}/surveyPopup.swf</swf>
+	</swfs>
+	
+	<copy>
+	</copy>
+	
+	<config>
+		<wallpapercolor>0x443578</wallpapercolor>
+		<surveyURL><![CDATA[http://survey.confirmit.com/wix/p1631097072.aspx]]></surveyURL>
+		<TOUURL><![CDATA[http://disney.go.com/corporate/privacy/terms.html?ppLink=pp_wdig]]></TOUURL>
+	</config>
+</panel>
+

@@ -1,0 +1,39 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/welcome.swf</swf>
+		<swf type="code">{panelCode}/welcome.swf</swf>
+	</swfs>
+	<copy>
+		<titleLabel target="label.namecopy">Today's Featured Fairies</titleLabel>
+		<label11 target="label1_1">Most</label11>
+		<label12 target="label1_2">Visited</label12>
+		<label21 target="label2_1">Highest</label21>
+		<label22 target="label2_2">Rated</label22>
+		<label31 target="label3_1">Most</label31>
+		<label32 target="label3_2">Active</label32>
+		<label41 target="label4_1">Most</label41>
+		<label42 target="label4_2">Recent</label42>
+		<ratedButtonLabel target="ratedcontainer.ratedbutton.label">See More</ratedButtonLabel> 
+		<ratedAmountLabel target="ratedcontainer.amountlabel">Rating</ratedAmountLabel> 
+		<visitedButtonLabel target="visitedcontainer.visitedbutton.label">See More</visitedButtonLabel>
+		<visitedAmountLabel target="visitedcontainer.amountlabel">Visits</visitedAmountLabel>
+		<activeButtonLabel target="activecontainer.activebutton.label">See More</activeButtonLabel>
+		<activeAmountLabel target= "activecontainer.amountlabel">Activity Points</activeAmountLabel>
+		<recentContainerButton target="recentcontainer.recentbutton.label">See More</recentContainerButton>
+		<recentAmountLabel target="recentcontainer.amountlabel">Arrival Day</recentAmountLabel>
+            <tink>Say "hello" to some of today's top Fairies! Come back tomorrow and see even more.</tink>
+            <tinkconfirm>Okay</tinkconfirm>
+		<dbfail>Oops! Unable to connect to the Fairy directory. Please try again in a few minutes.</dbfail>
+		<dbfailconfirm>Okay</dbfailconfirm>	
+		<tinkTipsText1 target="tinkbutton.tinksTip1">Tink's</tinkTipsText1>
+		<tinkTipsText2 target="tinkbutton.tinksTip2">Tips</tinkTipsText2>
+	</copy>
+	<config>
+		<util>
+			<panelActive>active.xml</panelActive>
+			<panelRated>rated.xml</panelRated>
+			<panelRecent>recent.xml</panelRecent>
+			<panelVisited>visited.xml</panelVisited>
+		</util>
+	</config>
+</panel>

@@ -1,0 +1,3102 @@
+<targetedPopups>
+	
+			
+	<defaultPopupConfirm>Confirm</defaultPopupConfirm>
+	<defaultPopupCancel>Cancel</defaultPopupCancel>
+	
+    <!-- cfg value that determines how often you will see ANY popup...for instance say we want at least a day gap between popups -->
+    <!-- not needed for MS22 globalDelay>24h</globalDelay-->
+
+    <!-- etc., other global scope configuration parameters -->
+
+    <!-- list of popups. for those that are enabled, we will loop through and find the most recently created that applies to this class of user -->
+    <popups>
+		
+		<popup id="10" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+			<timeoutDelay>10</timeoutDelay>
+            <content>
+				<title>NO OFFER</title>
+				<desc>TEST DESCRIPTION 1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+	
+        
+       		
+		<!-- **************** -->
+		<!-- START TEST CODES -->
+		<!-- **************** -->			
+		
+		
+		<!-- START PLAYER_TYPE_ID 1 VIRGIN_FREE -->				
+			
+        <popup id="100" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>player has never paid</title>
+				<desc>PLAYER_TYPE_ID 1: VIRGIN FREE - BUCKET_ID: 1 - OFFER ID: A0</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	 
+        
+        <popup id="101" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>player has never paid</title>
+				<desc>PLAYER_TYPE_ID 1: VIRGIN FREE - BUCKET_ID: 2 - OFFER ID: A1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+		
+        <popup id="102" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>player has never paid</title>
+				<desc>PLAYER_TYPE_ID 1: VIRGIN FREE - BUCKET_ID: 3 - OFFER ID: A2</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+			
+        <popup id="103" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>player has never paid</title>
+				<desc>PLAYER_TYPE_ID 1: VIRGIN FREE - BUCKET_ID: 4 - OFFER ID: A3</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+		
+        <popup id="104" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>player has never paid</title>
+				<desc>PLAYER_TYPE_ID 1: VIRGIN FREE - BUCKET_ID: 5 - OFFER ID: A4</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="105" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>player has never paid</title>
+				<desc>PLAYER_TYPE_ID 1: VIRGIN FREE - BUCKET_ID: 6 - OFFER ID: A5</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="106" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>player has never paid</title>
+				<desc>PLAYER_TYPE_ID 1: VIRGIN FREE - BUCKET_ID: 7 - OFFER ID: A6</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="107" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>player has never paid</title>
+				<desc>PLAYER_TYPE_ID 1: VIRGIN FREE - BUCKET_ID: 8 - OFFER ID: A7</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="108" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>player has never paid</title>
+				<desc>PLAYER_TYPE_ID 1: VIRGIN FREE - BUCKET_ID: 9 - OFFER ID: A8</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+		
+        <popup id="109" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>player has never paid</title>
+				<desc>PLAYER_TYPE_ID 1: VIRGIN FREE - BUCKET_ID: 10 - OFFER ID: A9</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>		
+		
+		<!-- START PLAYER_TYPE_ID 2 FREE_MTX -->		
+		
+        <popup id="110" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Free with previous MTX purchase</title>
+				<desc>PLAYER_TYPE_ID 2: FREE_MTX - BUCKET_ID: 1 - OFFER ID: B0</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+		
+        <popup id="111" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Free with previous MTX purchase</title>
+				<desc>PLAYER_TYPE_ID 2: FREE_MTX - BUCKET_ID: 2 - OFFER ID: B1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="112" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Free with previous MTX purchase</title>
+				<desc>PLAYER_TYPE_ID 2: FREE_MTX - BUCKET_ID: 3 - OFFER ID: B2</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="113" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Free with previous MTX purchase</title>
+				<desc>PLAYER_TYPE_ID 2: FREE_MTX - BUCKET_ID: 4 - OFFER ID: B3</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="114" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Free with previous MTX purchase</title>
+				<desc>PLAYER_TYPE_ID 2: FREE_MTX - BUCKET_ID: 5 - OFFER ID: B4</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="115" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Free with previous MTX purchase</title>
+				<desc>PLAYER_TYPE_ID 2: FREE_MTX - BUCKET_ID: 6 - OFFER ID: B5</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="116" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Free with previous MTX purchase</title>
+				<desc>PLAYER_TYPE_ID 2: FREE_MTX - BUCKET_ID: 7 - OFFER ID: B6</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="117" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Free with previous MTX purchase</title>
+				<desc>PLAYER_TYPE_ID 2: FREE_MTX - BUCKET_ID: 8 - OFFER ID: B7</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+		
+        <popup id="118" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Free with previous MTX purchase</title>
+				<desc>PLAYER_TYPE_ID 2: FREE_MTX - BUCKET_ID: 9 - OFFER ID: B8</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>		
+		
+		
+        <popup id="119" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Free with previous MTX purchase</title>
+				<desc>PLAYER_TYPE_ID 2: FREE_MTX - BUCKET_ID: 10 - OFFER ID: B9</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>		
+		
+		<!-- START PLAYER_TYPE_ID 3 FREE_SUB -->		
+		
+        <popup id="120" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub</title>
+				<desc>PLAYER_TYPE_ID 3: FREE_SUB - BUCKET_ID:1 - OFFER ID: C0</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>			
+		
+        <popup id="121" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub</title>
+				<desc>PLAYER_TYPE_ID 3: FREE_SUB - BUCKET_ID:2 - OFFER ID: C1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="122" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub</title>
+				<desc>PLAYER_TYPE_ID 3: FREE_SUB - BUCKET_ID:3 - OFFER ID: C2</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="123" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub</title>
+				<desc>PLAYER_TYPE_ID 3: FREE_SUB - BUCKET_ID:4 - OFFER ID: C3</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="124" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub</title>
+				<desc>PLAYER_TYPE_ID 3: FREE_SUB - BUCKET_ID:5 - OFFER ID: C4</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="125" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub</title>
+				<desc>PLAYER_TYPE_ID 3: FREE_SUB - BUCKET_ID:6 - OFFER ID: C5</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="126" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub</title>
+				<desc>PLAYER_TYPE_ID 3: FREE_SUB - BUCKET_ID:7 - OFFER ID: C6</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+
+		
+        <popup id="127" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub</title>
+				<desc>PLAYER_TYPE_ID 3: FREE_SUB - BUCKET_ID:8 - OFFER ID: C7</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+
+		
+        <popup id="128" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub</title>
+				<desc>PLAYER_TYPE_ID 3: FREE_SUB - BUCKET_ID:9 - OFFER ID: C8</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+
+		
+        <popup id="129" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub</title>
+				<desc>PLAYER_TYPE_ID 3: FREE_SUB - BUCKET_ID:10 - OFFER ID: C9</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+		<!-- START PLAYER_TYPE_ID 4 FREE_MTX_SUB -->
+		
+        <popup id="130" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub AND MTX</title>
+				<desc>PLAYER_TYPE_ID 4: FREE_MTX_SUB - BUCKET_ID:1 - OFFER ID: D0</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="131" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub AND MTX</title>
+				<desc>PLAYER_TYPE_ID 4: FREE_MTX_SUB - BUCKET_ID:2 - OFFER ID: D1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+		
+        <popup id="132" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub AND MTX</title>
+				<desc>PLAYER_TYPE_ID 4: FREE_MTX_SUB - BUCKET_ID:3 - OFFER ID: D2</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>		
+		
+        <popup id="133" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub AND MTX</title>
+				<desc>PLAYER_TYPE_ID 4: FREE_MTX_SUB - BUCKET_ID:4 - OFFER ID: D3</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+		
+        <popup id="134" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub AND MTX</title>
+				<desc>PLAYER_TYPE_ID 4: FREE_MTX_SUB - BUCKET_ID:5 - OFFER ID: D4</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>		
+		
+        <popup id="135" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub AND MTX</title>
+				<desc>PLAYER_TYPE_ID 4: FREE_MTX_SUB - BUCKET_ID:6 - OFFER ID: D5</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+		
+        <popup id="136" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub AND MTX</title>
+				<desc>PLAYER_TYPE_ID 4: FREE_MTX_SUB - BUCKET_ID:7 - OFFER ID: D6</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>		
+		
+        <popup id="137" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub AND MTX</title>
+				<desc>PLAYER_TYPE_ID 4: FREE_MTX_SUB - BUCKET_ID:8 - OFFER ID: D7</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+		
+        <popup id="138" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub AND MTX</title>
+				<desc>PLAYER_TYPE_ID 4: FREE_MTX_SUB - BUCKET_ID:9 - OFFER ID: D8</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>		
+		
+		
+        <popup id="139" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Currently free, had prior sub AND MTX</title>
+				<desc>PLAYER_TYPE_ID 4: FREE_MTX_SUB - BUCKET_ID:10 - OFFER ID: D9</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>		
+		
+		<!-- START PLAYER_TYPE_ID 5 SUB_1M -->
+		
+        <popup id="140" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly, no MTX history</title>
+				<desc>PLAYER_TYPE_ID 5: SUB_1M - BUCKET_ID:1 - OFFER ID: E0</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+		
+        <popup id="141" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly, no MTX history</title>
+				<desc>PLAYER_TYPE_ID 5: SUB_1M - BUCKET_ID:2 - OFFER ID: E1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="142" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly, no MTX history</title>
+				<desc>PLAYER_TYPE_ID 5: SUB_1M - BUCKET_ID:3 - OFFER ID: E2</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="143" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly, no MTX history</title>
+				<desc>PLAYER_TYPE_ID 5: SUB_1M - BUCKET_ID:4 - OFFER ID: E3</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+		
+        <popup id="144" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly, no MTX history</title>
+				<desc>PLAYER_TYPE_ID 5: SUB_1M - BUCKET_ID:5 - OFFER ID: E4</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="145" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly, no MTX history</title>
+				<desc>PLAYER_TYPE_ID 5: SUB_1M - BUCKET_ID:6 - OFFER ID: E5</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>			
+		
+        <popup id="146" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly, no MTX history</title>
+				<desc>PLAYER_TYPE_ID 5: SUB_1M - BUCKET_ID:7 - OFFER ID: E6</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="147" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly, no MTX history</title>
+				<desc>PLAYER_TYPE_ID 5: SUB_1M - BUCKET_ID:8 - OFFER ID: E7</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+		
+        <popup id="148" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly, no MTX history</title>
+				<desc>PLAYER_TYPE_ID 5: SUB_1M - BUCKET_ID:9 - OFFER ID: E8</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+		
+        <popup id="149" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly, no MTX history</title>
+				<desc>PLAYER_TYPE_ID 5: SUB_1M - BUCKET_ID:10 - OFFER ID: E9</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>			
+		
+		<!-- START PLAYER_TYPE_ID 6 SUB_1M -->
+		
+        <popup id="150" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 6: SUB_1M_MTX - BUCKET_ID:1 - OFFER ID: F0</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>			
+		
+        <popup id="151" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 6: SUB_1M_MTX - BUCKET_ID:2 - OFFER ID: F1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+		
+        <popup id="152" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 6: SUB_1M_MTX - BUCKET_ID:3 - OFFER ID: F2</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+        <popup id="153" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 6: SUB_1M_MTX - BUCKET_ID:4 - OFFER ID: F3</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>			
+		
+        <popup id="154" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 6: SUB_1M_MTX - BUCKET_ID:5 - OFFER ID: F4</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+		
+        <popup id="155" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 6: SUB_1M_MTX - BUCKET_ID:6 - OFFER ID: F5</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+		
+        <popup id="156" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 6: SUB_1M_MTX - BUCKET_ID:7 - OFFER ID: F6</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+		
+        <popup id="157" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 6: SUB_1M_MTX - BUCKET_ID:8 - OFFER ID: F7</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+		
+        <popup id="158" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 6: SUB_1M_MTX - BUCKET_ID:9 - OFFER ID: F8</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+		
+        <popup id="159" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currently monthly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 6: SUB_1M_MTX - BUCKET_ID:10 - OFFER ID: F9</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+		
+		<!-- START PLAYER_TYPE_ID 7 SUB_6M -->	
+			
+			
+        <popup id="160" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 7: SUB_6M - BUCKET_ID:1 - OFFER ID: G0</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+
+			
+        <popup id="161" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 7: SUB_6M - BUCKET_ID:2 - OFFER ID: G1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+			
+        <popup id="162" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 7: SUB_6M - BUCKET_ID:3 - OFFER ID: G2</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+
+			
+        <popup id="163" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 7: SUB_6M - BUCKET_ID:4 - OFFER ID: G3</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+
+			
+        <popup id="164" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 7: SUB_6M - BUCKET_ID:5 - OFFER ID: G4</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+
+			
+        <popup id="165" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 7: SUB_6M - BUCKET_ID:6 - OFFER ID: G5</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+
+			
+        <popup id="166" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 7: SUB_6M - BUCKET_ID:7 - OFFER ID: G6</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+
+			
+        <popup id="167" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 7: SUB_6M - BUCKET_ID:8 - OFFER ID: G7</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+
+				
+        <popup id="168" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 7: SUB_6M - BUCKET_ID:9 - OFFER ID: G8</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+
+			
+        <popup id="169" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 7: SUB_6M - BUCKET_ID:10 - OFFER ID: G9</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+
+	
+		
+		<!-- START PLAYER_TYPE_ID 8 SUB_6M_MTX -->	
+
+			
+        <popup id="170" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 8: SUB_6M_MTX - BUCKET_ID:1 - OFFER ID: H0</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>	
+			
+        <popup id="171" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 8: SUB_6M_MTX - BUCKET_ID:2 - OFFER ID: H1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+			
+        <popup id="172" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 8: SUB_6M_MTX - BUCKET_ID:3 - OFFER ID: H2</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+				
+        <popup id="173" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 8: SUB_6M_MTX - BUCKET_ID:4 - OFFER ID: H3</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+				
+        <popup id="174" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 8: SUB_6M_MTX - BUCKET_ID:5 - OFFER ID: H4</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+				
+        <popup id="175" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 8: SUB_6M_MTX - BUCKET_ID:6 - OFFER ID: H5</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+				
+        <popup id="176" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 8: SUB_6M_MTX - BUCKET_ID:7 - OFFER ID: H6</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+				
+        <popup id="177" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 8: SUB_6M_MTX - BUCKET_ID:8 - OFFER ID: H7</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+				
+        <popup id="178" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 8: SUB_6M_MTX - BUCKET_ID:9 - OFFER ID: H8</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+				
+        <popup id="179" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 6 month WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 8: SUB_6M_MTX - BUCKET_ID:10 - OFFER ID: H9</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+	
+		
+		<!-- START PLAYER_TYPE_ID 9 SUB_6M_MTX -->	
+
+				
+        <popup id="180" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 1 year with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 9: SUB_1Y - BUCKET_ID:1 - OFFER ID: I0</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+				
+        <popup id="181" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 1 year with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 9: SUB_1Y - BUCKET_ID:2 - OFFER ID: I1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+				
+        <popup id="182" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 1 year with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 9: SUB_1Y - BUCKET_ID:3 - OFFER ID: I2</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>		
+		
+				
+        <popup id="183" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 1 year with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 9: SUB_1Y - BUCKET_ID:4 - OFFER ID: I3</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+				
+        <popup id="184" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 1 year with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 9: SUB_1Y - BUCKET_ID:5 - OFFER ID: I4</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+						
+        <popup id="185" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 1 year with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 9: SUB_1Y - BUCKET_ID:6 - OFFER ID: I5</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+						
+        <popup id="186" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 1 year with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 9: SUB_1Y - BUCKET_ID:7 - OFFER ID: I6</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+						
+        <popup id="187" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 1 year with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 9: SUB_1Y - BUCKET_ID:8 - OFFER ID: I7</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+						
+        <popup id="188" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 1 year with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 9: SUB_1Y - BUCKET_ID:9 - OFFER ID: I8</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+						
+        <popup id="189" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>current 1 year with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 9: SUB_1Y - BUCKET_ID:10 - OFFER ID: I9</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+				
+		<!-- START PLAYER_TYPE_ID 10 SUB_1Y_MTX -->
+								
+        <popup id="190" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currennt 1 year WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 10: SUB_1Y_MTX - BUCKET_ID:1 - OFFER ID: J0</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+										
+        <popup id="191" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currennt 1 year WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 10: SUB_1Y_MTX - BUCKET_ID:2 - OFFER ID: J1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+										
+        <popup id="192" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currennt 1 year WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 10: SUB_1Y_MTX - BUCKET_ID:3 - OFFER ID: J2</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+										
+        <popup id="193" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currennt 1 year WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 10: SUB_1Y_MTX - BUCKET_ID:4 - OFFER ID: J3</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+										
+        <popup id="194" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currennt 1 year WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 10: SUB_1Y_MTX - BUCKET_ID:5 - OFFER ID: J4</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+										
+        <popup id="195" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currennt 1 year WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 10: SUB_1Y_MTX - BUCKET_ID:6 - OFFER ID: J5</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+										
+        <popup id="196" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currennt 1 year WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 10: SUB_1Y_MTX - BUCKET_ID:7 - OFFER ID: J6</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+										
+        <popup id="197" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currennt 1 year WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 10: SUB_1Y_MTX - BUCKET_ID:8 - OFFER ID: J7</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+										
+        <popup id="198" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currennt 1 year WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 10: SUB_1Y_MTX - BUCKET_ID:9 - OFFER ID: J8</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+										
+        <popup id="199" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>currennt 1 year WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 10: SUB_1Y_MTX - BUCKET_ID:10 - OFFER ID: J9</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+				
+		<!-- START PLAYER_TYPE_ID 11 SUB_7D -->
+										
+        <popup id="200" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 11: SUB_7D - BUCKET_ID:1 - OFFER ID: K0</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+												
+        <popup id="201" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 11: SUB_7D - BUCKET_ID:2 - OFFER ID: K1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+												
+        <popup id="202" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 11: SUB_7D - BUCKET_ID:3 - OFFER ID: K2</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+												
+        <popup id="203" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 11: SUB_7D - BUCKET_ID:4 - OFFER ID: K3</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+												
+        <popup id="204" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 11: SUB_7D - BUCKET_ID:5 - OFFER ID: K4</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+												
+        <popup id="205" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 11: SUB_7D - BUCKET_ID:6 - OFFER ID: K5</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+												
+        <popup id="206" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 11: SUB_7D - BUCKET_ID:7 - OFFER ID: K6</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+												
+        <popup id="207" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 11: SUB_7D - BUCKET_ID:8 - OFFER ID: K7</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+												
+        <popup id="208" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 11: SUB_7D - BUCKET_ID:9 - OFFER ID: K8</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+												
+        <popup id="209" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly with no MTX history</title>
+				<desc>PLAYER_TYPE_ID 11: SUB_7D - BUCKET_ID:10 - OFFER ID: K9</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		
+						
+		<!-- START PLAYER_TYPE_ID 12 SUB_7D_MTX -->
+												
+        <popup id="210" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 12: SUB_7D_MTX - BUCKET_ID:1 - OFFER ID: l0</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+										
+		
+												
+        <popup id="211" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 12: SUB_7D_MTX - BUCKET_ID:2 - OFFER ID: l1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+														
+        <popup id="212" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 12: SUB_7D_MTX - BUCKET_ID:3 - OFFER ID: l2</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+														
+        <popup id="213" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 12: SUB_7D_MTX - BUCKET_ID:4 - OFFER ID: l3</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+														
+        <popup id="214" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 12: SUB_7D_MTX - BUCKET_ID:5 - OFFER ID: l4</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+														
+        <popup id="215" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 12: SUB_7D_MTX - BUCKET_ID:6 - OFFER ID: l5</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+														
+        <popup id="216" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 12: SUB_7D_MTX - BUCKET_ID:7 - OFFER ID: l6</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+														
+        <popup id="217" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 12: SUB_7D_MTX - BUCKET_ID:8 - OFFER ID: l7</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+																
+        <popup id="218" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 12: SUB_7D_MTX - BUCKET_ID:9 - OFFER ID: l8</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+																
+        <popup id="219" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>Current weekly WITH MTX history</title>
+				<desc>PLAYER_TYPE_ID 12: SUB_7D_MTX - BUCKET_ID:10 - OFFER ID: l9</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+												
+										
+
+		<!-- ************** -->
+		<!-- END TEST CODES -->
+		<!-- ************** -->		
+		
+		
+        <popup id="500" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Pixie Diamonds half price SALE! Limited time only</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>NO OFFER</title>
+				<desc>TEST DESCRIPTION 1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>
+		<popup id="501" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Sept. 2012 popup for brand new users</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			<promoType>NONE</promoType>
+            <content>
+				<title>NO OFFER</title>
+				<desc>TEST DESCRIPTION 1</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>		
+		<popup id="10001" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Sept. 2012 popup for brand new users</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			
+			
+			<promoType>diamonds</promoType>
+            <content>
+				<title>Pixie Diamonds!</title>
+				<desc>Get Diamonds</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>				
+            </content>
+
+        </popup>
+		<popup id="10002" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Sept. 2012 popup for brand new users</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+			
+			<promoType>diamonds</promoType>
+            <content>
+				<title>Pixie Diamonds!</title>
+				<desc>Pixie Diamonds half price SALE! Limited time only</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>				
+            </content>
+
+        </popup>
+		<popup id="10003" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Sept. 2012 popup for brand new users</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+
+			<promoType>diamonds</promoType>
+            <content>
+				<title>Pixie Diamonds!</title>
+				<desc>Double Diamonds SALE! Limited time only</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>
+            </content>
+
+        </popup>		
+		<popup id="10006" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Sept. 2012 popup for brand new users</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+
+			<promoType>diamonds</promoType>
+            <content>
+				<title>Pixie Diamonds!</title>
+				<desc>Pixie Diamonds half price SALE! Limited time only</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>				
+            </content>
+
+        </popup>	
+		<popup id="10007" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Sept. 2012 popup for brand new users</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+
+			<promoType>diamonds</promoType>
+            <content>
+				<title>Pixie Diamonds!</title>
+				<desc>Pixie Diamonds half price SALE! Limited time only</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>				
+            </content>
+
+        </popup>
+		<popup id="10008" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Sept. 2012 popup for brand new users</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+
+			<promoType>diamonds</promoType>
+            <content>
+				<title>Pixie Diamonds!</title>
+				<desc>Double Diamonds SALE! Limited time only</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>				
+            </content>
+        </popup>		
+        <popup id="10009" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Sept. 2012 popup for brand new users</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+
+			<promoType>diamonds</promoType>
+            <content>
+				<title>Pixie Diamonds!</title>
+				<desc>Double Diamonds SALE! Limited time only</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>				
+            </content>
+        </popup>
+        <popup id="10010" enableStart="2012-09-05" enableEnd="2012-09-31" maxTimesToShow="5">
+            <name>Sept. 2012 popup for brand new users</name>
+
+            <!-- if no restrictions, then this user qualifies. If restrictions are here, user must meet ALL criteria to qualify -->
+            <restrictions>
+                <!-- comma delimited. if omitted, don't consider membership when deciding if we should show this popup -->
+                <currentMembership>none</currentMembership>
+
+                <!-- comma delimited. if omitted, don't consider prior when deciding if we should show this popup -->
+                <priorMembership>none</priorMembership>
+
+                <!-- etc. -->
+            </restrictions>
+
+			<promoType>diamonds</promoType>
+            <content>
+				<title>Pixie Diamonds!</title>
+				<desc>Double Diamonds SALE! Limited time only</desc>
+				<imageURL><![CDATA[images/target_popups/image02.png]]></imageURL>
+				<confirmButtonCopy>Go Now</confirmButtonCopy>				
+            </content>
+        </popup>		
+    </popups>
+</targetedPopups>

@@ -1,0 +1,11 @@
+<panelSet>
+	<panels>
+		<!--panel id="pixieDustMill" x="55" y="50" alwaysOnTop="false">{panelData}/pixieDustMill.xml</panel>
+		<panel id="pixieDustMillAnimations" x="55" y="50" alwaysOnTop="true">{panelData}/pixieDustMillAnimations.xml</panel-->
+		<panel id="pixieDustMillOuterAnimations" x="55" y="50" alwaysOnTop="true">{panelData}/pixieDustMillOuterAnimations.xml</panel>
+	</panels>
+	<config>
+	</config>
+	<copy>
+	</copy>
+</panelSet>

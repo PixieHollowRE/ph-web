@@ -1,0 +1,38 @@
+<zone>
+  <name>Pixie Dust Mill</name>
+  <zoneID>807</zoneID>
+  <assetURL/>
+  <audioLibrary>quest_music_terence</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="ground" width="888" height="509">
+        <image x="0" y="0" type="merge">EC_action_03.swf</image>
+      </layer>
+      <layer type="normal" width="888" height="509">
+        <image x="0" y="0" type="none">EC_forground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="600" y="300">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>quest_music_terence</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

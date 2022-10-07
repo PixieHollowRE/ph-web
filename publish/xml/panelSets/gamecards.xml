@@ -1,0 +1,31 @@
+<panelSet>
+
+	<panels>
+	
+		<!--panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{publishPanelData}/bg_gradient.xml</panel-->
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{publishPanelData}/leftSideStatic.xml</panel>
+		<panel id="manager" x="70" y="-38" alwaysOnTop="true">{publishPanelData}/gamecards.xml</panel>
+		<panel id="gameCardsTextTop" x="170" hidden="true" transition="none">{publishPanelData}/gamecardsTextTop.xml</panel>
+		<panel id="gameCardsTextBottom" x="170" hidden="true" transition="none">{publishPanelData}/gamecardsTextBottom.xml</panel>
+		<panel id="gameCardPopup" x="300" y="300" hidden="true" transition="none" alwaysOnTop="true">{publishPanelData}/gameCardPopup.xml</panel>
+		<panel id="mmCardPopup" x="300" y="300" hidden="true" transition="none" alwaysOnTop="true">{publishPanelData}/mmCardPopup.xml</panel>
+	
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>gamecards</trackingid>
+		<sectionid>membership</sectionid>
+		<pageid>gamecards</pageid>
+		<menu>
+			<title>
+				<text>menutitle</text>
+				<subtext>menusubtitle</subtext>
+				<!--channel>home.htm</channel-->       
+			</title>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>Pixie Hollow Game Cards</menutitle>
+	</copy>
+</panelSet>

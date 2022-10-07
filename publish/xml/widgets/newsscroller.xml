@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<newsscroller>
+	<newsfeed>http://blog.pixiehollow.go.com/blog/main/feed2/entries/atom?numEntries=3</newsfeed>
+	<newslink>nevernews.html</newslink>
+	<eventslink>events.html</eventslink>
+	<knownissueslink>knownissues.html</knownissueslink>
+	<defaultlink>nevernews.html</defaultlink>
+</newsscroller>

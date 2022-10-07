@@ -1,0 +1,14 @@
+<level>
+	<rosettaStartMessage>Fly quickly, sugar - the wind is blowing awful fast!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>	
+	<objective>Capture 10 ###petal1### petals, 10 ###petal2### petals, 12 ###petal3### petals, 12 ###petal4### petals and 16 ###petal4### petals!</objective>
+	
+	<randomPetalConfig>10-6,10-6,12-6,12-6,16-6</randomPetalConfig>
+	<multiplierChance>15</multiplierChance>
+	<bees>1</bees>
+	<petalspeed min="3" max="4"/>
+	<powerups stopwind="2" extratime="2" removebees="1"/>
+	<minLegalPetalCount>2</minLegalPetalCount>
+	<timeLimit>40</timeLimit>
+</level>

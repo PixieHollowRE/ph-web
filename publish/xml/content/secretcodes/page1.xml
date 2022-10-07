@@ -1,0 +1,12 @@
+<page>
+	<config>
+	
+		<dollpanel type="panel" panel="secretCodes_content" />
+	</config>
+	<copy>
+		<infoText></infoText>
+		<learnMore></learnMore>
+		<header><![CDATA[<span class="newsbodytext">Secret Codes</span>]]></header>
+	
+	</copy>
+</page>

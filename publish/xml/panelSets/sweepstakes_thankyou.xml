@@ -1,0 +1,30 @@
+<panelSet>
+	<panels>
+		<!--panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{publishPanelData}/bg_gradient.xml</panel-->
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{publishPanelData}/leftSideStatic.xml</panel>
+		<panel id="manager" x="70" y="-38" alwaysOnTop="false">{publishPanelData}/contests_thankyou.xml</panel>
+		<panel id="thankyou" x="70" hidden="true" transition="none">{publishPanelData}/sweepstakes_thankyouform.xml</panel> 
+		<!--<panel id="logos" x="340" y="960" alwaysOnTop="true"  hidden="false" transition="none">{publishPanelData}/logos.xml</panel>-->
+		
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>ugcthankyou</trackingid>
+		
+		<regionid>contests</regionid>
+		<sectionid>community</sectionid>
+		<pageid>ugcthankyou</pageid>
+
+		<menu>
+			<title>
+				<text>menutitle</text>
+				<subtext>menusubtitle</subtext>
+				<!--channel>home.htm</channel-->       
+			</title>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>Contests</menutitle>
+	</copy>
+</panelSet>

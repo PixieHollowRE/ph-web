@@ -1,0 +1,9 @@
+<panelSet>
+	<panels>
+		<panel id="minigame" x="0" y="0" transition="none">{panelData}/miniGameContainer.xml</panel>
+	</panels>
+	<config>
+	</config>
+	<copy>
+	</copy>
+</panelSet>

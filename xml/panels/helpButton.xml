@@ -1,0 +1,15 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/helpButton.swf</swf>
+		<swf type="code">{panelCode}/helpButton.swf</swf>
+	</swfs>
+	<copy>
+		<help target = "helpContent.helpTF">HELP</help>
+		<contact target = "contactButton.contactButtonText">CONTACT US</contact>
+		<confirmLink>You will leave Pixie Hollow if you follow this link. Are you sure you would like to leave?</confirmLink>
+		<confirmYes>Leave</confirmYes>
+		<confirmNo>Stay</confirmNo>
+	</copy>
+	<config>
+	</config>
+</panel>

@@ -1,0 +1,13 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/friends.swf</swf>
+		<swf type="code">{panelCode}/friends.swf</swf>
+	</swfs>
+	<config></config>
+	<copy>
+		<title target="contents.title"></title>
+		<tool_tip>Friends</tool_tip>
+		<fairies_text target="contents.tabset.btn0.caption">Friends</fairies_text>
+		<ignore_text target="contents.tabset.btn1.caption">Ignored</ignore_text>
+	</copy>
+</panel>

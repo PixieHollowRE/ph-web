@@ -1,0 +1,18 @@
+<level>
+	<tip>You need to capture two or more at a time!</tip>
+	<tipImage>11</tipImage>
+	
+	<rosettaStartMessage>The wind is blowing so fast. Loop 2 petals at a time!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>	
+	<objective>Capture 20 ###petal1### petals!</objective>
+	
+	<randomPetalConfig>20-20</randomPetalConfig>
+	<multiplierChance>12</multiplierChance>
+	<bees>0</bees>
+	<petalspeed min="1" max="3"/>
+	<powerups stopwind="1" extratime="2" removebees="0"/>
+	
+	<minLegalPetalCount>2</minLegalPetalCount>
+	<timeLimit>30</timeLimit>
+</level>

@@ -1,0 +1,1237 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/rolipoliPainting.swf</swf>
+		<swf type="code">{panelCode}/rolipoliPainting.swf</swf>
+	</swfs>
+	<copy>
+		<title target="title.title.heading">rolipoliPainting</title>
+		<level>Level</level>
+		<score>Score</score>
+		<play_button target="title.btnContainer.playBtn.caption">Play</play_button>
+		<help_button target="title.btnContainer.helpBtn.caption">Instructions</help_button>
+		<quit_button target="title.btnContainer.quitBtn.caption">Exit</quit_button>
+
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">How to Play</inst_screen_title>
+		<instruction0>Use the paddle to bounce the roly-poly bug. He'll spread the dye as he rolls over your material.</instruction0>
+		<instruction1>The roly-poly bug will bounce off the pin-bumpers.</instruction1>
+		<instruction2>Color as much of the material as you can before your dye runs out.</instruction2>
+		
+		<inst_play target="instructions.btnContainer.playBtn.play_text">Play</inst_play>
+		<inst_back target="instructions.btnContainer.backBtn.back_text">Back</inst_back>		
+		<inst_cont target="instructions.btnContainer.continueBtn.quit_text">Continue</inst_cont>
+		<inst_quit target="instructions.btnContainer.quitBtn.quit_text">Quit</inst_quit>
+
+		<title>Roly-Poly Painting</title>		<!-- _aText[0] -->
+		<subtitle>Level</subtitle>				<!-- _aText[1] -->
+		<leftHeading>left1</leftHeading>		<!-- _aText[2] -->
+		<leftSubHeading>left2</leftSubHeading>	<!-- _aText[3] -->
+		<rightHeading>Chains</rightHeading>		<!-- _aText[4] -->
+		<rightSubHeading>0</rightSubHeading>	<!-- _aText[5] -->
+		<chance>CHANCES</chance>				<!-- _aText[6] -->
+		<score>SCORE</score>					<!-- _aText[7] -->
+		<level>Level</level>					<!-- _aText[8] -->
+		<completed>Complete</completed>			<!-- _aText[9] -->
+		<gamecomplete>Game Complete</gamecomplete> <!-- _aText[10] -->
+		<niceTry>Done!</niceTry>			<!-- _aText[11] -->
+		<continue>Continue</continue>			<!-- _aText[12] -->
+		<tailoring>Tailoring</tailoring>		<!-- _aText[13] -->
+		<keepGoing>Keep Going!</keepGoing>		<!-- _aText[14] -->
+
+		<bobbinEncourage0>Watch that roly-poly go!</bobbinEncourage0>
+		<bobbinEncourage1>These little fellows sure love rolling!</bobbinEncourage1>
+		<bobbinEncourage2>Keep him rolling, keep him rolling!</bobbinEncourage2>
+		<bobbinEncourage3>Nice bounce, roly-poly!</bobbinEncourage3>
+		<bobbinEncourage4>You're doing a stitch-arific job so far!</bobbinEncourage4>
+		<bobbinEncourage5>Do ya think roly-polies get dizzy?</bobbinEncourage5>
+		<bobbinEncourage6>Keep that roly-poly rolling!</bobbinEncourage6>
+		
+		<bobbinDiscourage0>Hem and darn! Ya lost one!</bobbinDiscourage0>
+		<bobbinDiscourage1>Don't fret, ya got more dye!</bobbinDiscourage1>
+		<bobbinDiscourage2>Aw, ya missed him!</bobbinDiscourage2>
+		<bobbinDiscourage3>Well, ya can't bounce 'em all!</bobbinDiscourage3>
+		
+		<bobbinPoor0>That was a good try at dye rolling. I betcha you'll do better next time!</bobbinPoor0>
+		<bobbinPoor1>Not bad rolling for a beginner. Keep trying!</bobbinPoor1>
+		<bobbinPoor2>Just keep on rolling! I know you'll do it better next time!</bobbinPoor2>
+		<bobbinPoor3>All it takes is a little more practice, and you'll be rolling like a pro!</bobbinPoor3>
+
+		<bobbinGood0>Nice rolling! Have ya done this before?</bobbinGood0>
+		<bobbinGood1>Hey-oh! Nice coloring work there! I'm proud of ya!</bobbinGood1>
+		<bobbinGood2>Well, thread a needle, you're pretty handy-dandy with that dye!</bobbinGood2>
+		<bobbinGood3>You're pretty good with this whole dye rolling thing, ya know that?</bobbinGood3>
+
+		<bobbinGreat0>Wow and double wow! Are you sure you're not a dye-talent?</bobbinGreat0>
+		<bobbinGreat1>Well, stitch my hem, you're a coloring natural!</bobbinGreat1>
+		<bobbinGreat2>Roller-ific! Ya sure know how to give a roly-poly a workout!</bobbinGreat2>
+		<bobbinGreat3>Knot my thread, that was some tailor-tastic coloring ya did there!</bobbinGreat3>
+
+		<bobbinAwesome0>Okay, I'm totally wowed. That was an amazing roll job!</bobbinAwesome0>
+		<bobbinAwesome1>Ya might be the best roly-poly painter I've ever seen!</bobbinAwesome1>
+		<bobbinAwesome2>Hey-oh! Your coloring skills are totally flaptastic!</bobbinAwesome2>
+		<bobbinAwesome3>Well, pleat my wings, that was some flashy rolling!</bobbinAwesome3>
+
+		<mendyEncourage0>That roly-poly is terribly fond of dye.</mendyEncourage0>
+		<mendyEncourage1>Splendid! We're showing a real talent for this!</mendyEncourage1>
+		<mendyEncourage2>Our material will be beautifully dyed in no time!</mendyEncourage2>
+		<mendyEncourage3>Oh! Superb!!</mendyEncourage3>
+		<mendyEncourage4>This is coming along splendidly!</mendyEncourage4>
+		<mendyEncourage5>It requires skill to correctly roll a poly, doesn't it?</mendyEncourage5>
+		<mendyEncourage6>We're showing a distinct skill with that acorn paddle!</mendyEncourage6>
+
+		<mendyDiscourage0>Careful now! Let's try it again.</mendyDiscourage0>
+		<mendyDiscourage1>No worries, my dear, we have more dye!</mendyDiscourage1>
+		<mendyDiscourage2>Oh dear, it's back down in the dye for him.</mendyDiscourage2>
+		<mendyDiscourage3>Why don't we give that another try?</mendyDiscourage3>
+
+		<mendyPoor0>Let's move along. I think you'll do better next time.</mendyPoor0>
+		<mendyPoor1>Well, I can see you did your best. You can always try again!</mendyPoor1>
+		<mendyPoor2>Don't let your wings droop. You'll get better!</mendyPoor2>
+		<mendyPoor3>Tailoring truly is a skill. You just need practice.</mendyPoor3>
+
+		<mendyGood0>Not bad, friend. Not bad at all!</mendyGood0>
+		<mendyGood1>Good job. And remember-you'll get even better with practice!</mendyGood1>
+		<mendyGood2>You definitely have a knack for tailoring!</mendyGood2>
+		<mendyGood3>You're starting to remind me of a certain sewing-talent from Spring Valley...</mendyGood3>
+
+		<mendyGreat0>You certainly have a flair for fashion!</mendyGreat0>
+		<mendyGreat1>I'm impressed! Great work!</mendyGreat1>
+		<mendyGreat2>You're no beginner, that's for sure. Very good!</mendyGreat2>
+		<mendyGreat3>You've been practicing, haven't you? Great work!</mendyGreat3>
+
+		<mendyAwesome0>Pins and needles, what amazing skills you have!</mendyAwesome0>
+		<mendyAwesome1>This just goes to show that practice does make perfect!</mendyAwesome1>
+		<mendyAwesome2>Astounding! Would you be willing to offer me any tips?</mendyAwesome2>
+		<mendyAwesome3>Astonishing! You must stitch me your autograph!</mendyAwesome3>
+
+		<poor0>Nice Try!</poor0>
+		<good0>Good Job!</good0>
+		<great0>Great Job!</great0>
+		<awesome0>Awesome Job!</awesome0>
+
+		<progress>Piece ###CURRPIECE### of ###NUMPIECES###</progress>
+	</copy>
+	<config>
+		<colorPalette>3</colorPalette>
+
+		<debugBounds>false</debugBounds>
+		<canvas id="1" leftBuffer="222" rightBuffer="222" topBuffer="72" bottomBuffer="15" paddleY="450"/>
+		<canvas id="2" leftBuffer="170" rightBuffer="170" topBuffer="40" bottomBuffer="15" paddleY="460"/>
+		<canvas id="3" leftBuffer="110" rightBuffer="110" topBuffer="35" bottomBuffer="15" paddleY="460"/>
+		<canvas id="4" leftBuffer="232" rightBuffer="209" topBuffer="50" bottomBuffer="15" paddleY="460" />
+		<canvas id="5" leftBuffer="90" rightBuffer="120" topBuffer="165" bottomBuffer="15" paddleY="440"/>
+
+		<!-- speedDef: ball movement (default) starting speed -->
+		<!-- speedCap: ball movement maximum speed cap -->
+		<!-- speedInc: ball speed increasage(refresh) rate (smaller values increase(refresh) speed faster) -->
+		<!-- paintDec: paint decreasage interval (larger values provide more paint) -->
+		<!-- paintLos: amount of paint lost on death -->
+		<!-- paintGoal: amount of paint that player is trying to save to get top score -->
+		<!-- paddleLen: length(width) of the paddle (usable values are 100, 90, 80, 70, 60, 50, 40, 35, 30) -->
+		<!-- ballAng: what angle(rotation) the ball starts at -->
+		<!-- canvasSize: 1:small, 2:mid, 3:large -->
+
+		<level fabrics="Shapea" speedDef="10" speedCap="14" speedInc="23" paintDec="16" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4" /> <!-- level 1 -->
+		<level fabrics="Shapeb" speedDef="10" speedCap="14" speedInc="23" paintDec="16" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4" /> <!-- level 2 -->
+		<level fabrics="Shapec" speedDef="10" speedCap="14" speedInc="23" paintDec="16" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="1" /> <!-- level 3 -->
+		<level fabrics="Shaped" speedDef="10" speedCap="14" speedInc="23" paintDec="16" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="1" /> <!-- level 4 -->
+		<level fabrics="Shapee" speedDef="10" speedCap="14" speedInc="23" paintDec="14" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5" /> <!-- level 5 -->
+		<level fabrics="Shapef" speedDef="10" speedCap="14" speedInc="23" paintDec="7" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="1" /> <!-- level 6 -->
+		<level fabrics="Shapeg" speedDef="10" speedCap="14" speedInc="23" paintDec="7" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="1" /> <!-- level 7 -->
+		<level fabrics="Shapeh" speedDef="10" speedCap="18" speedInc="25" paintDec="23" paintLos="7" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="2" /> <!-- level 8 -->
+		<level fabrics="Shapei" speedDef="10" speedCap="14" speedInc="25" paintDec="16" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5" /> <!-- level 9 -->
+		<level fabrics="Shapea" speedDef="10" speedCap="18" speedInc="25" paintDec="16" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4" /> <!-- level 10 -->
+		<level fabrics="Shapeb" speedDef="10" speedCap="18" speedInc="25" paintDec="16" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4" /> <!-- level 11 -->
+		<level fabrics="Shapec" speedDef="10" speedCap="18" speedInc="25" paintDec="16" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4" /> <!-- level 12 -->
+		<level fabrics="Shaped" speedDef="10" speedCap="18" speedInc="25" paintDec="16" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="1" /> <!-- level 13 -->
+		<level fabrics="Shapee" speedDef="10" speedCap="18" speedInc="25" paintDec="16" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5" /> <!-- level 14 -->
+		<level fabrics="Shapef" speedDef="10" speedCap="18" speedInc="25" paintDec="16" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="1" /> <!-- level 15 -->
+		<level fabrics="Shapeg" speedDef="10" speedCap="18" speedInc="25" paintDec="10" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="1" /> <!-- level 16 -->
+		<level fabrics="Shapeh" speedDef="10" speedCap="18" speedInc="25" paintDec="21" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="2" /> <!-- level 17 -->
+		<level fabrics="Shapei" speedDef="10" speedCap="18" speedInc="25" paintDec="23" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5" /> <!-- level 18 -->
+		<level fabrics="Shapea|Shaped" colors="p|s" speedDef="14" speedCap="23" speedInc="15" paintDec="18" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="2" /> <!-- level 19 -->
+		<level fabrics="Shapea|Shapee" colors="p|s" speedDef="14" speedCap="23" speedInc="15" paintDec="23" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|3" /> <!-- level 20 -->
+		<level fabrics="Shapeb|Shaped|Shapee" colors="p|s|s" speedDef="14" speedCap="23" speedInc="30" paintDec="33" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|3|5" /> <!-- level 21 -->
+		<level fabrics="Shapei|Shapei" colors="p|s" speedDef="14" speedCap="23" speedInc="15" paintDec="23" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3" /> <!-- level 22 -->
+		<level fabrics="Shapeh|Shapee" colors="p|s" speedDef="14" speedCap="23" speedInc="15" paintDec="28" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|3" /> <!-- level 23 -->
+		<level fabrics="Shapee|Shaped" colors="p|s" speedDef="14" speedCap="18" speedInc="23" paintDec="23" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5|2" /> <!-- level 24 -->
+		<level fabrics="Shapef|Shapeg" colors="p|s" speedDef="14" speedCap="23" speedInc="15" paintDec="18" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|3" /> <!-- level 25 -->
+		<level fabrics="Shapeg|Shapeb" colors="p|p" speedDef="14" speedCap="18" speedInc="23" paintDec="28" paintLos="10" paintGoal="59" paddleLen="100" ballAng="0" canvasSize="2" /> <!-- level 26 -->
+		<level fabrics="Shapeg|Shaped" colors="p|p" speedDef="14" speedCap="18" speedInc="23" paintDec="28" paintLos="10" paintGoal="59" paddleLen="100" ballAng="0" canvasSize="4" /> <!-- level 27 -->
+		<level fabrics="Shapea|Shaped|Shapee" colors="p|s|s" speedDef="15" speedCap="18" speedInc="23" paintDec="33" paintLos="7" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|3|5" /> <!-- level 28 -->
+		<level fabrics="Shapea|Shapee|Shapec" colors="p|s|s" speedDef="15" speedCap="18" speedInc="23" paintDec="33" paintLos="7" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|5|3" /> <!-- level 29 -->
+		<level fabrics="Shapeb|Shaped|Shapee" colors="p|s|p" speedDef="15" speedCap="18" speedInc="23" paintDec="28" paintLos="7" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|3|5" /> <!-- level 30 -->
+		<level fabrics="Shapei|Shapee|Shapee" colors="p|s|p" speedDef="15" speedCap="18" speedInc="23" paintDec="33" paintLos="7" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|5|5" /> <!-- level 31 -->
+		<level fabrics="Shapeh|Shapee|Shaped" colors="p|p|s" speedDef="15" speedCap="18" speedInc="23" paintDec="33" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|5|3" /> <!-- level 32 -->
+		<level fabrics="Shapee|Shaped" colors="p|s" speedDef="18" speedCap="21" speedInc="35" paintDec="13" paintLos="10" paintGoal="59" paddleLen="100" ballAng="0" canvasSize="3" /> <!-- level 33 -->
+		<level fabrics="Shapef|Shapeg|Shaped" colors="s|p|p" speedDef="15" speedCap="18" speedInc="23" paintDec="28" paintLos="7" paintGoal="59" paddleLen="100" ballAng="0" canvasSize="3" /> <!-- level 34 -->
+		<level fabrics="Shapeg|Shaped|Shaped" colors="s|p|p" speedDef="15" speedCap="18" speedInc="23" paintDec="28" paintLos="7" paintGoal="59" paddleLen="100" ballAng="0" canvasSize="3" /> <!-- level 35 -->
+		<level fabrics="Shapec|Shaped" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4" /> <!-- level 36 -->
+		<level fabrics="Shapea|Shaped" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4" /> <!-- level 37 -->
+		<level fabrics="Shapec|Shapee" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4|5" /> <!-- level 38 -->	
+		<level fabrics="Shapea|Shapec" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4" /> <!-- level 39 -->
+		<level fabrics="Shapec|Shapee" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4|5" /> <!-- level 40 -->
+		<level fabrics="Shapec|Shapee" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4|5" /> <!-- level 41 -->
+		<level fabrics="Shapea|Shapec" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4" /> <!-- level 42 -->
+		<level fabrics="Shapei|Shapee" colors="p|s" speedDef="14" speedCap="23" speedInc="15" paintDec="18" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|3" /> <!-- level 43 -->
+		<level fabrics="Shapei|Shapee" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5" /> <!-- level 44 -->
+		<level fabrics="Shapea|Shapeb" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="2" /> <!-- level 45 -->
+		<level fabrics="Shapei|Shapee" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="31" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5" /> <!-- level 46 -->
+		<level fabrics="Shapee|Shaped" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="38" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5|1" /> <!-- level 47 -->
+		<level fabrics="Shapee|Shapef" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5|1" /> <!-- level 48 -->
+		<level fabrics="Shapee|Shapeb" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5|4" /> <!-- level 49 -->
+		<level fabrics="Shapee|Shaped" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5|2" /> <!-- level 50 -->
+		<level fabrics="Shapeg|Shapef" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="18" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="1" /> <!-- level 51 -->
+		<level fabrics="Shapeg|Shapef" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="18" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="1" /> <!-- level 52 -->
+		<level fabrics="Shapeg|Shapef" colors="p|p" speedDef="14" speedCap="21" speedInc="20" paintDec="18" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4" /> <!-- level 53 -->
+		<level fabrics="Shapeb" speedDef="10" speedCap="21" speedInc="23" paintDec="16" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="4" /> <!-- level 54 -->
+		<level fabrics="Shapeb|Shapee" colors="p|s" speedDef="14" speedCap="23" speedInc="15" paintDec="23" paintLos="10" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|3" /> <!-- level 55 -->
+		<level fabrics="Shapee|Shapef" colors="p|p" speedDef="14" speedCap="21" speedInc="25" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5|2" /> <!-- level 56 -->
+		<level fabrics="Shapee|Shapef" colors="p|s" speedDef="14" speedCap="21" speedInc="25" paintDec="28" paintLos="5" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5|2" /> <!-- level 57 -->
+		<level fabrics="Shapea|Shapee|Shaped" colors="p|p|s" speedDef="14" speedCap="21" speedInc="20" paintDec="33" paintLos="7" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|5|3" /> <!-- level 58 -->
+		<level fabrics="Shapea|Shapee|Shapef" colors="p|p|s" speedDef="14" speedCap="21" speedInc="20" paintDec="33" paintLos="7" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|5|3" /> <!-- level 59 -->
+		<level fabrics="Shapei|Shapee|Shapeb" colors="p|p|s" speedDef="14" speedCap="21" speedInc="20" paintDec="33" paintLos="7" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|5|3" /> <!-- level 60 -->
+		<level fabrics="Shapef|Shapee|Shapef" colors="p|s|p" speedDef="14" speedCap="21" speedInc="20" paintDec="28" paintLos="7" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="3|5|3" /> <!-- level 61 -->
+		<level fabrics="Shapee|Shapec|Shapec" colors="p|p|s" speedDef="14" speedCap="21" speedInc="20" paintDec="33" paintLos="7" paintGoal="60" paddleLen="100" ballAng="0" canvasSize="5|3|3" /> <!-- level 62 -->
+		<bumper>
+			<level> <!-- level 1 a -->
+				<bump fabricRound="0" x="330" y="126" />
+				<bump fabricRound="0" x="540" y="60" />
+				<bump fabricRound="0" x="375" y="113" breakAfter="2" />
+				<bump fabricRound="0" x="430" y="91" breakAfter="2" />
+				<bump fabricRound="0" x="492" y="72" breakAfter="2" />
+				<!--
+		
+				-->
+				
+			<!--
+				<bump x="433" y="158" />
+				<bump x="570" y="158" />
+				<bump x="333" y="260" />
+				<bump x="540" y="225" />
+			-->
+			</level>
+			<level> <!-- level 2 b -->
+				<bump x="330" y="61" />
+				<bump x="430" y="52" breakAfter="2" />
+				<bump x="501" y="56" breakAfter="2" />
+				<bump x="375" y="56" breakAfter="2" />
+				<bump x="535" y="61" />
+	
+			</level>
+			<level> <!-- level 3 c -->
+				<bump x="297" y="86" />
+				<bump x="574" y="86" />
+				<bump x="423" y="218" breakAfter="2" />
+				<bump x="297" y="352" breakAfter="2" />
+				<bump x="574" y="352" breakAfter="2" />
+			</level>
+			<level> <!-- level 4 d -->
+				<bump x="269" y="166" />
+				<bump x="321" y="166" breakAfter="2" />
+				<bump x="373" y="166" breakAfter="2" />
+				<bump x="425" y="166" breakAfter="2" />
+				<bump x="477" y="166" breakAfter="2" />
+				<bump x="529" y="166" breakAfter="2" />
+				<bump x="583" y="166" />
+				<bump x="423" y="238" breakAfter="2" />
+			</level>
+			<level> <!-- level 5 e -->
+				<bump x="140" y="175" />
+				<bump x="240" y="235" breakAfter="2" />
+				<bump x="420" y="235" breakAfter="2" />
+				<bump x="600" y="235" breakAfter="2" />
+				<bump x="695" y="175" />
+
+			</level>
+			<level> <!-- level 6 f -->
+				<bump x="409" y="93" breakAfter="2" />
+				<bump x="320" y="117" />
+				<bump x="544" y="189" breakAfter="2" />
+				<bump x="274" y="189" breakAfter="2" />
+				<bump x="500" y="117" />
+			</level>
+			<level> <!-- level 7 g -->
+				<bump x="416" y="85" breakAfter="2" />
+				<bump x="467" y="125" />
+				<bump x="363" y="125" />
+				<bump x="350" y="160" breakAfter="2" />
+				<bump x="485" y="160" breakAfter="2" />
+			</level>
+			<level> <!-- level 8 h -->
+				<bump x="265" y="57" />
+				<bump x="600" y="57" />
+				<bump fabricRound="0" x="433" y="47" breakAfter="2" />
+				<bump fabricRound="0" x="433" y="83" breakAfter="2" />
+				<bump fabricRound="0" x="433" y="119" breakAfter="2" />
+				<bump fabricRound="0" x="433" y="155" breakAfter="2" />
+				<bump fabricRound="0" x="433" y="191" breakAfter="2" />
+				<bump fabricRound="0" x="433" y="227" breakAfter="2" />
+				<bump fabricRound="0" x="433" y="263" breakAfter="2" />
+				<bump fabricRound="0" x="433" y="299" breakAfter="2" />
+				<bump fabricRound="0" x="433" y="335" breakAfter="2" />
+				<bump fabricRound="0" x="433" y="371" breakAfter="2" />
+
+			</level>
+			<level> <!-- level 9 i -->
+				<bump x="297" y="172" />
+				<bump x="353" y="267" breakAfter="2" />
+				<bump x="507" y="267" breakAfter="2" />
+				<bump x="574" y="172" />
+
+			</level>
+			<level> <!-- level 10 a -->
+				<bump fabricRound="0" x="323" y="121" />
+				<bump fabricRound="0" x="538" y="55" />
+				<bump fabricRound="0" x="383" y="209" breakAfter="2" />
+				<bump fabricRound="0" x="474" y="209" breakAfter="2" />
+				<bump fabricRound="0" x="376" y="285" breakAfter="2" />
+				<bump fabricRound="0" x="399" y="307" breakAfter="2" />
+				<bump fabricRound="0" x="432" y="317" breakAfter="2" />
+				<bump fabricRound="0" x="468" y="307" breakAfter="2" />
+				<bump fabricRound="0" x="491" y="285" breakAfter="2" />
+			</level>
+			<level> <!-- level 11 b -->
+				<bump fabricRound="0" x="323" y="54" />
+				<bump fabricRound="0" x="542" y="54" />
+				<bump fabricRound="0" x="352" y="163" breakAfter="2" />
+				<bump fabricRound="0" x="352" y="229" breakAfter="2" />
+				<bump fabricRound="0" x="352" y="291" breakAfter="2" />
+				<bump fabricRound="0" x="430" y="163" breakAfter="2" />
+				<bump fabricRound="0" x="430" y="291" breakAfter="2" />
+				<bump fabricRound="0" x="510" y="163" breakAfter="2" />
+				<bump fabricRound="0" x="510" y="229" breakAfter="2" />
+				<bump fabricRound="0" x="510" y="291" breakAfter="2" />
+
+			</level>
+			<level> <!-- level 12 c -->
+				<bump fabricRound="0" x="288" y="76" />
+				<bump fabricRound="0" x="562" y="76" />
+				<bump fabricRound="0" x="335" y="174" breakAfter="2" />
+				<bump fabricRound="0" x="358" y="154" breakAfter="2" />
+				<bump fabricRound="0" x="381" y="174" breakAfter="2" />
+				<bump fabricRound="0" x="466" y="174" breakAfter="2" />
+				<bump fabricRound="0" x="487" y="154" breakAfter="2" />
+				<bump fabricRound="0" x="508" y="174" breakAfter="2" />
+				<bump fabricRound="0" x="350" y="276" breakAfter="2" />
+				<bump fabricRound="0" x="400" y="276" breakAfter="2" />
+				<bump fabricRound="0" x="450" y="276" breakAfter="2" />
+				<bump fabricRound="0" x="500" y="276" breakAfter="2" />
+			</level>
+			<level> <!-- level 13 d -->
+				<bump fabricRound="0" x="262" y="160" />
+				<bump fabricRound="0" x="594" y="160" />
+				<bump fabricRound="0" x="430" y="182" breakAfter="2" />
+				<bump fabricRound="0" x="380" y="225" breakAfter="2" />
+				<bump fabricRound="0" x="480" y="225" breakAfter="2" />
+				<bump fabricRound="0" x="343" y="271" breakAfter="2" />
+				<bump fabricRound="0" x="430" y="271" breakAfter="2" />
+				<bump fabricRound="0" x="516" y="271" breakAfter="2" />
+	
+			</level>
+			<level> <!-- level 14 e -->
+				<bump fabricRound="0" x="134" y="180" />
+				<bump fabricRound="0" x="694" y="180" />
+				<bump fabricRound="0" x="416" y="181" breakAfter="2" />
+				<bump fabricRound="0" x="416" y="210" breakAfter="2" />
+				<bump fabricRound="0" x="416" y="237" breakAfter="2" />
+				<bump fabricRound="0" x="416" y="268" breakAfter="2" />
+			</level>
+			<level> <!-- level 15 f -->
+				<bump fabricRound="0" x="306" y="125" />
+				<bump fabricRound="0" x="503" y="125" />
+				<bump fabricRound="0" x="355" y="193" breakAfter="2" />
+				<bump fabricRound="0" x="463" y="193" breakAfter="2" />
+				<bump fabricRound="0" x="330" y="270" breakAfter="2" />
+				<bump fabricRound="0" x="362" y="296" breakAfter="2" />
+				<bump fabricRound="0" x="412" y="304" breakAfter="2" />
+				<bump fabricRound="0" x="463" y="296" breakAfter="2" />
+				<bump fabricRound="0" x="498" y="270" breakAfter="2" />
+			</level>
+			<level> <!-- level 16 g -->
+				<bump fabricRound="0" x="362" y="136" />
+				<bump fabricRound="0" x="462" y="136" />
+				<bump fabricRound="0" x="416" y="93" />
+				<bump fabricRound="0" x="340" y="260" breakAfter="2" />
+				<bump fabricRound="0" x="500" y="260" breakAfter="2" />
+				<bump fabricRound="0" x="370" y="240" breakAfter="2" />
+				<bump fabricRound="0" x="470" y="240" breakAfter="2" />
+			</level>
+			<level> <!-- level 17 h -->
+				<bump fabricRound="0" x="259" y="49" />
+				<bump fabricRound="0" x="599" y="49" />
+				<bump fabricRound="0" x="385" y="47" breakAfter="2" />
+				<bump fabricRound="0" x="385" y="83" breakAfter="2" />
+				<bump fabricRound="0" x="385" y="119" breakAfter="2" />
+				<bump fabricRound="0" x="385" y="155" breakAfter="2" />
+				<bump fabricRound="0" x="385" y="191" breakAfter="2" />
+				<bump fabricRound="0" x="385" y="227" breakAfter="2" />
+				<bump fabricRound="0" x="385" y="263" breakAfter="2" />
+				<bump fabricRound="0" x="385" y="299" breakAfter="2" />
+				<bump fabricRound="0" x="385" y="335" breakAfter="2" />
+				<bump fabricRound="0" x="385" y="371" breakAfter="2" />
+				<bump fabricRound="0" x="463" y="47" breakAfter="2" />
+				<bump fabricRound="0" x="463" y="83" breakAfter="2" />
+				<bump fabricRound="0" x="463" y="119" breakAfter="2" />
+				<bump fabricRound="0" x="463" y="155" breakAfter="2" />
+				<bump fabricRound="0" x="463" y="191" breakAfter="2" />
+				<bump fabricRound="0" x="463" y="227" breakAfter="2" />
+				<bump fabricRound="0" x="463" y="263" breakAfter="2" />
+				<bump fabricRound="0" x="463" y="299" breakAfter="2" />
+				<bump fabricRound="0" x="463" y="335" breakAfter="2" />
+				<bump fabricRound="0" x="463" y="371" breakAfter="2" />
+			</level>
+			<level> <!-- level 18 i -->
+				<bump fabricRound="0" x="291" y="169" />
+				<bump fabricRound="0" x="576" y="169" />
+				<bump fabricRound="0" x="327" y="213" breakAfter="2" />
+				<bump fabricRound="0" x="543" y="213" breakAfter="2" />
+				<bump fabricRound="0" x="364" y="253" breakAfter="2" />
+				<bump fabricRound="0" x="511" y="253" breakAfter="2" />
+				<bump fabricRound="0" x="404" y="298" breakAfter="2" />
+				<bump fabricRound="0" x="478" y="298" breakAfter="2" />
+				<bump fabricRound="0" x="443" y="331" breakAfter="2" />
+			</level>
+			<level> <!-- level 19 ad -->
+				<bump fabricRound="0" x="320" y="120" />
+				<bump fabricRound="0" x="538" y="51" />
+				<bump fabricRound="0" x="430" y="210" breakAfter="3" />
+				<bump fabricRound="0" x="430" y="320" breakAfter="3" />
+				<bump fabricRound="0" x="250" y="270" clip="mcBall" motionPoints="640,270" speed="4"/>	
+
+				<bump fabricRound="1" x="269" y="166" />
+				<bump fabricRound="1" x="321" y="166" breakAfter="3" />
+				<bump fabricRound="1" x="373" y="166" breakAfter="3" />
+				<bump fabricRound="1" x="425" y="166" breakAfter="3" />
+				<bump fabricRound="1" x="477" y="166" breakAfter="3" />
+				<bump fabricRound="1" x="529" y="166" breakAfter="3" />
+				<bump fabricRound="1" x="583" y="166" />
+				<bump fabricRound="1" x="250" y="275" clip="mcBall" motionPoints="640,275" speed="3"/>
+
+			</level>
+			<level> <!-- level 20 ae -->
+				<bump fabricRound="0" x="320" y="117" />
+				<bump fabricRound="0" x="540" y="50" />
+				<bump fabricRound="0" x="428" y="90" breakAfter="3" />
+				<bump fabricRound="0" x="428" y="150" breakAfter="3" />
+				<bump fabricRound="0" x="428" y="210" breakAfter="3" />
+				<bump fabricRound="0" x="250" y="300" clip="mcBall" motionPoints="640,300" speed="3"/>
+
+				<bump fabricRound="1" x="140" y="175" />
+				<bump fabricRound="1" x="320" y="175" breakAfter="3" />
+				<bump fabricRound="1" x="500" y="175" breakAfter="3" />
+				<bump fabricRound="1" x="695" y="175" />
+				<bump fabricRound="1" x="161" y="227" clip="mcBall" motionPoints="666,227" speed="3"/>
+	
+			</level>
+			<level> <!-- level 21 bde -->
+				<bump fabricRound="0" x="330" y="61" />
+				<bump fabricRound="0" x="535" y="61" />
+				<bump fabricRound="0" x="430" y="170" breakAfter="3"/>
+				<bump fabricRound="0" x="430" y="275" breakAfter="3"/>
+				<bump fabricRound="0" x="250" y="227" clip="mcBall" motionPoints="640,227|640,380|250,380" speed="5  "/>
+
+
+				<bump fabricRound="1" x="269" y="166" />
+				<bump fabricRound="1" x="321" y="166" breakAfter="3"/>
+				<bump fabricRound="1" x="373" y="200" breakAfter="3"/>
+				<bump fabricRound="1" x="425" y="166" breakAfter="3"/>
+				<bump fabricRound="1" x="477" y="200" breakAfter="3"/>
+				<bump fabricRound="1" x="529" y="166" breakAfter="3"/>
+				<bump fabricRound="1" x="583" y="166" />
+				<bump fabricRound="1" x="250" y="275" clip="mcBall" motionPoints="640,275" speed="5"/>
+
+				<bump fabricRound="2" x="140" y="175" />
+				<bump fabricRound="2" x="320" y="175" breakAfter="3" />
+				<bump fabricRound="2" x="500" y="175" breakAfter="3" />
+				<bump fabricRound="2" x="695" y="175" />
+				<bump fabricRound="2" x="411" y="267" breakAfter="3" />
+				<bump fabricRound="2" x="135" y="227" clip="mcBall" motionPoints="700,227" speed="5"/>
+			</level>
+			<level> <!-- level 22 ii -->
+				<bump fabricRound="0" x="291" y="167" />
+				<bump fabricRound="0" x="577" y="167" />
+				<bump fabricRound="0" x="361" y="202" breakAfter="3" />
+				<bump fabricRound="0" x="521" y="202" breakAfter="3" />
+				<bump fabricRound="0" x="443" y="291" breakAfter="3" />
+				<bump fabricRound="0" x="170" y="260" clip="mcBall" motionPoints="700,260" speed="3"/>
+
+
+				<bump fabricRound="1" x="291" y="167" />
+				<bump fabricRound="1" x="577" y="167" />
+				<bump fabricRound="1" x="361" y="202" breakAfter="3" />
+				<bump fabricRound="1" x="521" y="202" breakAfter="3" />
+				<bump fabricRound="1" x="443" y="291" breakAfter="3" />
+				<bump fabricRound="1" x="170" y="260" clip="mcBall" motionPoints="700,260" speed="3"/>
+			
+			</level>
+			<level> <!-- level 23 he -->
+				<bump fabricRound="0" x="255" y="49" />
+				<bump fabricRound="0" x="600" y="49" />
+				<bump fabricRound="0" x="304" y="131" breakAfter="3" />
+				<bump fabricRound="0" x="366" y="225" breakAfter="3" />
+				<bump fabricRound="0" x="481" y="225" breakAfter="3" />
+				<bump fabricRound="0" x="540" y="131" breakAfter="3" />
+				<bump fabricRound="0" x="432" y="47" clip="mcBall" motionPoints="432,380" speed="3"/>
+
+				<bump fabricRound="1" x="140" y="175" />
+				<bump fabricRound="1" x="320" y="175" breakAfter="3" />
+				<bump fabricRound="1" x="500" y="175" breakAfter="3" />
+				<bump fabricRound="1" x="695" y="175" />
+				<bump fabricRound="1" x="411" y="267" breakAfter="3" />
+				<bump fabricRound="1" x="135" y="227" clip="mcBall" motionPoints="700,227" speed="3"/>
+
+			</level>
+			<level> <!-- level 24 ed -->
+				<bump fabricRound="0" x="132" y="176" />
+				<bump fabricRound="0" x="695" y="176" />
+				<bump fabricRound="0" x="416" y="177" breakAfter="3" />
+				<bump fabricRound="0" x="416" y="207" breakAfter="3" />
+				<bump fabricRound="0" x="416" y="237" breakAfter="3" />
+				<bump fabricRound="0" x="416" y="267" breakAfter="3" />
+				<bump fabricRound="0" x="161" y="194" clip="mcBall" motionPoints="416,328|671,194|416,328" speed="3"/>
+
+				<bump fabricRound="1" x="269" y="166" />
+				<bump fabricRound="1" x="594" y="166" />
+				<bump fabricRound="1" x="343" y="271" breakAfter="3" />
+				<bump fabricRound="1" x="380" y="221" breakAfter="3" />
+				<bump fabricRound="1" x="430" y="171" breakAfter="3" />
+				<bump fabricRound="1" x="480" y="221" breakAfter="3" />
+				<bump fabricRound="1" x="523" y="271" breakAfter="3" />
+				<bump fabricRound="1" x="261" y="325" clip="mcBall" motionPoints="591,325" speed="3"/>
+
+			</level>
+			<level> <!-- level 25 fg -->
+				<bump fabricRound="0" x="409" y="93" breakAfter="3" />
+				<bump fabricRound="0" x="320" y="117" />
+				<bump fabricRound="0" x="544" y="189" breakAfter="3" />
+				<bump fabricRound="0" x="274" y="189" breakAfter="3" />
+				<bump fabricRound="0" x="500" y="117" />
+				<bump fabricRound="0" x="416" y="230" breakAfter="3" />
+				<bump fabricRound="0" x="272" y="250" clip="mcBall" motionPoints="288,289|318,330|360,355|413,363|467,355|510,330|542,290|558,250|542,290|510,330|467,355|413,363|359,355|318,330|288,289" speed="3"/>
+	
+				<bump fabricRound="1" x="416" y="85" breakAfter="3" />
+				<bump fabricRound="1" x="416" y="115" breakAfter="3" />
+				<bump fabricRound="1" x="416" y="175" breakAfter="3" />
+				<bump fabricRound="1" x="350" y="160" />
+				<bump fabricRound="1" x="485" y="160" />
+				<bump fabricRound="1" x="250" y="247" clip="mcBall" motionPoints="640,247" speed="3"/>
+
+			</level>
+			<level> <!-- level 26 gb -->
+				<bump fabricRound="0" x="420" y="85" />
+				<bump fabricRound="0" x="370" y="238" breakAfter="3" />
+				<bump fabricRound="0" x="460" y="238" breakAfter="3" />
+				<bump fabricRound="0" x="341" y="260" breakAfter="3" />
+				<bump fabricRound="0" x="490" y="260" breakAfter="3" />
+				<bump fabricRound="0" x="420" y="118" clip="mcBall" motionPoints="420,355" speed="3"/>
+
+
+				<bump fabricRound="1" x="330" y="61" />
+				<bump fabricRound="1" x="430" y="200" breakAfter="3" />
+				<bump fabricRound="1" x="501" y="200" breakAfter="3" />
+				<bump fabricRound="1" x="375" y="200" breakAfter="3" />
+				<bump fabricRound="1" x="535" y="61" />
+				<bump fabricRound="1" x="252" y="250" clip="mcBall" motionPoints="268,289|298,330|340,355|413,363|547,355|590,330|622,290|638,230|622,290|590,330|547,355|413,363|340,355|298,330|268,289" speed="3"/>
+			</level>
+			<level> <!-- level 27 gd -->
+				<bump fabricRound="0" x="416" y="85" />
+				<bump fabricRound="0" x="467" y="125" breakAfter="3" />
+				<bump fabricRound="0" x="363" y="125" breakAfter="3" />
+				<bump fabricRound="0" x="350" y="160" breakAfter="3" />
+				<bump fabricRound="0" x="485" y="160" breakAfter="3" />
+				<bump fabricRound="0" x="416" y="250" breakAfter="3" />
+				<bump fabricRound="0" x="261" y="194" clip="mcBall" motionPoints="416,328|571,194|416,328" speed="3"/>
+
+				<bump fabricRound="1" x="269" y="166" />
+				<bump fabricRound="1" x="583" y="166" />
+				<bump fabricRound="1" x="370" y="238" breakAfter="3" />
+				<bump fabricRound="1" x="460" y="238" breakAfter="3" />
+				<bump fabricRound="1" x="341" y="260" breakAfter="3" />
+				<bump fabricRound="1" x="490" y="260" breakAfter="3" />
+				<bump fabricRound="1" x="420" y="118" clip="mcBall" motionPoints="420,355" speed="3"/>
+
+			</level>
+			<level> <!-- level 28 ade -->
+				<bump fabricRound="0" x="323" y="121" />
+				<bump fabricRound="0" x="538" y="55" />
+				<bump fabricRound="0" x="431" y="237" breakAfter="3" />
+				<bump fabricRound="0" x="431" y="127" clip="mcBall" motionPoints="475,138|507,163|530,201|532,237|524,276|500,306|431,336|388,328|352,303|335,272|327,237|329,200|348,165|382,137" speed="5"/>
+				
+				<bump fabricRound="1" x="262" y="160" />
+				<bump fabricRound="1" x="594" y="160" />
+				<bump fabricRound="1" x="330" y="205" breakAfter="3" />
+				<bump fabricRound="1" x="430" y="205" breakAfter="3" />
+				<bump fabricRound="1" x="530" y="205" breakAfter="3" />
+				<bump fabricRound="1" x="181" y="215" clip="mcBall" motionPoints="230,261|280,215|330,261|380,215|430,261|480,215|530,261|580,215|630,261|680,215|630,261|580,215|530,261|480,215|430,261|380,215|330,261|280,215|230,261" speed="3" />
+		
+				
+				<bump fabricRound="2" x="134" y="175" />
+				<bump fabricRound="2" x="694" y="175" />
+				<bump fabricRound="2" x="185" y="224" breakAfter="3" />
+				<bump fabricRound="2" x="411" y="224" breakAfter="3" />
+				<bump fabricRound="2" x="642" y="224" breakAfter="3" />
+				<bump fabricRound="2" x="184" y="107" clip="mcBall" motionPoints="228,130|260,155|283,192|285,229|277,268|253,298|224,320|184,328|142,320|106,295|89,264|81,229|83,192|101,157|135,130" speed="5"/>
+				<bump fabricRound="2" x="641" y="107" clip="mcBall" motionPoints="593,130|558,157|540,192|538,229|546,264|563,295|599,320|642,328|681,320|710,298|734,268|742,229|740,192|717,155|685,130" speed="5"/>
+
+			</level>
+				<level> <!-- level 29 aec -->
+				<bump fabricRound="0" x="323" y="121" />
+				<bump fabricRound="0" x="538" y="55" />
+				<bump fabricRound="0" x="431" y="175" breakAfter="3" />
+				<bump fabricRound="0" x="431" y="205" breakAfter="3" />
+				<bump fabricRound="0" x="431" y="235" breakAfter="3" />
+				<bump fabricRound="0" x="431" y="265" breakAfter="3" />
+				<bump fabricRound="0" x="431" y="295" breakAfter="3" />
+				<bump fabricRound="0" x="431" y="127" clip="mcBall" motionPoints="475,138|507,163|530,201|532,237|524,276|500,306|431,336|388,328|352,303|335,272|327,237|329,200|348,165|382,137" speed="5"/>
+
+				<bump fabricRound="1" x="134" y="175" />
+				<bump fabricRound="1" x="694" y="175" />
+				<bump fabricRound="1" x="185" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="411" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="642" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="390" y="180" clip="mcBall" motionPoints="340,180|180,290|130,290|180,290|340,180" speed="5"/>
+				<bump fabricRound="1" x="690" y="290" clip="mcBall" motionPoints="640,290|480,180|430,180|480,180|640,290" speed="5"/>
+	
+				<bump fabricRound="2" x="288" y="76" />
+				<bump fabricRound="2" x="562" y="76" />
+				<bump fabricRound="2" x="358" y="154" breakAfter="3" />
+				<bump fabricRound="2" x="487" y="154" breakAfter="3" />
+				<bump fabricRound="2" x="358" y="276" breakAfter="3" />
+				<bump fabricRound="2" x="487" y="276" breakAfter="3" />
+				<bump fabricRound="2" x="272" y="250" clip="mcBall" motionPoints="288,289|318,330|360,355|413,363|467,355|510,330|542,290|558,250|542,290|510,330|467,355|413,363|359,355|318,330|288,289" speed="5"/>
+
+			</level>
+			<level> <!-- level 30 bde -->
+				<bump fabricRound="0" x="323" y="54" />
+				<bump fabricRound="0" x="542" y="54" />
+				<bump fabricRound="0" x="400" y="229" breakAfter="3" />
+				<bump fabricRound="0" x="430" y="177" breakAfter="3" />
+				<bump fabricRound="0" x="430" y="285" breakAfter="3" />
+				<bump fabricRound="0" x="460" y="229" breakAfter="3" />
+				<bump fabricRound="0" x="431" y="127" clip="mcBall" motionPoints="475,138|507,163|530,201|532,237|524,276|500,306|431,336|388,328|352,303|335,272|327,237|329,200|348,165|382,137" speed="5"/>
+
+				<bump fabricRound="1" x="262" y="160" />
+				<bump fabricRound="1" x="594" y="160" />
+				<bump fabricRound="1" x="430" y="182" breakAfter="3" />
+				<bump fabricRound="1" x="380" y="225" breakAfter="3" />
+				<bump fabricRound="1" x="480" y="225" breakAfter="3" />
+				<bump fabricRound="1" x="343" y="271" breakAfter="3" />
+				<bump fabricRound="1" x="516" y="271" breakAfter="3" />
+				<bump fabricRound="1" x="181" y="315" clip="mcBall" motionPoints="230,361|280,315|330,361|380,315|430,361|480,315|530,361|580,315|630,361|680,315|630,361|580,315|530,361|480,315|430,361|380,315|330,361|280,315|230,361" speed="4" />
+
+
+				<bump fabricRound="2" x="134" y="175" />
+				<bump fabricRound="2" x="694" y="175" />
+				<bump fabricRound="2" x="255" y="224" breakAfter="3" />
+				<bump fabricRound="2" x="411" y="224" breakAfter="3" />
+				<bump fabricRound="2" x="542" y="224" breakAfter="3" />
+				<bump fabricRound="2" x="215" y="177" clip="mcBall" motionPoints="582,177|582,268|215,268" speed="5"/>
+
+			</level>
+				<level> <!-- level 31 iee -->
+				<bump fabricRound="0" x="291" y="169" />
+				<bump fabricRound="0" x="576" y="169" />
+				<bump fabricRound="0" x="327" y="213" breakAfter="3" />
+				<bump fabricRound="0" x="543" y="213" breakAfter="3" />
+				<bump fabricRound="0" x="364" y="253" breakAfter="3" />
+				<bump fabricRound="0" x="511" y="253" breakAfter="3" />
+				<bump fabricRound="0" x="252" y="250" clip="mcBall" motionPoints="268,289|298,330|340,355|413,363|547,355|590,330|622,290|638,230|622,290|590,330|547,355|413,363|340,355|298,330|268,289" speed="5"/>	
+
+				<bump fabricRound="1" x="140" y="175" />
+				<bump fabricRound="1" x="255" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="411" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="542" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="695" y="175" />			
+				<bump fabricRound="1" x="215" y="177" clip="mcBall" motionPoints="582,177|582,268|215,268" speed="5"/>
+
+
+				<bump fabricRound="2" x="140" y="175" />
+				<bump fabricRound="2" x="320" y="175" breakAfter="2" />
+				<bump fabricRound="2" x="500" y="175" breakAfter="2" />
+				<bump fabricRound="2" x="695" y="175" />
+				<bump fabricRound="2" x="184" y="107" clip="mcBall" motionPoints="228,130|260,155|283,192|285,229|277,268|253,298|224,320|184,328|142,320|106,295|89,264|81,229|83,192|101,157|135,130" speed="5"/>
+				<bump fabricRound="2" x="641" y="107" clip="mcBall" motionPoints="593,130|558,157|540,192|538,229|546,264|563,295|599,320|642,328|681,320|710,298|734,268|742,229|740,192|717,155|685,130" speed="5"/>
+
+			</level>
+			<level> <!-- level 32 hed -->
+				<bump fabricRound="0" x="259" y="49" />
+				<bump fabricRound="0" x="599" y="49" />
+				<bump fabricRound="0" x="385" y="47" breakAfter="3" />
+				<bump fabricRound="0" x="385" y="83" breakAfter="3" />
+				<bump fabricRound="0" x="385" y="119" breakAfter="3" />
+				<bump fabricRound="0" x="385" y="155" breakAfter="3" />
+				<bump fabricRound="0" x="385" y="191" breakAfter="3" />
+				<bump fabricRound="0" x="385" y="227" breakAfter="3" />
+				<bump fabricRound="0" x="385" y="263" breakAfter="3" />
+				<bump fabricRound="0" x="385" y="299" breakAfter="3" />
+				<bump fabricRound="0" x="385" y="335" breakAfter="3" />
+				<bump fabricRound="0" x="385" y="371" breakAfter="3" />
+				<bump fabricRound="0" x="463" y="47" breakAfter="3" />
+				<bump fabricRound="0" x="463" y="83" breakAfter="3" />
+				<bump fabricRound="0" x="463" y="119" breakAfter="3" />
+				<bump fabricRound="0" x="463" y="155" breakAfter="3" />
+				<bump fabricRound="0" x="463" y="191" breakAfter="3" />
+				<bump fabricRound="0" x="463" y="227" breakAfter="3" />
+				<bump fabricRound="0" x="463" y="263" breakAfter="3" />
+				<bump fabricRound="0" x="463" y="299" breakAfter="3" />
+				<bump fabricRound="0" x="463" y="335" breakAfter="3" />
+				<bump fabricRound="0" x="463" y="371" breakAfter="3" />
+				<bump fabricRound="0" x="425" y="49" clip="mcBall" motionPoints="425,371" speed="4"/>
+
+
+				<bump fabricRound="1" x="134" y="175" />
+				<bump fabricRound="1" x="694" y="175" />
+				<bump fabricRound="1" x="255" y="225" breakAfter="3" />
+				<bump fabricRound="1" x="542" y="225" breakAfter="3" />
+				<bump fabricRound="1" x="411" y="195" breakAfter="3" />
+				<bump fabricRound="1" x="411" y="225" breakAfter="3" />
+				<bump fabricRound="1" x="411" y="255" breakAfter="3" />
+				<bump fabricRound="1" x="215" y="150" clip="mcBall" motionPoints="582,150|582,300|215,300" speed="5"/>
+
+				
+				<bump fabricRound="2" x="262" y="160" />
+				<bump fabricRound="2" x="594" y="160" />
+				<bump fabricRound="2" x="416" y="177" breakAfter="3" />
+				<bump fabricRound="2" x="416" y="207" breakAfter="3" />
+				<bump fabricRound="2" x="416" y="237" breakAfter="3" />
+				<bump fabricRound="2" x="416" y="267" breakAfter="3" />
+				<bump fabricRound="2" x="161" y="194" clip="mcBall" motionPoints="416,328|671,194|416,328" speed="5"/>
+
+			</level>
+			<level> <!-- level 33 ed -->
+				<bump fabricRound="0" x="134" y="175" />
+				<bump fabricRound="0" x="694" y="175" />
+				<bump fabricRound="0" x="134" y="272" breakAfter="3" />
+				<bump fabricRound="0" x="694" y="272" breakAfter="3" />
+				<bump fabricRound="0" x="430" y="182" breakAfter="3" />
+				<bump fabricRound="0" x="181" y="215" clip="mcBall" motionPoints="230,261|280,215|330,261|380,215|430,261|480,215|530,261|580,215|630,261|680,215|630,261|580,215|530,261|480,215|430,261|380,215|330,261|280,215|230,261" speed="5" />
+
+
+				<bump fabricRound="1" x="269" y="166" />
+				<bump fabricRound="1" x="583" y="166" />
+				<bump fabricRound="1" x="395" y="193" breakAfter="3" />
+				<bump fabricRound="1" x="463" y="193" breakAfter="3" />
+				<bump fabricRound="1" x="402" y="266" breakAfter="3" />
+				<bump fabricRound="1" x="432" y="274" breakAfter="3" />
+				<bump fabricRound="1" x="462" y="266" breakAfter="3" />
+				<bump fabricRound="1" x="431" y="127" clip="mcBall" motionPoints="475,138|507,163|530,201|532,237|524,276|500,306|431,336|388,328|352,303|335,272|327,237|329,200|348,165|382,137" speed="5"/>
+
+			</level>
+			<level> <!-- level 34 gfd -->
+				<bump fabricRound="0" x="409" y="93" />
+				<bump fabricRound="0" x="320" y="117" breakAfter="3" />
+				<bump fabricRound="0" x="544" y="189" breakAfter="3"/>
+				<bump fabricRound="0" x="274" y="189" breakAfter="3"/>
+				<bump fabricRound="0" x="500" y="117" breakAfter="3"/>
+				<bump fabricRound="0" x="355" y="193" breakAfter="3" />
+				<bump fabricRound="0" x="463" y="193" breakAfter="3" />
+				<bump fabricRound="0" x="330" y="270" breakAfter="3" />
+				<bump fabricRound="0" x="362" y="296" breakAfter="3" />
+				<bump fabricRound="0" x="412" y="304" breakAfter="3" />
+				<bump fabricRound="0" x="463" y="296" breakAfter="3" />
+				<bump fabricRound="0" x="498" y="270" breakAfter="3" />
+				<bump fabricRound="0" x="272" y="250" clip="mcBall" motionPoints="288,289|318,330|360,355|413,363|467,355|510,330|542,290|558,250|542,290|510,330|467,355|413,363|359,355|318,330|288,289" speed="5"/>
+	
+				<bump fabricRound="1" x="416" y="85" />
+				<bump fabricRound="1" x="400" y="229" breakAfter="3" />
+				<bump fabricRound="1" x="430" y="177" breakAfter="3" />
+				<bump fabricRound="1" x="430" y="285" breakAfter="3" />
+				<bump fabricRound="1" x="431" y="127" clip="mcBall" motionPoints="475,138|507,163|530,201|532,237|524,276|500,306|431,336|388,328|352,303|335,272|327,237|329,200|348,165|382,137" speed="5"/>
+
+				<bump fabricRound="2" x="269" y="166" />
+				<bump fabricRound="2" x="583" y="166" />
+				<bump fabricRound="2" x="279" y="224" breakAfter="3" />
+				<bump fabricRound="2" x="430" y="224" breakAfter="3" />
+				<bump fabricRound="2" x="573" y="224" breakAfter="3" />
+				<bump fabricRound="2" x="431" y="127" clip="mcBall" motionPoints="475,138|507,163|530,201|532,237|524,276|500,306|431,336|388,328|352,303|335,272|327,237|329,200|348,165|382,137" speed="5"/>
+
+			</level>
+			<level> <!-- level 35 fdd -->
+				<bump fabricRound="0" x="416" y="85" />
+				<bump fabricRound="0" x="416" y="115" breakAfter="3" />
+				<bump fabricRound="0" x="416" y="145" breakAfter="3" />
+				<bump fabricRound="0" x="348" y="298" breakAfter="3" />
+				<bump fabricRound="0" x="372" y="320" breakAfter="3" />
+				<bump fabricRound="0" x="485" y="298" breakAfter="3" />
+				<bump fabricRound="0" x="465" y="320" breakAfter="3" />
+				<bump fabricRound="0" x="280" y="215" clip="mcBall" motionPoints="330,261|380,215|430,261|480,215|530,261|580,215|530,261|480,215|430,261|380,215|330,261" speed="5" />
+
+				<bump fabricRound="1" x="262" y="160" />
+				<bump fabricRound="1" x="594" y="160" />
+				<bump fabricRound="1" x="430" y="182" breakAfter="3" />
+				<bump fabricRound="1" x="380" y="225" breakAfter="3" />
+				<bump fabricRound="1" x="480" y="225" breakAfter="3" />
+				<bump fabricRound="1" x="343" y="271" breakAfter="3" />
+				<bump fabricRound="1" x="516" y="271" breakAfter="3" />
+				<bump fabricRound="1" x="181" y="315" clip="mcBall" motionPoints="230,361|280,315|330,361|380,315|430,361|480,315|530,361|580,315|630,361|680,315|630,361|580,315|530,361|480,315|430,361|380,315|330,361|280,315|230,361" speed="4" />
+
+				<bump fabricRound="2" x="269" y="166" />
+				<bump fabricRound="2" x="583" y="166" />
+				<bump fabricRound="2" x="269" y="323" breakAfter="3" />
+				<bump fabricRound="2" x="583" y="323" breakAfter="3" />
+				<bump fabricRound="2" x="425" y="166" breakAfter="3" />
+				<bump fabricRound="2" x="425" y="323" breakAfter="3" />
+				<bump fabricRound="2" x="280" y="215" clip="mcBall" motionPoints="330,261|380,215|430,261|480,215|530,261|530,261|480,215|430,261|380,215|330,261" speed="3" />
+			</level>
+			<level> <!-- level 36 cd twirly oak top -->
+				<bump fabricRound="0" x="288" y="76" />
+				<bump fabricRound="0" x="562" y="76" />
+				<bump fabricRound="0" x="358" y="154" breakAfter="2" />
+				<bump fabricRound="0" x="487" y="154" breakAfter="2" />
+				<bump fabricRound="0" x="358" y="276" breakAfter="2" />
+				<bump fabricRound="0" x="487" y="276" breakAfter="2" />	
+
+				<bump fabricRound="1" x="269" y="166" />
+				<bump fabricRound="1" x="321" y="166" breakAfter="2" />
+				<bump fabricRound="1" x="373" y="166" breakAfter="2" />
+				<bump fabricRound="1" x="425" y="166" breakAfter="2" />
+				<bump fabricRound="1" x="477" y="166" breakAfter="2" />
+				<bump fabricRound="1" x="529" y="166" breakAfter="2" />
+				<bump fabricRound="1" x="583" y="166" />
+				<bump fabricRound="1" x="423" y="238" breakAfter="2" />
+			</level>
+			<level><!-- level 37 ad -->
+				<bump fabricRound="0" x="323" y="121" />
+				<bump fabricRound="0" x="538" y="55" />
+				<bump fabricRound="0" x="383" y="209" breakAfter="2" />
+				<bump fabricRound="0" x="474" y="209" breakAfter="2" />
+				<bump fabricRound="0" x="376" y="285" breakAfter="2" />
+				<bump fabricRound="0" x="399" y="307" breakAfter="2" />
+				<bump fabricRound="0" x="432" y="317" breakAfter="2" />
+				<bump fabricRound="0" x="468" y="307" breakAfter="2" />
+				<bump fabricRound="0" x="491" y="285" breakAfter="2" />
+
+				<bump fabricRound="1" x="262" y="160" />
+				<bump fabricRound="1" x="594" y="160" />
+				<bump fabricRound="1" x="430" y="182" breakAfter="2" />
+				<bump fabricRound="1" x="380" y="225" breakAfter="2" />
+				<bump fabricRound="1" x="480" y="225" breakAfter="2" />
+				<bump fabricRound="1" x="343" y="271" breakAfter="2" />
+				<bump fabricRound="1" x="430" y="271" breakAfter="2" />
+				<bump fabricRound="1" x="516" y="271" breakAfter="2" />
+			</level>
+			<level> <!-- level 38 ce -->
+				<bump fabricRound="0" x="297" y="86" />
+				<bump fabricRound="0" x="574" y="86" />
+				<bump fabricRound="0" x="423" y="218" breakAfter="2" />
+				<bump fabricRound="0" x="297" y="352" breakAfter="2" />
+				<bump fabricRound="0" x="574" y="352" breakAfter="2" />
+
+				<bump fabricRound="1" x="140" y="175" />
+				<bump fabricRound="1" x="240" y="235" breakAfter="2" />
+				<bump fabricRound="1" x="420" y="235" breakAfter="2" />
+				<bump fabricRound="1" x="600" y="235" breakAfter="2" />
+				<bump fabricRound="1" x="695" y="175" />
+
+			</level>
+			<level> <!-- level 39 ac -->
+				<bump fabricRound="0" x="320" y="120" />
+				<bump fabricRound="0" x="538" y="51" />
+				<bump fabricRound="0" x="430" y="210" breakAfter="2" />
+				<bump fabricRound="0" x="430" y="320" breakAfter="2" />
+
+				<bump fabricRound="1" x="288" y="76" />
+				<bump fabricRound="1" x="562" y="76" />
+				<bump fabricRound="1" x="358" y="154" breakAfter="2" />
+				<bump fabricRound="1" x="487" y="154" breakAfter="2" />
+				<bump fabricRound="1" x="358" y="276" breakAfter="2" />
+				<bump fabricRound="1" x="487" y="276" breakAfter="2" />	
+			</level>
+			<level> <!-- level 40 ce -->
+				<bump fabricRound="0" x="288" y="76" />
+				<bump fabricRound="0" x="562" y="76" />
+				<bump fabricRound="0" x="358" y="154" breakAfter="3" />
+				<bump fabricRound="0" x="487" y="154" breakAfter="3" />
+				<bump fabricRound="0" x="358" y="276" breakAfter="3" />
+				<bump fabricRound="0" x="487" y="276" breakAfter="3" />
+				<bump fabricRound="0" x="250" y="210" clip="mcBall" motionPoints="640,210" speed="4"/>	
+
+				<bump fabricRound="1" x="140" y="175" />
+				<bump fabricRound="1" x="320" y="175" breakAfter="3" />
+				<bump fabricRound="1" x="500" y="175" breakAfter="3" />
+				<bump fabricRound="1" x="695" y="175" />
+				<bump fabricRound="1" x="161" y="227" clip="mcBall" motionPoints="666,227" speed="3"/>
+			</level>
+
+			<level> <!-- level 41 ce -->
+				<bump fabricRound="0" x="288" y="76" />
+				<bump fabricRound="0" x="562" y="76" />
+				<bump fabricRound="0" x="358" y="154" breakAfter="2" />
+				<bump fabricRound="0" x="487" y="154" breakAfter="2" />
+				<bump fabricRound="0" x="358" y="276" breakAfter="2" />
+				<bump fabricRound="0" x="487" y="276" breakAfter="2" />
+
+				<bump fabricRound="1" x="140" y="175" />
+				<bump fabricRound="1" x="320" y="175" breakAfter="2" />
+				<bump fabricRound="1" x="500" y="175" breakAfter="2" />
+				<bump fabricRound="1" x="695" y="175" />
+			</level>
+			<level> <!-- level 42 ac -->
+				<bump fabricRound="0" x="320" y="120" />
+				<bump fabricRound="0" x="538" y="51" />
+				<bump fabricRound="0" x="430" y="210" breakAfter="3" />
+				<bump fabricRound="0" x="430" y="320" breakAfter="3" />
+				<bump fabricRound="0" x="250" y="270" clip="mcBall" motionPoints="640,270" speed="4"/>
+
+				<bump fabricRound="1" x="288" y="76" />
+				<bump fabricRound="1" x="562" y="76" />
+				<bump fabricRound="1" x="358" y="154" breakAfter="3" />
+				<bump fabricRound="1" x="487" y="154" breakAfter="3" />
+				<bump fabricRound="1" x="358" y="276" breakAfter="3" />
+				<bump fabricRound="1" x="487" y="276" breakAfter="3" />	
+				<bump fabricRound="1" x="250" y="210" clip="mcBall" motionPoints="640,210" speed="4"/>
+			</level>
+			<level> <!-- level 43 ie -->
+				<bump fabricRound="0" x="291" y="167" />
+				<bump fabricRound="0" x="577" y="167" />
+				<bump fabricRound="0" x="361" y="202" breakAfter="2" />
+				<bump fabricRound="0" x="521" y="202" breakAfter="2" />
+				<bump fabricRound="0" x="443" y="291" breakAfter="2" />
+
+				<bump fabricRound="1" x="134" y="180" />
+				<bump fabricRound="1" x="694" y="180" />
+				<bump fabricRound="1" x="416" y="181" breakAfter="2" />
+				<bump fabricRound="1" x="416" y="210" breakAfter="2" />
+				<bump fabricRound="1" x="416" y="237" breakAfter="2" />
+				<bump fabricRound="1" x="416" y="268" breakAfter="2" />
+			</level>
+			<level> <!-- level 44 ie -->
+				<bump fabricRound="0" x="291" y="167" />
+				<bump fabricRound="0" x="577" y="167" />
+				<bump fabricRound="0" x="361" y="202" breakAfter="2" />
+				<bump fabricRound="0" x="521" y="202" breakAfter="2" />
+				<bump fabricRound="0" x="443" y="291" breakAfter="2" />
+
+				<bump fabricRound="1" x="140" y="175" />
+				<bump fabricRound="1" x="320" y="175" breakAfter="2" />
+				<bump fabricRound="1" x="500" y="175" breakAfter="2" />
+				<bump fabricRound="1" x="695" y="175" />
+				<bump fabricRound="1" x="411" y="267" breakAfter="2" />
+			</level>
+			<level> <!-- level 45 ab -->
+				<bump fabricRound="0" x="320" y="117" />
+				<bump fabricRound="0" x="540" y="50" />
+				<bump fabricRound="0" x="428" y="90" breakAfter="3" />
+				<bump fabricRound="0" x="428" y="150" breakAfter="3" />
+				<bump fabricRound="0" x="428" y="210" breakAfter="3" />
+				<bump fabricRound="0" x="250" y="300" clip="mcBall" motionPoints="640,300" speed="3"/>
+
+				<bump fabricRound="1" x="330" y="61" />
+				<bump fabricRound="1" x="430" y="52" breakAfter="3" />
+				<bump fabricRound="1" x="505" y="56" breakAfter="3" />
+				<bump fabricRound="1" x="375" y="56" breakAfter="3" />
+				<bump fabricRound="1" x="538" y="61" />
+				<bump fabricRound="1" x="430" y="170" breakAfter="3"/>
+				<bump fabricRound="1" x="430" y="275" breakAfter="3"/>
+				<bump fabricRound="1" x="250" y="227" clip="mcBall" motionPoints="640,227" speed="3"/>
+	
+			</level>
+			<level> <!-- level 46 ie -->
+				<bump fabricRound="0" x="291" y="169" />
+				<bump fabricRound="0" x="576" y="169" />
+				<bump fabricRound="0" x="327" y="213" breakAfter="3" />
+				<bump fabricRound="0" x="543" y="213" breakAfter="3" />
+				<bump fabricRound="0" x="364" y="253" breakAfter="3" />
+				<bump fabricRound="0" x="511" y="253" breakAfter="3" />
+				<bump fabricRound="0" x="252" y="250" clip="mcBall" motionPoints="268,289|298,330|340,355|413,363|547,355|590,330|622,290|638,230|622,290|590,330|547,355|413,363|340,355|298,330|268,289" speed="3"/>	
+
+				<bump fabricRound="1" x="140" y="175" />
+				<bump fabricRound="1" x="255" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="411" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="542" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="695" y="175" />			
+				<bump fabricRound="1" x="215" y="177" clip="mcBall" motionPoints="582,177|582,268|215,268" speed="3"/>
+			</level>
+			<level> <!-- level 47 ed -->
+				<bump fabricRound="0" x="132" y="176" />
+				<bump fabricRound="0" x="695" y="176" />
+				<bump fabricRound="0" x="416" y="177" breakAfter="2" />
+				<bump fabricRound="0" x="416" y="207" breakAfter="2" />
+				<bump fabricRound="0" x="416" y="237" breakAfter="2" />
+				<bump fabricRound="0" x="416" y="267" breakAfter="2" />
+
+				<bump fabricRound="1" x="269" y="166" />
+				<bump fabricRound="1" x="594" y="166" />
+				<bump fabricRound="1" x="343" y="271" breakAfter="2" />
+				<bump fabricRound="1" x="380" y="221" breakAfter="2" />
+				<bump fabricRound="1" x="430" y="171" breakAfter="2" />
+				<bump fabricRound="1" x="480" y="221" breakAfter="2" />
+				<bump fabricRound="1" x="523" y="271" breakAfter="2" />
+			</level>
+
+			<level> <!-- level 48 ef -->
+				<bump fabricRound="1" x="409" y="93" breakAfter="2" />
+				<bump fabricRound="1" x="320" y="117" />
+				<bump fabricRound="1" x="544" y="189" breakAfter="2" />
+				<bump fabricRound="1" x="274" y="189" breakAfter="2" />
+				<bump fabricRound="1" x="320" y="265" breakAfter="2" />
+				<bump fabricRound="1" x="500" y="265" breakAfter="2" />
+				<bump fabricRound="1" x="500" y="117" />
+
+				<bump fabricRound="0" x="140" y="175" />
+				<bump fabricRound="0" x="320" y="175" breakAfter="2" />
+				<bump fabricRound="0" x="500" y="175" breakAfter="2" />
+				<bump fabricRound="0" x="320" y="265" breakAfter="2" />
+				<bump fabricRound="0" x="500" y="265" breakAfter="2" />
+				<bump fabricRound="0" x="695" y="175" />
+			</level>
+			<level> <!-- level 49 eb -->
+				<bump fabricRound="0" x="140" y="175" />
+				<bump fabricRound="0" x="320" y="175" breakAfter="2" />
+				<bump fabricRound="0" x="500" y="175" breakAfter="2" />
+				<bump fabricRound="0" x="140" y="265" breakAfter="2" />
+				<bump fabricRound="0" x="695" y="265" breakAfter="2" />
+				<bump fabricRound="0" x="695" y="175" />
+
+				<bump fabricRound="1" x="330" y="61" />
+				<bump fabricRound="1" x="538" y="61" />
+				<bump fabricRound="1" x="430" y="170" breakAfter="2"/>
+				<bump fabricRound="1" x="430" y="275" breakAfter="2"/>
+				<bump fabricRound="1" x="330" y="395" breakAfter="2"/>
+				<bump fabricRound="1" x="545" y="395" breakAfter="2"/>
+			</level>
+			<level> <!-- level 50 ed -->
+				<bump fabricRound="0" x="140" y="175" />
+				<bump fabricRound="0" x="255" y="224" breakAfter="3" />
+				<bump fabricRound="0" x="411" y="224" breakAfter="3" />
+				<bump fabricRound="0" x="542" y="224" breakAfter="3" />
+				<bump fabricRound="0" x="695" y="175" />			
+				<bump fabricRound="0" x="215" y="177" clip="mcBall" motionPoints="582,177|582,268|215,268" speed="4"/>
+
+				<bump fabricRound="1" x="262" y="160" />
+				<bump fabricRound="1" x="594" y="160" />
+				<bump fabricRound="1" x="330" y="205" breakAfter="3" />
+				<bump fabricRound="1" x="430" y="205" breakAfter="3" />
+				<bump fabricRound="1" x="530" y="205" breakAfter="3" />
+				<bump fabricRound="1" x="181" y="215" clip="mcBall" motionPoints="230,261|280,215|330,261|380,215|430,261|480,215|530,261|580,215|630,261|680,215|630,261|580,215|530,261|480,215|430,261|380,215|330,261|280,215|230,261" speed="4" />
+			</level>
+			<level> <!-- level 51 gf -->
+				<bump fabricRound="1" x="409" y="93" breakAfter="2" />
+				<bump fabricRound="1" x="320" y="117" />
+				<bump fabricRound="1" x="544" y="189" breakAfter="2" />
+				<bump fabricRound="1" x="274" y="189" breakAfter="2" />
+				<bump fabricRound="1" x="500" y="117" />
+				<bump fabricRound="1" x="416" y="230" breakAfter="2" />
+				
+				<bump fabricRound="0" x="416" y="85" breakAfter="2" />
+				<bump fabricRound="0" x="416" y="115" breakAfter="2" />
+				<bump fabricRound="0" x="416" y="175" breakAfter="2" />
+				<bump fabricRound="0" x="350" y="160" />
+				<bump fabricRound="0" x="485" y="160" />
+
+			</level>
+			<level> <!-- level 52 gf -->
+				<bump fabricRound="0" x="416" y="85" />
+				<bump fabricRound="0" x="467" y="125" breakAfter="2" />
+				<bump fabricRound="0" x="363" y="125" breakAfter="2" />
+				<bump fabricRound="0" x="350" y="160" breakAfter="2" />
+				<bump fabricRound="0" x="485" y="160" breakAfter="2" />
+				<bump fabricRound="0" x="416" y="250" breakAfter="2" />
+
+				<bump fabricRound="1" x="306" y="125" />
+				<bump fabricRound="1" x="503" y="125" />
+				<bump fabricRound="1" x="355" y="193" breakAfter="2" />
+				<bump fabricRound="1" x="463" y="193" breakAfter="2" />
+				<bump fabricRound="1" x="330" y="270" breakAfter="2" />
+				<bump fabricRound="1" x="362" y="296" breakAfter="2" />
+				<bump fabricRound="1" x="412" y="304" breakAfter="2" />
+				<bump fabricRound="1" x="463" y="296" breakAfter="2" />
+				<bump fabricRound="1" x="498" y="270" breakAfter="2" />
+			</level>
+			<level> <!-- level 53 fg -->
+				<bump fabricRound="1" x="409" y="93" breakAfter="3" />
+				<bump fabricRound="1" x="320" y="117" />
+				<bump fabricRound="1" x="544" y="189" breakAfter="3" />
+				<bump fabricRound="1" x="274" y="189" breakAfter="3" />
+				<bump fabricRound="1" x="500" y="117" />
+				<bump fabricRound="1" x="416" y="230" breakAfter="3" />
+				<bump fabricRound="1" x="272" y="250" clip="mcBall" motionPoints="288,289|318,330|360,355|413,363|467,355|510,330|542,290|558,250|542,290|510,330|467,355|413,363|359,355|318,330|288,289" speed="3"/>
+	
+				<bump fabricRound="0" x="416" y="85" breakAfter="3" />
+				<bump fabricRound="0" x="416" y="115" breakAfter="3" />
+				<bump fabricRound="0" x="416" y="175" breakAfter="3" />
+				<bump fabricRound="0" x="350" y="160" />
+				<bump fabricRound="0" x="485" y="160" />
+				<bump fabricRound="0" x="250" y="247" clip="mcBall" motionPoints="640,247" speed="3"/>
+
+			</level>
+			<level> <!-- level 54 b -->
+				<bump fabricRound="0" x="330" y="61" />
+				<bump fabricRound="0" x="430" y="52" />
+				<bump fabricRound="0" x="501" y="56" />
+				<bump fabricRound="0" x="375" y="56" />
+				<bump fabricRound="0" x="535" y="61" />
+				<bump fabricRound="0" x="430" y="170" breakAfter="2"/>
+				<bump fabricRound="0" x="430" y="275" breakAfter="2"/>
+			</level>
+			<level> <!-- level 55 be -->
+				<bump fabricRound="0" x="330" y="61" />
+				<bump fabricRound="0" x="430" y="52" />
+				<bump fabricRound="0" x="501" y="56" />
+				<bump fabricRound="0" x="375" y="56" />
+				<bump fabricRound="0" x="535" y="61" />
+				<bump fabricRound="0" x="430" y="170" breakAfter="3"/>
+				<bump fabricRound="0" x="430" y="275" breakAfter="3"/>
+				<bump fabricRound="0" x="250" y="227" clip="mcBall" motionPoints="640,227" speed="4"/>
+
+				<bump fabricRound="1" x="140" y="175" />
+				<bump fabricRound="1" x="255" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="411" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="542" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="695" y="175" />			
+				<bump fabricRound="1" x="215" y="177" clip="mcBall" motionPoints="582,177|582,268|215,268" speed="4"/>
+			</level>
+			<level> <!-- level 56 ef -->
+				<bump fabricRound="0" x="140" y="175" />
+				<bump fabricRound="0" x="255" y="224" breakAfter="3" />
+				<bump fabricRound="0" x="411" y="224" breakAfter="3" />
+				<bump fabricRound="0" x="542" y="224" breakAfter="3" />
+				<bump fabricRound="0" x="695" y="175" />			
+				<bump fabricRound="0" x="215" y="177" clip="mcBall" motionPoints="582,177|582,268|215,268" speed="4"/>
+
+				<bump fabricRound="1" x="409" y="93" breakAfter="3" />
+				<bump fabricRound="1" x="320" y="117" />
+				<bump fabricRound="1" x="544" y="189" breakAfter="3" />
+				<bump fabricRound="1" x="274" y="189" breakAfter="3" />
+				<bump fabricRound="1" x="500" y="117" />
+				<bump fabricRound="1" x="416" y="230" breakAfter="3" />
+				<bump fabricRound="1" x="272" y="250" clip="mcBall" motionPoints="288,289|318,330|360,355|413,363|467,355|510,330|542,290|558,250|542,290|510,330|467,355|413,363|359,355|318,330|288,289" speed="3"/>
+			</level>
+			<level> <!-- level 57 ef -->
+				<bump fabricRound="0" x="140" y="175" />
+				<bump fabricRound="0" x="255" y="224" breakAfter="2" />
+				<bump fabricRound="0" x="411" y="224" breakAfter="2" />
+				<bump fabricRound="0" x="542" y="224" breakAfter="2" />
+				<bump fabricRound="0" x="695" y="175" />			
+
+				<bump fabricRound="1" x="409" y="93" breakAfter="2" />
+				<bump fabricRound="1" x="320" y="117" />
+				<bump fabricRound="1" x="544" y="189" breakAfter="2" />
+				<bump fabricRound="1" x="274" y="189" breakAfter="2" />
+				<bump fabricRound="1" x="500" y="117" />
+				<bump fabricRound="1" x="416" y="230" breakAfter="2" />
+			</level>
+			<level> <!-- level 58 aed -->
+				<bump fabricRound="0" x="323" y="121" />
+				<bump fabricRound="0" x="538" y="55" />
+				<bump fabricRound="0" x="431" y="237" breakAfter="3" />
+				<bump fabricRound="0" x="431" y="127" clip="mcBall" motionPoints="475,138|507,163|530,201|532,237|524,276|500,306|431,336|388,328|352,303|335,272|327,237|329,200|348,165|382,137" speed="5"/>
+				
+				<bump fabricRound="2" x="262" y="160" />
+				<bump fabricRound="2" x="594" y="160" />
+				<bump fabricRound="2" x="330" y="205" breakAfter="3" />
+				<bump fabricRound="2" x="430" y="205" breakAfter="3" />
+				<bump fabricRound="2" x="530" y="205" breakAfter="3" />
+				<bump fabricRound="2" x="181" y="215" clip="mcBall" motionPoints="230,261|280,215|330,261|380,215|430,261|480,215|530,261|580,215|630,261|680,215|630,261|580,215|530,261|480,215|430,261|380,215|330,261|280,215|230,261" speed="3" />
+				
+				<bump fabricRound="1" x="134" y="175" />
+				<bump fabricRound="1" x="694" y="175" />
+				<bump fabricRound="1" x="185" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="411" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="642" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="184" y="107" clip="mcBall" motionPoints="228,130|260,155|283,192|285,229|277,268|253,298|224,320|184,328|142,320|106,295|89,264|81,229|83,192|101,157|135,130" speed="5"/>
+				<bump fabricRound="1" x="641" y="107" clip="mcBall" motionPoints="593,130|558,157|540,192|538,229|546,264|563,295|599,320|642,328|681,320|710,298|734,268|742,229|740,192|717,155|685,130" speed="5"/>
+
+			</level>
+			<level> <!-- level 59 aef -->
+				<bump fabricRound="0" x="323" y="121" />
+				<bump fabricRound="0" x="538" y="55" />
+				<bump fabricRound="0" x="431" y="237" breakAfter="3" />
+				<bump fabricRound="0" x="431" y="127" clip="mcBall" motionPoints="475,138|507,163|530,201|532,237|524,276|500,306|431,336|388,328|352,303|335,272|327,237|329,200|348,165|382,137" speed="5"/>
+				
+				<bump fabricRound="1" x="134" y="175" />
+				<bump fabricRound="1" x="694" y="175" />
+				<bump fabricRound="1" x="185" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="411" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="642" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="184" y="107" clip="mcBall" motionPoints="228,130|260,155|283,192|285,229|277,268|253,298|224,320|184,328|142,320|106,295|89,264|81,229|83,192|101,157|135,130" speed="5"/>
+				<bump fabricRound="1" x="641" y="107" clip="mcBall" motionPoints="593,130|558,157|540,192|538,229|546,264|563,295|599,320|642,328|681,320|710,298|734,268|742,229|740,192|717,155|685,130" speed="5"/>
+
+				<bump fabricRound="2" x="416" y="85" />
+				<bump fabricRound="2" x="400" y="229" breakAfter="3" />
+				<bump fabricRound="2" x="430" y="177" breakAfter="3" />
+				<bump fabricRound="2" x="430" y="285" breakAfter="3" />
+				<bump fabricRound="2" x="431" y="127" clip="mcBall" motionPoints="475,138|507,163|530,201|532,237|524,276|500,306|431,336|388,328|352,303|335,272|327,237|329,200|348,165|382,137" speed="5"/>
+		</level>
+		<level> <!-- level 60 ieb -->
+				<bump fabricRound="0" x="291" y="169" />
+				<bump fabricRound="0" x="576" y="169" />
+				<bump fabricRound="0" x="327" y="213" breakAfter="3" />
+				<bump fabricRound="0" x="543" y="213" breakAfter="3" />
+				<bump fabricRound="0" x="364" y="253" breakAfter="3" />
+				<bump fabricRound="0" x="511" y="253" breakAfter="3" />
+				<bump fabricRound="0" x="252" y="250" clip="mcBall" motionPoints="268,289|298,330|340,355|413,363|547,355|590,330|622,290|638,230|622,290|590,330|547,355|413,363|340,355|298,330|268,289" speed="5"/>	
+
+				<bump fabricRound="1" x="140" y="175" />
+				<bump fabricRound="1" x="255" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="411" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="542" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="695" y="175" />			
+				<bump fabricRound="1" x="215" y="177" clip="mcBall" motionPoints="582,177|582,268|215,268" speed="5"/>
+
+				<bump fabricRound="2" x="323" y="54" />
+				<bump fabricRound="2" x="542" y="54" />
+				<bump fabricRound="2" x="400" y="229" breakAfter="3" />
+				<bump fabricRound="2" x="430" y="177" breakAfter="3" />
+				<bump fabricRound="2" x="430" y="285" breakAfter="3" />
+				<bump fabricRound="2" x="460" y="229" breakAfter="3" />
+				<bump fabricRound="2" x="431" y="127" clip="mcBall" motionPoints="475,138|507,163|530,201|532,237|524,276|500,306|431,336|388,328|352,303|335,272|327,237|329,200|348,165|382,137" speed="5"/>
+
+			</level>
+			<level> <!-- level 61 fef -->
+				
+				<bump fabricRound="0" x="416" y="85" />
+				<bump fabricRound="0" x="400" y="229" breakAfter="3" />
+				<bump fabricRound="0" x="430" y="177" breakAfter="3" />
+				<bump fabricRound="0" x="430" y="285" breakAfter="3" />
+				<bump fabricRound="0" x="431" y="127" clip="mcBall" motionPoints="475,138|507,163|530,201|532,237|524,276|500,306|431,336|388,328|352,303|335,272|327,237|329,200|348,165|382,137" speed="5"/>
+				
+				<bump fabricRound="1" x="140" y="175" />
+				<bump fabricRound="1" x="255" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="411" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="542" y="224" breakAfter="3" />
+				<bump fabricRound="1" x="695" y="175" />			
+				<bump fabricRound="1" x="215" y="177" clip="mcBall" motionPoints="582,177|582,268|215,268" speed="5"/>
+	
+				<bump fabricRound="2" x="416" y="85" />
+				<bump fabricRound="2" x="400" y="229" breakAfter="3" />
+				<bump fabricRound="2" x="430" y="177" breakAfter="3" />
+				<bump fabricRound="2" x="430" y="285" breakAfter="3" />
+				<bump fabricRound="2" x="431" y="127" clip="mcBall" motionPoints="475,138|507,163|530,201|532,237|524,276|500,306|431,336|388,328|352,303|335,272|327,237|329,200|348,165|382,137" speed="5"/>
+			</level>
+			<level> <!-- level 62 ecc -->
+				
+				<bump fabricRound="0" x="132" y="176" />
+				<bump fabricRound="0" x="695" y="176" />
+				<bump fabricRound="0" x="416" y="177" breakAfter="3" />
+				<bump fabricRound="0" x="416" y="207" breakAfter="3" />
+				<bump fabricRound="0" x="416" y="237" breakAfter="3" />
+				<bump fabricRound="0" x="416" y="267" breakAfter="3" />
+				<bump fabricRound="0" x="161" y="194" clip="mcBall" motionPoints="416,328|671,194|416,328" speed="5"/>
+				
+
+				<bump fabricRound="1" x="288" y="76" />
+				<bump fabricRound="1" x="562" y="76" />
+				<bump fabricRound="1" x="358" y="154" breakAfter="3" />
+				<bump fabricRound="1" x="487" y="154" breakAfter="3" />
+				<bump fabricRound="1" x="358" y="276" breakAfter="3" />
+				<bump fabricRound="1" x="487" y="276" breakAfter="3" />
+				<bump fabricRound="1" x="272" y="250" clip="mcBall" motionPoints="288,289|318,330|360,355|413,363|467,355|510,330|542,290|558,250|542,290|510,330|467,355|413,363|359,355|318,330|288,289" speed="5"/>
+	
+			
+				<bump fabricRound="2" x="288" y="76" />
+				<bump fabricRound="2" x="562" y="76" />
+				<bump fabricRound="2" x="358" y="154" breakAfter="3" />
+				<bump fabricRound="2" x="487" y="154" breakAfter="3" />
+				<bump fabricRound="2" x="358" y="276" breakAfter="3" />
+				<bump fabricRound="2" x="487" y="276" breakAfter="3" />
+				<bump fabricRound="2" x="272" y="250" clip="mcBall" motionPoints="288,289|318,330|360,355|413,363|467,355|510,330|542,290|558,250|542,290|510,330|467,355|413,363|359,355|318,330|288,289" speed="5"/>
+			</level>
+		</bumper>
+	</config>
+</panel>
+
+
+
+
+

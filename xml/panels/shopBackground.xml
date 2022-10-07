@@ -1,0 +1,11 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/shopBackground.swf</swf>
+		<swf type="code">{panelCode}/shopBackground.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<path>swf/shops/backgrounds</path>
+	</config>
+</panel>

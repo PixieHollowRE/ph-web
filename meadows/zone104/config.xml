@@ -1,0 +1,162 @@
+<zone>
+  <name>Treetop Bend</name>
+  <zoneID>104</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>meadow104</audioLibrary>
+  <audioLibrary tags="Meadow_AnimalMasq2010">animalMasquerade2010</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="900" height="783" locked="true">
+        <image x="0" y="0" type="none" tag="Meadow_Spring_Rain">sky_01_SpringRainy.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_SpringCelebration">sky_01_SpringCelebBegins.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_SpringPrep">sky_01_SpringCelebPrep.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_SpringFlood">sky_01_SpringRainy.swf</image>
+        <image x="0" y="0" type="none">sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="945" height="823">
+        <image x="0" y="0" type="none" tag="Meadow_Spring_Rain">far_02_SpringRainy.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_SpringCelebration">far_02_SpringCelebBegins.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_SpringPrep">far_02_SpringCelebPrep.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_SpringCrisis_2012_Closed">far_02_SpringCrisis_2012.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_SpringFlood">far_02_SpringRainy.swf</image>
+        <image x="0" y="0" type="none">far_02.swf</image>
+      </layer>
+      <layer type="ground" width="1711" height="1489">
+        <image x="0" y="0" type="merge" tag="Meadow_GreatGames2010">action_greatgamesbanner_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Friendship_Festival">action_03_2009_FriendFest.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Spring_Rain">action_03_SpringRainy.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_GreatGames">action_Meadow_GreatGames_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMasq2010">action_03_AnimalMasq.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Spring_Celebration">action_03_SpringBegins.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringCelebration">action_03_SpringCelebBegins.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Friendship2011">action_03_FairyFriendship2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringPrep">action_03_SpringCelebPrep.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringCrisis_2012_Closed">action_03_SpingCrisis_2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Fairy_Friendship_2012">action_03_FairyFriendship_2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringEquinox_2012_Open">action_03_SpingEquinox_2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Masquerade2012">action_03_Masquerade_2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFriendship">action_03_FairyFriendship_2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringEquinox">action_03_SpringCelebBegins.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringFlood">action_03_SpringEquinoxBegins_2013.swf</image>
+        <image x="0" y="0" type="merge">action_03.swf</image>
+      </layer>
+      <layer type="normal" width="2546" height="2215" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_Spring_Rain">foreground_04_SpringRainy.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_SpringPrep">foreground_04_SpringCelebPrep.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_SpringCrisis_2012_Closed">foreground_04_SpringCrisis_2012.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_SpringFlood">foreground_04_SpringRainy.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy">foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="773" y="1031">default</location>
+    <location x="923" y="1162">fromNeverberryThicket</location>
+    <location x="333" y="699">fromCherryblossomHeights</location>
+    <location x="358" y="391">fromChillyFalls</location>
+    <location x="874" y="843">fromZone111001</location>
+    <location x="631" y="1366">fromZone110000</location>
+    <location x="1331" y="1000">fromZone50043</location>
+    <location x="991" y="497">fromZone116000</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_104</id>
+      <loops>0</loops>
+      <volumeLow>0.3</volumeLow>
+      <volumeHigh>0.3</volumeHigh>
+    </sfx>
+    <sfx tags="Meadow_AnimalMasq2010">
+      <id>meadow_ambient_spring_sky_am</id>
+      <loops>0</loops>
+      <volumeLow>0.3</volumeLow>
+      <volumeHigh>0.3</volumeHigh>
+    </sfx>
+    <sfx tags="Meadow_SpringCelebration,Meadow_SpringFlood">
+      <id>meadow_ambient_10xRain</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+    </sfx>
+    <bgm>
+      <id>meadow_music_104</id>
+      <loops>1</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+    </bgm>
+    <bgm>
+      <id>meadow_music_spring_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.185</volumeHigh>
+      <delayLow>24000</delayLow>
+      <delayHigh>24000</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_SpringCelebration">
+      <id>meadow_music_104</id>
+      <loops>1</loops>
+      <volumeLow>0.3</volumeLow>
+      <volumeHigh>0.3</volumeHigh>
+    </bgm>
+    <bgm tags="Meadow_SpringCelebration">
+      <id>meadow_music_spring_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.185</volumeHigh>
+      <delayLow>24000</delayLow>
+      <delayHigh>24000</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_AnimalMasq2010">
+      <id>animalMasquerade2010</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <chatTriggers>
+    
+    <!-- TRIGGER HOT SPOT -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" eligibleGiveAwayId="2237" typeToTrigger="1" delay="3" itemid="27673" setVelvetRope="1" tagId="1" tags=""/>
+    
+    <!-- TRIGGER WARDOBE -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" typeToTrigger="2" delay="3" itemid="2237" setVelvetRope="1" tagId="14" setColor1="19" setColor2="141" tags=""/>
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="3" delay="3" itemid="6634" setColor1="159" setColor2="29" tags="" /> TRIGGER STORAGE -->
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="4" delay="3" itemid="15128" amount="3" tags="" /> TRIGGER POUCH -->
+    
+  </chatTriggers>
+  
+  <sharedAudioLibrary tags="Meadow_SpringCelebration,Meadow_SpringFlood">meadow10xRainAmbient</sharedAudioLibrary>
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  <decorations/>
+  
+  <hotspots>
+    <hotspot tags="Meadow_SpringEquinox_2012_Open" id="27701" x="754" y="1161" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="3"/>
+    <hotspot tags="Meadow_FairyFriendship" id="27717" x="238.95" y="813" setVelvetRope="0" shared="false" refresh="5" playType="full" itemEventId="0" tagId="4"/>
+    <hotspot tags="Meadow_FairyFriendship" id="27696" x="970" y="1098" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="2"/>
+    <hotspot tags="Meadow_SpringEquinox" id="27701" x="754" y="1161" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="3"/>
+    <hotspot tags="Meadow_SpringPrep" id="27613" x="648" y="1075" setVelvetRope="0" shared="true" playType="full" itemEventId="29501" tagId="0"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27673" x="688" y="911" setVelvetRope="0" shared="false" serverParm="1" clientTrigger="7" clientParm="4" refresh="2" playType="keyframe" itemEventId="0" tagId="1"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27738" x="1128" y="1065" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="5"/>
+  </hotspots>
+</zone>

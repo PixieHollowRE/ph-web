@@ -1,0 +1,313 @@
+<level>
+
+<!-- A line of moths form a wall, with all the fireflies
+ on one side of it. Can use orange to lure a firefly to
+ the other side and then set off a chain with red. Is
+ still forgiving, though; there is a yellow light on
+ the side with the fireflies.
+
+ Problems that need to be worked out: lag, finikiness,
+ possibility of solving in one or two hits with yellow -->
+
+	<light x = "95" y = "178">orange</light>
+	<light x = "95" y = "253">blue</light>
+	<light x = "95" y = "328">orange</light>
+	<light x = "783" y = "253">yellow</light>
+
+<!-- moth #0 of 11 -->
+	<firefly image="blindmoth">
+		<path smooth="2">
+			<point x="260" y="13" />
+			<point x="370" y="-7" />	
+			<point x="480" y="13" />
+			<point x="370" y="33" />	
+		</path>
+		<drift>7</drift>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		<type>blindmoth</type>	
+	</firefly>
+<!-- moth #1 of 11 -->
+	<firefly image="blindmoth">
+		<path smooth="2">
+			<point x="260" y="53" />
+			<point x="370" y="33" />	
+			<point x="480" y="53" />
+			<point x="370" y="73" />	
+		</path>
+		<drift>7</drift>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>		
+		<type>blindmoth</type>	
+	</firefly>
+<!-- moth #2 of 11 -->
+	<firefly image="blindmoth">
+		<path smooth="2">
+			<point x="260" y="93" />
+			<point x="370" y="73" />	
+			<point x="480" y="93" />
+			<point x="370" y="113" />	
+		</path>
+		<drift>7</drift>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>			
+		<type>blindmoth</type>	
+	</firefly>
+<!-- moth #3 of 11 -->
+	<firefly image="blindmoth">
+		<path smooth="2">
+			<point x="260" y="133" />
+			<point x="370" y="113" />	
+			<point x="480" y="133" />
+			<point x="370" y="153" />	
+		</path>
+		<drift>7</drift>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		
+		<type>blindmoth</type>	
+	</firefly>
+<!-- moth #4 of 11 -->
+	<firefly image="blindmoth">
+		<path smooth="2">
+			<point x="260" y="173" />
+			<point x="370" y="153" />	
+			<point x="480" y="173" />
+			<point x="370" y="193" />	
+		</path>
+		<drift>7</drift>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		
+		<type>blindmoth</type>	
+	</firefly>
+<!-- moth #5 of 11 -->
+	<firefly image="blindmoth">
+		<path smooth="2">
+			<point x="260" y="213" />
+			<point x="370" y="193" />	
+			<point x="480" y="213" />
+			<point x="370" y="233" />	
+		</path>
+		<drift>7</drift>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		
+		<type>blindmoth</type>	
+	</firefly>
+<!-- moth #6 of 11 -->
+	<firefly image="blindmoth">
+		<path smooth="2">
+			<point x="260" y="253" />
+			<point x="370" y="233" />	
+			<point x="480" y="253" />
+			<point x="370" y="273" />	
+		</path>
+		<drift>7</drift>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		
+		<type>blindmoth</type>	
+	</firefly>
+<!-- moth #7 of 11 -->
+	<firefly image="blindmoth">
+		<path smooth="2">
+			<point x="260" y="293" />
+			<point x="370" y="273" />	
+			<point x="480" y="293" />
+			<point x="370" y="313" />	
+		</path>
+		<drift>7</drift>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		
+		<type>blindmoth</type>	
+	</firefly>
+<!-- moth #8 of 11 -->
+	<firefly image="blindmoth">
+		<path smooth="2">
+			<point x="260" y="333" />
+			<point x="370" y="313" />	
+			<point x="480" y="333" />
+			<point x="370" y="353" />	
+		</path>
+		<drift>7</drift>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		
+		<type>blindmoth</type>	
+	</firefly>
+<!-- moth #9 of 11 -->
+	<firefly image="blindmoth">
+		<path smooth="2">
+			<point x="260" y="373" />
+			<point x="370" y="353" />	
+			<point x="480" y="373" />
+			<point x="370" y="393" />	
+		</path>
+		<drift>7</drift>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		
+		<type>blindmoth</type>	
+	</firefly>
+<!-- moth #10 of 11 -->
+	<firefly image="blindmoth">
+		<path smooth="2">
+			<point x="260" y="413" />
+			<point x="370" y="393" />	
+			<point x="480" y="413" />
+			<point x="370" y="433" />	
+		</path>
+		<drift>7</drift>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		
+		<type>blindmoth</type>	
+	</firefly>
+<!-- moth #11 of 11 -->
+	<firefly image="blindmoth">
+		<path smooth="2">
+			<point x="260" y="453" />
+			<point x="370" y="433" />	
+			<point x="480" y="453" />
+			<point x="370" y="473" />	
+		</path>
+		<drift>7</drift>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		
+		<type>blindmoth</type>	
+	</firefly>
+<!-- moth #12 of 11 -->
+	<firefly image="blindmoth">
+		<path smooth="2">
+			<point x="260" y="493" />
+			<point x="370" y="473" />	
+			<point x="480" y="493" />
+			<point x="370" y="513" />	
+		</path>
+		<drift>7</drift>
+		<speed>5</speed>
+		<turnspeed>0.25</turnspeed>
+		
+		<type>blindmoth</type>	
+	</firefly>
+
+<!-- firefly #1 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">
+			<startPoint x="600" y="253" />						
+			<topLeft x="560" y="103" />
+			<bottomRight x="640" y="403"/>
+			<waitFrameCountMax value="2" />	
+		</path>
+		<drift>0</drift>
+		<speed>2.5</speed>
+		<turnspeed>0.3</turnspeed>
+		<attract>15</attract>		
+
+	</firefly>
+
+<!-- firefly #2 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">
+			<startPoint x="600" y="253" />						
+			<topLeft x="560" y="103" />
+			<bottomRight x="640" y="403"/>
+			<waitFrameCountMax value="2" />	
+		</path>
+		<drift>0</drift>
+		<speed>2.5</speed>
+		<turnspeed>0.3</turnspeed>
+		<attract>15</attract>		
+
+	</firefly>
+
+<!-- firefly #3 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">
+			<startPoint x="600" y="253" />						
+			<topLeft x="560" y="103" />
+			<bottomRight x="640" y="403"/>
+			<waitFrameCountMax value="2" />	
+		</path>
+		<drift>0</drift>
+		<speed>2.5</speed>
+		<turnspeed>0.3</turnspeed>
+		<attract>15</attract>		
+	
+	</firefly>
+
+<!-- firefly #4 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">
+			<startPoint x="600" y="253" />						
+			<topLeft x="560" y="103" />
+			<bottomRight x="640" y="403"/>
+			<waitFrameCountMax value="2" />	
+		</path>
+		<drift>0</drift>
+		<speed>2.5</speed>
+		<turnspeed>0.3</turnspeed>
+		<attract>15</attract>		
+
+	</firefly>
+
+<!-- firefly #5 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">
+			<startPoint x="600" y="253" />						
+			<topLeft x="560" y="103" />
+			<bottomRight x="640" y="403"/>
+			<waitFrameCountMax value="2" />	
+		</path>
+		<drift>0</drift>
+		<speed>2.5</speed>
+		<turnspeed>0.3</turnspeed>
+		<attract>15</attract>		
+	</firefly>
+
+<!-- firefly #6 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">
+			<startPoint x="600" y="253" />						
+			<topLeft x="560" y="103" />
+			<bottomRight x="640" y="403"/>
+			<waitFrameCountMax value="2" />	
+		</path>
+		<drift>0</drift>
+		<speed>2.5</speed>
+		<turnspeed>0.3</turnspeed>
+		<attract>15</attract>		
+	</firefly>
+
+<!-- firefly #7 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">
+			<startPoint x="600" y="253" />						
+			<topLeft x="560" y="103" />
+			<bottomRight x="640" y="403"/>
+			<waitFrameCountMax value="2" />	
+		</path>
+		<drift>0</drift>
+		<speed>2.5</speed>
+		<turnspeed>0.3</turnspeed>
+		<attract>15</attract>		
+	</firefly>
+
+<!-- firefly #8 of 8 -->
+	<firefly image="firefly">
+		<path source = "random">
+			<startPoint x="600" y="253" />						
+			<topLeft x="560" y="103" />
+			<bottomRight x="640" y="403"/>
+			<waitFrameCountMax value="2" />	
+		</path>
+		<drift>0</drift>
+		<speed>2.5</speed>
+		<turnspeed>0.3</turnspeed>
+		<attract>15</attract>		
+	</firefly>
+
+</level>

@@ -1,0 +1,13 @@
+﻿<panelSet>
+
+      <panels>
+		<panel id="exitHome" x="400" y="75" transition="none" hidden="true">{panelData}/exitPreviewHome.xml</panel>					
+      </panels>
+
+      <config>
+      </config>
+
+      <copy>
+      </copy>
+
+</panelSet>

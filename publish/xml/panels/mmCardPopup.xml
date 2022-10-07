@@ -1,0 +1,15 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/gameCardPopup.swf</swf>
+		<swf type="code">{publishPanelCode}/gameCardPopup.swf</swf>
+	</swfs>
+	<copy>
+
+	</copy>
+	<config>
+		<headerString>What is a Bonus Gift?</headerString>
+		<mainString><![CDATA[A Bonus Gift is a special offer included with select Disney DVDs.
+A Bonus Gift gives Guests either one free month or three free months of Membership to PixieHollow.com.]]></mainString>
+		<closeBtnLabel>Close</closeBtnLabel>
+	</config>
+</panel>

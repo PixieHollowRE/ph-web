@@ -1,0 +1,14 @@
+<level>
+	<rosettaStartMessage>The garden-talents need to stock up on more petals!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>
+	<objective>96 ###petal1### petals only!</objective>
+	
+	<randomPetalConfig>96-22,0-2,0-2,0-2,0-2</randomPetalConfig>
+	<multiplierChance>15</multiplierChance>
+	<bees>1</bees>
+	<petalspeed min="2" max="3"/>
+	<powerups stopwind="2" extratime="1" removebees="1"/>
+	<minLegalPetalCount>2</minLegalPetalCount>
+	<timeLimit>50</timeLimit>
+</level>

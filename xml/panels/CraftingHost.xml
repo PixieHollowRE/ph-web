@@ -1,0 +1,249 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/craftingHost.swf</swf>
+		<swf type="code">{panelCode}/CraftingHost.swf</swf>
+	</swfs>
+	<copy>
+		<nextButton target = "nextButtonContainer.nextButton.label">Next</nextButton>
+		<loading>One Moment</loading>
+
+		<!-- no longer used?? -->
+
+
+		<hostName_100000>Bobbin</hostName_100000>
+		<intro_100000>Hey-oh! Welcome to Bobbin's Tailoring Nook, run by yours truly -- Bobbin! I can help ya' stitch up some fashion-tastic new threads, no problem! Come on in!</intro_100000>
+		<modeChooser_100000>Do you want to practice your tailoring skills? Or make something new for yourself?</modeChooser_100000>
+		<recipeList_100000>Tailor-ific! So what do ya wanna make?</recipeList_100000>
+		<emptyRecipeList_100000>Oh ho, looks like ya gotta practice some more in Community Tailoring to unlock some patterns for yourself!</emptyRecipeList_100000>
+		<colorChooser_100000>Super choice! Now pick the color dye ya want to use on your item.</colorChooser_100000>
+		<step_6_100000>It's time to color your material. Our roly-poly pal will help. Just keep him rolling to spread out the dye!</step_6_100000>
+		<step_3_100000>Roller-ific! Now ya gotta cut out your pattern pieces. Lead the caterpillar along the dotted line, and he'll nibble out the shapes!</step_3_100000>
+		<step_4_100000>This is as easy as darning a skirt! Just put all the pattern pieces together! Make sure ya' find the right spot!</step_4_100000>
+		<step_5_100000>Hey-oh! Now to sew it up! Just tell the spider to make a stitch when she's over the right spot!</step_5_100000>		
+		<step_50_100000>Hey-oh! Ready for some Knitting?</step_50_100000>		
+		<step_51_100000>Hey-oh! Ready for some Shearing?</step_51_100000>		
+		<step_52_100000>Hey-oh! Ready to find some Buttons?</step_52_100000>		
+		<step_53_100000>Hey-oh! Ready for some Beading?</step_53_100000>		
+		<step_55_100000>It's time to choose colors for your print! Just dip the paintbrush in the colors and fill in the design!</step_55_100000>		
+		<notdone_100000>I sure hope I see ya' again! This was fun!</notdone_100000>
+		<done_100000>Ya' did it again! Flitterific!</done_100000>
+		<donePersonal_100000>Congrats! You can find your new #ITEMNAME# in your Leaf Journal!</donePersonal_100000>			
+		<unlock_100000>Congratulations! I knew ya' could do it!</unlock_100000>
+		<new_100000>Oh, you'll have so much fun making this new stuff! Come see me, I'll help ya'!</new_100000>
+		<score_100000_0>Bust my buttonholes and take a look at that, will ya'?</score_100000_0>
+		<score_100000_1>This is ultra tailor-tastic! You're awesome!</score_100000_1>
+		<score_100000_2>The sewing-talents are so proud of ya'!</score_100000_2>
+		<score_100000_3>Now that's quality ya' can count on!</score_100000_3>
+	
+		<hostName_100001>Mendy</hostName_100001>
+		<intro_100001>Welcome to Mendy's Tailoring Nook. Are we looking to make a lovely pair of shoes or a fashionable sash today? Allow me, Mendy, to be your guide!</intro_100001>
+		<modeChooser_100001>First things first. Are we making something to help bring about the next season, or are we creating a fashion for ourselves, mmm?</modeChooser_100001>
+		<recipeList_100001>Excellent, my dear. Now we must select the item we would like to make.</recipeList_100001>
+		<emptyRecipeList_100001>Looks like we'll need to practice a bit more in Community Tailoring to unlock some patterns, mmm?</emptyRecipeList_100001>
+		<colorChooser_100001>A lovely choice, my dear. Now, let us select the color we wish to dye our creation.</colorChooser_100001>
+		<step_6_100001>Our helpful roly-poly friend will assist us with dyeing your materials. Give him a gentle bounce to keep the dye flowing, my dear.</step_6_100001>
+		<step_3_100001>Lovely, my dear. Now let's cut out our pieces with the help of our caterpillar friend. Simply guide him along the dotted line.</step_3_100001>
+		<step_4_100001>Now it's time for us to lay out our pattern.</step_4_100001>
+		<step_5_100001>We are quite close to finishing! With the help of our spider friend, we shall now put in the final stitches!</step_5_100001>
+		<step_50_100001>It's time to knit something swell!</step_50_100001>		
+		<step_51_100001>Ready to do some Shearing?</step_51_100001>		
+		<step_52_100001>Let's find some Buttons!</step_52_100001>
+		<step_53_100001>Ready to do some lovely Beading?</step_53_100001>	
+		<step_55_100001>PLACEHOLDER COPY (2of2) FOR SCREENPRINTING (CraftingHost.xml)</step_55_100001>		
+		<notdone_100001>We'll be happy to see you again any time, my dear!</notdone_100001>
+		<done_100001>Once again, a lovely job, my dear.</done_100001>
+		<donePersonal_100001>Lovely job, my dear. You'll find your new #ITEMNAME# in your Leaf Journal!</donePersonal_100001>			
+		<unlock_100001>Well done! As they say, practice makes perfect!</unlock_100001>
+		<new_100001>Mmm, Looks like now you have more you can make!  Remember, Mendy's always here to help!</new_100001>		
+		<score_100001_0>Quite nicely done!</score_100001_0>
+		<score_100001_1>Lovely! We weaving-talents are very proud!</score_100001_1>
+		<score_100001_2>Quite a fashionable piece. Superb work!</score_100001_2>
+		<score_100001_3>A wonderful job, my dear!</score_100001_3>
+
+		<hostName_100002>Dulcie</hostName_100002>
+		<intro_100002>Hi! I'm Dulcie, and this is my kitchen! Let's grab a bowl, fire up the oven, and bake something yummy for our tummy!</intro_100002>
+		<modeChooser_100002>First, tell me what kind of baking you want to do -- tasty treats for the Tearoom, or some pixie dust-filled goodies for your next trip out into the Wilderness?</modeChooser_100002>
+		<recipeList_100002>We've got all kinds of sweet treats you can make! You in the mood for a batch of cookies or something silly?</recipeList_100002>
+		<emptyRecipeList_100002>Oops. Looks like you need to practice more Community Baking to unlock recipes you can bake for yourself!</emptyRecipeList_100002>
+		<step_40_100002>Our batter is in the bowl all ready to get mixed up! Be sure to stir it at just the right speed!</step_40_100002>
+		<step_38_100002>Now pour the batter into these cups. Careful now -- you need to fill each cup to the exact amount!</step_38_100002>
+		<step_39_100002>Our batter is mixed, measured, and ready for the oven! Keep the flames burning just hot enough by pumping the bellows.</step_39_100002>
+		<step_54_100002>Our frosting and sprinkles are all set up and we're ready to decorate some tasty treats!</step_54_100002>		
+		<notdone_100002>Come back soon! And remember -- baking is an art, so bake with a heart!</notdone_100002>
+		<done_100002>Yay, you got it! Congratulations!</done_100002>
+		<donePersonal_100002>Those sure do smell yummy! You'll find your fresh batch of cookies in your Pouch, okay? Happy munching!</donePersonal_100002>			
+		<unlock_100002>Yay, you got it! Congratulations!</unlock_100002>
+		<new_100002>A new recipe! And it's a really good one, too! I bet you can't wait to try it!</new_100002>		
+		<score_100002_0>That looks really tasty!</score_100002_0>
+		<score_100002_1>Great baking!</score_100002_1>
+		<score_100002_2>YUM!</score_100002_2>
+		<score_100002_3>The baking-talents are so proud of you!</score_100002_3>			
+		
+		<item_comment_other>That is a wonderful choice! We will see what you can do!</item_comment_other>
+		<item_comment_1>Not only does it add to one's beauty, but it smells wonderful!</item_comment_1>
+		<item_comment_2>Fast-flying-talents love these -- no sleeves helps them fly even faster!</item_comment_2>
+		<item_comment_3>Lily Petals hold their shape perfectly when wet, which makes this top Silvermist's choice when she has a busy day at the stream.</item_comment_3>
+		<item_comment_4>The perfect look for an autumn afternoon.</item_comment_4>
+		<item_comment_5>A stylish cool favorite with garden-talents who work in the warm spring sun.</item_comment_5>
+		<item_comment_6>Sweetgum leaves are thicker than others, giving some extra glamour to this stylish top!</item_comment_6>
+		<item_comment_7>Rosetta once called Tinker Bell "lil' daisy-top," so Tink wears this whenever she meets Rosetta for tea!</item_comment_7>
+		<item_comment_8>A beautiful top that's one of Silvermist's favorites!</item_comment_8>
+		<item_comment_9>The ginkgo leaf's natural flair shape gives this top a sweet yet sassy look, don't you think?</item_comment_9>
+		<item_comment_10>Wear this and you'll look dressy yet casual, wings down!</item_comment_10>
+		<item_comment_11>Doesn't this top just scream AUTUMN STYLE?</item_comment_11>
+		<item_comment_12>Pixie dust and snapdragon sparkles -- a winning spring combination!</item_comment_12>
+		<item_comment_13>This soft snug wrap is Fawn's choice when she attends animal-talent gatherings.</item_comment_13>
+		<item_comment_14>This dainty flower top will make you look like a butterfly in flight!</item_comment_14>
+		<item_comment_15>Buttercup Scoops go well with Ivy Petal Pushers and Leaf Topper Boots!</item_comment_15>
+		<item_comment_16>Oh so stylish but look out -- the fringes tickle! </item_comment_16>
+		<item_comment_17>Poppy Tops are so nice and cool when the spring sun gets warm!</item_comment_17>
+		<item_comment_18>Tulip petals are strong, so this stylish tee is a spring favorite with carpenter-talent Fairies.</item_comment_18>
+		<item_comment_19>As soft as a cloud on a cool spring evening!</item_comment_19>
+		<item_comment_20>What a fashion gem! But I hope you're not ticklish!</item_comment_20>
+		<item_comment_21>Wear this when celebrating something special!</item_comment_21>
+		<item_comment_1001>Tulip petals make perfect spring skirts, especially when you're collecting in Neverberry Thicket! </item_comment_1001>
+		<item_comment_1002>Bold yet dainty, this skirt will make you the talk of the Hollow!</item_comment_1002>
+		<item_comment_1003>The perfect look when springtime makes you feel bouncy and bubbly!</item_comment_1003>
+		<item_comment_1004>Buttercups bloom in big bunches, so this pretty skirt is always available from the sewing-talents.</item_comment_1004>
+		<item_comment_1005>Perfect for a lazy day's flight over a colorful spring meadow!</item_comment_1005>
+		<item_comment_1006>The heavier sweetgum leaves make this skirt a must on windy spring days!</item_comment_1006>
+		<item_comment_1007>Invite a special friend to tea and wear this with a trim Rose Cami and Twirly Boots! Now that's flowery fashion!</item_comment_1007>
+		<item_comment_1008>Feel like showing off a little? This Maple Mini will do the trick, wings down!</item_comment_1008>
+		<item_comment_1009>Springtime is all about nature waking up from winter's long sleep. This lovely sarong will wake up your senses every time you wear it!</item_comment_1009>
+		<item_comment_1010>A traditional favorite of the water-talents.</item_comment_1010>
+		<item_comment_1011>Get ready to flow like a summer breeze when you wear this classic to the next Fairy dance!</item_comment_1011>
+		<item_comment_1012>Light-talents can't have too many sparkles, and this is proof!  Fira has four of these in different colors!</item_comment_1012>
+		<item_comment_1013>Depending on how you accessorize, this skirt can be both formal and casual. It's Rosetta's very favorite!</item_comment_1013>
+		<item_comment_1014>Bird-loving Fawn loves this flighty springtime skirt because it's, well -- light as a feather!</item_comment_1014>
+		<item_comment_1015>Snug, comfy, and oh so sassy, these are perfect to wear on a chilly spring morning!</item_comment_1015>
+		<item_comment_1016>Great to wear on those days when you have lots of flitting around to do!</item_comment_1016>
+		<item_comment_1017>Fawn loves to wear these on warm spring days in the cool dark forest!</item_comment_1017>
+		<item_comment_1018>A one-of-a-kind fashion that shows you have great taste! An autumn classic!</item_comment_1018>
+		<item_comment_1019>You'll flap your wings with joy when you wear this simple but classic skirt. Goes great with a Petal Chain Belt!</item_comment_1019>
+		<item_comment_1020>For those times when you feel carefree and full of fun!</item_comment_1020>
+		<item_comment_1021>The perfect thing to wear to a casual spring meadow party. Try it with a Daisy Wrap top and Flower Slippers!</item_comment_1021>
+		<item_comment_1022>Smooth daffodil petals make this skirt so comfy that you'll want to wear it everyday!</item_comment_1022>
+		<item_comment_502>The perfect finishing touch to any autumn outfit!</item_comment_502>
+		<item_comment_503>A glamorous accent that will add spice to any outfit!</item_comment_503>
+		<item_comment_504>Wear this in Acorn Summit and everyone will notice!</item_comment_504>
+		<item_comment_505>This sturdy sash is all about chilly autumn days, warm outfits, and super style!</item_comment_505>
+		<item_comment_506>When light-talents put on a show, Iridessa wears this bright sash with a stunning sunflower gown.</item_comment_506>
+		<item_comment_507>Shiny wax leaves make perfect sashes for more formal outfits, especially long leaf skirts.</item_comment_507>
+		<item_comment_508>Gives just a hint of sassy style when you want to look fresh and casual for autumn!</item_comment_508>
+		<item_comment_509>Guess what? A very special tinker-talent designed this! She wanted a belt with a forest-fresh style!</item_comment_509>
+		<item_comment_510>Dazzle your friends with this starry accent. Perfect for cool autumn celebrations, and always a hit with the light-talents!</item_comment_510>
+		<item_comment_511>Moon and stars, this belt is perfect for a twilight flit around Pixie Hollow!</item_comment_511>
+		<item_comment_512>Rosetta loves this belt! She has six of them, each made of different flower petals to match all her colorful dresses!</item_comment_512>
+		<item_comment_513>Stringbeans are yummy to eat AND they make great sashes! Who knew?</item_comment_513>
+		<item_comment_514>How can Iridessa resist? This is her favorite belt to wear during spring celebrations.</item_comment_514>
+		<item_comment_515>Just the thing to give your outfit a pixie perfect look!</item_comment_515>
+		<item_comment_516>One of the most popular of all Fairy sashes! Delicate but bold, classic but stylish -- and a hit with Rosetta, of course!</item_comment_516>		
+		<item_comment_517>A sturdy and stylish sash to wear while you gather items in any autumn meadow!</item_comment_517>
+		<item_comment_518>A stunning design that tells Pixie Hollow, "I'm a Fairy, and I've got the fashion sense to prove it!"</item_comment_518>
+		<item_comment_519>Autumn brings rain, so who would love this sparkling sash better than the water-talents?</item_comment_519>
+		<item_comment_520>Spider silk is so strong, yet this belt is so light and dainty! That's why it's part of Fawn's autumn wardrobe.</item_comment_520>
+		<item_comment_521>Simple pleats turn this normal Petal Sash into an accessory that will give your outfit a special autumn flair!</item_comment_521>
+		<item_comment_3501>The ultimate in classic Fairy footwear!</item_comment_3501>
+		<item_comment_3502>You may giggle, but Bubble Slippers are super comfy, perfect for lounging after a long day in the Pumpkin Patch.</item_comment_3502>
+		<item_comment_3503>Colorful posies for your toesies! Tinker Bell loves to relax and sip honeysuckle nectar while wearing these!</item_comment_3503>
+		<item_comment_3504>Fairy footwear at its finest! Especially popular with animal-talents.</item_comment_3504>
+		<item_comment_3505>You'll twirl happily through the crisp autumn skies in this high fashion footwear!</item_comment_3505>
+		<item_comment_3506>Nothing can keep your toes warmer than classic Leaf Topper Boots!</item_comment_3506>
+		<item_comment_3507>Sometimes Beck likes to keep things simple, which is why she loves these simple, dainty, but stunning wraps for casual affairs.</item_comment_3507>
+		<item_comment_3508>Some shoes are just plain fun! A light-hearted favorite of all light-talents.</item_comment_3508>
+		<item_comment_3509>Simple yet elegant, these lovely shoes are perfect to wear when visiting friends or attending autumn Fairy events.</item_comment_3509>
+		<item_comment_3510>Going to a party? Don't forget your Hibiscus Slippers!</item_comment_3510>
+		<item_comment_3511>As far as Iridessa is concerned, there's nothing better to wear when flitting around a cloudy autumn meadow!</item_comment_3511>
+		<item_comment_3512>Wear a pair of Twirlies and you'll feel so light you may never touch the ground again!</item_comment_3512>
+	
+		<item_comment_22501>A great cookie with an acorny crunch! Perfect to start out with. </item_comment_22501>
+		<item_comment_22502>A delicious treat perfect for a Pixie Dust pick-me up!</item_comment_22502>
+		<item_comment_22503>I love this cookie's yummy frosting!</item_comment_22503>
+		<item_comment_22504>The tangy raspberries add the perfect flavor to make this cookie one of a kind!</item_comment_22504>
+		<item_comment_22505>Those sweet blueberries make this cookie a sweet treat!</item_comment_22505>
+		<item_comment_22506>Sweet and syrupy like a pancake!</item_comment_22506>
+		<item_comment_22507>You have to try the amazing truffle taste of this cookie to believe it!</item_comment_22507>
+		<item_comment_22508>This cookie has a delightful combination of ingredients!</item_comment_22508>
+		<item_comment_22509>Your mouth will water over this cookie! I know MINE does!</item_comment_22509>
+		<item_comment_22510>Can you master this delicious and difficult cookie? I think you can!</item_comment_22510>
+		<item_comment_22511>A sweet, chewy summer treat! Perfect for a quick snack.</item_comment_22511>
+		<item_comment_22512>A yummy slice of cake! Great for a small snack.</item_comment_22512>
+		<item_comment_22513>A sweet spring cookie that makes a yummy small snack!</item_comment_22513>
+		<item_comment_22514>So tasty, it will make your skin turn pink!</item_comment_22514>
+		<item_comment_22515>So tasty, it will make your skin turn white!</item_comment_22515>
+		<item_comment_22516>So tasty, it will make your skin turn blue!</item_comment_22516>
+		<item_comment_22517>So tasty, it will make your skin turn gray!</item_comment_22517>
+		<item_comment_22518>So tasty, it will make your skin turn green!</item_comment_22518>
+		<item_comment_22519>So tasty, it will make your skin turn purple!</item_comment_22519>
+		<item_comment_22520>So tasty, it will make your skin turn red!</item_comment_22520>
+		<item_comment_22521>So tasty, it will make your skin turn orange!</item_comment_22521>
+		<item_comment_22522>So tasty, it will make your skin turn yellow!</item_comment_22522>
+		<item_comment_22523>So tasty, it will make your skin rainbow cool!</item_comment_22523>
+		<item_comment_22524>So tasty, it will make your skin rainbow bright!</item_comment_22524>
+		<item_comment_22525>So tasty, you won't see what's coming!</item_comment_22525>
+		<item_comment_22526>So tasty, you'll be living in a bubble!</item_comment_22526>
+		<item_comment_22527>So tasty, you'll be living in a rainbow!</item_comment_22527>
+		<item_comment_22528>So tasty, you'll be dizzy!</item_comment_22528>
+		<item_comment_22529>So tasty, you'll be bright!</item_comment_22529>
+		<item_comment_22530>So tasty, you'll be a tornado!</item_comment_22530>
+		<item_comment_22531>Perfect for a tea party snack!</item_comment_22531>
+		<item_comment_22532>A great snack to restore a tiny cup of Pixie Dust!</item_comment_22532>
+		<item_comment_22533>A yummy snack to restore a small bowl of Pixie Dust!</item_comment_22533>
+		<item_comment_22534>A perfect snack to restore a bowl of Pixie Dust!</item_comment_22534>
+		<item_comment_22534>The best snack to restore a large bowl of Pixie Dust!</item_comment_22534>
+		<item_comment_22535>A blueberry treat to restore a bowl of Pixie Dust!</item_comment_22535>
+		<item_comment_22536>So tasty, you'll be a cupcake!</item_comment_22536>
+		<item_comment_22537>So tasty, you'll be doing fireworks!</item_comment_22537>
+		<item_comment_22538>So tasty, you'll be a snowglobe!</item_comment_22538>
+		<item_comment_22539>So tasty, you'll be a snow cloud!</item_comment_22539>
+		<item_comment_22540>So tasty, you'll be an ice cube!</item_comment_22540>
+		<item_comment_22541>So tasty, you'll be a snowman!</item_comment_22541>
+		<item_comment_22542>A honey maple treat to restore a bowl of Pixie Dust!</item_comment_22542>
+		<item_comment_22543>So tasty, bubbles will follow you!</item_comment_22543>
+		<item_comment_22544>So tasty, flowers will follow you!</item_comment_22544>
+		<item_comment_22545>So tasty, snowflakes will follow you!</item_comment_22545>
+		<item_comment_22546>So tasty, you'll be showered with rain!</item_comment_22546>
+		<item_comment_22547>So tasty, you'll be covered with snowflakes!</item_comment_22547>
+		<item_comment_22548>So tasty, you'll start shrinking!</item_comment_22548>
+		<item_comment_22549>So tasty, you'll start growing!</item_comment_22549>
+		<item_comment_22550>So tasty, you'll flip upside down!</item_comment_22550>
+		<item_comment_22551>A tasty cupcake to restore Pixie Dust to you and your friends!</item_comment_22551>
+		<item_comment_22552>A yummy cupcake to restore some Pixie Dust to you and your friends!</item_comment_22552>
+		<item_comment_22553>A perfect snack to restore Pixie Dust to you and your friends!</item_comment_22553>
+		<item_comment_22554>This cookie is the perfect treat for the Animal Masquerade!</item_comment_22554>
+		
+		<hostName_100003>Copper</hostName_100003>
+		<intro_100003>Well look who's here! I'm Copper and this is my workshop! Come on in and let's tinker something together!</intro_100003>
+		<modeChooser_100003>You can tinker things to help the Fairies get ready for next season, or you can tinker something special for your home!</modeChooser_100003>
+		<recipeList_100003>Let's see, what do you want to tinker?</recipeList_100003>
+		<emptyRecipeList_100003>Not so fast! It looks like you need some more practice first! Try more Community Tinkering before you make it for yourself!</emptyRecipeList_100003>
+		<step_41_100003>Tinkering is all about having the right materials for the job!</step_41_100003>
+		<colorChooser_100003>Remember that color is very important in home d&#233;cor! Now which dye will make this really shine?</colorChooser_100003>	
+		<notdone_100003>You did a tinker-tastic job! Come back real soon!</notdone_100003>
+		<done_100003>You are getting really good at this!  Great job!</done_100003>
+		<donePersonal_100003>You can find your brand new #ITEMNAME# in your Leaf Journal! Congratulations!</donePersonal_100003>			
+		<unlock_100003>Now that's the way to tinker! You're a natural!</unlock_100003>
+		<new_100003>Looks like you're ready to try some new blueprints! Check em' out!</new_100003>
+		<score_100003_0>Well swing my hammer, you did a tinker-tastic job!</score_100003_0>
+		<score_100003_1>You've got natural tinker talent!</score_100003_1>
+		<score_100003_2>The tinker-talents are all thrilled!</score_100003_2>
+		<score_100003_3>Tinker Bell would be so proud of you!</score_100003_3>
+		
+		
+	</copy>
+	<config>
+	<!--
+			_proportions[HEIGHT] / _proportions[HEAD] / _proportions[BODY] /
+			_rotations[HEAD_ROT] / _rotations[UL_ARM_ROT] / _rotations[UR_ARM_ROT] / _rotations[LL_ARM_ROT] / _rotations[LR_ARM_ROT] / _rotations[UL_LEG_ROT] / _rotations[UR_LEG_ROT] / _rotations[LL_LEG_ROT] / _rotations[LR_LEG_ROT]
+			_skinColorId /
+			_itemTriplets ( id : color1 : color2 )
+    -->
+		<!-- Bobbin 100000 -->
+		<hostDNA hostID="100000">99/105/91/0/-8/20/-22/-1/12/0/10/35/100/132:170:21/537:33:34/1071:66:170/1501:53:-1/2007:170:-1/2501:47:-1/3001:47:-1/3506:33:-1/4006:58:100/4508:100:-1/5009:83:-1/5514:83:-1/6003:109:-1</hostDNA>
+		<!-- Mendy 100001 -->
+        <hostDNA hostID="100001">100/95/91/0/-8/20/-22/-1/12/0/10/35/103/60:13:7/509:7:-1/1085:13:7/1501:53:-1/2112:13:-1/2501:47:-1/3001:47:-1/3507:55:-1/4001:10:103/4501:103:-1/5018:82:-1/5516:82:-1/6003:109:-1</hostDNA>
+		<hostDNA hostID="100002">100/95/88/0/-8/20/-15/0/12/0/0/28/107/39:132:27/538:111:123/1044:27:81/1501:37:-1/2045:116:111/2509:111:166/3001:37:-1/3515:90:166/4005:91:107/4504:107:-1/5017:76:-1/5533:76:-1/6001:166:166</hostDNA>
+		<hostDNA hostID="100003">100/95/88/0/-8/20/-15/0/12/0/0/28/93/21:127:166/537:84:77/1017:120:166/1511:83:166/2037:29:1/2501:37:-1/3011:83:166/3508:84:166/4001:84:93/4501:93:-1/5008:56:-1/5532:56:-1/6005:112:166</hostDNA>
+		<donePersonalItemNameToken>#ITEMNAME#</donePersonalItemNameToken>		
+	</config>
+</panel>

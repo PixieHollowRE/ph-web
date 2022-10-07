@@ -1,0 +1,15 @@
+<config>
+	<welcome1>
+		<dtext><![CDATA[<span class="newsbodytext"><br>USING ANY WDIG SITE.  By using any WDIG Site, …</span>]]></dtext>
+	</welcome1>
+	<alerts>
+		<notAccepted>
+			<![CDATA[You must agree to the Terms of Use before continuing. Please select "OK" to return to the Terms of Use page or "Cancel" to log out and return to Pixie Hollow's web site. ]]>
+		</notAccepted>
+		<ok>OK</ok>
+		<cancel>CANCEL</cancel>
+		<accepted>
+			<![CDATA[Thank you.]]>
+		</accepted>
+	</alerts>
+</config>

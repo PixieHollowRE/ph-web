@@ -1,0 +1,39 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/gardenAlert.swf</swf>
+		<swf type="code">{panelCode}/gardenAlert.swf</swf>
+	</swfs>
+	<copy>
+		<ok>OK</ok>
+		<cancel>Cancel</cancel>
+		<awJingles>Aw, jingles!</awJingles>
+		<getRewards>Get Rewards</getRewards>
+		<youNeedMorePixieDust>You need more Pixie Dust!</youNeedMorePixieDust>
+		<justChecking>Just Checking...</justChecking>
+		<price>Price:</price>
+		<bonus>Bonus!</bonus>
+		<congratulations>Congratulations!</congratulations>
+		<diamond>Diamond</diamond>
+		<diamonds>Diamonds</diamonds>
+		<oops>Oops!</oops>
+		<learnMore>Learn More</learnMore>
+		<buyDiamonds>Buy Diamonds</buyDiamonds>
+		<and>and</and>
+		<m>min</m>
+		<s>s</s>
+		<h>hr</h>
+		
+		<plantingMessage>Are you sure you want to plant these #ITEM#?</plantingMessage>
+		<removeMessage>Are you sure you want to remove this plant? You will not be able to get it back.</removeMessage>
+		<diamondMessage>Instantly grow these #ITEM#?</diamondMessage>
+		<outOfDustMessage><![CDATA[1. Open your Pouch to the Sweets tab.<br/>2. Eat Cookies and other Sweets to refill your Pixie Dust!]]></outOfDustMessage>
+		<dustWaitingMessage>You can dust this plant again in</dustWaitingMessage>
+		<dustWaitingMessage2>Skip the wait with Insta-Bloom!</dustWaitingMessage2>
+		<moreDiamondsMessage>You need #AMOUNT# more Pixie #DIAMOND# to Insta-Bloom this plant.</moreDiamondsMessage>
+		<rewardMessage>You grew a Surprise Item!</rewardMessage>
+		<rewardBonusMessage>Your friends helped you grow a Super Surprise Item!</rewardBonusMessage>
+	</copy>
+	<config>
+		
+	</config>
+</panel>

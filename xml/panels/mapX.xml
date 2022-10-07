@@ -1,0 +1,538 @@
+<panel>
+  <swfs>
+    <swf type="content">{panelContent}/mapX.swf</swf>
+    <swf type="code">{panelCode}/mapX.swf</swf>
+  </swfs>
+  <copy>
+    <teleport>Are you sure you want to leave your current location?</teleport>
+    <teleport_confirm>Yes</teleport_confirm>
+    <teleport_deny>No</teleport_deny>
+    <show_games target="mapLayers.onionSkin.content.games.caption">Games</show_games>
+    <show_questGivers target="mapLayers.onionSkin.content.questGivers.caption">Quests</show_questGivers>
+    <show_shops target="mapLayers.onionSkin.content.shops.caption">Shops</show_shops>
+    <show_nooks target="mapLayers.onionSkin.content.craftingNooks.caption">Crafting</show_nooks>
+    <iconToDescriptor_shop>Shop</iconToDescriptor_shop>
+    <iconToDescriptor_game>Game</iconToDescriptor_game>
+    <iconToDescriptor_quest>Quests</iconToDescriptor_quest>
+    <iconToDescriptor_craftingNook>Crafting Nook</iconToDescriptor_craftingNook>
+    <featureItemDesc_shop>Featured Item</featureItemDesc_shop>
+    <featureItemDesc_game>Rewards</featureItemDesc_game>
+    <featureItemDesc_quest>Quests Available</featureItemDesc_quest>
+    <featureItemDesc_craftingNook>Featured Recipe</featureItemDesc_craftingNook>
+    <typeDesc_accessoryShopFairies>Accessory Shop (Fairies)</typeDesc_accessoryShopFairies>
+    <typeDesc_gardenShop>Garden Shop</typeDesc_gardenShop>
+    <typeDesc_wardrobeShopFairies>Wardrobe Shop (Fairies)</typeDesc_wardrobeShopFairies>
+    <typeDesc_wardrobeShopSparrowmen>Wardrobe Shop (Sparrow Men)</typeDesc_wardrobeShopSparrowmen>
+    <typeDesc_wardrobeShopAll>Wardrobe Shop (All Fairies)</typeDesc_wardrobeShopAll>
+    <typeDesc_giftDelivery>Gift Delivery Shop</typeDesc_giftDelivery>
+    <typeDesc_bakery>Bakery</typeDesc_bakery>
+    <typeDesc_storageShop>Storage Shop</typeDesc_storageShop>
+    <typeDesc_dyeShop>Dye Shop</typeDesc_dyeShop>
+    <typeDesc_partyShop>Party Shop</typeDesc_partyShop>
+    <typeDesc_hairShop>Hair Salon</typeDesc_hairShop>
+	<typeDesc_spa>Pixie Spa</typeDesc_spa>	
+    <typeDesc_animalShop>Animal Friend Adoption Center</typeDesc_animalShop>
+    <typeDesc_homeShop>Home Shop</typeDesc_homeShop>
+    <typeDesc_locFawn>Fawn's Location</typeDesc_locFawn>
+    <typeDesc_locIridessa>Iridessa's Location</typeDesc_locIridessa>
+    <typeDesc_locRosetta>Rosetta's Location</typeDesc_locRosetta>
+    <typeDesc_locSilvermist>Silvermist's Location</typeDesc_locSilvermist>
+    <typeDesc_locTink>Tinker Bell's Location</typeDesc_locTink>
+    <typeDesc_locKit>Kit's Location</typeDesc_locKit>
+    <typeDesc_locMarina>Marina's Location</typeDesc_locMarina>
+    <typeDesc_locAnimalHealing>Animal Friend Adoption Center</typeDesc_locAnimalHealing>
+    <typeDesc_wilderness>Wilderness</typeDesc_wilderness>
+    <typeDesc_talentgame_light>Light Talent Game</typeDesc_talentgame_light>
+    <typeDesc_talentgame_water>Water Talent Game</typeDesc_talentgame_water>
+    <typeDesc_talentgame_animal>Animal Talent Game</typeDesc_talentgame_animal>
+    <typeDesc_talentgame_garden>Garden Talent Game</typeDesc_talentgame_garden>
+    <typeDesc_talentgame_minister>Minister Talent Game</typeDesc_talentgame_minister>
+    <typeDesc_talentgame_tinker>Tinker Talent Game</typeDesc_talentgame_tinker>
+    <typeDesc_talentgame_fastflying>Fast-Flying Talent Game</typeDesc_talentgame_fastflying>
+    <typeDesc_game_tearoom>Tearoom Games</typeDesc_game_tearoom>
+    <typeDesc_game_animalderby>Animal Derby Racing</typeDesc_game_animalderby>
+    <typeDesc_nook_Tailoring>Tailoring Nook</typeDesc_nook_Tailoring>
+    <typeDesc_nook_Baking>Baking Nook</typeDesc_nook_Baking>
+    <typeDesc_nook_Tinkering>Tinkering Nook</typeDesc_nook_Tinkering>
+    <zipQuestTemplate>#NUMAVAIL#</zipQuestTemplate>
+  </copy>
+  <config>
+    <bg image="{images}/mapX/map.jpg"/>
+    <bg image="{images}/mapX/map_storm.jpg" tags="Meadow_SpringFlood"/>
+    <bg image="{images}/mapX/map_clover.jpg" tags="Meadow_SpringCrisis_2012_Closed"/>
+    <bg image="{images}/mapX/map_rainbows.jpg" tags="Meadow_SpringEquinox"/>
+    <mapCenter x="675" y="475"/>
+    <!-- most region data is relocated to regions.xml; featuredExtraData/etc. still lives here for dynamic update reasons -->
+    <!-- metaZoneType is used by tools; not by game client -->
+    <zoneInformationPanelData>
+      <zoneData id="111001">
+        <!-- Treetop Housewares Shop -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_storageShop</typeDesc>
+        <imgFrame>1</imgFrame>
+        <desc>The latest and greatest in Fairy Home furnishings!</desc>
+        <featuredExtraData>6777|267|168</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="110000">
+        <!-- Bella's Baubles Shop -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_accessoryShopFairies</typeDesc>
+        <imgFrame>2</imgFrame>
+        <desc>Shop the latest in Fairy fashion accessories!</desc>
+        <featuredExtraData>2624|18|121</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50043">
+        <!-- Seed Sorter Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_minister</typeDesc>
+        <imgFrame>3</imgFrame>
+        <desc>See how quickly you can match up stacked seed packets!</desc>
+        <featuredExtraData>8014,8007,8004</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="116000">
+        <!-- Neville's New Homes Shop -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_homeShop</typeDesc>
+        <imgFrame>4</imgFrame>
+        <desc>Shop for a new Fairy Home and the latest home fixtures!</desc>
+        <featuredExtraData>6602|207|166</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50009">
+        <!-- Petal Pick-Up Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_garden</typeDesc>
+        <imgFrame>5</imgFrame>
+        <desc>Use your pixie dust to catch floating flower petals!</desc>
+        <featuredExtraData>8005,8007,8004</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="112000">
+        <!-- Daisy's Dyes Shop -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_dyeShop</typeDesc>
+        <imgFrame>6</imgFrame>
+        <desc>Shop for colorful dyes to transform your wardrobe and home items!</desc>
+        <featuredExtraData>14267|267|267</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="802">
+        <!-- Rosetta's Garden -->
+        <metaZoneType>quest</metaZoneType>
+        <typeDesc>typeDesc_locRosetta</typeDesc>
+        <imgFrame>7</imgFrame>
+        <desc>Visit Rosetta for quests to win pixie prizes!</desc>
+        <featuredExtraData>15502</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50001">
+        <!-- Firefly Light-Up Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_light</typeDesc>
+        <imgFrame>8</imgFrame>
+        <desc>Try to light up as many fireflies as you can!</desc>
+        <featuredExtraData>8010,8009,8003</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="100000">
+        <!-- Bobbin's Tailoring Games -->
+        <metaZoneType>craftingNook</metaZoneType>
+        <typeDesc>typeDesc_nook_Tailoring</typeDesc>
+        <imgFrame>9</imgFrame>
+        <desc>Play fun games to create clothes!</desc>
+        <featuredExtraData>266|267|17</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="115000">
+        <!-- Beck's Animal Nursery -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_locAnimalHealing</typeDesc>
+        <imgFrame>10</imgFrame>
+        <desc>Adopt an Animal Friend for daily prizes and fun!</desc>
+        <featuredExtraData>73002|72|153</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50002">
+        <!-- Bubble Bounce Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_water</typeDesc>
+        <imgFrame>11</imgFrame>
+        <desc>See how many fish you can bounce over the waterfall!</desc>
+        <featuredExtraData>8008,8005,8006</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="110001">
+        <!-- Garden Supply Shop -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_gardenShop</typeDesc>
+        <imgFrame>12</imgFrame>
+        <desc>Shop for seed packets that will grow magical surprises in your garden!</desc>
+        <featuredExtraData>89038|499|499</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="803">
+        <!-- Silvermist's Grotto -->
+        <metaZoneType>quest</metaZoneType>
+        <typeDesc>typeDesc_locSilvermist</typeDesc>
+        <imgFrame>13</imgFrame>
+        <desc>Visit Silvermist for quests to win pixie prizes!</desc>
+        <featuredExtraData>15503</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="Bubbly Bog Adventures">
+        <!-- Bubbly Bog Adventures -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_wilderness</typeDesc>
+        <imgFrame>14</imgFrame>
+        <desc>Fun challenges await in the Wilderness!</desc>
+        <featuredExtraData>8023,8019,8006</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50007">
+        <!-- Water Web Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_water</typeDesc>
+        <imgFrame>15</imgFrame>
+        <desc>Collect dewdrops before they fall off the web!</desc>
+        <featuredExtraData>8008,8009,8006</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="100002">
+        <!-- Dulcie's Kitchen -->
+        <metaZoneType>craftingNook</metaZoneType>
+        <typeDesc>typeDesc_nook_Baking</typeDesc>
+        <imgFrame>16</imgFrame>
+        <desc>Play fun games to bake Fairy sweets!</desc>
+        <featuredExtraData>22545|499|499</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="806">
+        <!-- Elixa's Hospital -->
+        <metaZoneType>quest</metaZoneType>
+        <typeDesc>typeDesc_locAnimalHealing</typeDesc>
+        <imgFrame>17</imgFrame>
+        <desc>Visit Elixa when your Animal Friend isn't feeling well!</desc>
+        <featuredExtraData>15506</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="110010">
+        <!-- Harmony's Sweet Shop -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_bakery</typeDesc>
+        <imgFrame>18</imgFrame>
+        <desc>Shop for cookies and Silly Sweets galore!</desc>
+        <featuredExtraData>22571|499|499</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50010">
+        <!-- Fairy Fireworks Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_minister</typeDesc>
+        <imgFrame>19</imgFrame>
+        <desc>Race against the clock to fill patterns with light crystals!</desc>
+        <featuredExtraData>8013,8002,8001</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="110002">
+        <!-- Summit Style Shop -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_wardrobeShopFairies</typeDesc>
+        <imgFrame>20</imgFrame>
+        <desc>Shop for the latest Fairy outfits!</desc>
+        <featuredExtraData>1482|239|121</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50046">
+        <!-- Vidia's Daily Spin -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_fastflying</typeDesc>
+        <imgFrame>21</imgFrame>
+        <desc>A daily chance to win prizes!</desc>
+        <featureItemDesc>featureItemDesc_shop</featureItemDesc>
+        <featuredExtraData>10902</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50014">
+        <!-- Tinker Toss Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_nook_Tinkering</typeDesc>
+        <imgFrame>22</imgFrame>
+        <desc>Help Tink sort Lost Things before they fall off the conveyor belt!</desc>
+        <featuredExtraData>8018,8017,8001</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="804">
+        <!-- Tinker's Nook -->
+        <metaZoneType>quest</metaZoneType>
+        <typeDesc>typeDesc_nook_Tinkering</typeDesc>
+        <imgFrame>23</imgFrame>
+        <desc>Visit Tinker Bell for quests to win pixie prizes!</desc>
+        <featuredExtraData>15504</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="110005">
+        <!-- Coal's Clothiers Shop -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_wardrobeShopSparrowmen</typeDesc>
+        <imgFrame>24</imgFrame>
+        <desc>The one-stop shop for Sparrow Man fashion!</desc>
+        <featuredExtraData>324|116|186</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="100001">
+        <!-- Mendy's Tailoring Games -->
+        <metaZoneType>craftingNook</metaZoneType>
+        <typeDesc>typeDesc_nook_Tailoring</typeDesc>
+        <imgFrame>25</imgFrame>
+        <desc>Play fun games to create shoes and accessories!</desc>
+        <featuredExtraData>3639|247|111</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="800">
+        <!-- Fawn's Hideout -->
+        <metaZoneType>quest</metaZoneType>
+        <typeDesc>typeDesc_locFawn</typeDesc>
+        <imgFrame>26</imgFrame>
+        <desc>Visit Fawn for quests to win pixie prizes!</desc>
+        <featuredExtraData>15500</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="100003">
+        <!-- Copper's Tinkering Games -->
+        <metaZoneType>craftingNook</metaZoneType>
+        <typeDesc>typeDesc_nook_Tinkering</typeDesc>
+        <imgFrame>27</imgFrame>
+        <desc>Play fun games to make items for your Fairy Home!</desc>
+        <featuredExtraData>7017|105|139</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50008">
+        <!-- Harvest Hustle Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_animal</typeDesc>
+        <imgFrame>28</imgFrame>
+        <desc>Match up critter munchies to help clean out Knothole Pantry!</desc>
+        <featuredExtraData>8014,8012,8011</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="Silver Trees Adventures">
+        <!-- Silver Trees Adventures -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_wilderness</typeDesc>
+        <imgFrame>29</imgFrame>
+        <desc>Fun challenges await in the Wilderness!</desc>
+        <featuredExtraData>8021,8023,8018</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50011">
+        <!-- Snowflake Sweep Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_minister</typeDesc>
+        <imgFrame>30</imgFrame>
+        <desc>Create gusts of wind to whisk snowflakes into pouches!</desc>
+        <featuredExtraData>8016,8015,8003</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="805">
+        <!-- Kit's Place -->
+        <metaZoneType>quest</metaZoneType>
+        <typeDesc>typeDesc_locKit</typeDesc>
+        <imgFrame>31</imgFrame>
+        <desc>Visit Kit to go on Real World quests and earn badges!</desc>
+        <featuredExtraData>15505</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="110003">
+        <!-- Gale's Outfitters Shop -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_wardrobeShopFairies</typeDesc>
+        <imgFrame>32</imgFrame>
+        <desc>Shop for fashions inspired by the Fairy community!</desc>
+        <featuredExtraData>1000129|221|48</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50015">
+        <!-- Snowy Lullaby Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_animal</typeDesc>
+        <imgFrame>33</imgFrame>
+        <desc>Follow musical rhythms to help baby animals fall asleep!</desc>
+        <featuredExtraData>8013,8002,8011</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50047">
+        <!-- Pinecone Pop Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_garden</typeDesc>
+        <imgFrame>34</imgFrame>
+        <desc>Just like pinball with pinecones!</desc>
+        <featuredExtraData>8016,8015,8011</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="111002">
+        <!-- Ember's Essentials Shop -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_storageShop</typeDesc>
+        <imgFrame>35</imgFrame>
+        <desc>Shop for seasonal, themed home collections!</desc>
+        <featuredExtraData>7572|98|76</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="Never Mine Adventures">
+        <!-- Never Mine Adventures -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_wilderness</typeDesc>
+        <imgFrame>36</imgFrame>
+        <desc>Fun challenges await in the Wilderness!</desc>
+        <featuredExtraData>8019,8020,8021</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50049">
+        <!-- Gem Juggle Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_light</typeDesc>
+        <imgFrame>37</imgFrame>
+        <desc>Shuffle and match gems in this sparkly puzzle game!</desc>
+        <featuredExtraData>8018,8015,8003</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="114000">
+        <!-- Schelly's Hair Salon -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_hairShop</typeDesc>
+        <imgFrame>38</imgFrame>
+        <desc>Pick out the perfect pixie hair style and colors!</desc>
+        <featuredExtraData>5133|111|267</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="117000">
+        <!-- Prism's Pixie Spa -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_spa</typeDesc>
+        <imgFrame>51</imgFrame>
+        <desc>Pick the perfect look at the Pixie Spa!</desc>
+        <featuredExtraData>6001|0|0</featuredExtraData>
+        <headerImg/>
+      </zoneData>		  
+      <zoneData id="50045">
+        <!-- Butterfly Painter Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_tinker</typeDesc>
+        <imgFrame>39</imgFrame>
+        <desc>Paint butterfly wings with Tink's coloring contraption!</desc>
+        <featuredExtraData>8010,8012,8006</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="113000">
+        <!-- Phoebe's Party Favors -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_partyShop</typeDesc>
+        <imgFrame>40</imgFrame>
+        <desc>Stock up on party themes and flitterific party games!</desc>
+        <featuredExtraData>17006|499|499</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="801">
+        <!-- Iridessa's Glade -->
+        <metaZoneType>quest</metaZoneType>
+        <typeDesc>typeDesc_locIridessa</typeDesc>
+        <imgFrame>41</imgFrame>
+        <desc>Visit Iridessa for quests to win pixie prizes!</desc>
+        <featuredExtraData>15501</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50048">
+        <!-- Sunbeam Bend Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_light</typeDesc>
+        <imgFrame>42</imgFrame>
+        <desc>Bend beams of light in this unique puzzle game!</desc>
+        <featuredExtraData>8014,8007,8004</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="50044">
+        <!-- First Flight Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_talentgame_minister</typeDesc>
+        <imgFrame>43</imgFrame>
+        <desc>Help baby birds learn to fly by keeping them up in the air!</desc>
+        <featuredExtraData>8010,8017,8001</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="110008">
+        <!-- Pixie Post Office -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_giftDelivery</typeDesc>
+        <imgFrame>44</imgFrame>
+        <desc>Shop for outfits and postcards!</desc>
+        <featuredExtraData>332|162|140</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="503">
+        <!-- Tearoom Games -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_game_tearoom</typeDesc>
+        <imgFrame>45</imgFrame>
+        <desc>Challenge other Fairies in these fun card games!</desc>
+		<featuredExtraData tags="Tearoom_Spring">8008,8008,8008</featuredExtraData>
+		<featuredExtraData tags="Tearoom_Winter">8016,8016,8016</featuredExtraData>
+		<featuredExtraData tags="Tearoom_Autumn">8013,8013,8013</featuredExtraData>
+		<featuredExtraData tags="Tearoom_Summer">8010,8010,8010</featuredExtraData>
+
+        <headerImg/>
+      </zoneData>
+      <zoneData id="110009">
+        <!-- Queen's Boutique Shop -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_wardrobeShopFairies</typeDesc>
+        <imgFrame>46</imgFrame>
+        <desc>Shop the most beautiful and exclusive gowns in all of Never Land!</desc>
+        <featuredExtraData>1000131|0|0</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="110004">
+        <!-- Cassie's Costume Shop -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_wardrobeShopAll</typeDesc>
+        <imgFrame>47</imgFrame>
+        <desc>Shop for Fairy Tale Theater costumes!</desc>
+        <featuredExtraData>2637|116|226</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="808">
+        <!-- Marina's Place -->
+        <metaZoneType>quest</metaZoneType>
+        <typeDesc>typeDesc_locMarina</typeDesc>
+        <imgFrame>48</imgFrame>
+        <desc>Visit Marina for quests to win pixie prizes!</desc>
+        <featuredExtraData>15508</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="110007">
+        <!-- Zephyr's Zoom Room Shop -->
+        <metaZoneType>shop</metaZoneType>
+        <typeDesc>typeDesc_wardrobeShopAll</typeDesc>
+        <imgFrame>49</imgFrame>
+        <desc>Shop for racing outfits and helmets!</desc>
+        <featuredExtraData>323|8|81</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+      <zoneData id="505">
+        <!-- Animal Derby Game -->
+        <metaZoneType>game</metaZoneType>
+        <typeDesc>typeDesc_game_animalderby</typeDesc>
+        <imgFrame>50</imgFrame>
+        <desc>Race against your friends on animals!</desc>
+        <featuredExtraData tags="Tearoom_Spring">8008,8008,8008</featuredExtraData>
+		<featuredExtraData tags="Tearoom_Winter">8016,8016,8016</featuredExtraData>
+		<featuredExtraData tags="Tearoom_Autumn">8002,8002,8002</featuredExtraData>
+		<featuredExtraData tags="Tearoom_Summer">8010,8010,8010</featuredExtraData>
+        <headerImg/>
+      </zoneData>
+
+    </zoneInformationPanelData>
+  </config>
+</panel>

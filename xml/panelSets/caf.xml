@@ -1,0 +1,29 @@
+<panelSet>
+	<panels>
+		<panel id="chrome" x="0" y="0" hidden="false" alwaysOnTop="true" closeable="false" transition="none">{panelData}/cafChrome.xml</panel>
+		<panel id="panelCAF" x="41" y="54" refocusable="true" transition="none">{panelData}/CAFPanel3.xml </panel>
+		<panel id="fairyConversation" x="-100" y="-20" alwaysOnTop="true" hidden="true">{panelData}/fairyOfflineConversation.xml</panel>
+	</panels>
+	<config>
+		<hideHeader>true</hideHeader>
+		<menu hideplay="true" hidenews="true">
+			<config title="false" defaultbackbuttony="15" nav="false"/>
+			<title>
+				<text>menutitle</text>
+				<subtext>menusubtitle</subtext>
+			</title>
+			<backarrow y="25" confirm="confirmtxt" okLabel="oktxt" cancelLabel="canceltxt">
+				<text>arrowtext</text>
+				<url>http://disney.go.com/fairies/#/pixiecentral</url>
+			</backarrow>
+		</menu>
+	</config>
+	<copy>
+		<arrowtext>Go Back</arrowtext>
+		<confirmtxt>Are you sure?</confirmtxt>
+		<oktxt>Yes</oktxt>
+		<canceltxt>No</canceltxt>
+		<menutitle>Create %0Aa Fairy</menutitle>
+		<menusubtitle/>
+	</copy>
+</panelSet>

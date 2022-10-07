@@ -1,0 +1,18 @@
+<panelSet>
+	<panels>
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{publishPanelData}/leftSideStatic.xml</panel>
+		<panel id="memberrewards" x="70" y="-38" alwaysOnTop="true">{publishPanelData}/memberrewards.xml</panel>
+	</panels>
+	<config>
+		<menu>
+			<config nav="true" title="false"/>
+		</menu>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>memberrewards</trackingid>
+		<sectionid>membership</sectionid>
+		<pageid>memberrewards</pageid>
+	</config>
+	<copy>
+	</copy>
+</panelSet>

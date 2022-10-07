@@ -1,0 +1,26 @@
+<panelSet>
+	<panels>
+	<!---
+		<panel id="candyStand" x="0" y="0" transition="none" stream="true">{publishPanelData}/distributionhub.xml</panel>
+		-->
+	</panels>
+	<config>
+		<disneyFairiesLink>false</disneyFairiesLink>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>distributionpage</trackingid>
+		<firstimetrackingid>firstvisitprospect</firstimetrackingid>
+		<regionid>community</regionid>
+		<sectionid>community</sectionid>
+		<pageid>distributionPartner</pageid>
+		<hideHeader>true</hideHeader>
+		<menu>
+			<config nav="false" title="false"/>
+			<title>
+				<text>menutitle</text>
+			</title>
+		</menu>
+	</config>
+	<copy>
+	</copy>
+</panelSet>

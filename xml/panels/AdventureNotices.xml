@@ -1,0 +1,89 @@
+﻿<panel>
+
+	<swfs>
+		<swf type="content">{panelContent}/AdventureNotices.swf</swf>
+		<swf type="code">{panelCode}/AdventureNotices.swf</swf>
+	</swfs>
+	<copy>
+		<ok>Okay</ok>
+		<yes>Yes</yes>
+		<no>No</no>
+		
+		
+		
+		<backLabel3 target="messagingBG.OKBtn.caption">Okay</backLabel3>
+		<backLabel4 target="messagingBG.NextBtn.caption">Next</backLabel4>
+		<backLabel5 target="messagingBG.ContinueBtn.caption">Continue</backLabel5>
+
+		<!-- LEAVING COPY -->
+		<leavingheader><![CDATA[Return to #MEADOW#]]></leavingheader>
+		<leavingdifferentmeadowheader><![CDATA[Leaving the Wilderness]]></leavingdifferentmeadowheader>
+		<pointsEarnedCopy target="leavingscreen.pointsEarnedCopy"><![CDATA[Spells Cast]]></pointsEarnedCopy>
+		<totalPointsCopy target="leavingscreen.totalPointsCopy"><![CDATA[Talent Points Earned]]></totalPointsCopy>
+		<gatherablesCopy target="leavingscreen.gatherablesCopy"><![CDATA[Wilderness Gatherables Collected]]></gatherablesCopy>
+		<spellsCastCongratsCopy target="congratsPanel.pointsEarnedCopy"><![CDATA[Spells Cast]]></spellsCastCongratsCopy>
+		<pointsEarnedCongratsCopy target="congratsPanel.fairiesHeader"><![CDATA[Talent Points Earned:]]></pointsEarnedCongratsCopy>
+		<maxSkillsCopy><![CDATA[Total Challenge Points]]></maxSkillsCopy>
+		<continuebtn target="leavingscreen.leavingContinueBtn.caption">Leave</continuebtn>
+		<leavingearly>There are still Challenges left to complete in this Wilderness Adventure. Are you sure you want to exit?</leavingearly>
+		<copyMeter>#CURRENT#/#TOTAL#</copyMeter>
+		
+		<pixiedustheader><![CDATA[You need more Pixie Dust!]]></pixiedustheader>
+		<pixiedust1Body><![CDATA[1. Open your Pouch to the Sweets tab.#NEW_LINE#2. Eat Cookies and other Sweets to refill your Pixie Dust!]]></pixiedust1Body>
+		
+		<pixiedustheader><![CDATA[You need more Pixie Dust!]]></pixiedustheader>
+		<pixiedust2Body><![CDATA[Eat one of your cookies to refill your supply of Pixie Dust!]]></pixiedust2Body>
+		
+		<cookiesheader><![CDATA[You need more Pixie Dust!]]></cookiesheader>
+		<cookiesBody><![CDATA[Visit Dulcie's Kitchen in Neverberry Thicket and use Personal Baking to fill your pouch with pixie-dust-filled cookies!]]></cookiesBody>
+		
+		<congratulationsquestheader><![CDATA[Adventure Complete!]]></congratulationsquestheader>
+		<congratulationsscoutinhheader><![CDATA[Scouting Complete!]]></congratulationsscoutinhheader>
+		<congratulationsbody><![CDATA[You did it! Now gather your rewards before returning to #MEADOW#!]]></congratulationsbody>
+		</copy>
+	<config>
+		<!-- LEAVING GATHERABLES -->
+		<gatherables>
+			<gatherable label="Bits of Metal" id="8023" />
+			<gatherable label="Feather" id="8022" />
+			<gatherable label="Truffle" id="8019" />
+			<gatherable label="Yellow Gem" id="8021" />
+			<gatherable label="Blue Gem" id="8020" />
+		</gatherables>
+		<levels>
+			<level id="1" pointsRequired="0"/>
+			<level id="2" pointsRequired="10"/>
+			<level id="3" pointsRequired="60"/>
+			<level id="4" pointsRequired="120"/>
+			<level id="5" pointsRequired="200"/>
+		</levels>
+		<playerViewsConfig>
+			<playerViews0>
+				<playerView x="99.3" y="-31.1" />
+			</playerViews0>
+			<playerViews1>
+				<playerView x="54.3" y="-31.1" />
+				<playerView x="156.5" y="-31.1"  />
+			</playerViews1>
+			<playerViews2>
+				<playerView x="3.5" y="-31.1" />
+				<playerView x="99.3" y="-31.1" />
+				<playerView x="196.5" y="-31.1" />
+			</playerViews2>
+			<playerViews3>
+				<playerView x="-16.5" y="-31.1" />
+				<playerView x="61.4" y="-31.1" />
+				<playerView x="136.5" y="-31.1" />
+				<playerView x="212.5" y="-31.1" />
+			</playerViews3>
+			<playerViews4>
+				<playerView x="-16.5" y="-31.1" />
+				<playerView x="61.3" y="-31.1" />
+				<playerView x="114.65" y="-31.1" />
+				<playerView x="181.1" y="-31.1" />
+				<playerView x="247.5" y="-31.1" />
+			</playerViews4>
+		</playerViewsConfig>
+		
+	</config>
+</panel>

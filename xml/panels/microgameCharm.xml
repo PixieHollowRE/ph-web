@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/microDots.swf</swf>
+		<swf type="code">{panelCode}/microDots.swf</swf>
+	</swfs>
+	<copy>		
+		<title>Charm</title>		
+		<instructions>Roll over the paws in the right order!</instructions>
+	</copy>
+	<config>
+		<microGameId>Charm</microGameId>
+		<test>false</test>
+		<spellName>charm</spellName>
+		<visuals>
+			<visual id="plain_dot">dot_plain</visual>
+			<visual id="star">Star</visual>
+			<visual id="scoreDot">scoreDot</visual>
+			<visual id="starDot">dot_star</visual>
+			<visual id="starYellow">yellowStar</visual>
+			<visual id="starBlue">blueStar</visual>
+			<visual id="starGreen">greenStar</visual>
+			<visual id="starPurple">purpleStar</visual>
+			<visual id="starRed">redStar</visual>
+			<visual id="yellowPaw">yellowPaw</visual>
+			
+		<!-- value to end game: 1053 -->
+		<!-- interaction="roll" -->
+		</visuals>
+		<colors>
+			<color id="brown_inner">0xefa37a</color>
+			<color id="brown_outer">0x965836</color>
+			<color id="brown_upper">0x6d3d22</color>
+			<color id="yellow">0xeddd70</color>
+			<color id="blue">0x66b3f4</color>
+			<color id="purple">0xb288f7</color>
+			<color id="red">0xef9380</color>
+			<color id="green">0x8bed8b</color>
+		</colors>
+		<levels>
+			<level number="0" lifetime="9">
+				<!-- click all the dots in order-->
+				<background color_inner="brown_inner" color_outer="brown_outer" color_upper="brown_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="1" lifetime="9">
+				<background color_inner="red_inner" color_outer="red_outer" color_upper="red_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="2" lifetime="9">
+				<background color_inner="red_inner" color_outer="red_outer" color_upper="red_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="3" lifetime="9">
+				<background color_inner="red_inner" color_outer="red_outer" color_upper="red_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="4" lifetime="9">
+				<background color_inner="red_inner" color_outer="red_outer" color_upper="red_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+		</levels>
+		<rounds>
+			<round id="0">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="60" y="random" order="0" visual="yellowPaw"/>
+					<dot interaction="roll" value="10" x="30" y="random" order="1" visual="yellowPaw"/>
+					<dot interaction="roll" value="10" x="90" y="random" order="2" visual="yellowPaw"/>			
+				</dots>
+			</round>
+			<round id="1">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="40" y="random" order="0" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="70" y="random" order="1" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="5" y="random" order="2" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="90" y="random" order="3" visual="yellowPaw" />				
+				</dots>
+			</round>
+			<round id="2">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="5" y="random" order="0" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="90" y="random" order="1" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="30" y="random" order="2" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="60" y="random" order="3" visual="yellowPaw" />				
+				</dots>
+			</round>
+			<round id="3">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="random" y="90" order="0" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="random" y="25" order="1" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="random" y="50" order="2" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="random" y="75" order="3" visual="yellowPaw" />				
+					<dot interaction="roll" value="10" x="random" y="10" order="4" visual="yellowPaw" />
+				</dots>
+			</round>
+			<round id="4">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="50" y="10" order="0" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="35" y="20" order="1" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="65" y="20" order="2" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="20" y="40" order="3" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="85" y="40" order="4" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="25" y="70" order="5" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="25" y="70" order="6" visual="yellowPaw" />
+					<dot interaction="roll" value="10" x="5" y="90" order="7" visual="yellowPaw" />			
+				</dots>
+			</round>
+		</rounds>
+	</config>
+</panel>

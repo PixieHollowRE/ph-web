@@ -1,0 +1,24 @@
+<level>
+	<light x = "95" y = "253">yellow</light>
+	<light x = "783" y = "253">yellow</light>		
+	<firefly image="firefly">
+		<path source = "random">
+			<startPoint x="439" y="253" />
+			<topLeft x="353" y="303" />
+			<bottomRight x="525" y="203"/>
+			<waitFrameCountMax value="2" />
+		</path>
+		<speed>2</speed>
+	</firefly>
+	<firefly image="blindmoth">
+		<path source = "random">
+			<startPoint x="439" y="253" />
+			<topLeft x="310" y="153" />
+			<bottomRight x="568" y="353"/>
+			<waitFrameCountMax value="2" />
+			<stopRange value="50" />
+		</path>
+		<type>blindmoth</type>
+		<turnspeed>0.1</turnspeed>
+	</firefly>	
+</level>

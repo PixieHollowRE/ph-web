@@ -1,0 +1,190 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/patternPlacing.swf</swf>
+		<swf type="code">{panelCode}/patternPlacing.swf</swf>
+	</swfs>
+	<copy>
+		<title target="title.title.heading">Pattern Placement</title>
+		<level>Level</level>
+		<score>Score</score>
+		<play_button target="title.btnContainer.playBtn.caption">Play!</play_button>
+		<help_button target="title.btnContainer.helpBtn.caption">Instructions</help_button>
+		<quit_button target="title.btnContainer.quitBtn.caption">Exit</quit_button>
+
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">How to Play</inst_screen_title>
+		<inst_quit_button target="instructions.btnContainer.quitBtn.caption">Quit</inst_quit_button>
+		<inst_cont_button target="instructions.btnContainer.continueBtn.caption">Continue</inst_cont_button>
+		<inst_play_button target="instructions.btnContainer.playBtn.caption">Play</inst_play_button>
+
+		
+		
+		<instruction0>Place pieces into the pattern.</instruction0>
+		<instruction1>Complete the puzzle by placing pieces into the correct spot in the pattern.</instruction1>
+		<instruction2>The faster you complete the puzzle the higher your score will be!</instruction2>
+		<instruction3>If you get stuck, press the hint button for some help. </instruction3>
+		
+        <!-- note the score numbers are currently hardcoded in the PatternPlacement.as file rather pulled from here -->
+		<win_gold>Awesome Job!</win_gold>
+		<win_gold_min>96</win_gold_min>
+		<win_silver>Great Job!</win_silver>
+		<win_silver_min>81</win_silver_min>
+		<win_bronze>Good Job!</win_bronze>
+		<win_bronze_min>61</win_bronze_min>
+		<fail>Nice Try!</fail>
+	
+		<quit_confirm_question>Are you sure you want to give up?</quit_confirm_question>
+		<quit_confirm_yes>Yes</quit_confirm_yes>
+		<quit_confirm_no>No</quit_confirm_no>
+		
+		<title>Tailoring</title>
+		<subtitle>Pattern Placement</subtitle>
+		<leftHeading>Outfit top</leftHeading>
+		<leftSubHeading>Outfit bottom</leftSubHeading>
+		<rightHeading>stuff top</rightHeading>
+		<rightSubHeading>stuff bottom</rightSubHeading>
+		<chance>CHANCES</chance>
+		<score>SCORE</score>
+		<hint>HINT</hint>
+		
+		<bonus_text target="game.timer.labelCopy">Bonus</bonus_text>
+		<hint_text target="game.buttonHint.title_txt">HINT</hint_text>
+		<!-- Fairy Comments -->
+		<place_correct_Bobbin_1>Right on target!</place_correct_Bobbin_1>
+		<place_correct_Mendy_1>Yes, that's quite correct!</place_correct_Mendy_1>
+		<place_correct_Bobbin_2>Good going!</place_correct_Bobbin_2>
+		<place_correct_Mendy_2>Excellent work!</place_correct_Mendy_2>
+		<place_correct_Bobbin_3>Snip my thread, you're good at this!</place_correct_Bobbin_3>
+		<place_correct_Mendy_3>We have a real eye for pattern placement!</place_correct_Mendy_3>
+		<place_correct_Bobbin_4>You're doing great, keep going!</place_correct_Bobbin_4>
+		<place_correct_Mendy_4>We're another piece closer!</place_correct_Mendy_4>
+
+		
+		<place_wrong_Bobbin_1>Nope nope, try it again!</place_wrong_Bobbin_1>
+		<place_wrong_Mendy_1>Close but not quite. Let's try again!</place_wrong_Mendy_1>
+		<place_wrong_Bobbin_2>I know ya can figure out where that goes!</place_wrong_Bobbin_2>
+		<place_wrong_Mendy_2>Let's look carefully. Where could that piece go?</place_wrong_Mendy_2>
+
+
+		<place_wrong_Bobbin_3>Tricky, eh?</place_wrong_Bobbin_3>
+		<place_wrong_Mendy_3>Just think of it as a puzzle.</place_wrong_Mendy_3>
+		<place_wrong_Bobbin_4>Are ya really sure that looks right?</place_wrong_Bobbin_4>
+		<place_wrong_Mendy_4>Hmmm... Let's think about that one again.</place_wrong_Mendy_4>
+		
+		<timer_start_Bobbin_1>Get ready, here come the pieces!</timer_start_Bobbin_1>
+		<timer_start_Mendy_1>Here comes our first piece!</timer_start_Mendy_1>
+		<timer_start_Bobbin_2>Time to put it all together!</timer_start_Bobbin_2>
+		<timer_start_Mendy_2>It's time to assemble our pattern!</timer_start_Mendy_2>
+
+		<hint_Bobbin_1>Need help? Try this!</hint_Bobbin_1>
+		<hint_Mendy_1>Here's a bit of a hint.</hint_Mendy_1>
+		<hint_Bobbin_2>This ought to help!</hint_Bobbin_2>
+		<hint_Mendy_2>This should help, my dear.</hint_Mendy_2>
+		<!-- Game Over Dialogue -->
+		<gameOverTitle>Done!</gameOverTitle>
+		<gameOverMoreTitle>Keep Going!</gameOverMoreTitle> 
+		<gameOverQuitMessage>Continue</gameOverQuitMessage>
+
+		<next_level_Bobbin_1>Don't stop now! Ya got more to do!</next_level_Bobbin_1>
+		<next_level_Mendy_1>We have no time to waste, my dear. On to the next pattern!</next_level_Mendy_1>
+		
+		<last_level_Bobbin_1>Whew! Last pattern, coming up!</last_level_Bobbin_1>
+		<last_level_Mendy_1>This is the final pattern. Let us finish in style!</last_level_Mendy_1>
+
+		<end_poor_Bobbin_1>Um-hmm-well, good try! I betcha you'll place the pattern better next time!</end_poor_Bobbin_1>
+		<end_poor_Mendy_1>Let's continue, shall we? We'll place that pattern better next time I'm sure, my dear.</end_poor_Mendy_1>
+		<end_poor_Bobbin_2>Keep trying! You'll get better at pattern placement, I know ya will!</end_poor_Bobbin_2>
+		<end_poor_Mendy_2>We tried our best, didn't we, my dear? And remember, we can always try pattern placement again!</end_poor_Mendy_2>
+		<end_poor_Bobbin_3>Keep thinking happy thoughts! I know ya can place your pattern better next time!</end_poor_Bobbin_3>
+		<end_poor_Mendy_3>Let's not lose heart. Each pattern gets easier with practice, my dear, truly it does.</end_poor_Mendy_3>
+		<end_poor_Bobbin_4>All it takes is a teensy bit more practice, and then you'll place this pattern perfectly!</end_poor_Bobbin_4>
+		<end_poor_Mendy_4>This pattern can be a real challenge. There's always next time to do better, my dear!  </end_poor_Mendy_4>
+		
+		<end_good_Bobbin_1>Nice job! Have ya done this pattern before?</end_good_Bobbin_1>
+		<end_good_Mendy_1>Not bad pattern placement, my dear, not bad at all!</end_good_Mendy_1>
+		<end_good_Bobbin_2>Hey-oh! Nice placement! Ya made me proud!</end_good_Bobbin_2>
+		<end_good_Mendy_2>Our pattern placement skills are improving, my dear. Well done!</end_good_Mendy_2>
+		<end_good_Bobbin_3>Well, sleeves and stitches, you're good with this pattern placement stuff!</end_good_Bobbin_3>
+		<end_good_Mendy_3>Mmm, we certainly have quite a knack for these patterns, don't we?</end_good_Mendy_3>
+		<end_good_Bobbin_4>Ya know, you're awful good with those pattern pieces!</end_good_Bobbin_4>
+		<end_good_Mendy_4>Splendid job, my dear. We're on our way to perfecting this pattern!</end_good_Mendy_4>
+		
+		<end_great_Bobbin_1>Wow-wee! Ya sure you're not a pattern-talent?</end_great_Bobbin_1>
+		<end_great_Mendy_1>It looks as if we have quite a touch for pattern placement!</end_great_Mendy_1>
+		<end_great_Bobbin_2>I'd call that a pretty pattern-tastic job! Ya did great!</end_great_Bobbin_2>
+		<end_great_Mendy_2>We're quite impressed! Quite impressed indeed.</end_great_Mendy_2>
+		<end_great_Bobbin_3>You've been practicing, haven't ya? I knew it! Great job!</end_great_Bobbin_3>
+		<end_great_Mendy_3>We feel so proud. This is quite splendid work!</end_great_Mendy_3>
+		<end_great_Bobbin_4>What thimble-rific work! I'm not sure I could have done better myself!</end_great_Bobbin_4>
+		<end_great_Mendy_4>We've been practicing our patterns, haven't we? Lovely work!</end_great_Mendy_4>
+		
+		<end_awesome_Bobbin_1>Okay, I mean it - you're sure you're not a tailor-talent?</end_awesome_Bobbin_1>
+		<end_awesome_Mendy_1>My dear, what utterly amazing pattern placement skills we have!</end_awesome_Mendy_1>
+		<end_awesome_Bobbin_2>Ya sure finished that pattern in a flit! Great job!</end_awesome_Bobbin_2>
+		<end_awesome_Mendy_2>This just goes to show that practice does make perfect, doesn't it?</end_awesome_Mendy_2>
+		<end_awesome_Bobbin_3>I think you're a pattern placement master! </end_awesome_Bobbin_3>
+		<end_awesome_Mendy_3>Truly astounding, my dear!  We couldn't have placed that pattern better!</end_awesome_Mendy_3>
+		<end_awesome_Bobbin_4>Pleat my wings, you're a pattern placement wonder!</end_awesome_Bobbin_4>
+		<end_awesome_Mendy_4>We simply adore your work! Superb job!</end_awesome_Mendy_4>
+	</copy>
+	<config>
+		<colorPalette>3</colorPalette>
+		<levelTimes>
+			<levelTime id="f1fairybottoms1_1" time="20" hints="5" />
+			<levelTime id="f1fairybottoms2_1" time="35" hints="5" />
+			<levelTime id="f1fairybottoms3_1" time="60" hints="5" />
+			<levelTime id="f1shortleafyskirt1_1" time="20" hints="5" />
+			<levelTime id="f1smbottomsshorts1_1" time="20" hints="5" />
+			<levelTime id="f2shortskirt1_1" time="35" hints="5" />
+			<levelTime id="f2smbottomsshorts2_1" time="25" hints="5" />
+			<levelTime id="f3longleafyskirt1_1" time="25" hints="5" />
+			<levelTime id="f3SMbottomspants1_1" time="25" hints="5" />
+			<levelTime id="f4simplelongskirt1_1" time="20" hints="5" />
+			<levelTime id="f4SMbottomspants2_1" time="35" hints="5" />
+			<levelTime id="f5longskirt1_1" time="50" hints="5" />
+			<levelTime id="f5SMbottomspants3_1" time="60" hints="5" />
+			<levelTime id="f6leafyskirtwleggings1_1" time="35" hints="5" />
+			<levelTime id="f7skirtwleggings1_1" time="45" hints="5" />
+			<levelTime id="f10plainsash1_1" time="15" hints="5" />
+			<levelTime id="f1leafysash1_1" time="15" hints="5" />
+			<levelTime id="f2leafysash1_1" time="30" hints="5" />
+			<levelTime id="f3leafysash1_1" time="40" hints="5" />
+			<levelTime id="f4anglesash1_1" time="20" hints="5" />
+			<levelTime id="f5anglesash1_1" time="30" hints="5" />
+			<levelTime id="f6anglesash1_1" time="15" hints="5" />
+			<levelTime id="f7plainsash1_1" time="40" hints="5" />
+			<levelTime id="f8plainsash1_1" time="30" hints="5" />
+			<levelTime id="f9plainsash1_1" time="20" hints="5" />
+			<levelTime id="f10shoe1_1" time="25" hints="5" />
+			<levelTime id="f11shoe1_1" time="30" hints="5" />
+			<levelTime id="f12shoe1_1" time="40" hints="5" />
+			<levelTime id="f13shoe1_1" time="25" hints="5" />
+			<levelTime id="f1shoe1_1" time="20" hints="5" />
+			<levelTime id="f2shoe1_1" time="30" hints="5" />
+			<levelTime id="f3shoe1_1" time="60" hints="5" />
+			<levelTime id="f4shoe1_1" time="20" hints="5" />
+			<levelTime id="f5shoe1_1" time="100" hints="5" />
+			<levelTime id="f6shoe1_1" time="60" hints="5" />
+			<levelTime id="f7shoe1_1" time="20" hints="5" />
+			<levelTime id="f8shoe1_1" time="40" hints="5" />
+			<levelTime id="f9shoe1_1" time="50" hints="5" />
+			<levelTime id="f2smshirt2_1" time="40" hints="5" />
+			<levelTime id="f3smshirt3_1" time="40" hints="5" />
+			<levelTime id="f4smshirtcollarshirt1_1" time="35" hints="5" />
+			<levelTime id="f5smcircleshirt1_1" time="45" hints="5" />
+			<levelTime id="f6smcircleshirt2_1" time="60" hints="5" />
+			<levelTime id="f7longsleevecollar1_1" time="50" hints="5" />
+			<levelTime id="f8longsleeve1_1" time="45" hints="5" />
+			<levelTime id="flongsleeve8_1" time="45" hints="5" />
+			<levelTime id="fonesleeve3_1" time="100" hints="5" />
+			<levelTime id="fonesleeve4_1" time="100" hints="5" />
+			<levelTime id="fsleeveless11_1" time="35" hints="5" />
+			<levelTime id="fsleeveless12_1" time="60" hints="5" />
+			<levelTime id="fsleeveless5_1" time="100" hints="5" />
+			<levelTime id="fsleeveless6_1" time="100" hints="5" />
+			<levelTime id="fsleeveless7_1" time="100" hints="5" />
+			<levelTime id="fsleeves10_1" time="35" hints="5" />
+			<levelTime id="fstrapless1_1" time="100" hints="5" />
+			<levelTime id="fstrapless2_1" time="100" hints="5" />
+		</levelTimes>
+	</config>
+</panel>

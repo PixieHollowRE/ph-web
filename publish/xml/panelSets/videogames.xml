@@ -1,0 +1,18 @@
+<panelSet>
+	<panels>
+		<!--panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{publishPanelData}/bg_gradient.xml</panel-->
+		<panel id="leftSideStatic" x="0" y="0" transition="none" alwaysOnBottom="true">{publishPanelData}/leftSideStatic.xml</panel>
+		<panel id="manager" x="70" y="-38" >{publishPanelData}/videogames.xml</panel>
+		<panel id="vgpanel" x="260" y="420" alwaysOnTop="true">{publishPanelData}/vgcontent.xml</panel>
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>dsgamepage</trackingid>
+		<sectionid>abouttoys</sectionid>
+		<pageid>dsgamepage</pageid>
+	</config>
+	<copy>
+		<menutitle>Pixie Hollow Online World</menutitle>
+	</copy>
+</panelSet>

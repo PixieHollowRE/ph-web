@@ -1,0 +1,166 @@
+<level>
+	<light x = "95" y = "203">green</light>
+	<light x = "95" y = "303">yellow</light>	
+	<light x = "783" y = "203">purple</light>
+	<light x = "783" y = "303">orange</light>	
+<!-- top group -->
+	<firefly image="firefly">
+		<path friction = "0.2">	
+			<point x="267" y="53" />
+			<point x="611" y="153" />
+			<point x="654" y="103" />
+			<point x="611" y="53" />
+			<point x="267" y="153" />
+			<point x="224" y="103" />			
+		</path>
+	</firefly>
+	<firefly image="firefly">
+		<path friction = "0.2">	
+			<point x="267" y="153" />
+			<point x="611" y="53" />
+			<point x="654" y="103" />
+			<point x="611" y="153" />
+			<point x="267" y="53" />			
+			<point x="224" y="103" />	
+		</path>
+	</firefly>
+	<firefly image="firefly">
+		<path friction = "0.2">	
+			<point x="611" y="153" />
+			<point x="267" y="53" />
+			<point x="224" y="103" />
+			<point x="267" y="153" />			
+			<point x="611" y="53" />
+			<point x="654" y="103" />
+		</path>
+	</firefly>
+	<firefly image="firefly">
+		<path friction = "0.2">	
+			<point x="611" y="53" />
+			<point x="267" y="153" />
+			<point x="224" y="103" />
+			<point x="267" y="53" />			
+			<point x="611" y="153" />
+			<point x="654" y="103" />
+		</path>
+	</firefly>
+<!-- top group -->
+	<firefly image="firefly">
+		<path friction = "0.2">	
+			<point x="267" y="203" />
+			<point x="611" y="303" />
+			<point x="654" y="253" />
+			<point x="611" y="203" />
+			<point x="267" y="303" />
+			<point x="224" y="253" />			
+		</path>
+	</firefly>
+	<firefly image="firefly">
+		<path friction = "0.2">	
+			<point x="267" y="303" />
+			<point x="611" y="203" />
+			<point x="654" y="253" />
+			<point x="611" y="303" />
+			<point x="267" y="203" />			
+			<point x="224" y="253" />	
+		</path>
+	</firefly>
+	<firefly image="firefly">
+		<path friction = "0.2">	
+			<point x="611" y="303" />
+			<point x="267" y="203" />
+			<point x="224" y="253" />
+			<point x="267" y="303" />			
+			<point x="611" y="203" />
+			<point x="654" y="253" />
+		</path>
+	</firefly>
+	<firefly image="firefly">
+		<path friction = "0.2">	
+			<point x="611" y="203" />
+			<point x="267" y="303" />
+			<point x="224" y="253" />
+			<point x="267" y="203" />			
+			<point x="611" y="303" />
+			<point x="654" y="253" />
+		</path>
+	</firefly>
+<!-- bottom group -->
+	<firefly image="firefly">
+		<path friction = "0.2">	
+			<point x="267" y="353" />
+			<point x="611" y="453" />
+			<point x="654" y="403" />
+			<point x="611" y="353" />
+			<point x="267" y="453" />
+			<point x="224" y="403" />			
+			
+		</path>
+	</firefly>
+	<firefly image="firefly">
+		<path friction = "0.2">	
+			<point x="267" y="453" />
+			<point x="611" y="353" />
+			<point x="654" y="403" />
+			<point x="611" y="453" />
+			<point x="267" y="353" />			
+			<point x="224" y="403" />				
+		</path>
+	</firefly>
+	<firefly image="firefly">
+		<path friction = "0.2">	
+			<point x="611" y="453" />
+			<point x="267" y="353" />
+			<point x="224" y="403" />
+			<point x="267" y="453" />			
+			<point x="611" y="353" />
+			<point x="654" y="403" />			
+		</path>
+	</firefly>
+	<firefly image="firefly">
+		<path friction = "0.2">	
+			<point x="611" y="353" />
+			<point x="267" y="453" />
+			<point x="224" y="403" />
+			<point x="267" y="353" />			
+			<point x="611" y="453" />
+			<point x="654" y="403" />			
+		</path>
+	</firefly>
+	<firefly image="blindmoth">
+		<path source = "random">
+			<startPoint x="439" y="103" />
+			<topLeft x="418" y="83" />
+			<bottomRight x="460" y="123"/>
+			<waitFrameCountMax value="2" />
+		</path>
+		<speed>3</speed>
+		<turnspeed>0.3</turnspeed>
+		<attract>30</attract>
+		<type>blindmoth</type>
+	</firefly>
+	<firefly image="blindmoth">
+		<path source = "random">
+			<startPoint x="439" y="253" />
+			<topLeft x="418" y="233" />
+			<bottomRight x="460" y="273"/>
+			<waitFrameCountMax value="2" />
+		</path>
+		<speed>3</speed>
+		<turnspeed>0.3</turnspeed>
+		<attract>30</attract>
+		<type>blindmoth</type>
+	</firefly>
+	<firefly image="blindmoth">
+		<path source = "random">
+			<startPoint x="439" y="403" />
+			<topLeft x="418" y="383" />
+			<bottomRight x="460" y="432"/>
+			<waitFrameCountMax value="2" />
+		</path>
+		<speed>3</speed>
+		<turnspeed>0.3</turnspeed>
+		<attract>30</attract>
+		<type>blindmoth</type>
+	</firefly>	
+</level>

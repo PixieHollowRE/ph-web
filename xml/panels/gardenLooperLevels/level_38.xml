@@ -1,0 +1,14 @@
+<level>
+	<rosettaStartMessage>You have to loop more than one petal at a time!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>	
+	<objective>Capture 30 ###petal1### petals!</objective>
+	
+	<randomPetalConfig>30-20</randomPetalConfig>
+	<multiplierChance>12</multiplierChance>
+	<bees>1</bees>
+	<petalspeed min="2" max="4"/>
+	<powerups stopwind="2" extratime="1" removebees="0"/>
+	<minLegalPetalCount>2</minLegalPetalCount>
+	<timeLimit>30</timeLimit>
+</level>

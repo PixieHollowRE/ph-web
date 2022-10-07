@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/dailyChance.swf</swf>
+		<swf type="code">{panelCode}/dailyChance.swf</swf>
+	</swfs>
+	<copy>	
+		<!-- hud -->
+		<title>Vidia's Daily Spin</title>
+		<level>Level</level>
+		<nextCopy target="game.chatPanel.playBtn.caption">Next</nextCopy>
+		<clickTornadoCopy target="game.gameContents.tornado.marquee.clickMarquee.copyTf">Click Here</clickTornadoCopy>
+		<quitCopy>Exit</quitCopy>
+		<okCopy target="game.rewards.okBtn.caption">Get Rewards</okCopy>
+		<rewardTitle target="game.rewards.titleTf">Here's what you won today!</rewardTitle>
+		<vidiaIntro_f_0>Oh, it's you. Here to see how fast you are? Fine. I'll twirl up a little tornado, and we'll see if you can catch one of the acorns in it. Ready?</vidiaIntro_f_0>
+		<vidiaIntro_f_1>You're no fast-flying-talent, sweetie, but I hear you're pretty quick. Let's see if you can catch an acorn from a little twister!</vidiaIntro_f_1>
+		<vidiaIntro_f_2>Oh my, another challenger. You think you're faster than me, do you? I'm game. Go ahead, try to catch an acorn from my little tornado. </vidiaIntro_f_2>
+		<vidiaIntro_f_3>Oh look, it's another high-speed wannabe. Okay, sweetie, let's see how quick you are. I'll whirl up a little wind, and you try to catch an acorn!</vidiaIntro_f_3>
+		<vidiaIntro_f_4>Don't tell me -- you think you're faster than I am, right? I bet you can't even catch an acorn out of my little twister. Go ahead, sweetie. Try.</vidiaIntro_f_4>
+		<vidiaIntro_f_5>Ready for a little challenge, huh? Okay, here's how it goes. I'll make a twister, and you try to catch one of the acorns in it. Ready?</vidiaIntro_f_5>
+		<vidiaIntro_m_0>Oh, it's you. Here to see how fast you are? Fine. I'll twirl up a little tornado, and we'll see if you can catch the acorns in it.</vidiaIntro_m_0>
+		<vidiaIntro_m_1>You're no fast-flying-talent, sweetie, but I hear you're pretty quick. Let's see if you can catch a few acorns from a little twister!</vidiaIntro_m_1>
+		<vidiaIntro_m_2>Oh my, another challenger. You think you're faster than me, do you? I'm game. Go ahead, try to catch some acorns from my little tornado. </vidiaIntro_m_2>
+		<vidiaIntro_m_3>Oh look, it's another high-speed wannabe. Okay, sweetie, let's see how quick you are. I'll whirl up a little wind, and you try to catch the acorns!</vidiaIntro_m_3>
+		<vidiaIntro_m_4>Don't tell me -- you think you're faster than I am, right? I bet you can't even catch the acorns out of my little twister. Go ahead, sweetie. Try.</vidiaIntro_m_4>
+		<vidiaIntro_m_5>Ready for a little challenge, huh? Okay, here's how it goes. I'll make a twister, and you try to catch the acorns in it. Ready?</vidiaIntro_m_5>
+		<vidiaAlreadyPlayed_0>Weren't you already here today? Sorry sweetie, but I only have time for one challenge a day. Try again tomorrow.</vidiaAlreadyPlayed_0>
+		<vidiaAlreadyPlayed_1>You again? Hey, it was fun and all, but let's keep it to once a day. See you tomorrow.</vidiaAlreadyPlayed_1>
+		<vidiaAlreadyPlayed_2>Back again? Sorry sweetie, but the rule is, one challenge a day. Fly back tomorrow, okay?</vidiaAlreadyPlayed_2>
+		<vidiaAlreadyPlayed_3>You've already challenged me today, sweetie. Rules are rules -- I only take one challenge per day. Try again tomorrow.</vidiaAlreadyPlayed_3>
+		<vidiaAlreadyPlayed_4>Sweetie, as much as I'd love to spend the time, I can only take one challenge a day. You'll have to come back tomorrow, okay?</vidiaAlreadyPlayed_4>
+		<vidiaCheckWinnings>Let's see what you won!</vidiaCheckWinnings>
+		<encourageCopy_0 target="game.encouragePanel.copyTf">Click the tornado!</encourageCopy_0>
+		<encourageCopy_1>Hey, #NAME#? The tornado is spinning... try to grab an acorn.</encourageCopy_1>
+		<encourageCopy_2>Confused, sweetie? Try this. Grab an acorn out of the tornado.</encourageCopy_2>
+		<encourageCopy_3>Hey! If you want to nap, try Drowsy Den. Otherwise, grab an acorn from the tornado!</encourageCopy_3>
+		<encourageCopy_4>Hey, speedy wings! I'm not spinning this thing all day. Grab an acorn!</encourageCopy_4>
+		<encourageMoreCopy_0>It's a start, but there are still more in there. Grab another acorn -- if you can.</encourageMoreCopy_0>
+		<encourageMoreCopy_1>Go ahead, sweetie. Grab another acorn. I dare you.</encourageMoreCopy_1>
+		<encourageMoreCopy_2>Grab another acorn. Just try it.</encourageMoreCopy_2>
+		<encourageMoreCopy_3>I don't think you're done. Grab another acorn!</encourageMoreCopy_3>
+		<encourageMoreCopy_4>I still see acorns in there. Go ahead, try to get them.</encourageMoreCopy_4>
+		
+		<instruction0>Click on the tornado to grab an acorn. Once all of the acorns are in the baskets, they will open to reveal your prizes. Everybody can play once a day, and Members get more prizes and two extra acorns!</instruction0>
+		
+	</copy>
+	<config>
+		<colorPalette>7</colorPalette>
+	</config>
+</panel>

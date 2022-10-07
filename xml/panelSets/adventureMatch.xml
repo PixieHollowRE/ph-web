@@ -1,0 +1,12 @@
+﻿<panelSet>
+
+      <panels>
+		<panel id="matchmaker" x="0" y="0" hidden="true" transition="fade" hasTutorial="true">{panelData}/AdventureChooser.xml</panel>		
+		<panel id="activeMatch" x="0" y="0" hidden="true" transition="fade">{panelData}/AdventureMatchStatus.xml</panel>					
+      </panels>
+
+      <config></config>
+
+      <copy></copy>
+
+</panelSet>

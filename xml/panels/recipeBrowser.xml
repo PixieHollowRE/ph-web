@@ -1,0 +1,225 @@
+<panel>
+  
+  <swfs>
+    
+    <swf type="content">{panelContent}/recipeBrowser.swf</swf>
+    
+    <swf type="code">{panelCode}/recipeBrowser.swf</swf>
+    
+  </swfs>
+  
+  <copy>
+    
+    <title target="title.label">Patterns</title>
+    
+    <selectBelow>All #TYPE# #CRAFT#s</selectBelow>
+    
+    <selectHelperTailoring>Pattern</selectHelperTailoring>
+    
+    <selectHelperTinkering>Blueprint</selectHelperTinkering>
+    
+    <selectHelperBaking>Recipe</selectHelperBaking>
+    
+    <cardPointHeader>#CRAFT# Points</cardPointHeader>
+    
+    <tailoring_title>Patterns</tailoring_title>
+    
+    <baking_title>Recipes</baking_title>
+    
+    <tinkering_title>Blueprints</tinkering_title>
+    
+    <tailoring_points>Tailoring Points</tailoring_points>
+    
+    <baking_points>Baking Points</baking_points>
+    
+    <tinkering_points>Tinkering Points</tinkering_points>
+    
+    <back target="buttons.back.caption">Back</back>
+    
+    <select target="buttons.select.caption">Select</select>
+    
+    <view target="view.caption">Details</view>
+    
+    <hide>Close</hide>
+    
+    <unavailable>This item is not yet available.</unavailable>
+    
+    <featured>Featured!</featured>
+    
+    <notEnough>Not Enough Ingredients</notEnough>
+    
+    <insufficient_ingredients>Oops! You don't have enough ingredients to make this. Click the arrow button on the pattern card to find out what ingredients you still need to gather!</insufficient_ingredients>
+    
+    <ok>OK</ok>
+    
+    <unlockedSeasonal>Seasonal #CRAFT#</unlockedSeasonal>
+    
+    <unlockReminder>Level #LEVEL# #CRAFT#</unlockReminder>
+    
+    <unlockedGrandfathered>Original #SHOPTYPE# #CRAFT#</unlockedGrandfathered>
+    
+    <unlockTeaser>Unlocks at level #LEVEL#</unlockTeaser>
+    
+    <viewTailoringTip>View Pattern</viewTailoringTip>
+    
+    <viewTinkeringTip>View Blueprint</viewTinkeringTip>
+    
+    <viewBakingTip>View Recipe</viewBakingTip>
+    
+    <viewGenericTip>View</viewGenericTip>
+    
+    <RecipeIngredientCountCopyTip>(#NUMA# of #NUMB#)</RecipeIngredientCountCopyTip>
+    
+    <!--Recipe Card-->
+    
+    <steps target="steps">Steps</steps>
+    
+    <ingredients target="ingredients">Ingredients</ingredients>
+    
+    <records target="records">My Records</records>
+    
+    <total_crafted target="total_crafted">Total Crafted</total_crafted>
+    
+    <highest_quality>Highest Score</highest_quality>
+    
+    <average_quality>Average Score</average_quality>
+    
+    <tailoring_type>Pattern</tailoring_type>
+    
+    <baking_type>Recipe</baking_type>
+    
+    <tinkering_type>Blueprint</tinkering_type>
+    
+    <tailoring_ingredient_text>All Ingredients Are Provided By The Tailoring Nook</tailoring_ingredient_text>
+    
+    <baking_ingredient_text>All Ingredients Are Provided By Dulcie's Kitchen</baking_ingredient_text>
+    
+    <tinkering_ingredient_text>All Ingredients Are Provided By The Tinkering Nook</tinkering_ingredient_text>
+    
+    <of>of</of>
+    
+    <tailoring_tab target="tab_set.btn0.content.title">Tailoring</tailoring_tab>
+    
+    <tailoring_tab2 target="tab_set.btn0.content.title2">Tailoring</tailoring_tab2>
+    
+    <baking_tab target="tab_set.btn1.content.title">Baking</baking_tab>
+    
+    <baking_tab2 target="tab_set.btn1.content.title2">Baking</baking_tab2>
+    
+    <tinkering_tab target="tab_set.btn2.content.title">Tinkering</tinkering_tab>
+    
+    <tinkering_tab2 target="tab_set.btn2.content.title2">Tinkering</tinkering_tab2>
+    
+    <no_tailoring_1 target="tab_set.content0.noRecipes.tf1">You don't have any tailoring patterns yet!</no_tailoring_1>
+    
+    <no_tailoring_2 target="tab_set.content0.noRecipes.tf2">To unlock patterns, visit the Tailoring Nooks in</no_tailoring_2>
+    
+    <no_tailoring_3 target="tab_set.content0.noRecipes.tf3">and choose "Community Tailoring."</no_tailoring_3>
+    
+    <no_baking_1 target="tab_set.content1.noRecipes.tf1">You don't have any baking recipes yet!</no_baking_1>
+    
+    <no_baking_2 target="tab_set.content1.noRecipes.tf2">To unlock recipes, visit Dulcie's Kitchen in</no_baking_2>
+    
+    <no_baking_3 target="tab_set.content1.noRecipes.tf3">and choose "Community Baking."</no_baking_3>
+    
+    <no_tinkering_1 target="tab_set.content2.noRecipes.tf1">You don't have any tinkering blueprints yet!</no_tinkering_1>
+    
+    <no_tinkering_2 target="tab_set.content2.noRecipes.tf2">To unlock blueprints, visit Copper's Tinkering Nook in</no_tinkering_2>
+    
+    <no_tinkering_3 target="tab_set.content2.noRecipes.tf3">and choose "Community Tinkering."</no_tinkering_3>
+    
+    <avail22511>Unlock Before: Sep. 19, 2013</avail22511>
+    
+    <avail566>Unlock Before: Sep. 19, 2013</avail566>
+    
+    <avail567>Unlock Before: Sep. 19, 2013</avail567>
+    
+    <avail6554>Unlock Before: Sep. 19, 2013</avail6554>
+    
+    <avail7612>Unlock Before: Sep. 19, 2013</avail7612>
+    
+    <avail1560>Unlock Before: Sep. 19, 2013</avail1560>
+    
+    <avail1559>Unlock Before: Sep. 19, 2013</avail1559>
+    
+    <avail22513>Unlock Before: Sep. 19, 2013</avail22513>
+    
+    <avail22531>Unlock Before: Sep. 19, 2013</avail22531>
+    
+    <avail22554>Unlock Before: Sep. 19, 2013</avail22554>
+    
+    <avail22512>Unlock Before: Sep. 19, 2013</avail22512>
+    
+    <avail317>Unlock Before: Sep. 19, 2013</avail317>
+    
+    <avail1256>Unlock Before: Sep. 19, 2013</avail1256>
+    
+    <avail2238>Unlock Before: Sep. 19, 2013</avail2238>
+    
+    <avail3684>Unlock Before: Sep. 19, 2013</avail3684>
+    
+    <avail22558>Unlock Before: Sep. 19, 2013</avail22558>
+    
+    <avail22559>Unlock Before: Sep. 19, 2013</avail22559>
+    
+    <avail22560>Unlock Before: Sep. 19, 2013</avail22560>
+    
+    <avail22561>Unlock Before: Sep. 19, 2013</avail22561>
+    
+    <avail22562>Unlock Before: Sep. 19, 2013</avail22562>
+    
+    <avail22563>Unlock Before: Sep. 19, 2013</avail22563>
+    
+    <avail6719>Unlock Before: Sep. 19, 2013</avail6719>
+    
+    <avail6720>Unlock Before: Sep. 19, 2013</avail6720>
+    
+    <avail22564>Unlock Before: Sep. 19, 2013</avail22564>
+    
+    <avail2318>Unlock Before: Sep. 19, 2013</avail2318>
+    
+    <avail2319>Unlock Before: Sep. 19, 2013</avail2319>
+    
+    <avail2605>Unlock Before: Sep. 19, 2013</avail2605>
+    
+    <avail2606>Unlock Before: Sep. 19, 2013</avail2606>
+    
+    <avail3743>Unlock Before: Sep. 19, 2013</avail3743>
+    
+    <avail3744>Unlock Before: Sep. 19, 2013</avail3744>
+    
+    <avail7801>Unlock Before: Sep. 19, 2013</avail7801>
+    
+    <avail7041>Unlock Before: Sep. 19, 2013</avail7041>
+    
+    <avail7679>Unlock Before: Sep. 19, 2013</avail7679>
+    
+  </copy>
+  
+  <config>
+    
+    <zones id="tailoring">
+      
+      <zone>101</zone>
+      
+      <zone>202</zone>
+      
+    </zones>
+    
+    <zones id="baking">
+      
+      <zone>103</zone>
+      
+    </zones>
+    
+    <zones id="tinkering">
+      
+      <zone>202</zone>
+      
+    </zones>
+    
+    <!--showTinkerCraftingIn>Meadow_TinkeringNookOpenForAllSign</showTinkerCraftingIn-->
+    
+  </config>
+  
+</panel>

@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tinkerCrafting.swf</swf>
+		<swf type="code">{panelCode}/tinkerCrafting.swf</swf>
+	</swfs>
+	<copy>
+		
+		<title>Tinker Crafting</title>
+		<subtitle>Tinker Crafting</subtitle>
+
+		<stepComplete>Done!</stepComplete>
+		<continue>Continue</continue>
+		
+
+		<!-- UI: INSTRUCTIONS -->
+		<inst_screen_title target="instructions.title.heading">Instructions</inst_screen_title>
+		
+		<instruction0 target="instructions.btnContainer.page0.label">Move pieces left and right with your mouse. Click the mouse button to flip your pieces.</instruction0>
+		<instruction1 target="instructions.btnContainer.page1.label">Left and Right keyboard keys also move your pieces. Press up to flip your pieces and down to move pieces down.</instruction1>
+		<instruction2 target="instructions.btnContainer.page2.label">Try and match pieces in groups of three or more of a kind.</instruction2>
+		<instruction3 target="instructions.btnContainer.page3.label">Eliminate blocks in groups or chains for extra points!</instruction3>
+
+		
+		<!-- Game has started -->
+		<start0>Time to tinker!  Try to match the ingredients.</start0>
+		<start1>Are you ready to start tinkering?</start1>
+		<start2>Remember to make chains for big bonuses!</start2>
+		<start3>Try to make matches at the same time for an extra bonus!</start3>
+		<start4>Back for more tinkering? Let's get started!</start4>
+		
+		<!-- Single Match -->
+		<match0>Keep up the great matching!</match0>
+		<match1>Nice match!</match1>
+		<match2>Keep it up and you'll be done in no time.</match2>
+		<match3>Now that's the way to tinker!</match3>
+		
+		<!-- Bonus: Chain -->
+		<matchChain0>Great tinkering!</matchChain0>
+		<matchChain1>Way to go!</matchChain1>
+		<matchChain2>You're a natural tinkerer!</matchChain2>
+		<matchChain3>Wow, you're really good at this!</matchChain3>
+		<matchChain4>Have you been practicing?</matchChain4>
+		<matchChain5>Tinker-ific!</matchChain5>
+		<matchChain6>Did Tinker Bell teach you how to do that?</matchChain6>
+		
+		<!-- Bonus: Double -->
+		<matchDouble0>Awesome, multiple matches!</matchDouble0>
+		<matchDouble1>That's some impressive matching!</matchDouble1>
+		<matchDouble2>Way to get those bonuses!</matchDouble2>
+		
+		<!-- Warning -->
+		<heightWarning0>Whoa, watch out pieces are piling up!</heightWarning0>
+		<heightWarning1>Better make some matches, the board is getting full!</heightWarning1>
+		<heightWarning2>Quick, make some matches before the pieces reach the top!</heightWarning2>
+		<heightWarning3>Things are getting crowded! Better make some quick matches.</heightWarning3>
+		
+		<!-- Completed Message (these comments need to fit in limited are, please keep them below 15 characters including spaces)-->
+		<completed0>You did it!</completed0>
+		
+		<!-- Result comments -->
+		<host0Poor0>That was a good try! Keep up the good work!</host0Poor0>
+		<host0Poor1>Not bad tinkering. Keep at it!</host0Poor1>
+		<host0Poor2>Keep on tinkering - I know ya can do better!</host0Poor2>
+		<host0Poor3>Don't give up! You'll be even better next time!</host0Poor3>
+
+		<host0Good0>That was really good! Have you tinkered this before?</host0Good0>
+		<host0Good1>You are getting to be one talented tinkerer!</host0Good1>
+		
+		<host0Great0>That was some talented tinkering!</host0Great0>
+		<host0Great1>I think you've got the makings of a tinkering natural!</host0Great1>
+		
+		<host0Awesome0>I'm really impressed! Tinker Bell would be so proud!</host0Awesome0>
+		<host0Awesome1>That was the best tinkering I've ever seen!</host0Awesome1>
+		<host0Awesome2>You are Tinker-tastic!</host0Awesome2>
+		<host0Awesome3>That was great! Do you want to tinker one of those for me?</host0Awesome3>
+		
+		
+		<gameOverQuitMessage>Continue</gameOverQuitMessage>
+		<gameOverTitle>Done!</gameOverTitle>
+		<awesomeString0>Awesome Job!</awesomeString0>
+		<awesomeString1>Awesome Job!</awesomeString1>
+		<greatString0>Great Job!</greatString0>
+		<greatString1>Great Job!</greatString1>
+		<goodString0>Good Job!</goodString0>
+		<goodString1>Good Job!</goodString1>
+		<notGoodString0>Nice Try!</notGoodString0>
+
+	</copy>
+	<config>
+		<!-- set color -->
+		<colorPalette>3</colorPalette>
+		
+		<!-- game -->
+		<playWidth>8</playWidth>
+		<playHeight>11</playHeight>
+		<blockSize>40</blockSize>
+		<dropSpeed>60</dropSpeed>
+		<slideSpeed>20</slideSpeed>
+		<mouseDownWait>.2</mouseDownWait>
+		<buildPercent>.7</buildPercent>
+		<bonusPercent>.3</bonusPercent>
+		<!-- score ranges -->
+		<awesomePercent>96</awesomePercent>
+		<greatPercent>81</greatPercent>
+		<goodPercent>51</goodPercent>
+		
+		<npcDNA>"100/95/88/0/-8/20/-15/0/12/0/0/28/93/21:127:166/537:84:77/1017:120:166/1511:83:166/2037:29:1/2501:37:-1/3011:83:166/3508:127:166/4001:63:93/4501:93:-1/5008:56:-1/5532:56:-1/6005:112:166"</npcDNA>
+		
+		<!-- INGREDIENT KEY -->
+		<ingredientTypes>
+			<Acorns>1</Acorns>
+			<BlueGems>2</BlueGems>
+			<ButtercupPetals>3</ButtercupPetals>
+			<DaisyPetals>4</DaisyPetals>
+			<DandelionFluff>5</DandelionFluff>
+			<Feathers>6</Feathers>
+			<MeadowGrass>7</MeadowGrass>
+			<Ivy>8</Ivy>
+			<LilyPetals>9</LilyPetals>
+			<MapleLeaves>10</MapleLeaves>
+			<Metal>11</Metal>
+			<OakLeaves>12</OakLeaves>
+			<PineNeedles>13</PineNeedles>
+			<RosePetals>14</RosePetals>
+			<SpiderSilk>15</SpiderSilk>
+			<SunflowerSeeds>16</SunflowerSeeds>
+			<Twigs>17</Twigs>
+			<YellowGems>18</YellowGems>
+		</ingredientTypes>
+
+	</config>
+</panel>

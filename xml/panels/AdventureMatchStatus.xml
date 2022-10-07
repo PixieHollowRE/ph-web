@@ -1,0 +1,47 @@
+﻿<panel>
+
+	<swfs>
+		<swf type="content">{panelContent}/AdventureMatchStatus.swf</swf>
+		<swf type="code">{panelCode}/AdventureMatchStatus.swf</swf>
+	</swfs>
+	<copy>
+		<playersTitle target="title">Players in this Adventure</playersTitle>
+		<startTitle>Lead An Adventure Group</startTitle>
+		<ok>Okay</ok>	
+		<yes>Yes</yes>	
+		<no>No</no>	
+		<triggerRejected>Oops, there seems to be a problem loading this adventure, please try again later.</triggerRejected>
+		<matchCanceled>Sorry, the adventure was canceled.</matchCanceled>
+		<acceptFairy>A player would like to join your group! Their name is: </acceptFairy>
+		<countdownWarning target="countdownWarning">You are heading to</countdownWarning>
+		<countdownWarningHeader target="countdownWarningHeader">Get Ready!</countdownWarningHeader>
+		<cancel target="cancelBtn.caption">Cancel</cancel>
+		<leave target="leaveBtn.caption">Quit</leave>
+		<start target="startBtn.caption">Go</start>
+		<stop target="stopBtn.caption">Wait</stop>
+		<requestTitle target="request.title">Group Request</requestTitle>
+		<requestText target="request.notice">wants to join your group.</requestText>
+		<requestText2 target="request.question">Do you accept?</requestText2>
+		<requestYes target="request.yesBtn.caption">Yes</requestYes>
+		<requestNo target="request.noBtn.caption">No</requestNo>
+		<emptySlot>Waiting for player...</emptySlot>
+		<exploreTitle>Go Scouting!</exploreTitle>
+		<confirmCancel>Do you really want to cancel your adventure group?</confirmCancel>
+		<confirmLeave>Do you really want to leave this adventure group?</confirmLeave>
+		<groupCanceled>Your group's leader has canceled this adventure group.</groupCanceled>
+		<leaderLeavingZone>You have canceled your adventure group.</leaderLeavingZone>
+		<leaderLeavingZoneTitle>Adventure Canceled</leaderLeavingZoneTitle>
+		<requestingFairyLeftMeadow>This player has left the meadow.</requestingFairyLeftMeadow>
+		<talentCopyAnimal>Animal-Talent</talentCopyAnimal>
+		<talentCopyGarden>Garden-Talent</talentCopyGarden>
+		<talentCopyLight>Light-Talent</talentCopyLight>
+		<talentCopyWater>Water-Talent</talentCopyWater>
+		<talentCopyTinker>Tinker-Talent</talentCopyTinker>
+	</copy>
+	<config>
+		<adventures>
+			<adventure adventureID="501">			
+			</adventure>
+		</adventures>
+	</config>
+</panel>

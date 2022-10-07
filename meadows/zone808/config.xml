@@ -1,0 +1,45 @@
+<zone>
+  <name>Marina's Place</name>
+  <zoneID>808</zoneID>
+  <assetURL/>
+  <audioLibrary>quest_music_marina</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <clientLayout>
+    <layers>
+      <layer type="ground" width="896" height="504">
+        <image x="0" y="0" type="merge" tag="Meadow_PGH2011_Stadium">Marina_NEW_action01.swf</image>
+        <image x="0" y="0" type="merge">Marina_action01.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="400" y="295">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>quest_music_marina</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks/>
+  
+  
+  <decorations/>
+  
+  
+  
+  
+  
+  
+</zone>

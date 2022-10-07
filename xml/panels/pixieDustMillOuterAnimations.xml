@@ -1,0 +1,15 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/pixieDustMillOuterAnimations.swf</swf>
+		<swf type="code">{panelCode}/pixieDustMillOuterAnimations.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<animations>
+			<animation id="pixie_dust_meter_pdSparkle" x="203" y="-6"/>
+			<animation id="level_pdSparkle" x="426" y="-6"/>
+			<animation id="talent_points_pdSparkle" x="457" y="-6"/>
+		</animations>		
+	</config>
+</panel>

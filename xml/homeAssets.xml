@@ -1,0 +1,2951 @@
+<homeAssets>
+  
+  <copy>
+    
+    <!--> Furniture </-->
+    
+    <item6501 dyeable="1,0">Seedpod Fan</item6501>
+    
+    <desc6501>Keep the heat away with these spinning seedpods!</desc6501>
+    
+    <item6502 dyeable="1,0">Swirled Toadstool Chairs</item6502>
+    
+    <desc6502>Rest your legs and wings sitting in this comfy chair set!</desc6502>
+    
+    <item6503 dyeable="1,0">Rain Bed</item6503>
+    
+    <desc6503>Rani and her friends love this water-filled bed.</desc6503>
+    
+    <item6504 dyeable="1,0">Nutshell Bookcase</item6504>
+    
+    <desc6504>The perfect place to store jewelry boxes, books, and other keepsakes.</desc6504>
+    
+    <item6505 dyeable="1,0">Maple Mat</item6505>
+    
+    <desc6505>To keep a floor clean, one needs a place to wipe their feet!</desc6505>
+    
+    <item6506 dyeable="1,0">Lily Pad Mat</item6506>
+    
+    <desc6506>The perfect welcome mat for your water-talent friends!</desc6506>
+    
+    <item6507 dyeable="1,0">Toadstool Tableset</item6507>
+    
+    <desc6507>Tea is best served on a toadstool!</desc6507>
+    
+    <item6508 dyeable="1,0">Tenderleaf Table</item6508>
+    
+    <desc6508>This table is made from a sturdy leaf from the Never Bimbim tree!</desc6508>
+    
+    <item6509 dyeable="1,0">Blossom Bench</item6509>
+    
+    <desc6509>This stool is great for sitting down with a great book or in Tink's case, a broken ladle!</desc6509>
+    
+    <item6510 dyeable="1,0">Driftwood Bed</item6510>
+    
+    <desc6510>Sleeping on this bed may lead to dreams of mermaids and pirate ships!</desc6510>
+    
+    <item6511 dyeable="1,0">Lily Nightstand</item6511>
+    
+    <desc6511>Perfect for propping a lamp or a bedside book!</desc6511>
+    
+    <item6512 dyeable="1,0">Tulip Leaf Table</item6512>
+    
+    <desc6512>This leaf was molded and shaped to hold cups and plates!</desc6512>
+    
+    <item6513 dyeable="1,0">Sunflower Loveseat</item6513>
+    
+    <desc6513>The perfect piece for a friendly chat.</desc6513>
+    
+    <item6514 dyeable="1,0">Daisy Bloom Swing</item6514>
+    
+    <desc6514>A Fairy's life isn't all flying and working. Swinging is important too!</desc6514>
+    
+    <item6515 dyeable="1,0">Leaf Lounger</item6515>
+    
+    <desc6515>This special reclining chair is ideal for an afternoon nap.</desc6515>
+    
+    <item6516 dyeable="1,0">Daisy Cover Bed</item6516>
+    
+    <desc6516>A bed of petals, it's sure to have anyone dreaming of gardens!</desc6516>
+    
+    <item6517 dyeable="1,0">Dewdrop Mirror</item6517>
+    
+    <desc6517>Mirror, mirror on the wall, who is the most talented of them all?</desc6517>
+    
+    <item6518 dyeable="1,0">Oak Throw Rug</item6518>
+    
+    <desc6518>The durable oak leaf makes for a great place to wipe your feet!</desc6518>
+    
+    <item6519 dyeable="1,0">Seashell Shelf</item6519>
+    
+    <desc6519>Made from an abandoned shell, this shelf can hold many heavy knickknacks!</desc6519>
+    
+    <item6520 dyeable="1,0">Driftwood Mantle</item6520>
+    
+    <desc6520>Made from wood washed up on the Northern Shore, this shelf reminds everyone of the beach!</desc6520>
+    
+    <item6521 dyeable="0" fairyDollarCost="40">Heart Leaf Stand</item6521>
+    
+    <desc6521>It may look flimsy but this leaf is as durable as the mighty oak!</desc6521>
+    
+    <item6522 dyeable="0" fairyDollarCost="40">Violet Blossom Swing</item6522>
+    
+    <desc6522>Catch the sweet scent in the air as the breeze blows through your hair!</desc6522>
+    
+    <item6523 dyeable="0" fairyDollarCost="40">Walnut Bookshelf</item6523>
+    
+    <desc6523>The hard outer shell protects delicate leaf journals.</desc6523>
+    
+    <item6524 dyeable="0" fairyDollarCost="40">Mushroom Furniture Set</item6524>
+    
+    <desc6524>These table and chairs are squishy and fun to sit on!</desc6524>
+    
+    <item6525 dyeable="0" fairyDollarCost="40">Toadstool Furniture Set</item6525>
+    
+    <desc6525>A table made from toadstools, but just don't try and eat it!</desc6525>
+    
+    <item6526 dyeable="0" fairyDollarCost="40">Garden Lounge Chair</item6526>
+    
+    <desc6526>When your wings need some rest, take a seat and relax!</desc6526>
+    
+    <item6527 dyeable="0" fairyDollarCost="40">Water Lounge Chair</item6527>
+    
+    <desc6527>Stretching out on this relaxing chair might just end up in a nap!</desc6527>
+    
+    <item6528 dyeable="0" fairyDollarCost="40">Forest Floor Sofa</item6528>
+    
+    <desc6528>The color of the lush forest makes this sofa feel like home!</desc6528>
+    
+    <item6529 dyeable="0" fairyDollarCost="40">Autumn Eve Sofa</item6529>
+    
+    <desc6529>Leaves of every color and shade go into making this sofa as comfortable as possible!</desc6529>
+    
+    <item6530 dyeable="0" fairyDollarCost="40">Oak Bark Shelf</item6530>
+    
+    <desc6530>It's so sturdy, it could hold a dozen books!</desc6530>
+    
+    <item6531 dyeable="0" fairyDollarCost="40">Riverstone Stand</item6531>
+    
+    <desc6531>Constructed with smooth stones from the river banks!</desc6531>
+    
+    <item6532 dyeable="0" fairyDollarCost="40">Lily Pad Rug</item6532>
+    
+    <desc6532>Summer nights are filled with the music of frogs singing on these lily pads!</desc6532>
+    
+    <item6533 dyeable="0" fairyDollarCost="40">Sunpetal Loveseat</item6533>
+    
+    <desc6533>It's a comfy couch that also produces delicious seeds!</desc6533>
+    
+    <item6534 dyeable="1,0">Waterdrop Wall Shelf</item6534>
+    
+    <desc6534>Display your most treasured art objects on this sparkling shelf unit.</desc6534>
+    
+    <item6535 dyeable="1,0">Eggshell Tea Table</item6535>
+    
+    <desc6535>Heat up the kettle and call your friends!</desc6535>
+    
+    <item6536 dyeable="1,0" fairyDollarCost="40">Carved Riverstone Table</item6536>
+    
+    <desc6536>A traditional water-talent favorite.</desc6536>
+    
+    <item6537>Walnut Bed</item6537>
+    
+    <desc6537>Half a walnut is plenty for anyone to snuggle up nice and warm on winter nights!</desc6537>
+    
+    <item6538>Leaf Panel Curtains</item6538>
+    
+    <desc6538>Adjust the leaves to let in all the light or just a little!</desc6538>
+    
+    <item6539>Four-Peg Oak Hanger</item6539>
+    
+    <desc6539>A handy place to hang wet leaf scarves, hats, and coats to dry.</desc6539>
+    
+    <item6540>Twig Porch Swing</item6540>
+    
+    <desc6540>The perfect place to relax and watch the setting sun.</desc6540>
+    
+    <item6541>Bubble-Pad Bed</item6541>
+    
+    <desc6541>It's like drifting on water - because you are!</desc6541>
+    
+    <item6542>Lily Pad Sponge Table</item6542>
+    
+    <desc6542>Don't worry if you spill your drink - the table will soak it up!</desc6542>
+    
+    <!--> End Furniture </-->
+    
+    <!--> Lamps </-->
+    
+    <item7001 dyeable="1,0">Tulip Floor Lamp</item7001>
+    
+    <desc7001>This lamp is wonderful for a quick flip through a journal or diary!</desc7001>
+    
+    <item7002 dyeable="1,0">Buttercup Floor Lamp</item7002>
+    
+    <desc7002>Not only does it provide illumination, but the buttercup also smells wonderful!</desc7002>
+    
+    <item7003 dyeable="1,0">Daisy Table Lamp</item7003>
+    
+    <desc7003>The handy leaf pull-cord makes this the perfect bedside accessory.</desc7003>
+    
+    <item7004 dyeable="1,0">Petal Candle</item7004>
+    
+    <desc7004>The glow from this colorful petal candle is warm and inviting.</desc7004>
+    
+    <item7005 fairyDollarCost="30">Glowing Gourd Lamp</item7005>
+    
+    <desc7005>Sometimes a little more light is needed!</desc7005>
+    
+    <item7006 dyeable="1,0">Hanging Hibiscus Lantern</item7006>
+    
+    <desc7006>This lamp hangs from the ceiling or low branches - wherever light is needed!</desc7006>
+    
+    <item7007 dyeable="1,0">Rose of Sharon Lamp</item7007>
+    
+    <desc7007>A special lamp with a pull chain to turn the light on and off!</desc7007>
+    
+    <item7008 dyeable="1,0">Toadstool Table Lamp</item7008>
+    
+    <desc7008>This mushroom can really light a room!</desc7008>
+    
+    <item7009 dyeable="0" fairyDollarCost="30">Bellflower Lamp</item7009>
+    
+    <desc7009>This lamp allows light to fill a room or just shine directly on the pages of a good book!</desc7009>
+    
+    <item7010 dyeable="0" fairyDollarCost="30">Firefly Lantern</item7010>
+    
+    <desc7010>The fireflies of Pixie Hollow love to light these lanterns with their glow!</desc7010>
+    
+    <item7011 dyeable="0" fairyDollarCost="30">Misty Petal Lamp</item7011>
+    
+    <desc7011>Dainty petals are used to make this lamp glow extra bright!</desc7011>
+    
+    <item7012 dyeable="0" fairyDollarCost="30">Blooming Orchid Lamp</item7012>
+    
+    <desc7012>When you turn this light on, the petals open to allow the light to shine!</desc7012>
+    
+    <item7013 dyeable="0" fairyDollarCost="30">Toadstool Lamp</item7013>
+    
+    <desc7013>There are plenty of mushrooms in the forest but none of them come with firefly power!</desc7013>
+    
+    <item7014>Curly Glow Lamp</item7014>
+    
+    <desc7014>A swirl, a curl, and a handy light that adjusts to glow right where you need it!</desc7014>
+    
+    <item7015>Leaf Basket Lantern</item7015>
+    
+    <desc7015>Perfect to light up a room on a late summer evening.</desc7015>
+    
+    <item7016>All-Night Glow Light</item7016>
+    
+    <desc7016>Don't like to sleep in the dark? This soft glow will keep you comfortable.</desc7016>
+    
+    <item7017>Hanging Heart Lanterns</item7017>
+    
+    <desc7017>Will hold a special place in your heart and in your home.</desc7017>
+    
+    <item7018>Candelabra</item7018>
+    
+    <desc7018>Adds a spark of elegance to any home in the Hollow.</desc7018>
+    
+    <!--> End Lamps </-->
+    
+    <!--> Decoration </-->
+    
+    <item7501 dyeable="1,0">Butterfly Bowl</item7501>
+    
+    <desc7501>The decorative butterfly accent is made from violet petals!</desc7501>
+    
+    <item7502 dyeable="1,0">Pollen Carrier Collection</item7502>
+    
+    <desc7502>These jars can hold all manner of dust and pollen, great for mixing up potions or perfumes!</desc7502>
+    
+    <item7503 dyeable="1,0">Camillia Pillows</item7503>
+    
+    <desc7503>Freshly picked and stuffed with cotton flower fluff.</desc7503>
+    
+    <item7504 dyeable="1,0">Posy Pillow</item7504>
+    
+    <desc7504>What better place to catch a nap than on the soft petals of a posy?</desc7504>
+    
+    <item7505 dyeable="1,0">Crocus Bulb Pitcher</item7505>
+    
+    <desc7505>A hollowed-out flower bulb is perfect for pouring fruit nectars for your guests!</desc7505>
+    
+    <item7506 dyeable="1,0">Lucky Fortune Flower</item7506>
+    
+    <desc7506>This plant is meant to bring good luck and happy days to a home!</desc7506>
+    
+    <item7507 dyeable="1,0">Watering Tin</item7507>
+    
+    <desc7507>An essential item for any garden-talent!</desc7507>
+    
+    <item7508 dyeable="1,0">Lavender Sachet</item7508>
+    
+    <desc7508>The scent of lavender can be quite calming.</desc7508>
+    
+    <item7509 dyeable="1,0">River Stone Pitcher</item7509>
+    
+    <desc7509>Keeps water piping hot for a quick cup of tea.</desc7509>
+    
+    <item7510 dyeable="1,0">Tin Thimble</item7510>
+    
+    <desc7510>The most common item to wash up on the Never Land shore.</desc7510>
+    
+    <item7511 dyeable="1,0">Clay Pot</item7511>
+    
+    <desc7511>Grinding pollen or mixing herbs, this pot can be used for all sorts of tasks!</desc7511>
+    
+    <item7512 dyeable="1,0">Woven Basket</item7512>
+    
+    <desc7512>A trip to the forest or garden to gather goods is easy with this basket!</desc7512>
+    
+    <item7513 dyeable="1,0">Gardening Journal</item7513>
+    
+    <desc7513>How fast do flowers grow? What kinds of seeds should be planted? Find out and write it down!</desc7513>
+    
+    <item7514 dyeable="1,0">Butterfly Sculpture</item7514>
+    
+    <desc7514>A tribute to the carefree, flitterific butterfly.</desc7514>
+    
+    <item7515 dyeable="1,0">Seed Ladle</item7515>
+    
+    <desc7515>Makes transporting seeds to the garden easy as pixie pie!</desc7515>
+    
+    <item7516 dyeable="1,0">Spider Silk Curtains</item7516>
+    
+    <desc7516>When the light hits these curtains, it casts a shimmering sparkle on the floor.</desc7516>
+    
+    <item7517 dyeable="1,0">Never Land Map</item7517>
+    
+    <desc7517>Plan an adventure or learn the lay of the land with this map on a tree stand.</desc7517>
+    
+    <item7518 dyeable="0" fairyDollarCost="30">Seahorse Wall Decoration</item7518>
+    
+    <desc7518>This seahorse fossil is said to come all the way from Starfish Gap in Mermaid Lagoon!</desc7518>
+    
+    <item7519 dyeable="1,0">Pebble Finger Harp</item7519>
+    
+    <desc7519>Anyone can learn to play this simple yet stunning instrument!</desc7519>
+    
+    <item7520 dyeable="1,0">Reed Flute</item7520>
+    
+    <desc7520>Reed flutes are a favorite of the Lost Boys, but this one is Fairy-sized.</desc7520>
+    
+    <item7521 dyeable="1,0">Forest Bins</item7521>
+    
+    <desc7521>Little containers made from acorns and mushrooms - they're the perfect size for Fairies!</desc7521>
+    
+    <item7522 dyeable="1,0">Jewel Box</item7522>
+    
+    <desc7522>A beautiful box to store away precious stones, jewels, and valuables!</desc7522>
+    
+    <item7523 dyeable="1,0">Firefly Fetcher</item7523>
+    
+    <desc7523>Firefly tag is a favorite of all light-talents!</desc7523>
+    
+    <item7524 dyeable="1,0">Grass Houseplant</item7524>
+    
+    <desc7524>If you're like Lily and like to watch grass grow, this is the perfect home decor item for you!</desc7524>
+    
+    <item7525 dyeable="1,0">Leaf Blanket</item7525>
+    
+    <desc7525>Made from soft leaves, this blanket is said to be very comfortable.</desc7525>
+    
+    <item7526 dyeable="1,0">Acorn Kettle</item7526>
+    
+    <desc7526>When it's teatime, this kettle will make any blend delicious!</desc7526>
+    
+    <item7527 dyeable="1,0">Squirrel Doll</item7527>
+    
+    <desc7527>A doll that is much smaller than the tree-jumping friends of the Fairies.</desc7527>
+    
+    <item7528 dyeable="0" fairyDollarCost="30">Cerulean Butterfly Glider</item7528>
+    
+    <desc7528>This glider sparkles with the colors of the ocean!</desc7528>
+    
+    <item7529 dyeable="0" fairyDollarCost="30">Ruby Butterfly Glider</item7529>
+    
+    <desc7529>This glider captures the color of a striking sunset!</desc7529>
+    
+    <item7530 dyeable="0" fairyDollarCost="30">Lilac Butterfly Glider</item7530>
+    
+    <desc7530>This glider is as bright as a ripe boysenberry!</desc7530>
+    
+    <item7531 dyeable="0" fairyDollarCost="30">Chatter</item7531>
+    
+    <desc7531>Squirrels are always busy gathering food for the winter - this one won't wander far!</desc7531>
+    
+    <item7532 dyeable="0" fairyDollarCost="30">Forest Cap Thimble</item7532>
+    
+    <desc7532>Lost things can be used in so many ways!</desc7532>
+    
+    <item7533 dyeable="0" fairyDollarCost="30">Raindrop Mirror</item7533>
+    
+    <desc7533>If it ever breaks, all you have to do it wait for the next rainy day!</desc7533>
+    
+    <item7534 dyeable="0" fairyDollarCost="30">Trinket Chest</item7534>
+    
+    <desc7534>For all the secret things you find, keep them locked away in this safe box!</desc7534>
+    
+    <item7535 dyeable="0" fairyDollarCost="30">Leaf Wrap Kettle</item7535>
+    
+    <desc7535>This kettle keeps liquids nice and hot until they're ready to be sipped!</desc7535>
+    
+    <item7536 dyeable="0" fairyDollarCost="30">Studded Seahorse Comb</item7536>
+    
+    <desc7536>Made to resemble the majestic seahorse, it works best on wet hair!</desc7536>
+    
+    <item7537 dyeable="0" fairyDollarCost="30">Bellflower Chandelier</item7537>
+    
+    <desc7537>String these bright lights up across the room to illuminate your home!</desc7537>
+    
+    <item7538 dyeable="0" fairyDollarCost="30">Squeaks</item7538>
+    
+    <desc7538>The perfect decoration for any animal lover!</desc7538>
+    
+    <item7539 dyeable="0" fairyDollarCost="30">Butterfly Glider</item7539>
+    
+    <desc7539>When it catches a breeze, this decoration twirls like a real butterfly!</desc7539>
+    
+    <item7540 dyeable="0" fairyDollarCost="30">Blue-Tipped Potted Plant</item7540>
+    
+    <desc7540>The leaves of this lovely plant are also a yummy treat for the bunnies of Pixie Hollow.</desc7540>
+    
+    <item7541 dyeable="0" fairyDollarCost="30">Acorn Teapot</item7541>
+    
+    <desc7541>Some say tea tastes best when poured from an Acorn.</desc7541>
+    
+    <item7542 dyeable="0" fairyDollarCost="30">Wild Walnut Basket</item7542>
+    
+    <desc7542>Tink isn't the only one who can turn one thing into another. Just look at this walnut!</desc7542>
+    
+    <item7543 dyeable="0" fairyDollarCost="30">Chestnut Basin</item7543>
+    
+    <desc7543>This basket is great for carrying everything from water to water lilies!</desc7543>
+    
+    <item7544 dyeable="0" fairyDollarCost="30">Feather Pillow</item7544>
+    
+    <desc7544>Fast-flying talents gather feathers for this comfortable pillow.</desc7544>
+    
+    <item7545 dyeable="1,0">Oyster Shell Mirror</item7545>
+    
+    <desc7545>Always look your best by keeping this shimmering mirror in your home.</desc7545>
+    
+    <item7546 dyeable="1,0">Purple Posy Plant</item7546>
+    
+    <desc7546>Brighten up your home with this lush and leafy plant. Never needs watering.</desc7546>
+    
+    <item7547 dyeable="1,0" fairyDollarCost="30">Mainland-Style Finger Harp</item7547>
+    
+    <desc7547>Based on a unique design by Tinker Bell. She found something similar on the mainland.</desc7547>
+    
+    <item7548>Autumn Harvest Bag</item7548>
+    
+    <desc7548>Big enough for seeds, acorns, AND berries! Also makes a great gift!</desc7548>
+    
+    <item7549>Acorn Timer</item7549>
+    
+    <desc7549>Never be late for a party again!</desc7549>
+    
+    <item7550>Fluffy Fish Pillow</item7550>
+    
+    <desc7550>You'll be dreaming of bouncing fish all night with this stylish pillow!</desc7550>
+    
+    <item7551>Bubble Stand</item7551>
+    
+    <desc7551>This bright bubble brings a little piece of Soapstone Stream to your home!</desc7551>
+    
+    <item7552>Firefly Light-Up Basket</item7552>
+    
+    <desc7552>Always be ready to help the light-talents with this handy basket.</desc7552>
+    
+    <item7553>Firefly Doll</item7553>
+    
+    <desc7553>A light-talent favorite!</desc7553>
+    
+    <item7554 dyeable="1,0">Tinker's Hammer</item7554>
+    
+    <desc7554>So useful that any talent will be glad to have one!</desc7554>
+    
+    <item6543>Tinker's Workbench</item6543>
+    
+    <desc6543>A sturdy table complete with a clamp for building all sorts of gadgets.</desc6543>
+    
+    <item7555>Tinkering Glass</item7555>
+    
+    <desc7555>Polished quartz makes this magnifying glass the perfect tool for delicate tinkering work.</desc7555>
+    
+    <item7556>Blueprint Scrolls</item7556>
+    
+    <desc7556>Special blueprint paper for recording new tinkering designs.</desc7556>
+    
+    <item7557>Harvest Cornucopia</item7557>
+    
+    <desc7557>A simple cornucopia to store nuts and berries.</desc7557>
+    
+    <item7558>Fancy Cornucopia</item7558>
+    
+    <desc7558>A beautifully crafted cornucopia for celebrating autumn's harvest.</desc7558>
+    
+    <item7559>Berry Wreath</item7559>
+    
+    <desc7559>Brighten up your home with this delicious-looking wreath!</desc7559>
+    
+    <item7560>Harvest Garland</item7560>
+    
+    <desc7560>Surround yourself with the feeling of a full harvest with these beautiful garlands.</desc7560>
+    
+    <item7561>Snow Blanket</item7561>
+    
+    <desc7561>This blanket is as soft and clean as a field of freshly fallen snow -- but not a bit cold!</desc7561>
+    
+    <item7562>Wind Chime</item7562>
+    
+    <desc7562>You'll always know when a breeze is blowing with this unique wind chime.</desc7562>
+    
+    <item7566>Fairy Tales Collection</item7566>
+    
+    <desc7566>No home is complete without these wonderful stories!</desc7566>
+    
+    <item6546>Dear Diary Desk</item6546>
+    
+    <desc6546>The perfect pixie place for penning a letter or drawing a picture!</desc6546>
+    
+    <item7563>Hot Cocoa Mug</item7563>
+    
+    <desc7563>What better way to warm up than with a big mug of hot cocoa?</desc7563>
+    
+    <item7564>Hot Cocoa Kettle</item7564>
+    
+    <desc7564>Hot cocoa warms everyone up on an icy day!</desc7564>
+    
+    <item7567>Cookie Jar</item7567>
+    
+    <desc7567>The perfect place to keep yummy goodies -- especially cookies!</desc7567>
+    
+    <item6545>Big Comfy Chair</item6545>
+    
+    <desc6545>Made of super-soft leaves, it's perfect for a snugly nap!</desc6545>
+    
+    <item6544>Cozy Fireplace</item6544>
+    
+    <desc6544>A cracklin' warm addition to a chilly home!</desc6544>
+    
+    <item7019>Sweet Tea Light</item7019>
+    
+    <desc7019>This soft light adds a touch of grace to any home. Plus it smells like cinnamon!</desc7019>
+    
+    <item7572>Chipmunk Doll</item7572>
+    
+    <desc7572>A fuzzy pal who would be happy to share your home!</desc7572>
+    
+    <item6550>Tea Time Serving Cart</item6550>
+    
+    <desc6550>An essential item for only the most elegant tea parties.</desc6550>
+    
+    <item7020>Hanging Flower Light</item7020>
+    
+    <desc7020>Brings a beautiful garden glow to any home!</desc7020>
+    
+    <item7571>Bear Doll</item7571>
+    
+    <desc7571>A furry companion who loves to share a cozy nap!</desc7571>
+    
+    <item7577>Shimmering Bell</item7577>
+    
+    <desc7577>When the light hits this bell, look out - you'll get dance fever!</desc7577>
+    
+    <item6549>Dance Pad</item6549>
+    
+    <desc6549>Specially padded to keep your feet dancing all night!</desc6549>
+    
+    <item6547>Elegant Vanity</item6547>
+    
+    <desc6547>A perfect place for checking a hair-do or striking a pose!</desc6547>
+    
+    <item6548>Tea Table</item6548>
+    
+    <desc6548>Just set out the plates, bring out the snacks and have a party!</desc6548>
+    
+    <item7569>Egg Collector Basket</item7569>
+    
+    <desc7569>The preferred basket for egg collecting!</desc7569>
+    
+    <item6551>Bean Bag Chair</item6551>
+    
+    <desc6551>Why not take a rest and relax on this big, extra-poofy chair!</desc6551>
+    
+    <item7573>Popcorn Bowl</item7573>
+    
+    <desc7573>Got the munchies?  Then this bowl is perfect for you!</desc7573>
+    
+    <item7575>Butterfly Teacup</item7575>
+    
+    <desc7575>The intricate design like butterfly wings makes these teacups a favorite of the Minister of Summer.</desc7575>
+    
+    <item7576>Butterfly Teapot</item7576>
+    
+    <desc7576>Meadow Grass tea tastes just a little sweeter when served in a Butterfly Teapot.</desc7576>
+    
+    <item7568>Spotted Egg</item7568>
+    
+    <desc7568>Collect a whole set and see if your friends can "spot" them in your home!</desc7568>
+    
+    <item7578>Striped Egg</item7578>
+    
+    <desc7578>Collect a whole set and have an egg hunt right in your own home!</desc7578>
+    
+    <item7579>Swirled Egg</item7579>
+    
+    <desc7579>Collect a whole set and invite your friends for your own egg hunt!</desc7579>
+    
+    <item7021>Tiki Light</item7021>
+    
+    <desc7021>Throw a freaky tiki party with a freaky Tiki Light!</desc7021>
+    
+    <item6552>Neverwood Chair</item6552>
+    
+    <desc6552>You'll be sitting pretty in this relaxing chair made from beautiful Neverwood!</desc6552>
+    
+    <item7580>Honey Jar</item7580>
+    
+    <desc7580>Make your Home Sweet Home even SWEETER!</desc7580>
+    
+    <item7581>Tinker Pot</item7581>
+    
+    <desc7581>A handy Tinker's pot. Tink has one in each color!</desc7581>
+    
+    <item7582>Juice Pitcher</item7582>
+    
+    <desc7582>Just what you need to stir up a yum-licious batch of Neverberry punch!</desc7582>
+    
+    <item7583>Juice Glass</item7583>
+    
+    <desc7583>Thirsty? Sip some Neverberry punch from one of these darling glasses!</desc7583>
+    
+    <item6554>Leaf Boat</item6554>
+    
+    <desc6554>Get ready for some puddle paddling fun on Soapstone Stream!</desc6554>
+    
+    <item7585>Fairy Light Catcher</item7585>
+    
+    <desc7585>Sparkle up your home with this light catcher designed by Iridessa!</desc7585>
+    
+    <item6553>Neverwood Trellis</item6553>
+    
+    <desc6553>Give your plants a lift with this favorite garden decoration!</desc6553>
+    
+    <item7587>Dangling Blossoms Basket</item7587>
+    
+    <desc7587>The lovely blossoms will fill your home with the scents of summer all year long!</desc7587>
+    
+    <item7588>Fancy Topiary</item7588>
+    
+    <desc7588>Plants can learn tricks too -- these bushes know how to grow in poofs!</desc7588>
+    
+    <item6559>Harvest Table</item6559>
+    
+    <desc6559>Dinner parties are lovely at this Harvest Table.</desc6559>
+    
+    <item7565>Leafy Cake Stand</item7565>
+    
+    <desc7565>Delicious cakes deserve lovely stands!</desc7565>
+    
+    <item7570>Poppy Puff Picnic Basket</item7570>
+    
+    <desc7570>Poppy puff rolls are a perfect picnic treat!</desc7570>
+    
+    <item7574>Walnut Casserole Dish</item7574>
+    
+    <desc7574>Warm food is best when served in this Walnut Casserole Dish.</desc7574>
+    
+    <item7584>Sauce Serving Dish</item7584>
+    
+    <desc7584>Baking-talents love to simmer sauce in this slim leaf dish.</desc7584>
+    
+    <item7586>Tink's Balloon Toy</item7586>
+    
+    <desc7586>Dream of adventures far and away when this toy balloon like Tink's hangs in your home.</desc7586>
+    
+    <item7589>Drama Poster</item7589>
+    
+    <desc7589>A must-have for theater fans.</desc7589>
+    
+    <item6556>Double Drums</item6556>
+    
+    <desc6556>Musicians can drum up music at home with this great set of almond and hazelnut drums.</desc6556>
+    
+    <item6557>Petal Wrap Microphone</item6557>
+    
+    <desc6557>Songbirds can perform at home with a thick petal wrap microphone.</desc6557>
+    
+    <item6555>Vintage Harp</item6555>
+    
+    <desc6555>One of the oldest Fairy instruments, this harp is perfect for making delicate music.</desc6555>
+    
+    <item6558>Conductor Stand</item6558>
+    
+    <desc6558>Orchestrate at home with this elegant leaf Conductor Stand.</desc6558>
+    
+    <item6560>Itty Bitty Bells</item6560>
+    
+    <desc6560>This beautiful branch of little bells is a lovely percussion instrument.</desc6560>
+    
+    <item7590>Painter's Vase</item7590>
+    
+    <desc7590>Bess designed this daisy vase for artists to keep brushes in.</desc7590>
+    
+    <item7591>Cake, Cherry, Cherry, Treat</item7591>
+    
+    <desc7591>A still life of a Dulcie treat that Bess did many times during her fruit study.</desc7591>
+    
+    <item7592>Crouching Bunny</item7592>
+    
+    <desc7592>A portrait of an Animal Friend of Fawn's painted often by Bess.</desc7592>
+    
+    <item7593>Painterly Buckets</item7593>
+    
+    <desc7593>Every artist needs tools, and these buckets are perfect for mixing paint.</desc7593>
+    
+    <item7594 dyeable="1,0">Carved Bunny</item7594>
+    
+    <desc7594>Often thought of as good luck when placed near a door, crouching carved bunnies are cute too!</desc7594>
+    
+    <item7595>Tall Mouse Tale Sculpture</item7595>
+    
+    <desc7595>This wood sculpture was inspired by a story-telling mouse friend of Beck's.</desc7595>
+    
+    <item7596>Drum Ornament</item7596>
+    
+    <desc7596>Inspired by a song heard on the mainland, this ornament deserves a drum roll!</desc7596>
+    
+    <item7597>Fairy Ornament</item7597>
+    
+    <desc7597>Inspired by a song heard on the mainland, this ornament is a teeny dancer!</desc7597>
+    
+    <item7598>Feather Ornament</item7598>
+    
+    <desc7598>Inspired by a song heard on the mainland, this ornament is as light as a hen feather!</desc7598>
+    
+    <item7599>Sun Ornament</item7599>
+    
+    <desc7599>Inspired by a song heard on the mainland, this ornament is bright as a ring!</desc7599>
+    
+    <item7600>Flute Ornament</item7600>
+    
+    <desc7600>Inspired by a song heard on the mainland, this ornament can also be played!</desc7600>
+    
+    <item7601>Frog Ornament</item7601>
+    
+    <desc7601>Inspired by a song heard on the mainland, this ornament looks real enough to leap!</desc7601>
+    
+    <item7602>Hook Ornament</item7602>
+    
+    <desc7602>This cute ribbon looks marvelous in many colors on a decorating tree.</desc7602>
+    
+    <item7603>Hummingbird Ornament</item7603>
+    
+    <desc7603>Inspired by a song heard on the mainland, this ornament is as sweet as a bird call!</desc7603>
+    
+    <item7604>Mouse Ornament</item7604>
+    
+    <desc7604>Inspired by a song heard on the mainland, this ornament is cute as a milk mouse!</desc7604>
+    
+    <item7605>Nest Ornament</item7605>
+    
+    <desc7605>Inspired by a song heard on the mainland, this ornament is great as geese!</desc7605>
+    
+    <item7606>Swan Ornament</item7606>
+    
+    <desc7606>Inspired by a song heard on the mainland, this ornament is elegant!</desc7606>
+    
+    <item7607>Turtle Dove Ornament</item7607>
+    
+    <desc7607>Inspired by a song heard on the mainland, this ornament is lovey-dovey!</desc7607>
+    
+    <item7608>Partridge Treetopper</item7608>
+    
+    <desc7608>Inspired by a song heard on the mainland, this ornament is not just for pear trees!</desc7608>
+    
+    <item7609 fairyDollarCost="30">Small Decorating Tree</item7609>
+    
+    <desc7609>Inspired by a mainland custom, this tree is for hanging ornaments!</desc7609>
+    
+    <item7610 fairyDollarCost="30">Tall Decorating Tree</item7610>
+    
+    <desc7610>Inspired by a mainland custom, this tree is for hanging ornaments!</desc7610>
+    
+    <item7611>Prickly Pear Plant</item7611>
+    
+    <desc7611>This bristly plant is home to Vidia's favorite flower -- the Prickly Pear Blossom!</desc7611>
+    
+    <item6561>Music Stand</item6561>
+    
+    <desc6561>Orchestrate at home with this elegant leaf music stand stamped with a paw!</desc6561>
+    
+    <item6562>Clover Swing</item6562>
+    
+    <desc6562>This cute clover leaf swing is perfect for playful pixies!</desc6562>
+    
+    <item6563>Clover Curtain</item6563>
+    
+    <desc6563>Drape this long, lovely clover curtain in any room for good luck!</desc6563>
+    
+    <item6564>Small Clover Cluster Rug</item6564>
+    
+    <desc6564>This small cluster of clovers is perfect for dressing up the floor!</desc6564>
+    
+    <item6565>Comfy Clover Chair</item6565>
+    
+    <desc6565>This comfy clover chair is perfect for cozying up with a good book!</desc6565>
+    
+    <item6566>Large Clover Cluster Rug</item6566>
+    
+    <desc6566>This large cluster of clovers is a cozy addition to any home!</desc6566>
+    
+    <item6567>Glittery Gem Table</item6567>
+    
+    <desc6567>This glittery gem table is inspired by Iridessa's furniture.</desc6567>
+    
+    <item6568>Glittery Gem Stool</item6568>
+    
+    <desc6568>Iridessa keeps these glittery stools around for extra seating at parties.</desc6568>
+    
+    <item6569>Glittery Chandelier</item6569>
+    
+    <desc6569>This gorgeous chandelier has reflective gems that light any room!</desc6569>
+    
+    <item6570>Glittery Jars</item6570>
+    
+    <desc6570>Every room needs more glitter, so decorate with these jars!</desc6570>
+    
+    <item6571>Glittery Gem Chair</item6571>
+    
+    <desc6571>This glittery gem chair is inspired by a set Iridessa has.</desc6571>
+    
+    <item6572>Thimble-made Table</item6572>
+    
+    <desc6572>This kitschy table on thimble legs was made by Tinker Bell herself!</desc6572>
+    
+    <item6573 fairyDollarCost="40">Playing Card Lounger</item6573>
+    
+    <desc6573>Relax on this chair after a long day of searching for Lost Things!</desc6573>
+    
+    <item6574>Thimble-made Chair</item6574>
+    
+    <desc6574>This fuzzy chair on a thimble was made by Tinker Bell herself!</desc6574>
+    
+    <item6575>Lost Wind-Up Box Base</item6575>
+    
+    <desc6575>A wind-up box found by Tink that is perfect for playing ballerina!</desc6575>
+    
+    <item6576>Lost and Found Mirror</item6576>
+    
+    <desc6576>Using Lost Things, Tink found a way to make a decorative mirror!</desc6576>
+    
+    <item6577>Lost and Found Sofa</item6577>
+    
+    <desc6577>Using Lost Things, Tink found a way to make a super simple sofa!</desc6577>
+    
+    <item7612>Sunny Side Up Egg</item7612>
+    
+    <desc7612>This sweet little decorative egg has the beautiful sun!</desc7612>
+    
+    <item7613>Nighty Night Egg</item7613>
+    
+    <desc7613>This sweet little decorative egg has the beautiful night!</desc7613>
+    
+    <item7614>Flower Power Egg</item7614>
+    
+    <desc7614>This sweet little decorative egg has sweet flowers!</desc7614>
+    
+    <item7615>Butterfly Egg</item7615>
+    
+    <desc7615>This sweet little decorative egg has cute butterflies!</desc7615>
+    
+    <item6578>Precious Treasure</item6578>
+    
+    <desc6578>This pile of precious gold and jewels is fun for playing pirate!</desc6578>
+    
+    <item6579>Play Pirate Ship</item6579>
+    
+    <desc6579>Ahoy! This little prop ship is fun for pirate plays!</desc6579>
+    
+    <item6580>Precious Compass</item6580>
+    
+    <desc6580>This lovely mainland crafted compass is true pirate décor!</desc6580>
+    
+    <item6581>Leaf Top Tea Table</item6581>
+    
+    <desc6581>This table with a leafy cloth top is perfect for tea!</desc6581>
+    
+    <item6582>Leaf Top Tea Side Table</item6582>
+    
+    <desc6582>This tiny table with a leafy cloth top is perfect for tea!</desc6582>
+    
+    <item6583 dyeable="1,0">High Backed Tea Chair</item6583>
+    
+    <desc6583>This high backed tea chair is gorgeous in any color!</desc6583>
+    
+    <item6584>Hardwood Hutch</item6584>
+    
+    <desc6584>This sturdy hardwood hutch is perfect for your best tea cups!</desc6584>
+    
+    <item6585>Landscape Stained Glass</item6585>
+    
+    <desc6585>Hug a tree, then hang one in your room with this stained glass beauty!</desc6585>
+    
+    <item6586>Single Rose Stained Glass</item6586>
+    
+    <desc6586>Don't worry, this pretty stained glass rose hanging has no thorns!</desc6586>
+    
+    <item6587>Firefly Stained Glass</item6587>
+    
+    <desc6587>This pretty stained glass firefly hanging is beautiful!</desc6587>
+    
+    <item7616>Fallen Feather Quill</item7616>
+    
+    <desc7616>When feathers fall from birds, Fairies love to make useful quills!</desc7616>
+    
+    <item6588>Piping Hot Fireplace</item6588>
+    
+    <desc6588>This little found pipe makes the most warm and cozy fires!</desc6588>
+    
+    <item6589>Stack 'Em High Shelves</item6589>
+    
+    <desc6589>These shelves hold more books than you can imagine!</desc6589>
+    
+    <item7617>Potted Palm Tree</item7617>
+    
+    <desc7617>This massive palm tree is huge, but brings a bit of the cove into your home!</desc7617>
+    
+    <item7618>Blooming Bonsai</item7618>
+    
+    <desc7618>This blooming bonsai tree is huge, but looks great in any color!</desc7618>
+    
+    <item7619>Pepper 'N Rose</item7619>
+    
+    <desc7619>This pepper shaker is simple elegance with a Rose!</desc7619>
+    
+    <item7620>Box of Buds</item7620>
+    
+    <desc7620>This box of rosebuds is beautiful!</desc7620>
+    
+    <item7621>Salt 'N Daisies</item7621>
+    
+    <desc7621>This salt shaker is sweet with a bunch of Daisies!</desc7621>
+    
+    <item7622>Bubble'n'Boil Kettle</item7622>
+    
+    <desc7622>When it's teatime, this kettle will make any blend delicious!</desc7622>
+    
+    <item6590>Cool and Comfy Bed</item6590>
+    
+    <desc6590>The perfect bed for summer days. Keeps Animal Friends comfortable even on the hottest days.</desc6590>
+    
+    <item6591>Bottlecap Bed</item6591>
+    
+    <desc6591>Real bottlecaps floated in from the mainland, and they're the perfect size for critter beds!</desc6591>
+    
+    <item6592>Walnut Safety Bed</item6592>
+    
+    <desc6592>When Animal Friends sleep, sometimes they fall out of bed! This bed will keep them safe.</desc6592>
+    
+    <item6593>Lazy Daisy Bed</item6593>
+    
+    <desc6593>Just the thing for fussy little fireflies at nap time. Soft daisy petals lull them right to sleep!</desc6593>
+    
+    <item6594>Twig Nest</item6594>
+    
+    <desc6594>Most young hummingbirds like this bed the best. I wonder why?</desc6594>
+    
+    <item6595>Wide Wicker Bed</item6595>
+    
+    <desc6595>Just the bed for older Animal Friends who want to stretch out their legs after a long playtime!</desc6595>
+    
+    <item6596>Lotus Flower Bed</item6596>
+    
+    <desc6596>A favorite with baby dragonflies, who like to be reminded of living near water.</desc6596>
+    
+    <item6597>Cottonfluff Napping Bed</item6597>
+    
+    <desc6597>Super soft, super secure. Perfect for very young Animal Friends who need their naps!</desc6597>
+    
+    <item7623>Studded Seahorse Comb</item7623>
+    
+    <desc7623>This seahorse fossil is said to come all the way from Starfish Gap in Mermaid Lagoon!</desc7623>
+    
+    <item7624>Blaze Plush</item7624>
+    
+    <desc7624>This little Blaze toy is sparkly, snuggly and sweet!</desc7624>
+    
+    <item6598>Rockin' Firepit</item6598>
+    
+    <desc6598>This firepit is designed for safe indoor fires. It's the right size to heat Mallow and Kernel roasters.</desc6598>
+    
+    <item7625 dyeable="1,0">Camp Cup</item7625>
+    
+    <desc7625>Camp isn't camp without a handy tinkered tin Camp Cup like this one.</desc7625>
+    
+    <item6604>Camp Tent</item6604>
+    
+    <desc6604>This tent is a must have for Fairies helping out during Camp Pixie Dust.</desc6604>
+    
+    <item6605>Mallow Roaster</item6605>
+    
+    <desc6605>This simple stand is perfect for roasting treats. This one comes with a marshmallow.</desc6605>
+    
+    <item6606 fairyDollarCost="40">Kernel Roaster</item6606>
+    
+    <desc6606>This simple stand is perfect for roasting treats. This one comes with a yellow corn kernel.</desc6606>
+    
+    <item6608>Everything Table</item6608>
+    
+    <desc6608>This simple table is handy and can be used as anything from a tea caddy to a work bench.</desc6608>
+    
+    <item7626>Super Sundae</item7626>
+    
+    <desc7626>This Sundae is so yummy, and perfect for hot days at camp!</desc7626>
+    
+    <item7627>Turtle Plush</item7627>
+    
+    <desc7627>This little stuffed toy in the shape of a turtle has the softest shell!</desc7627>
+    
+    <item7628>Rabbit Plush</item7628>
+    
+    <desc7628>This little stuffed toy in the shape of a rabbit is one fluffy bunny!</desc7628>
+    
+    <item7629>Otter Plush</item7629>
+    
+    <desc7629>This little stuffed toy in the shape of an otter is so huggable!</desc7629>
+    
+    <item7630>Glowworm Plush</item7630>
+    
+    <desc7630>This little stuffed toy in the shape of a glowworm is bright and snuggly!</desc7630>
+    
+    <item7631>Butterfly Plush</item7631>
+    
+    <desc7631>This little stuffed toy in the shape of a butterfly is flitterific!</desc7631>
+    
+    <item6612>Fun Fungi Staircase</item6612>
+    
+    <desc6612>Bounce upstairs and downstairs at home with this Fun Fungi Staircase!</desc6612>
+    
+    <item6613>Moss Staircase</item6613>
+    
+    <desc6613>Make a grand entrance in your home with this elegant Moss Staircase.</desc6613>
+    
+    <item6614>Fallen Wood Stacked Floor</item6614>
+    
+    <desc6614>Fallen wood makes these gorgeous stacked floors.</desc6614>
+    
+    <item6607>Fallen Wood Flooring</item6607>
+    
+    <desc6607>Fallen wood makes up these gorgeous floor plaftorms.</desc6607>
+    
+    <item6615>Oyster Shell Flooring</item6615>
+    
+    <desc6615>Large oyster shells are an elegant way to create additional floors.</desc6615>
+    
+    <item6616>Mushroom Flooring</item6616>
+    
+    <desc6616>Large, flat mushrooms are a soft option for creating additional floors.</desc6616>
+    
+    <item6617>Tall Grass Flooring</item6617>
+    
+    <desc6617>Strong blades of grass can make handy flooring for dividing tall spaces.</desc6617>
+    
+    <item6618>Leaf Screen Wall</item6618>
+    
+    <desc6618>This gorgeous screen is both décor and a side wall for dividing spaces.</desc6618>
+    
+    <item6619>Leaf Screen Back</item6619>
+    
+    <desc6619>This gorgeous screen is both décor and a handy back wall.</desc6619>
+    
+    <item6620>Longer Ladder</item6620>
+    
+    <desc6620>This piece is handy by itself, or use more than one to create longer ladders.</desc6620>
+    
+    <item6621>Comb Climber</item6621>
+    
+    <desc6621>This comb makes a wonderful ladder for climbing between floors.</desc6621>
+    
+    <item6622>Bobby Ladder</item6622>
+    
+    <desc6622>This lost things ladder is constructed from Bobby Pins!</desc6622>
+    
+    <item6623>Sweet Bee Wall</item6623>
+    
+    <desc6623>This side wall of honeycomb is handy for creating room spaces at home.</desc6623>
+    
+    <item6624>Sweet Bee Cubby</item6624>
+    
+    <desc6624>This back wall of honeycomb is handy -- fill its cubbyholes with all your stuff!</desc6624>
+    
+    <item6625>Great Gears Dinette</item6625>
+    
+    <desc6625>Great gears -- it's a table! Pull up some Great Gears Chairs for a complete look.</desc6625>
+    
+    <item6626>Great Gears Shelves</item6626>
+    
+    <desc6626>This clunky cog shelf is great for displaying anything.</desc6626>
+    
+    <item6627>Great Gears Sofa</item6627>
+    
+    <desc6627>This clunky, but funky tinkered sofa is not just stylish - it's comfortable!</desc6627>
+    
+    <item6628>Great Gears Side Table</item6628>
+    
+    <desc6628>This cute and funky little tinkered table looks great with the Great Gears Sofa.</desc6628>
+    
+    <item6629>Great Gears Chair</item6629>
+    
+    <desc6629>An inventive chair that adds a tinker-made feel to any room.</desc6629>
+    
+    <item6630>Farmhouse Hutch</item6630>
+    
+    <desc6630>Spruce up any room with this lovely Farmhouse Hutch.</desc6630>
+    
+    <item6631 dyeable="1,0">Farmhouse Table</item6631>
+    
+    <desc6631>This lovely large dining table was inspired by one seen in a farmhouse on the mainland.</desc6631>
+    
+    <item6632>Farmhouse Side Chair</item6632>
+    
+    <desc6632>This sturdy chair was inspired by those seen in farmhouses on the mainland.</desc6632>
+    
+    <item6633>Hay There!</item6633>
+    
+    <desc6633>Hay there! This bale of hay makes a great stool or table.</desc6633>
+    
+    <item6634>Pumpkin Picnic Table</item6634>
+    
+    <desc6634>For a formal dinner or picnic, this Pumpkin Table is perfect for dining with friends!</desc6634>
+    
+    <item6635 dyeable="1,0">Cedar Chair</item6635>
+    
+    <desc6635>These wonderfully simple chairs are a great way to re-use fallen cedar!</desc6635>
+    
+    <item6636>Maple Drapes</item6636>
+    
+    <desc6636>Spice up your windows with these sweet as syrup Maple Drapes.</desc6636>
+    
+    <item6637>Teacher's Desk</item6637>
+    
+    <desc6637>This large desk is inspired by teacher's desks seen on the mainland.</desc6637>
+    
+    <item6638>Student's Desk</item6638>
+    
+    <desc6638>This cute little desk is inspired by those found in classrooms on the mainland.</desc6638>
+    
+    <item6639>Student's Chair</item6639>
+    
+    <desc6639>This chair is inspired by student's chairs seen on the mainland.</desc6639>
+    
+    <item6640>Classroom Chalkboard</item6640>
+    
+    <desc6640>This cute little chalkboard can be used for Fairy lessons at home!</desc6640>
+    
+    <item7632>Lizzy's Stamp</item7632>
+    
+    <desc7632>Decorate your own home as Lizzy did with this cute stamp wall décor.</desc7632>
+    
+    <item7633>Lizzy's Peppermint</item7633>
+    
+    <desc7633>Freshen the look and smell of your home with these peppermints from Lizzy!</desc7633>
+    
+    <item7634>Lizzy's Lace Curtains</item7634>
+    
+    <desc7634>These curtains are inspired by the lace doily Lizzy used in her Fairy home.</desc7634>
+    
+    <item7635>Lizzy's Pocketwatch</item7635>
+    
+    <desc7635>This pocketwatch is just like the one Lizzy put in her Fairy home.</desc7635>
+    
+    <item7636 dyeable="1,0">Lizzy's Button</item7636>
+    
+    <desc7636>These extra buttons from Lizzy make wonderful decorations for any home!</desc7636>
+    
+    <item7637 dyeable="0" fairyDollarCost="30">Lizzy's Artwork</item7637>
+    
+    <desc7637>Hang this beautiful picture drawn by Lizzy in your home.</desc7637>
+    
+    <item7638>Pad and Pencil</item7638>
+    
+    <desc7638>This little pad and pencil is a must have for the organized Fairy!</desc7638>
+    
+    <item7639>Dragonfly Pendant</item7639>
+    
+    <desc7639>This delicate Dragonfly Pendant light casts a warm, soft glow around any room.</desc7639>
+    
+    <item7640>Sour Plum Tree Plant</item7640>
+    
+    <desc7640>This little planter with a sour plum tree is inspired by Vidia's home.</desc7640>
+    
+    <item7641>Vidia Spinner</item7641>
+    
+    <desc7641>This little mobile is just like those near Vidia's Sour Plum Tree!</desc7641>
+    
+    <item6609 dyeable="1,0">Teacher's Chair</item6609>
+    
+    <desc6609>This cute little chair is inspired by those found in classrooms on the mainland.</desc6609>
+    
+    <item6610>Found Flashlight</item6610>
+    
+    <desc6610>This giant mainland tinkered beauty is big, but bright!</desc6610>
+    
+    <item7642>Tray of Cookies</item7642>
+    
+    <desc7642>Are your guests hungry? Put this tray of fresh baked cookies out!</desc7642>
+    
+    <item7643 dyeable="1,0">Big Mixing Bowl</item7643>
+    
+    <desc7643>Every cook needs a Big Mixing Bowl for baking!</desc7643>
+    
+    <item6641>Dandelion Bed</item6641>
+    
+    <desc6641>This cozy dandelion bed makes your Animal Friend feel right at home!</desc6641>
+    
+    <item6642>Bee Bed</item6642>
+    
+    <desc6642>This cozy honeycomb bed makes your Animal Friend feel right at home!</desc6642>
+    
+    <item6643>Fallen Wood Stacked Loft</item6643>
+    
+    <desc6643>Fallen wood makes these gorgeous stacked lofts.</desc6643>
+    
+    <item6644>Hot Hot Stove</item6644>
+    
+    <desc6644>This stove is hot, better place it far from your ice furniture.</desc6644>
+    
+    <item7644 fairyDollarCost="30">Icy Chandelier</item7644>
+    
+    <desc7644>Brrrr! This chandelier is not just beautiful, it's as cool as ice!</desc7644>
+    
+    <item7645>Lovely Snowflake Ornament</item7645>
+    
+    <desc7645>Decorate for the winter season with a few of these Lovely Snowflake Ornaments.</desc7645>
+    
+    <item7646>Ribbon Streamers</item7646>
+    
+    <desc7646>Decorate for a party or even just for fun with a few simple streamers.</desc7646>
+    
+    <item7647>Tulip Balloons</item7647>
+    
+    <desc7647>A big bunch of small tulips make a great bouquet of balloons.</desc7647>
+    
+    <item7648>Ribbon and Twig Present</item7648>
+    
+    <desc7648>This ribbon and twig-wrapped present makes any house feel festive.</desc7648>
+    
+    <item7649>Tulip Balloons</item7649>
+    
+    <desc7649>A big bunch of small tulips make a great bouquet of balloons.</desc7649>
+    
+    <item7650>Snowman Snowglobe</item7650>
+    
+    <desc7650>This cute little snowman in a snowglobe is a great winter decoration.</desc7650>
+    
+    <item7651>Ribbon-Wrapped Present</item7651>
+    
+    <desc7651>This ribbon-wrapped present makes any house feel festive.</desc7651>
+    
+    <item7652>Leaf-Wrapped Present</item7652>
+    
+    <desc7652>This leaf-wrapped present makes any house feel festive.</desc7652>
+    
+    <item7653>Metal Soup Pot and Ladle</item7653>
+    
+    <desc7653>This sturdy tinkered soup pot and ladle set will last forever!</desc7653>
+    
+    <item7654>Dainty Snowflake Ornament</item7654>
+    
+    <desc7654>Decorate for the winter season with a few of these Dainty Snowflake Ornaments.</desc7654>
+    
+    <item6645 dyeable="1,0">Chilly Shelves</item6645>
+    
+    <desc6645>Keep your home items in cold storage with this Chilly Shelf!</desc6645>
+    
+    <item7655>Snow Fox Snow Sculpture</item7655>
+    
+    <desc7655>This snow sculpture of a beautiful snow fox is a gorgeous addition to any home.</desc7655>
+    
+    <item7656>Deer Ice Sculpture</item7656>
+    
+    <desc7656>This ice sculpture of a graceful deer is an elegant addition to any home.</desc7656>
+    
+    <item7657 dyeable="1,0">Bear Ice Sculpture</item7657>
+    
+    <desc7657>This ice sculpture of a winter bear is a bold addition to any home.</desc7657>
+    
+    <item6646 dyeable="1,0">Chilly Table</item6646>
+    
+    <desc6646>There is nothing cooler than a Chilly Table!</desc6646>
+    
+    <item6647 dyeable="1,0">Chilly Couch</item6647>
+    
+    <desc6647>Chill out on this comfy frozen couch.</desc6647>
+    
+    <item6648 dyeable="1,0">Chilly Chair</item6648>
+    
+    <desc6648>Have a seat on this ice cold Chilly Chair.</desc6648>
+    
+    <item7658>Bunny Snow Sculpture</item7658>
+    
+    <desc7658>This snow sculpture of a cute bunny is an adorable addition to any home.</desc7658>
+    
+    <item7659>Ladybug Sculpture</item7659>
+    
+    <desc7659>This gourd sculpture of a ladybug is a lovely home decoration.</desc7659>
+    
+    <item7660>Hummingbird Sculpture</item7660>
+    
+    <desc7660>This gourd sculpture of a hummingbird is a lovely home decoration.</desc7660>
+    
+    <item7661>Firefly Sculpture</item7661>
+    
+    <desc7661>This gourd sculpture of a firefly is a lovely home decoration.</desc7661>
+    
+    <item7662>Dragonfly Sculpture</item7662>
+    
+    <desc7662>This gourd sculpture of a dragonfly is a lovely home decoration.</desc7662>
+    
+    <item7663>Bee Sculpture</item7663>
+    
+    <desc7663>This gourd sculpture of a bee is a lovely home decoration.</desc7663>
+    
+    <item7664>Winter Wonderland Lanterns</item7664>
+    
+    <desc7664>This lovely string of seasonal lanterns looks great in any home.</desc7664>
+    
+    <item6611>Grand Metal Staircase</item6611>
+    
+    <desc6611>Your guests will all make a grand entrance on this fabulous staircase of tinkered metal.</desc6611>
+    
+    <item6649>Spiral Shell Stairs</item6649>
+    
+    <desc6649>Lovely lagoon shell stairs connect floors while bringing a bit of the beach to your home!</desc6649>
+    
+    <item7665 dyeable="1,0">River Rock</item7665>
+    
+    <desc7665>A plain old River Rock from Havendish Stream.</desc7665>
+    
+    <item6650>Conch Shell Couch</item6650>
+    
+    <desc6650>Not the softest, but it's sturdy and sitting on it you can hear the ocean!</desc6650>
+    
+    <item6651>Sit Sweetly Chair</item6651>
+    
+    <desc6651>There is nothing sweeter than sitting on this candy chair!</desc6651>
+    
+    <item6652>Sit Sweetly Sofa</item6652>
+    
+    <desc6652>There is nothing sweeter than sitting on this candy sofa!</desc6652>
+    
+    <item6653>Sit Sweetly Table</item6653>
+    
+    <desc6653>There is nothing sweeter than sitting at this candy table!</desc6653>
+    
+    <item7667>Floating Dragonfly</item7667>
+    
+    <desc7667>Honor the dragonfly with this unique hanging sculpture.</desc7667>
+    
+    <item7668>Feather Curtains</item7668>
+    
+    <desc7668>Add some fast-flying flair to the windows and doors in your Fairy home!</desc7668>
+    
+    <item6654>Feather Rug</item6654>
+    
+    <desc6654>Cozy up your home with lots of soft feather rugs.</desc6654>
+    
+    <item6655>Orchid Swing</item6655>
+    
+    <desc6655>An elegant place to sit down and relax!</desc6655>
+    
+    <item7669>Cupcake Tower</item7669>
+    
+    <desc7669>This towering display of delicious cupcakes looks good enough to eat!</desc7669>
+    
+    <item7670>Deluxe Egg Basket</item7670>
+    
+    <desc7670>Put all of your Never Dove eggs in this big basket!</desc7670>
+    
+    <item6656>Rose Recliner</item6656>
+    
+    <desc6656>Rest easy in this soft and sweet smelling Rose Recliner.</desc6656>
+    
+    <item7671>Rosebud Chandelier</item7671>
+    
+    <desc7671>Beautify any room with this elegant Rosebud Chandelier.</desc7671>
+    
+    <item7672>Driftwood and Shell Curtains</item7672>
+    
+    <desc7672>Dangle these Driftwood and Shell Curtains anywhere for that seaside look.</desc7672>
+    
+    <item7673>Driftwood Door Curtains</item7673>
+    
+    <desc7673>Dangle these Driftwood Door Curtains over any door for that seaside look.</desc7673>
+    
+    <item7674>Animal Friend Mobile</item7674>
+    
+    <desc7674>Hang out with Animal Friends at home when you hang this cute mobile.</desc7674>
+    
+    <item7675>Seashell Mirror</item7675>
+    
+    <desc7675>This standing Seashell Mirror brings a touch of the sea to your home.</desc7675>
+    
+    <item7676 dyeable="1,0">Beautiful Bird</item7676>
+    
+    <desc7676>Nothing says elegance like a gorgeous bejeweled bird.</desc7676>
+    
+    <item6657>Leafy Ladder</item6657>
+    
+    <desc6657>This leafy stem provides the perfect ladder between floors.</desc6657>
+    
+    <item6658>Leafy Platform</item6658>
+    
+    <desc6658>This vine and leaf flooring gives a natural lift to your loft space.</desc6658>
+    
+    <item7677 dyeable="1,0">Never Dove Portrait</item7677>
+    
+    <desc7677>A portrait painted by Bess to honor the graceful Never Dove.</desc7677>
+    
+    <item6659>Trellis Room Divider</item6659>
+    
+    <desc6659>Create different spaces at home with these see-through Trellis Dividers.</desc6659>
+    
+    <item6660 fairyDollarCost="40">Trellis Side Divider</item6660>
+    
+    <desc6660>Create different spaces at home with these see-through Trellis Dividers.</desc6660>
+    
+    <item7678>Mini Everblossom</item7678>
+    
+    <desc7678>Celebrate spring year-round with this small Everblossom replica.</desc7678>
+    
+    <item7679>Raincloud Chandelier</item7679>
+    
+    <desc7679>Nothing brightens a rainy day better than this Raincloud Chandelier!</desc7679>
+    
+    <item6661>Rainbow Sofa</item6661>
+    
+    <desc6661>Nothing brightens your room more than a Rainbow Sofa.</desc6661>
+    
+    <item7680 dyeable="1,0">Rainbow Stained Glass</item7680>
+    
+    <desc7680>Like lots of color? Hang a Rainbow Stain Glass window at home.</desc7680>
+    
+    <item7681>Rose Window Drapery</item7681>
+    
+    <desc7681>These fragrant and formal curtains are a lovely addition to any home.</desc7681>
+    
+    <item7682>Critter Print Pot</item7682>
+    
+    <desc7682>This pot with a critter print makes a great paintbrush holder.</desc7682>
+    
+    <item7683>Froggy Toy</item7683>
+    
+    <desc7683>This little tinkered toy frog doesn't hop, but he still looks cute.</desc7683>
+    
+    <item7684>Sweet Bee Pots</item7684>
+    
+    <desc7684>These cute little Sweet Bee Pots are great for storing honey -- or anything really.</desc7684>
+    
+    <item7685>Hummingbird Toy</item7685>
+    
+    <desc7685>This little tinkered toy bird doesn't fly, but she's cute as can be!</desc7685>
+    
+    <item7686>Ladybug Pillow</item7686>
+    
+    <desc7686>Ladybugs love to cuddle up and sleep on soft pillows just like this one.</desc7686>
+    
+    <item7687>Mousey Toy</item7687>
+    
+    <desc7687>This little tinkered toy mouse doesn't move, but he's cute as can be!</desc7687>
+    
+    <item7022>Ladybug Lamp</item7022>
+    
+    <desc7022>Ladybugs love lamps. Imagine that?</desc7022>
+    
+    <item7688 dyeable="1,0">Woven Basket of Treats</item7688>
+    
+    <desc7688>Animal Friends love to come home and find baskets of treats!</desc7688>
+    
+    <item7689>Mother Chipmunk</item7689>
+    
+    <desc7689>Honor animal mothers when you hang this mother and baby chipmunk portrait.</desc7689>
+    
+    <item6662>Giant Gem Platform</item6662>
+    
+    <desc6662>This giant gem makes a glamorous statement in any home.</desc6662>
+    
+    <item6663>Light Bright Canopy</item6663>
+    
+    <desc6663>This gorgeous bejeweled canopy brightens any home.</desc6663>
+    
+    <item6664>Seaside Canopy</item6664>
+    
+    <desc6664>A shell and pearl canopy brings a touch of the beach to any home.</desc6664>
+    
+    <item7690>Pour Mermaid Fountain</item7690>
+    
+    <desc7690>This gorgeous stone statue of a mermaid pouring water is pure beauty.</desc7690>
+    
+    <item7691>Large Lion Topiary</item7691>
+    
+    <desc7691>This large topiary in the shape of a lion is a bold addition to any home.</desc7691>
+    
+    <item7692>Zebra Topiary</item7692>
+    
+    <desc7692>This Zebra Topiary is an elegant addition to any home.</desc7692>
+    
+    <item7693>Great Giraffe Topiary</item7693>
+    
+    <desc7693>This great big topiary in the shape of a giraffe is a playful addition to any home.</desc7693>
+    
+    <item7694>Leafy curtains</item7694>
+    
+    <desc7694>This sweet little wooden window and leafy curtains brightens any room.</desc7694>
+    
+    <item7695>Never Mine Cart</item7695>
+    
+    <desc7695>This handy cart of jewels is just like those used in the Never Mines.</desc7695>
+    
+    <item7696>Mother Owl</item7696>
+    
+    <desc7696>Honor animal mothers when you hang this mother and baby owl portrait.</desc7696>
+    
+    <item7697>Mother Bunny</item7697>
+    
+    <desc7697>Honor animal mothers when you hang this mother and baby bunny portrait.</desc7697>
+    
+    <item7698>Playful Blocks</item7698>
+    
+    <desc7698>These little blocks are a playful Animal Friend toy.</desc7698>
+    
+    <item7699>Leaf Pram</item7699>
+    
+    <desc7699>This pram, or stroller, is a great baby Animal Friend toy.</desc7699>
+    
+    <item7700>Sunset Chest</item7700>
+    
+    <desc7700>A hand-painted sunset adorns this elegant chest for animal toys.</desc7700>
+    
+    <item7701>Choo Choo Sleeper</item7701>
+    
+    <desc7701>This adorable hand-crafted train is actually an animal bed!</desc7701>
+    
+    <item6665>Dazzling Steps</item6665>
+    
+    <desc6665>Your house will look dazzling when you install these gem steps.</desc6665>
+    
+    <item6666>Lost Teacup Pool</item6666>
+    
+    <desc6666>This mainland teacup makes a perfect indoor pond or tidepool.</desc6666>
+    
+    <item6667>Lost Teacup Saucer</item6667>
+    
+    <desc6667>This tea cup saucer from the mainland makes a bold statement!</desc6667>
+    
+    <item6668>Tea Biscuit Steps</item6668>
+    
+    <desc6668>These carefully stacked tea biscuits are a clever set of steps!</desc6668>
+    
+    <item6669>Petal Perfect Platform</item6669>
+    
+    <desc6669>This perfectly cute little flower and leaf make a perfect platform.</desc6669>
+    
+    <item7702>Shell Net Room Divider</item7702>
+    
+    <desc7702>Bring the beauty of the sea into your home!</desc7702>
+    
+    <item7703 fairyDollarCost="30">Garden-Talent Pennant</item7703>
+    
+    <desc7703>Let your beauty blossom for all to see!</desc7703>
+    
+    <item7704>Animal-Talent Pennant</item7704>
+    
+    <desc7704>Critter power, RAWR RAWR RAWR!</desc7704>
+    
+    <item7705>Tinker-Talent Pennant</item7705>
+    
+    <desc7705>Tinkers rule cuz they're cool!</desc7705>
+    
+    <item7706>Water-Talent Pennant</item7706>
+    
+    <desc7706>Water-talents go with the flow!</desc7706>
+    
+    <item7707 fairyDollarCost="30">Light-Talent Pennant</item7707>
+    
+    <desc7707>Let your inner light shine bright!</desc7707>
+    
+    <item7708 fairyDollarCost="30">Seashell Chandelier</item7708>
+    
+    <desc7708>Bring the beach feel to any room with this fancy chandelier!</desc7708>
+    
+    <item7709>Seashell Country Curtains</item7709>
+    
+    <desc7709>These curtains have a touch of the beach and a touch of the country.</desc7709>
+    
+    <item7710 fairyDollarCost="30">Palm Window Frame</item7710>
+    
+    <desc7710>A decorative window with palm curtains!</desc7710>
+    
+    <item7711>Designer Leaf Fish</item7711>
+    
+    <desc7711>Most fish prefer a stream, so let these pretty leaf fish adorn your home!</desc7711>
+    
+    <item7712>Happy Fish Habitat</item7712>
+    
+    <desc7712>The perfect home for fish who like to visit!</desc7712>
+    
+    <item7713 fairyDollarCost="30">Picnic Basket</item7713>
+    
+    <desc7713>Everything you need for a picnic lunch -- except the ants!</desc7713>
+    
+    <item6670>Campfire Cooker</item6670>
+    
+    <desc6670>Stir up some stew for a cozy campfire dinner!</desc6670>
+    
+    <item6671>Pixie Weight Set</item6671>
+    
+    <desc6671>The perfect equipment for you to get into shape!</desc6671>
+    
+    <item6672>Eensy Weensy Weight Set</item6672>
+    
+    <desc6672>The perfect equipment for your Animal Friend to get a serious workout!</desc6672>
+    
+    <item6673>Pixie Medicine Ball</item6673>
+    
+    <desc6673>Keep your wings in shape with this heavy workout ball.</desc6673>
+    
+    <item6674>Mini Medicine Ball</item6674>
+    
+    <desc6674>Your Animal friend can stay in shape by tossing this ball around!</desc6674>
+    
+    <item6675>Pixie Bench Press</item6675>
+    
+    <desc6675>Flex your mighty muscles with this tinkered bench press.</desc6675>
+    
+    <item6676>Bitsy Bench Press</item6676>
+    
+    <desc6676>Your Animal Friend can flex their wings on this tiny weight bench!</desc6676>
+    
+    <item7714 fairyDollarCost="30">Seashell Jewelry Boxes</item7714>
+    
+    <desc7714>Keep all your most beautiful accessories safe in these seashell boxes.</desc7714>
+    
+    <item6679>Picnic Table</item6679>
+    
+    <desc6679>Bring on the acorn burgers and mushroom fries!</desc6679>
+    
+    <item7715>Stay-Cool Pool</item7715>
+    
+    <desc7715>Refreshing on a hot day, but don't get your wings wet!</desc7715>
+    
+    <item7716 fairyDollarCost="30">Carved Flower Column</item7716>
+    
+    <desc7716>This carved column is great for stacking and decorating.</desc7716>
+    
+    <item7717 fairyDollarCost="30">Carved Hibiscus Column</item7717>
+    
+    <desc7717>This carved column is great for stacking and decorating.</desc7717>
+    
+    <item6680>Bookshelf Steps</item6680>
+    
+    <desc6680>These square stairs are perfect for literary affairs!</desc6680>
+    
+    <item6681>Book Flooring</item6681>
+    
+    <desc6681>This book from the mainland makes a great extra floor in your house.</desc6681>
+    
+    <item7718 fairyDollarCost="30">Animal-Talent Trophy</item7718>
+    
+    <desc7718>Awarded by Marina for training for the Pixie Hollow Games.</desc7718>
+    
+    <item7719 fairyDollarCost="30">Garden-Talent Trophy</item7719>
+    
+    <desc7719>Awarded by Marina for training for the Pixie Hollow Games.</desc7719>
+    
+    <item7720 fairyDollarCost="30">Light-Talent Trophy</item7720>
+    
+    <desc7720>Awarded by Marina for training for the Pixie Hollow Games.</desc7720>
+    
+    <item7721 fairyDollarCost="30">Tinker-Talent Trophy</item7721>
+    
+    <desc7721>Awarded by Marina for training for the Pixie Hollow Games.</desc7721>
+    
+    <item7722 fairyDollarCost="30">Water-Talent Trophy</item7722>
+    
+    <desc7722>Awarded by Marina for training for the Pixie Hollow Games.</desc7722>
+    
+    <item7723 dyeable="0" fairyDollarCost="30">Light Training Trophy</item7723>
+    
+    <desc7723>Awarded to the very best light-talent game players!</desc7723>
+    
+    <item7724 dyeable="0" fairyDollarCost="30">Garden Training Trophy</item7724>
+    
+    <desc7724>Awarded to the very best garden-talent game players!</desc7724>
+    
+    <item7725 dyeable="0" fairyDollarCost="30">Animal Training Trophy</item7725>
+    
+    <desc7725>Awarded to the very best animal-talent game players!</desc7725>
+    
+    <item7726 dyeable="0" fairyDollarCost="30">Tinker Training Trophy</item7726>
+    
+    <desc7726>Awarded to the very best tinker-talent game players!</desc7726>
+    
+    <item7727 dyeable="0" fairyDollarCost="30">Water Training Trophy</item7727>
+    
+    <desc7727>Awarded to the very best water-talent game players!</desc7727>
+    
+    <item7023>Pumpkin Lamp</item7023>
+    
+    <desc7023>Light up your feast with this autumn pumpkin lamp!</desc7023>
+    
+    <item7024>Tiki Torch</item7024>
+    
+    <desc7024>Give your next party a terrific tiki flair!</desc7024>
+    
+    <item6677 dyeable="1,0" fairyDollarCost="40">Trophy Case</item6677>
+    
+    <desc6677>Proudly display your achievements, whatever they may be!</desc6677>
+    
+    <item6678>Beach Pier Stairs</item6678>
+    
+    <desc6678>Bring the rugged seaside pier scene into your home. Ahoy, matey!</desc6678>
+    
+    <item7728 dyeable="1,0" fairyDollarCost="30">Jack-O-Lantern Rock</item7728>
+    
+    <desc7728>A festive rock that's perfect for the season!</desc7728>
+    
+    <item7729 fairyDollarCost="30">Bubbly Bog Fountain</item7729>
+    
+    <desc7729>Commemorate your bravery in the Wilderness with this fountain!</desc7729>
+    
+    <item7730 fairyDollarCost="30">Chilly Chipmunk Sculpture</item7730>
+    
+    <desc7730>This frosty little buddy adds a wintery touch to any room!</desc7730>
+    
+    <item7731 fairyDollarCost="30">Frosty Owl Sculpture</item7731>
+    
+    <desc7731>This owl's chilly perch is perfect for your winter décor!</desc7731>
+    
+    <item7732 fairyDollarCost="30">Polar Penguin Sculpture</item7732>
+    
+    <desc7732>"Waddle" you do when it gets cold outside? Decorate your home with this adorable ice sculpture!</desc7732>
+    
+    <item7733 fairyDollarCost="30">Snowy Swan Sculpture</item7733>
+    
+    <desc7733>This is one cool bird!</desc7733>
+    
+    <item7734 fairyDollarCost="30">Finish Line Curtains</item7734>
+    
+    <desc7734>Curtains? Check!</desc7734>
+    
+    <item7735>Racetrack</item7735>
+    
+    <desc7735>Racetrack</desc7735>
+    
+    <item6682 fairyDollarCost="40">Chroma Chair</item6682>
+    
+    <desc6682>Color yourself relaxed when you recline in this chair!</desc6682>
+    
+    <item7737 fairyDollarCost="30">Plentiful Pie Rack</item7737>
+    
+    <desc7737>Pixies are always in the mood for pie!</desc7737>
+    
+    <item6683 fairyDollarCost="40">Harvest Buffet Table</item6683>
+    
+    <desc6683>This table is big enough for the most luxurious of feasts!</desc6683>
+    
+    <item6684 fairyDollarCost="40">Sweet Wheat Table</item6684>
+    
+    <desc6684>Display your autumn finery on this delicate glass tabletop.</desc6684>
+    
+    <item6685 fairyDollarCost="40">Artiste Table</item6685>
+    
+    <desc6685>Perfect for painterly pixies!</desc6685>
+    
+    <item6686 dyeable="1,0" fairyDollarCost="40">Sweet Tooth Bench</item6686>
+    
+    <desc6686>You won't be able to resist this sweet seat!</desc6686>
+    
+    <item6687 fairyDollarCost="40">Turkey Feather Chair</item6687>
+    
+    <desc6687>Sit here when you're ready to gobble down some tasty treats!</desc6687>
+    
+    <item6688 dyeable="1,0" fairyDollarCost="40">Cottonfluff Rug</item6688>
+    
+    <desc6688>This rug feels fluff-tastic underfoot!</desc6688>
+    
+    <item6690 fairyDollarCost="40">Cottonfluff Couch</item6690>
+    
+    <desc6690>Perch on this soft settee with your Fairy friends!</desc6690>
+    
+    <item6691 fairyDollarCost="40">Cottonfluff Stool</item6691>
+    
+    <desc6691>Rest your wings on this soft seat!</desc6691>
+    
+    <item7739 fairyDollarCost="30">Never Mine Gem Fan</item7739>
+    
+    <desc7739>Inspired by the sparkling gems in the Never Mine!</desc7739>
+    
+    <item6692 fairyDollarCost="40">Sweet Wheat Divider</item6692>
+    
+    <desc6692>Divide up your home with the sweet wall of wheat!</desc6692>
+    
+    <item7740 fairyDollarCost="30">Festive Jelly Tower</item7740>
+    
+    <desc7740>Dazzle your pixie pals with this delicious dessert display.</desc7740>
+    
+    <item6693 dyeable="1,0" fairyDollarCost="40">Sparkling Sleigh</item6693>
+    
+    <desc6693>The perfect perch for the season!</desc6693>
+    
+    <item6694 fairyDollarCost="40">Tasty Treat Seat</item6694>
+    
+    <desc6694>The perfect perch for sharing delicious desserts!</desc6694>
+    
+    <item6695 fairyDollarCost="40">Sweet Wheat Front Divider</item6695>
+    
+    <desc6695>Divide up your home with the sweet wall of wheat!</desc6695>
+    
+    <item7742 fairyDollarCost="30">Pinecone Candle</item7742>
+    
+    <desc7742>Light up the winter days with these charming candles.</desc7742>
+    
+    <item6697 fairyDollarCost="40">Silver Trees Table</item6697>
+    
+    <desc6697>The perfect table for Fairies who love to explore!</desc6697>
+    
+    <item7743 fairyDollarCost="30">Mossy Drapes</item7743>
+    
+    <desc7743>A natural addition to any Fairy home!</desc7743>
+    
+    <item7745 fairyDollarCost="30">Cinnamon Roll Candle Trio</item7745>
+    
+    <desc7745>These candles will add a sweet glow to any room!</desc7745>
+    
+    <item7746 fairyDollarCost="30">Mossy Drapes</item7746>
+    
+    <desc7746>A natural addition to any Fairy home!</desc7746>
+    
+    <item6698 fairyDollarCost="40">Pinecone Table</item6698>
+    
+    <desc6698>Your snacks will look even tastier on this table!</desc6698>
+    
+    <item6700 fairyDollarCost="40">Jelly Donut Pillow Seat</item6700>
+    
+    <desc6700>Plop down on this tasty tuffet for a sweet sitting session!</desc6700>
+    
+    <item6701 fairyDollarCost="40">Marshmallow Stool</item6701>
+    
+    <desc6701>Stuffed with fluff!</desc6701>
+    
+    <item7747 fairyDollarCost="30">Branch n' Bough Chandelier</item7747>
+    
+    <desc7747>These elegant tree limbs will light up your living room!</desc7747>
+    
+    <item6702 fairyDollarCost="40">Pinecone Throne</item6702>
+    
+    <desc6702>Seating straight from nature!</desc6702>
+    
+    <item6699 fairyDollarCost="40">Elegant Easel</item6699>
+    
+    <desc6699>Prop up your paintings with style.</desc6699>
+    
+    <item6703 fairyDollarCost="40">Silver Trees Bookshelf</item6703>
+    
+    <desc6703>Keep all your treasures here!</desc6703>
+    
+    <item7025 fairyDollarCost="30">Cottonfluff Lamp</item7025>
+    
+    <desc7025>Use this lamp to cast a soft glow in your Fairy Home!</desc7025>
+    
+    <item7026 fairyDollarCost="30">Soft Serve Lamp</item7026>
+    
+    <desc7026>The sweet glow from this lamp will illuminate any room!</desc7026>
+    
+    <item7027>Cheerful Corn Lamp</item7027>
+    
+    <desc7027>Brighten up your home with these harvest-inspired lights!</desc7027>
+    
+    <item7028 fairyDollarCost="30" dyeable="1,0">Stop and Go Lamp</item7028>
+    
+    <desc7028>Lighting inspired by the Animal Derby race track.</desc7028>
+    
+    <item7736 fairyDollarCost="30">Berry Bobber</item7736>
+    
+    <desc7736>The ultimate addition to any Animal Masquerade party!</desc7736>
+    
+    <item6689 fairyDollarCost="40">Paintbrush Platform</item6689>
+    
+    <desc6689>Show your artistic side with this pretty platform!</desc6689>
+    
+    <item6704 fairyDollarCost="40">Ice Rink Platform</item6704>
+    
+    <desc6704>The perfect decoration for winter gatherings!</desc6704>
+    
+    <item7738 fairyDollarCost="30">Garden-Talent Racing Kart</item7738>
+    
+    <desc7738>Celebrate the Garden-talents' victory with this speedy souvenier!</desc7738>
+    
+    <item6705 fairyDollarCost="40">Grand Icicle Staircase</item6705>
+    
+    <desc6705>Make a dramatic entrance on this sparkling wintry staircase.</desc6705>
+    
+    <item6706 dyeable="1,0" fairyDollarCost="40">Puzzle Piece Table</item6706>
+    
+    <desc6706>Put together a stylish tabletop!</desc6706>
+    
+    <item6707 dyeable="1,0" fairyDollarCost="40">Corner Piece Table</item6707>
+    
+    <desc6707>Put together a stylish tabletop!</desc6707>
+    
+    <item6708 dyeable="1,0" fairyDollarCost="40">End Piece Table</item6708>
+    
+    <desc6708>Put together a stylish tabletop!</desc6708>
+    
+    <item6709 fairyDollarCost="40">Oak Staircase</item6709>
+    
+    <desc6709>Complete with knotholes for hiding your treasures!</desc6709>
+    
+    <item7029 fairyDollarCost="30">Pinecone Lamp</item7029>
+    
+    <desc7029>Extra light is always helpful!</desc7029>
+    
+    <item7030 fairyDollarCost="30">Pinecone Candles</item7030>
+    
+    <desc7030>Light up the winter days with these charming candles.</desc7030>
+    
+    <item7741 fairyDollarCost="30">Fine Filigree Egg</item7741>
+    
+    <desc7741>Collect all the eggs and hide them for your fairy friends!</desc7741>
+    
+    <item7744 fairyDollarCost="30">Fancy Filigree Egg</item7744>
+    
+    <desc7744>This pretty egg is perfect for the season!</desc7744>
+    
+    <item7748 fairyDollarCost="30">Stunning Swirl Egg</item7748>
+    
+    <desc7748>A very graceful pattern!</desc7748>
+    
+    <item7749 fairyDollarCost="30">Pretty Simple Egg</item7749>
+    
+    <desc7749>Basically lovely.</desc7749>
+    
+    <item7750 fairyDollarCost="30">Floral Swirl Egg</item7750>
+    
+    <desc7750>Inspired by spring!</desc7750>
+    
+    <item7751 fairyDollarCost="30">Twisty Twirl Egg</item7751>
+    
+    <desc7751>Decorated with a subtle swirl.</desc7751>
+    
+    <item7752 fairyDollarCost="30">Lovely Leaves Egg</item7752>
+    
+    <desc7752>Inspired by nature!</desc7752>
+    
+    <item7753 fairyDollarCost="30">Stunning Striped Egg</item7753>
+    
+    <desc7753>Wrapped in super stripes!</desc7753>
+    
+    <item7754 fairyDollarCost="30">Wonderfully Wavy Egg</item7754>
+    
+    <desc7754>Decorated with a funky wavy stripe!</desc7754>
+    
+    <item7755 fairyDollarCost="30">Charming Circles Egg</item7755>
+    
+    <desc7755>Decorated with pretty rings!</desc7755>
+    
+    <item7756 fairyDollarCost="30">Pretty Polka Dot Egg</item7756>
+    
+    <desc7756>You can spot this one from far away!</desc7756>
+    
+    <item7757 fairyDollarCost="30">Super Stars Egg</item7757>
+    
+    <desc7757>As bright as the night sky!</desc7757>
+    
+    <item7758 fairyDollarCost="30">Sensational Striped Egg</item7758>
+    
+    <desc7758>Perfectly fancy!</desc7758>
+    
+    <item7759 fairyDollarCost="30">Cute Curls Egg</item7759>
+    
+    <desc7759>Stripes and swirls give this egg a distinctive look!</desc7759>
+    
+    <item7760 fairyDollarCost="30">Sweet Squiggles Egg</item7760>
+    
+    <desc7760>A uniquely designed egg!</desc7760>
+    
+    <item7761 fairyDollarCost="30">Bell Jar Bouquet</item7761>
+    
+    <desc7761>Keep spring blooms all year round in this beautiful bell jar!</desc7761>
+    
+    <item6696 fairyDollarCost="40">Cute as a Cupcake Stool</item6696>
+    
+    <desc6696>Perch on this delectable stool!</desc6696>
+    
+    <item6710 fairyDollarCost="40">Overgrown Platform</item6710>
+    
+    <desc6710>Create a lush landscape!</desc6710>
+    
+    <item6711 fairyDollarCost="40">Chocolatey Chip Platform</item6711>
+    
+    <desc6711>This chocolatey delight makes a sweet statement!</desc6711>
+    
+    <item7763 fairyDollarCost="30">Lovely Lily Wreath</item7763>
+    
+    <desc7763>A lovely accent to any home!</desc7763>
+    
+    <item6712 fairyDollarCost="40">Friendship Chair</item6712>
+    
+    <desc6712>An adorable heart-shaped seat!</desc6712>
+    
+    <item7764 fairyDollarCost="30">Friendship Mirror</item7764>
+    
+    <desc7764>A pretty reminder of all your Fairy friends!</desc7764>
+    
+    <item6713 fairyDollarCost="40">Friendship Swing</item6713>
+    
+    <desc6713>Sit here with your pixie pals!</desc6713>
+    
+    <item7031 fairyDollarCost="30">Friendship Lamp</item7031>
+    
+    <desc7031>Adds a friendly glow to any room!</desc7031>
+    
+    <item6714 fairyDollarCost="40">Friendship Table</item6714>
+    
+    <desc6714>A great place to display your favorite decorations!</desc6714>
+    
+    <item7765 fairyDollarCost="30">Gummy Fountain</item7765>
+    
+    <desc7765>This candy creation will brighten up your home!</desc7765>
+    
+    <item6715 fairyDollarCost="40">Shinto Side Divider</item6715>
+    
+    <desc6715>Make a peaceful spot in your home.</desc6715>
+    
+    <item6716 fairyDollarCost="40">Shinto Room Divider</item6716>
+    
+    <desc6716>Make a peaceful spot in your home.</desc6716>
+    
+    <item6717 fairyDollarCost="40">Candy Cane Side Divider</item6717>
+    
+    <desc6717>Create different spaces with this wall of minty freshness!</desc6717>
+    
+    <item6718 fairyDollarCost="40">Candy Cane Room Divider</item6718>
+    
+    <desc6718>Create different spaces with this wall of minty freshness!</desc6718>
+    
+    <item7762 fairyDollarCost="30">Peppermint Wreath</item7762>
+    
+    <desc7762>A swirl of sweet style for your home!</desc7762>
+    
+    <item7766 fairyDollarCost="30">Peppermint Planter</item7766>
+    
+    <desc7766>A sweet addition to any home!</desc7766>
+    
+    <item7767 fairyDollarCost="30">Overgrown Mirror</item7767>
+    
+    <desc7767>You'll look lovely in this grassy mirror!</desc7767>
+    
+    <item7768 fairyDollarCost="30">Clover Topiary</item7768>
+    
+    <desc7768>Carefully grown by garden-talents!</desc7768>
+    
+    <item6719 fairyDollarCost="40">Cute as a Cupcake Stool</item6719>
+    
+    <desc6719>Perch on this delectable stool!</desc6719>
+    
+    <item6720 fairyDollarCost="40">Cute as a Cupcake Vanity</item6720>
+    
+    <desc6720>A sweet spot to store a few of your favorite things.</desc6720>
+    
+    <item6721 fairyDollarCost="40">Overgrown Bench</item6721>
+    
+    <desc6721>A must-have for discerning garden-talents!</desc6721>
+    
+    <item6722 fairyDollarCost="40">Overgrown Chair</item6722>
+    
+    <desc6722>Mossy and comfortable!</desc6722>
+    
+    <item6723 fairyDollarCost="40">Wacky Bookshelf</item6723>
+    
+    <desc6723>Store all your silliest stuff here!</desc6723>
+    
+    <item6724 fairyDollarCost="40">Wacky Chair</item6724>
+    
+    <desc6724>Have a silly seat!</desc6724>
+    
+    <item6725 fairyDollarCost="40">Wacky Side Table</item6725>
+    
+    <desc6725>Crazy and cool!</desc6725>
+    
+    <item6726 fairyDollarCost="40">Wacky Coffee Table</item6726>
+    
+    <desc6726>Set out some treats and call your pals!</desc6726>
+    
+    <item7769 fairyDollarCost="30">Peppermint Trees</item7769>
+    
+    <desc7769>Minty and magical!</desc7769>
+    
+    <item6727 fairyDollarCost="40">Ivy Stairs</item6727>
+    
+    <desc6727>Graceful ivy stairs take you to the next level!</desc6727>
+    
+    <item7032 fairyDollarCost="30">Peppermint Light</item7032>
+    
+    <desc7032>Provides a minty luminescence!</desc7032>
+    
+    <item7033 fairyDollarCost="30">Overgrown Lamp</item7033>
+    
+    <desc7033>This hanging lamp is one of a kind!</desc7033>
+    
+    <item7034 fairyDollarCost="30">Flitter Flutter Lamp</item7034>
+    
+    <desc7034>Creates a flitterific glimmer!</desc7034>
+    
+    <item7770 fairyDollarCost="30">Rambling Rose Wreath</item7770>
+    
+    <desc7770>Adds a floral flourish to your home!</desc7770>
+    
+    <item7771 fairyDollarCost="30">Sassy Sunflower Umbrella</item7771>
+    
+    <desc7771>Stay out of the sun and under a sunflower!</desc7771>
+    
+    <item6728 fairyDollarCost="40">Flitter Flutter Couch</item6728>
+    
+    <desc6728>Rest your wings on this butterfly-inspired couch!</desc6728>
+    
+    <item7772 fairyDollarCost="30">Flitter Flutter Curtains</item7772>
+    
+    <desc7772>A beautiful canopy of butterflies!</desc7772>
+    
+    <item7773 fairyDollarCost="30">Flitter Flutter Chair</item7773>
+    
+    <desc7773>A cozy seat for you or your guests!</desc7773>
+    
+    <item6729 fairyDollarCost="40">Flitter Flutter Chair</item6729>
+    
+    <desc6729>A cozy seat for you or your guests!</desc6729>
+    
+    <item7774 fairyDollarCost="30">Flitter Flutter Curtains</item7774>
+    
+    <desc7774>A beautiful canopy of butterflies!</desc7774>
+    
+    <item6730 fairyDollarCost="40">Eclair Stairs</item6730>
+    
+    <desc6730>Take a sweet step up!</desc6730>
+    
+    <item7775 fairyDollarCost="30">Cute Carnation Umbrella</item7775>
+    
+    <desc7775>Lovely leaves to shade your wings!</desc7775>
+    
+    <item7776 fairyDollarCost="30">Darling Daisy Umbrella</item7776>
+    
+    <desc7776>Pretty petals keep you in the shade!</desc7776>
+    
+    <item7777 fairyDollarCost="30">Fancy Flower Umbrella</item7777>
+    
+    <desc7777>A perfect addition to any garden party!</desc7777>
+    
+    <item6731 fairyDollarCost="40">Flitter Flutter Table</item6731>
+    
+    <desc6731>A glass tabletop is a unique touch!</desc6731>
+    
+    <item7035 fairyDollarCost="30">Wacky Lamp</item7035>
+    
+    <desc7035>Casts a crazy glow!</desc7035>
+    
+    <item7036 fairyDollarCost="30">Radiant Bloom Lamp</item7036>
+    
+    <desc7036>As lovely as the morning light in a garden!</desc7036>
+    
+    <item7037 fairyDollarCost="30">Plentiful Petal Lamp</item7037>
+    
+    <desc7037>Shine a light on all your lovely furnishings!</desc7037>
+    
+    <item7038 fairyDollarCost="30">Perfect Petal Lamp</item7038>
+    
+    <desc7038>A plant-tastic accent piece for your home!</desc7038>
+    
+    <item6732 fairyDollarCost="40">Winding Stairs</item6732>
+    
+    <desc6732>Soft mushroom steps spiral skyward!</desc6732>
+    
+    <item7778 fairyDollarCost="30">Daisy Wreath</item7778>
+    
+    <desc7778>A sweet circle of daisies to adorn your home!</desc7778>
+    
+    <item7779 fairyDollarCost="30">Baby Chipmunk Plush</item7779>
+    
+    <desc7779>This stuffed toy in the shape of a baby chipmunk is critterific!</desc7779>
+    
+    <item7780 fairyDollarCost="30">Kitten Plush</item7780>
+    
+    <desc7780>A cuddly stuffed toy in the shape of a kitten is purr-fect!</desc7780>
+    
+    <item7781 fairyDollarCost="30">Baby Owl Plush</item7781>
+    
+    <desc7781>A huggable stuffed toy in the shape of a baby owl!</desc7781>
+    
+    <item7782 fairyDollarCost="30">Baby Bunny Plush</item7782>
+    
+    <desc7782>This stuffed toy is one adorable cottontail!</desc7782>
+    
+    <item7784 dyeable="1,0" fairyDollarCost="30">Baby Animal Portrait</item7784>
+    
+    <desc7784>Commemorate Animal Mother's Day with this lovely mural!</desc7784>
+    
+    <item6733 fairyDollarCost="40">Summer Lounger</item6733>
+    
+    <desc6733>While away a lazy summer afternoon in this charming chair!</desc6733>
+    
+    <item6734 fairyDollarCost="40">Rope Bridge</item6734>
+    
+    <desc6734>This suspension bridge is great for adventurous Fairies!</desc6734>
+    
+    <item7785 fairyDollarCost="30">Jolly Sun</item7785>
+    
+    <desc7785>Makes any Fairy home a summery spot!</desc7785>
+    
+    <item6735 fairyDollarCost="40">Summer Teepee</item6735>
+    
+    <desc6735>The perfect place to tell stories on a summer night!</desc6735>
+    
+    <item6736 fairyDollarCost="40">Garden Hearts Table</item6736>
+    
+    <desc6736>A lovely spot to set out snacks for a garden party!</desc6736>
+    
+    <item6737 fairyDollarCost="40">Garden Hearts Trellis</item6737>
+    
+    <desc6737>A beautifully ornate frame for all your flowers!</desc6737>
+    
+    <item7787 fairyDollarCost="30">Teapot Clock</item7787>
+    
+    <desc7787>It's always time for tea!</desc7787>
+    
+    <item7788 fairyDollarCost="30">Teatime Snack Tower</item7788>
+    
+    <desc7788>A pretty pile of teatime deliciousness!</desc7788>
+    
+    <item7789 fairyDollarCost="30">Deluxe Stove</item7789>
+    
+    <desc7789>Bake decadent desserts in this fancy stove!</desc7789>
+    
+    <item6738 fairyDollarCost="40">Garden Hearts Bench</item6738>
+    
+    <desc6738>The perfect perch for all your Fairy friends!</desc6738>
+    
+    <item6739 fairyDollarCost="40">Garden Hearts Chair</item6739>
+    
+    <desc6739>You'll be sitting pretty in your garden!</desc6739>
+    
+    <item6740 fairyDollarCost="40">Sunflower Steps</item6740>
+    
+    <desc6740>Take a step up to blooming beauty!</desc6740>
+    
+    <item6741 fairyDollarCost="40">Sunflower Table</item6741>
+    
+    <desc6741>Looks flaptastic in your home or garden!</desc6741>
+    
+    <item6742 fairyDollarCost="40">Sunflower Chair</item6742>
+    
+    <desc6742>A sunny accent piece!</desc6742>
+    
+    <item7790 fairyDollarCost="30">Sunflower Chandelier</item7790>
+    
+    <desc7790>Blooming sunflowers light up any room!</desc7790>
+    
+    <item6743 fairyDollarCost="40">Teacup Chair</item6743>
+    
+    <desc6743>Pour yourself a cup of relaxation!</desc6743>
+    
+    <item7791 dyeable="0" fairyDollarCost="30">Hanging Hearts</item7791>
+    
+    <desc7791>Heart-shaped blooms beautify your garden!</desc7791>
+    
+    <item7792 dyeable="0" fairyDollarCost="30">Daisies</item7792>
+    
+    <desc7792>These flowers will always put a smile on your face!</desc7792>
+    
+    <item7793 dyeable="0" fairyDollarCost="30">Irises</item7793>
+    
+    <desc7793>An elegant bloom to grace your garden!</desc7793>
+    
+    <item7794 dyeable="0" fairyDollarCost="30">Tulips</item7794>
+    
+    <desc7794>Their distinctive shape adds style to your garden!</desc7794>
+    
+    <item7795 dyeable="0" fairyDollarCost="30">Sunflowers</item7795>
+    
+    <desc7795>Bright and cheery!</desc7795>
+    
+    <item7796 fairyDollarCost="30">Animal-Talent Mega Trophy</item7796>
+    
+    <desc7796>You're pawsome!</desc7796>
+    
+    <item7797 fairyDollarCost="30">Garden-Talent Mega Trophy</item7797>
+    
+    <desc7797>You're plant-tastic!</desc7797>
+    
+    <item7798 fairyDollarCost="30">Light-Talent Mega Trophy</item7798>
+    
+    <desc7798>You're shimmerific!</desc7798>
+    
+    <item7799 fairyDollarCost="30">Tinker-Talent Mega Trophy</item7799>
+    
+    <desc7799>You're tinker-tastic!</desc7799>
+    
+    <item7800 fairyDollarCost="30">Water-Talent Mega Trophy</item7800>
+    
+    <desc7800>You're splashtastic!</desc7800>
+    
+    <item7801 fairyDollarCost="30">Butterfly Mosaic</item7801>
+    
+    <desc7801>You'll be in awe when you see the sunlight through these gorgeous gems!</desc7801>
+    
+    <item7802 fairyDollarCost="30">Glowworm Lights</item7802>
+    
+    <desc7802>Make your home glow like nature's brightest bugs!</desc7802>
+    
+    <item7039 fairyDollarCost="30">Sunflower Lamp</item7039>
+    
+    <desc7039>A lovely addition to any flower-loving Fairy's home!</desc7039>
+    
+    <item7803 fairyDollarCost="30">Bunny Flowerpot</item7803>
+    
+    <desc7803>An adorable accent piece for your home or garden!</desc7803>
+    
+    <item7804 fairyDollarCost="30">Butterfly Statue</item7804>
+    
+    <desc7804>A lovely butterfly lights on this floral home accent!</desc7804>
+    
+    <item7805 fairyDollarCost="30">Rainbow Flower Arch</item7805>
+    
+    <desc7805>Perfect for framing all your summer-inspired décor!</desc7805>
+    
+    <item7806 fairyDollarCost="30">Lily Pad Pond</item7806>
+    
+    <desc7806>The perfect place to spend a balmy evening!</desc7806>
+    
+    <item7807 fairyDollarCost="30">Turtle Sprinkler</item7807>
+    
+    <desc7807>A turtle-inspired splash, perfect for summer!</desc7807>
+    
+    <item7808 fairyDollarCost="30">Wheelbarrow Gnome</item7808>
+    
+    <desc7808>This little helper can carry a whole bushel of flowers!</desc7808>
+    
+    <item7809 fairyDollarCost="30">Lamplight Gnome</item7809>
+    
+    <desc7809>Lights the way in your home or garden!</desc7809>
+    
+    <item7810 fairyDollarCost="30">Lady Gnome</item7810>
+    
+    <desc7810>A bucket is always great for gathering flowers!</desc7810>
+    
+    <item7811 fairyDollarCost="30">Rake Gnome</item7811>
+    
+    <desc7811>Ready to help keep your garden tidy!</desc7811>
+    
+    <item7812 fairyDollarCost="30">Flower Basket</item7812>
+    
+    <desc7812>A bushel of blooms harvested right from the Hollow!</desc7812>
+    
+    <item6744 fairyDollarCost="40">Rustic Table</item6744>
+    
+    <desc6744>Made of wood for a natural look!</desc6744>
+    
+    <item6745 fairyDollarCost="40">Rustic Chair</item6745>
+    
+    <desc6745>A sturdy seat for your Fairy friends!</desc6745>
+    
+    <item6746 fairyDollarCost="40">Rustic Bench</item6746>
+    
+    <desc6746>The perfect location for a picnic lunch!</desc6746>
+    
+    <item7813 fairyDollarCost="30">Planter Box</item7813>
+    
+    <desc7813>Full of pretty petals!</desc7813>
+    
+    <item7814 fairyDollarCost="30">Summer Well</item7814>
+    
+    <desc7814>Summer is the perfect season for cool water!</desc7814>
+    
+    <item7815 fairyDollarCost="30">Blissflower Chandelier</item7815>
+    
+    <desc7815>String these bright lights up across the room to illuminate your home!</desc7815>
+    
+    <item7816 fairyDollarCost="30">Sandcastle Platform</item7816>
+    
+    <desc7816>Make your home the perfect vision of summer!</desc7816>
+    
+    <item6747 fairyDollarCost="40">Sandy Platform</item6747>
+    
+    <desc6747>Make your very own beachscape in your home!</desc6747>
+    
+    <item6748 fairyDollarCost="40">Palm Leaf Panel</item6748>
+    
+    <desc6748>Graceful fronds divide up a room while still letting the light in!</desc6748>
+    
+    <item7040 fairyDollarCost="30">Blissflower Chandelier</item7040>
+    
+    <desc7040>String these bright lights up across the room to illuminate your home!</desc7040>
+    
+    <item7041 fairyDollarCost="30">Glowworm Lights</item7041>
+    
+    <desc7041>Make your home glow like nature's brightest bugs!</desc7041>
+    
+    <item7817 fairyDollarCost="30">Straw Umbrella</item7817>
+    
+    <desc7817>Catch some shade under this summery umbrella!</desc7817>
+    
+    <item6749 fairyDollarCost="40">Beachy Side Table</item6749>
+    
+    <desc6749>The perfect place to set down your cool lemonade!</desc6749>
+    
+    <item6750 fairyDollarCost="40">Seashell Lounger</item6750>
+    
+    <desc6750>Stretch out and relax on a sunny day!</desc6750>
+    
+    <item7042 fairyDollarCost="30">Teacup Candle</item7042>
+    
+    <desc7042>Lights up any room!</desc7042>
+    
+    <item6751 fairyDollarCost="40">Blooming Flower Canopy</item6751>
+    
+    <desc6751>A flower in full bloom really brightens up a room!</desc6751>
+    
+    <item6752 fairyDollarCost="40">Ship's Deck Platform</item6752>
+    
+    <desc6752>Get ready to sail the seven seas!</desc6752>
+    
+    <item6753 fairyDollarCost="40">Woodblock Divider</item6753>
+    
+    <desc6753>A funky modern room divider!</desc6753>
+    
+    <item6754 fairyDollarCost="40">Pretty Planter Bench</item6754>
+    
+    <desc6754>This lovely seat has fragrant flowers at each end!</desc6754>
+    
+    <item6755 fairyDollarCost="40">Beautiful Blossoms Bench</item6755>
+    
+    <desc6755>Bright blooms are woven together to make the back of this bench.</desc6755>
+    
+    <item6756 fairyDollarCost="40">Sunflower Bench</item6756>
+    
+    <desc6756>Perch your wings on this sunny seat!</desc6756>
+    
+    <item6757 fairyDollarCost="40">Gear Staircase</item6757>
+    
+    <desc6757>Step up these Tinker-tastic stairs!</desc6757>
+    
+    <item7783 fairyDollarCost="30">Turtle Buddy Basket</item7783>
+    
+    <desc7783>An adorable turtle pal is a cute companion!</desc7783>
+    
+    <item6758 fairyDollarCost="40">Paradise Waterslide</item6758>
+    
+    <desc6758>Turn your home into a summer oasis!</desc6758>
+    
+    <item7786 fairyDollarCost="30">Troop Turtle Pennant</item7786>
+    
+    <desc7786>Show tinker-talent pride by hanging this lovely pennant!</desc7786>
+    
+    <item7818 fairyDollarCost="30">Troop Rabbit Pennant</item7818>
+    
+    <desc7818>Show your Troop Rabbit spirit!</desc7818>
+    
+    <item7819 fairyDollarCost="30">Troop Otter Pennant</item7819>
+    
+    <desc7819>Show your Troop Otter spirit!</desc7819>
+    
+    <item7820 fairyDollarCost="30">Troop Glowworm Pennant</item7820>
+    
+    <desc7820>Show your Troop Glowworm spirit!</desc7820>
+    
+    <item7821 fairyDollarCost="30">Troop Butterfly Pennant</item7821>
+    
+    <desc7821>Show your Troop Butterfly spirit!</desc7821>
+    
+    <item7043 fairyDollarCost="30">Glowing Candelabra</item7043>
+    
+    <desc7043>Casts a soft wintry glow!</desc7043>
+    
+    <item7822 fairyDollarCost="30">Holly Jolly Ornament</item7822>
+    
+    <desc7822>Celebrate the season with this lovely bauble!</desc7822>
+    
+    <item7823 fairyDollarCost="30">Snowflake Ornament</item7823>
+    
+    <desc7823>The perfect decoration for winter!</desc7823>
+    
+    <item7824 fairyDollarCost="30">Holiday Ornament</item7824>
+    
+    <desc7824>Adds a classic holiday touch to any home!</desc7824>
+    
+    <item7825 fairyDollarCost="30">Polka Dot Ornament</item7825>
+    
+    <desc7825>Festive and fun!</desc7825>
+    
+    <item7826 fairyDollarCost="30">Candy Cane Ornament</item7826>
+    
+    <desc7826>Striped like a favorite holiday treat!</desc7826>
+    
+    <item6599 fairyDollarCost="40">Baroque Balcony</item6599>
+    
+    <desc6599>Fittingly accented with spooky cat details!</desc6599>
+    
+    <item7828 fairyDollarCost="30">Silly Scarecrow</item7828>
+    
+    <desc7828>Nothing says autumn like a scarecrow in your garden!</desc7828>
+    
+    <item7830 fairyDollarCost="30">Jack O'Lantern Stand</item7830>
+    
+    <desc7830>Bring a little Animal Masquerade spookiness to your home!</desc7830>
+    
+    <item7831 fairyDollarCost="30">Cobweb Curtains</item7831>
+    
+    <desc7831>A fun, filmy accent for your windows!</desc7831>
+    
+    <item7832 fairyDollarCost="30">Bat Pumpkin</item7832>
+    
+    <desc7832>Cute and creepy!</desc7832>
+    
+    <item7833 dyeable="1,0" fairyDollarCost="30">Gargoyle Kitty</item7833>
+    
+    <desc7833>This feline friend makes a spooky statement in your home or garden!</desc7833>
+    
+    <item7834 fairyDollarCost="30">Crystal Ball</item7834>
+    
+    <desc7834>Can you see the future? Is it flaptastic?</desc7834>
+    
+    <item7835 fairyDollarCost="30">Spooky Tree</item7835>
+    
+    <desc7835>Create a creepy landscape!</desc7835>
+    
+    <item7837 fairyDollarCost="30">Feast Plate</item7837>
+    
+    <desc7837>Set your table for the Fairy Feast!</desc7837>
+    
+    <item7838 dyeable="0" fairyDollarCost="30">Maple Tree</item7838>
+    
+    <desc7838>Majestic and grand!</desc7838>
+    
+    <item7839 dyeable="0" fairyDollarCost="30">Corn Stalks</item7839>
+    
+    <desc7839>Perfect for autumn!</desc7839>
+    
+    <item7840 dyeable="0" fairyDollarCost="30">Dandelions</item7840>
+    
+    <desc7840>A lovely addition to your autumn garden!</desc7840>
+    
+    <item7841 dyeable="0" fairyDollarCost="30">Marigolds</item7841>
+    
+    <desc7841>Such a bright, sunny hue that you can't help but be cheerful!</desc7841>
+    
+    <item7842 dyeable="0" fairyDollarCost="30">Pumpkin Patch</item7842>
+    
+    <desc7842>Just one pumpkin is never enough!</desc7842>
+    
+    <item7843 dyeable="0" fairyDollarCost="30">Golden Maple Tree</item7843>
+    
+    <desc7843>A special gift from the Minister of Autumn!</desc7843>
+    
+    <item6600 fairyDollarCost="40">Spooky Piano</item6600>
+    
+    <desc6600>Play a creepy tune!</desc6600>
+    
+    <item6601 fairyDollarCost="40">Haunted Staircase</item6601>
+    
+    <desc6601>The perfect spooky accent for your home!</desc6601>
+    
+    <item7844 fairyDollarCost="30">Flitterific Crystal Strand</item7844>
+    
+    <desc7844>A beautiful butterfly accents this sparkly decoration!</desc7844>
+    
+    <item7845 fairyDollarCost="30">Ice Blossom Crystal Strand</item7845>
+    
+    <desc7845>A lovely winter bloom adds a perfect finishing touch!</desc7845>
+    
+    <item7846 fairyDollarCost="30">Ice Crystal Chandelier</item7846>
+    
+    <desc7846>A fabulously frosty accent piece!</desc7846>
+    
+    <item6602 fairyDollarCost="40">Frosty Gazebo</item6602>
+    
+    <desc6602>Perfect for adding a touch of winter to your home or garden!</desc6602>
+    
+    <item6603 fairyDollarCost="40">Winter Crossing Platform</item6603>
+    
+    <desc6603>The best of both seasons, right in your home!</desc6603>
+    
+    <item6759 fairyDollarCost="40">Periwinkle Lounger</item6759>
+    
+    <desc6759>Relax in this periwinkle flower-inspired chair!</desc6759>
+    
+    <item7044 fairyDollarCost="30">Gourd Lights</item7044>
+    
+    <desc7044>A string of lovely lamps!</desc7044>
+    
+    <item7045 fairyDollarCost="30">Spider Web Lantern</item7045>
+    
+    <desc7045>Shines a lovely low light on all your spooky decorations!</desc7045>
+    
+    <item7046 fairyDollarCost="30">Spider Web Chandelier</item7046>
+    
+    <desc7046>Elegant and spooky!</desc7046>
+    
+    <item7827 fairyDollarCost="30">Snow Roses</item7827>
+    
+    <desc7827>Beautiful flowers that are white as snow!</desc7827>
+    
+    <item7829 fairyDollarCost="30">Snowdrops</item7829>
+    
+    <desc7829>These delicate flowers are a must for any winter garden!</desc7829>
+    
+    <item7836 fairyDollarCost="30">Snowy Pine Tree</item7836>
+    
+    <desc7836>A majestic addition to any winter garden!</desc7836>
+    
+    <item7847 fairyDollarCost="30">Poinsettia Tree</item7847>
+    
+    <desc7847>Blooming with bright holiday flowers!</desc7847>
+    
+    <item7848 dyeable="1,0" fairyDollarCost="30">Pile o' Snowballs</item7848>
+    
+    <desc7848>Perfectly round and ready for throwing!</desc7848>
+    
+    <item7849 dyeable="1,0" fairyDollarCost="30">Snowy Platform</item7849>
+    
+    <desc7849>Bring the magic of winter into your home!</desc7849>
+    
+    <item7850 fairyDollarCost="30">Fairy Snowman</item7850>
+    
+    <desc7850>Complete with his very own pair of wings!</desc7850>
+    
+    <item7851 dyeable="1,0" fairyDollarCost="30">Snow Weasel Ice Sculpture</item7851>
+    
+    <desc7851>Our favorite rascally snow weasel, sculpted in ice!</desc7851>
+    
+    <item7852 dyeable="1,0" fairyDollarCost="30">Raccoon Ice Sculpture</item7852>
+    
+    <desc7852>Nature's furry little bandit, sculpted in ice!</desc7852>
+    
+    <item7853 dyeable="1,0" fairyDollarCost="30">Kitten Ice Sculpture</item7853>
+    
+    <desc7853>Our favorite playful kitten,  sculpted in ice!</desc7853>
+    
+    <item7854 dyeable="1,0" fairyDollarCost="30">Never Dove Ice Sculpture</item7854>
+    
+    <desc7854>The lovely Never Dove, sculpted in ice!</desc7854>
+    
+    <item7855 fairyDollarCost="30">Snowy Window</item7855>
+    
+    <desc7855>Look out onto a winter wonderland!</desc7855>
+    
+    <item7856 fairyDollarCost="30">Pinecone Present</item7856>
+    
+    <desc7856>Spread some holiday cheer!</desc7856>
+    
+    <item7857 fairyDollarCost="30">Peppermint Present</item7857>
+    
+    <desc7857>Wrapped with the greatest of care!</desc7857>
+    
+    <item7858 fairyDollarCost="30">Holly Present</item7858>
+    
+    <desc7858>Topped with a sprightly sprig of the season's loveliest plant!</desc7858>
+    
+    <item7859 fairyDollarCost="30">Jingle Bells Present</item7859>
+    
+    <desc7859>Jingle all the way!</desc7859>
+    
+    <item7047 fairyDollarCost="30">Glowing Lamppost</item7047>
+    
+    <desc7047>A snow-dusted light for your home or garden!</desc7047>
+    
+    <item6760 fairyDollarCost="40">Snowy Bench</item6760>
+    
+    <desc6760>This rustic bench is dusted with snow!</desc6760>
+    
+    <item7860 fairyDollarCost="30">Butterfly Present</item7860>
+    
+    <desc7860>Looks flitterific under the tree!</desc7860>
+    
+    <item7048 fairyDollarCost="30">Aurora Candle</item7048>
+    
+    <desc7048>Gives off a magical aura!</desc7048>
+    
+    <item6761 fairyDollarCost="40">Aurora Table</item6761>
+    
+    <desc6761>Infused with the magic of the Northern Lights!</desc6761>
+    
+    <item6762 fairyDollarCost="40">Aurora Chair</item6762>
+    
+    <desc6762>A shining addition to your home!</desc6762>
+    
+    <item7861 fairyDollarCost="30">Aurora Mirror</item7861>
+    
+    <desc7861>Reflects the bright lights of the Aurora Borealis!</desc7861>
+    
+    <item7862 dyeable="0" fairyDollarCost="30">Holly Bush</item7862>
+    
+    <desc7862>Deck the halls with boughs of this lovely winter plant!</desc7862>
+    
+    <item7863 fairyDollarCost="30">Aurora Fountain</item7863>
+    
+    <desc7863>A breathtaking display of wondrous water!</desc7863>
+    
+    <item7864 fairyDollarCost="30">Flitterific Fairy Frame</item7864>
+    
+    <desc7864>Frame a scene in your Fairy Home or Garden!</desc7864>
+    
+    <item7865>Trophy_NoLogo</item7865>
+    
+    <desc7865>Trophy_NoLogo</desc7865>
+    
+    <item7866 fairyDollarCost="24">Tray of Tarts</item7866>
+    
+    <desc7866>Just the thing for your next party!</desc7866>
+    
+    <item7867 fairyDollarCost="16">Plate of Pancakes</item7867>
+    
+    <desc7867>You can have breakfast any time!</desc7867>
+    
+    <item7868 fairyDollarCost="30">Rainbow Waterfall</item7868>
+    
+    <desc7868>A majestic rainbow appears over your very own waterfall!</desc7868>
+    
+    <item7869 fairyDollarCost="16">Plate of Cookies</item7869>
+    
+    <desc7869>Perfect for your next tea party!</desc7869>
+    
+    <item7870 fairyDollarCost="20">Cheesecake Plate</item7870>
+    
+    <desc7870>Looks good enough to eat!</desc7870>
+    
+    <item7871 fairyDollarCost="30">Butterfly Cake</item7871>
+    
+    <desc7871>Two tiers of frosted goodness!</desc7871>
+    
+    <item7872 dyeable="0" fairyDollarCost="30">Birds of Paradise</item7872>
+    
+    <desc7872>Elegant birds of paradise for your garden!</desc7872>
+    
+    <item7873 dyeable="0" fairyDollarCost="30">Cherry Blossom Tree</item7873>
+    
+    <desc7873>A cheery cherry blossom tree for your garden!</desc7873>
+    
+    <item7874 dyeable="0" fairyDollarCost="30">Daffodils</item7874>
+    
+    <desc7874>Sweet daffodils for your garden!</desc7874>
+    
+    <item7875 dyeable="0" fairyDollarCost="30">Dahlias</item7875>
+    
+    <desc7875>Pretty dahlias for your garden!</desc7875>
+    
+    <item7876 dyeable="0" fairyDollarCost="30">Orchids</item7876>
+    
+    <desc7876>Lovely orchids for your garden!</desc7876>
+    
+    <item7877 fairyDollarCost="30">Potted Rainbow</item7877>
+    
+    <desc7877>A little piece of spring brightness for your home!</desc7877>
+    
+    <item7878 fairyDollarCost="30">Rainbow Lamp</item7878>
+    
+    <desc7878>Cast a rainbow glow in your home!</desc7878>
+    
+    <item7879 fairyDollarCost="30">Frozen Periwinkle Flower</item7879>
+    
+    <desc7879>A beautiful bloom captured in ice!</desc7879>
+    
+    <item7880 fairyDollarCost="30">Rainbow Rug</item7880>
+    
+    <desc7880>Add some sunny cheer to any room!</desc7880>
+    
+    <item7881 dyeable="1,0" fairyDollarCost="30">Rainbow Pillow</item7881>
+    
+    <desc7881>Cozy and bright!</desc7881>
+    
+    <item7883 fairyDollarCost="30">Colorful Carousel Fox</item7883>
+    
+    <desc7883>An ornate fox friend for your Fairy carousel!</desc7883>
+    
+    <item7884 fairyDollarCost="30">Colorful Carousel Rabbit</item7884>
+    
+    <desc7884>An ornate rabbit friend for your Fairy carousel!</desc7884>
+    
+    <item6763 fairyDollarCost="40">Water Bog Bench</item6763>
+    
+    <desc6763>Mossy!</desc6763>
+    
+    <item6764 fairyDollarCost="40">Water Bog Tree Stump</item6764>
+    
+    <desc6764>Bring the great outdoors inside!</desc6764>
+    
+    <item7885 fairyDollarCost="30">Potted Fern</item7885>
+    
+    <desc7885>Cute and rustic!</desc7885>
+    
+    <item7887 fairyDollarCost="30">Light Specs Pennant</item7887>
+    
+    <desc7887>A symbol of discovery and the power of light!</desc7887>
+    
+    <item6765 fairyDollarCost="40">Water Bog Tree Swing</item6765>
+    
+    <desc6765>The best place to relax after a long day of flying!</desc6765>
+    
+    <item7888 fairyDollarCost="30">Teapot Flower Pots</item7888>
+    
+    <desc7888>Put these in your home or garden before your next tea party!</desc7888>
+    
+    <item6766 fairyDollarCost="40">Buttercup Steps</item6766>
+    
+    <desc6766>Climb these pretty petals to the top of your home!</desc6766>
+    
+    <item7889 fairyDollarCost="30">Acorn Chips</item7889>
+    
+    <desc7889>The perfect snack for baby chipmunks!</desc7889>
+    
+    <item7890 fairyDollarCost="30">Ball of Yarn</item7890>
+    
+    <desc7890>The perfect toy for kittens!</desc7890>
+    
+    <item7891 fairyDollarCost="30">Book of Lullabies</item7891>
+    
+    <desc7891>Perfect for singing baby owls to sleep!</desc7891>
+    
+    <item7892 fairyDollarCost="30">Soap Bubble Basket</item7892>
+    
+    <desc7892>Perfect for washing baby bunnies!</desc7892>
+    
+    <item7893 fairyDollarCost="30">Colorful Carousel Dolphin</item7893>
+    
+    <desc7893>An ornate dolphin friend for your Fairy carousel!</desc7893>
+    
+    <item7894 fairyDollarCost="30">Colorful Carousel Horse</item7894>
+    
+    <desc7894>An ornate horse friend for your Fairy carousel!</desc7894>
+    
+    <item7895 fairyDollarCost="30">Colorful Carousel Canopy</item7895>
+    
+    <desc7895>Every Fairy carousel needs a perfect canopy!</desc7895>
+    
+    <item6767 fairyDollarCost="40">Raindrop Room Divider</item6767>
+    
+    <desc6767>Inspired by the fresh spring rain!</desc6767>
+    
+    <item7896 fairyDollarCost="30">Bubble Cascade Curtains</item7896>
+    
+    <desc7896>Adds some undersea charm to your home!</desc7896>
+    
+    <item6768 fairyDollarCost="40">Summer Sun Mosaic Platform</item6768>
+    
+    <desc6768>Bright and cheerful!</desc6768>
+    
+    <item6769 fairyDollarCost="40">Mermaid Grotto Stairs</item6769>
+    
+    <desc6769>Build your own secret place in your home!</desc6769>
+    
+    <item6770 fairyDollarCost="40">Scallop Shell Platform</item6770>
+    
+    <desc6770>Simply divine!</desc6770>
+    
+    <item6771 fairyDollarCost="40">Grassy Trail</item6771>
+    
+    <desc6771>Bring pretty spring grass into your home!</desc6771>
+    
+    <item6772 fairyDollarCost="40">Nimbus Staircase</item6772>
+    
+    <desc6772>Fluffy steps are light as a cloud!</desc6772>
+    
+    <item7897 fairyDollarCost="30">Octopus Chandelier</item7897>
+    
+    <desc7897>Eight arms are great!</desc7897>
+    
+    <item6773 fairyDollarCost="40">Anemone Bean Bag Chair</item6773>
+    
+    <desc6773>Super soft and comfy!</desc6773>
+    
+    <item7049 fairyDollarCost="30" dyeable="1,0">Jellyfish Lamp</item7049>
+    
+    <desc7049>Perfect décor for any ocean lover!</desc7049>
+    
+    <item6774 dyeable="1,0" fairyDollarCost="40">Cloud Platform</item6774>
+    
+    <desc6774>Fluffy and soft!</desc6774>
+    
+    <item7050>Sea Star Lamp</item7050>
+    
+    <desc7050>Add some seaside décor to your room with this carved sea star lamp.</desc7050>
+    
+    <item7051>Mushroom Lamps</item7051>
+    
+    <desc7051>Cast a soft, mossy glow!</desc7051>
+    
+    <item6775 fairyDollarCost="40">Tink's Pixie Camper</item6775>
+    
+    <desc6775>Inspired by Tink's trips to Palm Tree Cove with her pixie pals!</desc6775>
+    
+    <item7666>Penguin</item7666>
+    
+    <desc7666>Penguin</desc7666>
+    
+    <item7882 fairyDollarCost="30">Stuffed Tiger</item7882>
+    
+    <desc7882>This ferocious feline uses cuddles instead of claws!</desc7882>
+    
+    <item7052 fairyDollarCost="30">Desert Nights Lamp</item7052>
+    
+    <desc7052>This lamp used to be home to a powerful genie!</desc7052>
+    
+    <item6776 fairyDollarCost="40">Flying Carpet</item6776>
+    
+    <desc6776>Take yourself to a whole new world on this flying carpet!</desc6776>
+    
+    <item7886 dyeable="0" fairyDollarCost="30">Bluebells</item7886>
+    
+    <desc7886>Beautiful bluebells that are the perfect addition to any garden!</desc7886>
+    
+    <item7898 dyeable="0" fairyDollarCost="30">Climbing Roses</item7898>
+    
+    <desc7898>A rosy roaming vine that beautifies everything it touches!</desc7898>
+    
+    <item7899 dyeable="0" fairyDollarCost="30">Palm Tree</item7899>
+    
+    <desc7899>Bring the beach to you with this breezy palm tree!</desc7899>
+    
+    <item6777 fairyDollarCost="40">Desert Nights Vanity</item6777>
+    
+    <desc6777>Become princess-perfect using this exotic vanity from a far off land!</desc6777>
+    
+    <item7053 fairyDollarCost="30">Starbright Lamp</item7053>
+    
+    <desc7053>Make a wish!</desc7053>
+    
+    <item6778 fairyDollarCost="40">Storytime Staircase</item6778>
+    
+    <desc6778>Somewhere, a scribe-talent is wondering where all her books went...</desc6778>
+    
+    <item6779 fairyDollarCost="40">Campground Clearing</item6779>
+    
+    <desc6779>The perfect place to set up camp!</desc6779>
+    
+    <item7054 fairyDollarCost="30">Starlight Lamp</item7054>
+    
+    <desc7054>Bring the magic of the stars to your home with this lovely lamp!</desc7054>
+    
+  </copy>
+  
+  <animalFriendOffsets>
+    
+    <default x="300" y="300"/>
+    
+  </animalFriendOffsets>
+  
+</homeAssets>

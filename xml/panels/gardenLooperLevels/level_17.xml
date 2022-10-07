@@ -1,0 +1,13 @@
+<level>
+	<rosettaStartMessage>Make sure you close your pixie dust loops up tight!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>
+	<objective>Capture 6 ###petal1### petals, 8 ###petal2### petals and 10 ###petal3### petals!</objective>
+	
+	<randomPetalConfig>6-8,8-8,10-8</randomPetalConfig>
+	<multiplierChance>8</multiplierChance>
+	<bees>2</bees>
+	<petalspeed min="1" max="3"/>
+	<powerups stopwind="1" extratime="2" removebees="1"/>
+	<timeLimit>40</timeLimit>
+</level>

@@ -1,0 +1,99 @@
+<zone>
+  <name>Knothole Nest</name>
+  <zoneID>701</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>home_music_animal</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <layers>
+    <layer type="normal" width="6210" height="3712">
+      <image x="2700" y="1614">../home1/background_04.swf</image>
+    </layer>
+    <layer type="ground" width="7714" height="4671">
+      <image x="3354" y="2031">../home1/action_03.swf</image>
+    </layer>
+    <layer type="normal" width="9315" height="6210">
+      <image x="4050" y="2700">../home1/dust_02.swf</image>
+    </layer>
+    <layer type="normal" width="8280" height="5706">
+      <image x="3600" y="2481">../home1/foreground_01.swf</image>
+    </layer>
+  </layers>
+  <locations>
+	<location x="3934" y="2359">default</location>
+    <location x="3784" y="2431">frontDoor</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>home_music_animal</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.1855</volumeHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  <validArea type="polygon">    
+    <vertex x="3440" y="2205"/>
+    <vertex x="4390" y="2205"/>
+    <vertex x="4390" y="2580"/>
+    <vertex x="3440" y="2580"/>
+  </validArea>
+  
+  <rooms>
+    
+    <room index="1" x="3889" y="2401">
+      
+      <bounds type="box">
+        
+        <left>3479</left>
+        
+        <right>4365</right>
+        
+        <top>2270</top>
+        
+        <bottom>2571</bottom>
+        
+      </bounds>
+      
+      <nearPlane>
+        
+        <left>3484</left>
+        
+        <right>4264</right>
+        
+        <top>2245</top>
+        
+        <bottom>2596</bottom>
+        
+      </nearPlane>
+      
+      <farPlane>
+        
+        <left>3579</left>
+        
+        <right>4169</right>
+        
+        <top>2245</top>
+        
+        <bottom>2487</bottom>
+        
+      </farPlane>
+      
+    </room>
+    
+  </rooms>
+  
+  <decorations/>
+  
+</zone>

@@ -1,0 +1,469 @@
+<panelSet>
+
+	<panels>
+
+		<panel id="leftSideStatic" x="0" y="0"  alwaysOnBottom="true" transition="none">{publishPanelData}/bg_nt.xml</panel>
+
+		<panel id="blog" x="175" y="125" transition="none" stream="true">{publishPanelData}/hub_blog.xml</panel>
+
+		<panel id="events" x="235" y="440" transition="none" stream="true">{publishPanelData}/hub_promotall.xml</panel>
+
+		<panel id="createdbyyou" x="575" y="440" transition="none" stream="true">{publishPanelData}/hub_promotall.xml</panel>
+
+		<panel id="membership" x="235" y="680" transition="none" stream="true">{publishPanelData}/hub_promoshort.xml</panel>
+
+		<panel id="gallery" x="575" y="680" transition="none" stream="true">{publishPanelData}/hub_promoshort.xml</panel>
+
+		<panel id="downloads" x="245" y="815" transition="none" stream="true">{publishPanelData}/hub_downloads.xml</panel>
+
+		<panel id="poll" x="20" y="580" transition="none" stream="true">{publishPanelData}/hub_basepromo.xml</panel>
+
+		<panel id="surveypopup" x="240" y="140" hidden="true" interfaceItem="true">{publishPanelData}/surveyPopup.xml</panel>
+
+
+
+	</panels>
+
+	<config>
+
+		<disneyFairiesLink>true</disneyFairiesLink>
+
+		<WebAppRequest>fairy_page</WebAppRequest>
+
+		<headercontrols>false</headercontrols>
+
+		<trackingid>communityhome</trackingid>
+
+		<regionid>community</regionid>
+
+		<sectionid>community</sectionid>
+
+		<pageid>communityhub</pageid>
+
+		<menu>
+
+			<title>
+
+				<text>menutitle</text>
+
+				<subtext>menusubtitle</subtext>
+
+				<!--channel>home.htm</channel-->       
+
+			</title>
+
+		</menu>
+
+		
+
+		<blog>
+
+			<renderFrameOffset>0</renderFrameOffset>
+
+			<pagetracking>communityhome</pagetracking>
+
+			<title>blogtitle</title>
+
+			<!--rssfeedpath><![CDATA[http://blog.pixiehollow.go.com/blog/main/feed2/entries/atom?numEntries=1]]></rssfeedpath-->
+
+			<rssFeedParams><![CDATA[?numEntries=1]]></rssFeedParams>
+
+			<rsshtmlpaths>
+
+					<news>nevernews.html</news>
+
+					<events>events.html</events>
+
+					<knownissues>knownissues.html</knownissues>
+
+				</rsshtmlpaths>
+
+			<promos promobtnspace="-35"  promobtnxOffset="170">
+
+				<promo x="35" y="75">
+
+					<renderFrameOffset>0</renderFrameOffset>
+
+		            <path>{publishPanelImages}/nevernews/2011_September_13.png</path>
+
+					<url>http://blog.pixiehollow.go.com/blog/</url>
+
+					<trackingid>39</trackingid>
+
+					<texts>
+
+						<text x="310" y="5" font="header" id="header">blogheader</text>
+
+						<!--<text x="310" y="5" font="header_small" id="header">blogheader</text>-->
+
+						<text x="310" y="45" font="content" id="blogdate">blogdate</text>
+
+						<text x="310" y="70" font="content" id="blogcopy">blogcopy</text>
+
+					</texts>
+
+				</promo>
+
+			</promos>
+
+			<buttons>
+
+				<button x="470" y="210">
+
+					<url>http://blog.pixiehollow.go.com/blog/</url>
+
+					<text>blogbtn</text>
+
+					<trackingid>39</trackingid>
+
+				</button>
+
+			</buttons>
+
+		</blog>
+
+		
+
+		
+
+		<events>
+
+			<renderFrameOffset>0</renderFrameOffset>
+
+			<title>eventstitle</title>
+
+			<corners tl="true" tr="false" bl="false" br="true" />
+
+			<promos promobtnspace="-35"  promobtnxOffset="170">
+
+				<promo x="2" y="0">
+
+					<renderFrameOffset>0</renderFrameOffset>
+
+					<!--path>swf/site/media/promos/FireFly_Festival.swf</path-->
+
+					<!--<path>{publishPanelImages}/events/Snapshots_from_the_hollow.png</path>-->
+					
+					<path>{publishPanelImages}/events/Pod_Images/POD_sportsCamp.png</path>
+
+					<url>http://pixiehollow.go.com/events.html</url>
+
+					<trackingid>20</trackingid>
+
+				</promo>
+
+			</promos>
+
+		</events>
+
+		
+
+		<createdbyyou>
+
+			<renderFrameOffset>0</renderFrameOffset>
+
+			<title>createdbyyoutitle</title>
+
+			<corners tl="false" tr="true" bl="true" br="false" />
+
+			<promos promobtnspace="-35"  promobtnxOffset="170">
+
+				<promo x="2" y="0">
+
+					<renderFrameOffset>0</renderFrameOffset>
+
+					<!--path>swf/site/media/promos/FireFly_Festival.swf</path-->
+
+					<path>{publishPanelMedia}/promos/Share_Your_Creativity_image.swf</path>
+
+					<channel>{publishPanelSetData}/ugc_types.xml</channel>
+
+					<trackingid>49</trackingid>
+
+				</promo>
+
+			</promos>
+
+		</createdbyyou>
+
+		
+
+		<membership>
+
+			<renderFrameOffset>0</renderFrameOffset>
+
+			<title>membershiptitle</title>
+
+			<corners tl="false" tr="false" bl="true" br="false" />
+
+			<promos promobtnspace="-35"  promobtnxOffset="170">
+
+				<promo x="2" y="0">
+
+					<renderFrameOffset>0</renderFrameOffset>
+
+					<!--path>swf/site/media/promos/FireFly_Festival.swf</path-->
+
+					<path>{publishPanelMedia}/promos/Membership_image.swf</path>
+
+					<channel>{publishPanelSetData}/membershiphub.xml</channel>
+
+					<trackingid>40</trackingid>
+
+				</promo>
+
+			</promos>
+
+		</membership>
+
+		<gallery>
+
+			<renderFrameOffset>0</renderFrameOffset>
+
+			<title>gallerytitle</title>
+
+			<corners tl="false" tr="true" bl="false" br="false" />
+
+			<promos promobtnspace="-35"  promobtnxOffset="170">
+
+				<promo x="2" y="0">
+
+					<renderFrameOffset>0</renderFrameOffset>
+
+					<!--path>swf/site/media/promos/FireFly_Festival.swf</path-->
+
+					<path>{publishPanelImages}/Art_by_you_2.png</path>
+
+					<channel>{publishPanelSetData}/ugc_gallery.xml</channel>
+
+					<trackingid>21</trackingid>
+
+				</promo>
+
+			</promos>
+
+		</gallery>
+
+		<poll>
+
+			<renderFrameOffset>17</renderFrameOffset>
+
+			<promos>
+
+				<promo x="45" y="0">
+				<!--<promo x="0" y="0">-->
+				
+					<renderFrameOffset>0</renderFrameOffset>
+
+					<!--<path>{publishPanelImages}/pixie_poll_sm_2.png</path>-->
+					<!--<url>http://pixiehollow.go.com/calendar.html</url>-->
+					<url>http://pixiehollow.go.com/contests_home.html</url>
+					<path>{publishPanelImages}/prospect/how_will_you_train_button_community.png</path>
+					
+					<!--<channel>{publishPanelSetData}/pixiePolls.xml</channel>-->
+
+					<trackingid>43</trackingid>
+
+				</promo>
+
+			</promos>
+
+			<buttons>
+					<button x="40" y="120">
+					<!--<button x="0" y="120">-->
+
+						<!--<channel>{publishPanelSetData}/pixiePolls.xml</channel>-->
+						<url>http://pixiehollow.go.com/contests_home.html</url>
+						<!--<url>http://pixiehollow.go.com/calendar.html</url>-->
+						
+
+						<text>pollsbtn</text>
+
+						<trackingid>43</trackingid>
+
+					</button>
+
+				</buttons>
+
+		</poll>
+
+		
+
+		<downloads>
+
+			<renderFrameOffset>0</renderFrameOffset>
+
+			<title>downloadstitle</title>
+
+			<promos promobtnspace="-35"  promobtnxOffset="170">
+
+				<promo x="-130" y="10">
+
+					<renderFrameOffset>0</renderFrameOffset>
+
+					<path>{publishPanelImages}/Downloads_Icon_2.png</path>
+
+					<channel>{publishPanelSetData}/downloads_archive.xml</channel>
+					<trackingid>41</trackingid>
+
+					<texts>
+
+						<text x="90" y="5" font="header">downloadspromo1txt1</text>
+
+						<!-- -->
+
+						<text x="90" y="35" font="content">downloadspromo1txt2</text>
+
+						
+
+					</texts>
+
+				</promo>
+
+				<promo x="135" y="10">
+
+					<renderFrameOffset>0</renderFrameOffset>
+
+					<path>{publishPanelImages}/Wallpaper_Icon.png</path>
+
+					<channel>{publishPanelSetData}/wallpapers.xml</channel>
+
+					<trackingid>24</trackingid>
+
+					<texts>
+
+						<text x="105" y="5" font="header">downloadspromo2txt1</text>
+
+						<!-- -->
+
+						<text x="105" y="35" font="content">downloadspromo2txt2</text>
+
+						
+
+					</texts>
+
+				</promo>
+
+				<promo x="355" y="10">
+
+					<renderFrameOffset>0</renderFrameOffset>
+
+					<path>{publishPanelImages}/Fun_For_Parents_Icon_2.png</path>
+
+					<channel>{publishPanelSetData}/downloads_archive.xml</channel>
+					<trackingid>41</trackingid>
+
+					<texts>
+
+						<text x="80" y="5" font="header">downloadspromo3txt1</text>
+
+						<!-- -->
+
+						<text x="80" y="35" font="content">downloadspromo3txt2</text>
+
+						
+
+					</texts>
+
+				</promo>
+
+			</promos>
+
+		</downloads>
+
+		
+
+
+
+	</config>
+
+	<copy>
+
+		<menutitle>Pixie Hollow Online World</menutitle>
+
+		<blogtitle><![CDATA[Never News Blog]]></blogtitle>
+
+		<eventstitle><![CDATA[Events]]></eventstitle>
+
+		<downloadstitle><![CDATA[Downloads]]></downloadstitle>
+
+			
+
+		<membershiptitle><![CDATA[Membership]]></membershiptitle>
+
+		<gallerytitle><![CDATA[Art Gallery]]></gallerytitle>
+
+		
+
+		<contesttitle>Contests</contesttitle>
+
+		<createdbyyoutitle>Your Voice</createdbyyoutitle>
+
+		
+
+		<ugc1>View Gallery</ugc1>
+
+		<ugc2>Submit</ugc2>
+
+		<!--<pollsbtn><![CDATA[Vote Now]]></pollsbtn>-->
+		<pollsbtn><![CDATA[Learn More]]></pollsbtn>
+
+		
+
+		<!-- BLOG COPY -->
+
+		<blogbtn><![CDATA[Read More]]></blogbtn>
+
+		<blogheader><![CDATA[Dishing With Dulcie]]></blogheader>
+
+		<blogdate><![CDATA[Updated June 25, 2009]]></blogdate>
+
+		<blogcopy><![CDATA[Today Tabby gave me a flitterific idea! She said it was about time for a one-on-one interview in the Never News, and she knew just who I should talk to - Dulcie...]]></blogcopy>
+
+		
+
+		<!-- END BLOG COPY -->
+
+		
+
+		<contestsbtn1>View Gallery</contestsbtn1>
+
+		
+
+		<downloadspromo1txt1><![CDATA[New Downloads]]></downloadspromo1txt1>
+
+		<downloadspromo1txt2><![CDATA[<a href="channel:downloads_archive.xml"><u>Read More</u></a>]]></downloadspromo1txt2>
+
+		
+
+		<downloadspromo2txt1><![CDATA[Wallpapers]]></downloadspromo2txt1>
+
+		<downloadspromo2txt2><![CDATA[<a href="channel:wallpapers.xml"><u> Download here</u></a>]]></downloadspromo2txt2>
+
+		
+
+		<downloadspromo3txt1><![CDATA[Fun For Parents]]></downloadspromo3txt1>
+
+		<downloadspromo3txt2><![CDATA[<a href="channel:downloads_archive.xml"><u>Read More</u></a>]]></downloadspromo3txt2>
+
+		
+
+		<nevernewspromo1txt1><![CDATA[The Great Firefly Light-Up!]]></nevernewspromo1txt1>
+
+		<nevernewspromo1txt2><![CDATA[December 16, 2008 - Fairies, have you heard the awful news?]]></nevernewspromo1txt2>
+
+		
+
+		<notlogin_header><![CDATA[test]]></notlogin_header>
+
+		<login_wf_header><![CDATA[Welcome Back, [name]!<br>]]></login_wf_header>
+
+		<login_wf_notyou><![CDATA[Not you? <a href="onLogout"><u>Click here!</u></a>]]></login_wf_notyou>
+
+		<login_nf_header><![CDATA[Welcome Back, [name]!<br>Click Play to create a Fairy]]></login_nf_header>
+
+		<login_nf_notyou><![CDATA[Not you? <a href="onLogout"><u>Click here!</u></a>]]></login_nf_notyou>
+
+	</copy>
+
+</panelSet>

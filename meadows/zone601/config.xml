@@ -1,0 +1,26 @@
+<zone>
+  <name>Havendish15%</name>
+  <zoneID>601</zoneID>
+  <assetURL/>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="2016" height="1400" locked="true">
+        <image x="0" y="0" type="none">HS_sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="2016" height="1400">
+        <image x="0" y="0" type="none">HS_far_02.swf</image>
+      </layer>
+      <layer type="ground" width="2319" height="1611">
+        <image x="0" y="0" type="merge">HS_action_15%_03.swf</image>
+      </layer>
+      <layer type="normal" width="2016" height="1400">
+        <image x="0" y="0" type="none">HS_foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  
+  
+  
+  
+  
+</zone>

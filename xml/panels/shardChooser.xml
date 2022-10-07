@@ -1,0 +1,22 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/shardChooser.swf</swf>
+		<swf type="code">{panelCode}/shardChooser.swf</swf>
+	</swfs>
+	<config></config>
+	<copy>
+		<realms target="realms">Servers</realms>
+		<realms_text target="realms_text">Please select a Server.</realms_text>
+		<view_more_text><![CDATA[<a href='event:text'><u>View All Servers</u></a>]]></view_more_text>
+		<view_recommended_text><![CDATA[<a href='event:text'><u>View Recommended Servers</u></a>]]></view_recommended_text>
+		<recommended_text target="recommended.recommended">Recommended:</recommended_text>
+		<toggleFullBtnCopy target="full.toggleButton.toggleCopy">Display servers when game starts.</toggleFullBtnCopy>
+		<toggleRecBtnCopy target="recommended.toggleButton.toggleCopy">Display servers when game starts.</toggleRecBtnCopy>
+		<quiet>Quiet</quiet>
+		<ideal>Ideal</ideal>
+		<crowded>Crowded</crowded>
+		<full>Full</full>
+		<current>Current</current>
+		<wildernessError>Sorry. You can't change servers when you are in the Wilderness.</wildernessError>
+	</copy>
+</panel>

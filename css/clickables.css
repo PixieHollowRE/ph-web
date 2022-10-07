@@ -1,0 +1,43 @@
+a:link  {
+	text-decoration: underline;
+}
+.pageTitle {   
+	font-family: Pristina-4FRTL; 
+	font-size: 40px;
+	color: #FFF04C;
+}
+.Header {   
+	font-family: Pristina-4FRTL; 
+	font-size: 28px;
+	color: #FFF04C;
+	leading: 10;
+}
+.title {   
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 14px;
+	color: #FFF04C;
+	margin-left: 44;
+	leading: 4;
+}
+.body {   
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-left: 60
+	leading: 4;
+}
+.letterPoint {   
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-left: 80
+	leading: 4;
+}
+.pageLink{   
+	font-family: Arial 4FRTL;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.remarkText{
+	color:  #FFEF4B;
+}

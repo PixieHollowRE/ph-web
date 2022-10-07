@@ -1,0 +1,40 @@
+﻿<panel>
+
+	<swfs>
+		<swf type="content">{panelContent}/meadowGameResults.swf</swf>
+		<swf type="code">{panelCode}/meadowGameResults.swf</swf>
+	</swfs>
+	<copy>
+		<waiting target="contentPanels.matchmakerholder.waitingCopyHolder.waitingCopy">Waiting for more players...</waiting>
+		<cancel target="waiting.cancelBtn.label">Cancel</cancel>
+		<notEnoughPlayers>Sorry, there aren't enough Fairies who want to play that game right now.</notEnoughPlayers>
+		<cancelMessage target="canceledDialog.copy" >Sorry, the game was canceled.</cancelMessage>
+		<confirmCancel>Do you really want to cancel your game?</confirmCancel>
+		<countDown target="contentPanels.matchmakerholder.countDownHolder.countdownHeader">Game will begin in:</countDown>
+		<joinYes target="contentPanels.joinRequestHolder.yesBtn.caption">Yes</joinYes>
+		<joinNo target="contentPanels.joinRequestHolder.noBtn.caption">No</joinNo>
+		<wantToJoin target="contentPanels.joinRequestHolder.wouldyouliketojoinCopy">Would you like to play?</wantToJoin>
+		<doneButton target="doneBtn.caption">Done</doneButton>
+		
+		<header target="header">Game Over</header>
+		
+		<resultsScreenBonus>Bonus!</resultsScreenBonus>
+		<resultsScreenPlayers>#PLAYERSCOUNT# Players!</resultsScreenPlayers>
+		
+		<resultsScreenWinner>Winner!</resultsScreenWinner>
+		<resultsSingularScreenPlayer>#SCORE# card left</resultsSingularScreenPlayer>
+		<resultsPluralScreenPlayer>#SCORE# cards left</resultsPluralScreenPlayer>
+		<ok>Okay</ok>	
+		<yes>Yes</yes>	
+		<no>No</no>
+		<done>Done</done>
+		<joinRejected>Sorry, this party game is already full.</joinRejected>
+		<triggerRejected>Oops, there seems to be a problem loading this party game, please try again later.</triggerRejected>
+		<matchCanceled>Sorry, the game was canceled.</matchCanceled>
+		<playerOffline>Offline</playerOffline>
+		
+	</copy>
+	<config>
+		<multiplayerResultsDelay>10</multiplayerResultsDelay>
+	</config>
+</panel>

@@ -1,0 +1,20 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/events.swf</swf>
+		<swf type="code">{publishPanelCode}/nevernews.swf</swf>
+	</swfs>
+	<copy>
+		<decoratorPageURL>publish/xml/content/events/page.xml</decoratorPageURL>
+		<noName><![CDATA[Please add your name before submitting]]></noName>
+		<noComment><![CDATA[Please add a comment before submitting]]></noComment>
+		<ok><![CDATA[OK]]></ok>
+		<genericError><![CDATA[This page is currently unavailable. Please try again later.]]></genericError>
+	</copy>
+	<config>
+		<trackingid>events</trackingid>
+		<blogURL><![CDATA[events]]></blogURL>
+		<cssURL><![CDATA[publish/xml/content/events/blog.css]]></cssURL>
+		<admins><![CDATA[SweetPea|Sweet Pea|Tabby|Marina|Kit|Sil|Dess|Tink|Rosetta|Fawn|Terence|Clank|Bobble|Dulcie|Bobbin|Mendy|Slate]]></admins>
+		<adminHighlight><![CDATA[0x639de4]]></adminHighlight>
+	</config>
+</panel>

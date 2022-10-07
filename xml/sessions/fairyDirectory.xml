@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<session>
+	<params>
+		<type>standalone</type>
+		<initialContent>{panelSetData}/fairyDirectory.xml</initialContent>
+		<sessionBackground>images/background_long.jpg</sessionBackground>
+		<copy>
+			<playbutton>Play!</playbutton>
+			<menutitle>Fairy Directory</menutitle>
+		</copy>
+		<menu>
+			<playbutton default="false">
+				<panel>login</panel>
+				
+			</playbutton>
+		</menu>
+		<sectionicons>swf/panel_content/section_icons.swf</sectionicons>
+		<queuepanel>queuing</queuepanel>
+	</params>
+</session>

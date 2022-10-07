@@ -1,0 +1,7 @@
+<panelSet>
+	<panels>
+		<panel id="MGDerbyCartRacing" x="0" y="0" transition="none">{panelData}/meadowgameDerbyCartRacing.xml</panel>
+	</panels>
+	<config></config>
+	<copy></copy>
+</panelSet>

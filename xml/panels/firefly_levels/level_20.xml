@@ -1,0 +1,94 @@
+<level>
+
+<!-- This level has two chasing-type moths that
+ hang out near the lights , people need to be
+ quick and/or dodge well to avoid them and get
+ to the fireflies. -->
+
+	<light x = "95" y = "253">blue</light>
+	<light x = "783" y = "253">yellow</light>
+
+<!-- moth #1 of 2 -->
+	<firefly image="moth">
+		<path>
+			<point x="200" y="178" />
+			<point x="250" y="253" />
+			<point x="200" y="328" />
+			<point x="250" y="253" />		
+		</path>
+		<speed>6</speed>
+		<turnspeed>0.25</turnspeed>
+		<type>moth</type>	
+		<attract>15</attract>
+	</firefly>
+
+<!-- moth #2 of 2 -->
+	<firefly image="moth">
+		<path>
+			<point x="678" y="328" />
+			<point x="638" y="253" />
+			<point x="678" y="178" />
+			<point x="638" y="253" />		
+		</path>
+		<speed>6</speed>
+		<turnspeed>0.25</turnspeed>
+		<type>moth</type>	
+		<attract>15</attract>
+	</firefly>
+
+<!-- firefly #1 of 4 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="200" y="78" />
+			<point x="589" y="103" />
+			<point x="678" y="428" />
+			<point x="289" y="403" />			
+		</path>
+		<drift>0</drift>
+		<jitter>0</jitter>
+		<speed>5</speed>
+		<turnspeed>0.1</turnspeed>		
+	</firefly>
+
+<!-- firefly #2 of 4 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="678" y="78" />
+			<point x="289" y="103" />
+			<point x="200" y="428" />
+			<point x="589" y="403" />
+		</path>
+		<drift>0</drift>
+		<jitter>0</jitter>
+		<speed>5</speed>
+		<turnspeed>0.1</turnspeed>		
+	</firefly>
+
+<!-- firefly #3 of 4 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="200" y="428" />
+			<point x="589" y="403" />
+			<point x="678" y="78" />
+			<point x="289" y="103" />
+		</path>
+		<drift>0</drift>
+		<jitter>0</jitter>
+		<speed>5</speed>
+		<turnspeed>0.1</turnspeed>		
+	</firefly>
+
+<!-- firefly #4 of 4 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="678" y="428" />
+			<point x="289" y="403" />
+			<point x="200" y="78" />
+			<point x="589" y="103" />
+		</path>
+		<drift>0</drift>
+		<jitter>0</jitter>
+		<speed>5</speed>
+		<turnspeed>0.1</turnspeed>		
+	</firefly>
+</level>

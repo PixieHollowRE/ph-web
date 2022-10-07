@@ -1,0 +1,22 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/boardPost.swf</swf>
+		<swf type="code">{panelCode}/boardPost.swf</swf>
+	</swfs>
+	<copy>
+		<text target="leaf1.close.caption">Close</text>
+		<text target="leaf2.close.caption">Close</text>
+		<text target="leaf3.close.caption">Close</text>
+		<text target="leaf4.close.caption">Close</text>
+		<text target="leaf5.close.caption">Close</text>
+		<text target="leaf6.close.caption">Close</text>
+		<text target="leaf7.close.caption">Close</text>
+		<confirmLeave>You will leave Pixie Hollow if you follow this link. Are you sure you would like to leave?</confirmLeave>
+		<leave>Leave</leave>
+		<stay>Stay</stay>
+	</copy>
+	<config>
+		<numOfLeaves>21</numOfLeaves>
+		<sheet>publish/xml/content/pixieposting/newsformat.css</sheet>
+	</config>
+</panel>

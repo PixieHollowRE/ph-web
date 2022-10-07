@@ -1,0 +1,937 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/buttonSearch.swf</swf>
+		<swf type="code">{panelCode}/buttonSearch.swf</swf>
+	</swfs>
+	<copy>
+		<title target="title.title.heading">Button Search</title>
+    <level>Level</level>
+		<score>Score</score>
+  	<play_button target="title.btnContainer.playBtn.caption">Play!</play_button>
+		<help_button target="title.btnContainer.helpBtn.caption">Instructions</help_button>
+		<quit_button target="title.btnContainer.quitBtn.caption">Exit</quit_button>
+
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">How to Play</inst_screen_title>
+		<inst_quit_button target="instructions.btnContainer.quitBtn.caption">Quit</inst_quit_button>
+		<inst_cont_button target="instructions.btnContainer.continueBtn.caption">Continue</inst_cont_button>
+		<inst_play_button target="instructions.btnContainer.playBtn.caption">Play</inst_play_button>
+		
+		<instruction0>Locate the buttons you need to find.</instruction0>
+		<instruction1>Click and drag the buttons you need into the pink pouch and drop them in.</instruction1>
+		<instruction2>Find all the buttons you need before time runs out!</instruction2>
+		<instruction3>If you get stuck, use the hint button for some help.</instruction3>
+		
+        <!-- note the score numbers are currently hardcoded in the code file rather pulled from here -->
+		<win_gold>Awesome Job!</win_gold>
+		<win_gold_min>96</win_gold_min>
+		<win_silver>Great Job!</win_silver>
+		<win_silver_min>81</win_silver_min>
+		<win_bronze>Good Job!</win_bronze>
+		<win_bronze_min>61</win_bronze_min>
+		<fail>Nice Try!</fail>
+	
+		<quit_confirm_question>Are you sure you want to give up?</quit_confirm_question>
+		<quit_confirm_yes>Yes</quit_confirm_yes>
+		<quit_confirm_no>No</quit_confirm_no>
+		
+		<title>Tailoring</title>
+		<subtitle>Button Search</subtitle>
+		<leftHeading>Outfit top</leftHeading>
+		<leftSubHeading>Outfit bottom</leftSubHeading>
+		<rightHeading>stuff top</rightHeading>
+		<rightSubHeading>stuff bottom</rightSubHeading>
+		<chance>CHANCES</chance>
+		<score>SCORE</score>
+    <goal>Find:</goal>
+    <hint>HINT</hint>
+
+    <!-- Fairy Comments -->
+		<place_correct_Bobbin_1>Right on the button!</place_correct_Bobbin_1>
+		<place_correct_Mendy_1>Yes, that's quite correct!</place_correct_Mendy_1>
+		<place_correct_Bobbin_2>Wonderful!</place_correct_Bobbin_2>
+		<place_correct_Mendy_2>Excellent work!</place_correct_Mendy_2>
+		<place_correct_Bobbin_3>You're good at button finding!</place_correct_Bobbin_3>
+		<place_correct_Mendy_3>We have a real eye for finding buttons!</place_correct_Mendy_3>
+		<place_correct_Bobbin_4>You're doing great, keep going!</place_correct_Bobbin_4>
+		<place_correct_Mendy_4>That's one button closer!</place_correct_Mendy_4>
+
+		<place_wrong_Bobbin_1>Nope nope, try it again!</place_wrong_Bobbin_1>
+		<place_wrong_Mendy_1>Close but not quite. Let's try again!</place_wrong_Mendy_1>
+		<place_wrong_Bobbin_2>I know ya can figure out where the right button is!</place_wrong_Bobbin_2>
+		<place_wrong_Mendy_2>Let's look carefully. Where could that button be?</place_wrong_Mendy_2>
+
+		<place_wrong_Bobbin_3>Tricky, eh?</place_wrong_Bobbin_3>
+		<place_wrong_Mendy_3>Look really carefully!</place_wrong_Mendy_3>
+		<place_wrong_Bobbin_4>Are ya really sure that looks right?</place_wrong_Bobbin_4>
+		<place_wrong_Mendy_4>Hmmm... Let's think about that one again.</place_wrong_Mendy_4>
+		
+		<timer_start_Bobbin_1>Get ready, here come the buttons!</timer_start_Bobbin_1>
+		<timer_start_Mendy_1>Here comes our next selection!</timer_start_Mendy_1>
+		<timer_start_Bobbin_2>Time to start searching!</timer_start_Bobbin_2>
+		<timer_start_Mendy_2>It's time to find our buttons!</timer_start_Mendy_2>
+
+		<hint_Bobbin_1>Need help? Try this!</hint_Bobbin_1>
+		<hint_Mendy_1>Here's a bit of a hint.</hint_Mendy_1>
+		<hint_Bobbin_2>This ought to help!</hint_Bobbin_2>
+		<hint_Mendy_2>This should help, my dear.</hint_Mendy_2>
+		<!-- Game Over Dialogue -->
+		<gameOverTitle>Done!</gameOverTitle>
+		<gameOverMoreTitle>Keep Going!</gameOverMoreTitle> 
+		<gameOverQuitMessage>Continue</gameOverQuitMessage>
+
+		<next_level_Bobbin_1>Don't stop now! Ya got more to do!</next_level_Bobbin_1>
+		<next_level_Mendy_1>We have no time to waste, my dear. On to find more buttons!</next_level_Mendy_1>
+		
+		<last_level_Bobbin_1>Whew! Last pattern, coming up!</last_level_Bobbin_1>
+		<last_level_Mendy_1>These are last buttons we need. Let us finish in style!</last_level_Mendy_1>
+
+		<end_poor_Bobbin_1>Um-hmm-well, good try! I betcha you'll find the buttons better next time!</end_poor_Bobbin_1>
+		<end_poor_Mendy_1>Let's continue, shall we? We'll find those buttons better next time I'm sure, my dear.</end_poor_Mendy_1>
+		<end_poor_Bobbin_2>Keep trying! You'll get better at finding buttons, I know ya will!</end_poor_Bobbin_2>
+		<end_poor_Mendy_2>We tried our best, didn't we, my dear? And remember, we can always try button search again!</end_poor_Mendy_2>
+		<end_poor_Bobbin_3>Keep thinking happy thoughts! I know ya can find buttons better next time!</end_poor_Bobbin_3>
+		<end_poor_Mendy_3>Let's not lose heart. Finding buttons gets easier with practice, my dear, truly it does.</end_poor_Mendy_3>
+		<end_poor_Bobbin_4>All it takes is a teensy bit more practice, and then you'll find buttons like a pro!</end_poor_Bobbin_4>
+		<end_poor_Mendy_4>Finding those buttons sure can be a real challenge. There's always next time to do better, my dear!  </end_poor_Mendy_4>
+		
+		<end_good_Bobbin_1>Nice job! Have ya looked for these buttons before?</end_good_Bobbin_1>
+		<end_good_Mendy_1>Not bad button searching, my dear, not bad at all!</end_good_Mendy_1>
+		<end_good_Bobbin_2>Hey-oh! Nice button searching!</end_good_Bobbin_2>
+		<end_good_Mendy_2>Our button searching skills are improving, my dear. Well done!</end_good_Mendy_2>
+		<end_good_Bobbin_3>Well, you're good with this button searching stuff!</end_good_Bobbin_3>
+		<end_good_Mendy_3>Mmm, we certainly have quite a knack for finding buttons, don't we?</end_good_Mendy_3>
+		<end_good_Bobbin_4>Ya know, you're awful good with this button finding stuff!</end_good_Bobbin_4>
+		<end_good_Mendy_4>Splendid job, my dear. We're on our way to finding all the buttons we need!</end_good_Mendy_4>
+		
+		<end_great_Bobbin_1>Wow-wee! Ya sure you're not a button expert?</end_great_Bobbin_1>
+		<end_great_Mendy_1>It looks as if we have quite a touch for button searching!</end_great_Mendy_1>
+		<end_great_Bobbin_2>I'd call that a pretty button-tastic job! Ya did great!</end_great_Bobbin_2>
+		<end_great_Mendy_2>We're quite impressed! Quite impressed indeed.</end_great_Mendy_2>
+		<end_great_Bobbin_3>You've been practicing, haven't ya? I knew it! Great job!</end_great_Bobbin_3>
+		<end_great_Mendy_3>We feel so proud. This is quite splendid work!</end_great_Mendy_3>
+		<end_great_Bobbin_4>What button-rific work! I'm not sure I could have done better myself!</end_great_Bobbin_4>
+		<end_great_Mendy_4>We've been practicing our button searching, haven't we? Lovely work!</end_great_Mendy_4>
+		
+		<end_awesome_Bobbin_1>Okay, I mean it - you're sure you're not a button detective?</end_awesome_Bobbin_1>
+		<end_awesome_Mendy_1>My dear, what utterly amazing button finding skills we have!</end_awesome_Mendy_1>
+		<end_awesome_Bobbin_2>Ya sure finished finding those buttons in a flit! Great job!</end_awesome_Bobbin_2>
+		<end_awesome_Mendy_2>This just goes to show that practice does make perfect, doesn't it?</end_awesome_Mendy_2>
+		<end_awesome_Bobbin_3>I think you're a button searching master! </end_awesome_Bobbin_3>
+		<end_awesome_Mendy_3>Truly astounding, my dear!  We couldn't have found those buttons better!</end_awesome_Mendy_3>
+		<end_awesome_Bobbin_4>Pleat my wings, you're a button searching wonder!</end_awesome_Bobbin_4>
+		<end_awesome_Mendy_4>We simply adore your work! Superb job!</end_awesome_Mendy_4>
+	</copy>
+	<config>
+    <colorPalette>3</colorPalette>
+    <colors>
+      <color color_id="1" color_tags="red">255 0 0</color>
+      <color color_id="2" color_tags="orange">255 102 0</color>
+      <color color_id="3" color_tags="yellow">255 255 0</color>
+      <color color_id="4" color_tags="lt_blue">0 153 255</color>
+      <color color_id="5" color_tags="dk_blue">0 0 255</color>
+      <color color_id="6" color_tags="lt_green">153 255 0</color>
+      <color color_id="7" color_tags="dk_green">0 255 0</color>
+      <color color_id="8" color_tags="purple">102 0 153</color>
+    </colors>
+    <levels>
+      <level num="1" time="60" max="25" radiusMin="30" radiusMax="30" overlap=".10" hints="5">
+        <buttons>
+          <button id="1" clip="bead_type_B0" color="3" tint=".65"/>
+          <button id="2" clip="bead_type_D0" color="8" tint=".20"/>
+          <button id="3" clip="bead_type_G0" color="5" tint=".20"/>
+          <button id="4" clip="button_type_B0" color="4" tint=".25"/>
+          <button id="5" clip="button_type_C0" color="1" tint=".35"/>
+          <button id="6" clip="button_type_C1" color="2" tint=".50"/>
+          <button id="7" clip="button_type_D1" color="6" tint=".25"/>
+        </buttons>
+        <targets>
+          <target id="1" total="3" iconScale=".60"/>
+        </targets>
+      </level>
+ 
+      <level num="2" time="60" max="25" radiusMin="30" radiusMax="30" overlap=".10" hints="5">
+        <buttons>
+            <button id="1" clip="button_type_D0" color="4" tint=".25"/>
+            <button id="2" clip="button_type_B0" color="1" tint=".45"/>
+            <button id="3" clip="button_type_A0" color="3" tint=".65"/>
+            <button id="4" clip="button_type_C1" color="6" tint=".25"/>
+            <button id="5" clip="button_type_C0" color="2" tint=".50"/>
+            <button id="6" clip="button_type_A1" color="7" tint=".25"/>
+            <button id="7" clip="bead_type_E0" color="8" tint=".25"/>
+            <button id="8" clip="bead_type_G0" color="7" tint=".20"/>
+         </buttons>
+         <targets>
+          <target id="1" total="4" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="3" time="60" max="30" radiusMin="30" radiusMax="30" overlap=".10" hints="5">
+        <buttons>
+            <button id="1" clip="bead_type_D0" color="8" tint=".25"/>
+            <button id="2" clip="bead_type_A1" color="2" tint=".10"/>
+            <button id="3" clip="bead_type_F0" color="4" tint=".10"/>
+            <button id="4" clip="button_type_C1" color="3" tint=".55"/>
+            <button id="5" clip="button_type_B0" color="1" tint=".45"/>
+            <button id="6" clip="button_type_A0" color="4" tint=".25"/>
+            <button id="7" clip="button_type_A1" color="7" tint=".25"/>
+            <button id="8" clip="button_type_D0" color="2" tint=".35"/>
+         </buttons>
+        <targets>
+          <target id="1" total="4" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="4" time="60" max="30" radiusMin="25" radiusMax="30" overlap=".10" hints="5">
+        <buttons>
+            <button id="1" clip="button_type_D0" color="1" tint=".35"/>
+            <button id="2" clip="button_type_C1" color="6" tint=".25"/>
+            <button id="3" clip="button_type_C0" color="2" tint=".50"/>
+            <button id="4" clip="button_type_A1" color="3" tint=".65"/>
+            <button id="6" clip="button_type_A0" color="4" tint=".25"/>
+            <button id="5" clip="bead_type_A1" color="1" tint=".10"/>
+            <button id="6" clip="bead_type_E0" color="8" tint=".25"/>
+            <button id="7" clip="bead_type_G0" color="7" tint=".20"/>
+            <button id="8" clip="bead_type_B0" color="8" tint=".55"/>
+         </buttons>
+        <targets>
+          <target id="1" total="4" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="5" time="55" max="30" radiusMin="25" radiusMax="30" overlap=".10" hints="5">
+        <buttons>
+            <button id="1" clip="bead_type_G0" color="7" tint=".20"/>
+            <button id="2" clip="bead_type_A1" color="2" tint=".10"/>
+            <button id="3" clip="button_type_D0" color="3" tint=".65"/>
+            <button id="4" clip="button_type_C1" color="3" tint=".55"/>
+            <button id="5" clip="button_type_B0" color="1" tint=".45"/>
+            <button id="6" clip="button_type_A0" color="4" tint=".25"/>
+            <button id="7" clip="button_type_A1" color="8" tint=".25"/>
+            <button id="8" clip="button_type_D0" color="2" tint=".55"/>
+            <button id="9" clip="button_type_B1" color="4" tint=".25"/>
+        </buttons>
+        <targets>
+          <target id="1" total="5" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="6" time="55" max="30" radiusMin="25" radiusMax="30" overlap=".10" hints="5">
+        <buttons>
+          <button id="1" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="2" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="3" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="4" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="5" clip="button_type_B1" color="6" tint=".25"/>
+          <button id="6" clip="button_type_C1" color="3" tint=".55"/>
+          <button id="7" clip="button_type_C0" color="2" tint=".50"/>
+          <button id="8" clip="bead_type_A1" color="8" tint=".10"/>
+          <button id="9" clip="bead_type_G0" color="7" tint=".20"/>
+          <button id="10" clip="bead_type_B0" color="8" tint=".55"/>
+        </buttons>
+        <targets>
+          <target id="1" total="5" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="7" time="55" max="35" radiusMin="25" radiusMax="30" overlap=".10" hints="5">
+        <buttons>
+          <button id="1" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="2" clip="button_type_C0" color="5" tint=".25"/>
+          <button id="3" clip="button_type_D1" color="3" tint=".65"/>
+          <button id="4" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="5" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="6" clip="button_type_A1" color="4" tint=".20"/>
+          <button id="7" clip="button_type_C0" color="7" tint=".25"/>
+          <button id="8" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="9" clip="button_type_D1" color="2" tint=".55"/>
+          <button id="10" clip="bead_type_A1" color="1" tint=".10"/>
+          <button id="11" clip="bead_type_D0" color="8" tint=".25"/>
+          <button id="12" clip="bead_type_B0" color="3" tint=".15"/>
+        </buttons>
+        <targets>
+          <target id="1" total="5" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="8" time="55" max="35" radiusMin="25" radiusMax="30" overlap=".10" hints="5">
+        <buttons>
+          <button id="1" clip="bead_type_B0" color="7" tint=".25"/>
+          <button id="2" clip="bead_type_E0" color="8" tint=".25"/>
+          <button id="3" clip="bead_type_A1" color="2" tint=".10"/>
+          <button id="4" clip="bead_type_G0" color="4" tint=".20"/>
+          <button id="5" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="6" clip="button_type_C0" color="8" tint=".35"/>
+          <button id="7" clip="button_type_D0" color="3" tint=".65"/>
+          <button id="8" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="9" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="10" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="11" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="12" clip="button_type_D1" color="5" tint=".20"/>
+        </buttons>
+        <targets>
+          <target id="1" total="6" iconScale=".60"/>
+        </targets>
+      </level>
+
+       <level num="9" time="50" max="35" radiusMin="25" radiusMax="30" overlap=".15" hints="5">
+        <buttons>
+          <button id="1" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="2" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="3" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="4" clip="button_type_D1" color="2" tint=".55"/>
+          <button id="5" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="6" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="7" clip="button_type_C0" color="2" tint=".50"/>
+          <button id="8" clip="button_type_A1" color="3" tint=".65"/>
+          <button id="9" clip="button_type_C0" color="7" tint=".25"/>
+          <button id="10" clip="button_type_B1" color="4" tint=".25"/>
+          <button id="11" clip="bead_type_A0" color="6" tint=".10"/>
+          <button id="12" clip="bead_type_C0" color="4" tint=".10"/>
+          <button id="13" clip="bead_type_B0" color="1" tint=".35"/>
+          <button id="14" clip="bead_type_E0" color="1" tint=".35"/>
+        </buttons>
+        <targets>
+          <target id="1" total="6" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="10" time="60" max="40" radiusMin="25" radiusMax="30" overlap=".15" hints="5">
+        <buttons>
+          <button id="1" clip="bead_type_B0" color="8" tint=".25"/>
+          <button id="2" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="3" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="4" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="5" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="6" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="7" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="8" clip="button_type_A1" color="2" tint=".55"/>
+          <button id="9" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="10" clip="button_type_D0" color="2" tint=".55"/>
+          <button id="11" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="12" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="13" clip="button_type_C1" color="2" tint=".50"/>
+          <button id="14" clip="bead_type_C0" color="5" tint=".20"/>
+          <button id="15" clip="bead_type_B0" color="5" tint=".15"/>
+          <button id="16" clip="bead_type_F0" color="4" tint=".10"/>
+          <button id="17" clip="bead_type_G0" color="5" tint=".20"/>
+          <button id="18" clip="bead_type_A0" color="6" tint=".10"/>
+        </buttons>
+        <targets>
+          <target id="1" total="4" iconScale=".60"/>
+          <target id="2" total="4" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="11" time="60" max="45" radiusMin="20" radiusMax="30" overlap=".20" hints="4">
+        <buttons>
+          <button id="1" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="2" clip="bead_type_C0" color="1" tint=".20"/>
+          <button id="3" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="4" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="5" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="6" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="7" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="8" clip="button_type_A1" color="2" tint=".55"/>
+          <button id="9" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="10" clip="button_type_D0" color="2" tint=".55"/>
+          <button id="11" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="12" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="13" clip="button_type_C1" color="2" tint=".50"/>
+          <button id="14" clip="button_type_D1" color="3" tint=".70"/>
+          <button id="15" clip="button_type_A1" color="3" tint=".65"/>
+          <button id="16" clip="button_type_D0" color="3" tint=".65"/>
+          <button id="17" clip="button_type_C1" color="3" tint=".55"/>
+          <button id="18" clip="bead_type_B0" color="1" tint=".15"/>
+          <button id="19" clip="bead_type_E0" color="1" tint=".30"/>
+          <button id="20" clip="bead_type_G0" color="1" tint=".20"/>
+        </buttons>
+        <targets>
+          <target id="1" total="4" iconScale=".25"/>
+          <target id="2" total="5" iconScale=".60"/>
+        </targets>
+      </level>
+
+      <level num="12" time="55" max="45" radiusMin="20" radiusMax="30" overlap=".20" hints="4">
+        <buttons>
+          <button id="1" clip="button_type_D0" color="2" tint=".55"/>
+          <button id="2" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="3" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="4" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="5" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="6" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="7" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="8" clip="button_type_A1" color="5" tint=".25"/>
+          <button id="9" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="10" clip="button_type_D1" color="3" tint=".70"/>
+          <button id="11" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="12" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="13" clip="button_type_C1" color="7" tint=".25"/>
+          <button id="14" clip="bead_type_B0" color="8" tint=".25"/>
+          <button id="15" clip="bead_type_C0" color="5" tint=".20"/>
+          <button id="16" clip="bead_type_B0" color="5" tint=".15"/>
+          <button id="17" clip="bead_type_F0" color="4" tint=".10"/>
+          <button id="18" clip="bead_type_G0" color="5" tint=".20"/>
+          <button id="19" clip="bead_type_A0" color="6" tint=".10"/>
+          <button id="20" clip="bead_type_D0" color="8" tint=".25"/>
+        </buttons>
+        <targets>
+          <target id="1" total="5" iconScale=".25"/>
+          <target id="2" total="5" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="13" time="50" max="45" radiusMin="20" radiusMax="30" overlap=".25" hints="4">
+        <buttons>
+          <button id="1" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="2" clip="bead_type_E0" color="8" tint=".55"/>
+          <button id="3" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="4" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="5" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="6" clip="button_type_B1" color="6" tint=".25"/>
+          <button id="7" clip="button_type_C1" color="3" tint=".55"/>
+          <button id="8" clip="button_type_C0" color="2" tint=".50"/>
+          <button id="9" clip="button_type_D0" color="3" tint=".65"/>
+          <button id="10" clip="button_type_C1" color="4" tint=".30"/>
+          <button id="11" clip="button_type_B0" color="7" tint=".25"/>
+          <button id="12" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="13" clip="button_type_A1" color="6" tint=".25"/>
+          <button id="14" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="15" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="16" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="17" clip="bead_type_A1" color="8" tint=".10"/>
+          <button id="18" clip="bead_type_G0" color="7" tint=".20"/>
+          <button id="19" clip="bead_type_D0" color="5" tint=".20"/>
+          <button id="20" clip="bead_type_C0" color="4" tint=".10"/>
+        </buttons>
+        <targets>
+          <target id="1" total="5" iconScale=".25"/>
+          <target id="2" total="6" iconScale=".60"/>
+        </targets>
+      </level>
+
+      <level num="14" time="45" max="45" radiusMin="20" radiusMax="30" overlap=".25" hints="4">
+        <buttons>
+          <button id="1" clip="bead_type_A0" color="6" tint=".10"/>
+          <button id="2" clip="button_type_C1" color="3" tint=".55"/>
+          <button id="3" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="4" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="5" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="6" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="7" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="8" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="9" clip="button_type_A1" color="2" tint=".55"/>
+          <button id="10" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="11" clip="button_type_D0" color="2" tint=".55"/>
+          <button id="12" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="13" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="14" clip="button_type_D1" color="3" tint=".70"/>
+          <button id="15" clip="button_type_A1" color="8" tint=".25"/>
+          <button id="16" clip="button_type_D0" color="3" tint=".65"/>
+          <button id="17" clip="button_type_C0" color="7" tint=".25"/>
+          <button id="18" clip="bead_type_E0" color="6" tint=".25"/>
+          <button id="19" clip="bead_type_G0" color="7" tint=".20"/>
+          <button id="20" clip="bead_type_B0" color="3" tint=".55"/>
+        </buttons>
+        <targets>
+          <target id="1" total="5" iconScale=".25"/>
+          <target id="2" total="6" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="15" time="45" max="45" radiusMin="20" radiusMax="32" overlap=".30" hints="4">
+        <buttons>
+          <button id="1" clip="bead_type_C0" color="6" tint=".25"/>
+          <button id="2" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="3" clip="button_type_B0" color="3" tint=".65"/>
+          <button id="4" clip="button_type_C1" color="5" tint=".25"/>
+          <button id="5" clip="button_type_D0" color="4" tint=".25"/>
+          <button id="6" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="7" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="8" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="9" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="10" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="11" clip="button_type_A1" color="2" tint=".55"/>
+          <button id="12" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="13" clip="button_type_D0" color="2" tint=".55"/>
+          <button id="14" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="15" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="16" clip="button_type_C1" color="2" tint=".50"/>
+          <button id="17" clip="bead_type_E0" color="5" tint=".20"/>
+          <button id="18" clip="bead_type_F0" color="4" tint=".10"/>
+          <button id="19" clip="bead_type_G0" color="5" tint=".20"/>
+          <button id="20" clip="bead_type_D0" color="2" tint=".55"/>
+        </buttons>
+        <targets>
+          <target id="1" total="6" iconScale=".60"/>
+          <target id="2" total="6" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="16" time="40" max="45" radiusMin="20" radiusMax="32" overlap=".30" hints="4">
+        <buttons>
+          <button id="1" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="2" clip="bead_type_G0" color="4" tint=".10"/>
+          <button id="3" clip="button_type_B0" color="3" tint=".65"/>
+          <button id="4" clip="button_type_C1" color="5" tint=".25"/>
+          <button id="5" clip="button_type_D0" color="4" tint=".25"/>
+          <button id="6" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="7" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="8" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="9" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="10" clip="button_type_A1" color="2" tint=".55"/>
+          <button id="11" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="12" clip="button_type_D0" color="2" tint=".55"/>
+          <button id="13" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="14" clip="button_type_C1" color="3" tint=".55"/>
+          <button id="15" clip="bead_type_C0" color="5" tint=".20"/>
+          <button id="16" clip="bead_type_D0" color="2" tint=".55"/>
+          <button id="17" clip="bead_type_B0" color="5" tint=".15"/>
+          <button id="18" clip="bead_type_A0" color="6" tint=".10"/>
+        </buttons>
+        <targets>
+          <target id="1" total="6" iconScale=".25"/>
+          <target id="2" total="6" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="17" time="60" max="45" radiusMin="20" radiusMax="32" overlap=".30" hints="4">
+        <buttons>
+          <button id="1" clip="button_type_C1" color="5" tint=".25"/>
+          <button id="2" clip="bead_type_C0" color="2" tint=".55"/>
+          <button id="3" clip="button_type_B0" color="3" tint=".65"/>
+          <button id="4" clip="button_type_B1" color="7" tint=".25"/>
+          <button id="5" clip="button_type_B0" color="4" tint=".25"/>
+          <button id="6" clip="button_type_A0" color="1" tint=".40"/>
+          <button id="7" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="8" clip="button_type_C1" color="3" tint=".55"/>
+          <button id="9" clip="button_type_C0" color="2" tint=".55"/>
+          <button id="10" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="11" clip="button_type_D1" color="4" tint=".25"/>
+          <button id="12" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="13" clip="bead_type_D0" color="8" tint=".20"/>
+          <button id="14" clip="bead_type_E0" color="6" tint=".25"/>
+          <button id="15" clip="bead_type_E0" color="4" tint=".25"/>
+          <button id="16" clip="bead_type_B0" color="3" tint=".60"/>
+          <button id="17" clip="bead_type_B0" color="7" tint=".25"/>
+          <button id="18" clip="bead_type_A1" color="4" tint=".10"/>
+          <button id="19" clip="bead_type_E0" color="1" tint=".40"/>
+          <button id="20" clip="bead_type_G0" color="5" tint=".20"/>
+        </buttons>
+        <targets>
+          <target id="1" total="3" iconScale=".25"/>
+          <target id="2" total="3" iconScale=".60"/>
+          <target id="3" total="3" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="18" time="60" max="45" radiusMin="20" radiusMax="32" overlap=".35" hints="4">
+        <buttons>
+          <button id="1" clip="bead_type_E0" color="6" tint=".25"/>
+          <button id="2" clip="button_type_B1" color="1" tint=".45"/>
+          <button id="3" clip="bead_type_C0" color="8" tint=".20"/>
+          <button id="4" clip="button_type_B0" color="7" tint=".25"/>
+          <button id="5" clip="button_type_B1" color="3" tint=".65"/>
+          <button id="6" clip="button_type_C0" color="5" tint=".25"/>
+          <button id="7" clip="button_type_C1" color="2" tint=".50"/>
+          <button id="8" clip="button_type_D0" color="7" tint=".25"/>
+          <button id="9" clip="button_type_D1" color="2" tint=".55"/>
+          <button id="10" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="11" clip="button_type_A1" color="5" tint=".25"/>
+          <button id="12" clip="button_type_C0" color="3" tint=".55"/>
+          <button id="13" clip="bead_type_B0" color="4" tint=".25"/>
+          <button id="14" clip="bead_type_B0" color="7" tint=".25"/>
+          <button id="15" clip="bead_type_G0" color="8" tint=".20"/>
+          <button id="16" clip="bead_type_A1" color="3" tint=".20"/>
+        </buttons>
+        <targets>
+          <target id="1" total="3" iconScale=".60"/>
+          <target id="2" total="3" iconScale=".25"/>
+          <target id="3" total="3" iconScale=".60"/>
+        </targets>
+      </level>
+      
+      <level num="19" time="60" max="50" radiusMin="20" radiusMax="32" overlap=".35" hints="4">
+        <buttons>
+          <button id="1" clip="bead_type_B0" color="1" tint=".45"/>
+          <button id="2" clip="bead_type_E0" color="8" tint=".55"/>
+          <button id="3" clip="button_type_A0" color="5" tint=".25"/>
+          <button id="4" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="5" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="6" clip="button_type_B1" color="6" tint=".25"/>
+          <button id="7" clip="button_type_C1" color="3" tint=".55"/>
+          <button id="8" clip="button_type_C0" color="2" tint=".50"/>
+          <button id="9" clip="button_type_D0" color="3" tint=".65"/>
+          <button id="10" clip="button_type_C1" color="4" tint=".30"/>
+          <button id="11" clip="button_type_B0" color="7" tint=".25"/>
+          <button id="12" clip="button_type_A0" color="1" tint=".40"/>
+          <button id="13" clip="button_type_A1" color="6" tint=".25"/>
+          <button id="14" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="15" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="16" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="17" clip="bead_type_A1" color="8" tint=".10"/>
+          <button id="18" clip="bead_type_G0" color="7" tint=".20"/>
+          <button id="19" clip="bead_type_D0" color="5" tint=".20"/>
+          <button id="20" clip="bead_type_C0" color="4" tint=".10"/>
+        </buttons>
+        <targets>
+          <target id="1" total="4" iconScale=".60"/>
+          <target id="2" total="4" iconScale=".60"/>
+          <target id="3" total="4" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="20" time="55" max="50" radiusMin="20" radiusMax="35" overlap=".35" hints="4">
+        <buttons>
+          <button id="1" clip="bead_type_A0" color="6" tint=".10"/>
+          <button id="2" clip="bead_type_B0" color="7" tint=".25"/>
+          <button id="3" clip="button_type_C1" color="3" tint=".55"/>
+          <button id="4" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="5" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="6" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="7" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="8" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="9" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="10" clip="button_type_A1" color="2" tint=".55"/>
+          <button id="11" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="12" clip="button_type_D0" color="2" tint=".55"/>
+          <button id="13" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="14" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="15" clip="button_type_C1" color="2" tint=".50"/>
+          <button id="16" clip="button_type_D1" color="3" tint=".70"/>
+          <button id="17" clip="button_type_A1" color="3" tint=".65"/>
+          <button id="18" clip="button_type_D0" color="3" tint=".65"/>
+          <button id="19" clip="button_type_C0" color="7" tint=".25"/>
+          <button id="20" clip="bead_type_E0" color="6" tint=".25"/>
+          <button id="21" clip="bead_type_G0" color="7" tint=".20"/>
+          <button id="22" clip="bead_type_B0" color="3" tint=".55"/>
+        </buttons>
+        <targets>
+          <target id="1" total="4" iconScale=".25"/>
+          <target id="2" total="4" iconScale=".60"/>
+          <target id="3" total="4" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="21" time="55" max="50" radiusMin="20" radiusMax="35" overlap=".35" hints="4">
+        <buttons>
+          <button id="1" clip="bead_type_D0" color="8" tint=".25"/>
+          <button id="2" clip="bead_type_A1" color="2" tint=".10"/>
+          <button id="3" clip="button_type_D0" color="3" tint=".65"/>
+          <button id="4" clip="button_type_C1" color="3" tint=".55"/>
+          <button id="5" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="6" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="7" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="8" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="9" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="10" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="11" clip="button_type_A1" color="2" tint=".55"/>
+          <button id="12" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="13" clip="button_type_D0" color="2" tint=".55"/>
+          <button id="14" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="15" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="16" clip="button_type_C0" color="2" tint=".50"/>
+          <button id="17" clip="button_type_A1" color="3" tint=".65"/>
+          <button id="18" clip="button_type_C0" color="7" tint=".25"/>
+          <button id="19" clip="bead_type_A1" color="1" tint=".10"/>
+          <button id="20" clip="bead_type_A1" color="6" tint=".10"/>
+          <button id="21" clip="bead_type_A1" color="8" tint=".10"/>
+          <button id="22" clip="bead_type_E0" color="8" tint=".25"/>
+          <button id="23" clip="bead_type_G0" color="7" tint=".20"/>
+          <button id="24" clip="bead_type_B0" color="8" tint=".55"/>
+        </buttons>
+        <targets>
+          <target id="1" total="4" iconScale=".25"/>
+          <target id="2" total="4" iconScale=".60"/>
+          <target id="3" total="5" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="22" time="55" max="50" radiusMin="20" radiusMax="35" overlap=".35" hints="3">
+        <buttons>
+          <button id="1" clip="button_type_D1" color="4" tint=".25"/>
+          <button id="2" clip="button_type_C1" color="5" tint=".25"/>
+          <button id="3" clip="bead_type_E0" color="1" tint=".35"/>
+          <button id="4" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="5" clip="button_type_A0" color="5" tint=".20"/>
+          <button id="6" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="7" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="8" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="9" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="10" clip="button_type_A1" color="2" tint=".55"/>
+          <button id="11" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="12" clip="button_type_D0" color="2" tint=".55"/>
+          <button id="13" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="14" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="15" clip="button_type_C0" color="2" tint=".50"/>
+          <button id="16" clip="button_type_A1" color="3" tint=".65"/>
+          <button id="17" clip="button_type_C0" color="7" tint=".25"/>
+          <button id="18" clip="bead_type_A1" color="6" tint=".10"/>
+          <button id="19" clip="bead_type_G0" color="7" tint=".20"/>
+          <button id="20" clip="bead_type_B0" color="8" tint=".55"/>
+          <button id="21" clip="bead_type_D0" color="8" tint=".25"/>
+          <button id="22" clip="bead_type_A1" color="2" tint=".10"/>
+        </buttons>
+        <targets>
+          <target id="1" total="4" iconScale=".25"/>
+          <target id="2" total="5" iconScale=".25"/>
+          <target id="3" total="5" iconScale=".60"/>
+        </targets>
+      </level>
+
+      <level num="23" time="55" max="50" radiusMin="20" radiusMax="35" overlap=".35" hints="3">
+        <buttons>
+          <button id="1" clip="button_type_D0" color="4" tint=".25"/>
+          <button id="2" clip="button_type_C1" color="5" tint=".25"/>
+          <button id="3" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="4" clip="button_type_A0" color="3" tint=".65"/>
+          <button id="5" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="6" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="7" clip="button_type_B1" color="4" tint=".25"/>
+          <button id="8" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="9" clip="button_type_A1" color="2" tint=".55"/>
+          <button id="10" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="11" clip="button_type_D0" color="2" tint=".55"/>
+          <button id="12" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="13" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="14" clip="button_type_C0" color="2" tint=".50"/>
+          <button id="15" clip="button_type_A1" color="3" tint=".65"/>
+          <button id="16" clip="button_type_C0" color="7" tint=".25"/>
+          <button id="17" clip="bead_type_D0" color="8" tint=".25"/>
+          <button id="18" clip="bead_type_A1" color="2" tint=".10"/>
+          <button id="19" clip="bead_type_C0" color="4" tint=".10"/>
+          <button id="20" clip="bead_type_B0" color="6" tint=".10"/>
+          <button id="21" clip="bead_type_A1" color="8" tint=".10"/>
+          <button id="22" clip="bead_type_E0" color="1" tint=".25"/>
+          <button id="23" clip="bead_type_G0" color="7" tint=".20"/>
+          <button id="24" clip="bead_type_B0" color="8" tint=".55"/>
+        </buttons>
+        <targets>
+          <target id="1" total="5" iconScale=".25"/>
+          <target id="2" total="5" iconScale=".25"/>
+          <target id="3" total="5" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="24" time="50" max="55" radiusMin="20" radiusMax="35" overlap=".35" hints="3">
+        <buttons>
+          <button id="1" clip="bead_type_C0" color="7" tint=".25"/>
+          <button id="2" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="3" clip="button_type_C1" color="7" tint=".35"/>
+          <button id="4" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="5" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="6" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="7" clip="button_type_B1" color="5" tint=".25"/>
+          <button id="8" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="9" clip="button_type_A1" color="2" tint=".60"/>
+          <button id="10" clip="button_type_B1" color="4" tint=".25"/>
+          <button id="11" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="12" clip="button_type_D1" color="3" tint=".70"/>
+          <button id="13" clip="button_type_C0" color="6" tint=".25"/>
+          <button id="14" clip="button_type_D0" color="2" tint=".55"/>
+          <button id="15" clip="button_type_C1" color="4" tint=".25"/>
+          <button id="16" clip="bead_type_B0" color="8" tint=".25"/>
+          <button id="17" clip="bead_type_C0" color="5" tint=".20"/>
+          <button id="18" clip="bead_type_B0" color="5" tint=".15"/>
+          <button id="19" clip="bead_type_F0" color="4" tint=".10"/>
+          <button id="20" clip="bead_type_G0" color="5" tint=".20"/>
+          <button id="21" clip="bead_type_A0" color="6" tint=".10"/>
+          <button id="22" clip="bead_type_D0" color="8" tint=".25"/>
+        </buttons>
+        <targets>
+          <target id="1" total="5" iconScale=".60"/>
+          <target id="2" total="5" iconScale=".25"/>
+          <target id="3" total="6" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="25" time="50" max="55" radiusMin="20" radiusMax="38" overlap=".35" hints="3">
+        <buttons>
+          <button id="1" clip="bead_type_E0" color="8" tint=".25"/>
+          <button id="2" clip="bead_type_G0" color="7" tint=".20"/>
+          <button id="3" clip="button_type_D0" color="7" tint=".25"/>
+          <button id="4" clip="button_type_C1" color="3" tint=".55"/>
+          <button id="5" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="6" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="7" clip="button_type_A1" color="6" tint=".25"/>
+          <button id="8" clip="button_type_D0" color="8" tint=".25"/>
+          <button id="9" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="10" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="11" clip="button_type_A1" color="2" tint=".55"/>
+          <button id="12" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="13" clip="button_type_D0" color="2" tint=".55"/>
+          <button id="14" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="15" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="16" clip="button_type_C0" color="2" tint=".50"/>
+          <button id="17" clip="button_type_A1" color="3" tint=".65"/>
+          <button id="18" clip="button_type_C0" color="7" tint=".25"/>
+          <button id="19" clip="bead_type_A1" color="1" tint=".10"/>
+          <button id="20" clip="bead_type_E0" color="7" tint=".25"/>
+          <button id="21" clip="bead_type_G0" color="4" tint=".25"/>
+          <button id="22" clip="bead_type_B0" color="8" tint=".55"/>
+          <button id="23" clip="bead_type_D0" color="8" tint=".25"/>
+          <button id="24" clip="bead_type_A1" color="2" tint=".10"/>
+        </buttons>
+        <targets>
+          <target id="1" total="5" iconScale=".60"/>
+          <target id="2" total="6" iconScale=".25"/>
+          <target id="3" total="6" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="26" time="50" max="55" radiusMin="20" radiusMax="38" overlap=".35" hints="3">
+        <buttons>
+          <button id="1" clip="button_type_A1" color="1" tint=".35"/>
+          <button id="2" clip="bead_type_E0" color="1" tint=".35"/>
+          <button id="3" clip="bead_type_A1" color="1" tint=".10"/>
+          <button id="4" clip="button_type_D0" color="3" tint=".65"/>
+          <button id="5" clip="button_type_C1" color="1" tint=".45"/>
+          <button id="6" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="7" clip="button_type_A0" color="3" tint=".65"/>
+          <button id="8" clip="button_type_A1" color="4" tint=".25"/>
+          <button id="9" clip="button_type_D1" color="2" tint=".55"/>
+          <button id="10" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="11" clip="button_type_D0" color="4" tint=".25"/>
+          <button id="12" clip="button_type_C1" color="3" tint=".65"/>
+          <button id="13" clip="button_type_C1" color="4" tint=".25"/>
+          <button id="14" clip="button_type_C0" color="2" tint=".50"/>
+          <button id="15" clip="button_type_A1" color="3" tint=".65"/>
+          <button id="16" clip="bead_type_A1" color="4" tint=".10"/>
+          <button id="17" clip="bead_type_C0" color="1" tint=".35"/>
+          <button id="18" clip="bead_type_E0" color="3" tint=".55"/>
+          <button id="19" clip="bead_type_G0" color="3" tint=".55"/>
+          <button id="20" clip="bead_type_B0" color="4" tint=".25"/>
+        </buttons>
+        <targets>
+          <target id="1" total="6" iconScale=".25"/>
+          <target id="2" total="6" iconScale=".60"/>
+          <target id="3" total="6" iconScale=".60"/>
+        </targets>
+      </level>
+
+      <level num="27" time="45" max="55" radiusMin="20" radiusMax="38" overlap=".35" hints="3">
+        <buttons>
+          <button id="1" clip="button_type_D1" color="3" tint=".65"/>
+          <button id="2" clip="button_type_B1" color="3" tint=".55"/>
+          <button id="3" clip="bead_type_C0" color="3" tint=".55"/>
+          <button id="4" clip="button_type_B0" color="6" tint=".25"/>
+          <button id="5" clip="button_type_A0" color="6" tint=".25"/>
+          <button id="6" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="7" clip="button_type_D0" color="6" tint=".25"/>
+          <button id="8" clip="button_type_B1" color="7" tint=".25"/>
+          <button id="9" clip="button_type_C1" color="3" tint=".55"/>
+          <button id="10" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="11" clip="button_type_C0" color="7" tint=".20"/>
+          <button id="12" clip="bead_type_A1" color="3" tint=".10"/>
+          <button id="13" clip="bead_type_B0" color="3" tint=".55"/>
+          <button id="14" clip="bead_type_C0" color="6" tint=".25"/>
+          <button id="15" clip="bead_type_E0" color="3" tint=".55"/>
+          <button id="16" clip="bead_type_E0" color="7" tint=".25"/>
+          <button id="17" clip="bead_type_G0" color="7" tint=".20"/>
+          <button id="18" clip="bead_type_B0" color="6" tint=".55"/>
+        </buttons>
+        <targets>
+          <target id="1" total="6" iconScale=".25"/>
+          <target id="2" total="6" iconScale=".25"/>
+          <target id="3" total="7" iconScale=".60"/>
+        </targets>
+      </level>
+
+      <level num="28" time="45" max="55" radiusMin="20" radiusMax="40" overlap=".35" hints="3">
+        <buttons>
+          <button id="1" clip="button_type_B0" color="7" tint=".25"/>
+          <button id="2" clip="bead_type_D0" color="7" tint=".25"/>
+          <button id="3" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="4" clip="button_type_D0" color="7" tint=".25"/>
+          <button id="5" clip="button_type_C1" color="8" tint=".25"/>
+          <button id="6" clip="button_type_B0" color="4" tint=".25"/>
+          <button id="7" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="8" clip="button_type_A1" color="7" tint=".25"/>
+          <button id="9" clip="button_type_D0" color="6" tint=".25"/>
+          <button id="10" clip="button_type_B1" color="5" tint=".25"/>
+          <button id="11" clip="button_type_A1" color="6" tint=".25"/>
+          <button id="12" clip="button_type_A0" color="5" tint=".25"/>
+          <button id="13" clip="button_type_D0" color="5" tint=".25"/>
+          <button id="14" clip="button_type_C1" color="4" tint=".25"/>
+          <button id="15" clip="button_type_C0" color="7" tint=".20"/>
+          <button id="16" clip="bead_type_A1" color="7" tint=".10"/>
+          <button id="17" clip="bead_type_D0" color="4" tint=".25"/>
+          <button id="18" clip="bead_type_G0" color="8" tint=".20"/>
+          <button id="19" clip="bead_type_G0" color="4" tint=".25"/>
+          <button id="20" clip="bead_type_E0" color="7" tint=".25"/>
+          <button id="21" clip="bead_type_B0" color="6" tint=".25"/>
+          <button id="22" clip="bead_type_D0" color="5" tint=".25"/>
+        </buttons>
+        <targets>
+          <target id="1" total="6" iconScale=".25"/>
+          <target id="2" total="6" iconScale=".25"/>
+          <target id="3" total="7" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="29" time="45" max="60" radiusMin="20" radiusMax="40" overlap=".35" hints="2">
+        <buttons>
+          <button id="1" clip="bead_type_E0" color="8" tint=".25"/>
+          <button id="2" clip="bead_type_B0" color="5" tint=".20"/>
+          <button id="3" clip="button_type_D1" color="5" tint=".25"/>          
+          <button id="4" clip="button_type_C1" color="6" tint=".25"/>
+          <button id="5" clip="button_type_B0" color="5" tint=".25"/>
+          <button id="6" clip="button_type_A0" color="4" tint=".25"/>
+          <button id="7" clip="button_type_A1" color="6" tint=".25"/>
+          <button id="8" clip="button_type_D0" color="4" tint=".25"/>
+          <button id="9" clip="button_type_B1" color="5" tint=".25"/>
+          <button id="10" clip="button_type_A1" color="5" tint=".25"/>
+          <button id="11" clip="button_type_A1" color="8" tint=".20"/>
+          <button id="12" clip="button_type_D0" color="8" tint=".20"/>
+          <button id="13" clip="button_type_D0" color="7" tint=".25"/>
+          <button id="14" clip="button_type_C1" color="7" tint=".25"/>
+          <button id="15" clip="button_type_C1" color="5" tint=".25"/>
+          <button id="16" clip="button_type_C0" color="8" tint=".20"/>
+          <button id="17" clip="button_type_A1" color="4" tint=".25"/>
+          <button id="18" clip="button_type_C0" color="4" tint=".25"/>          
+          <button id="19" clip="bead_type_A1" color="7" tint=".10"/>
+          <button id="20" clip="bead_type_A1" color="6" tint=".10"/>
+          <button id="21" clip="bead_type_A1" color="8" tint=".10"/>
+          <button id="22" clip="bead_type_E0" color="4" tint=".25"/>
+          <button id="23" clip="bead_type_G0" color="5" tint=".20"/>
+          <button id="24" clip="bead_type_B0" color="6" tint=".25"/>
+        </buttons>
+        <targets>
+          <target id="1" total="6" iconScale=".60"/>
+          <target id="2" total="7" iconScale=".60"/>
+          <target id="3" total="7" iconScale=".25"/>
+        </targets>
+      </level>
+
+      <level num="30" time="40" max="60" radiusMin="20" radiusMax="40" overlap=".35" hints="2">
+        <buttons>
+          <button id="1" clip="button_type_A1" color="3" tint=".65"/>
+          <button id="2" clip="button_type_D0" color="2" tint=".55"/>
+          <button id="3" clip="button_type_C1" color="1" tint=".35"/>
+          <button id="4" clip="button_type_B0" color="1" tint=".45"/>
+          <button id="5" clip="button_type_B1" color="2" tint=".60"/>
+          <button id="6" clip="button_type_B1" color="3" tint=".70"/>
+          <button id="7" clip="button_type_A1" color="1" tint=".40"/>
+          <button id="8" clip="button_type_A1" color="2" tint=".55"/>
+          <button id="9" clip="button_type_D0" color="1" tint=".35"/>
+          <button id="10" clip="button_type_D0" color="3" tint=".65"/>
+          <button id="11" clip="button_type_C0" color="2" tint=".50"/>
+          <button id="12" clip="button_type_C1" color="3" tint=".55"/>
+          <button id="13" clip="bead_type_A1" color="1" tint=".10"/>
+          <button id="14" clip="bead_type_A1" color="2" tint=".10"/>
+          <button id="15" clip="bead_type_A1" color="3" tint=".10"/>
+          <button id="16" clip="bead_type_B0" color="1" tint=".35"/>
+          <button id="17" clip="bead_type_B0" color="2" tint=".50"/>
+          <button id="18" clip="bead_type_B0" color="3" tint=".65"/>
+          <button id="19" clip="bead_type_C0" color="1" tint=".30"/>
+          <button id="20" clip="bead_type_C0" color="2" tint=".45"/>
+          <button id="21" clip="bead_type_C0" color="3" tint=".60"/>
+        </buttons>
+        <targets>
+          <target id="1" total="7" iconScale=".25"/>
+          <target id="2" total="7" iconScale=".25"/>
+          <target id="3" total="7" iconScale=".25"/>
+        </targets>
+      </level>
+    </levels>
+  </config>
+</panel>

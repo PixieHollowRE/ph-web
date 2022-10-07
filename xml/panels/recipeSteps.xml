@@ -1,0 +1,16 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/RecipeSteps.swf</swf>
+		<swf type="code">{panelCode}/RecipeSteps.swf</swf>
+	</swfs>
+	<copy>
+		<abort_crafting>Are you sure you want to lose your progress on this item?</abort_crafting>
+		<abort_crafting_ok>Yes</abort_crafting_ok>
+		<abort_crafting_no>No</abort_crafting_no>	
+		<nextButtonLabel target = "nextButtonContainer.nextButton.label">Next</nextButtonLabel>
+		<backButtonLabel target = "backButtonContainer.backButton.label">Back</backButtonLabel>
+		<titleText target = "title">Get Ready!</titleText>		
+	</copy>
+	<config>
+	</config>
+</panel>

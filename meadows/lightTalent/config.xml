@@ -1,0 +1,111 @@
+<zone>
+  <name>Sunflower Studio</name>
+  <zoneID>902</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>home_music_light</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <layers>
+    <layer type="normal" width="6348" height="3795">
+      <image x="2760" y="1650">background_03.swf</image>
+      <image x="2760" y="1650" party="3">light_flower_party_01.swf</image>
+    </layer>
+    <layer type="ground" width="7714" height="4671">
+      <image x="3354" y="2031">action_02.swf</image>
+      <image x="3354" y="2031" type="merge" party="1">light_flag_party_02.swf</image>
+      <image x="3354" y="2031" type="merge" party="2">light_flower_party_02.swf</image>
+      <image x="3354" y="2031" type="merge" party="3">light_lighting_party_02.swf</image>
+    </layer>
+    <layer type="normal" width="9315" height="5693">
+      <image x="4050" y="2475">dust_01.swf</image>
+    </layer>
+    <layer type="normal" width="8280" height="6210">
+      <image x="3600" y="2700">foreground_00.swf</image>
+      <image x="3600" y="2700" type="merge" party="1">light_flag_party_04.swf</image>
+      <image x="3600" y="2700" type="merge" party="2">light_flower_party_04.swf</image>
+      <image x="3600" y="2700" type="merge" party="3">light_lighting_party_04.swf</image>
+    </layer>
+  </layers>
+  <locations>
+    <location x="3674" y="2401">frontDoor</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>home_music_light</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.1855</volumeHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  
+  
+  
+  
+  
+  
+  <validArea type="polygon">
+    
+    <vertex x="3474" y="2201"/>
+    
+    <vertex x="4374" y="2201"/>
+    
+    <vertex x="4374" y="2561"/>
+    
+    <vertex x="3474" y="2561"/>
+    
+  </validArea>
+  
+  <rooms>
+    
+    <room index="1" x="3934" y="2361">
+      
+      <bounds type="box">
+        
+        <left>3473</left>
+        
+        <right>4375</right>
+        
+        <top>2200</top>
+        
+        <bottom>2562</bottom>
+        
+      </bounds>
+      
+      <nearPlane>
+        
+        <left>3534</left>
+        
+        <right>4299</right>
+        
+        <top>2210</top>
+        
+        <bottom>2561</bottom>
+        
+      </nearPlane>
+      
+      <farPlane>
+        
+        <left>3624</left>
+        
+        <right>4214</right>
+        
+        <top>2210</top>
+        
+        <bottom>2470</bottom>
+        
+      </farPlane>
+      
+    </room>
+    
+  </rooms>
+  
+  
+  
+  <decorations/>
+  
+</zone>

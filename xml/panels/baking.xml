@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/baking.swf</swf>
+		<swf type="code">{panelCode}/baking.swf</swf>
+	</swfs>
+	<copy>
+		<title>Baking</title>
+		<subtitle>Fire-Tending</subtitle>
+		
+		<instruction0>Click beneath a fire to make it hotter.</instruction0>
+		<instruction1>Careful not to make the fires too hot, or your treats might burn!</instruction1>
+		<instruction2>Don't let the fires get too cold, or they may go out!</instruction2>
+		
+		<tooCold>Make the fire bigger!</tooCold>
+		<tooHot>Too hot!</tooHot>
+		<justRight>Just right!</justRight>
+		<wentOut></wentOut>
+		
+		<poor>Nice Try!</poor>
+		<good>Good Job!</good>
+		<great>Great Job!</great>
+		<awesome>Awesome Job!</awesome>
+		
+		<stepComplete>Done!</stepComplete>
+		<continue>Continue</continue>
+		
+		<!-- Game has started -->
+		<start0>Time to bake! Keep those fires stoked.</start0>
+		<start1>Are you ready to run the oven?</start1>
+		
+		<!-- Flame goes above safe zone -->
+		<too_hot0>Watch out! That one is getting too hot!</too_hot0>
+		<too_hot1>Eek! It's burning!</too_hot1>
+		
+		<!-- Flame goes below safe zone -->
+		<too_cold0>Oops, that fire is starting to go out!</too_cold0>
+		<too_cold1>That one could use a little more heat.</too_cold1>
+		
+		<!-- A flame has gone out completely -->
+		<flame_out0>Uh oh, one went out!</flame_out0>
+		<flame_out1>Ack, one of the flames went out!</flame_out1>
+		
+		<!-- general encouragement -->
+		<DulcieEncourage0>Nice job! The heat is just right!</DulcieEncourage0>
+		<DulcieEncourage1>Mmm, it is smelling delicious!</DulcieEncourage1>
+		<DulcieEncourage2>Keep it up!</DulcieEncourage2>
+		
+		<!-- Comments upon finishing the game -->
+		<DulciePoor0>Pretty good for a beginner. Heating the oven just right is hard!</DulciePoor0>
+		<DulciePoor1>Those flames are really finicky! You'll do better next time.</DulciePoor1>
+		<DulciePoor2>Baking can be challenging, but don't worry, it just takes practice!</DulciePoor2>
+		<DulciePoor3>Don't give up! Your next dish will be better for sure.</DulciePoor3>
+		
+		<DulcieGood0>Nice handling on that oven!</DulcieGood0>
+		<DulcieGood1>Good work! Keep it up, and you'll get even better!</DulcieGood1>
+		<DulcieGood2>Hey, good work! I'm proud of you!</DulcieGood2>
+		<DulcieGood3>Well done!</DulcieGood3>
+		
+		<DulcieGreat0>Mmm, baked just right!</DulcieGreat0>
+		<DulcieGreat1>That's some mighty fine baking!</DulcieGreat1>
+		<DulcieGreat2>Goodness, you have a knack for this!</DulcieGreat2>
+		<DulcieGreat3>You're becoming quite the chef!</DulcieGreat3>
+		
+		<DulcieAwesome0>Ooooh, it smells HEAVENLY!</DulcieAwesome0>
+		<DulcieAwesome1>You have gotten FANTASTIC at this!</DulcieAwesome1>
+		<DulcieAwesome2>Outstanding! What amazing baking skills!</DulcieAwesome2>
+		<DulcieAwesome3>WOW! I am so impressed!</DulcieAwesome3>
+	</copy>
+	<config>
+		<colorPalette>3</colorPalette>
+	</config>
+</panel>
+

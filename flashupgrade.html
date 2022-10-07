@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Disney Fairies | Pixie Hollow - Upgrade Flash</title>
+    <link rel="stylesheet" type="text/css" href="/s.dolimg.com/pixiehollow/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/s.dolimg.com/pixiehollow/css/basic.css" />
+    <!--link rel="stylesheet" type="text/css" href="http://disney.go.com/fairies/pixiehollow/css/templates.css" />-->
+    <script type="text/javascript" src="/s.dolimg.com/pixiehollow/js/breadcrumb.js"></script>
+    <script type="text/javascript" src="/s.dolimg.com/pixiehollow/registration/js/utils.js"></script>
+    <META NAME="ROBOTS" CONTENT="NONE">
+    <meta name="description" content="Learn all about Disney Fairies Pixie Hollow including parental controls and chat settings in the Parents’ Center." />
+    <meta name="keywords" content="just for parents, parental controls, chat settings, parents center, Disney Fairies, Fairies, Fairy, Pixie Hollow" />
+			<meta name="keywords" content="" />
+			<meta name="facetC" content="" />
+			<meta name="facet1" content="" />
+			<meta name="Play" content="" />
+			<meta name="Download" content="" />
+			<meta name="Read" content="" />
+			<meta name="agerange" content="" />
+			<meta name="thumbnail" content="" />
+			<meta http-equiv="Pragma" content="" />
+			<meta http-equiv="PICS-Label" content='' />
+			<!-- InstanceEndEditable -->
+			<!-- URL Image code -->
+			<link rel="icon" href="/s.dolimg.com/pixiehollow/wings.ico" type="image/x-icon" />
+			<link rel="shortcut icon" href="/s.dolimg.com/pixiehollow/wings.ico" type="image/x-icon" />
+
+    <script language="javascript" src="/s.dolimg.com/pixiehollow/js/breadcrumb.js"></script>
+		<script language="JavaScript" src="/s.dolimg.com/home/html/scripts/master_home.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/s.dolimg.com/media/en-US/dxd/js/swfobject.js"></script>
+
+	<script language="JavaScript">
+
+	function GetCookieUtil (name) {
+		var result = null;
+		var myCookie = " " + document.cookie + ";";
+		var start = document.cookie.indexOf(name+"=");
+		var searchName = " " + name + "=";
+		var startOfCookie = myCookie.indexOf(searchName);
+		var endOfCookie;
+		if (startOfCookie != -1) {
+			startOfCookie += searchName.length;
+			endOfCookie = myCookie.indexOf(";", startOfCookie);
+			result = unescape(myCookie.substring(startOfCookie, endOfCookie));
+		}
+		return result;
+	}
+
+
+	function UpgradeFlash_v2(arg,ie_land,set_cookie){
+		if(isBranded)the_host = "disney";
+		else the_host = "disney";
+		if(!arg) var default_page = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+		else var default_page = arg;
+		if(!ie_land) var default_land = "http://"+the_host+".go.com/detect/setup/ie/flash_landing.html";
+		else var default_land = ie_land;
+		if(this.hasActiveX){
+
+			if (swfobject.hasFlashPlayerVersion("9.0.0.0")){
+				window.location = "setup/expressinstall/flashInstall.html";
+				SetCookieUtil("return_path", GetCookieUtil("return_path"),oneWeek);
+
+			}else{
+				window.location = "setup/ie/flashInstallIE.html";
+			}
+
+
+
+		} else if (swfobject.hasFlashPlayerVersion("9.0.0.0")){
+				SetCookieUtil("return_path", GetCookieUtil("return_path"),oneWeek);
+				window.location = "setup/expressinstall/flashInstall.html";
+		}else{
+			window.location = "http://home.disney.go.com/guestservices/disclaimers/redirect?destination=http://get.adobe.com/flashplayer/";
+		}
+		if(set_cookie)SetCookieUtil("return_path",set_cookie,oneWeek);
+		insertCounter();
+	}
+
+	//counter
+	function nameDefined(ckie,nme)
+	{
+	   var splitValues
+	   var i
+	   for (i=0;i<ckie.length;++i)
+	   {
+	      splitValues=ckie[i].split("=")
+	      if (splitValues[0]==nme) return true
+	   }
+	   return false
+	}
+
+	function delBlanks(strng)
+	{
+	   var result=""
+	   var i
+	   var chrn
+	   for (i=0;i<strng.length;++i) {
+	      chrn=strng.charAt(i)
+	      if (chrn!=" ") result += chrn
+	   }
+	   return result
+	}
+	function getCookieValue(ckie,nme)
+	{
+	   var splitValues
+	   var i
+	   for(i=0;i<ckie.length;++i) {
+	      splitValues=ckie[i].split("=")
+	      if(splitValues[0]==nme) return splitValues[1]
+	   }
+	   return ""
+	}
+	function insertCounter() {
+	 readCookie()
+	 //displayCounter()
+	}
+	 function displayCounter() {
+	 //alert("counter-->" +counter);
+	 if(counter>3){ window.location = "flashUninstall.html";}
+    }
+	function readCookie() {
+	 var cookie=document.cookie
+	 counter=0
+	 var chkdCookie=delBlanks(cookie)  //are on the client computer
+	 var nvpair=chkdCookie.split(";")
+	 if(nameDefined(nvpair,"pageCount"))
+	 counter=parseInt(getCookieValue(nvpair,"pageCount"))
+	 ++counter
+	 var futdate = new Date()
+	 var expdate = futdate.getTime()
+	 expdate += 3600000 * 24 *30  //expires in 1 hour
+	 futdate.setTime(expdate)
+
+	 var newCookie="pageCount="+counter
+	 newCookie += "; expires=" + futdate.toGMTString()
+	 window.document.cookie=newCookie
+	}//end of counter
+
+	</script>
+
+	<script type="text/javascript">
+	function mouseOver(){
+	document.b1.src ="/s.dolimg.com/pixiehollow/images/Button_rollover.jpg";}
+
+	function mouseOut(){
+	document.b1.src ="/s.dolimg.com/pixiehollow/images/Button.jpg";}
+	</script>
+
+    <style type="http://a.disney.go.com/fairies/text/css">
+      <![CDATA[
+      * {
+      border:0;
+      padding:0;
+      margin:0;
+      background:url(jpg/background_long.jpg);
+      }
+      ]]>
+    </style>
+
+    <!-- START CHROME BREADCRUMB -->
+    <script language="javascript" src="/s.dolimg.com/pixiehollow/js/breadcrumb.js"></script>
+    <!-- END CHROME BREADCRUMB -->
+
+   </head>
+
+  <body TOPMARGIN="0" LEFTMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0">
+
+    <div>
+      <div id="chrome">
+        <script type="text/javascript" src="/s.dolimg.com/globalelements/chrome.js?chromeStyle=darkGray"></script>
+      </div>
+    </div>
+
+    <div id="fullPage" style="background: url(/s.dolimg.com/pixiehollow/images/html/bg_wrapper.jpg) repeat-x;">
+                     
+        <div id="centerContainer">
+          
+          <div style="width:994px; height:160px;"><a href="http://pixiehollow.go.com/"><img src="/s.dolimg.com/pixiehollow/images/Header.jpg" alt="Fly into Pixie Hollow!" width="994" height="160"></a></div>
+          <div style="width:994px; height:240px;"><img src="/s.dolimg.com/pixiehollow/images/Flash_10_Update_05.jpg" width="994" height="240" alt=""></div>
+          <div style="width:994px; height:188px;">
+              <div style="float:left;"><img src="/s.dolimg.com/pixiehollow/images/Flash_10_Update_06.jpg" width="144" height="188" alt=""></div>
+              <div style="float:left; background-color: #1a4358; width: 689px; height: 188px;">
+                <div style="height: 77px;">
+                  <div style="float:left;"><img src="/s.dolimg.com/pixiehollow/images/Become_A_Fairy_And_Fly.jpg" width="460" height="77" alt=""></div>
+                  <div style="float:left; height: 71px; width: 229px;"><img src="/s.dolimg.com/pixiehollow/images/bee.jpg" width="229" height="71" alt=""></div>
+                </div>
+                <div style="height: 148px;">
+                    <div style="float:left; width: 460px; text-align: left;">
+                    
+                        <font face="Verdana" size="2" color="#FFFFFF">Live life like Tinker Bell and her friends when you create your very own Fairy and take flight into Pixie Hollow for high-flying fun and endless excitement! <br><br>
+                        To experience the online world of the Never Fairies, you&rsquo;ll need to update your Flash Player.  It&rsquo;s fast, safe, free, and easy.</font>
+                    
+                    </div>
+                    <div style="float:left; width: 229px;">
+                      <div><a href="javascript:UpgradeFlash_v2();"><img src="/s.dolimg.com/pixiehollow/images/Button.jpg" NAME="b1" onmouseOver="mouseOver()" onmouseOut="mouseOut()" width="229" height="60" alt="Upgrade Your Flash Player Now!"></a></div>
+                      <div style="padding: 10px 10px 0px 0px; text-align: left;"><font face="Verdana" size="1" color="#FFFFFF">Concerned about updating your Flash Player? Please <a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl&formId=flashupgrade" target="_new">Contact Us</a>.</div>
+                    </div>
+                </div>
+              </div>
+              <div style="float:left;"><img src="/s.dolimg.com/pixiehollow/images/blaze.jpg" width="161" height="188" alt=""></div>
+          </div>
+          <div style="width:994px; height:120px;"><img src="/s.dolimg.com/pixiehollow/images/footer.jpg" width="994" height="120" alt=""></div>
+          <div style="width:994px; padding: 0 200 0 200px; text-align: left;">
+            <div style="float: left; width: 200px;">&nbsp;</div>
+            <div style="float: left; width: 594px;"><font face="Verdana" size="1" color="#FFFFFF">Please note: In order to ensure that your Flash Player updates correctly, you should close any programs that might utilize Flash -- such as, instant messaging applications or browsers.
+            <br><br>If you continue to have problems, you can try installing the updated Flash Player <a href="http://home.disney.go.com/guestservices/disclaimers/redirect?destination=http://get.adobe.com/flashplayer/" target="_new">directly from Adobe</a> or you can read more about <a href="flashUninstall.html" target="_new">how to uninstall your current version of Flash</a>.
+            <br><br>If you have recently installed Flash, you can <a href="http://pixiehollow.go.com">click here to reload Pixie Hollow</a>.</font>	
+            </div>
+            <div style="float:left; width:200px;">&nbsp;</div><div style="clear:both;">&nbsp;</div>
+          </div> 
+          
+        </div>
+        <div id="footer">
+          <script type="text/javascript" src="/s.dolimg.com/globalelements/footer.js?footerDisplayMode=legalOnly&footerStyleSet=dark"></script>
+        </div>        
+        
+        
+    </div>
+
+
+
+	<!-- BEGIN DOL Web Analytics 1.0 DO NOT EDIT OR REMOVE THIS LINE-->
+		<script language="javascript" src="http://aglobal.go.com/stat/dolWebAnalytics.js"></script>
+		<script language="javascript">
+		cto=new CTO();
+		cto.account="pixiehollow";
+		cto.category="dcore";
+		cto.site="fran_fai";
+		cto.siteSection="home";
+		cto.pageName="flash_upgrade";
+		cto.contentType="regular";
+		cto.property="fai";
+		cto.track();//Required. Do not remove.
+		</script>
+	<!-- END DOL Web Analytics 1.0 -->
+</body>
+</html>

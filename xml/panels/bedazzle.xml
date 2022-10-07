@@ -1,0 +1,176 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/bedazzle.swf</swf>
+		<swf type="code">{panelCode}/bedazzle.swf</swf>
+	</swfs>
+	<copy>
+		<title>Tailoring</title>
+		<mainTitle>Tailoring</mainTitle>
+		<subtitle>Gem Dazzler</subtitle>
+
+		<hudTitleWelcome>Tailoring</hudTitleWelcome>
+		<hudSubTitleWelcome>Gem Dazzler</hudSubTitleWelcome>
+
+		<level>Level</level>
+		<complete>Complete!</complete>
+		<score>SCORE</score>
+
+		<playBtn><![CDATA[Play]]></playBtn>
+
+		<timer><![CDATA[Timer]]></timer>
+		<helpBtn><![CDATA[?]]></helpBtn>
+		<makeThis><![CDATA[Make this pattern!]]></makeThis>
+		<timeLabel><![CDATA[TIME]]></timeLabel>
+		<pauseBtn><![CDATA[Pause]]></pauseBtn>
+		<ScoreUILabel><![CDATA[Strings Left]]></ScoreUILabel>
+
+		<play_button target="title.btnContainer.playBtn.caption">Play!</play_button>
+		<help_button target="title.btnContainer.helpBtn.caption">Instructions</help_button>
+		<quit_button target="title.btnContainer.quitBtn.caption">Exit</quit_button>
+
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">How to Play</inst_screen_title>
+		<inst_quit_button target="instructions.btnContainer.quitBtn.caption">Quit</inst_quit_button>
+		<inst_cont_button target="instructions.btnContainer.continueBtn.caption">Continue</inst_cont_button>
+		<inst_play_button target="instructions.btnContainer.playBtn.caption">Play</inst_play_button>
+		
+		<instruction0>Click the shape on the dazzle wheel that matches the shape and color on the fabric to place a gem.</instruction0>
+		<instruction1>Be careful, you only have one chance to get it right!</instruction1>
+		<instruction2>Shapes that have a countdown number are bonus slots! Getting them correct will auto-stitch the next few gems!</instruction2>
+		<instruction3>Complete the entire pattern before the timer runs out! </instruction3>
+		<instruction4>Gem Dazzler instruction 5.</instruction4>
+		
+		<!-- Fairy Comments -->
+		<place_correct_Bobbin_1>Wonderful choice!</place_correct_Bobbin_1>
+		<place_correct_Bobbin_2>Great glitter, you're good at this!</place_correct_Bobbin_2>
+		<place_correct_Bobbin_3>That's pretty impressive, pixie pal!</place_correct_Bobbin_3>
+		<place_correct_Mendy_1>Extraordinary! Looks like you could teach me a thing or two!</place_correct_Mendy_1>
+		<place_correct_Mendy_2>You really shine at this, darling!</place_correct_Mendy_2>
+		<place_correct_Mendy_3>You're getting good at this! Practice makes perfect, you know.</place_correct_Mendy_3>
+
+		<place_wrong_Bobbin_1>It's not easy to get those gems just right, is it?</place_wrong_Bobbin_1>
+		<place_wrong_Bobbin_2>It's not easy to get those gems just right, is it?</place_wrong_Bobbin_2>
+		<place_wrong_Bobbin_3>It's not easy to get those gems just right, is it?</place_wrong_Bobbin_3>
+		<place_wrong_Mendy_1>Practice makes perfect, my dear!</place_wrong_Mendy_1>
+		<place_wrong_Mendy_2>Practice makes perfect, my dear!</place_wrong_Mendy_2>
+		<place_wrong_Mendy_3>Practice makes perfect, my dear!</place_wrong_Mendy_3>
+		
+		<next_good_Bobbin_1>Just put the gems in the spaces that match their shapes!</next_good_Bobbin_1>
+		<next_good_Bobbin_2>Just put the gems in the spaces that match their shapes!</next_good_Bobbin_2>
+		<next_good_Mendy_1>Simply place the dazzle gems in the spaces that match their shapes.</next_good_Mendy_1>
+		<next_good_Mendy_2>Simply place the dazzle gems in the spaces that match their shapes.</next_good_Mendy_2>
+
+		<gameOverTitle>Done!</gameOverTitle>
+		<gameOverMoreTitle>Keep Going!</gameOverMoreTitle> 
+		<gameOverQuitMessage>Continue</gameOverQuitMessage>
+
+		<quit_confirm_question>Are you sure you want to give up?</quit_confirm_question>
+		<quit_confirm_yes>Yes</quit_confirm_yes>
+		<quit_confirm_no>No</quit_confirm_no>
+
+		<win_gold>Awesome Job!</win_gold>
+		<awesomePercent>100</awesomePercent>
+		<win_silver>Great Job!</win_silver>
+		<greatPercent>92</greatPercent>
+		<win_bronze>Good Job!</win_bronze>
+		<goodPercent>86</goodPercent>
+		<fail>Nice Try!</fail>
+		
+		<end_poor_Bobbin_1>With a little bit of practice, you'll be a Gem Dazzler champ!</end_poor_Bobbin_1>
+		<end_poor_Mendy_1>With a little bit of practice, you'll be a Gem Dazzler champ!</end_poor_Mendy_1>
+		<end_poor_Bobbin_2>With a little bit of practice, you'll be a Gem Dazzler champ!</end_poor_Bobbin_2>
+		<end_poor_Mendy_2>With a little bit of practice, you'll be a Gem Dazzler champ!</end_poor_Mendy_2>
+		<end_poor_Bobbin_3>With a little bit of practice, you'll be a Gem Dazzler champ!</end_poor_Bobbin_3>
+		<end_poor_Mendy_3>With a little bit of practice, you'll be a Gem Dazzler champ!</end_poor_Mendy_3>
+		<end_poor_Bobbin_4>With a little bit of practice, you'll be a Gem Dazzler champ!</end_poor_Bobbin_4>
+		<end_poor_Mendy_4>With a little bit of practice, you'll be a Gem Dazzler champ!</end_poor_Mendy_4>
+		
+		<end_good_Bobbin_1>You've been practicing, haven't ya? I knew it! Great job!</end_good_Bobbin_1>
+		<end_good_Mendy_1>You've been practicing, haven't ya? I knew it! Great job!</end_good_Mendy_1>
+		<end_good_Bobbin_2>You've been practicing, haven't ya? I knew it! Great job!</end_good_Bobbin_2>
+		<end_good_Mendy_2>You've been practicing, haven't ya? I knew it! Great job!</end_good_Mendy_2>
+		<end_good_Bobbin_3>You've been practicing, haven't ya? I knew it! Great job!</end_good_Bobbin_3>
+		<end_good_Mendy_3>You've been practicing, haven't ya? I knew it! Great job!</end_good_Mendy_3>
+		<end_good_Bobbin_4>You've been practicing, haven't ya? I knew it! Great job!</end_good_Bobbin_4>
+		<end_good_Mendy_4>You've been practicing, haven't ya? I knew it! Great job!</end_good_Mendy_4>
+		
+		<end_great_Bobbin_1>You've been practicing, haven't ya? I knew it! Great job!</end_great_Bobbin_1>
+		<end_great_Mendy_1>You've been practicing, haven't ya? I knew it! Great job!</end_great_Mendy_1>
+		<end_great_Bobbin_2>You've been practicing, haven't ya? I knew it! Great job!</end_great_Bobbin_2>
+		<end_great_Mendy_2>You've been practicing, haven't ya? I knew it! Great job!</end_great_Mendy_2>
+		<end_great_Bobbin_3>You've been practicing, haven't ya? I knew it! Great job!</end_great_Bobbin_3>
+		<end_great_Mendy_3>You've been practicing, haven't ya? I knew it! Great job!</end_great_Mendy_3>
+		<end_great_Bobbin_4>You've been practicing, haven't ya? I knew it! Great job!</end_great_Bobbin_4>
+		<end_great_Mendy_4>You've been practicing, haven't ya? I knew it! Great job!</end_great_Mendy_4>
+		
+		<end_awesome_Bobbin_1>Pleat my wings, you're a Gem Dazzler wonder!</end_awesome_Bobbin_1>
+		<end_awesome_Mendy_1>Pleat my wings, you're a Gem Dazzler wonder!</end_awesome_Mendy_1>
+		<end_awesome_Bobbin_2>Pleat my wings, you're a Gem Dazzler wonder!</end_awesome_Bobbin_2>
+		<end_awesome_Mendy_2>Pleat my wings, you're a Gem Dazzler wonder!</end_awesome_Mendy_2>
+		<end_awesome_Bobbin_3>Pleat my wings, you're a Gem Dazzler wonder!</end_awesome_Bobbin_3>
+		<end_awesome_Mendy_3>Pleat my wings, you're a Gem Dazzler wonder!</end_awesome_Mendy_3>
+		<end_awesome_Bobbin_4>Pleat my wings, you're a Gem Dazzler wonder!</end_awesome_Bobbin_4>
+		<end_awesome_Mendy_4>Pleat my wings, you're a Gem Dazzler wonder!</end_awesome_Mendy_4>
+
+		<rotate_time>15</rotate_time>           <!-- how long the wheel takes to spin 15 degrees (in milliseconds) -->
+	
+	</copy>
+	<config>
+	<colorPalette>3</colorPalette>
+    <levels>
+		<level num="1"  seconds="30" penalty="0"  direction="flat"   missToFail="3" numSides="4" numSockets="16" differentShapes="4" differentColors="4" ></level>
+		<level num="2"  seconds="30" penalty="-2" direction="flat"   missToFail="4" numSides="6" numSockets="24" differentShapes="4" differentColors="4" colorblind="true" ></level>
+		<level num="3"  seconds="45" penalty="-5" direction="flat"   missToFail="5" numSides="8" numSockets="32" differentShapes="0" differentColors="0" shapeblind="true" ></level>
+
+		<level num="4"  seconds="30" penalty="0"  direction="circle" missToFail="3" numSides="4" numSockets="16" differentShapes="4" differentColors="4" ></level>
+		<level num="5"  seconds="30" penalty="-2" direction="circle" missToFail="4" numSides="6" numSockets="24" differentShapes="4" differentColors="4" colorblind="true" ></level>
+		<level num="6"  seconds="45" penalty="-5" direction="circle" missToFail="5" numSides="8" numSockets="32" differentShapes="0" differentColors="0" shapeblind="true" ></level>
+<!--
+		<level num="7"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="32" differentShapes="1" differentColors="4" ></level>
+		<level num="8"  seconds="90" penalty="-0" direction="flat"   missToFail="5" numSides="8" numSockets="32" differentShapes="6" differentColors="4" shuffle="true" ></level>
+		<level num="9"  seconds="90" penalty="-0" direction="flat"   missToFail="5" numSides="8" numSockets="32" differentShapes="6" differentColors="4" colorblind="true"></level>
+		<level num="10" seconds="90" penalty="-0" direction="flat"   missToFail="5" numSides="8" numSockets="32" differentShapes="6" differentColors="4" shapeblind="true"></level>
+		
+		<level num="11"  seconds="95" penalty="-0" direction="flat"   missToFail="5" numSides="8" numSockets="32" differentShapes="6" differentColors="5" fixedPattern="0" ></level>
+		<level num="12"  seconds="95" penalty="-0" direction="flat"   missToFail="5" numSides="8" numSockets="32" differentShapes="6" differentColors="5" fixedPattern="1" ></level>
+		<level num="13"  seconds="95" penalty="-0" direction="flat"   missToFail="5" numSides="8" numSockets="32" differentShapes="6" differentColors="5" fixedPattern="2" ></level>
+		<level num="14"  seconds="95" penalty="-0" direction="flat"   missToFail="5" numSides="8" numSockets="32" differentShapes="6" differentColors="5" fixedPattern="3" ></level>
+		<level num="15"  seconds="95" penalty="-0" direction="flat"   missToFail="5" numSides="8" numSockets="32" differentShapes="6" differentColors="5" fixedPattern="4" ></level>
+
+		<level num="16"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="16" differentShapes="1" differentColors="4" fixedPattern="0" ></level>
+		<level num="17"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="16" differentShapes="1" differentColors="4" fixedPattern="1" ></level>
+		<level num="18"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="16" differentShapes="1" differentColors="4" fixedPattern="2" ></level>
+		<level num="19"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="16" differentShapes="1" differentColors="4" fixedPattern="3" ></level>
+		<level num="20"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="16" differentShapes="1" differentColors="4" fixedPattern="4" ></level>
+		<level num="21"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="16" differentShapes="1" differentColors="4" fixedPattern="5" ></level>
+
+		<level num="22"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="24" differentShapes="1" differentColors="4" fixedPattern="0" ></level>
+		<level num="23"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="24" differentShapes="1" differentColors="4" fixedPattern="1" ></level>
+		<level num="24"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="24" differentShapes="1" differentColors="4" fixedPattern="2" ></level>
+		<level num="25"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="24" differentShapes="1" differentColors="4" fixedPattern="3" ></level>
+		<level num="26"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="24" differentShapes="1" differentColors="4" fixedPattern="4" ></level>
+		<level num="27"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="24" differentShapes="1" differentColors="4" fixedPattern="5" ></level>
+
+		<level num="28"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="32" differentShapes="1" differentColors="4" fixedPattern="0" ></level>
+		<level num="29"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="32" differentShapes="1" differentColors="4" fixedPattern="1" ></level>
+		<level num="30"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="32" differentShapes="1" differentColors="4" fixedPattern="2" ></level>
+		<level num="31"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="32" differentShapes="1" differentColors="4" fixedPattern="3" ></level>
+		<level num="32"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="32" differentShapes="1" differentColors="4" fixedPattern="4" ></level>
+		<level num="33"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="32" differentShapes="1" differentColors="4" fixedPattern="5" ></level>
+
+		<level num="34"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="16" differentShapes="1" differentColors="4" fixedPattern="6" ></level>
+		<level num="35"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="16" differentShapes="1" differentColors="4" fixedPattern="7" ></level>
+		<level num="36"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="16" differentShapes="1" differentColors="4" fixedPattern="8" ></level>
+		<level num="37"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="16" differentShapes="1" differentColors="4" fixedPattern="9" ></level>
+		<level num="38"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="16" differentShapes="1" differentColors="4" fixedPattern="10" ></level>
+		<level num="39"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="16" differentShapes="1" differentColors="4" fixedPattern="11" ></level>
+
+		<level num="40"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="24" differentShapes="1" differentColors="4" fixedPattern="6" ></level>
+		<level num="41"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="24" differentShapes="1" differentColors="4" fixedPattern="7" ></level>
+		<level num="42"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="24" differentShapes="1" differentColors="4" fixedPattern="8" ></level>
+		<level num="43"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="24" differentShapes="1" differentColors="4" fixedPattern="9" ></level>
+		<level num="44"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="24" differentShapes="1" differentColors="4" fixedPattern="10" ></level>
+		<level num="45"  seconds="90" penalty="-0" direction="circle" missToFail="5" numSides="4" numSockets="24" differentShapes="1" differentColors="4" fixedPattern="11" ></level>
+-->
+	</levels>
+	</config>
+</panel>

@@ -1,0 +1,328 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/spiderWebGame.swf</swf>
+		<swf type="code">{panelCode}/spiderWebGame.swf</swf>
+	</swfs>
+	<copy>		
+		<!-- hud -->
+		<title>Water Web</title>
+		<level>Level</level>	
+
+		<hudTitleWelcome>Water Web</hudTitleWelcome>
+		<hudSubTitleWelcome>Get Ready</hudSubTitleWelcome>
+		
+		
+		<left_scorecard_title>Chances Left</left_scorecard_title>
+		<left_scorecard_title_one>Chance Left</left_scorecard_title_one>
+		<right_scorecard_title>Score</right_scorecard_title>		
+		<right_accent_title>Drops Caught</right_accent_title>
+		<level_tip_title>Get Ready!</level_tip_title>
+		<hostname>Silvermist</hostname>
+		
+		
+		<!-- UI: TITLE SCREEN -->
+		<title_screen target="title.title.heading">Water Web</title_screen>
+		<title_play target="title.btnContainer.playBtn.caption">Play</title_play>
+		<title_help target="title.btnContainer.helpBtn.caption">How to play</title_help>		
+		<title_quit target="title.btnContainer.quitBtn.caption">Quit</title_quit>
+		
+		<!-- UI: WELCOME -->
+		<welcome_title>Welcome!</welcome_title>
+		<welcome_text>This is Spider Silk Grotto, where we collect dewdrops to decorate blades of grass. Can you help collect the falling dewdrops?</welcome_text>
+		<welcome_play>Continue</welcome_play>
+		
+		<!-- UI: SCORE CARD -->		
+		<scorecard_drops>Dewdrops Caught:</scorecard_drops>
+		<scorecard_bonus>Bonus Drops:</scorecard_bonus>
+		<scorecard_score>Total Score:</scorecard_score>		
+		
+		<!-- UI: TUTORIAL -->
+		<tutorial_hudtitle>How to play</tutorial_hudtitle>
+		<tutorial_next>NEXT</tutorial_next>
+		<tutorial_skip>Skip This</tutorial_skip>
+		<tutorial_continue>Continue</tutorial_continue>		
+		<your_score>Total Score: </your_score>
+		<score_total>Your Score : </score_total>
+		<final_score>Your Final Score : </final_score>
+		
+		<tutorial_replay>Show me again</tutorial_replay>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		<tutorial_finalscore_label>Now see if you can collect all the drops!</tutorial_finalscore_label>
+		
+		<host_level_tutorial_1>See if you can do it.</host_level_tutorial_1>
+		<host_level_tutorial_2>Give it a try.</host_level_tutorial_2>
+		<host_bubble_1>See if you can do it</host_bubble_1>
+		<host_bubble_2>Give it a try</host_bubble_2>
+		<host_bubble_3>Now you try it!</host_bubble_3>
+		<host_bubble_4>Add a strand to guide the drop into the walnut bucket!</host_bubble_4>
+		<host_bubble_5>Splashtastic!</host_bubble_5>
+		
+		<tutorial_title_goal>Goal</tutorial_title_goal>
+		<win_tutorial_secondText>Complete!</win_tutorial_secondText>
+		
+		<tutorial_step1>This is Spider Silk Grotto. I'm going to show you how to collect the dewdrops!</tutorial_step1>
+		<tutorial_step2>Dewdrops fall from the flowers and roll down the strands of the spider webs.</tutorial_step2>	
+		<tutorial_step3>You can add strands to guide the drops so they go into the walnut bucket at the bottom.</tutorial_step3>
+		<tutorial_step4>Watch the flowers at the top! They'll shake when a dewdrop is about to fall.</tutorial_step4>
+		<tutorial_step6>Dewdrops follow the web strands down. They will move to another strand if they run into one that goes across. Watch!</tutorial_step6>
+		<tutorial_step8>See? We made a path for it to follow, and it went into the cup!</tutorial_step8>
+		<!-- ! -->
+		<tutorial_step9>Don't forget, you can take away any strands YOU make.</tutorial_step9>
+		<tutorial_step11>Splashtastic! Don’t forget, you can remove strands, too. You can have 6 strands at a time on the web.</tutorial_step11>
+		<tutorial_step14>The spiders will weave some strands that you can't remove. Watch out for those!</tutorial_step14>
+		<tutorial_step15>You can see how you're doing here. This shows how many dewdrops you need to catch to finish the level!</tutorial_step15>
+		<tutorial_step16>Let's see if you can get 2 drops in.</tutorial_step16>
+		<tutorial_step17>You'll lose chances if you miss dewdrops, so be careful. I'll be here if you need me!</tutorial_step17>
+		
+		<!-- UI: STORY SCREEN -->
+		<level_tip_easy>Hi, little sprinkle! What do you say we catch some dewdrops?</level_tip_easy>
+		<level_tip_med>There are so many dewdrops to catch. Come on!</level_tip_med>
+		<level_tip_hard>These dewdrops will be hard to get, but I know you can do it!</level_tip_hard>
+		<level_tip_royal>Get ready, because this will be tricky. One, two, three, GO!</level_tip_royal>
+		<level_tip_all>Fairy friend! So happy to see you! Let's catch some dew!</level_tip_all>
+		
+		<!-- UI: END STORY SCREEN -->
+		<level_end_easy>You did such a great job! We'd love to see you again soon!</level_end_easy>
+		<level_end_med>You dance so lightly on the webs! Visit us again!</level_end_med>
+		<level_end_hard>Wonderful web moving! We'd like to see you again!</level_end_hard>
+		<level_end_royal>Webulous! Wonderous! We thank you!</level_end_royal>
+		<level_end_all>Webulous! Wonderous! We thank you!</level_end_all>		
+		
+		<!-- UI: ALL STORY SCREEN INTERLUDE -->
+		<allmedium_story>You're one splashtastic dewdrop catcher! Those silly spiders won't be able to keep up with you!</allmedium_story>
+		<allhard_story>Those silly spiders will be sneakier than ever now. Let's go!</allhard_story>
+		<allroyal_story>Splashtacular job! Now let's see if you can get these last dewdrops. They're the trickiest of all!</allroyal_story>		
+		
+		<!-- UI: INSTRUCTIONS -->
+		<inst_screen_title target="instructions.title.heading">Instructions</inst_screen_title>
+		
+		<instruction0 target="instructions.btnContainer.page0.label">Dewdrops fall from the flowers and roll down the strands of web. Try to guide them to fall into the walnut bucket. </instruction0>
+		<instruction1 target="instructions.btnContainer.page1.label">Guide dewdrops to the bucket. Click to add new strands to the web to change the drop's course.</instruction1>
+		<instruction2 target="instructions.btnContainer.page2.label">You can have 6 of your own strands on the web at once. If you try to add another, your first strand will disappear!</instruction2>
+		<instruction3 target="instructions.btnContainer.page3.label">If you see a dewdrop sitting on the web, guide the falling drop over it to earn a Bonus!</instruction3>		
+		<instruction4 target="instructions.btnContainer.page4.label">If all your drops fall off the web, the game is over.</instruction4>		
+		
+		<inst_play target="instructions.btnContainer.playBtn.caption">Play</inst_play>
+		<inst_back target="instructions.btnContainer.backBtn.caption">Back</inst_back>		
+		<inst_cont target="instructions.btnContainer.continueBtn.caption">Continue</inst_cont>		
+		<inst_quit target="instructions.btnContainer.quitBtn.caption">Quit</inst_quit>
+		
+		<!-- UI: PRIZES -->
+		<prize_scrn target="prize.title.heading">Rewards</prize_scrn>
+		
+		<!-- UI: GAME OVER -->
+		<!-- titles -->
+		<game_over_win>You Win!</game_over_win>
+		<game_over_lose>Nice Try!</game_over_lose>
+		<!-- buttons -->
+		<game_over_continue>Continue</game_over_continue>		
+		<!-- comments (win) -->
+		<game_over_win_0>You won! I couldn't have done it without you. Come by to help again anytime!</game_over_win_0>
+		<game_over_win_1>You made this job so much fun! Thanks for the help, and come back again, okay?</game_over_win_1>
+		<game_over_win_2>Congratulations! Wow, you're a real starfish when it comes to collecting dewdrops!</game_over_win_2>
+		<game_over_win_3>Congratulations! You're a splashtacular dewdrop catcher!</game_over_win_3>
+		<game_over_win_4>You did great! I'm going to remember your web skills the next time I need to collect dewdrops!</game_over_win_4>
+		<!-- comments (lose) -->
+		<game_over_lose_0>Oh no! All the dewdrops fell off the web! That's okay, you can always try again.</game_over_lose_0>
+		<game_over_lose_1>Those silly spiders aren't easy to deal with, are they? Stop by and we can give it another try!</game_over_lose_1>
+		<game_over_lose_2>Oh, too bad! You can always come back -- I'd love to team up with you again!</game_over_lose_2>
+		
+		<!-- UI: LEVEL COMPLETE -->
+		<level_complete>Level {level} Complete!</level_complete>
+		
+		<!-- GAME COPY -->
+		
+			
+		<!-- LEVEL TIPS -->
+		<level_tip_1>First let's collect 3 dewdrops.</level_tip_1>
+		<level_tip_2>Look out! Those silly spiders just added a web strand of their own! We need to collect 4 drops now.</level_tip_2>
+		<level_tip_3>Now let's collect 5 dewdrops.</level_tip_3>
+		<level_tip_5>The spiders have added 2 web strands! Hey, you spiders, we're working here!</level_tip_5>
+		<level_tip_6>We need to collect 6 drops this time.</level_tip_6>
+		<level_tip_9>More web strands? Those silly spiders are just making things harder!</level_tip_9>
+		<level_tip_10>Now we need to collect 8 dewdrops!</level_tip_10>
+		<level_tip_12>I don't believe it! Those goofy spiders put 4 new strands in the web!</level_tip_12>
+		<level_tip_15>Now the spiders have left us 5 web strands!</level_tip_15>
+		<level_tip_16>We need to collect 10 drops now, okay?</level_tip_16>
+		<level_tip_18>Suffering seafish, there are 6 web strands now!</level_tip_18>
+		<level_tip_20>Get ready -- we need to collect 12 drops this time!</level_tip_20>
+		<level_tip_21>Can you guide the drops through 7 web strands?</level_tip_21>
+		<level_tip_24>Wow, now we need to collect 14 dewdrops this time! Keep alert! The spiders have left 8 web strands for us!</level_tip_24>
+		<level_tip_28>Now it's time to collect 16 drops!</level_tip_28>
+		<level_tip_27>Can you guide the drops through all 9 web strands? I bet you can!</level_tip_27>
+		<level_tip_30>Collect all 20 drops on this level and you'll win the game! Come on, we can do it!</level_tip_30>
+
+		<level_tip_generic>Get ready for level {level}!</level_tip_generic>
+		
+		
+		<!-- HOST DIALOG : events -->
+		<drop_won_0>We got a drop! Great job!</drop_won_0>
+		<drop_won_1>We did it! We got a dewdrop!</drop_won_1>
+  
+		<drop_lost_0>Oh no, we missed a drop! That's one less.</drop_lost_0>
+		<drop_lost_1>Oops. We lost a drop.</drop_lost_1>
+  
+		<pickup_life_0>Great! This adds another drop in case we miss one!</pickup_life_0>
+		<pickup_life_1>Flaptastic! We have another drop in case we miss one!</pickup_life_1>
+  
+		<pickup_bonus_sml_0>Wow, you are really getting good at this!</pickup_bonus_sml_0>
+  
+		<pickup_bonus_lge_0>My, talk about super dewdrop power -- you've got it!</pickup_bonus_lge_0>
+		
+		
+		<!-- HOST DIALOG : begin level -->
+		<host_level_1_0>Let's start out easy, okay?</host_level_1_0>
+		<host_level_1_1>This should start us out nice and easy.</host_level_1_1>
+		<host_level_1_2>How about we start slow?</host_level_1_2>
+		
+		<host_level_2_0>Try to get all the drops!</host_level_2_0>
+		<host_level_2_1>Watch for the flowers to wiggle!</host_level_2_1>
+		
+		<host_level_3_0>Timing is everything. Wait for the right moment!</host_level_3_0>
+		<host_level_3_1>Stay calm. You can't rush a dewdrop, you know.</host_level_3_1>
+		
+		<host_level_4_0>Drops always come out of the flowers that wiggle!</host_level_4_0>
+		<host_level_4_1>You're doing flaptastic so far!</host_level_4_1>
+		
+		<host_level_5_0>Look, the spiders left 2 webs!</host_level_5_0>
+		<host_level_5_1>Don't slow down now! Keep flapping!</host_level_5_1>
+		
+		<host_level_6_0>I'm sure you can get all 6 dewdrops in the bucket!</host_level_6_0>
+		<host_level_6_1>Oh, those spiders are the silliest creatures!</host_level_6_1>
+		
+		<host_level_7_0>Look, your web strands sparkle! Splashtastic!</host_level_7_0>
+		<host_level_7_1>Keep going, keep going!</host_level_7_1>
+		
+		<host_level_8_0>You're really good at this! Keep it up!</host_level_8_0>
+		<host_level_8_1>Good job!</host_level_8_1>
+		
+		<host_level_9_0>You're helping me so much, little sprinkle. Thanks!</host_level_9_0>
+		<host_level_9_1>You're really helping me out here. Thanks!</host_level_9_1>
+		
+		<host_level_10_0>Can you get all 8 drops in the bucket?</host_level_10_0>
+		<host_level_10_1>Stay focused and watch those drops carefully!</host_level_10_1>
+		
+		<host_level_11_0>Wait for just the right moment!</host_level_11_0>
+		<host_level_11_1>Wow, the bucket is getting full!</host_level_11_1>
+		
+		<host_level_12_0>Suffering seafoam, the spiders left 4 webs this time!</host_level_12_0>
+		<host_level_12_1>Don't drop the dewdrops!</host_level_12_1>
+		
+		<host_level_13_0>What happens if you roll over an extra drop?</host_level_13_0>
+		<host_level_13_1>Flap as fast as you can!</host_level_13_1>
+		
+		<host_level_14_0>Add your web strands as fast as you can!</host_level_14_0>
+		<host_level_14_1>Keep those wings flapping fast!</host_level_14_1>
+		
+		<host_level_15_0>Oh my, the spiders left 5 webs this time!</host_level_15_0>              
+		<host_level_15_1>Spiders have such a silly sense of humor!</host_level_15_1>                      
+		
+		<host_level_16_0>Can you get all 10 drops in the bucket?</host_level_16_0>              
+		<host_level_16_1>Look for extra drops!</host_level_16_1>              
+		
+		<host_level_17_0>Be careful, little sprinkle!</host_level_17_0>                        
+		<host_level_17_1>Fly like the wind!</host_level_17_1>                  
+		
+		<host_level_18_0>The spiders left 6 webs this time!</host_level_18_0>              
+		<host_level_18_1>Keep an eye on those flowers!</host_level_18_1>              
+		
+		<host_level_19_0>Extra drops can help a lot!</host_level_19_0>              
+		<host_level_19_1>Oh, those pesky spiders!</host_level_19_1>              
+		
+		<host_level_20_0>Can you get all 12 drops in the bucket?</host_level_20_0>              
+		<host_level_20_1>Come on, fly faster!</host_level_20_1>                
+		
+		<host_level_21_0>Now the spiders left 7 webs! This is ridiculous!</host_level_21_0>              
+		<host_level_21_1>Yes, you did it!</host_level_21_1>                    
+		
+		<host_level_22_0>Show those dewdrops who's boss, hee hee!</host_level_22_0>              
+		<host_level_22_1>Flap those wings!</host_level_22_1>                  
+		
+		<host_level_23_0>Fly as fast as you can!</host_level_23_0>              
+		
+		<host_level_24_0>Those goofy spiders left 8 webs this time!</host_level_24_0>              
+		<host_level_24_1>I bet you can get all 14 dewdrops in the bucket!</host_level_24_1>              
+		
+		<host_level_25_0>Spashtacular score!</host_level_25_0>                        
+		
+		<host_level_26_0>Fly fast fast fast!</host_level_26_0>                
+		
+		<host_level_27_0>Now the spiders left 9 webs!</host_level_27_0>              
+		
+		<host_level_28_0>Can you get all 16 drops in the bucket?</host_level_28_0>              
+		
+		<host_level_29_0>Yay, you're almost done!</host_level_29_0>              
+		
+		<host_level_30_0>Okay, this is plain silly. The spiders left 10 webs this time!</host_level_30_0>          
+		<host_level_30_1>Come on, you can make it!</host_level_30_1>
+
+	</copy>
+	<config>
+		<!-- required palette param -->		
+		<colorPalette>1</colorPalette>		
+		
+		<supportsTutorial>true</supportsTutorial>
+		
+		<difficultyChoices layout="5small">
+            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"/>			
+			<difficultyChoice descriptor="royal" displayName="Royal" paidOnly="false"/>			
+			<difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"/>			
+		</difficultyChoices>
+		
+		<!-- sound params -->
+		<music_volume>0.5</music_volume>
+		
+		<!-- game params -->
+		<max_webs>6</max_webs>							<!-- number of webs that can be placed at one time -->
+		<num_lives>3</num_lives>						<!-- starting number of lives -->
+		<fixed_bar_threshold>13</fixed_bar_threshold>	<!-- can't create a fixed bar below this index -->
+		<points_per_drop>100</points_per_drop>			<!-- base points per web dropped in the bucket -->
+		<bonus1>1000</bonus1>							<!-- green drop bonus -->	
+		<bonus2>500</bonus2>							<!-- purple drop bonus -->
+		
+		<!-- levels -->
+		<!-- 1 -->
+		<level	dropSpeed="1000"  dropFrequency="6000" numHardWebs="0" dropsPerRound="3" bonus1="0" bonus2="0" bonusLife="0" />		
+		<level	dropSpeed="980"  dropFrequency="6000" numHardWebs="1" dropsPerRound="4"  bonus1="1" bonus2="0" bonusLife="0"/>
+		<level	dropSpeed="960"  dropFrequency="6000" numHardWebs="1" dropsPerRound="5"  bonus1="2" bonus2="0" bonusLife="0" />
+		<level	dropSpeed="940"  dropFrequency="5500" numHardWebs="1" dropsPerRound="5"  bonus1="0" bonus2="0" bonusLife="0"/>			
+		<level	dropSpeed="920"  dropFrequency="5500" numHardWebs="2" dropsPerRound="5"  bonus1="2" bonus2="0" bonusLife="1"/>
+		<!-- 6 -->
+		<level	dropSpeed="900"  dropFrequency="5500" numHardWebs="2" dropsPerRound="6"  bonus1="2" bonus2="0" bonusLife="1"/>
+		<level	dropSpeed="880"  dropFrequency="5000" numHardWebs="2" dropsPerRound="6"  bonus1="0" bonus2="0" bonusLife="0"/>
+		<level	dropSpeed="860"  dropFrequency="5000" numHardWebs="2" dropsPerRound="6"  bonus1="0" bonus2="0" bonusLife="0"/>
+		<level	dropSpeed="840"  dropFrequency="5000" numHardWebs="3" dropsPerRound="6"  bonus1="1" bonus2="0" bonusLife="2"/>
+		<level	dropSpeed="820"  dropFrequency="4500" numHardWebs="3" dropsPerRound="8"  bonus1="1" bonus2="1" bonusLife="1"/>
+		<!-- 11 -->
+		<level	dropSpeed="800"  dropFrequency="4500" numHardWebs="3" dropsPerRound="8"   bonus1="0" bonus2="0" bonusLife="0"/>
+		<level	dropSpeed="780"   dropFrequency="4500" numHardWebs="4" dropsPerRound="8"  bonus1="2" bonus2="1" bonusLife="1"/>			
+		<level	dropSpeed="760"   dropFrequency="4000" numHardWebs="4" dropsPerRound="8"  bonus1="0" bonus2="0" bonusLife="0"/>
+		<level	dropSpeed="740"   dropFrequency="4000" numHardWebs="4" dropsPerRound="8"  bonus1="0" bonus2="0" bonusLife="0"/>		
+		<level	dropSpeed="720"   dropFrequency="4000" numHardWebs="5" dropsPerRound="8"  bonus1="3" bonus2="1" bonusLife="1"/>
+		<!-- 16 -->		
+		<level	dropSpeed="700"   dropFrequency="4000" numHardWebs="5" dropsPerRound="10"  bonus1="3" bonus2="2" bonusLife="1"/>
+		<level	dropSpeed="700"   dropFrequency="4000" numHardWebs="5" dropsPerRound="10"  bonus1="0" bonus2="0" bonusLife="0"/>
+		<level	dropSpeed="700"   dropFrequency="4000" numHardWebs="6" dropsPerRound="10"  bonus1="3" bonus2="2" bonusLife="2"/>
+		<level	dropSpeed="700"   dropFrequency="4000" numHardWebs="6" dropsPerRound="10"  bonus1="0" bonus2="0" bonusLife="0"/>			
+		<level	dropSpeed="700"   dropFrequency="4000" numHardWebs="6" dropsPerRound="12"  bonus1="3" bonus2="3" bonusLife="2"/>
+		<!-- 21 -->
+		<level	dropSpeed="720"   dropFrequency="4500" numHardWebs="7" dropsPerRound="12"  bonus1="4" bonus2="4" bonusLife="2"/>
+		<level	dropSpeed="720"   dropFrequency="4500" numHardWebs="7" dropsPerRound="12"  bonus1="4" bonus2="4" bonusLife="2"/>
+		<level	dropSpeed="720"   dropFrequency="4500" numHardWebs="7" dropsPerRound="12"  bonus1="0" bonus2="0" bonusLife="0"/>
+		<level	dropSpeed="740"   dropFrequency="4500" numHardWebs="8" dropsPerRound="14"  bonus1="5" bonus2="5" bonusLife="3"/>			
+		<level	dropSpeed="740"   dropFrequency="4500" numHardWebs="8" dropsPerRound="14"  bonus1="0" bonus2="0" bonusLife="0"/>
+		<!-- 26 -->
+		<level	dropSpeed="740"   dropFrequency="4500" numHardWebs="8" dropsPerRound="14"  bonus1="0" bonus2="0" bonusLife="1"/>
+		<level	dropSpeed="760"   dropFrequency="4000" numHardWebs="9" dropsPerRound="14"  bonus1="5" bonus2="5" bonusLife="3"/>
+		<level	dropSpeed="760"   dropFrequency="4000" numHardWebs="9" dropsPerRound="16"  bonus1="6" bonus2="6" bonusLife="3"/>
+		<level	dropSpeed="760"   dropFrequency="4000" numHardWebs="9" dropsPerRound="16"  bonus1="0" bonus2="0" bonusLife="1"/>
+		<!-- 30 -->			
+		<level	dropSpeed="780"   dropFrequency="4000" numHardWebs="10" dropsPerRound="20"  bonus1="7" bonus2="7" bonusLife="3"/>		
+		<!-- levels tutorial-->
+		<level	dropSpeed="1000"  dropFrequency="6000" numHardWebs="0" dropsPerRound="1" bonus1="0" bonus2="0" bonusLife="0" dropsVert="2"/>	
+		<level	dropSpeed="1000"  dropFrequency="6000" numHardWebs="1" dropsPerRound="2" bonus1="0" bonus2="0" bonusLife="0" />	
+	</config>
+</panel>

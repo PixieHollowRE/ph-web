@@ -1,0 +1,305 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/bakingMixing.swf</swf>
+		<swf type="code">{panelCode}/bakingMixing.swf</swf>
+	</swfs>
+	<copy>
+		<title>Baking</title>
+		<subtitle>Mixing</subtitle>
+
+		<shake>Shake the mouse!</shake>
+		<faster>Mix faster!</faster>
+		<slower>Mix slower!</slower>
+		<good>You're doing great!</good>
+
+		<stepComplete>Done!</stepComplete>
+		<continue>Continue</continue>
+		
+		<instruction0>Move the mouse back and forth over the bowl to stir.</instruction0>
+		<instruction1>The faster you move your mouse, the faster the batter will stir.</instruction1>
+		<instruction2>Try not to mix too fast or too slow - the indicator shows you just how fast to mix.</instruction2>
+		
+		<!-- NPC Dialog -->
+		<!-- Game has started -->
+		<start0>Get ready to mix it up!</start0>
+		<start1>Ready to mix? Here we go!</start1>
+		
+		<!-- Player is inside the indicator -->
+		<mix_correct0>That's it! Just the right speed!</mix_correct0>
+		<mix_correct1>Keep on stirring!</mix_correct1>
+		<mix_correct2>Nice mixing, keep it up!</mix_correct2>
+		<mix_correct3>Good job!</mix_correct3>
+		
+		<!-- Player is mixing too fast -->
+		<mix_fast0>Take it easy! Slow down a bit.</mix_fast0>
+		<mix_fast1>Careful!</mix_fast1>
+		<mix_fast2>Are you sure that's the right speed?</mix_fast2>
+		
+		<!-- Player is mixing too slow -->
+		<mix_slow0>Try stirring a little faster!</mix_slow0>
+		<mix_slow1>Careful!</mix_slow1>
+		<mix_slow2>Are you sure that's the right speed?</mix_slow2>
+		
+		<!-- Comments upon finishing the game -->
+		<poor>Nice Try!</poor>
+		<good>Good Job!</good>
+		<great>Great Job!</great>
+		<awesome>Awesome Job!</awesome>
+
+		<DulciePoor0>That was a good try. I'm sure you'll mix even better next time!</DulciePoor0>
+		<DulciePoor1>Mixing can be tricky, keep trying!</DulciePoor1>
+		<DulciePoor2>Baking can be challenging, but don't worry, it just takes practice!</DulciePoor2>
+		<DulciePoor3>Don't give up! Your next dish will be better for sure.</DulciePoor3>
+		
+		<DulcieGood0>Well-stirred!</DulcieGood0>
+		<DulcieGood1>Good work! Keep it up, and you'll get even better!</DulcieGood1>
+		<DulcieGood2>Hey, good work! I'm proud of you!</DulcieGood2>
+		<DulcieGood3>Well done!</DulcieGood3>
+		
+		<DulcieGreat0>You did a great job with that mixing!</DulcieGreat0>
+		<DulcieGreat1>Great job!</DulcieGreat1>
+		<DulcieGreat2>Goodness, you have a knack for this!</DulcieGreat2>
+		<DulcieGreat3>You're becoming quite the chef!</DulcieGreat3>
+		
+		<DulcieAwesome0>Awesome mixing!!</DulcieAwesome0>
+		<DulcieAwesome1>You have gotten FANTASTIC at this!</DulcieAwesome1>
+		<DulcieAwesome2>Outstanding! What amazing baking skills!</DulcieAwesome2>
+		<DulcieAwesome3>WOW! I am so impressed!</DulcieAwesome3>
+	</copy>
+	<config>
+		<colorPalette>3</colorPalette>
+
+		<!-- a 'level' usually consists of multiple indicator moves such as 'pos', 'time', 'speed', and 'difficulty' of stirring -->
+		<!-- startX this is the start position of the indicator, (values are 0~99) -->
+		<!-- endX this is the end position of the indicator, (values are 1~100) -->
+		<!-- time: this is how long it will stay at the designated position, (values are in seconds, decimal values are ok), this does not calculate traverse time -->
+		<!-- speed: this is how fast or slow the indicator moves, (higher values are slower, a good range is 10~80), this has a relationship with time in that if the speed is too slow, the next 'move' could be executed before reaching the designated 'pos' -->
+		<!-- diff: this is how difficult it is to get the velocity bar to go up, (higher values are harder, a good range is 2~8) -->
+
+		<!-- level 0 -->
+		<level>
+			<!-- start position -->
+			<move startX="10" endX="30" time="5" speed="60" diff="5"/>
+			<!-- move 1 -->
+			<move startX="10" endX="60" time="3" speed="60" diff="5"/>
+			<move startX="40" endX="60" time="6" speed="60" diff="5"/>
+		</level>
+		
+		<!-- level 1 -->
+		<level>
+			<!-- start position -->
+			<move startX="20" endX="40" time="5" speed="60" diff="5"/>
+			<!-- move 1 -->
+			<move startX="20" endX="60" time="3" speed="60" diff="5"/>
+			<move startX="40" endX="60" time="7" speed="60" diff="5"/>
+			<!-- move 2 -->
+			<move startX="40" endX="80" time="3" speed="60" diff="4"/>
+			<move startX="60" endX="80" time="5" speed="40" diff="4"/>
+		</level>
+		
+		<!-- level 2 -->
+		<level>
+			<!-- start position -->
+			<move startX="27" endX="45" time="5" speed="60" diff="5"/>
+			<!-- move 1 -->
+			<move startX="27" endX="60" time="3" speed="60" diff="5"/>
+			<move startX="40" endX="60" time="4" speed="60" diff="5"/>
+			<!-- move 2 -->
+			<move startX="40" endX="90" time="3" speed="60" diff="4"/>
+			<move startX="70" endX="90" time="5" speed="40" diff="4"/>
+		</level>
+		
+		<!-- level 3 -->
+		<level>
+			<!-- start position -->
+			<move startX="50" endX="80" time="6" speed="60" diff="3"/>
+			<!-- move 1 (backwards) -->
+			<move startX="30" endX="80" time="3" speed="60" diff="5"/>
+			<move startX="30" endX="50" time="6" speed="60" diff="5"/>
+			<!-- move 2 -->
+			<move startX="30" endX="80" time="3" speed="60" diff="3"/>
+			<move startX="60" endX="80" time="5" speed="40" diff="3"/>
+		</level>
+
+		<!-- level 4 -->
+		<level>
+			<!-- start position -->
+			<move startX="50" endX="70" time="5" speed="60" diff="4"/>
+			<!-- move 1 (backwards) -->
+			<move startX="10" endX="30" time="9" speed="60" diff="8"/>
+			<!-- move 2 -->
+			<move startX="10" endX="60" time="5" speed="60" diff="4"/>
+			<move startX="60" endX="80" time="5" speed="40" diff="4"/>
+		</level>
+		
+		<!-- level 5 -->
+		<level>
+			<!-- start position -->
+			<move startX="20" endX="40" time="5" speed="60" diff="4"/>
+			<!-- move 1 -->
+			<move startX="20" endX="70" time="2" speed="60" diff="4"/>
+			<move startX="50" endX="70" time="5" speed="60" diff="4"/>
+			<!-- move 2 (backwards) -->
+			<move startX="30" endX="70" time="2" speed="60" diff="8"/>
+			<move startX="30" endX="50" time="5" speed="60" diff="4"/>
+			<!-- move 3 (backwards) -->
+			<move startX="0" endX="20" time="5" speed="60" diff="4"/>
+		</level>
+		
+		<!-- level 6 -->
+		<level>
+			<!-- start position -->
+			<move startX="75" endX="100" time="5" speed="60" diff="4"/>
+			<!-- move 1 (backwards) -->
+			<move startX="40" endX="100" time="2" speed="30" diff="4"/>
+			<move startX="40" endX="55" time="7" speed="60" diff="4"/>
+			<!-- move 2 -->
+			<move startX="40" endX="65" time="2" speed="60" diff="8"/>
+			<move startX="50" endX="65" time="7" speed="60" diff="4"/>
+			<!-- move 3 (backwards) -->
+			<move startX="25" endX="40" time="5" speed="60" diff="4"/>
+		</level>
+		
+		<!-- level 7 -->
+		<level>
+			<!-- start position -->
+			<move startX="30" endX="60" time="5" speed="60" diff="4"/>
+			<!-- move 1 -->
+			<move startX="30" endX="70" time="2" speed="30" diff="4"/>
+			<move startX="40" endX="70" time="5" speed="60" diff="4"/>
+			<!-- move 2 (backwards) -->
+			<move startX="10" endX="70" time="2" speed="60" diff="8"/>
+			<move startX="10" endX="35" time="7" speed="60" diff="4"/>
+			<!-- move 3 -->
+			<move startX="10" endX="80" time="5" speed="60" diff="3"/>
+			<move startX="60" endX="80" time="7" speed="60" diff="3"/>
+		</level>
+
+		<!-- level 8 -->
+		<level>
+			<!-- starting position -->
+			<move startX="10" endX="30" time="4" speed="60" diff="5"/>
+			<!-- move 1 -->
+			<move startX="10" endX="50" time="3" speed="60" diff="5"/>
+			<move startX="50" endX="70" time="7" speed="60" diff="5"/>
+			<!-- move 2 (backwards) -->
+			<move startX="30" endX="50" time="5" speed="60" diff="5"/>
+			<move startX="30" endX="80" time="3" speed="60" diff="5"/>
+			<!-- move 3 -->
+			<move startX="60" endX="80" time="7" speed="60" diff="5"/>
+			<move startX="60" endX="100" time="3" speed="60" diff="3"/>
+			<!-- move 4 -->
+			<move startX="80" endX="100" time="5" speed="60" diff="3"/>
+		</level>
+		
+		<!-- level 9 -->
+		<level>
+			<!-- starting position -->
+			<move startX="55" endX="70" time="4" speed="60" diff="5"/>
+			<!-- move 1 -->
+			<move startX="20" endX="70" time="3" speed="60" diff="5"/>
+			<move startX="20" endX="32" time="7" speed="60" diff="5"/>
+			<!-- move 2 -->
+			<move startX="32" endX="80" time="3" speed="60" diff="5"/>
+			<move startX="65" endX="80" time="5" speed="60" diff="5"/>
+			<!-- move 3 -->
+			<move startX="30" endX="80" time="3" speed="60" diff="5"/>
+			<move startX="30" endX="50" time="7" speed="60" diff="3"/>
+			<!-- move 4 -->
+			<move startX="30" endX="90" time="3" speed="60" diff="3"/>
+			<move startX="77" endX="90" time="5" speed="60" diff="3"/>
+		</level>
+
+			<!-- level 10 -->
+		<level>
+			<!-- starting position -->
+			<move startX="45" endX="60" time="3" speed="60" diff="7"/>
+			<!-- move 1 -->
+			<move startX="25" endX="60" time="3" speed="60" diff="6"/>
+			<move startX="25" endX="38" time="7" speed="60" diff="6"/>
+			<!-- move 2 -->
+			<move startX="38" endX="90" time="3" speed="60" diff="5"/>
+			<move startX="70" endX="90" time="6" speed="60" diff="5"/>
+			<!-- move 3 -->
+			<move startX="40" endX="90" time="7" speed="60" diff="5"/>
+			<move startX="40" endX="55" time="7" speed="60" diff="4"/>
+			<!-- move 4 -->
+			<move startX="40" endX="80" time="3" speed="60" diff="4"/>
+			<move startX="65" endX="80" time="5" speed="60" diff="4"/>
+		</level>
+
+			<!-- level 11 -->
+		<level>
+			<!-- starting position -->
+			<move startX="50" endX="80" time="6" speed="60" diff="5"/>
+			<!-- move 1 -->
+			<move startX="55" endX="80" time="3" speed="60" diff="6"/>
+			<move startX="55" endX="70" time="7" speed="60" diff="5"/>
+			<!-- move 2 -->
+			<move startX="55" endX="90" time="3" speed="60" diff="6"/>
+			<move startX="78" endX="90" time="6" speed="60" diff="6"/>
+			<!-- move 3 -->
+			<move startX="65" endX="90" time="8" speed="60" diff="5"/>
+			<move startX="65" endX="85" time="8" speed="60" diff="5"/>
+			<!-- move 4 -->
+			<move startX="65" endX="85" time="3" speed="60" diff="4"/>
+			<move startX="72" endX="85" time="6" speed="60" diff="4"/>
+		</level>
+
+			<!-- level 12 -->
+		<level>
+			<!-- starting position -->
+			<move startX="75" endX="90" time="6" speed="60" diff="6"/>
+			<!-- move 1 -->
+			<move startX="30" endX="90" time="6" speed="60" diff="5"/>
+			<move startX="30" endX="45" time="3" speed="60" diff="5"/>
+			<!-- move 2 -->
+			<move startX="45" endX="60" time="3" speed="60" diff="7"/>
+			<move startX="55" endX="60" time="6" speed="60" diff="7"/>
+			<!-- move 3 -->
+			<move startX="30" endX="60" time="3" speed="60" diff="4"/>
+			<move startX="30" endX="40" time="7" speed="60" diff="4"/>
+			<!-- move 4 -->
+			<move startX="30" endX="80" time="6" speed="60" diff="6"/>
+			<move startX="70" endX="80" time="5" speed="60" diff="6"/>
+		</level>
+			<!-- level 13 -->
+		<level>
+			<!-- starting position -->
+			<move startX="85" endX="99" time="7" speed="60" diff="7"/>
+			<!-- move 1 -->
+			<move startX="65" endX="85" time="3" speed="60" diff="5"/>
+			<move startX="55" endX="65" time="3" speed="60" diff="5"/>
+			<!-- move 2 -->
+			<move startX="40" endX="65" time="3" speed="60" diff="5"/>
+			<move startX="50" endX="60" time="3" speed="60" diff="5"/>
+			<!-- move 3 -->
+			<move startX="60" endX="75" time="6" speed="60" diff="7"/>
+			<move startX="70" endX="85" time="7" speed="60" diff="4"/>
+			<!-- move 4 -->
+			<move startX="85" endX="99" time="6" speed="60" diff="6"/>
+			<move startX="90" endX="99" time="3" speed="60" diff="6"/>
+		</level>
+
+			<!-- level 14 -->
+		<level>
+			<!-- starting position -->
+			<move startX="65" endX="80" time="7" speed="60" diff="7"/>
+			<!-- move 1 -->
+			<move startX="80" endX="95" time="3" speed="60" diff="5"/>
+			<move startX="85" endX="99" time="3" speed="60" diff="5"/>
+			<!-- move 2 -->
+			<move startX="60" endX="85" time="3" speed="60" diff="7"/>
+			<move startX="50" endX="65" time="3" speed="60" diff="4"/>
+			<!-- move 3 -->
+			<move startX="25" endX="50" time="3" speed="60" diff="6"/>
+			<move startX="30" endX="45" time="3" speed="60" diff="6"/>
+
+			<!-- move 4 -->
+			<move startX="50" endX="65" time="3" speed="60" diff="5"/>
+		</level>
+	</config>
+</panel>
+
+

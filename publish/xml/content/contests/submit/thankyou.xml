@@ -1,0 +1,21 @@
+<page>
+	<config>
+		<tagline>
+			<tagline align="center"  title="true" titlex="0" titley="0" yOffset="-20">header</tagline>
+		</tagline>
+		<thankyou>
+			<bodyheader align="center" font="pristina" yOffset="10">body1</bodyheader>
+			<copy yOffset="20">body2</copy>
+		</thankyou>
+		<submitpanel type="panel" panel="thankyou" />
+		<columnset1 type="columnset" colsettype="columnset2_2graphic_config" yOffset="30">
+				<bannergraphic type="image">{publishPanelImages}/headers/howWill_you_train.png</bannergraphic>
+		</columnset1>
+	</config>
+	
+	<copy>
+		<header><![CDATA[<font face="pristina" color="#FFF04C" size="30">“How Will You Train?” Art Contest</font>]]></header>		
+		<body1><![CDATA[Your Artwork has been uploaded!]]></body1>
+		<body2><![CDATA[<span class="newsbodytext">If you are a winner, you will be notified at the e-mail address associated with your account. Thank you for entering the Pixie Hollow “How Will You Train?” Art Contest!</span>]]></body2>
+	</copy>
+</page>

@@ -1,0 +1,10 @@
+<panel>
+	<swfs>
+		<swf type="content" app="standalone">{panelContent}/genderconfirm.swf</swf>
+		<swf type="content" app="tools">{panelContent}/genderconfirm.swf</swf>
+		<swf type="content" app="mmo">{panelContent}/genderconfirm.swf</swf>
+		<swf type="content" app="miniGameUnitTest">{panelContent}/genderconfirm.swf</swf>
+	</swfs>
+	<copy></copy>
+	<config></config>
+</panel>

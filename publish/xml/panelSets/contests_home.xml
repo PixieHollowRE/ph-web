@@ -1,0 +1,29 @@
+<panelSet>
+
+	<panels>
+		<!--panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{publishPanelData}/bg_gradient.xml</panel-->
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{publishPanelData}/leftSideStatic.xml</panel>
+		<panel id="manager" x="70" y="-38" alwaysOnTop="true" transition="none">{publishPanelData}/how_will_you_train_contest.xml</panel>
+		<!-- <panel id="gokartsubmit" x="70" y="0" alwaysOnTop="true" hidden="true" transition="none">{publishPanelData}/sweepstakes_submit.xml</panel> -->
+		<!-- <panel id="ugcsubmit" x="70" y="0" alwaysOnTop="true" hidden="true" transition="none">{publishPanelData}/ugc_submitform.xml</panel> -->
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>contestshome</trackingid>
+		
+		<regionid>contests</regionid>
+		<sectionid>community</sectionid>
+		<pageid>contestshome</pageid>
+		<menu>
+			<title>
+				<text>menutitle</text>
+				<subtext>menusubtitle</subtext>
+				<!--channel>home.htm</channel-->       
+			</title>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>Contests</menutitle>
+	</copy>
+</panelSet>

@@ -1,0 +1,116 @@
+<ingredientItems>
+	<copy>
+		<item8001>Oak Leaves</item8001>
+		<item8002>Maple Leaves</item8002>
+		<item8003>Ivy</item8003>
+		<item8004>Rose Petals</item8004>
+		<item8005>Daisy Petals</item8005>
+		<item8006>Lily Petals</item8006>
+		<item8007>Buttercup Petals</item8007>
+		<item8008>Spider Silk</item8008>
+		<item8009>Meadow Grass</item8009>
+		<item8010>Sunflower Seeds</item8010>
+		<item8011>Acorns</item8011>
+		<item8012>Blueberries</item8012>
+		<item8013>Dandelion Fluff</item8013>
+		<item8014>Rasberries</item8014>
+		<item8015>Pine Needles</item8015>
+		<item8016>Snow Flakes</item8016>
+		<item8017>Honeycombs</item8017>
+		<item8018>Twigs</item8018>
+		<item8019>Truffles</item8019>
+		<item8020>Blue Gems</item8020>
+		<item8021>Yellow Gems</item8021>
+		<item8022>Feathers</item8022>
+		<item8023>Metal</item8023>
+	</copy>
+	<config>
+		<items>
+			<item id="8001" category="4" item="Oak Leaves" />
+			<item id="8002" category="2" item="Maple Leaves"/>
+			<item id="8003" category="5" item="Ivy" />
+			<item id="8004" category="4" item="Rose Petals" />
+			<item id="8005" category="2" item="Daisy Petals" />
+			<item id="8006" category="5" item="Lily Petals"/>
+			<item id="8007" category="3" item="Buttercup Petals" />
+			<item id="8008" category="1" item="Spider Silk" />
+			<item id="8009" category="3" item="Meadow Grass" />
+			<item id="8010" category="1" item="Sunflower Seeds" />
+			<item id="8011" category="4" item="Acorns" />
+			<item id="8012" category="3" item="Blueberries" />
+			<item id="8013" category="1" item="Dandelion Fluff" />
+			<item id="8014" category="2" item="Rasberries" />
+			<item id="8015" category="3" item="Pine Needles" />
+			<item id="8016" category="1" item="Snow Flakes" />
+			<item id="8017" category="3" item="Honeycombs" />
+			<item id="8018" category="1" item="Twigs" />
+			<item id="8019" category="4" type="wilderness" item="Truffles" />
+			<item id="8020" category="3" type="wilderness" item="Blue Gems" />
+			<item id="8021" category="4" type="wilderness" item="Yellow Gems" />
+			<item id="8022" category="4" type="wilderness" item="Feathers" />
+			<item id="8023" category="5" type="wilderness" item="Metal" />
+		</items>
+		
+		<conversions>
+			<conversion fromRarity="1" toRarity="1" fromRate="1" toRate="1" />
+			<conversion fromRarity="1" toRarity="2" fromRate="2" toRate="1" />
+			<conversion fromRarity="1" toRarity="3" fromRate="3" toRate="1" />
+			<conversion fromRarity="1" toRarity="4" fromRate="4" toRate="1" />
+			<conversion fromRarity="1" toRarity="5" fromRate="5" toRate="1" />
+			<conversion fromRarity="1" toRarity="999" fromRate="1" toRate="2" />
+			
+			<conversion fromRarity="2" toRarity="1" fromRate="1" toRate="2" />
+			<conversion fromRarity="2" toRarity="2" fromRate="1" toRate="1" />
+			<conversion fromRarity="2" toRarity="3" fromRate="3" toRate="2" />
+			<conversion fromRarity="2" toRarity="4" fromRate="2" toRate="1" />
+			<conversion fromRarity="2" toRarity="5" fromRate="5" toRate="2" />
+			<conversion fromRarity="2" toRarity="999" fromRate="1" toRate="4" />
+						
+			<conversion fromRarity="3" toRarity="1" fromRate="1" toRate="3" />
+			<conversion fromRarity="3" toRarity="2" fromRate="2" toRate="3" />
+			<conversion fromRarity="3" toRarity="3" fromRate="1" toRate="1" />
+			<conversion fromRarity="3" toRarity="4" fromRate="4" toRate="3" />
+			<conversion fromRarity="3" toRarity="5" fromRate="5" toRate="3" />
+			<conversion fromRarity="3" toRarity="999" fromRate="1" toRate="6" />
+									
+			<conversion fromRarity="4" toRarity="1" fromRate="1" toRate="4" />
+			<conversion fromRarity="4" toRarity="2" fromRate="1" toRate="2" />
+			<conversion fromRarity="4" toRarity="3" fromRate="3" toRate="4" />
+			<conversion fromRarity="4" toRarity="4" fromRate="1" toRate="1" />
+			<conversion fromRarity="4" toRarity="5" fromRate="5" toRate="4" />
+			<conversion fromRarity="4" toRarity="999" fromRate="1" toRate="8" />
+												
+			<conversion fromRarity="5" toRarity="1" fromRate="1" toRate="5" />
+			<conversion fromRarity="5" toRarity="2" fromRate="2" toRate="5" />
+			<conversion fromRarity="5" toRarity="3" fromRate="3" toRate="5" />
+			<conversion fromRarity="5" toRarity="4" fromRate="4" toRate="5" />
+			<conversion fromRarity="5" toRarity="5" fromRate="1" toRate="1" />
+			<conversion fromRarity="5" toRarity="999" fromRate="1" toRate="10" />
+
+			<conversion fromRarity="999" toRarity="1" fromRate="2" toRate="1" />
+			<conversion fromRarity="999" toRarity="2" fromRate="4" toRate="1" />
+			<conversion fromRarity="999" toRarity="3" fromRate="6" toRate="1" />
+			<conversion fromRarity="999" toRarity="4" fromRate="8" toRate="1" />
+			<conversion fromRarity="999" toRarity="5" fromRate="10" toRate="1" />
+			<conversion fromRarity="999" toRarity="999" fromRate="1" toRate="1" />
+		</conversions>
+		<zonedefaultItems>
+			<zone id="110000" item="8008" />
+			<zone id="110001" item="0"/><!-- HAS NO DEFAULT, SO WILL USE THE TOP LEFT -->
+			<zone id="110002" item="8002" />
+			<zone id="110003" item="8015" />
+			<zone id="110004" item="0" /><!-- HAS NO DEFAULT, SO WILL USE THE TOP LEFT -->
+			<zone id="111000" item="8008" />
+			<zone id="111001" item="8008" />
+			<zone id="111002" item="8015" />
+			<zone id="112000" item="8008" />
+			<zone id="112001" item="8002" />
+			<zone id="112002" item="8015" />
+			<zone id="112003" item="8014" />
+			<zone id="113000" item="0"/><!-- HAS NO DEFAULT, SO WILL USE THE TOP LEFT -->
+			<zone id="114000" item="8014" />
+			<zone id="114000" item="8014" />
+			<zone id="115000" item="0" /><!-- HAS NO DEFAULT, SO WILL USE THE TOP LEFT -->
+		</zonedefaultItems>
+	</config>
+</ingredientItems>

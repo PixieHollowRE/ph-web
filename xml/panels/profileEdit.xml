@@ -1,0 +1,26 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/profileEdit.swf</swf>
+		<swf type="code">{panelCode}/profileEdit.swf</swf>
+	</swfs>
+	<copy>
+		<title target="title">Edit Profile</title>
+		<about_me target="tabset.content1.about_me">About Me</about_me>
+		<about_me_text target="tabset.content1.about_me_text">Tell other Fairies about yourself!</about_me_text>
+		<my_icon target="tabset.content1.my_icon">My Icon</my_icon>
+		<my_icon_text target="tabset.content1.my_icon_text">Pick an icon that best represents you!</my_icon_text>
+		<my_background target="tabset.content1.background_title">Background</my_background>
+		<my_background_text target="tabset.content1.background_text">Look for more backgrounds in</my_background_text>
+		<non_member_background_text>Become a member to use more backgrounds!</non_member_background_text>
+		<all_backgrounds_unlocked>All profile backgrounds have been unlocked!</all_backgrounds_unlocked>
+		<none>None</none>
+		<setAsBG>Set As Background</setAsBG>
+		<currentBG>Current Background</currentBG>
+		<bgSetError>Error</bgSetError>
+		<days_period>days.</days_period>
+		<day_period>day.</day_period>
+		<printYourFairy>Print Your Fairy</printYourFairy>
+		
+	</copy>
+	<config></config>
+</panel>

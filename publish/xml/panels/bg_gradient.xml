@@ -1,0 +1,14 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/bg_gradient.swf</swf>
+		<!-- -->
+		<swf type="code">{publishPanelCode}/bg_gradient.swf</swf>
+		
+	</swfs>
+	<copy>
+
+	</copy>
+	<config>
+
+	</config>
+</panel>

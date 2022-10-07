@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<session>
+	<params>
+		<type>standalone</type>
+		<initialContent>{panelSetData}/empty.xml</initialContent>
+	</params>
+</session>

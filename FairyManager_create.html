@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Disney Fairies | Pixie Hollow - Create a Fairy</title>
+<META NAME="ROBOTS" CONTENT="NONE">
+<script type="text/javascript" src="http://a.dolimg.com/media/en-US/dxd/js/swfobject.js"></script>
+<script type="text/javascript" src="http://a.disney.go.com/detect/scripts/master_flash_light.js"></script>
+<script type="text/javascript" src="http://a.disney.go.com/fairies/pixiehollow/js/javascripts.js"></script>
+<script type="text/javascript" src="fairies_framework.js"></script>
+		<script type="text/javascript" src="environment.js"></script>
+<script type="text/javascript">
+	 CreateInterface();
+	 DetectFlash("9");
+</script>
+<style type="text/css">@import url(css/main.css);</style>
+</head>
+<body>
+	<!-- Chrome -->
+	<div id="chrome" align="center">
+		<script type="text/javascript" src="http://a.disney.go.com/fairies/pixiehollow/js/breadcrumb.js"></script>
+		<script type="text/javascript" src="http://a.disney.go.com/globalmedia/chrome/chrome.js"></script>
+	</div>
+		<!-- **** EMS MESSAGING **** -->
+	<div id="emsg">
+    	<div class="emsg_inner" id="EMSText"><span></span></div>
+    </div>
+	<!-- **** END EMS MESSAGING **** -->
+	<div id="wrapper" align="center" class="normalbg">
+		<div id="maincontent" align="center">
+			<div id="flashcontent">
+				<div id="innerflashcontent">
+				</div>
+			</div>
+			<script type="text/javascript">
+				
+				var varSwfPath = baseSwfPath+"swf/container.swf"
+					
+				var flashvars = {};
+				flashvars.session = "xml/sessions/fairyManager.xml";
+				flashvars.initialContent = "{panelSetData}/" + "caf.xml";
+				flashvars.currentUrl = getCurrentUrl()	
+					
+				var flashparams = {};
+				flashparams.allowScriptAccess = "always"
+				flashparams.bgcolor = "#24304A"
+				flashparams.wmode = "Window"
+				
+				var attributes = {
+					id: "pixiehollowcontent",
+					 name: "pixiehollowcontent"
+				};
+				
+				swfobject.embedSWF(varSwfPath, "flashcontent", "994", "1800", "9.0.115","http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, flashparams, attributes);	
+
+			</script>
+		</div>
+		<!-- Footer -->
+		<div id="footer">
+			<script type="text/javascript" src="http://a.disney.go.com/globalmedia/legal_footer/legalfooter.js"></script>
+		</div>
+	</div>
+
+</body>
+</html>

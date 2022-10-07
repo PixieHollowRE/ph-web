@@ -1,0 +1,54 @@
+﻿<data>
+	<copy>
+
+
+        <!-- Animal Basic -->
+		<item29001>Knothole Nest</item29001>
+		<desc29001>Plenty of room for you and an Animal Friend!</desc29001>
+        <!-- Garden Basic -->
+		<item29002>Blossom Bungalow</item29002>
+		<desc29002>This small bloom room is filled with the colors and fragrances of spring!</desc29002>
+        <!-- Light Basic -->
+		<item29003>Sunflower Studio</item29003>
+		<desc29003>Light and bright, this single-room home is the essence of summer charm!</desc29003>
+        <!-- Water Basic -->
+		<item29004>Lotus Loft</item29004>
+		<desc29004>Bask in the cool comfort of a clear running stream -- in your own home!</desc29004>
+        <!-- Tinker Basic -->
+		<item29005>Mosswall Cottage</item29005>
+		<desc29005>Sturdy, efficient, comfy and cozy all in one!</desc29005>
+
+
+        <!-- Animal Extended -->
+		<item29021>Hollow Tree Heights</item29021>
+		<desc29021>A cozy, ground-level den with a treetop roost that's really for the birds!</desc29021>
+        <!-- Garden Extended -->
+		<item29022>Petalstem Palace</item29022>
+		<desc29022>From floor to curly-stem ceiling, this home is a celebration of all things that grow!</desc29022>
+        <!-- Light Extended -->
+		<item29023>Sunglow Spire</item29023>
+		<desc29023>Special tall-growing sunflowers offer plenty of room to live and play!</desc29023>
+        <!-- Water Extended -->
+		<item29024>Streamside Suite</item29024>
+		<desc29024>So fresh and fragrant you'll think you're on the banks of Soapstone Stream!</desc29024>
+        <!-- Tinker Extended -->
+		<item29025>Greenleaf Tower</item29025>
+		<desc29025>A practical design filled with creative extras like cross-twig windows and a skyview roof!</desc29025>
+        <!-- Ice Extended -->
+		<item29026>Snowflake Estate</item29026>
+		<desc29026>TEMP: Snowflake Estate!</desc29026>
+        <!-- Basic -->
+		<item29041>Basic Garden</item29041>
+		<desc29041>A cozy garden!</desc29041>
+        <!-- Good -->
+		<item29042>Good Garden</item29042>
+		<desc29042>This garden is a celebration of all things that grow!</desc29042>
+        <!-- Better -->
+		<item29043>Better Garden</item29043>
+		<desc29043>Special tall-growing sunflowers offer plenty of room to play!</desc29043>
+        <!-- Best -->
+		<item29044>Best Garden</item29044>
+		<desc29044>So fresh and fragrant you'll think you're on the banks of Soapstone Stream!</desc29044>
+
+	</copy>
+</data>

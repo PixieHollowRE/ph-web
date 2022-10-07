@@ -1,0 +1,73 @@
+<page>
+	<config>
+		<!-- -->
+		<tagline>
+			<tagline align="center" font="pristina" title="true" titlex="0" titley="0" yOffset="20">header</tagline>
+		</tagline>
+		<types>
+			<knownissue>tagline</knownissue>
+
+		 </types>
+		 <!--<columnset1 type="columnset"  colsettype="columnset3_nd_config"> -->
+		 <columnset1 type="columnset"  colsettype="columnset2_nd_config">
+			<colset channelvar="contenttype=fairytale" event="onUGCSubmitEntry">			
+				<!--bannergraphic type="image" width="151" height="103" channelvar="contenttype=fairytale" event="onUGCSubmitEntry">{publishPanelImages}/Fairy_Tale.png</bannergraphic-->
+					<image width="151" height="103" type="image" channelvar="contenttype=fairytale" event="onUGCSubmitEntry">{publishPanelImages}/Fairy_Tale.png</image>
+				<tagline font="align_center">body1</tagline>
+			</colset>
+			<!--<colset channelvar="contenttype=seasonalshout" event="onUGCSubmitEntry">			
+				<bannergraphic type="image">{publishPanelImages}/Seasonal_shoutout.png</bannergraphic>
+
+				<tagline font="align_center">body2</tagline>
+			</colset>-->
+			<colset channelvar="contenttype=poem" event="onUGCSubmitEntry">
+				<bannergraphic type="image">{publishPanelImages}/poem.png</bannergraphic>	
+				<tagline font="align_center">body3</tagline>
+			</colset>
+
+		</columnset1>
+
+		  <columnset2 type="columnset" colsettype="columnset2_nd_config">
+			<colset channelvar="contenttype=question" event="onUGCSubmitEntry">
+				<bannergraphic type="image">{publishPanelImages}/question_for_tabby.png</bannergraphic>
+				<tagline font="align_center">body4</tagline>
+			</colset>
+			<colset channelvar="contenttype=art" event="onUGCSubmitEntry">				
+				<bannergraphic type="image">{publishPanelImages}/art.png</bannergraphic>
+				<tagline font="align_center">body5</tagline>
+
+			</colset>
+		</columnset2>
+		 
+		<!--techsupports type="multicolumn">
+			<image width="151" height="103" type="image" xOffset="100" channelvar="contenttype=fairytale" event="onUGCSubmitEntry">{publishPanelImages}/Fairy_Tale.png</image>
+			<techsupport xOffset="20" yOffset="40">body1</techsupport>
+		</techsupports>
+		<techsupports type="multicolumn">
+			<image width="151" height="103" type="image" xOffset="100" channelvar="contenttype=seasonalshout" event="onUGCSubmitEntry">{publishPanelImages}/Seasonal_shoutout.png</image>
+			<techsupport xOffset="20" yOffset="20">body2</techsupport>
+		</techsupports>
+		<techsupports type="multicolumn">
+			<image width="151" height="103" type="image" xOffset="100" channelvar="contenttype=poem" event="onUGCSubmitEntry">{publishPanelImages}/poem.png</image>
+			<techsupport xOffset="20" yOffset="40">body3</techsupport>
+		</techsupports>
+		<techsupports type="multicolumn">
+			<image width="151" height="103" type="image" xOffset="100" channelvar="contenttype=question" event="onUGCSubmitEntry">{publishPanelImages}/question_for_tabby.png</image>
+			<techsupport xOffset="20" yOffset="20">body4</techsupport>
+		</techsupports>
+		<techsupports type="multicolumn">
+			<image width="151" height="103" type="image" xOffset="100" channelvar="contenttype=art" event="onUGCSubmitEntry">{publishPanelImages}/art.png</image>
+			<techsupport xOffset="20" yOffset="40">body5</techsupport>
+		</techsupports-->
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">The Pixie Postings need you!</span>]]></header>
+		<tagline><![CDATA[<span class="newsbodytext">The head art-talent and storytelling-talent Fairies are looking for poems, pictures and stories to feature in the Pixie Postings! Choose what you'd like to send in from the choices below, and keep checking the Pixie Postings in the Hollow to see if your entry was picked. We can't wait to see what you create!</span>]]></tagline>
+		<body1><![CDATA[<span class="newsbodytext">Send us a story about your Fairy in Pixie Hollow. Make sure your story is one you've written yourself!</span>]]></body1>
+		<body2><![CDATA[<span class="newsbodytext">Send a special seasonal greeting to your Fairy friends! Remember, only use<br>Fairy names.</span>]]></body2>
+
+		<body3><![CDATA[<span class="newsbodytext">Calling all pixie poets! Send in your original poem here!</span>]]></body3>
+		<body4><![CDATA[<span class="newsbodytext">Ask Tabby a question about Pixie Hollow! Remember, only a few questions can be answered each week, but one of them<br>could be yours.</span>]]></body4>
+		<body5><![CDATA[<span class="newsbodytext">We want to see your latest Pixie Hollow masterpiece! Draw it on your computer or draw it on paper and scan it.</span>]]></body5>
+	</copy>
+</page>

@@ -1,0 +1,15 @@
+
+<config>
+	<!--tagline>
+		<tagline align="center" font="pristina" title="false" titlex="0" titley="0" yOffset="20"><![CDATA[<span class="newsbodytext">Share Your Creativity!</span>]]></tagline>
+		<tagline align="center"><![CDATA[<span class="newsbodytext">To send us your artwork, follow these easy steps:</span>]]></tagline>
+				<tagline yOffset="5"><![CDATA[<span class="newsbodytext">
+				<ul>	
+				<li>Select which type of content you will be submitting from the drop-down menu.</li>
+				<li>Fill in the form below - be sure to attach your artwork or write in your Fairy tale, poem, or question for Tabby. 
+				Make sure your entries were written or created by you - only original content will be posted.</li>
+				<li>Click the "Submit" button and you're done!</li>
+		</ul></span>]]></tagline>
+	</tagline-->
+	<submitpanel type="panel" panel="membershiphub_content" />
+</config>

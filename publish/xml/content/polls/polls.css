@@ -1,0 +1,51 @@
+a:link  {
+	text-decoration: underline;
+}
+.pageTitle {   
+	text-align: center;
+	font-family: Pristina-4FRTL; 
+	font-size: 40px;
+	color: #FFF04C;
+}
+.pageTitleWhite {   
+	text-align: center;
+	font-family: Pristina-4FRTL; 
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+.currentTitle
+	{
+	text-align: center;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 20px;
+	color: #FFF04C;
+	}
+	
+.title {   
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 15px;
+	color: #FFF04C;
+}
+.bodyAlignRight {   
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+.bodySmall {   
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.bodySmallYellow {   
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 16px;
+	color: #FFF04C;
+}
+.giant {   
+	text-align: center;
+	font-family: Pristina-4FRTL; 
+	font-size: 67px;
+	color: #FFF04C;
+}

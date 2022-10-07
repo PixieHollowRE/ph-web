@@ -1,0 +1,50 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/postcards.swf</swf>
+		<swf type="code">{panelCode}/postcards.swf</swf>
+	</swfs>
+	<copy>
+		<next target = "nextlabel">Next</next>
+		<back target = "backlabel">Back</back>
+		<help target = "helpContent.helpTF">WHAT'S THIS</help>
+		<outOf>postcard</outOf>
+		<from>from,</from>
+		<deleteConfirmation>All viewed postcards will be deleted and unviewed postcards will be saved for later.</deleteConfirmation>
+		<ok>OK</ok>
+		<notYet>View Again</notYet>
+		<message1>Missing you here at Fairy Camp!</message1>
+		<message2>Greetings from Fairy Camp on the mainland!</message2>
+		<message3>Wish you were here at Fairy Camp with me!</message3>
+		<message4>Fairy Camp is so much fun! Miss you!</message4>
+		<message5>Can't wait to see you back in the Hollow!</message5>
+		<message6>Having so much fun at Fairy Camp this year!</message6>
+	</copy>
+	<config>
+		<postcards>
+			<postcard id="1">
+				<image>{panelAJPG}/postcards/postcard_01.ajpg</image>
+				<message>message1</message>
+			</postcard>
+			<postcard id="2">
+				<image>{panelAJPG}/postcards/postcard_03.ajpg</image>
+				<message>message2</message>
+			</postcard>
+			<postcard id="3">
+				<image>{panelAJPG}/postcards/postcard_04.ajpg</image>
+				<message>message3</message>
+			</postcard>
+			<postcard id="4">
+				<image>{panelAJPG}/postcards/postcard_05.ajpg</image>
+				<message>message4</message>
+			</postcard>
+			<postcard id="5">
+				<image>{panelAJPG}/postcards/postcard_06.ajpg</image>
+				<message>message5</message>
+			</postcard>
+			<postcard id="6">
+				<image>{panelAJPG}/postcards/postcard_02.ajpg</image>
+				<message>message6</message>
+			</postcard>
+		</postcards>
+	</config>
+</panel>

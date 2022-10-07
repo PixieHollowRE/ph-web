@@ -1,0 +1,25 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/pixieDustMillAnimations.swf</swf>
+		<swf type="code">{panelCode}/pixieDustMillAnimations.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<animations>
+			<animation id="level_up_pixie_dust_shower" x="64" y="6" removeAtEnd="true" underFairy="true" />
+			<animation id="level_up_pixie_dust_jar" x="490" y="350"/>
+			<animation id="pixie_dust_jar" x="490" y="350"/>
+			<animation id="1Talent_explosion1" x="425" y="280"/>
+			<animation id="2Talent_explosion1" x="425" y="280"/>
+			<animation id="3Talent_explosion1" x="425" y="280"/>
+			<animation id="4Talent_explosion1" x="425" y="280"/>
+			<animation id="5Talent_explosion1" x="425" y="280"/>
+			<!--animation id="pixie_dust_meter_pdSparkle" x="203" y="-6"/>
+			<animation id="level_pdSparkle" x="426" y="-6"/>
+			<animation id="talent_points_pdSparkle" x="457" y="-6"/-->
+			<animation id="magic_mirror_open" x="220" y="160"/>
+			<animation id="magic_mirror_close" x="220" y="160"/>
+		</animations>		
+	</config>
+</panel>

@@ -1,0 +1,32 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/cardexpiration.swf</swf>
+		<swf type="code">{publishPanelCode}/cardexpiration.swf</swf>
+	</swfs>
+	<copy>
+		<header_content>Until Your Membership Card Expires!</header_content>
+		<daySingle>day</daySingle>
+		<daysPlural>days</daysPlural>
+		<expired>Your Membership Card Has Expired!</expired>
+		<history>Back</history>
+		<message>
+		<![CDATA[When your Membership Card expires, you can still fly all of your Fairies into Pixie Hollow using the same log-in information as before -- however, access to Membership features as well as any of the items you have added to your inventory through shopping, personal tailoring, and personal tinkering will no longer be available.<br/><br/>To renew your Membership or to activate another Membership Card, please click the Update Membership button below.]]>
+		</message>
+	</copy>
+	<config>
+		<root_url>index.html</root_url>
+		<iconbase>swf/avatar/icon.swf</iconbase>
+		<headergraphic>{publishPanelImages}/header_expiration_page.png</headergraphic>
+		<wallpapercolor>0x77b750</wallpapercolor>
+		<sectionicons>{publishPanelContent}/section_icons.swf</sectionicons>
+		<css><![CDATA[publish/xml/content/cardexpiration/cardexpiration.css]]></css>
+		<decoratorXML><![CDATA[publish/xml/content/cardexpiration/page1.xml]]></decoratorXML>
+		<panelsetbase>xml/panelSets/</panelsetbase>
+		<purchaseURL><![CDATA[membershiphub.html]]></purchaseURL>
+		<purchaseLinkTarget><![CDATA[_self]]></purchaseLinkTarget>
+		<pages>
+			<page>{publishContentData}/cardexpiration/page1.xml</page> 
+		</pages>
+		
+	</config>
+</panel>

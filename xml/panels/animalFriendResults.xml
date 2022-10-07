@@ -1,0 +1,33 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/animalFriendResults.swf</swf>
+		<swf type="code">{panelCode}/animalFriendResults.swf</swf>
+	</swfs>
+	<copy>
+		<close>Close</close>
+		<replay>Play Again</replay>
+		<title_feeding>Feeding</title_feeding>
+		<title_playing>Results</title_playing>
+		<title_healing>Healing</title_healing>
+
+		<feedLabel1>Hunger</feedLabel1>
+		<feedLabel2>Age Points Earned</feedLabel2>
+
+		<healLabel1>Health</healLabel1>
+		<healLabel2>Age Points Earned</healLabel2>
+
+		<playLabel1>Game Score</playLabel1>
+		<playLabel2>Mood</playLabel2>
+		<playLabel3>Age Points Earned</playLabel3>
+
+		<progressCopy>###val### of ###max###</progressCopy>
+
+		<growthUnlockedOld>Congratulations!&lt;br&gt;Your Animal Friend is now ###age### and it can now perform the &lt;font color="#FF0000"&gt;###trickName###&lt;/font&gt; trick.</growthUnlockedOld>
+		<growthUnlocked><![CDATA[Congratulations!<br>Your Animal Friend is now ###age### and it can perform the <font color="#FFFF00">###trickName###</font> trick.<br><br><a href='event:learnMore'><u><font color="#FFFF00">Click here</font></u></a> to learn how to use tricks.]]></growthUnlocked>
+
+		<lowHungerAlert>Your Animal Friend is too hungry right now to gain Age Points.</lowHungerAlert>
+		<lowHealthAlert>Your Animal Friend is too sick right now to gain Age Points.</lowHealthAlert>
+		<lowHungerAndHealthAlert>Your Animal Friend is too hungry and sick right now to gain Age Points.</lowHungerAndHealthAlert>
+	</copy>
+	<config></config>
+</panel>

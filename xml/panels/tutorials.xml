@@ -1,0 +1,11 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tutorials.swf</swf>
+		<swf type="code">{panelCode}/tutorials.swf</swf>
+	</swfs>
+	<copy>
+		<page>Page</page>
+		<text target="loading"></text>
+	</copy>
+	<config></config>
+</panel>

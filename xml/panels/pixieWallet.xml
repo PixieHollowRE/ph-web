@@ -1,0 +1,15 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/pixieWallet.swf</swf>
+		<swf type="code">{panelCode}/pixieWallet.swf</swf>
+	</swfs>
+	<copy>
+		<title>Your Pixie Diamonds</title>
+		<simplePlural>s</simplePlural>
+		<copy>#ACCOUNT_NAME# has a balance of:</copy>
+		<amount>#BALANCE# #ITEM_NAME#</amount>
+		<buy target="buyButton.caption">Buy More Diamonds</buy>
+		<learnMore><![CDATA[<u>Learn More</u>]]></learnMore>
+	</copy>
+	<config></config>
+</panel>

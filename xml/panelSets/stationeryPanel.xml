@@ -1,0 +1,57 @@
+<panelSet>
+	<panels>
+		<panel type="file" id="stationery" x="120" y="170" hidden="false">{panelData}/StationeryPanel.xml</panel>
+	</panels>
+	<config>
+		<menu>
+			<playbutton default="false" hideplay="true">
+				<panel>login</panel>
+			</playbutton>
+			<button>
+				<text>communitytext</text>
+				<url>http://disney.go.com/fairies/#/pixiecentral</url>
+			</button>
+			<button open="true" active="true">
+				<text>myFairyPage</text>
+				<event>pixiePage</event>
+				<button open="true">
+					<text>stationeryText</text>
+					<event>stationery</event>
+				</button>
+				<!--button>
+					<text>youDesignItText</text>
+					<url>zazzle.html</url>
+					<event>zazzlePage</event>
+				</button-->
+			</button>
+			<button>
+				<text>membershiptext</text>
+				<url>http://disney.go.com/fairies/pixie-hollow/membership/</url>  
+			</button>
+			<button>
+				<text>toytext</text>
+				<url>abouttoys.html</url>       
+			</button>
+			<button>
+				<text>parentstext</text>
+				<url>parentscenter.html</url>       
+			</button>
+			<button>
+				<text>helptext</text>
+				<url>supportcenter.html</url>       
+			</button>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>Fairy %0A Stationery</menutitle>
+		<arrowtext>Go Back</arrowtext>
+		<myFairyPage>My Fairy</myFairyPage>
+		<stationeryText>Stationery</stationeryText>
+		<youDesignItText>You-Design-It</youDesignItText>
+		<communitytext>Pixie Central</communitytext>
+		<parentstext>Parents</parentstext>
+		<helptext>Help</helptext>
+		<membershiptext>Membership</membershiptext>
+		<toytext>Toys &amp; Video Games</toytext>
+	</copy>
+</panelSet>

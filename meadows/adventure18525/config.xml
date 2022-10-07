@@ -1,0 +1,167 @@
+<zone>
+  <name>Talent Skill 4 Quest</name>
+  <zoneID>18525</zoneID>
+  <assetURL/>
+  <audioLibrary>wildernessForest</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="1519" height="600">
+        <image x="0" y="0" type="none">../wildernessAssets/forest_background.swf</image>
+      </layer>
+      <layer type="ground" width="4420" height="2192">
+        <image x="0" y="0" type="none">../wildernessAssets/empty.swf</image>
+      </layer>
+      <layer type="normal" width="4420" height="2192">
+        <image x="0" y="0" type="none">../wildernessAssets/forest_new_foreground.swf</image>
+      </layer>
+    </layers>
+    <validArea>
+      <vertex x="347" y="297"/>
+      <vertex x="535.5" y="282"/>
+      <vertex x="699" y="291"/>
+      <vertex x="845" y="321"/>
+      <vertex x="959" y="381"/>
+      <vertex x="1089" y="450"/>
+      <vertex x="1217" y="483"/>
+      <vertex x="1334" y="476"/>
+      <vertex x="1490" y="373"/>
+      <vertex x="1627" y="289"/>
+      <vertex x="1787" y="292"/>
+      <vertex x="1952" y="302"/>
+      <vertex x="2116" y="340"/>
+      <vertex x="2305" y="291"/>
+      <vertex x="2480" y="310"/>
+      <vertex x="2695" y="353"/>
+      <vertex x="2782" y="484"/>
+      <vertex x="2932" y="520"/>
+      <vertex x="3089" y="559"/>
+      <vertex x="3213" y="560"/>
+      <vertex x="3334" y="464"/>
+      <vertex x="3457" y="417"/>
+      <vertex x="3557" y="328"/>
+      <vertex x="3703" y="315"/>
+      <vertex x="3841" y="300"/>
+      <vertex x="4024" y="285"/>
+      <vertex x="4172" y="282"/>
+      <vertex x="4265" y="488"/>
+      <vertex x="4078" y="642"/>
+      <vertex x="4077" y="766"/>
+      <vertex x="4114" y="841"/>
+      <vertex x="4111" y="942"/>
+      <vertex x="4187" y="1074"/>
+      <vertex x="4113" y="1204"/>
+      <vertex x="4103" y="1398"/>
+      <vertex x="4116" y="1605"/>
+      <vertex x="4043" y="1730"/>
+      <vertex x="3875" y="1813"/>
+      <vertex x="3522" y="1823"/>
+      <vertex x="3270" y="1845"/>
+      <vertex x="3140" y="1767"/>
+      <vertex x="2944" y="1748"/>
+      <vertex x="2786" y="1702"/>
+      <vertex x="2593" y="1800"/>
+      <vertex x="2332" y="1745"/>
+      <vertex x="2184" y="1771"/>
+      <vertex x="1982" y="1835"/>
+      <vertex x="1628" y="1834"/>
+      <vertex x="1392" y="1854"/>
+      <vertex x="1194" y="1862"/>
+      <vertex x="921" y="1831"/>
+      <vertex x="875" y="1769"/>
+      <vertex x="854" y="1695"/>
+      <vertex x="857" y="1593"/>
+      <vertex x="860" y="1491"/>
+      <vertex x="961" y="1261"/>
+      <vertex x="1145" y="1277"/>
+      <vertex x="1253" y="1275"/>
+      <vertex x="1412" y="1345"/>
+      <vertex x="1705" y="1278"/>
+      <vertex x="1970" y="1320"/>
+      <vertex x="2159" y="1476"/>
+      <vertex x="2404" y="1488"/>
+      <vertex x="2525" y="1525"/>
+      <vertex x="2658" y="1560"/>
+      <vertex x="2768" y="1468"/>
+      <vertex x="2888" y="1397"/>
+      <vertex x="3023" y="1357"/>
+      <vertex x="3202" y="1333"/>
+      <vertex x="3363" y="1286"/>
+      <vertex x="3517" y="1337"/>
+      <vertex x="3719" y="1368"/>
+      <vertex x="3846" y="1354"/>
+      <vertex x="3998" y="1310"/>
+      <vertex x="4015" y="1198"/>
+      <vertex x="4015" y="1094"/>
+      <vertex x="3987" y="951"/>
+      <vertex x="3920.45" y="861.45"/>
+      <vertex x="3877" y="808"/>
+      <vertex x="3732" y="795"/>
+      <vertex x="3619" y="845"/>
+      <vertex x="3491" y="832"/>
+      <vertex x="3452" y="706"/>
+      <vertex x="3209" y="747"/>
+      <vertex x="3066" y="772"/>
+      <vertex x="2937" y="745"/>
+      <vertex x="2780" y="720"/>
+      <vertex x="2657" y="802"/>
+      <vertex x="2529" y="827"/>
+      <vertex x="2239" y="822"/>
+      <vertex x="1977" y="860"/>
+      <vertex x="1813" y="769"/>
+      <vertex x="1685" y="764"/>
+      <vertex x="1591" y="698"/>
+      <vertex x="1469" y="662"/>
+      <vertex x="1326" y="684"/>
+      <vertex x="1221" y="651"/>
+      <vertex x="1118" y="656"/>
+      <vertex x="920" y="668"/>
+      <vertex x="850" y="774"/>
+      <vertex x="720" y="820"/>
+      <vertex x="573" y="829"/>
+      <vertex x="446" y="801"/>
+      <vertex x="345" y="775"/>
+      <vertex x="321" y="691"/>
+      <vertex x="322" y="577"/>
+      <vertex x="304" y="430"/>
+    </validArea>
+  </clientLayout>
+  <locations>
+    <location x="390" y="493">default</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>wilderness_music_forest</id>
+      <loops>0</loops>
+      <volumeLow>0.2</volumeLow>
+      <volumeHigh>0.2</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm>
+      <id>wilderness_ambient_forest</id>
+      <loops>0</loops>
+      <volumeLow>1.2</volumeLow>
+      <volumeHigh>1.2</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  <barriers>
+    <barrier itemId="19503" x="887" y="367" index="1"/>
+    <barrier itemId="19503" x="2725" y="433" index="2"/>
+    <barrier itemId="19507" x="3699" y="871"/>
+    <barrier itemId="19507" x="3866" y="951"/>
+  </barriers>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

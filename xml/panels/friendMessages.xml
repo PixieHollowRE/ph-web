@@ -1,0 +1,10 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/friendMessages.swf</swf>
+		<swf type="code">{panelCode}/friendMessages.swf</swf>
+	</swfs>
+	<copy></copy>
+	<config>
+		<tutorialSpeedChatId>5660</tutorialSpeedChatId>
+	</config>
+</panel>

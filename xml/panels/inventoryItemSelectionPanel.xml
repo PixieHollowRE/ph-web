@@ -1,0 +1,30 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/inventoryItemSelectionPanel.swf</swf>
+		<swf type="code">{panelCode}/inventoryItemSelectionPanel.swf</swf>
+	</swfs>
+
+	<copy>
+		<btn1>CANCEL</btn1>
+		<btn2>GIVE</btn2>
+		<moreItems>You need to select more items.</moreItems>
+		<moreItemsOk>OK</moreItemsOk>
+		<myStuff>My Stuff</myStuff>
+		<giveTo>Give to</giveTo>
+		<itemSpaceIsEmpty>ITEM SPACE IS EMPTY</itemSpaceIsEmpty>
+		<createdBy>Created by:</createdBy>
+		<requirements>Requirements</requirements>
+		<itemSpaceIsEmpty>ITEM SPACE IS EMPTY</itemSpaceIsEmpty>
+
+		<avatarX>13</avatarX>
+		<avatarY>112</avatarY>
+		<avatarScaleX>0.6</avatarScaleX>
+		<avatarScaleY>0.6</avatarScaleY>
+
+		<acceptName target="mcBtn1.caption">Cancel</acceptName>
+		<cancelName target="mcBtn2.caption">Give</cancelName>
+	</copy>
+
+	<config>
+	</config>
+</panel>

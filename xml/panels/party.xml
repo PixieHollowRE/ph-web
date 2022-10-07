@@ -1,0 +1,54 @@
+<panel>
+
+	<swfs>
+		<swf type="content">{panelContent}/partyPanel.swf</swf>
+		<swf type="code">{panelCode}/partyPanel.swf</swf>
+	</swfs>
+	<copy>
+		<loading>Loading...</loading>
+		<placeGameTip>Play Game</placeGameTip>
+		<placeDecorationTip>Start your Party!</placeDecorationTip>
+		<selectAll target="friendInviter.selectAllButton.caption">Everyone</selectAll>
+		<deselectAll target="friendInviter.selectNoneButton.caption">Clear</deselectAll>
+		<sendInvites target="friendInviter.inviteSelected.caption">Send</sendInvites>
+		<cancelInvites target="friendInviter.cancelButton.caption">Cancel</cancelInvites>
+		<inivteTitle target="friendInviter.title">Invite Friends</inivteTitle>
+		<acceptName target="chooseName.acceptButton.caption">Start</acceptName>
+		<cancelName target="chooseName.cancelButton.caption">Cancel</cancelName>
+		<randomName target="chooseName.randomBtn.caption">Random</randomName>
+		<nameTitle target="chooseName.title">Name Your Party</nameTitle>
+		<noParty target="miniStorage.noPartyText">You have no Parties. Visit Phoebe's Party Favors in Sunflower Gully to buy a Party! Don't forget to buy some Party Games too!</noParty>
+		<noGame target="miniStorage.noGameText">You have no Party Games. Visit Phoebe's Party Favors in Sunflower Gully to buy a Party Game!</noGame>
+
+		<noPartySelected target="miniStorage.noPartySelectedText">Select a party on the left to start your party!</noPartySelected>
+		<noGameSelected target="miniStorage.noGameSelectedText">Select a party game to play with your guests!</noGameSelected>
+
+
+		<noFriends target="friendInviter.noFriendsText">None of your friends are online right now.  Go make more friends!</noFriends>
+		<allFriends target="friendInviter.allFriendsText">All of your friends that are online right now are already at your party.  Go make more friends!</allFriends>
+
+		<public target="interactPanel.publicbutton.publicLabel">Show in Public Parties</public>
+
+		<invite target="interactPanel.invitebutton.caption">Invite Friends</invite>
+		<stop target="interactPanel.cancelpartybutton.caption">Stop Party</stop>
+		<stopParty>Are you sure you want to stop your party?</stopParty>
+		<stopPartyYes>Yes</stopPartyYes>
+		<stopPartyNo>No</stopPartyNo>
+		<confirmTip>Start Party</confirmTip>
+		<cancelTip>Cancel Party</cancelTip>
+		<inivteTip>Invite Friends</inivteTip>
+		<publicTip>Make Party Public</publicTip>
+		<privateTip>Make Party Private</privateTip>
+		<cancelTip>Stop Party</cancelTip>
+		<notEnoughPlayers>There aren't enough players at your party to play that game. Try inviting friends or making your party public!</notEnoughPlayers>
+		<ok>Okay</ok>	
+		<confirmInvite>Your party invitations have been sent!</confirmInvite>
+		<noFriendsToInvite>Select some friends to invite first!</noFriendsToInvite>
+		<homeIsFriendsOnly>Oops! You cannot have a public party when only friends are allowed in your home.</homeIsFriendsOnly>
+		<waitForCoolDown>Oops! You need to wait before you can send another party invite.</waitForCoolDown>
+		<stopGameFirst>Stop the party game first!</stopGameFirst>
+	</copy>
+	<config>
+		<partyCoolDownDelay>60</partyCoolDownDelay>
+	</config>
+</panel>

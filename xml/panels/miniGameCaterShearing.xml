@@ -1,0 +1,105 @@
+<?xml version="1.0" ?> 
+<panel>
+  	<swfs>
+  		<swf type="content">{panelContent}/caterShearing.swf</swf> 
+		<swf type="code">{panelCode}/caterShearing.swf</swf> 
+	</swfs>
+<copy>
+	<mainTitle>Tailoring</mainTitle> 
+	<title>Shearing</title> 
+	<timeBonus>TIME BONUS</timeBonus> 
+	<grabbedBonus>Time Bonus!</grabbedBonus> 
+	<instr_title target="instructions.instructionsContainer.caption">How to Play</instr_title> 
+	<instruction0>Click and drag the shell razor to shear the caterpillar.</instruction0> 
+	<instruction1>Only shear the colored fur marked on the basket.</instruction1> 
+	<instruction2>Don't shear the wrong colored fur or you will lose time!</instruction2> 
+	<instruction3>Shear all the fur you need before time runs out.</instruction3> 
+	<gameOverTitle>Done!</gameOverTitle> 
+	<gameOverMoreTitle>Keep Going!</gameOverMoreTitle> 
+	<gameOverQuitMessage>Continue</gameOverQuitMessage> 
+	<quit_confirm_question>Are you sure you want to give up?</quit_confirm_question> 
+	<quit_confirm_yes>Yes</quit_confirm_yes> 
+	<quit_confirm_no>No</quit_confirm_no> 
+	
+  	<awesomePercent>96</awesomePercent> 
+  	<greatPercent>81</greatPercent> 
+  	<goodPercent>67</goodPercent> 
+	
+	<poor0>Nice Try!</poor0>
+	<good0>Good Job!</good0>
+	<great0>Great Job!</great0>
+	<awesome0>Awesome Job!</awesome0>
+
+  	<end_poor_Bobbin_0>Um-hmm-well, good try! I betcha you'll shear that caterpillar next time!</end_poor_Bobbin_0> 
+  	<end_poor_Mendy_0>Let's continue, shall we? We'll shear that caterpillar better next time I'm sure, my dear.</end_poor_Mendy_0> 
+  	<end_poor_Bobbin_1>Keep trying! You'll get better at caterpillar shearing, I know ya will!</end_poor_Bobbin_1> 
+  	<end_poor_Mendy_1>We tried our best, didn't we, my dear? And remember, we can always try caterpillar shearing again!</end_poor_Mendy_1> 
+  	<end_poor_Bobbin_2>Keep thinking happy thoughts! I know ya can shear caterpillars better next time!</end_poor_Bobbin_2> 
+  	<end_poor_Mendy_2>Let's not lose heart. Each time gets easier with practice, my dear, truly it does.</end_poor_Mendy_2> 
+  	<end_poor_Bobbin_3>All it takes is a teensy bit more practice, and then you'll shear that caterpillar perfectly!</end_poor_Bobbin_3> 
+  	<end_poor_Mendy_3>Shearing caterpillars can be a real challenge. There's always next time to do better, my dear!</end_poor_Mendy_3>
+  	 
+  	<end_good_Bobbin_0>Nice job! Have ya sheared caterpillars before?</end_good_Bobbin_0> 
+  	<end_good_Mendy_0>Not bad caterpillar shearing, my dear, not bad at all!</end_good_Mendy_0> 
+  	<end_good_Bobbin_1>Hey-oh! Nice caterpillar shearing! Ya made me proud!</end_good_Bobbin_1> 
+  	<end_good_Mendy_1>Our caterpillar shearing skills are improving, my dear. Well done!</end_good_Mendy_1> 
+  	<end_good_Bobbin_2>Well, sleeves and stitches, you're good with this caterpillar shearing stuff!</end_good_Bobbin_2> 
+  	<end_good_Mendy_2>Mmm, we certainly have quite a knack for caterpillar shearing, don't we?</end_good_Mendy_2> 
+  	<end_good_Bobbin_3>Ya know, you're awful good with this caterpillar shearing stuff!</end_good_Bobbin_3> 
+  	<end_good_Mendy_3>Splendid job, my dear. We're on our way to perfecting caterpillar shearing!</end_good_Mendy_3>
+  	 
+  	<end_great_Bobbin_0>Wow-wee! Ya sure you're not a caterpillar shearing-talent?</end_great_Bobbin_0> 
+  	<end_great_Mendy_0>It looks as if we have quite a touch for caterpillar shearing!</end_great_Mendy_0> 
+  	<end_great_Bobbin_1>I'd call that a pretty shear-tastic job! Ya did great!</end_great_Bobbin_1> 
+  	<end_great_Mendy_1>We're quite impressed! Quite impressed indeed.</end_great_Mendy_1> 
+  	<end_great_Bobbin_2>You've been practicing, haven't ya? I knew it! Great job!</end_great_Bobbin_2> 
+  	<end_great_Mendy_2>We feel so proud. This is quite splendid work!</end_great_Mendy_2> 
+  	<end_great_Bobbin_3>What shear-ific work! I'm not sure I could have done better myself!</end_great_Bobbin_3> 
+  	<end_great_Mendy_3>We've been practicing our caterpillar shearing, haven't we? Lovely work!</end_great_Mendy_3>
+  	 
+  	<end_awesome_Bobbin_0>Okay, I mean it! Are you sure you're not a caterpillar shearing expert?</end_awesome_Bobbin_0> 
+  	<end_awesome_Mendy_0>My dear, what utterly amazing caterpillar shearing skills we have!</end_awesome_Mendy_0> 
+  	<end_awesome_Bobbin_1>Ya sure finished shearing that caterpillar in a flit! Great job!</end_awesome_Bobbin_1> 
+  	<end_awesome_Mendy_1>This just goes to show that practice does make perfect, doesn't it?</end_awesome_Mendy_1> 
+  	<end_awesome_Bobbin_2>Well done! You're a caterpillar shearing machine for sure!</end_awesome_Bobbin_2> 
+  	<end_awesome_Mendy_2>Truly astounding, my dear! We couldn't have sheared that caterpillar better!</end_awesome_Mendy_2> 
+  	<end_awesome_Bobbin_3>Pleat my wings, you're a caterpillar shearing wonder!</end_awesome_Bobbin_3> 
+  	<end_awesome_Mendy_3>We simply adore your work! Superb job!</end_awesome_Mendy_3>
+  	 
+	<bobbinEncourage0>Watch that little critter go!</bobbinEncourage0>
+	<bobbinEncourage1>These fellows sure love to be sheared!</bobbinEncourage1>
+	<bobbinEncourage2>Keep shearing, keep shearing!</bobbinEncourage2>
+	<bobbinEncourage3>Nice shear, that looks great!</bobbinEncourage3>
+	<bobbinEncourage4>You're doing a shear-ific job so far!</bobbinEncourage4>
+	<bobbinEncourage5>Caterpillar fur is so warm!</bobbinEncourage5>
+	<bobbinEncourage6>That's some super shearing!</bobbinEncourage6>
+	<bobbinDiscourage0>Shear miss! Ya lost one!</bobbinDiscourage0>
+	<bobbinDiscourage1>Don't fret, ya got more fur!</bobbinDiscourage1>
+	<bobbinDiscourage2>Aw, ya missed him!</bobbinDiscourage2>
+	<bobbinDiscourage3>Well, ya can't shear 'em all!</bobbinDiscourage3>
+	
+	<mendyEncourage0>That caterpillar sure needs a shear.</mendyEncourage0>
+	<mendyEncourage1>Splendid! We're showing a real talent for this!</mendyEncourage1>
+	<mendyEncourage2>Our caterpillar will be sheared in no time!</mendyEncourage2>
+	<mendyEncourage3>Oh! Superb!!</mendyEncourage3>
+	<mendyEncourage4>This is coming along splendidly!</mendyEncourage4>
+	<mendyEncourage5>It requires skill to shear, doesn't it?</mendyEncourage5>
+	<mendyEncourage6>We're showing a distinct skill with shearing!</mendyEncourage6>
+	<mendyDiscourage0>Careful now! Let's try it again.</mendyDiscourage0>
+	<mendyDiscourage1>No worries, my dear, we have more fur!</mendyDiscourage1>
+	<mendyDiscourage2>Oh dear, it's time to try again.</mendyDiscourage2>
+	<mendyDiscourage3>Why don't we give that another try?</mendyDiscourage3>
+	 
+	 
+  	<host>Bobbin</host> 
+</copy>
+<config>
+	<backgroundSwfPath>swf/minigame_assets/</backgroundSwfPath> 
+  	<playwidth>878</playwidth> 
+  	<playheight>507</playheight> 
+  	<bugX>440</bugX> 
+  	<bugY>253</bugY> 
+  	<debugMode>0</debugMode> 
+  	<colorPalette>3</colorPalette> 
+</config>
+  </panel>

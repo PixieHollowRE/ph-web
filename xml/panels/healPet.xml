@@ -1,0 +1,33 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/healPet.swf</swf>
+		<swf type="code">{panelCode}/healPet.swf</swf>
+	</swfs>
+	<copy>
+		<title>Your Animal Friend is sick!</title>
+		<copy>Would you like to use a Healing Potion or visit Elixa?</copy>
+		<orField>or</orField>
+		<confirm>OK</confirm>
+		<cancel>No</cancel>
+		
+		<free>Quest</free>
+		
+		<simplePlural>s</simplePlural>
+		<feedCopy>Your Animal Friend needs ###amount### ###type### to be full.  Are you sure you would like to feed them this much?</feedCopy>
+		<friendsFeedCopy>This Animal Friend needs ###amount### ###type### to be full.  Are you sure you would like to feed them this much?</friendsFeedCopy>
+		<fullHeader>Eurp!</fullHeader>
+		<fullCopy>Your Animal Friend is full.</fullCopy>
+		<friendsFullCopy>This Animal Friend is full.</friendsFullCopy>
+		<outOfItem>Your Animal Friend needs ###amount### ###type### to be full.</outOfItem>
+		<friendOutOfItem>This Animal Friend needs ###amount### ###type### to be full.</friendOutOfItem>
+		<outOfItemAlert>You currently have 0 ###type###. Gather more to feed your Animal Friend.</outOfItemAlert>
+		<friendOutOfItemAlert>You currently have 0 ###type###. Gather more to feed this Animal Friend.</friendOutOfItemAlert>
+		<instaHealConfirmation_title>Just Checking...</instaHealConfirmation_title>
+		<instaHealConfirmation_message>Buy a Healing Potion to cure your Animal Friend?</instaHealConfirmation_message>
+		<ok>Close</ok>
+	</copy>
+	<config>
+		<defaultGoldPrice>3</defaultGoldPrice>
+		
+	</config>
+</panel>

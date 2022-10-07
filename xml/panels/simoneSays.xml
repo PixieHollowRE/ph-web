@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/simoneSays.swf</swf>
+		<swf type="code">{panelCode}/simoneSays.swf</swf>
+	</swfs>
+	<copy>
+		<!-- UI: INSTRUCTIONS -->
+		<inst_screen_title target="instructions.title.heading">Instructions</inst_screen_title>
+		
+		<instruction0 target="instructions.btnContainer.page0.label">Simone is in charge, so copy the faces she makes as fast as you can!</instruction0>
+		<instruction1 target="instructions.btnContainer.page1.label">Sometimes Simone tries to be tricky, don't copy her unless she says "Simone Says"!</instruction1>
+		<instruction2 target="instructions.btnContainer.page2.label">Earn points for every correct face you make! The more you are right, the more points you earn!</instruction2>
+		<instruction3 target="instructions.btnContainer.page3.label">Watch carefully! The game gets faster and Simone gets trickier!</instruction3>		
+
+		<!-- lobby panel title -->
+		<title>Simone Says</title>
+		<!-- text -->
+		<text_simone_says>Simone Says:</text_simone_says>
+		<text_emotes>Emotes</text_emotes>
+		<!-- abort messagee -->
+		<abort1>Sorry! The party host has left the game.</abort1>
+		<abort2>Sorry!  There are not enough players to continue the game.</abort2>
+		<!-- npc comments -->
+		<empty_0></empty_0>
+		<npc0_0>Everyone needs to listen up!</npc0_0>
+		<npc0_1>Listen up, Fairies!</npc0_1>	
+		<npc1_0>I'm Simone and it's time to play 'Simone Says'!</npc1_0>
+		<npc1_1>It's time to play 'Simone Says'! I'm in charge cuz I'm Simone!</npc1_1>		
+		<npc2_0>It's easy -- you just have to do what I do.</npc2_0>
+		<npc2_1>You just have to do what I do!</npc2_1>		
+		<npc25_0>But only when I say 'Simone Says'!</npc25_0>
+		<npc25_1>Make sure I say 'Simone Says' though!</npc25_1>				
+		<npc3_0>Ready? Let's go!</npc3_0>
+		<npc4_0>Did you get that one?</npc4_0>
+		<npc4_0>Remember, only follow me when I say 'Simone Says'!</npc4_0>	
+		<npc5_0>Okay. Now it's time to play for real!</npc5_0>
+		<npc6_0>Not too bad. Now let's see if you can keep up with THIS...</npc6_0>
+		<npc7_0>You Fairies are pretty good!</npc7_0>
+		<npc8_0>Here we go again!</npc8_0>
+		<npc9_0>And now it's time for Simone's Super Special Challenge!</npc9_0>
+		<npc10_0>Great game Fairies!</npc10_0>
+		<npc11_0>Let's see what everyone wins...</npc11_0>
+	</copy>
+	<config>
+		<ss_percentage>25</ss_percentage>
+		<min_players>2</min_players>
+		<total_emotes>13</total_emotes>
+		<delay>10</delay>
+		<repeat>0</repeat>
+		<repetition_counter>0</repetition_counter>
+		<level>0</level>
+		<!-- npc balloon -->
+		<npc_balloon_x>656</npc_balloon_x>
+		<npc_balloon_y>185</npc_balloon_y>
+		<!-- npc (emote)-->
+		<npc_emote_x>723</npc_emote_x>
+		<npc_emote_y>245</npc_emote_y>
+		<!-- player cards xy positioning default stuff -->
+		<player_container_x>193</player_container_x>
+		<player_container_y>-50</player_container_y>
+		<player_horz_space>95</player_horz_space>
+		<player_vert_space>147</player_vert_space>
+		<player_emote_x>-3</player_emote_x>
+		<player_emote_y>7</player_emote_y>
+		<!--
+		<player_emote_x>-6</player_emote_x>
+		<player_emote_y>25</player_emote_y>
+		-->
+		<player_row1_y>160</player_row1_y>
+		<player_row2_y>83</player_row2_y>
+		<player_row3_y>0</player_row3_y>
+		<!-- score -->
+		<score_x>550</score_x>
+		<score_y>70</score_y>
+		<points_per_hit>1</points_per_hit> <!-- default amount of points earned on correct selection of emote -->
+		<!-- ui -->
+		<ui_x>173</ui_x>
+		<ui_y3>150</ui_y3>
+		<ui_y5>100</ui_y5>
+		<ui_y7>45</ui_y7>
+		<!-- card -->
+		<card_scale_x>1.00</card_scale_x>
+		<card_scale_y>1.00</card_scale_y>
+		<card_pos_x>0</card_pos_x>
+		<card_pos_y>0</card_pos_y>
+		<!-- npc dna -->
+		<npcDna>107/97/90/0/-15/25/-15/0/12/0/0/28/106/39:64:159/521:132:-1/1005:124:-1/1501:37:-1/2022:10:111/2513:146:-1/3001:37:-1/3529:135:112/4007:147:106/4515:106:-1/5017:123:-1/5512:123:-1/6001:110:-1</npcDna>
+		<hideDelay>0.3</hideDelay>
+
+		<!-- delayUpper: is the upper bound of the delay (in seconds) -->
+		<!-- delayLower: is the lower bound of the delay (in seconds) -->
+		<!-- delayRows: is how many emotes will be shown for the user to select from.... 1:three emotes, 2:five emotes, 3:seven emotes -->
+		<!-- randomize: takes out certain emotes and shifts accordingly to fill empty spaces (makes the game much much harder) -->
+		<!-- repetition: is how many times the game will repeat at that difficulty -->
+		<!-- npcComment: the comment that the npc says after the round (the comments are divided with the ;; sign. also as many comments may be added as you want. JUST MAKE SURE THE npcDelay HAS THE SAME NUMBER OF TIME INFORMATION) -->
+		<!-- npcDelay: how long the npcComment is shown (in seconds) -->
+		<!-- the first level line is the initation default <level delayUpper="0" delayLower="0" delayRows="2" randomize="0" repetition="0" npcComment="" npcDelay="0"/> -->
+
+		<!-- Intro -->
+		<level delayUpper="0" delayLower="0" delayRows="2" randomize="0" repetition="0" npcComment="npc0" npcDelay="4" />		
+		<!-- teeny pause -->
+		<level delayUpper="0.3" delayLower="0.3" delayRows="2" randomize="0" repetition="0" npcComment="npc1" npcDelay="4" />
+		<!-- teeny pause -->
+		<level delayUpper="0.3" delayLower="0.3" delayRows="2" randomize="0" repetition="0" npcComment="npc2" npcDelay="4" />
+		<!-- teeny pause -->
+		<level delayUpper="0.3" delayLower="0.3" delayRows="2" randomize="0" repetition="0" npcComment="npc25" npcDelay="4" />		
+		<!-- teeny pause -->
+		<level delayUpper="0.3" delayLower="0.3" delayRows="2" randomize="0" repetition="0" npcComment="npc3" npcDelay="4" />
+		
+		<!-- teeny pause -->
+		<level delayUpper="0" delayLower="0" delayRows="2" randomize="0" repetition="0" npcComment="empty" npcDelay="0.3" />	
+		
+		<!-- First Emote followed by teeny pause -->			
+		<level delayUpper="4" delayLower="4" delayRows="1" randomize="0" repetition="1" npcComment="empty" npcDelay="0" />	
+
+		<level delayUpper="0.3" delayLower="0.3" delayRows="2" randomize="0" repetition="0" npcComment="npc4" npcDelay="4" />
+		<level delayUpper="0.3" delayLower="0.3" delayRows="2" randomize="0" repetition="0" npcComment="npc41" npcDelay="4" />
+		<level delayUpper="0.3" delayLower="0.3" delayRows="2" randomize="0" repetition="0" npcComment="npc5" npcDelay="4" />
+		
+		<!-- teeny pause -->
+		<level delayUpper="0" delayLower="0" delayRows="2" randomize="0" repetition="0" npcComment="empty" npcDelay="0.3" />		
+		
+		<!-- First Round -->			
+		<level delayUpper="5" delayLower="4"  delayRows="1" randomize="0" repetition="5" npcComment="empty" npcDelay="0" />
+		
+		<!-- Pause -->
+		<level delayUpper="0.3" delayLower="0.3" delayRows="2" randomize="0" repetition="0" npcComment="npc6" npcDelay="4" />
+		
+		<!-- teeny pause -->
+		<level delayUpper="0" delayLower="0" delayRows="2" randomize="0" repetition="0" npcComment="empty" npcDelay="0.3" />		
+		
+		<!-- Second Round -->				
+		<level delayUpper="4" delayLower="3"  delayRows="2" randomize="0" repetition="8" npcComment="empty" npcDelay="0" />
+			
+		<!-- Pause -->
+		<level delayUpper="0.3" delayLower="0.3" delayRows="2" randomize="0" repetition="0" npcComment="npc7" npcDelay="4" />
+		<level delayUpper="0.3" delayLower="0.3" delayRows="2" randomize="0" repetition="0" npcComment="npc8" npcDelay="4" />
+		
+		<!-- teeny pause -->
+		<level delayUpper="0" delayLower="0" delayRows="3" randomize="0" repetition="0" npcComment="empty" npcDelay="0.3" />		
+		
+		<!-- Third Round -->
+		<level delayUpper="4" delayLower="2"  delayRows="3" randomize="0" repetition="6" npcComment="empty" npcDelay="0" />		
+				
+		<!-- Pause -->
+		<level delayUpper="0.3" delayLower="0.3" delayRows="3" randomize="0" repetition="0" npcComment="npc9" npcDelay="4" />
+				
+		<!-- Challenge Round -->	
+		<level delayUpper="2.5" delayLower="1.5"  delayRows="3" randomize="0" repetition="3" npcComment="empty" npcDelay="0.3" />
+				
+		<!-- Pause -->
+		<level delayUpper="0.3" delayLower="0.3" delayRows="3" randomize="0" repetition="0" npcComment="npc10" npcDelay="4" />	
+
+		<!-- Pause -->
+		<level delayUpper="0.3" delayLower="0.3" delayRows="3" randomize="0" repetition="0" npcComment="npc11" npcDelay="4" />
+		
+		<!-- teeny pause -->
+		<level delayUpper="0" delayLower="0" delayRows="2" randomize="0" repetition="0" npcComment="empty" npcDelay="0.25" />
+	</config>
+</panel>

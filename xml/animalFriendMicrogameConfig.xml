@@ -1,0 +1,41 @@
+﻿<!-- REBUILD BUNDLES!!! -->
+<game>
+	<copy>
+		<quitUI_heading>Quit?</quitUI_heading>
+		<quitUI_description>Are you sure you want to quit?</quitUI_description>
+		<quitUI_cancelBtn>Cancel</quitUI_cancelBtn>
+		<quitUI_confirmBtn>Quit</quitUI_confirmBtn>
+
+		<finishedUI_headingWin>Game Win</finishedUI_headingWin>
+		<finishedUI_headingLose>Game Over</finishedUI_headingLose>
+		<finishedUI_stat1Label>Total Score</finishedUI_stat1Label>
+		<finishedUI_stat2Label>Current Happiness Meter</finishedUI_stat2Label>
+		<finishedUI_stat3Label>Total Growth Level Points Earned</finishedUI_stat3Label>
+		<finishedUI_continueBtn>Continue</finishedUI_continueBtn>
+
+		<messageDefaultTitle>How To Play</messageDefaultTitle>
+	</copy>
+	<config>
+		<adjustVolumeOnStart>0.5</adjustVolumeOnStart>
+
+		<sharedUIOffsetCoordsSandbox>0,0</sharedUIOffsetCoordsSandbox>
+		<panelOffsetCoordsSandbox>0,0</panelOffsetCoordsSandbox>
+
+		<!-- <sharedUIOffsetCoordsMMO>60,50</sharedUIOffsetCoordsMMO> --> <!-- old way -->
+		<sharedUIOffsetCoordsMMO>22,0</sharedUIOffsetCoordsMMO> <!-- new way with separate game/bg/ui layers -->
+		<!-- <panelOffsetCoordsMMO>50,57</panelOffsetCoordsMMO> --> <!-- outer panelset -->
+		<panelOffsetCoordsMMO>0,0</panelOffsetCoordsMMO> <!-- inner panelset -->
+
+		<countdownWords>Ready###Go!</countdownWords>
+		<countdownFrames>1</countdownFrames>
+			
+		<gameconfigs>
+			<game id="13042" sandboxDNA="73000" iconFrame="firefly" name="AFMemory" />
+			<game id="13043" sandboxDNA="73001" iconFrame="ladybug" name="AFFindTheBug" />
+			<game id="13044" sandboxDNA="73002" iconFrame="hummingbird" name="AFBounce" />
+			<game id="13045" sandboxDNA="73003" iconFrame="dragonfly" name="AFDragonflyRacing" />	
+			<game id="13046" sandboxDNA="73004" iconFrame="bee" name="AFBeesEye" />	
+		</gameconfigs>	
+	</config>
+</game>
+		

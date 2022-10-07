@@ -1,0 +1,37 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/chatLog.swf</swf>
+		<swf type="code">{panelCode}/chatLog.swf</swf>
+	</swfs>
+	<config>
+		<maxLength>10000</maxLength>
+		<nameLengthThreshold>14</nameLengthThreshold>
+		<saySelfColor>#4DB8FF</saySelfColor>
+		<sayColor>#4DB8FF</sayColor>
+		<castSelfColor>#FFDDDD</castSelfColor>
+		<castColor>#FFFFDD</castColor>
+		<whisperSelfColor>#9ce86a</whisperSelfColor>
+		<whisperColor>#9ce86a</whisperColor>
+		<whisperAllSelfColor>#F7F403</whisperAllSelfColor>
+		<whisperAllColor>#F7F403</whisperAllColor>
+		<saySelfNameColor>#FFFFFF</saySelfNameColor>
+		<sayNameColor>#FFFFFF</sayNameColor>
+		<castSelfNameColor>#DDAAAA</castSelfNameColor>
+		<castNameColor>#DDDDAA</castNameColor>
+		<whisperSelfNameColor>#FFFFFF</whisperSelfNameColor>
+		<whisperNameColor>#FFFFFF</whisperNameColor>
+	</config>
+	<copy>
+		<title>Chat Log</title>
+		<titleWild>Chat Log</titleWild>
+		<initTextDef><![CDATA[<font color="#FFFFFF">Welcome to the Chat Log.</font>]]></initTextDef>
+		<initText><![CDATA[<font color="#FFFFFF">Welcome to the Party Game Chat Log!</font><br><br><font color="#9ce86a">You can click on a Fairy name in the chat log to whisper to that player.</font>]]></initText>
+		<initTextWild><![CDATA[<font color="#9ce86a">Click on a name in the chat log to whisper to that player.</font>]]></initTextWild>
+		<whisperText>whispers</whisperText>
+		<whisperSelfText>WHISPER to</whisperSelfText>
+		<sayText>says</sayText>
+		<castText>uses</castText>
+		<exitText>#FAIRYNAME# has left.</exitText>
+	</copy>
+
+</panel>

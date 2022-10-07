@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<session>
+	<params>
+		<type>standalone</type>
+		<initialContent>{panelSetData}/fairyManager.xml</initialContent>
+		<sectionicons>swf/panel_content/section_icons.swf</sectionicons>
+		<queuepanel>queuing</queuepanel>
+		<menu/>
+	</params>
+	<copy>
+		
+		
+		
+	</copy>
+
+</session>

@@ -1,0 +1,16 @@
+<level>
+	<tip>Aw, thistle thorns! Sometimes the wind picks up and those petals float real fast!</tip>
+	<tipImage>10</tipImage>
+	
+	<rosettaStartMessage>Uh oh, the wind is picking up a little!###The wind is blowing harder, so flap your wings carefully!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>
+	<objective>Capture 8 ###petal1### petals and 12 ###petal2### petals!</objective>
+
+	<randomPetalConfig>8-10,12-10</randomPetalConfig>
+	<multiplierChance>5</multiplierChance>
+	<bees>1</bees>
+	<petalspeed min="2" max="3"/>
+	<powerups stopwind="2" extratime="1" removebees="0"/>
+	<timeLimit>30</timeLimit>
+</level>

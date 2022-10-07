@@ -1,0 +1,13 @@
+<!--
+Data needed for sorting methods that are based on
+arbitrary criteria
+
+NOTE :: this is bundled into MMOConfigBundle.as
+-->
+<sortingData>
+	<partyDecorations>Banner Party,Flower Party,Neverlight Party,Winter Party,Spring Party,Summer Party,Autumn Party</partyDecorations>
+	<!-- notice the specialized delimiter used here, | as opposed to , -->
+	<partyGames>Simone Says|Pass the Popcorn|Rock, Paper, Scissors</partyGames>
+	<!-- Visual EM Spectrum for available color tags.  Used for sorting by color -->
+	<colorTagSpectrum>pink,red,orange,brown,yellow,green,blue,purple,gray,silver,white,black,other</colorTagSpectrum>
+</sortingData>

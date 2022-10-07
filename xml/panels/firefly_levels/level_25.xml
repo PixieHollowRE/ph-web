@@ -1,0 +1,243 @@
+<level>
+
+<!-- Moths guard orange, red and purple lights, any of
+ which could be used to solve the level. Use green to
+ lure the moth and pick a color. -->
+
+	<light x = "95" y = "253">green</light>
+	<light x = "783" y = "253">yellow</light>
+
+	<light x = "250" y = "203">purple</light>
+	<light x = "631" y = "303">red</light>
+
+<!-- moth #1 of 3 (chaser)-->
+	<firefly image="moth">
+		<path source = "random">
+			<startPoint x="449" y="263" />						
+			<topLeft x="195" y="78" />
+			<bottomRight x="683" y="428"/>
+			<waitFrameCountMax value="2" />			
+		</path>
+		<speed>7</speed>
+		<attract>20</attract>
+		<type>moth</type>
+	</firefly>
+
+<!-- moth #2 of 3 (purple guard) -->
+	<firefly image="blindmoth">
+		<path speed = "0.5">
+			<point x="250" y="173" />
+			<point x="271" y="182" />
+			<point x="280" y="203" />
+			<point x="271" y="224" />
+			<point x="250" y="233" />
+			<point x="229" y="224" />
+			<point x="220" y="203" />
+			<point x="229" y="182" />
+		</path>
+		<speed>6</speed>
+		<attract>20</attract>
+		<type>blindmoth</type>
+	</firefly>
+
+<!-- moth #3 of 3 (red guard) -->
+	<firefly image="blindmoth">
+		<path speed = "0.5">
+			<point x="631" y="273" />
+			<point x="610" y="282" />
+			<point x="601" y="303" />
+			<point x="610" y="323" />
+			<point x="631" y="333" />
+			<point x="652" y="324" />
+			<point x="661" y="303" />
+			<point x="652" y="282" />
+		</path>
+		<speed>6</speed>
+		<attract>20</attract>
+		<type>blindmoth</type>
+	</firefly>	
+
+<!-- firefly #2 of 8 
+			<point x="519" y="170" />
+			<point x="559" y="250" />
+			<point x="409" y="250" />
+-->
+	<firefly image="firefly">
+		<path>	
+			<point x="519" y="170" />
+			<point x="552" y="250" />
+			<point x="519" y="330" />
+			<point x="439" y="363" />			
+			<point x="359" y="330" />	
+			<point x="326" y="250" />	
+			<point x="359" y="170" />			
+			<point x="439" y="137" />			
+		</path>
+		<speed>3.65</speed>
+	</firefly>
+
+	
+<!-- firefly #4 of 8 
+			<point x="519" y="330" />
+			<point x="439" y="370" />
+			<point x="439" y="220" />
+-->
+	<firefly image="firefly">
+		<path>
+			<point x="519" y="330" />
+			<point x="439" y="363" />			
+			<point x="359" y="330" />	
+			<point x="326" y="250" />	
+			<point x="359" y="170" />			
+			<point x="439" y="137" />			
+			<point x="519" y="170" />
+			<point x="552" y="250" />
+		</path>
+		<speed>3.65</speed>
+	</firefly>
+	
+
+<!-- firefly #6 of 8 			
+			<point x="359" y="330" />
+			<point x="319" y="250" />
+			<point x="469" y="250" />
+-->
+	<firefly image="firefly">
+		<path>	
+			<point x="359" y="330" />	
+			<point x="326" y="250" />	
+			<point x="359" y="170" />			
+			<point x="439" y="137" />			
+			<point x="519" y="170" />
+			<point x="552" y="250" />
+			<point x="519" y="330" />
+			<point x="439" y="363" />			
+		</path>
+		<speed>3.65</speed>
+	</firefly>
+	
+<!-- firefly #8 of 8 			
+			<point x="359" y="170" />
+			<point x="439" y="130" />
+			<point x="439" y="280" />
+-->
+	<firefly image="firefly">
+		<path>	
+			<point x="359" y="170" />			
+			<point x="439" y="137" />			
+			<point x="519" y="170" />
+			<point x="552" y="250" />
+			<point x="519" y="330" />
+			<point x="439" y="363" />			
+			<point x="359" y="330" />	
+			<point x="326" y="250" />	
+		</path>
+		<speed>3.65</speed>
+	</firefly>
+	
+<!-- firefly #1 of 8 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="559" y="130" />
+			<point x="439" y="90" />
+			<point x="418" y="271" />
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.15</turnspeed>
+	</firefly>
+
+<!-- firefly #3 of 8 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="559" y="370" />
+			<point x="599" y="250" />
+			<point x="418" y="229" />
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.15</turnspeed>		
+	</firefly>
+
+
+<!-- firefly #5 of 8 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="319" y="370" />
+			<point x="439" y="410" />
+			<point x="460" y="229" />
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.15</turnspeed>
+	</firefly>
+
+
+<!-- firefly #7 of 8 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="319" y="130" />
+			<point x="279" y="250" />
+			<point x="460" y="271" />
+		</path>
+		<speed>7</speed>
+		<turnspeed>0.15</turnspeed>
+	</firefly>
+
+
+	<!-- firefly #9 of 8 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="439" y="90" />
+			<point x="559" y="130" />			
+			<point x="599" y="250" />	
+			<point x="559" y="370" />						
+			<point x="439" y="410" />	
+			<point x="319" y="370" />						
+			<point x="279" y="250" />
+			<point x="279" y="130" />						
+		</path>
+		<speed>5.5</speed>
+	</firefly>
+
+	<!-- firefly #10 of 8 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="599" y="250" />	
+			<point x="559" y="370" />						
+			<point x="439" y="410" />	
+			<point x="319" y="370" />						
+			<point x="279" y="250" />
+			<point x="279" y="130" />						
+			<point x="439" y="90" />
+			<point x="559" y="130" />			
+		</path>
+		<speed>5.5</speed>
+	</firefly>
+	<!-- firefly #11 of 8 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="439" y="410" />	
+			<point x="319" y="370" />						
+			<point x="279" y="250" />
+			<point x="279" y="130" />						
+			<point x="439" y="90" />
+			<point x="559" y="130" />			
+			<point x="599" y="250" />	
+			<point x="559" y="370" />						
+		</path>
+		<speed>5.5</speed>
+	</firefly>
+
+	<!-- firefly #12 of 8 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="279" y="250" />
+			<point x="279" y="130" />						
+			<point x="439" y="90" />
+			<point x="559" y="130" />			
+			<point x="599" y="250" />	
+			<point x="559" y="370" />						
+			<point x="439" y="410" />	
+			<point x="319" y="370" />						
+		</path>
+		<speed>5.5</speed>
+	</firefly>
+</level>

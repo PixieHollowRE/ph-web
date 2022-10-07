@@ -1,0 +1,50 @@
+<panel>
+  
+  <swfs>
+    
+    <swf type="content">{panelContent}/tradeIngredients.swf</swf>
+    
+    <swf type="code">{panelCode}/tradeIngredients.swf</swf>
+    
+  </swfs>
+  
+  <copy>
+    
+	<header target="header">Trade Ingredients</header>
+	
+	<cancelBtn target="cancelbutton.caption">Exit</cancelBtn>
+	<confirmBtn target="confirmbutton.caption">Trade</confirmBtn>
+	<wildernessItemAlert>Oops! You can't give your Wilderness ingredients!</wildernessItemAlert>
+	<notEnoughItemsAlert>Please pick some items to trade!</notEnoughItemsAlert>
+	<identicalTradeAlert>Please pick some different items to trade!</identicalTradeAlert>
+	<ok>OK</ok>
+
+	<!-- <dailyDiamondTradeCapAlert>Sorry, there is a daily limit of #DIAMOND_TRADE_CAP# diamonds you can trade for each day. You've already traded #DIAMOND_TRADE_CAP_PROGRESS# diamonds, so #DIAMOND_TRADE_CAP_REMAINING# is the most you can still trade for.</dailyDiamondTradeCapAlert> -->
+	<dailyDiamondTradeCapAlert>Oops! You can only trade Ingredients for #DIAMOND_TRADE_CAP# Pixie Diamonds each day. Come back tomorrow and trade again!</dailyDiamondTradeCapAlert>
+	
+	<givePanelHeader target="givePanel.header">Give This:</givePanelHeader>
+	<getPanelHeader target="getPanel.header">Get This:</getPanelHeader>
+	<noIngredientsText target="givePanel.noIngredientsText">You have no Ingredients to trade!</noIngredientsText>
+	
+	<dataDisplay>#GIVENUM# #GIVENAME# = #GETNUM# #GETNAME#</dataDisplay>
+	<giveItemName>#GIVENAME#</giveItemName>
+	<getItemName>#GETNUM# #GETNAME#</getItemName>
+	<notEnoughGiveItems>You need more #GIVENAME# to trade.</notEnoughGiveItems>
+	<overMaxItems>You can only hold 10,000 #GETNAME# in your pouch.</overMaxItems>
+	<wouldPutOverMaxItems>This trade with #GIVENAME# will put you over the limit for #GETNAME#.</wouldPutOverMaxItems>
+    <simplePlural>s</simplePlural>
+    
+  </copy>
+  
+  <config>
+    <multiplierTimerDelay>500</multiplierTimerDelay> <!-- in ticks -->
+	<multiplierTimerCounters>
+		<timerCounter frames="7" count="4" />
+		<timerCounter frames="4" count="3" />
+		<timerCounter frames="1" count="5" />
+	</multiplierTimerCounters>
+    <multiplierAmount>0</multiplierAmount>
+    
+  </config>
+  
+</panel>

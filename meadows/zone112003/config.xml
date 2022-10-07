@@ -1,0 +1,79 @@
+<zone>
+  <name>Sunny's Shades</name>
+  <zoneID>112003</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>shop</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <clientLayout>
+    <layers>
+      <layer type="ground" width="1200" height="690">
+        <image x="0" y="0" type="none">SD_action_03.swf</image>
+      </layer>
+      <layer type="normal" width="1400" height="804">
+        <image x="0" y="0" type="none">SD_forground_01.swf</image>
+      </layer>
+    </layers>
+    <validArea>
+      <vertex x="273" y="85"/>
+      <vertex x="1049" y="91"/>
+      <vertex x="1084" y="334.5"/>
+      <vertex x="1049" y="576"/>
+      <vertex x="646.5" y="623.5"/>
+      <vertex x="243" y="552"/>
+      <vertex x="154" y="355.5"/>
+    </validArea>
+  </clientLayout>
+  <locations>
+    <location x="628" y="362">default</location>
+    <location x="777" y="390">shopEntrance</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>sfx_theme</id>
+      <loops>0</loops>
+      <volumeLow>0.6</volumeLow>
+      <volumeHigh>0.6</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <validArea>
+    
+    <vertex x="273" y="85"/>
+    
+    <vertex x="1049" y="91"/>
+    
+    <vertex x="1084" y="334.5"/>
+    
+    <vertex x="1049" y="576"/>
+    
+    <vertex x="646.5" y="623.5"/>
+    
+    <vertex x="243" y="552"/>
+    
+    <vertex x="154" y="355.5"/>
+    
+  </validArea>
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  <!--validArea type="polygon">
+	<vertex x="279" y="137"></vertex>
+	<vertex x="971" y="137"></vertex>
+	<vertex x="971" y="591"></vertex> 
+	<vertex x="279" y="591"></vertex>
+  </validArea-->
+  
+  <decorations/>
+  
+</zone>

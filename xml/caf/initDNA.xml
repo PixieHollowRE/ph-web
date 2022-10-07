@@ -1,0 +1,171 @@
+<avatars>
+	<femaleAvatar>
+		<proportion type="HEAD">95</proportion>
+		<proportion type="HEIGHT">100</proportion>
+		<proportion type="BODY">88</proportion>
+
+		<rotation type="HEAD_ROT">5</rotation>
+		<rotation type="LL_ARM_ROT">-10</rotation>
+		<rotation type="UL_ARM_ROT">-15</rotation>
+		<rotation type="UL_LEG_ROT">10</rotation>
+		<rotation type="LL_LEG_ROT">5</rotation>
+
+		<rotation type="LR_ARM_ROT">0</rotation>
+		<rotation type="UR_ARM_ROT">25</rotation>
+		<rotation type="LR_LEG_ROT">27.6</rotation>
+		<rotation type="UR_LEG_ROT">1</rotation>
+
+		<hair_back>5503</hair_back>
+		<hair_front>5001</hair_front>
+		<face>4501</face>
+		<eye>4001</eye>
+		<wing>6001</wing>
+		<!--The colors get overwritten by talent specific colors-->
+		<hair_color>89</hair_color>
+		<eye_color>64</eye_color>
+		<skin_color>106</skin_color>
+		<wing_color>109</wing_color>
+		<gender>1</gender>
+
+		<!--
+		<inv_item type="HeadItem">
+			<item_id>2001</item_id>
+			<color number="1">48</color>
+		</inv_item>
+		<inv_item type="Shirt">
+			<item_id>1</item_id>
+			<color number="1">15</color>
+		</inv_item>
+		<inv_item type="Skirt">
+			<item_id>1001</item_id>
+			<color number="1">15</color>
+		</inv_item>
+		<inv_item type="Necklace">
+			<item_id>2501</item_id>
+			<color number="1">48</color>
+		</inv_item>
+		<inv_item type="Belt">
+			<item_id>501</item_id>
+			<color number="1">48</color>
+		</inv_item>
+		<inv_item type="WristItem">
+			<item_id>1501</item_id>
+			<color number="1">48</color>
+		</inv_item>
+		<inv_item type="AnkleItem">
+			<item_id>3001</item_id>
+			<color number="1">48</color>
+		</inv_item>
+		<inv_item type="Shoes">
+			<item_id>3501</item_id>
+			<color number="1">48</color>
+		</inv_item>
+		-->
+
+		<!-- white arrival day clothing... -->
+		<inv_item type="HeadItem">
+			<item_id>2001</item_id>
+			<color number="1">48</color>
+		</inv_item>
+		<inv_item type="Shirt">
+			<item_id>75</item_id>
+			<color number="1">166</color>
+		</inv_item>
+		<inv_item type="Skirt">
+			<item_id>1079</item_id>
+			<color number="1">166</color>
+		</inv_item>
+		<inv_item type="Necklace">
+			<item_id>2501</item_id>
+			<color number="1">48</color>
+		</inv_item>
+		<inv_item type="Belt">
+			<item_id>541</item_id>
+			<color number="1">166</color>
+		</inv_item>
+		<inv_item type="WristItem">
+			<item_id>1501</item_id>
+			<color number="1">48</color>
+		</inv_item>
+		<inv_item type="AnkleItem">
+			<item_id>3001</item_id>
+			<color number="1">48</color>
+		</inv_item>
+		<inv_item type="Shoes">
+			<item_id>3501</item_id>
+			<color number="1">166</color>
+		</inv_item>
+	</femaleAvatar>
+	<maleAvatar>
+		<proportion type="HEAD">95</proportion>
+		<proportion type="HEIGHT">100</proportion>
+		<proportion type="BODY">88</proportion>
+
+		<rotation type="HEAD_ROT">0</rotation>
+		<rotation type="LL_ARM_ROT">-11</rotation>
+		<rotation type="UL_ARM_ROT">-1</rotation>
+		<rotation type="UL_LEG_ROT">-6</rotation>
+		<rotation type="LL_LEG_ROT">10</rotation>
+
+		<rotation type="LR_ARM_ROT">-16</rotation>
+		<rotation type="UR_ARM_ROT">19</rotation>
+		<rotation type="LR_LEG_ROT">16</rotation>
+		<rotation type="UR_LEG_ROT">0</rotation>
+
+		<hair_back>5554</hair_back>
+		<hair_front>5044</hair_front>
+		<face>4535</face>
+		<eye>4035</eye>
+		<wing>6001</wing>
+		<!--The colors get overwritten by talent specific colors-->
+		<hair_color>89</hair_color>
+		<eye_color>64</eye_color>
+		<skin_color>106</skin_color>
+		<wing_color>109</wing_color>
+		<gender>2</gender>
+		<inv_item type="Shirt">
+			<!-- <item_id>122</item_id> -->
+			<item_id>126</item_id>
+			<color number="1">125</color>
+			<color number="2">125</color>
+		</inv_item>
+		<inv_item type="Belt">
+			<!-- <item_id>555</item_id> -->
+			<item_id>559</item_id>
+			<color number="1">125</color>
+			<color number="2">125</color>
+		</inv_item>
+		<inv_item type="Skirt">
+			<!-- <item_id>1101</item_id> -->
+			<item_id>1128</item_id>
+			<color number="1">125</color>
+			<color number="2">125</color>
+		</inv_item>
+		<inv_item type="WristItem">
+			<item_id>1501</item_id>
+			<color number="1">37</color>
+			<color number="2">125</color>
+		</inv_item>
+		<inv_item type="HeadItem">
+			<item_id>2001</item_id>
+			<color number="1">37</color>
+			<color number="2">125</color>
+		</inv_item>
+		<inv_item type="Necklace">
+			<item_id>2501</item_id>
+			<color number="1">37</color>
+			<color number="2">125</color>
+		</inv_item>
+		<inv_item type="AnkleItem">
+			<item_id>3001</item_id>
+			<color number="1">37</color>
+			<color number="2">125</color>
+		</inv_item>
+		<inv_item type="Shoes">
+			<!-- <item_id>3592</item_id> -->
+			<item_id>3573</item_id>
+			<color number="1">125</color>
+			<color number="2">125</color>
+		</inv_item>
+	</maleAvatar>
+</avatars>

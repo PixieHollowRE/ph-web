@@ -1,0 +1,14 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/memberrewards.swf</swf>
+		<swf type="code">{publishPanelCode}/memberrewards.swf</swf>
+	</swfs>
+	<copy>
+		<title>Pixie Hollow Member Pins</title>
+		<main>When you become a Member, a Member Pin will be added to your profile inside Pixie Hollow. The longer you are a Member of Pixie Hollow, the more your Member Pin will change! Plus, with every new Member Pin you earn, you'll also get 15 extra wardrobe spaces for your Fairy, and 10 extra storage spaces!
+</main>
+	</copy>
+	<config>
+		<randomConfig>true</randomConfig>
+	</config>
+</panel>

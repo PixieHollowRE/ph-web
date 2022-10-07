@@ -1,0 +1,75 @@
+<zone>
+  <name>Fairy Coliseum</name>
+  <zoneID>505</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow505</audioLibrary>
+  <audioLibrary tags="Meadow_PHG2011_Prep">meadow505Construction</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="1046" height="615">
+        <image x="0" y="0" type="none">Stadium_sky_01.swf</image>
+      </layer>
+      <layer type="ground" width="1616" height="950">
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_TroopRabbit2012">action_Stadium_TroopRabbit2012_03.swf</image>
+        <image x="0" y="0" type="merge">action_Stadium_03.swf</image>
+      </layer>
+      <layer type="normal" width="1922" height="1130" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy">Stadium_foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="1112" y="391">fromZone110007</location>
+    <location x="754" y="674">default</location>
+    <location x="326" y="205">fromZone500</location>
+  </locations>
+  <bgms>
+    <sfx tags="Meadow_PHG2011_Prep">
+      <id>meadow_ambient_505_construction</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+    </sfx>
+    <sfx>
+      <id>meadow_ambient_505</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+    </sfx>
+    <bgm>
+      <id>meadow_music_505</id>
+      <loops>0</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  <hotspots>
+    <hotspot id="27659" x="1213" y="434" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" tagId="7"/>
+    <hotspot id="27666" x="535" y="566" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13073" snapTargetPos="450,685,0|495,645,0|550,635,1|603,683,1" tagId="1"/>
+    <hotspot id="27668" x="911" y="612" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13073" snapTargetPos="840,753,0|865,723,0|905,703,1|965,715,1|" tagId="2"/>
+    <hotspot id="27667" x="706" y="710" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13073" snapTargetPos="625,843,0|665,803,0|720,805,1|760,832,1" tagId="3"/>
+    <hotspot id="27669" x="1117" y="720" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13073" snapTargetPos="1035,835,0|1075,793,0|1135,785,1|1183,832,1" tagId="4"/>
+    <hotspot id="27670" x="1142" y="541" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13073" snapTargetPos="1060,668,0|1103,630,0|1155,632,1|1200,663,1" tagId="5"/>
+    <hotspot id="27671" x="1366" y="628" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="0" playType="keyframe" itemEventId="0" gameId="13073" snapTargetPos="1278,740,0|1333,730,0|1395,740,1|1425,785,1" tagId="6"/>
+    <hotspot tags="Meadow_Theater_TroopRabbit2012" id="27728" x="404" y="826" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="15"/>
+    <hotspot tags="Meadow_PHG2011_Prep" id="27686" x="321" y="450" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="3" playType="full" itemEventId="0" tagId="9"/>
+    <hotspot tags="Meadow_PHG2011_Prep" id="27687" x="324" y="737" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="3" playType="full" itemEventId="0" tagId="10"/>
+    <hotspot tags="Meadow_PHG2011_Prep" id="27688" x="141" y="628" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="3" playType="full" itemEventId="0" tagId="11"/>
+    <hotspot tags="Meadow_PHG2011_Prep" id="27683" x="631" y="658" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="3" playType="full" itemEventId="0" tagId="12"/>
+    <hotspot tags="Meadow_PHG2011_Prep" id="27685" x="570" y="509" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="3" playType="full" itemEventId="0" tagId="8"/>
+  </hotspots>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

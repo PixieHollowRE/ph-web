@@ -1,0 +1,148 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/wallpaper.swf</swf>
+		<swf type="code">{publishPanelCode}/wallpaper.swf</swf>
+	</swfs>
+	<copy>
+		<genericerror><![CDATA[There was a problem loading this page, please try again later.]]></genericerror>
+		<loading><![CDATA[Loading Wallpapers]]></loading>
+		<title><![CDATA[WallPapers]]></title>
+		<clickText><![CDATA[Click on a wallpaper size to download]]></clickText>	
+	</copy>
+		<config>
+			<wallpapers>
+				<wallPaper title="Pixie Pals Forever!">
+					<thumbnailURL>publish/images/wallpapers/thumbnails/wallpaper1.png</thumbnailURL>
+					<sizes>
+						<downloadURL size="800x600">http://a.disney.go.com/fairies/pixiehollow/wallpapers/800x600_famous_fairies.jpg</downloadURL>
+						<downloadURL size="1024x768">http://a.disney.go.com/fairies/pixiehollow/wallpapers/1024x768_famous_fairies.jpg</downloadURL>
+						<downloadURL size="1280x1024">http://a.disney.go.com/fairies/pixiehollow/wallpapers/1280x1024_famous_fairies.jpg</downloadURL>
+						<downloadURL size="1680x1050">http://a.disney.go.com/fairies/pixiehollow/wallpapers/1680x1050_famous_fairies.jpg</downloadURL>
+					</sizes>
+				</wallPaper>
+				<wallPaper title="Just Beleive!">
+					<thumbnailURL>publish/images/wallpapers/thumbnails/wallpaper2.png</thumbnailURL>
+					<sizes>
+						<downloadURL size="800x600">http://a.disney.go.com/fairies/pixiehollow/wallpapers/800x600_famous_fairies_2.jpg</downloadURL>
+						<downloadURL size="1024x768">http://a.disney.go.com/fairies/pixiehollow/wallpapers/1024x768_famous_fairies_2.jpg</downloadURL>
+						<downloadURL size="1280x1024">http://a.disney.go.com/fairies/pixiehollow/wallpapers/1280x1024_famous_fairies2.jpg</downloadURL>
+						<downloadURL size="1680x1050">http://a.disney.go.com/fairies/pixiehollow/wallpapers/1680x1050_famous_fairies2.jpg</downloadURL>
+				 	</sizes>
+				</wallPaper>
+				<wallPaper title="Friends light the way!">
+					<thumbnailURL>publish/images/wallpapers/thumbnails/wallpaper3.png</thumbnailURL>
+					<sizes>
+						<downloadURL size="800x600">http://a.disney.go.com/fairies/pixiehollow/wallpapers/800x600_tink_wilderness.jpg</downloadURL>
+						<downloadURL size="1024x768">http://a.disney.go.com/fairies/pixiehollow/wallpapers/1024x768_tink_wilderness.jpg</downloadURL>
+						<downloadURL size="1280x1024">http://a.disney.go.com/fairies/pixiehollow/wallpapers/1280x1024_tink_wilderness.jpg</downloadURL>
+						<downloadURL size="1680x1050">http://a.disney.go.com/fairies/pixiehollow/wallpapers/1680x1050_tink_wilderness.jpg</downloadURL>
+					</sizes>
+				</wallPaper>
+					<wallPaper title="Pixie Hollow">
+					<thumbnailURL>publish/images/wallpapers/thumbnails/wallpaper4.png</thumbnailURL>
+					<sizes>
+						<downloadURL size="800x600">http://a.disney.go.com/fairies/pixiehollow/wallpapers/800x600_map.jpg</downloadURL>
+						<downloadURL size="1024x768">http://a.disney.go.com/fairies/pixiehollow/wallpapers/1024x768_map.jpg</downloadURL>
+						<downloadURL size="1280x1024">http://a.disney.go.com/fairies/pixiehollow/wallpapers/1280x1024_map.jpg</downloadURL>
+						<downloadURL size="1680x1050">http://a.disney.go.com/fairies/pixiehollow/wallpapers/1680x1050_map.jpg</downloadURL>
+					</sizes>
+				</wallPaper>
+				
+					<wallPaper title="Sweet & Snuggly!">
+					<thumbnailURL>publish/images/wallpapers/thumbnails/wallpaper10.png</thumbnailURL>
+					<sizes>
+						<downloadURL size="800x600">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/800x600_Winter_Rosetta_Silvermist.jpg</downloadURL>
+						<downloadURL size="1024x768">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/1024x768_Winter_Rosetta_Silvermist.jpg</downloadURL>
+						<downloadURL size="1280x1024">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/1280x1024_Winter_Rosetta_Silvermist.jpg</downloadURL>
+						<downloadURL size="1680x1050">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/1680x1050_Winter_Rosetta_Silvermist.jpg</downloadURL>
+					</sizes>
+				</wallPaper>
+				
+					<wallPaper title="Faith, Trust ...">
+					<thumbnailURL>publish/images/wallpapers/thumbnails/wallpaper11.png</thumbnailURL>
+					<sizes>
+						<downloadURL size="800x600">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/800x600_Winter_Tink_Fawn_Iridessa.jpg</downloadURL>
+						<downloadURL size="1024x768">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/1024x768_Winter_Tink_Fawn_Iridessa.jpg</downloadURL>
+						<downloadURL size="1280x1024">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/1280x1024_Winter_Tink_Fawn_Iridessa.jpg</downloadURL>
+						<downloadURL size="1680x1050">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/1680x1050_Winter_Tink_Fawn_Iridessa.jpg</downloadURL>
+					</sizes>
+					</wallPaper>
+					
+					
+					<wallPaper title="I Love My ...">
+					<thumbnailURL>publish/images/wallpapers/thumbnails/wallpaper12.png</thumbnailURL>
+					<sizes>
+						<downloadURL size="800x600">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/800x600_PixiePals.jpg</downloadURL>
+						<downloadURL size="1024x768">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/1024x768_PixiePals.jpg</downloadURL>
+						<downloadURL size="1280x1024">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/1280x1024_PixiePals.jpg</downloadURL>
+						<downloadURL size="1680x1050">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/1680x1050_PixiePals.jpg</downloadURL>
+					</sizes>
+					</wallPaper>
+					
+					
+					<wallPaper title="Pixie Perfect">
+					<thumbnailURL>publish/images/wallpapers/thumbnails/wallpaper13.png</thumbnailURL>
+					<sizes>
+						<downloadURL size="800x600">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/800x600_PixiePerfect.jpg</downloadURL>
+						<downloadURL size="1024x768">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/1024x768_PixiePerfect.jpg</downloadURL>
+						<downloadURL size="1280x1024">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/1280x1024_PixiePerfect.jpg</downloadURL>
+						<downloadURL size="1680x1050">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Famous_Fairies/1680x1050_PixiePerfect.jpg</downloadURL>
+					</sizes>
+					</wallPaper>
+					
+					<wallPaper title="Neverfruit Grove">
+					<thumbnailURL>publish/images/wallpapers/thumbnails/wallpaper15.png</thumbnailURL>
+					<sizes>
+						<downloadURL size="800x600">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Locations/800x600_Neverfruit.jpg</downloadURL>
+						<downloadURL size="1024x768">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Locations/1024x768_Neverfruit.jpg</downloadURL>
+						<downloadURL size="1280x1024">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Locations/1280x1024_Neverfruit.jpg</downloadURL>
+						<downloadURL size="1680x1050">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Locations/1680x1050_Neverfruit.jpg</downloadURL>
+					</sizes>
+					</wallPaper>
+					
+					<wallPaper title="Cherryblossom ...">
+					<thumbnailURL>publish/images/wallpapers/thumbnails/wallpaper14.png</thumbnailURL>
+					<sizes>
+						<downloadURL size="800x600">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Locations/800x600_Cherryblossom.jpg</downloadURL>
+						<downloadURL size="1024x768">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Locations/1024x768_Cherryblossom.jpg</downloadURL>
+						<downloadURL size="1280x1024">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Locations/1280x1024_Cherryblossom.jpg</downloadURL>
+						<downloadURL size="1680x1050">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Locations/1680x1050_Cherryblossom.jpg</downloadURL>
+					</sizes>
+					</wallPaper>
+					
+					<wallPaper title="Bella's Baubles">
+					<thumbnailURL>publish/images/wallpapers/thumbnails/bellas_sm.png</thumbnailURL>
+					<sizes>
+						<downloadURL size="800x600">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Shop_Ads/800x600_Bellas.jpg</downloadURL>
+						<downloadURL size="1024x768">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Shop_Ads/1024x768_Bellas.jpg</downloadURL>
+						<downloadURL size="1280x1024">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Shop_Ads/1280x1024_Bellas.jpg</downloadURL>
+						<downloadURL size="1680x1050">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Shop_Ads/1680x1050_Bellas.jpg</downloadURL>
+					</sizes>
+					</wallPaper>
+					
+					<wallPaper title="Gale's Outfitters.">
+					<thumbnailURL>publish/images/wallpapers/thumbnails/gales_sm.png</thumbnailURL>
+					<sizes>
+						<downloadURL size="800x600">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Shop_Ads/800x600_Gales.jpg</downloadURL>
+						<downloadURL size="1024x768">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Shop_Ads/1024x768_Gales.jpg</downloadURL>
+						<downloadURL size="1280x1024">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Shop_Ads/1280x1024_Gales.jpg</downloadURL>
+						<downloadURL size="1680x1050">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Shop_Ads/1680x1050_Gales.jpg</downloadURL>
+					</sizes>
+					</wallPaper>
+					
+					<wallPaper title="Summit Style">
+					<thumbnailURL>publish/images/wallpapers/thumbnails/summit_style_sm.png</thumbnailURL>
+					<sizes>
+						<downloadURL size="800x600">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Shop_Ads/800x600_Summit.jpg</downloadURL>
+						<downloadURL size="1024x768">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Shop_Ads/1024x768_Summit.jpg</downloadURL>
+						<downloadURL size="1280x1024">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Shop_Ads/1280x1024_Summit.jpg</downloadURL>
+						<downloadURL size="1680x1050">http://a.dolimg.com/pixiehollow/game/publish/images/wallpapers/Shop_Ads/1680x1050_Summit.jpg</downloadURL>
+					</sizes>
+					</wallPaper>
+					
+					
+		
+					
+			</wallpapers>
+		</config>
+</panel>

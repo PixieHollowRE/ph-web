@@ -1,0 +1,87 @@
+<level>
+	<introMessage>Okay, now we need to lull two mice to sleep. Ready? Let's keep playing this song and see if it soothes them to sleep! </introMessage>
+	<tipImageFrame>two_mice</tipImageFrame>
+	
+	<bgTrack>piece5_bed</bgTrack>
+	<audioLibrary>piece5</audioLibrary>
+	<!-- <fgTrack>silence_60</fgTrack> -->
+	
+	<levelEndsAt>45000</levelEndsAt>
+	<hitThreshold>340</hitThreshold> 
+	
+	<famousAvatarInstrument>flute</famousAvatarInstrument>
+	<playerAvatarInstrument>flute</playerAvatarInstrument>
+
+	<requiredNotes>30</requiredNotes>
+	
+	<!--animals-->
+	<animal bedType="Mouse1" type="Mouse" wakeStates="0-1, 2-7, 8-13, 14-130" position="mouse" />	
+	<animal bedType="Mouse2" type="Mouse2" wakeStates="0-9, 10-19, 20-29,30-130" position="mouse2" />
+	
+	<!-- part 2, first round -->	
+	<target note="d4" key="LEFT" secondaryKey="" position="3343.673469" length="-1" autoplay="false"/>
+	<target note="e4" key="DOWN" secondaryKey="" position="3637.792897" length="-1" autoplay="false"/>
+	<target note="f4" key="RIGHT" secondaryKey="" position="4102.191989" length="-1" autoplay="false"/>
+
+	<target note="g3" key="DOWN" secondaryKey="" position="4860.710508" length="-1" autoplay="false"/>
+	<target note="f4" key="UP" secondaryKey="" position="5681.148906" length="-1" autoplay="false"/>
+	
+	<target note="e4" key="RIGHT" secondaryKey="" position="6548.027212" length="-1" autoplay="false"/>
+	<target note="f4" key="UP" secondaryKey="" position="6904.066517" length="-1" autoplay="false"/>
+	<target note="g4" key="LEFT" secondaryKey="" position="7368.46561" length="-1" autoplay="false"/>
+
+	<target note="c4" key="UP" secondaryKey="" position="8142.464098" length="-1" autoplay="false"/>
+	<target note="g4" key="DOWN" secondaryKey="" position="9009.342405" length="-1" autoplay="false"/>
+
+	<target note="f4" key="LEFT" secondaryKey="" position="9814.300833" length="-1" autoplay="false"/>
+	<target note="g4" key="UP" secondaryKey="" position="10185.82011" length="-1" autoplay="false"/>
+	<target note="a4" key="RIGHT" secondaryKey="" position="10681.17914" length="-1" autoplay="false"/>
+	
+	<target note="d4" key="DOWN" secondaryKey="" position="11455.17763" length="-1" autoplay="false"/>
+	<target note="b4" key="RIGHT" secondaryKey="" position="12306.57597" length="-1" autoplay="false"/>
+	<target note="c5long" key="UP" secondaryKey="" position="13065.09448" length="-1" autoplay="false"/>
+	
+	<target note="g4" key="LEFT" secondaryKey="" position="14783.37113" length="-1" autoplay="false"/>
+	<target note="e4" key="DOWN" secondaryKey="" position="15526.40968" length="-1" autoplay="false"/>
+	<target note="c4long" key="RIGHT" secondaryKey="" position="16408.76795" length="-1" autoplay="false"/>
+	
+	
+	<!-- part 3, first round -->	
+	<target note="d4" key="LEFT" secondaryKey="" position="23010.97506" length="-1" autoplay="false"/>
+	<target note="e4" key="DOWN" secondaryKey="" position="23324.44445" length="-1" autoplay="false"/>
+	<target note="f4" key="RIGHT" secondaryKey="" position="23777.23356" length="-1" autoplay="false"/>
+	<target note="g3" key="LEFT" secondaryKey="" position="24543.49207" length="-1" autoplay="false"/>
+	
+	<target note="f4" key="RIGHT" secondaryKey="" position="24996.28118" length="-1" autoplay="false"/>
+	<target note="e4" key="LEFT" secondaryKey="" position="25391.02041" length="-1" autoplay="false"/>
+	<target note="d4" key="UP" secondaryKey="" position="25785.75964" length="-1" autoplay="false"/>
+	
+	<target note="e4" key="RIGHT" secondaryKey="" position="26250.15873" length="-1" autoplay="false"/>
+	<target note="f4" key="DOWN" secondaryKey="" position="26598.45805" length="-1" autoplay="false"/>
+	<target note="g4" key="LEFT" secondaryKey="" position="27074.46712" length="-1" autoplay="false"/>
+	<target note="c4" key="DOWN" secondaryKey="" position="27829.11565" length="-1" autoplay="false"/>
+	
+	<target note="g4" key="LEFT" secondaryKey="" position="28247.07483" length="-1" autoplay="false"/>
+	<target note="f4" key="UP" secondaryKey="" position="28641.81406" length="-1" autoplay="false"/>
+	<target note="e4" key="RIGHT" secondaryKey="" position="29059.77325" length="-1" autoplay="false"/>
+	
+	<target note="f4" key="LEFT" secondaryKey="" position="29512.56236" length="-1" autoplay="false"/>
+	<target note="g4" key="DOWN" secondaryKey="" position="29884.08164" length="-1" autoplay="false"/>
+	<target note="a4" key="LEFT" secondaryKey="" position="30325.26077" length="-1" autoplay="false"/>
+	
+	<target note="d4" key="UP" secondaryKey="" position="31137.95919" length="-1" autoplay="false"/>
+	<target note="b4" key="DOWN" secondaryKey="" position="31544.30839" length="-1" autoplay="false"/>
+	<target note="a4" key="UP" secondaryKey="" position="31950.6576" length="-1" autoplay="false"/>
+	<target note="b4" key="RIGHT" secondaryKey="" position="32345.39683" length="-1" autoplay="false"/>
+	<target note="c5long" key="DOWN" secondaryKey="" position="32856.23583" length="-1" autoplay="false"/>
+
+	<target note="g4" key="LEFT" secondaryKey="" position="35004.08164" length="-1" autoplay="false"/>
+	<target note="f4" key="UP" secondaryKey="" position="35329.161" length="-1" autoplay="false"/>
+	<target note="e4" key="RIGHT" secondaryKey="" position="35712.29025" length="-1" autoplay="false"/>
+	
+	<target note="d4" key="LEFT" secondaryKey="" position="36107.02948" length="-1" autoplay="false"/>
+	<target note="e4" key="DOWN" secondaryKey="" position="36838.45805" length="-1" autoplay="false"/>
+	<target note="f4" key="RIGHT" secondaryKey="" position="37674.37642" length="-1" autoplay="false"/>
+	<target note="g4" key="DOWN" secondaryKey="" position="38521.90476" length="-1" autoplay="false"/>
+	<target note="c5long" key="UP" secondaryKey="" position="39369.43311" length="-1" autoplay="false"/>
+</level>

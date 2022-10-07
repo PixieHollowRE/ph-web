@@ -1,0 +1,142 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/fishBouncer.swf</swf>
+		<swf type="code">{panelCode}/fishBouncer.swf</swf>
+	</swfs>
+	<copy>
+		<title target="title.title.heading">Bubble Bounce</title>
+		<level>Level</level>
+		<complete>Complete!</complete>
+		<score>Score</score>
+
+		<hudTitleWelcome>Bubble Bounce</hudTitleWelcome>
+		<hudSubTitleWelcome>Get Ready</hudSubTitleWelcome>
+
+		<lily_pads>Lily Pads</lily_pads>
+		<lily_pad>Lily Pad</lily_pad>
+		<right_accent_title>Fish Helped</right_accent_title>
+		<instruction0>Use the mouse to move your lily pad right and left so you can bounce the fish bubbles up over the waterfall!</instruction0>
+		<instruction1>To complete a level, you need to help a certain number of fish friends over the waterfall.</instruction1>
+		<instruction2>But watch out for falling sweetgum spikes. They'll make you drop your lily pad!</instruction2>
+		<instruction3>Earn more points for each fish by saving a bunch of them in a row!</instruction3>
+		<continue>Continue</continue>
+		<perfect>Perfect</perfect>
+		<longest_streak>Longest Streak:</longest_streak>
+		<paddles_remaining>Lily Pads Remaining:</paddles_remaining>
+		<total_bonus>Total Bonus:</total_bonus>
+		<your_score>Total Score:</your_score>
+		<game_over_title>Nice Try!</game_over_title>
+		<game_over>Whoops!  That was your last lily pad.  That's ok - thanks for all your help so far!</game_over>
+		<you_win_title>You Win!</you_win_title>
+		<you_win_0>Wow, you're a natural bubble bouncer! Thanks for all the help!</you_win_0>
+		<you_win_1>Yay! You've made a lot of fish happy. Nice job!</you_win_1>
+		<drop_0>Oops, we lost that one.</drop_0>
+		<drop_1>Oh dear, she didn't make it!</drop_1>
+		<drop_2>We'll try you again, little guy, don't worry!</drop_2>
+		<drop_3>Whoa, slippery, aren't they?</drop_3>
+		<drop_4>Swim back in line for another try, little fish!</drop_4>
+		<drop_5>I'll make a new bubble for that one in a jiff!</drop_5>
+		<spike_0>Watch out for those spikes!</spike_0>
+		<spike_1>Don't give up, keep going!</spike_1>
+		<spike_2>Look out!</spike_2>
+		<lost_lily_0>Looks like you need a new lily pad!</lost_lily_0>
+		<lost_lily_1>We still have more bubbles to bounce!</lost_lily_1>
+		<help_0>There's another one!</help_0>
+		<help_1>That little guy made it upstream!</help_1>
+		<help_2>Yay, over the waterfall he goes!</help_2>
+		<help_3>Nicely done!</help_3>
+		<help_4>This is working great!</help_4>
+		<help_5>Good bouncing!</help_5>
+		<help_6>And there goes another happy fish!</help_6>
+		<help_7>Have fun upstream, little fish!</help_7>
+		<help_8>Keep up the good work!</help_8>
+		<level_start_0>Here come the fish!</level_start_0>
+		<silvermist>Silvermist</silvermist>
+		<tip_1_title>Welcome!</tip_1_title>
+		<tip_2_title>Get Ready!</tip_2_title>
+		<tip_5_title>Get Ready!</tip_5_title>
+		<tip_8_title>Get Ready!</tip_8_title>
+		<level_tip_title>Get Ready!</level_tip_title>
+		<level_2_tip>The lily pad extender will make your lily pad twice as long!</level_2_tip>
+		<level_5_tip>Keep an eye out for extra lily pads!</level_5_tip>
+		<level_8_tip>Catch a falling hourglass to slow down all falling objects for a few seconds.</level_8_tip>
+		<tip_2_image>interlevel_tip_wider</tip_2_image>
+		<tip_5_image>interlevel_tip_extra</tip_5_image>
+		<tip_8_image>interlevel_tip_slow</tip_8_image>
+		
+		<!-- UI: WELCOME -->
+		<welcome_title>Welcome!</welcome_title>
+		<welcome_text>Hi there, raindrop! Can you help me get these fish up Soapstone Stream and back to their families? I'll put each fish in a water bubble, and you bounce them safely over the waterfall, okay? Let's go!</welcome_text>		
+		<welcome_play>Continue</welcome_play>
+		
+		<!-- UI: TUTORIAL -->
+		<hostname>Silvermist</hostname>
+		<tutorial_next>NEXT</tutorial_next>
+		<tutorial_skip>Skip This</tutorial_skip>
+		<tutorial_continue>Continue</tutorial_continue>
+		<score_total>Your Score: </score_total>
+		<tutorial_replay>Play Again</tutorial_replay>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		<tutorial_finalscore_label>Let's get those fish bouncing!</tutorial_finalscore_label>
+		<tutorial_hudtitle>How to play</tutorial_hudtitle>
+		
+		
+		<!-- Story -->		
+		<easy_story>Hey, raindrop! Can you help me get these fishies up the stream and back to their families? I'll put each fish in a water bubble, and you bounce them safely over the waterfall. Ready? Let's go!</easy_story>
+		<medium_story>It looks like more fish need our help to get home. Let's bounce them all safely over the waterfall!</medium_story>
+		<hard_story>It isn't always easy to get the fishies over that waterfall. But we can do it, so let's get to it!</hard_story>
+		<royal_story>Goodness glaciers, what a challenge! But the fishies need us, so let's get those bubbles bouncing!</royal_story>
+		
+		<easy_exitstory>You're a great bubble bouncer! I'm so proud of you!</easy_exitstory>
+		<medium_exitstory>The fishies are so happy! Thanks for doing such a splashtacular job!</medium_exitstory>
+		<hard_exitstory>We make a good team, don't we? You did a flaptastic bubble-bouncing job!</hard_exitstory>
+		<royal_exitstory>That wasn't easy -- but we did it! Thank you for being such a splashtacular bubble bouncer!</royal_exitstory>
+		
+		<allmedium_story>Look at all the fish we've helped! But there are more who need to get home, so let's keep going!</allmedium_story>
+		<allhard_story>Little sprinkle, you've helped so many fish! Let's help some more, okay?</allhard_story>
+		<allroyal_story>There's more fishies to help and we can't let them down, little sprinkle. Come on!</allroyal_story>
+		
+		
+		<tutorial_title_goal>Goal</tutorial_title_goal>
+		<win_tutorial_secondText>Complete!</win_tutorial_secondText>
+		
+		<host_level_tutorial_1>Hey! Now you try.</host_level_tutorial_1>
+		<host_level_tutorial_2>Wow! You did it!</host_level_tutorial_2>
+		<host_bubble_1>Now you try it!</host_bubble_1>
+		<host_bubble_2>Try again!</host_bubble_2>
+		
+		<host_bubble_1A>Bounce the fish on your lily pad to guide them!</host_bubble_1A>
+		<host_bubble_1B>Bounce the fish on your lily pad to guide them up the stream!</host_bubble_1B>
+		<host_bubble_1C>Splashtacular!</host_bubble_1C>
+		<host_bubble_1D>Don't let the sweetgum spikes hit your lily pad!</host_bubble_1D>
+		
+		<tutorial_stepIntro>Welcome to Soapstone Stream. Let me show you how to bounce the fish upstream!</tutorial_stepIntro>
+		<tutorial_step2>Move your lily pad left and right. Bounce the fish on your lily pad to guide them!</tutorial_step2>
+		<tutorial_step4>Bounce the fish across the vine to get them to safely over the waterfall.</tutorial_step4>
+		<tutorial_step6>Splashtacular! Look, you got one fishy up the waterfall!</tutorial_step6>
+		<tutorial_step7>You can see how you're doing here.</tutorial_step7>
+		<tutorial_step9>Look out for falling sweetgum spikes!</tutorial_step9>
+		<tutorial_step11>You'll lose a lily pad if a sweetgum spike hits you.</tutorial_step11>
+		<tutorial_step12>Remember, if you lose all your lily pads, you'll have to start over.</tutorial_step12>
+		<tutorial_step13>Now have another try. Help 3 fish upstream!</tutorial_step13>
+		<tutorial_step14>Great job, little sprinkle! I'll be here with you while you play.</tutorial_step14>	
+		<tutorial_step15_loose>You've lost all your lily pads. Try again!</tutorial_step15_loose>		
+	</copy>
+	<config>
+	
+		<difficultyChoices layout="5small">		
+            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"/>			
+			<difficultyChoice descriptor="royal" displayName="Royal" paidOnly="false"/>			
+			<difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"/>	
+		</difficultyChoices>
+		<supportsTutorial>true</supportsTutorial>
+		<colorPalette>1</colorPalette>
+		<max_levels>10</max_levels>
+		<lilyPadBonus>100</lilyPadBonus>
+		<streakBonus>50</streakBonus>
+		<perfectBonus>500</perfectBonus>
+		<target_framerate>31</target_framerate>
+	</config>
+</panel>

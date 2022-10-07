@@ -1,0 +1,91 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/sweepstakes_thankyouform.swf</swf>
+		<swf type="code">{publishPanelCode}/sweepstakes_thankyouform.swf</swf>
+	</swfs>
+	<copy>
+		<text1 target="submitcontent.upperCopy1">Thank You!</text1>
+		<text2 target="submitcontent.upperCopy2">Pixie Hollow Online</text2>
+		<text3 target="submitcontent.lowerCopy1"><![CDATA[Type of Content:]]></text3>
+		<text4 target="submitcontent.lowerCopy2" style="html"><![CDATA[Fairy Name:]]></text4>
+		<text5 target="submitcontent.lowerCopy3" style="html"><![CDATA[Your Art:]]></text5>
+		<text6 target="submitcontent.lowerCopy5" style="html"><![CDATA[Terms of Use]]></text6>
+		<text7 target="submitcontent.lowerCopy6" style="html"><![CDATA[<body>If you are under 13 years old, please ask your parents to review the Disney Pixie Hollow Terms of Use with you.</body>]]></text7>
+		<text8 target="submitcontent.touTAHolder.txt_touaccept" style="html"><![CDATA[<body>I agree to the Disney Fairies Pixie Hollow Terms of Use</body>]]></text8>
+		
+		<text9 target="submitcontent.nameField">Member Name</text9>
+		<text10 target="submitcontent.passField">Password</text10>
+		<text11 target="thanksyoucontent.playBtn.caption">Play</text11>
+		-  
+		<text12 target="thanksyoucontent.altLocationBtn.caption">Pixie Central</text12> 
+		
+		
+		<text target="submitcontent.cancelBtn.caption">Close</text>
+		<text target="submitcontent.loginBtn.caption">Login</text>
+		<text target="stillholding.lowerCopy1">Sorry, still not ready yet...</text>
+		<text target="stillholding.cancelBtn.caption">Close</text>
+		<text target="gameNowReady.upperCopy1"><![CDATA[Congratulations!]]></text>
+		<text target="gameNowReady.lowerCopy1"><![CDATA[The meadows are available.  If you would like to fly into Pixie Hollow, click Play.]]></text>
+		<text target="gameNowReady.cancelBtn.caption">Close</text>
+		
+		<text target="gotoCaf.copy1">Go now and</text>
+		<text target="gotoCaf.copy2">Create a Fairy</text>
+		<text target="gotoCaf.cancelBtn.caption">Cancel</text>
+		<text target="gotoCaf.createBtn.caption">Create</text>
+		<text target="fairyChoice.upperCopy">Choose a Fairy</text>
+		<text target="fairyChoice.cancelBtn.caption">Cancel</text>
+		<text target="fairyChoice.playBtn.caption">Play</text>
+		<text target="loading.loadingscreen.loadingText">Loading</text>
+		
+		<text target="stillholding.cancelBtn.caption">Cancel</text>
+		
+		<notaccepttou><![CDATA[You must agree to the Terms of Use to submit.]]></notaccepttou>
+		<genericError><![CDATA[There Was An Error Processing you request.]]></genericError>
+		
+	</copy>
+	<config>
+		
+		<sheet>css/site.css</sheet>
+		<altbuttonconfig visible="false" x="-120"/>
+		<playbuttonconfig x="300" y="0" visible="false"/>
+		<thankyou>ugc_thankyou.xml</thankyou>
+		<contenttypes>
+			<contenttype id="fairytale">
+				<label><![CDATA[Fairy Tale]]></label>
+				<arttext><![CDATA[Your Writing:]]></arttext>
+				<descriptiontext required="true"><![CDATA[Your Fairy Tale:]]></descriptiontext>
+				<uploadURL><![CDATA[http://dnhdolapp05.go.com:7178/fairies/uploadFairyTale]]></uploadURL>
+				
+			</contenttype>
+			<contenttype id="seasonalshout">
+				<label><![CDATA[Seasonal Shoutout]]></label>
+				<arttext><![CDATA[Your Writing:]]></arttext>
+				<descriptiontext required="true"><![CDATA[Your Seasonal Shoutout:]]></descriptiontext>
+				<uploadURL><![CDATA[http://dnhdolapp05.go.com:7178/fairies/uploadSeasonalShoutOut]]></uploadURL>
+			</contenttype>
+			<contenttype id="poem">
+				<label><![CDATA[Poem]]></label>
+				<arttext required="true"><![CDATA[Your Writing:]]></arttext>
+				<descriptiontext><![CDATA[Your Poem:]]></descriptiontext>
+				<uploadURL><![CDATA[http://dnhdolapp05.go.com:7178/fairies/uploadPoem]]></uploadURL>
+			</contenttype>
+			<contenttype id="question">
+				<label><![CDATA[Question for Tabby]]></label>
+				<arttext><![CDATA[Your Writing:]]></arttext>
+				<descriptiontext required="true"><![CDATA[Your Question for Tabby:]]></descriptiontext>
+				<uploadURL><![CDATA[http://dnhdolapp05.go.com:7178/fairies/uploadQuestion]]></uploadURL>
+			</contenttype>
+			<contenttype id="art">
+				<label><![CDATA[Art]]></label>
+				<arttext required="true"><![CDATA[Your Art:]]></arttext>
+				<descriptiontext><![CDATA[Your Description:]]></descriptiontext>
+				<uploadURL><![CDATA[http://dnhdolapp05.go.com:7178/fairies/uploadArt]]></uploadURL>
+			</contenttype>
+		</contenttypes>
+		<!--  <altlocationbtn>
+			<channel>{publishPanelSetData}/communityhub.xml</channel>
+		</altlocationbtn> -->
+
+	</config>
+</panel>
+

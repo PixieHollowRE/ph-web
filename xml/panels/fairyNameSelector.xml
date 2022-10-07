@@ -1,0 +1,16 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/fairyNameSelector.swf</swf>
+		<swf type="code">{panelCode}/fairyNameSelector.swf</swf>
+	</swfs>
+	<copy>
+		<firstName>First Name</firstName>
+		<lastName>Last Name</lastName>
+		<confirm>Update</confirm>
+		<cancel>Cancel</cancel>
+		<random>Pick For Me</random>
+	</copy>
+	<config>
+		<defaultGoldPrice>3</defaultGoldPrice>
+	</config>
+</panel>

@@ -1,0 +1,1413 @@
+﻿<tutorialAssets>
+	<copy>
+		<basics_title>The Basics</basics_title>
+		<profile_title>Profile</profile_title>
+		<wardrobe_title>Wardrobe</wardrobe_title>
+		<chat_title>Chat</chat_title>
+		<friends_title>Friends</friends_title>
+		<teleport_title>Fly To</teleport_title>
+		<map_title>Map</map_title>
+		<storage_title>Storage</storage_title>
+		<home_title>Homes</home_title>
+		<badges_title>Badges</badges_title>
+		<decorating_title>Decorating</decorating_title>
+		<gathering_title>Gathering</gathering_title>
+		<ignore_title>Ignore</ignore_title>
+		<crafting_title>Tailoring</crafting_title>
+		<talentGames_title>Talent Games</talentGames_title>
+		<shops_title>Shops</shops_title>
+		<quests_title>Quests</quests_title>
+		<parties_title>Parties</parties_title>
+		<baking_title>Baking</baking_title>
+		<membership_title>Membership</membership_title>
+		<tinkering_title>Tinkering</tinkering_title>
+		<talent_title>Talent Skills</talent_title>
+		<wilderness_title>Wilderness</wilderness_title>
+		<animalFriend_title>Animal Friends</animalFriend_title>
+		<redye_title>Re-Dye Items</redye_title>
+		<currencyConverter_title>Trading</currencyConverter_title>
+		<tearoomGames_title>Tearoom Games</tearoomGames_title>
+		<giftBoxes_title>Gift Sets</giftBoxes_title>
+		<talentmasters_title>Talent Masters</talentmasters_title>
+		<theater_title>Theater</theater_title>
+		<animalderby_title>Animal Derby</animalderby_title>
+		<postoffice_title>Pixie Post Office</postoffice_title>
+		<postcards_title>Postcards</postcards_title>
+		<pixiediamonds_title>Pixie Diamonds</pixiediamonds_title>
+		<leaderboards_title>Leaderboards</leaderboards_title>
+		<fairygardens_title>Fairy Gardens</fairygardens_title>
+		<queens_title>Queen's Shop</queens_title>
+		<partygames_title>Party Games</partygames_title>
+		
+
+		<basics1>Click anywhere to fly. Click on Signs to enter other meadows, shops, and talent games.</basics1>
+		<basics2>Learn about other players by clicking on them and looking at their profiles. Double-click your character to see your own profile.</basics2>
+		<basics3>After you've made some new friends, find them in your Friends List.</basics3>
+		<basics4>Use the chat bar to talk to other players. Read the &quot;Chat&quot; tutorial to learn more.</basics4>
+		<basics5>You can sit by clicking the blue SIT button on the chat bar. Change the direction you're facing with the left and right arrow keys on the keyboard. Click anywhere in the meadow to stand and fly again.</basics5>
+		<basics6>Don't forget to look in your Leaf Journal -- it holds lots of useful things including your clothes, badges, patterns and information on quests!</basics6>
+		<basics6OLD>Your Pouch holds Pixie Diamonds, ingredients, seeds, sweets, dyes and party supplies. Read the &quot;Pouch&quot; tutorial to learn more.</basics6OLD>
+		<basics7>Your Pouch holds Pixie Diamonds, ingredients, seeds, sweets, dyes and party supplies.</basics7>
+		<basics8>Visit your Home to decorate and host Parties! Read the &quot;Decorating&quot; and &quot;Parties&quot; tutorials to learn more.</basics8>
+		<basics9>Visit your Garden to decorate and plant Surprise Seeds!  Read the &quot;Fairy Gardens&quot; tutorial to learn more.</basics9>
+		<basics10>Click on this image below the chat bar anytime you want to learn more about Pixie Hollow's features.</basics10>
+
+		<profile1>Click on a player to see their profile. Double-click your character to see your own profile.</profile1>
+		<profile2>Click the profile's arrow button to expand the profile and see more. At the bottom of their expanded profile is a link to a player's Pixie Page.</profile2>
+		<profile3>Click &quot;Whisper&quot; to send a private message to this player.</profile3>
+		<profile4>Use the &quot;Fly To&quot; button to fly to this player, wherever they are in Pixie Hollow.</profile4>
+		<profile5>If you are friends with this player, you can also click the &quot;Go To Home&quot; button to fly to their Home. </profile5>
+		<profile6>Use the &quot;Be Friends&quot; button to ask this player to be your friend. You can only send one friend request at a time.</profile6>
+		<profile7>Click the &quot;Ignore&quot; button to stop receiving chat and other messages from this player.</profile7>
+		<profile8>Use the &quot;Report&quot; button if you need to alert the Never Council of inappropriate behavior by a player.</profile8>
+		<profile9>Use the &quot;Remove from Home&quot; button if you wish to remove a player from your home or garden.</profile9>
+
+		<wardrobe1>The Wardrobe Page of your Leaf Journal is where you can find all of your clothes and accessories.</wardrobe1>
+		<wardrobe2>Click on the tabs to see what you have in each part of your wardrobe. To wear an item, double-click the item you want or click the "Wear" button.</wardrobe2>
+		<wardrobe3>If you're not a Member, you can wear any item by clicking the Upgrade button to turn it into a Diamond Item. Diamond Items do not require membership to use!</wardrobe3>  
+		<wardrobe4>Organize your items by clicking the drop down menu below the Wardrobe Tabs. You can organize items alphabetically, by date added or by their colors.</wardrobe4>
+		<wardrobe5>The bottom of your Wardrobe Page tells you how much room is left. Members can hold 600 items and earn more room every 3 months! Free players can hold 100 items, but Diamond Items do not count towards your limit!</wardrobe5>
+		<wardrobe6>Click on the green Pose arrow to change the way your Fairy will pose in your Wardobe Page and in your Fairy Profile.</wardrobe6>
+		<wardrobe7>You can save your favorite looks in the My Outfits book! Just click the &quot;Save Outfit&quot; button in your Leaf Journal.</wardrobe7>
+
+		<chat1>There are 2 ways to chat in Pixie Hollow -- &quot;SpeedChat&quot; and &quot;SpeedChat Plus.&quot;</chat1>
+		<chat2>SpeedChat is a menu of preset phrases and words that you can use to talk to other players. All players can see and say SpeedChat phrases.</chat2>
+		<chat3>SpeedChat Plus allows you to type out messages to send to other players using approved words. Type your message in the blue chat bar, then click &quot;Send.&quot; Only players with SpeedChat Plus will see your messages.</chat3>
+		<chat4>If you type a message and a red word appears, that means you're trying to say a word that is not approved for Pixie Hollow. You will not be able to say any part of the phrase until all words in red are removed.</chat4>
+		<chat5>To ask for SpeedChat Plus, click on the blue chat bar or click on &quot;Account Settings&quot; on the Options tab of your Leaf Journal. You will need e-mail validation and adult approval to change your settings.</chat5>
+		<chat6>You can change the chat mode by clicking on the chat mode icon. You can choose between Whispering to one Fairy, Whispering to all your friends, or normal Broadcast meadow chat that everyone sees.</chat6>
+		<chat7>By choosing to whisper to all your friends, when you send a message it will be received by all of your friends currently playing in Pixie Hollow.</chat7>
+		<chat8>You can open the chat log by clicking on the chat log icon. The chat log allows you to see all the chat that you have been involved in for the past few minutes. You can move the chat log around by dragging it, and it can be shrunk to a smaller version by clicking on the yellow arrow.</chat8>
+		<chat9>You can also use Emotes to express your mood by clicking on the &quot;Emote&quot; button on the chat bar.</chat9>
+
+		<friends1>Click the &quot;Be Friends&quot; button in a player's profile to send them a friend request. If they say yes, you'll become friends with their account and ALL of their characters!</friends1>
+		<friends2>Friends will show up in your Friends List. Click on a character's name in your Friends List to whisper to that friend, visit their Home, or fly right to them! </friends2>
+		<friends3>You can visit your Friend's home and invite each other to Parties! You'll also get alerts when your friends log in or out of Pixie Hollow. If your friend is not in Pixie Hollow, their account name will be gray and you won't see any character names.</friends3>
+		<friends4>You can even chat with your friends who are playing other Disney games! Just click on their account name.</friends4>
+	
+		<teleport1>Click the &quot;Fly To&quot; button to instantly go to another player's location. Even if the player is in another meadow, you can meet up by flying right to them.</teleport1>
+		<teleport2>When a player is flying to you, you will see a special alert. Remember, you can't fly to players that are playing talent games.</teleport2>
+
+		<map1>By flying above Pixie Hollow, you can see all the meadows you can visit.</map1>
+		<map2>Use the menu at the top of the map to highlight different activities.</map2>
+		<map3>You can click on an icon to fly directly to that location. The panel next to icons offers detailed information about each destination.</map3>
+		<map4>You can also click directly on a Meadow to fly there.</map4>
+
+		<storage1>The Storage page shows all of your home d&#233;cor items. View descriptions of your home d&#233;cor by clicking on the items in your storage.</storage1>
+		<storage2>You can sort items alphabetically, by date added or by their colors.  Reorganize using the drop-down menu at the top of the page.</storage2>
+		<storage3>Free players can hold a total of 50 storage items.  Members start with room for 400 storage items and earn more.  Check how many empty spaces you have left by looking at the number at the bottom of your Storage page.</storage3>
+		<storage4>If you're not a Member, you can use any Fairy Home decorations by clicking the Upgrade button to turn it into a Diamond Item.  Diamond Items do not require membership to use!</storage4>
+		<storage5>Visit your Home to use these items to decorate your house! Read the &quot;Decorating&quot; tutorial to learn more.</storage5>
+
+		<home1>Click on the home button on the player's profile to go to their home.</home1>
+		<home2>You will be able to see how the player chose to decorate their home.</home2>
+
+		<decorating1>When you're in your Fairy Home or Fairy Garden, click on the Storage Chest to start decorating.</decorating1>
+		<decorating2>Click any tab to see what you have in that part of your Storage.  Click the green Expand arrow to see more items at once.</decorating2>
+		<decorating3>To put an item in your home or garden, select it and click the &quot;Put In Room&quot; button.</decorating3>
+		<decorating4>You can arrange your items by dragging them around the room.  Use the furniture controls to move items back and forth in space and to flip them. You can also change the size of the object by using the "Drag to Scale" button.</decorating4>
+		<decorating5>If you're not a Member, you can use any decoration by clicking the Upgrade button to turn it into a Diamond Item.  Diamond Items do not require membership to use!</decorating5>
+		<decorating6>When you're done decorating, you can print a picture of your home or garden!</decorating6>
+		<decorating7>If you want to put an item back in your Storage, select it while your Storage is open and click on the &quot;Put Item Away&quot; button.</decorating7>
+		<decorating8>If you would like to put away ALL of your home storage items at once, click on the "Put Away All Items" button in the storage bar. This will quickly put everything you have in your home back in storage.</decorating8>
+		
+		
+		<badges1>Your Badge Pages display all the special awards you can earn to celebrate accomplishments in Pixie Hollow. Select a category in the Table of Contents and click &quot;Go&quot; to view that badge category. </badges1>
+		<badges2>Each Badge Page shows earned and unearned badges. Move your mouse over an unearned badge to see your progress.</badges2>
+		<badges3>Click on a badge to see its description. Once you have earned a badge, you can make it your favorite. You can view other players' favorite badges in their profiles.</badges3>
+		<badges4>Most badges are always available to earn. Some badges are seasonal &quot;Challenge&quot; and are only available during a season. Some badges are for Members Only.</badges4>
+
+		<gathering1>There are lots of hidden things around Pixie Hollow! One of your jobs is to gather Ingredients in preparation for the upcoming season! To gather an item, click on it and you'll automatically collect it. Click on your Pouch to see your Ingredients.</gathering1>
+		<gathering2>Members can use Ingredients to buy clothes from shops, trade Ingredients for Pixie Diamonds, create fashions in the Tailoring Nooks, bake sweets in Dulcie's Kitchen, craft home items in the Tinkering Nook, or complete quests for Tinker Bell and her friends.</gathering2>
+		<gathering3>If you want to collect a lot of Ingredients, try playing talent games. Each game can reward up to 3 different Ingredients that you can choose from.</gathering3>
+		<gathering4>Some Ingredients are in bunches and can be collected by multiple players. The more players that click on these magic bunches before the time runs out, the more you can collect!</gathering4>
+		<gathering5>Some Ingredients are harder to find than others. Use this guide to find what you're looking for!</gathering5>
+		<gathering6>Some Ingredients are harder to find than others. Use this guide to find what you're looking for!</gathering6>
+
+		<theater1>Visit the Fairy Tale Theater and act out original Pixie Plays live onstage! Most plays have 4 characters, so you can perform with your friends.</theater1>
+		<theater2>Click on the Script icon to see the script for the play. Next choose which characters you and your friends want to be.</theater2>
+		<theater3>Just follow the script! When it's time for your character to speak, click on your line of dialog and your character will say that line. Move through the story by having each Fairy actor say their lines in order.</theater3>
+		<theater4>Every play has special props on the stage. Try clicking on them -- you never know what surprises are in store!</theater4>
+		<theater5>Each character has their own costume available. Get it from Cassie's Costume Shop, on the right side of Fairy Tale Theater.</theater5>
+		<theater6>Plays change every few weeks, so always check back to see what's new in the theater!</theater6>
+
+		<ignore1>If you don't want to receive messages from a player who is chatting with you, use the "Ignore" feature. Click on the profile of the player you want to ignore, then click on the Ignore icon. If this player is your friend though, they will also be removed from your Friends List.</ignore1>
+		
+		<crafting1>Visit a Tailoring Nook to make all sorts of clothes!</crafting1>
+		<crafting2>In Practice Tailoring, all the ingredients are provided for you. When practicing, you can choose to complete all Tailoring steps for a pattern, or just the steps you wish to practice.</crafting2>
+		<crafting3>If you are a Member, you can make items for yourself in Personal Tailoring. You'll receive new patterns as you earn new Talent Levels. Then you'll need to collect all the necessary ingredients and dyes for that item!</crafting3>
+		<crafting4>Keep your eyes peeled for seasonal patterns. They are only available in Practice Tailoring for brief periods of time, but if you Practice Tailoring the item and score 90% or above, you will unlock the pattern forever.</crafting4>
+
+		<talentgames1>There are special places in the Hollow where you can help out famous Fairies with different talents by playing talent games. All games offer difficulty levels you can choose from. Choose the level that suits your fancy! Only Members can select the Play All option.</talentgames1>
+		<talentgames2>Each game can earn you Talent Points and can offer up to 3 different ingredients that you can choose from. Members can use ingredients to buy items in shops or to complete quests.</talentgames2>
+		<talentgames3>Visit Vidia once a day to try your luck at grabbing a prize acorn from her tornado. All players can win a prize but Members get more chances to win! There are some secret prizes in the acorns that you can only get by playing and won't find anywhere else! Good Luck!</talentgames3>
+		
+		<shops1>Visit shops to find all sorts of items to buy with Pixie Diamonds and ingredients. There are clothing shops, d&#233;cor shops, dye shops, party shops, a new home store and a hair salon!</shops1>
+		<shops2>Click on the Shopkeeper to shop or trade ingredients. Each Shopkeeper has a particular specialty for the items they sell in their shop.</shops2>
+		<shops3>Click on the Collection tabs to see all the items the shop is selling. Sometimes a shop will host a special collection from a Designer Fairy!</shops3>
+		<shops4>In clothing shops, try on everything before you buy it to see how it looks on your character! Show off an outfit before you buy it in the shop by pressing the &quot;Model It!&quot; button.</shops4>
+		<shops5>Use the shop catalog to look through all your favorite styles! Your Fairy or Sparrow Man models the latest fashion on every page. Use the "Mix &amp; Match" button to put together your own outfit in the dressing room if you want to customize your look.</shops5>
+		<shops6>Upgraded homes can be purchased at Neville's New Homes shop in Treetop Bend. When you purchase a new home, all your storage items will be put away so you can start decorating your new home.</shops6>
+		
+		<quests1>Look for Signs around Pixie Hollow that will lead you to Tinker Bell and other famous Fairies.</quests1>
+		<quests2>Choose why you are visiting the famous Fairy -- you can start a quest, finish a quest, or just stop by to chat!</quests2>
+		<quests3>If you are choosing to start a new quest, there may be more than one available. Pick the quest that you want to do -- you can always come back and do other quests later.</quests3>
+		<quests4>Tink and her friends will explain the quest and the story to you.</quests4>
+		<quests5>The Quest Card will tell you exactly what you need to do next.</quests5>
+		<quests6>When the quest is complete you will get a reward -- and sometimes you get to choose your reward!</quests6>
+		<quests7>If you need to see what quest you're on or what your current goal is, go to the Quest Tab in the Leaf Journal.</quests7>
+		<quests8>Sometimes Fairies will have Trade Quests. These are short quests you can use to trade for ingredients.</quests8>
+		<quests9>You can even do quests OUTSIDE Pixie Hollow for special badges. Just visit Kit's Place in Evergreen Overlook to ask her for a Mainland Quest.</quests9>
+				
+		<parties1>Parties are a great way to spend time with your friends, make new friends, play multiplayer games, and earn ingredients!</parties1>
+		<parties2>All players can attend public parties. To find a public party, visit the Pixie Postings and click on the party hat! You can also find them from the menu in Phoebe's Party Favors shop in Sunflower Gully.</parties2>
+		<parties3>Host your own party at your Home with party supplies from Phoebe's Party Favors shop in Sunflower Gully.</parties3>
+		<parties4>You can buy different types of parties that will all look unique in your home. Don't forget to pick up a few party games too!</parties4>
+		<parties5>You can see your parties and party games in your Pouch. Each game has a list of the possible rewards you and your friends might win from the game!</parties5>
+		<parties6>To start a party, go to your Home and click on the Party icon. Then pick a party decoration type and click the &quot;Start your Party!&quot; button.</parties6>
+		<parties7>Once you pick a name for your party, you will be taken to your decorated home where your party has started!</parties7>
+		<parties8>Your party will last as long as there are players in your home! If your home is empty for more than 30 minutes, your party will end.</parties8>
+		<parties9>When you're done setting up your party, click the Invite Friends button to select friends you'd like to invite to your party. Remember, you can only have 12 players in your home at a time.</parties9>
+		<parties10>When you have enough players at your party, you can start a party game. Only the party host can start a party game.</parties10>
+		<parties11>Choose which game you want to play and click the &quot;Play Game&quot; button. All the players in your home will be invited to join the game.</parties11>
+		<parties12>If you'd like to make your party public, click &quot;Show in Public Parties&quot; on the party controls. This will allow players you don't know to join your party. You can switch your party back to private at any time by clicking on it again.</parties12>
+		<parties13>You can end your current party by clicking the &quot;Stop Party&quot; button. You and your guests will be taken to an undecorated version of your home.</parties13>
+		
+		<baking1>Visit Dulcie&apos;s Kitchen in Neverberry Thicket and learn to make delicious treats and earn Talent Points!</baking1>
+		<baking2>In Practice Baking, all of the ingredients are provided for you. What you bake is donated back to the Pixie Hollow community to help prepare for the seasons and welcome new Fairies.</baking2>
+		<baking3>If you are a Member, you can make baked goods for yourself in Personal Baking and they will be stored in your Pouch. </baking3>
+		<baking4>You'll receive new recipes as you earn new Talent Levels. Then you'll need to collect all the necessary ingredients for that recipe!</baking4>
+		<baking5>Keep your eyes peeled for seasonal recipes. They are only available in Practice Baking for brief periods of time, but if you Practice Baking the item and score 90% or above, you will unlock the recipe forever.</baking5>
+		<baking6>All baked goods can be eaten to restore Pixie Dust while you are adventuring in the Wilderness.</baking6>
+		<baking7>You can bake special treats using silly recipes. When you eat these Silly Sweets in a meadow, shop, or home, you will see silly things happen!</baking7>
+		<baking8>Cupcakes are special baked goods that you can ONLY use in the Wilderness. Eating a cupcake refills EVERYONE'S Pixie Dust meter who is adventuring with you in the Wilderness.</baking8>
+		<baking9>Redeem the secret code that comes with your Disney Fairies Sweet Treat Collection toys to get limited edition Silly Sweets!</baking9>
+		
+		<membership1>Being in Pixie Hollow is so much fun! You can play talent games, make friends, decorate your home, try on clothes, do quests, earn badges, attend parties and participate in special events!</membership1>
+		<membership2>Membership gives you access to all of Pixie Hollow! When you're a Member, you can trade Ingredients for Pixie Diamonds, buy new items and hairstyles using Ingredients, and so much more!</membership2>
+		<membership3>All Members have a Membership Pin on their profiles.</membership3>
+		<membership4>The Ballroom is a very special place for Members. Fly into the Ballroom for gift giveaways and special interactive areas! The Ballroom is also frequently visited by Famous Fairies of Pixie Hollow like Tinker Bell and the Ministers!</membership4>
+		
+		
+		<tinkering1>Visit Copper's Tinkering Nook to make new home items!</tinkering1>
+		<tinkering2>In Practice Tinkering, all the ingredients are provided for you. You can practice any blueprint as many times as you would like.</tinkering2>
+		<tinkering3>If you are a Member, you can make home items for yourself in Personal Tinkering. First you'll need to gather the necessary ingredients. And don't forget to pick up some dye at a dye shop!</tinkering3>
+		<tinkering4>Keep your eyes peeled for seasonal blueprints. They are only available in Practice Tinkering for brief periods of time, but if you Practice Tinkering the item and score 90% or above, you will unlock the blueprint forever.</tinkering4>
+		
+		<talent1>You can earn special powers called &quot;Talent Skills,&quot; which can be used in meadows or the Wilderness. Depending on your talent you may earn these skills at different Talent Levels. Over time you can earn them all and become a Talent Master!</talent1>
+		<talent2>To unlock your Talent Skills, you'll need to earn Talent Points. Fairies and Sparrow Men can earn Talent Points doing many things, such as completing quests, playing talent and party games or crafting in nooks.</talent2>
+		<talent3>Join adventures in the Wilderness and face Challenges that ask you to use Talent Skills. If you are able to complete all of the Challenges you can earn additional Talent Points and ingredients, too!</talent3>
+		<talent4>When you are in meadows you will find Talent Skills signs. If you have earned the Talent Skill on the sign you can click on it and make ingredient bunches to share with your friends!</talent4>
+		<talent5>Using any Talent Skill requires you to use your Pixie Dust. Every day you log into Pixie Hollow, you will get a full refill of Pixie Dust. You can also eat cookies you've baked to replenish Pixie Dust at any time.</talent5>
+		
+		<wilderness1>You can explore the strange and mysterious Wilderness areas of Pixie Hollow with up to 3 of your friends!</wilderness1>
+		<wilderness2>To enter the Wilderness, you'll need to earn enough Talent Points to unlock your first Talent Skill! You can use your Talent Skills on things you find in meadows and the Wilderness. Using them in the Wilderness will earn you Talent Points and ingredients!</wilderness2>
+		<wilderness3>To enter a Wilderness, click on the Wilderness Sign. The sign for The Bubbly Bog is in Dewdrop Vale, the sign for The Silver Trees is in Pumpkin Patch, and the sign for The Never Mine is in Chilly Falls.</wilderness3>
+		<wilderness4>When you enter the Wilderness, you are going on a Wilderness Adventure. First you will need to decide if you want to join someone else's Adventure or if you want to start your own.</wilderness4>
+		<wilderness5>If you decide to join an existing Adventure, you'll see a list of the Adventure Groups waiting to enter this Wilderness. You can look to see what Talent Skills that group needs. It's always nice to try joining a group that needs one of your Talent Skills!</wilderness5>
+		<wilderness6>If you decide to lead an Adventure, you'll need to pick what type of Adventure you'd like to lead. You can always "Go Scouting!" to look for random ingredients. If you need to go to the Wilderness for a quest, you'll see that quest in the list of Adventures you can lead.</wilderness6>
+		<wilderness7>Once you've started or joined an Adventure Group, you'll get a list of the other players in your group. The leader of the group can start the Adventure at any time. Once the Adventure starts, your group will fly to the Wilderness!</wilderness7>
+		<wilderness8>In a Wilderness, your group will find special Challenges which you can complete by using your Talent Skills. When you complete a Challenge, everyone in your group who helps will earn Talent Points and ingredients.</wilderness8>
+		<wilderness9>Sometimes, completing a Challenge will open up a new path in the Wilderness for your group. Remember, if you get separated from your group, you can use the Chat Log to talk to each other!</wilderness9>
+		<wilderness10>Sometimes a quest will require that you complete all of the Challenges in a Wilderness to advance. Sometimes you only have to complete a few particular Challenges. But, if you do complete ALL of the Challenges, be ready for a special reward of extra ingredients for your group!</wilderness10>
+		<wilderness11>Completing Challenges uses your Pixie Dust! A well-prepared Fairy or Sparrow Man always has some cookies to refill Pixie Dust. Be sure to grow some Dulcie's Cookie Seeds in your garden or bake a batch at Dulcie's if you're a Member!</wilderness11>
+		<wilderness12>When you're ready to leave the Wilderness, simply click on the sign leading back to the meadow. If you haven't completed the Wilderness, a message will let you know there are still Challenges you can complete!</wilderness12>
+
+		<redye1>Visit any dye shop to re-dye wardrobe or storage items using dye bottles. Any pixie can buy dye bottles using Pixie Diamonds, or you can trade ingredients for dye bottles if you're a Member! </redye1>
+		<redye2>Choose what category of items you want to re-dye from the drop down menu.</redye2>
+		<redye3>Select which item you would like to dye, and it will appear in the preview window on the right side.</redye3>
+		<redye4>Click on the &quot;Dyes&quot; tab to see what dye bottles you have. If you don't have any dye bottles, you will need to buy some before you can re-dye an item.</redye4>
+		<redye5>Drag any dye bottle you want over to the dye slot area on the right side, and drop it in place. You will see your wardrobe or storage item update in the preview window with the new color. You can drag any new dye bottle to the same slot to replace the current one.</redye5>
+		<redye6>If you are re-dying a two color item, you can use the &quot;Swap Colors&quot; button to switch where the colors are applied to the wardrobe or storage item.</redye6>
+		<redye7>Once you are ready to re-dye your wardrobe or storage item a new color, click on the &quot;Dye Item&quot; button and the item is updated to the new color.</redye7>
+
+		<currencyConverter1>Players can exchange one type of Ingredient for another in any of the shops. Click on the Trade Ingredients button in any shop lobby to enter the trade menu. Members can even trade Ingredients for Pixie Diamonds!</currencyConverter1>
+		<currencyConverter2>The left side of the trade menu shows what you have in your Pouch. Select the ingredient that you want to "give" from the left side of the trade menu. Then select the ingredient that you want to "get" on the right side.</currencyConverter2>
+		<currencyConverter3>Use the pink plus and minus buttons to select how much of the selected ingredient you want to trade. You'll see how much you're going to get on the right side. When you're ready to trade, click on the pink "Trade" button at the bottom of the menu.</currencyConverter3>
+		<currencyConverter4>When your trade is complete, you will see how much of the new ingredient you now have.</currencyConverter4>
+		
+		<tearoomGames1>The Tearoom is a great place for Members to meet and play card games. To start, join or watch a game, click the tables that have special tablecloths and centerpieces with decks of cards.</tearoomGames1>
+		<tearoomGames2>At least two players are required for both games, but as many as four can play Crazy Cakes.</tearoomGames2>
+		<tearoomGames3>The object of Crazy Cakes is to be the first player to get rid of all cards by playing them. To play cards match a color or number to what was last played. &quot;Action Cards&quot; can be used to 'Skip' a player's turn, 'Reverse' the direction of turns, or force others to draw cards.</tearoomGames3>
+		<tearoomGames4>&quot;Special Cards&quot; can be played at anytime. The '8' allows a player to change the color of the next card and the &quot;Pixie Power&quot; card activates a special spinner that determines what action will be played next.</tearoomGames4>
+		<tearoomGames5>The object of Two for Tea is to score more points than the other player. Players take turns flipping over two cards at a time and score points by revealing a pair of matching cards.</tearoomGames5>
+		<tearoomGames6>For each match you make you are able to take another turn. If you do not turn over a match, you lose a turn. The game continues until all cards are collected or both players have exceeded the limit of turns.</tearoomGames6>
+		<tearoomGames7>The Two for Tea deck often has surprising cards within it that will give you extra points, &quot;Spinner Cards&quot; which activate a spinner that determines what happens next, or even &quot;Treat Cards&quot; that add items to your Pouch.</tearoomGames7>
+
+		<animalFriend1>Visit Beck's Animal Nursery in Springtime Orchard to choose a baby animal that you can care for. They all have their own unique features, so try them all! Remember that caring for an animal is a big responsibility.</animalFriend1>
+		<animalFriend2>Baby Animal Friends need constant care so they can grow up to be strong adults. You have to feed them, play with them and heal them when they are sick.</animalFriend2>
+		<animalFriend3>When your Animal Friend is sick, visit Elixa's Hospital in Neverberry Thicket. Elixa is a healing-talent and knows how to help animals of all shapes and sizes. She will tell you what to do to heal your Animal Friend.</animalFriend3>
+		<animalFriend4>You can view your Animal Friend's profile by clicking on them. The profile is where you can feed your Animal Friend and check on their current status. Be sure to check on your Animal Friend each day.</animalFriend4>
+		<animalFriend5>If you don't want your Animal Friend following you around, you can send them to your home to rest from their profile. Also, your friends can feed your pet for you when it is at home resting.</animalFriend5>
+		<animalFriend6>Your Animal Friend has 10 different growth levels: Hatchling, Baby, Tot, Youngling, Youngster, Kiddie, Kid, Teen, Grownup and Full Grown.</animalFriend6>
+		<animalFriend7>As your Animal Friend grows older, they will learn Tricks that they can perform. To perform a trick, simply say the Trick's name out loud by typing it with SpeedChat Plus or using the SpeedChat menu. For example, say "Shake!" and your Animal Friend will shake!</animalFriend7>
+		<animalFriend8>If you want a different Animal Friend, speak to Elixa to release your current Animal Friend to the mainland. You will NOT be able to get that Animal back again!</animalFriend8>
+		<animalFriend9>Butterflies are NOT Animal Friends, as they are far too independent. If you see a Butterfly following a Fairy or Sparrow Man, it means that player has a Clickables Tag-Along following them.</animalFriend9>
+		<animalFriend10>To get a gift from your Animal Friend, be sure its Hunger, Health and Mood are all over 90. It must also be following you in the meadow. Animal Friends can bring you up to two gifts a day, and they will bring you better gifts as they get older!</animalFriend10>
+		<animalFriend11>Animal Friends have outfits they can wear. Each outfit is designed to fit a specific Animal Friend species. You will have access to your Animal Friend outfits collection as long as you are a Member OR if you have a Diamond Friend.</animalFriend11>
+		<animalFriend12>If you're not a Member, you can keep your Animal Friend by clicking the Upgrade button to make them into a Diamond Friend. Diamond Friends do not require membership to play with!</animalFriend12>
+		<animalFriend13>Butterflies never gets sick or bored, and you only need to feed them! Once in a while they even bring you Pixie Diamonds as gifts!</animalFriend13>
+				
+		<giftBoxes1>Stop by the Pixie Post Office often to check out the new Gift Set collections on display. Gift Sets showcase the latest and greatest styles in all of Pixie Hollow, and new inventory is always arriving!</giftBoxes1>
+		<giftBoxes2>Try on different items to see how they look on your pixie! Show off your stylish new outfit by clicking the “Model It” button.</giftBoxes2>
+		<giftBoxes3>Once you find the perfect outfit, just click the Get All button.</giftBoxes3>
+		<giftBoxes4>If you're a Member you can send a bonus, second Gift Set to any friend! Use the Select a Fairy Friend menu to select which friend you'd like to send your bonus Gift Set to.</giftBoxes4>
+		<giftBoxes5>Once you've selected a friend, use the Select a Message menu to choose the perfect greeting to surprise your friend with when they open their Gift Set.</giftBoxes5>
+		<giftBoxes6>If you're ready to show off your style, click the Wear Now button. Your friend will find their matching outfit waiting for them in their Fairy Home!</giftBoxes6>
+		
+		<talentmasters1>Fairies and Sparrow Men of any talent can become Talent Masters by earning Talent Points doing many things in Pixie Hollow, such as crafting in nooks, completing quests, or even playing talent or party games.</talentmasters1>
+		<talentmasters2>The first time you enter Pixie Hollow you will begin at Talent Level 0. As you earn Talent Points, you will advance from one Talent Level to the next. Your current Talent Level is shown in the top center of the screen and in your profile.</talentmasters2>	
+		<talentmasters3>Each time you earn enough points to advance to a new Talent Level you will receive a reward. On many levels you will receive a message from your mentor Fairy offering you the reward of new patterns or items for your Wardrobe, Storage or Pouch.</talentmasters3>
+		<talentmasters4>On some Talent Levels you will receive a message from Terence asking you to come to the Pixie Dust Mill for a special reward. On these levels Terence will reward you with a new Talent Skill to use in meadows and the Wilderness.</talentmasters4>
+		<talentmasters5>To find out how many Talent Points you will need to earn to advance to the next Talent Level, look in the Talent Levels section of your Leaf Journal. Here you can learn more about what rewards you receive at each Talent Level.</talentmasters5>	
+		
+		<animalderby1>Animal Derby is a racing game that up to 4 players can play at once. You can use exclusive animals if you're a Member or by using Pixie Diamonds!</animalderby1>
+		<animalderby2>Click the buttons to help the animals Jump and Duck to avoid obstacles and make it to the finish line!</animalderby2>
+		<animalderby3>Click as quickly as you can to fill the meter so you can jump onto a lily pad and float across the water. If you miss the lily pad you will have to swim!</animalderby3>
+		<animalderby4>Click fast and CONSTANTLY to make it through the mud without slipping!</animalderby4>
+		<animalderby5>Collect Power-Ups throughout the race and use them by clicking!  Sprinting Thistles, Bee Swarms and Tornadoes will slow down your opponents!  The Freeze effect will stop ALL other racers for a short time and Turbo Boost will give you a burst of speed!</animalderby5>
+		
+		<postoffice1>Visit the Pixie Post Office in Neverfruit Grove to shop Gift Sets and share Postcards with all your Pixie Hollow friends.</postoffice1>
+		<postoffice2>Gift Sets showcase the latest fashions in Pixie Hollow and are updated frequently! If you're a Member, you'll even get a second Gift Set to send to a friend!</postoffice2>
+		<postoffice3>Postcards are the perfect way to brighten a friend's day. Show your creativity by customizing your Postcard with a design and message! Postcards are deleted after viewing them in the home. Postcards can only be sent using Pixie Diamonds.</postoffice3>
+		<postoffice4>If you see a gift next to your Fairy Home, that means a Member sent you something special from the Pixie Post Office! Click on the Fairy Home icon to fly home and see what you got!</postoffice4>
+				
+		<postcards1>Surprise your friends by sending them Postcard greetings using Pixie Diamonds when you visit the Pixie Post Office in Neverfruit Grove. To send Postcards, speak to Spring and select "Send Postcard."</postcards1>
+		<postcards2>Customize your Postcard by using the left and right arrows to preview colorful background images. Once you find the perfect design, Click "Next" to continue.</postcards2>
+		<postcards3>Use the menu on the left to select the friend you would like to surprise.</postcards3>
+		<postcards4>Make your friend's day even brighter by adding a special message using the menu on the right. This is the perfect way to say "Happy Birthday" or "Get Well Soon!"</postcards4>
+		<postcards5>When you are ready to send your personalized Postcard, click "Next" and your friend will receive your Postcard the next time they visit their Fairy Home!</postcards5>
+		
+		<pixiediamonds1>Pixie Diamonds are a great way to get what you want!  To use Pixie Diamonds, just visit any shop in Pixie Hollow.</pixiediamonds1>
+	
+		<leaderboards1>Click on the Pixie Hollow Leaderboards display located in the Fairy Coliseum to see the top athletes in all of Pixie Hollow!</leaderboards1>
+		<leaderboards2>Open the drop-down menu to select the Leaderboard for your favorite Pixie Hollow game.</leaderboards2>
+		<leaderboards3>Weekly Leaderboards display the top ten athletes each week and are reset every Monday.  Stop by each week to compete with your Fairy friends!</leaderboards3>
+		<leaderboards4>Seasonal Leaderboards display the top ten athletes each season and are reset at the start of Winter, Spring, Summer and Fall.</leaderboards4>
+		
+		<fairygardens1>Grow exciting fashions, decorations and more in your very own Fairy Garden! To get started, visit the Garden Supply shop in Dewdrop Vale and stock up on magical Surprise Seeds!</fairygardens1>
+		<fairygardens2>When you plant Surprise Seeds, they will turn into 1 of 5 possible rewards. To see all the different rewards Surprise Seeds turn into, click the left and right arrow buttons.</fairygardens2>
+		<fairygardens3>Once you have a pouch full of Surprise Seeds, it's time to head back to your garden and plant them! Just click the flower button next to your Fairy Home to get growing!</fairygardens3>
+		<fairygardens4>Click on any empty Planting Patch in your garden and look through your Pouch to find the Surprise Seeds you want to grow, then click the Plant button.</fairygardens4>
+		<fairygardens5>After you plant Surprise Seeds, you will need to dust them once every day. Simply select your plant then click the Dust button to sprinkle your plant with Pixie Dust. </fairygardens5>
+		<fairygardens6>Surprise Seeds will be fully grown in 1, 3 or 5 days. The Progress Bar beneath each plant lets you know how much longer each plant needs to grow.</fairygardens6>
+		<fairygardens7>When Surprise Seeds are fully grown you will see fruit. Click the fruit to get the reward inside!</fairygardens7>
+		<fairygardens8>Growing a beautiful garden can be hard work. If you need to hurry things up, try Insta-Bloom! Spend Pixie Diamonds to use Insta-Bloom on any plant and it will become fully grown right in front of your eyes! No more waiting!</fairygardens8>
+		<fairygardens9>Did you know plants love music? Invite your friends to your garden to sing to your plants! Singing helps fill the Bonus Bar. If visiting Fairies fill the bar before your Surprise Seeds are fully grown, you will get something extra special!</fairygardens9>
+		<fairygardens10>If you run out of Pixie Dust, don't worry... just pick up some sweets at Harmony's Sweet Shop in Neverberrry Thicket. Eating cookies and other sweets will give you more Pixie Dust instantly!</fairygardens10>
+		<fairygardens11>Your plants will start to wilt if you spend too much time away from them. If this happens, just click the Rescue button to return your plant to a healthy state. Remember, plants need dust every day, so come back as often as you can!</fairygardens11>
+		<fairygardens12>One last thing! You can decorate your Fairy Garden, too. To learn more, read the &quot;Decorating&quot; tutorial.</fairygardens12>
+		
+		<queens1>To find royal fashions fit for Queen Clarion herself, visit the Queen's Boutique shop in Havendish Square.</queens1>
+		<queens2>To view the uniquely stunning outfits available, select Shop Catalog! Each outfit on display has been hand-crafted by the best and brightest sewing-talents in Pixie Hollow!</queens2>
+		<queens3>Since so much work has gone into tailoring each outfit, these special dresses can't be dyed.</queens3>
+		
+		<partygames1>Visit Phoebe's Party Favors in Sunflower Gully to stock up on Party Games! Invite your friends to play Party Games in your Fairy Home or Garden. </partygames1>
+		<partygames2>To play Party Games, select them in your Pouch and click 'Play!' when you're in your Fairy Home or Garden.</partygames2>
+		<partygames3>You can choose where to place Party Games. When you're ready to place your Party Game, click the 'OK' icon.</partygames3>
+		<partygames4>If you want to send a Party game back to your Pouch after you have placed it, click the 'Return' icon.</partygames4>
+				
+		<next>Next</next>
+		<ok>OK</ok>
+		
+		<label1>FRIEND</label1>
+		<label2>HOME</label2>
+		<label3>WHISPER</label3>
+		<label4>FLY TO</label4>
+		<label5>IGNORE</label5>
+		<label6>SEND</label6>
+		<label7>WHISPER</label7>
+		<label8>FRIEND</label8>
+		<label9>FLY TO</label9>
+		<format1>White</format1>
+		<format2>Gray</format2>
+
+	</copy>
+	<config>
+		<base_path>images/tutorials</base_path>
+		<tutorialManager>
+        
+            <!-- Deprecating mask in favor of bit. Suggest not using bits 31, 63 to avoid signed/unsigned issues. -->
+        
+			<tutorial id="chat" panel="chat" type="onPanelClick" mask="1" bit="0"></tutorial>
+			<tutorial id="basics" panel="diecut" type="onPanelOpen" mask="2" bit="1"></tutorial>
+			<tutorial id="profile" panel="profile" type="onPanelOpen" mask="4" bit="2"></tutorial>
+			<tutorial id="friends" panel="friends" type="onPanelOpen" mask="8" bit="3"></tutorial>
+			<tutorial id="teleport" panel="--none--" type="onButtonClick" mask="16" bit="4"></tutorial>
+			<tutorial id="decorating" panel="decorate" type="onPanelClick" mask="32" bit="5"></tutorial>
+			<!-- 6 thru 11 used below -->
+			<tutorial id="gathering" panel="gathering" mask="4096" bit="12"/>
+			<tutorial id="crafting" panel="craftcave" mask="8192" bit="13"/>
+			<tutorial id="talentGames" panel="minigame" mask="16384" bit="14"/>
+			<tutorial id="shops" panel="shop" mask="32768" bit="15"/> <!-- 16 -->
+			<tutorial id="quests" panel="quests" mask="65536" bit="16"/>
+			<tutorial id="parties" panel="party" mask="131072" bit="17"/>
+			<tutorial id="membership" panel="velvetRope" mask="262144" bit="18"/>
+			<tutorial id="baking" panel="baking" mask="524288" bit="19"/>
+			<tutorial id="tinkering" panel="tinkering" mask="1048576"  bit="20"/>
+			<tutorial id="talent" panel="talent" mask="2097152" bit="21"/>
+			<tutorial id="wilderness" panel="wilderness" mask="4194304" bit="22"/>
+			<!-- bit 23 used below -->
+			<!--<tutorial id="ignore" panel="ignore" mask="16777216" bit="24"/>-->
+			<tutorial id="theater" panel="theater" type="onPanelClick" mask="33554432" bit="25"></tutorial> <!-- special case, set up in HelpButton... -->
+			<tutorial id="animalFriend" panel="animalFriendPanel" mask="67108864" bit="26"/>
+			<!-- <tutorial id="wilderness" panel="matchmaker" mask="4194304"/> --> <!-- removed by tjf, not sure what this was in here for... -->
+			<tutorial id="redye" panel="dyePanel" mask="134217728" bit="27"/>
+			<tutorial id="currencyConverter" panel="tradeIngredients" bit="36"/>
+			<tutorial id="tearoomGames" panel="tearoom" mask="268435456" bit="28"/>
+			<tutorial id="giftBoxes" panel="giftBoxes" mask="" bit="38"/>
+            <tutorial id="talentmasters" panel="talentmasters" mask="" bit="39"/>
+			<tutorial id="animalderby" panel="mgDerbyCartRacing" mask="" bit="65"/>
+			<tutorial id="postoffice" panel="postoffice" mask="" bit="66"/>
+			<tutorial id="postcards" panel="postcards" mask="" bit="67"/>
+			<tutorial id="pixiediamonds" panel="pixiediamonds" mask="" bit="68"/>
+			<tutorial id="leaderboards" panel="leaderboards" mask="" bit="69" />
+			<tutorial id="fairygardens" panel="fairygardens" mask="" bit="70" />
+			<tutorial id="queens" panel="queens" mask="" bit="71" />
+			<tutorial id="partyGames" panel="partyGames" mask="" bit="72" />
+			
+			
+
+			<!-- in context tutorials: no panel or mask data, and these were added after the switch to bit references.
+			these id values should have corresponding static constants defined in TutorialManager.as that 
+			panels and managers can refer to in order to check/spawn these incontext alerts-->
+			<tutorial id="inContextDecorating" panel="" mask="" bit="29"/>
+			<tutorial id="inContextShops" panel="" mask="" bit="30"/>
+			<tutorial id="inContextParties" panel="" mask="" bit="32"/>
+			<tutorial id="inContextBadges" panel="" mask="" bit="33"/>
+			<tutorial id="inContextGathering" panel="" mask="" bit="34"/>
+			<tutorial id="inContextNewHome" panel="" mask="" bit="35"/>
+			<tutorial id="inContextAnimalFriendGiftPouch" panel="" mask="" bit="37"/>
+			<tutorial id="inContextAnimalFriendGiftJournal" panel="" mask="" bit="37"/>
+			<tutorial id="inContextAnimalFriendGiftJournalAF" panel="" mask="" bit="37"/>
+			<tutorial id="inContextDiamondWallet" panel="" mask="" bit="40"/>
+			<tutorial id="inContextPostOfficeEntry" panel="" mask="" bit="41"/>
+			<tutorial id="inContextPostOfficePackageReceived" panel="" mask="" bit="42"/>
+			<tutorial id="inContextQueensBoutique" panel="" mask="" bit="43"/>
+			<tutorial id="inContextGardenShop" panel="" mask="" bit="44"/>
+			<tutorial id="inContextOwnGarden" panel="" mask="" bit="45"/>
+			<tutorial id="inContextOtherGarden" panel="" mask="" bit="46"/>
+
+			<onDemand>
+				<tutorial id="wardrobe" panel="wardrobe" mask="64" bit="6"></tutorial>
+				<tutorial id="map" panel="map" mask="128" bit="7"></tutorial> <!-- 8 -->
+				<tutorial id="storage" panel="storage" mask="256" bit="8"></tutorial>
+				<tutorial id="badges" panel="badges" mask="512" bit="9"></tutorial>
+			</onDemand>
+			<tink>				
+			</tink>
+			<kit>
+				<tip id="kitEnterMeadow" mask="2048" bit="11"/>
+			</kit>
+			<arrivalDay>
+				<instructive id="mainTutorial" mask="1024" bit="10"/> <!-- this mask used to be kitEnterGame now being repurposed -->
+				<instructive id="clickedThroughTutorial" mask="8388608" bit="23"/>
+			</arrivalDay>
+		</tutorialManager>
+		<basics tags="">
+			<title>basics_title</title>
+			<content tags="">
+				<line>basics1</line>
+				<image>Basics/TheBasics_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>basics2</line>
+				<image>Basics/TheBasics_Pg2.PNG</image>
+			</content>
+			<content tags="">
+				<line>basics3</line>
+				<image>Basics/TheBasics_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>basics4</line>
+				<image>Basics/TheBasics_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>basics5</line>
+				<image>Basics/TheBasics_Pg5.png</image>
+			</content>
+			<content tags="">
+				<line>basics6</line>
+				<image>Basics/TheBasics_Pg6.PNG</image>
+			</content>
+			<content tags="">
+				<line>basics7</line>
+				<image>Basics/TheBasics_Pg7.png</image>
+			</content>
+			<content tags="">
+				<line>basics8</line>
+				<image>Basics/TheBasics_pg8.PNG</image>
+			</content>
+			<content tags="">
+				<line>basics9</line>
+				<image>Basics/TheBasics_pg9.PNG</image>
+			</content>
+			<content tags="">
+				<line>basics10</line>
+				<image>Basics/TheBasics_pg10.PNG</image>
+			</content>
+		</basics>
+		<profile tags="">
+			<title>profile_title</title>
+			<content tags="">
+				<line>profile1</line>
+				<image>Profile/Profile_Pg1.PNG</image>
+			</content>
+			<content tags="">
+				<line>profile2</line>
+				<image>Profile/Profile_Pg2.PNG</image>
+			</content>
+			<content tags="">
+				<line>profile3</line>
+				<image>Profile/Profile_pg3.png</image>
+			</content>
+			<content tags="">
+				<line>profile4</line>
+				<image>Profile/profile_pg4.png</image>
+			</content>
+			<content tags="">
+				<line>profile5</line>
+				<image>Profile/profile_pg5.png</image>
+			</content>
+			<content tags="">
+				<line>profile6</line>
+				<image>Profile/Profile_pg6.png</image>
+			</content>
+			<content tags="">
+				<line>profile7</line>
+				<image>Profile/Profile_pg7.png</image>
+			</content>
+			<content tags="">
+				<line>profile8</line>
+				<image>Profile/profile_pg8.png</image>
+			</content>
+			<content tags="">
+				<line>profile9</line>
+				<image>Profile/profile_pg9.png</image>
+			</content>
+		</profile>
+		<wardrobe tags="">
+			<title>wardrobe_title</title>
+			<content tags="">
+				<line>wardrobe1</line>
+				<image>Wardrobe/Wardrobe_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>wardrobe2</line>
+				<image>Wardrobe/Wardrobe_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>wardrobe3</line>
+				<image>Wardrobe/Wardrobe_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>wardrobe4</line>
+				<image>Wardrobe/Wardrobe_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>wardrobe5</line>
+				<image>Wardrobe/Wardrobe_Pg5.png</image>
+			</content>
+			<content tags="">
+				<line>wardrobe6</line>
+				<image>Wardrobe/Wardrobe_Pg6.png</image>
+			</content>
+			<content tags="">
+				<line>wardrobe7</line>
+				<image>Wardrobe/Wardrobe_Pg7.png</image>
+			</content>
+		</wardrobe>
+		<theater tags="">
+			<title>theater_title</title>
+			<content tags="">
+				<line>theater1</line>
+				<image>Theater/Theater_Pg1.PNG</image>
+			</content>
+			<content tags="">
+				<line>theater2</line>
+				<image>Theater/Theater_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>theater3</line>
+				<image>Theater/Theater_Pg3.PNG</image>
+			</content>
+			<content tags="">
+				<line>theater4</line>
+				<image>Theater/Theater_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>theater5</line>
+				<image>Theater/Theater_Pg5.PNG</image>
+			</content>
+			<content tags="">
+				<line>theater6</line>
+				<image>Theater/Theater_pg6.png</image>
+			</content>
+		</theater>
+		<chat tags="">
+			<title>chat_title</title>
+			<content tags="">
+				<line>chat1</line>
+				<image>Chat/Chat_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>chat2</line>
+				<image>Chat/Chat_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>chat3</line>
+				<image>Chat/Chat_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>chat4</line>
+				<image>Chat/Chat_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>chat5</line>
+				<image>Chat/Chat_Pg5.png</image>
+			</content>
+			<content tags="">
+				<line>chat6</line>
+				<image>Chat/Chat_Pg6.png</image>
+			</content>
+			<content tags="">
+				<line>chat7</line>
+				<image>Chat/Chat_Pg7.png</image>
+			</content>
+			<content tags="">
+				<line>chat8</line>
+				<image>Chat/Chat_Pg8.png</image>
+			</content>
+			<content tags="">
+				<line>chat9</line>
+				<image>Chat/Chat_Pg9.png</image>
+			</content>
+		</chat>
+		<friends tags="">
+			<title>friends_title</title>
+			<content tags="">
+				<line>friends1</line>
+				<image>Friends/Friends_pg2.png</image>
+			</content>
+			<content tags="">
+				<line>friends2</line>
+				<image>Friends/Friends_pg1.png</image>
+			</content>
+			<content tags="">
+				<line>friends3</line>
+				<image>Friends/Friends_pg3.png</image>
+			</content>
+		</friends>
+		<teleport tags="">
+			<title>teleport_title</title>
+			<content tags="">
+				<line>teleport1</line>
+				<image>FlyTo/FlyTo_pg1.png</image>
+			</content>
+			<content tags="">
+				<line>teleport2</line>
+				<image>FlyTo/FlyTo_pg2.png</image>
+			</content>
+		</teleport>
+		<map tags="">
+			<title>map_title</title>
+			<content tags="">
+				<line>map1</line>
+				<image>Map/Map_Pg1.PNG</image>
+			</content>
+			<content tags="">
+				<line>map2</line>
+				<image>Map/Map_pg2.PNG</image>
+			</content>
+			<content tags="">
+				<line>map3</line>
+				<image>Map/Map_pg3.PNG</image>
+			</content>
+			<content tags="">
+				<line>map4</line>
+				<image>Map/Map_Pg4.png</image>
+			</content>
+		</map>
+		<storage tags="">
+			<title>storage_title</title>
+			<content tags="">
+				<line>storage1</line>
+				<image>Storage/Storage_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>storage2</line>
+				<image>Storage/Storage_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>storage3</line>
+				<image>Storage/Storage_pg3.png</image>
+			</content>
+			<content tags="">
+				<line>storage4</line>
+				<image>Storage/Storage_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>storage5</line>
+				<image>Storage/Storage_Pg5.png</image>
+			</content>	
+		</storage>
+		<home tags="">
+			<title>home_title</title>
+			<content tags="">
+				<line>home1</line>
+				<image>house1.png</image>
+			</content>
+			<content tags="">
+				<line>home2</line>
+				<image>house2.png</image>
+			</content>
+		</home>
+		<decorating tags="">
+			<title>decorating_title</title>
+			<content tags="">
+				<line>decorating1</line>
+				<image>Decorating/Decorating_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>decorating2</line>
+				<image>Decorating/Decorating_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>decorating3</line>
+				<image>Decorating/Decorating_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>decorating4</line>
+				<image>Decorating/Decorating_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>decorating5</line>
+				<image>Decorating/Decorating_Pg5.png</image>
+			</content>
+			<content tags="">
+				<line>decorating6</line>
+				<image>Decorating/Decorating_Pg6.png</image>
+			</content>
+			<content tags="">
+				<line>decorating7</line>
+				<image>Decorating/Decorating_Pg7.png</image>
+			</content>
+			<content tags="">
+				<line>decorating8</line>
+				<image>Decorating/Decorating_Pg8.png</image>
+			</content>
+		</decorating>
+		<badges tags="">
+			<title>badges_title</title>
+			<content tags="">
+				<line>badges1</line>
+				<image>Badges/Badges_pg1.PNG</image>
+			</content>
+			<content tags="">
+				<line>badges2</line>
+				<image>Badges/Badges_Pg2.PNG</image>
+			</content>
+			<content tags="">
+				<line>badges3</line>
+				<image>Badges/Badges_pg3.PNG</image>
+			</content>
+		</badges>
+		<gathering tags="">
+			<title>gathering_title</title>
+			<content tags="">
+				<line>gathering1</line>
+				<image>Gathering/Gathering_pg1.png</image>
+			</content>
+			<content tags="">
+				<line>gathering2</line>
+				<image>Gathering/Gathering_Pg2.PNG</image>
+			</content>
+			<content tags="">
+				<line>gathering3</line>
+				<image>Gathering/Gathering_pg3.png</image>
+			</content>
+			<content tags="">
+				<line>gathering4</line>
+				<image>Gathering/Gathering_pg4.png</image>
+			</content>
+		</gathering>
+		<ignore tags="">
+			<title>ignore_title</title>
+			<content tags="">
+				<line>ignore1</line>
+				<image>ignore1.png</image>
+			</content>
+		</ignore>
+		<crafting tags="">
+			<title>crafting_title</title>
+			<content tags="">
+				<line>crafting1</line>
+				<image>Tailoring/Tailoring_pg1.png</image>
+			</content>
+			<content tags="">
+				<line>crafting2</line>
+				<image>Tailoring/Tailoring_pg2.png</image>
+			</content>
+			<content tags="">
+				<line>crafting3</line>
+				<image>Tailoring/Tailoring_Pg3.PNG</image>
+			</content>
+			<content tags="">
+				<line>crafting4</line>
+				<image>Tailoring/Tailoring_Pg4.png</image>
+			</content>
+		</crafting>
+		<talentGames tags="">
+			<title>talentGames_title</title>
+			<content tags="">
+				<line>talentgames1</line>
+				<image>TalentGames/TalentGames_pg1.png</image>
+			</content>
+			<content tags="">
+				<line>talentgames2</line>
+				<image>TalentGames/TalentGames_pg2.png</image>
+			</content>
+			<content tags="">
+				<line>talentgames3</line>
+				<image>TalentGames/TalentGames_pg3.PNG</image>
+			</content>
+		</talentGames>
+		<shops tags="">
+			<title>shops_title</title>
+			<content tags="">
+				<line>shops1</line>
+				<image>Shops/Shops_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>shops2</line>
+				<image>Shops/Shops_pg2.png</image>
+			</content>
+			<content tags="">
+				<line>shops3</line>
+				<image>Shops/Shops_pg3.png</image>
+			</content>
+			<content tags="">
+				<line>shops4</line>
+				<image>Shops/Shops_pg4.png</image>
+			</content>
+			<content tags="">
+				<line>shops5</line>
+				<image>Shops/Shops_pg5.png</image>
+			</content>
+			<content tags="">
+				<line>shops6</line>
+				<image>Shops/UltimateShops_Pg6 .png</image>
+			</content>
+		</shops>
+		<quests tags="">
+			<title>quests_title</title>
+			<content tags="">
+				<line>quests1</line>
+				<image>Quests/Quests_pg1.png</image>
+			</content>
+			<content tags="">
+				<line>quests2</line>
+				<image>Quests/Quests_pg2.png</image>
+			</content>
+			<content tags="">
+				<line>quests3</line>
+				<image>Quests/Quests_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>quests4</line>
+				<image>Quests/Quests_pg4.png</image>
+			</content>
+			<content tags="">
+				<line>quests5</line>
+				<image>Quests/Quests_pg5.png</image>
+			</content>
+			<content tags="">
+				<line>quests6</line>
+				<image>Quests/Quests_pg6.png</image>
+			</content>
+			<content tags="">
+				<line>quests7</line>
+				<image>Quests/Quests_Pg7.PNG</image>
+			</content>
+			<content tags="">
+				<line>quests9</line>
+				<image>Quests/Quests_pg8.PNG</image>
+			</content>
+		</quests>
+		<parties tags="">
+			<title>parties_title</title>
+			<content tags="">
+				<line>parties1</line>
+				<image>Parties/Parties_Pg1.PNG</image>
+			</content>
+			<content tags="">
+				<line>parties2</line>
+				<image>Parties/Parties_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>parties3</line>
+				<image>Parties/Parties_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>parties4</line>
+				<image>Parties/Parties_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>parties5</line>
+				<image>Parties/Parties_Pg5.png</image>
+			</content>
+			<content tags="">
+				<line>parties6</line>
+				<image>Parties/Parties_Pg6.png</image>
+			</content>
+			<content tags="">
+				<line>parties7</line>
+				<image>Parties/Parties_Pg7.png</image>
+			</content>
+			<content tags="">
+				<line>parties8</line>
+				<image>Parties/Parties_Pg8.PNG</image>
+			</content>
+			<content tags="">
+				<line>parties9</line>
+				<image>Parties/Parties_Pg9.png</image>
+			</content>
+			<content tags="">
+				<line>parties10</line>
+				<image>Parties/Parties_Pg10.PNG</image>
+			</content>
+			<content tags="">
+				<line>parties11</line>
+				<image>Parties/Parties_Pg11.png</image>
+			</content>
+			<content tags="">
+				<line>parties12</line>
+				<image>Parties/Parties_Pg12.png</image>
+			</content>
+			<content tags="">
+				<line>parties13</line>
+				<image>Parties/Parties_Pg13.png</image>
+			</content>
+		</parties>
+		<baking tags="">
+			<title>baking_title</title>
+			<content tags="">
+				<line>baking1</line>
+				<image>Baking/Baking_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>baking2</line>
+				<image>Baking/Baking_Pg2.PNG</image>
+			</content>
+			<content tags="">
+				<line>baking3</line>
+				<image>Baking/Baking_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>baking4</line>
+				<image>Baking/Baking_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>baking5</line>
+				<image>Baking/Baking_Pg5.png</image>
+			</content>
+			<content tags="">
+				<line>baking6</line>
+				<image>Baking/Baking_Pg6.png</image>
+			</content>
+			<content tags="">
+				<line>baking7</line>
+				<image>Baking/Baking_Pg7.png</image>
+			</content>
+			<content tags="">
+				<line>baking8</line>
+				<image>Baking/Baking_Pg8.png</image>
+			</content>
+			<content tags="Tearoom_Winter">
+				<line>baking9</line>
+				<image>Baking/Baking_Pg9.png</image>
+			</content>
+		</baking>
+		<membership tags="">
+			<title>membership_title</title>
+			<content tags="">
+				<line>membership1</line>
+				<image>Membership/Membership_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>membership2</line>
+				<image>Membership/Membership_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>membership3</line>
+				<image>Membership/Membership_pg3.PNG</image>
+			</content>
+			<content tags="">
+				<line>membership4</line>
+				<image>Membership/Membership_Pg4.PNG</image>
+			</content>
+		</membership>
+		<tinkering>
+			<title>tinkering_title</title>
+			<content tags="">
+				<line>tinkering1</line>
+				<image>Tinkering/Tinkering_pg1.png</image>
+			</content>
+			<content tags="">
+				<line>tinkering2</line>
+				<image>Tinkering/Tinkering_Pg2.PNG</image>
+			</content>
+			<content tags="">
+				<line>tinkering3</line>
+				<image>Tinkering/Tinkering_pg3.png</image>
+			</content>
+			<content tags="">
+				<line>tinkering4</line>
+				<image>Tinkering/Tinkering_Pg4.png</image>
+			</content>
+		</tinkering>
+		<talent tags="">
+			<title>talent_title</title>
+			<content tags="">
+				<line>talent1</line>
+				<image>TalentSkills/TalentSkills_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>talent2</line>
+				<image>TalentSkills/TalentSkills_pg2.png</image>
+			</content>
+			<content tags="">
+				<line>talent3</line>
+				<image>TalentSkills/TalentSkills_pg3.png</image>
+			</content>
+			<content tags="">
+				<line>talent4</line>
+				<image>TalentSkills/TalentSkills_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>talent5</line>
+				<image>TalentSkills/TalentSkills_Pg5.png</image>
+			</content>
+		</talent>
+		<wilderness tags="">
+			<title>wilderness_title</title>
+			<content tags="">
+				<line>wilderness1</line>
+				<image>Wilderness/Wilderness_pg1.png</image>
+			</content>
+			<content tags="">
+				<line>wilderness2</line>
+				<image>Wilderness/Wilderness_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>wilderness3</line>
+				<image>Wilderness/Wilderness_pg3.png</image>
+			</content>
+			<content tags="">
+				<line>wilderness4</line>
+				<image>Wilderness/Wilderness_pg4.png</image>
+			</content>
+			<content tags="">
+				<line>wilderness5</line>
+				<image>Wilderness/Wilderness_pg5.png</image>
+			</content>
+			<content tags="">
+				<line>wilderness6</line>
+				<image>Wilderness/Wilderness_pg6.png</image>
+			</content>
+			<content tags="">
+				<line>wilderness7</line>
+				<image>Wilderness/Wilderness_pg7.png</image>
+			</content>
+			<content tags="">
+				<line>wilderness8</line>
+				<image>Wilderness/Wilderness_pg8.png</image>
+			</content>
+			<content tags="">
+				<line>wilderness9</line>
+				<image>Wilderness/Wilderness_pg9.png</image>
+			</content>
+			<content tags="">
+				<line>wilderness10</line>
+				<image>Wilderness/Wilderness_pg10.png</image>
+			</content>
+			<content tags="">
+				<line>wilderness11</line>
+				<image>Wilderness/Wilderness_pg11.png</image>
+			</content>
+			<content tags="">
+				<line>wilderness12</line>
+				<image>Wilderness/Wilderness_Pg12.png</image>
+			</content>
+		</wilderness>
+		<redye tags="">
+			<title>redye_title</title>
+			<content tags="">
+				<line>redye1</line>
+				<image>ReDyeItems/Re-Dye_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>redye2</line>
+				<image>ReDyeItems/Re-Dye_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>redye3</line>
+				<image>ReDyeItems/Re-Dye_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>redye4</line>
+				<image>ReDyeItems/Re-Dye_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>redye5</line>
+				<image>ReDyeItems/Re-Dye_Pg5.png</image>
+			</content>
+			<content tags="">
+				<line>redye6</line>
+				<image>ReDyeItems/Re-Dye_Pg6.png</image>
+			</content>
+			<content tags="">
+				<line>redye7</line>
+				<image>ReDyeItems/Re-Dye_Pg7.png</image>
+			</content>
+		</redye>
+		<currencyConverter tags="">
+			<title>currencyConverter_title</title>
+			<content tags="">
+				<line>currencyConverter1</line>
+				<image>Trading/Trading_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>currencyConverter2</line>
+				<image>Trading/Trading_pg2.PNG</image>
+			</content>
+			<content tags="">
+				<line>currencyConverter3</line>
+				<image>Trading/Trading_pg3.PNG</image>
+			</content>
+			<content tags="">
+				<line>currencyConverter4</line>
+				<image>Trading/Trading_Pg4.png</image>
+			</content>
+		</currencyConverter>
+		<tearoomGames tags="">
+			<title>tearoomGames_title</title>
+			<content tags="">
+				<line>tearoomGames1</line>
+				<image>TearoomGames/TearoomGames_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>tearoomGames2</line>
+				<image>TearoomGames/TearoomGames_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>tearoomGames3</line>
+				<image>TearoomGames/TearoomGames_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>tearoomGames4</line>
+				<image>TearoomGames/TearoomGames_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>tearoomGames5</line>
+				<image>TearoomGames/TearoomGames_pg5.png</image>
+			</content>
+			<content tags="">
+				<line>tearoomGames6</line>
+				<image>TearoomGames/TearoomGames_pg6.png</image>
+			</content>
+			<content tags="">
+				<line>tearoomGames7</line>
+				<image>TearoomGames/TearoomGames_pg7.png</image>
+			</content>
+		</tearoomGames>
+		<animalFriend tags="">
+			<title>animalFriend_title</title>
+			<content tags="">
+				<line>animalFriend1</line>
+				<image>AnimalFriends/AnimalFriends_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>animalFriend2</line>
+				<image>AnimalFriends/AnimalFriends_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>animalFriend3</line>
+				<image>AnimalFriends/AnimalFriends_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>animalFriend4</line>
+				<image>AnimalFriends/AnimalFriends_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>animalFriend5</line>
+				<image>AnimalFriends/AnimalFriends_Pg5.png</image>
+			</content>
+			<content tags="">
+				<line>animalFriend6</line>
+				<image>AnimalFriends/AnimalFriends_Pg6.PNG</image>
+			</content>
+			<content tags="">
+				<line>animalFriend7</line>
+				<image>AnimalFriends/AnimalFriends_Pg7.png</image>
+			</content>
+			<content tags="">
+				<line>animalFriend8</line>
+				<image>AnimalFriends/AnimalFriends_Pg8.PNG</image>
+			</content>
+			<content tags="">
+				<line>animalFriend10</line>
+				<image>AnimalFriends/AnimalFriends_Pg10.png</image>
+			</content>
+			<content tags="">
+				<line>animalFriend11</line>
+				<image>AnimalFriends/AnimalFriends_Pg11.png</image>
+			</content>
+			<content tags="">
+				<line>animalFriend12</line>
+				<image>AnimalFriends/AnimalFriends_Pg12.png</image>
+			</content>
+			<content tags="">
+				<line>animalFriend13</line>
+				<image>AnimalFriends/AnimalFriends_Pg13.png</image>
+			</content>
+		</animalFriend>
+		<giftBoxes tags="">
+			<title>giftBoxes_title</title>
+			<content tags="">
+				<line>giftBoxes1</line>
+				<image>GiftBoxes/GiftBoxes_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>giftBoxes2</line>
+				<image>GiftBoxes/GiftBoxes_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>giftBoxes3</line>
+				<image>GiftBoxes/GiftBoxes_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>giftBoxes4</line>
+				<image>GiftBoxes/GiftBoxes_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>giftBoxes5</line>
+				<image>GiftBoxes/GiftBoxes_Pg5.png</image>
+			</content>
+			<content tags="">
+				<line>giftBoxes6</line>
+				<image>GiftBoxes/GiftBoxes_Pg6.png</image>
+			</content>
+		</giftBoxes>
+		
+		
+		
+		<talentmasters tags="">
+			<title>talentmasters_title</title>
+			<content tags="">
+				<line>talentmasters1</line>
+				<image>TalentMasters/TalentMasters_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>talentmasters2</line>
+				<image>TalentMasters/TalentMasters_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>talentmasters3</line>
+				<image>TalentMasters/TalentMasters_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>talentmasters4</line>
+				<image>TalentMasters/TalentMasters_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>talentmasters5</line>
+				<image>TalentMasters/TalentMasters_Pg5.png</image>
+			</content>
+		</talentmasters>
+		<animalderby tags="">
+			<title>animalderby_title</title>
+			<content tags="">
+				<line>animalderby1</line>
+				<image>AnimalDerby/AnimalDerby_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>animalderby2</line>
+				<image>AnimalDerby/AnimalDerby_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>animalderby3</line>
+				<image>AnimalDerby/AnimalDerby_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>animalderby4</line>
+				<image>AnimalDerby/AnimalDerby_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>animalderby5</line>
+				<image>AnimalDerby/AnimalDerby_Pg5.png</image>
+			</content>
+		</animalderby>
+		
+		<postoffice tags="">
+			<title>postoffice_title</title>
+			<content tags="">
+				<line>postoffice1</line>
+				<image>PostOffice/PostOffice_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>postoffice2</line>
+				<image>PostOffice/PostOffice_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>postoffice3</line>
+				<image>PostOffice/PostOffice_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>postoffice4</line>
+				<image>PostOffice/PostOffice_Pg4.png</image>
+			</content>
+		</postoffice>
+		
+		<postcards tags="">
+			<title>postcards_title</title>
+			<content tags="">
+				<line>postcards1</line>
+				<image>PostCard/PostCard_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>postcards2</line>
+				<image>PostCard/PostCard_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>postcards3</line>
+				<image>PostCard/PostCard_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>postcards4</line>
+				<image>PostCard/PostCard_Pg4.png</image>
+			</content>
+			<content tags="">
+				<line>postcards5</line>
+				<image>PostCard/PostCard_Pg5.png</image>
+			</content>
+		</postcards>
+		
+		<pixiediamonds tags="">
+			<title>pixiediamonds_title</title>
+			<content tags="">
+				<line>pixiediamonds1</line>
+				<image>PixieDiamonds/PixieDiamonds_Pg1.png</image>
+			</content>
+		</pixiediamonds>
+				
+		<leaderboards tags="">
+			<title>leaderboards_title</title>
+			<content tags="">
+				<line>leaderboards1</line>
+				<image>Leaderboards/Leaderboards_Pg1.png</image>
+			</content>
+			<content tags="">
+				<line>leaderboards2</line>
+				<image>Leaderboards/Leaderboards_Pg2.png</image>
+			</content>
+			<content tags="">
+				<line>leaderboards3</line>
+				<image>Leaderboards/Leaderboards_Pg3.png</image>
+			</content>
+			<content tags="">
+				<line>leaderboards4</line>
+				<image>Leaderboards/Leaderboards_Pg4.png</image>
+			</content>
+		</leaderboards>
+		
+		<fairygardens tags="">
+			<title>fairygardens_title</title>
+			<content tags="">
+				<line>fairygardens1</line>
+				<image>fairygardens/fairygardens_pg1.png</image>
+			</content>
+			<content tags="">
+				<line>fairygardens2</line>
+				<image>fairygardens/fairygardens_pg2.png</image>
+			</content>
+			<content tags="">
+				<line>fairygardens3</line>
+				<image>fairygardens/fairygardens_pg3.png</image>
+			</content>
+			<content tags="">
+				<line>fairygardens4</line>
+				<image>fairygardens/fairygardens_pg4.png</image>
+			</content>
+			<content tags="">
+				<line>fairygardens5</line>
+				<image>fairygardens/fairygardens_pg5.png</image>
+			</content>
+			<content tags="">
+				<line>fairygardens6</line>
+				<image>fairygardens/fairygardens_pg6.png</image>
+			</content>
+			<content tags="">
+				<line>fairygardens7</line>
+				<image>fairygardens/fairygardens_pg7.png</image>
+			</content>
+			<content tags="">
+				<line>fairygardens8</line>
+				<image>fairygardens/fairygardens_pg8.png</image>
+			</content>
+			<content tags="">
+				<line>fairygardens9</line>
+				<image>fairygardens/fairygardens_pg9.png</image>
+			</content>
+			<content tags="">
+				<line>fairygardens10</line>
+				<image>fairygardens/fairygardens_pg10.png</image>
+			</content>
+			<content tags="">
+				<line>fairygardens11</line>
+				<image>fairygardens/fairygardens_pg11.png</image>
+			</content>
+			<content tags="">
+				<line>fairygardens12</line>
+				<image>fairygardens/fairygardens_pg12.png</image>
+			</content>
+		</fairygardens>
+		
+		<queens tags="">
+			<title>queens_title</title>
+			<content tags="">
+				<line>queens1</line>
+				<image>queens/queens_pg1.png</image>
+			</content>
+			<content tags="">
+				<line>queens2</line>
+				<image>queens/queens_pg2.png</image>
+			</content>
+			<content tags="">
+				<line>queens3</line>
+				<image>queens/queens_pg5.png</image>
+			</content>
+		</queens>
+		
+		<partyGames tags="">
+			<title>partygames_title</title>
+			<content tags="">
+				<line>partygames1</line>
+				<image>partygames/partygames_pg1.png</image>
+			</content>
+			<content tags="">
+				<line>partygames2</line>
+				<image>partygames/partygames_pg2.png</image>
+			</content>
+			<content tags="">
+				<line>partygames3</line>
+				<image>partygames/partygames_pg3.png</image>
+			</content>
+			<content tags="">
+				<line>partygames4</line>
+				<image>partygames/partygames_pg4.png</image>
+			</content>
+		</partyGames>
+	
+	</config>
+</tutorialAssets>

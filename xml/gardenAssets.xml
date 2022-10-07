@@ -1,0 +1,3051 @@
+<gardenAssets>
+  
+  <copy>
+    
+    <goToGarden>Garden</goToGarden>
+    
+    <goToHome>Home</goToHome>
+    
+    <harvestTip>Harvest!</harvestTip>
+    
+    <helpMeterToolTip>Bonus!</helpMeterToolTip>
+    
+    <helpMeterOverlay>BONUS!</helpMeterOverlay>
+    
+    <meterToolTip>Progress</meterToolTip>
+    
+    <helpEmoteId>27</helpEmoteId>
+    
+    <dustEmoteId>68</dustEmoteId>
+    
+    <instaGrowEmoteId>69</instaGrowEmoteId>
+    
+    <baseSkillEmoteIds>60</baseSkillEmoteIds>
+    
+    <!-- Buttons -->
+    
+    <HelpButton>Sing</HelpButton>
+    
+    <DustButton>Dust</DustButton>
+    
+    <RemoveButton>Remove</RemoveButton>
+    
+    <InstaGrowButton>Insta-Bloom</InstaGrowButton>
+    
+    <ReviveButton>Rescue</ReviveButton>
+    
+    <GrowButton>Grow</GrowButton>
+    
+    <FixButton>Fix</FixButton>
+    
+    <SplashButton>Splash</SplashButton>
+    
+    <CharmButton>Charm</CharmButton>
+    
+    <IlluminateButton>Illuminate</IlluminateButton>
+    
+    <ActionButton>Needs Help</ActionButton>
+    
+    <OKButton>OK</OKButton>
+    
+    <CancelButton>Cancel</CancelButton>
+    
+    <!-- Skills -->
+    
+    <Dust>Dust</Dust>
+    
+    <Fix>Fix</Fix>
+    
+    <Charm>Charm</Charm>
+    
+    <Illuminate>Illuminate</Illuminate>
+    
+    <Splash>Splash</Splash>
+    
+    <Grow>Grow</Grow>
+    
+    <Move>Move</Move>
+    
+    <Distract>Distract</Distract>
+    
+    <Heal>Heal</Heal>
+    
+    <!-- Errors -->
+    
+    <missingSkill>Sorry, you haven't learned the #SKILL# skill yet.  Would you like to use 20 smidgies of Pixie Dust instead?</missingSkill>
+    
+    <notEnoughPixieDust>Sorry, you need more Pixie Dust for that.</notEnoughPixieDust>
+    
+    <notEnoughPixieGold>You do not have enough Pixie Diamonds</notEnoughPixieGold>
+    
+    <mustWaitToHelp>Sorry, you can't sing to that plant right now. Try again in a few seconds!</mustWaitToHelp>
+    
+    <mustWaitToDust>Sorry, you can't do anything to this plant right now. Try again later!</mustWaitToDust>
+    
+    <plotAlreadyHasPlant>This plot already has a seed planted!</plotAlreadyHasPlant>
+    
+    <!-- Messages -->
+    
+    <areYouSureHelp>Are you sure you want to help this plant?</areYouSureHelp>
+    
+    <areYouSureDustSkill>Are you sure you want to #SKILL# this plant?</areYouSureDustSkill>
+    
+    <areYouSurePlant>Are you sure you want to plant this seed?</areYouSurePlant>
+    
+    <areYouSureRemove>Are you sure you want to remove this plant?</areYouSureRemove>
+    
+    <areYouSureRevive>Are you sure you want to revive this plant?</areYouSureRevive>
+    
+    <item89000 days="1" gardenType="seed">Rainbow Dye Seeds</item89000>
+    
+    <desc89000>Grow for 1 full day to find out which dye bottle you've earned!</desc89000>
+    
+    <item89001 days="1" gardenType="seed">Colorful Sweet Seeds</item89001>
+    
+    <desc89001>Grow for 1 full day to find out which Silly Sweet you've earned!</desc89001>
+    
+    <item89002 days="1" gardenType="seed">Dulcie's Cookie Seeds</item89002>
+    
+    <desc89002>Grow for 1 full day to find out which cookie you've earned!</desc89002>
+    
+    <item89003 days="3" gardenType="seed">Stylish Shoe Seeds</item89003>
+    
+    <desc89003>Grow for 3 full days to find out which shoes you've earned!</desc89003>
+    
+    <item89004 days="3" gardenType="seed">Fancy Flower Seeds</item89004>
+    
+    <desc89004>Grow for 3 full days to find out which flower you've earned!</desc89004>
+    
+    <item89005 days="5" gardenType="seed">To-Fly-For Top Seeds</item89005>
+    
+    <desc89005>Grow for 5 full days to find out which top you've earned!</desc89005>
+    
+    <item89006 days="5" gardenType="seed">Teatime Seeds</item89006>
+    
+    <desc89006>Grow for 5 full days to find out what furniture you've earned!</desc89006>
+    
+    <item89007 days="5" gardenType="seed">Skirt or Slacks Seeds</item89007>
+    
+    <desc89007>Grow for 5 full days to find out which bottom you've earned!</desc89007>
+    
+    <item89008 days="3" gardenType="seed">Little Gardener Seeds</item89008>
+    
+    <desc89008>Grow for 3 full days to find out which decoration you've earned!</desc89008>
+    
+    <item89009 specialSeed="true" days="5" gardenType="seed">Garden Premier Seeds</item89009>
+    
+    <desc89009>Grow for 5 full days to find out which piece of the outfit you've earned!</desc89009>
+    
+    <item89500 gardenType="plant">1 Day Plant</item89500>
+    
+    <desc89500>1 Day Plant Desc</desc89500>
+    
+    <item89501 gardenType="plant">3 Day Plant</item89501>
+    
+    <desc89501>3 Day Plant</desc89501>
+    
+    <item89502 gardenType="plant">5 Day Plant</item89502>
+    
+    <desc89502>5 Day Plant</desc89502>
+    
+    <item89503 gardenType="plant">Plant 89503</item89503>
+    
+    <desc89503>Plant 89503</desc89503>
+    
+    <item89504 gardenType="plant">Plant 89504</item89504>
+    
+    <desc89504>Plant 89504</desc89504>
+    
+    <item89505 gardenType="plant">Plant 89505</item89505>
+    
+    <desc89505>Plant 89505</desc89505>
+    
+    <item89506 gardenType="plant">Plant 89506</item89506>
+    
+    <desc89506>Plant 89506</desc89506>
+    
+    <item89507 gardenType="plant">Plant 89507</item89507>
+    
+    <desc89507>Plant 89507</desc89507>
+    
+    <item89508 gardenType="plant">Plant 89508</item89508>
+    
+    <desc89508>Plant 89508</desc89508>
+    
+    <item89509 gardenType="plant">Plant 89509</item89509>
+    
+    <desc89509>Plant 89509</desc89509>
+    
+    <item89510 gardenType="plant">Plant 89510</item89510>
+    
+    <desc89510>Plant 89510</desc89510>
+    
+    <item89511 gardenType="plant">Plant 89511</item89511>
+    
+    <desc89511>Plant 89511</desc89511>
+    
+    <item89513 gardenType="plant">Plant 89513</item89513>
+    
+    <desc89513>Plant 89513</desc89513>
+    
+    <item89514 gardenType="plant">Plant 89514</item89514>
+    
+    <desc89514>Plant 89514</desc89514>
+    
+    <item89515 gardenType="plant">Plant 89515</item89515>
+    
+    <desc89515>Plant 89515</desc89515>
+    
+    <item89516 gardenType="plant">Plant 89516</item89516>
+    
+    <desc89516>Plant 89516</desc89516>
+    
+    <item89517 gardenType="plant">Plant 89517</item89517>
+    
+    <desc89517>Plant 89517</desc89517>
+    
+    <item89518 gardenType="plant">Plant 89518</item89518>
+    
+    <desc89518>Plant 89518</desc89518>
+    
+    <item89519 gardenType="plant">Plant 89519</item89519>
+    
+    <desc89519>Plant 89519</desc89519>
+    
+    <item89520 gardenType="plant">Plant 89520</item89520>
+    
+    <desc89520>Plant 89520</desc89520>
+    
+    <item89521 gardenType="plant">Plant 89521</item89521>
+    
+    <desc89521>Plant 89521</desc89521>
+    
+    <item89523 gardenType="plant">Plant 89523</item89523>
+    
+    <desc89523>Plant 89523</desc89523>
+    
+    <item89524 gardenType="plant">Plant 89524</item89524>
+    
+    <desc89524>Plant 89524</desc89524>
+    
+    <item89525 gardenType="plant">Plant 89525</item89525>
+    
+    <desc89525>Plant 89525</desc89525>
+    
+    <item89526 gardenType="plant">Plant 89526</item89526>
+    
+    <desc89526>Plant 89526</desc89526>
+    
+    <item89527 gardenType="plant">Plant 89527</item89527>
+    
+    <desc89527>Plant 89527</desc89527>
+    
+    <item89528 gardenType="plant">Plant 89528</item89528>
+    
+    <desc89528>Plant 89528</desc89528>
+    
+    <item89529 gardenType="plant">Plant 89529</item89529>
+    
+    <desc89529>Plant 89529</desc89529>
+    
+    <item89530 gardenType="plant">Plant 89530</item89530>
+    
+    <desc89530>Plant 89530</desc89530>
+    
+    <item89531 gardenType="plant">Plant 89531</item89531>
+    
+    <desc89531>Plant 89531</desc89531>
+    
+    <item89533 gardenType="plant">Plant 89533</item89533>
+    
+    <desc89533>Plant 89533</desc89533>
+    
+    <item89534 gardenType="plant">Plant 89534</item89534>
+    
+    <desc89534>Plant 89534</desc89534>
+    
+    <item89535 gardenType="plant">Plant 89535</item89535>
+    
+    <desc89535>Plant 89535</desc89535>
+    
+    <item89536 gardenType="plant">Plant 89536</item89536>
+    
+    <desc89536>Plant 89536</desc89536>
+    
+    <item89537 gardenType="plant">Plant 89537</item89537>
+    
+    <desc89537>Plant 89537</desc89537>
+    
+    <item89538 gardenType="plant">Plant 89538</item89538>
+    
+    <desc89538>Plant 89538</desc89538>
+    
+    <item89539 gardenType="plant">Plant 89539</item89539>
+    
+    <desc89539>Plant 89539</desc89539>
+    
+    <item89540 gardenType="plant">Plant 89540</item89540>
+    
+    <desc89540>Plant 89540</desc89540>
+    
+    <item89541 gardenType="plant">Plant 89541</item89541>
+    
+    <desc89541>Plant 89541</desc89541>
+    
+    <item89543 gardenType="plant">Plant 89543</item89543>
+    
+    <desc89543>Plant 89543</desc89543>
+    
+    <item89544 gardenType="plant">Plant 89544</item89544>
+    
+    <desc89544>Plant 89544</desc89544>
+    
+    <item89545 gardenType="plant">Plant 89545</item89545>
+    
+    <desc89545>Plant 89545</desc89545>
+    
+    <item89546 gardenType="plant">Plant 89546</item89546>
+    
+    <desc89546>Plant 89546</desc89546>
+    
+    <item89547 gardenType="plant">Plant 89547</item89547>
+    
+    <desc89547>Plant 89547</desc89547>
+    
+    <item89548 gardenType="plant">Plant 89548</item89548>
+    
+    <desc89548>Plant 89548</desc89548>
+    
+    <item89549 gardenType="plant">Plant 89549</item89549>
+    
+    <desc89549>Plant 89549</desc89549>
+    
+    <item89010 days="3" gardenType="seed">Festive Ornament Seeds</item89010>
+    
+    <desc89010>Grow for 3 full days to find out which decoration you've earned!</desc89010>
+    
+    <item89011 days="5" gardenType="seed">Flitterific Tops Seeds</item89011>
+    
+    <desc89011>Grow for 5 full days to find out which top you've earned!</desc89011>
+    
+    <item89012 days="3" gardenType="seed">Chilly Plants Seeds</item89012>
+    
+    <desc89012>Grow for 3 full days to find out which flower you've earned!</desc89012>
+    
+    <item89013 days="1" gardenType="seed" g="3">Winter Wonderland Dye Seeds</item89013>
+    
+    <desc89013>Grow for 1 full day to find out which new wintery dye bottle you've earned!</desc89013>
+    
+    <item89014 days="1" gardenType="seed">Autumn Masquerade Dye Seeds</item89014>
+    
+    <desc89014>Grow for 1 full day to find out which new autumnal dye bottle you've earned!</desc89014>
+    
+    <item89015 days="5" gardenType="seed">Flitterific Skirt or Slacks Seeds</item89015>
+    
+    <desc89015>Grow for 5 full days to find out which bottom you've earned!</desc89015>
+    
+    <item89016 days="5" gardenType="seed">Tink's Decorating Seeds</item89016>
+    
+    <desc89016>Grow for 5 full days to find out which of Tink's lost things you've earned!</desc89016>
+    
+    <item89017 days="1" gardenType="seed">Dulcie's Truffle Seeds</item89017>
+    
+    <desc89017>Grow for 1 full day to find out which truffle cookie you've earned!</desc89017>
+    
+    <item89018 days="1" gardenType="seed">Sweet Trails Seeds</item89018>
+    
+    <desc89018>Grow for 1 full day to find out which Silly Sweet you've earned!</desc89018>
+    
+    <item89019 days="3" gardenType="seed" g="3">Autumn Harvest Seeds</item89019>
+    
+    <desc89019>Grow for 3 full days to find out which autumnal flower you've earned!</desc89019>
+    
+    <item89020 days="3" gardenType="seed">Flitterific Shoe Seeds</item89020>
+    
+    <desc89020>Grow for 3 full days to find out which shoes you've earned!</desc89020>
+    
+    <item89021 specialSeed="true" days="5" gardenType="seed">Winter Wardrobe Seeds</item89021>
+    
+    <desc89021>Grow for 5 full days to find out which piece of this frosty outfit you've earned!</desc89021>
+    
+    <item89022 specialSeed="true" days="5" gardenType="seed" g="3">Autumn Breeze Seeds</item89022>
+    
+    <desc89022>Grow for 5 full days to find out which piece of this autumnal outfit you've earned!</desc89022>
+    
+    <item89550 gardenType="plant">plant 89550</item89550>
+    
+    <desc89550>plant 89550</desc89550>
+    
+    <item89551 gardenType="plant">plant 89551</item89551>
+    
+    <desc89551>plant 89551</desc89551>
+    
+    <item89552 gardenType="plant">plant 89552</item89552>
+    
+    <desc89552>plant 89552</desc89552>
+    
+    <item89553 gardenType="plant">plant 89553</item89553>
+    
+    <desc89553>plant 89553</desc89553>
+    
+    <item89554 gardenType="plant">plant 89554</item89554>
+    
+    <desc89554>plant 89554</desc89554>
+    
+    <item89555 gardenType="plant">plant 89555</item89555>
+    
+    <desc89555>plant 89555</desc89555>
+    
+    <item89556 gardenType="plant">Plant 89556</item89556>
+    
+    <desc89556>Plant 89556</desc89556>
+    
+    <item89557 gardenType="plant">Plant 89557</item89557>
+    
+    <desc89557>Plant 89557</desc89557>
+    
+    <item89558 gardenType="plant">Plant 89558</item89558>
+    
+    <desc89558>Plant 89558</desc89558>
+    
+    <item89559 gardenType="plant">Plant 89559</item89559>
+    
+    <desc89559>Plant 89559</desc89559>
+    
+    <item89560 gardenType="plant">Plant 89560</item89560>
+    
+    <desc89560>Plant 89560</desc89560>
+    
+    <item89561 gardenType="plant">Plant 89561</item89561>
+    
+    <desc89561>Plant 89561</desc89561>
+    
+    <item89562 gardenType="plant">Plant 89562</item89562>
+    
+    <desc89562>Plant 89562</desc89562>
+    
+    <item89563 gardenType="plant">Plant 89563</item89563>
+    
+    <desc89563>Plant 89563</desc89563>
+    
+    <item89564 gardenType="plant">Plant 89564</item89564>
+    
+    <desc89564>Plant 89564</desc89564>
+    
+    <item89565 gardenType="plant">Plant 89565</item89565>
+    
+    <desc89565>Plant 89565</desc89565>
+    
+    <item89566 gardenType="plant">Plant 89566</item89566>
+    
+    <desc89566>Plant 89566</desc89566>
+    
+    <item89567 gardenType="plant">Plant 89567</item89567>
+    
+    <desc89567>Plant 89567</desc89567>
+    
+    <item89568 gardenType="plant">Plant 89568</item89568>
+    
+    <desc89568>Plant 89568</desc89568>
+    
+    <item89569 gardenType="plant">Plant 89569</item89569>
+    
+    <desc89569>Plant 89569</desc89569>
+    
+    <item89570 gardenType="plant">Plant 89570</item89570>
+    
+    <desc89570>Plant 89570</desc89570>
+    
+    <item89571 gardenType="plant">Plant 89571</item89571>
+    
+    <desc89571>Plant 89571</desc89571>
+    
+    <item89572 gardenType="plant">Plant 89572</item89572>
+    
+    <desc89572>Plant 89572</desc89572>
+    
+    <item89573 gardenType="plant">Plant 89573</item89573>
+    
+    <desc89573>Plant 89573</desc89573>
+    
+    <item89574 gardenType="plant">Plant 89574</item89574>
+    
+    <desc89574>Plant 89574</desc89574>
+    
+    <item89575 gardenType="plant">Plant 89575</item89575>
+    
+    <desc89575>Plant 89575</desc89575>
+    
+    <item89576 gardenType="plant">Plant 89576</item89576>
+    
+    <desc89576>Plant 89576</desc89576>
+    
+    <item89577 gardenType="plant">Plant 89577</item89577>
+    
+    <desc89577>Plant 89577</desc89577>
+    
+    <item89578 gardenType="plant">Plant 89578</item89578>
+    
+    <desc89578>Plant 89578</desc89578>
+    
+    <item89579 gardenType="plant">Plant 89579</item89579>
+    
+    <desc89579>Plant 89579</desc89579>
+    
+    <item89580 gardenType="plant">Plant 89580</item89580>
+    
+    <desc89580>Plant 89580</desc89580>
+    
+    <item89581 gardenType="plant">Plant 89581</item89581>
+    
+    <desc89581>Plant 89581</desc89581>
+    
+    <item89582 gardenType="plant">Plant 89582</item89582>
+    
+    <desc89582>Plant 89582</desc89582>
+    
+    <item89583 gardenType="plant">Plant 89583</item89583>
+    
+    <desc89583>Plant 89583</desc89583>
+    
+    <item89584 gardenType="plant">Plant 89584</item89584>
+    
+    <desc89584>Plant 89584</desc89584>
+    
+    <item89585 gardenType="plant">Plant 89585</item89585>
+    
+    <desc89585>Plant 89585</desc89585>
+    
+    <item89586 gardenType="plant">Plant 89586</item89586>
+    
+    <desc89586>Plant 89586</desc89586>
+    
+    <item89587 gardenType="plant">Plant 89587</item89587>
+    
+    <desc89587>Plant 89587</desc89587>
+    
+    <item89588 gardenType="plant">Plant 89588</item89588>
+    
+    <desc89588>Plant 89588</desc89588>
+    
+    <item89589 gardenType="plant">Plant 89589</item89589>
+    
+    <desc89589>Plant 89589</desc89589>
+    
+    <item89590 gardenType="plant">Plant 89590</item89590>
+    
+    <desc89590>Plant 89590</desc89590>
+    
+    <item89591 gardenType="plant">Plant 89591</item89591>
+    
+    <desc89591>Plant 89591</desc89591>
+    
+    <item89592 gardenType="plant">Plant 89592</item89592>
+    
+    <desc89592>Plant 89592</desc89592>
+    
+    <item89593 gardenType="plant">Plant 89593</item89593>
+    
+    <desc89593>Plant 89593</desc89593>
+    
+    <item89594 gardenType="plant">Plant 89594</item89594>
+    
+    <desc89594>Plant 89594</desc89594>
+    
+    <item89595 gardenType="plant">Plant 89595</item89595>
+    
+    <desc89595>Plant 89595</desc89595>
+    
+    <item89596 gardenType="plant">Plant 89596</item89596>
+    
+    <desc89596>Plant 89596</desc89596>
+    
+    <item89597 gardenType="plant">Plant 89597</item89597>
+    
+    <desc89597>Plant 89597</desc89597>
+    
+    <item89598 gardenType="plant">Plant 89598</item89598>
+    
+    <desc89598>Plant 89598</desc89598>
+    
+    <item89599 gardenType="plant">Plant 89599</item89599>
+    
+    <desc89599>Plant 89599</desc89599>
+    
+    <item89512 gardenType="plant" g="3">Plant 89512</item89512>
+    
+    <desc89512>Plant 89512</desc89512>
+    
+    <item89600 gardenType="plant" g="3">Plant 89600</item89600>
+    
+    <desc89600>89600</desc89600>
+    
+    <item89601 gardenType="plant" g="3">Plant 89601</item89601>
+    
+    <desc89601>89601</desc89601>
+    
+    <item89602 gardenType="plant" g="3">Plant 89602</item89602>
+    
+    <desc89602>89602</desc89602>
+    
+    <item89603 gardenType="plant" g="3">Plant 89603</item89603>
+    
+    <desc89603>89603</desc89603>
+    
+    <item89604 gardenType="plant" g="3">Plant 89604</item89604>
+    
+    <desc89604>89604</desc89604>
+    
+    <item89605 gardenType="plant" g="3">Plant 89605</item89605>
+    
+    <desc89605>89605</desc89605>
+    
+    <item89606 gardenType="plant" g="3">Plant 89606</item89606>
+    
+    <desc89606>89606</desc89606>
+    
+    <item89607 gardenType="plant" g="3">Plant 89607</item89607>
+    
+    <desc89607>89607</desc89607>
+    
+    <item89608 gardenType="plant" g="3">Plant 89608</item89608>
+    
+    <desc89608>89608</desc89608>
+    
+    <item89609 gardenType="plant" g="3">Plant 89609</item89609>
+    
+    <desc89609>89609</desc89609>
+    
+    <item89610 gardenType="plant">Plant 89610</item89610>
+    
+    <desc89610>Plant 89610</desc89610>
+    
+    <item89611 gardenType="plant">Plant 89611</item89611>
+    
+    <desc89611>Plant 89611</desc89611>
+    
+    <item89612 gardenType="plant">Plant 89612</item89612>
+    
+    <desc89612>Plant 89612</desc89612>
+    
+    <item89613 gardenType="plant">Plant 89613</item89613>
+    
+    <desc89613>Plant 89613</desc89613>
+    
+    <item89614 gardenType="plant">Plant 89614</item89614>
+    
+    <desc89614>Plant 89614</desc89614>
+    
+    <item89615 gardenType="plant">Plant 89615</item89615>
+    
+    <desc89615>Plant 89615</desc89615>
+    
+    <item89616 gardenType="plant">Plant 89616</item89616>
+    
+    <desc89616>Plant 89616</desc89616>
+    
+    <item89617 gardenType="plant">Plant 89617</item89617>
+    
+    <desc89617>Plant 89617</desc89617>
+    
+    <item89618 gardenType="plant">Plant 89618</item89618>
+    
+    <desc89618>Plant 89618</desc89618>
+    
+    <item89023 days="1" gardenType="seed">Rainbow Sweet Seeds</item89023>
+    
+    <desc89023>Grow for 1 full day to find out which Rainbow Silly Sweet you've earned!</desc89023>
+    
+    <item89619 gardenType="plant">Plant 89619</item89619>
+    
+    <desc89619>Plant 89619</desc89619>
+    
+    <item89620 gardenType="plant">Plant 89620</item89620>
+    
+    <desc89620>Plant 89620</desc89620>
+    
+    <item89621 gardenType="plant">Plant 89621</item89621>
+    
+    <desc89621>Plant 89621</desc89621>
+    
+    <item89622 gardenType="plant">Plant 89622</item89622>
+    
+    <desc89622>Plant 89622</desc89622>
+    
+    <item89623 gardenType="plant">Plant 89623</item89623>
+    
+    <desc89623>Plant 89623</desc89623>
+    
+    <item89024 days="5" gardenType="seed">Springtime Top Seeds</item89024>
+    
+    <desc89024>Grow for 5 full days to find out which top you've earned!</desc89024>
+    
+    <item89522 gardenType="plant">Plant 89522</item89522>
+    
+    <desc89522>Plant 89522</desc89522>
+    
+    <item89532 gardenType="plant">Plant 89532</item89532>
+    
+    <desc89532>Plant 89532</desc89532>
+    
+    <item89542 gardenType="plant">Plant 89542</item89542>
+    
+    <desc89542>Plant 89542</desc89542>
+    
+    <item89624 gardenType="plant">Plant 89624</item89624>
+    
+    <desc89624>Plant 89624</desc89624>
+    
+    <item89625 gardenType="plant">Plant 89625</item89625>
+    
+    <desc89625>Plant 89625</desc89625>
+    
+    <item89025 days="5" gardenType="seed">Springtime Skirt or Slacks Seeds</item89025>
+    
+    <desc89025>Grow for 5 full days to find out which skirt or slacks you've earned!</desc89025>
+    
+    <item89626 gardenType="plant">Plant 89626</item89626>
+    
+    <desc89626>Plant 89626</desc89626>
+    
+    <item89627 gardenType="plant">Plant 89627</item89627>
+    
+    <desc89627>Plant 89627</desc89627>
+    
+    <item89628 gardenType="plant">Plant 89628</item89628>
+    
+    <desc89628>Plant 89628</desc89628>
+    
+    <item89629 gardenType="plant">Plant 89629</item89629>
+    
+    <desc89629>Plant 89629</desc89629>
+    
+    <item89630 gardenType="plant">Plant 89630</item89630>
+    
+    <desc89630>Plant 89630</desc89630>
+    
+    <item89026 days="3" gardenType="seed">Springtime Shoe Seeds</item89026>
+    
+    <desc89026>Grow for 3 full days to find out which shoes you've earned!</desc89026>
+    
+    <item89631 gardenType="plant">Plant 89631</item89631>
+    
+    <desc89631>Plant 89631</desc89631>
+    
+    <item89632 gardenType="plant">Plant 89632</item89632>
+    
+    <desc89632>Plant 89632</desc89632>
+    
+    <item89633 gardenType="plant">Plant 89633</item89633>
+    
+    <desc89633>Plant 89633</desc89633>
+    
+    <item89634 gardenType="plant">Plant 89634</item89634>
+    
+    <desc89634>Plant 89634</desc89634>
+    
+    <item89635 gardenType="plant">Plant 89635</item89635>
+    
+    <desc89635>Plant 89635</desc89635>
+    
+    <item89027 days="5" gardenType="seed">Clover Comfort Seeds</item89027>
+    
+    <desc89027>Grow for 5 full days to find out what furniture you've earned!</desc89027>
+    
+    <item89636 gardenType="plant">Plant 89636</item89636>
+    
+    <desc89636>Plant 89636</desc89636>
+    
+    <item89637 gardenType="plant">Plant 89637</item89637>
+    
+    <desc89637>Plant 89637</desc89637>
+    
+    <item89638 gardenType="plant">Plant 89638</item89638>
+    
+    <desc89638>Plant 89638</desc89638>
+    
+    <item89639 gardenType="plant">Plant 89639</item89639>
+    
+    <desc89639>Plant 89639</desc89639>
+    
+    <item89640 gardenType="plant">Plant 89640</item89640>
+    
+    <desc89640>Plant 89640</desc89640>
+    
+    <item89028 days="1" gardenType="seed">Never Dove Egg Dye Seeds</item89028>
+    
+    <desc89028>Grow for 1 full day to find out which new pastel dye bottle you've earned!</desc89028>
+    
+    <item89641 gardenType="plant">Plant 89641</item89641>
+    
+    <desc89641>Plant 89641</desc89641>
+    
+    <item89642 gardenType="plant">Plant 89642</item89642>
+    
+    <desc89642>Plant 89642</desc89642>
+    
+    <item89643 gardenType="plant">Plant 89643</item89643>
+    
+    <desc89643>Plant 89643</desc89643>
+    
+    <item89644 gardenType="plant">Plant 89644</item89644>
+    
+    <desc89644>Plant 89644</desc89644>
+    
+    <item89645 gardenType="plant">Plant 89645</item89645>
+    
+    <desc89645>Plant 89645</desc89645>
+    
+    <item89646 gardenType="plant">Plant 89646</item89646>
+    
+    <desc89646>Plant 89646</desc89646>
+    
+    <item89647 gardenType="plant">Plant 89647</item89647>
+    
+    <desc89647>Plant 89647</desc89647>
+    
+    <item89648 gardenType="plant">Plant 89648</item89648>
+    
+    <desc89648>Plant 89648</desc89648>
+    
+    <item89649 gardenType="plant">Plant 89649</item89649>
+    
+    <desc89649>Plant 89649</desc89649>
+    
+    <item89650 gardenType="plant">Plant 89650</item89650>
+    
+    <desc89650>Plant 89650</desc89650>
+    
+    <item89029 days="3" gardenType="seed">Springtime Flower Seeds</item89029>
+    
+    <desc89029>Grow for 3 full days to find out which flower you've earned!</desc89029>
+    
+    <item89030 specialSeed="true" days="5" gardenType="seed">Spring Style Seeds</item89030>
+    
+    <desc89030>Grow for 5 full days to find out which piece of this spring outfit you've earned!</desc89030>
+    
+    <item89651 gardenType="plant">Plant 89651</item89651>
+    
+    <desc89651>Plant 89651</desc89651>
+    
+    <item89652 gardenType="plant">Plant 89652</item89652>
+    
+    <desc89652>Plant 89652</desc89652>
+    
+    <item89653 gardenType="plant">Plant 89653</item89653>
+    
+    <desc89653>Plant 89653</desc89653>
+    
+    <item89654 gardenType="plant">Plant 89654</item89654>
+    
+    <desc89654>Bubble Aura Silly Sweet x3</desc89654>
+    
+    <item89655 gardenType="plant">Plant 89655</item89655>
+    
+    <desc89655>Bubble Trail Silly Sweet x3</desc89655>
+    
+    <item89656 gardenType="plant">Plant 89656</item89656>
+    
+    <desc89656>Fireworks Silly Sweet x3</desc89656>
+    
+    <item89657 gardenType="plant">Plant 89657</item89657>
+    
+    <desc89657>Ice Cream Silly Sweet x3</desc89657>
+    
+    <item89658 gardenType="plant">Plant 89658</item89658>
+    
+    <desc89658>Watermelon Pink Dye</desc89658>
+    
+    <item89659 gardenType="plant">Plant 89659</item89659>
+    
+    <desc89659>Seedling Green Dye</desc89659>
+    
+    <item89660 gardenType="plant">Plant 89660</item89660>
+    
+    <desc89660>Butterfly Blue Dye</desc89660>
+    
+    <item89661 gardenType="plant">Plant 89661</item89661>
+    
+    <desc89661>Kingfisher Purple Dye</desc89661>
+    
+    <item89662 gardenType="plant">Plant 89662</item89662>
+    
+    <desc89662>Buried Treasure Brown Dye</desc89662>
+    
+    <item89663 gardenType="plant">Plant 89663</item89663>
+    
+    <desc89663>Bluebells</desc89663>
+    
+    <item89664 gardenType="plant">Plant 89664</item89664>
+    
+    <desc89664>Climbing Roses</desc89664>
+    
+    <item89665 gardenType="plant">Plant 89665</item89665>
+    
+    <desc89665>Palm Tree</desc89665>
+    
+    <item89666 gardenType="plant">Plant 89666</item89666>
+    
+    <desc89666>Wisteria Vine</desc89666>
+    
+    <item89667 gardenType="plant">Plant 89667</item89667>
+    
+    <desc89667>Apple Tree</desc89667>
+    
+    <item89668 gardenType="plant">Plant 89668</item89668>
+    
+    <desc89668>Strappy Sandal / Sporty Shoes</desc89668>
+    
+    <item89669 gardenType="plant">Plant 89669</item89669>
+    
+    <desc89669>Bubble Top Slippers / Swashbuckling Boots</desc89669>
+    
+    <item89670 gardenType="plant">Plant 89670</item89670>
+    
+    <desc89670>Tie-Dye Sandals / Easy Walker</desc89670>
+    
+    <item89671 gardenType="plant">Plant 89671</item89671>
+    
+    <desc89671>Citrus Peel Heels / Knit Messenger Slippers</desc89671>
+    
+    <item89672 gardenType="plant">Plant 89672</item89672>
+    
+    <desc89672>Saffron Slippers / Bamboo Sandals</desc89672>
+    
+    <item89673 gardenType="plant">Plant 89673</item89673>
+    
+    <desc89673>Overgrown Bench</desc89673>
+    
+    <item89674 gardenType="plant">Plant 89674</item89674>
+    
+    <desc89674>Sunflower Loveseat</desc89674>
+    
+    <item89675 gardenType="plant">Plant 89675</item89675>
+    
+    <desc89675>Rose Recliner</desc89675>
+    
+    <item89676 gardenType="plant">Plant 89676</item89676>
+    
+    <desc89676>Leaf Lounger</desc89676>
+    
+    <item89677 gardenType="plant">Plant 89677</item89677>
+    
+    <desc89677>Twig Porch Swing</desc89677>
+    
+    <item89678 gardenType="plant">Plant 89678</item89678>
+    
+    <desc89678>Plumeria Top / Sporty Top</desc89678>
+    
+    <item89679 gardenType="plant">Plant 89679</item89679>
+    
+    <desc89679>Bubble Button Top / Smee Ruffle Top</desc89679>
+    
+    <item89680 gardenType="plant">Plant 89680</item89680>
+    
+    <desc89680>Tropical Top / Wing Tee</desc89680>
+    
+    <item89681 gardenType="plant">Plant 89681</item89681>
+    
+    <desc89681>Sunshine Top / Knit Messenger Top</desc89681>
+    
+    <item89682 gardenType="plant">Plant 89682</item89682>
+    
+    <desc89682>Saffron Top / Hawk Tee</desc89682>
+    
+    <item89683 gardenType="plant">Plant 89683</item89683>
+    
+    <desc89683>Plumeria Sarong / Sporty Shorts</desc89683>
+    
+    <item89684 gardenType="plant">Plant 89684</item89684>
+    
+    <desc89684>Lily Pad Bubble Skirt / Pirate Pants</desc89684>
+    
+    <item89685 gardenType="plant">Plant 89685</item89685>
+    
+    <desc89685>Tropical Sarong / Beach Breezy Shorts</desc89685>
+    
+    <item89686 gardenType="plant">Plant 89686</item89686>
+    
+    <desc89686>Sunshine Skirt / Knit Messenger Pants</desc89686>
+    
+    <item89687 gardenType="plant">Plant 89687</item89687>
+    
+    <desc89687>Saffron Skirt / Breezy Casual Shorts</desc89687>
+    
+    <item89688 gardenType="plant">Plant 89688</item89688>
+    
+    <desc89688>Sweet Sunflower Headband / Sporty Sparrow Band</desc89688>
+    
+    <item89689 gardenType="plant">Plant 89689</item89689>
+    
+    <desc89689>Sweet Sunflower Top / Berry Ball Jersey</desc89689>
+    
+    <item89690 gardenType="plant">Plant 89690</item89690>
+    
+    <desc89690>Sweet Sunflower Skirt / Berry Ball Shorts</desc89690>
+    
+    <item89691 gardenType="plant">Plant 89691</item89691>
+    
+    <desc89691>Sweet Sunflower Slippers / All-Terrain Training Shoes</desc89691>
+    
+    <item89692 gardenType="plant">Plant 89692</item89692>
+    
+    <desc89692>Sweet Sunflower Necklace / Thistle Whistle</desc89692>
+    
+    <item89031 days="1" gardenType="seed">Summer Sweets Seeds</item89031>
+    
+    <desc89031>Grow for 1 full day to find out which summery Silly Sweet you've earned!</desc89031>
+    
+    <item89032 days="1" gardenType="seed">Midsummer Dye Seeds</item89032>
+    
+    <desc89032>Grow for 1 full day to find out which new summery dye bottle you've earned!</desc89032>
+    
+    <item89033 days="3" gardenType="seed">Sprightly Sprouts Seeds</item89033>
+    
+    <desc89033>Grow for 3 full days to find out which flower you've earned!</desc89033>
+    
+    <item89034 days="3" gardenType="seed">Summertime Shoes Seeds</item89034>
+    
+    <desc89034>Grow for 3 full days to find out which shoes you've earned!</desc89034>
+    
+    <item89035 days="5" gardenType="seed">Blooming Benches Seeds</item89035>
+    
+    <desc89035>Grow for 5 full days to find out what furniture you've earned!</desc89035>
+    
+    <item89036 days="5" gardenType="seed">Tropical Tops Seeds</item89036>
+    
+    <desc89036>Grow for 5 full days to find out which top you've earned!</desc89036>
+    
+    <item89037 days="5" gardenType="seed">Sunny Skirt or Slacks Seeds</item89037>
+    
+    <desc89037>Grow for 5 full days to find out which skirt or slacks you've earned!</desc89037>
+    
+    <item89038 specialSeed="true" days="5" gardenType="seed">Summer Chic Seeds</item89038>
+    
+    <desc89038>Grow for 5 full days to find out which piece of this summer outfit you've earned!</desc89038>
+    
+  </copy>
+  
+  <config>
+    
+    <!-- Blue *Dyes* 1 Day -->
+    
+    <item id="89000" instaGrowCost="1">
+      
+      <plant id="89500" color="0x774199D6">
+        
+        <reward positionOffset="0,-50" scale="0.7" itemId="14022" amount="1" color1="0" color2="0"/>
+        
+        <!-- Blue Jay Blue Dye -->
+        
+      </plant>
+      
+      <plant id="89501" color="0x774199D6">
+        
+        <reward positionOffset="0,-25" scale="0.7" itemId="14064" amount="1" color1="0" color2="0"/>
+        
+        <!-- Emerald Green Dye -->
+        
+      </plant>
+      
+      <plant id="89502" color="0x774199D6">
+        
+        <reward scale="0.7" itemId="14137" amount="1" color1="0" color2="0"/>
+        
+        <!-- Lemon Yellow Dye  -->
+        
+      </plant>
+      
+      <plant id="89503" color="0x774199D6">
+        
+        <reward scale="0.7" itemId="14029" amount="1" color1="0" color2="0"/>
+        
+        <!-- Goldfish Orange Dye -->
+        
+      </plant>
+      
+      <plant id="89504" color="0x774199D6">
+        
+        <reward positionOffset="0,-25" scale="0.7" itemId="14045" amount="1" color1="0" color2="0"/>
+        
+        <!-- Strawberry Red Dye -->
+        
+      </plant>
+      
+    </item>
+    
+    <!-- Green *Silly Sweets* 1 Day -->
+    
+    <item id="89001">
+      
+      <plant id="89505" color="0x77507C3E">
+        
+        <reward positionOffset="0,-50" itemId="22516" amount="1" color1="0" color2="0"/>
+        
+        <!-- Silvermist Blue Cameleon SS -->
+        
+      </plant>
+      
+      <plant id="89506" color="0x77507C3E">
+        
+        <reward positionOffset="0,-25" itemId="22518" amount="1" color1="0" color2="0"/>
+        
+        <!-- Tinker Bell Green Cameleon Silly Sweet -->
+        
+      </plant>
+      
+      <plant id="89507" color="0x77507C3E">
+        
+        <reward itemId="22522" amount="1" color1="0" color2="0"/>
+        
+        <!-- Marigold Yellow Cameleon Silly Sweet -->
+        
+      </plant>
+      
+      <plant id="89508" color="0x77507C3E">
+        
+        <reward itemId="22521" amount="1" color1="0" color2="0"/>
+        
+        <!-- Pumpkin Orange Cameleon Silly Sweet -->
+        
+      </plant>
+      
+      <plant id="89509" color="0x77507C3E">
+        
+        <reward positionOffset="0,-25" itemId="22520" amount="1" color1="0" color2="0"/>
+        
+        <!-- Strawberry Red Cameleon Silly Sweet -->
+        
+      </plant>
+      
+    </item>
+    
+    <!-- Purple *Cookies* 1 Day -->
+    
+    <item id="89002" instaGrowCost="1">
+      
+      <plant id="89510" color="0x779E26AB">
+        
+        <!-- Acorn Cookie -->
+        
+        <reward positionOffset="0,-50" itemId="22501" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89511" color="0x779E26AB">
+        
+        <!-- Sunflower Cookie -->
+        
+        <reward positionOffset="0,-25" itemId="22502" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89512" color="0x779E26AB">
+        
+        <!-- Honey Cookie -->
+        
+        <reward itemId="22503" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89513" color="0x779E26AB">
+        
+        <!-- Raspberry Cookie -->
+        
+        <reward rare="1" itemId="22504" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89514" color="0x779E26AB">
+        
+        <!-- Blueberry Cookie -->
+        
+        <reward positionOffset="0,-25" rare="1" itemId="22505" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <!-- Orange *Shoes* 3 Day -->
+    
+    <item id="89003" instaGrowCost="3">
+      
+      <plant id="89515" color="0x77BB6A27">
+        
+        <!-- Pansy Slippers -->
+        
+        <reward positionOffset="0,-50" scale=".75" g="1" itemId="3551" amount="1" color1="14" color2="11"/>
+        
+        <!-- Woodsman Boots -->
+        
+        <reward positionOffset="0,-50" scale=".75" g="2" itemId="3712" amount="1" color1="11" color2="14"/>
+        
+      </plant>
+      
+      <plant id="89516" color="0x77BB6A27">
+        
+        <!-- Pine Needle Heels -->
+        
+        <reward positionOffset="-5,-25" scale=".8" g="1" itemId="3533" amount="1" color1="118" color2="18"/>
+        
+        <!-- Plenty Plaid Deck Shoes -->
+        
+        <reward positionOffset="0,-25" scale=".75" g="2" itemId="3671" amount="1" color1="124" color2="118"/>
+        
+      </plant>
+      
+      <plant id="89517" color="0x77BB6A27">
+        
+        <!-- Citrus Peel Heels -->
+        
+        <reward scale=".75" g="1" itemId="3603" amount="1" color1="12" color2="166"/>
+        
+        <!-- Agave Shoes -->
+        
+        <reward scale=".75" g="2" itemId="3698" amount="1" color1="166" color2="12"/>
+        
+      </plant>
+      
+      <plant id="89518" color="0x77BB6A27">
+        
+        <!-- Strawberry Low Heels -->
+        
+        <reward scale=".75" rare="1" g="1" itemId="3602" amount="1" color1="3" color2="45"/>
+        
+        <!-- Bamboo Sandals -->
+        
+        <reward scale=".75" rare="1" g="2" itemId="3692" amount="1" color1="3" color2="45"/>
+        
+      </plant>
+      
+      <plant id="89519" color="0x77BB6A27">
+        
+        <!-- Hibiscus Slippers -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="1" itemId="3510" amount="1" color1="13" color2="0"/>
+        
+        <!-- Finish Line Shoes -->
+        
+        <reward positionOffset="0,-25" scale=".75" g="2" itemId="3686" amount="1" color1="68" color2="3"/>
+        
+      </plant>
+      
+    </item>
+    
+    <!-- Red *Garden Launch Flower Decorative Items* 3 Day -->
+    
+    <item id="89004" instaGrowCost="3">
+      
+      <plant id="89520" color="0x77D8562B">
+        
+        <!-- Tulips -->
+        
+        <reward positionOffset="0,-50" scale="0.75" itemId="7794" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89521" color="0x77D8562B">
+        
+        <!-- Sunflowers -->
+        
+        <reward positionOffset="0,-25" scale="0.75" itemId="7795" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89522" color="0x77D8562B">
+        
+        <!-- Irises -->
+        
+        <reward scale="0.75" itemId="7793" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89523" color="0x77D8562B">
+        
+        <!-- Daisies -->
+        
+        <reward scale="0.75" itemId="7792" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89524" color="0x77D8562B">
+        
+        <!-- Hanging Hearts -->
+        
+        <reward positionOffset="0,-25" scale="0.75" rare="1" itemId="7791" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <!-- Pink *Tops* 5 Day -->
+    
+    <item id="89005" instaGrowCost="5">
+      
+      <plant id="89525" color="0x77C46E74">
+        
+        <!-- Tulip Tee -->
+        
+        <reward positionOffset="0,-50" scale="0.85" g="1" itemId="18" amount="1" color1="13" color2="0"/>
+        
+        <!-- Abstract Tee -->
+        
+        <reward positionOffset="0,-50" scale="0.75" g="2" itemId="375" amount="1" color1="19" color2="13"/>
+        
+      </plant>
+      
+      <plant id="89526" color="0x77C46E74">
+        
+        <!-- Pansy Top -->
+        
+        <reward positionOffset="-5,-25" scale="0.70" g="1" itemId="64" amount="1" color1="14" color2="189"/>
+        
+        <!-- Wolf Tee -->
+        
+        <reward positionOffset="0,-25" scale="0.75" g="2" itemId="374" amount="1" color1="176" color2="55"/>
+        
+      </plant>
+      
+      <plant id="89527" color="0x77C46E74">
+        
+        <!-- Soirée Shirt -->
+        
+        <reward scale="0.75" g="1" itemId="44" amount="1" color1="118" color2="18"/>
+        
+        <!-- Hawk Tee -->
+        
+        <reward scale="0.75" g="2" itemId="373" amount="1" color1="189" color2="143"/>
+        
+      </plant>
+      
+      <plant id="89528" color="0x77C46E74">
+        
+        <!-- Citrus Layer Top -->
+        
+        <reward scale="0.75" g="1" itemId="158" amount="1" color1="166" color2="12"/>
+        
+        <!-- Leafy Layered Tee -->
+        
+        <reward scale="0.75" g="2" itemId="209" amount="1" color1="145" color2="173"/>
+        
+      </plant>
+      
+      <plant id="89529" color="0x77C46E74">
+        
+        <!-- Strawberry Top -->
+        
+        <reward positionOffset="0,-25" scale="0.75" rare="1" g="1" itemId="159" amount="1" color1="45" color2="3"/>
+        
+        <!-- Berry Ball Jersey -->
+        
+        <reward positionOffset="0,-25" scale="0.75" rare="1" g="2" itemId="275" amount="1" color1="145" color2="173"/>
+        
+      </plant>
+      
+    </item>
+    
+    <!-- Olive *Furnature* 5 Day -->
+    
+    <item id="89006" instaGrowCost="5">
+      
+      <plant id="89530" color="0x7788811E">
+        
+        <!-- Sunflower Chair -->
+        
+        <reward positionOffset="0,-50" scale="0.75" itemId="6742" amount="1" color1="141" color2="27" g=""/>
+        
+      </plant>
+      
+      <plant id="89531" color="0x7788811E">
+        
+        <!-- Garden Hearts Chair -->
+        
+        <reward positionOffset="-5,-25" scale="0.75" itemId="6739" amount="1" color1="167" color2="121" g=""/>
+        
+      </plant>
+      
+      <plant id="89532" color="0x7788811E">
+        
+        <!-- Teacup Chair -->
+        
+        <reward scale="0.65" rare="1" itemId="6743" amount="1" color1="166" color2="181" g=""/>
+        
+      </plant>
+      
+      <plant id="89533" color="0x7788811E">
+        
+        <!-- Tea Time Serving Cart -->
+        
+        <reward scale="0.65" itemId="6550" amount="1" color1="1" color2="181" g=""/>
+        
+      </plant>
+      
+      <plant id="89534" color="0x7788811E">
+        
+        <!-- Tea Table -->
+        
+        <reward positionOffset="0,-25" scale="0.65" itemId="6548" amount="1" color1="1" color2="181" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <!-- Teal 5 *Bottoms* Day -->
+    
+    <item id="89007" instaGrowCost="5">
+      
+      <plant id="89535" color="0x7752B187">
+        
+        <!-- Daisy Pettiskirt -->
+        
+        <reward positionOffset="0,-50" scale="0.7" g="1" itemId="1005" amount="1" color1="13" color2="0"/>
+        
+        <!-- Gardening Jeans -->
+        
+        <reward positionOffset="0,-50" scale="0.65" g="2" itemId="1289" amount="1" color1="78" color2="21"/>
+        
+      </plant>
+      
+      <plant id="89536" color="0x7752B187">
+        
+        <!-- Pansy Skirt -->
+        
+        <reward positionOffset="-5,-25" scale="0.60" g="1" itemId="1069" amount="1" color1="14" color2="189"/>
+        
+        <!-- Agave Shorts -->
+        
+        <reward positionOffset="0,-25" scale="0.65" g="2" itemId="1273" amount="1" color1="137" color2="136"/>
+        
+      </plant>
+      
+      <plant id="89537" color="0x7752B187">
+        
+        <!-- Soire Skirt -->
+        
+        <reward scale="0.65" g="1" itemId="1049" amount="1" color1="118" color2="18"/>
+        
+        <!-- Princely Trousers -->
+        
+        <reward scale="0.65" g="2" itemId="1262" amount="1" color1="14" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89538" color="0x7752B187">
+        
+        <!-- Citrus Peel Wrap -->
+        
+        <reward scale="0.65" g="1" itemId="1144" amount="1" color1="166" color2="12"/>
+        
+        <!-- Berry Ball Shorts -->
+        
+        <reward scale="0.65" g="2" itemId="1226" amount="1" color1="173" color2="145"/>
+        
+      </plant>
+      
+      <plant id="89539" color="0x7752B187">
+        
+        <!-- Strawberry Skirt -->
+        
+        <reward positionOffset="0,-20" scale="0.75" rare="1" g="1" itemId="1142" amount="1" color1="45" color2="3"/>
+        
+        <!-- Knit Messenger Pants -->
+        
+        <reward positionOffset="0,-25" scale="0.65" rare="1" g="2" itemId="1216" amount="1" color1="22" color2="145"/>
+        
+      </plant>
+      
+    </item>
+    
+    <!-- Yellow *Decor* 3 Day -->
+    
+    <item id="89008" instaGrowCost="3">
+      
+      <plant id="89540" color="0x77E8DD26">
+        
+        <!-- Watering Tin -->
+        
+        <reward positionOffset="0,-50" scale="0.75" itemId="7507" amount="1" color1="4" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89541" color="0x77E8DD26">
+        
+        <!-- Gardening Journal -->
+        
+        <reward scale="0.7" itemId="7513" amount="1" color1="1" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89542" color="0x77E8DD26">
+        
+        <!-- Blissflower Chandelier -->
+        
+        <reward scale="0.7" itemId="7815" amount="1" color1="145" color2="160" g=""/>
+        
+      </plant>
+      
+      <plant id="89543" color="0x77E8DD26">
+        
+        <!-- Box of Buds -->
+        
+        <reward scale="0.7" rare="1" itemId="7620" amount="1" color1="189" color2="104" g=""/>
+        
+      </plant>
+      
+      <plant id="89544" color="0x77E8DD26">
+        
+        <!-- Daisy Wreath -->
+        
+        <reward scale="0.6" itemId="7778" amount="1" color1="166" color2="186" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <!-- Maroon *Special Outfit* 5 Day -->
+    
+    <item id="89009" instaGrowCost="5">
+      
+      <plant id="89545" color="0x77CC0000">
+        
+        <!-- Spring Bouquet -->
+        
+        <reward positionOffset="0,-50" scale="0.75" g="1" itemId="1588" amount="1" color1="111" color2="44"/>
+        
+        <!-- Spinner Sundial -->
+        
+        <reward positionOffset="0,-50" scale="0.65" g="2" itemId="1570" amount="1" color1="169" color2="3"/>
+        
+      </plant>
+      
+      <plant id="89546" color="0x77CC0000">
+        
+        <!-- Lagerstroemia Shoes -->
+        
+        <reward positionOffset="-5,-25" scale="0.7" g="1" itemId="3582" amount="1" color1="44" color2="131"/>
+        
+        <!-- Woodchucks -->
+        
+        <reward positionOffset="0,-25" scale="0.65" g="2" itemId="3625" amount="1" color1="74" color2="116"/>
+        
+      </plant>
+      
+      <plant id="89547" color="0x77CC0000">
+        
+        <!-- Lagerstroemia Hat -->
+        
+        <reward scale="0.65" g="1" itemId="2123" amount="1" color1="44" color2="131"/>
+        
+        <!-- Leaf Embroidered Cap -->
+        
+        <reward scale="0.65" g="2" itemId="2174" amount="1" color1="3" color2="116"/>
+        
+      </plant>
+      
+      <plant id="89548" color="0x77CC0000">
+        
+        <!-- Lagerstroemia Top -->
+        
+        <reward scale="0.65" rare="1" g="1" itemId="112" amount="1" color1="44" color2="131"/>
+        
+        <!-- Top 40 Vest -->
+        
+        <reward scale="0.65" rare="1" g="2" itemId="335" amount="1" color1="116" color2="3"/>
+        
+      </plant>
+      
+      <plant id="89549" color="0x77CC0000">
+        
+        <!-- Lagerstroemia Skirt -->
+        
+        <reward positionOffset="0,-25" scale="0.65" g="1" itemId="1124" amount="1" color1="44" color2="131"/>
+        
+        <!-- Tailored Spider Silk Jeans -->
+        
+        <reward positionOffset="0,-25" scale="0.65" g="2" itemId="1132" amount="1" color1="74" color2="3"/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89011" instaGrowCost="5">
+      
+      <plant id="89550" color="0x772935A5">
+        
+        <!-- Butterfly Sequin Top -->
+        
+        <reward positionOffset="0,-50" scale=".8" g="1" itemId="21" amount="1" color1="26" color2="0"/>
+        
+        <!-- Patch Leaf Top -->
+        
+        <reward positionOffset="0,-50" scale=".85" g="2" itemId="102" amount="1" color1="150" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89551" color="0x772935A5">
+        
+        <!-- Dandelion Button Top -->
+        
+        <reward positionOffset="-5,-25" scale=".80" g="1" itemId="26" amount="1" color1="143" color2="47"/>
+        
+        <!-- Padded Sycamore Shirt -->
+        
+        <reward positionOffset="-5,-25" scale=".85" g="2" itemId="103" amount="1" color1="216" color2="201"/>
+        
+      </plant>
+      
+      <plant id="89552" color="0x772935A5">
+        
+        <!-- Mum Petal Top -->
+        
+        <reward scale=".75" g="1" itemId="30" amount="1" color1="129" color2="166"/>
+        
+        <!-- Knotwood Button Top -->
+        
+        <reward scale=".85" g="2" itemId="105" amount="1" color1="151" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89553" color="0x772935A5">
+        
+        <!-- White Rose Top -->
+        
+        <reward scale=".75" rare="1" g="1" itemId="52" amount="1" color1="149" color2="125"/>
+        
+        <!-- LongSleeved Sweater -->
+        
+        <reward scale=".85" rare="1" g="2" itemId="106" amount="1" color1="209" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89554" color="0x772935A5">
+        
+        <!-- Shimmery Scale Fish Top -->
+        
+        <reward positionOffset="0,-25" scale=".70" g="1" itemId="78" amount="1" color1="220" color2="0"/>
+        
+        <!-- Cap Sleeve Meadow Tee -->
+        
+        <reward positionOffset="7,-25" scale=".75" g="2" itemId="131" amount="1" color1="218" color2="91"/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89013" instaGrowCost="1">
+      
+      <plant id="89555" color="0x7700C3F4">
+        
+        <!-- Bottle of Navy Blue Dye -->
+        
+        <reward positionOffset="0,-50" scale=".7" itemId="14268" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89556" color="0x7700C3F4">
+        
+        <!-- Bottle of Horizon Blue Dye -->
+        
+        <reward positionOffset="0,-25" scale=".7" itemId="14270" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89557" color="0x7700C3F4">
+        
+        <!-- Bottle of True Blue Dye -->
+        
+        <reward scale=".7" itemId="14271" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89558" color="0x7700C3F4">
+        
+        <!-- Bottle of Diamond Blue Dye -->
+        
+        <reward scale=".7" itemId="14207" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89559" color="0x7700C3F4">
+        
+        <!-- Bottle of Teal Blue Dye -->
+        
+        <reward positionOffset="0,-25" scale=".7" itemId="14223" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89014" instaGrowCost="1">
+      
+      <plant id="89560" color="0x77F1760C">
+        
+        <!-- Bottle of Duckbill Orange Dye -->
+        
+        <reward positionOffset="0,-50" scale=".7" itemId="14228" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89561" color="0x77F1760C">
+        
+        <!-- Bottle of Raven Black Dye -->
+        
+        <reward positionOffset="0,-25" scale=".7" itemId="14206" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89562" color="0x77F1760C">
+        
+        <!-- Bottle of Smokey Gray Dye -->
+        
+        <reward scale=".7" itemId="14214" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89563" color="0x77F1760C">
+        
+        <!-- Bottle of Electric Indigo Dye -->
+        
+        <reward scale=".7" itemId="14229" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89564" color="0x77F1760C">
+        
+        <!-- Bottle of Lime Green Dye -->
+        
+        <reward positionOffset="0,-25" scale=".7" itemId="14257" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89015" instaGrowCost="5">
+      
+      <plant id="89565" color="0x77C846A6">
+        
+        <!-- Bellflower Skirt -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="1" itemId="1086" amount="1" color1="81" color2="26"/>
+        
+        <!-- Leafy Overlap Trousers -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="2" itemId="1104" amount="1" color1="74" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89566" color="0x77C846A6">
+        
+        <!-- Dandelion Trim Skirt -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="1" itemId="1046" amount="1" color1="143" color2="166"/>
+        
+        <!-- Side Notched Trousers -->
+        
+        <reward positionOffset="0,-25" scale=".75" g="2" itemId="1105" amount="1" color1="206" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89567" color="0x77C846A6">
+        
+        <!-- Candytuft Petal Skirt -->
+        
+        <reward scale=".7" g="1" itemId="1034" amount="1" color1="129" color2="48"/>
+        
+        <!-- Tough Task Trousers -->
+        
+        <reward scale=".7" g="2" itemId="1108" amount="1" color1="77" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89568" color="0x77C846A6">
+        
+        <!-- White Rose Skirt -->
+        
+        <reward scale=".7" rare="1" g="1" itemId="1057" amount="1" color1="70" color2="128"/>
+        
+        <!-- SidePocket Tough Trousers -->
+        
+        <reward scale=".7" rare="1" g="2" itemId="1109" amount="1" color1="209" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89569" color="0x77C846A6">
+        
+        <!-- Euphorbia Skirt -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="1" itemId="1071" amount="1" color1="1" color2="199"/>
+        
+        <!-- Camouflage Pants -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="2" itemId="1189" amount="1" color1="218" color2="172"/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89016" instaGrowCost="5">
+      
+      <plant id="89570" color="0x77C759B5">
+        
+        <!-- Lost and Found Sofa -->
+        
+        <reward positionOffset="0,-50" scale=".75" itemId="6577" amount="1" color1="62" color2="122" g=""/>
+        
+      </plant>
+      
+      <plant id="89571" color="0x77C759B5">
+        
+        <!-- Lost and Found Mirror -->
+        
+        <reward positionOffset="-5,-25" scale=".75" itemId="6576" amount="1" color1="216" color2="86" g=""/>
+        
+      </plant>
+      
+      <plant id="89572" color="0x77C759B5">
+        
+        <!-- Lost WindUp Box Base -->
+        
+        <reward positionOffset="6,0" scale=".75" itemId="6575" amount="1" color1="199" color2="220" g=""/>
+        
+      </plant>
+      
+      <plant id="89573" color="0x77C759B5">
+        
+        <!-- Firefly Stained Glass -->
+        
+        <reward positionOffset="-6,0" scale=".75" rare="1" itemId="6587" amount="1" color1="142" color2="213" g=""/>
+        
+      </plant>
+      
+      <plant id="89574" color="0x77C759B5">
+        
+        <!-- Piping Hot Fireplace -->
+        
+        <reward positionOffset="0,-25" scale=".75" itemId="6588" amount="1" color1="28" color2="74" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89017" instaGrowCost="1">
+      
+      <plant id="89575" color="0x77AB4163">
+        
+        <!-- Honey Maple Cookie -->
+        
+        <reward positionOffset="0,-50" itemId="22506" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89576" color="0x77AB4163">
+        
+        <!-- Truffle Cookie -->
+        
+        <reward positionOffset="0,-25" itemId="22507" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89577" color="0x77AB4163">
+        
+        <!-- Honey Truffle Cookie -->
+        
+        <reward itemId="22508" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89578" color="0x77AB4163">
+        
+        <!-- Raspberry Truffle Cookie -->
+        
+        <reward rare="1" itemId="22509" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89579" color="0x77AB4163">
+        
+        <!-- Blueberry Truffle Cookie -->
+        
+        <reward positionOffset="0,-25" rare="1" itemId="22510" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89018" instaGrowCost="1">
+      
+      <plant id="89580" color="0x776432BC">
+        
+        <!-- Fairy Cupcake Silly Sweet -->
+        
+        <reward positionOffset="0,-50" itemId="22536" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89581" color="0x776432BC">
+        
+        <!-- Bubble Trail Silly Sweet -->
+        
+        <reward positionOffset="0,-25" itemId="22543" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89582" color="0x776432BC">
+        
+        <!-- Flower Trail Silly Sweet -->
+        
+        <reward itemId="22544" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89583" color="0x776432BC">
+        
+        <!-- Heart Trail Silly Sweet -->
+        
+        <reward itemId="22561" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89584" color="0x776432BC">
+        
+        <!-- Rainbow Trail Silly Sweet -->
+        
+        <reward positionOffset="0,-25" itemId="22562" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89020" instaGrowCost="3">
+      
+      <plant id="89585" color="0x7760C58A">
+        
+        <!-- Tall Tailflower Boots -->
+        
+        <reward positionOffset="0,-50" scale=".75" g="1" itemId="3516" amount="1" color1="26" color2="81"/>
+        
+        <!-- Wide Band Boots -->
+        
+        <reward positionOffset="0,-50" scale=".75" g="2" itemId="3576" amount="1" color1="205" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89586" color="0x7760C58A">
+        
+        <!-- Lavender Slippers -->
+        
+        <reward positionOffset="0,-25" g="1" itemId="3518" amount="1" color1="129" color2="166"/>
+        
+        <!-- RuffTop Boots -->
+        
+        <reward positionOffset="0,-25" scale=".75" g="2" itemId="3573" amount="1" color1="75" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89587" color="0x7760C58A">
+        
+        <!-- Euphorbia Boots -->
+        
+        <reward scale=".85" g="1" itemId="3553" amount="1" color1="1" color2="220"/>
+        
+        <!-- CrossStitch Work Boots -->
+        
+        <reward scale=".75" g="2" itemId="3575" amount="1" color1="94" color2="151"/>
+        
+      </plant>
+      
+      <plant id="89588" color="0x7760C58A">
+        
+        <!-- White Rose Slippers -->
+        
+        <reward scale=".75" rare="1" g="1" itemId="3539" amount="1" color1="125" color2="55"/>
+        
+        <!-- Ivy Lace Work Boots -->
+        
+        <reward scale=".75" rare="1" g="2" itemId="3577" amount="1" color1="206" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89589" color="0x7760C58A">
+        
+        <!-- Cottonpuff Short Boots -->
+        
+        <reward positionOffset="7,-22" scale=".85" g="1" itemId="3517" amount="1" color1="9" color2="0"/>
+        
+        <!-- Bark Layer Shoes -->
+        
+        <reward positionOffset="7,-25" scale=".75" g="2" itemId="3588" amount="1" color1="218" color2="172"/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89021" instaGrowCost="5">
+      
+      <plant id="89590" color="0x772C9DAD">
+        
+        <!-- Campanula Barrette -->
+        
+        <reward positionOffset="0,-50" scale=".75" g="1" itemId="2100" amount="1" color1="118" color2="149"/>
+        
+        <!-- Ninja Hood -->
+        
+        <reward positionOffset="0,-50" scale=".75" g="2" itemId="2275" amount="1" color1="206" color2="141"/>
+        
+      </plant>
+      
+      <plant id="89591" color="0x772C9DAD">
+        
+        <!-- Campanula Top -->
+        
+        <reward positionOffset="-11,-25" scale=".75" rare="1" g="1" itemId="108" amount="1" color1="207" color2="149"/>
+        
+        <!-- Ninja Shinobi Top -->
+        
+        <reward positionOffset="0,-25" scale=".8" rare="1" g="2" itemId="336" amount="1" color1="206" color2="141"/>
+        
+      </plant>
+      
+      <plant id="89592" color="0x772C9DAD">
+        
+        <!-- Campanula Skirt -->
+        
+        <reward positionOffset="0,9" scale=".8" g="1" itemId="1111" amount="1" color1="207" color2="149"/>
+        
+        <!-- Ninja Shinobi Pants -->
+        
+        <reward positionOffset="0,9" scale=".8" g="2" itemId="1272" amount="1" color1="206" color2="141"/>
+        
+      </plant>
+      
+      <plant id="89593" color="0x772C9DAD">
+        
+        <!-- Campanula Shoes -->
+        
+        <reward positionOffset="0,9" scale=".6" g="1" itemId="3578" amount="1" color1="149" color2="207"/>
+        
+        <!-- Luxurious LaceUps -->
+        
+        <reward positionOffset="0,9" scale=".6" g="2" itemId="3679" amount="1" color1="206" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89594" color="0x772C9DAD">
+        
+        <!-- Winter Bouquet -->
+        
+        <reward positionOffset="0,-25" scale=".85" g="1" itemId="1590" amount="1" color1="118" color2="153"/>
+        
+        <!-- Thistle Whistle -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="2" itemId="2549" amount="1" color1="206" color2="141"/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89022" instaGrowCost="5">
+      
+      <plant id="89595" color="0x77E5B00B">
+        
+        <!-- Commelina Band -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="1" itemId="2121" amount="1" color1="150" color2="142"/>
+        
+        <!-- Acorn Cap -->
+        
+        <reward positionOffset="0,-50" scale=".5" g="2" itemId="2118" amount="1" color1="95" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89596" color="0x77E5B00B">
+        
+        <!-- Commelina Top -->
+        
+        <reward positionOffset="-10,-25" scale=".8" rare="1" g="1" itemId="110" amount="1" color1="188" color2="142"/>
+        
+        <!-- Terences Top -->
+        
+        <reward positionOffset="-10,-25" scale=".8" rare="1" g="2" itemId="176" amount="1" color1="75" color2="161"/>
+        
+      </plant>
+      
+      <plant id="89597" color="0x77E5B00B">
+        
+        <!-- Commelina Skirt -->
+        
+        <reward scale=".75" g="1" itemId="1122" amount="1" color1="188" color2="142"/>
+        
+        <!-- Terences Trunks -->
+        
+        <reward scale=".7" g="2" itemId="1160" amount="1" color1="75" color2="161"/>
+        
+      </plant>
+      
+      <plant id="89598" color="0x77E5B00B">
+        
+        <!-- Commelina Shoes -->
+        
+        <reward scale=".7" g="1" itemId="3580" amount="1" color1="188" color2="0"/>
+        
+        <!-- Terences Shoes -->
+        
+        <reward scale=".7" g="2" itemId="3613" amount="1" color1="86" color2="161"/>
+        
+      </plant>
+      
+      <plant id="89599" color="0x77E5B00B">
+        
+        <!-- Autumn Bouquet -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="1" itemId="1587" amount="1" color1="81" color2="187"/>
+        
+        <!-- Pouch Belt -->
+        
+        <reward positionOffset="0,-10" scale=".6" g="2" itemId="558" amount="1" color1="99" color2="0"/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89010" instaGrowCost="3">
+      
+      <plant id="89600" color="0x773B62A5">
+        
+        <!-- Holly Jolly Ornament -->
+        
+        <reward positionOffset="0,-50" scale=".8" itemId="7822" amount="1" color1="287" color2="221" g=""/>
+        
+      </plant>
+      
+      <plant id="89601" color="0x773B62A5">
+        
+        <!-- Snowflake Ornament -->
+        
+        <reward positionOffset="0,-25" scale=".8" itemId="7823" amount="1" color1="69" color2="207" g=""/>
+        
+      </plant>
+      
+      <plant id="89602" color="0x773B62A5">
+        
+        <!-- Holiday Ornament -->
+        
+        <reward scale=".8" itemId="7824" amount="1" color1="166" color2="168" g=""/>
+        
+      </plant>
+      
+      <plant id="89603" color="0x773B62A5">
+        
+        <!-- Polka Dot Ornament -->
+        
+        <reward scale=".8" itemId="7825" amount="1" color1="51" color2="62" g=""/>
+        
+      </plant>
+      
+      <plant id="89604" color="0x773B62A5">
+        
+        <!-- Candy Cane Ornament -->
+        
+        <reward positionOffset="0,-25" scale=".8" itemId="7826" amount="1" color1="166" color2="113" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89019" instaGrowCost="3">
+      
+      <plant id="89605" color="0x77F21C36">
+        
+        <!-- Maple Tree -->
+        
+        <reward positionOffset="0,-50" scale=".7" itemId="7838" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89606" color="0x77F21C36">
+        
+        <!-- Corn Stalks -->
+        
+        <reward positionOffset="0,-25" scale=".7" itemId="7839" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89607" color="0x77F21C36">
+        
+        <!-- Dandelions -->
+        
+        <reward scale=".7" itemId="7840" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89608" color="0x77F21C36">
+        
+        <!-- Marigolds -->
+        
+        <reward scale=".7" rare="1" itemId="7841" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89609" color="0x77F21C36">
+        
+        <!-- Pumpkin Patch -->
+        
+        <reward positionOffset="3,-25" scale=".7" itemId="7842" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89012" instaGrowCost="3">
+      
+      <plant id="89610" color="0x7796E000">
+        
+        <!-- Snowdrops -->
+        
+        <reward positionOffset="0,-50" scale=".7" itemId="7829" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89612" color="0x7796E000">
+        
+        <!-- SnowCoveredPine -->
+        
+        <reward scale=".7" itemId="7836" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89611" color="0x7796E000">
+        
+        <!-- SnowRoses -->
+        
+        <reward positionOffset="5,30" scale=".65" itemId="7827" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89614" color="0x7796E000">
+        
+        <!-- HollyBush -->
+        
+        <reward positionOffset="0,30" scale=".7" rare="1" itemId="7862" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89613" color="0x7796E000">
+        
+        <!-- Pointsettia Tree -->
+        
+        <reward positionOffset="5,0" scale=".7" itemId="7847" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89023" instaGrowCost="1">
+      
+      <plant id="89615" color="0x77FFF000">
+        
+        <!-- Rainbow Glow Aura Silly Sweet -->
+        
+        <reward positionOffset="0,-50" itemId="22527" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89616" color="0x77FFF000">
+        
+        <!-- Rainbow Trail Silly Sweet -->
+        
+        <reward positionOffset="-10,-25" itemId="22562" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89617" color="0x77FFF000">
+        
+        <!-- Cool Rainbow Chameleon Silly Sweet -->
+        
+        <reward itemId="22523" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89618" color="0x77FFF000">
+        
+        <!-- Bright Rainbow Chameleon Silly Sweet -->
+        
+        <reward positionOffset="10,-25" itemId="22524" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89024" instaGrowCost="5">
+      
+      <plant id="89619" color="0x77FCEB5A">
+        
+        <!-- Campis Top -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="1" itemId="109" amount="1" color1="12" color2="160"/>
+        
+        <!-- Grass Stitch Shirt -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="2" itemId="129" amount="1" color1="208" color2="209"/>
+        
+      </plant>
+      
+      <plant id="89620" color="0x77FCEB5A">
+        
+        <!-- Hibiscus Top -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="1" itemId="14" amount="1" color1="34" color2="0"/>
+        
+        <!-- Super Simple Tee -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="2" itemId="149" amount="1" color1="122" color2="205"/>
+        
+      </plant>
+      
+      <plant id="89621" color="0x77FCEB5A">
+        
+        <!-- Tulip Tee -->
+        
+        <reward scale=".8" g="1" itemId="18" amount="1" color1="137" color2="0"/>
+        
+        <!-- Spider Stitch Shirt -->
+        
+        <reward positionOffset="5,0" scale=".7" g="2" itemId="130" amount="1" color1="59" color2="157"/>
+        
+      </plant>
+      
+      <plant id="89622" color="0x77FCEB5A">
+        
+        <!-- Curcuma Top -->
+        
+        <reward scale=".6" rare="1" g="1" itemId="332" amount="1" color1="259" color2="284"/>
+        
+        <!-- Twisty Tree Tee -->
+        
+        <reward positionOffset="-5,0" scale=".7" rare="1" g="2" itemId="370" amount="1" color1="206" color2="269"/>
+        
+      </plant>
+      
+      <plant id="89623" color="0x77FCEB5A">
+        
+        <!-- Sweetgum Scoop -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="1" itemId="6" amount="1" color1="2" color2="0"/>
+        
+        <!-- Leaf Wrap Tee -->
+        
+        <reward positionOffset="2,-25" scale=".7" g="2" itemId="231" amount="1" color1="127" color2="0"/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89025" instaGrowCost="5">
+      
+      <plant id="89624" color="0x77990202">
+        
+        <!-- Curcuma Skirt -->
+        
+        <reward positionOffset="0,-50" scale=".7" rare="1" g="1" itemId="1269" amount="1" color1="259" color2="284"/>
+        
+        <!-- Gardening Jeans -->
+        
+        <reward positionOffset="0,-50" scale=".7" rare="1" g="2" itemId="1289" amount="1" color1="269" color2="206"/>
+        
+      </plant>
+      
+      <plant id="89625" color="0x77990202">
+        
+        <!-- Daisy Pettiskirt -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="1" itemId="1005" amount="1" color1="8" color2="0"/>
+        
+        <!-- Formal Leaf Trousers -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="2" itemId="1106" amount="1" color1="55" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89626" color="0x77990202">
+        
+        <!-- Sparkle Poppy Skirt -->
+        
+        <reward positionOffset="5,0" scale=".7" g="1" itemId="1012" amount="1" color1="12" color2="0"/>
+        
+        <!-- Plenty Pocket Shorts -->
+        
+        <reward positionOffset="5,0" scale=".7" g="2" itemId="1130" amount="1" color1="218" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89627" color="0x77990202">
+        
+        <!-- Maple Mini -->
+        
+        <reward positionOffset="-5,0" scale=".75" g="1" itemId="1008" amount="1" color1="47" color2="0"/>
+        
+        <!-- Tailored Spider Silk Jeans -->
+        
+        <reward positionOffset="-5,0" scale=".7" g="2" itemId="1132" amount="1" color1="205" color2="122"/>
+        
+      </plant>
+      
+      <plant id="89628" color="0x77990202">
+        
+        <!-- Sweetgum Leaf Skirt -->
+        
+        <reward positionOffset="0,-25" scale=".65" g="1" itemId="1006" amount="1" color1="2" color2="0"/>
+        
+        <!-- Cuffed Leaf Shorts -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="2" itemId="1133" amount="1" color1="74" color2="0"/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89026" instaGrowCost="3">
+      
+      <plant id="89633" color="0x772400FF">
+        
+        <!-- Curcuma Shoes -->
+        
+        <reward positionOffset="0,-50" scale=".75" rare="1" g="1" itemId="3694" amount="1" color1="259" color2="64"/>
+        
+        <!-- Woodchucks -->
+        
+        <reward positionOffset="0,-50" scale=".7" rare="1" g="2" itemId="3625" amount="1" color1="206" color2="269"/>
+        
+      </plant>
+      
+      <plant id="89632" color="0x772400FF">
+        
+        <!-- Campis Shoes -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="1" itemId="3579" amount="1" color1="12" color2="160"/>
+        
+        <!-- Tailors Boots -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="2" itemId="3637" amount="1" color1="74" color2="59"/>
+        
+      </plant>
+      
+      <plant id="89631" color="0x772400FF">
+        
+        <!-- Hibiscus Slippers -->
+        
+        <reward scale=".6" g="1" itemId="3510" amount="1" color1="286" color2="0"/>
+        
+        <!-- Best Dressed Loafers -->
+        
+        <reward scale=".9" g="2" itemId="3641" amount="1" color1="55" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89629" color="0x772400FF">
+        
+        <!-- Chipmunk Slippers -->
+        
+        <reward scale=".75" g="1" itemId="3531" amount="1" color1="259" color2="64"/>
+        
+        <!-- Easy Style Sneaks -->
+        
+        <reward positionOffset="-5,0" scale=".75" g="2" itemId="3654" amount="1" color1="127" color2="205"/>
+        
+      </plant>
+      
+      <plant id="89630" color="0x772400FF">
+        
+        <!-- Spring Wonderland Shoes -->
+        
+        <reward positionOffset="0,-25" scale=".75" g="1" itemId="3569" amount="1" color1="206" color2="269"/>
+        
+        <!-- Luxurious LaceUps -->
+        
+        <reward positionOffset="5,-25" scale=".7" g="2" itemId="3679" amount="1" color1="218" color2="250"/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89027" instaGrowCost="5">
+      
+      <plant id="89634" color="0x7700690F">
+        
+        <!-- Clover Swing -->
+        
+        <reward positionOffset="0,-50" scale=".7" rare="1" itemId="6562" amount="1" color1="21" color2="46" g=""/>
+        
+      </plant>
+      
+      <plant id="89635" color="0x7700690F">
+        
+        <!-- Small Clover Cluster Rug -->
+        
+        <reward positionOffset="-5,-25" scale=".7" itemId="6564" amount="1" color1="21" color2="145" g=""/>
+        
+      </plant>
+      
+      <plant id="89636" color="0x7700690F">
+        
+        <!-- Clover Curtain -->
+        
+        <reward positionOffset="10,0" scale=".7" itemId="6563" amount="1" color1="21" color2="145" g=""/>
+        
+      </plant>
+      
+      <plant id="89637" color="0x7700690F">
+        
+        <!-- Comfy Clover Chair -->
+        
+        <reward positionOffset="-10,0" scale=".7" itemId="6565" amount="1" color1="145" color2="21" g=""/>
+        
+      </plant>
+      
+      <plant id="89638" color="0x7700690F">
+        
+        <!-- Large Clover Cluster Rug -->
+        
+        <reward positionOffset="0,-25" scale=".7" itemId="6566" amount="1" color1="145" color2="21" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89028" instaGrowCost="1">
+      
+      <plant id="89639" color="0x77FFB1B1">
+        
+        <!-- Bottle of Sparkle Pink Dye -->
+        
+        <reward positionOffset="0,-50" scale=".7" itemId="14288" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89640" color="0x77FFB1B1">
+        
+        <!-- Bottle of Kiwi Green Dye -->
+        
+        <reward positionOffset="0,-25" scale=".7" itemId="14259" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89641" color="0x77FFB1B1">
+        
+        <!-- Bottle of Canary Yellow Dye -->
+        
+        <reward scale=".7" itemId="14255" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89642" color="0x77FFB1B1">
+        
+        <!-- Bottle of Bellflower Purple Dye -->
+        
+        <reward scale=".7" itemId="14274" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89643" color="0x77FFB1B1">
+        
+        <!-- Bottle of Magnolia White Dye -->
+        
+        <reward positionOffset="0,-25" scale=".7" itemId="14282" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89029" instaGrowCost="3">
+      
+      <plant id="89644" color="0x77FAA2FF">
+        
+        <!-- Orchids -->
+        
+        <reward positionOffset="0,-50" scale=".7" itemId="7876" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89645" color="0x77FAA2FF">
+        
+        <!-- Daffodils -->
+        
+        <reward positionOffset="0,-25" scale=".7" itemId="7874" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89646" color="0x77FAA2FF">
+        
+        <!-- Dahlias -->
+        
+        <reward scale=".8" itemId="7875" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89647" color="0x77FAA2FF">
+        
+        <!-- Birds of Paradise -->
+        
+        <reward scale=".7" rare="1" itemId="7872" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89648" color="0x77FAA2FF">
+        
+        <!-- Cherry Blossom Tree -->
+        
+        <reward positionOffset="7,-25" scale=".7" itemId="7873" amount="1" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89030" instaGrowCost="5">
+      
+      <plant id="89649" color="0x77FF9C00">
+        
+        <!-- Perwinkle Earrings -->
+        
+        <reward positionOffset="0,-50" scale=".75" g="1" itemId="2411" amount="1" color1="211" color2="0"/>
+        
+        <!-- Calla Lily Hat -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="2" itemId="2415" amount="1" color1="150" color2="21"/>
+        
+      </plant>
+      
+      <plant id="89650" color="0x77FF9C00">
+        
+        <!-- Pretty Periwinkle Top -->
+        
+        <reward positionOffset="-10,-25" scale=".7" rare="1" g="1" itemId="1000048" amount="1" color1="211" color2="51"/>
+        
+        <!-- Calla Lily Top -->
+        
+        <reward positionOffset="0,-25" scale=".7" rare="1" g="2" itemId="1000050" amount="1" color1="150" color2="39"/>
+        
+      </plant>
+      
+      <plant id="89651" color="0x77FF9C00">
+        
+        <!-- Pretty Periwinkle Skirt -->
+        
+        <reward positionOffset="5,0" scale=".7" g="1" itemId="1454" amount="1" color1="211" color2="275"/>
+        
+        <!-- Calla Lily Pants -->
+        
+        <reward positionOffset="5,0" scale=".7" g="2" itemId="1457" amount="1" color1="66" color2="21"/>
+        
+      </plant>
+      
+      <plant id="89652" color="0x77FF9C00">
+        
+        <!-- Periwinkle Petal Slippers -->
+        
+        <reward positionOffset="-10,0" scale=".7" g="1" itemId="3836" amount="1" color1="275" color2="0"/>
+        
+        <!-- Calla Lily Boots -->
+        
+        <reward scale=".65" g="2" itemId="3838" amount="1" color1="150" color2="39"/>
+        
+      </plant>
+      
+      <plant id="89653" color="0x77FF9C00">
+        
+        <!-- Periwinkle Petal Wrap -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="1" itemId="1667" amount="1" color1="211" color2="275"/>
+        
+        <!-- Calla Lily Belt -->
+        
+        <reward positionOffset="0,-25" scale=".7" g="2" itemId="649" amount="1" color1="39" color2="0"/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89031" instaGrowCost="1">
+      
+      <plant id="89654" color="0x77d93079">
+        
+        <!-- Bubble Aura Silly Sweet -->
+        
+        <reward positionOffset="0,-50" itemId="22526" amount="3" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89655" color="0x77d93079">
+        
+        <!-- Bubble Trail Silly Sweet -->
+        
+        <reward positionOffset="-10,-25" itemId="22543" amount="3" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89656" color="0x77d93079">
+        
+        <!-- Fireworks Silly Sweet -->
+        
+        <reward itemId="22537" amount="3" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89657" color="0x77d93079">
+        
+        <!-- Ice Cream Silly Sweet -->
+        
+        <reward positionOffset="10,-25" rare="1" itemId="22557" amount="3" color1="0" color2="0" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89032" instaGrowCost="1">
+      <plant id="89658" color="0x7780fe00">
+        <!-- Bottle of Watermelon Pink Dye -->
+        <reward positionOffset="0,-30" scale=".7" itemId="14008" amount="1" color1="0" color2="0" g=""/>
+      </plant>
+      <plant id="89659" color="0x7780fe00">
+        <!-- Bottle of Seedling Green Dye -->
+        <reward positionOffset="5,0" scale=".7" itemId="14139" amount="1" color1="0" color2="0" g=""/>
+      </plant>
+      <plant id="89660" color="0x7780fe00">
+        <!-- Bottle of Butterfly Blue Dye -->
+        <reward positionOffset="5,30" scale=".7" itemId="14063" amount="1" color1="0" color2="0" g=""/>
+      </plant>
+      <plant id="89661" color="0x7780fe00">
+        <!-- Bottle of Kingfisher Purple Dye -->
+        <reward positionOffset="-5,30" scale=".7" itemId="14279" amount="1" color1="0" color2="0" g=""/>
+      </plant>
+      <plant id="89662" color="0x7780fe00">
+        <!-- Bottle of Buried Treasure Brown Dye -->
+        <reward positionOffset="-5,0" scale=".7" itemId="14161" amount="1" color1="0" color2="0" g=""/>
+      </plant>
+    </item>
+    
+    <item id="89033" instaGrowCost="3">
+      <plant id="89664" color="0x77f0e501">
+        <!-- Climbing Roses -->
+        <reward positionOffset="0,-50" itemId="7898" amount="1" color1="0" color2="0" g=""/>
+      </plant>
+      <plant id="89663" color="0x77f0e501">
+        <!-- Bluebells -->
+        <reward positionOffset="-10,0" scale=".85" itemId="7886" amount="1" color1="0" color2="0" g=""/>
+      </plant>
+      <plant id="89665" color="0x77f0e501">
+        <!-- Sunflowers -->
+        <reward positionOffset="5,35" scale=".8" itemId="7795" amount="1" color1="0" color2="0" g=""/>
+      </plant>
+      <plant id="89666" color="0x77f0e501">
+        <!-- Daisies -->
+        <reward positionOffset="5,40" scale=".7" itemId="7792" amount="1" color1="0" color2="0" g=""/>
+      </plant>
+      <plant id="89667" color="0x77f0e501">
+        <!-- Palm Tree -->
+        <reward positionOffset="10,0" scale=".8" rare="1" itemId="7899" amount="1" color1="0" color2="0" g=""/>
+      </plant>
+    </item>
+    
+    <item id="89034" instaGrowCost="3">
+      
+      <plant id="89668" color="0x777b81df">
+        
+        <!-- Strappy Sandal -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="1" itemId="3608" amount="1" color1="152" color2="0"/>
+        
+        <!-- Sporty Shoes -->
+        
+        <reward positionOffset="0,-50" g="2" itemId="3633" amount="1" color1="55" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89669" color="0x777b81df">
+        
+        <!-- Bubble Top Slippers -->
+        
+        <reward scale=".6" g="1" itemId="3520" amount="1" color1="208" color2="0"/>
+        
+        <!-- Swashbuckling Boots -->
+        
+        <reward positionOffset="-5,0" scale=".85" g="2" itemId="3599" amount="1" color1="77" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89670" color="0x777b81df">
+        
+        <!-- Tie Dye Sandals -->
+        
+        <reward positionOffset="5,40" scale=".7" g="1" itemId="3568" amount="1" color1="264" color2="258"/>
+        
+        <!-- Easy Walker -->
+        
+        <reward positionOffset="0,40" scale=".6" g="2" itemId="3672" amount="1" color1="91" color2="77"/>
+        
+      </plant>
+      
+      <plant id="89671" color="0x777b81df">
+        
+        <!-- Citrus Peel Heels -->
+        
+        <reward positionOffset="0,40" scale=".7" g="1" itemId="3603" amount="1" color1="248" color2="30"/>
+        
+        <!-- Knit Messenger Slippers -->
+        
+        <reward positionOffset="0,40" scale=".6" g="2" itemId="3653" amount="1" color1="246" color2="240"/>
+        
+      </plant>
+      
+      <plant id="89672" color="0x777b81df">
+        
+        <!-- Saffron Slippers -->
+        
+        <reward scale=".7" rare="1" g="1" itemId="3540" amount="1" color1="265" color2="0"/>
+        
+        <!-- Bamboo Sandals -->
+        
+        <reward positionOffset="5,0" scale=".8" rare="1" g="2" itemId="3692" amount="1" color1="109" color2="105"/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89035" instaGrowCost="5">
+      
+      <plant id="89673" color="0x77008d8a">
+        
+        <!-- Overgrown Bench -->
+        
+        <reward positionOffset="0,-50" scale=".8" itemId="6721" amount="1" color1="221" color2="247" g=""/>
+        
+      </plant>
+      
+      <plant id="89674" color="0x77008d8a">
+        
+        <!-- Sunflower Loveseat -->
+        
+        <reward positionOffset="0,10" scale=".7" itemId="6513" amount="1" color1="254" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89675" color="0x77008d8a">
+        
+        <!-- Rose Recliner -->
+        
+        <reward positionOffset="5,40" scale=".65" itemId="6656" amount="1" color1="287" color2="139" g=""/>
+        
+      </plant>
+      
+      <plant id="89676" color="0x77008d8a">
+        
+        <!-- Leaf Lounger -->
+        
+        <reward positionOffset="0,40" scale=".7" itemId="6515" amount="1" color1="159" color2="0" g=""/>
+        
+      </plant>
+      
+      <plant id="89677" color="0x77008d8a">
+        
+        <!-- Twig Porch Swing -->
+        
+        <reward scale=".8" rare="1" itemId="6540" amount="1" color1="190" color2="221" g=""/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89036" instaGrowCost="5">
+      
+      <plant id="89668" color="0x7784d6d8">
+        
+        <!-- Plumeria Top -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="1" itemId="155" amount="1" color1="152" color2="44"/>
+        
+        <!-- Sporty Top -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="2" itemId="147" amount="1" color1="208" color2="267"/>
+        
+      </plant>
+      
+      <plant id="89669" color="0x7784d6d8">
+        
+        <!-- Bubble Button Top -->
+        
+        <reward scale=".7" g="1" itemId="28" amount="1" color1="208" color2="267"/>
+        
+        <!-- Smee Ruffle Top -->
+        
+        <reward scale=".7" g="2" itemId="154" amount="1" color1="166" color2="81"/>
+        
+      </plant>
+      
+      <plant id="89670" color="0x7784d6d8">
+        
+        <!-- Tropical Top -->
+        
+        <reward positionOffset="0,35" scale=".7" g="1" itemId="46" amount="1" color1="258" color2="264"/>
+        
+        <!-- Wing Tee -->
+        
+        <reward positionOffset="0,40" scale=".7" g="2" itemId="232" amount="1" color1="203" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89671" color="0x7784d6d8">
+        
+        <!-- Sunshine Top -->
+        
+        <reward positionOffset="0,35" scale=".7" g="1" itemId="45" amount="1" color1="252" color2="248"/>
+        
+        <!-- Knit Messenger Top -->
+        
+        <reward positionOffset="0,40" scale=".7" g="2" itemId="267" amount="1" color1="245" color2="247"/>
+        
+      </plant>
+      
+      <plant id="89672" color="0x7784d6d8">
+        
+        <!-- Saffron Top -->
+        
+        <reward scale=".7" rare="1" g="1" itemId="53" amount="1" color1="286" color2="287"/>
+        
+        <!-- Hawk Tee -->
+        
+        <reward scale=".7" rare="1" g="2" itemId="373" amount="1" color1="239" color2="169"/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89037" instaGrowCost="5">
+      
+      <plant id="89668" color="0x7744b8d8">
+        
+        <!-- Plumeria Sarong -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="1" itemId="1140" amount="1" color1="152" color2="44"/>
+        
+        <!-- Sporty Shorts -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="2" itemId="1193" amount="1" color1="209" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89669" color="0x7744b8d8">
+        
+        <!-- Lily Pad Bubble Skirt -->
+        
+        <reward scale=".7" g="1" itemId="1010" amount="1" color1="208" color2="0"/>
+        
+        <!-- Pirate Pants -->
+        
+        <reward scale=".7" g="2" itemId="1194" amount="1" color1="118" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89670" color="0x7744b8d8">
+        
+        <!-- Tropical Sarong -->
+        
+        <reward positionOffset="0,40" scale=".7" g="1" itemId="1051" amount="1" color1="258" color2="264"/>
+        
+        <!-- Beach Breezy Shorts -->
+        
+        <reward positionOffset="0,40" scale=".7" g="2" itemId="1239" amount="1" color1="141" color2="214"/>
+        
+      </plant>
+      
+      <plant id="89671" color="0x7744b8d8">
+        
+        <!-- Sunshine Skirt -->
+        
+        <reward positionOffset="0,40" scale=".7" g="1" itemId="1050" amount="1" color1="252" color2="248"/>
+        
+        <!-- Knit Messenger Pants -->
+        
+        <reward positionOffset="0,40" scale=".7" g="2" itemId="1216" amount="1" color1="246" color2="240"/>
+        
+      </plant>
+      
+      <plant id="89672" color="0x7744b8d8">
+        
+        <!-- Saffron Skirt -->
+        
+        <reward scale=".7" rare="1" g="1" itemId="1058" amount="1" color1="286" color2="287"/>
+        
+        <!-- Breezy Casual Shorts -->
+        
+        <reward scale=".7" rare="1" g="2" itemId="1227" amount="1" color1="224" color2="168"/>
+        
+      </plant>
+      
+    </item>
+    
+    <item id="89038" instaGrowCost="5">
+      
+      <plant id="89668" color="0x77bf00ca">
+        
+        <!-- Sweet Sunflower Headband -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="1" itemId="2467" amount="1" color1="248" color2="139"/>
+        
+        <!-- Sporty Sparrow Band -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="2" itemId="2130" amount="1" color1="55" color2="0"/>
+        
+      </plant>
+      
+      <plant id="89669" color="0x77bf00ca">
+        
+        <!-- Sweet Sunflower Top -->
+        
+        <reward scale=".7" g="1" itemId="1000110" amount="1" color1="248" color2="0"/>
+        
+        <!-- Berry Ball Jersey -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="2" itemId="275" amount="1" color1="268" color2="267"/>
+        
+      </plant>
+      
+      <plant id="89670" color="0x77bf00ca">
+        
+        <!-- Sweet Sunflower Skirt -->
+        
+        <reward positionOffset="0,40" scale=".7" g="1" itemId="1001024" amount="1" color1="248" color2="0"/>
+        
+        <!-- Berry Ball Shorts -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="2" itemId="1226" amount="1" color1="267" color2="268"/>
+        
+      </plant>
+      
+      <plant id="89671" color="0x77bf00ca">
+        
+        <!-- Sweet Sunflower Slippers -->
+        
+        <reward positionOffset="0,40" scale=".65" g="1" itemId="3899" amount="1" color1="248" color2="240"/>
+        
+        <!-- AllTerrain Training Shoes -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="2" itemId="3668" amount="1" color1="215" color2="55"/>
+        
+      </plant>
+      
+      <plant id="89672" color="0x77bf00ca">
+        
+        <!-- Sweet Sunflower Necklace -->
+        
+        <reward positionOffset="10,0" scale=".7" rare="1" g="1" itemId="2643" amount="1" color1="248" color2="139"/>
+        
+        <!-- Thistle Whistle -->
+        
+        <reward positionOffset="0,-50" scale=".7" g="2" itemId="2549" amount="1" color1="55" color2="215"/>
+        
+      </plant>
+      
+    </item>
+    
+  </config>
+  
+</gardenAssets>

@@ -1,0 +1,13 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/teleportingPanel.swf</swf>
+		<swf type="code">{panelCode}/teleporting.swf</swf>
+	</swfs>
+	<copy>
+		<text>_ is traveling to</text>
+		<noname>You are travelling to</noname>
+		<loading>Loading</loading>
+	</copy>
+	<config>
+	</config>
+</panel>

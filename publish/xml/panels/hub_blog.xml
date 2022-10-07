@@ -1,0 +1,28 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/hub_blog.swf</swf>
+		<!-- -->
+		<swf type="code">{publishPanelCode}/hub_blog.swf</swf>
+		
+	</swfs>
+	<copy>
+
+	</copy>
+	<config>
+		<doSurvey>false</doSurvey>
+		<id>contests</id>
+		<promos>
+			<promo>
+				
+				
+			</promo>
+			
+			
+			
+			
+		</promos>
+		
+		
+		
+	</config>
+</panel>

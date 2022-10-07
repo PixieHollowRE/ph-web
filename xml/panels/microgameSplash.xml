@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/microDots.swf</swf>
+		<swf type="code">{panelCode}/microDots.swf</swf>
+	</swfs>
+	<copy>		
+		<title>Splash</title>		
+		<instructions>Click all the drops!</instructions>
+	</copy>
+	<config>
+		<microGameId>Splash</microGameId>
+		<test>false</test>
+		<spellName>splash</spellName>
+		<visuals>
+			<visual id="plain_dot">dot_plain</visual>
+			<visual id="star">Star</visual>
+			<visual id="scoreDot">scoreDot</visual>
+			<visual id="starYellow">yellowStar</visual>
+			<visual id="circleYellow">yellowCircle</visual>
+			<visual id="starBlue">blueStar</visual>
+			<visual id="starGreen">greenStar</visual>
+			<visual id="starPurple">purpleStar</visual>
+			<visual id="starRed">redStar</visual>
+			<visual id="blueSplash">blueSplash</visual>
+		<!-- value to end game: 1053 -->
+		<!-- -->
+		</visuals>
+		<colors>
+			<color id="blue_inner">0x92beff</color>
+			<color id="blue_outer">0x6c9ee8</color>
+			<color id="blue_upper">0x365c95</color>
+			<color id="yellow">0xeddd70</color>
+			<color id="blue">0x66b3f4</color>
+			<color id="purple">0xb288f7</color>
+			<color id="red">0xef9380</color>
+			<color id="green">0x8bed8b</color>
+		</colors>
+		<levels>
+			<level number="0" lifetime="9">
+				<!-- click all the dots -->
+				<background color_inner="blue_inner" color_outer="blue_outer" color_upper="blue_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="1" lifetime="9">
+				<!-- click all the dots -->
+				<background color_inner="blue_inner" color_outer="blue_outer" color_upper="blue_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="2" lifetime="9">
+				<!-- click all the dots -->
+				<background color_inner="blue_inner" color_outer="blue_outer" color_upper="blue_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="3" lifetime="9">
+				<!-- click all the dots -->
+				<background color_inner="blue_inner" color_outer="blue_outer" color_upper="blue_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="4" lifetime="9">
+				<!-- click all the dots -->
+				<background color_inner="blue_inner" color_outer="blue_outer" color_upper="blue_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+		</levels>
+		<rounds>
+			<round id="0">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot value="10" x="30" y="random" ymin="20" ymax="60" visual="blueSplash" />
+					<dot value="10" x="50" y="random" ymin="20" ymax="60" visual="blueSplash" />
+					<dot value="10" x="60" y="random" ymin="20" ymax="60" visual="blueSplash" />				
+				</dots>
+			</round>
+			<round id="1">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot value="10" x="20" y="random" ymin="20" ymax="60" visual="blueSplash" />
+					<dot value="10" x="30" y="random" ymin="20" ymax="60" visual="blueSplash" />
+					<dot value="10" x="40" y="random" ymin="20" ymax="60" visual="blueSplash" />
+					<dot value="10" x="50" y="random" ymin="20" ymax="60" visual="blueSplash" />				
+				</dots>
+			</round>
+			<round id="2">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot value="10" x="20" y="random" ymin="20" ymax="60" visual="blueSplash" />
+					<dot value="10" x="30" y="random" ymin="20" ymax="60" visual="blueSplash" />
+					<dot value="10" x="40" y="random" ymin="20" ymax="60" visual="blueSplash" />
+					<dot value="10" x="60" y="random" ymin="20" ymax="60" visual="blueSplash" />					
+				</dots>
+			</round>
+			<round id="3">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot value="10" x="10" y="random" visual="blueSplash" />
+					<dot value="10" x="20" y="random" visual="blueSplash" />
+					<dot value="10" x="30" y="random" visual="blueSplash" />
+					<dot value="10" x="40" y="random" visual="blueSplash" />
+					<dot value="10" x="50" y="random" visual="blueSplash" />
+					<dot value="10" x="60" y="random" visual="blueSplash" />
+					<dot value="10" x="70" y="random" visual="blueSplash" />							
+				</dots>
+			</round>
+			<round id="4">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot value="10" x="10" y="random" visual="blueSplash" />
+					<dot value="10" x="20" y="random" visual="blueSplash" />
+					<dot value="10" x="30" y="random" visual="blueSplash" />
+					<dot value="10" x="40" y="random" visual="blueSplash" />
+					<dot value="10" x="50" y="random" visual="blueSplash" />
+					<dot value="10" x="60" y="random" visual="blueSplash" />
+					<dot value="10" x="70" y="random" visual="blueSplash" />
+					<dot value="10" x="80" y="random" visual="blueSplash" />						
+				</dots>
+			</round>
+		</rounds>		
+	</config>
+</panel>

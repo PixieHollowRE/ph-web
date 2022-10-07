@@ -1,0 +1,18 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/postOfficeGiftSets.swf</swf>
+		<swf type="code">{panelCode}/postOfficeGiftSets.swf</swf>
+	</swfs>
+	<copy>
+		<next target = "nextlabel">Next</next>
+		<back target = "backlabel">Back</back>
+		<outOf>gift set</outOf>
+		<from>from,</from>
+		<deleteConfirmation>Your new clothes are in your Leaf Journal!</deleteConfirmation>
+		<ok>Close</ok>
+		<notYet>View Again</notYet>
+		<donated>Item has been donated.</donated>
+	</copy>
+	<config>
+	</config>
+</panel>

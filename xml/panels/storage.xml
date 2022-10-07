@@ -1,0 +1,28 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/storage.swf</swf>
+		<swf type="code">{panelCode}/storage.swf</swf>
+	</swfs>
+	<config>
+	</config>
+	<copy>
+		<tab0tooltip>Furniture</tab0tooltip>
+		<tab1tooltip>Lamps</tab1tooltip>
+		<tab2tooltip>Decorations</tab2tooltip>
+		<newText target="bigStar.newText">New!</newText>
+		<from>Created by:</from>
+		<specialFrom>Special item from:</specialFrom>
+		<donate>Make a donation!</donate>
+		<acquired>Oldest to Newest</acquired>
+		<reverseAcquired>Newest to Oldest</reverseAcquired>
+		<color>Color</color>
+		<type>Diamond Items</type>
+		<alphabet>Alphabetical</alphabet>
+		<sortCopy>Sort By:</sortCopy>
+		<multipleSlotsAvailableText>Room for #NUM# more items.</multipleSlotsAvailableText>
+		<singleSlotAvailableText>Room for 1 more item.</singleSlotAvailableText>
+		<noSlotsAvailableText>Your storage is full.</noSlotsAvailableText>
+		<convert target="convertHolder.convert.caption">Upgrade</convert>
+		<convertFee>Upgrade this for #COST# Pixie Diamonds.</convertFee>
+	</copy>
+</panel>

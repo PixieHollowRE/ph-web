@@ -1,0 +1,12 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/pixieDustMeter.swf</swf>
+		<swf type="code">{panelCode}/pixieDustMeter.swf</swf>
+	</swfs>
+	<config></config>
+	<copy>
+		<dustTTLabel>Pixie Dust:</dustTTLabel>
+		<preDust>Use Pixie Dust at Level ###level###!</preDust>
+		<unpaidAndAdvanced>Become a Member to use your Pixie Dust!</unpaidAndAdvanced>
+	</copy>
+</panel>

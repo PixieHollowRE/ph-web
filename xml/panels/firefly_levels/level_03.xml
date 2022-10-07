@@ -1,0 +1,64 @@
+<level>	
+	<light x = "95" y = "253">yellow</light>
+	<light x = "783" y = "253">yellow</light>		
+	<firefly image="firefly">
+		<path smooth="10" >
+			<point x="320" y="153" />
+			<point x="440" y="253" />
+			<point x="320" y="353" />
+			<point x="440" y="353" />
+			<point x="320" y="253" />
+			<point x="440" y="153" />
+			<point x="200" y="403" />
+			<point x="320" y="403" />
+			<point x="560" y="103" />
+			<point x="440" y="153" />
+		</path>
+		<turnspeed>0.15</turnspeed>
+	</firefly>
+	<firefly image="firefly">
+		<path smooth="10" >	
+			<point x="320" y="153" />
+			<point x="200" y="253" />
+			<point x="320" y="353" />
+			<point x="200" y="353" />
+			<point x="320" y="253" />
+			<point x="200" y="153" />
+			<point x="440" y="403" />
+			<point x="560" y="403" />
+			<point x="320" y="103" />
+			<point x="200" y="153" />
+		</path>
+		<turnspeed>0.15</turnspeed>
+	</firefly>
+	<firefly image="firefly">
+		<path smooth="10" >	
+			<point x="560" y="353" />
+			<point x="440" y="253" />
+			<point x="560" y="153" />
+			<point x="440" y="153" />
+			<point x="560" y="253" />
+			<point x="440" y="353" />
+			<point x="680" y="103" />
+			<point x="560" y="103" />
+			<point x="320" y="403" />
+			<point x="440" y="353" />
+		</path>
+		<turnspeed>0.15</turnspeed>		
+	</firefly>
+	<firefly image="firefly">
+		<path smooth="10" >	
+			<point x="560" y="353" />
+			<point x="680" y="253" />
+			<point x="560" y="153" />
+			<point x="680" y="153" />
+			<point x="560" y="253" />
+			<point x="680" y="353" />
+			<point x="440" y="103" />
+			<point x="320" y="103" />
+			<point x="560" y="403" />
+			<point x="680" y="353" />
+		</path>
+		<turnspeed>0.15</turnspeed>		
+	</firefly>	
+</level>

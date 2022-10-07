@@ -1,0 +1,18 @@
+<level>
+	<objectiveTitle>Hi honeysuckle!</objectiveTitle>
+	<objective>Hoo, I need a rest, sugar! Why don't you go catch as many petals as you can?</objective>
+
+	<rosettaStartMessage>Hurry and loop as many petals as you can!</rosettaStartMessage>
+	
+	<bees>0</bees>
+	<multiplierChance>0</multiplierChance>
+	<randomPetalConfig>0-6,0-6,0-8,0-8</randomPetalConfig>
+	<!--
+	<petals rose="5" lily="5" sun="5"/>
+	<targets/>
+	-->
+	<powerups/>
+	<minLegalPetalCount>2</minLegalPetalCount>
+	<timeLimit>15</timeLimit>
+	<isBonusLevel>true</isBonusLevel>
+</level>

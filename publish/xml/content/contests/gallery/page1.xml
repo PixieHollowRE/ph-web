@@ -1,0 +1,81 @@
+<page>
+	<config>
+	<taglines type="contentheader" headertype="long">
+		<bannergraphic type="image">{publishPanelImages}/tabby_signature.png</bannergraphic>
+		<tagline font="pristina">header</tagline>	
+		<tagline>tagline1</tagline>
+			<tagline>tagline2</tagline>
+	</taglines>
+	<submitpanel type="grid" xOffset="50">
+		
+		<popup type="popup">
+			<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/fairy12_tn.png</bannergraphic>
+			<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/fairy12.png</bannergraphic>
+			<bannergraphic type="imagename">Fairy 12</bannergraphic>
+		</popup>
+		<popup type="popup">
+			<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/Petunia_Applelily_fairy01_tn.png</bannergraphic>
+			<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/Petunia_Applelily_fairy01.png</bannergraphic>
+			<bannergraphic type="imagename">Petunia Applelily 1</bannergraphic>
+		</popup>
+		<popup type="popup">
+			<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/Petunia_Applelily_fairy02_tn.png</bannergraphic>
+			<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/Petunia_Applelily_fairy02.png</bannergraphic>
+			<bannergraphic type="imagename">Petunia Applelily 2</bannergraphic>
+		</popup>
+		<popup type="popup">
+			<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/Petunia_Applelily_fairy03_tn.png</bannergraphic>
+			<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/Petunia_Applelily_fairy03.png</bannergraphic>
+			<bannergraphic type="imagename">Petunia Applelily 3</bannergraphic>
+		</popup>
+		<popup type="popup">
+			<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/Petunia_Applelily_fairy04_tn.png</bannergraphic>
+			<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/Petunia_Applelily_fairy04.png</bannergraphic>
+			<bannergraphic type="imagename">Petunia Applelily 4</bannergraphic>
+		</popup>
+		<popup type="popup">
+			<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/Petunia_Applelily_fairy05_tn.png</bannergraphic>
+			<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/Petunia_Applelily_fairy05.png</bannergraphic>
+			<bannergraphic type="imagename">Petunia Applelily 5</bannergraphic>
+		</popup>
+		<popup type="popup">
+			<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/Petunia_Applelily_fairy06_tn.png</bannergraphic>
+			<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/Petunia_Applelily_fairy06.png</bannergraphic>
+			<bannergraphic type="imagename">Petunia Applelily 6</bannergraphic>
+		</popup>
+		<popup type="popup">
+			<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/Petunia_Applelily_fairy07_tn.png</bannergraphic>
+			<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/Petunia_Applelily_fairy07.png</bannergraphic>
+			<bannergraphic type="imagename">Petunia Applelily 7</bannergraphic>
+		</popup>
+		<popup type="popup">
+			<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/Petunia_Applelily_fairy08_tn.png</bannergraphic>
+			<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/Petunia_Applelily_fairy08.png</bannergraphic>
+			<bannergraphic type="imagename">Petunia Applelily 8</bannergraphic>
+		</popup>
+		<popup type="popup">
+			<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/Petunia_Applelily_fairy09_tn.png</bannergraphic>
+			<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/Petunia_Applelily_fairy09.png</bannergraphic>
+			<bannergraphic type="imagename">Petunia Applelily 9</bannergraphic>
+		</popup>
+		<popup type="popup">
+			<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/Petunia_Applelily_fairy10_tn.png</bannergraphic>
+			<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/Petunia_Applelily_fairy10.png</bannergraphic>
+			<bannergraphic type="imagename">Petunia Applelily 10</bannergraphic>
+		</popup>
+		<popup type="popup">
+			<bannergraphic type="thumb" panel="thumbpopup" height="105" width="206">{publishPanelImages}/gallery/thumbnails/Stella_Mangoflower_fairy01_tn.png</bannergraphic>
+			<bannergraphic type="pop" height="333" width="333">{publishPanelImages}/gallery/Stella_Mangoflower_fairy01.png</bannergraphic>
+			<bannergraphic type="imagename">Stella Mangoflower</bannergraphic>
+		</popup>
+	</submitpanel>
+</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">Fairy Art Gallery</span>]]></header>
+		<tagline1><![CDATA[<span class="newsbodytext">Hello Pixie Pals! It's alsways a pleasure when our talented Fairies in the Hollow express themselves creatively. I thought I'd Share some of their work with you.<br><br>Fly with you!</span>]]></tagline1>
+		<tagline2><![CDATA[<span class="newsbodytext"></span>]]></tagline2>
+		
+		
+	</copy>
+	
+</page>

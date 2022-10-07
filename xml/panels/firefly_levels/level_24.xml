@@ -1,0 +1,123 @@
+<level>	
+	<light x = "95" y = "253">yellow</light>
+	<light x = "783" y = "253">yellow</light>
+	<light x = "95" y = "178">purple</light>
+	<light x = "783" y = "178">purple</light>
+	<light x = "95" y = "328">purple</light>
+	<light x = "783" y = "328">purple</light>
+	<firefly image="firefly">
+		<path>
+			<point x="267" y="203" />
+			<point x="611" y="128" />
+			<point x="654" y="165" />
+			<point x="611" y="203" />
+			<point x="267" y="128" />
+			<point x="224" y="165" />			
+		</path>
+		<speed>6</speed>
+		<drift>50</drift>
+		<jitter>0.05</jitter>
+	</firefly>
+	<firefly image="firefly">
+		<path>
+			<point x="267" y="153" />
+			<point x="611" y="228" />
+			<point x="654" y="190" />
+			<point x="611" y="153" />
+			<point x="267" y="228" />
+			<point x="224" y="190" />
+		</path>
+		<speed>6</speed>
+		<drift>50</drift>
+		<jitter>0.05</jitter>
+	</firefly>
+	<firefly image="firefly">
+		<path>
+			<point x="267" y="253" />
+			<point x="611" y="178" />
+			<point x="654" y="215" />			
+			<point x="611" y="253" />
+			<point x="267" y="178" />
+			<point x="224" y="215" />	
+		</path>
+		<speed>6</speed>
+		<drift>50</drift>
+		<jitter>0.05</jitter>
+	</firefly>
+	<firefly image="firefly">
+		<path>
+			<point x="267" y="203" />
+			<point x="611" y="278" />
+			<point x="654" y="240" />				
+			<point x="611" y="203" />
+			<point x="267" y="278" />
+			<point x="224" y="240" />				
+		</path>
+		<speed>6</speed>
+		<drift>50</drift>
+		<jitter>0.05</jitter>
+	</firefly>
+	<firefly image="firefly">
+		<path>
+			<point x="267" y="303" />
+			<point x="611" y="228" />
+			<point x="654" y="265" />	
+			<point x="611" y="303" />
+			<point x="267" y="228" />
+			<point x="224" y="265" />	
+		</path>
+		<speed>6</speed>
+		<drift>50</drift>
+		<jitter>0.05</jitter>
+	</firefly>
+	<firefly image="firefly">
+		<path>
+			<point x="267" y="253" />
+			<point x="611" y="328" />
+			<point x="654" y="290" />	
+			<point x="611" y="253" />
+			<point x="267" y="328" />
+			<point x="224" y="290" />			
+		</path>
+		<speed>6</speed>
+		<drift>50</drift>
+		<jitter>0.05</jitter>
+	</firefly>	
+	<firefly image="firefly">
+		<path>
+			<point x="267" y="353" />			
+			<point x="611" y="278" />
+			<point x="654" y="315" />				
+			<point x="611" y="353" />
+			<point x="267" y="278" />
+			<point x="224" y="315" />				
+		</path>
+		<speed>6</speed>
+		<drift>50</drift>
+		<jitter>0.05</jitter>
+	</firefly>	
+	<firefly image="firefly">
+		<path>
+			<point x="267" y="303" />
+			<point x="611" y="378" />
+			<point x="654" y="340" />			
+			<point x="611" y="303" />
+			<point x="267" y="378" />
+			<point x="224" y="340" />			
+		</path>
+		<speed>6</speed>
+		<drift>50</drift>
+		<jitter>0.05</jitter>
+	</firefly>	
+	<firefly image="moth">
+		<path>			
+			<point x="482" y="203" />
+			<point x="611" y="303" />
+			<point x="482" y="303" />
+			<point x="611" y="203" />
+		</path>
+		<type>moth</type>
+		<speed>6</speed>
+		<attract>25</attract>
+	</firefly>			
+</level>

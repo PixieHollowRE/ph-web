@@ -1,0 +1,24 @@
+<zone>
+  <name>Spike's Sweet Shop</name>
+  <zoneID>110011</zoneID>
+  <assetURL/>
+  <clientLayout>
+    <layers>
+      <layer type="ground" width="900" height="509">
+        <image x="0" y="0" type="none">Spikes_action_03.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="525" y="323">default</location>
+    <location x="350" y="228">shopEntrance</location>
+  </locations>
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

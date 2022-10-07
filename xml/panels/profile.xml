@@ -1,0 +1,80 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/profile.swf</swf>
+		<swf type="code">{panelCode}/profile.swf</swf>
+	</swfs>
+	<copy>
+		<tab0 target = "tray.contents.tab_set.btn0.clip.txt">Profile</tab0>
+		<tab1 target = "tray.contents.tab_set.btn1.clip.txt">Badges</tab1>
+		<tab2 target = "tray.contents.tab_set.btn2.clip.txt">Games</tab2>
+		<scoreLabel_won>Wins:</scoreLabel_won>
+		<scoreLabel_timesPlayed>Times Played:</scoreLabel_timesPlayed>
+		<scoreLabel_highScore>Best Score:</scoreLabel_highScore>
+		<scoreLabel_gotBadge>High Score Badge:</scoreLabel_gotBadge>
+		<addressHeader>Pixie Page</addressHeader>
+		<rating target = "header.rating_text">RATING</rating>
+		<burst_text target = "header.average_rating.burst.caption">Saving...</burst_text>
+		<whisper>Whisper</whisper>
+		<goto>Fly To</goto>
+		<home>Go To Home</home>
+		<friend>Be Friends</friend>
+		<unfriend>Remove Friend</unfriend>
+		<ignore>Ignore</ignore>
+		<unignore>Stop Ignoring</unignore>
+		<report>Report</report>
+		<expand>Expand</expand>
+		<boot>Remove from home and garden</boot>
+		<shrink>Shrink</shrink>
+		<animal>Animal</animal>
+		<light>Light</light>
+		<garden>Garden</garden>
+		<water>Water</water>
+		<tinker>Tinker</tinker>
+		<talent>#TYPE#-Talent</talent>
+		<rate_this></rate_this>
+		<rating_view>Average Rating:</rating_view>
+		<rating_rate>Rate This Fairy:</rating_rate>
+		<rating_you_have>You rated them:</rating_you_have>
+		<view_overall>View Overall Rating</view_overall>
+		<goto_text>Are you sure you want to fly to this Fairy?</goto_text>
+		<offline_text>This Fairy is unavailable.</offline_text>
+		<home_text>Are you sure you want to fly to this Fairy's home?</home_text>
+		<boot_text>Do you need to remove #NAME# from your home and garden?</boot_text>
+		<pendfriend_text>Oops... Please cancel your friendship invite to this player first!</pendfriend_text>
+		<invite_cooldown>Oops... Please wait a while before resending an invite to a player!</invite_cooldown>
+		<parygameopenalert>You are currently waiting for a party game. Please finish your party game before playing games with your Animal Friend.</parygameopenalert>
+		<yes>Yes</yes>
+		<no>No</no>
+		<ok>OK</ok>
+		<teleportToFairyFail>You can't go to #NAME# right now. Try flying to #GENDERREF# later.</teleportToFairyFail>
+
+		<animalTab0 target = "tray.animalContents.tab_set.btn0.clip.txt">Profile</animalTab0>
+		<animalTab1 target = "tray.animalContents.tab_set.btn1.clip.txt">Badges</animalTab1>
+		<animalProfileFood target = "tray.animalContents.tab_set.content0.foodTitle">Favorites:</animalProfileFood>
+		<animalProfileGrowth target = "tray.animalContents.tab_set.content0.growthTitle">Age:</animalProfileGrowth>
+		<animalProfileNextStage target = "tray.animalContents.tab_set.content0.nextstage">Points to next stage</animalProfileNextStage>
+		<animalProfileFavGame target = "tray.animalContents.tab_set.content0.gameBox.gameName">Game</animalProfileFavGame>
+		<animalProfileFavFood target = "tray.animalContents.tab_set.content0.foodBox.foodName">Food</animalProfileFavFood>
+		<animalFriend_happinessMeter_label>Mood</animalFriend_happinessMeter_label>
+		<animalFriend_healthMeter_label>Health</animalFriend_healthMeter_label>
+		<animalFriend_hungerMeter_label>Hunger</animalFriend_hungerMeter_label>
+		<animalPlay>Play</animalPlay>
+		<animalGoAndPlay>Go Home And Play</animalGoAndPlay>
+		<animalRest>Take A Nap</animalRest>
+		<animalUnrest>Follow Me</animalUnrest>
+		<animalFeed>Feed</animalFeed>
+		<animalHospital>Go To Hospital</animalHospital>
+		<animalHeal>Heal Pet</animalHeal>
+		<toolTipAnimalTab>Animal Friend</toolTipAnimalTab>
+		<toolTipFairyTab>Fairy</toolTipFairyTab>
+		<toolTipAnimalGrowthChart>Current Level: x of 10</toolTipAnimalGrowthChart>
+		<growthProgress>#current# of #next#</growthProgress>
+		<butterflyNote>Butterflies are always healthy and happy!</butterflyNote>
+		<convert target = "tray.animalContents.convertHolder.convert.caption">Upgrade</convert>
+	</copy>
+	<config>
+		<healLocationName>fromZone806</healLocationName>
+		<util>
+		</util>
+	</config>
+</panel>

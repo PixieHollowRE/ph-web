@@ -1,0 +1,1088 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/spiderStitching.swf</swf>
+		<swf type="code">{panelCode}/spiderStitching.swf</swf>
+	</swfs>
+	<copy>
+		<title target="title.title.heading">spiderStitching</title>
+		<level>Level</level>
+		<score>Score</score>
+		<play_button target="title.btnContainer.playBtn.caption">Play</play_button>
+		<help_button target="title.btnContainer.helpBtn.caption">Instructions</help_button>
+		<quit_button target="title.btnContainer.quitBtn.caption">Exit</quit_button>
+
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">How to Play</inst_screen_title>
+		<instruction0>When the spider is over the target, click to tell her to make a stitch.</instruction0>
+		<instruction1>Be careful - you only have a single chance!</instruction1>
+		<instruction2>Click when she's over the center of the target to earn more points.</instruction2>
+		
+		<inst_play target="instructions.btnContainer.playBtn.play_text">Play</inst_play>
+		<inst_back target="instructions.btnContainer.backBtn.back_text">Back</inst_back>		
+		<inst_cont target="instructions.btnContainer.continueBtn.quit_text">Continue</inst_cont>		
+		<inst_quit target="instructions.btnContainer.quitBtn.quit_text">Quit</inst_quit>
+
+		<title>Spider Stitching</title>			<!-- _aText[0] -->
+		<subtitle>Level</subtitle>				<!-- _aText[1] -->
+		<leftHeading>left1</leftHeading>		<!-- _aText[2] -->
+		<leftSubHeading>left2</leftSubHeading>	<!-- _aText[3] -->
+		<rightHeading>Chains</rightHeading>		<!-- _aText[4] -->
+		<rightSubHeading>0</rightSubHeading>	<!-- _aText[5] -->
+		<chance>CHANCES</chance>				<!-- _aText[6] -->
+		<score>SCORE</score>					<!-- _aText[7] -->
+		<level>Level</level>					<!-- _aText[8] -->
+		<completed>Ended</completed>			<!-- _aText[9] -->
+		<gamecomplete>Done!</gamecomplete> <!-- _aText[10] -->
+		<continue>Continue</continue>			<!-- _aText[11] -->
+		<tailoring>Tailoring</tailoring>		<!-- _aText[12] -->
+
+		<bobbinEncouragePerfect>A perfect stitch! Fashion-tastic!</bobbinEncouragePerfect>
+		<bobbinEncouragePerfect>Your stitching is a thing of beauty!</bobbinEncouragePerfect>
+		<bobbinEncouragePerfect>Wow, I couldn't have done better myself!</bobbinEncouragePerfect>
+		<bobbinEncourageAlright>Oh yeah, you're really stitching now!</bobbinEncourageAlright>
+		<bobbinEncourageAlright>Good stitch! I think the spider likes ya!</bobbinEncourageAlright>
+		<bobbinEncourageAlright>Keep on stitching, keep on stitching!</bobbinEncourageAlright>
+		<bobbinEncourageAlright>Nice stitch work!</bobbinEncourageAlright>
+
+		<bobbinDiscourage>Oh snip! Ya missed that one!</bobbinDiscourage>
+		<bobbinDiscourage>No problem, ya barely missed.</bobbinDiscourage>
+		<bobbinDiscourage>Ooh, so close that time!</bobbinDiscourage>
+		<bobbinDiscourage>Spiders sure are quick, aren't they?</bobbinDiscourage>
+
+
+		<bobbinPoor>You gave it your best stitch. I bet you'll do loads better next time!</bobbinPoor>
+		<bobbinPoor>Not bad. Try stitching again, and really concentrate! You'll do better!</bobbinPoor>
+		<bobbinPoor>Keep up that spider stitching - I know ya can do better!</bobbinPoor>
+		<bobbinPoor>Don't give up. All it takes is a little practice, and you'll be stitching like a pro!</bobbinPoor>
+
+		<bobbinGood>What a hem-tastic job! Have ya done spider stitching before?</bobbinGood>
+		<bobbinGood>Hey-oh! You do spider-ific stitching! I'm proud of ya!</bobbinGood>
+		<bobbinGood>Well, thread a needle, ya did some nifty stitching with that spider!</bobbinGood>
+		<bobbinGood>Hey, you're pretty good with spider stitching, ya know that?</bobbinGood>
+
+		<bobbinGreat>Hems and stitches, what great work! Ya sure you're not a sewing-talent?</bobbinGreat>
+		<bobbinGreat>Stitch my hem, you're a natural spider guider!</bobbinGreat>
+		<bobbinGreat>Tailor-tastic job! Ya know, ya remind me of a certain weaving-talent Fairy from Autumn Forest?</bobbinGreat>
+		<bobbinGreat>Well, knot my thread, that's what I call stitch-arific work!</bobbinGreat>
+
+		<bobbinAwesome>Okay, I'm officially astounded. Your spider stitching talents are awesome!</bobbinAwesome>
+		<bobbinAwesome>Ya might be the best tailor I've ever seen! Will ya stitch me your autograph?</bobbinAwesome>
+		<bobbinAwesome>My wings are a'quiver! Your spider stitching skills are awesome!</bobbinAwesome>
+		<bobbinAwesome>Well, bust my buttons! You're a stitch-arific tailor!</bobbinAwesome>
+
+		<mendyEncouragePerfect>We placed that stitch perfectly!</mendyEncouragePerfect>
+		<mendyEncouragePerfect>Wonderful! That was a perfect stitch!</mendyEncouragePerfect>
+		<mendyEncouragePerfect>That was truly perfect!</mendyEncouragePerfect>
+		<mendyEncourageAlright>Very good! Now hurry, do another one!</mendyEncourageAlright>
+
+		<mendyEncourageAlright>We have a gift for spider stitching!</mendyEncourageAlright>
+		<mendyEncourageAlright>Our creation is going to look fabulous!</mendyEncourageAlright>
+		<mendyEncourageAlright>We make quite a good team with that spider!</mendyEncourageAlright>
+
+
+		<mendyDiscourage>Stitching can be tricky sometimes.</mendyDiscourage>
+		<mendyDiscourage>That's okay, we'll fix it later.</mendyDiscourage>
+		<mendyDiscourage>Just a bit off target!</mendyDiscourage>
+		<mendyDiscourage>Don't worry about that stitch, my dear.</mendyDiscourage>
+
+
+		<mendyPoor>Not to worry, my dear. We'll stitch better next time.</mendyPoor>
+		<mendyPoor>Dear dear, we stitched our best, didn't we? Why not try again?</mendyPoor>
+		<mendyPoor>Let's not let our wings droop. We all stitch better with practice, my dear.</mendyPoor>
+		<mendyPoor>Spider stitching can be a real challenge. We will need to practice a bit more, won't we, my dear?</mendyPoor>
+
+		<mendyGood>Not bad spider stitching, my dear. Needs a bit of improvement here and there, but not bad at all.</mendyGood>
+		<mendyGood>Good job, my dear. And remember, we'll spider stitch even better with regular practice!</mendyGood>
+		<mendyGood>Mmm, we certainly have a knack for guiding spiders, don't we?</mendyGood>
+		<mendyGood>Lovely, lovely! We are certainly no beginner to spider stitching, are we?</mendyGood>
+
+		<mendyGreat>Well, my dear, we certainly have quite a flair for fashionable spider stitching!</mendyGreat>
+		<mendyGreat>We're quite impressed! Fantastic stitch work!</mendyGreat>
+		<mendyGreat>Quite lovely work! We are reminded of a certain sewing-talent Fairy from Spring Valley!</mendyGreat>
+		<mendyGreat>We've been practicing, haven't we? Lovely stitching!</mendyGreat>
+
+		<mendyAwesome>Pins and needles, my dear, what amazing spider skills we have!</mendyAwesome>
+		<mendyAwesome>Thimbles and thread! This just goes to show that practice does make perfect!</mendyAwesome>
+		<mendyAwesome>Astounding, my dear!  We couldn't have done better!</mendyAwesome>
+		<mendyAwesome>We're quite a superb tailor now, aren't we? Lovely, just lovely!</mendyAwesome>
+
+		<poor>Nice Try!</poor>
+		<good>Good Job!</good>
+		<great>Great Job!</great>
+		<awesome>Awesome Job!</awesome>
+
+		<spiderAwesome>Awesome!</spiderAwesome>
+		<spiderGreat>Great!</spiderGreat>
+		<spiderGood>Good!</spiderGood>
+		<spiderNiceTry>Nice Try!</spiderNiceTry>
+	</copy>
+	<config>
+		<colorPalette>3</colorPalette>
+
+		<stitch> <!-- level 1 (7 cross stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.2" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+		</stitch>
+		
+		<stitch> <!-- level 2 (7 running stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="382" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+
+			<pos x="349" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="357" y="581" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 3 (7 whip stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="377" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="357" y="576" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.2" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+		</stitch>
+
+		<stitch> <!-- level 4 (8 cross stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.2" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.2" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+		</stitch>
+		
+		<stitch> <!-- level 5 (8 running stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="382" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<!-- <pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>  -->
+
+			<pos x="385" y="990" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="357" y="581" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 6 (8 whip stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="377" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="357" y="576" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.2" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.2" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+		</stitch>
+
+		<stitch> <!-- level 7 (9 cross stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.2" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.2" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.2" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+		</stitch>
+		
+		<stitch> <!-- level 8 (9 running stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="382" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+
+			<pos x="385" y="990" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="357" y="581" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 9 (9 whip stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="377" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="357" y="576" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.2" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.2" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.2" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+		</stitch>
+
+		<stitch> <!-- level 10 (10 cross stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.2" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.2" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.2" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.2" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+		</stitch>
+		
+		<stitch> <!-- level 11 (11 running stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="382" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="523" y="1182" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="385" y="990" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="357" y="581" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 12 (11 whip stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="377" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="357" y="576" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.2" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.2" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.2" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="560" y="1967" length="3.9" velocity="0.2" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.2" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+		</stitch>
+
+		<stitch> <!-- level 13 (12 cross stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.2" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.2" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.2" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.2" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.2" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.2" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+		</stitch>
+		
+		<stitch> <!-- level 14 (12 running stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="382" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="1182" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="385" y="990" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="357" y="581" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 15 (13 whip stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.3" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="377" length="3.9" velocity="0.3" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="357" y="576" length="3.9" velocity="0.3" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.3" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.3" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.3" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.3" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.3" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.3" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="560" y="1967" length="3.9" velocity="0.3" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.3" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.3" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.3" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+		</stitch>
+
+		<stitch> <!-- level 16 (13 cross stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.3" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.3" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.3" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.3" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.3" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.3" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.3" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.3" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.3" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.3" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.3" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.3" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.3" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+		</stitch>
+		
+		<stitch> <!-- level 17 (14 running stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.3" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="382" length="3.9" velocity="0.3" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.3" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.3" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.3" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="1182" length="3.9" velocity="0.3" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.3" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+
+			<pos x="355" y="1382" length="3.9" velocity="0.3" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.3" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="385" y="990" length="3.9" velocity="0.3" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="779" length="3.9" velocity="0.3" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="357" y="581" length="3.9" velocity="0.3" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.3" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.3" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 18 (14 whip stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.3" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="377" length="3.9" velocity="0.3" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="357" y="576" length="3.9" velocity="0.3" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.3" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.3" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.3" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.3" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.3" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.3" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="560" y="1967" length="3.9" velocity="0.3" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.3" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.3" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.3" angle="35" vertscroll="-2200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="528" y="2781" length="3.9" velocity="0.3" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+		</stitch>
+
+		<stitch> <!-- level 19 (15 cross stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.4" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.4" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.4" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.4" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.4" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.4" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.4" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.4" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.4" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.4" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.4" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.4" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.4" angle="35" vertscroll="-2200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="2773" length="3.9" velocity="0.4" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="557" y="2971" length="3.9" velocity="0.4" angle="35" vertscroll="-2600" horzscroll="0" chances="3"/>
+		</stitch>
+		
+		<stitch> <!-- level 20 (15 running stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.4" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="382" length="3.9" velocity="0.4" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.4" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.4" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.4" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="523" y="1182" length="3.9" velocity="0.4" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.4" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="507" y="1584" length="3.9" velocity="0.4" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+
+			<pos x="277" y="1554" length="3.9" velocity="0.4" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="355" y="1382" length="3.9" velocity="0.4" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.4" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="385" y="990" length="3.9" velocity="0.4" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.4" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="357" y="581" length="3.9" velocity="0.4" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.4" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.4" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 21 (16 whip stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.4" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="377" length="3.9" velocity="0.4" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="357" y="576" length="3.9" velocity="0.4" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="549" y="779" length="3.9" velocity="0.4" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.4" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.4" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.4" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.4" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.4" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="560" y="1967" length="3.9" velocity="0.4" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.4" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.4" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.4" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+			<pos x="528" y="2781" length="3.9" velocity="0.4" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="357" y="2981" length="3.9" velocity="0.4" angle="35" vertscroll="-2600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="593" y="3154" length="3.9" velocity="0.4" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+		</stitch>
+
+		<stitch> <!-- level 22 (16 cross stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.4" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.4" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.4" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.4" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="605" y="952" length="3.9" velocity="0.4" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.4" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.4" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.4" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.4" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.4" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.4" angle="35" vertscroll="-1800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.4" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.4" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+			<pos x="328" y="2773" length="3.9" velocity="0.4" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="557" y="2971" length="3.9" velocity="0.4" angle="35" vertscroll="-2600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="277" y="3154" length="3.9" velocity="0.4" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+		</stitch>
+		
+		<stitch> <!-- level 23 (17 running stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="382" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="605" y="952" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="523" y="1182" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="507" y="1584" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+
+			<pos x="328" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="355" y="1382" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="385" y="990" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="581" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 24 (17 whip stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="377" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="576" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="560" y="1967" length="3.9" velocity="0.5" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.5" angle="35" vertscroll="-1800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.5" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.5" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+			<pos x="528" y="2781" length="3.9" velocity="0.5" angle="35" vertscroll="-2400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="2981" length="3.9" velocity="0.5" angle="35" vertscroll="-2600" horzscroll="0" chances="3"/>
+			<pos x="593" y="3154" length="3.9" velocity="0.5" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.5" angle="35" vertscroll="-3000" horzscroll="0" chances="3"/>
+		</stitch>
+
+		<stitch> <!-- level 25 (18 cross stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="571" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.5" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.5" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.5" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.5" angle="35" vertscroll="-2200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="2773" length="3.9" velocity="0.5" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="557" y="2971" length="3.9" velocity="0.5" angle="35" vertscroll="-2600" horzscroll="0" chances="3"/>
+			<pos x="277" y="3154" length="3.9" velocity="0.5" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.5" angle="35" vertscroll="-3000" horzscroll="0" chances="3"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.5" angle="35" vertscroll="-3200" horzscroll="0" chances="3" tiny="1"/>
+		</stitch>
+		
+		<stitch> <!-- level 26 (18 running stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="382" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="571" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="523" y="1182" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="507" y="1584" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+
+			<pos x="328" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="355" y="1382" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="385" y="990" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="357" y="581" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 27 (19 whip stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.6" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="377" length="3.9" velocity="0.6" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="576" length="3.9" velocity="0.6" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.6" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.6" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.6" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.6" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.6" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.6" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="560" y="1967" length="3.9" velocity="0.6" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.6" angle="35" vertscroll="-1800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.6" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.6" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+			<pos x="528" y="2781" length="3.9" velocity="0.6" angle="35" vertscroll="-2400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="2981" length="3.9" velocity="0.6" angle="35" vertscroll="-2600" horzscroll="0" chances="3"/>
+			<pos x="593" y="3154" length="3.9" velocity="0.6" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.6" angle="35" vertscroll="-3000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.6" angle="35" vertscroll="-3200" horzscroll="0" chances="3"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.6" angle="35" vertscroll="-3400" horzscroll="0" chances="3" tiny="1"/>
+		</stitch>
+
+		<stitch> <!-- level 28 (19 cross stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.6" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.6" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="571" length="3.9" velocity="0.6" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.6" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.6" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.6" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.6" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.6" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.6" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.6" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.6" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.6" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.6" angle="35" vertscroll="-2200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="2773" length="3.9" velocity="0.6" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="557" y="2971" length="3.9" velocity="0.6" angle="35" vertscroll="-2600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="277" y="3154" length="3.9" velocity="0.6" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.6" angle="35" vertscroll="-3000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.6" angle="35" vertscroll="-3200" horzscroll="0" chances="3"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.6" angle="35" vertscroll="-3400" horzscroll="0" chances="3" tiny="1"/>
+		</stitch>
+		
+		<stitch> <!-- level 29 (20 running stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.6" angle="30" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="382" length="3.9" velocity="0.6" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.6" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="549" y="779" length="3.9" velocity="0.6" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.6" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="1182" length="3.9" velocity="0.6" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.6" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="507" y="1584" length="3.9" velocity="0.6" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.6" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="525" y="1982" length="3.9" velocity="0.6" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+
+			<pos x="310" y="1967" length="3.9" velocity="0.6" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.6" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.6" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="355" y="1382" length="3.9" velocity="0.6" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.6" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="385" y="990" length="3.9" velocity="0.6" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.6" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="581" length="3.9" velocity="0.6" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.6" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.6" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 30 (20 whip stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.6" angle="30" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="377" length="3.9" velocity="0.6" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="357" y="576" length="3.9" velocity="0.6" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="549" y="779" length="3.9" velocity="0.6" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.6" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.6" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.6" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.6" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.6" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="560" y="1967" length="3.9" velocity="0.6" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.6" angle="35" vertscroll="-1800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.6" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.6" angle="35" vertscroll="-2200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="528" y="2781" length="3.9" velocity="0.6" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="357" y="2981" length="3.9" velocity="0.6" angle="35" vertscroll="-2600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="593" y="3154" length="3.9" velocity="0.6" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.6" angle="35" vertscroll="-3000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.6" angle="35" vertscroll="-3200" horzscroll="0" chances="3"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.6" angle="35" vertscroll="-3400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="549" y="3979" length="3.9" velocity="0.6" angle="35" vertscroll="-3600" horzscroll="0" chances="3"/>
+		</stitch>
+
+		<!-- levels 31+ aren't real levels -->
+
+		<stitch> <!-- level 31 (20 cross stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.2" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.2" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.2" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.2" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.2" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.2" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.2" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+			<pos x="328" y="2773" length="3.9" velocity="0.2" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="557" y="2971" length="3.9" velocity="0.2" angle="35" vertscroll="-2600" horzscroll="0" chances="3"/>
+			<pos x="277" y="3154" length="3.9" velocity="0.2" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.2" angle="35" vertscroll="-3000" horzscroll="0" chances="3"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.2" angle="35" vertscroll="-3200" horzscroll="0" chances="3"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.2" angle="35" vertscroll="-3400" horzscroll="0" chances="3"/>
+			<pos x="349" y="3979" length="3.9" velocity="0.2" angle="35" vertscroll="-3600" horzscroll="0" chances="3"/>
+		</stitch>
+		
+		<stitch> <!-- level 32 (20 running stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="382" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="523" y="1182" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.2" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="507" y="1584" length="3.9" velocity="0.2" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.2" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="525" y="1982" length="3.9" velocity="0.2" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+
+			<pos x="310" y="1967" length="3.9" velocity="0.2" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.2" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.2" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="355" y="1382" length="3.9" velocity="0.2" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="385" y="990" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="357" y="581" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 33 (20 whip stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.2" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="377" length="3.9" velocity="0.2" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="357" y="576" length="3.9" velocity="0.2" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.2" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.2" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.2" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.2" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.2" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.2" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="560" y="1967" length="3.9" velocity="0.2" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.2" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.2" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.2" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+			<pos x="528" y="2781" length="3.9" velocity="0.2" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="357" y="2981" length="3.9" velocity="0.2" angle="35" vertscroll="-2600" horzscroll="0" chances="3"/>
+			<pos x="593" y="3154" length="3.9" velocity="0.2" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.2" angle="35" vertscroll="-3000" horzscroll="0" chances="3"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.2" angle="35" vertscroll="-3200" horzscroll="0" chances="3"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.2" angle="35" vertscroll="-3400" horzscroll="0" chances="3"/>
+			<pos x="549" y="3979" length="3.9" velocity="0.2" angle="35" vertscroll="-3600" horzscroll="0" chances="3"/>
+		</stitch>
+
+		<stitch> <!-- level 34 (20 cross stitches, very fast) -->
+			<pos x="555" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.5" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.5" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.5" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.5" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+			<pos x="328" y="2773" length="3.9" velocity="0.5" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="557" y="2971" length="3.9" velocity="0.5" angle="35" vertscroll="-2600" horzscroll="0" chances="3"/>
+			<pos x="277" y="3154" length="3.9" velocity="0.5" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.5" angle="35" vertscroll="-3000" horzscroll="0" chances="3"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.5" angle="35" vertscroll="-3200" horzscroll="0" chances="3"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.5" angle="35" vertscroll="-3400" horzscroll="0" chances="3"/>
+			<pos x="349" y="3979" length="3.9" velocity="0.5" angle="35" vertscroll="-3600" horzscroll="0" chances="3"/>
+		</stitch>
+		
+		<stitch> <!-- level 35 (20 running stitches, very fast) -->
+			<pos x="555" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="382" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="523" y="1182" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="507" y="1584" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="525" y="1982" length="3.9" velocity="0.5" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+
+			<pos x="310" y="1967" length="3.9" velocity="0.5" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="355" y="1382" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="385" y="990" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="357" y="581" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 36 (20 whip stitches, very fast) -->
+			<pos x="555" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="377" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="357" y="576" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="560" y="1967" length="3.9" velocity="0.5" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.5" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.5" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.5" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+			<pos x="528" y="2781" length="3.9" velocity="0.5" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="357" y="2981" length="3.9" velocity="0.5" angle="35" vertscroll="-2600" horzscroll="0" chances="3"/>
+			<pos x="593" y="3154" length="3.9" velocity="0.5" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.5" angle="35" vertscroll="-3000" horzscroll="0" chances="3"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.5" angle="35" vertscroll="-3200" horzscroll="0" chances="3"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.5" angle="35" vertscroll="-3400" horzscroll="0" chances="3"/>
+			<pos x="549" y="3979" length="3.9" velocity="0.5" angle="35" vertscroll="-3600" horzscroll="0" chances="3"/>
+		</stitch>
+
+		<stitch> <!-- level 37 (20 cross stitches, very fast) -->
+			<pos x="555" y="232" length="2.6" velocity="0.6" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.6" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.6" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.6" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.6" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.6" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.6" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.6" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.6" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.6" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.6" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.6" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.6" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+			<pos x="328" y="2773" length="3.9" velocity="0.6" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="557" y="2971" length="3.9" velocity="0.6" angle="35" vertscroll="-2600" horzscroll="0" chances="3"/>
+			<pos x="277" y="3154" length="3.9" velocity="0.6" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.6" angle="35" vertscroll="-3000" horzscroll="0" chances="3"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.6" angle="35" vertscroll="-3200" horzscroll="0" chances="3"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.6" angle="35" vertscroll="-3400" horzscroll="0" chances="3"/>
+			<pos x="349" y="3979" length="3.9" velocity="0.6" angle="35" vertscroll="-3600" horzscroll="0" chances="3"/>
+		</stitch>
+		
+		<stitch> <!-- level 38 (20 running stitches, very fast) -->
+			<pos x="555" y="232" length="2.6" velocity="0.6" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="382" length="3.9" velocity="0.6" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.6" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.6" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.6" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="523" y="1182" length="3.9" velocity="0.6" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.6" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="507" y="1584" length="3.9" velocity="0.6" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.6" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="525" y="1982" length="3.9" velocity="0.6" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+
+			<pos x="310" y="1967" length="3.9" velocity="0.6" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.6" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.6" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="355" y="1382" length="3.9" velocity="0.6" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.6" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="385" y="990" length="3.9" velocity="0.6" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.6" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="357" y="581" length="3.9" velocity="0.6" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.6" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.6" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 39 (20 whip stitches, very fast) -->
+			<pos x="555" y="232" length="2.6" velocity="0.6" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="523" y="377" length="3.9" velocity="0.6" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="357" y="576" length="3.9" velocity="0.6" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="549" y="779" length="3.9" velocity="0.6" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.6" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.6" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.6" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.6" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.6" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="560" y="1967" length="3.9" velocity="0.6" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.6" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.6" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.6" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+			<pos x="528" y="2781" length="3.9" velocity="0.6" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="357" y="2981" length="3.9" velocity="0.6" angle="35" vertscroll="-2600" horzscroll="0" chances="3"/>
+			<pos x="593" y="3154" length="3.9" velocity="0.6" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.6" angle="35" vertscroll="-3000" horzscroll="0" chances="3"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.6" angle="35" vertscroll="-3200" horzscroll="0" chances="3"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.6" angle="35" vertscroll="-3400" horzscroll="0" chances="3"/>
+			<pos x="549" y="3979" length="3.9" velocity="0.6" angle="35" vertscroll="-3600" horzscroll="0" chances="3"/>
+		</stitch>
+
+		<stitch> <!-- level 40 (20 cross stitches, fast, all tiny) -->
+			<pos x="555" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="372" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="571" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="605" y="952" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.5" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.5" angle="35" vertscroll="-1800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.5" angle="35" vertscroll="-2000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.5" angle="35" vertscroll="-2200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="2773" length="3.9" velocity="0.5" angle="35" vertscroll="-2400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="2971" length="3.9" velocity="0.5" angle="35" vertscroll="-2600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="277" y="3154" length="3.9" velocity="0.5" angle="35" vertscroll="-2800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.5" angle="35" vertscroll="-3000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.5" angle="35" vertscroll="-3200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.5" angle="35" vertscroll="-3400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="3979" length="3.9" velocity="0.5" angle="35" vertscroll="-3600" horzscroll="0" chances="3" tiny="1"/>
+		</stitch>
+		
+		<stitch> <!-- level 41 (20 running stitches, fast, all tiny) -->
+			<pos x="555" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="382" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="571" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="549" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="605" y="952" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="1182" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="507" y="1584" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="525" y="1982" length="3.9" velocity="0.5" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+
+			<pos x="310" y="1967" length="3.9" velocity="0.5" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="355" y="1382" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="385" y="990" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="581" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="372" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 42 (20 whip stitches, fast, all tiny) -->
+			<pos x="555" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="377" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="576" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="549" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="605" y="952" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="560" y="1967" length="3.9" velocity="0.5" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.5" angle="35" vertscroll="-1800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.5" angle="35" vertscroll="-2000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.5" angle="35" vertscroll="-2200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="528" y="2781" length="3.9" velocity="0.5" angle="35" vertscroll="-2400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="2981" length="3.9" velocity="0.5" angle="35" vertscroll="-2600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="593" y="3154" length="3.9" velocity="0.5" angle="35" vertscroll="-2800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.5" angle="35" vertscroll="-3000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.5" angle="35" vertscroll="-3200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.5" angle="35" vertscroll="-3400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="549" y="3979" length="3.9" velocity="0.5" angle="35" vertscroll="-3600" horzscroll="0" chances="3" tiny="1"/>
+		</stitch>
+
+		<stitch> <!-- level 43 (20 cross stitches, v fast, all tiny) -->
+			<pos x="555" y="232" length="2.6" velocity="0.6" angle="30" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="372" length="3.9" velocity="0.6" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="571" length="3.9" velocity="0.6" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="779" length="3.9" velocity="0.6" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="605" y="952" length="3.9" velocity="0.6" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.6" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.6" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.6" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.6" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.6" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.6" angle="35" vertscroll="-1800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.6" angle="35" vertscroll="-2000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.6" angle="35" vertscroll="-2200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="2773" length="3.9" velocity="0.6" angle="35" vertscroll="-2400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="2971" length="3.9" velocity="0.6" angle="35" vertscroll="-2600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="277" y="3154" length="3.9" velocity="0.6" angle="35" vertscroll="-2800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.6" angle="35" vertscroll="-3000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.6" angle="35" vertscroll="-3200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.6" angle="35" vertscroll="-3400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="3979" length="3.9" velocity="0.6" angle="35" vertscroll="-3600" horzscroll="0" chances="3" tiny="1"/>
+		</stitch>
+		
+		<stitch> <!-- level 44 (20 running stitches, v fast, all tiny) -->
+			<pos x="555" y="232" length="2.6" velocity="0.6" angle="30" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="382" length="3.9" velocity="0.6" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="571" length="3.9" velocity="0.6" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="549" y="779" length="3.9" velocity="0.6" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="605" y="952" length="3.9" velocity="0.6" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="1182" length="3.9" velocity="0.6" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.6" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="507" y="1584" length="3.9" velocity="0.6" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.6" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="525" y="1982" length="3.9" velocity="0.6" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+
+			<pos x="310" y="1967" length="3.9" velocity="0.6" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.6" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.6" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="355" y="1382" length="3.9" velocity="0.6" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.6" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="385" y="990" length="3.9" velocity="0.6" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="779" length="3.9" velocity="0.6" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="581" length="3.9" velocity="0.6" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="372" length="3.9" velocity="0.6" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.6" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 45 (20 whip stitches, v fast, all tiny) -->
+			<pos x="555" y="232" length="2.6" velocity="0.6" angle="30" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="377" length="3.9" velocity="0.6" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="576" length="3.9" velocity="0.6" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="549" y="779" length="3.9" velocity="0.6" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="605" y="952" length="3.9" velocity="0.6" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.6" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.6" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.6" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.6" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="560" y="1967" length="3.9" velocity="0.6" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.6" angle="35" vertscroll="-1800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.6" angle="35" vertscroll="-2000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.6" angle="35" vertscroll="-2200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="528" y="2781" length="3.9" velocity="0.6" angle="35" vertscroll="-2400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="2981" length="3.9" velocity="0.6" angle="35" vertscroll="-2600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="593" y="3154" length="3.9" velocity="0.6" angle="35" vertscroll="-2800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.6" angle="35" vertscroll="-3000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.6" angle="35" vertscroll="-3200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.6" angle="35" vertscroll="-3400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="549" y="3979" length="3.9" velocity="0.6" angle="35" vertscroll="-3600" horzscroll="0" chances="3" tiny="1"/>
+		</stitch>
+
+		<stitch> <!-- level 46 (20 cross stitches, silly, all tiny) -->
+			<pos x="555" y="232" length="2.6" velocity="0.8" angle="30" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="372" length="3.9" velocity="0.8" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="571" length="3.9" velocity="0.8" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="779" length="3.9" velocity="0.8" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="605" y="952" length="3.9" velocity="0.8" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.8" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.8" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.8" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.8" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.8" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.8" angle="35" vertscroll="-1800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.8" angle="35" vertscroll="-2000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.8" angle="35" vertscroll="-2200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="2773" length="3.9" velocity="0.8" angle="35" vertscroll="-2400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="2971" length="3.9" velocity="0.8" angle="35" vertscroll="-2600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="277" y="3154" length="3.9" velocity="0.8" angle="35" vertscroll="-2800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.8" angle="35" vertscroll="-3000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.8" angle="35" vertscroll="-3200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.8" angle="35" vertscroll="-3400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="3979" length="3.9" velocity="0.8" angle="35" vertscroll="-3600" horzscroll="0" chances="3" tiny="1"/>
+		</stitch>
+		
+		<stitch> <!-- level 47 (20 running stitches, silly, all tiny) -->
+			<pos x="555" y="232" length="2.6" velocity="0.8" angle="30" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="382" length="3.9" velocity="0.8" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="571" length="3.9" velocity="0.8" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="549" y="779" length="3.9" velocity="0.8" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="605" y="952" length="3.9" velocity="0.8" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="1182" length="3.9" velocity="0.8" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.8" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="507" y="1584" length="3.9" velocity="0.8" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.8" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="525" y="1982" length="3.9" velocity="0.8" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+
+			<pos x="310" y="1967" length="3.9" velocity="0.8" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.8" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.8" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="355" y="1382" length="3.9" velocity="0.8" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.8" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="385" y="990" length="3.9" velocity="0.8" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="779" length="3.9" velocity="0.8" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="581" length="3.9" velocity="0.8" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="372" length="3.9" velocity="0.8" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<!-- <pos x="355" y="232" length="2.6" velocity="0.8" angle="30" vertscroll="0" horzscroll="0" chances="3"/> -->
+		</stitch>
+
+		<stitch> <!-- level 48 (20 whip stitches, silly, all tiny) -->
+			<pos x="555" y="232" length="2.6" velocity="0.8" angle="30" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="523" y="377" length="3.9" velocity="0.8" angle="35" vertscroll="0" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="576" length="3.9" velocity="0.8" angle="35" vertscroll="-200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="549" y="779" length="3.9" velocity="0.8" angle="35" vertscroll="-400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="605" y="952" length="3.9" velocity="0.8" angle="35" vertscroll="-600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.8" angle="35" vertscroll="-800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.8" angle="35" vertscroll="-1000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="577" y="1559" length="3.9" velocity="0.8" angle="35" vertscroll="-1200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="328" y="1779" length="3.9" velocity="0.8" angle="35" vertscroll="-1400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="560" y="1967" length="3.9" velocity="0.8" angle="35" vertscroll="-1600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.8" angle="35" vertscroll="-1800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.8" angle="35" vertscroll="-2000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.8" angle="35" vertscroll="-2200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="528" y="2781" length="3.9" velocity="0.8" angle="35" vertscroll="-2400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="357" y="2981" length="3.9" velocity="0.8" angle="35" vertscroll="-2600" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="593" y="3154" length="3.9" velocity="0.8" angle="35" vertscroll="-2800" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.8" angle="35" vertscroll="-3000" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.8" angle="35" vertscroll="-3200" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.8" angle="35" vertscroll="-3400" horzscroll="0" chances="3" tiny="1"/>
+			<pos x="549" y="3979" length="3.9" velocity="0.8" angle="35" vertscroll="-3600" horzscroll="0" chances="3" tiny="1"/>
+		</stitch>
+
+		<stitch> <!-- level 49 (20 cross stitches, same as the old 50) -->
+			<pos x="555" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.5" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.5" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.5" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.5" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+			<pos x="328" y="2773" length="3.9" velocity="0.5" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="557" y="2971" length="3.9" velocity="0.5" angle="35" vertscroll="-2600" horzscroll="0" chances="3"/>
+			<pos x="277" y="3154" length="3.9" velocity="0.5" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.5" angle="35" vertscroll="-3000" horzscroll="0" chances="3"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.5" angle="35" vertscroll="-3200" horzscroll="0" chances="3"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.5" angle="35" vertscroll="-3400" horzscroll="0" chances="3"/>
+			<pos x="349" y="3979" length="3.9" velocity="0.5" angle="35" vertscroll="-3600" horzscroll="0" chances="3"/>
+		</stitch>
+
+		<stitch> <!-- level 50 (20 cross stitches) -->
+			<pos x="555" y="232" length="2.6" velocity="0.5" angle="30" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="323" y="372" length="3.9" velocity="0.5" angle="35" vertscroll="0" horzscroll="0" chances="3"/>
+			<pos x="557" y="571" length="3.9" velocity="0.5" angle="35" vertscroll="-200" horzscroll="0" chances="3"/>
+			<pos x="349" y="779" length="3.9" velocity="0.5" angle="35" vertscroll="-400" horzscroll="0" chances="3"/>
+			<pos x="605" y="952" length="3.9" velocity="0.5" angle="35" vertscroll="-600" horzscroll="0" chances="3"/>
+			<pos x="323" y="1172" length="3.9" velocity="0.5" angle="35" vertscroll="-800" horzscroll="0" chances="3"/>
+			<pos x="575" y="1364" length="3.9" velocity="0.5" angle="35" vertscroll="-1000" horzscroll="0" chances="3"/>
+			<pos x="277" y="1554" length="3.9" velocity="0.5" angle="35" vertscroll="-1200" horzscroll="0" chances="3"/>
+			<pos x="528" y="1779" length="3.9" velocity="0.5" angle="35" vertscroll="-1400" horzscroll="0" chances="3"/>
+			<pos x="310" y="1967" length="3.9" velocity="0.5" angle="35" vertscroll="-1600" horzscroll="0" chances="3"/>
+			<pos x="596" y="2156" length="3.9" velocity="0.5" angle="35" vertscroll="-1800" horzscroll="0" chances="3"/>
+			<pos x="349" y="2379" length="3.9" velocity="0.5" angle="35" vertscroll="-2000" horzscroll="0" chances="3"/>
+			<pos x="557" y="2571" length="3.9" velocity="0.5" angle="35" vertscroll="-2200" horzscroll="0" chances="3"/>
+			<pos x="328" y="2773" length="3.9" velocity="0.5" angle="35" vertscroll="-2400" horzscroll="0" chances="3"/>
+			<pos x="557" y="2971" length="3.9" velocity="0.5" angle="35" vertscroll="-2600" horzscroll="0" chances="3"/>
+			<pos x="277" y="3154" length="3.9" velocity="0.5" angle="35" vertscroll="-2800" horzscroll="0" chances="3"/>
+			<pos x="575" y="3364" length="3.9" velocity="0.5" angle="35" vertscroll="-3000" horzscroll="0" chances="3"/>
+			<pos x="310" y="3567" length="3.9" velocity="0.5" angle="35" vertscroll="-3200" horzscroll="0" chances="3"/>
+			<pos x="572" y="3766" length="3.9" velocity="0.5" angle="35" vertscroll="-3400" horzscroll="0" chances="3"/>
+			<pos x="349" y="3979" length="3.9" velocity="0.5" angle="35" vertscroll="-3600" horzscroll="0" chances="3"/>
+		</stitch>
+	</config>
+</panel>

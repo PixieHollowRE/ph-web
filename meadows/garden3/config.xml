@@ -1,0 +1,116 @@
+<zone>
+  <name>Garden Test 3</name>
+  <zoneID>garden3</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>home_music_animal</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="997" height="506">
+        <image x="0" y="0" type="none">Garden_Sky.swf</image>
+      </layer>
+      <layer type="ground" width="1117" height="706">
+        <image x="0" y="0" type="merge">Garden_action_plot_6.swf</image>
+      </layer>
+      <layer type="normal" width="1100" height="800">
+        <image x="0" y="0" type="none">Garden_Foreground.swf</image>
+      </layer>
+    </layers>
+    <validArea>
+      <vertex x="130" y="636"/>
+      <vertex x="130" y="64"/>
+      <vertex x="1057" y="64"/>
+      <vertex x="1056" y="636"/>
+    </validArea>
+  </clientLayout>
+  <locations>
+    <location x="667" y="281">frontDoor</location>
+    <location x="1020" y="550">animalFriend</location>
+    <location x="3860" y="2564">meadowSurprise1</location>
+    <location x="3975" y="2566">meadowSurprise3</location>
+    <location x="3803" y="2567">meadowSurprise4</location>
+    <location x="3918" y="2565">meadowSurprise5</location>
+    <location x="603" y="378">gardenPlot1</location>
+    <location x="424" y="534">gardenPlot2</location>
+    <location x="500" y="533">gardenPlot3</location>
+    <location x="570" y="534">gardenPlot4</location>
+    <location x="747" y="340">signPost</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>home_music_animal</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.1855</volumeHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  <validArea type="polygon">
+    
+    <vertex x="3440" y="2205"/>
+    
+    <vertex x="4390" y="2205"/>
+    
+    <vertex x="4390" y="2580"/>
+    
+    <vertex x="3440" y="2580"/>
+    
+  </validArea>
+  
+  <rooms>
+    
+    <room index="1" x="3889" y="2401">
+      
+      <bounds type="box">
+        
+        <left>3405</left>
+        
+        <right>4439</right>
+        
+        <top>2196</top>
+        
+        <bottom>2645</bottom>
+        
+      </bounds>
+      
+      <nearPlane>
+        
+        <left>3405</left>
+        
+        <right>4439</right>
+        
+        <top>2196</top>
+        
+        <bottom>2645</bottom>
+        
+      </nearPlane>
+      
+      <farPlane>
+        
+        <left>3405</left>
+        
+        <right>4439</right>
+        
+        <top>2196</top>
+        
+        <bottom>2645</bottom>
+        
+      </farPlane>
+      
+    </room>
+    
+  </rooms>
+  
+  <decorations/>
+  
+</zone>

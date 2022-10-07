@@ -1,0 +1,104 @@
+<level>
+
+<!-- This level has six fireflies guarded by three moths. -->
+
+	<light x = "95" y = "253">yellow</light>
+	<light x = "783" y = "253">yellow</light>
+
+<!-- moth #1 of 3 (left guard) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="344" y="253" />
+			<point x="438" y="178" />
+			<point x="488" y="253" />
+			<point x="438" y="328" />
+			<point x="250" y="178" />
+			<point x="200" y="253" />
+			<point x="250" y="328" />		
+		</path>
+		<drift>0</drift>
+		<speed>3.5</speed>
+		<type>blindmoth</type>	
+	</firefly>
+
+<!-- moth #2 of 3 (right guard) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="544" y="253" />
+			<point x="638" y="178" />
+			<point x="688" y="253" />
+			<point x="638" y="328" />
+			<point x="450" y="178" />
+			<point x="400" y="253" />
+			<point x="450" y="328" />		
+		</path>
+		<drift>0</drift>
+		<speed>3.5</speed>
+		<type>blindmoth</type>	
+	</firefly>
+
+<!-- moth #3 of 3 (roamer) -->
+	<firefly image="moth">
+		<path speed = "0.5">
+			<point x="444" y="253" />
+			<point x="538" y="178" />
+			<point x="588" y="253" />
+			<point x="538" y="328" />
+			<point x="350" y="178" />
+			<point x="300" y="253" />
+			<point x="350" y="328" />				
+		</path>
+		<drift>0</drift>
+		<speed>7</speed>
+		<attract>20</attract>
+		<type>moth</type>	
+	</firefly>
+
+<!-- firefly #1 of 3 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="412" y="253" />
+			<point x="506" y="78" />
+			<point x="556" y="253" />
+			<point x="506" y="428" />
+			<point x="318" y="78" />
+			<point x="268" y="253" />
+			<point x="318" y="428" />
+
+		</path>
+		<drift>30</drift>
+		<speed>6.35</speed>
+	</firefly>
+
+<!-- firefly #2 of 3 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="442" y="253" />
+			<point x="536" y="78" />
+			<point x="586" y="253" />
+			<point x="536" y="428" />
+			<point x="348" y="78" />
+			<point x="298" y="253" />
+			<point x="348" y="428" />
+
+		</path>
+		<drift>30</drift>
+		<speed>6.35</speed>
+	</firefly>
+
+<!-- firefly #3 of 3 -->
+	<firefly image="firefly">
+		<path>	
+			<point x="472" y="253" />
+			<point x="566" y="78" />
+			<point x="616" y="253" />
+			<point x="566" y="428" />
+			<point x="378" y="78" />
+			<point x="328" y="253" />
+			<point x="378" y="428" />
+
+		</path>
+		<drift>30</drift>
+		<speed>6.35</speed>
+	</firefly>
+</level>

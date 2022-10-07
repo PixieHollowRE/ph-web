@@ -1,0 +1,11 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/diecut.swf</swf>
+		<swf type="code">{panelCode}/diecut.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<embeddedPanelSet>{panelSetData}/insideDiecut.xml</embeddedPanelSet>
+	</config>
+</panel>

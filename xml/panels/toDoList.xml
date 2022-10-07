@@ -1,0 +1,31 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/toDoList.swf</swf>
+		<swf type="code">{panelCode}/toDoList.swf</swf>
+	</swfs>
+	<config>
+		<toDoListConfig x="0" y="100" listMax="5" />
+		<miniToDoListConfig x="0" y="70" listMax="3" />
+		<badgeConfig listMax="3" />
+	</config>
+	<copy>
+		<backtojournal target="minitodolist.btnLeafJournal.caption" >Open Leaf Journal</backtojournal>
+		<checkLeafJournal target="minitodolist.moretodos" >Check your Leaf Journal for more to-do's</checkLeafJournal>
+		<pixieDustMillBecome target="pixieDustMillList.become" >Become a Talent Master!</pixieDustMillBecome>
+		<!--<checkLeafJournal>Check your leaf journal for more to do's</checkLeafJournal>-->
+		<goBtn>Go</goBtn>
+		<journalbelongs>This journal belongs to:</journalbelongs>
+		<todoListTitle>My To-Do List</todoListTitle>
+		<miniTodoListTitle>To-Do List</miniTodoListTitle>
+		<talentCopyAnimal>Animal-Talent</talentCopyAnimal>
+		<talentCopyGarden>Garden-Talent</talentCopyGarden>
+		<talentCopyLight>Light-Talent</talentCopyLight>
+		<talentCopyWater>Water-Talent</talentCopyWater>
+		<talentCopyTinker>Tinker-Talent</talentCopyTinker>
+		<questToDo>Help with the "#QUESTNAME#" quest.</questToDo>
+		<badgeToDo>Earn your #BADGENAME# badge.</badgeToDo>
+		<pixieDustMillVisit>Terence and #FAMOUS# need to explain a whole new feature of Pixie Hollow. Click below to learn about becoming a Talent Master!</pixieDustMillVisit>
+		<pixieDustMillBtn target="pixieDustMillList.pixieDustMillBtn.caption">Learn about Talent Points!</pixieDustMillBtn>
+	</copy>
+
+</panel>

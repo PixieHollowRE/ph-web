@@ -1,0 +1,170 @@
+<page>
+	
+	<!--codeSwfs>
+		<swf><![CDATA[directive.swf]]></swf>
+	</codeSwfs-->
+		
+	<!-- currently only one style and it is declared in panel xml >
+	<styles>
+		<css><![CDATA[decorator.css]]></css>
+	</styles-->
+	
+	<imgs>
+		<img id="9"><path><![CDATA[publish/images/polls/icon.png]]></path></img>
+		<img id="1"><path><![CDATA[publish/images/cancellation/blue_container.swf]]></path></img>
+		<img id="2"><path><![CDATA[publish/images/polls/past_polls_window.png]]></path></img>
+		<img id="3"><path><![CDATA[publish/images/polls/leaf_bg.png]]></path></img>
+		<img id="4"><path><![CDATA[publish/images/polls/vine_long.png]]></path></img>
+		<img id="5"><path><![CDATA[publish/images/polls/Fairy_Mary.png]]></path></img>
+
+		<img id="6"><path><![CDATA[publish/images/polls/feather_ink.png]]></path></img>
+		<img id="7"><path><![CDATA[publish/images/polls/pixie_dust.png]]></path></img>
+		<img id="8"><path><![CDATA[publish/images/polls/window_to_meadows.png]]></path></img>
+		
+		<!-- <img id="9"><path><![CDATA[publish/images/polls/caterpiller_leaf.png]]></path></img>  -->
+		<img id="10"><path><![CDATA[publish/images/cancellation/backBtn.swf]]></path></img>
+	</imgs>
+	
+	<copy>
+		<voteBtn>Vote</voteBtn>
+
+		<title1><![CDATA[<span class="pageTitle">Pixie Poll</span>]]></title1>
+		<title2><![CDATA[<span class="pageTitleWhite">Past Polls</span>]]></title2>
+		<comments><![CDATA[<span class="bodySmall"><p><a href="event:1">comments</a></p></span>]]></comments>
+		<comeBack><![CDATA[<span class="giant"><p>Thanks for voting!</p></span>]]></comeBack>
+		<checkBack><![CDATA[<span class="title"><p>Check back soon for results!</p></span>]]></checkBack>
+	</copy>
+	
+	<!--  only links not in html should be placed here 
+		html event links can be cased via text sent, currently must be programmed in flash.
+	-->
+	<links>
+		<link id="1"><![CDATA[communityhome.html]]></link>
+
+	</links>
+	
+	<!-- directives -->
+	<directives>
+		<!-- meadow img -->
+		<staticImg><src>8</src></staticImg>
+		<!-- background img -->
+		<staticImg><x>225</x><y>120</y><src>1</src></staticImg>
+
+		<!-- leaf img 
+		<staticImg><x>230</x><y>148</y><src>9</src></staticImg> -->
+		
+		<!-- pixie dust img -->
+		<staticImg><x>402</x><y>170</y><src>7</src></staticImg>
+		<!-- title1 text -->
+		<HTMLTxt><textWidth>600</textWidth><textHeight>55</textHeight><style>true</style><x>306</x><y>183</y><htmlText>title1</htmlText></HTMLTxt>
+
+		<!-- poll bg img -->
+		<staticImg><x>300</x><y>244</y><src>3</src></staticImg>
+		<!-- vine devider img -->
+		<staticImg><id>vineDevider</id><x>409</x><y>546</y><src>4</src></staticImg>
+		<!-- title2 text -->
+
+		<HTMLTxt><id>pastPollTitle</id><textWidth>492</textWidth><textHeight>55</textHeight><style>true</style><x>353</x><y>580</y><htmlText>title2</htmlText></HTMLTxt>
+		<!-- feather img -->
+		<staticImg><page>pollStart</page><id>feather</id><x>690</x><y>355</y><src>6</src></staticImg>
+
+		<!-- fairy_mary img -->
+		<staticImg><x>0</x><y>540</y><src>5</src></staticImg>
+		
+		<!-- backBtn img -->
+		<staticImg>
+			<x>305</x>
+			<y>180</y>
+
+			<src>10</src>
+			<link>1</link>
+			<button>true</button>
+		</staticImg>
+		
+		<!-- POLL START PAGE -->
+		<!-- comments text -->
+		<!--HTMLTxt><style>true</style><textLink>true</textLink><x>764</x><y>458</y><textWidth>78</textWidth><textHeight>19</textHeight><htmlText>comments</htmlText></HTMLTxt-->
+
+		<!-- questions text -->
+		<HTMLTxt><page>pollStart</page><id>question</id><textWidth>464</textWidth><textHeight>25</textHeight><style>true</style><x>369</x><y>272</y></HTMLTxt>
+		<!-- radio button -->
+		<ButtonClassObjectEvent><page>pollStart</page><id>radio1</id><def>radio</def><x>380</x><y>333</y><button>true</button><radio>true</radio><funcParams>radio1</funcParams><funcName>checkRadio</funcName><eventTriggerType>click</eventTriggerType></ButtonClassObjectEvent>
+
+		<!-- radio button -->
+		<ButtonClassObjectEvent><page>pollStart</page><id>radio2</id><def>radio</def><x>380</x><y>380</y><button>true</button><radio>true</radio><funcParams>radio2</funcParams><funcName>checkRadio</funcName><eventTriggerType>click</eventTriggerType></ButtonClassObjectEvent>
+		<!-- radio button -->
+		<ButtonClassObjectEvent><page>pollStart</page><id>radio3</id><def>radio</def><x>380</x><y>433</y><button>true</button><radio>true</radio><funcParams>radio3</funcParams><funcName>checkRadio</funcName><eventTriggerType>click</eventTriggerType></ButtonClassObjectEvent>
+
+		<!-- radio button -->
+		<ButtonClassObjectEvent><page>pollStart</page><id>radio4</id><def>radio</def><x>380</x><y>480</y><button>true</button><radio>true</radio><funcParams>radio4</funcParams><funcName>checkRadio</funcName><eventTriggerType>click</eventTriggerType></ButtonClassObjectEvent>
+		<!-- answer text -->
+		<HTMLTxt><page>pollStart</page><id>answer1</id><textWidth>200</textWidth><textHeight>19</textHeight><style>true</style><x>410</x><y>327</y></HTMLTxt>
+
+		<!-- answer text -->
+		<HTMLTxt><page>pollStart</page><id>answer2</id><textWidth>200</textWidth><textHeight>19</textHeight><style>true</style><x>410</x><y>379</y></HTMLTxt>
+		<!-- answer text -->
+		<HTMLTxt><page>pollStart</page><id>answer3</id><textWidth>200</textWidth><textHeight>19</textHeight><style>true</style><x>410</x><y>430</y></HTMLTxt>
+
+		<!-- answer text -->
+		<HTMLTxt><page>pollStart</page><id>answer4</id><textWidth>200</textWidth><textHeight>19</textHeight><style>true</style><x>410</x><y>480</y></HTMLTxt>
+		<!-- vote btn -->
+		<ButtonClassObjectEvent><page>pollStart</page><id>voteBtn</id><def>PinkBtn</def><btnTxt>voteBtn</btnTxt><x>673</x><y>447</y><page>login</page><button>true</button><funcName>vote</funcName><eventTriggerType>click</eventTriggerType></ButtonClassObjectEvent>
+
+		<!-- percent bar -->
+		<staticImg><page>pollStart</page><id>percentBar1</id><x>670</x><y>336</y><fillWidth>1</fillWidth><fillHeight>12</fillHeight><fill>0xFFF043</fill></staticImg>
+		<staticImg><page>pollStart</page><id>percentBar2</id><x>670</x><y>388</y><fillWidth>1</fillWidth><fillHeight>12</fillHeight><fill>0xFFF043</fill></staticImg>
+
+		<staticImg><page>pollStart</page><id>percentBar3</id><x>670</x><y>438</y><fillWidth>1</fillWidth><fillHeight>12</fillHeight><fill>0xFFF043</fill></staticImg>
+		<staticImg><page>pollStart</page><id>percentBar4</id><x>670</x><y>488</y><fillWidth>1</fillWidth><fillHeight>12</fillHeight><fill>0xFFF043</fill></staticImg>
+
+		<!-- percent text -->
+		<HTMLTxt><page>pollStart</page><id>percentText1</id><x>0</x><y>0</y><textWidth>42</textWidth><textHeight>19</textHeight><style>true</style></HTMLTxt>
+		<HTMLTxt><page>pollStart</page><id>percentText2</id><x>0</x><y>0</y><textWidth>42</textWidth><textHeight>19</textHeight><style>true</style></HTMLTxt>
+
+		<HTMLTxt><page>pollStart</page><id>percentText3</id><x>0</x><y>0</y><textWidth>42</textWidth><textHeight>19</textHeight><style>true</style></HTMLTxt>
+		<HTMLTxt><page>pollStart</page><id>percentText4</id><x>0</x><y>0</y><textWidth>42</textWidth><textHeight>19</textHeight><style>true</style></HTMLTxt>
+
+		<!-- COME BACK LATER PAGE -->
+		<HTMLTxt><page>comeBackLater</page><htmlText>comeBack</htmlText><x>357</x><y>308</y><textWidth>487</textWidth><textHeight>92</textHeight><style>true</style></HTMLTxt>
+		<HTMLTxt><page>comeBackLater</page><htmlText>checkBack</htmlText><x>357</x><y>396</y><textWidth>487</textWidth><textHeight>92</textHeight><style>true</style></HTMLTxt>
+
+	</directives>
+	
+	<!-- TEMPLATES -->
+	<templates>
+		<!-- PAST POLL TEMPLATE -->
+		<pastPoll>
+			<!-- blue bg img -->
+			<staticImg><def>blueBg</def><defHeight>180</defHeight><defWidth>645</defWidth></staticImg>
+			<!-- questions text -->
+			<staticImg><def>smallFeather</def><x>10</x><y>10</y></staticImg>
+			<HTMLTxt><id>question</id><textWidth>590</textWidth><textHeight>60</textHeight><style>true</style><x>50</x><y>8</y></HTMLTxt>
+			<!-- answer text -->
+			<HTMLTxt><id>answer1</id><textWidth>250</textWidth><textHeight>19</textHeight><style>true</style><x>60</x><y>40</y></HTMLTxt>
+
+			<!-- answer text -->
+			<HTMLTxt><id>answer2</id><textWidth>250</textWidth><textHeight>19</textHeight><style>true</style><x>60</x><y>108</y></HTMLTxt>
+			<!-- answer text -->
+			<HTMLTxt><id>answer3</id><textWidth>250</textWidth><textHeight>19</textHeight><style>true</style><x>340</x><y>40</y></HTMLTxt>
+
+			<!-- answer text -->
+			<HTMLTxt><id>answer4</id><textWidth>250</textWidth><textHeight>19</textHeight><style>true</style><x>340</x><y>108</y></HTMLTxt>
+			<!-- percent bar -->
+			<staticImg><id>percentBar1</id><x>65</x><y>82</y><fillWidth>1</fillWidth><fillHeight>16</fillHeight><fill>0xFFF043</fill></staticImg>
+			<staticImg><id>percentBar2</id><x>60</x><y>150</y><fillWidth>1</fillWidth><fillHeight>16</fillHeight><fill>0xFFF043</fill></staticImg>
+			<staticImg><id>percentBar3</id><x>340</x><y>82</y><fillWidth>1</fillWidth><fillHeight>16</fillHeight><fill>0xFFF043</fill></staticImg>
+			<staticImg><id>percentBar4</id><x>340</x><y>150</y><fillWidth>1</fillWidth><fillHeight>16</fillHeight><fill>0xFFF043</fill></staticImg>
+				
+			<!-- percent text -->
+			<HTMLTxt><id>percentText1</id><textWidth>60</textWidth><textHeight>19</textHeight><style>true</style></HTMLTxt>
+			<HTMLTxt><id>percentText2</id><textWidth>60</textWidth><textHeight>19</textHeight><style>true</style></HTMLTxt>
+			<HTMLTxt><id>percentText3</id><textWidth>60</textWidth><textHeight>19</textHeight><style>true</style></HTMLTxt>
+			<HTMLTxt><id>percentText4</id><textWidth>60</textWidth><textHeight>19</textHeight><style>true</style></HTMLTxt>
+		</pastPoll>
+	</templates>
+</page>
+
+
+
+
+

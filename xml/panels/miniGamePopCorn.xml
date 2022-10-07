@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/popcorn.swf</swf>
+		<swf type="code">{panelCode}/popcorn.swf</swf>
+	</swfs>
+	<copy>
+	
+		<title>Pass the Popcorn</title>
+	
+		<!-- UI: INSTRUCTIONS -->
+		<inst_screen_title target="instructions.title.heading">Instructions</inst_screen_title>
+		
+		<instruction0 target="instructions.btnContainer.page0.label">Pass the popcorn between you and your friends by clicking on their picture.</instruction0>
+		<instruction1 target="instructions.btnContainer.page1.label">Poppy will show a color or a shape - or both! Pass to the player that matches!</instruction1>
+		<instruction2 target="instructions.btnContainer.page2.label">Make a long passing chain and score more points for everyone!</instruction2>
+		<instruction3 target="instructions.btnContainer.page3.label">You also get points when the popcorn pops - as long as it doesn't pop on you!</instruction3>		
+		
+		<!-- <instruction4 target="instructions.btnContainer.page4.label">Click on yourself to wave and get other players' attention!</instruction4> -->		
+		
+		<!-- UI: ABORT GAME -->
+		<abort1>Sorry!  The party host has left the game.</abort1>
+		<abort2>Sorry!  There are not enough players to continue the game.</abort2>
+		<abort3>Oops!  Someone left your party before it could start. Please try again.</abort3>
+		
+		<!-- HOST DIALOG : ROUND COMMENTS -->
+		<comment_round_1_1>Hi, my name's Poppy. Are you ready to play?</comment_round_1_1>
+		<comment_round_1_2>Name's Poppy, nice to meet you. Now how fast can you pass?</comment_round_1_2>
+		<comment_round_1_3>Welcome to my game. Be sure to pass to Fairies who match the rules.</comment_round_1_3>
+		
+		<comment_round_2_1>Wow, great job! Now we'll add some new rules.</comment_round_2_1>
+		<comment_round_2_2>Are you ready for round two?</comment_round_2_2>
+		<comment_round_2_3>Have you all been practicing?</comment_round_2_3>
+		
+		<comment_round_3_1>This is the last round so be sure to pass quickly.</comment_round_3_1>
+		<comment_round_3_2>This next round is the hardest, good luck.</comment_round_3_2>
+		<comment_round_3_3>Great job, now we'll use two rules at once.</comment_round_3_3>
+		
+		<comment_game_end_1>Thanks for playing! Let's do it again soon.</comment_game_end_1>
+		<comment_game_end_2>You all did a terrific job! Now it's time for prizes!</comment_game_end_2>
+		<comment_game_end_3>That was some impressive passing! You get better every time.</comment_game_end_3>
+		
+		<comment_consolation_1>Sorry _, better luck next time.</comment_consolation_1>
+		<comment_consolation_2>Oops, looks like it popped on _!</comment_consolation_2>
+		<comment_consolation_3>It popped on _! That was exciting.</comment_consolation_3>
+		
+		<!-- HOST DIALOG : COUNTDOWN COMMENTS -->
+		<countdown_1_1>Ready.</countdown_1_1>
+		<countdown_1_2>Aim.</countdown_1_2>
+		<countdown_1_3>Pass!</countdown_1_3>
+		
+		<countdown_2_1>On your mark.</countdown_2_1>
+		<countdown_2_2>Get set.</countdown_2_2>
+		<countdown_2_3>Pass!</countdown_2_3>
+		
+		<countdown_3_1>Pass..</countdown_3_1>
+		<countdown_3_2>that..</countdown_3_2>
+		<countdown_3_3>Popcorn!</countdown_3_3>
+
+	</copy>
+	<config>
+		
+		<!-- Duration in seconds of a Fairy comment -->
+		<commentDuration>5</commentDuration>
+		<!-- Duration in seconds of a single comment for countdown sequences -->
+		<countdownDuration>1.5</countdownDuration>
+		<!-- Duration in seconds player can hold popcorn before automatic pop -->
+		<holdTime>5</holdTime>
+
+		<!-- Game variables -->
+		<playerMin>3</playerMin>
+		
+		<npcDNA>"107/97/90/0/-15/25/-15/0/12/0/0/28/101/6:27:159/512:157:-1/1031:10:151/1507:10:-1/2002:10:111/2515:157:-1/3001:37:-1/3508:10:118/4005:123:101/4515:101:-1/5010:78:-1/5508:78:-1/6004:111:-1"</npcDNA>
+		
+		<!-- Points -->
+		<pointPass>5</pointPass>
+		<pointPop>10</pointPop>
+		
+		<!-- Round times -->
+		<roundTime>60</roundTime>
+		<roundTime>40</roundTime>
+		<roundTime>20</roundTime>
+
+		<round>
+			<!-- Intro Comments for Round 1 -->
+			<comment  text="comment_round_1_1"/>
+			<comment  text="comment_round_1_2"/>
+			<comment  text="comment_round_1_3"/>
+		</round>
+		<round>
+			<!-- Intro Comments for Round 2 -->
+			<comment  text="comment_round_2_1"/>
+			<comment  text="comment_round_2_2"/>
+			<comment  text="comment_round_2_3"/>
+		</round>
+		<round>
+			<!-- Intro Comments for Round 3 -->
+			<comment  text="comment_round_3_1"/>
+			<comment  text="comment_round_3_2"/>
+			<comment  text="comment_round_3_3"/>
+		</round>
+		<round>
+			<!-- End game Comments -->
+			<comment  text="comment_game_end_1"/>
+			<comment  text="comment_game_end_2"/>
+			<comment  text="comment_game_end_3"/>
+		</round>
+		<round>
+			<!-- Consolation Comments for end of each round, where _ is replaced with player name -->
+			<comment  text="comment_consolation_1"/>
+			<comment  text="comment_consolation_2"/>
+			<comment  text="comment_consolation_3"/>
+		</round>
+		<countdown>
+				<comment  text="countdown_1_1"/>
+				<comment  text="countdown_1_2"/>
+				<comment  text="countdown_1_3"/>
+		</countdown>
+		<countdown>
+				<comment  text="countdown_2_1"/>
+				<comment  text="countdown_2_2"/>
+				<comment  text="countdown_2_3"/>
+		</countdown>
+		<countdown>
+				<comment  text="countdown_3_1"/>
+				<comment  text="countdown_3_2"/>
+				<comment  text="countdown_3_3"/>
+		</countdown>
+	</config>
+</panel>

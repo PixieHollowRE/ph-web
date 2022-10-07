@@ -1,0 +1,106 @@
+<zone>
+  <name>Mosswall Cottage</name>
+  <zoneID>904</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>home_music_tinker</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <layers>
+    <layer type="ground" width="7714" height="4671">
+      <image x="3354" y="2031" type="none">TinkerHome_action02.swf</image>
+      <image x="3354" y="2031" party="1">tinker_flag_party_02.swf</image>
+      <image x="3354" y="2031" party="2">tinker_flower_party_02.swf</image>
+      <image x="3354" y="2031" party="3">tinker_lighting_party_02.swf</image>
+    </layer>
+    <layer type="normal" width="9315" height="5175">
+      <image x="4050" y="2200" type="none">TinkerHome_dust01.swf</image>
+    </layer>
+    <layer type="normal" width="8280" height="5023">
+      <image x="3600" y="2184" type="none">TinkerHome_foreground00.swf</image>
+      <image x="3600" y="2184" type="merge" party="1">tinker_flag_party_04.swf</image>
+      <image x="3600" y="2184" type="merge" party="2">tinker_flower_party_04.swf</image>
+      <image x="3600" y="2184" type="merge" party="3">tinker_lighting_party_04.swf</image>
+    </layer>
+  </layers>
+  <locations>
+    <location x="3685" y="2442">frontDoor</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>home_music_tinker</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.1855</volumeHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  <validArea type="polygon">
+    
+    <vertex x="3490" y="2191"/>
+    
+    <vertex x="4314" y="2191"/>
+    
+    <vertex x="4314" y="2546"/>
+    
+    <vertex x="3490" y="2546"/>
+    
+  </validArea>
+  
+  <rooms>
+    
+    <room index="1" x="3919" y="2381">
+      
+      <bounds type="box">
+        
+        <left>3489</left>
+        
+        <right>4315</right>
+        
+        <top>2180</top>
+        
+        <bottom>2547</bottom>
+        
+      </bounds>
+      
+      <nearPlane>
+        
+        <left>3510</left>
+        
+        <right>4329</right>
+        
+        <top>2230</top>
+        
+        <bottom>2600</bottom>
+        
+      </nearPlane>
+      
+      <farPlane>
+        
+        <left>3584</left>
+        
+        <right>4244</right>
+        
+        <top>2230</top>
+        
+        <bottom>2500</bottom>
+        
+      </farPlane>
+      
+    </room>
+    
+  </rooms>
+  
+  <decorations/>
+  
+</zone>

@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/mgMemoryGame.swf</swf>
+		<swf type="code">{panelCode}/mgMemoryGame.swf</swf>
+	</swfs>
+	
+	<copy>
+		<title>Two For Tea</title>
+		<playerScore>SCORE: 0</playerScore>
+		
+		<!-- END GAME -->
+		<winner>WINNER!</winner>	
+		<gameoverHeader>Game Over!</gameoverHeader>
+		<gameoverBodyBelowMinimum>A player has left the game, not enough people to play the game.</gameoverBodyBelowMinimum>
+		<gameoverBodyCardMax>No more cards to play.</gameoverBodyCardMax>
+		<getreadytitle>Get Ready!</getreadytitle>
+		<congratstitle>Congratulations!</congratstitle>
+		<yougofirst>You go first,</yougofirst>
+		<goesfirst>goes first!</goesfirst>
+		<notamatch>Not a match...</notamatch>
+		<atie>A Tie!</atie>
+		<talentpairtitle>Talent Pair!</talentpairtitle>
+		<goldenpairtitle>Golden Pair!</goldenpairtitle>
+		<goldenpairrules>Golden Pair added to the board! Time to shuffle! Try to find the Golden Pair worth 3 points!</goldenpairrules>
+		<talentpairmsg>found a Talent Pair! +2 Points!</talentpairmsg>
+		<goldenpairmsg>found a Golden Pair! +3 Points!</goldenpairmsg>
+		<pumpkinpiereward>You got a slice of Pumpkin Cake! You can find it in your Pouch.</pumpkinpiereward>
+		<smorereward>You got a S'More! You can find it in your Pouch.</smorereward>
+		<keepgoing>Keep going!</keepgoing>
+		<fivemorepairstitle>Five More Pairs!</fivemorepairstitle>
+		<lastpairtitle>Last Pair!</lastpairtitle>
+		<fivepairscopy>The game is almost out of time! There are only five turns left.</fivepairscopy>
+		<lastpaircopy>The game will be over after this turn, make it count!</lastpaircopy>
+		<twopoints>Two points!</twopoints>
+		<threepoints>Three Points!</threepoints>
+		<shuffle>Shuffle!</shuffle>
+		<ohnoes>Oh noes!</ohnoes>
+		<loseaturntitle>Lose a Turn!</loseaturntitle>
+		<losesaturn>loses a turn.</losesaturn>
+		<awjingles>Aw, jingles!</awjingles>
+		
+		<!-- WANT TO LEAVE ALERT -->
+		<wantToLeaveHeader>Just Checking</wantToLeaveHeader>	
+		<wantToLeaveCopy>Are you sure you would like to leave this game? You will lose your current progress.</wantToLeaveCopy>
+		<yes>Yes</yes>
+		<no>No</no>
+		<ok>OK</ok>
+		<leftGame>Left Game</leftGame>
+		
+		<changeColorNoticeHeader>Change Color!</changeColorNoticeHeader>	
+		<changeColorNoticeCopy>The color has been changed to #COLOR#.</changeColorNoticeCopy>
+			
+		<!-- cheat sheet -->
+		<cheatCardLabel1>Talent Card</cheatCardLabel1>	
+		<cheatCardLabel2>Wild Card</cheatCardLabel2>
+		<cheatCardLabel3>Golden Pair</cheatCardLabel3>
+		<cheatCardLabel4>Treat Pair</cheatCardLabel4>
+		<!--cheatCardLabel5>Treat Pair</cheatCardLabel5-->
+		<cheatSheetToolTip>Card Info</cheatSheetToolTip>
+		
+		<powerSpinnerChoice1>Three Points!</powerSpinnerChoice1>	
+		<powerSpinnerChoice2>Lose a Turn</powerSpinnerChoice2>
+		<powerSpinnerChoice3>Add Golden Pair</powerSpinnerChoice3>
+		<powerSpinnerChoice4>Two Points!</powerSpinnerChoice4>
+		<powerSpinnerChoice5>Board Shuffle</powerSpinnerChoice5>
+		<powerSpinnerChoice6></powerSpinnerChoice6>
+		<powerSpinnerChoice7>Hooray!! You get two extra points!</powerSpinnerChoice7>
+		<powerSpinnerChoice8>A golden pair!</powerSpinnerChoice8>
+
+		<lastCard>Last Card</lastCard>
+		
+		<notLocalPlayersTurnLn1>#PLAYER#'s turn!</notLocalPlayersTurnLn1>
+		<notLocalPlayersTurnLn2>turn!</notLocalPlayersTurnLn2>
+		<localPlayersTurn>Your turn!</localPlayersTurn>
+		<hasActiveCards>Play a Card.</hasActiveCards>
+		<noActiveCards>Flip a card</noActiveCards>
+			
+		<lastPlayConjunction>of</lastPlayConjunction>
+
+	</copy>
+	<config>
+		<meadowGameId>MGMatchGame</meadowGameId>
+		<roundTime>15</roundTime> <!-- How long a player has to pick a card to flip -->
+		<nextTurnDelayTime>2</nextTurnDelayTime> <!-- How long will the game wait before switching turns to the next player-->
+		<!-- Duration in seconds of a Fairy comment -->
+		<commentDuration>5</commentDuration>
+		<!-- Duration in seconds of a single comment for countdown sequences -->
+		<countdownDuration>1.5</countdownDuration>
+		<!-- Duration in seconds player can hold popcorn before automatic pop -->
+		<holdTime>5</holdTime>
+		
+		<popupTime>3</popupTime>
+
+		<powerSpinnerHoldDelay>1</powerSpinnerHoldDelay>
+		<powerSpinnerShowDelay>3</powerSpinnerShowDelay>
+		<!-- Game variables -->
+		<playerMin>2</playerMin>
+
+		
+		<animations>
+			<!-- DEAL ANIMATIONS -->
+			<animation playerId="2" action="DEAL">Deal_two</animation>
+			<animation playerId="3" action="DEAL">Deal_three</animation>
+			<animation playerId="4" action="DEAL">Deal_four</animation>
+			
+			<!-- DISCARD ANIMATIONS -->
+			<animation playerId="TOP" action="DISCARD">Discard_Top_Player</animation>
+			<animation playerId="BOTTOM" action="DISCARD">Discard_Bottom_Player</animation>
+			<animation playerId="RIGHT" action="DISCARD">Discard_Right_Player</animation>
+			<animation playerId="LEFT" action="DISCARD">Discard_Left_Player</animation>
+			
+			<animation playerId="TOP" action="DRAW">Draw_Top_Player</animation>
+			<animation playerId="BOTTOM" action="DRAW">Draw_Bottom_Player</animation>
+			<animation playerId="RIGHT" action="DRAW ">Draw_Right_Player</animation>
+			<animation playerId="LEFT" action="DRAW">Draw_Left_player</animation>
+			
+		</animations>
+		 
+	</config>
+</panel>

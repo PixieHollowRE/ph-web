@@ -1,0 +1,19 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/fairyConversation.swf</swf>
+		<swf type="code">{panelCode}/fairyConversation.swf</swf>
+	</swfs>
+
+	<copy>
+		<!--xposition>204</xposition>
+		<yposition>340</yposition-->
+		<xposition>-60</xposition>
+		<yposition>300</yposition>
+		<next>NEXT</next>
+		<cancel>CANCEL</cancel>
+		<ok>OK</ok>
+	</copy>
+
+	<config>
+	</config>
+</panel>

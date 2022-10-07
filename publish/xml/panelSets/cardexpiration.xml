@@ -1,0 +1,28 @@
+<panelSet>
+	<panels>
+		<!--  <panel id="leftSideStatic" x="0" y="0" transition="none">{publishPanelData}/leftSideStatic.xml</panel>  -->
+	  	<panel id="manager" x="0" y="-38" alwaysOnTop="true" transition="none">{publishPanelData}/cardexpiration.xml</panel>
+	<!--	-->
+	</panels>
+	<config>
+	
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>cardexpiration</trackingid>
+		 <pageid>cardexpiration</pageid>
+		 <sectionid>membership</sectionid> 
+		<menu>
+			<config nav="false" title="true"/>
+			<title>
+				<text>menutitle</text>
+			</title>
+		</menu>
+		
+	</config>
+	<copy>
+		<menutitle>Card Expiration</menutitle>
+	</copy>
+	
+</panelSet>
+
+	

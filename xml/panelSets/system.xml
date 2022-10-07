@@ -1,0 +1,98 @@
+<panelSet>
+	<panels>
+		<panel id="confirm" x="0" y="0" hidden="true" transition="none">{panelData}/confirm.xml</panel>
+		<panel id="genderconfirm" x="0" y="0" hidden="true" transition="none">{panelData}/genderconfirm.xml</panel>
+		<panel id="alert" x="0" y="0" draggable="true" hidden="true" transition="none">{panelData}/alert.xml</panel>
+		<panel id="tinkAlert" x="0" y="0" draggable="true" hidden="true" transition="none">{panelData}/tinkAlert.xml</panel>
+		<panel id="loading" x="0" y="0" draggable="true" hidden="true" transition="none">{panelData}/loading.xml</panel>
+	</panels>
+	<sharedMedia>
+		<media id="ui" type="media">{mmoContent}/swf/ui.swf</media>
+	</sharedMedia>
+	<config>
+      <tips>
+	    <tip>tip1</tip>
+	    <tip>tip2</tip>
+	    <tip>tip3</tip>
+	    <tip>tip4</tip>
+	    <tip>tip5</tip>
+	    <tip>tip6</tip>
+	    <tip>tip7</tip>
+	    <tip>tip8</tip>
+	    <tip>tip9</tip>
+		<tip>tip10</tip>
+		<tip>tip11</tip>
+		<tip>tip12</tip>
+		<tip>tip13</tip>
+		<tip>tip14</tip>
+		<tip>tip15</tip>
+		<tip>tip16</tip>
+		<tip>tip17</tip>
+		<tip>tip18</tip>
+		<tip>tip19</tip>		
+		<tip>tip20</tip>
+		<tip>tip21</tip>
+		<tip>tip22</tip>
+		<tip>tip23</tip>
+		<tip>tip24</tip>
+		<tip>tip25</tip>
+		<tip>tip26</tip>
+		<tip>tip27</tip>
+		<tip>tip28</tip>
+		<tip>tip29</tip>	
+		<tip>tip30</tip>
+		<tip>tip31</tip>
+		<tip>tip32</tip>
+		<tip>tip33</tip>		
+      </tips>
+	</config>
+	<copy>
+		<ok>Okay</ok>
+		<appFail>Global Application Failure</appFail>
+		<globalPanelLoad>Flying to Never Land...</globalPanelLoad>
+		<sessionLoad>Searching for your Fairy friends...</sessionLoad>
+		<avatarLoad>Finding your Fairy...</avatarLoad>
+		<contentLoad>Searching for adventures...</contentLoad>
+		<panelLoad>Searching by the Pixie Dust Tree...</panelLoad>
+		<panelFail>Oops! There was a problem. Please try again.</panelFail>
+		<speedChatFail>We can't understand Fairy talk!</speedChatFail>
+		<speedChatLoad>Learning Fairy sayings...</speedChatLoad>
+		<loadingRealms>Entering the waterfall...</loadingRealms>
+		
+	<tip1>It's easy to make new friends in Pixie Hollow!</tip1> 
+	<tip2>Visit Summit Style for the latest Fairy fashions!</tip2> 
+	<tip3>Like to make clothes? Visit Bobbin's Tailoring Nook!</tip3> 
+	<tip4>Fly to Mendy's Tailoring Nook to make new shoes, belts and sashes!</tip4> 
+	<tip5>Visit Bella's Baubles for the latest accessories and more!</tip5> 
+	<tip6>Go see the baby animals in Beck's Animal Nursery!</tip6> 
+	<tip7>Want a new hairstyle? Fly to Schelly's Hair Salon!</tip7> 
+	<tip8>Like helping bubbly fish? Play Bubble Bounce in Dewdrop Vale!</tip8> 
+	<tip9>Want to help hungry critters? Play Harvest Hustle in Pumpkin Patch!</tip9> 
+	<tip10>Love to catch flower petals? Play Petal Pick-Up in Cherryblossom Heights!</tip10> 
+	<tip11>Like to sort Lost Things? Play Tinker Toss in Cottonpuff Field!</tip11> 
+	<tip12>Do you love fireflies? Play Firefly Light-Up in Springtime Orchard!</tip12> 
+	<tip13>Like sorting games? Play Seed Sorter in Treetop Bend!</tip13> 
+	<tip14>Do you like to catch snowflakes? Play Snowflake Sweep in Evergreen Overlook!</tip14> 
+	<tip15>Love fireworks? Play Fairy Fireworks in Acorn Summit!</tip15> 
+	<tip16>Learn to bake cookies at Dulcie's Kitchen!</tip16> 
+	<tip17>Visit Copper's Tinkering Nook to make home items!</tip17> 
+	<tip18>Decorate your very own Fairy home with items from shops!</tip18> 
+	<tip19>Find public parties in the Pixie Postings! Make friends, play games and dance!</tip19> 
+	<tip20>Read the Pixie Postings in Havendish Square for all the latest news!</tip20> 
+	<tip21>Visit Fairy Tale Theater to be in a play!</tip21> 
+	<tip22>The Ballroom in Havendish Square is only open on special occasions!</tip22> 
+	<tip23>Tired of flying? Have a rest in the Tearoom!</tip23> 
+	<tip24>The Tearoom is a great place to sit and chat with a new friend!</tip24> 
+	<tip25>Look for ingredient bunches to gather with your friends!</tip25> 
+	<tip26>Did you know that Tabby receives thousands of questions each week?</tip26> 
+	<tip27>Did you know that Fawn loves to play pranks?</tip27> 
+	<tip28>Iridessa loves to learn new things and solve mysteries!</tip28> 
+	<tip29>Did you know that Tinker Bell's favorite flower is the Silverbell?</tip29> 
+	<tip30>Did you know that Fairies smell like cinnamon?</tip30> 
+	<tip31>The first time a human baby laughs, a new Fairy or Sparrow Man is born!</tip31> 
+	<tip32>Fairies and Sparrow Men celebrate their Arrival Days just like humans celebrate birthdays!</tip32> 
+	<tip33>Did you know that "Kchr chrick?" means "Want to share my acorn?" in Squirrel language?</tip33> 
+
+
+	</copy>
+</panelSet>

@@ -1,0 +1,426 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/meadowSignpost.swf</swf>
+		<swf type="code">{panelCode}/meadowSignpost.swf</swf>
+	</swfs>
+	<copy>
+		<!--el1 target="message_1.deleteBtn.delete_text">Delete</del1-->
+	</copy>
+	<config>
+		<phHappyAutumn>
+			<titleCopy><![CDATA[Happy Autumn!]]></titleCopy>
+			<bodyCopy><![CDATA[Earn your Golden Acorn badge by finding all 12 golden acorns! The Minister's hidden the acorns in each of the autumn meadows:<br /><br />- Maple Tree Hill<br />- Cottonpuff Field<br />- Acorn Summit<br />- Pumpkin Patch<br /><br />Hint: There are 3 golden acorns in each meadow! Happy hunting!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/AutumnEquinox.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>70</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>autumn</signBGStyle><!-- valid values: summer, autumn, winter, spring -->
+		</phHappyAutumn>
+		
+		<phTrickOrTreat>
+			<titleCopy><![CDATA[Trick or Treat for Prizes!]]></titleCopy>
+			<bodyCopy><![CDATA[1. Buy a Trick or Treat Basket at Cassie's Costume Shop.<br />2. Fly up to a jack-o'-lantern while holding the basket.<br />3. Type "Trick or Treat" into chat or pick the phrase from the SpeedChat menu.<br />4. Get one prize per pumpkin!<br />5. Visit all 12 jack-o'-lanterns to collect all 12 prizes and a special badge!<br /><br />Need a Trick or Treat Basket? Click "Go!" to fly to Cassie's and buy one!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/AnimalMasquerade.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>70</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<gotozone>110004</gotozone>
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>autumn</signBGStyle><!-- valid values: summer, autumn, winter, spring -->
+		</phTrickOrTreat>
+		
+		<phNatureSisters>
+			<titleCopy><![CDATA[Friends are Nature's Sisters!]]></titleCopy>
+			<bodyCopy><![CDATA[- Make a Fairy friend.<br />- Both of you wear a Sparkly Wings Necklace (found in the Ballroom or for sale at the Pixie Post Office)!<br />- Both of you use the Sparkly Wings Emote at the same time!<br />- Earn your Sparkling Sister badge!<br /><br />Click "Go!" to fly to the Pixie Post Office and buy the Sparkly Wings Necklace!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/SisterCelebration_FrostedForest.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>70</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<gotozone>110008</gotozone>
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>autumn</signBGStyle><!-- valid values: summer, autumn, winter, spring -->
+		</phNatureSisters>
+		
+		<phSisterCelebration>
+			<titleCopy><![CDATA[Sister Celebration]]></titleCopy>
+			<bodyCopy><![CDATA[It's a party for Tinker Bell's sister Periwinkle!<br /><br />- Go on Tink's quest to earn your Chilly Traveler badge!<br />- With the badge, you'll be able to fly to Frosted Forest from Evergreen Overlook!<br />- Check the Calendar for Tink and Peri visits!<br />- Shop for Secret of the Wings styles, home items, and seeds!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/SisterCelebration_havendish.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>70</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<gotozone>110008</gotozone>
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>autumn</signBGStyle><!-- valid values: summer, autumn, winter, spring -->
+		</phSisterCelebration>
+		
+		<phWinterChecklist>
+			<titleCopy><![CDATA[Winter Checklist]]></titleCopy>
+			<bodyCopy><![CDATA[Be sure to check these activities off your list:<br />- Throw a friendly snowball in the Ballroom!<br />- Go on Silvermist's Quest to get the key to the Ice Palace!<br />- Enter the Ice Palace through Chilly Falls!<br />- Cook up holiday treats in Fairy Tale Theater!<br />- Shop for wintry wear, home items, seeds, and dyes!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/WinterWonderland_Havendish_V2.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>70</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>winter</signBGStyle><!-- valid values: summer, autumn, winter, spring -->
+		</phWinterChecklist>
+		
+		<phMinisterOfWinter>
+			<titleCopy><![CDATA[From the Minister of Winter]]></titleCopy>
+			<bodyCopy><![CDATA[Welcome to my Ice Palace! Here's how to earn your 2012 Winter Wonderland badge:<br />- Gather 3 pixies.<br />- Everybody wear the Weasel Knit Hat!<br />- Everybody use the Whistle Emote at the same time!<br />- Earn the badge, and watch out for that weasel. . .<br /><br />Need a Weasel Knit Hat? Click "Go!" to fly to the Ballroom and pick it up!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/WinterWonderland_IcePalace_2012.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>70</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<gotozone>502</gotozone>
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>winter</signBGStyle><!-- valid values: summer, autumn, winter, spring -->
+		</phMinisterOfWinter>
+		
+		<phGreatWinterLightUp>
+			<titleCopy><![CDATA[Note from Silvermist]]></titleCopy>
+			<bodyCopy><![CDATA[Have you always wanted to be a Frost Fairy? Me too!<br /><br />Guess what! Ok, I'll tell you: The Frost Fairies have come up with way for us to help them make snowflakes for winter!<br /><br />Fly to me in Dewdrop Vale to go on my Snowflakes Quest and earn your 2012 Ice Palace Key!!!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/GreatWinterLightUp.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>70</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<gotozone>102</gotozone>
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>winter</signBGStyle><!-- valid values: summer, autumn, winter, spring -->
+		</phGreatWinterLightUp>
+		
+		
+		
+		<phGamesPrep>
+			<titleCopy><![CDATA[Official Roster for<br/>the Pixie Hollow Games]]></titleCopy>
+			<bodyCopy><![CDATA[Team Animal: Fawn and Buck<br/>Team Tinker: Tinker Bell and Fairy Mary<br/>Team Water: Silvermist and Marina<br/>Team Garden: Chloe and Rosetta<br/>Team Light: Iridessa and Lumina<br/>Team Fast-Flying: Vidia and Zephyr<br/>Team Dust Keeper: Terrence and Fairy Gary<br/>Team Storm: Rumble and Glimmer<br/><br/><u><a href="http://disney.go.com/fairies/index.html#/movies-tv/pixie-hollow-games" target="_blank">Watch the Pixie Hollow Games live on the mainland!</a></u>]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/sports_camp.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>70</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>autumn</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</phGamesPrep>
+		
+		<winterWonderland>
+			<titleCopy><![CDATA[A Note from the <br/> Minister of Winter]]></titleCopy>
+			<bodyCopy><![CDATA[How to Make Snow:<br/><br/>1. Gather 10 pixies in the Ice Palace.<br/><br/>2. Use the Snowflake emote at the same time.<br/><br/>3. Enjoy the lovely winter snow!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/Ice_Palace.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>70</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>winter</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</winterWonderland>
+		
+		<winterWonderlandChecklist>
+			<titleCopy><![CDATA[What to do at the <br/> Winter Wonderland Party:]]></titleCopy>
+			<bodyCopy><![CDATA[- Get a key to the Ice Palace from Silvermist's quest!<br/><br/>- Collect all four frosty friends in the Ice Palace!<br/><br/>- Make snow fall in the Ice Palace!<br/><br/>- Use your Talent Skills to make the Ice Palace come alive!<br/><br/>- Send a gift to your pixie pals at the Gift Wrapping Station!<br/><br/>- Have a snowball fight and get a free Snowman Silly Sweet in the Ballroom!<br/><br/>- Spread winter cheer in the frosty winter meadows!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/silly_sweets_snowmen.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>67</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>winter</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</winterWonderlandChecklist>
+		
+		<fairyFriendshipFestival>
+			<titleCopy><![CDATA[Fairy Friendship Festival!]]></titleCopy>
+			<bodyCopy><![CDATA[How to earn your 2013 Fairy Friendship Festival badge:<br /><br />1. Pick up the Heart Accessory Set in the Ballroom.<br /><br />2. Gather 3 pixies.<br /><br />3. Everybody wear Heart Accessory Set.<br /><br />4. Everybody use the Heart emote at the same time.<br /><br />5. Voila!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/Friendship_Fest_13.png]]></imageURL>
+			<imageX>12</imageX>
+			<imageY>5</imageY>
+			<copyY>65</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</fairyFriendshipFestival>
+		
+		<springEquinox>
+			<titleCopy><![CDATA[Join the Golden Clover Hunt!]]></titleCopy>
+			<bodyCopy><![CDATA[Calling all Fairies - Find all 10 golden clovers to earn the 2013 Golden Clover badge!<br /><br />Hint: There are two clovers hidden in each of the Spring Meadows. When you spot one, click on it!<br /><br />Good luck - and Happy Spring!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/clover_celebration.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</springEquinox>
+		
+		<neverDoveEggHunt>
+			<titleCopy><![CDATA[Never Dove Egg Hunt!]]></titleCopy>
+			<bodyCopy><![CDATA[Fly to Havendish Square to find all 15 Never Dove Eggs!<br /><br />Hint: Look in Havendish Square, the Tearoom, the Ballroom, Fairy Tale Theater and the Fairy Coliseum.<br /><br />Happy Hunting!<br /><br />Did you know?  Treetop Housewares Shop is selling eggs for you to dye and hide in your Fairy Home!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/egg-hunt.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</neverDoveEggHunt>
+		
+		<sillyDaysActivities>
+			<titleCopy><![CDATA[Get Silly for Silly Days!]]></titleCopy>
+			<bodyCopy><![CDATA[• Wear silly styles from Cassie's Costumes!<br /><br />• Wear your Wacky Rainbow Wig and watch a comedy show in Fairy Tale Theater!<br /><br />• Go on Silvermist's quest to get the key to Mermaid Grotto!<br /><br />• Play silly pranks and see mermaids in Mermaid Grotto!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/Silly-Days-fairy-tale.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</sillyDaysActivities>
+		
+		<sillyDaysMermaid>
+			<titleCopy><![CDATA[Note from Silvermist]]></titleCopy>
+			<bodyCopy><![CDATA[How to see a real-life Mermaid:<br /><br />1. Gather 3 pixies in the Grotto.<br /><br />2. Everybody use the Music Note emote at the same time.<br /><br />3. Behold a splashtastic sight. . .]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/Silly-Days-Mermaid-Grotto.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</sillyDaysMermaid>
+		
+		<mermaidParty>
+			<titleCopy><![CDATA[Mermaid Party Fun]]></titleCopy>
+			<bodyCopy><![CDATA[• Shop for splashtastic mermaid styles!<br /><br />• Get the key to Mermaid Grotto from Silvermist's new quest!<br /><br />• Enter Mermaid Grotto through Palm Tree Cove!<br /><br />• Swim underwater in Fairy Tale Theater!<br /><br />• Visit Kit for a ripple-rific Real World Quest!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/MermaidParty.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</mermaidParty>	
+
+		<gardenTeaPartTearoom>
+			<titleCopy><![CDATA[Recipe for Tea]]></titleCopy>
+			<bodyCopy><![CDATA[Follow these steps to brew tea and earn a special badge!<br /><br />1. Buy Tea-Brewer Cap at Cassie's Costumes<br /><br />2. Wear your Tea-Brewing Hat<br /><br />3. Use the Teacup emote<br /><br />4. The teapot will steam when it's ready!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/gardenTeaParty1.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<gotozone>110004</gotozone>
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</gardenTeaPartTearoom>
+				
+		<gardenTeaPartSunflowerGully>
+			<titleCopy><![CDATA[Time for Tea!]]></titleCopy>
+			<bodyCopy><![CDATA[Follow these steps to share tea and earn a special badge!<br /><br />1. Buy Teatime Hat at Cassie's Costumes<br /><br />2. Wear your Teatime Hat<br /><br />3. Use the Teacup emote<br /><br />4. Enjoy a cup o' tea with your pixie pals!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/gardenTeaParty2.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<gotozone>110004</gotozone>
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</gardenTeaPartSunflowerGully>	
+				
+		<gardenTeaPartNeverfruitGrove>
+			<titleCopy><![CDATA[Time for Tea!]]></titleCopy>
+			<bodyCopy><![CDATA[Follow these steps to share tea and earn a special badge!<br /><br />1. Buy Teatime Hat at Cassie's Costumes<br /><br />2. Wear your Teatime Hat<br /><br />3. Use the Teacup emote<br /><br />4. Enjoy a cup o' tea with your pixie pals!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/gardenTeaParty2.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<gotozone>110004</gotozone>
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</gardenTeaPartNeverfruitGrove>
+				
+		<gardenTeaPartPalmTreeCove>
+			<titleCopy><![CDATA[Serve the Tables!]]></titleCopy>
+			<bodyCopy><![CDATA[Follow these steps to cut the cake and earn a special badge!<br /><br />1. Buy a Serving-Talent Hat at Cassie's Costumes<br /><br />2. Wear your Serving-Talent Hat<br /><br />3. Use the Cake emote<br /><br />4. The cake slices are ready to be served!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/gardenTeaParty4.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+			<gotozone>110004</gotozone>
+		</gardenTeaPartPalmTreeCove>
+				
+		<troopRabbitFairyColiseum>
+			<titleCopy><![CDATA[Show Troop Rabbit Spirit!]]></titleCopy>
+			<bodyCopy><![CDATA[1. Gather 5 pixies<br /><br />2. Everybody wear a Troop Rabbit top (available at Cassie's Costumes.)<br /><br />3. Everybody use the Troop Rabbit emote at the same time<br /><br />4. A Troop Rabbit Silly Sweet will appear in your Pouch! (You can have up to 500 of these in your Pouch.)]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/troop_rabbit.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<gotozone>110004</gotozone>
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+
+		</troopRabbitFairyColiseum>
+				
+		<troopButterflyPalmTreeCove>
+			<titleCopy><![CDATA[Show Troop Butterfly Spirit!]]></titleCopy>
+			<bodyCopy><![CDATA[1. Gather 5 pixies<br /><br />2. Everybody wear a Troop Butterfly top (available at Cassie's Costumes.)<br /><br />3. Everybody use the Troop Butterfly emote at the same time<br /><br />4. A Troop Butterfly Silly Sweet will appear in your Pouch! (You can have up to 500 of these in your Pouch.)]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/troop_butterfly.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<gotozone>110004</gotozone>
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</troopButterflyPalmTreeCove>
+		
+						
+		<troopOtterDewdropVale>
+			<titleCopy><![CDATA[Show Troop Otter Spirit!]]></titleCopy>
+			<bodyCopy><![CDATA[1. Gather 5 pixies<br /><br />2. Everybody wear a Troop Otter top (available at Cassie's Costumes.)<br /><br />3. Everybody use the Troop Otter emote at the same time<br /><br />4. A Troop Otter Silly Sweet will appear in your Pouch! (You can have up to 500 of these in your Pouch.)]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/troop_otter.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<gotozone>110004</gotozone>
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</troopOtterDewdropVale>
+						
+		<troopTurtleCottonpuff>
+			<titleCopy><![CDATA[Show Troop Turtle Spirit!]]></titleCopy>
+			<bodyCopy><![CDATA[1. Gather 5 pixies<br /><br />2. Everybody wear a Troop Turtle top (available at Cassie's Costumes.)<br /><br />3. Everybody use the Troop Turtle emote at the same time<br /><br />4. A Troop Turtle Silly Sweet will appear in your Pouch! (You can have up to 500 of these in your Pouch.)]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/troop_turtle.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<gotozone>110004</gotozone>
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</troopTurtleCottonpuff>		
+						
+		<troopGlowwormChillyFalls>
+			<titleCopy><![CDATA[Show Troop Glowworm Spirit!]]></titleCopy>
+			<bodyCopy><![CDATA[1. Gather 5 pixies<br /><br />2. Everybody wear a Troop Glowworm top (available at Cassie's Costumes.)<br /><br />3. Everybody use the Troop Glowworm emote at the same time<br /><br />4. A Troop Glowworm Silly Sweet will appear in your Pouch! (You can have up to 500 of these in your Pouch.)]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/troop_glow_worm.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<gotozone>110004</gotozone>
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</troopGlowwormChillyFalls>
+		
+								
+		<animalMothersDay2012Bunny>
+			<titleCopy><![CDATA[Wash the Baby Bunny!]]></titleCopy>
+			<bodyCopy><![CDATA[Earn your Bubbly Baby Bunny badge!<br /><br />Click on the leaf buckets to wash the baby bunny.<br /><br />Hint: Cover him in soapy bubbles from head to toe and make him giggle!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/BabyBunnySignPost2012.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</animalMothersDay2012Bunny>	
+		
+								
+		<animalMothersDay2012Chipmunk>
+			<titleCopy><![CDATA[Feed the Baby Chipmunk!]]></titleCopy>
+			<bodyCopy><![CDATA[Wondering how to get your Cheerful Baby Chipmunk badge?<br /><br />Click on the baby chipmunk to feed him a tasty treat.<br /><br />Watch as his cheeks grow. . . and grow. . .<br /><br />How many acorn chips can he stuff in there?!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/BabychipMunkSignPost2012.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</animalMothersDay2012Chipmunk>	
+		
+								
+		<animalMothersDay2012Owl>
+			<titleCopy><![CDATA[Sing the Baby Owl to Sleep!]]></titleCopy>
+			<bodyCopy><![CDATA[Follow these steps to earn your Blissful Baby Owl badge:<br /><br /><br />1. Buy a Stars Are Out Cap at Cassie's Costumes<br /><br />2. Gather 3 pixies around the baby owl<br /><br />3. Everybody wear the Stars Are Out Cap<br /><br />4. Everybody use the Sing emote at the same time<br /><br />5. Our lil feathered friend will fall fast asleep!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/BabyOwlSignPost2012.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>true</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<gotozone>110004</gotozone>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</animalMothersDay2012Owl>	
+		
+								
+		<animalMothersDay2012Kitten>
+			<titleCopy><![CDATA[Play with the Kitten!]]></titleCopy>
+			<bodyCopy><![CDATA[How cute is the Never Kitten?!<br /><br /><br />Click on the ball of yarn to play with her and earn your Curious Baby Kitten badge.<br /><br /><br />Hear that? She's saying, "You're pixie purr-fect!"]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/BabyKittenSignPost2012.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>spring</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</animalMothersDay2012Kitten>
+		
+		
+		<summerSplashParty>
+			<titleCopy><![CDATA[Summer Splash Party!]]></titleCopy>
+			<bodyCopy><![CDATA[Summer Splash Party Checklist:<br /><br /><br />- Find the lucky fish hidden in Sunflower Gully to earn a badge.<br /><br />- Dress in your favorite tropical wear and dance the hula!<br /><br />- Check the calendar to find out when Tink is coming to the luau!]]></bodyCopy>
+			<imageURL><![CDATA[images/meadowSignposts/SummerSplashParty.png]]></imageURL>
+			<imageX>0</imageX>
+			<imageY>0</imageY>
+			<copyY>75</copyY>
+			<toggleButtons>false</toggleButtons><!-- "false" hides the buttons, anything else will show them -->
+			<continueButtonText>Go</continueButtonText>
+			<cancelButtonText>Cancel</cancelButtonText>
+			<signBGStyle>summer</signBGStyle><!-- valid values: summer, autumn, winter, spring-->
+		</summerSplashParty>
+		
+		
+	</config>
+</panel>

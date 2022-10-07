@@ -1,0 +1,14 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/gameCardPopup.swf</swf>
+		<swf type="code">{publishPanelCode}/gameCardPopup.swf</swf>
+	</swfs>
+	<copy>
+
+	</copy>
+	<config>
+		<headerString>What is a Membership Card?</headerString>
+		<mainString>A Membership Card is a special card that is available for purchase at Target and Toys "R" Us stores in the USA only. A Membership Card can be redeemed for one month of Membership to PixieHollow.com.</mainString>
+		<closeBtnLabel>Close</closeBtnLabel>
+	</config>
+</panel>

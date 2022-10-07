@@ -1,0 +1,21 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/giftSetConfirmation.swf</swf>
+		<swf type="code">{panelCode}/giftSetConfirmation.swf</swf>
+	</swfs>
+	<copy>
+		<cancelButton target="cancelButton.caption">Cancel</cancelButton>
+		<confirmButton target="confirmButton.caption">OK</confirmButton>
+		<okayButton>OK</okayButton>
+		<error>Error</error>
+		<errorMessage>Oops! You don't have enough #TYPE# to get this! You need #AMOUNT# more #TYPE# to get this item.</errorMessage>
+		<titleText>Ready to send?</titleText>
+		<confirmText><![CDATA[Send Gift Set to #FRIEND#?<br>The same items will appear in your Wardrobe!]]></confirmText>
+		<whatsThisText>What's This?</whatsThisText>	
+		<message>Your message will read: </message>
+		<costText>Price:</costText>
+	</copy>
+	<config>
+
+	</config>
+</panel>

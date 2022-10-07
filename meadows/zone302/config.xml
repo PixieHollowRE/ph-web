@@ -1,0 +1,187 @@
+<zone>
+  <name>Chilly Falls</name>
+  <zoneID>302</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow302</audioLibrary>
+  <audioLibrary tags="Meadow_Winter_Lightup">meadow30xAlt</audioLibrary>
+  <audioLibrary tags="Meadow_WinterLightUp2011">meadow30xAlt</audioLibrary>
+  <audioLibrary tags="Meadow_WinterLightup2012">meadow30xAlt</audioLibrary>
+  <audioLibrary tags="Meadow_QuietSound">meadow30xAlt</audioLibrary>
+  <audioLibrary tags="Meadow_AnimalMasq2010">animalMasquerade2010</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="900" height="690" locked="true">
+        <image x="0" y="0" type="none" tag="Meadow_Winter_Wonderland">CF_sky_01_WinterLightUp.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_Winter_Lightup">CF_sky_01_WinterLightUp.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_LightUp2010">CF_sky_01_WinterLightUp2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_LightUpCrisis">CF_sky_01_WinterLightUp2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_WinterWonder2012">CF_sky_01_WinterLightUp2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_WinterLightup2012">CF_sky_01_WinterLightUp2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_EndofDays">CF_sky_01_WinterLightUp2010.swf</image>
+        <image x="0" y="0" type="none">CF_sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="950" height="985">
+        <image x="0" y="0" type="none" tag="Meadow_Winter_Wonderland">CF_far_02_WinterLightUp.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_Winter_Lightup">CF_far_02_WinterLightUp.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_WinterWonder2010">CF_far_02_WinterWonderland_2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_LightUp2010">CF_far_02_WinterLightUp_palace_2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_WinterWonder2012">CF_far_02_WinterWonderland_2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_WinterLightup2012">CF_far_02_WinterLightUp_palace_2010.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_EndofDays">CF_far_02_WinterWonderland_2010.swf</image>
+        <image x="0" y="0" type="none">CF_far_02.swf</image>
+      </layer>
+      <layer type="ground" width="1255" height="1781">
+        <image x="0" y="0" type="merge" tag="Meadow_Winter_Wonderland">CF_action_03_ms10_WinterWonderland.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Winter_Lightup">CF_action_03_ms10_WinterLightUp.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMasq2010">CF_action_03_AnimalMasq.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WinterWonder2010">CF_action_03_ms14_WinterWonderland2010.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_LightUp2010">CF_action_03_ms10_WinterLightUp2010.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_LightUpCrisis">CF_action_03_ms10_WinterLightUpCrisis.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_NeverDove2011">CF_action_03_ms10_NeverDoveEgg.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMothers2011">CF_action_03_AnimalMothers2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Light_Games">CF_action_03_Meadow_PixieHollowGames.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_TroopGlowworm2012">CF_action_03_Meadow_TheaterTroopGlowworm_2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WinterWonder2012">CF_action_03_Meadow_WinterWonder2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WinterLightup2012">CF_action_03_Meadow_WinterLightup2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Masquerade2012">CF_action_03_Masquerade2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_NeverDove">CF_action_03_ms10_NeverDoveEgg.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_EndofDays">CF_action_03_Meadow_WinterWonder2012.swf</image>
+        <image x="0" y="0" type="merge">CF_action_03.swf</image>
+      </layer>
+      <layer type="normal" width="1793" height="2545" lazy="true">
+        <image x="4294967292" y="616" type="tileUnlessLazy" tag="Meadow_Winter_Wonderland">CF_foreground_04_WinterLightUp.swf</image>
+        <image x="4294967292" y="616" type="tileUnlessLazy" tag="Meadow_Winter_Lightup">CF_foreground_04_WinterLightUp.swf</image>
+        <image x="4294967292" y="616" type="tileUnlessLazy" tag="Meadow_LightUp2010">CF_foreground_04_WinterLightUp.swf</image>
+        <image x="4294967292" y="616" type="tileUnlessLazy" tag="Meadow_LightUpCrisis">CF_foreground_04_WinterLightUp.swf</image>
+        <image x="4294967292" y="616" type="tileUnlessLazy" tag="Meadow_WinterWonder2012">CF_foreground_04_WinterLightUp.swf</image>
+        <image x="4294967292" y="616" type="tileUnlessLazy" tag="Meadow_WinterLightup2012">CF_foreground_04_WinterLightUp.swf</image>
+        <image x="4294967292" y="616" type="tileUnlessLazy" tag="Meadow_EndofDays">CF_foreground_04_WinterLightUp.swf</image>
+        <image x="4294967292" y="616" type="tileUnlessLazy">CF_foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="747" y="1092">default</location>
+    <location x="505" y="298">fromZone112002</location>
+    <location x="642" y="872">fromZone111002</location>
+    <location x="387" y="909">fromEvergreenOverlook</location>
+    <location x="764" y="1533">fromTreetopBend</location>
+    <location x="662" y="1221">fromWilderness</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_302</id>
+      <loops>0</loops>
+      <volumeLow>0.35</volumeLow>
+      <volumeHigh>0.35</volumeHigh>
+    </sfx>
+    <bgm>
+      <id>meadow_music_302</id>
+      <loops>1</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+    </bgm>
+    <bgm>
+      <id>meadow_music_winter_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.15</volumeLow>
+      <volumeHigh>0.15</volumeHigh>
+      <delayLow>23500</delayLow>
+      <delayHigh>23500</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_Winter_Lightup">
+      <id>meadow_30x_alt</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_WinterLightUp2011">
+      <id>meadow_30x_alt</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_WinterLightup2012">
+      <id>meadow_30x_alt</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_QuietSound">
+      <id>meadow_30x_alt</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_AnimalMasq2010">
+      <id>animalMasquerade2010</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <chatTriggers>
+    
+    <!-- TRIGGER HOT SPOT -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" eligibleGiveAwayId="7044" typeToTrigger="1" delay="3" itemid="27675" setVelvetRope="1" tagId="9" tags=""/>
+    
+    <!-- TRIGGER WARDOBE -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" typeToTrigger="2" delay="3" itemid="7736" setVelvetRope="1" tagId="13" setColor1="19" setColor2="141" tags=""/>
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="3" delay="3" itemid="6634" setColor1="159" setColor2="29" tags="" /> TRIGGER STORAGE -->
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="4" delay="3" itemid="15128" amount="3" tags="" /> TRIGGER POUCH -->
+    
+  </chatTriggers>
+  
+  <maximumSpawnStacks/>
+  
+  <decorations/>
+  
+  <hotspots>
+    <hotspot tags="Meadow_Theater_TroopGlowworm2012" id="27732" x="280" y="525" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="11"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27675" x="280" y="168" setVelvetRope="0" shared="false" serverParm="1" clientTrigger="7" clientParm="4" refresh="2" playType="keyframe" itemEventId="0" tagId="9"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27738" x="211" y="186" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="12"/>
+    <hotspot tags="Meadow_WinterLightup2012" id="27761" x="277" y="544" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="8"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27570" x="302" y="985" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="4"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27572" x="628" y="1171" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="5"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27566" x="515" y="987" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="0"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27567" x="778" y="674" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="1"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27568" x="774" y="734" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="2"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27569" x="535" y="762" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="3"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27571" x="883" y="671" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="6"/>
+    <hotspot tags="Meadow_InteractiveLanterns" id="27573" x="516" y="1219" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="3" playType="keyframe" itemEventId="0" tagId="7"/>
+    <hotspot tags="Meadow_AnimalMothers2011" id="27599" x="923" y="27" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" itemEventId="0" tagId="8"/>
+    <hotspot tags="Meadow_NeverDove" id="27706" x="292" y="201" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="10"/>
+  </hotspots>
+</zone>

@@ -1,0 +1,31 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/directory.swf</swf>
+		<swf type="code">{panelCode}/directory.swf</swf>
+	</swfs>
+	<copy>
+		<title target="title">Find A Fairy</title>
+		<leaf1Label target="leafbg.leaf1.label">Browse</leaf1Label>
+		<leaf2Label target="leafbg.leaf2.label">Search</leaf2Label>
+		<enterSearchText target="searchcontainer.entersearchtext">Find Fairy Named</enterSearchText>
+		<talentText target="searchcontainer.talenttext">Talent</talentText>
+		<!--neighborhoodText target="searchcontainer.neighborhoodtext">Find Fairy Named</neighborhoodText-->
+		<getResults target="searchcontainer.getResults.label">Search</getResults>
+		<talents>--AllTalents-- Garden Animal Light Water</talents>
+		<tink>Browse through all of Pixie Hollow's Fairies, or search for a particular Fairy!</tink>
+		<tinkconfirm>Okay</tinkconfirm>
+		<dbfail>Oops! Unable to connect to the Fairy directory. Please try again in a few minutes.</dbfail>
+		<dbfailconfirm>Okay</dbfailconfirm>	
+		<noMatches>Sorry - there were no matches found.</noMatches>
+		<nameTooShort>The name should be at least five characters long</nameTooShort>
+		<tinkTipsText1 target="tinkbutton.tinksTip1">Tink's</tinkTipsText1>
+		<tinkTipsText2 target="tinkbutton.tinksTip2">Tips</tinkTipsText2>
+		<letterSearch>A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z</letterSearch>
+	</copy>
+	<config>
+		<!--The talent ids correspond with the talents tag under copy tag. 
+		Their order is the same as the order of talents in copy.talent tag-->
+		<talentIds>-1 1 0 2 3</talentIds>
+		<minNameLenForSearch>5</minNameLenForSearch>
+	</config>
+</panel>

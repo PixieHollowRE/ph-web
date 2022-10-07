@@ -1,0 +1,12 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/exitPreviewHome.swf</swf>
+		<swf type="code">{panelCode}/exitPreviewHome.swf</swf>
+	</swfs>
+	<copy>
+		<exit target="exit.caption">Exit Preview Home</exit>
+	</copy>
+	<config>
+      	<exitTo>116000</exitTo>
+	</config>
+</panel>

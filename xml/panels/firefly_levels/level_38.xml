@@ -1,0 +1,181 @@
+<level>
+
+<!-- Moth guards purple light, which can
+ be used to create a big combo. Use green to
+ lure the moths and then set off the combo. -->
+
+	<light x = "95" y = "253">green</light>
+	<light x = "783" y = "253">yellow</light>
+
+	<light x = "439" y = "253">purple</light>
+
+<!-- moth #1 of 2 (chaser)-->
+	<firefly image="moth">
+		<path >
+			<point x="409" y="253" />
+			<point x="418" y="232" />
+			<point x="439" y="223" />
+			<point x="460" y="232" />
+			<point x="469" y="253" />
+			<point x="460" y="274" />
+			<point x="439" y="283" />
+			<point x="418" y="274" />
+		</path>
+		<speed>4</speed>
+		<turnspeed>0.15</turnspeed>
+		<attract>20</attract>
+		<type>moth</type>
+	</firefly>
+
+	<firefly image="moth">
+		<path >
+			<point x="469" y="253" />
+			<point x="460" y="274" />
+			<point x="439" y="283" />
+			<point x="418" y="274" />
+			<point x="409" y="253" />
+			<point x="418" y="232" />
+			<point x="439" y="223" />
+			<point x="460" y="232" />
+		</path>
+		<speed>4</speed>
+		<turnspeed>0.15</turnspeed>
+		<attract>20</attract>
+		<type>moth</type>
+	</firefly>
+
+	
+<!-- moth #2 of 2 (purple guard) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="439" y="223" />
+			<point x="460" y="232" />
+			<point x="469" y="253" />
+			<point x="460" y="274" />
+			<point x="439" y="283" />
+			<point x="418" y="274" />
+			<point x="409" y="253" />
+			<point x="418" y="232" />
+		</path>
+		<speed>4</speed>
+		<turnspeed>0.15</turnspeed>
+		<attract>20</attract>
+		<type>blindmoth</type>
+	</firefly>	
+	
+<!-- moth #2 of 2 (purple guard) -->
+	<firefly image="blindmoth">
+		<path>
+			<point x="439" y="283" />
+			<point x="418" y="274" />
+			<point x="409" y="253" />
+			<point x="418" y="232" />
+			<point x="439" y="223" />
+			<point x="460" y="232" />
+			<point x="469" y="253" />
+			<point x="460" y="274" />
+		</path>
+		<speed>4</speed>
+		<turnspeed>0.15</turnspeed>
+		
+		<attract>20</attract>
+		<type>blindmoth</type>
+	</firefly>	
+
+<!-- firefly #1 of 8 (left cluster) -->
+	<firefly image="firefly">
+		<path>	
+			<point x="267" y="110" />
+			<point x="367" y="150" />
+			<point x="246" y="271" />
+		</path>
+		<speed>5</speed>
+		<drift>0</drift>
+		<turnspeed>0.15</turnspeed>
+	</firefly>
+
+<!-- firefly #2 of 8 (right cluster) -->
+	<firefly image="firefly">
+		<path>	
+			<point x="711" y="150" />
+			<point x="751" y="250" />
+			<point x="581" y="250" />
+		</path>
+		<speed>5</speed>
+		<drift>0</drift>		
+		<turnspeed>0.15</turnspeed>
+	</firefly>
+
+<!-- firefly #3 of 8 (left cluster) -->
+	<firefly image="firefly">
+		<path>	
+			<point x="407" y="250" />
+			<point x="367" y="350" />
+			<point x="246" y="229" />
+		</path>
+		<speed>5</speed>
+		<drift>0</drift>		
+		<turnspeed>0.15</turnspeed>
+	</firefly>
+
+<!-- firefly #4 of 8 (right cluster) -->
+	<firefly image="firefly">
+		<path>
+			<point x="711" y="350" />
+			<point x="611" y="390" />
+			<point x="611" y="220" />
+		</path>
+		<speed>5</speed>
+		<drift>0</drift>		
+		<turnspeed>0.15</turnspeed>
+	</firefly>
+
+<!-- firefly #5 of 8 (left cluster) -->
+	<firefly image="firefly">
+		<path>	
+			<point x="267" y="390" />
+			<point x="167" y="350" />
+			<point x="288" y="229" />
+		</path>
+		<speed>5</speed>
+		<drift>0</drift>		
+		<turnspeed>0.15</turnspeed>	
+	</firefly>
+
+<!-- firefly #6 of 8 (right cluster) -->
+	<firefly image="firefly">
+		<path>	
+			<point x="511" y="350" />
+			<point x="471" y="250" />
+			<point x="641" y="250" />
+		</path>
+		<speed>5</speed>
+		<drift>0</drift>		
+		<turnspeed>0.15</turnspeed>
+	</firefly>
+
+<!-- firefly #7 of 8 (left cluster) -->
+	<firefly image="firefly">
+		<path>	
+			<point x="127" y="250" />
+			<point x="167" y="150" />
+			<point x="288" y="271" />
+		</path>
+		<speed>5</speed>
+		<drift>0</drift>		
+		<turnspeed>0.15</turnspeed>	
+	</firefly>
+
+<!-- firefly #8 of 8 (right cluster) -->
+	<firefly image="firefly">
+		<path>	
+			<point x="511" y="150" />
+			<point x="611" y="110" />
+			<point x="611" y="280" />
+		</path>
+		<speed>5</speed>
+		<drift>0</drift>		
+		<turnspeed>0.15</turnspeed>	
+	</firefly>
+
+</level>

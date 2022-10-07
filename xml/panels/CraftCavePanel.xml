@@ -1,0 +1,11 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/CraftCavePanel.swf</swf>
+		<swf type="code">{panelCode}/CraftCavePanel.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<zonePath>meadows/crafting######.swf</zonePath>
+	</config>
+</panel>

@@ -1,0 +1,12 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/shopbox.swf</swf>
+		<swf type="code">{publishPanelCode}/shopbox.swf</swf>
+	</swfs>
+	<copy>
+		<disneyStoreURL><![CDATA[http://disneystore.go.com/transfer/297652/disney/store/Category_10002_10051_13932_-1_13932_____Disney-Fairies?CMP=OTL-DOL&att=Fairies]]></disneyStoreURL>
+	</copy>
+	<config>
+		
+	</config>
+</panel>

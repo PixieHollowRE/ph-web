@@ -1,0 +1,46 @@
+<panel>
+	<swfs>
+		<!--swf type="audio">scrapbook</swf-->
+		<swf type="content">{panelContent}/scrapbook.swf</swf>
+		<swf type="code">{panelCode}/scrapbook.swf</swf>
+	</swfs>
+	<copy>
+		<loading target="contentTop.loading.loading">One Moment</loading>
+		<ToDoList>To-Do List</ToDoList>
+		<Wardrobe>Wardrobe</Wardrobe>
+		<Storage>Storage</Storage>
+		<EditProfile>Edit Profile</EditProfile>
+		<PetWardrobe>Animal Friends</PetWardrobe>
+		<Recipes>Crafts</Recipes>
+		<Options>Options</Options>
+		<Quests>Quests</Quests>
+		<Spells>Talent Skills</Spells>
+		<Tab0>To-Do List</Tab0>
+		<Tab1>Wardrobe</Tab1>
+		<Tab2>Storage</Tab2>
+		<Tab3>Profile</Tab3>
+		<Tab4>Talent Levels</Tab4>
+		<Tab5>Badges</Tab5>
+		<Tab6>Animal Friends</Tab6>
+		<Tab7>Crafts</Tab7>
+		<Tab8>Quests</Tab8>
+		<Tab9>Options</Tab9>
+	</copy>
+	<config>
+		<members>
+			<!-- <member index="0" id="map" backdrop="single" title="Map">{panelData}/map.xml</member>-->
+			<member index="0" id="toDoList" backdrop="none" title="ToDoList">{panelData}/toDoList.xml</member>
+			<member index="1" id="wardrobe" backdrop="single" title="Wardrobe">{panelData}/inventory.xml</member>
+			<member index="2" id="storage" backdrop="single" title="Storage">{panelData}/storage.xml</member>
+			<member index="3" id="profile" backdrop="double" title="EditProfile">{panelData}/profileEdit.xml</member>
+			<member index="4" id="talent" backdrop="single" title="Spells">{panelData}/spellInventory.xml</member>
+			<member index="5" id="badges" backdrop="paper" title="Badges">{panelData}/badges.xml</member>
+			<member index="6" id="animalFriendPanel" backdrop="single" title="PetWardrobe">{panelData}/petWardrobe.xml</member>
+			<member index="7" id="talentmasters" backdrop="single" title="Recipes">{panelData}/recipeBrowser.xml</member>
+			<member index="8" id="quests" backdrop="paper" title="Quests">{panelData}/questBrowser.xml</member>
+			<member index="9" id="Options" backdrop="double" title="Options">{panelData}/options.xml</member>
+		</members>
+		<closePanels>profile</closePanels>
+	</config>
+</panel>
+

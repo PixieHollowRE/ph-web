@@ -1,0 +1,30 @@
+<zone>
+  <name>TEST</name>
+  <zoneID>999</zoneID>
+  <assetURL>http://</assetURL>
+  <clientLayout>
+    <layers>
+      <layer type="ground" width="1125" height="722">
+        <image x="0" y="0" type="none">pitt.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="935" y="552">default</location>
+  </locations>
+  <hotspots>
+    <hotspot id="27500" x="242" y="292" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="2" playType="full" itemEventId="0" tagId="0"/>
+  </hotspots>
+  
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  <decorations/>
+  
+</zone>

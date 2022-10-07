@@ -1,0 +1,23 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/gameDetails.swf</swf>
+		<swf type="code">{panelCode}/gameDetails.swf</swf>
+	</swfs>
+	<copy>
+		<title_community target = "bg_container.background.title_community.title">Game Details</title_community>
+		<title_personal target = "bg_container.background.title_personal.title">Game Details</title_personal>		
+		<game_scores target="scoreText.label">Game Scores</game_scores>
+		<total_crafted target="totalCrafted.label">Total Crafted</total_crafted>
+		<average_quality target="averageQuality.label">Average Score</average_quality>
+		<highest_quality target="highestQuality.test">Highest Score</highest_quality>
+		<doneCrafting target = "backButtonContainer.backButton.label">Exit</doneCrafting>
+		<nextButton target = "nextButtonContainer.nextButton.label">Done</nextButton>		
+		<hideDetails target="detailsButtonContainer.detailsButton.label">Summary</hideDetails>
+		
+		<tailoring_stats>Pattern Stats</tailoring_stats>
+		<baking_stats>Recipe Stats</baking_stats>
+		<tinkering_stats>Blueprint Stats</tinkering_stats>
+	</copy>
+	<config>
+	</config>
+</panel>

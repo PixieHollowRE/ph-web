@@ -1,0 +1,157 @@
+<zone>
+  <name>Acorn Summit</name>
+  <zoneID>200</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow200</audioLibrary>
+  <audioLibrary tags="Meadow_AnimalMasq2010">animalMasquerade2010</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="900" height="529" locked="true">
+        <image x="0" y="0" type="none" tag="Meadow_Decorations_SummerSparkler">ASsky_01_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_SummerSparkler2010">ASsky_01_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_Theater_TroopGlowworm2012">ASsky_01_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_Sparkler">ASsky_01_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="none">sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="1100" height="647">
+        <image x="0" y="0" type="none" tag="Meadow_Decorations_SummerSparkler">ASfar_02_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_SummerSparkler2010">ASfar_02_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_Theater_TroopGlowworm2012">ASfar_02_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_Sparkler">ASfar_02_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="none">far_02.swf</image>
+      </layer>
+      <layer type="ground" width="1896" height="1115">
+        <image x="0" y="0" type="merge" tag="Great_Games_Days_Fairy_Fireworks">action_03_greatGamesDay.swf</image>
+        <image x="0" y="0" type="merge" tag="Friendship_Festival">ASaction_03_friendshipFestival.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Decorations_SummerSparkler">ASaction_03_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Decorations_Changing_Leaves_Berry_Harvest">action_03_ChangingofLeaves_A.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Decorations_Changing_Leaves_End">action_03_ChangingofLeaves_B.swf</image>
+        <image x="0" y="0" type="merge" tag="Animal_Masquerade">action_03_animalMasq.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Autumn_Revelry_Prep">action_03_autumn_revelry_A.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Autumn_Revelry_Begin">action_03_autumn_revelry_B.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Fairy_Feast">action_03_fairyfeast.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Winter_Lightup">action_03_WinterLightUp.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Friendship_Festival">ASaction_03_friendshipFestival.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMasq_Spring">action_03_animalMasq.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_GreatGames">action_03_Meadow_GreatGames.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SummerSparkler2010">ASaction_03_ms13_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFeast2010">action_03_FairyFeast2010.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_ChangingLeaves2010">action_03_ChangingLeaves.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WelcomeBack">action_03_WelcomeHome.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMasq2010">action_03_AnimalMasq2010.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Friendship2011">action_03_FairyFriendship2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Autumn_Equinox_2011">action_03_AutumnEquinox_2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Fairy_Friendship_2012">action_03_FairyFriendship_2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_TroopGlowworm2012">ASaction_03_ms20_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFeast2012">action_03_Meadow_FairyFeast_2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_ChangeLeaves2012">action_03_Meadow_ChangingLeaves_2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Masquerade2012">ASaction_03_AnimalMasq2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFriendship">action_03_FairyFriendship_2012.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_ChangeLeaves">action_03_Meadow_ChangingLeaves_2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Sparkler">ASaction_03_ms20_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="merge">action_03.swf</image>
+      </layer>
+      <layer type="normal" width="2830" height="1664" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_Decorations_SummerSparkler">ASforeground_04_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_SummerSparkler2010">ASforeground_04_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_Theater_TroopGlowworm2012">ASforeground_04_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_Sparkler">ASforeground_04_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy">foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="771" y="337">default</location>
+    <location x="899" y="801">fromMapleHill</location>
+    <location x="201" y="777">fromPumpkinPatch</location>
+    <location x="1355" y="748">fromCottonpuffField</location>
+    <location x="410" y="291">from50010</location>
+    <location x="1096" y="427">fromZone110002</location>
+    <location x="1493" y="309">fromSnowdriftPass</location>
+    <location x="1202" y="204">fromZone50046</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_200</id>
+      <loops>0</loops>
+      <volumeLow>0.75</volumeLow>
+      <volumeHigh>0.75</volumeHigh>
+      <y>5</y>
+    </sfx>
+    <sfx tags="Meadow_AnimalMasq2010">
+      <id>meadow_ambient_autumn_birds_in_trees_am</id>
+      <loops>0</loops>
+      <volumeLow>0.75</volumeLow>
+      <volumeHigh>0.75</volumeHigh>
+      <y>5</y>
+    </sfx>
+    <bgm>
+      <id>meadow_music_200</id>
+      <loops>1</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+    </bgm>
+    <bgm>
+      <id>meadow_music_autum_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.15</volumeLow>
+      <volumeHigh>0.15</volumeHigh>
+      <delayLow>24000</delayLow>
+      <delayHigh>24000</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_AnimalMasq2010">
+      <id>animalMasquerade2010</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  <hotspots>
+    <hotspot id="27561" x="975" y="343" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="3" refresh="0.1" playType="full" itemEventId="0" tagId="0"/>
+    <hotspot id="27561" x="1273" y="198" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="3" refresh="0.1" playType="full" itemEventId="0" tagId="1"/>
+    <hotspot id="27561" x="1198" y="70" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="3" refresh="0.1" playType="full" itemEventId="0" tagId="2"/>
+    <hotspot tags="Meadow_AutumnEquinox2012" id="27737" x="520" y="702" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="11"/>
+    <hotspot tags="Meadow_AutumnEquinox2012" id="27737" x="520" y="702" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="11"/>
+    <hotspot tags="Meadow_FairyFeast2012" id="27658" x="979" y="756" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="11" playType="full" itemEventId="0" tagId="7"/>
+    <hotspot tags="Meadow_FairyFeast2012" id="27656" x="492" y="653" setVelvetRope="0" shared="false" clientTrigger="5" clientParm="5" refresh="5" playType="full" itemEventId="0" tagId="6">
+      <badges>
+        <badge event="fairy_feast_pumpkin_soup_chef" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_Masquerade2012" id="27672" x="432" y="438" setVelvetRope="0" shared="false" serverParm="1" clientTrigger="7" clientParm="4" refresh="2" playType="keyframe" itemEventId="0" tagId="8"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27738" x="310" y="695" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="12"/>
+    <hotspot tags="Meadow_WelcomeBack" id="27562" x="728" y="764" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="5" itemEventId="0" tagId="3"/>
+    <hotspot tags="Meadow_WelcomeBack" id="27563" x="519" y="788" setVelvetRope="0" shared="false" clientTrigger="2" clientParm="1" refresh="2" threshold="5" itemEventId="0" tagId="4"/>
+    <hotspot tags="Meadow_FairyFriendship" id="27696" x="972" y="735" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="9"/>
+    <hotspot tags="Meadow_FairyFriendship" id="27713" x="351" y="516" setVelvetRope="0" shared="false" refresh="5" playType="full" itemEventId="0" tagId="10"/>
+    <hotspot tags="Meadow_ChangeLeaves" id="27648" x="699" y="764" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="3" playType="full" itemEventId="0" tagId="5">
+	    <badges>
+			<badge event="leaf_painting" win="false"/>
+		</badges>
+    </hotspot>
+  </hotspots>
+  
+
+  <chatTriggers>
+    
+    <!-- TRIGGER HOT SPOT -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" eligibleGiveAwayId="22548" typeToTrigger="1" delay="3" itemid="27672" setVelvetRope="1" tagId="8" tags=""/>
+    
+    <!-- TRIGGER WARDOBE -->
+    
+    <chatTrigger message="trick or treat|trick or treat!" typeToTrigger="2" delay="3" itemid="7633" setVelvetRope="1" tagId="13" setColor1="19" setColor2="141" tags=""/>
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="3" delay="3" itemid="6634" setColor1="159" setColor2="29" tags="" /> TRIGGER STORAGE -->
+    
+    <!-- <chatTrigger message="trick or treat" typeToTrigger="4" delay="3" itemid="15128" amount="3" tags="" /> TRIGGER POUCH -->
+    
+  </chatTriggers>
+  
+  <maximumSpawnStacks/>
+  
+  <decorations/>
+  
+</zone>

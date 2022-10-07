@@ -1,0 +1,32 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/congrats.swf</swf>
+		<swf type="code">{publishPanelCode}/congrats.swf</swf>
+	</swfs>
+	<copy>
+		<okbutton><![CDATA[OK]]></okbutton>
+		<genericerror><![CDATA[There was an error processing your request. Please try again later.]]></genericerror>
+		<title>Congratulations!</title>
+		<subtext>Your account has been activated. Please choose what you'd like to do:</subtext>
+		<ortext>or</ortext>
+		
+		<whyupgrad><![CDATA[<a href="event:whyupgrade"><u>Why upgrade?</u></a>]]></whyupgrad>
+		<parentsinf><![CDATA[<a href="event:parentinfo"><u>Parents Information</u></a>]]></parentsinf>
+		<create>Create Your Fairy</create>
+		<upgrade>BUY A MEMBERSHIP</upgrade>
+	</copy>
+	<config>
+		<btnfontsize>13</btnfontsize>
+		<btnwdithmult>1.4</btnwdithmult>
+		<btnheightmult>1.3</btnheightmult>
+		<btncaptionyoffset>4</btncaptionyoffset>
+		<btn2mult>1.2</btn2mult>
+		<btn2captionyoffset>-2</btn2captionyoffset>
+		<SessionRefreshRequest>SessionRefreshRequest</SessionRefreshRequest>
+		<memberlink><![CDATA[membershiphub.html]]></memberlink>
+		<parentlink><![CDATA[parentscenter.html]]></parentlink>
+		<buylink><![CDATA[https://disney.go.com/fairies/pixiehollow/purchase/]]></buylink>
+		<defaultbuyquery><![CDATA[]]></defaultbuyquery>
+		<purchaseURLTarget><![CDATA[_self]]></purchaseURLTarget>
+	</config>
+</panel>

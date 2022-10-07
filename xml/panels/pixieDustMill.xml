@@ -1,0 +1,28 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/pixieDustMill.swf</swf>
+		<swf type="code">{panelCode}/pixieDustMill.swf</swf>
+	</swfs>
+	<copy>
+		<skip target="skipbutton.caption">Skip This</skip>
+		<newItemsTitle>Your Rewards!</newItemsTitle>
+		<newItemsContinue target="newItems.continue.caption">Continue</newItemsContinue>
+		<newLevelTitle>You've earned #TALENT_SKILL#</newLevelTitle>
+		<levelMsg>You've mastered the Talent Skill:</levelMsg>
+		<levelDescriptionMember>Visit #FAMOUS_FAIRY#'s home to learn more about this Talent Skill!</levelDescriptionMember>
+		<levelDescriptionNonMember>Visit #MEADOW_NAME# to try out your new #TALENT_SKILL_NAME# talent skill!</levelDescriptionNonMember>
+		<congratulations>Congratulations!</congratulations>
+		<levelContinue target="newLevel.continue.caption">Continue</levelContinue>
+		<alsoGot target="newLevelItems.title">You've also recieved.</alsoGot>
+		<findItems target="newLevelItems.instructions">You'll find these items in your Leaf Journal and Pouch.</findItems>
+		<getRewards target="newLevelItems.getNewLevelItemsBtn.cation">Continue</getRewards>
+		<talentAlertTitle>Become a Talent Master!</talentAlertTitle>
+		<talentAlertMessage>Terence and #FAMOUS_FAIRY# need to explain a whole new feature of Pixie Hollow. Click below to learn about becoming a Talent Master!</talentAlertMessage>
+		<ok target="talentAlert.ok.caption">OK</ok>
+		<pattern>Pattern</pattern>
+		<blueprint>Blueprint</blueprint>
+		<recipe>Recipe</recipe>
+	</copy>
+	<config>	
+	</config>
+</panel>

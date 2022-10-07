@@ -1,0 +1,131 @@
+<zone>
+  <name>Blossom Bungalow</name>
+  <zoneID>901</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>home_music_garden</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="6348" height="3795">
+        <image x="2760" y="1650" type="none">background_04.swf</image>
+      </layer>
+      <layer type="ground" width="7714" height="4671">
+        <image x="3354" y="2031" type="none">action_03.swf</image>
+        <image x="3354" y="2031" type="merge" party="1">garden_flag_party_02.swf</image>
+        <image x="3354" y="2031" type="merge" party="2">garden_flower_party_02.swf</image>
+        <image x="3354" y="2031" type="merge" party="3">garden_lighting_party_02.swf</image>
+		<image x="3354" y="2031" type="none" party="4">garden_winter_party_02.swf</image>
+		<image x="3354" y="2031" type="none" party="5">garden_spring_party_02.swf</image>
+		<image x="3354" y="2031" type="none" party="6">garden_summer_party_02.swf</image>
+		<image x="3354" y="2031" type="none" party="7">garden_autumn_party_02.swf</image>
+      </layer>
+      <layer type="normal" width="9315" height="5175">
+        <image x="4050" y="2200" type="none">lights_02.swf</image>
+      </layer>
+      <layer type="normal" width="8280" height="5023">
+        <image x="3600" y="2184" type="none">foreground_01.swf</image>
+        <image x="3600" y="2164" type="merge" party="1">garden_flag_party_04.swf</image>
+        <image x="3600" y="2164" type="merge" party="2">garden_flower_party_04.swf</image>
+        <image x="3600" y="2164" type="merge" party="3">garden_lighting_party_04.swf</image>
+		<image x="3600" y="2164" type="none" party="4">foreground_winter_01.swf</image>
+		<image x="3600" y="2164" type="none" party="5">foreground_spring_01.swf</image>
+		<image x="3600" y="2164" type="none" party="6">foreground_summer_01.swf</image>
+		<image x="3600" y="2164" type="none" party="7">foreground_autumn_01.swf</image>
+      </layer>
+    </layers>
+    <validArea>
+      <vertex x="3430" y="2180"/>
+      <vertex x="4400" y="2180"/>
+      <vertex x="4400" y="2600"/>
+      <vertex x="3430" y="2600"/>
+    </validArea>
+  </clientLayout>
+  <locations>
+    <location x="4004" y="2371">frontDoor</location>
+    <location x="4113" y="2397">signPost</location>
+    <location x="3950" y="2525">animalFriend</location>
+    <location x="3850" y="2575">meadowSurprise1</location>
+    <location x="4050" y="2575">meadowSurprise3</location>
+    <location x="3700" y="2540">meadowSurprise4</location>
+    <location x="4200" y="2575">meadowSurprise5</location>
+  </locations>
+  <bgms>
+    <bgm>
+      <id>home_music_garden</id>
+      <loops>0</loops>
+      <volumeLow>0.185</volumeLow>
+      <volumeHigh>0.185</volumeHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  <validArea type="polygon">
+    
+    <vertex x="3430" y="2180"/>
+    
+    <vertex x="4400" y="2180"/>
+    
+    <vertex x="4400" y="2600"/>
+    
+    <vertex x="3430" y="2600"/>
+    
+  </validArea>
+  
+  <rooms>
+    
+    <room index="1" x="3914" y="2381">
+      
+      <bounds type="box">
+        
+        <left>3389</left>
+        
+        <right>4445</right>
+        
+        <top>2150</top>
+        
+        <bottom>2626</bottom>
+        
+      </bounds>
+      
+      <nearPlane>
+        
+        <left>3389</left>
+        
+        <right>4445</right>
+        
+        <top>2150</top>
+        
+        <bottom>2626</bottom>
+        
+      </nearPlane>
+      
+      <farPlane>
+        
+        <left>3389</left>
+        
+        <right>4445</right>
+        
+        <top>2150</top>
+        
+        <bottom>2626</bottom>
+        
+      </farPlane>
+      
+    </room>
+    
+  </rooms>
+  
+  <decorations/>
+  
+</zone>

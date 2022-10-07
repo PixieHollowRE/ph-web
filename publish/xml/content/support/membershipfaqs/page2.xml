@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<config>
+
+		<taglines>
+
+			<tagline align="center" font="pristina" >header</tagline>
+
+		</taglines>
+
+
+		<gameoverview>
+
+			<!-- header icon_id="8">gameoverviewheader</header-->
+
+			<!--expand type="expandableElement">
+
+				<link>membership1_link</link>
+
+				<header xOffset="35">membership1_Q</header>
+
+				<header xOffset="35">membership1_A</header>
+
+			</expand>
+
+			<expand type="expandableElement">
+
+				<link>membership2_link</link>
+
+				<header xOffset="35">membership2_Q</header>
+
+				<header xOffset="35">membership2_A</header>
+
+			</expand>
+
+			<expand type="expandableElement">
+
+				<link>membership3_link</link>
+
+				<header xOffset="35">membership3_Q</header>
+
+				<header xOffset="35">membership3_A</header>
+
+			</expand>
+
+			<expand type="expandableElement">
+
+				<link>membership4_link</link>
+
+				<header xOffset="35">membership4_Q</header>
+
+				<header xOffset="35">membership4_A</header>
+
+			</expand>
+			
+			<expand type="expandableElement">
+
+				<link>membership5_link</link>
+
+				<header xOffset="35">membership5_Q</header>
+
+				<header xOffset="35">membership5_A</header>
+
+			</expand>
+						
+			<expand type="expandableElement">
+
+				<link>membership6_link</link>
+
+				<header xOffset="35">membership6_Q</header>
+
+				<header xOffset="35">membership6_A</header>
+
+			</expand>
+			
+			
+			<expand type="expandableElement">
+
+				<link>membership7_link</link>
+
+				<header xOffset="35">membership7_Q</header>
+
+				<header xOffset="35">membership7_A</header>
+
+			</expand-->
+						
+			<expand type="expandableElement">
+
+				<link>membership8_link</link>
+
+				<header xOffset="35">membership8_Q</header>
+
+				<header xOffset="35">membership8_A</header>
+
+			</expand>
+									
+			<expand type="expandableElement">
+
+				<link>membership9_link</link>
+
+				<header xOffset="35">membership9_Q</header>
+
+				<header xOffset="35">membership9_A</header>
+
+			</expand>
+												
+			<expand type="expandableElement">
+
+				<link>membership10_link</link>
+
+				<header xOffset="35">membership10_Q</header>
+
+				<header xOffset="35">membership10_A</header>
+
+			</expand>
+																	
+			<expand type="expandableElement">
+
+				<link>membership11_link</link>
+
+				<header xOffset="35">membership11_Q</header>
+
+				<header xOffset="35">membership11_A</header>
+
+			</expand>
+			
+			<expand type="expandableElement">
+
+				<link>membership12_link</link>
+
+				<header xOffset="35">membership12_Q</header>
+
+				<header xOffset="35">membership12_A</header>
+
+			</expand>
+																		
+			<expand type="expandableElement">
+
+				<link>membership13_link</link>
+
+				<header xOffset="35">membership13_Q</header>
+
+				<header xOffset="35">membership13_A</header>
+
+			</expand>
+		</gameoverview>
+
+</config>
+
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">Page 2</span>]]></header>
+		
+
+		<gameoverviewheader><![CDATA[<span class="newsbodytext">Game Overview</span>]]></gameoverviewheader>
+		
+		<membership1_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">What is a Pixie Hollow Membership?</a></ul></li></span>]]></membership1_link>
+		<membership1_Q><![CDATA[<span class="newsbodytext">Q: What is a Pixie Hollow Membership?<br><br></span>]]></membership1_Q>
+		<membership1_A><![CDATA[<span class="newsbodytext">A: Pixie Hollow is free to play, but buying a Pixie Hollow membership opens up a lot more things to do like shopping, personal crafting, quests and playing new games before they are released to all the other Fairies in the Hollow.  </span>]]></membership1_A>
+		
+		<membership2_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">What payment methods do you accept?</a></ul></li></span>]]></membership2_link>
+		<membership2_Q><![CDATA[<span class="newsbodytext">Q: What payment methods do you accept?<br><br></span>]]></membership2_Q>
+		<membership2_A><![CDATA[<span class="newsbodytext">A: Pixie Hollow accepts credit card payments including Visa, Mastercard, and American Express. We also accept Paypal payments. If there is a payment method you would like to suggest we add, please <a href="contactus.xml">contact us</a>.</span>]]></membership2_A>
+		
+		<membership3_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Is there a family or group rate?</a></ul></li></span>]]></membership3_link>
+		<membership3_Q><![CDATA[<span class="newsbodytext">Q: Is there a family or group rate?<br><br></span>]]></membership3_Q>
+		<membership3_A><![CDATA[<span class="newsbodytext">A: Family or group rates are not currently available.</span>]]></membership3_A>
+				
+		<membership4_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">How soon does Membership take effect?</a></ul></li></span>]]></membership4_link>
+		<membership4_Q><![CDATA[<span class="newsbodytext">Q: How soon does Membership take effect?<br><br></span>]]></membership4_Q>
+		<membership4_A><![CDATA[<span class="newsbodytext">A: Membership is activated as soon as you complete the purchase process.  However, please note that if we are not able to successfully charge your credit card or PayPal account, your account will revert back to non-Member status. 
+<br><br>If a long period of time has passed and your Membership is still not active, please contact Pixie Hollow Member Services by calling the Pixie Hollow Customer Support line at 877-78-PIXIE (877-787-4943) - during our hours of operations: Monday through Friday, 9 AM to 10 PM Eastern and Saturday and Sunday, 12 PM to 4 PM Eastern.
+</span>]]></membership4_A>
+
+		<membership5_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">I paid for my Membership, but I still can't shop or use any of the other Membership features!</a></ul></li></span>]]></membership5_link>
+		<membership5_Q><![CDATA[<span class="newsbodytext">Q: I paid for my Membership, but I still can't shop or use any of the other Membership features!<br><br></span>]]></membership5_Q>
+		<membership5_A><![CDATA[<span class="newsbodytext">A: Please log off and log back on again to activate your Membership status.  If your Membership is still not active, please contact the Pixie Hollow Member Services by calling the Pixie Hollow Customer Support line at 877-78-PIXIE (877-787-4943) - during our hours of operations: Monday through Friday, 9 AM to 10 PM Eastern and Saturday and Sunday, 12 PM to 4 PM Eastern.</span>]]></membership5_A>
+	
+		<membership6_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">How do I change my Membership subscription type to a monthly/semi-annual or annual payment?</a></ul></li></span>]]></membership6_link>
+		<membership6_Q><![CDATA[<span class="newsbodytext">Q: How do I change my Membership subscription type to a monthly/semi-annual or annual payment?<br><br></span>]]></membership6_Q>
+		<membership6_A><![CDATA[<span class="newsbodytext">A: To change your Membership subscription type, please go to our <a href="membershiphub.xml">Pixie Hollow Membership</a> page on the Web site and select your new subscription choice.  Any remaining time from your previous subscription type will be added to your new Membership and your account will renew at the updated subscription price.</span>]]></membership6_A>
+			
+		<membership7_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">How do I change my method of payment?</a></ul></li></span>]]></membership7_link>
+		<membership7_Q><![CDATA[<span class="newsbodytext">Q: How do I change my method of payment?<br><br></span>]]></membership7_Q>
+		<membership7_A><![CDATA[<span class="newsbodytext">A: To change your monthly Membership fees to a new credit card, simply change your billing information in our <a href="http://disney.go.com/fairies/pixiehollow/accountmanagement.html">Account Manager</a> by clicking on the "Manage Membership" button on the lower left-hand side.
+<br>To switch between PayPal and Credit Card payment, you will need to cancel and then renew your Membership. Please follow the steps in the question above (Q: How do I change my Membership subscription type to a monthly/semi-annual or annual payment?) to learn how to do this. 
+</span>]]></membership7_A>
+					
+		<membership8_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Will my Membership automatically renew?</a></ul></li></span>]]></membership8_link>
+		<membership8_Q><![CDATA[<span class="newsbodytext">Q: Will my Membership automatically renew?<br><br></span>]]></membership8_Q>
+		<membership8_A><![CDATA[<span class="newsbodytext">A: If your Membership is using a monthly, semi-annual or annual subscription type, it will automatically renew. However, Game Cards and Guest Passes will not automatically renew. Please note that you can cancel this Membership at anytime.</span>]]></membership8_A>
+							
+		<membership9_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">How do I renew my Membership?</a></ul></li></span>]]></membership9_link>
+		<membership9_Q><![CDATA[<span class="newsbodytext">Q: How do I renew my Membership?<br><br></span>]]></membership9_Q>
+		<membership9_A><![CDATA[<span class="newsbodytext">A: To renew your Membership, please go to the <a href="membershiphub.xml">Pixie Hollow Membership</a> page on the Web site and select your subscription choice.  As long as you are logged in with your existing Account ID, your Fairy will not lose any items or progress and will appear exactly as it was before your Membership expired.</span>]]></membership9_A>
+									
+		<membership10_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">How do I cancel my Membership?</a></ul></li></span>]]></membership10_link>
+		<membership10_Q><![CDATA[<span class="newsbodytext">Q: How do I cancel my Membership?<br><br></span>]]></membership10_Q>
+		<membership10_A><![CDATA[<span class="newsbodytext">A: You can cancel your account immediately by calling the Pixie Hollow Customer Support line at 877-78-PIXIE (877-787-4943) - during our hours of operations: Monday through Friday, 9 AM to 10 PM Eastern and Saturday and Sunday, 12 PM to 4 PM Eastern.</span>]]></membership10_A>
+											
+		<membership11_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">When will my cancellation take effect?</a></ul></li></span>]]></membership11_link>
+		<membership11_Q><![CDATA[<span class="newsbodytext">Q: When will my cancellation take effect?<br><br></span>]]></membership11_Q>
+		<membership11_A><![CDATA[<span class="newsbodytext">A: When you cancel your Membership online, it will automatically expire at the end of your current subscription period. If you would rather have your cancellation take effect immediately, please cancel your account by calling the Pixie Hollow Customer Support line at 877-78-PIXIE (877-787-4943), during our hours of operations: Monday through Friday, 9 AM to 10 PM Eastern and Saturday and Sunday, 12 PM to 4 PM Eastern.
+		</span>]]></membership11_A>
+													
+		<membership12_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">What is your refund policy?</a></ul></li></span>]]></membership12_link>
+		<membership12_Q><![CDATA[<span class="newsbodytext">Q: What is your refund policy?<br><br></span>]]></membership12_Q>
+		<membership12_A><![CDATA[<span class="newsbodytext">A: Pixie Hollow Memberships are refundable up to 15 days after your purchase and your account will immediately revert to non-Member status. 
+<br><br>For example, if you purchase a Membership on the first day of a month, and then cancelled your Membership before or on the fifteenth day of that month, you will receive a full refund, but your Membership will expire immediately. If you cancel after the sixteenth day of that month, you will be charged for the remainder of that subscription period and your Membership will automatically expire on the first day of the following month. 
+<br><br>However, please note that if you cancel online, you will not be refunded for the current subscription period and your account will revert to non-Member status at the end of that paid subscription period. 
+</span>]]></membership12_A>
+		
+				<membership13_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">What happens to my Fairy's clothes, items and tailoring progress after cancellation?</a></ul></li></span>]]></membership13_link>
+		<membership13_Q><![CDATA[<span class="newsbodytext">Q: What happens to my Fairy's clothes, items and tailoring progress after cancellation?<br><br></span>]]></membership13_Q>
+		<membership13_A><![CDATA[<span class="newsbodytext">A:  If you cancel your Membership, your Fairy's belongings will go into storage and you will not be able to access them. They will automatically be available again if you choose to reactivate your Membership.</span>]]></membership13_A>
+		
+		
+		</copy>
+</page>

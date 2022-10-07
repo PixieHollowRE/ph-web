@@ -1,0 +1,255 @@
+<page>
+	<config>
+	
+	
+    <ChoosetheNextTalent>
+		<header icon_id="8" iconYOffset="20" font="pristina">ChoosetheNextTalent_header</header>
+		<header rightElement="November 4, 2008">ChoosetheNextTalent_posted</header>
+		<img width="289">ChoosetheNextTalent_body1</img>
+		<dtext>ChoosetheNextTalent_body2</dtext>
+		<dtext>ChoosetheNextTalent_body3</dtext>
+		<img width="113">ChoosetheNextTalent_body4</img>
+		<dtext>ChoosetheNextTalent_comments</dtext>		
+    </ChoosetheNextTalent>
+	
+	
+	
+    <HowItAllBegan>
+		<header icon_id="8" iconYOffset="20" font="pristina">HowItAllBegan_header</header>
+		<header rightElement="October 28, 2008">HowItAllBegan_posted</header>
+		<img width="289">HowItAllBegan_body1</img>
+		<dtext>HowItAllBegan_body2</dtext>
+		<dtext>HowItAllBegan_body3</dtext>
+		<img width="113">HowItAllBegan_body4</img>
+		<dtext>HowItAllBegan_comments</dtext>		
+    </HowItAllBegan>
+
+		
+	
+
+    <NewStuffInTheHollow>
+		<header icon_id="8" iconYOffset="20" font="pristina">NewStuffInTheHollow_header</header>
+		<header rightElement="October 22, 2008">NewStuffInTheHollow_posted</header>
+		<img width="289">NewStuffInTheHollow_body1</img>
+          <dtext>NewStuffInTheHollow_body2</dtext>
+		<dtext>NewStuffInTheHollow_body3</dtext>
+		<img width="113">NewStuffInTheHollow_body4</img>
+		<dtext>NewStuffInTheHollow_body5</dtext>
+		<dtext>NewStuffInTheHollow_comments</dtext>		
+    </NewStuffInTheHollow>
+
+
+<!--
+   
+	<WeNeedBerryTales>
+		<header icon_id="8" iconYOffset="20" font="pristina">WeNeedBerryTales_header</header>
+		<header rightElement="September 30, 2008">WeNeedBerryTales_posted</header>
+		<img width="289">WeNeedBerryTales_body1</img>
+                <dtext>WeNeedBerryTales_body2</dtext>
+		<dtext>WeNeedBerryTales_body3</dtext>
+		<img width="113">WeNeedBerryTales_body4</img>
+		<dtext>WeNeedBerryTales_body5</dtext>
+                <divider xOffset="150">largeVine</divider>
+    </WeNeedBerryTales>
+		
+-->
+
+<!--
+		
+	<HifromtheNeverCouncil_2>
+		<header icon_id="8" iconYOffset="20" font="pristina">HifromtheNeverCouncil_2_header</header>
+		<header rightElement="September 25, 2008">HifromtheNeverCouncil_2_posted</header>
+		<img width="289">HifromtheNeverCouncil_2_body1</img>
+                <dtext>HifromtheNeverCouncil_2_body2</dtext>
+		<dtext>HifromtheNeverCouncil_2_body3</dtext>
+		<img width="113">HifromtheNeverCouncil_2_body4</img>
+		<dtext>HifromtheNeverCouncil_2_body5</dtext>
+                <divider xOffset="150">largeVine</divider>
+    </HifromtheNeverCouncil_2>	
+		
+-->
+
+<!--
+
+    <PixiePumpkinPatchArtContest>
+    
+-->
+		<!--header icon_id="8" iconYOffset="20" font="pristina"><![CDATA[<span class="newsbodytext">Enter the Pixie Pumpkin Patch Art Contest!</span>]]></header-->
+		<!--header rightElement="September 22, 2008"><![CDATA[<span class="newsbodytext">Posted by: Sweet Pea</span>]]></header-->
+<!--
+		<header icon_id="8" iconYOffset="20" font="pristina">PixiePumpkinPatchArtContestheader</header>
+		<header rightElement="September 22, 2008">PixiePumpkinPatchArtContestposted</header>
+		<img width="289">PixiePumpkinPatchArtContestBody1</img>
+         <dtext>PixiePumpkinPatchArtContestBody2</dtext>
+		<dtext>PixiePumpkinPatchArtContestBody3</dtext>
+		<img width="113">PixiePumpkinPatchArtContestBody4</img>
+		<dtext>PixiePumpkinPatchArtContestBody5</dtext>
+        <divider xOffset="150">largeVine</divider>
+    </PixiePumpkinPatchArtContest>
+	
+    <welcomeToOpenBeta>
+		<header icon_id="8" iconYOffset="20" font="pristina">openbetaheader</header>
+		<header rightElement="September 18, 2008">openbetaposted</header>
+		<img width="289">openbetabody1</img>
+                <dtext>openbetabody2</dtext>
+		<dtext>openbetabody3</dtext>
+		<img width="311">openbetabody4</img>
+		<dtext>openbetabody5</dtext>
+                <divider xOffset="150">largeVine</divider>
+    </welcomeToOpenBeta>
+    
+-->
+        
+	<!-- DO NOT ERASE -->
+	<!-- DIVIDER <divider xoffset="150">largevine</divider> -->
+	<!-- ALL SIG  <img width="311"><![CDATA[<img src="{publishPanelImages}/signatures.png" width="311" height="67" align="Left">]]></img> -->
+	<!-- KIT SIG  <img width="118"><![CDATA[<img src="{publishPanelImages}/Kit_sig.png" width="118" height="67" align="Left">]]></img> -->
+	<!-- SWEET PEA <img width="113"><![CDATA[<img src="{publishPanelImages}/Sweetpea_sig.png" width="113" height="67" align="Left">]]></img>  -->
+	<!-- MARINA  <img width="110"><![CDATA[<img src="{publishPanelImages}/Marina_sig.png" width="110" height="67" align="Left">]]></img> -->
+
+	</config>
+	<copy>
+	
+	
+		<!-- TALENT POEMS AND ART -->
+	
+	
+		<!-- CHOOSE THE NEXT TALENT -->
+		<ChoosetheNextTalent_header><![CDATA[<span class="newsbodytext">Choose the Next Talent</span>]]></ChoosetheNextTalent_header>
+		<ChoosetheNextTalent_posted><![CDATA[<span class="newsbodytext">Posted by: Kit</span>]]></ChoosetheNextTalent_posted>
+		<ChoosetheNextTalent_body1><![CDATA[<img src="{publishPanelImages}/Choose-the-Next-Talent.png" width="289" height="146" align="right"><br>Fly with you, Fairies! I hope everyone had a great time at the Animal Masquerade. I know I did. I did the animal-talents proud by putting on my Tailflower Boots, Calla Lily Skirt, and Oak Leaf Sash – all brown, of course -- to go with my Chipmunk ears.<br><br>In case you haven't heard, we're getting ready to invite a new talent to join us in Pixie Hollow, and we need everyone's advice. Leave a <a href="fairypolls.html">comment</a> here and tell us what talent you'd like to see arrive next. We can't wait to hear from you!     
+		<br>]]></ChoosetheNextTalent_body1>
+		<ChoosetheNextTalent_body2><![CDATA[<span class="newsbodytext"><br></span>]]></ChoosetheNextTalent_body2>
+		<ChoosetheNextTalent_body3><![CDATA[<span class="newsbodytext"><br>Keep it dusty,</span>]]></ChoosetheNextTalent_body3>
+		<ChoosetheNextTalent_body4><![CDATA[<img src="{publishPanelImages}/Kit_sig.png" width="113" height="67" align="Left">]]></ChoosetheNextTalent_body4>
+		<ChoosetheNextTalent_comments><![CDATA[<span class="newsbodytext"><a href="http://blog.pixiehollow.go.com/blog/nevernews/entry/choose_the_next_talent#comments">Leave us a comment</a> about this article by visiting our <a href="http://blog.pixiehollow.go.com/blog/">Never News archive</a>.</span>]]></ChoosetheNextTalent_comments>
+		
+		
+		<!-- ANIMAL MASQUERADE -->
+		<AnimalMasquerade_header><![CDATA[<span class="newsbodytext">The Animal Masquerade Ball Has Begun!</span>]]></AnimalMasquerade_header>
+		<AnimalMasquerade_posted><![CDATA[<span class="newsbodytext">Posted by: Sweet Pea</span>]]></AnimalMasquerade_posted>
+		<AnimalMasquerade_body1><![CDATA[<img src="{publishPanelImages}/Masquerade_Party.png" width="289" height="146" align="right"><br>It's dress-up time in the Hollow! Head over to the brand-new autumn meadow, Acorn Summit, to join in on the festivities (You can find the meadow sign at the top of Maple Tree Hill and Pumpkin Patch). Have fun shopping for adorable animal decorations at Summit Style, and dress up in chipmunk ears or a gorgeous animal mask to honor our critter companions. The masks are handmade by animal-talents and have just been put on sale! You can now trade Raspberries for the masks which can be earned quick as a flit by playing Harvest Hustle. Remember, the masks will only be around for a limited time!<br><br>Plus, if you were one of the lucky Fairies who got a sneak peek at our newest talent game, Fairy Fireworks, please let us know what you thought. Please be sure to <a href="http://pixiehollow.go.com/help/reportabug.html"> report any problems</a> you may have encountered.<br><br>Be on the lookout for Fawn ... she mentioned she might be stopping by!   
+		<br>]]></AnimalMasquerade_body1>
+		<AnimalMasquerade_body2><![CDATA[<span class="newsbodytext"><br></span>]]></AnimalMasquerade_body2>
+		<AnimalMasquerade_body3><![CDATA[<span class="newsbodytext"><br>Happy Flapping,</span>]]></AnimalMasquerade_body3>
+		<AnimalMasquerade_body4><![CDATA[<img src="{publishPanelImages}/Sweetpea_sig.png" width="113" height="67" align="Left">]]></AnimalMasquerade_body4>
+		<AnimalMasquerade_body5><![CDATA[<span class="newsbodytext"><br>P.S. After you've done your best bunny impression in the Hollow, be sure to download fun <a href="http://a.disney.go.com/fairies/pixiehollow/pdfs/animalmasquerade.pdf">Animal Masquerade Ball printables!</a><br><br></span>]]></AnimalMasquerade_body5>
+		<AnimalMasquerade_comments><![CDATA[<span class="newsbodytext"><a href="http://blog.pixiehollow.go.com/blog/nevernews/entry/the_animal_masquerade_ball_has#comments">Leave us a comment</a> about this article by visiting our <a href="http://blog.pixiehollow.go.com/blog/">Never News archive</a>.</span>]]></AnimalMasquerade_comments>		
+		
+
+		<!-- HOW IT ALL BEGAN -->
+		<HowItAllBegan_header><![CDATA[<span class="newsbodytext">How It All Began</span>]]></HowItAllBegan_header>
+		<HowItAllBegan_posted><![CDATA[<span class="newsbodytext">Posted by: Sweet Pea</span>]]></HowItAllBegan_posted>
+		<HowItAllBegan_body1><![CDATA[<img src="{publishPanelImages}/How_it_all_began.png" width="289" height="146" align="right"><br>Hope everyone had a Fairy fun time at Tinker Bell's Arrival Day party! Have you ever wondered how Tinker Bell arrived to Pixie Hollow in the first place? How do Fairies actually go about changing the seasons on the mainland? All of the answers can be found in the magical new movie, "Tinker Bell," out on DVD today! You'll recognize some familiar faces and places from Pixie Hollow, and learn even more about what it means to be a Never Fairy, like how animal-talents can actually talk to their animal friends! 
+		<br><br>Speaking of animals, this weekend is the Animal Masquerade Ball. Stop on by and pay tribute to our fuzzy friends by dressing up as one and celebrating in Acorn Summit, a NEW meadow in Autumn Forest! There will be more details on Pixie Central soon, but for now, <a href="fairypolls.html"> vote on your favorite forest critter</a> and tell me what you think you'll see at the Ball! 
+		<br>]]></HowItAllBegan_body1>
+		<HowItAllBegan_body2><![CDATA[<span class="newsbodytext"><br></span>]]></HowItAllBegan_body2>
+		<HowItAllBegan_body3><![CDATA[<span class="newsbodytext"><br>Happy flapping,</span>]]></HowItAllBegan_body3>
+		<HowItAllBegan_body4><![CDATA[<img src="{publishPanelImages}/Sweetpea_sig.png" width="113" height="67" align="Left">]]></HowItAllBegan_body4>
+		<!--<HowItAllBegan_body5><![CDATA[<span class="newsbodytext"><br>P.S. Today is the last day to get the "Tink's Chic" collection at Brook's Basics. But don't get your wings in a tangle, the collection will be back one day. Fly safely!<br><br></span>]]></HowItAllBegan_body5>-->
+		<HowItAllBegan_comments><![CDATA[<span class="newsbodytext"><a href="http://blog.pixiehollow.go.com/blog/nevernews/entry/how_it_all_began#comments">Leave us a comment</a> about this article by visiting our <a href="http://blog.pixiehollow.go.com/blog/">Never News archive</a>.</span>]]></HowItAllBegan_comments>		
+	
+	
+		<!-- TINK SHOUT OUTS -->
+		<TinkShoutOuts_header><![CDATA[<span class="newsbodytext">Tinker Bell Party and Shout Outs!</span>]]></TinkShoutOuts_header>
+		<TinkShoutOuts_posted><![CDATA[<span class="newsbodytext">Posted by: Sweet Pea</span>]]></TinkShoutOuts_posted>
+		<TinkShoutOuts_body1><![CDATA[<img src="{publishPanelImages}/Tinkerbell_shoutouts.png" width="289" height="146" align="right"><br>Hello, hello Fairies,<br><br>
+    Tinker Bell is so lucky to have friends like you! We received so many shout outs, and they are all so Fairy sweet. Check them out in the Pixie Postings in the Hollow -- just click on the News board and then select the "Seasonal Scoop" posting. While you're in the Hollow, be sure to celebrate Tink's Arrival Day party! You have until Tuesday, October 28 to find the secret party location (there's a location hint next to Tink in the picture), collect Dandelion Fluff, and shop for the "Tink's Chic" collection in Dewdrop Vale. Click on the <a href="http://blog.pixiehollow.go.com/blog/">Comments</a> link to tell me what you're most excited about!
+		<br>]]></TinkShoutOuts_body1>
+		<TinkShoutOuts_body2><![CDATA[<span class="newsbodytext">
+                <br></span>]]></TinkShoutOuts_body2>
+		<TinkShoutOuts_body3><![CDATA[<span class="newsbodytext"><br>Happy flapping,</span>]]></TinkShoutOuts_body3>
+		<TinkShoutOuts_body4><![CDATA[<img src="{publishPanelImages}/Sweetpea_sig.png" width="113" height="67" align="Left">]]></TinkShoutOuts_body4>
+		<TinkShoutOuts_comments><![CDATA[<span class="newsbodytext"><a href="http://blog.pixiehollow.go.com/blog/nevernews/entry/tinker_bell_party_and_shout#comments">Leave us a comment</a> about this article by visiting our <a href="http://blog.pixiehollow.go.com/blog/">Never News archive</a>.</span>]]></TinkShoutOuts_comments>		
+
+
+		<!-- NEW STUFF IN THE HOLLOW -->
+		<NewStuffInTheHollow_header><![CDATA[<span class="newsbodytext">New Stuff In The Hollow!</span>]]></NewStuffInTheHollow_header>
+		<NewStuffInTheHollow_posted><![CDATA[<span class="newsbodytext">Posted by: Marina</span>]]></NewStuffInTheHollow_posted>
+		<NewStuffInTheHollow_body1><![CDATA[<img src="{publishPanelImages}/new_stuff_in_the_hollow.png" width="289" height="146" align="right"><br>
+    Good day, Fairies. Welcome to the official launch of Pixie Hollow! Beta is over and there are so many new, exciting things to check out. Now you can sew your own Fairy clothes or trade your gatherables for clothes and furnishings in Pixie Hollow's shops!  
+    <br><br>
+    Be sure to pick up a sparkling new party outfit for a big celebration that is happening this week! It's the time of year when we celebrate the arrival of a super special tinker-talent, the beautiful Tinker Bell. Check out the events board on Pixie Central for all the details.
+    <br><br>
+    This shiny new Hollow belongs to YOU. Tell us what you like and what you'd like to see next by voting in our new <a href="fairypolls.html">Pixie Polls</a> and leaving <a href="http://blog.pixiehollow.go.com/blog/">Comments</a> about the Never News!  We can't wait to hear from you.
+		<br>]]></NewStuffInTheHollow_body1>
+		<NewStuffInTheHollow_body2><![CDATA[<span class="newsbodytext">
+                <br></span>]]></NewStuffInTheHollow_body2>
+		<NewStuffInTheHollow_body3><![CDATA[<span class="newsbodytext"><br>See ya 'round the waterfall,</span>]]></NewStuffInTheHollow_body3>
+		<NewStuffInTheHollow_body4><![CDATA[<img src="{publishPanelImages}/Marina_sig.png" width="113" height="67" align="Left">]]></NewStuffInTheHollow_body4>
+		<NewStuffInTheHollow_body5><![CDATA[<span class="newsbodytext"></span>]]></NewStuffInTheHollow_body5>
+		<NewStuffInTheHollow_comments><![CDATA[<span class="newsbodytext"><a href="http://blog.pixiehollow.go.com/blog/nevernews/entry/new_stuff_in_the_hollow#comments">Leave us a comment</a> about this article by visiting our <a href="http://blog.pixiehollow.go.com/blog/">Never News archive</a>.</span>]]></NewStuffInTheHollow_comments>		
+
+		
+		<!-- WE NEED BERRY TALES -->
+		<WeNeedBerryTales_header><![CDATA[<span class="newsbodytext">We Need Berry Tales!</span>]]></WeNeedBerryTales_header>
+		<WeNeedBerryTales_posted><![CDATA[<span class="newsbodytext">Posted by: Sweet Pea</span>]]></WeNeedBerryTales_posted>
+		<WeNeedBerryTales_body1><![CDATA[<img src="{publishPanelImages}/berry_tales.png" width="289" height="146" align="right"><br>Calling all Fairy authors! The Berry Harvest Festival is coming up in Pixie Hollow, and we're looking for berry tales. Writing a berry tale is easy ... just write a story and switch the word "very" with "berry." For example, you could start a story like this: "It was a berry cold day in Autumn Forest ..." <a href="ugc_types.html">Click here</a> and select "Fairy Tale" to submit your berry tale.
+                <br><br>If your story gets selected, YOUR Fairy and berry tale will be featured in the Pixie Postings! If you haven't checked out the postings yet, click on the "News" board in the bottom corner of your game screen to read about all the latest Fairy happenings.
+				<br>]]></WeNeedBerryTales_body1>
+		<WeNeedBerryTales_body2><![CDATA[<span class="newsbodytext">
+                <br></span>]]></WeNeedBerryTales_body2>
+		<WeNeedBerryTales_body3><![CDATA[<span class="newsbodytext"><br>Happy flapping,</span>]]></WeNeedBerryTales_body3>
+		<WeNeedBerryTales_body4><![CDATA[<img src="{publishPanelImages}/Sweetpea_sig.png" width="113" height="67" align="Left">]]></WeNeedBerryTales_body4>
+		<WeNeedBerryTales_body5><![CDATA[<span class="newsbodytext"></span>]]></WeNeedBerryTales_body5>
+		
+		
+		<!-- HI FROM NEVER COUNCIL -->
+		<HifromtheNeverCouncil_2_header><![CDATA[<span class="newsbodytext">Hi from the Never Council!</span>]]></HifromtheNeverCouncil_2_header>
+		<HifromtheNeverCouncil_2_posted><![CDATA[<span class="newsbodytext">Posted by: Sweet Pea</span>]]></HifromtheNeverCouncil_2_posted>
+		<HifromtheNeverCouncil_2_body1><![CDATA[<img src="{publishPanelImages}/nevercouncil.png" width="289" height="146" align="right"><br>Fly with you, Fairies! It's great to meet ya!
+                <br><br>
+                I'm <b>Sweet Pea</b>, one of your Never Council pals.  The Never Council is a group of Fairies just like you who work behind-the-scenes to bring the online world of Pixie Hollow to life! We'll be posting news all the time, so I thought you might like to get to know us a little better.
+                <br><br>
+                Let's start with me! I'm a garden-talent Fairy and I love the color pink, pretty flowers, ribbons, frilly dresses, and tea parties. I'll tell you about upcoming fun stuff like special events and contests. 
+                <br><br>
+                <b>Kit</b> is the animal-talent Fairy on the Never Council. She's an adventure-seeking, rough and tumble type gal. She'll tell you about technical stuff in the game like how to use your chat tools and other helpful game info.
+                <br><br>
+				<b>Marina</b> is a sweet and stylish water-talent Fairy. She loves to make crafts and design new fashions. She'll tell you about new things in the game and may even give you a sneak peek at some of it!
+				<br><br>
+				So, that's your Never Land Council. We hope you love flying in Pixie Hollow as much as we do!
+				<br>]]></HifromtheNeverCouncil_2_body1>
+		<HifromtheNeverCouncil_2_body2><![CDATA[<span class="newsbodytext">
+                <br></span>]]></HifromtheNeverCouncil_2_body2>
+		<HifromtheNeverCouncil_2_body3><![CDATA[<span class="newsbodytext"><br>Happy Flapping,</span>]]></HifromtheNeverCouncil_2_body3>	
+		<HifromtheNeverCouncil_2_body4><![CDATA[<img src="{publishPanelImages}/Sweetpea_sig.png" width="113" height="67" align="Left">]]></HifromtheNeverCouncil_2_body4>
+		<HifromtheNeverCouncil_2_body5><![CDATA[<span class="newsbodytext"></span>]]></HifromtheNeverCouncil_2_body5>
+		
+				
+		<!-- PUMPKIN PATCH ART CONTEST -->
+		<PixiePumpkinPatchArtContestheader><![CDATA[<span class="newsbodytext">Autumn is Here!</span>]]></PixiePumpkinPatchArtContestheader>
+		<PixiePumpkinPatchArtContestposted><![CDATA[<span class="newsbodytext">Posted by: Sweet Pea</span>]]></PixiePumpkinPatchArtContestposted>
+		<PixiePumpkinPatchArtContestBody1><![CDATA[<img src="{publishPanelImages}/pumpkin-patch_news.png" width="289" height="146" align="right"><br>Hello, hello Fairies!
+                <br><br>
+                Happy first day of autumn! Starting today, you can earn Autumn 2008 badges, including Maple Leaf donation badges and the Autumn Welcome badge. Look in your Leaf Journal to find out how to earn them! Also, in celebration of the new season, we're giving away Maple Leaf Wrap tops to all Fairies that log into Pixie Hollow tomorrow, September 23. They're super-cute so be sure to fly by!
+                <br><br>
+                In addition, I'm so pleased to announce our first-ever Pixie Hollow art contest. In honor of fall, the theme of the contest is pumpkin patches, and not just any pumpkin patches ... PIXIE pumpkin patches! This means we're looking for autumn art with some Fairy touches, like nature, animals, and a sprinkling of pixie dust, of course!  Oh, did I mention the grand prize is a Tinker Bell TV set and 5 second place winners receive a Disney Fairies digital camera? Cool, huh!
+                <br><br>
+                You can send in your art by mail or on your computer. <a href="contests_home.xml">All of the contest details can be found here</a>. 
+                <br><br>]]></PixiePumpkinPatchArtContestBody1>
+		<PixiePumpkinPatchArtContestBody2><![CDATA[<span class="newsbodytext">
+                <br><br></span>]]></PixiePumpkinPatchArtContestBody2>
+		<PixiePumpkinPatchArtContestBody3><![CDATA[<span class="newsbodytext"><br>Happy flapping,</span>]]></PixiePumpkinPatchArtContestBody3>
+		<PixiePumpkinPatchArtContestBody4><img width="113"><![CDATA[<img src="{publishPanelImages}/Sweetpea_sig.png" width="113" height="67" align="Left">]]></img></PixiePumpkinPatchArtContestBody4>
+		<PixiePumpkinPatchArtContestBody5><![CDATA[<span class="newsbodytext"></span>]]></PixiePumpkinPatchArtContestBody5>
+		
+		<!-- WELCOME TO OPEN BETA -->
+		<openbetaheader><![CDATA[<span class="newsbodytext">Welcome to Pixie Hollow</span>]]></openbetaheader>
+		<openbetaposted><![CDATA[<span class="newsbodytext">Posted by: The Never Council</span>]]></openbetaposted>
+		<openbetabody1><![CDATA[<img src="{publishPanelImages}/welcome.png" width="289" height="146" align="right"><br>Fly with you, Fairies!
+                <br><br>
+                We're so glad you've arrived ... welcome to the official launch of Disney Fairies Pixie Hollow!
+                <br><br>
+                There is so much to explore in this new online world. Get ready to take YOUR Fairy for a flit around Pixie Hollow's beautiful meadows, then decorate your very own Fairy home, browse through the pages of your Leaf Journal, play fun games, and meet a bunch of new Fairy friends along the way! Plus, we're always adding cool stuff to the Hollow, like the brand-new autumn meadows and tailoring nooks where you can make Fairy clothes! Be sure to check the Never News often for info on all of the exciting new features coming soon to a meadow near you.
+                <br><br>]]></openbetabody1>
+		<openbetabody2><![CDATA[<span class="newsbodytext">
+                One more thing! Pixie Hollow is still in Beta, which means we're continuing to tinker away at the online world.  As you fly around, things may seem broken or unfinished -- the Beta is all about finding out what works and what doesn't so <a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl&formId=nevercouncil">tell us what you think about Pixie Hollow</a> here! We can't wait to make the Hollow even more pixie-licious for you and all your Fairy friends. 
+                <br><br></span>]]></openbetabody2>
+		<openbetabody3><![CDATA[<span class="newsbodytext"><br>Have fun and fly safely,</span>]]></openbetabody3>
+		<openbetabody4><![CDATA[<img src="{publishPanelImages}/signatures.png" width="311" height="67" align="Left">]]></openbetabody4>
+		<openbetabody5><![CDATA[<span class="newsbodytext"></span>]]></openbetabody5>
+		
+	</copy>	
+</page>
+
+

@@ -1,0 +1,556 @@
+<CAFData>
+  <items>
+    <item>2001</item>
+    <item>2002</item>
+    <item>2003</item>
+    <item>2012</item>
+    <item>2015</item>
+    <item>1</item>
+    <item>3</item>
+    <item>6</item>
+    <item>7</item>
+    <item>10</item>
+    <item>1001</item>
+    <item>1005</item>
+    <item>1008</item>
+    <item>1009</item>
+    <item>1010</item>
+    <item>501</item>
+    <item>502</item>
+    <item>503</item>
+    <item>504</item>
+    <item>505</item>
+    <item>3501</item>
+    <item>3502</item>
+    <item>3503</item>
+    <item>3506</item>
+    <item>3507</item>
+	<!-- faces: start -->
+    <item>4501</item>
+    <item>4502</item>
+    <item>4503</item>
+    <item>4504</item>
+    <item>4505</item>
+    <item>4506</item>
+    <item>4507</item>
+    <item>4508</item>
+    <item>4509</item>
+    <item>4510</item>
+    <item>4511</item>
+    <item>4512</item>
+    <item>4513</item>
+    <item>4514</item>
+    <item>4515</item>
+    <item>4516</item>
+    <item>4517</item>
+    <item>4518</item>
+    <item>4519</item>
+	<item gender="2">4535</item>
+	<item gender="2">4536</item>
+	<item gender="2">4537</item>
+	<item gender="2">4538</item>
+	<item gender="2">4539</item>
+	<item gender="2">4540</item>
+	<item gender="2">4541</item>
+	<item gender="2">4542</item>
+	<item gender="2">4543</item>
+	<item gender="2">4544</item>
+	<!-- faces: end -->
+	<!-- wings: start -->
+    <item gender="3">6001</item>
+    <item gender="3">6002</item>
+    <item gender="3">6003</item>
+    <item gender="3">6004</item>
+    <item gender="3">6005</item>
+    <item gender="3">6006</item>
+	<!-- wings: end -->
+	<!-- hair backs: start -->
+    <item>5503</item>
+    <item>5505</item>
+    <item>5521</item>
+	<item gender="2">5554</item>
+	<item gender="2">5555</item>
+	<item gender="2">5560</item>
+	<!-- hair backs: end -->
+    <item>4001</item>
+    <item>4002</item>
+    <item>4003</item>
+    <item>4004</item>
+    <item>4005</item>
+    <item>4006</item>
+    <item>4007</item>
+    <item>4008</item>
+    <item>4009</item>
+    <item>4010</item>
+    <item>4011</item>
+    <item>4012</item>
+    <item>4013</item>
+    <item>4014</item>
+    <item>4015</item>
+    <item>4016</item>
+    <item>4017</item>
+    <item>4018</item>
+    <item>4019</item>
+	<!-- hair fronts: start -->
+    <item>5001</item>
+    <item>5004</item>
+    <item>5007</item>
+	<item gender="2">5044</item>
+	<item gender="2">5048</item>
+	<item gender="2">5052</item>
+	<!-- hair fronts: end -->
+  </items>
+  <color_pools>
+    <color_pool type="Skin" talent="all">
+      <color>91</color>
+      <color>92</color>
+      <color>93</color>
+      <color>94</color>
+      <color>95</color>
+      <color>96</color>
+      <color>97</color>
+      <color>98</color>
+      <color>99</color>
+      <color>100</color>
+      <color>101</color>
+      <color>102</color>
+      <color>103</color>
+      <color>104</color>
+      <color>105</color>
+      <color>106</color>
+      <color>107</color>
+      <color>108</color>
+    </color_pool>
+    <color_pool type="Eyes" talent="all">
+      <color>55</color>
+      <color>56</color>
+      <color>57</color>
+      <color>58</color>
+      <color>59</color>
+      <color>60</color>
+      <color>61</color>
+      <color>62</color>
+      <color>63</color>
+      <color>64</color>
+      <color>65</color>
+      <color>66</color>
+      <color>67</color>
+      <color>68</color>
+      <color>69</color>
+      <color>70</color>
+      <color>71</color>
+      <color>72</color>
+    </color_pool>
+    <color_pool type="Hair" talent="all">
+      <color>73</color>
+	  <!-- <color>74</color> -->
+	  <!-- <color>75</color> -->
+      <color>76</color>
+	  <!-- <color>77</color> -->
+	  <!-- <color>78</color> -->
+      <color>79</color>
+	  <!-- <color>80</color> -->
+	  <!-- <color>81</color> -->
+      <color>82</color>
+	  <!-- <color>83</color> -->
+	  <!-- <color>84</color> -->
+	  <color>85</color>
+	  <!-- <color>86</color> -->
+      <color>87</color>
+	  <!-- <color>88</color> -->
+	  <!-- <color>89</color> -->
+      <color>90</color>
+    </color_pool>
+	
+
+    <color_pool type="Shirt" talent="Animal">
+      <color>114</color>
+      <color>82</color>
+      <color>83</color>
+      <color>78</color>
+      <color>95</color>
+      <color>59</color>
+    </color_pool>
+	<color_pool type="Shirt" talent="Garden">
+      <color>110</color>
+      <color>144</color>
+      <color>130</color>
+      <color>140</color>
+      <color>113</color>
+      <color>81</color>
+    </color_pool>
+    <color_pool type="Shirt" talent="Light">
+      <color>116</color>
+      <color>111</color>
+      <color>47</color>
+      <color>9</color>
+      <color>27</color>
+      <color>90</color>
+    </color_pool>
+    <color_pool type="Shirt" talent="Tinker">
+      <color>122</color>
+      <color>1</color>
+      <color>2</color>
+      <color>64</color>
+      <color>3</color>
+      <color>125</color>
+    </color_pool>
+    <color_pool type="Shirt" talent="Water">
+      <color>37</color>
+      <color>5</color>
+      <color>23</color>
+      <color>4</color>
+      <color>22</color>
+      <color>136</color>
+    </color_pool>
+	
+    <color_pool type="Shoes" talent="Animal">
+      <color>114</color>
+      <color>82</color>
+      <color>83</color>
+      <color>78</color>
+      <color>95</color>
+      <color>59</color>
+    </color_pool>
+	<color_pool type="Shoes" talent="Garden">
+      <color>110</color>
+      <color>144</color>
+      <color>130</color>
+      <color>140</color>
+      <color>113</color>
+      <color>81</color>
+    </color_pool>
+    <color_pool type="Shoes" talent="Light">
+      <color>116</color>
+      <color>111</color>
+      <color>47</color>
+      <color>9</color>
+      <color>27</color>
+      <color>90</color>
+    </color_pool>
+    <color_pool type="Shoes" talent="Tinker">
+      <color>122</color>
+      <color>1</color>
+      <color>2</color>
+      <color>64</color>
+      <color>3</color>
+      <color>125</color>
+    </color_pool>
+    <color_pool type="Shoes" talent="Water">
+      <color>37</color>
+      <color>5</color>
+      <color>23</color>
+      <color>4</color>
+      <color>22</color>
+      <color>136</color>
+    </color_pool>
+
+    <color_pool type="Skirt" talent="Animal">
+      <color>114</color>
+      <color>82</color>
+      <color>83</color>
+      <color>78</color>
+      <color>95</color>
+      <color>59</color>
+    </color_pool>
+	<color_pool type="Skirt" talent="Garden">
+      <color>110</color>
+      <color>144</color>
+      <color>130</color>
+      <color>140</color>
+      <color>113</color>
+      <color>81</color>
+    </color_pool>
+    <color_pool type="Skirt" talent="Light">
+      <color>116</color>
+      <color>111</color>
+      <color>47</color>
+      <color>9</color>
+      <color>27</color>
+      <color>90</color>
+    </color_pool>
+    <color_pool type="Skirt" talent="Tinker">
+      <color>122</color>
+      <color>1</color>
+      <color>2</color>
+      <color>64</color>
+      <color>3</color>
+      <color>125</color>
+    </color_pool>
+    <color_pool type="Skirt" talent="Water">
+      <color>37</color>
+      <color>5</color>
+      <color>23</color>
+      <color>4</color>
+      <color>22</color>
+      <color>136</color>
+    </color_pool>
+		
+    <color_pool type="HeadItem" talent="Animal">
+      <color>150</color>
+      <color>66</color>
+      <color>48</color>
+      <color>2</color>
+      <color>21</color>
+      <color>125</color>
+    </color_pool>
+	<color_pool type="HeadItem" talent="Garden">
+      <color>61</color>
+      <color>72</color>
+      <color>15</color>
+      <color>33</color>
+      <color>14</color>
+      <color>32</color>
+    </color_pool>
+    <color_pool type="HeadItem" talent="Light">
+      <color>90</color>
+      <color>123</color>
+      <color>10</color>
+      <color>25</color>
+      <color>31</color>
+      <color>82</color>
+    </color_pool>
+    <color_pool type="HeadItem" talent="Tinker">
+      <color>99</color>
+      <color>106</color>
+      <color>97</color>
+      <color>46</color>
+      <color>93</color>
+      <color>91</color>
+    </color_pool>
+    <color_pool type="HeadItem" talent="Water">
+      <color>18</color>
+      <color>163</color>
+      <color>132</color>
+      <color>49</color>
+      <color>40</color>
+      <color>41</color>
+    </color_pool>
+
+    <color_pool type="Necklace" talent="Animal">
+      <color>150</color>
+      <color>66</color>
+      <color>48</color>
+      <color>2</color>
+      <color>21</color>
+      <color>125</color>
+      <color>76</color>
+      <color>87</color>
+      <color>106</color>
+    </color_pool>
+	<color_pool type="Necklace" talent="Garden">
+      <color>61</color>
+      <color>72</color>
+      <color>15</color>
+      <color>33</color>
+      <color>14</color>
+      <color>32</color>
+      <color>81</color>
+      <color>140</color>
+      <color>144</color>
+    </color_pool>
+    <color_pool type="Necklace" talent="Light">
+      <color>90</color>
+      <color>123</color>
+      <color>10</color>
+      <color>25</color>
+      <color>31</color>
+      <color>82</color>
+      <color>88</color>
+      <color>9</color>
+      <color>111</color>
+    </color_pool>
+    <color_pool type="Necklace" talent="Tinker">
+      <color>99</color>
+      <color>106</color>
+      <color>97</color>
+      <color>46</color>
+      <color>93</color>
+      <color>91</color>
+      <color>125</color>
+      <color>64</color>
+      <color>1</color>
+    </color_pool>
+    <color_pool type="Necklace" talent="Water">
+      <color>18</color>
+      <color>163</color>
+      <color>132</color>
+      <color>49</color>
+      <color>40</color>
+      <color>41</color>
+      <color>136</color>
+      <color>4</color>
+      <color>5</color>
+    </color_pool>
+
+    <color_pool type="Belt" talent="Animal">
+      <color>150</color>
+      <color>66</color>
+      <color>48</color>
+      <color>2</color>
+      <color>21</color>
+      <color>125</color>
+    </color_pool>
+	<color_pool type="Belt" talent="Garden">
+      <color>61</color>
+      <color>72</color>
+      <color>15</color>
+      <color>33</color>
+      <color>14</color>
+      <color>32</color>
+    </color_pool>
+    <color_pool type="Belt" talent="Light">
+      <color>90</color>
+      <color>123</color>
+      <color>10</color>
+      <color>25</color>
+      <color>31</color>
+      <color>82</color>
+    </color_pool>
+    <color_pool type="Belt" talent="Tinker">
+      <color>99</color>
+      <color>106</color>
+      <color>97</color>
+      <color>46</color>
+      <color>93</color>
+      <color>91</color>
+    </color_pool>
+    <color_pool type="Belt" talent="Water">
+      <color>18</color>
+      <color>163</color>
+      <color>132</color>
+      <color>49</color>
+      <color>40</color>
+      <color>41</color>
+    </color_pool>
+
+    <color_pool type="WristItem" talent="Animal">
+      <color>150</color>
+      <color>66</color>
+      <color>48</color>
+      <color>2</color>
+      <color>21</color>
+      <color>125</color>
+      <color>76</color>
+      <color>87</color>
+      <color>106</color>
+    </color_pool>
+	<color_pool type="WristItem" talent="Garden">
+      <color>61</color>
+      <color>72</color>
+      <color>15</color>
+      <color>33</color>
+      <color>14</color>
+      <color>32</color>
+      <color>81</color>
+      <color>140</color>
+      <color>144</color>
+    </color_pool>
+    <color_pool type="WristItem" talent="Light">
+      <color>90</color>
+      <color>123</color>
+      <color>10</color>
+      <color>25</color>
+      <color>31</color>
+      <color>82</color>
+      <color>88</color>
+      <color>9</color>
+      <color>111</color>
+    </color_pool>
+    <color_pool type="WristItem" talent="Tinker">
+      <color>99</color>
+      <color>106</color>
+      <color>97</color>
+      <color>46</color>
+      <color>93</color>
+      <color>91</color>
+      <color>125</color>
+      <color>64</color>
+      <color>1</color>
+    </color_pool>
+    <color_pool type="WristItem" talent="Water">
+      <color>18</color>
+      <color>163</color>
+      <color>132</color>
+      <color>49</color>
+      <color>40</color>
+      <color>41</color>
+      <color>136</color>
+      <color>4</color>
+      <color>5</color>
+    </color_pool>
+	
+    <color_pool type="AnkleItem" talent="Animal">
+      <color>150</color>
+      <color>66</color>
+      <color>48</color>
+      <color>2</color>
+      <color>21</color>
+      <color>125</color>
+      <color>76</color>
+      <color>87</color>
+      <color>106</color>
+    </color_pool>
+	<color_pool type="AnkleItem" talent="Garden">
+      <color>61</color>
+      <color>72</color>
+      <color>15</color>
+      <color>33</color>
+      <color>14</color>
+      <color>32</color>
+      <color>81</color>
+      <color>140</color>
+      <color>144</color>
+    </color_pool>
+    <color_pool type="AnkleItem" talent="Light">
+      <color>90</color>
+      <color>123</color>
+      <color>10</color>
+      <color>25</color>
+      <color>31</color>
+      <color>82</color>
+      <color>88</color>
+      <color>9</color>
+      <color>111</color>
+    </color_pool>
+    <color_pool type="AnkleItem" talent="Tinker">
+      <color>99</color>
+      <color>106</color>
+      <color>97</color>
+      <color>46</color>
+      <color>93</color>
+      <color>91</color>
+      <color>125</color>
+      <color>64</color>
+      <color>1</color>
+    </color_pool>
+    <color_pool type="AnkleItem" talent="Water">
+      <color>18</color>
+      <color>163</color>
+      <color>132</color>
+      <color>49</color>
+      <color>40</color>
+      <color>41</color>
+      <color>136</color>
+      <color>4</color>
+      <color>5</color>
+    </color_pool>
+
+  </color_pools>
+
+  <!-- necklaces, bracelets, anklets are no longer user pickable; some dummy values are just passed along to the save.  These were the old defaults. -->
+  <defaultColors>
+	  <defaultColor talent="Animal">150</defaultColor>
+	  <defaultColor talent="Garden">61</defaultColor>
+	  <defaultColor talent="Light">90</defaultColor>
+	  <defaultColor talent="Tinker">99</defaultColor>
+	  <defaultColor talent="Water">18</defaultColor>
+  </defaultColors>
+  <defaultAssets>
+	<defaultAsset type="AnkleItem">3001</defaultAsset>
+	<defaultAsset type="WristItem">1501</defaultAsset>
+	<defaultAsset type="Necklace">2501</defaultAsset>
+	<defaultAsset type="HeadItem">2001</defaultAsset>
+	<defaultAsset type="Belt">501</defaultAsset>
+  </defaultAssets>
+</CAFData>

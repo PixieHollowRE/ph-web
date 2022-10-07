@@ -1,0 +1,61 @@
+<xpAssets>
+  <!-- This is client side only asset info for uber fairies. -->
+
+  <copy>
+    <levelUpMessage level="1">You are level 1 now!</levelUpMessage>
+    <levelUpMessage level="2">Good job!</levelUpMessage>
+	<xpMeterLabel>###amt### Talent Point Earned|###amt### Talent Points Earned</xpMeterLabel>
+	<xpProgressionLabel>###curr### of ###goal### Talent Points</xpProgressionLabel>
+	<xpAbsoluteProgressionLabel>###curr### of ###goal### Talent Points</xpAbsoluteProgressionLabel>
+	<xpMeterToolTip>###pointsNeeded### Talent ###singPlurPts### to next Talent Level</xpMeterToolTip>
+
+	<xpProgressionLabel_alt>###curr### of ###goal### Talent Points To Next Level</xpProgressionLabel_alt>
+
+	<cappedXPPaid>Level ###level### Complete!</cappedXPPaid>
+	<cappedXPFree>Become a Member to earn more Talent Points!</cappedXPFree>
+	<almostCappedXPFree>###points### Points to Member's Only Levels!</almostCappedXPFree>
+
+	<pointSingPlural>Point|Points</pointSingPlural>
+  </copy>
+
+  <pixieDustJars>
+  </pixieDustJars>
+  
+  <talentMasteryPins>
+  </talentMasteryPins>
+
+	<!-- config data used for formatting stuff like the leafjournal popups, the "5 Y's at Z's!" panes on levelup panel, etc. -->
+	<unlockHelper>
+		<rewardZones>
+			<rewardZone>
+				<id>100000</id>
+				<iconFrame>bobbin</iconFrame>
+				<description>Tailoring Pattern|Tailoring Patterns</description>
+				<ownerName>Bobbin</ownerName>
+				<shopName>Tailoring Nook</shopName>
+			</rewardZone>
+			<rewardZone>
+				<id>100001</id>
+				<iconFrame>mendy</iconFrame>
+				<description>Tailoring Pattern|Tailoring Patterns</description>
+				<ownerName>Mendy</ownerName>
+				<shopName>Tailoring Nook</shopName>
+			</rewardZone>
+			<rewardZone>
+				<id>100002</id>
+				<iconFrame>baking</iconFrame>
+				<description>Baking Recipe|Baking Recipes</description>
+				<ownerName>Dulcie</ownerName>
+				<shopName>Kitchen</shopName>
+			</rewardZone>
+			<rewardZone>
+				<id>100003</id>
+				<iconFrame>tinkering</iconFrame>
+				<description>Tinkering Blueprint|Tinkering Blueprints</description>
+				<ownerName>Copper</ownerName>
+				<shopName>Tinkering Nook</shopName>
+			</rewardZone>
+		</rewardZones>
+	</unlockHelper>
+  
+</xpAssets>

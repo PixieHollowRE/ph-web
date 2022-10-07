@@ -1,0 +1,41 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/limitedProfile.swf</swf>
+		<swf type="code">{panelCode}/limitedProfile.swf</swf>
+	</swfs>
+	<copy>
+		<tab0 target = "tray.contents.tab_set.btn0.clip.txt">Profile</tab0>
+		<tab1 target = "tray.contents.tab_set.btn1.clip.txt">Badges</tab1>
+		<tab2 target = "tray.contents.tab_set.btn2.clip.txt">Games</tab2>
+		<scoreLabel_timesPlayed>Times Played:</scoreLabel_timesPlayed>
+		<scoreLabel_won>Wins:</scoreLabel_won>
+		<scoreLabel_highScore>Best Score:</scoreLabel_highScore>
+		<scoreLabel_gotBadge>High Score Badge:</scoreLabel_gotBadge>
+
+		<addressHeader>Address</addressHeader>
+		<expand>Expand</expand>
+		<shrink>Shrink</shrink>
+		<animal>Animal</animal>
+		<light>Light</light>
+		<garden>Garden</garden>
+		<water>Water</water>
+		<tinker>Tinker</tinker>
+		<talent>#TYPE# Talent</talent>
+		<rate_this></rate_this>
+		<yes>Yes</yes>
+		<no>No</no>
+		<ok>OK</ok>
+	</copy>
+	<config>
+		<customFamousFairyImages>
+			<ff_1000000010>customProfileImages_10</ff_1000000010> <!-- minister of autumn, links to something in cacheableMedia.xml -->
+			<ff_1000000014>customProfileImages_14</ff_1000000014> <!-- minister of winter -->
+			<ff_1000000015>customProfileImages_15</ff_1000000015> <!-- minister of spring -->
+			<ff_1000000020>customProfileImages_20</ff_1000000020> <!-- Queen Clarion -->
+			<ff_1000000021>customProfileImages_21</ff_1000000021> <!-- Terrance -->
+			<ff_1000000023>customProfileImages_23</ff_1000000023> <!-- Periwinkle -->
+		</customFamousFairyImages>
+		<util>
+		</util>
+	</config>
+</panel>

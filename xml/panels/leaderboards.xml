@@ -1,0 +1,113 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/leaderboards.swf</swf>
+		<swf type="code">{panelCode}/leaderboards.swf</swf>
+	</swfs>
+	<copy>
+		<titleCopy>Leaderboards</titleCopy>
+		<cancelButtonText>Cancel</cancelButtonText>
+		<weeklyTab>Weekly</weeklyTab>
+		<monthlyTab>Seasonal</monthlyTab>
+		<score>score</score>
+		<wins>wins</wins>
+		<thresholdBox>Minimum #TYPE# needed:</thresholdBox>
+		<weekly_tab target="tabset.btn0.txtLight">Weekly</weekly_tab>
+		<weekly_tab2 target="tabset.btn0.txtDark">Weekly</weekly_tab2>
+		<monthly_tab target="tabset.btn1.txtLight">Seasonal</monthly_tab>
+		<monthly_tab2 target="tabset.btn1.txtDark">Seasonal</monthly_tab2>
+	</copy>
+	<config>
+		<games>
+			<game>
+				<id>13073</id>
+				<name>Animal Derby</name>
+				<threshold>5</threshold>
+			</game>
+			<game>
+				<id>2</id>
+				<name>Bubble Bounce</name>
+				<threshold>10000</threshold>
+			</game>
+			<game>
+				<id>45</id>
+				<name>Butterfly Painter</name>
+				<threshold>10000</threshold>
+			</game>
+			<game>
+				<id>13070</id>
+				<name>Crazy Cakes</name>
+				<threshold>5</threshold>
+			</game>
+			<game>
+				<id>10</id>
+				<name>Fairy Fireworks</name>
+				<threshold>10000</threshold>
+			</game>
+			<game>
+				<id>1</id>
+				<name>Firefly Light-Up</name>
+				<threshold>10000</threshold>
+			</game>
+			<game>
+				<id>44</id>
+				<name>First Flight</name>
+				<threshold>10000</threshold>
+			</game>
+			<game>
+				<id>49</id>
+				<name>Gem Juggle</name>
+				<threshold>10000</threshold>
+			</game>
+			<game>
+				<id>8</id>
+				<name>Harvest Hustle</name>
+				<threshold>10000</threshold>
+			</game>
+			<game>
+				<id>9</id>
+				<name>Petal Pick-Up</name>
+				<threshold>10000</threshold>
+			</game>
+			<game>
+				<id>47</id>
+				<name>Pinecone Pop</name>
+				<threshold>10000</threshold>
+			</game>
+			<game>
+				<id>43</id>
+				<name>Seed Sorter</name>
+				<threshold>10000</threshold>
+			</game>
+			<game>
+				<id>11</id>
+				<name>Snowflake Sweep</name>
+				<threshold>10000</threshold>
+			</game>
+			<game>
+				<id>15</id>
+				<name>Snowy Lullaby</name>
+				<threshold>20000</threshold>
+			</game>
+			<game>
+				<id>48</id>
+				<name>Sunbeam Bend</name>
+				<threshold>10000</threshold>
+			</game>
+			<game>
+				<id>14</id>
+				<name>Tinker Toss</name>
+				<threshold>10000</threshold>
+			</game>
+			<game>
+				<id>13072</id>
+				<name>Two for Tea</name>
+				<threshold>5</threshold>
+			</game>
+			<game>
+				<id>7</id>
+				<name>Water Web</name>
+				<threshold>10000</threshold>
+			</game>
+		</games>
+	</config>
+</panel>

@@ -1,0 +1,73 @@
+<zone>
+  <name>Beck's Animal Nursery</name>
+  <zoneID>115000</zoneID>
+  <assetURL>http://</assetURL>
+  <audioLibrary>shop_animal_friend</audioLibrary>
+  <baseAvatarScale>0.2</baseAvatarScale>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="994" height="650" locked="true">
+        <image x="0" y="0" type="none">BN_sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="933" height="610">
+        <image x="0" y="0" type="none">BN_far_02.swf</image>
+      </layer>
+      <layer type="ground" width="994" height="650">
+        <image x="0" y="0" type="merge" tag="Meadow_Becks_PreBee">BN_action_bees_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringCrisis_2012_Closed">BN_action_clover_03.swf</image>
+        <image x="0" y="0" type="merge">BN_action_03.swf</image>
+      </layer>
+      <layer type="normal" width="1223" height="800" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_SpringCrisis_2012_Closed">BN_foreground_clover_02.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy">BN_forground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="155" y="360">default</location>
+    <location x="752" y="410">shopEntrance</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>ambient_background_sleeping</id>
+      <loops>0</loops>
+      <volumeLow>0.25</volumeLow>
+      <volumeHigh>0.25</volumeHigh>
+    </sfx>
+    <bgm>
+      <id>petshop_mix</id>
+      <loops>0</loops>
+      <volumeLow>0.6</volumeLow>
+      <volumeHigh>0.6</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks>0</maximumSpawnStacks>
+  
+  <!--validArea type="polygon">
+
+	<vertex x="279" y="137"></vertex>
+
+	<vertex x="971" y="137"></vertex>
+
+	<vertex x="971" y="591"></vertex> 
+
+	<vertex x="279" y="591"></vertex>
+
+  </validArea-->
+  
+  <decorations/>
+  
+</zone>

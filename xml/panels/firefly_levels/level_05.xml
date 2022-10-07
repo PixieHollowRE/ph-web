@@ -1,0 +1,72 @@
+<level>
+	<light x = "95" y = "253">yellow</light>
+	<light x = "783" y = "253">yellow</light>		
+	<firefly image="firefly">
+		<path>	
+			<point x="340" y="150" />
+			<point x="540" y="400" />
+			<point x="640" y="250" />			
+			<point x="540" y="150" />
+			<point x="340" y="400" />
+			<point x="240" y="250" />
+		</path>
+		<speed>6</speed>
+	</firefly>
+	<firefly image="firefly">
+		<path>	
+			<point x="340" y="400" />
+			<point x="540" y="150" />
+			<point x="640" y="250" />			
+			<point x="540" y="400" />
+			<point x="340" y="150" />
+			<point x="240" y="250" />
+		</path>
+		<speed>6</speed>
+	</firefly>
+	<firefly image="firefly">
+		<path>	
+			<point x="540" y="150" />
+			<point x="340" y="400" />
+			<point x="240" y="250" />			
+			<point x="340" y="150" />
+			<point x="540" y="400" />
+			<point x="640" y="250" />
+		</path>
+		<speed>6</speed>
+	</firefly>
+	<firefly image="firefly">
+		<path>	
+			<point x="540" y="400" />
+			<point x="340" y="150" />
+			<point x="240" y="250" />			
+			<point x="340" y="400" />
+			<point x="540" y="150" />
+			<point x="640" y="250" />
+		</path>
+		<speed>6</speed>
+	</firefly>	
+	<firefly image="blindmoth">
+		<path>
+			<point x="340" y="300" />
+			<point x="540" y="200" />
+			<point x="440" y="179.2" />
+			<point x="340" y="200" />
+			<point x="540" y="300" />
+			<point x="440" y="320.8" />			
+		</path>
+		<type>blindmoth</type>
+		<speed>6</speed>
+	</firefly>	
+	<firefly image="blindmoth">
+		<path>
+			<point x="540" y="200" />
+			<point x="340" y="300" />
+			<point x="440" y="320.8" />			
+			<point x="540" y="300" />
+			<point x="340" y="200" />
+			<point x="440" y="179.2" />
+		</path>
+		<type>blindmoth</type>
+		<speed>6</speed>
+	</firefly>	
+</level>

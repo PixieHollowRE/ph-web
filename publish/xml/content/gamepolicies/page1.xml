@@ -1,0 +1,80 @@
+<page>
+	<config>
+		<tagline>
+		
+			<tagline align="center" font="pristina" title="true" titlex="50" titley="0" yOffset="20">tagline</tagline>
+		</tagline>
+		<gamepolicies>
+			<header icon_id="8">header</header>
+			
+			<control>body1</control>
+			<control>body2</control>
+			<control>body3</control>
+			<control>body4</control>
+		</gamepolicies>
+
+		<gamepolicies>
+			<header icon_id="8">body5</header>
+			<knownissue>body18</knownissue>
+			<header>body6</header>
+			<knownissue>body7</knownissue>
+		</gamepolicies>
+		<gamepolicies>
+			<header>body8</header>
+			<knownissue>body9</knownissue>
+		</gamepolicies>
+		<gamepolicies>
+			<header>body10</header>
+			<knownissue>body11</knownissue>
+		</gamepolicies>
+		<gamepolicies>
+			<header icon_id="8">body14</header>
+			<knownissue>body15</knownissue>
+		</gamepolicies>
+		<gamepolicies>
+			<header icon_id="8">body16</header>
+			<knownissue>body17</knownissue>
+		</gamepolicies>
+		<gamepolicies>
+			<header icon_id="8">body12</header>
+			<knownissue>body13</knownissue>
+		</gamepolicies>
+	</config>
+	
+	<copy>
+		<tagline><![CDATA[<span class="newsbodytext">Learn All About Pixie Hollow's <br> Game and Chat Policies</span>]]></tagline>
+		<header><![CDATA[<span class="newsbodytext">The Pixie Hollow Code of Conduct</span>]]></header>
+		
+		<body1><![CDATA[<span class="newsbodytext">1. Always be kind and respect other Fairies. The Never Council does not tolerate any swearing, cheating, bullying, or any kind of mean behavior. Any Fairy who does not follow these rules while playing will be dealt with appropriately.<br><br></span>]]></body1>
+		<body2><![CDATA[<span class="newsbodytext">2. Never reveal any of your real world personal information. The best way to make sure you stay safe online is to NEVER share your real name, phone number, home address, e-mail, social networking site information, or pictures of yourself with ANYONE.  Also never exchange account information such as your member name or password with anyone under any circumstances.<br><br></span>]]></body2>
+		<body3><![CDATA[<span class="newsbodytext">3. Chat nicely with other Fairies. The Never Council will not permit talk about drugs, sex, race, or topics that may disturb other Fairies. Any Fairy who does not respect the peace of Pixie Hollow will be asked to leave the game.<br><br></span>]]></body3>
+		<body4><![CDATA[<span class="newsbodytext">4. No cheating. Any use of third party programs is not allowed. Fairies who use any third party programs while playing risk being permanently banned from the game.</span>]]></body4>
+		<body5><![CDATA[<span class="newsbodytext">What chat options do I have in Pixie Hollow?</span>]]></body5>
+		
+		<body6><![CDATA[<span class="newsbodytext"><TAB>SpeedChat</span>]]></body6>
+		<body7><![CDATA[<span class="newsbodytext"><ul>
+			<li>This is open to all Fairies. Chat away!
+			<li>SpeedChat uses a set list of words and phrases that Fairies select from a drop-down menu.
+			<li>To use SpeedChat phrases: Click on the Lightning Bolt icon to the left of the keyboard chat interface at the bottom of your screen, then click on the message you want from the SpeedChat drop-down menus. Every Fairy in the area will hear what you have to say unless you are chatting in Whisper mode.
+			</li></ul></span>]]></body7>
+		
+		<body8><![CDATA[<span class="newsbodytext"><TAB>SpeedChat Plus</span>]]></body8>
+		<body9><![CDATA[<span class="newsbodytext"><ul>
+			<li>This is open to all Fairies, but it can be turned off using Disney's <a href="http://disney.go.com/fairies/pixiehollow/accountmanagement_pv.html">Parental Control</a> feature.
+			<li>SpeedChat Plus is a keyboard chat system that uses a dictionary of Fairy-friendly words.
+			<li>This chat setting lets Fairies chat with each other by typing words that are in the game's SpeedChat Plus dictionary. If you type in a word that is not in the dictionary, the word will flash in red and you'll have to change it before you can send your message.
+			<li>This chat is filtered and moderated. Fairies can alert the Never Council of any bad behavior.
+			</li></ul></span>]]></body9>
+		<body10><![CDATA[<span class="newsbodytext"><TAB>Open Chat</span>]]></body10>
+		<body11><![CDATA[<span class="newsbodytext"><ul>
+			<li>This chat option is not currently offered in Pixie Hollow, but is available in other Disney Online products.</li></ul></span>]]></body11>
+		<body12><![CDATA[<span class="newsbodytext">Can I suggest words to add to the chat dictionary?</span>]]></body12>
+		<body13><![CDATA[<span class="newsbodytext">Of course! You can suggest a new word to us using the <a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl&formId=chat">Contact Us</a> form.</span>]]></body13>
+		<body14><![CDATA[<span class="newsbodytext">What kinds of chat modes are there?</span>]]></body14>
+		<body15><![CDATA[<span class="newsbodytext">"Chat Settings" determine what you can say in Pixie Hollow, but "Chat Modes" are how you can say it. Regardless of whether your account is set to Speedchat or Speedchat Plus, you can use three modes of chatting in Pixie Hollow:  Whisper to One Friend, Whisper to All Friends, and Public Chat. Players set to Speedchat will only see your message if you send a Speedchat phrase.<br><br>Whisper to One Friend mode allows your Fairy to:   Speak directly with another Fairy without other Fairies seeing the conversation. Click on the Chat Mode button on the chat bar to change it to green, choose the Fairy you want to whisper to, and send your message. Instead of a chat bubble appearing above your Fairy's head, you and the Fairy you whispered to will see your message in the chat log or as a bubble on the left side of the screen.<br><br>Whisper to All Friends allows you to:  Send a whisper without specifying a particular Fairy. Click on the Chat Mode button on the chat bar to change it to yellow, send your message, and all of your friends that are online in Pixie Hollow will receive it in the chat log or as a bubble on the left side of the screen.<br><br>Public Chat allows you to:   Send a message that will be visible to all Fairies in the meadow, house, or shop ... wherever you're located at the time. Fairies do not have to be in your friends list to see your Public Chat messages.</span>]]></body15>	
+    <body16><![CDATA[<span class="newsbodytext">Can I turn off whispers from other players?</span>]]></body16>
+    <body17><![CDATA[<span class="newsbodytext">If you only wish to see Public Chat messages in Pixie Hollow, you can turn off Whispers from other players.  To turn off Whispers:  Open your Leaf Journal, click on the Settings Tab, and change the Whisper setting under Game Settings to "Off."</span>]]></body17>
+    <body18><![CDATA[<span class="newsbodytext">These two options for "Chat Settings" describe what you can say in Pixie Hollow.<br></span>]]></body18>
+	</copy>
+	
+</page>

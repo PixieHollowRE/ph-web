@@ -1,0 +1,9 @@
+<enemyOriginAssets>
+	<copy>
+		<item50057>Rocky Stalagmite</item50057>
+		<desc50057>Hard as rock, because it is!</desc50057>
+	</copy>
+	<enemyOrigins>
+		<enemyOrigin itemId="50057" />
+	</enemyOrigins>
+</enemyOriginAssets>

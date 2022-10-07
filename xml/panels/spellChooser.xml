@@ -1,0 +1,13 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/spellChooser.swf</swf>
+		<swf type="code">{panelCode}/spellChooser.swf</swf>
+	</swfs>
+	<copy>
+		<noPixieDust>You need more Pixie Dust to do that!</noPixieDust>
+		<verbComplete>Complete!</verbComplete>
+		<ok>OK</ok>
+	</copy>
+	<config>
+	</config>
+</panel>

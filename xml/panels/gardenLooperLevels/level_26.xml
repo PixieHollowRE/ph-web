@@ -1,0 +1,13 @@
+<level>
+	<rosettaStartMessage>I just heard the healing-talents need more of these petals!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>
+	<objective>Capture 72 ###petal1### petals only!</objective>
+	
+	<randomPetalConfig>72-20,0-2,0-4,0-2</randomPetalConfig>
+	<multiplierChance>8</multiplierChance>
+	<bees>1</bees>
+	<petalspeed min="1" max="3"/>
+	<powerups stopwind="2" extratime="1" removebees="1"/>
+	<timeLimit>50</timeLimit>
+</level>

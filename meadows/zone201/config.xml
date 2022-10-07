@@ -1,0 +1,126 @@
+<zone>
+  <name>Cottonpuff Field</name>
+  <zoneID>201</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow201</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="900" height="621" locked="true">
+        <image x="0" y="0" type="none">sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="1100" height="758">
+        <image x="0" y="0" type="none">far_02.swf</image>
+      </layer>
+      <layer type="normal" width="1555" height="1073">
+        <image x="0" y="0" type="none">reflection_03.swf</image>
+      </layer>
+      <layer type="ground" width="1895" height="1307">
+        <image x="0" y="0" type="merge" tag="Tinker_Bell_Party">action_03_arrivalDay.swf</image>
+        <image x="0" y="0" type="merge" tag="Great_Games_Days_Tinker_Toss">action_03_greatGamesDay.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Decorations_Changing_Leaves_Berry_Harvest">action_03_ChangingofLeaves_B.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Decorations_Changing_Leaves_End">action_03_ChangingofLeaves_C.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Decorations_Changing_Leaves_Begin">action_03_ChangingofLeaves_A.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Autumn_Revelry_Prep">action_03_autumn_revelry_A.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Autumn_Revelry_Begin">action_03_autumn_revelry_B.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Winter_Wonderland">action_03_WinterWonderland.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_GreatGames2010">action_greatgamesbanner_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AutumnAll">action_Meadow_AutumnAll_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_GGAutumn">action_Meadow_GGAutumn_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_CampAutumn">action_Meadow_CampAutumn_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_ChangingLeaves2010">action_03_ChangingLeaves.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFeast2010">action_FairyFeast2010_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WelcomeBack">action_03_WelcomeHome.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SillyDays2011">action_SillyDays2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_NeverDove2011">action_NeverDoveEgg_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Tinker_Games">action_Meadow_Tinker_Games_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Autumn_Equinox_2011">action_Meadow_AutumnEquinox_2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_PHG2011_Prep">action_03_Meadow_PGH2011_Prep.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_PGH2011">action_03_Meadow_PGH2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFeast2012">action_03_Meadow_FairyFeast_2011.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_NeverDove">action_NeverDoveEgg_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_ChangeLeaves">action_Meadow_ChangingLeaves_2011l_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_Camp">CFaction_03_Meadow_TheaterTroopTurtle2012.swf</image>
+        <image x="0" y="0" type="merge">action_03.swf</image>
+      </layer>
+      <layer type="normal" width="2828" height="1950" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy">foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="862" y="715">default</location>
+    <location x="442" y="237">fromAcornSummit</location>
+    <location x="415" y="1062">fromMapleHill</location>
+    <location x="1566" y="820">fromZone804</location>
+    <location x="200" y="900">fromZone401</location>
+    <location x="1600" y="350">fromHavendishSquare</location>
+    <location x="899" y="1026">fromTinkerGame</location>
+    <location x="785" y="467">fromCoal'sClothiersShop</location>
+    <location x="1569" y="862">famousFairyHome</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_201</id>
+      <loops>0</loops>
+      <volumeLow>0.9</volumeLow>
+      <volumeHigh>0.9</volumeHigh>
+    </sfx>
+    <bgm>
+      <id>meadow_music_201</id>
+      <loops>1</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+    </bgm>
+    <bgm>
+      <id>meadow_music_autum_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.15</volumeLow>
+      <volumeHigh>0.15</volumeHigh>
+      <delayLow>24000</delayLow>
+      <delayHigh>24000</delayHigh>
+    </bgm>
+  </bgms>
+  <hotspots>
+    <hotspot id="27626" x="741" y="194" setVelvetRope="0" shared="true" serverParm="8013" clientTrigger="6" clientParm="4" refresh="2" threshold="30" playType="keyframe" itemEventId="18023" snapTargetPos="790,150,0" tagId="3">
+      <keyframes>
+        <keyframe number="72" frequency="1" win="true"/>
+      </keyframes>
+    </hotspot>
+    <hotspot tags="Meadow_AutumnEquinox2012" id="27737" x="1325" y="881" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="9"/>
+    <hotspot tags="Meadow_ChangeLeaves" id="27650" x="1231" y="584" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="3" playType="full" itemEventId="0" tagId="4">
+		    <badges>
+			<badge event="leaf_painting" win="false"/>
+		</badges>
+    </hotspot>
+    <hotspot tags="Meadow_NeverDove" id="27706" x="1237" y="833" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="7"/>
+    <hotspot tags="Meadow_FairyFeast2012" id="27657" x="1215" y="671" setVelvetRope="0" shared="false" clientTrigger="5" clientParm="5" refresh="2" playType="keyframe" itemEventId="0" tagId="5">
+      <badges>
+        <badge event="fairy_feast_cake_decorator" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_FairyFeast2012" id="27664" x="1325" y="881" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="11" playType="full" itemEventId="0" tagId="6"/>
+    <hotspot tags="Meadow_AutumnAll" id="27541" x="1183" y="842" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="5" playType="full" itemEventId="0" tagId="0">
+      <badges>
+        <badge event="camp_meadow_activities" win="false"/>
+      </badges>
+    </hotspot>
+    <hotspot tags="Meadow_CampAutumn" id="27541" x="1183" y="842" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="5" playType="full" itemEventId="0" tagId="0"/>
+    <hotspot tags="Meadow_Theater_Camp" id="27731" x="1111" y="920" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="8"/>
+  </hotspots>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks/>
+  
+  <decorations/>
+  
+</zone>

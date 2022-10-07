@@ -1,0 +1,119 @@
+
+<page>
+	<config>
+		<tagline>
+			<tagline align="center" font="pristina" title="false" titlex="150" titley="0" yOffset="20">header</tagline>
+		</tagline>
+    <!--
+		<gamepolicies>
+
+			<header icon_id="8" iconYOffset="-3">tagline</header>
+			
+			<knownissue>body1</knownissue>
+			<knownissue>body2</knownissue>
+		</gamepolicies>
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body3</header>
+			<knownissue>body4</knownissue>
+		</gamepolicies>
+		
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body5</header>
+			<knownissue>body6</knownissue>
+			<knownissue>body7</knownissue>
+			<knownissue>body8</knownissue>
+		</gamepolicies>
+
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body9</header>
+			<knownissue>body10</knownissue>
+			<knownissue>body11</knownissue>
+			<knownissue>body12</knownissue>
+			<knownissue>body13</knownissue>
+			<knownissue>body14</knownissue>
+			<knownissue>body15</knownissue>
+			</gamepolicies>
+			
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body16</header>
+			<header>body17</header>
+			<knownissue>body18</knownissue>
+		</gamepolicies>
+		<gamepolicies>
+			<header>body19</header>
+			<knownissue>body20</knownissue>
+		</gamepolicies>
+		
+		<gamepolicies>
+			<header>body21</header>
+			<knownissue>body22</knownissue>
+		</gamepolicies>
+
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body23</header>
+			<knownissue>body24</knownissue>
+		</gamepolicies>
+-->		
+		<gamepolicies>
+			<header icon_id="8" iconYOffset="-3">body25</header>
+			<knownissue>body26</knownissue>
+			<knownissue>body27</knownissue>
+			<knownissue>body28</knownissue>
+			<knownissue>body29</knownissue>
+		</gamepolicies>
+		<!--  -->
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">Page 3 - Parental Controls</span>]]></header>
+		<tagline><![CDATA[<span class="newsbodytext">What abilities do Parental Controls give parents?</span>]]></tagline>
+		
+		<body1><![CDATA[<span class="newsbodytext">Parental Controls let you control a variety of community settings for your child's Fairy, including:</span>]]></body1>
+		<body2><![CDATA[<span class="newsbodytext"><ul>
+			<li>What chat levels and permissions they have
+			<li>What content they can upload
+			<li>What they can post to message boards (within the entire Disney.com community)
+			</li></ul></span>]]></body2>
+		<body3><![CDATA[<span class="newsbodytext">How does an adult access Parental Controls?</span>]]></body3>
+		<body4><![CDATA[<span class="newsbodytext">To access Parental Controls for your child's Pixie Hollow account, you must become a Parental Authority.</span>]]></body4>
+		<body5><![CDATA[<span class="newsbodytext">How do I become a Parental Authority?</span>]]></body5>
+		<body6><![CDATA[<span class="newsbodytext">Visit the <a href="http://disney.go.com/fairies/pixiehollow/accountmanagement.html "><u>Account Manager</u></a> page, where you will be asked to either log in to your existing account or <a href="http://disney.go.com/fairies/pixiehollow/registration/" target="_new"><u>create a new account</u></a>.</span>]]></body6>
+		<body7><![CDATA[<span class="newsbodytext">Once you are logged in, click on the <b>Link an Existing Account</b> button to link your child's account to your account.</span>]]></body7>
+		<body8><![CDATA[<span class="newsbodytext"><br>Once linked, have your child log in to their account, click the My Account tab, and then click <b>Enable Parental Controls</b>. An e-mail will be sent to the parent's e-mail address with instructions on how to set your child's chat level and become a Parental Authority. To see which parent's e-mail address is on file, have your child click the Account Details tab on their account page.</span>]]></body8>
+		<body9><![CDATA[<span class="newsbodytext">How do I change my child's chat settings?</span>]]></body9>
+		<body10><![CDATA[<span class="newsbodytext">To change your child's chat settings, you must first become the Parental Authority on their account. After you have become their account's Parental Authority, please follow the steps below:</span>]]></body10>
+		<body11><![CDATA[<span class="newsbodytext"><ul><li>Go to the <a href="http://disney.go.com/fairies/pixiehollow/accountmanagement.html "><u>Account Manager</u></a> page on the web site and log into your account.</li></span>]]></body11>
+		<body12><![CDATA[<span class="newsbodytext"><li>Once you are logged in, click on the button labeled with your child's account name, located on the left hand side of the Account Manager.</li></span>]]></body12>
+		<body13><![CDATA[<span class="newsbodytext"><li>Next, click on the Community Settings tab located at the top right.</li></span>]]></body13>
+		<body14><![CDATA[<span class="newsbodytext"><li>On this tab, you can now set your child’s chat settings to any of the chat levels. Descriptions for each chat level can be viewed by selecting the chat option and reading the descriptive text below.</li></span>]]></body14>
+		<body15><![CDATA[<span class="newsbodytext"><li>Click the "Save Changes" button in the lower right to save the new chat settings for your child.</li></ul></span>]]></body15>
+		<body16><![CDATA[<span class="newsbodytext">What are the different chat options available in the Pixie Hollow game?</span>]]></body16>
+		<body17><![CDATA[<span class="newsbodytext">SpeedChat</span>]]></body17>
+		<body18><![CDATA[<span class="newsbodytext"><ul>
+			<li>This is open to all Fairies. Chat away!
+			<li>SpeedChat uses a set list of words and phrases that Fairies select from a drop-down menu.
+			<li>To use SpeedChat phrases: Click on the Lightning Bolt icon to the left of the keyboard chat interface at the bottom of your screen, then click on the message you want from the SpeedChat drop-down menus. Every Fairy in the area will hear what you have to say unless you are chatting in Whisper mode.
+			</li></ul></span>]]></body18>
+		<body19><![CDATA[<span class="newsbodytext">SpeedChat Plus</span>]]></body19>
+		<body20><![CDATA[<span class="newsbodytext"><ul>
+			<li>This is open to all Fairies, but it can be turned off using Disney's <a href="http://disney.go.com/fairies/pixiehollow/accountmanagement.html">Parental Controls</a> feature.
+			<li>SpeedChat Plus is a keyboard chat system that uses a dictionary of Fairy-friendly words.
+			<li>This chat setting lets Fairies chat with each other by typing words that are in the game's SpeedChat Plus dictionary. If you type in a word that is not in the dictionary, the word will flash in red and you'll have to change it before you can send your message.
+			<li>This chat is filtered and moderated. Fairies can alert the Never Council of any bad behavior.
+			
+			</li></ul></span>]]></body20>
+		<body21><![CDATA[<span class="newsbodytext">Open Chat</span>]]></body21>
+		<body22><![CDATA[<span class="newsbodytext"><ul>
+			<li>This chat option is not available in Pixie Hollow, but is available in other Disney Online products. </li></ul></span>]]></body22>
+		<body23><![CDATA[<span class="newsbodytext">Do Parental Controls only govern children?</span>]]></body23>
+		<body24><![CDATA[<span class="newsbodytext">Once you have enabled Parental Controls, those controls will manage the account of anyone in your family whose age is under 18. At 18 the account will be given access to manage its own community settings.</span>]]></body24>
+		<body25><![CDATA[<span class="newsbodytext">The <I>Pixie Hollow</I> Code of Conduct</span>]]></body25>
+		<body26><![CDATA[<span class="newsbodytext">1. Always be kind and respect other Fairies. The Never Council does not tolerate any swearing, cheating, bullying, or any kind of mean or inappropriate behavior. Any Fairy who does not follow these rules while playing will be dealt with appropriately.</span>]]></body26>
+		<body27><![CDATA[<span class="newsbodytext"><br>2. Never reveal any of your real world personal information. The best way to make sure you stay safe online is to NEVER share your real name, phone number, home address, e-mail, social networking site information, or pictures of yourself with ANYONE.  Also never exchange account information such as your member name or password with anyone under any circumstances.</span>]]></body27>
+		<body28><![CDATA[<span class="newsbodytext"><br>3. Chat nicely with other Fairies. The Never Council will not permit talk about drugs, sex, race, or topics that may disturb other Fairies. Any Fairy who does not respect the peace of Pixie Hollow will be asked to leave the game.</span>]]></body28>
+		<body29><![CDATA[<span class="newsbodytext"><br>4. No cheating. Any use of third party programs is not allowed. Fairies who use any third party programs while playing risk being permanently banned from the game.</span>]]></body29>
+
+	</copy>
+	
+	
+	
+</page>

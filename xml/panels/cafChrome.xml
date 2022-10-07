@@ -1,0 +1,24 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/chrome.swf</swf>
+		<swf type="code">{panelCode}/chrome.swf</swf>
+	</swfs>
+	<copy>
+		<logout target = "header.logoutButton.logoutButtonText">QUIT</logout>
+		<contact target = "header.contactButton.contactButtonText">CONTACT US</contact>
+		<changeServer target = "header.serverButton.serverButtonText">CHANGE SERVER</changeServer>
+		<new target = "header.newButton.newButtonText">WHAT'S NEW</new>
+		<name target = "header.playerName.playerNameext">No Fairy Selected</name>
+		<confirmLink>You will leave Pixie Hollow if you follow this link. Are you sure you would like to leave?</confirmLink>
+		<confirmYes>Leave</confirmYes>
+		<confirmNo>Stay</confirmNo>
+		<minSpecCopy>BASIC MODE</minSpecCopy>
+	</copy>
+	<config>
+		<logoutTarget>FairyManager.html</logoutTarget>
+		<enableContactButton>false</enableContactButton>
+		<enableQuitButton>false</enableQuitButton>
+		<hidePixieGold>true</hidePixieGold>
+		<news>nevernews.html</news>
+	</config>
+</panel>

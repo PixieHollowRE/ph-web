@@ -1,0 +1,14 @@
+<level>
+	<rosettaStartMessage>Okay, we still need to loop two types of petals!</rosettaStartMessage>
+	
+	<objectiveTitle>We need to loop:</objectiveTitle>	
+	<objective>Capture 12 ###petal1### petals and 18 ###petal2### petals!</objective>
+	
+	<randomPetalConfig>12-10,18-20</randomPetalConfig>
+	<multiplierChance>12</multiplierChance>
+	<bees>2</bees>
+	<petalspeed min="2" max="4"/>
+	<powerups stopwind="2" extratime="1" removebees="1"/>
+	<minLegalPetalCount>2</minLegalPetalCount>
+	<timeLimit>30</timeLimit>
+</level>

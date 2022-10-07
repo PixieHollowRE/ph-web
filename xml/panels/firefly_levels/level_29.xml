@@ -1,0 +1,163 @@
+<level>
+
+<!-- Fireflies that are very far apart must be lured in twice. -->
+
+	<light x = "95" y = "178">orange</light>
+	<light x = "95" y = "253">orange</light>
+	<light x = "95" y = "328">orange</light>
+	<light x = "783" y = "250">yellow</light>
+
+<!-- randomly moving moth (#1 of 1) -->
+	<firefly image="blindmoth">
+		<path source = "random">
+			<topLeft x="310" y="178" />
+			<bottomRight x="568" y="328"/>
+			<stopRange value = "50" />
+		</path>
+		<speed>7</speed>
+		<type>blindmoth</type>
+	</firefly>
+
+<!-- firefly #1 of 8 (left cluster) -->
+	<firefly image="firefly">
+		<path friction="0.1">
+			<point x="440" y="50" />
+			<point x="590" y="100" />
+			<point x="640" y="250" />
+			<point x="590" y="400" />
+			<point x="440" y="450" />
+			<point x="290" y="400" />
+			<point x="240" y="250" />
+			<point x="290" y="100" />
+		</path>
+		<speed>5.5</speed>
+		<turnspeed>0.15</turnspeed>
+		<attract>6</attract>
+		
+	</firefly>
+
+<!-- firefly #2 of 8 (left cluster) -->
+	<firefly image="firefly">
+		<path friction="0.1">
+			<point x="590" y="100" />
+			<point x="640" y="250" />
+			<point x="590" y="400" />
+			<point x="440" y="450" />
+			<point x="290" y="400" />
+			<point x="240" y="250" />
+			<point x="290" y="100" />
+			<point x="440" y="50" />
+		</path>
+		<speed>5.5</speed>
+		<turnspeed>0.15</turnspeed>
+		<attract>6</attract>
+		
+	</firefly>
+
+<!-- firefly #3 of 8 (right cluster) -->
+	<firefly image="firefly">
+		<path friction="0.1">
+			<point x="640" y="250" />
+			<point x="590" y="400" />
+			<point x="440" y="450" />
+			<point x="290" y="400" />
+			<point x="240" y="250" />
+			<point x="290" y="100" />
+			<point x="440" y="50" />
+			<point x="590" y="100" />
+		</path>
+		<speed>5.5</speed>
+		<turnspeed>0.15</turnspeed>
+		<attract>6</attract>
+		
+	</firefly>
+
+<!-- firefly #4 of 8 (right cluster) -->
+	<firefly image="firefly">
+		<path friction="0.1">
+			<point x="590" y="400" />
+			<point x="440" y="450" />
+			<point x="290" y="400" />
+			<point x="240" y="250" />
+			<point x="290" y="100" />
+			<point x="440" y="50" />
+			<point x="590" y="100" />
+			<point x="640" y="250" />
+		</path>
+		<speed>5.5</speed>
+		<turnspeed>0.15</turnspeed>
+		<attract>6</attract>
+		
+	</firefly>
+
+<!-- firefly #5 of 8 (left cluster) -->
+	<firefly image="firefly">
+		<path friction="0.1">
+			<point x="440" y="450" />
+			<point x="290" y="400" />
+			<point x="240" y="250" />
+			<point x="290" y="100" />
+			<point x="440" y="50" />
+			<point x="590" y="100" />
+			<point x="640" y="250" />
+			<point x="590" y="400" />
+		</path>
+		<speed>5.5</speed>
+		<turnspeed>0.15</turnspeed>
+		<attract>6</attract>
+		
+	</firefly>
+
+<!-- firefly #6 of 8 (left cluster) -->
+	<firefly image="firefly">
+		<path friction="0.1">
+			<point x="290" y="400" />
+			<point x="240" y="250" />
+			<point x="290" y="100" />
+			<point x="440" y="50" />
+			<point x="590" y="100" />
+			<point x="640" y="250" />
+			<point x="590" y="400" />
+			<point x="440" y="450" />
+		</path>
+		<speed>5.5</speed>
+		<turnspeed>0.15</turnspeed>
+		<attract>6</attract>
+		
+	</firefly>
+
+<!-- firefly #7 of 8 (right cluster) -->
+	<firefly image="firefly">
+		<path friction="0.1">
+			<point x="240" y="250" />
+			<point x="290" y="100" />
+			<point x="440" y="50" />
+			<point x="590" y="100" />
+			<point x="640" y="250" />
+			<point x="590" y="400" />
+			<point x="440" y="450" />
+			<point x="290" y="400" />
+		</path>
+		<speed>5.5</speed>
+		<turnspeed>0.15</turnspeed>
+		<attract>6</attract>
+	</firefly>
+
+<!-- firefly #8 of 8 (right cluster) -->
+	<firefly image="firefly">
+		<path friction="0.1">
+			<point x="290" y="100" />
+			<point x="440" y="50" />
+			<point x="590" y="100" />
+			<point x="640" y="250" />
+			<point x="590" y="400" />
+			<point x="440" y="450" />
+			<point x="290" y="400" />
+			<point x="240" y="250" />
+		</path>
+		<speed>5.5</speed>
+		<turnspeed>0.15</turnspeed>
+		<attract>6</attract>		
+	</firefly>
+
+</level>

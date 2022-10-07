@@ -1,0 +1,609 @@
+<?xml version="1.0" ?>
+<giveaways>
+	<copy>
+		<!--> Furniture </-->
+		<item15169>[Tink's Hammer]</item15169>
+		<desc15169>[Here's a replica of Tink's hammer for you to display!]</desc15169>
+		<item15002>[Chipmunk Ears]</item15002>
+		<desc15002>[Here's a pair of chipmunk ears all for yourself!]</desc15002>
+		<item15003>[Cornucopia]</item15003>
+		<desc15003>[This holds stuff]</desc15003>
+		<item15004>[Winter Badge Giveaway]</item15004>
+		<desc15004>[This is the Winter Badge Giveaway]</desc15004>
+		<item15005>Lucky Clover</item15005>
+		<desc15005>[This is a clover]</desc15005>
+		<item15006>Hidden Egg</item15006>
+		<desc15006>[This is an egg]</desc15006>
+		<item15007>Hidden Egg</item15007>
+		<desc15007>[This is an egg]</desc15007>
+		<item15008>Hidden Egg</item15008>
+		<desc15008>[This is an egg]</desc15008>
+		<item15009>Silly Spectacles</item15009>
+		<desc15009>[No one will recognize you in this goofy disguise!]</desc15009>
+		<item15010>Lucky Fish!</item15010>
+		<desc15010>[This fish is lucky!]</desc15010>
+		<item15011>Firefly Doll</item15011>
+		<desc15011>[A cute firefly doll.]</desc15011>
+		<item15012>Blue Pixie Dust</item15012>
+		<desc15012>[This is Blue Pixie Dust]</desc15012>
+		<item15013>Holiday Snowflake</item15013>
+		<desc15013>[This is a Special Holiday Snowflake]</desc15013>
+		<item15014>Holiday Snowflake</item15014>
+		<desc15014>[This is a Special Holiday Snowflake]</desc15014>
+		<item15015>Holiday Snowflake</item15015>
+		<desc15015>[This is a Special Holiday Snowflake]</desc15015>
+		<item15016>Air Balloon</item15016>
+		<desc15016>[This is Tink's Air Balloon]</desc15016>
+		<item15017>Poinsettia Headband</item15017>
+		<desc15017>[This is Poinsettia Headband]</desc15017>
+		<item15018>Acorn Hat</item15018>
+		<desc15018>[This is Acorn Hat]</desc15018>
+		<item15019>Prickly Pear Plant</item15019>
+		<desc15019>[This is Prickly Pear Plant]</desc15019>
+		<item15020>Mirror</item15020>
+		<desc15020>[This is a Mirror]</desc15020>
+		<item15021>Comb</item15021>
+		<desc15021>[This is a Comb]</desc15021>
+		<item15022>Hidden Egg</item15022>
+		<desc15022>[This is an egg]</desc15022>
+		<item15023>Hidden Egg</item15023>
+		<desc15023>[This is an egg]</desc15023>
+		<item15024>Hidden Egg</item15024>
+		<desc15024>[This is an egg]</desc15024>
+		<item15025>Hidden Egg</item15025>
+		<desc15025>[This is an egg]</desc15025>
+		<item15026>Necklace</item15026>
+		<desc15026>[This is a Necklace]</desc15026>
+		<item15027>Egg Collector Basket</item15027>
+		<desc15027>[This is a Basket]</desc15027>
+		<item15028>Really Rainy Boots</item15028>
+		<desc15028>[This is a Boot]</desc15028>
+		<item15029>Golden Clover</item15029>
+		<desc15029>[This is a Golden Clover]</desc15029>
+		<item15030>Hidden Egg</item15030>
+		<desc15030>[This is an egg]</desc15030>
+		<item15031>Hidden Egg</item15031>
+		<desc15031>[This is an egg]</desc15031>
+		<item15032>Hidden Egg</item15032>
+		<desc15032>[This is an egg]</desc15032>
+		<item15033>Hidden Egg</item15033>
+		<desc15033>[This is an egg]</desc15033>
+		<item15034>Hidden Egg</item15034>
+		<desc15034>[This is an egg]</desc15034>
+		<item15035>Hidden Egg</item15035>
+		<desc15035>[This is an egg]</desc15035>
+		<item15036>Hidden Egg</item15036>
+		<desc15036>[This is an egg]</desc15036>
+		<item15037>Hidden Egg</item15037>
+		<desc15037>[This is an egg]</desc15037>
+		<item15038>Hidden Egg</item15038>
+		<desc15038>[This is an egg]</desc15038>
+		<item15039>Hidden Egg</item15039>
+		<desc15039>[This is an egg]</desc15039>
+		<item15040>Hidden Egg</item15040>
+		<desc15040>[This is an egg]</desc15040>
+		<item15041>Hidden Egg</item15041>
+		<desc15041>[This is an egg]</desc15041>
+		<item15042>Hidden Egg</item15042>
+		<desc15042>[This is an egg]</desc15042>
+		<item15043>Hidden Egg</item15043>
+		<desc15043>[This is an egg]</desc15043>
+		<item15044>Hidden Egg</item15044>
+		<desc15044>[This is an egg]</desc15044>
+		<item15045>Hidden Egg</item15045>
+		<desc15045>[This is an egg]</desc15045>
+		<item15046>Hidden Egg</item15046>
+		<desc15046>[This is an egg]</desc15046>
+		<item15047>Hidden Egg</item15047>
+		<desc15047>[This is an egg]</desc15047>
+		<item15048>Hidden Egg</item15048>
+		<desc15048>[This is an egg]</desc15048>
+		<item15049>Hidden Egg</item15049>
+		<desc15049>[This is an egg]</desc15049>
+		<item15050>Hidden Egg</item15050>
+		<desc15050>[This is an egg]</desc15050>
+		<item15051>Hidden Egg</item15051>
+		<desc15051>[This is an egg]</desc15051>
+		<item15052>Hidden Egg</item15052>
+		<desc15052>[This is an egg]</desc15052>
+		<item15053>Hidden Egg</item15053>
+		<desc15053>[This is an egg]</desc15053>
+		<item15054>Hidden Egg</item15054>
+		<desc15054>[This is an egg]</desc15054>
+		<item15055>Hidden Egg</item15055>
+		<desc15055>[This is an egg]</desc15055>
+		<item15056>Hidden Egg</item15056>
+		<desc15056>[This is an egg]</desc15056>
+		<item15057>Hidden Egg</item15057>
+		<desc15057>[This is an egg]</desc15057>
+		<item15058>Button</item15058>
+		<desc15058>[This is a Button]</desc15058>
+		<item15059>Card</item15059>
+		<desc15059>[This is a Card]</desc15059>
+		<item15060>Clock Hand</item15060>
+		<desc15060>[This is a Clock Hand]</desc15060>
+		<item15061>Coin</item15061>
+		<desc15061>[This is a Coin]</desc15061>
+		<item15062>Comb</item15062>
+		<desc15062>[This is a Comb]</desc15062>
+		<item15063>Key</item15063>
+		<desc15063>[This is a Key]</desc15063>
+		<item15064>Match Box</item15064>
+		<desc15064>[This is a Match Book]</desc15064>
+		<item15065>Matches</item15065>
+		<desc15065>[These are Matches ]</desc15065>
+		<item15066>Mirror</item15066>
+		<desc15066>[This is a Mirror]</desc15066>
+		<item15067>Ring</item15067>
+		<desc15067>[This is a Ring]</desc15067>
+		<item15068>Spool</item15068>
+		<desc15068>[This is a Spool]</desc15068>
+		<item15069>Thimble</item15069>
+		<desc15069>[This is a Thimble]</desc15069>
+		<item15070>Button</item15070>
+		<desc15070>[This is a Button]</desc15070>
+		<item15071>Card</item15071>
+		<desc15071>[This is a Card]</desc15071>
+		<item15072>Clock Hand</item15072>
+		<desc15072>[This is a Clock Hand]</desc15072>
+		<item15073>Coin</item15073>
+		<desc15073>[This is a Coin]</desc15073>
+		<item15074>Comb</item15074>
+		<desc15074>[This is a Comb]</desc15074>
+		<item15075>Key</item15075>
+		<desc15075>[This is a Key]</desc15075>
+		<item15076>Match Box</item15076>
+		<desc15076>[This is a Match Book]</desc15076>
+		<item15077>Matches</item15077>
+		<desc15077>[These are Matches ]</desc15077>
+		<item15078>Mirror</item15078>
+		<desc15078>[This is a Mirror]</desc15078>
+		<item15079>Ring</item15079>
+		<desc15079>[This is a Ring]</desc15079>
+		<item15080>Spool</item15080>
+		<desc15080>[This is a Spool]</desc15080>
+		<item15081>Thimble</item15081>
+		<desc15081>[This is a Thimble]</desc15081>
+		<item15082>Butterfly Teapot</item15082>
+		<desc15082>[This is a Teapot]</desc15082>
+		<item15083>Lucky Fish</item15083>
+		<desc15083>[This is a Lucky Fish]</desc15083>
+		<item15084>Sign up for Camp Pixie Dust!</item15084>
+		<desc15084>[This is a Quill]</desc15084>
+		<item15085>Snorkel</item15085>
+		<desc15085>[This is a Snorkel]</desc15085>
+		<item15086>Button</item15086>
+		<desc15086>[This is a Button]</desc15086>
+		<item15087>Button</item15087>
+		<desc15087>[This is a Button]</desc15087>
+		<item15088>Button</item15088>
+		<desc15088>[This is a Button]</desc15088>
+		<item15089>Button</item15089>
+		<desc15089>[This is a Button]</desc15089>
+		<item15090>Walnut</item15090>
+		<desc15090>[This is a Walnut]</desc15090>
+		<item15091>Trick or Treat!</item15091>
+		<desc15091>[This is a Candy]</desc15091>
+		<item15092>Tink &amp; Vidia Drawing</item15092>
+		<desc15092>[This is Tink &amp; Vidia Drawing]</desc15092>
+		<item15093>Plate of Cookies</item15093>
+		<desc15093>[This is a Plate of Cookies]</desc15093>
+		<item15094>Curtains</item15094>
+		<desc15094>[This is a Curtain]</desc15094>
+		<item15095>Mint Pillow</item15095>
+		<desc15095>[This is a Mint Pillow]</desc15095>
+		<item15096>Stamp</item15096>
+		<desc15096>[This is a Stamp]</desc15096>
+		<item15097>Clock</item15097>
+		<desc15097>[This is a Clock]</desc15097>
+		<item15098>A Winter Present!</item15098>
+		<desc15098>[This is a Snow Globe]</desc15098>
+		<item15099>Ice Bear</item15099>
+		<desc15099>[This is an Ice Bear]</desc15099>
+		<item15100>Ice Deer</item15100>
+		<desc15100>[This is an Ice Deer]</desc15100>
+		<item15101>Snow Fox</item15101>
+		<desc15101>[This is a Snow Fox]</desc15101>
+		<item15102>Snow Rabbit</item15102>
+		<desc15102>[This is a Snow Rabbit]</desc15102>
+		<item15103>Bows</item15103>
+		<desc15103>[This is a bow]</desc15103>
+		<item15104>Lucky Clover</item15104>
+		<desc15104>[This is a Lucky Clover]</desc15104>
+		<item15105>Poplar Seed</item15105>
+		<desc15105>[This is a Poplar Seed]</desc15105>
+		<item15106>Heart Glasses</item15106>
+		<desc15106>[This is Heart Glasses]</desc15106>
+		<item15107>Rain Hat</item15107>
+		<desc15107>[This is a Rain Hat]</desc15107>
+		<item15108>Spring Celebration Badge</item15108>
+		<desc15108>[This is a Spring Celebration Badge]</desc15108>
+		<item15109>Dove Portrait</item15109>
+		<desc15109>[This is a Dove Portrait]</desc15109>
+		<item15110>Octopus Hat</item15110>
+		<desc15110>[This is an Octopus Hat]</desc15110>
+		<item15111>Seaweed Hat</item15111>
+		<desc15111>[This is a Seaweed Hat]</desc15111>
+		<item15112>Seashell Glasses</item15112>
+		<desc15112>[This is Seashell Glasses]</desc15112>
+		<item15113>Seaweed Moustache</item15113>
+		<desc15113>[Seaweed Moustache]</desc15113>
+		<item15114>Bunny Portrait</item15114>
+		<desc15114>[This is a Bunny Portrait]</desc15114>
+		<item15115>Chipmunk Portrait</item15115>
+		<desc15115>[This is a Chipmunk Portrait]</desc15115>
+		<item15116>Owl Portrait</item15116>
+		<desc15116>[This is a Owl Portrait]</desc15116>
+		<item15117>Stars Are Out Cap</item15117>
+		<desc15117>[Item 2180]</desc15117>
+		<item15118>Lost Gems</item15118>
+		<desc15118>[Lost Gems]</desc15118>
+		<item15119>Lullaby Book</item15119>
+		<desc15119>[This is a Lullaby Book]</desc15119>
+		<item15120>Tidy Bunny Fur Soap</item15120>
+		<desc15120>[Tidy Bunny Fur Soap]</desc15120>
+		<item15121>Acorn Chips</item15121>
+		<desc15121>[Acorn Chips]</desc15121>
+		<item15122>Lucky Fish</item15122>
+		<desc15122>[This is a Lucky Fish]</desc15122>
+		<item15123>Animal-Talent Banner</item15123>
+		<desc15123>[Animal-Talent Banner]</desc15123>
+		<item15124>Garden-Talent Banner</item15124>
+		<desc15124>[Garden-Talent Banner]</desc15124>
+		<item15125>Light-Talent Banner</item15125>
+		<desc15125>[Light-Talent Banner]</desc15125>
+		<item15126>Water-Talent Banner</item15126>
+		<desc15126>[Water-Talent Banner]</desc15126>
+		<item15127>Tinker-Talent Banner</item15127>
+		<desc15127>[Tinker-Talent Banner]</desc15127>
+            	<item15128>Jack_o_lantern</item15128>
+		<desc15128>[Jack_o_lantern]</desc15128>
+		
+            <item15129>Chilly Chipmunk Sculpture</item15129>
+		<desc15129>[Chilly Chipmunk Sculpture]</desc15129>
+            <item15130>Frosty Owl Sculpture</item15130>
+		<desc15130>[Frosty Owl Sculpture]</desc15130>
+            <item15131>Polar Penguin Sculpture</item15131>
+		<desc15131>[Polar Penguin Sculpture]</desc15131>
+            <item15132>Snowy Swan Sculpture</item15132>
+		<desc15132>[Snowy Swan Sculpture]</desc15132>
+            <item15133>Sweet Tooth Bench</item15133>
+		<desc15133>[Sweet Tooth Bench]</desc15133>
+            <item15134>Festive Jelly Tower</item15134>
+		<desc15134>[Festive Jelly Tower]</desc15134>
+
+		<item15135>Broken Lantern</item15135>
+		<desc15135>[This is a broken lantern.]</desc15135>
+		<item15136>Broken Lantern</item15136>
+		<desc15136>[This is a broken lantern.]</desc15136>
+		<item15137>Broken Lantern</item15137>
+		<desc15137>[This is a broken lantern.]</desc15137>
+		<item15138>Broken Lantern</item15138>
+		<desc15138>[This is a broken lantern.]</desc15138>
+		<item15139>Broken Lantern</item15139>
+		<desc15139>[This is a broken lantern.]</desc15139>
+		<item15140>Broken Lantern</item15140>
+		<desc15140>[This is a broken lantern]</desc15140>
+
+		<item15141>Rebecca Robin</item15141>
+		<desc15141>[Rebecca Robin]</desc15141>
+		<item15142>Mungo Raccoon</item15142>
+		<desc15142>[Mungo Raccoon]</desc15142>
+		<item15143>Anderson Otter</item15143>
+		<desc15143>[Anderson Otter]</desc15143>
+		<item15144>Perry Opossum</item15144>
+		<desc15144>[Perry Opossum]</desc15144>
+		<item15145>Tallulah the Arctic Fox</item15145>
+		<desc15145>[Tallulah the Arctic Fox]</desc15145>
+
+            <item15146>Handy Hard Hat</item15146>
+		<desc15146>[Handy Hard Hat]</desc15146>
+
+            <item15147>Gift Box</item15147>
+		<desc15147>[Gift Box]</desc15147>
+
+		<item15148>Bell Jar Bouquet</item15148>
+		<desc15148>[Bell Jar Bouquet]</desc15148>
+
+		<item15149>Glinda the Never Dove</item15149>
+		<desc15149>[Glinda the Never Dove]</desc15149>
+		<item15150>Whisperwing the Never Dove</item15150>
+		<desc15150>[Whisperwing the Never Dove]</desc15150>
+		<item15151>Skysong the Never Dove</item15151>
+		<desc15151>[Skysong the Never Dove]</desc15151>
+
+		<item15152>Golden Clover</item15152>
+		<desc15152>[Golden Clover]</desc15152>
+
+		<item15153>Never Dove Egg</item15153>
+		<desc15153>[Never Dove Egg]</desc15153>
+		<item15154>Never Dove Egg</item15154>
+		<desc15154>[Never Dove Egg]</desc15154>
+		<item15155>Never Dove Egg</item15155>
+		<desc15155>[Never Dove Egg]</desc15155>
+		<item15156>Never Dove Egg</item15156>
+		<desc15156>[Never Dove Egg]</desc15156>
+		<item15157>Never Dove Egg</item15157>
+		<desc15157>[Never Dove Egg]</desc15157>
+		<item15158>Never Dove Egg</item15158>
+		<desc15158>[Never Dove Egg]</desc15158>
+		<item15159>Never Dove Egg</item15159>
+		<desc15159>[Never Dove Egg]</desc15159>
+		<item15160>Never Dove Egg</item15160>
+		<desc15160>[Never Dove Egg]</desc15160>
+		<item15161>Never Dove Egg</item15161>
+		<desc15161>[Never Dove Egg]</desc15161>
+		<item15162>Never Dove Egg</item15162>
+		<desc15162>[Never Dove Egg]</desc15162>
+		<item15163>Never Dove Egg</item15163>
+		<desc15163>[Never Dove Egg]</desc15163>
+		<item15164>Never Dove Egg</item15164>
+		<desc15164>[Never Dove Egg]</desc15164>
+		<item15165>Never Dove Egg</item15165>
+		<desc15165>[Never Dove Egg]</desc15165>
+		<item15166>Never Dove Egg</item15166>
+		<desc15166>[Never Dove Egg]</desc15166>
+		<item15167>Never Dove Egg</item15167>
+		<desc15167>[Never Dove Egg]</desc15167>
+
+
+		<item15168>Baby Ladybugs</item15168>
+		<desc15168>[Baby Ladybugs]</desc15168>
+		<item15169>Baby Hummingbirds</item15169>
+		<desc15169>[Baby Hummingbirds]</desc15169>
+		<item15170>Baby Fireflies</item15170>
+		<desc15170>[Baby Fireflies]</desc15170>
+		<item15171>Baby Dragonflies</item15171>
+		<desc15171>[Baby Dragonflies]</desc15171>
+		<item15172>Baby Bees</item15172>
+		<desc15172>[Baby Bees]</desc15172>
+
+		<item15173>Heart Bobble Headband</item15173>
+		<desc15173>[Heart Bobble Headband]</desc15173>
+		<item15174>Cozy Chick Cap</item15174>
+		<desc15174>[Cozy Chick Cap]</desc15174>
+
+		<item15175>Gift Box</item15175>
+		<desc15175>[Gift Box]</desc15175>
+		<item15176>Gift Box</item15176>
+		<desc15176>[Gift Box]</desc15176>
+		<item15177>Gift Box</item15177>
+		<desc15177>[Gift Box]</desc15177>
+
+		<item15178>Baby Chipmunk Plush</item15178>
+		<desc15178>[Baby Chipmunk Plush]</desc15178>
+		<item15179>Baby Owl Plush</item15179>
+		<desc15179>[Baby Owl Plush]</desc15179>
+		<item15180>Baby Bunny Plush</item15180>
+		<desc15180>[Baby Bunny Plush]</desc15180>
+		<item15181>Kitten Plush</item15181>
+		<desc15181>[Kitten Plush]</desc15181>
+
+		<item15182>Fairy Cupcake Silly Sweets</item15182>
+		<desc15182>[Fairy Cupcake Silly Sweets]</desc15182>
+
+		<item15183>Fancy Flower Seeds</item15183>
+		<desc15183>[Fancy Flower Seeds]</desc15183>
+		<item15184>Colorful Sweet Seeds</item15184>
+		<desc15184>[Colorful Sweet Seeds]</desc15184>
+
+		<item15185>Tidy Bunny Fur Soap</item15185>
+		<desc15185>[Tidy Bunny Fur Soap]</desc15185>
+		<item15186>Acorn Chips</item15186>
+		<desc15186>[Acorn Chips]</desc15186>
+		<item15187>Lullaby Book</item15187>
+		<desc15187>[Lullaby Book]</desc15187>
+		<item15188>Dulcie's Cookies Seed Pack</item15188>
+		<desc15188>[Dulcie's Cookies Seed Pack]</desc15188>
+		
+		<item15189>Autumn Masquerade Dye Seeds</item15189>
+		<desc15189>[Autumn Masquerade Dye Seeds]</desc15189>
+		<item15190>Golden Acorn Necklace</item15190>
+		<desc15190>[Golden Acorn Necklace]</desc15190>
+		<item15191>Candy Corn Silly Sweet</item15191>
+		<desc15191>[Candy Corn Silly Sweet]</desc15191>
+		<item15192>Sparkly Wings Necklace</item15192>
+		<desc15192>[Sparkly Wings Necklace]</desc15192>
+		<item15193>Feast Plates</item15193>
+		<desc15193>[Feast Plates]</desc15193>
+		<item15194>Glowing Candelabra</item15194>
+		<desc15194>[Glowing Candelabra]</desc15194>
+		<item15195>Weasel Knit Hat</item15195>
+		<desc15195>[Weasel Knit Hat]</desc15195>
+		<item15196>Kitten Ice Sculpture</item15196>
+		<desc15196>[Kitten Ice Sculpture]</desc15196>
+		<item15197>Snow Weasel Ice Sculpture</item15197>
+		<desc15197>[Snow Weasel Ice Sculpture]</desc15197>
+		<item15198>Raccoon Ice Sculpture</item15198>
+		<desc15198>[Raccoon Ice Sculpture]</desc15198>
+		<item15199>Never Dove Ice Sculpture</item15199>
+		<desc15199>[Never Dove Ice Sculpture]</desc15199>
+		<item15200>Placeholder</item15200>
+		<desc15200>[Placeholder]</desc15200>
+		<item15201>Placeholder</item15201>
+		<desc15201>[Placeholder]</desc15201>
+		<item15202>Festive Ornament Seeds</item15202>
+		<desc15202>[Festive Ornament Seeds]</desc15202>
+		<item15203>Elegant Easel</item15203>
+		<desc15203>[Elegant Easel]</desc15203>
+		<item15204>Golden Acorn</item15204>
+		<desc15204>[Golden Acorn]</desc15204>
+		<item15205>Autumn Leaf Pile</item15205>
+		<desc15205>[Autumn Leaf Pile]</desc15205>
+		
+		<item15206>Sweet Trails Seeds</item15206>
+		<desc15206>[Sweet Trails Seeds]</desc15206>
+		
+		<item15207>Heart Accessory Set</item15207>
+		<desc15207>[Heart Accessory Set]</desc15207>
+		
+		<item15208>Dulcie's Truffle Seeds</item15208>
+		<desc15208>[Dulcie's Truffle Seeds]</desc15208>
+		
+		<item15209>Umbrella</item15209>
+		<desc15209>[Umbrella]</desc15209>
+		
+		<item15210>Rainbow Sweet Seeds</item15210>
+		<desc15210>[Rainbow Sweet Seeds]</desc15210>
+		
+		<item15211>Golden Egg</item15211>
+		<desc15211>[Golden Egg]</desc15211>
+		
+		<item15212>Bubble Trail Silly Sweets</item15212>
+		<desc15212>[Bubble Trail Silly Sweets]</desc15212>
+		
+		<item15213>Mermaid Party Present</item15213>
+		<desc15213>[Mermaid Party Present]</desc15213>
+		<item15214>Mermaid Party Present</item15214>
+		<desc15214>[Mermaid Party Present]</desc15214>
+		<item15215>Mermaid Party Present</item15215>
+		<desc15215>[Mermaid Party Present]</desc15215>
+		<item15216>Mermaid Party Present</item15216>
+		<desc15216>[Mermaid Party Present]</desc15216>
+		<item15217>Mermaid Party Present</item15217>
+		<desc15217>[Mermaid Party Present]</desc15217>
+		
+		<item15218>Kitten Knit Hat</item15218>
+		<desc15218>[Kitten Knit Hat]</desc15218>
+		
+		<item15219>Never Dove Egg Dye Seeds</item15219>
+		<desc15219>[Never Dove Egg Dye Seeds]</desc15219>
+		
+		<item15220>Buzz Brother</item15220>
+		<desc15220>[Buzz Brother]</desc15220>
+		<item15221>Buzz Brother</item15221>
+		<desc15221>[Buzz Brother]</desc15221>
+		
+		<item15222>Never Dove Egg</item15222>
+		<desc15222>[Never Dove Egg]</desc15222>
+		<item15223>Never Dove Egg</item15223>
+		<desc15223>[Never Dove Egg]</desc15223>
+		<item15224>Never Dove Egg</item15224>
+		<desc15224>[Never Dove Egg]</desc15224>
+		<item15225>Never Dove Egg</item15225>
+		<desc15225>[Never Dove Egg]</desc15225>
+		<item15226>Never Dove Egg</item15226>
+		<desc15226>[Never Dove Egg]</desc15226>
+		<item15227>Never Dove Egg</item15227>
+		<desc15227>[Never Dove Egg]</desc15227>
+		<item15228>Never Dove Egg</item15228>
+		<desc15228>[Never Dove Egg]</desc15228>
+		<item15229>Never Dove Egg</item15229>
+		<desc15229>[Never Dove Egg]</desc15229>
+		<item15230>Never Dove Egg</item15230>
+		<desc15230>[Never Dove Egg]</desc15230>
+		<item15231>Never Dove Egg</item15231>
+		<desc15231>[Never Dove Egg]</desc15231>
+		<item15232>Never Dove Egg</item15232>
+		<desc15232>[Never Dove Egg]</desc15232>
+		
+		<item15233>Magic Tea Cake</item15233>
+		<desc15233>[Magic Tea Cake]</desc15233>
+		<item15234>Magic Tea Drink</item15234>
+		<desc15234>[Magic Tea Drink]</desc15234>
+		
+		<item15235>Rubber Ducky Tube</item15235>
+		<desc15235>[Rubber Ducky Tube]</desc15235>
+		
+		<item15236>Rabbit Tracks</item15236>
+		<desc15236>[Rabbit Tracks]</desc15236>
+		<item15237>White Rabbit</item15237>
+		<desc15237>[White Rabbit]</desc15237>
+		
+		<item15238>Never Unicorn</item15238>
+		<desc15238>[Never Unicorn]</desc15238>
+		
+		<item15239>Summer Chic Seeds</item15239>
+		<desc15239>[Summer Chic Seeds]</desc15239>
+		
+		<item15240>Bear Ice Sculpture</item15240>
+		<desc15240>[Bear Ice Sculpture]</desc15240>
+		<item15241>Bunny Show Sculpture</item15241>
+		<desc15241>[Bunny Snow Sculpture]</desc15241>
+		<item15242>Chilly Chipmunk Sculpture</item15242>
+		<desc15242>[Chilly Chipmunk Sculpture]</desc15242>
+		<item15243>Deer Ice Sculpture</item15243>
+		<desc15243>[Deer Ice Sculpture]</desc15243>
+		<item15244>Never Dove Ice Sculpture</item15244>
+		<desc15244>[Never Dove Ice Sculpture]</desc15244>
+		<item15245>Snow Fox Snow Sculpture</item15245>
+		<desc15245>[Snow Fox Snow Sculpture]</desc15245>
+		<item15246>Kitten Ice Sculpture</item15246>
+		<desc15246>[Kitten Ice Sculpture]</desc15246>
+		<item15247>Frosty Owl Sculpture</item15247>
+		<desc15247>[Frosty Owl Sculpture]</desc15247>
+		<item15248>Polar Penguin Sculpture</item15248>
+		<desc15248>[Polar Penguin Sculpture]</desc15248>
+		<item15249>Raccoon Ice Sculpture</item15249>
+		<desc15249>[Raccoon Ice Sculpture]</desc15249>
+		<item15250>Snowy Swan Sculpture</item15250>
+		<desc15250>[Snowy Swan Sculpture]</desc15250>
+		<item15251>Snow Weasel Ice Sculpture</item15251>
+		<desc15251>[Snow Weasel Ice Sculpture]</desc15251>
+		
+		<item15252>Mini Everblossom</item15252>
+		<desc15252>[Mini Everblossom]</desc15252>
+		<item15253>Summer Lounger</item15253>
+		<desc15253>[Summer Lounger]</desc15253>
+		<item15254>Sparkling Sleigh</item15254>
+		<desc15254>[Sparkling Sleigh]</desc15254>
+		<item15255>Rainbow Waterfall</item15255>
+		<desc15255>[Rainbow Waterfall]</desc15255>
+		<item15256>Summer Well</item15256>
+		<desc15256>[Summer Well]</desc15256>
+		
+		<item15257>Turtle Dove Ornament</item15257>
+		<desc15257>[Turtle Dove Ornament]</desc15257>
+		<item15258>Drum Ornament</item15258>
+		<desc15258>[Drum Ornament]</desc15258>
+		<item15259>Fairy Ornament</item15259>
+		<desc15259>[Fairy Ornament]</desc15259>
+		<item15260>Flute Ornament</item15260>
+		<desc15260>[Flute Ornament]</desc15260>
+		<item15261>Frog Ornament</item15261>
+		<desc15261>[Frog Ornament]</desc15261>
+		<item15262>Hook Ornament</item15262>
+		<desc15262>[Hook Ornament]</desc15262>
+		<item15263>Hummingbird Ornament</item15263>
+		<desc15263>[Hummingbird Ornament]</desc15263>
+		<item15264>Mouse Ornament</item15264>
+		<desc15264>[Mouse Ornament]</desc15264>
+		<item15265>Nest Ornament</item15265>
+		<desc15265>[Nest Ornament]</desc15265>
+		<item15266>Partridge Treetopper</item15266>
+		<desc15266>[Partridge Treetopper]</desc15266>
+		<item15267>Sun Ornament</item15267>
+		<desc15267>[Sun Ornament]</desc15267>
+		<item15268>Swan Ornament</item15268>
+		<desc15268>[Swan Ornament]</desc15268>
+		<item15269>Weasel Knit Hat</item15269>
+		<desc15269>[Weasel Knit Hat]</desc15269>
+		
+		<item15270>Conch Shell Couch</item15270>
+		<desc15270>[Conch Shell Couch]</desc15270>
+		<item15271>Driftwood Door Curtains</item15271>
+		<desc15271>[Driftwood Door Curtains]</desc15271>
+		<item15272>Sea Star Lamp</item15272>
+		<desc15272>[Sea Star Lamp]</desc15272>
+		<item15273>Seashell Mirror</item15273>
+		<desc15273>[Seashell Mirror]</desc15273>
+		<item15274>Driftwood and Shell Curtains</item15274>
+		<desc15274>[Driftwood and Shell Curtains]</desc15274>
+		
+		<item15275>Pixie Hollow Farewell Badge</item15275>
+		<desc15275>[Pixie Hollow Farewell Badge]</desc15275>
+		
+		<item15276>Loony Lobster Mask</item15276>
+		<desc15276>[Loony Lobster Mask]</desc15276>
+		<item15277>Loony Lobster Top</item15277>
+		<desc15277>[Loony Lobster Top]</desc15277>
+		<item15278>Loony Lobster Bottom</item15278>
+		<desc15278>[Loony Lobster Bottom]</desc15278>
+
+	</copy>
+	<config>
+		<velvetRopes>
+			<velvetRope item="15117" velvetRopeId="42" />
+		</velvetRopes>
+	</config>
+</giveaways>

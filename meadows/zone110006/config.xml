@@ -1,0 +1,70 @@
+<zone>
+  
+  <name>Gavin's Gear</name>
+  
+  <zoneID>110006</zoneID>
+  
+  <assetURL/>
+  
+  <audioLibrary>shop</audioLibrary>
+  
+  <baseAvatarScale>0.2</baseAvatarScale>
+  
+  <clientLayout>
+    
+    <layers>
+      
+      <layer type="normal" width="933" height="610">
+        
+        <image x="0" y="0" type="none">GG_far_04.swf</image>
+        
+      </layer>
+      
+      <layer type="ground" width="994" height="650">
+        
+        <image x="0" y="0" type="merge">GG_action_03.swf</image>
+        
+      </layer>
+      
+      <layer type="normal" width="1223" height="800">
+        
+        <image x="0" y="0" type="tileUnlessLazy">GG_foreground_02.swf</image>
+        
+      </layer>
+      
+    </layers>
+    
+  </clientLayout>
+  
+  <locations>
+    
+    <location x="684" y="370">default</location>
+    
+    <location x="323" y="381">shopEntrance</location>
+    
+  </locations>
+  
+  <bgms>
+    
+    <bgm>
+      
+      <id>sfx_theme</id>
+      
+      <loops>0</loops>
+      
+      <volumeLow>0.6</volumeLow>
+      
+      <volumeHigh>0.6</volumeHigh>
+      
+      <delayLow>0</delayLow>
+      
+      <delayHigh>0</delayHigh>
+      
+    </bgm>
+    
+  </bgms>
+  
+  <genderSpecificZone>2</genderSpecificZone>
+  
+
+</zone>

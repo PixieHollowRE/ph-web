@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/miniGameContainer.swf</swf>
+	</swfs>
+	<copy>
+		<chooseDiff>Choose A Difficulty Level</chooseDiff>
+		<continue>Continue</continue>
+		<quit>Quit</quit>
+		<replay>Replay</replay>
+		<instructions>Instructions</instructions>
+		<tutorialInstructions>How To Play</tutorialInstructions>
+		<play>Play</play>
+		<chosen></chosen>
+		<replay>Replay</replay>
+		<back>Back</back>
+		<youFinalScore>Your Final Score:</youFinalScore>
+		<pleaseChoose>Please Choose Your Reward</pleaseChoose>
+		<choose>Choose</choose>
+		<loading>Loading...</loading>
+		<noRewards>Better luck next time!</noRewards>
+		<congrats>Congratulations!</congrats>
+		<noPointsCongrats>Good Try!</noPointsCongrats>
+		<rewardDescription>The reward you pick can be traded in shops or used as an ingredient in crafting!</rewardDescription>
+		<of>of</of>
+		<abort>Are you sure you want to lose your progress?</abort>
+		<rewardsAbort>You have not chosen a reward yet! Are you sure you want to exit without a reward?</rewardsAbort>
+		<abortOk>Yes</abortOk>
+		<abortNo>No</abortNo>
+		<currentProgressDescription>Now Making</currentProgressDescription>
+		<StartGame>Start</StartGame>
+		<QuitGame>Quit</QuitGame>
+		<MPInstructions>Instructions</MPInstructions>
+		<MPStatus>Status</MPStatus>
+		<MPGoodToGo>When you're ready to start the game, click 'Start'.</MPGoodToGo>
+		<MPWaitingOnOthers>Waiting for other players to arrive.</MPWaitingOnOthers>
+		<MPWaitingOnLeader>Waiting for leader to begin game.</MPWaitingOnLeader>
+		<MPNotEnoughPlayer>Not enough players to start the game.</MPNotEnoughPlayer>
+		<MPLeaderLeft>The leader has left the game. Click 'Quit' to leave the game.</MPLeaderLeft>
+		<PlayerStatusPending>WAITING</PlayerStatusPending>
+		<PlayerStatusAvailable>READY</PlayerStatusAvailable>
+		<PlayerStatusDisconnected>DISCONNECTED</PlayerStatusDisconnected>
+	</copy>
+	<config>
+		<gamePanels>
+			<panel id="exampleGame" gameId="0" transition="none" gameType="party">{panelData}/miniGameExample.xml</panel>
+			<panel id="fireflyGame" gameId="1" transition="none" gameType="talent">{panelData}/miniGameFireflies.xml</panel>
+			<panel id="fishGame" gameId="2" transition="none" gameType="talent">{panelData}/fishBouncer.xml</panel>
+			<panel id="caterCuttingGame" gameId="3" transition="none" gameType="crafting">{panelData}/caterCutting.xml</panel>
+			<panel id="patternPlacing" gameId="4" transition="none" gameType="crafting">{panelData}/patternPlacing.xml</panel>
+			<panel id="spiderStitching" gameId="5" transition="none" gameType="crafting">{panelData}/spiderStitching.xml</panel>
+			<panel id="rolipoliPainting" gameId="6" transition="none" gameType="crafting">{panelData}/rolipoliPainting.xml</panel>
+			<panel id="spiderWeb" gameId="7" transition="none" gameType="crafting">{panelData}/miniGameSpiderWeb.xml</panel>
+			<panel id="harvestHustle" gameId="8" transition="none" gameType="talent">{panelData}/miniGameCollapse.xml</panel>
+			<panel id="petalPickup" gameId="9" transition="none" gameType="talent">{panelData}/gardenLooperMiniGame.xml</panel>
+			<panel id="fireworks" gameId="10" transition="none" gameType="talent">{panelData}/miniGameFireworks.xml</panel>
+			<panel id="snowflake" gameId="11" transition="none" gameType="talent">{panelData}/miniGameSnowFlake.xml</panel>
+			<panel id="popcorn" gameId="12" transition="none" gameType="party">{panelData}/miniGamePopCorn.xml</panel>
+			<panel id="simoneSays" gameId="13" transition="none" gameType="party">{panelData}/simoneSays.xml</panel>
+			<panel id="sortingSupplies" gameId="14" transition="none" gameType="talent">{panelData}/sortingSupplies.xml</panel>
+			<panel id="lullaby" gameId="15" transition="none" gameType="talent">{panelData}/animalRhythmMiniGame.xml</panel>
+			<panel id="rockPaperScissor" gameId="16" transition="none" gameType="party">{panelData}/rockPaperScissor.xml</panel>
+			<panel id="popcorn1" gameId="17" transition="none" gameType="party">{panelData}/miniGamePopCorn.xml</panel>
+			<panel id="simoneSays1" gameId="18" transition="none" gameType="party">{panelData}/simoneSays.xml</panel>
+			<panel id="rockPaperScissor1" gameId="19" transition="none" gameType="party">{panelData}/rockPaperScissor.xml</panel>
+			<panel id="popcorn2" gameId="20" transition="none" gameType="party">{panelData}/miniGamePopCorn.xml</panel>
+			<panel id="simoneSays2" gameId="21" transition="none" gameType="party">{panelData}/simoneSays.xml</panel>
+			<panel id="rockPaperScissor2" gameId="22" transition="none" gameType="party">{panelData}/rockPaperScissor.xml</panel>
+			<panel id="popcorn3" gameId="23" transition="none" gameType="party">{panelData}/miniGamePopCorn.xml</panel>
+			<panel id="simoneSays3" gameId="24" transition="none" gameType="party">{panelData}/simoneSays.xml</panel>
+			<panel id="rockPaperScissor3" gameId="25" transition="none" gameType="party">{panelData}/rockPaperScissor.xml</panel>
+			<panel id="popcorn4" gameId="26" transition="none" gameType="party">{panelData}/miniGamePopCorn.xml</panel>
+			<panel id="simoneSays4" gameId="27" transition="none" gameType="party">{panelData}/simoneSays.xml</panel>
+			<panel id="rockPaperScissor4" gameId="28" transition="none" gameType="party">{panelData}/rockPaperScissor.xml</panel>
+			<panel id="popcorn5" gameId="29" transition="none" gameType="party">{panelData}/miniGamePopCorn.xml</panel>
+			<panel id="simoneSays5" gameId="30" transition="none" gameType="party">{panelData}/simoneSays.xml</panel>
+			<panel id="rockPaperScissor5" gameId="31" transition="none" gameType="party">{panelData}/rockPaperScissor.xml</panel>
+			<panel id="popcorn6" gameId="32" transition="none" gameType="party">{panelData}/miniGamePopCorn.xml</panel>
+			<panel id="simoneSays6" gameId="33" transition="none" gameType="party">{panelData}/simoneSays.xml</panel>
+			<panel id="rockPaperScissor6" gameId="34" transition="none" gameType="party">{panelData}/rockPaperScissor.xml</panel>
+			<panel id="popcorn7" gameId="35" transition="none" gameType="party">{panelData}/miniGamePopCorn.xml</panel>
+			<panel id="simoneSays7" gameId="36" transition="none" gameType="party">{panelData}/simoneSays.xml</panel>
+			<panel id="rockPaperScissor7" gameId="37" transition="none" gameType="party">{panelData}/rockPaperScissor.xml</panel>
+			<panel id="pouringMiniGame" gameId="38" transition="none" gameType="crafting">{panelData}/pouringMiniGame.xml</panel>
+			<panel id="baking" gameId="39" transition="none" gameType="crafting">{panelData}/baking.xml</panel>
+			<panel id="mixing" gameId="40" transition="none" gameType="crafting">{panelData}/mixing.xml</panel>
+			<panel id="tinkerCrafting" gameId="41" transition="none" gameType="talent">{panelData}/miniGameTinkerCrafting.xml</panel>
+			<panel id="sortingSuppliesTutorial" gameId="42" transition="none" gameType="talent">{panelData}/sortingSuppliesTutorial.xml</panel>
+			<panel id="mahjong" gameId="43" transition="none" gameType="talent">{panelData}/miniGameMahjong.xml</panel>
+			<panel id="firstFlight" gameId="44" transition="none" gameType="talent">{panelData}/miniGameBirds.xml</panel>
+			<panel id="butterfly" gameId="45" transition="none" gameType="talent">{panelData}/miniGameLadyBugs.xml</panel>
+			<panel id="dailyChance" gameId="46" transition="none" gameType="party">{panelData}/dailyChance.xml</panel>
+			<panel id="pachinko" gameId="47" transition="none" gameType="talent">{panelData}/miniGamePachinko.xml</panel>
+			<panel id="lightPipe" gameId="48" transition="none" gameType="talent">{panelData}/miniGameLightPipe.xml</panel>
+			<panel id="gemJuggle" gameId="49" transition="none" gameType="talent">{panelData}/jewels.xml</panel>
+			<panel id="knitting" gameId="50" transition="none" gameType="crafting">{panelData}/knitting.xml</panel>
+			<panel id="caterShearing" gameId="51" transition="none" gameType="crafting">{panelData}/miniGameCaterShearing.xml</panel>
+			<panel id="tailorButtonSearch" gameId="52" transition="none" gameType="crafting">{panelData}/buttonSearch.xml</panel>
+			<panel id="tailorBeading" gameId="53" transition="none" gameType="crafting">{panelData}/miniGameBeading.xml</panel>
+			<panel id="bakingCupcakes" gameId="54" transition="none" gameType="crafting">{panelData}/cupcakes.xml</panel>
+			<panel id="tailorScreenPrinting" gameId="55" transition="none" gameType="crafting">{panelData}/painting.xml</panel>
+			<panel id="tailorBedazzle" gameId="56" transition="none" gameType="crafting">{panelData}/bedazzle.xml</panel>
+			<!-- these id's correspond to those defined in python::GameGlobals.py -->
+		</gamePanels>
+		<textColor1>0x152955</textColor1>
+		<textColor2>0x504734</textColor2>
+		<textColor3>0x5a3212</textColor3>
+		<textColor4>0x573e29</textColor4>
+		<textColor5>0x7a1a1a</textColor5>
+		<textColor6>0x1f641f</textColor6>
+		<multiplayerResultsDelay>6000</multiplayerResultsDelay>
+	</config>
+</panel>

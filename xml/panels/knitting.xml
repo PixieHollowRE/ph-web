@@ -1,0 +1,136 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/knitting.swf</swf>
+		<swf type="code">{panelCode}/knitting.swf</swf>
+	</swfs>
+	<copy>
+		
+		<mainTitle>Tailoring</mainTitle>
+		
+		<title target="title.title.heading">Knitting</title>
+		<level>Level</level>
+		<score>Score</score>
+		<play_button target="title.btnContainer.playBtn.caption">Play!</play_button>
+		<help_button target="title.btnContainer.helpBtn.caption">Instructions</help_button>
+		<quit_button target="title.btnContainer.quitBtn.caption">Exit</quit_button>
+
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">How to Play</inst_screen_title>
+		<inst_quit_button target="instructions.btnContainer.quitBtn.caption">Quit</inst_quit_button>
+		<inst_cont_button target="instructions.btnContainer.continueBtn.caption">Continue</inst_cont_button>
+		<inst_play_button target="instructions.btnContainer.playBtn.caption">Play</inst_play_button>
+		
+		<instruction0>Click on the yarn balls to make a stitch.</instruction0>
+		<instruction1>Match the yarn color to the current square color in the pattern.</instruction1>
+		<instruction2>If you click the wrong color yarn ball, you will make a broken stitch.</instruction2>
+		<instruction3>Race to the STAR squares before they disappear.</instruction3>
+		<instruction4>Stitch a STAR square and the next few will auto stitch!</instruction4>
+		
+		<stepcomplete>Done!</stepcomplete>
+		<complete>Complete!</complete>
+		<continue>Continue</continue>
+		
+		<bobbinEncourage0>Watch that spider go!</bobbinEncourage0>
+		<bobbinEncourage1>This little spider sure purls fast!</bobbinEncourage1>
+		<bobbinEncourage2>Knit, purl, keep the yarn going!</bobbinEncourage2>
+		<bobbinEncourage3>Nice stockinette stitch, spider!</bobbinEncourage3>
+		<bobbinEncourage4>You're doing a stitch-arific job so far!</bobbinEncourage4>
+		<bobbinEncourage5>It takes real knit-wit to stitch so fast!</bobbinEncourage5>
+		<bobbinEncourage6>Keep that spider stitching!</bobbinEncourage6>
+		
+		<bobbinDiscourage0>Darn! Oh wool, ya lost one!</bobbinDiscourage0>
+		<bobbinDiscourage1>Aw, ya knit some ya lose some!</bobbinDiscourage1>
+		<bobbinDiscourage2>Aw, ya missed!</bobbinDiscourage2>
+		<bobbinDiscourage3>Well, ya can't purl 'em all!</bobbinDiscourage3>
+		
+		<bobbinPoor0>That was a good try at knitting. I betcha you'll do better next time!</bobbinPoor0>
+		<bobbinPoor1>Not bad knitting for a beginner. Keep trying!</bobbinPoor1>
+		<bobbinPoor2>Just keep on knitting! I know you'll do it better next time!</bobbinPoor2>
+		<bobbinPoor3>All it takes is a little more practice, and you'll be knitting like a pro!</bobbinPoor3>
+		<bobbinGood0>Nice knitting! Have ya done this before?</bobbinGood0>
+		<bobbinGood1>Hey-oh! Nice purling work there! I'm proud of ya!</bobbinGood1>
+		<bobbinGood2>Well, my knitting needles, you're pretty good at purling!</bobbinGood2>
+		<bobbinGood3>You're pretty good with this whole knit and purl thing, ya know that?</bobbinGood3>
+		<bobbinGreat0>Wow and double wow! Are you sure you're not a knit-talent?</bobbinGreat0>
+		<bobbinGreat1>Well, knit my socks, you're a knitting natural!</bobbinGreat1>
+		<bobbinGreat2>Stitch-a-ific! Ya sure know how to give a spider a workout!</bobbinGreat2>
+		<bobbinGreat3>Knit my slippers, that was some tailor-tastic wool work ya did there!</bobbinGreat3>
+		<bobbinAwesome0>Okay, I'm totally wowed. That was an amazing knit job!</bobbinAwesome0>
+		<bobbinAwesome1>Ya might be the best knit-wit I've ever seen! Way to go!</bobbinAwesome1>
+		<bobbinAwesome2>Hey-oh! Your knitting skills are totally flaptastic!</bobbinAwesome2>
+		<bobbinAwesome3>Well, pleat my wings, that was some flashy purling!</bobbinAwesome3>
+		
+		<mendyEncourage0>That spider is terribly fond of wool.</mendyEncourage0>
+		<mendyEncourage1>Splendid! We're showing a real talent for this!</mendyEncourage1>
+		<mendyEncourage2>Our material will be beautifully knit in no time!</mendyEncourage2>
+		<mendyEncourage3>Oh! Superb!!</mendyEncourage3>
+		<mendyEncourage4>This is coming along splendidly!</mendyEncourage4>
+		<mendyEncourage5>It requires skill to keep a spider stitching, doesn't it?</mendyEncourage5>
+		<mendyEncourage6>We're showing a distinct skill with a garter stitch!</mendyEncourage6>
+		<mendyDiscourage0>Careful now! Let's try it again.</mendyDiscourage0>
+		<mendyDiscourage1>No worries, my dear, we have more wool!</mendyDiscourage1>
+		<mendyDiscourage2>Oh dear, it's time to unravel and start again.</mendyDiscourage2>
+		<mendyDiscourage3>Why don't we give that another try?</mendyDiscourage3>
+		
+		<mendyPoor0>Let's move along. I think you'll do better next time.</mendyPoor0>
+		<mendyPoor1>Well, I can see you did your best. You can always try again!</mendyPoor1>
+		<mendyPoor2>Don't let your wings droop. You'll get better!</mendyPoor2>
+		<mendyPoor3>Knitting truly is a skill. You just need practice.</mendyPoor3>
+		<mendyGood0>Not bad, friend. Not bad at all!</mendyGood0>
+		<mendyGood1>Good job. And remember-you'll get even better with practice!</mendyGood1>
+		<mendyGood2>You definitely have a knack for knitting!</mendyGood2>
+		<mendyGood3>You remind me of a certain knitting-talent from Spring Valley...</mendyGood3>
+		<mendyGreat0>You certainly have a flair for fashion!</mendyGreat0>
+		<mendyGreat1>I'm impressed! Great work!</mendyGreat1>
+		<mendyGreat2>You're no beginner, that's for sure. Very good!</mendyGreat2>
+		<mendyGreat3>You've been practicing, haven't you? Great work!</mendyGreat3>
+		<mendyAwesome0>Knitting needles, what amazing skills you have!</mendyAwesome0>
+		<mendyAwesome1>This just goes to show that practice does make perfect!</mendyAwesome1>
+		<mendyAwesome2>Astounding! Would you be willing to offer me any tips?</mendyAwesome2>
+		<mendyAwesome3>Astonishing! You must knit me your autograph!</mendyAwesome3>
+		<poor0>Nice Try!</poor0>
+		<good0>Good Job!</good0>
+		<great0>Great Job!</great0>
+		<awesome0>Awesome Job!</awesome0>
+		
+	</copy>
+	<config>
+		<colorPalette>3</colorPalette>
+		<levels>
+			<level id="0" file="images/minigameData/knitting/3x3/F_Beach_Collection/bottom.gif"/>
+			<level id="1" file="images/minigameData/knitting/3x3/F_Beach_Collection/sash.gif"/>
+			<level id="2" file="images/minigameData/knitting/3x3/F_Beach_Collection/shoes.gif"/>
+			<level id="3" file="images/minigameData/knitting/3x3/F_Beach_Collection/top.gif"/>
+			<level id="4" file="images/minigameData/knitting/3x3/SM_Messenger_Collection/bottoms.gif"/>
+			<level id="5" file="images/minigameData/knitting/3x3/SM_Messenger_Collection/sash.gif"/>
+			<level id="6" file="images/minigameData/knitting/3x3/SM_Messenger_Collection/shoes.gif"/>
+			<level id="7" file="images/minigameData/knitting/3x3/SM_Messenger_Collection/top.gif"/>
+			<level id="99" file="images/minigameData/knitting/8x6/F_High_Waisted/bottoms.gif"/>
+			<level id="8" file="images/minigameData/knitting/8x6/F_High_Waisted/headpiece.gif"/>
+			<level id="9" file="images/minigameData/knitting/8x6/F_High_Waisted/sash.gif"/>
+			<level id="10" file="images/minigameData/knitting/8x6/F_High_Waisted/shoes.gif"/>
+			<level id="11" file="images/minigameData/knitting/8x6/F_High_Waisted/top.gif"/>
+			<level id="12" file="images/minigameData/knitting/8x6/SM_Summer_Dress_Clothes/bottoms.gif"/>
+			<level id="13" file="images/minigameData/knitting/8x6/SM_Summer_Dress_Clothes/headpiece.gif"/>
+			<level id="14" file="images/minigameData/knitting/8x6/SM_Summer_Dress_Clothes/sash.gif"/>
+			<level id="15" file="images/minigameData/knitting/8x6/SM_Summer_Dress_Clothes/shoes.gif"/>
+			<level id="16" file="images/minigameData/knitting/8x6/SM_Summer_Dress_Clothes/top.gif"/>
+			<level id="17" file="images/minigameData/knitting/12x10/F_Nature_Collection/anklet.gif"/>
+			<level id="18" file="images/minigameData/knitting/12x10/F_Nature_Collection/bottom.gif"/>
+			<level id="19" file="images/minigameData/knitting/12x10/F_Nature_Collection/bracelet.gif"/>
+			<level id="20" file="images/minigameData/knitting/12x10/F_Nature_Collection/headpiece.gif"/>
+			<level id="21" file="images/minigameData/knitting/12x10/F_Nature_Collection/necklace.gif"/>
+			<level id="22" file="images/minigameData/knitting/12x10/F_Nature_Collection/sash.gif"/>
+			<level id="23" file="images/minigameData/knitting/12x10/F_Nature_Collection/shoes.gif"/>
+			<level id="24" file="images/minigameData/knitting/12x10/F_Nature_Collection/top.gif"/>
+			<level id="25" file="images/minigameData/knitting/12x10/SM_Nature_Collection/anklet.gif"/>
+			<level id="26" file="images/minigameData/knitting/12x10/SM_Nature_Collection/bottoms.gif"/>
+			<level id="27" file="images/minigameData/knitting/12x10/SM_Nature_Collection/bracelet.gif"/>
+			<level id="28" file="images/minigameData/knitting/12x10/SM_Nature_Collection/headpiece.gif"/>
+			<level id="29" file="images/minigameData/knitting/12x10/SM_Nature_Collection/necklace.gif"/>
+			<level id="30" file="images/minigameData/knitting/12x10/SM_Nature_Collection/sash.gif"/>
+			<level id="31" file="images/minigameData/knitting/12x10/SM_Nature_Collection/shoes.gif"/>
+			<level id="32" file="images/minigameData/knitting/12x10/SM_Nature_Collection/top.gif"/>
+		</levels>
+	</config>
+</panel>
+

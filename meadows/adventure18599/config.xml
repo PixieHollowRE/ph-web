@@ -1,0 +1,96 @@
+<zone>
+  <name>Test</name>
+  <zoneID>18599</zoneID>
+  <assetURL/>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="1100" height="976">
+        <image x="0" y="0" type="none">../wildernessAssets/swamp_background.swf</image>
+      </layer>
+      <layer type="ground" width="2828" height="2828">
+        <image x="0" y="0" type="none">../wildernessAssets/empty.swf</image>
+      </layer>
+      <layer type="normal" width="2828" height="2828">
+        <image x="0" y="0" type="none">../wildernessAssets/cavern_foreground.swf</image>
+      </layer>
+    </layers>
+    <validArea>
+      <vertex x="385" y="158"/>
+      <vertex x="583.6" y="144"/>
+      <vertex x="838.25" y="192"/>
+      <vertex x="1034.5" y="318"/>
+      <vertex x="1353.85" y="251.25"/>
+      <vertex x="1601.4" y="256.3"/>
+      <vertex x="1891.05" y="283.35"/>
+      <vertex x="2112.15" y="302.4"/>
+      <vertex x="2311.7" y="440.45"/>
+      <vertex x="2361.3" y="602.45"/>
+      <vertex x="2260.6" y="820.45"/>
+      <vertex x="2418.5" y="1094.05"/>
+      <vertex x="2436.95" y="1238.35"/>
+      <vertex x="2326.35" y="1309"/>
+      <vertex x="2276.05" y="1465.3"/>
+      <vertex x="2169.95" y="1494.35"/>
+      <vertex x="1908.4" y="1435.9"/>
+      <vertex x="1684.5" y="1494"/>
+      <vertex x="1648.5" y="1661.5"/>
+      <vertex x="1610.5" y="1875.25"/>
+      <vertex x="1420.5" y="1946.15"/>
+      <vertex x="1075.5" y="1921.1"/>
+      <vertex x="782.75" y="1941.4"/>
+      <vertex x="542" y="1917.7"/>
+      <vertex x="384.5" y="2016.3"/>
+      <vertex x="292.25" y="1809.85"/>
+      <vertex x="369" y="1761.4"/>
+      <vertex x="287.25" y="1591.45"/>
+      <vertex x="333.5" y="1523.55"/>
+      <vertex x="209.8" y="1470.75"/>
+      <vertex x="199.45" y="1384.85"/>
+      <vertex x="236.15" y="1297"/>
+      <vertex x="324" y="1241.7"/>
+      <vertex x="426.85" y="1244.45"/>
+      <vertex x="544.25" y="1276.4"/>
+      <vertex x="788" y="1354.3"/>
+      <vertex x="901.55" y="1234.05"/>
+      <vertex x="1119.4" y="1207.55"/>
+      <vertex x="1287.3" y="1203.05"/>
+      <vertex x="1537.1" y="1199.1"/>
+      <vertex x="1644.65" y="1271.15"/>
+      <vertex x="1886.75" y="1239.3"/>
+      <vertex x="1954.9" y="1310.45"/>
+      <vertex x="2103.8" y="1287.65"/>
+      <vertex x="2204.65" y="1143"/>
+      <vertex x="2169.4" y="1040.7"/>
+      <vertex x="2122.25" y="859.95"/>
+      <vertex x="2107.95" y="664.45"/>
+      <vertex x="2164.6" y="529.45"/>
+      <vertex x="2154.25" y="430.5"/>
+      <vertex x="1891.25" y="463.9"/>
+      <vertex x="1695.3" y="404.3"/>
+      <vertex x="1563.4" y="453.1"/>
+      <vertex x="1385.6" y="506.75"/>
+      <vertex x="1064" y="493.05"/>
+      <vertex x="937.55" y="559.1"/>
+      <vertex x="940.1" y="805.65"/>
+      <vertex x="784.65" y="890.25"/>
+      <vertex x="529.95" y="915.2"/>
+      <vertex x="367.3" y="889.2"/>
+      <vertex x="251.6" y="787.15"/>
+      <vertex x="286.95" y="662.15"/>
+      <vertex x="218.3" y="484.1"/>
+      <vertex x="242.65" y="323.55"/>
+      <vertex x="298.8" y="220.25"/>
+    </validArea>
+  </clientLayout>
+  <barriers>
+    <barrier itemId="19504" x="795" y="21" index="1"/>
+  </barriers>
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

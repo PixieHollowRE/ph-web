@@ -1,0 +1,13 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/sidenav.swf</swf>
+		<swf type="code">{panelCode}/sidenav.swf</swf>
+	</swfs>
+	<copy>
+		
+		
+	</copy>
+	<config>
+		
+	</config>
+</panel>

@@ -1,0 +1,23 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/postcardsBubbles.swf</swf>
+		<swf type="code">{panelCode}/postcardsBubbles.swf</swf>
+	</swfs>
+	<copy>
+		<help target = "helpContent.helpTF">WHAT'S THIS</help>
+		<from>From</from>
+		<deleteConfirmation>All viewed postcards will be deleted and unviewed postcards will be saved for later.</deleteConfirmation>
+		<ok>OK</ok>
+		<notYet>View Again</notYet>
+		<message1>Winter's Greetings, Pixie Pal!</message1>
+	</copy>
+	<config>
+		<postcards>
+			<postcard id="1">
+				<image>{panelAJPG}/postcards/postcard_snow_flurry_2011.ajpg</image>
+				<message>message1</message>
+			</postcard>
+		</postcards>
+		<scrollSpeed>40</scrollSpeed>
+	</config>
+</panel>

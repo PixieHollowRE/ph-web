@@ -1,0 +1,585 @@
+<colors>
+  
+  <color color_id="0" color_name="" color_desc="This Color Does Not Exist" color_tags="other">128 128 128</color>
+  
+  <color color_id="1" color_name="Mint Green" color_desc="Cool and refreshing." color_tags="green">168 229 144</color>
+  
+  <color color_id="2" color_name="Clover Green" color_desc="The luckiest color around!" color_tags="green">116 207 129</color>
+  
+  <color color_id="3" color_name="Spruce Green" color_desc="The deep lush elegance of a majestic forest." color_tags="green">85 144 80</color>
+  
+  <color color_id="4" color_name="Bluebell Blue" color_desc="As lovely and carefree as the flower itself!" color_tags="blue">117 138 255</color>
+  
+  <color color_id="5" color_name="Wysteria Purple" color_desc="Dainty and delicate." color_tags="purple">183 191 252</color>
+  
+  <color color_id="6" color_name="Havendish Blue" color_desc="Like gazing into the depths of Havendish Stream." color_tags="blue">135 195 241</color>
+  
+  <color color_id="7" color_name="Salmon Pink" color_desc="Stylish and flowing - like a Salmon!" color_tags="pink">255 165 138</color>
+  
+  <color color_id="8" color_name="Watermelon Pink" color_desc="Makes you hungry for a big slice of watermelon!" color_tags="pink">218 100 139</color>
+  
+  <color color_id="9" color_name="Daffodil Yellow" color_desc="The very essence of springtime!" color_tags="yellow">247 251 102</color>
+  
+  <color color_id="10" color_name="Cantaloupe Orange" color_desc="As warm and inviting as a picnic in springtime." color_tags="orange">255 188 109</color>
+  
+  <color color_id="11" color_name="Marigold Yellow" color_desc="This dazzling color will make heads turn!" color_tags="yellow">255 176 27</color>
+  
+  <color color_id="12" color_name="Tangerine Orange" color_desc="As crisp and bright as the autumn sun." color_tags="orange">255 124 72</color>
+  
+  <color color_id="13" color_name="Coral Pink" color_desc="Just like the coral in the waters around Never Land!" color_tags="pink">240 97 81</color>
+  
+  <color color_id="14" color_name="Plum Purple" color_desc="Deep, rich and vibrant." color_tags="purple">159 67 206</color>
+  
+  <color color_id="15" color_name="Lilac Purple" color_desc="Soft and gentle - just like a lilac!" color_tags="purple">204 131 220</color>
+  
+  <color color_id="16" color_name="Camellia Pink" color_desc="One of the garden-talents' favorite colors!" color_tags="pink">255 147 223</color>
+  
+  <color color_id="17" color_name="Tendershoot Green" color_desc="As fresh as new spring grass." color_tags="green">217 255 135</color>
+  
+  <color color_id="18" color_name="Waterfall Blue" color_desc="Rani's favorite water shade!" color_tags="blue">165 247 244</color>
+  
+  <color color_id="19" color_name="Sprout Green" color_desc="A gentle, vibrant green." color_tags="green">142 213 123</color>
+  
+  <color color_id="20" color_name="Grassblade Green" color_desc="Lily's favorite green!" color_tags="green">93 190 107</color>
+  
+  <color color_id="21" color_name="Zucchini Green" color_desc="A dark, mysterious green." color_tags="green">67 132 62</color>
+  
+  <color color_id="22" color_name="Blue Jay Blue" color_desc="A shade worthy of the busy blue jay." color_tags="blue">91 114 242</color>
+  
+  <color color_id="23" color_name="Breezy Blue" color_desc="Crisp like an autumn afternoon." color_tags="blue">152 162 242</color>
+  
+  <color color_id="24" color_name="Sky Blue" color_desc="Just like the pale hue of a cloudless summer sky." color_tags="blue">112 176 226</color>
+  
+  <color color_id="25" color_name="Peachy Orange" color_desc="Soft, elegant and sweet." color_tags="orange">240 137 106</color>
+  
+  <color color_id="26" color_name="Raspberry Pink" color_desc="Made from ripe raspberry juice!" color_tags="pink">201 79 119</color>
+  
+  <color color_id="27" color_name="Corn Cob Yellow" color_desc="Bright, sweet and crisp!" color_tags="yellow">249 216 100</color>
+  
+  <color color_id="28" color_name="Cinnamon Brown" color_desc="Soft, deep and earthy." color_tags="brown">181 135 82</color>
+  
+  <color color_id="29" color_name="Goldfish Orange" color_desc="Just like the little fishies!" color_tags="orange">239 139 10</color>
+  
+  <color color_id="30" color_name="Pumpkin Orange" color_desc="Spicy yet mellow, bold yet muted -- a color of magic!" color_tags="orange">240 106 52</color>
+  
+  <color color_id="31" color_name="Sunset Orange" color_desc="Like the setting sun's final fiery rays." color_tags="orange">228 78 62</color>
+  
+  <color color_id="32" color_name="Mulberry Purple" color_desc="A special color, because mulberries are rare in Never Land." color_tags="purple">120 41 162</color>
+  
+  <color color_id="33" color_name="Iris Purple" color_desc="Bess' favorite shade of purple." color_tags="purple">186 111 202</color>
+  
+  <color color_id="34" color_name="Primrose Pink" color_desc="Soft and perfectly dainty." color_tags="pink">238 123 203</color>
+  
+  <color color_id="35" color_name="Celery Green" color_desc="So crisp you can almost hear it snap!" color_tags="green">180 218 102</color>
+  
+  <color color_id="36" color_name="Hydrangea Blue" color_desc="The exact same shade as the hydrangeas in Lily's garden." color_tags="blue">128 219 208</color>
+  
+  <color color_id="37" color_name="Cloudy Blue" color_desc="Speaks of autumn days and splashing rain!" color_tags="blue">204 214 255</color>
+  
+  <color color_id="38" color_name="Apple Green" color_desc="A little sweet, a little sour, and a whole lot of shine!" color_tags="green">214 253 132</color>
+  
+  <color color_id="39" color_name="Springtime Green" color_desc="The tender bright green of new spring growth." color_tags="green">81 155 92</color>
+  
+  <color color_id="40" color_name="Candy Blue" color_desc="The perfect color for a sweet tooth!" color_tags="blue">52 160 157</color>
+  
+  <color color_id="41" color_name="Moonshadow Blue" color_desc="As dark and mysterious as a cold winter moon." color_tags="blue">47 101 112</color>
+  
+  <color color_id="42" color_name="Blueberry Blue" color_desc="Made from plump, juicy Blueberries!" color_tags="blue">48 64 152</color>
+  
+  <color color_id="43" color_name="Violet Purple" color_desc="Shocking and bright, this color demands attention!" color_tags="purple">100 59 175</color>
+  
+  <color color_id="44" color_name="Plumblossom Pink" color_desc="Rich and deep - this is the color of Fairy royalty." color_tags="pink">157 35 105</color>
+  
+  <color color_id="45" color_name="Strawberry Red" color_desc="Dulcie's favorite shade of red." color_tags="red">187 39 22</color>
+  
+  <color color_id="46" color_name="Bark Brown" color_desc="The color of the Pixie Dust tree!" color_tags="brown">174 129 98</color>
+  
+  <color color_id="47" color_name="Buttercup Yellow" color_desc="Just like Iridessa's favorite buttercup flowers!" color_tags="yellow">255 251 134</color>
+  
+  <color color_id="48" color_name="Sea Green" color_desc="As mysterious as Mermaid Lagoon..." color_tags="green">148 231 160</color>
+  
+  <color color_id="49" color_name="Robin Egg Blue" color_desc="Happy like a friendly robin's egg!" color_tags="blue">84 199 196</color>
+  
+  <color color_id="50" color_name="Cornflower Blue" color_desc="Queen Clarion's favorite shade of blue." color_tags="blue">92 153 228</color>
+  
+  <color color_id="51" color_name="Periwinkle Blue" color_desc="Like the tiny flowers of the Never Fruit." color_tags="blue">141 157 245</color>
+  
+  <color color_id="52" color_name="Lavender Purple" color_desc="Vidia's favorite shade of purple." color_tags="purple">161 136 207</color>
+  
+  <color color_id="53" color_name="Hyacinth Pink" color_desc="From the Hyacinth flowers that grow north of Never Land." color_tags="pink">229 156 204</color>
+  
+  <color color_id="54" color_name="Peony Pink" color_desc="A gentle, cheery shade of pink." color_tags="pink">252 212 234</color>
+  
+  <color color_id="55" color_name="Pepper Black" color_desc="Everything looks good with black." color_tags="black">41 42 63</color>
+  
+  <color color_id="56" color_name="Bole Brown" color_desc="Like the trunk of a Never Tree." color_tags="brown">101 77 63</color>
+  
+  <color color_id="57" color_name="Adobe Brown" color_desc="An almost neutral brown, perfect for any occasion." color_tags="brown">144 116 85</color>
+  
+  <color color_id="58" color_name="Terracotta Brown" color_desc="A lighter brown, soft and mellow." color_tags="brown">194 120 60</color>
+  
+  <color color_id="59" color_name="Bunny Brown" color_desc="Soft and silky like a baby bunny's coat." color_tags="brown">179 159 118</color>
+  
+  <color color_id="60" color_name="Tyrian Purple" color_desc="Regal and distinguished, this color commands attention." color_tags="purple">159 145 188</color>
+  
+  <color color_id="61" color_name="Pale Lilac Purple" color_desc="A muted and restful purple." color_tags="purple">191 185 200</color>
+  
+  <color color_id="62" color_name="Bluebird Blue" color_desc="As happy and carefree as a bluebird in the trees." color_tags="blue">170 187 255</color>
+  
+  <color color_id="63" color_name="Butterfly Blue" color_desc="The shimmering blue of a butterfly's wings." color_tags="blue">170 210 255</color>
+  
+  <color color_id="64" color_name="Emerald Green" color_desc="One of Beck's favorite colors." color_tags="green">77 186 123</color>
+  
+  <color color_id="65" color_name="Summer Green" color_desc="The full green of mature summer foliage." color_tags="green">129 199 112</color>
+  
+  <color color_id="66" color_name="Cactus Green" color_desc="Dull sandy green like the cacti found in the Roughtongue desert." color_tags="green">176 202 124</color>
+  
+  <color color_id="67" color_name="Chartreuse Green" color_desc="A pale green that's somehow bright at the same time." color_tags="green">166 199 51</color>
+  
+  <color color_id="68" color_name="Huckleberry Blue" color_desc="Light and how-dee-do friendly!" color_tags="blue">107 238 212</color>
+  
+  <color color_id="69" color_name="Powder Blue" color_desc="The perfect hue for that fresh, new feeling!" color_tags="blue">98 226 239</color>
+  
+  <color color_id="70" color_name="Tinker Blue" color_desc="A favorite blue hue of tinker-talents." color_tags="blue">127 201 223</color>
+  
+  <color color_id="71" color_name="Dewdrop Blue" color_desc="A pearly-blue reflection of the early morning sun." color_tags="blue">132 190 255</color>
+  
+  <color color_id="72" color_name="Mauve Purple" color_desc="Light and festive and ready for fun!" color_tags="purple">216 169 238</color>
+  
+  <color color_id="73" color_name="Grape Purple" color_desc="Made from the juicy grapes of Never Land!" color_tags="purple">58 55 88</color>
+  
+  <color color_id="74" color_name="Soil Brown" color_desc="Like the dark rich soil of Never Land." color_tags="brown">65 48 36</color>
+  
+  <color color_id="75" color_name="Umber Brown" color_desc="The color of the boulders on Torth Mountain." color_tags="brown">82 44 36</color>
+  
+  <color color_id="76" color_name="Chocolate Brown" color_desc="Like a big piece of chocolate cake! Yum!" color_tags="brown">80 56 39</color>
+  
+  <color color_id="77" color_name="Sepia Brown" color_desc="Like the sunset glow on Never Land's rock mountains." color_tags="brown">104 77 60</color>
+  
+  <color color_id="78" color_name="Fawn Brown" color_desc="The light creamy brown of a little fawn's coat." color_tags="brown">125 96 76</color>
+  
+  <color color_id="79" color_name="Sienna Brown" color_desc="Just like the bark of a redwood tree." color_tags="brown">139 93 73</color>
+  
+  <color color_id="80" color_name="Pomegranate Purple" color_desc="So deep, rich and juicy it'll make your mouth water!" color_tags="purple">142 48 106</color>
+  
+  <color color_id="81" color_name="Crimson Red" color_desc="A jolly red that's the color of winter berries." color_tags="red">161 39 64</color>
+  
+  <color color_id="82" color_name="Raspberry Red" color_desc="A deep and energizing red." color_tags="red">187 64 43</color>
+  
+  <color color_id="83" color_name="Cherry Brown" color_desc="Brownish-red, like the wood of a cherry tree." color_tags="brown">176 92 60</color>
+  
+  <color color_id="84" color_name="Copper Brown" color_desc="What Tinker can resist this color?" color_tags="brown">193 130 74</color>
+  
+  <color color_id="85" color_name="Quail Brown" color_desc="Like the quail bird's feathers, a greyish-yellow brown." color_tags="brown">183 154 87</color>
+  
+  <color color_id="86" color_name="Nutmeg Brown" color_desc="One of Dulcie's favorite colors!" color_tags="brown">180 135 88</color>
+  
+  <color color_id="87" color_name="Driftwood Brown" color_desc="The color of the wood that shapes the Jolly Roger." color_tags="brown">224 142 69</color>
+  
+  <color color_id="88" color_name="Fruitwood Brown" color_desc="Creamy and calm like fine fruitwood." color_tags="brown">224 166 90</color>
+  
+  <color color_id="89" color_name="Seashore Brown" color_desc="Like the sands of the Mermaid Lagoon." color_tags="brown">223 190 111</color>
+  
+  <color color_id="90" color_name="Custard Yellow" color_desc="This looks just like Dulcie's vanilla custard." color_tags="yellow">254 222 144</color>
+  
+  <color color_id="91" color_name="Coconut Brown" color_desc="The same color as a Fairy macaroon." color_tags="brown">131 99 71</color>
+  
+  <color color_id="92" color_name="Hawk Brown" color_desc="A brown that is associated with speed and grace." color_tags="brown">149 109 76</color>
+  
+  <color color_id="93" color_name="Maple Brown" color_desc="The color of maple tree bark." color_tags="brown">148 103 66</color>
+  
+  <color color_id="94" color_name="Ochre Brown" color_desc="The color of clay." color_tags="brown">180 125 79</color>
+  
+  <color color_id="95" color_name="Sparrow Brown" color_desc="The same color as a little brown sparrow!" color_tags="brown">178 131 92</color>
+  
+  <color color_id="96" color_name="Almond Brown" color_desc="The same shade as the shells of tasty Never Almonds." color_tags="brown">202 144 95</color>
+  
+  <color color_id="97" color_name="Pebble Tan" color_desc="Like the smooth round pebbles in Soapstone Stream." color_tags="brown">195 145 108</color>
+  
+  <color color_id="98" color_name="Sandstone Tan" color_desc="Just like the rocky waterfall at Havendish Stream." color_tags="brown">191 147 110</color>
+  
+  <color color_id="99" color_name="Papyrus Tan" color_desc="The color of Fairy poems and paintings." color_tags="brown">200 160 119</color>
+  
+  <color color_id="100" color_name="Golden Tan" color_desc="A rich deep tan with a hint of gold." color_tags="brown">210 140 83</color>
+  
+  <color color_id="101" color_name="Walnut Tan" color_desc="A rich deep tan." color_tags="brown">208 144 91</color>
+  
+  <color color_id="102" color_name="Beach Tan" color_desc="Like the sandy shores of the Never Land." color_tags="brown">226 159 105</color>
+  
+  <color color_id="103" color_name="Peachy Tan" color_desc="Just like the skin of a big juicy peach." color_tags="brown">230 165 115</color>
+  
+  <color color_id="104" color_name="Ginger Tan" color_desc="The perfect color for cooking." color_tags="brown">216 161 115</color>
+  
+  <color color_id="105" color_name="Siltstone Tan" color_desc="A pale tan with a pinch of pink." color_tags="brown">213 168 129</color>
+  
+  <color color_id="106" color_name="Butternut Tan" color_desc="A pale tan with a yummy hint of butter yellow." color_tags="brown">234 175 128</color>
+  
+  <color color_id="107" color_name="Rosy Tan" color_desc="A sandy color with a hint of roses." color_tags="brown">229 181 143</color>
+  
+  <color color_id="108" color_name="Creamy Tan" color_desc="Smooth and soft." color_tags="brown">253 209 173</color>
+  
+  <color color_id="109" color_name="Soft Orange" color_desc="A mellow orange that is sure to match anything." color_tags="orange">255 227 183</color>
+  
+  <color color_id="110" color_name="Rosy Pink" color_desc="Soft and elegant, yet friendly and cheery." color_tags="pink">254 213 235</color>
+  
+  <color color_id="111" color_name="Sparkling Yellow" color_desc="Sparkles like dewdrops in the moonlight." color_tags="yellow">254 249 192</color>
+  
+  <color color_id="112" color_name="Splashy Blue" color_desc="The foamy crest of a breaking ocean wave." color_tags="blue">203 202 255</color>
+  
+  <color color_id="113" color_name="Pale Rose Red" color_desc="A color that's out to make close friendships." color_tags="red">181 75 78</color>
+  
+  <color color_id="114" color_name="Foxtail Orange" color_desc="Sneaky and mischievous like the fox itself." color_tags="orange">221 107 61</color>
+  
+  <color color_id="115" color_name="Asparagus Green" color_desc="You may not like the veggie, but the color is great!" color_tags="green">148 194 138</color>
+  
+  <color color_id="116" color_name="Mushroom White" color_desc="A muted white that goes with everything!" color_tags="white">243 244 206</color>
+  
+  <color color_id="117" color_name="Amethyst Purple" color_desc="A light dazzling purple on the lookout for fun!" color_tags="purple">138 128 186</color>
+  
+  <color color_id="118" color_name="Sapphire Blue" color_desc="An eye-popping hue that no one can ignore." color_tags="blue">68 94 154</color>
+  
+  <color color_id="119" color_name="Petunia Purple" color_desc="This color is great for tailoring!" color_tags="purple">174 146 203</color>
+  
+  <color color_id="120" color_name="Fern Green" color_desc="The perfect color for gathering and decorating." color_tags="green">105 191 137</color>
+  
+  <color color_id="121" color_name="Daisy Pink" color_desc="A color that makes everything more fun!" color_tags="pink">255 148 158</color>
+  
+  <color color_id="122" color_name="Lettuce Leaf Green" color_desc="Delicate and casual." color_tags="green">186 222 153</color>
+  
+  <color color_id="123" color_name="Squash Orange" color_desc="An orange that's sure to get you up in the morning!" color_tags="orange">255 202 120</color>
+  
+  <color color_id="124" color_name="Forget-Me-Not Blue" color_desc="You'll never forget this shade of blue." color_tags="blue">112 153 247</color>
+  
+  <color color_id="125" color_name="Pine Green" color_desc="Like the mighty evergreens of Winter Woods." color_tags="green">45 111 81</color>
+  
+  <color color_id="126" color_name="Raindrop Blue" color_desc="All the joy of falling rain - without getting wet!" color_tags="blue">148 186 230</color>
+  
+  <color color_id="127" color_name="Grasshopper Green" color_desc="This color may not make you jump higher, but it still looks great!" color_tags="green">107 180 89</color>
+  
+  <color color_id="128" color_name="Carnation White" color_desc="Pure and sophisticated." color_tags="white">239 231 210</color>
+  
+  <color color_id="129" color_name="Fig Purple" color_desc="A purple perfect for Fast Flyers!" color_tags="purple">100 84 145</color>
+  
+  <color color_id="130" color_name="Orchid Pink" color_desc="Tabby's favorite color!" color_tags="pink">232 150 173</color>
+  
+  <color color_id="131" color_name="Plumeria Pink" color_desc="A deep and rich pink - makes anything stand out!" color_tags="pink">214 110 173</color>
+  
+  <color color_id="132" color_name="Bubble Blue" color_desc="This bubbly hue won't pop before the fun's over!" color_tags="blue">120 202 226</color>
+  
+  <color color_id="133" color_name="Marina Blue" color_desc="This shimmery hue is bright and cool, like its namesake!" color_tags="blue">122 176 232</color>
+  
+  <color color_id="134" color_name="Heather Purple" color_desc="A light pinkish purple." color_tags="purple">237 217 231</color>
+  
+  <color color_id="135" color_name="Boysenberry Purple" color_desc="Tart and sweet all at once - just like its namesake!" color_tags="purple">143 99 163</color>
+  
+  <color color_id="136" color_name="Peacock Blue" color_desc="A color that definitely fans out and struts its stuff!" color_tags="blue">52 80 196</color>
+  
+  <color color_id="137" color_name="Lemon Yellow" color_desc="This yellow is happy and refreshing on any day." color_tags="yellow">255 255 114</color>
+  
+  <color color_id="138" color_name="Persimmon Orange" color_desc="A bold orange with a hint of red." color_tags="orange">209 54 7</color>
+  
+  <color color_id="139" color_name="Seedling Green" color_desc="Like a new plant bursting from the ground!" color_tags="green">120 206 165</color>
+  
+  <color color_id="140" color_name="Bunnynose Pink" color_desc="Cute as a funny bunny's nose!" color_tags="pink">233 122 124</color>
+  
+  <color color_id="141" color_name="Thundercloud Gray" color_desc="Dark and rumbly, but not at all threatening." color_tags="gray">70 69 74</color>
+  
+  <color color_id="142" color_name="Bumble Bee Yellow" color_desc="Bumble the Bee's favorite color!" color_tags="yellow">255 255 107</color>
+  
+  <color color_id="143" color_name="June Bug Green" color_desc="An amazing metallic green that flashes in the sunlight!" color_tags="green">135 181 77</color>
+  
+  <color color_id="144" color_name="Petal Pink" color_desc="A bright pink that goes with everything!" color_tags="pink">244 174 226</color>
+  
+  <color color_id="145" color_name="Tinker Bell Green" color_desc="The bold green of everyone's favorite tinker!" color_tags="green">62 168 39</color>
+  
+  <color color_id="146" color_name="Beech Brown" color_desc="The golden brown of the mighty beech tree." color_tags="brown">252 198 93</color>
+  
+  <color color_id="147" color_name="Broccoli Stem Green" color_desc="A light bright green that gives off a sweet veggie vibe." color_tags="green">159 208 112</color>
+  
+  <color color_id="148" color_name="Pots'n'Pans Purple" color_desc="A pale purple with a touch of grey." color_tags="purple">151 145 185</color>
+  
+  <color color_id="149" color_name="Snowflake Blue" color_desc="A soft blue that's as delicate as a falling snowflake." color_tags="blue">167 234 248</color>
+  
+  <color color_id="150" color_name="Dry Moss Green" color_desc="A reserved grayish green, formal yet fun." color_tags="green">208 217 161</color>
+  
+  <color color_id="151" color_name="Peanut Yellow" color_desc="A light golden hue that looks just like the color of shelled peanuts." color_tags="yellow">246 214 103</color>
+  
+  <color color_id="152" color_name="Pale Purple" color_desc="A light purple with a touch of rosy pink." color_tags="purple">223 185 247</color>
+  
+  <color color_id="153" color_name="Frostbunny Blue" color_desc="Pale yet lively, it's a perfect color for winter or spring." color_tags="blue">185 239 247</color>
+  
+  <color color_id="154" color_name="Beetle Brown" color_desc="Just like the color of Never beetle shells." color_tags="brown">215 155 102</color>
+  
+  <color color_id="155" color_name="Frosty Blue" color_desc="A wintry color as cool as evening frost." color_tags="blue">102 190 215</color>
+  
+  <color color_id="156" color_name="Friendship Pink" color_desc="The perfect color to share between friends!" color_tags="pink">251 163 192</color>
+  
+  <color color_id="157" color_name="Starry White" color_desc="Just a hint of gold makes this color sparkle like a distant star." color_tags="white">252 254 185</color>
+  
+  <color color_id="158" color_name="Icicle Blue" color_desc="A frosty-fun color for a chilly winter's day." color_tags="blue">152 248 226</color>
+  
+  <color color_id="159" color_name="Tea Green" color_desc="The color of fresh Never Land tea leaves." color_tags="green">193 252 140</color>
+  
+  <color color_id="160" color_name="Tender Root Tan" color_desc="Soft yet strong like the roots of a sapling tree." color_tags="brown">252 180 140</color>
+  
+  <color color_id="161" color_name="Buried Treasure Brown" color_desc="The color of the wet sands along the shore of the Striped Sea." color_tags="brown">227 186 116</color>
+  
+  <color color_id="162" color_name="Sunglow Yellow" color_desc="A soft, gentle yellow like sun rays on a spring morning." color_tags="yellow">244 231 144</color>
+  
+  <color color_id="163" color_name="Tundra Blue" color_desc="The color of snowcaps on a moonless night." color_tags="blue">150 197 251</color>
+  
+  <color color_id="164" color_name="Shoreline Tan" color_desc="Has hints of gold and red like the sun's rays shimmering on wet beach sand." color_tags="brown">241 160 106</color>
+  
+  <color color_id="165" color_name="Spring Breeze Green" color_desc="A light blue-green as gentle as a springtime breeze." color_tags="green">200 250 220</color>
+  
+  <color color_id="166" color_name="Snow White" color_desc="A pure white like a blanket of untouched fallen snow." color_tags="white">255 255 255</color>
+  
+  <color color_id="167" color_name="Never Silver" color_desc="A sparkling silver like fine silver found in the Never Mine." color_tags="silver">178 177 206</color>
+  
+  <color color_id="168" color_name="Never Gold" color_desc="The rarest shade in all the Hollow" color_tags="yellow,gold">230 202 48</color>
+  
+  <color color_id="169" color_name="Squirrel Gray" color_desc="A soft light gray like the fur of a baby squirrel." color_tags="gray">146 151 146</color>
+  
+  <color color_id="170" color_name="Olive Green" color_desc="A strong dark green made from the olive fruit itself." color_tags="green">69 97 32</color>
+  
+  <color color_id="171" color_name="Sunrise Yellow" color_desc="A deep, dark yellow like the first signs of the morning sun." color_tags="yellow">202 176 53</color>
+  
+  <color color_id="172" color_name="Forest Green" color_desc="A thick and lush green that is as beautiful as nature." color_tags="green">121 136 108</color>
+  
+  <color color_id="173" color_name="Carrot Orange" color_desc="An unbelievably vibrant orange that is yummy to look at!" color_tags="orange">206 108 32</color>
+  
+  <color color_id="174" color_name="Rosetta Red" color_desc="A red by any other name would not be as sweet!" color_tags="red">204 36 47</color>
+  
+  <color color_id="175" color_name="Creek Green" color_desc="A cool, gentle shade of green like the moss covered rocks in a creek." color_tags="green">35 190 158</color>
+  
+  <color color_id="176" color_name="Silvermist Blue" color_desc="A smooth, watery shade of blue that is sweet like its namesake." color_tags="blue">27 102 192</color>
+  
+  <color color_id="177" color_name="Mud Brown" color_desc="Bold and earthy, this is one of the nicest neutrals you'll find." color_tags="brown">95 55 15</color>
+  
+  <color color_id="178" color_name="Fawn Orange" color_desc="This vibrant hue is warm and cheerful, like its namesake." color_tags="orange">197 88 15</color>
+  
+  <color color_id="179" color_name="Iridessa Yellow" color_desc="A soft, distinct shade of yellow as pretty as its namesake." color_tags="yellow">206 186 31</color>
+  
+  <color color_id="180" color_name="Seashell Blue" color_desc="Like the cool blue shell of a Mermaid Lagoon mussel." color_tags="blue">22 157 192</color>
+  
+  <color color_id="181" color_name="Cupcake Pink" color_desc="A sugary pink like no other." color_tags="pink">214 36 156</color>
+  
+  <color color_id="182" color_name="Twilight Blue" color_desc="The dark tones of this bright hue make this mysterious blue a favorite." color_tags="blue">25 85 106</color>
+  
+  <color color_id="183" color_name="Vidia Purple" color_desc="A sassy shade of purple that makes the boldest statement." color_tags="purple">83 50 130</color>
+  
+  <color color_id="184" color_name="Hummingbird Purple" color_desc="This shade is special, like the rarely seen purple feathers of the bird itself." color_tags="purple">176 79 192</color>
+  
+  <color color_id="185" color_name="Midnight Blue" color_desc="A shade on the dark side of blue, beautiful as a night sky." color_tags="blue">47 82 123</color>
+  
+  <color color_id="186" color_name="Honeycomb Yellow" color_desc="A sweet, warm yellow with a touch of honey gold tones." color_tags="yellow">255 205 59</color>
+  
+  <color color_id="187" color_name="Maple Orange" color_desc="A vibrant shade of orange made from fallen fall leaves of a maple tree." color_tags="orange">255 145 78</color>
+  
+  <color color_id="188" color_name="Dahlia Pink" color_desc="A cool pink made from the petals of a Dahlia flower." color_tags="pink">192 102 125</color>
+  
+  <color color_id="189" color_name="Ladybug Red" color_desc="Bright and friendly, like the bug itself!" color_tags="red">157 10 10</color>
+  
+  <color color_id="190" color_name="Firefly Green" color_desc="A luminescent green, bright like a Firefly!" color_tags="green">199 255 0</color>
+  
+  <color color_id="191" color_name="Vidia Black" color_desc="It's a sassy mix of purple and black." color_tags="black">59 43 63</color>
+  
+  <color color_id="192" color_name="Royal Purple" color_desc="The most regal of hues." color_tags="purple">55 17 192</color>
+  
+  <color color_id="193" color_name="Electric Green" color_desc="The most illuminating of greens!" color_tags="green">89 255 5</color>
+  
+  <color color_id="194" color_name="Electric Pink" color_desc="A pink as electric as the first light of sunrise." color_tags="pink">250 0 255</color>
+  
+  <color color_id="195" color_name="Electric Blue" color_desc="A light and lively charge of bright blue!" color_tags="blue">0 255 255</color>
+  
+  <color color_id="196" color_name="Electric Orange" color_desc="An electric orange you can see for miles!" color_tags="orange">255 129 1</color>
+  
+  <color color_id="197" color_name="Electric Purple" color_desc="A purple as bold as summer thunder." color_tags="purple">130 0 161</color>
+  
+  <color color_id="198" color_name="Electric Yellow" color_desc="A vibrant yellow as bright as a firefly." color_tags="yellow">255 255 17</color>
+  
+  <color color_id="199" color_name="Cherryblossom Pink" color_desc="Pretty as a petal!" color_tags="pink">255 213 213</color>
+  
+  <color color_id="200" color_name="Ruby Pink" color_desc="A bold and daring hue!" color_tags="pink">241 2 108</color>
+  
+  <color color_id="201" color_name="Velvet Red" color_desc="A sumptuous shade of red!" color_tags="red">126 11 49</color>
+  
+  <color color_id="202" color_name="Honeydew Green" color_desc="As light and lovely as a fresh bite of fruit!" color_tags="green">240 255 240</color>
+  
+  <color color_id="203" color_name="Shadow Green" color_desc="Cool as the shade in the autumn meadows!" color_tags="green">140 192 175</color>
+  
+  <color color_id="204" color_name="Bamboo Green" color_desc="Bright and vibrant!" color_tags="green">110 192 20</color>
+  
+  <color color_id="205" color_name="Myrtle Green" color_desc="A cool and mossy green!" color_tags="green">40 60 40</color>
+  
+  <color color_id="206" color_name="Raven Black" color_desc="Dark as the wings of a raven in flight!" color_tags="black">40 40 40</color>
+  
+  <color color_id="207" color_name="Diamond Blue" color_desc="A color that sparkles and shines!" color_tags="blue">225 250 252</color>
+  
+  <color color_id="208" color_name="Cerulean Blue" color_desc="Cool and calming!" color_tags="blue">2 115 180</color>
+  
+  <color color_id="209" color_name="Deep Sea Blue" color_desc="A blue as deep as the sea." color_tags="blue">27 62 103</color>
+  
+  <color color_id="210" color_name="Lotus Purple" color_desc="A purple made from the petals of the lotus flower." color_tags="purple">141 91 200</color>
+  
+  <color color_id="211" color_name="Gentian Purple" color_desc="A cool shade of purple made from the petals of the gentian flower." color_tags="purple">115 107 210</color>
+  
+  <color color_id="212" color_name="Indigo Purple" color_desc="A deep, rich purple guaranteed to catch someone's eye!" color_tags="purple">95 33 190</color>
+  
+  <color color_id="213" color_name="Cobalt Blue" color_desc="A deep, yet vibrant shade of blue." color_tags="blue">13 61 145</color>
+  
+  <color color_id="214" color_name="Smokey Gray" color_desc="Warm like the smoke off a campfire." color_tags="gray">105 114 114</color>
+  
+  <color color_id="215" color_name="Pewter Gray" color_desc="A light gray with just a hint of green!" color_tags="gray">131 156 165</color>
+  
+  <color color_id="216" color_name="Slate Gray" color_desc="Cool as stone!" color_tags="gray">85 98 112</color>
+  
+  <color color_id="217" color_name="Soft Gray" color_desc="A gray as soft as the morning mists." color_tags="gray">170 191 210</color>
+  
+  <color color_id="218" color_name="Laurel Green" color_desc="A reserved deep green made from laurel leaves." color_tags="green">74 104 85</color>
+  
+  <color color_id="219" color_name="Crystal Blue" color_desc="Clear as crystal!" color_tags="blue">108 200 255</color>
+  
+  <color color_id="220" color_name="Dusty Pink" color_desc="A muted pink with a hint of brown." color_tags="pink">174 136 136</color>
+  
+  <color color_id="221" color_name="Jade Green" color_desc="Shiny and vibrant, like its namesake." color_tags="green">15 144 100</color>
+  
+  <color color_id="222" color_name="Keylime Green" color_desc="A fun, bright green that's perfect for summer!" color_tags="green">90 255 106</color>
+  
+  <color color_id="223" color_name="Teal Blue" color_desc="An elegant mix of blue and green." color_tags="blue">8 116 129</color>
+  
+  <color color_id="224" color_name="Ivory White" color_desc="This smooth and delicate shade will add just a hint of color!" color_tags="white">254 249 240</color>
+  
+  <color color_id="225" color_name="Eggplant Purple" color_desc="A deep purple inspired by the eggplant." color_tags="purple">82 0 73</color>
+  
+  <color color_id="226" color_name="Goldenrod Yellow" color_desc="A golden yellow as bright as the sun!" color_tags="yellow">255 229 0</color>
+  
+  <color color_id="227" color_name="Moonlight Gray" color_desc="A hazy gray as soft as moonlight." color_tags="gray">217 217 217</color>
+  
+  <color color_id="228" color_name="Duckbill Orange" color_desc="Vibrant and fun!" color_tags="orange">255 100 14</color>
+  
+  <color color_id="229" color_name="Electric Indigo" color_desc="A sassy shade of purple that makes a bold statement." color_tags="purple">130 0 255</color>
+  
+  <color color_id="230" color_name="Scarlet Red" color_desc="A bold hue, richer than crimson!" color_tags="red">141 22 9</color>
+  
+  <color color_id="231" color_name="Sunny Orange" color_desc="Bright as a sunny day!" color_tags="orange">248 152 56</color>
+  
+  <color color_id="232" color_name="Rusty Orange" color_desc="A dark orange with a hint of red and brown." color_tags="orange">143 47 17</color>
+  
+  <color color_id="233" color_name="Apricot Orange" color_desc="Light and fresh as an apricot!" color_tags="orange">251 123 65</color>
+  
+  <color color_id="234" color_name="Flame Orange" color_desc="Burns as bright as a flame!" color_tags="orange">231 75 5</color>
+  
+  <color color_id="235" color_name="Tawny Orange" color_desc="A warm brown orange inspired by autumn." color_tags="orange">168 64 18</color>
+  
+  <color color_id="236" color_name="Dusty Brown" color_desc="A soft and muted brown." color_tags="brown">191 160 139</color>
+  
+  <color color_id="237" color_name="Melon Orange" color_desc="Just like a ripe, delicious cantaloupe!" color_tags="orange">255 168 89</color>
+  
+  <color color_id="238" color_name="Zesty Orange" color_desc="Spicy and bold!" color_tags="orange">197 107 17</color>
+  
+  <color color_id="239" color_name="Coffee Black" color_desc="A rich, warm black." color_tags="black">59 54 49</color>
+  
+  <color color_id="240" color_name="Ironwood Brown" color_desc="A dark brown made from the bark of ironwood trees." color_tags="brown">77 50 23</color>
+  
+  <color color_id="241" color_name="Desert Brown" color_desc="Bright as the desert sand!" color_tags="brown">238 175 112</color>
+  
+  <color color_id="242" color_name="Amber Yellow" color_desc="As deep and rich as an amber gem." color_tags="yellow">255 148 5</color>
+  
+  <color color_id="243" color_name="Harvest Yellow" color_desc="Perfect for autumn!" color_tags="yellow">202 123 18</color>
+  
+  <color color_id="244" color_name="Fairygold Yellow" color_desc="A shining, golden yellow." color_tags="yellow">210 141 16</color>
+  
+  <color color_id="245" color_name="Earthy Tan" color_desc="A down-to-earth shade of brown." color_tags="brown">225 162 35</color>
+  
+  <color color_id="246" color_name="Bear Brown" color_desc="A rich golden hue inspired by fluffy brown bear cubs." color_tags="brown">116 82 14</color>
+  
+  <color color_id="247" color_name="Jasmine Yellow" color_desc="A color made from the petals of the jasmine flower." color_tags="yellow">255 214 121</color>
+  
+  <color color_id="248" color_name="Saffron Yellow" color_desc="A bright, bold hue made from the saffron plant." color_tags="yellow">255 192 33</color>
+  
+  <color color_id="249" color_name="Antique Yellow" color_desc="A vintage golden color." color_tags="yellow">211 156 19</color>
+  
+  <color color_id="250" color_name="Caramel Tan" color_desc="So sweet!" color_tags="brown">252 214 118</color>
+  
+  <color color_id="251" color_name="Polished Brown" color_desc="Bright and metallic!" color_tags="brown">134 106 16</color>
+  
+  <color color_id="252" color_name="Starshine Yellow" color_desc="Star light, star bright!" color_tags="yellow">255 227 125</color>
+  
+  <color color_id="253" color_name="Dandelion Yellow" color_desc="A bright yellow made from the petals of the dandelion flower." color_tags="yellow">255 207 29</color>
+  
+  <color color_id="254" color_name="Sunflower Yellow" color_desc="A rich yellow made from the petals of the sunflower." color_tags="yellow">212 172 24</color>
+  
+  <color color_id="255" color_name="Canary Yellow" color_desc="A bright and chirpy hue!" color_tags="yellow">255 240 125</color>
+  
+  <color color_id="256" color_name="Pear Yellow" color_desc="A juicy shade of yellow with a hint of green." color_tags="yellow">214 209 0</color>
+  
+  <color color_id="257" color_name="Lime Green" color_desc="A bright and vibrant shade of green!" color_tags="green">152 255 1</color>
+  
+  <color color_id="258" color_name="Spearmint Green" color_desc="A cool, fresh shade of green." color_tags="green">165 253 137</color>
+  
+  <color color_id="259" color_name="Kiwi Green" color_desc="Bright and fun!" color_tags="green">126 254 156</color>
+  
+  <color color_id="260" color_name="Peridot Green" color_desc="As bright and beautiful as the peridot gem." color_tags="green">2 244 60</color>
+  
+  <color color_id="261" color_name="Kelly Green" color_desc="A deep shade of green like a shady forest." color_tags="green">24 162 67</color>
+  
+  <color color_id="262" color_name="Minty White" color_desc="A fresh, cool white!" color_tags="white">242 254 247</color>
+  
+  <color color_id="263" color_name="Aquamarine Green" color_desc="The perfect color for some ocean fun!" color_tags="green">91 255 204</color>
+  
+  <color color_id="264" color_name="Jungle Green" color_desc="Bold and adventurous!" color_tags="green">2 218 161</color>
+  
+  <color color_id="265" color_name="Bright Sky Blue" color_desc="Like a beautiful bright sky on a perfect summer day." color_tags="blue">6 194 190</color>
+  
+  <color color_id="266" color_name="Ocean Blue" color_desc="Dark as the deep blue sea." color_tags="blue">20 106 110</color>
+  
+  <color color_id="267" color_name="Celestial Blue" color_desc="The color of a cloudless sky." color_tags="blue">95 221 255</color>
+  
+  <color color_id="268" color_name="Navy Blue" color_desc="A dark blue, perfect for formal occasions." color_tags="blue">13 73 107</color>
+  
+  <color color_id="269" color_name="Crisp White" color_desc="A clean, bright white." color_tags="white">244 249 254</color>
+  
+  <color color_id="270" color_name="Horizon Blue" color_desc="Like a true blue sky." color_tags="blue">109 173 251</color>
+  
+  <color color_id="271" color_name="True Blue" color_desc="As bold as blue can get!" color_tags="blue">17 41 141</color>
+  
+  <color color_id="272" color_name="Charcoal Gray" color_desc="A dark gray the color of charcoal." color_tags="gray">62 62 62</color>
+  
+  <color color_id="273" color_name="Panther Black" color_desc="This shade of black is as smooth as velvet." color_tags="black">40 38 48</color>
+  
+  <color color_id="274" color_name="Bellflower Purple" color_desc="This purple is made from the petals of the bellflower." color_tags="purple">190 162 252</color>
+  
+  <color color_id="275" color_name="Shadowy Purple" color_desc="A color as mysterious as a shadow." color_tags="purple">66 47 109</color>
+  
+  <color color_id="276" color_name="Dusk Purple" color_desc="Dark and dreamy!" color_tags="purple">68 38 116</color>
+  
+  <color color_id="277" color_name="Misty Purple" color_desc="A soft and hazy purple." color_tags="purple">190 147 253</color>
+  
+  <color color_id="278" color_name="Aster Purple" color_desc="This purple is made from the petals of the aster flower." color_tags="purple">206 163 249</color>
+  
+  <color color_id="279" color_name="Kingfisher Purple" color_desc="An energetic and bright color inspired by kingfisher feathers." color_tags="purple">85 18 152</color>
+  
+  <color color_id="280" color_name="Berry Purple" color_desc="Fun and vibrant!" color_tags="purple">192 15 255</color>
+  
+  <color color_id="281" color_name="Deep Violet Purple" color_desc="A dark violet that's sure to draw attention." color_tags="purple">117 18 152</color>
+  
+  <color color_id="282" color_name="Magnolia White" color_desc="A delicate white with just a hint of pink." color_tags="white">252 246 254</color>
+  
+  <color color_id="283" color_name="Thistle Pink" color_desc="This pink hue is made from the petals of the thistle flower." color_tags="pink">253 181 255</color>
+  
+  <color color_id="284" color_name="Deep Magenta Purple" color_desc="A bold and daring purple!" color_tags="purple">165 11 169</color>
+  
+  <color color_id="285" color_name="Jazzberry Red" color_desc="A fun violet red made from crushed jazzberries." color_tags="red">160 10 110</color>
+  
+  <color color_id="286" color_name="Cherry Pink" color_desc="This pink is as sweet as a cherry!" color_tags="pink">211 35 98</color>
+  
+  <color color_id="287" color_name="Dianthus Red" color_desc="This red hue is made from the petals of the dianthus flower." color_tags="red">159 11 64</color>
+  
+  <color color_id="288" color_name="Sparkle Pink" color_desc="A sparkly pink hue!" color_tags="pink">244 174 226</color>
+  
+  <color color_id="498" color_name="Pink" color_desc="D'oh! This is a placeholder color for QA." color_tags="other">255 0 255</color>
+  
+  <color color_id="499" color_name="Any Color" color_desc="[Any Color description]" color_tags="other">128 128 128</color>
+  
+</colors>

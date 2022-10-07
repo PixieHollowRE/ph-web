@@ -1,0 +1,91 @@
+<level>
+	<light x = "95" y = "253">blue</light>
+	<light x = "783" y = "253">yellow</light>		
+	<firefly image="firefly">
+		<path>	
+			<point x="439" y="253" />
+			<point x="353" y="203" />
+			<point x="267" y="253" />
+			<point x="353" y="303" />
+		</path>
+		<speed>6</speed>
+	</firefly>
+	<firefly image="firefly">
+		<path>	
+			<point x="267" y="253" />
+			<point x="353" y="303" />
+			<point x="439" y="253" />
+			<point x="353" y="203" />
+		</path>
+		<speed>6</speed>
+	</firefly>
+	<firefly image="firefly">
+		<path>	
+			<point x="439" y="253" />
+			<point x="353" y="203" />
+			<point x="439" y="153" />
+			<point x="525" y="203" />
+		</path>
+		<speed>3</speed>
+	</firefly>	
+	<firefly image="firefly">
+		<path>	
+			<point x="439" y="153" />
+			<point x="525" y="203" />
+			<point x="439" y="253" />
+			<point x="353" y="203" />
+		</path>
+		<speed>3</speed>
+	</firefly>	
+	<firefly image="firefly">
+		<path>	
+			<point x="439" y="253" />
+			<point x="525" y="303" />
+			<point x="611" y="253" />
+			<point x="525" y="203" />
+		</path>
+		<speed>6</speed>
+	</firefly>	
+	<firefly image="firefly">
+		<path>	
+			<point x="611" y="253" />
+			<point x="525" y="203" />
+			<point x="439" y="253" />
+			<point x="525" y="303" />
+		</path>
+		<speed>6</speed>
+	</firefly>	
+	<firefly image="firefly">
+		<path>	
+			<point x="439" y="253" />
+			<point x="525" y="303" />
+			<point x="439" y="353" />
+			<point x="353" y="303" />
+		</path>
+		<speed>3</speed>
+	</firefly>	
+	<firefly image="firefly">
+		<path>	
+			<point x="439" y="353" />
+			<point x="353" y="303" />
+			<point x="439" y="253" />
+			<point x="525" y="303" />
+		</path>
+		<speed>3</speed>
+	</firefly>	
+	<firefly image="blindmoth">
+		<path>
+			<point x="224" y="353" />
+			<point x="611" y="353" />
+			<point x="611" y="378" />
+			<point x="267" y="153" />
+			<point x="224" y="153" />
+			<point x="611" y="153" />
+			<point x="611" y="128" />
+			<point x="267" y="353" />
+		</path>
+		<speed>8</speed>
+		<turnspeed>0.25</turnspeed>
+		<type>blindmoth</type>
+	</firefly>	
+</level>

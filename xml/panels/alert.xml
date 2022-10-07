@@ -1,0 +1,11 @@
+<panel>
+	<swfs>
+		<!-- left three in case we want to change again -->
+		<swf type="content" app="standalone">{panelContent}/mmo_alert.swf</swf>
+		<swf type="content" app="mmo">{panelContent}/mmo_alert.swf</swf>
+		<swf type="content" app="tools">{panelContent}/mmo_alert.swf</swf>
+		<swf type="content" app="miniGameUnitTest">{panelContent}/mmo_alert.swf</swf>
+	</swfs>
+	<copy></copy>
+	<config></config>
+</panel>

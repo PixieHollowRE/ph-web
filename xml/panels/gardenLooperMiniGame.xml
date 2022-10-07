@@ -1,0 +1,328 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/gardenLooper.swf</swf>
+		<swf type="code">{panelCode}/gardenLooper.swf</swf>
+	</swfs>
+	<copy>
+		<title>Petal Pick-Up</title>
+		<title_screen target="title.titleContainer.titleBar.title_txt">Petal Pick-Up</title_screen>
+		<title_play target="title.btnContainer.playBtn.btn_txt">Play</title_play>
+		<title_help target="title.btnContainer.helpBtn.btn_txt">How to play</title_help>    
+		<title_quit target="title.btnContainer.quitBtn.btn_txt">Quit</title_quit>
+
+		<instruction0>Click and drag your mouse to begin drawing a line of pixie dust!</instruction0>
+		<instruction1>Draw a complete circle around the petals to loop and collect them. Try to collect bonus petals for more points.</instruction1>
+		<instruction2>Oops! Can't mix petal types! Make sure you only have one petal type in your loop.</instruction2>
+		<instruction3>Keep an eye on your flower chart and make sure you collect enough petals for Rosetta!</instruction3>
+
+		<!--
+		<instr_title target="instructions.btnContainer.instructionsTitleContainer.instruction_txt">Instructions</instr_title>
+		<instr_continue target="instructions.btnContainer.playBtn.btn_txt">Play</instr_continue>
+		<instr_quit target="instructions.btnContainer.backBtn.btn_txt">Back</instr_quit>
+		-->
+
+		<prize_title target="prize.prize_container.prize_text">Congratulations!</prize_title>
+
+		<welcomeTitleBar>Welcome!</welcomeTitleBar>
+		<welcomeButtonLabel>Continue</welcomeButtonLabel>
+		<welcomeMessage>Hi there, sweet pea! Let's catch flower petals for the spring! Use your pixie dust to loop the petals and collect them. I'll make sure you don't run out of pixie dust.</welcomeMessage>
+		
+		<objectiveTitleBar>Get Ready</objectiveTitleBar>
+		<objectiveButtonLabel>Continue</objectiveButtonLabel>
+
+		<tipTitleBar>Did you know?</tipTitleBar>
+		<tipButtonLabel>Continue</tipButtonLabel>
+
+	    <hudTitle>Petal Pick-Up</hudTitle>
+	    <hudSubTitle>Level ###levelNumber###</hudSubTitle>
+	    <hudSubTitleWelcome>Get Ready</hudSubTitleWelcome>
+	    <hudSubTitleBonus>Bonus Level</hudSubTitleBonus>
+		<hudHostName>Rosetta</hudHostName>
+	    <!-- <scoreHeading>Score: ###currScore###</scoreHeading> -->
+	    <scoreHeading>Score</scoreHeading>
+
+		<interLevelTitle>Level ###levelNumber### Complete!</interLevelTitle>
+		<interLevelBonusTitle>Bonus Level Complete!</interLevelBonusTitle>
+		<interLevelPerfect>PERFECT!  You get an extra chance!</interLevelPerfect>
+		<interLevelLine1>Biggest Capture : </interLevelLine1>
+		<interLevelLine2>Longest Chain : </interLevelLine2>
+		<interLevelLine3>Chances Lost : </interLevelLine3>
+		<interLevelLine4>Total Bonus : </interLevelLine4>
+		<interLevelLine5>Your Score : </interLevelLine5>
+		<interLevelChain>###chainLength### loops</interLevelChain>
+		<interLevelBiggestCapture>###biggestCapture### petals</interLevelBiggestCapture>
+		<interLevelChainSingular>###chainLength### loop</interLevelChainSingular>
+		<interLevelBiggestCaptureSingular>###biggestCapture### petal</interLevelBiggestCaptureSingular>
+
+
+		<retryMessage>Aw, sugar, you ran out of time! But you still have some chances left. How about you try this level again?</retryMessage>
+		<meterLabel>Pixie Trail Length</meterLabel>
+		<petalProgressLabel>Petals to Pick-Up</petalProgressLabel>
+		<daysLeftDescriptionSingular>Chance Left</daysLeftDescriptionSingular>
+		<daysLeftDescriptionMultiple>Chances Left</daysLeftDescriptionMultiple>
+		<!-- <progressBoardMessage>###petalsLeft### to go!</progressBoardMessage> -->
+		<progressBoardMessage>to go!</progressBoardMessage>
+		<bonusLevelProgressBoardMessage>Loop as many petals as you can!</bonusLevelProgressBoardMessage>
+		<gameOverWon>You Win!</gameOverWon>
+		<gameOverNoMoreLives>Nice Try!</gameOverNoMoreLives>
+		<gameOverLoseRosetta>Aw, you did your best, sweet pea. And we can try again any time!###Oh well, you tried.  Things will turn out rosier next time!###Oh, you poor little sapling. Don't fret, you can try again!</gameOverLoseRosetta>
+		<gameOverWinRosetta>Nice going, pumpkin! You really got petal looping down!###We did it! You're an excellent petal catcher, buttercup!###That's one impressive job you did! You're a winner!###Talk about pixie power - you beat the wind!###Great job! You're what I call a real petal perfectionist!</gameOverWinRosetta>
+		<gameOverLabel>Your Total Score : </gameOverLabel>
+		<gameOverQuit>Continue</gameOverQuit>
+		<your_final_score>Your Final Score : </your_final_score>
+		<!-- flower type names, petalNameXXX where XXX refers to the name constants as defined in Petal.as, as mapped to in various MC's, etc... -->
+		<petalNameRose>Roses</petalNameRose>
+		<petalNameTulip>Tulips</petalNameTulip>
+		<petalNameDaisy>Daisies</petalNameDaisy>
+		<petalNameCherryBlossom>Cherryblossoms</petalNameCherryBlossom>
+		<petalNamePansy>Pansies</petalNamePansy>
+
+		<petalPluralNameRose>Roses</petalPluralNameRose>
+		<petalPluralNameTulip>Tulips</petalPluralNameTulip>
+		<petalPluralNameDaisy>Daisies</petalPluralNameDaisy>
+		<petalPluralNameCherryBlossom>Cherryblossoms</petalPluralNameCherryBlossom>
+		<petalPluralNamePansy>Pansies</petalPluralNamePansy>
+		
+		<!-- popups -->
+		<popupBelowRequiredAmount>Loop ###amount### or more petals!</popupBelowRequiredAmount>
+		<popupPetalTypeComplete>###petalType### done!</popupPetalTypeComplete>
+		<popupScore>+###value###</popupScore>
+		<popupComboScore>###multiplier### x +###value###!</popupComboScore>
+		<popupLoopedNonTarget>Only loop ###petalType###!</popupLoopedNonTarget>
+		<popupMixedPetals>Don't mix petal types!</popupMixedPetals>
+
+		<!-- NPC Chat -->
+		<rosettaBadLoopEmpty>Great loop!  But it's empty.  Better try that again.###Sorry sweet pea, a loop's no good if it's empty.###Oh, so close!  You got the loop but no petals.  Try again!</rosettaBadLoopEmpty>
+		<rosettaBadLoopMixed>You caught different types of petals. Can't do that.###Remember, you only loop the same petal type!###That's one fine loop there, but you caught mixed petal types.</rosettaBadLoopMixed>
+		<rosettaBadLoopNotEnough>Only one petal? Try for two or more, peaches!###C'mon, loop more than just one petal! You can do it!###You need to loop more than just one petal, sweet pea!</rosettaBadLoopNotEnough>
+		<rosettaHitBee>Oh, those pesky bees! Shoo! I said shoo!!###Bee hit! You'd better watch out for those little buzzers!###Oops! Keep an eye on those fuzzy buzzy bees!###Oh thistles! A bee just broke your loop, sugar!###Don't let those bees bust your pixie dust loop!</rosettaHitBee>
+		<rosettaTimeRunningOut>Be careful!  Don't run out of time!</rosettaTimeRunningOut>
+
+		<rosettaCherryBlossomProgress>Cherryblossom petals are pixie-licious. Great job!###You got cherryblossoms! I knew you could!###That's it! Get those cherryblossoms!</rosettaCherryBlossomProgress>
+		<rosettaPansyProgress>You got pansy petals! Good going!###Great job, you got pansy petals!###You got some of those beautiful blue pansies! Way to go!</rosettaPansyProgress>
+		<rosettaTulipProgress>Those are tulips! You're doing well, honeysuckle!###Yes, you looped tulip petals! Keep going!###Purple tulips! You did it!</rosettaTulipProgress>
+		<rosettaDaisyProgress>You got daisy petals in your loop! I'm so proud of you!###Great looping - you got daisy petals!###You looped daisies! Good job!</rosettaDaisyProgress>
+		<rosettaRoseProgress>That's a rose petal - my favorite kind!###Flitterific job! You looped roses!###You did it, sweet pea! You got rose petals!</rosettaRoseProgress>
+
+		<rosettaCherryBlossomComplete>You got all the cherryblossom petals we need!###The other garden-talents will be excited to see these cherryblossoms!###Cherryblossom petals are done!</rosettaCherryBlossomComplete>
+		<rosettaPansyComplete>You got all the pansy petals we need!###Great job, you got all the pansy petals needed!###You got all the pansy petals! Way to go!</rosettaPansyComplete>
+		<rosettaTulipComplete>You got all the tulip petals we need!###Yes, you looped all the tulip petals! Keep going!###Tulip petals are done! You did it!</rosettaTulipComplete>
+		<rosettaDaisyComplete>You got all the daisy petals we need!###Wow, you've got all the daisy petals!###You looped all the daisy petals! Good job!</rosettaDaisyComplete>
+		<rosettaRoseComplete>You got all the rose petals we need!###Look at all the rose petals you collected! Good job!###You did it, sweet pea! You got all the rose petals!</rosettaRoseComplete>
+
+		<rosettaPowerupStopWind>Oh good! Now you can slow the wind down for a little bit.###Great! You'll catch more petals when the wind slows down.###Now slow that wind down so you can catch more petals!</rosettaPowerupStopWind>
+		<rosettaPowerupExtraTime>Look, you have more time to catch petals now!###You just got extra time, pumpkin! Use it to catch more petals!###Good job! Now you've got extra time for petal catching!</rosettaPowerupExtraTime>
+		<rosettaPowerupExtraDust>Now you can make bigger loops to catch more petals at once!###Yes! You can make bigger loops now to catch more petals!###Now you can make bigger loops to catch more petals!</rosettaPowerupExtraDust>
+		<rosettaPowerupRemoveBees>Nice job! So long, bumble bees!###You got it! Now your petals are safe!###There you go! The bees will buzz off now!</rosettaPowerupRemoveBees>
+		<rosettaPowerupStopTime>Great job!  The clock is paused!</rosettaPowerupStopTime>
+		<!--
+		<randomTest>a</randomTest>
+		<anotherRandomTest>a###b###c###d###e</anotherRandomTest>
+		-->
+		<!-- Story -->		
+		<easy_story>Hi there, pumpkin! Let's catch flower petals for spring! Fly a pixie dust loop around the petals to collect them.</easy_story>
+		<medium_story>Watch out for those busy bees! Work around them and you'll be fine.</medium_story>
+		<hard_story>Fly carefully, watch out for bees, and slow down that wind when you can, okay? I'm rooting for you!</hard_story>
+		<royal_story>Now we really gotta get loopy! Catch those flower petals, sugar!</royal_story>
+		
+		<easy_exitstory>What a beautiful collection of petals! Thanks for all your help, sugar!</easy_exitstory>
+		<medium_exitstory>My, that was some fancy looping, sugar. Great job!</medium_exitstory>
+		<hard_exitstory>Plant-astic job, sweet pea! Look at all the flower petals you caught! Thank you!</hard_exitstory>
+		<royal_exitstory>That wasn't easy, but you did it, sweet pea! You're the best petal catcher I've ever seen!</royal_exitstory>
+		
+		<allmedium_story>That's a great start, but we need more petals. Let's get looping!</allmedium_story>
+		<allhard_story>Well, you certainly know your flowers, sugar! That's good, 'cuz we need a lot more!</allhard_story>
+		<allroyal_story>The wind is picking up and the bees are busier than ever! But I know we can get the last of those flower petals!</allroyal_story>
+		
+		
+		<!-- UI: TUTORIAL -->
+		<hostname>Rosetta</hostname>
+		<tutorial_next>NEXT</tutorial_next>
+		<tutorial_skip>Skip This</tutorial_skip>
+		<tutorial_continue>Continue</tutorial_continue>
+		<score_total>Your Score : </score_total>
+		<tutorial_replay>Play Again</tutorial_replay>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		<tutorial_finalscore_label>Suffering seedlings, I think you're ready! Let's get started!</tutorial_finalscore_label>
+		<tutorial_hudtitle>How to play</tutorial_hudtitle>
+		
+		<host_bubble_1>Now you try it!</host_bubble_1>
+		<host_bubble_1B>Fly a complete circle around the petals to collect them!</host_bubble_1B>
+		<host_bubble_1C>Great job, sugar!</host_bubble_1C>
+		<host_bubble_2>Try again!</host_bubble_2>
+		<host_bubble_3>Don't mix petal types!</host_bubble_3>
+		<host_bubble_4>Only circle the BLUE petals!</host_bubble_4>
+		<host_bubble_5>See? Let me try that again.</host_bubble_5>
+		
+		<tutorial_title_goal>Goal</tutorial_title_goal>
+		<win_tutorial_secondText>Complete!</win_tutorial_secondText>
+		
+		<tutorial_stepIntro>Welcome to Whispering Winds, sugar! I'm gonna teach you how to catch flower petals in the breeze!</tutorial_stepIntro>
+		<tutorial_step2>Fly a complete circle around the petals to collect them. Here, like this!</tutorial_step2>
+		<tutorial_step5>Now, we only collect one kind of petal at a time, so make sure you have only one kind of petal inside your loop.</tutorial_step5>
+		<tutorial_step7>Fly real quick, or you might run out of time!</tutorial_step7>
+		<tutorial_step9>Keep an eye on the flower chart to make sure you're catching enough of the right kinds of petals.</tutorial_step9>
+		<tutorial_step11>This shows you how many chances you have left. And I'll be right over here if you need me, okay?</tutorial_step11>
+		<tutorial_step13>You ran out of time! Don't fret, you can try again!</tutorial_step13>
+		<tutorial_step12>Well I think you're ready sugar.</tutorial_step12>
+		
+	</copy>
+	<config>
+		<colorPalette>5</colorPalette>
+		<allowLevelWrapping>false</allowLevelWrapping> <!-- true if you want the guest to get to go back to the start if they finish, false if you want game to end then -->
+		<level type="xml">gardenLooperLevels/level_01.xml</level>
+		<level type="xml">gardenLooperLevels/level_02.xml</level>
+		<level type="xml">gardenLooperLevels/level_03.xml</level>
+		<level type="xml">gardenLooperLevels/level_04.xml</level>
+		<level type="xml">gardenLooperLevels/level_05.xml</level>
+		<level type="xml">gardenLooperLevels/level_06.xml</level>
+		<level type="xml">gardenLooperLevels/level_07.xml</level>
+		<level type="xml">gardenLooperLevels/level_08.xml</level>
+		<level type="xml">gardenLooperLevels/level_09.xml</level>
+		<level type="xml">gardenLooperLevels/level_10.xml</level>
+		<level type="xml">gardenLooperLevels/level_11.xml</level>
+		<level type="xml">gardenLooperLevels/level_12.xml</level>
+		<level type="xml">gardenLooperLevels/level_13.xml</level>
+		<level type="xml">gardenLooperLevels/level_14.xml</level>
+		<level type="xml">gardenLooperLevels/bonus_01.xml</level>
+		<level type="xml">gardenLooperLevels/level_15.xml</level>
+		<level type="xml">gardenLooperLevels/level_16.xml</level>
+		<level type="xml">gardenLooperLevels/level_17.xml</level>
+		<level type="xml">gardenLooperLevels/level_18.xml</level>
+		<level type="xml">gardenLooperLevels/level_19.xml</level>
+		<level type="xml">gardenLooperLevels/level_20.xml</level>
+		<level type="xml">gardenLooperLevels/level_21.xml</level>
+		<level type="xml">gardenLooperLevels/level_22.xml</level>
+		<level type="xml">gardenLooperLevels/level_23.xml</level>
+		<level type="xml">gardenLooperLevels/level_24.xml</level>
+		<level type="xml">gardenLooperLevels/level_25.xml</level>
+		<level type="xml">gardenLooperLevels/level_26.xml</level>
+		<level type="xml">gardenLooperLevels/level_27.xml</level>
+		<level type="xml">gardenLooperLevels/level_28.xml</level>
+		<level type="xml">gardenLooperLevels/level_29.xml</level>
+		<level type="xml">gardenLooperLevels/bonus_02.xml</level>
+		<level type="xml">gardenLooperLevels/level_30.xml</level>
+		<level type="xml">gardenLooperLevels/level_31.xml</level>
+		<level type="xml">gardenLooperLevels/level_32.xml</level>
+		<level type="xml">gardenLooperLevels/level_33.xml</level>
+		<level type="xml">gardenLooperLevels/level_34.xml</level>
+		<level type="xml">gardenLooperLevels/level_35.xml</level>
+		<level type="xml">gardenLooperLevels/level_36.xml</level>
+		<level type="xml">gardenLooperLevels/level_37.xml</level>
+		<level type="xml">gardenLooperLevels/level_38.xml</level>
+		<level type="xml">gardenLooperLevels/level_39.xml</level>
+		<level type="xml">gardenLooperLevels/level_40.xml</level>
+		<level type="xml">gardenLooperLevels/level_41.xml</level>
+		<level type="xml">gardenLooperLevels/level_42.xml</level>
+		<level type="xml">gardenLooperLevels/level_43.xml</level>
+		<level type="xml">gardenLooperLevels/level_44.xml</level>
+		<level type="xml">gardenLooperLevels/bonus_03.xml</level>
+		<level type="xml">gardenLooperLevels/level_45.xml</level>
+		<level type="xml">gardenLooperLevels/level_46.xml</level>
+		<level type="xml">gardenLooperLevels/level_47.xml</level>
+		<level type="xml">gardenLooperLevels/level_48.xml</level>
+		<level type="xml">gardenLooperLevels/level_49.xml</level>
+		<level type="xml">gardenLooperLevels/level_50.xml</level>
+		<level type="xml">gardenLooperLevels/level_51.xml</level>
+
+
+		<!-- if you want to test a specific level quickly without reordering, you can enter an index.  0 is the first, 1 is second, etc. -->
+		<!-- <testingStartAtLevelIndex>14</testingStartAtLevelIndex> -->
+
+		<!-- how to draw the line, other general properties -->
+		<doFairyCollisions>never</doFairyCollisions> <!-- always / never / highperformance.  have petals collide off fairy -->
+		<rotatePetals>never</rotatePetals> <!-- always / never / highperformance.  Anything else or omitted and defaults to always -->
+		<hostFrameReset>120</hostFrameReset> <!-- when host mood/text changes, we reset to neutral after this many frames -->
+		<debugLinePoints>false</debugLinePoints> <!-- adds a LOT of logging around loop points.  ONLY FOR DEBUGGING -->
+		<spawnReplacementPetals>true</spawnReplacementPetals> <!-- spawn a replacement for each petal that is captured? -->
+		<tracerColor>0xf4ea8b</tracerColor> <!-- color for the line -->
+		<tracerBlurAmount>5</tracerBlurAmount> <!-- amount of blur effect to apply to line -->
+		<tracerWidth>5</tracerWidth> <!-- width of the line -->
+		<tracerAlpha>100</tracerAlpha> <!-- trqnsparency of the line -->
+		<maxTracerDistance>800</maxTracerDistance> <!-- maximum length of line -->
+		<loopDetectionThreshold>3.5</loopDetectionThreshold> <!-- default 1, bump it to 1.1, 1.2, etc. to make it a little easier to complete a loop -->
+		<loopFillColorSuccess>0x25D339</loopFillColorSuccess> <!-- color for the fill of a completed successful loop -->
+		<loopFillColorFail>0xDD3F1F</loopFillColorFail> <!-- color for the fill of a completed invalid loop (only one element for instance) -->
+		<loopFillAlpha>0.6</loopFillAlpha> <!-- transparency of a completed loop -->
+		<loopFillFadeRate>0.05</loopFillFadeRate> <!-- rate at which fill will fade out -->
+		<tracerFadeRate>0.02</tracerFadeRate> <!-- rate at which line will fade out once it starts... -->
+		<tracerFadeDelay>60</tracerFadeDelay> <!-- frames to wait before line will start to fade out once mouse is up -->
+		<capturedItemFadeRate>0.04</capturedItemFadeRate> <!-- rate at which a captured item (petal, powerup) will fade out -->
+		<tracerRechargePercentage>1</tracerRechargePercentage> <!-- % of tracer you want recharged each frame that drawing has stopped -->
+		<captureRechargePercentage>0</captureRechargePercentage> <!-- % of tracer you want recharged as a reward for a successful capture -->
+		<levelCompletionDelay>100</levelCompletionDelay> <!-- after objective is achieved, wait this many frames before popping up the congrats message -->
+		<petalCaptureRequiredPercentage>50</petalCaptureRequiredPercentage> <!-- what percentage of a petal needs to be within the loop for us to count it as captured? -->
+		<powerupCaptureRequiredPercentage>50</powerupCaptureRequiredPercentage> <!-- what percentage of a powerup needs to be within the loop for us to count it as captured? -->
+		<pixieDustDropFrequency>0</pixieDustDropFrequency> <!-- how often to drop a pixie dust particle - 1 means on every drawn point, 2 means every other point, 3 is every 3rd point, etc.  Strike a balance between visual and performance.  0 means never -->
+		<playerLives>3</playerLives> <!-- how many lives does the player get?  Use -1 for unlimited lives -->
+		<bounceBufferPercentage>20</bounceBufferPercentage> <!-- portion of the screen on top/bottom to consider for bouncing (if a petal if floating offscreen, we reverse it to get it back in the middle of the play area -->
+		<startWarningSound>5</startWarningSound> <!-- at this many seconds remaining, start the warning sound -->
+
+		<!-- wind configuration -->
+		<windDisplayVane>false</windDisplayVane> <!-- display the debug windvane or not -->
+		<windRandomHeadingFluctuation>10</windRandomHeadingFluctuation> <!-- when getting a random heading from WindManager, it will be true wind +/- this amount -->
+		<windChangeFrequency>300</windChangeFrequency> <!-- wind should change every N frames (randomly, not actual) -->
+
+		<!-- scoring -->
+		<standardPetalScore>10</standardPetalScore> <!-- points to get with each capture of a standard petal -->
+		<sameColorPetalBonus>0</sameColorPetalBonus> <!-- if all petals in a capture are the same color, each is worth a little more -->
+		<captureTimeBonus>0</captureTimeBonus> <!-- amount of time to add to timer with each capture -->
+		<multiColorPunishment>0</multiColorPunishment> <!-- points to lose if you complete a loop with multiple colors -->
+		<levelBonusDaysLeft>10</levelBonusDaysLeft> <!-- points to multiply by days remaining as an end-of-level bonus -->
+		<powerupScore>10</powerupScore> <!-- points you received for looping a powerup -->
+		<!-- <bonusLifeEveryNLevels>0</bonusLifeEveryNLevels> --> <!-- give an extra life each time they complete N non-bonus levels.  0 disables.  -->
+		<chainMultiplier>20</chainMultiplier> <!-- chain length times this value gives a bonus -->
+		<biggestCaptureMultiplier>5</biggestCaptureMultiplier> <!-- size of biggest capture times this value gives a bonus -->
+		
+		<!-- bonus petals currently turned off... -->
+		<bonusPetalScore>150</bonusPetalScore> <!-- points to get with each capture of a petal from bonus flower -->
+		<bonusFlowerScore>1000</bonusFlowerScore> <!-- points to get with a successful completion of the bonus flower -->
+
+		<!-- powerups -->
+		<powerupDuration>5</powerupDuration> <!-- how many seconds does a default powerup last -->
+		<timeBonusAmount>10</timeBonusAmount> <!-- if you get the "extra time" powerup - how much extra time is it worth? -->
+
+		<!-- defaults that can be overridden in individual level configuration to scale difficulty -->
+		<minPetalSpeed>1</minPetalSpeed>
+		<maxPetalSpeed>3</maxPetalSpeed>
+		<timeLimit>30</timeLimit>
+		<minLegalPetalCount>1</minLegalPetalCount>
+		<objectiveTitle>Objective</objectiveTitle>
+
+		<!-- particle manager -->
+		<maxNumParticles>500</maxNumParticles> <!-- maximum number of particles of a given type (smoke, spark, etc.) to display.   -->
+		<sparkColors>0xFFFF00,0xFFFF66,0xFFFFCC</sparkColors> <!-- colors to use when generating sparks -->
+
+		<!-- sound related -->
+		<doPlaySounds>true</doPlaySounds> <!-- for debugging, turns off all sounds if included and set to false -->
+		<bgMusicPauseBetweenLevels>false</bgMusicPauseBetweenLevels> <!-- background music can either go constantly, or stop/restart during interlevel breaks -->
+
+		<!-- volume levels, between 0 and 100.  Missing or bad values will be defaulted to 100 (full volume). Naming convention is volume_LINKAGEID -->
+		<volume_backgroundMusic>30</volume_backgroundMusic>
+		<volume_getSomePetals>90</volume_getSomePetals>
+		<volume_badLoopEmpty>90</volume_badLoopEmpty>
+		<volume_badLoopMixedColors>90</volume_badLoopMixedColors>
+		<volume_badLoopSinglePetal>90</volume_badLoopSinglePetal>
+		<!-- 
+		<volume_startLevel>foo</volume_startLevel>
+		<volume_beeEnters>75</volume_beeEnters>
+		<volume_timeRunningOut>50</volume_timeRunningOut>
+		<volume_completedOneColor>100</volume_completedOneColor>
+		<volume_multiplierCaptured>50</volume_multiplierCaptured>
+		<volume_beeHitsLoop>0</volume_beeHitsLoop>
+		<volume_outOfLives>foo</volume_outOfLives>
+		etc...
+		-->
+		
+		<difficultyChoices layout="5small">		
+            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"/>			
+			<difficultyChoice descriptor="royal" displayName="Royal" paidOnly="false"/>			
+			<difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"/>	
+		</difficultyChoices>
+		<supportsTutorial>true</supportsTutorial>
+		
+	</config>
+</panel>

@@ -1,0 +1,2048 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/snowFlake.swf</swf>
+		<swf type="code">{panelCode}/snowFlake.swf</swf>
+	</swfs>
+	<copy>
+		<!-- hud -->
+		<title>Snowflake Sweep</title>
+		<level>Level</level>
+
+		<hudTitleWelcome>Snowflake Sweep</hudTitleWelcome>
+		<hudSubTitleWelcome>Get Ready</hudSubTitleWelcome>
+		
+		
+		<left_scorecard_title>Attempt</left_scorecard_title>
+		<left_scorecard_title_s>Attempts</left_scorecard_title_s>
+		<left_scorecard_title_one></left_scorecard_title_one>
+		<right_scorecard_title>Score:</right_scorecard_title>		
+		<right_accent_title>Pouches Filled</right_accent_title>		
+		<level_tip_title>Welcome!</level_tip_title>
+		<level_tip_little_title>Get Ready!</level_tip_little_title>
+		<hostname>Minister of Winter</hostname>
+		
+		<!-- UI: TUTORIAL -->
+		<tutorial_next>NEXT</tutorial_next>		
+		<tutorial_skip>Skip This</tutorial_skip>		
+		<tutorial_replay>Play Again</tutorial_replay>
+		<tutorial_finalscore_title>How To Play Complete!</tutorial_finalscore_title>
+		<tutorial_finalscore_label>I think you have the basics down now. Let's begin!</tutorial_finalscore_label>
+		<tutorial_quit>Continue</tutorial_quit>
+		<tutorial_hudtitle>How to play</tutorial_hudtitle>
+		
+		<host_bubble_1>Now you try it!</host_bubble_1>
+		<host_bubble_2>Excellent work.</host_bubble_2>		
+		<host_bubble_3>Click the packets that have the same picture.</host_bubble_3>
+		<host_bubble_4>Match both the picture and the number.</host_bubble_4>
+		<host_bubble_5>The picture and the number must match.</host_bubble_5>
+		<host_bubble_9>Go ahead!</host_bubble_9>
+		
+		<host_bubble_1A>Watch me. I'll show you.</host_bubble_1A>
+		<host_bubble_1B>Fly over a falling Snowflake to guide it to a pouch. </host_bubble_1B>
+		<host_bubble_2A>CLICK and DRAG with the mouse to sweep a Snowflake into a pouch.</host_bubble_2A>		
+		
+		<tutorial_stepIntro>Welcome to Blustery Brush. Let me show you how to collect Snowflakes for the mainland.</tutorial_stepIntro>
+		<tutorial_step1>The pouches show the color and number of the Snowflakes you need to collect. Fly over a falling Snowflake, then drag it into a pouch.</tutorial_step1>
+		<tutorial_step1B>Watch me. I'll show you.</tutorial_step1B>
+		<tutorial_step5>You can catch more than one Snowflake at a time. Try not to let the Snowflakes touch before you get them in the pouch!</tutorial_step5>
+		<tutorial_step7>Don't let the Snowflakes hit tree branches or icicle drops! Now, let's see if you can get 3 in the correct pouch.</tutorial_step7>
+		<tutorial_step10>If time runs out, you will lose an attempt so watch this carefully!</tutorial_step10>
+		<tutorial_step11>Here is where you can see how many attempts you have left. I will stay with you while you work, little one.</tutorial_step11>
+		
+		<!-- UI: STORY SCREEN -->
+		<easy_story>The Snowflakes are falling. Hurry now and catch them!</easy_story>
+		<medium_story>Pay attention to which Snowflakes goes in which pouch.</medium_story>
+		<hard_story>We need to collect all different kinds of Snowflakes. Stay alert!</hard_story>
+		<royal_story>It's becoming quite cold, so fly carefully. We have many pouches to fill!</royal_story>
+		
+		<easy_exitstory>Well done, young one. But there are so many more pouches to fill. Keep flying!</easy_exitstory>
+		<medium_exitstory>You handle the cold winds well, young one. You should be proud!</medium_exitstory>
+		<hard_exitstory>Your help is greatly appreciated, young one. We now have enough Snowflakes for winter on the mainland!</hard_exitstory>
+		<royal_exitstory>You have my thanks, young one. I've never seen anyone collect Snowflakes with such skill!</royal_exitstory>
+		
+		<allmedium_story>Marvelous, young one! Your skills are impressive. Now, let us continue.</allmedium_story>
+		<allhard_story>You have filled so many pouches! Thank you! But we are not done yet. Keep going!</allhard_story>
+		<allroyal_story>Winter on the mainland is very near! We must fill all the pouches.</allroyal_story>
+		
+		
+		
+		
+		<!-- UI: TITLE SCREEN -->
+		<title_screen target="title.title_container.title_text">Winter Snowflakes</title_screen>
+		<title_play target="title.btnContainer.play_text">Play</title_play>
+		<title_help target="title.btnContainer.help_text">Instructions</title_help>		
+		<title_quit target="title.btnContainer.quit_text">Quit</title_quit>
+				
+		<!-- UI: WELCOME -->
+		<welcome_title>Welcome!</welcome_title>
+		<welcome_text>Welcome to Blustery Brush. As the Minister of Winter, it is my responsibility to ensure that Snowflakes are gathered and taken to the mainland each winter. Can you assist me? The Snowflake-talents will create a flurry for you. Perhaps you can use the wind to sweep the Snowflakes into the correct pouches.</welcome_text>
+		<welcome_play>Continue</welcome_play>
+		
+		<!-- UI: GAME OVER -->
+		<!-- titles -->
+		<game_over_win>You Win!</game_over_win>
+		<game_over_lose>Nice Try!</game_over_lose>
+		<!-- buttons -->
+		<game_over_continue>Done</game_over_continue>		
+		<game_over_quit>Quit</game_over_quit>
+		<!-- comments (win) -->
+		<game_over_win_0>I am so very pleased. Excellent work.</game_over_win_0>
+		<game_over_win_1>I admire your abilities. I welcome your aid at any time.</game_over_win_1>
+		<game_over_win_2>A grand achievement, young one. Well done.</game_over_win_2>
+		<game_over_win_3>My thanks, young one. Your aid is most appreciated.</game_over_win_3>
+		<!-- comments (lose) -->
+		<game_over_lose_time_0>I admire your efforts. I hope you come back to try again.</game_over_lose_time_0>
+		<game_over_lose_time_1>Do not be disappointed, my friend. Your efforts are appreciated, and you may always try again.</game_over_lose_time_1>
+		<game_over_lose_time_2>You did your best, my friend. I hope you come back to try again.</game_over_lose_time_2>
+		
+		<!-- UI: LEVEL COMPLETE -->
+		<level_complete>Level {level} Complete!</level_complete>
+		<tuto_complete>Tutorial Complete!</tuto_complete>
+		<time_bonus>Time bonus :</time_bonus>	
+		<perfect_pouch>Perfect bonus :</perfect_pouch>
+		<your_score>Your Score : </your_score>
+		<last_level_score>Last Level Score : </last_level_score>
+		<base_level_score>Level Score : </base_level_score>
+		<scorecard_final>Your Final Score : </scorecard_final>	
+		<score_total>Total Score : </score_total>
+		
+		<!-- AVATAR ALERT -->
+		<clock_alert_0>Be careful! Don't run out of time!</clock_alert_0>
+	
+		<!-- Bad --> 	<!-- only if the snowflakes was on line -->
+		<destroy_by_drop_0>Your Snowflake hit a water drop.</destroy_by_drop_0>	
+		<destroy_by_drop_1>The drop hit a Snowflake.</destroy_by_drop_1>	
+		
+		<destroy_by_branche_0>The Snowflake hit a branch.</destroy_by_branche_0>	
+		<destroy_by_branche_1>The Snowflake melted on a branch.</destroy_by_branche_1>	
+		
+		<destroy_by_basket_0>This Snowflake doesn't go in that pouch.</destroy_by_basket_0>	
+		<destroy_by_basket_1>Snowflakes fall from pouches if the wrong color is added.</destroy_by_basket_1>
+		
+		<destroy_by_fairy_0>I'm afraid Snowflakes melt if they touch you.</destroy_by_fairy_0>	
+		<destroy_by_fairy_1>Try to not touch the Snowflakes, please.</destroy_by_fairy_1>	
+			
+		<!-- Good -->
+		<combo_0>Excellent work.</combo_0>
+		<combo_1>Amazing!</combo_1>
+		<combo_2>Well done.</combo_2>
+		<basket_0>You filled the pouch. Excellent.</basket_0>
+		<basket_1>You filled the pouch. Well done.</basket_1>
+		<basket_2>Very good, you filled the pouch!</basket_2>
+		<perfect_basket_0>Perfect!</perfect_basket_0>
+		<perfect_basket_1>Excellent. In fact, perfect!</perfect_basket_1>
+		<perfect_basket_2>Very good. Perfect, in fact!</perfect_basket_2>
+		<bonus_0>Great! You got a bonus!</bonus_0>
+		<bonus_1>Very nice! You won a bonus!</bonus_1>
+		<bonus_2> Nice! Bonus score!</bonus_2>
+		<normal_0>Very good!</normal_0>
+		<normal_1>Continue!</normal_1>
+		<normal_2>Nice score!</normal_2>
+		<normal_3>One more!</normal_3>
+		
+		<!-- New life -->
+		<life_0>Good Job! You got the Perfect Bonus!!</life_0>
+		<life_1>Well done! This level was perfect!</life_1>
+	
+		<!-- UI: INSTRUCTIONS -->
+		<inst_screen_title target="instructions.instructionsContainer.instruction_text">Instructions</inst_screen_title>
+		
+		<instruction0 target="instructions.btnContainer.page0.text_container.label">Drag your mouse to move the wind and guide the Snowflakes to the correct pouches.</instruction0>
+		<instruction1 target="instructions.btnContainer.page1.text_container.label">The Snowflakes are different colors! Make sure you match the color of the Snowflake to the color on the pouch. If you fill all the pouches without putting the wrong color into any you will get a PERFECT score.</instruction1>
+		<instruction2 target="instructions.btnContainer.page2.text_container.label">You can thread more than one Snowflake on a current of wind, but don't let them touch you before going into a pouch or they will melt.</instruction2>
+		<instruction3 target="instructions.btnContainer.page3.text_container.label">Don't let your Snowflakes run into tree branches or icicle drops.</instruction3>		
+		<instruction4 target="instructions.btnContainer.page4.text_container.label">Make sure you collect all the multi-colored Snowflakes. They can be used to fill a pouch with any color! Also, use the glowing Snowflakes to fill your pouches faster.</instruction4>	
+
+		<inst_play target="instructions.btnContainer.playBtn.play_text">Play!</inst_play>
+		<inst_back target="instructions.btnContainer.backBtn.back_text">Back</inst_back>		
+		<inst_cont target="instructions.btnContainer.continueBtn.continue_text">Continue</inst_cont>		
+		<inst_quit target="instructions.btnContainer.quitBtn.quit_text">Quit</inst_quit>		
+		
+		<!-- LEVEL TIPS -->
+		<level_tip_1></level_tip_1>
+		<level_tip_2>Catch 3 of these Snowflakes and put them in the pouch!</level_tip_2>
+		<level_tip_3>Watch now -- there are 3 different colors of Snowflakes falling. Place 5 of the correct color in the pouch, would you?</level_tip_3>
+		<level_tip_4>Fly carefully! You're doing a great job!</level_tip_4>
+		<level_tip_5>Now you will need to fill 2 pouches.</level_tip_5>
+		<level_tip_6>Use the multi-color Snowflakes whenever you can. They will help to fill any pouch.</level_tip_6>
+		<level_tip_7>Fill the pouches with 7 Snowflakes. Fly swiftly, for all the Snowflakes are falling faster now.</level_tip_7>	
+		<level_tip_8>Now we need to catch 8 Snowflakes in each pouch! Be careful!</level_tip_8>
+		<level_tip_9>These pouches are harder to reach and now we need to catch 9 Snowflakes in each! Fly carefully.</level_tip_9>
+		<level_tip_10>You have 3 pouches to fill with 6 Snowflakes each. Be quick, my friend.</level_tip_10>		
+		<level_tip_11>There are only 2 pouches, but they need 9 Snowflakes each! Look for the hourglass to gain time.</level_tip_11>
+		<level_tip_12>Be sure to watch how many Snowflakes you need to fill each pouch! </level_tip_12>
+		<level_tip_13>Use the glowing Snowflakes if you can.</level_tip_13>	
+		<level_tip_14>Collect 9 Snowflakes per pouch here.</level_tip_14>
+		<level_tip_15>Avoid the icicles. The drops will melt the Snowflakes.</level_tip_15>
+		<level_tip_16>Fly carefully! You're doing a great job!</level_tip_16>
+		<level_tip_17>Use the special Snowflakes whenever you can. It will transform all the Snowflakes on the screen into wildcards.</level_tip_17>
+		<level_tip_18>Look out! There are 2 icicles dripping now!</level_tip_18>
+		<level_tip_19>Fly carefully! You're doing a great job!</level_tip_19>
+		<level_tip_20>Fly carefully. You must fill 3 pouches now.</level_tip_20>
+		<level_tip_21>Fly carefully! You're doing a great job!</level_tip_21>
+		<level_tip_22>The Snowflakes are falling faster, so fly with haste.</level_tip_22>
+		<level_tip_23>Watch your pouches to see how many Snowflakes need to be collected.</level_tip_23>
+		<level_tip_24>Fly with care. These pouches are difficult to reach.</level_tip_24>
+		<level_tip_25>I fear the wind is picking up. </level_tip_25>
+		<level_tip_26>Fly carefully! You're doing a great job!</level_tip_26>
+		<level_tip_27>A new challenge! Fill 5 pouches.</level_tip_27>
+		<level_tip_28>Fly faster, my friend. The Snowflakes are falling more quickly now and you must collect 10 per pouch.</level_tip_28>
+		<level_tip_29>There are many icicles -- avoid them at all costs.</level_tip_29>
+		<level_tip_30>There are many Snowflakes and the wind is blowing hard. These are the last pouches you must fill. I believe in you!</level_tip_30>
+		
+		<level_tip_generic>Get ready for level {level}!</level_tip_generic>				
+		
+		<!-- LOOSE A LIFE -->
+		<loose_a_life_title>Try Again</loose_a_life_title>
+		<loose_a_life_0>Time is up, I'm afraid. Please try again!</loose_a_life_0>
+		
+		
+		<!-- HOST LEVEL -->
+		<host_level_1_0>Let us begin slowly.</host_level_1_0>
+		<host_level_1_1>Aren't the Snowflakes lovely?</host_level_1_1>
+		<host_level_1_2>Do you see how you can move the wind currents?</host_level_1_2>	
+		
+		<host_level_2_0>Very good. Try to capture more.</host_level_2_0>
+		<host_level_2_1>The Snowflake's color must match the one on the pouch.</host_level_2_1>	
+		
+		<host_level_3_0>Keep your eyes alert, my friend.</host_level_3_0>
+		<host_level_3_1>Very good.</host_level_3_1>		
+		
+		<host_level_4_0>Fly as quickly as you can.</host_level_4_0>							
+		<host_level_4_1>It is snowing harder now.</host_level_4_1>		
+		
+		<host_level_5_0>I'm sure you can fill all the pouches.</host_level_5_0>
+		<host_level_5_1>Show no hesitation, fly swiftly.</host_level_5_1>	
+		
+		<host_level_6_0>That is a beautiful Snowflake, isn't it?</host_level_6_0>
+		<host_level_6_1>You must fly quickly.</host_level_6_1>			
+		
+		<host_level_7_0>Ah, here come more colors of Snowflakes.</host_level_7_0>
+		<host_level_7_1>Keep your wings aflutter.</host_level_7_1>		
+		
+		<host_level_8_0>There is nothing as lovely as falling snow.</host_level_8_0>	
+		<host_level_8_0>I'm depending on you, little one.</host_level_8_0>	
+		
+		<host_level_9_0>Catch as many Snowflakes as you can.</host_level_9_0>
+		<host_level_9_1>You're doing a marvelous job.</host_level_9_1>	
+		
+		<host_level_10_0>Take care, the wind is picking up.</host_level_10_0>				
+		<host_level_10_1>You have quite the talent for this, my friend.</host_level_10_1>		
+		
+		<host_level_11_0>Try to catch even more.</host_level_11_0>		
+		<host_level_11_1>Keep up the pace.</host_level_11_1>			
+		
+		<host_level_12_0>There are even more pouches to fill now.</host_level_12_0>
+		<host_level_12_1>These Winter Woods have lovely Snowflakes.</host_level_12_1>		
+		
+		<host_level_13_0>Be sure not to run short of time.</host_level_13_0>
+		<host_level_13_1>These are truly beautiful Snowflakes.</host_level_13_1>	
+		
+		<host_level_14_0>I'm quite impressed with you so far.</host_level_14_0>
+		<host_level_14_1>You're doing a splendid job.</host_level_14_1>		
+		
+		<host_level_15_0>Be sure to avoid the icicle drops.</host_level_15_0>
+		<host_level_15_1>Excellent score.</host_level_15_1>			
+		
+		<host_level_16_0>Dodge the icicle drops, little one.</host_level_16_0>	
+		<host_level_16_1>Oh, I'm sure you can fly faster than that.</host_level_16_1>	
+		
+		<host_level_17_0>There's no time to rest, not yet.</host_level_17_0>
+		<host_level_17_1>Be sure not to run short of time.</host_level_17_1>	
+		
+		<host_level_18_0>There are more icicles now. Stay alert.</host_level_18_0>
+		<host_level_18_1>Remember, you create wind as you fly.</host_level_18_1>	
+		
+		<host_level_19_0>You are quite good at this, my friend.</host_level_19_0>
+		<host_level_19_1>I know you can fly faster if you try.</host_level_19_1>	
+		
+		<host_level_20_0>Fill all of the pouches.</host_level_20_0>
+		<host_level_20_1>Excellent flying.</host_level_20_1>		
+		
+		<host_level_21_0>You're such a good helper. Thank you.</host_level_21_0>
+		<host_level_21_1>Don't stop now.</host_level_21_1>		
+		
+		<host_level_22_0>I see a different Snowflake falling.</host_level_22_0>
+		<host_level_22_1>Fly like the winter wind.</host_level_22_1>		
+		
+		<host_level_23_0>I am so impressed by your efforts.</host_level_23_0>	
+		<host_level_23_1>What amazing skills you have!</host_level_23_1>
+		
+		<host_level_24_0>Be careful, this looks difficult.</host_level_24_0>	
+		<host_level_24_1>Well done indeed!</host_level_24_1>
+		<host_level_24_2>I hope you are not too cold.</host_level_24_2>
+		
+		<host_level_25_0>The wind is blowing the Snowflakes harder.</host_level_25_0>	
+		<host_level_25_1>Excellent job, young one!</host_level_25_1>
+		<host_level_25_2>Watch the winds, young one.</host_level_25_2>
+		
+		<host_level_26_0>You must fly faster than ever now.</host_level_26_0>	
+		<host_level_26_1>Very good, my friend!</host_level_26_1>
+		<host_level_26_2>Next winter on the mainland will be beautiful.</host_level_26_2>
+		
+		<host_level_27_0>Don't bump into the tree branches.</host_level_27_0>	
+		<host_level_27_1>Fly with all your skill.</host_level_27_1>
+		<host_level_27_2>I see Snowflake sparkles in your eyes.</host_level_27_2>
+		
+		<host_level_28_0>I appreciate how hard you're working.</host_level_28_0>	
+		<host_level_28_1>Blustery Brush is a lovely place, isn't it?</host_level_28_1>
+		<host_level_28_2>Winter is cold, but it warms my heart.</host_level_28_2>
+		
+		<host_level_29_0>You're almost finished. Fly swiftly.</host_level_29_0>	
+		<host_level_29_1>I cherish every Snowflake.</host_level_29_1>
+		<host_level_29_2>You are most kind to help me today.</host_level_29_2>
+		
+		<host_level_30_0>Don't let the winds slow you down.</host_level_30_0>		
+		<host_level_30_1>How wonderful! You did it!</host_level_30_1>
+		<host_level_30_2>You are doing me a great favor.</host_level_30_2>				
+		
+	</copy>
+	<config>
+		
+		<difficultyChoices layout="5small">
+	            <difficultyChoice descriptor="easy" displayName="Easy" paidOnly="false"/>
+	            <difficultyChoice descriptor="med" displayName="Medium" paidOnly="false"/>
+	            <difficultyChoice descriptor="hard" displayName="Hard" paidOnly="false"/>			
+		    <difficultyChoice descriptor="royal" displayName="Royal" paidOnly="false"/>			
+		    <difficultyChoice descriptor="all" displayName="Play All" paidOnly="true"/>			
+		</difficultyChoices>
+		
+		<supportsTutorial>true</supportsTutorial>
+		
+		<!-- required palette param -->		
+		<colorPalette>1</colorPalette>		
+		
+		<!-- sound params -->
+		<music_volume>0.7 </music_volume>
+		
+		<!-- game params -->
+		<points_per_snowFlakes>5</points_per_snowFlakes>				<!-- base points per snowflakes put in a basket -->
+		<points_per_combo>50</points_per_combo>							<!-- Points by combo -->
+		<points_per_basket>100</points_per_basket>						<!-- points_by_basket completed-->
+		<points_per_bonus>50</points_per_bonus>							<!-- points by bonus used to fill pouch -->
+		<perfect_basket>250</perfect_basket>  							<!-- Point if the basket is completed with all snowflakes on one line-->
+		<perfect_level>1000</perfect_level>       						<!-- Point if all basket in the level is perfectly completed-->
+		<time_bonus>1</time_bonus>										<!-- seconds increased per timeBonus-->
+		<fps>32</fps>
+		
+		
+		<!-- Differents type of flake with it name in the librairy -->
+		<flakes>
+			<flake type="1" name="flake1" />
+			<flake type="2" name="flake2" />
+			<flake type="3" name="flake3" />
+			<flake type="4" name="flake4" />
+			<flake type="5" name="flake5" />			
+		</flakes>
+		
+		<!-- Differents type of basket with it name in the librairy -->
+		<baskets>
+			<basket type="1" name="basket1" />
+			<basket type="2" name="basket2" />
+			<basket type="3" name="basket3" />
+			<basket type="4" name="basket4" />
+			<basket type="5" name="basket5" />
+		</baskets>
+		
+		<!-- Differents type of bonus with his name in the librairy -->
+		<bonus>
+			<bonus type="1" name="bonus1" />		<!-- Fill pouch type 1 in one shot -->
+			<bonus type="2" name="bonus2" />		<!-- Fill pouch type 2 in one shot -->
+			<bonus type="3" name="bonus3" />		<!-- Fill pouch type 3 in one shot -->
+			<bonus type="4" name="bonus4" />		<!-- Fill pouch type 4 in one shot -->
+			<bonus type="5" name="bonus5" />		<!-- Fill pouch type 5 in one shot -->
+			<bonus type="6" name="bonus6" />		<!-- Wild card (multicolor) who can go in every pouch -->
+			<bonus type="7" name="bonus7" />		<!-- Freeze snowflake -->
+			<bonus type="8" name="bonus8" />		<!-- Time bonus -->
+		</bonus>
+		
+		<!-- Differents type of branche with his name in the librairy -->
+		<branches>
+			<branche type="1" name="branche1" />
+			<branche type="2" name="branche2" />
+			<branche type="3" name="branche3" />
+			<branche type="4" name="branche4" />
+			<branche type="5" name="branche5" />
+			<branche type="6" name="branche6" />
+			<branche type="7" name="branche7" />
+			<branche type="8" name="branche8" />
+			<branche type="9" name="branche9" />
+			<branche type="10" name="branche10" />
+			<branche type="11" name="branche11" />
+			<branche type="12" name="branche12" />
+		</branches>
+		
+		<!-- Differents type of icicle with his name in the librairy -->
+		<icicles>
+			<icicle type="1" name="icicle1" />
+		</icicles>
+		
+		<tutos>
+			<!-- Level 1 Tuto -->
+			<level num="1" timeForWinLevel="45" flakeSpeedOnLine="5"  maxFlakesOnScreen="1" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1" max="2" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="50" >	
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="1" numToWin="1" posX="100" posY="130" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="1" side="left" posY="80" scale="1" />					
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="0"  frequencyChange="20000" />
+			</level>				
+		</tutos>
+				
+		<!-- All levels -->
+		<levels>
+				
+			<!-- Level 1 -->
+			<level num="1" timeForWinLevel="45" flakeSpeedOnLine="5"  maxFlakesOnScreen="5" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1" max="2" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="50" >	
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="1" numToWin="1" posX="100" posY="130" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="1" side="left" posY="80" scale="1" />					
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="0"  frequencyChange="20000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			
+			<!-- Level 2 -->
+			<level num="2" timeForWinLevel="45" flakeSpeedOnLine="5"  maxFlakesOnScreen="5" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1" max="2" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="50" >	
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="2" numToWin="3" posX="780" posY="183" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="9" side="right" posY="130" scale="1" />					
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="0"  frequencyChange="20000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			<!-- Level 3 -->
+			<level num="3" timeForWinLevel="45" flakeSpeedOnLine="5"  maxFlakesOnScreen="5" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1" max="2" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="50" >	
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="3" numToWin="5" posX="87" posY="263" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="3" side="left" posY="197" scale="1" />					
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="0"  frequencyChange="20000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- Level 4 -->
+			<level num="4" timeForWinLevel="45" flakeSpeedOnLine="5"  maxFlakesOnScreen="6" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1" max="2" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="5" >	
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="2" numToWin="5" posX="21" posY="283" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="6" side="left" posY="237" scale="1" />
+					<branche type="5" side="left" posY="13" scale="0.75" />
+					<branche type="12" side="right" posY="315" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="0"  frequencyChange="20000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			<!-- Level 5 -->
+			<level num="5" timeForWinLevel="60" flakeSpeedOnLine="5"  maxFlakesOnScreen="6" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1" max="2" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="50" >	
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="2" numToWin="5" posX="780" posY="183" />
+					<basket num="3" numToWin="5" posX="91" posY="151" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="2" side="left" posY="97" scale="1" />
+					<branche type="9" side="right" posY="134" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="0"  frequencyChange="20000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			<!-- Level 6 -->
+			<level num="6" timeForWinLevel="60" flakeSpeedOnLine="5"  maxFlakesOnScreen="6" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1" max="2" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="10" >	
+						<bonus type="6" first="true"/>
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="1" numToWin="6" posX="70" posY="291" />
+					<basket num="2" numToWin="6" posX="712" posY="128" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="5" side="left" posY="92" scale="1" />
+					<branche type="8" side="right" posY="55" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="0"  frequencyChange="20000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			<!-- Level 7 -->
+			<level num="7" timeForWinLevel="60" flakeSpeedOnLine="6"  maxFlakesOnScreen="7" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="4" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="10" >	
+						<bonus type="6" first="false"/>
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="4" numToWin="7" posX="712" posY="212" />
+					<basket num="1" numToWin="7" posX="28" posY="130" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="4" side="left" posY="92" scale="0.7" />
+					<branche type="2" side="left" posY="342" scale="1" />
+					<branche type="7" side="right" posY="177" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="0"  frequencyChange="20000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			<!-- Level 8 -->
+			<level num="8" timeForWinLevel="60" flakeSpeedOnLine="6"  maxFlakesOnScreen="7" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="10" >	
+						<bonus type="6" first="false"/>
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="2" numToWin="8" posX="26" posY="178" />
+					<basket num="1" numToWin="8" posX="636" posY="300" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="6" side="left" posY="142" scale="1" />
+					<branche type="10" side="right" posY="246" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="1"  frequencyChange="20000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			<!-- Level 9 -->
+			<level num="9" timeForWinLevel="60" flakeSpeedOnLine="6"  maxFlakesOnScreen="7" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->						
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="10" >
+						<bonus type="6" first="false"/>				
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="4" numToWin="9" posX="62" posY="148" />
+					<basket num="2" numToWin="9" posX="789" posY="328" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="3" side="left" posY="105" scale="0.8" />
+					<branche type="4" side="left" posY="306" scale="1" />
+					<branche type="10" side="right" posY="296" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="1"  frequencyChange="20000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			<!-- Level 10 -->
+			<level num="10" timeForWinLevel="60" flakeSpeedOnLine="6"  maxFlakesOnScreen="8" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="4" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="10" >	
+						<bonus type="6" first="false"/>	
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="4" numToWin="6" posX="735" posY="301" />
+					<basket num="1" numToWin="6" posX="102" posY="106" />
+					<basket num="2" numToWin="6" posX="216" posY="288" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="1" side="left" posY="62" scale="1" />
+					<branche type="2" side="left" posY="266" scale="1" />
+					<branche type="11" side="right" posY="107" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="1"  frequencyChange="20000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- Level 11 -->
+			<level num="11" timeForWinLevel="60" flakeSpeedOnLine="7"  maxFlakesOnScreen="8" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="10" >							
+						<bonus type="8" first="true"/>	
+						<bonus type="6" first="false"/>
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="2" numToWin="9" posX="25" posY="310" />
+					<basket num="3" numToWin="9" posX="672" posY="234" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="6" side="left" posY="265" scale="1" />
+					<branche type="12" side="right" posY="82" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="2"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			<!-- Level 12 -->
+			<level num="12" timeForWinLevel="60" flakeSpeedOnLine="7"  maxFlakesOnScreen="8" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="10" >
+						<bonus type="8" first="false"/>	
+						<bonus type="6" first="false"/>
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="2" numToWin="8" posX="710" posY="156" />
+					<basket num="3" numToWin="6" posX="250" posY="336" />
+					<basket num="1" numToWin="8" posX="79" posY="176" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="3" side="left" posY="118" scale="1" />
+					<branche type="2" side="left" posY="340" scale="1" />
+					<branche type="7" side="right" posY="119" scale="1" />	
+					<branche type="12" side="right" posY="351" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type,  frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="1.5"  frequencyChange="20000" />
+			</level>		
+			
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			
+			<!-- Level 13 -->
+			<level num="13" timeForWinLevel="60" flakeSpeedOnLine="7"  maxFlakesOnScreen="8" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="10" >	
+						<bonus type="5" first="true"/>	
+						<bonus type="1" first="true"/>
+						<bonus type="8" first="false"/>		
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="1" numToWin="7" posX="95" posY="166" />
+					<basket num="5" numToWin="7" posX="712" posY="128" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="5" side="left" posY="92" scale="1" />
+					<branche type="8" side="right" posY="55" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="2"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- Level 14 -->
+			<level num="14" timeForWinLevel="60" flakeSpeedOnLine="7"  maxFlakesOnScreen="8" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="10" >	
+						<bonus type="8" first="false"/>			
+						<bonus type="6" first="false"/>
+						<bonus type="4" first="true"/>
+						<bonus type="2" first="true"/>					
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="2">
+					<basket num="4" numToWin="9" posX="82" posY="253" />
+					<basket num="2" numToWin="9" posX="675" posY="153" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="3" side="left" posY="195" scale="1" />
+					<branche type="10" side="right" posY="82" scale="1" />
+					<branche type="11" side="right" posY="336" scale="1" />					
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>					
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="2"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			<!-- Level 15 -->
+			<level num="15" timeForWinLevel="60" flakeSpeedOnLine="7"  maxFlakesOnScreen="8" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="5" >	
+						<bonus type="6" first="false"/>	
+						<bonus type="2" first="false"/>	
+						<bonus type="8" first="false"/>							
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="2" numToWin="9" posX="120" posY="191" />
+					<basket num="3" numToWin="9" posX="733" posY="303" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="2" side="left" posY="132" scale="1" />
+					<branche type="11" side="right" posY="112" scale="1" />					
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="281" posY="144" percent="50" dropSpeed="3" dropIn="2" dropOut="11"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="2"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			<!-- Level 16 -->
+			<level num="16" timeForWinLevel="60" flakeSpeedOnLine="7"  maxFlakesOnScreen="9" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="10" >	
+						<bonus type="8" first="false"/>
+						<bonus type="6" first="false"/>
+						<bonus type="5" first="false"/>
+						<bonus type="4" first="false"/>
+						<bonus type="3" first="false"/>
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="5" numToWin="9" posX="670" posY="208" />
+					<basket num="4" numToWin="9" posX="60" posY="188" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="6" side="left" posY="336" scale="1" />
+					<branche type="4" side="left" posY="126" scale="1" />
+					<branche type="12" side="right" posY="55" scale="1" />					
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="587" posY="135" percent="50" dropSpeed="3" dropIn="3" dropOut="10"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="2"  frequencyChange="10000" />
+			</level>
+						
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- Level 17 -->
+			<level num="17" timeForWinLevel="60" flakeSpeedOnLine="7"  maxFlakesOnScreen="9" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="5" >
+						<bonus type="4" first="false"/>	
+						<bonus type="7" first="true"/>
+						<bonus type="8" first="false"/>
+						<bonus type="6" first="false"/>
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="5" numToWin="9" posX="97" posY="196" />
+					<basket num="4" numToWin="9" posX="783" posY="191" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="2" side="left" posY="132" scale="1" />
+					<branche type="10" side="right" posY="52" scale="1" />	
+					<branche type="9" side="right" posY="152" scale="1" />					
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="567" posY="57" percent="50" dropSpeed="5" dropIn="2" dropOut="6"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="2"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			<!-- Level 18 -->
+			<level num="18" timeForWinLevel="60" flakeSpeedOnLine="7"  maxFlakesOnScreen="9" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="5" >
+						<bonus type="1" first="false"/>
+						<bonus type="2" first="false"/>
+						<bonus type="6" first="false"/>	
+						<bonus type="7" first="false"/>	
+						<bonus type="8" first="false"/>							
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="1" numToWin="9" posX="67" posY="272" />
+					<basket num="2" numToWin="9" posX="711" posY="321" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="5" side="left" posY="72" scale="1" />
+					<branche type="10" side="right" posY="102" scale="1" />	
+					<branche type="12" side="right" posY="219" scale="0.75" />					
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="199" posY="223" percent="50" dropSpeed="5" dropIn="2" dropOut="7"/>
+					<icicle type="1" frequency="1000" posX="567" posY="107" percent="50" dropSpeed="5" dropIn="1" dropOut="9"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="2"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			<!-- Level 19 -->
+			<level num="19" timeForWinLevel="60" flakeSpeedOnLine="7"  maxFlakesOnScreen="9" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="5" >
+						<bonus type="5" first="false"/>
+						<bonus type="3" first="false"/>
+						<bonus type="6" first="false"/>	
+						<bonus type="7" first="false"/>	
+						<bonus type="8" first="false"/>	
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="5" numToWin="9" posX="86" posY="154" />
+					<basket num="3" numToWin="9" posX="671" posY="243" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="1" side="left" posY="110" scale="1" />
+					<branche type="2" side="left" posY="362" scale="1" />	
+					<branche type="12" side="right" posY="87" scale="1" />					
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="208" posY="120" percent="50" dropSpeed="5" dropIn="2" dropOut="7"/>
+					<icicle type="1" frequency="1000" posX="610" posY="172" percent="50" dropSpeed="5" dropIn="3" dropOut="9"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="1" strengthMax="2"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			
+			<!-- Level 20 -->
+			<level num="20" timeForWinLevel="90" flakeSpeedOnLine="7"  maxFlakesOnScreen="10" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="15" >						
+						<bonus type="1" first="false"/>
+						<bonus type="2" first="false"/>
+						<bonus type="3" first="false"/>
+						<bonus type="4" first="false"/>
+						<bonus type="6" first="false"/>	
+						<bonus type="7" first="false"/>
+						<bonus type="8" first="false"/>
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="1" numToWin="9" posX="74" posY="59" />
+					<basket num="2" numToWin="9" posX="124" posY="276" />
+					<basket num="4" numToWin="9" posX="703" posY="361" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="1" side="left" posY="34" scale="0.8" />
+					<branche type="2" side="left" posY="223" scale="1" />	
+					<branche type="11" side="right" posY="3" scale="0.6" />
+					<branche type="12" side="right" posY="242" scale="0.8" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="165" posY="45" percent="50" dropSpeed="5" dropIn="2" dropOut="7"/>
+					<icicle type="1" frequency="1000" posX="649" posY="314" percent="50" dropSpeed="5" dropIn="3" dropOut="9"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="2"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- Level 21 -->
+			<level num="21" timeForWinLevel="90" flakeSpeedOnLine="7"  maxFlakesOnScreen="10" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="15" >
+						<bonus type="1" first="false"/>
+						<bonus type="5" first="false"/>
+						<bonus type="6" first="false"/>
+						<bonus type="7" first="false"/>	
+						<bonus type="8" first="false"/>							
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="1" numToWin="9" posX="49" posY="160" />
+					<basket num="2" numToWin="9" posX="202" posY="149" />
+					<basket num="5" numToWin="9" posX="778" posY="268" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="2" side="left" posY="122" scale="1" />
+					<branche type="9" side="right" posY="86" scale="1" />
+					<branche type="12" side="right" posY="206" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="301" posY="126" percent="50" dropSpeed="5" dropIn="4" dropOut="5"/>
+					<icicle type="1" frequency="1000" posX="151" posY="193" percent="50" dropSpeed="5" dropIn="2" dropOut="9"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="2"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- Level 22 -->
+			<level num="22" timeForWinLevel="90" flakeSpeedOnLine="9"  maxFlakesOnScreen="10" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="15" >						
+						<bonus type="2" first="false"/>
+						<bonus type="4" first="false"/>
+						<bonus type="1" first="false"/>
+						<bonus type="6" first="false"/>	
+						<bonus type="7" first="false"/>	
+						<bonus type="8" first="false"/>	
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="1" numToWin="9" posX="147" posY="115" />
+					<basket num="2" numToWin="9" posX="51" posY="270" />
+					<basket num="4" numToWin="9" posX="717" posY="342" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="2" side="left" posY="62" scale="1" />
+					<branche type="4" side="left" posY="211" scale="1" />
+					<branche type="10" side="right" posY="100" scale="1" />						
+					<branche type="11" side="right" posY="158" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="294" posY="63" percent="50" dropSpeed="5" dropIn="3" dropOut="6"/>
+					<icicle type="1" frequency="1000" posX="602" posY="135" percent="50" dropSpeed="3" dropIn="5" dropOut="2"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="3"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- Level 23 -->
+			<level num="23" timeForWinLevel="90" flakeSpeedOnLine="9"  maxFlakesOnScreen="10" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="15" >
+						<bonus type="1" first="false"/>
+						<bonus type="2" first="false"/>
+						<bonus type="3" first="false"/>
+						<bonus type="6" first="false"/>	
+						<bonus type="7" first="false"/>
+						<bonus type="8" first="false"/>
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="4" numToWin="10" posX="48" posY="86" />
+					<basket num="3" numToWin="9" posX="78" posY="304" />
+					<basket num="2" numToWin="9" posX="773" posY="93" />
+					<basket num="1" numToWin="10" posX="729" posY="353" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="1" side="left" posY="57" scale="1" />
+					<branche type="3" side="left" posY="248" scale="1" />
+					<branche type="9" side="right" posY="50" scale="1" />						
+					<branche type="10" side="right" posY="298" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="199" posY="82.7" percent="50" dropSpeed="6" dropIn="7" dropOut="9"/>
+					<icicle type="1" frequency="1000" posX="256" posY="310" percent="60" dropSpeed="5" dropIn="2" dropOut="9"/>
+					<icicle type="1" frequency="1000" posX="696" posY="165" percent="50" dropSpeed="6" dropIn="3" dropOut="2"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="3"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- Level 24 -->
+			<level num="24" timeForWinLevel="90" flakeSpeedOnLine="9"  maxFlakesOnScreen="10" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="15" >
+						<bonus type="1" first="false"/>
+						<bonus type="2" first="false"/>
+						<bonus type="3" first="false"/>
+						<bonus type="5" first="false"/>
+						<bonus type="6" first="false"/>	
+						<bonus type="7" first="false"/>	
+						<bonus type="8" first="false"/>						
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="5" numToWin="9" posX="75" posY="80" />
+					<basket num="2" numToWin="9" posX="39" posY="301" />
+					<basket num="4" numToWin="12" posX="771" posY="87" />
+					<basket num="3" numToWin="9" posX="739" posY="320" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="3" side="left" posY="41" scale="1" />
+					<branche type="6" side="left" posY="266" scale="1" />
+					<branche type="12" side="right" posY="28" scale="1" />	
+					<branche type="8" side="right" posY="270" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="258" posY="99" percent="60" dropSpeed="5" dropIn="3" dropOut="5"/>
+					<icicle type="1" frequency="1000" posX="585" posY="121" percent="50" dropSpeed="5" dropIn="2" dropOut="9"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="0" strengthMax="3"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- Level 25 -->
+			<level num="25" timeForWinLevel="120" flakeSpeedOnLine="9"  maxFlakesOnScreen="10" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="15" >
+						<bonus type="1" first="false"/>
+						<bonus type="2" first="false"/>
+						<bonus type="3" first="false"/>
+						<bonus type="5" first="false"/>
+						<bonus type="6" first="false"/>	
+						<bonus type="7" first="false"/>	
+						<bonus type="8" first="false"/>
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="5" numToWin="9" posX="108" posY="95" />
+					<basket num="1" numToWin="9" posX="92" posY="351" />
+					<basket num="2" numToWin="9" posX="739" posY="143" />
+					<basket num="4" numToWin="9" posX="773" posY="334" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="1" side="left" posY="54" scale="1" />
+					<branche type="5" side="left" posY="156" scale="1" />
+					<branche type="9" side="right" posY="0" scale="1" />
+					<branche type="8" side="right" posY="90" scale="1" />						
+					<branche type="10" side="right" posY="297" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="219" posY="57" percent="50" dropSpeed="5" dropIn="2" dropOut="9"/>
+					<icicle type="1" frequency="1000" posX="197" posY="286" percent="60" dropSpeed="7" dropIn="6" dropOut="8"/>
+					<icicle type="1" frequency="1000" posX="593" posY="154" percent="50" dropSpeed="5" dropIn="4" dropOut="9"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="1" strengthMax="3"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- Level 26 -->
+			<level num="26" timeForWinLevel="120" flakeSpeedOnLine="9"  maxFlakesOnScreen="11" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="15" >
+						<bonus type="1" first="false"/>
+						<bonus type="2" first="false"/>
+						<bonus type="3" first="false"/>
+						<bonus type="5" first="false"/>
+						<bonus type="7" first="false"/>	
+						<bonus type="8" first="false"/>						
+						<bonus type="6" first="false"/>
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="4" numToWin="9" posX="50" posY="108" />
+					<basket num="1" numToWin="9" posX="135" posY="201" />
+					<basket num="5" numToWin="9" posX="796" posY="161" />
+					<basket num="2" numToWin="9" posX="726" posY="363" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="4" side="left" posY="47" scale="1" />
+					<branche type="5" side="left" posY="342" scale="1" />
+					<branche type="10" side="right" posY="115" scale="1" />	
+					<branche type="11" side="right" posY="0" scale="1" />					
+					<branche type="7" side="right" posY="329" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="250" posY="137" percent="60" dropSpeed="7" dropIn="4" dropOut="1"/>
+					<icicle type="1" frequency="1000" posX="708" posY="181" percent="50" dropSpeed="5" dropIn="7" dropOut="9"/>
+					<icicle type="1" frequency="1000" posX="653" posY="344" percent="50" dropSpeed="4" dropIn="2" dropOut="9"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="1" strengthMax="3"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- Level 27 -->
+			<level num="27" timeForWinLevel="120" flakeSpeedOnLine="10"  maxFlakesOnScreen="12" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.3" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="15" >
+						<bonus type="1" first="false"/>
+						<bonus type="2" first="false"/>
+						<bonus type="3" first="false"/>
+						<bonus type="5" first="false"/>
+						<bonus type="7" first="false"/>
+						<bonus type="8" first="false"/>
+						<bonus type="6" first="false"/>	
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="3" numToWin="9" posX="47" posY="52" />
+					<basket num="1" numToWin="9" posX="142" posY="153" />
+					<basket num="4" numToWin="9" posX="54" posY="333" />
+					<basket num="2" numToWin="9" posX="696" posY="67" />
+					<basket num="5" numToWin="9" posX="755" posY="238" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="4" side="left" posY="0" scale="1" />
+					<branche type="6" side="left" posY="289" scale="1" />
+					<branche type="10" side="right" posY="13" scale="1" />
+					<branche type="12" side="right" posY="176" scale="1" />						
+					<branche type="11" side="right" posY="397" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="272" posY="80" percent="50" dropSpeed="6" dropIn="4" dropOut="4"/>
+					<icicle type="1" frequency="1000" posX="575" posY="41" percent="60" dropSpeed="8" dropIn="3" dropOut="8"/>
+					<icicle type="1" frequency="1000" posX="618" posY="250" percent="50" dropSpeed="4" dropIn="2" dropOut="6"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="1" strengthMax="3"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- Level 28 -->
+			<level num="28" timeForWinLevel="120" flakeSpeedOnLine="11"  maxFlakesOnScreen="13" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.5" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="15" >
+						<bonus type="1" first="false"/>
+						<bonus type="2" first="false"/>
+						<bonus type="3" first="false"/>
+						<bonus type="5" first="false"/>	
+						<bonus type="7" first="false"/>
+						<bonus type="6" first="false"/>
+						<bonus type="8" first="false"/>		
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="5" numToWin="10" posX="77" posY="46" />
+					<basket num="2" numToWin="10" posX="83" posY="350" />
+					<basket num="3" numToWin="10" posX="674" posY="150" />
+					<basket num="4" numToWin="10" posX="749" posY="57" />
+					<basket num="1" numToWin="10" posX="654" posY="337" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="3" side="left" posY="0" scale="1" />
+					<branche type="5" side="left" posY="156" scale="1" />
+					<branche type="12" side="right" posY="0" scale="1" />
+					<branche type="7" side="right" posY="322" scale="1" />						
+					<branche type="9" side="right" posY="393" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="1000" posX="259" posY="66" percent="50" dropSpeed="6" dropIn="4" dropOut="9"/>
+					<icicle type="1" frequency="1000" posX="205" posY="288" percent="50" dropSpeed="5" dropIn="5" dropOut="2"/>
+					<icicle type="1" frequency="1000" posX="610" posY="93" percent="60" dropSpeed="7" dropIn="2" dropOut="4"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="1" strengthMax="3"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- Level 29 -->
+			<level num="29" timeForWinLevel="120" flakeSpeedOnLine="11"  maxFlakesOnScreen="15" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="2.7" timer="500" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="15" >
+						<bonus type="1" first="false"/>
+						<bonus type="4" first="false"/>
+						<bonus type="3" first="false"/>
+						<bonus type="5" first="false"/>	
+						<bonus type="8" first="false"/>
+						<bonus type="7" first="false"/>
+						<bonus type="6" first="false"/>		
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="2" numToWin="9" posX="102" posY="53" />
+					<basket num="4" numToWin="9" posX="50" posY="188" />
+					<basket num="5" numToWin="9" posX="716" posY="60" />
+					<basket num="1" numToWin="9" posX="673" posY="318" />
+					<basket num="3" numToWin="9" posX="751" posY="223" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="2" side="left" posY="12" scale="1" />
+					<branche type="6" side="left" posY="160" scale="1" />
+					<branche type="5" side="left" posY="374" scale="1" />
+					<branche type="10" side="right" posY="5" scale="1" />
+					<branche type="12" side="right" posY="166" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="800" posX="287" posY="15" percent="60" dropSpeed="6" dropIn="4" dropOut="7"/>
+					<icicle type="1" frequency="800" posX="179" posY="288" percent="50" dropSpeed="3" dropIn="5" dropOut="3"/>
+					<icicle type="1" frequency="800" posX="565" posY="19" percent="60" dropSpeed="5" dropIn="3" dropOut="6"/>
+					<icicle type="1" frequency="700" posX="615" posY="57" percent="40" dropSpeed="6" dropIn="1" dropOut="5"/>
+					<icicle type="1" frequency="800" posX="594" posY="252" percent="50" dropSpeed="5" dropIn="2" dropOut="9"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="1" strengthMax="3"  frequencyChange="10000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			<!-- Level 30 todo-->
+			<level num="30" timeForWinLevel="180" flakeSpeedOnLine="12"  maxFlakesOnScreen="20" percentGoodFlakes="50">
+				<flakes>					
+					<!-- This node give type of available flakes for the level -->
+					<type>
+						<!-- The flake num give the basket num too and the number of flake by basket to win -->
+						<flake num="1" />
+						<flake num="2" />
+						<flake num="3" />
+						<flake num="4" />
+						<flake num="5" />
+					</type>
+					
+					<!-- This is the y speed for flake and the frequency to create flake-->
+					<!-- Number of interactive snowflakes is limited by maxFlakesOnScreen but timer play too on number of backgroundSnowflakes -->
+					<speed min="1.3" max="3.3" timer="400" />
+					
+					<!-- This node give type of available bonus for the level and percent of appearance-->
+					<bonus percent="10" >
+						<bonus type="1" first="false"/>
+						<bonus type="2" first="false"/>
+						<bonus type="3" first="false"/>
+						<bonus type="5" first="false"/>
+						<bonus type="6" first="false"/>	
+						<bonus type="8" first="false"/>
+						<bonus type="7" first="false"/>
+					</bonus>				
+				</flakes>
+				
+				<!-- This node give percent for arrival zone by report at basket's width and height -->
+				<baskets zone="5">
+					<basket num="5" numToWin="10" posX="57" posY="58" />
+					<basket num="3" numToWin="10" posX="137" posY="152" />
+					<basket num="1" numToWin="10" posX="680" posY="141" />
+					<basket num="4" numToWin="10" posX="756" posY="58" />
+					<basket num="2" numToWin="10" posX="775" posY="332" />
+				</baskets>
+				
+				<!-- This node describe the differents branches in the level with type, side and percent of height for y positionning -->
+				<branches>
+					<branche type="4" side="left" posY="0" scale="1" />
+					<branche type="5" side="left" posY="277" scale="1" />
+					<branche type="12" side="right" posY="0" scale="1" />
+					<branche type="9" side="right" posY="286" scale="1" />						
+				</branches>
+				
+				<!-- This node describe the differents icicles with type, frequency and percent positionning for x and y
+					dropSpeed is for speed, "in" is the number of drop element before pause, and "out" is the pause number
+				-->
+				<icicles>
+					<icicle type="1" frequency="800" posX="216" posY="104" percent="60" dropSpeed="5" dropIn="3" dropOut="6"/>
+					<icicle type="1" frequency="800" posX="297" posY="88" percent="50" dropSpeed="5" dropIn="5" dropOut="9"/>
+					<icicle type="1" frequency="800" posX="572" posY="83" percent="50" dropSpeed="5" dropIn="4" dropOut="6"/>
+					<icicle type="1" frequency="800" posX="648" posY="104" percent="60" dropSpeed="5" dropIn="3" dropOut="8"/>
+					<icicle type="1" frequency="700" posX="732" posY="356" percent="40" dropSpeed="5" dropIn="4" dropOut="5"/>
+				</icicles>
+				
+				<!-- This node describe the wind strength min and max -->
+				<wind present="false" strengthMin="1" strengthMax="4"  frequencyChange="8000" />
+			</level>
+			
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+			<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+			
+		</levels>		
+	</config>
+</panel>

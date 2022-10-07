@@ -1,0 +1,61 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/spellInventory.swf</swf>
+		<swf type="code">{panelCode}/spellInventory.swf</swf>
+	</swfs>
+	<config>
+		<levels>
+			<level id="1" pointsRequired="0"/>
+			<level id="2" pointsRequired="10"/>
+			<level id="3" pointsRequired="60"/>
+			<level id="4" pointsRequired="120"/>
+			<level id="5" pointsRequired="200"/>
+		</levels>
+	</config>
+	<copy>
+		<cost>#COST#</cost>
+		<effectLabel>Skill Level</effectLabel>
+		<talentLabel>Talent Skills</talentLabel>
+		<labelMentor>My Mentor Fairy</labelMentor>
+		<labelFairy15500>Fawn</labelFairy15500>
+		<labelFairy15501>Iridessa</labelFairy15501>
+		<labelFairy15502>Rosetta</labelFairy15502>
+		<labelFairy15503>Silvermist</labelFairy15503>
+		<labelFairy15504>Tinker Bell</labelFairy15504>
+		<labelChallenges>Challenges Completed</labelChallenges>
+		<copyQuote>Come talk to me for your next Talent Skill!</copyQuote>
+		<challengeCopy>#TOTAL#</challengeCopy>
+		<talentCopyAnimal>Animal-Talent</talentCopyAnimal>
+		<talentCopyGarden>Garden-Talent</talentCopyGarden>
+		<talentCopyLight>Light-Talent</talentCopyLight>
+		<talentCopyWater>Water-Talent</talentCopyWater>
+		<talentCopyTinker>Tinker-Talent</talentCopyTinker>
+		<levelCopy>#LVL# Skill(s) Earned</levelCopy>
+		<unavailable>Locked</unavailable>
+		<lblCost target="skills.lblCost">Pixie Dust Cost</lblCost>
+		
+		<masterLevel>Talent Level #LVL#</masterLevel>
+		<masterLevelRewards>Talent Level #LVL# Rewards</masterLevelRewards>
+		<talentLevel>Talent Level #LVL#</talentLevel>
+		<lvlTitle target="masteryPage.lvlTitle">Talent Levels</lvlTitle>
+		<earnedPoints target="masteryPage.earnedCopy">Talent Points Earned</earnedPoints>
+		<pointCountCopy>#CUR# of #TAR# points</pointCountCopy>
+		<pointCountNeeded>Earn #TAR# Talent Points</pointCountNeeded>
+		<ok>Okay</ok>
+		<dyeHelper>Dye</dyeHelper>
+		<numberedListFormat>#CNT#</numberedListFormat>
+		<recipesUnlocked>#NUM# #CRAFTTYPE# at #SHOPOWNER#'s</recipesUnlocked>
+		<skillUnlocked>Unlock the #NAME# Talent Skill</skillUnlocked>
+		<dustIncreased>More Pixie Dust (#AMT# smidges)</dustIncreased>
+		<skillLockedBtn>Unlocks at level #LEVEL#</skillLockedBtn>
+
+		<btnMasteryView target="skills.masteryBtn.levelCopy">Talent Levels</btnMasteryView>
+		<btnSkillsView target="masteryPage.skillsBackBtn.levelCopy">Talent Skills</btnSkillsView>
+
+		<meterHeader>Talent Points Earned: ###cumulativePoints###</meterHeader>
+
+		<previous>Previous</previous>
+		<next>Next</next>
+		
+	</copy>
+</panel>

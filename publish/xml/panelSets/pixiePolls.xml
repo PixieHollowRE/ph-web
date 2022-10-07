@@ -1,0 +1,20 @@
+<panelSet>
+	<panels>
+		<panel id="poll" x="0" y="0" alwaysOnTop="true" transition="none">{publishPanelData}/pollPanel.xml</panel>
+	</panels>
+	<config>
+		<logolink>true</logolink>
+		<menu>
+			<config nav="true" title="false"/>
+		</menu>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>pixiepolls</trackingid>
+		<sectionid>community</sectionid>
+		<pageid>pixiepolls</pageid>
+	</config>
+	<copy>
+		<menutitle>Pixie Polls</menutitle>
+	</copy>
+
+</panelSet>

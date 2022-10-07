@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/microDots.swf</swf>
+		<swf type="code">{panelCode}/microDots.swf</swf>
+	</swfs>
+	<copy>		
+		<title>Heal</title>		
+		<instructions>Roll over all the patches!</instructions>
+	</copy>
+	<config>
+		<microGameId>Heal</microGameId>
+		<test>false</test>
+		<spellName>heal</spellName>
+		<visuals>
+			<visual id="plain_dot">dot_plain</visual>
+			<visual id="star">Star</visual>
+			<visual id="scoreDot">scoreDot</visual>
+			<visual id="starYellow">yellowStar</visual>
+			<visual id="starBlue">blueStar</visual>
+			<visual id="starGreen">greenStar</visual>
+			<visual id="starPurple">purpleStar</visual>
+			<visual id="starRed">redStar</visual>
+			<visual id="whiteCross">whiteCross</visual>
+			
+			
+		<!-- value to end game: 1053 -->
+		<!-- interaction="roll" -->
+		</visuals>
+		<colors>
+			<color id="red_inner">0xfe8a89</color>
+			<color id="red_outer">0xaa3938</color>
+			<color id="red_upper">0x6d2221</color>
+			<color id="yellow">0xeddd70</color>
+			<color id="blue">0x66b3f4</color>
+			<color id="purple">0xb288f7</color>
+			<color id="red">0xef9380</color>
+			<color id="green">0x8bed8b</color>
+		</colors>
+		<levels>
+			<level number="0" lifetime="9">
+				<!-- click all the dots -->
+				<background color_inner="red_inner" color_outer="red_outer" color_upper="red_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="1" lifetime="9">
+				<!-- click all the dots -->
+				<background color_inner="red_inner" color_outer="red_outer" color_upper="red_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="2" lifetime="9">
+				<!-- click all the dots -->
+				<background color_inner="red_inner" color_outer="red_outer" color_upper="red_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="3" lifetime="9">
+				<!-- click all the dots -->
+				<background color_inner="red_inner" color_outer="red_outer" color_upper="red_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="4" lifetime="9">
+				<!-- click all the dots -->
+				<background color_inner="red_inner" color_outer="red_outer" color_upper="red_upper" />
+				<scoreboard visual="scoreDot"/>
+				<rounds>0,1,2</rounds>
+			</level>
+		</levels>
+		<rounds>
+			<round id="0">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="30" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="40" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="50" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="60" y="random" visual="whiteCross" />				
+				</dots>
+			</round>
+			<round id="1">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="20" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="30" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="40" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="50" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="60" y="random" visual="whiteCross" />				
+				</dots>
+			</round>
+			<round id="2">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="20" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="30" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="40" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="50" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="60" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="70" y="random" visual="whiteCross" />					
+				</dots>
+			</round>
+			<round id="3">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="10" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="20" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="30" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="40" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="50" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="60" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="70" y="random" visual="whiteCross" />							
+				</dots>
+			</round>
+			<round id="4">
+				<area id="0" x="47" y="61" height="126" width="325"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="10" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="20" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="30" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="40" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="50" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="60" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="70" y="random" visual="whiteCross" />
+					<dot interaction="roll" value="10" x="80" y="random" visual="whiteCross" />						
+				</dots>
+			</round>
+		</rounds>		
+	</config>
+</panel>
