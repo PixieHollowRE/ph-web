@@ -18,7 +18,7 @@
 	var varCssPath = baseSwfPath+"css/main.css";
 	document.write('<style type="text/css">@import url('+varCssPath+');</style>');
 </script>
-<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>	
+<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
 </head>
 <body bgcolor="#24304a">
 	<div id="fb-root"></div>
@@ -43,6 +43,7 @@
 			<script type="text/javascript">
 
 				var varSwfPath = baseSwfPath+"swf/container.swf"
+				var var_html_environment = ""; // What am I?
 
 				var flashvars = {};
 				flashvars.session = "xml/sessions/create.xml";
@@ -60,14 +61,14 @@
 					id: "pixiehollowcontent",
 					 name: "pixiehollowcontent"
 				};
-				
-				swfobject.embedSWF(varSwfPath, "flashcontent", "1030", "765", "10.0.0","http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, flashparams, attributes);	
-				
+
+				swfobject.embedSWF(varSwfPath, "flashcontent", "1030", "765", "10.0.0","http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, flashparams, attributes);
+
 				// ]]>
 			</script>
 		</div>
 		<div id="footer">
-			<script type="text/javascript" src="http://ahome.disney.go.com/globalelements/footer.js?footerDisplayMode=legalOnly&footerStyleSet=dark"></script>
+			<!--<script type="text/javascript" src="http://ahome.disney.go.com/globalelements/footer.js?footerDisplayMode=legalOnly&footerStyleSet=dark"></script>-->
 		</div>
 	</div>
 <!-- START DOL Web Analytics 1.0 -->

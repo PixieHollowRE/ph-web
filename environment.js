@@ -1,1 +1,1 @@
-var baseSwfPath = ""
+var baseSwfPath = "./"

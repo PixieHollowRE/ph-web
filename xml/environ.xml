@@ -4,13 +4,13 @@
 	<showVersion>false</showVersion>
 	<securityPolicyPort>843</securityPolicyPort>
 	<host>gameserver.pixiehollow.com</host>
-	<port>443</port>	
+	<port>443</port>
 	<cdnPath>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/</cdnPath>
 	<assetURL>http://a.dolimg.com/pixiehollow/game/</assetURL>
-	<webappURL>http://apps.pixiehollow.go.com/fairies/api</webappURL>
+	<webappURL>http://127.0.0.1:8013/fairies/api</webappURL>
 	<dxdAppsURL>http://apps.dxd.go.com/dxd/flashAPI</dxdAppsURL>
 	<webappURLSSL>https://apps.pixiehollow.go.com/fairies/api</webappURLSSL>
-	<enableSSL>true</enableSSL>
+	<enableSSL>false</enableSSL>
 	<generatedTableURL>xml/GeneratedFiles</generatedTableURL>
 	<PollApiURL>http://quiz.disney.go.com/ratings/fairies/index?def=fairies/</PollApiURL>
 	<franchiseURL>http://disney.go.com/</franchiseURL>
@@ -38,7 +38,7 @@
 	<newsLink><![CDATA[http://cdn.dolimg.com/franchise/fairies/pixie-hollow/xml/pixie-postings/postings.xml]]></newsLink>
 	<moreNewsLink><![CDATA[http://disney.go.com/fairies]]></moreNewsLink>
 	<LinkFor404>http://home.disney.go.com/error/pagenotfound</LinkFor404>
-	<fullscreen>false</fullscreen>	
+	<fullscreen>false</fullscreen>
 	<useUnifiedChat>true</useUnifiedChat>
 	<zazzleInternalURL>zazzle.html</zazzleInternalURL>
 	<zazzleInternalURLPrefix>zazzle.html?fairy_id=</zazzleInternalURLPrefix>

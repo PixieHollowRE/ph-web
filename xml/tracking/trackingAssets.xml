@@ -1,0 +1,558 @@
+<tracking>
+	<pageInfo>
+		<page id="0" name="default" site_section="pixiehollow:website:homepage" content_type="regular"/>
+		<page id="1" name="pagesettings" site_section="pixiehollow:website:mini_manager" content_type="activities"/>
+		<page id="2" name="stationery" site_section="pixiehollow:website:mini_manager" content_type="activities"/>
+		<page id="3" name="youdesign" site_section="pixiehollow:website:mini_manager" content_type="activities"/>
+		<page id="4" name="prospectpage" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="5" name="communityhome" site_section="pixiehollow:website:community" content_type="homepage"/>
+		<page id="6" name="pixiepage" site_section="pixiehollow:website:my_fairies" content_type="activities"/>
+		<page id="7" name="pagesettings" site_section="pixiehollow:website:my_fairies" content_type="activities"/>
+		<page id="8" name="stationery" site_section="pixiehollow:website:my_fairies" content_type="activities"/>
+		<page id="9" name="youdesignit" site_section="pixiehollow:website:my_fairies" content_type="activities"/>
+		<page id="10" name="nevercouncilnews" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="11" name="contestsevents" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="12" name="arrivaldaykit" site_section="pixiehollow:website:community" content_type="downloads"/>
+		<page id="13" name="wallpapersicons" site_section="pixiehollow:website:community" content_type="downloads"/>
+		<page id="14" name="topfairy" site_section="pixiehollow:website:community" content_type="activities"/>
+		<page id="15" name="findafairy" site_section="pixiehollow:website:community" content_type="activities"/>
+		<page id="16" name="betakeyentry" site_section="pixiehollow:website:betakey" content_type="regular"/>
+		<page id="17" name="betaconfirmation" site_section="pixiehollow:website:betakey" content_type="regular"/>
+		<page id="18" name="genericlogin" site_section="pixiehollow:website" content_type="regular"/>
+		<page id="19" name="aboutthegame" site_section="pixiehollow:website:parents" content_type="regular"/>
+		<page id="20" name="parentscorner" site_section="pixiehollow:website:parents" content_type="regular"/>
+		<page id="21" name="parentalcontrols" site_section="pixiehollow:website:parents" content_type="regular"/>
+		<page id="22" name="parentskit" site_section="pixiehollow:website:parents" content_type="downloads"/>
+		<page id="23" name="supportcenter" site_section="pixiehollow:website:support" content_type="regular"/>
+		<page id="24" name="contactus" site_section="pixiehollow:website:support" content_type="regular"/>
+		<page id="25" name="contactusemail" site_section="pixiehollow:website:support" content_type="email"/>
+		<page id="26" name="reportabugemail" site_section="pixiehollow:website:support" content_type="email"/>
+		<page id="27" name="reportabugeventum" site_section="pixiehollow:website:support" content_type="email"/>
+		<page id="28" name="thankyou" site_section="pixiehollow:website:support" content_type="regular"/>
+		<page id="29" name="livechatsupport" site_section="pixiehollow:website:support" content_type="regular"/>
+		<page id="30" name="communitypolicies" site_section="pixiehollow:website:support" content_type="regular"/>
+		<page id="31" name="pixiehollowfaqs" site_section="pixiehollow:website:support" content_type="regular"/>
+		<page id="32" name="knownissues" site_section="pixiehollow:website:support" content_type="regular"/>
+		<page id="33" name="namingguidelines" site_section="pixiehollow:website:support" content_type="regular"/>
+		<page id="34" name="gameguides" site_section="pixiehollow:website:support" content_type="regular"/>
+		<page id="35" name="accountcreation" site_section="pixiehollow:website:accountservices" content_type="services"/>
+		<page id="36" name="accountpurchase" site_section="pixiehollow:website:accountservices" content_type="services"/>
+		<page id="37" name="accountmanagement" site_section="pixiehollow:website:accountservices" content_type="services"/>
+		<page id="38" name="secretredemption" site_section="pixiehollow:website:secretcodes" content_type="regular"/>
+		<page id="39" name="secretfairyselection" site_section="pixiehollow:website:secretcodes" content_type="regular"/>
+		<page id="40" name="secretconfirmation" site_section="pixiehollow:website:secretcodes" content_type="regular"/>
+		<page id="41" name="secretcomingsoon" site_section="pixiehollow:website:secretcodes" content_type="regular"/>
+		<page id="42" name="clickableshome" site_section="pixiehollow:website:clickables" content_type="regular"/>
+		<page id="43" name="clientdownload" site_section="pixiehollow:website:clickables" content_type="downloads"/>
+		<page id="44" name="clickablescharms" site_section="pixiehollow:website:clickables" content_type="regular"/>
+		<page id="45" name="clickablesspeedchat" site_section="pixiehollow:website:clickables" content_type="regular"/>
+		<page id="46" name="clickableslcdcover" site_section="pixiehollow:website:clickables" content_type="regular"/>
+		<page id="47" name="clickablessupport" site_section="pixiehollow:website:clickables" content_type="regular"/>
+		<page id="48" name="clickablestutorial" site_section="pixiehollow:website:clickables" content_type="downloads"/>
+		<page id="49" name="talentscreen" site_section="pixiehollow:website:gameplay" content_type="activities"/>
+		<page id="50" name="bodyscreen" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="51" name="setsize" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="52" name="setface" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="53" name="sethair" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="54" name="setwings" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="55" name="wardrobescreen" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="56" name="setshirt" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="57" name="setskirt" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="58" name="setsashes" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="59" name="setheadpieces" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="60" name="setnecklaces" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="61" name="setbracelets" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="62" name="setanklets" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="63" name="setshoes" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="64" name="namescreen" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="65" name="posescreen" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="66" name="savescreen" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="67" name="entry_dewdrop_vale" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="68" name="entry_treetop_bend" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="69" name="entry_cherry_heights" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="70" name="entry_never_thicket" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="71" name="entry_sprint_orchard" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="72" name="entry_own" site_section="pixiehollow:ingame:fairy_home" content_type="activities"/>
+		<page id="73" name="entry_other" site_section="pixiehollow:ingame:fairy_home" content_type="activities"/>
+		<page id="74" name="todolist_page" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="75" name="wardrobe_page" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="76" name="storage_page" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="77" name="profile_page" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="78" name="badges_page" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="79" name="options_page" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="80" name="entry_firefly_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="81" name="entry_fireworks_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="82" name="entry_fish_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="83" name="entry_dewdrops_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="84" name="entry_petals_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="85" name="entry_collapse_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="86" name="exit_firefly_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="87" name="exit_fireworks_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="88" name="exit_fish_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="89" name="exit_dewdrops_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="90" name="exit_petals_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="91" name="exit_collapse_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="92" name="overview" site_section="pixiehollow:ingame:pixiepostings" content_type="activities"/>
+		<page id="93" name="homesweet" site_section="pixiehollow:ingame:pixiepostings" content_type="activities"/>
+		<page id="94" name="featuredbadge" site_section="pixiehollow:ingame:pixiepostings" content_type="activities"/>
+		<page id="95" name="seasonalscoop" site_section="pixiehollow:ingame:pixiepostings" content_type="activities"/>
+		<page id="96" name="mainland" site_section="pixiehollow:ingame:pixiepostings" content_type="activities"/>
+		<page id="97" name="tabbystellall" site_section="pixiehollow:ingame:pixiepostings" content_type="activities"/>
+		<page id="98" name="artbox" site_section="pixiehollow:ingame:pixiepostings" content_type="activities"/>
+		<page id="99" name="pixiepoets" site_section="pixiehollow:ingame:pixiepostings" content_type="activities"/>
+		<page id="100" name="fairytales" site_section="pixiehollow:ingame:pixiepostings" content_type="activities"/>
+		<page id="101" name="talentspot" site_section="pixiehollow:ingame:pixiepostings" content_type="activities"/>
+		<page id="102" name="entry_maple_tree" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="103" name="entry_pumpkin_patch" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="104" name="subscriptiontypes" site_section="pixiehollow:website:purchase" content_type="regular"/>
+		<page id="105" name="getparent" site_section="pixiehollow:website:purchase" content_type="regular"/>
+		<page id="106" name="parentalauthorization" site_section="pixiehollow:website:purchase" content_type="regular"/>
+		<page id="107" name="parentcomprefs" site_section="pixiehollow:website:purchase" content_type="regular"/>
+		<page id="108" name="paymenttype" site_section="pixiehollow:website:purchase" content_type="regular"/>
+		<page id="109" name="toumsa" site_section="pixiehollow:website:purchase" content_type="regular"/>
+		<page id="110" name="congratulations" site_section="pixiehollow:website:purchase" content_type="regular"/>
+		<!--page id="111" name="welcomekit" site_section="pixiehollow:website:community" content_type="downloads"/-->
+		<page id="112" name="membershiphub" site_section="pixiehollow:website:accountservices" content_type="regular"/>
+		<page id="113" name="popup" site_section="pixiehollow:ingame:velvetrope" content_type="activities"/>
+		<page id="114" name="clickableshome" site_section="pixiehollow:website:clickables" content_type="regular"/>
+		<page id="115" name="clickablesbadges" site_section="pixiehollow:website:clickables" content_type="regular"/>
+		<page id="116" name="clickablescharms" site_section="pixiehollow:website:clickables" content_type="regular"/>
+		<page id="117" name="clickablesspeedchat" site_section="pixiehollow:website:clickables" content_type="regular"/>
+		<page id="118" name="cancelhome" site_section="pixiehollow:website:cancellation" content_type="regular"/>
+		<page id="119" name="cancelaccounterror" site_section="pixiehollow:website:cancellation" content_type="regular"/>
+		<page id="120" name="cancelmultiaccterror" site_section="pixiehollow:website:cancellation" content_type="regular"/>
+		<page id="121" name="cancelgcgperror" site_section="pixiehollow:website:cancellation" content_type="regular"/>
+		<page id="122" name="cancelchilderror" site_section="pixiehollow:website:cancellation" content_type="regular"/>
+		<page id="123" name="cancelmemberglance" site_section="pixiehollow:website:cancellation" content_type="regular"/>
+		<page id="124" name="cancelconfirmed" site_section="pixiehollow:website:cancellation" content_type="regular"/>
+		<page id="125" name="cancelcallcs" site_section="pixiehollow:website:cancellation" content_type="regular"/>
+		<page id="126" name="congratulations" site_section="pixiehollow:website:registration" content_type="regular"/>
+		<page id="127" name="bloglandingpage" site_section="pixiehollow:website:blogs" content_type="regular"/>
+		<page id="128" name="blogcomments" site_section="pixiehollow:website:blogs" content_type="regular"/>
+		<page id="129" name="flashupgrade" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="130" name="firstvisitprospect" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="131" name="pixiepolls" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="132" name="fairystory" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="133" name="myfairy" site_section="pixiehollow:website:pixiepages" content_type="regular"/>
+		<page id="134" name="memberfaq" site_section="pixiehollow:website:accountservices" content_type="regular"/>
+		<page id="135" name="toypage" site_section="pixiehollow:website:toys" content_type="regular"/>
+		<page id="136" name="accountmanager" site_section="pixiehollow:website:support" content_type="regular"/>
+		<page id="137" name="pastdownloads" site_section="pixiehollow:website:community" content_type="downloads"/>
+		<page id="138" name="contestswinners" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="139" name="artgallery" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="140" name="ugcsubmit" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="141" name="entry_cotton_puff" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="142" name="entry_acorn_summit" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="143" name="entry_snowcap_glade" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="144" name="entry_evergreen_overlook" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="145" name="entry_chilly_falls" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="146" name="entry_neverfruit_orchard" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="147" name="entry_palmtree_beach" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="148" name="entry_sunflower_grotto" site_section="pixiehollow:ingame:meadows" content_type="activities"/>
+		<page id="149" name="bobbin_spring" site_section="pixiehollow:ingame:tailoring" content_type="activities"/>
+		<page id="150" name="mendy_autumn" site_section="pixiehollow:ingame:tailoring" content_type="activities"/>
+		<page id="151" name="harmony_home" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="152" name="treetop_house" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="153" name="bella_baubles" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="154" name="brook_basics" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="155" name="summit_style" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="156" name="prisms_paints" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="157" name="daisys_dyes" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="158" name="embers_essentials" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="159" name="gales_outfitters" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="160" name="hair_salon" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="161" name="party_shop" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="162" name="tinkerbell_area" site_section="pixiehollow:ingame:quests" content_type="activities"/>
+		<page id="163" name="fawn_area" site_section="pixiehollow:ingame:quests" content_type="activities"/>
+		<page id="164" name="silvermist_area" site_section="pixiehollow:ingame:quests" content_type="activities"/>
+		<page id="165" name="rosetta_area" site_section="pixiehollow:ingame:quests" content_type="activities"/>
+		<page id="166" name="iridessa_area" site_section="pixiehollow:ingame:quests" content_type="activities"/>
+		<page id="167" name="crafts_page" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="168" name="quests_page" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="169" name="entry_snowflake_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="170" name="entry_sorting_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="171" name="entry_lullaby_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="172" name="exit_snowflake_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="173" name="exit_sorting_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="174" name="exit_lullaby_game" site_section="pixiehollow:ingame:minigame" content_type="activities"/>
+		<page id="175" name="aboutthegame_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="176" name="toypage" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="177" name="cancelhome_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="178" name="clickableshome_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="179" name="communityhub_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="180" name="congratulations_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="181" name="contactus_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="182" name="contestshome_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="183" name="contestswinners_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="184" name="create_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="185" name="dname_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="186" name="welcomekit_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="187" name="arrivaldaykit_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="188" name="draw_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="189" name="events_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="190" name="fairydirectory_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="191" name="pixiehollowfaqs_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="192" name="findafairy_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="193" name="gamecards_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="194" name="communitypolicies_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="195" name="guestpass_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="196" name="index_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="197" name="knownissues_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="198" name="live_mmo_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="199" name="livechatsupport_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="200" name="mem_congratulations_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="201" name="memberfaq_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="202" name="membershiphub_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="203" name="msa_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="204" name="nevercouncilnews_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="205" name="parentalcontrols_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="206" name="parentscorner_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="207" name="pastdownloads_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="208" name="pixiepolls_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="209" name="secretredemption_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="210" name="speedchat_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="211" name="stationary_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="212" name="termsofuse_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="213" name="topfairies_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="214" name="artgallery_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="215" name="ugcsubmit_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="216" name="zazzle_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="217" name="fairypage_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="218" name="pixiepage" site_section="pixiehollow:website:mini_manager" content_type="activities"/>
+		<page id="219" name="reg_congratulations" site_section="pixiehollow:website:registration" content_type="regular"/>
+		<page id="220" name="pur_congratulations" site_section="pixiehollow:website:purchase" content_type="regular"/>	
+		<page id="221" name="learnmore" site_section="pixiehollow:website:accountservices" content_type="regular"/>
+		<page id="222" name="dname" site_section="pixiehollow:website:accountservices" content_type="regular"/>
+		<page id="223" name="speedchat" site_section="pixiehollow:website:accountservices" content_type="regular"/>
+		<page id="224" name="termsofuse" site_section="pixiehollow:website:accountservices" content_type="regular"/>
+		<page id="225" name="aboutdolls" site_section="pixiehollow:website:toys" content_type="regular"/>
+		<page id="226" name="contestshome" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="227" name="contests_submit" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="228" name="contests_thankyou" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="229" name="contests_home_butterflybuddy" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="230" name="clickplay_winners" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="231" name="tinksweepstakes_winners" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="232" name="ugctypes" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="233" name="ugcthankyou" site_section="pixiehollow:website:community" content_type="regular"/>
+		<!--page id="234" name="events" site_section="pixiehollow:website:community" content_type="regular"/-->
+		<page id="235" name="events" site_section="pixiehollow:website:blogs" content_type="regular"/>
+		<page id="236" name="communityhome_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="237" name="ph_msa" site_section="pixiehollow:website:accountservices" content_type="regular"/>
+		<page id="238" name="nevernews" site_section="pixiehollow:website:blogs" content_type="regular"/>
+		<page id="239" name="welcomekitbtn" site_section="pixiehollow:website:community" content_type="downloads"/>
+		<page id="240" name="index_candystand_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="241" name="index_miniclip_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="242" name="index_distribution_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="243" name="dist_fairypage_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="244" name="greatgameswinners_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="245" name="pixiehollowCalendar_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="246" name="camppixiedust_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="247" name="campcounselors_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="248" name="lyria_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="249" name="index_wildtangent_html" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="250" name="index_wildtangent_html_ac" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="251" name="index_wildtangent_html_dl" site_section="pixiehollow:website:html" content_type="regular"/>		
+		<page id="252" name="index_wildtangent_html_em" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="253" name="index_wildtangent_html_gy" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="254" name="index_wildtangent_html_hp" site_section="pixiehollow:website:html" content_type="regular"/>
+		<page id="255" name="index_wildtangent_html_pb" site_section="pixiehollow:website:html" content_type="regular"/>								
+		<page id="256" name="index_wildtangent_html_to" site_section="pixiehollow:website:html" content_type="regular"/>	
+						
+		<page id="259" name="vrope_baking_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="260" name="vrope_tailoring_mendy_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="261" name="vrope_tailoring_bobbin_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="262" name="vrope_tinkering_copper_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="263" name="vrope_ballroom_closed_membersonly_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="264" name="vrope_ballroom_membersonly_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="265" name="vrope_dyeshop_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="266" name="vrope_dyeshop_redye_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="267" name="vrope_partyshop_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="268" name="vrope_wsshop_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="269" name="vrope_hairsalon_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="270" name="vrope_talgamesprev_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="271" name="vrope_talgamesdiff_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="272" name="vrope_wild_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="273" name="vrope_quests_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="274" name="vrope_hairsalon_try_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="275" name="vrope_ws_journal_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="276" name="vrope_ws_try_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="277" name="vrope_party_host_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="278" name="vrope_teagames_crazy8_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="279" name="vrope_ballroom_closed_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="280" name="vrope_afnpcs_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+		<page id="281" name="vrope_talgamesmemonly_open" site_section="pixiehollow:ingame:velvetrope" content_type="activities" />
+		
+		<page id="310" name="wallet_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="311" name="learnmore_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="312" name="bellasbaubles_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="313" name="brookesbasics_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="314" name="summitstyle_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="315" name="galesoutfitters_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="316" name="cassiescostumes_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="317" name="coalsclothier_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="318" name="gavinsgear_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="319" name="zephyrszoomroom_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="320" name="postoffice_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="321" name="harmonyshomecollection_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="322" name="treetophousewares_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="323" name="embersessentials_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="324" name="daisysdyes_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="325" name="prismspaints_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="326" name="colettescolors_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="327" name="sunnysshades_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="328" name="phoebespartyfavors_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="329" name="schellysshears_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="330" name="becksanimalnursery_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="331" name="nevillesnewhomes_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="332" name="upgrade_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="333" name="queensboutique_oops_open" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+	</pageInfo>
+	<links>
+		<page id="0" name="chooselight" site_section="pixiehollow:ingame:createafairy" content_type="activities"/>
+		<page id="1" name="choosewater" site_section="pixiehollow:ingame:createafairy" content_type="activities"/>
+		<page id="2" name="chooseanimal" site_section="pixiehollow:ingame:createafairy" content_type="activities"/>
+		<page id="3" name="choosegarden" site_section="pixiehollow:ingame:createafairy" content_type="activities"/>
+		<page id="4" name="printfairy" site_section="pixiehollow:ingame:createafairy" content_type="activities"/>
+		<page id="5" name="savefairy" site_section="pixiehollow:ingame:createafairy" content_type="activities"/>
+		<page id="6" name="caf_playnow" site_section="pixiehollow:ingame:playbutton" content_type="activities"/>
+		<page id="7" name="nav_playnow" site_section="pixiehollow:website:playbutton" content_type="activities"/>
+		<page id="8" name="hub_playnow" site_section="pixiehollow:website:playbutton" content_type="activities"/>
+		<page id="9" name="prospect_playnow" site_section="pixiehollow:website:playbutton" content_type="activities"/>
+		<page id="10" name="mini_playnow" site_section="pixiehollow:website:mini_manager" content_type="activities"/>
+		<page id="11" name="mini_slot_createfairy" site_section="pixiehollow:website:gameplay" content_type="activities"/>
+		<page id="12" name="mini_full_createfairy" site_section="pixiehollow:website:gameplay" content_type="activities"/>
+		<page id="13" name="compass" site_section="pixiehollow:website:gameui" content_type="activities"/>
+		<page id="14" name="pouch" site_section="pixiehollow:website:gameui" content_type="activities"/>
+		<page id="15" name="tutorials" site_section="pixiehollow:website:gameui" content_type="activities"/>
+		<page id="16" name="secretcodes_playnow" site_section="pixiehollow:website:playbutton" content_type="activities"/>
+		<page id="17" name="reg_congrats_play" site_section="pixiehollow:website:registration" content_type="activities"/>
+		<page id="18" name="purchase_playnow" site_section="pixiehollow:website:playbutton" content_type="activities"/>
+		<page id="19" name="" site_section="" content_type=""/>
+		<page id="20" name="pod_events" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="21" name="pod_fanart" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="23" name="pod_fanart" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="24" name="gameguides" site_section="pixiehollow:website:support" content_type="regular"/>
+		<page id="25" name="vrope_close" site_section="pixiehollow:website:velvetrope" content_type="activities"/>
+		<page id="26" name="vrope_learnmore" site_section="pixiehollow:website:velvetrope" content_type="activities"/>
+		<page id="27" name="vreop_become" site_section="pixiehollow:website:velvetrope" content_type="activities"/>
+		<page id="28" name="clickableslcdcover" site_section="pixiehollow:website:clickables" content_type="activities"/>
+		<page id="29" name="clickablesclient" site_section="pixiehollow:website:clickables" content_type="downloads"/>
+		<page id="30" name="" site_section="" content_type=""/>
+		<page id="31" name="mini_signup" site_section="pixiehollow:website:mini_manager" content_type="regular"/>
+
+		<page id="32" name="pod_newsevents" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="33" name="pod_member" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="34" name="pod_aboutph" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="35" name="pod_parents" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="36" name="pod_toys" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="37" name="pod_secretcodes" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="38" name="pod_clickables" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="39" name="pod_whatsnew" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="40" name="pod_member" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="41" name="pod_newdownloads" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="42" name="pod_parentsfun" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="43" name="pod_pixiepoll" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="44" name="becomemember_button" site_section="pixiehollow:website:accountservices" content_type="regular"/>
+		<page id="45" name="choosetinker" site_section="pixiehollow:ingame:createafairy" content_type="activities"/>
+		<page id="46" name="home" site_section="pixiehollow:website:gameui" content_type="activities"/>
+		<page id="47" name="friends" site_section="pixiehollow:website:gameui" content_type="activities"/>
+		<page id="48" name="pixiepage" site_section="pixiehollow:website:mini_manager" content_type="activities"/>
+		<page id="49" name="pod_yourvoice" site_section="pixiehollow:website:community" content_type="regular"/>
+		<page id="50" name="becomemember_button_monthly" site_section="pixiehollow:website:accountservices" content_type="regular"/>
+		<page id="51" name="becomemember_button_semiannual" site_section="pixiehollow:website:accountservices" content_type="regular"/>
+		<page id="52" name="becomemember_button_annual" site_section="pixiehollow:website:accountservices" content_type="regular"/>
+		<page id="53" name="gift" site_section="pixiehollow:website:accountservices" content_type="regular"/>
+		<page id="54" name="redeemmagicmembership" site_section="pixiehollow:website:accountservices" content_type="regular"/>
+		<page id="55" name="welcomekitbtn" site_section="pixiehollow:website:community" content_type="downloads"/>
+		<page id="56" name="arrivaldaykit" site_section="pixiehollow:website:community" content_type="downloads"/>
+
+		<page id="57" name="reg_purchase_button" site_section="pixiehollow:website:registration" content_type="regular"/>
+		<page id="58" name="cs_become_a_fairy" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="59" name="cs_tailor_fashions" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="60" name="cs_dress_in_style" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="61" name="cs_celebrate_with_friends" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="62" name="dis_clover_celebration" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="63" name="dis_baking" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="64" name="dis_hair_salon" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="65" name="mc_become_a_fairy" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="66" name="mc_tailor_fashions" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="67" name="mc_dress_in_style" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="68" name="mc_celebrate_with_friends" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="69" name="mc_clover_celebration" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="70" name="mc_baking" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="71" name="mc_hair_salon" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="72" name="cs_startbutton" site_section="pixiehollow:website:playbutton" content_type="homepage"/>
+		<page id="73" name="mc_startbutton" site_section="pixiehollow:website:playbutton" content_type="homepage"/>
+		<page id="74" name="ph_startbutton" site_section="pixiehollow:website:playbutton" content_type="homepage"/>
+		<page id="75" name="ph_become_a_fairy" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="76" name="ph_tailor_fashions" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="77" name="ph_dress_in_style" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="78" name="ph_celebrate_with_friends" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="79" name="ph_clover_celebration" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="80" name="ph_baking" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="81" name="ph_hair_salon" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="82" name="mc_animal_friend" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="83" name="mc_tinkering" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="84" name="mc_nature_days" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="85" name="cs_animal_friend" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="86" name="cs_tinkering" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="87" name="cs_nature_days" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="88" name="ph_animal_friend" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="89" name="ph_tinkering" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="90" name="ph_nature_days" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="91" name="cs_play_games" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="92" name="cs_play_games_tinkerbell" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+		<page id="93" name="wt_startbutton" site_section="pixiehollow:website:playbutton" content_type="homepage"/>
+		<page id="95" name="wt_become_a_fairy" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+
+	    <page id="96" name="vrope_baking_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="97" name="vrope_baking_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="98" name="vrope_tailoring_mendy_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="99" name="vrope_tailoring_mendy_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="100" name="vrope_tailoring_bobbin_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="101" name="vrope_tailoring_bobbin_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="102" name="vrope_tinkering_copper_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="103" name="vrope_tinkering_copper_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="104" name="vrope_ballroom_closed_membersonly_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="105" name="vrope_ballroom_closed_membersonly_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="106" name="vrope_ballroom_membersonly_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="107" name="vrope_ballroom_membersonly_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="108" name="vrope_dyeshop_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="109" name="vrope_dyeshop_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="110" name="vrope_dyeshop_redye_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="111" name="vrope_dyeshop_redye_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="112" name="vrope_partyshop_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="113" name="vrope_partyshop_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="114" name="vrope_wsshop_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="115" name="vrope_wsshop_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="116" name="vrope_hairsalon_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="117" name="vrope_hairsalon_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="118" name="vrope_talgamesprev_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="119" name="vrope_talgamesprev_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="120" name="vrope_talgamesdiff_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="121" name="vrope_talgamesdiff_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="122" name="vrope_wild_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="123" name="vrope_wild_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="124" name="vrope_quests_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="125" name="vrope_quests_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="126" name="vrope_hairsalon_try_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="127" name="vrope_hairsalon_try_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="128" name="vrope_ws_journal_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="129" name="vrope_ws_journal_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="130" name="vrope_ws_try_try_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="131" name="vrope_ws_try_try_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="132" name="vrope_party_host_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="133" name="vrope_party_host_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="134" name="vrope_teagames_crazy8_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="135" name="vrope_teagames_crazy8_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="136" name="vrope_ballroom_closed_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="137" name="vrope_afnpcs_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="138" name="vrope_afnpcs_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="139" name="vrope_talgamesmemonly_become" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+	    <page id="140" name="vrope_talgamesmemonly_x" site_section="pixiehollow:ingame:velvetrope" content_type="activities" /> 
+
+		<page id="401" name="fb_caf_posted_content" site_section="pixiehollow:website:createafairy" content_type="activities"/>
+		<page id="402" name="fb_invite_friends_clicked_share" site_section="pixiehollow:ingame:fbchrome" content_type="activities"/>
+		<page id="403" name="fb_invite_friends_posted_content" site_section="pixiehollow:ingame:fbchrome" content_type="activities"/>
+		<page id="404" name="fb_gained_level_clicked_share" site_section="pixiehollow:ingame:misc" content_type="activities"/>
+		<page id="405" name="fb_gained_level_posted_content" site_section="pixiehollow:ingame:misc" content_type="activities"/>
+		<page id="406" name="fb_earned_badge_clicked_share" site_section="pixiehollow:ingame:misc" content_type="activities"/>
+		<page id="407" name="fb_earned_badge_posted_content" site_section="pixiehollow:ingame:misc" content_type="activities"/>
+		<page id="408" name="fb_share_badge_from_journal_clicked_share" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="409" name="fb_share_badge_from_journal_posted_content" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="410" name="fb_bought_animal_friend_clicked_share" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="411" name="fb_bought_animal_friend_posted_content" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="412" name="fb_share_outfit_from_journal_clicked_share" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="413" name="fb_share_outfit_from_journal_posted_content" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="414" name="fb_share_animal_friend_from_journal_clicked_share" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="415" name="fb_share_animal_friend_from_journal_posted_content" site_section="pixiehollow:ingame:leaf_journal" content_type="activities"/>
+		<page id="416" name="fb_share_outfit_from_catalog_clicked_share" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="417" name="fb_share_outfit_from_catalog_posted_content" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="418" name="fb_share_hairdo_from_salon_clicked_share" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+		<page id="419" name="fb_share_hairdo_from_salon_posted_content" site_section="pixiehollow:ingame:shops" content_type="activities"/>
+
+	    <page id="500" name="cs_make_friends" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+	    <page id="501" name="mc_make_friends" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+	    <page id="502" name="wt_make_friends" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+	    <page id="503" name="ph_make_friends" site_section="pixiehollow:website:homepage" content_type="homepage"/>
+	    
+	    
+		
+		<page id="594" name="wallet_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="595" name="learnmore_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="596" name="learnmore_learnmore" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="597" name="learnmore_close" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="598" name="learnmore_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="599" name="postoffice_main_menu_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		
+		<page id="600" name="bellasbaubles_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="601" name="bellasbaubles_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="602" name="bellasbaubles_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="603" name="brookesbasics_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="604" name="brookesbasics_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="605" name="brookesbasics_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="606" name="summitstyle_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="607" name="summitstyle_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="608" name="summitstyle_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="609" name="galesoutfitters_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="610" name="galesoutfitters_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="611" name="galesoutfitters_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="612" name="cassiescostumes_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="613" name="cassiescostumes_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="614" name="cassiescostumes_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="615" name="coalsclothier_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="616" name="coalsclothier_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="617" name="coalsclothier_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="618" name="gavinsgear_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="619" name="gavinsgear_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="620" name="gavinsgear_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="621" name="zephyrszoomroom_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="622" name="zephyrszoomroom_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="623" name="zephyrszoomroom_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="624" name="postoffice_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="625" name="postoffice_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="626" name="postoffice_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="627" name="harmonyshomecollection_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="628" name="harmonyshomecollection_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="629" name="harmonyshomecollection_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="630" name="treetophousewares_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="631" name="treetophousewares_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="632" name="treetophousewares_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="633" name="embersessentials_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="634" name="embersessentials_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="635" name="embersessentials_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="636" name="daisysdyes_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="637" name="daisysdyes_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="638" name="daisysdyes_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="639" name="prismspaints_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="640" name="prismspaints_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="641" name="prismspaints_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="642" name="colettescolors_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="643" name="colettescolors_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="644" name="colettescolors_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="645" name="sunnysshades_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="646" name="sunnysshades_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="647" name="sunnysshades_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="648" name="phoebespartyfavors_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="649" name="phoebespartyfavors_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="650" name="phoebespartyfavors_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="651" name="schellysshears_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="652" name="schellysshears_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="653" name="schellysshears_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="654" name="becksanimalnursery_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="655" name="becksanimalnursery_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="656" name="becksanimalnursery_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="657" name="nevillesnewhomes_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="658" name="nevillesnewhomes_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="659" name="nevillesnewhomes_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="660" name="upgrade_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="661" name="upgrade_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="662" name="upgrade_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="663" name="pouch_no_seeds_buy_more_btn" site_section="pixiehollow:ingame:pouch" content_type="activities"/>
+		<page id="664" name="queensboutique_oops_x" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="665" name="queensboutique_oops_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="666" name="queensboutique_oops_learn_more" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+		<page id="667" name="tradecomplete_buy_diamonds" site_section="pixiehollow:ingame:diamonds" content_type="activities"/>
+      
+	</links>
+</tracking>
