@@ -2,13 +2,13 @@
 <session>
 	<params>
 		<type>standalone</type>
-		<initialContent>{panelSetData}caf.xml</initialContent>
+		<initialContent>{panelSetData}/caf.xml</initialContent>
 		<menu/>
 	</params>
 	<copy>
-		
-		
-		
+
+
+
 	</copy>
 
 </session>
