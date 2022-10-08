@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<powered>
+	<!-- Static Data -->
+	<static>
+		<item name="powered">Powered by Pixie Dust</item>
+		<item name="staytuned">Stay tuned for more cool stuff</item>
+	</static>
+	
+	<!-- Phrases -->
+	<phraseslist>
+		<phrase>Pixie Pals</phrase>
+		<phrase>Wish Upon a Fairy</phrase>
+		<phrase>Impossible To Catch</phrase>
+		<phrase>Where There’s Light, There’s a Fairy</phrase>
+		<phrase>Fairies Don’t Glitter - We Glow</phrase>
+		<phrase>Fly by Attitude</phrase>
+		<phrase>We’re All About the Glow</phrase>
+		<phrase>Small Is the New Big</phrase>
+		<phrase>“Happy Dustings!”</phrase>
+		<phrase>“Friends are forever!”</phrase>
+	</phraseslist>
+</powered>

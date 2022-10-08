@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fairies_main>
+	<page id="main" defaultPage="home">
+
+
+		<!-- The id="" should match the url. The defaultPage="" is optional (defaults to the id=""), and should match the page id in the destination xml. -->
+		<page id="home" xml="xml/home.xml"><title></title></page>
+		<page id="games" xml="xml/games.xml" sitemap="games"><title>Games</title></page>
+		<page id="games/viewall" xml="xml/games-viewall.xml" sitemap="games"><title>Games</title></page>
+
+		<!-- this order is important. the longer url should come first so it matches before a shorter url gets matched. aka - viewall pages should go first. -->
+		<page id="activities" xml="xml/activities.xml" sitemap="activities"><title>Activities</title></page>
+		<page id="activities/viewall" xml="xml/activities-viewall.xml"  sitemap="activities"><title>Activities</title></page>
+		<!-- catch these viewall urls before the detail pages get matched... -->
+		<page id="activities/printables/viewall" defaultPage="activities/viewall" xml="xml/activities-viewall.xml" sitemap="activities"><title>Activities</title></page>
+		<page id="activities/crafts/viewall" defaultPage="activities/viewall" xml="xml/activities-viewall.xml" sitemap="activities"><title>Activities</title></page>
+		<page id="activities/recipes/viewall" defaultPage="activities/viewall" xml="xml/activities-viewall.xml" sitemap="activities"><title>Activities</title></page>
+		<page id="activities/downloads/viewall" defaultPage="activities/viewall" xml="xml/activities-viewall.xml" sitemap="activities"><title>Activities</title></page>
+		<!-- now list the detail pages. -->
+		<page id="activities/crafts" xml="xml/crafts.xml" sitemap="crafts"><title>Crafts</title></page>
+		<page id="activities/printables" xml="xml/printables.xml" sitemap="printables"><title>Printables</title></page>
+		<page id="activities/recipes" xml="xml/recipes.xml" sitemap="recipes"><title>Recipes</title></page>
+		<page id="activities/downloads" xml="xml/downloads.xml" sitemap="downloads"><title>Downloads</title></page>
+
+		<page id="characters" xml="xml/characters/character-home.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="characters/periwinkle" xml="xml/characters/periwinkle.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Periwinkle</copy></page>
+		<page id="characters/chloe" xml="xml/characters/chloe.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Chloe</copy></page>
+		<page id="characters/glimmer" xml="xml/characters/glimmer.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Glimmer</copy></page>
+		<page id="characters/rumble" xml="xml/characters/rumble.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Rumble</copy></page>
+		<page id="characters/tinker-bell" xml="xml/characters/tinkerbell.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Tinker Bell</copy></page>
+		<page id="characters/rosetta" xml="xml/characters/rosetta.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Rosetta</copy></page>
+		<page id="characters/vidia" xml="xml/characters/vidia.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Vidia</copy></page>
+		<page id="characters/silvermist" xml="xml/characters/silvermist.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Silvermist</copy></page>
+		<page id="characters/fawn" xml="xml/characters/fawn.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Fawn</copy></page>
+		<page id="characters/iridessa" xml="xml/characters/iridessa.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Iridessa</copy></page>
+		<page id="characters/fairy-gary" xml="xml/characters/fairygary.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Fairy Gary</copy></page>
+		<page id="characters/fairy-mary" xml="xml/characters/fairymary.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Fairy Mary</copy></page>
+		<page id="characters/clank" xml="xml/characters/clank.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Clank</copy></page>
+		<page id="characters/bobble" xml="xml/characters/bobble.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Bobble</copy></page>
+		<page id="characters/terence" xml="xml/characters/terence.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Terence</copy></page>
+		<page id="characters/dr-griffiths" xml="xml/characters/mrgriffiths.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Dr. Griffiths</copy></page>
+		<page id="characters/lizzy" xml="xml/characters/lizzy.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Lizzy</copy></page>
+		<page id="characters/mr-twitches" xml="xml/characters/twitches.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Mr. Twitches</copy></page>
+		<page id="characters/blaze" xml="xml/characters/blaze.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Blaze</copy></page>
+		<page id="characters/cheese" xml="xml/characters/cheese.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Cheese</copy></page>
+		<page id="characters/dr-owl" xml="xml/characters/drowl.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Dr. Owl</copy></page>
+		<page id="characters/grimsley" xml="xml/characters/grimsley.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Grimsley</copy></page>
+		<page id="characters/leech" xml="xml/characters/leech.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Leech</copy></page>
+		<page id="characters/queen-clarion" xml="xml/characters/queenclarion.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Queen Clarion</copy></page>
+		<page id="characters/minister-of-autumn" xml="xml/characters/ministerautumn.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Minister of Autumn</copy></page>
+		<page id="characters/minister-of-winter" xml="xml/characters/ministerwinter.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Minister of Winter</copy></page>
+		<page id="characters/minister-of-spring" xml="xml/characters/ministerspring.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Minister of Spring</copy></page>
+		<page id="characters/minister-of-summer" xml="xml/characters/ministersummer.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Minister of Summer</copy></page>
+
+		<page id="characters/lily" xml="xml/characters/lily.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Lily</copy></page>
+		<page id="characters/prilla" xml="xml/characters/prilla.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Prilla</copy></page>
+		<page id="characters/rani" xml="xml/characters/rani.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Rani</copy></page>
+		<page id="characters/bess" xml="xml/characters/bess.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Bess</copy></page>
+		<page id="characters/beck" xml="xml/characters/beck.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Beck</copy></page>
+		<page id="characters/fira" xml="xml/characters/fira.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Fira</copy></page>
+		<page id="characters/sweet-pea" xml="xml/characters/sweetpea.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Sweet Pea</copy></page>
+		<page id="characters/marina" xml="xml/characters/marina.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Marina</copy></page>
+		<page id="characters/slate" xml="xml/characters/slate.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Slate</copy></page>
+		<page id="characters/kit" xml="xml/characters/kit.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Kit</copy></page>
+		<page id="characters/tabby" xml="xml/characters/tabby.xml" sitemap="characters"><title>Fairies & Friends</title><copy>Tabby</copy></page>
+		<page id="characters/viewall" xml="xml/characters/characters-viewall.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="tinker-bell/viewall" xml="xml/characters/tinkerbell.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="tinker-bell/house-gallery" xml="xml/characters/tinkerbell.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="tinker-bell/gallery" xml="xml/characters/tinkerbell.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="tinker-bell/videos" xml="xml/characters/tinkerbell.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="vidia/viewall" xml="xml/characters/vidia.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="vidia/house-gallery" xml="xml/characters/vidia.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="vidia/gallery" xml="xml/characters/vidia.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="vidia/videos" xml="xml/characters/vidia.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="silvermist/viewall" xml="xml/characters/silvermist.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="silvermist/house-gallery" xml="xml/characters/silvermist.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="silvermist/gallery" xml="xml/characters/silvermist.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="silvermist/videos" xml="xml/characters/silvermist.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fawn/viewall" xml="xml/characters/fawn.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fawn/house-gallery" xml="xml/characters/fawn.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fawn/gallery" xml="xml/characters/fawn.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fawn/videos" xml="xml/characters/fawn.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="iridessa/viewall" xml="xml/characters/iridessa.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="iridessa/house-gallery" xml="xml/characters/iridessa.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="iridessa/gallery" xml="xml/characters/iridessa.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="iridessa/videos" xml="xml/characters/iridessa.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="rosetta/viewall" xml="xml/characters/rosetta.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="rosetta/house-gallery" xml="xml/characters/rosetta.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="rosetta/gallery" xml="xml/characters/rosetta.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="rosetta/videos" xml="xml/characters/rosetta.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fairy-gary/viewall" xml="xml/characters/fairygary.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fairy-gary/house-gallery" xml="xml/characters/fairygary.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fairy-gary/gallery" xml="xml/characters/fairygary.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fairy-mary/viewall" xml="xml/characters/fairymary.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fairy-mary/house-gallery" xml="xml/characters/fairymary.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fairy-mary/gallery" xml="xml/characters/fairymary.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fairy-mary/videos" xml="xml/characters/fairymary.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="clank/viewall" xml="xml/characters/clank.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="clank/house-gallery" xml="xml/characters/clank.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="clank/gallery" xml="xml/characters/clank.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="clank/videos" xml="xml/characters/clank.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="bobble/viewall" xml="xml/characters/bobble.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="bobble/house-gallery" xml="xml/characters/bobble.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="bobble/gallery" xml="xml/characters/bobble.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="bobble/videos" xml="xml/characters/bobble.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="terence/viewall" xml="xml/characters/terence.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="terence/house-gallery" xml="xml/characters/terence.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="terence/gallery" xml="xml/characters/terence.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="terence/videos" xml="xml/characters/terence.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="dr-griffiths/viewall" xml="xml/characters/mrgriffiths.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="dr-griffiths/house-gallery" xml="xml/characters/mrgriffiths.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="dr-griffiths/gallery" xml="xml/characters/mrgriffiths.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="dr-griffiths/videos" xml="xml/characters/mrgriffiths.xml"><title>Fairies & Friends</title></page>
+		<page id="lizzy/viewall" xml="xml/characters/lizzy.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="lizzy/house-gallery" xml="xml/characters/lizzy.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="lizzy/gallery" xml="xml/characters/lizzy.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="lizzy/videos" xml="xml/characters/lizzy.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="mr-twitches/viewall" xml="xml/characters/twitches.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="mr-twitches/house-gallery" xml="xml/characters/twitches.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="mr-twitches/gallery" xml="xml/characters/twitches.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="mr-twitches/videos" xml="xml/characters/twitches.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="blaze/viewall" xml="xml/characters/blaze.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="blaze/house-gallery" xml="xml/characters/blaze.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="blaze/gallery" xml="xml/characters/blaze.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="blaze/videos" xml="xml/characters/blaze.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="cheese/viewall" xml="xml/characters/cheese.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="cheese/house-gallery" xml="xml/characters/cheese.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="cheese/gallery" xml="xml/characters/cheese.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="cheese/videos" xml="xml/characters/cheese.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="dr-owl/viewall" xml="xml/characters/drowl.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="dr-owl/house-gallery" xml="xml/characters/drowl.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="dr-owl/gallery" xml="xml/characters/drowl.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="dr-owl/videos" xml="xml/characters/drowl.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="grimsley/viewall" xml="xml/characters/grimsley.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="grimsley/house-gallery" xml="xml/characters/grimsley.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="grimsley/gallery" xml="xml/characters/grimsley.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="grimsley/videos" xml="xml/characters/grimsley.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="leech/viewall" xml="xml/characters/leech.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="leech/house-gallery" xml="xml/characters/leech.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="leech/gallery" xml="xml/characters/leech.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="leech/videos" xml="xml/characters/leech.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="queen-clarion/viewall" xml="xml/characters/queenclarion.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="queen-clarion/house-gallery" xml="xml/characters/queenclarion.xml " sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="queen-clarion/gallery" xml="xml/characters/queenclarion.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="minister-of-winter/viewall" xml="xml/characters/ministerwinter.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="minister-of-winter/house-gallery" xml="xml/characters/ministerwinter.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="minister-of-winter/gallery" xml="xml/characters/ministerwinter.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="minister-of-winter/videos" xml="xml/characters/ministerwinter.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="minister-of-summer/viewall" xml="xml/characters/ministersummer.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="minister-of-summer/house-gallery" xml="xml/characters/ministersummer.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="minister-of-summer/gallery" xml="xml/characters/ministersummer.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="minister-of-summer/videos" xml="xml/characters/ministersummer.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="minister-of-spring/viewall" xml="xml/characters/ministerspring.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="minister-of-spring/house-gallery" xml="xml/characters/ministerspring.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="minister-of-spring/gallery" xml="xml/characters/ministerspring.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="minister-of-spring/videos" xml="xml/characters/ministerspring.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="lily/viewall" xml="xml/characters/lily.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="lily/house-gallery" xml="xml/characters/lily.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="lily/gallery" xml="xml/characters/lily.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="lily/videos" xml="xml/characters/lily.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="prilla/viewall" xml="xml/characters/prilla.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="prilla/house-gallery" xml="xml/characters/prilla.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="prilla/gallery" xml="xml/characters/prilla.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="prilla/videos" xml="xml/characters/prilla.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="rani/viewall" xml="xml/characters/rani.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="rani/house-gallery" xml="xml/characters/rani.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="rani/gallery" xml="xml/characters/rani.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="rani/videos" xml="xml/characters/rani.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="bess/viewall" xml="xml/characters/bess.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="bess/house-gallery" xml="xml/characters/bess.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="bess/gallery" xml="xml/characters/bess.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="bess/videos" xml="xml/characters/bess.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="beck/viewall" xml="xml/characters/beck.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="beck/house-gallery" xml="xml/characters/beck.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="beck/gallery" xml="xml/characters/beck.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="beck/videos" xml="xml/characters/beck.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fira/viewall" xml="xml/characters/fira.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fira/house-gallery" xml="xml/characters/fira.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fira/gallery" xml="xml/characters/fira.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="fira/videos" xml="xml/characters/fira.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="sweet-pea/viewall" xml="xml/characters/sweetpea.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="sweet-pea/house-gallery" xml="xml/characters/sweetpea.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="sweet-pea/gallery" xml="xml/characters/sweetpea.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="sweet-pea/videos" xml="xml/characters/sweetpea.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="marina/viewall" xml="xml/characters/marina.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="marina/house-gallery" xml="xml/characters/marina.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="marina/gallery" xml="xml/characters/marina.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="marina/videos" xml="xml/characters/marina.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="slate/viewall" xml="xml/characters/slate.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="slate/house-gallery" xml="xml/characters/slate.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="slate/gallery" xml="xml/characters/slate.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="slate/videos" xml="xml/characters/slate.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="kit/viewall" xml="xml/characters/kit.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="kit/house-gallery" xml="xml/characters/kit.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="kit/gallery" xml="xml/characters/kit.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="kit/videos" xml="xml/characters/kit.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="tabby/viewall" xml="xml/characters/tabby.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="tabby/house-gallery" xml="xml/characters/tabby.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="tabby/gallery" xml="xml/characters/tabby.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+		<page id="tabby/videos" xml="xml/characters/tabby.xml" sitemap="characters"><title>Fairies & Friends</title></page>
+
+		<page id="movies-tv" xml="xml/movies-tv/movies.xml" sitemap="MoviesTV"><title>Movies & TV</title></page>
+		<page id="movies-tv/pixie-hollow-games" xml="xml/movies-tv/pixie-hollow-games.xml" sitemap="MoviesTV"><title>Pixie Hollow Games</title></page>
+		<page id="movies-tv/secret-of-the-wings" xml="xml/movies-tv/secret-of-the-wings.xml" sitemap="MoviesTV"><title>Secret of the Wings</title></page>
+		<page id="movies-tv/great-fairy-rescue" xml="xml/movies-tv/great-fairy-rescue.xml" sitemap="MoviesTV"><title>Great Fairy Rescue</title></page>
+		<page id="movies-tv/lost-treasure" xml="xml/movies-tv/lost-treasure.xml" sitemap="MoviesTV"><title>Lost Treasure</title></page>
+		<page id="movies-tv/tinker-bell" xml="xml/movies-tv/tinkerbell.xml" sitemap="MoviesTV"><title>Tinker Bell</title></page>
+		<page id="movies-tv/peter-pan" xml="xml/movies-tv/peter-pan.xml" sitemap="MoviesTV"><title>Peter Pan</title></page>
+		<page id="movies-tv/return-to-never-land" xml="xml/movies-tv/return-to-neverland.xml" sitemap="MoviesTV"><title>Return to Never Land</title></page>
+
+		<page id="parks" xml="xml/parks.xml" sitemap="parks"><title>Parks & Travel</title></page>
+
+		<page id="live-events" xml="xml/live-events.xml" sitemap="liveevents"><title>Live Events</title></page>
+
+		<page id="videos" xml="xml/videos.xml" sitemap="videos"><title>Videos</title></page>
+		<page id="videos/viewall" xml="xml/videos-viewall.xml" sitemap="videos"><title>Videos</title></page>
+
+		<page id="products" xml="xml/products/products.xml" sitemap="products"><title>Products</title></page>
+		<page id="books/magazine" xml="xml/products/magazine.xml" sitemap="magazine"><title>Magazine</title></page>
+		<page id="books" xml="xml/products/books.xml" sitemap="books"><title>Books</title></page>
+		<page id="books/viewall" xml="xml/products/books-viewall.xml" sitemap="books"><title>Books</title></page>
+		<page id="books/disney-books" xml="xml/products/books-disney.xml" sitemap="books"><title>Disney Books</title></page>
+		<page id="books/digital-books" xml="xml/products/books-digital.xml" sitemap="books"><title>Books</title></page>
+		<page id="newsletter" xml="xml/products/newsletter.xml" sitemap="newsletter"><title>Newsletter</title></page>
+
+		<page id="products/mobile" xml="xml/products/mobile.xml" sitemap="mobile"><title>Mobile</title></page>
+		<page id="products/connected-toys" xml="xml/products/connected-toys.xml" sitemap="products"><title>Connected Toys</title></page>
+		<page id="products/connected-toys-viewall" xml="xml/products/connected-toys-viewall.xml" sitemap="products"><title>Connected Toys</title></page>
+
+		<page id="products/videogames" xml="xml/products/videogames.xml" sitemap="videogames"><title>Video Games</title></page>
+		<page id="products/videogames/great-fairy-rescue-nintendo-ds" xml="xml/products/videogames.xml" sitemap="videogames"><title>Video Games</title></page>
+		<page id="products/videogames/lost-treasure-nintendo-ds" xml="xml/products/videogames.xml" sitemap="videogames"><title>Video Games</title></page>
+		<page id="products/videogames/tinker-bell-nintendo-ds" xml="xml/products/videogames.xml" sitemap="videogames"><title>Video Games</title></page>
+
+		<page id="products/music" xml="xml/products/music.xml" sitemap="music"><title>Music</title></page>
+		<page id="products/music/tinker-bell/videos" xml="xml/products/music.xml" sitemap="music"><title>Music</title></page>
+		<page id="products/music/lost-treasure/videos" xml="xml/products/music.xml" sitemap="music"><title>Music</title></page>
+		<page id="products/music/faith-trust-treasure/videos" xml="xml/products/music.xml" sitemap="music"><title>Music</title></page>
+
+		<page id="pixie-central" xml="xml/pixie-central.xml" sitemap="pixiecentral"><title>Pixie Central</title></page>
+		<page id="pixie-hollow-world" xml="xml/pixiehollow-world.xml" sitemap="pixiehollowworld"><title>Pixie Hollow World</title></page>
+
+		<page id="bottompromos" xml="xml/bottompromos.xml" />
+		<page id="tracking" src="http://disney.go.com/stat/flash/analyticReportingAS3.swf" template="com.disney.WebAnalytics.WebAnalyticsManager" xml="xml/tracking.xml" />
+
+		<!--<page id="login" src="swf/login.swf" />-->
+
+		<!-- id="fontLib" is a special id for the fonts swf - do not change it or re-use for anything other than the fonts swf.  -->
+		<asset id="fontLib" src="swf/fonts.swf" weight="4.6" />
+		<asset id="mainnav" src="swf/mainnav.swf" weight="1.5" />
+		<asset id="bottompromos" src="swf/bottompromos.swf" />
+		<asset id="mainvineframe" src="swf/mainvineframe.swf" weight="2.2" />
+		<asset id="background" src="img/disney-fairies-backgrounds-spring.jpg" weight="2" />
+
+		<page id="who_am_i">
+			<pageXml>
+				<txt id="messaging" size="13" font="helvetica_bold" color="0xe9d423">This Controls the formatting for the WhoAmI response. This text will not be used. </txt>
+				<xmlUrl>http://127.0.0.1:8013/fairies/api/WhoAmIRequest</xmlUrl>
+				<!--<xmlUrl>xml/whoami_test.xml </xmlUrl> -->
+				<redirect href="http://disney.go.com/fairies/pixie-hollow/closed.html" target="_self"/>
+			 </pageXml>
+		</page>
+
+		<page id="login">
+			<nav id="login_btn" target="login"><![CDATA[<u>Log In</u>]]></nav>
+			<nav id="logout_btn" target="logout"><![CDATA[<u>Log Out</u>]]></nav>
+			<nav id="user_name" target="login"><![CDATA[]]></nav>
+			<nav id="account_manager" target="_self" href="https://disney.go.com/fairies/pixie-hollow/membership/account-manager.html"><![CDATA[<u>Account Manager</u>]]></nav>
+			<pageXml>
+				<txt id="login_btn" size="13" font="helvetica_bold" color="0xfbfc90"></txt>
+				<txt id="create_fairy" size="13" font="helvetica_bold" color="0xFFFFFF">Create a Fairy and Fly </txt>
+				<txt id="user_name" size="13" font="helvetica_bold" color="0xFFFFFF"></txt>
+				<txt id="logout_btn" size="13" font="helvetica_bold" color="0xfbfc90">Account Manager </txt>
+				<txt id="account_manager" size="13" font="helvetica_bold" color="0xfbfc90">Account Manager </txt>
+			 </pageXml>
+		</page>
+	</page>
+
+	<page id="mainnav">
+		<!--<nav id="pixie-hollow-world" href="http://pixiehollow.go.com/index.html" target="_self"><title>Pixie Hollow World</title></nav>
+		<nav id="pixie-central" href="http://pixiehollow.go.com/communityhome.html" target="_self"><title>Pixie Central</title></nav>-->
+		<nav id="pixie-hollow-world" target="_self" href="http://disney.go.com/fairies/pixie-hollow-world.html">
+			<title>Pixie Hollow World</title>
+			<nav id="closing" href="http://disney.go.com/fairies/pixie-hollow/membership/" target="_self">About Closing</nav>
+			<nav id="parents" href="http://disney.go.com/fairies/pixie-hollow/parents/" target="_self">Parents</nav>
+			<nav id="help" href="http://disney.go.com/fairies/pixie-hollow/help/" target="_self">Help</nav>
+			<nav id="secret-codes" href="http://disney.go.com/fairies/pixie-hollow/secret-codes/" target="_self">Secret Codes</nav>
+		</nav>
+		<nav id="pixie-central" target="_self" href="http://disney.go.com/fairies/pixie-central.html">
+			<title>Pixie Central</title>
+			<nav id="news" href="http://blog.pixiehollow.go.com/blog/nevernews/" target="_self">News</nav>
+			<nav id="events" href="http://blog.pixiehollow.go.com/blog/events/" target="_self">Events</nav>
+			<nav id="contests" href="http://disney.go.com/fairies/pixie-central/contests/" target="_self">Contests</nav>
+			<nav id="fan-art" href="http://disney.go.com/fairies/pixie-central/gallery/" target="_self">Fan Art</nav>
+			<nav id="upload" href="http://disney.go.com/fairies/pixie-central/share/" target="_self">Upload</nav>
+			<nav id="calender" href="http://disney.go.com/fairies/pixie-central/calendar.html" target="_self">Calendar</nav>
+		</nav>
+		<nav id="characters" href="characters">Fairies & Friends</nav>
+		<nav id="videos" href="videos">Videos</nav>
+		<nav id="activities" href="activities">
+			<title>Activities</title>
+			<nav id="activities/downloads" href="activities/downloads/viewall">Downloads</nav>
+			<nav id="activities/printables" href="activities/printables/viewall">Printables</nav>
+			<nav id="activities/crafts" href="activities/crafts/viewall">Crafts</nav>
+			<nav id="activities/recipes" href="activities/recipes/viewall">Recipes</nav>
+			<nav id="activities/galleries/fan-art" href="http://pixiehollow.go.com/ugc_gallery.html" target="_self">Art Galleries</nav>
+		</nav>
+		<nav id="games" href="games">Games</nav>
+		<nav id="movies-tv" href="movies-tv">
+			<title>Movies & TV</title>
+			<nav id="movies-tv/secret-of-the-wings" href="movies-tv/secret-of-the-wings">Secret of the Wings</nav>
+			<nav id="movies-tv/pixie-hollow-games" href="movies-tv/pixie-hollow-games">Pixie Hollow Games</nav>
+			<nav id="movies-tv/great-fairy-rescue" href="movies-tv/great-fairy-rescue">Great Fairy Rescue</nav>
+			<nav id="movies-tv/lost-treasure" href="movies-tv/lost-treasure">Lost Treasure</nav>
+			<nav id="movies-tv/tinker-bell" href="movies-tv/tinker-bell">Tinker Bell</nav>
+			<nav id="movies-tv/peter-pan" href="movies-tv/peter-pan">Peter Pan</nav>
+			<nav id="movies-tv/return-to-never-land" href="movies-tv/return-to-never-land">Return to Never Land</nav>
+		</nav>
+
+		<nav id="books" href="books">
+			<title>Books</title>
+			<nav id="books/viewall" href="books/viewall">Disney Books</nav>
+			<nav id="books/fairies-book-app" href="http://disneybookapps.com/tinker-bell.html" target="_self">Fairies Book App</nav>
+			<nav id="books/magazine" href="books/magazine">Magazine</nav>
+		</nav>
+		<nav id="parks" href="parks">
+			<title>Parks & Travel</title>
+			<nav id="parks" href="parks/disney-world">Walt Disney World</nav>
+			<nav id="parks/disneyland" href="parks/disneyland">Disneyland</nav>
+			<nav id="parks/disney-cruise" href="parks/disney-cruise">Disney Cruise Line</nav>
+		</nav>
+		<nav id="live-events" href="live-events">
+			<title>Live Events</title>
+			<nav id="live-events" href="live-events/treasure-trove">Treasure Trove</nav>
+			<nav id="live-events/magical-journey" href="live-events/magical-journey">Magical Journey</nav>
+		</nav>
+		<nav id="products" href="products">
+			<title>Products</title>
+			<nav id="products/connected-toys" href="products/connected-toys">Connected Toys</nav>
+			<nav id="products/videogames" href="products/videogames">Video Games</nav>
+			<nav id="products/music" href="products/music">Music</nav>
+			<nav id="books/magazine" href="books/magazine">Magazine</nav>
+			<nav id="products/mobile" href="products/mobile">Mobile</nav>
+			<nav id="apparel" href="http://www.disneystore.com/transfer/280559/tinker-bell-fairies/clothes/mn/1000054+1000204/?CMP=OTL-Dcom&att=fairiesfranchise_apparel" target="_self">Apparel</nav>
+			<nav id="toys" href="http://www.disneystore.com/transfer/280559/tinker-bell-fairies/toys/mn/1000054+1000208/?CMP=OTL-Dcom&att=fairiesfranchise_toys" target="_self">Toys</nav>
+			<nav id="home" href="http://www.disneystore.com/transfer/280559/tinker-bell-fairies/home-decor/mn/1000054+1000207/?CMP=OTL-Dcom&att=fairiesfranchise_homedecor" target="_self">Home & Decor</nav>
+			<nav id="collectibles" href="http://www.disneystore.com/transfer/280559/tinker-bell-fairies/pins-art-collectibles/mn/1000054+1000202/?CMP=OTL-Dcom&att=fairiesfranchise_collectibles" target="_self">Collectibles</nav>
+		</nav>
+		<promo id="playbtn" target="login"><tiptext><![CDATA[Pixie Hollow World]]></tiptext></promo>
+		<!--<promo id="playbtn" target="_self" href="http://pixiehollow.go.com"><tiptext><![CDATA[Pixie Hollow World]]></tiptext></promo> -->
+
+		<!-- took out the image url because the logo is now baked into the swf for optimization. -->
+		<promo id="mainnav_logo" href="home" src="" position='{"x":"35","y":"-10"}' />
+	</page>
+
+	<page id="siteloader">
+		<asset id="blue" src="swf/siteloaders/blue-siteloader.swf" />
+		<asset id="pink" src="swf/siteloaders/pink-siteloader.swf" />
+		<asset id="orange" src="swf/siteloaders/orange-siteloader.swf" />
+		<asset id="green" src="swf/siteloaders/green-siteloader.swf" />
+		<asset id="yellow" src="swf/siteloaders/yellow-siteloader.swf" />
+	</page>
+
+	<page id="socialbtns">
+		<page id="facebook">
+			<!--promo id="like1" src="img/social/icon_like.png" href="javascript:showSocialShadowbox('Like');" target="_self" ageGate="false">Test1</promo>
+			<promo id="like2" src="img/social/icon_like.png" href="javascript:showRetailerShadowbox('LK2BRcombo');" target="_self" ageGate="false">Test2</promo-->
+			<promo id="like" src="img/social/icon_like.png" socialtype="facebook_like" href="http://www.facebook.com/TinkerBell" target="like" ageGate="true">Like</promo>
+			<promo id="share" href="http://www.facebook.com/sharer.php" target="_blank" socialtype="facebook" ageGate="true">Share</promo>
+			<asset id="icon" src="img/social/icon_fb.png" />
+		</page>
+		<page id="twitter">
+			<promo id="like" href="http://twitter.com/#!/tinker_bell" target="_blank" ageGate="true">Follow</promo>
+			<promo id="share" href="http://twitter.com/share" target="_blank" socialtype="twitter" ageGate="true">Tweet</promo>
+			<asset id="icon" src="img/social/icon_tw.png" />
+		</page>
+		<!-- these are the default tweet and share messages, text nodes can be overridden in other pages by adding copies of these nodes and changing the text -->
+		<social id="facebook">
+				<url><![CDATA[http://www.facebook.com/sharer.php]]></url>
+				<text><![CDATA[Create a Fairy and Fly]]></text>
+				<link><![CDATA[http://www.disney.go.com/fairies]]></link>
+		</social>
+		<social id="twitter">
+				<url><![CDATA[http://twitter.com/share]]></url>
+				<text><![CDATA[Create a Fairy and Fly]]></text>
+				<link><![CDATA[http://www.disney.go.com/fairies]]></link>
+		</social>
+	</page>
+	<page id="agegate">
+		<asset id="bg" src="img/agegate/tooYoungBackground.png" />
+		<asset id="close" src="img/agegate/closeButton.png" />
+		<nav id="submit">Submit</nav>
+	</page>
+	<!-- the xml node below is a default value. To customize what poll is called, add a href value to the pixie poll btn nav node in the character xml -->
+	<page id="pixiepolls" xml="http://quiz.disney.go.com/quizdos/fairies/index?def=ph_poll_2011_8_2">
+		<!--<page id="pixiepolls" xml="../../cdn/franchise/fairies/img/pixiepolls/poll_info_temp.xml"> -->
+		<title>Tinker Bell’s Pixie Poll</title>
+		<asset id="bg" src="img/pixiepolls/pixiepolls_background.png" />
+		<asset id="question_img" src="img/pixiepolls/tulip.png" />
+		<nav id="submit_btn" href="products/videogames">Vote</nav>
+		<promo id="close_btn" src="img/pixiepolls/closeButton.png" target="pixiepolls" ></promo>
+
+	</page>
+	<page id="globalassets">
+		<asset id="newtag_blue" src="img/new_banner_blue.png" position='{"x":"-4","y":"-3"}' />
+		<asset id="newtag_orange" src="img/new_banner_orange.png" position='{"x":"-4","y":"-3"}' />
+		<asset id="newtag_pink" src="img/new_banner_pink.png" position='{"x":"-4","y":"-3"}' />
+	</page>
+
+	<strings>
+		<str id="bff_h1">Meet My BFFs</str>
+		<str id="bff_h2">Best Fairy Friends</str>
+		<str id="age_gate_title">Confirm your Age</str>
+		<str id="age_gate_birthday">Please Enter Your Birthday</str>
+		<str id="age_gate_month">Month</str>
+		<str id="age_gate_day">Day</str>
+		<str id="age_gate_year">Year</str>
+		<str id="age_gate_submit">Submit</str>
+		<str id="age_gate_too_young">Sorry, we can’t redirect you to this site.</str>
+		<str id="coming_soon">Coming Soon</str>
+		<str id="talent">Talent ></str>
+		<str id="invalid_bday">Please enter a valid date.</str>
+		<str id="meet"><![CDATA[<font color="#f9eb7d">Meet</font>]]></str>
+		<str id="pixie-hollow-world">pixie-hollow-world</str>
+		<str id="pixie-central">pixie-central</str>
+	</strings>
+
+	<!--<sounds>
+		<sound id="carousel_slide" src="sfx/carousel_slide.mp3" />
+		<sound id="btnclick" src="sfx/click_1.mp3" />
+		<sound id="btnclick" src="sfx/click_2.mp3" />
+		<sound id="leftnav_click" src="sfx/leftnav_click.mp3" />
+		<sound id="leftnav_expand" src="sfx/leftnav_expand.mp3" />
+	</sounds>-->
+	<fonts>
+		<font id="helvetica" name="helvetica_medium" />
+		<font id="helvetica_bold" name="helvetica_bold" />
+		<font id="helvetica_rounded" name="helvetica_rounded" />
+		<font id="garamond" name="garamond_regular" />
+		<font id="garamond_italic" name="garamond_bold_italic" />
+		<font id="pristina" name="pristina" />
+		<font id="brioso" name="brioso" />
+	</fonts>
+</fairies_main>

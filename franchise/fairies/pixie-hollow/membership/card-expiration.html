@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+
+		<meta property="og:image" content="http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/facebook/generic.png" />
+
+<script type="text/javascript">
+	var PROTOCOL = (window.location.protocol && window.location.protocol == 'https:') ? 'https' : 'http';
+
+	var PATH = {
+		root:		'http://disney.go.com/fairies',
+		SSLRoot:	'https://disney.go.com/fairies',
+		API:		'http://127.0.0.1:8013/fairies/api',
+		SSLAPI:		'http://127.0.0.1:8013/fairies/api',
+		renderer:	PROTOCOL + '://apps.pixiehollow.go.com/fairies-render',
+		goKart:		'https://register.go.com/fairies/pixiehollow',
+		blog:		'http://blog.pixiehollow.go.com/blog',
+		DXD:		PROTOCOL + '://apps.dxd.go.com/dxd/flashAPI',
+		CDN:		PROTOCOL + '://' + ((PROTOCOL == 'https') ? 's.dolimg.com' : 'cdn.dolimg.com') + '/franchise/fairies',
+		UGC:		'http://premium.disney.go.com/fairies2',
+		globalElements: '//' + ((PROTOCOL == 'https') ? 'home' : 'ahome') + '.disney.go.com/globalelements'
+	};
+
+	document.write('<link href="' + PATH.CDN + '/wings.ico" rel="icon" type="image/x-icon" />');
+	document.write('<link href="' + PATH.CDN + '/wings.ico" rel="shortcut icon" type="image/x-icon" />');
+
+	document.write('<link rel="stylesheet" type="text/css" href="' + PATH.CDN + '/pixie-hollow/css/combinded.css" media="screen" />');
+	document.write('<link rel="stylesheet" type="text/css" href="' + PATH.CDN + '/pixie-hollow/css/print.css" media="print" />');
+	document.write('<scr' + 'ipt type="text/javascript" src="' + PATH.CDN + '/pixie-hollow/js/head.js"></scr' + 'ipt>');
+</script>
+<script type="text/javascript">
+	head.ready('plugin', function() {
+		var flashvars = { ready: '$.flashProxy.init' };
+		var params = { menu: 'false', wmode: 'transparent', quality: 'best', scale: 'noscale', allowScriptAccess: 'always' };
+		var attributes = { };
+		swfobject.embedSWF(PATH.CDN + '/pixie-hollow/swf/proxy.swf', 'flash-proxy', '1', '1', '10', null, flashvars, params, attributes);
+	});
+
+	head.ready('dom', function() {
+		head.js({ plugin: PATH.CDN + '/pixie-hollow/js/plugin.js' }, function() {
+			window.fairies = new Fairies();
+			fairies.API = new API();
+			fairies.miniManager = new MiniManager();
+			fairies.popup = new Popup();
+		});
+	});
+</script>
+
+
+		<title>Membership Cards | Expiration | Pixie Hollow | Disney Fairies</title>
+
+		<meta name="robots" content="noindex, follow" />
+
+		<script type="text/javascript">
+			head.ready('plugin', function() {		
+				$('#card-expiration-play-button').click(function(event) {
+					event.preventDefault();
+					fairies.trackPage('gamecardexpire_playnow', 'pixiehollow:website');
+				});
+				$('.button-upgrade').click(function(event) {
+					fairies.trackPage('gamecardexpire_update', 'pixiehollow:website');
+				});
+				
+				$('#card-expiration-play-button').click(fairies.API.openMiniManager);
+
+				fairies.API.getDaysTillExpire(function(days) {
+					if (days == false) {
+						$('#card-expiration-days').html('Your Game Card is About to Expire');						
+					} else if (days == 1 ) {
+						$('#card-expiration-days').html(days+' Day Until Your Membership Card Expires!');
+					} else {
+						$('#card-expiration-days').html(days+' Days Until Your Membership Card Expires!');					
+					}
+				});
+			});
+		</script>		
+	</head>
+	<body id="template-culdesac">
+		<div id="container">
+			<div id="header">
+				<noscript><div id="notification">Aw Jingles! Your browser has JavaScript disabled. Please enable JavaScript to enter Pixie Hollow.</div></noscript>
+<!-- 
+	Not being about to defer loading of chrome sucks
+-->
+<div id="flash-proxy">
+</div>
+<div class="pixie-hollow-logo">
+	<a href="http://disney.go.com/fairies/#pixie-hollow-world"><span>Pixie Hollow</span></a>
+</div>
+<div class="member-info">
+	<div class="member-info-content">
+	</div>
+</div>
+<script type="text/javascript">
+	head.ready('plugin', function() {
+		fairies.preload([
+			PATH.CDN + '/pixie-hollow/img/templates/popup/manager.png'
+		]);
+	});
+</script>
+<div class="popup popup-manager">
+	<a href="#" class="close-button popup-close"><span>Close</span></a>
+	<div class="popup-logo">
+		<span>Disney Fairies Pixie Hollow</span>
+	</div>
+	<div class="popup-promo">
+		<div class="top-extras"></div>
+		<img src="https://s.dolimg.com/franchise/fairies/pixie-hollow/img/misc/blank.gif" width="363" height="361" alt="" />
+		<div class="bottom-extras"></div>
+	</div>
+	<div class="popup-info">
+		<div class="loader-container"><div id="mini-manager-loader"></div></div>
+		<div class="login">
+			<h2>Log In</h2>
+			<p>
+				If you previously registered here or at any other Disney site, you can log in below with your existing Account ID and Password.
+			</p>
+
+			<form id="login-form" method="post" action="/" onsubmit="return false;">
+				<h5>Account ID</h5>
+				<p>
+					<input type="text" class="text-input" name="username" tabindex="1" />
+				</p>
+				<div class="forgot-link">
+					<a href="https://register.go.com/global/fairies/recoverMemberNames?affiliateName=Disney_Fairies&appRedirect=http%3A%2F%2Fpixiehollow.com" target="_blank">Forgot Account ID</a>
+				</div>
+
+				<h5>Password</h5>
+				<p>
+					<input type="password" class="text-input" name="password" tabindex="2" />
+				</p>
+				<div class="forgot-link">
+					<a href="https://register.go.com/global/fairies/recoverPassword?affiliateName=Disney_Fairies&appRedirect=http%3A%2F%2Fpixiehollow.com" target="_blank">Forgot Password?</a>
+				</div>
+
+				<p>
+					<div class="clear">&nbsp;</div>
+				</p>
+
+				<p class="center">
+					<a href="#" class="button-orange submit-button"><span>Log In</span></a>
+				</p>
+			</form>
+		</div>
+		<div class="choose">
+			
+		</div>
+	</div>
+</div>
+			</div>
+
+			<div id="content">
+				<div class="inner-content card-expiration">
+					<h2>Your Game Card is About to Expire!</h2>
+
+					<h4 id="card-expiration-days">&nbsp;</h4>
+
+					<p>
+						When your Membership Card expires, you can still fly all of your Fairies into Pixie Hollow using the same log-in information as before - however, access to Membership features as well as any of the items you have added to your inventory through shopping, personal tailoring, and personal tinkering will no longer be available.
+					</p>
+
+					<p>
+						To renew your Membership or to activate another Membership Card, please click the Update Membership button below.
+					</p>
+
+					<p>
+						&nbsp;
+					</p>
+					
+					<p class="center upgrade">
+						<a href="https://disney.go.com/fairies/pixie-hollow/membership/purchase.html" class="button-upgrade button-orange"><span>Update Membership</span></a>
+					</p>
+				
+					<p class="center">
+						<a href="#" id="card-expiration-play-button" class="button-play"><span>Play</span></a>
+					</p>					
+					
+				</div>
+			</div>
+
+			<div id="footer">
+				<!-- 
+	Not being about to defer loading of the legal footer sucks
+-->
+<div class="legal">
+	<script type="text/javascript" src="//ahome.disney.go.com/globalelements/footer.js?footerStyleBackgroundColor=000000&footerStyleBodyTextColor=363636&footerStyleLegalTextColor=363636&footerStyleTitleLineColor=363636&footerStyleBodyLineColor=363636&footerStyleFeaturedTextColor=000000&footerStyleFeaturedBackgroundColor=363636&footerDisplayMode=legalOnly"></script>
+</div>
+			</div>
+		</div>
+
+		<script language="javascript" src="http://aglobal.go.com/stat/dolWebAnalytics.js"></script>
+		<script language="javascript">
+			cto = new CTO();
+			cto.account = 'pixiehollow';
+			cto.category = 'dgame';
+			cto.site = 'fai';
+			cto.siteSection = 'pixiehollow:website:accountservices';
+			cto.pageName = 'gamecardexpire_main';
+			cto.contentType = 'regular';
+			cto.property = 'fai';
+			cto.track();
+		</script>
+	</body>
+</html>

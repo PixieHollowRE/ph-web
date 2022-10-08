@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<libPath url="http://a.disney.go.com/stat/flash/analyticReportingAS3.swf" />
+	<defaultInfo>
+		<account value='pixiehollow' />
+		<siteSection value='website:accountmanager' />
+		<site value='fai' />
+		<property value='fai' />
+		<category value='dgame' />
+	</defaultInfo>
+	
+	<accountmanagement>
+		<pageview>acctmgr_loads</pageview>
+		<login>
+			<pageview>acctmgr_login</pageview>
+			<signup>acctmgr_exit_to_signup</signup>
+		</login>
+		<managemembership>
+			<becomeamember>
+				<pageview>acctmgr_purchase_button</pageview>
+			</becomeamember>
+			<cancel>
+				<pageview>acctmgr_cancel_button</pageview>	
+			</cancel>
+		</managemembership>
+	</accountmanagement>
+</config>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<libPath url="http://a.disney.go.com/stat/flash/analyticReportingAS3.swf" />
+	<defaultInfo>
+		<account value='pixiehollow' />
+		<siteSection value='website:registration' />
+		<site value='fai' />
+		<property value='fai' />
+		<category value='dgame' />
+	</defaultInfo>
+	
+	<registration>
+		<pageloads>
+			<create_account>signup</create_account>
+			<accountandchat>chatprefs</accountandchat>
+			<login>reg_exit_to_login</login>
+		</pageloads>
+		<createaccount>
+		</createaccount>
+		<accountandchat>
+			<speedchatplus>
+				<pageview>emailverify</pageview>
+			</speedchatplus>
+		</accountandchat>
+		<congratulations>
+		</congratulations>
+	</registration>
+</config>
