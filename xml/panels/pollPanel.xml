@@ -1,0 +1,23 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/poll.swf</swf>
+		<swf type="code">{panelCode}/poll.swf</swf>
+	</swfs>
+	<copy>
+		<label1 target="label1">My</label1>
+		<label2 target="label2">Poll</label2>
+		<voteButtonText>Vote</voteButtonText>
+	</copy>
+	<config>
+		<!-- Are we using this?? 
+		<options>
+			<properties>
+				<HomePollDef>favfairy</HomePollDef>
+			</properties>
+			<prop id="HomePollDef">wishtobefairy</prop>
+			<prop id="HomePollDef">whichfairyareyoulike</prop>
+			<prop id="HomePollDef">whatforestcreatureareyou</prop>
+		</options>
+		-->
+	</config>
+</panel>

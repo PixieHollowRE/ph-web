@@ -1,0 +1,58 @@
+<panelSet>
+	<panels stream="true">
+		<panel id="homeViewer" x="0" y="142" transition="none">{panelData}/homeViewer.xml</panel>
+		<panel id="homeProfile" x="50" y="555">{panelData}/homeProfile.xml</panel>
+		<!--panel id="homeRatings" x="696" y="585">{panelData}/homeRatings.xml</panel-->
+		<panel id="poll" x="726" y="807" alwaysOnTop="true">{panelData}/pollPanel.xml</panel>
+		<!--panel id="addInvite" x="685" y="549" alwaysOnTop="true" refocusable="true">{panelData}/addInvite.xml</panel-->
+		<panel id="printPanel" x="665" y="556" alwaysOnTop="true" refocusable="true">{panelData}/printPanel.xml</panel>
+		<panel id="quiz" x="738" y="1200">{panelData}/quizPanel.xml</panel>
+		<panel id="homeMessage" x="50" y="1035">{panelData}/homeMessage.xml</panel>
+		<panel id="fairyPageNavigation" x="50" y="130">{panelData}/fairyPageNavigation.xml</panel>
+	</panels>
+	<sharedMedia>
+		<media id="fairyPageLeaves" type="media">swf/fairyPageLeaves.swf</media>
+	</sharedMedia>
+	<config>
+		<hideHeaderLogin>true</hideHeaderLogin>
+		<disneyFairiesLink>false</disneyFairiesLink>
+		<menu>
+			<config nav="false" title="false" />
+			<title>
+				<text>menutitle</text>
+			</title>
+		</menu>	
+		<shouldPlayMusic>true</shouldPlayMusic>
+	</config>
+	<copy>
+		<topfairiestext>Top Fairies</topfairiestext>
+		<findafairytext>Find a Fairy</findafairytext>
+		<nevernewstext>Never News</nevernewstext>
+
+		<menutitle>Create %0Aa Fairy</menutitle>
+		<menusubtitle>My Fairy</menusubtitle>
+
+		<button1textA>My Fairy</button1textA>
+		<button1textB>My Fairy</button1textB>
+		<button1textC>My Fairy</button1textC>
+
+		<button2text>Fairy Directory</button2text>
+		<button3text>Next Fairy</button3text>
+
+		<sub1button1text>Page Settings</sub1button1text>
+		<sub1button2text>My Fairies</sub1button2text>
+		<sub1button3text>Stationery</sub1button3text>
+		<sub1button4text>You-Design-It</sub1button4text>
+
+		<membershiptext>Membership</membershiptext>
+		<toytext>Toys &amp; Video Games</toytext>
+		<communitytext>Pixie Central</communitytext>
+		<parentstext>Parents</parentstext>
+		<helptext>Help</helptext>
+
+		<arrowtext>Go Back</arrowtext>
+		<confirmtxt>Are you sure?</confirmtxt>
+		<oktxt>Yes</oktxt>
+		<canceltxt>No</canceltxt>
+	</copy>
+</panelSet>

@@ -1,0 +1,13 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/homeViewer.swf</swf>
+		<swf type="code">{panelCode}/homeViewer.swf</swf>
+	</swfs>
+	<copy>
+		<loading target="loading.loading">Loading Home...</loading>
+		<editPageCopy target="editPage.editPageText">Edit Page</editPageCopy>
+	</copy>
+	<config>
+		<editProfile>{panelSetData}/editProfile.xml</editProfile>
+	</config>
+</panel>

@@ -1,0 +1,26 @@
+<panelSet>
+	<panels>
+		<panel id="edit_profile" x="60" y="170" hidden="false">{panelData}/editProfile.xml</panel>
+	</panels>
+	<config>
+		<menu hideplay="true" hidenews="true">
+			<config title="true" defaultbackbuttony="15" nav="true"/>
+			<title>
+				<text>menutitle</text>
+				<subtext>subtitle</subtext>
+			</title>
+			<backarrow confirm="confirmtxt" okLabel="oktxt" cancelLabel="canceltxt" y="25">
+				<text>arrowtext</text>
+			</backarrow>
+		</menu>	
+
+	</config>
+	<copy>
+		<menutitle>Edit %0A My Profile</menutitle>
+		<subtitle/>
+		<arrowtext>Go Back</arrowtext>
+		<confirmtxt>Are you sure?</confirmtxt>
+		<oktxt>Yes</oktxt>
+		<canceltxt>No</canceltxt>
+	</copy>
+</panelSet>

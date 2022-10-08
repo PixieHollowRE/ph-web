@@ -1,0 +1,18 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/homeRatings.swf</swf>
+		<swf type="code">{panelCode}/homeRatings.swf</swf>
+	</swfs>
+	<copy>
+		<label1 target="label1">My</label1>
+		<label2 target="label2">Stats</label2>
+		<ratingText target="rating_text">Ratings</ratingText>
+		<goodText target="good_text">Good</goodText>
+		<greatText target="great_text">Great</greatText>
+		<visitsText target="visits_text">Visits</visitsText>
+		<fairiesText target="fairies_text">Fairies</fairiesText>
+		<guestsText target="guests_text">Guests</guestsText>
+	</copy>
+	<config>
+	</config>
+</panel>

@@ -1,0 +1,16 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/printPanel.swf</swf>
+		<swf type="code">{panelCode}/printPanel.swf</swf>
+	</swfs>
+	<copy>
+		<label target="label">Click here to print %0Aout this Fairy!</label>
+		<printLabel target="printLabel">Print This Fairy</printLabel>
+		<statusIdle>Print This Fairy</statusIdle>
+		<statusPrinting>Print This Fairy</statusPrinting>
+	</copy>
+	<config>
+		<util>
+		</util>
+	</config>
+</panel>

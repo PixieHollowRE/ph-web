@@ -1,0 +1,167 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/quiz.swf</swf>
+		<swf type="code">{panelCode}/quiz.swf</swf>
+	</swfs>
+	<copy>
+		<label1 target="label1">My</label1>
+		<label2 target="label2">Quiz</label2>
+		<splashButtonText>Start</splashButtonText>
+		<voteButtonText>Vote</voteButtonText>
+		<nextButtonText>Next Question</nextButtonText>
+		<resultButtonText>Results</resultButtonText>
+
+		<splashTitle1>Are you a hard worker?</splashTitle1>
+		<splashTitle2>What Fish are you?</splashTitle2>
+		<splashTitle3>What Flower are you?</splashTitle3>
+		<splashTitle4>How do you weather a crisis?</splashTitle4>
+		<splashTitle5>What Forest Creature are you?</splashTitle5>
+		<splashTitle6>Are you a good friend?</splashTitle6>
+		<splashTitle7>How would you use magic?</splashTitle7>
+		<splashTitle8>What Bird are you?</splashTitle8>
+
+		<splashPhrase11>Take the</splashPhrase11>
+		<splashPhrase12>Take the</splashPhrase12>
+		<splashPhrase13>Take the</splashPhrase13>
+		<splashPhrase14>Take the</splashPhrase14>
+		<splashPhrase15>Take the</splashPhrase15>
+		<splashPhrase16>Take the</splashPhrase16>
+		<splashPhrase17>Take the</splashPhrase17>
+		<splashPhrase18>Take the</splashPhrase18>
+
+
+		<splashPhrase21>"Fairy Bug Quiz"</splashPhrase21>
+		<splashPhrase22>"Fairy Competition Quiz"</splashPhrase22>
+		<splashPhrase23>"Fairy Fashion Quiz"</splashPhrase23>
+		<splashPhrase24>"Fairy Forecast Quiz"</splashPhrase24>
+		<splashPhrase25>"Adventurous Animal Quiz"</splashPhrase25>
+		<splashPhrase26>"Fairy Friendship Quiz"</splashPhrase26>
+		<splashPhrase27>"Fairy Magic Quiz"</splashPhrase27>
+		<splashPhrase28>"Feathered Friends Quiz"</splashPhrase28>
+
+		<splashPhrase31>and find out</splashPhrase31>
+		<splashPhrase32>and find out</splashPhrase32>
+		<splashPhrase33>to find out</splashPhrase33>
+		<splashPhrase34>and find out</splashPhrase34>
+		<splashPhrase35>and find out</splashPhrase35>
+		<splashPhrase36>and find out</splashPhrase36>
+		<splashPhrase37>to find out</splashPhrase37>
+		<splashPhrase38>to find out</splashPhrase38>
+
+
+		<resultPhrase11>You're a</resultPhrase11>
+		<resultPhrase12>You're a</resultPhrase12>
+		<resultPhrase13>You're a</resultPhrase13>
+		<resultPhrase14>You're a</resultPhrase14>
+		<resultPhrase15>You're a</resultPhrase15>
+		<resultPhrase16>You're a</resultPhrase16>
+		<resultPhrase17>You're a</resultPhrase17>
+		<resultPhrase18>You're a</resultPhrase18>
+		<resultPhrase19>You're a</resultPhrase19>
+		<resultPhrase110>Your forecast is</resultPhrase110>
+		<resultPhrase111>Your forecast is</resultPhrase111>
+		<resultPhrase112>Your forecast is</resultPhrase112>
+		<resultPhrase113>You're a</resultPhrase113>
+		<resultPhrase114>You're a</resultPhrase114>
+		<resultPhrase115>You're a</resultPhrase115>
+		<resultPhrase116>You're a</resultPhrase116>
+		<resultPhrase117>You're a</resultPhrase117>
+		<resultPhrase118>You're a</resultPhrase118>
+		<resultPhrase119>You're a</resultPhrase119>
+		<resultPhrase120>You're a</resultPhrase120>
+		<resultPhrase121>You're a</resultPhrase121>
+		<resultPhrase122>You're a</resultPhrase122>
+		<resultPhrase123>You're a</resultPhrase123>
+		<resultPhrase124>You're a</resultPhrase124>
+
+
+		<resultPhrase21>Busy Little Bee!</resultPhrase21>
+		<resultPhrase22>Butterfly!</resultPhrase22>
+		<resultPhrase23>Ladybug!</resultPhrase23>
+		<resultPhrase24>Flying Fish!</resultPhrase24>
+		<resultPhrase25>JellyFish!</resultPhrase25>
+		<resultPhrase26>Seahorse!</resultPhrase26>
+		<resultPhrase27>Rose!</resultPhrase27>
+		<resultPhrase28>Tulip!</resultPhrase28>
+		<resultPhrase29>Wildflower!</resultPhrase29>
+		<resultPhrase210>Clear Skies!</resultPhrase210>
+		<resultPhrase211>Cloudy!</resultPhrase211>
+		<resultPhrase212>Stormy!</resultPhrase212>
+		<resultPhrase213>Bold Raccoon!</resultPhrase213>
+		<resultPhrase214>Cautious Chipmunk!</resultPhrase214>
+		<resultPhrase215>Jumpy Rabbit!</resultPhrase215>
+		<resultPhrase216>Caring Companion!</resultPhrase216>
+		<resultPhrase217>Laid-Back Lady!</resultPhrase217>
+		<resultPhrase218>Super Supportive!</resultPhrase218>
+		<resultPhrase219>Dove!</resultPhrase219>
+		<resultPhrase220>Magpie!</resultPhrase220>
+		<resultPhrase221>Siamese Cat!</resultPhrase221>
+		<resultPhrase222>Hummingbird!</resultPhrase222>
+		<resultPhrase223>Wise Owl!</resultPhrase223>
+		<resultPhrase224>Parrot!</resultPhrase224>
+
+		<resultPhrase31>No one better get in your way!</resultPhrase31>
+		<resultPhrase32>You like to flutter around, but won't be doing any heavy lifting.</resultPhrase32>
+		<resultPhrase33>Sometimes you fly, sometimes you walk.</resultPhrase33>
+		<resultPhrase34>You want to be first, at any cost!</resultPhrase34>
+		<resultPhrase35>Happy to float through life; not much bothers you!</resultPhrase35>
+		<resultPhrase36>You work hard when it's important, but sometimes you just drift with the tide.</resultPhrase36>
+		<resultPhrase37>You like looking glamorous in any setting.</resultPhrase37>
+		<resultPhrase38>Your style is simple and elegant.</resultPhrase38>
+		<resultPhrase39>Rather than follow others, you cultivate your own personal style.</resultPhrase39>
+		<resultPhrase310>You don't let anything ruin your day.</resultPhrase310>
+		<resultPhrase311>A crisis really brings you down.</resultPhrase311>
+		<resultPhrase312>You're easily angered when you feel mistreated.</resultPhrase312>
+		<resultPhrase313>You are willing to investigate anything!</resultPhrase313>
+		<resultPhrase314>You make sure the coast is clear</resultPhrase314>
+		<resultPhrase315>You hop away at the first sign of danger!</resultPhrase315>
+		<resultPhrase316>You know when to help, and when to just listen.</resultPhrase316>
+		<resultPhrase317>You're a good friend, but you like to do your own thing.</resultPhrase317>
+		<resultPhrase318>You really go out of your way to help your friends!</resultPhrase318>
+		<resultPhrase319>You have a kind heart, and you deserve all the magic you can get!</resultPhrase319>
+		<resultPhrase320>You're a practical joker, and if you get Fairy powers, people better look out!</resultPhrase320>
+		<resultPhrase321>When it comes to magic, it's all about you!</resultPhrase321>
+		<resultPhrase322>You zip from place to place. Out of sight, out of mind!</resultPhrase322>
+		<resultPhrase323>Nothing escapes your photographic mind!</resultPhrase323>
+		<resultPhrase324>You can remember some things, but the rest is just squawks and whistles!</resultPhrase324>
+	</copy>
+	<config>
+		<!--Splash Screens:name is an ID and is not to be translated-->
+		<splashIds>
+			<name id="bug">1</name>
+			<name id="competition">2</name>
+			<name id="fashion">3</name>
+			<name id="forecast">4</name>
+			<name id="whatforestcreatureareyou">5</name>
+			<name id="friendship">6</name>
+			<name id="magic">7</name>
+			<name id="memory">8</name>
+		</splashIds>
+		<resultIds>
+			<name id="bugBusyBeeResult">1</name >
+			<name id="bugButterflyResult">2</name >
+			<name id="bugLadybugResult">3</name >
+			<name id="competitionFlyingFishResult">4</name >
+			<name id="competitionJellyfishResult">5</name >
+			<name id="competitionSeahorseResult">6</name >
+			<name id="fashionRoseResult">7</name >
+			<name id="fashionTulipResult">8</name >
+			<name id="fashionWildflowerResult">9</name >
+			<name id="forecastClearSkiesResult">10</name >
+			<name id="forecastCloudyResult">11</name >
+			<name id="forecastStormyResult">12</name >
+			<name id="forestCreatureBoldResult">13</name >
+			<name id="forestCreatureCautiousResult">14</name >
+			<name id="forestCreatureJumpyResult">15</name >
+			<name id="friendshipCaringResult">16</name >
+			<name id="friendshipLaidbackResult">17</name >
+			<name id="friendshipSupportiveResult">18</name >
+			<name id="magicDoveResult">19</name >
+			<name id="magicMagpieResult">20</name >
+			<name id="magicSiameseCatResult">21</name >
+			<name id="memoryHummingbirdResult">22</name >
+			<name id="memoryOwlResult">23</name >
+			<name id="memoryParrotResult">24</name >
+		</resultIds>
+	</config>
+</panel>

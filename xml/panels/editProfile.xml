@@ -1,0 +1,44 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/editProfile.swf</swf>
+		<swf type="code">{panelCode}/editProfile.swf</swf>
+	</swfs>
+	<copy>
+		<my_profile_text>My Profile</my_profile_text>
+		<my_profile_desc>Update your Fairy's public profile.</my_profile_desc>
+		<my_activities_text>My Games</my_activities_text>
+		<my_activities_desc>Pick your favorite games.</my_activities_desc>
+		<my_music_text>My Music</my_music_text>
+		<my_music_desc>Choose background music.</my_music_desc>
+		<my_icon_text>My Icon</my_icon_text>
+		<my_icon_desc>Choose an icon.</my_icon_desc>
+		<my_quiz_text>My Quiz</my_quiz_text>
+		<my_quiz_desc>Pick a quiz.</my_quiz_desc>
+		<my_poll_text>My Poll</my_poll_text>
+		<my_poll_desc>Pick a poll.</my_poll_desc>
+		<my_style_text>My Page Color</my_style_text>
+		<my_style_desc>Pick a color scheme for your page.</my_style_desc>
+		<save_desc>Save your changes.</save_desc>
+		<save_button>Save</save_button>
+		<activity_1_text>Game 1:</activity_1_text>
+		<activity_2_text>Game 2:</activity_2_text>
+		<activity_3_text>Game 3:</activity_3_text>
+		<preview_button>Preview</preview_button>
+		<stop_button>Stop</stop_button>
+		<okay_button>Okay</okay_button>
+		<tink_problem>Sorry, something's not right.  Try back later!</tink_problem>
+		<tink_saving>Working on it!  Just a minute...</tink_saving>
+		<tink_confirm>Would you like to save these settings?</tink_confirm>
+		<tink_confirm_yes>Yes</tink_confirm_yes>
+		<tink_confirm_no>No</tink_confirm_no>
+		<tinkstips>Change the look of your Fairy's home.  Answer questions so visitors can learn more about your Fairy.</tinkstips>
+		<tinkconfirm>OK</tinkconfirm>
+		<login_text>Log In</login_text>
+		<logout_text>Log Out</logout_text>
+		<save_text>Save</save_text>
+		<none_item>None</none_item>
+	</copy>
+	<config>
+		<util></util>
+	</config>
+</panel>

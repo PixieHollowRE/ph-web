@@ -1,0 +1,12 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/fairyPageNavigation.swf</swf>
+		<swf type="code">{panelCode}/fairyPageNavigation.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<playButtonCall1>fairies.API.openMiniManager</playButtonCall1>
+		<playButtonCall2></playButtonCall2>
+	</config>
+</panel>

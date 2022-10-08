@@ -1,0 +1,31 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/homeMessage.swf</swf>
+		<swf type="code">{panelCode}/homeMessage.swf</swf>
+	</swfs>
+	<copy>
+		<label1 target="label1">My</label1>
+		<label2 target="label2">Messages</label2>
+		<del1 target="message_1.deleteBtn.delete_text">Delete</del1>
+		<del2 target="message_2.deleteBtn.delete_text">Delete</del2>
+		<del3 target="message_3.deleteBtn.delete_text">Delete</del3>
+		<del4 target="message_4.deleteBtn.delete_text">Delete</del4>
+		<del5 target="message_5.deleteBtn.delete_text">Delete</del5>
+		<del6 target="message_6.deleteBtn.delete_text">Delete</del6>
+		<del7 target="message_7.deleteBtn.delete_text">Delete</del7>
+		<del8 target="message_8.deleteBtn.delete_text">Delete</del8>
+		<create_message_text target="createMessageButton.label">Leave a Message</create_message_text>
+		<view_message_text target="viewMessagesButton.label">View All Messages</view_message_text>
+		<view_friendrequest_text target="viewFriendRequestsButton.label">View Friend Requests</view_friendrequest_text>
+		<no_fairies_message>You need to have a Fairy or Sparrow Man in order to Leave a Message</no_fairies_message>
+		<confirmOK>Okay</confirmOK>
+		<whatsThis target="whatsThis.label">What's This?</whatsThis>
+		<whatsThisText>This is where you&apos;ll find messages left for you by your friends. Visit other Fairies or Sparrow Men and leave messages of your own!</whatsThisText>
+	</copy>
+	<config>
+		<util>
+			<createMessagePanel>{panelSetData}/createMessage.xml</createMessagePanel>
+			<messageArchivePanel>{panelSetData}/messageArchive.xml</messageArchivePanel>
+		</util>
+	</config>
+</panel>

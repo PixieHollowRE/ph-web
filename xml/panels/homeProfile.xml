@@ -1,0 +1,29 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/homeProfile.swf</swf>
+		<swf type="code">{panelCode}/homeProfile.swf</swf>
+	</swfs>
+	<copy>
+		<dbfail>Sorry, something's not right.  Try back later!</dbfail>
+		<dbfailconfirm>Okay</dbfailconfirm>
+		<label1 target="label1">My</label1>
+		<label2 target="label2">Profile</label2>
+		
+		<arrival_text target="arrival_text">Arrival Day:</arrival_text>
+		<talent_text target="talent_text">Talent:</talent_text>
+		<my_activities_text target="my_activities_text">My Games</my_activities_text>
+		<myBadges target="myBadges">My Badges</myBadges>
+		<myFavorite target="myFavorite">My Favorite</myFavorite>
+		<myLatest target="myLatest">My Latest</myLatest>
+		<totalBadges target="totalBadges">Total Badges</totalBadges>
+		<q1>Favorite Food</q1>
+		<q2>Favorite Color</q2>
+		<q3>Favorite Flower</q3>
+		<q4>Favorite Animal</q4>
+		<q5>Favorite Hobby</q5>
+		<q6>Dislikes</q6>
+		<months>January February March April May June July August September October November December</months>
+	</copy>
+	<config>
+	</config>
+</panel>

@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<session>
+	<params>
+		<type>standalone</type>
+		<initialContent>{panelSetData}/fairyPageNew.xml</initialContent>
+		<sessionBackground>images/background_empty.png</sessionBackground>
+		<copy>
+
+		<playbutton>Play!</playbutton>
+		<newsbutton>News</newsbutton>
+		<fairymanagerbutton>My Fairies</fairymanagerbutton>
+		<reportabugbutton>Report a Bug</reportabugbutton>
+		
+		<!-- the game section -->
+		<thegamebutton>Community</thegamebutton>
+		<communityhomebutton>Welcome</communityhomebutton>
+		<councilnewsbutton>Never Council</councilnewsbutton>
+		
+		<!-- My Fairies Section -->
+		<themyfairiesbutton>My Fairies</themyfairiesbutton>
+		<pixiepagebutton>Pixie Page</pixiepagebutton>
+		<pagesettingsbutton>Page Settings</pagesettingsbutton>
+		<stationarybutton>Stationery</stationarybutton>
+		<!--youdesignitbutton>You-Design-It</youdesignitbutton-->
+		<changeYourFairy>Change Your Fairy</changeYourFairy>
+				
+		<!-- For Parents section -->
+		<forparentsbutton>Parents</forparentsbutton>
+		<parentscenterbutton>Parents' Center</parentscenterbutton>
+		<aboutgamebutton>About Us</aboutgamebutton>
+		<parentalcontrolsbutton>Parental Controls</parentalcontrolsbutton>
+		<managechildaccountbutton>Manage Child Account</managechildaccountbutton>
+		
+		
+		<!-- For secret codes -->
+		<secretcodesbutton>Secret Codes</secretcodesbutton>
+		
+		<!-- support section -->
+		<supportbutton>Help</supportbutton>
+		<supportcenterbutton>Support Center</supportcenterbutton>
+		<createaccountbutton>Create Account</createaccountbutton>
+		<manageaccountbutton>Manage Account</manageaccountbutton>
+		<contactusbutton>Contact Us</contactusbutton>
+		
+		<!-- account services section -->
+		<accountbutton>Help</accountbutton>
+
+		</copy>
+		<menu>
+			<playbutton default="false">
+				<panel>login</panel>
+			</playbutton>
+		</menu>
+		<sectionicons>{publishPanelContent}/section_icons.swf</sectionicons>
+		<queuepanel>queuing</queuepanel>
+	</params>
+</session>

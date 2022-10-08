@@ -1,0 +1,30 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/messageArchive.swf</swf>
+		<swf type="code">{panelCode}/messageArchive.swf</swf>
+	</swfs>
+	<copy>
+		<first_text>First</first_text>
+		<last_text>Last</last_text>
+		<firsttime>This is where you can read all the messages other Fairies have left for you!</firsttime>
+		<firsttimeconfirm>Okay</firsttimeconfirm>
+		<database_failure>Sorry, something's not right.  Try back later!</database_failure>
+		<ok_button>OK</ok_button>
+		<tinkstips>The newest messages are at the top of the list.  If you have too many messages, older ones are automatically removed.</tinkstips>
+		<tinkconfirm>OK</tinkconfirm>
+		<confirm_delete>Are you sure you want to delete this message?</confirm_delete>
+		<confirm_delete_yes>Yes</confirm_delete_yes>
+		<confirm_delete_no>No</confirm_delete_no>
+		<deleting_message>Deleting message...</deleting_message>
+		<tinkTipsText1 target="tinkbutton.tinksTip1">Tink's</tinkTipsText1>
+		<tinkTipsText2 target="tinkbutton.tinksTip2">Tips</tinkTipsText2>
+		<!--Are these being used nemore ??
+		<message_deleted>Message deleted.</message_deleted>
+		<delete_button>Delete</delete_button>
+		<login_text>Log In</login_text>
+		<logout_text>Log Out</logout_text>
+		-->
+	</copy>
+	<config>
+	</config>
+</panel>

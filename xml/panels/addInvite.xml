@@ -1,0 +1,41 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/invite_module.swf</swf>
+		<swf type="code">{panelCode}/invite_module.swf</swf>
+	</swfs>
+	<copy>
+		<dbfail>Sorry, something's not right.  Try back later!</dbfail>
+		<dbfailconfirm>Okay</dbfailconfirm>
+		<invite_text>Click here to email someone an invitation to your page!</invite_text>
+		<title>Email a Friend</title>
+		<my_name>My name</my_name>
+		<friend_name>Friend's name</friend_name>
+		<friend_email>Friend's email</friend_email>
+		<msg>Check out this Fairy I created at www.pixiehollow.go.com!</msg>
+		<msg2>Check out this Fairy at www.pixiehollow.go.com!</msg2>
+		<close>Close</close>
+		<submit>Submit</submit>
+		<invalidEmailError>Please verify that you have entered valid email addresses.</invalidEmailError>
+		<inappropriateError>Please enter an appropriate name.</inappropriateError>
+		<emptyFormError>Please fill out each field.</emptyFormError>
+		<serverError>Could not contact server. %0APlease try again later.</serverError>
+		<blockedError>Sorry! %0A%0AWe were unable to send the email to the intended recipient because they have requested not to receive emails from Disney.com</blockedError>
+		<sending>Sending message...</sending>
+		<sent>Your message has been sent!</sent>
+		<subjectInternal>Your Friend has sent you an invitation!</subjectInternal>
+		<dirtyWords></dirtyWords>
+	</copy>
+	<config>
+		<util>
+			<listID>17655</listID>
+			<fromEmailIdInternal>no_reply@disneyfairies.com</fromEmailIdInternal>
+			<siteInternal>disney</siteInternal>
+			<redirectInternal><![CDATA[http://disney.go.com/features/global/email_success.html]]></redirectInternal>
+			<errorTemplateInternal><![CDATA[/sponsors/general/error.tpl]]></errorTemplateInternal>
+			<mailTemplateInternal><![CDATA[/disney/fairies/sendafriend_email.tpl]]></mailTemplateInternal>
+			<gmailLocInternal><![CDATA[http://studio.go.com/cgi-bin/gmail/generic_mail.cgi]]></gmailLocInternal>
+			<suppressionLocInternal><![CDATA[http://dolutils.go.com/dolutils/disneychannel/email/api?api=testSuppression&requestorID=friendlytemplate&list=]]></suppressionLocInternal>
+		</util>
+	</config>
+
+</panel>

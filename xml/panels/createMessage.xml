@@ -1,0 +1,55 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/createMessage.swf</swf>
+		<swf type="code">{panelCode}/createMessage.swf</swf>
+	</swfs>
+	<copy>			
+		<step1 target = "backgroundtitle.highlight.label">Background</step1>
+		<step2 target = "phrasetitle.highlight.label">Phrase</step2>
+		<step3 target = "keywordtitle.highlight.label">Keyword</step3>
+		<step4 target = "signaturetitle.highlight.label">Signature</step4>
+		<step5 target = "previewtitle.highlight.label">Preview</step5>
+		<send target = "preview_selector.sendbutton.caption">Send</send>
+		<title>Step @: </title>
+		<step1>Background</step1>
+		<step2>Phrase</step2>
+		<step3>Keyword</step3>
+		<step4>Signature</step4>
+		<step5>Preview</step5>
+		<caption1>Choose stationery for your message.</caption1>
+		<caption2>Choose the type of message you'd like to send.</caption2>
+		<caption3>Personalize your message.</caption3>
+		<caption4>Pick a signature.</caption4>
+		<caption5>Get ready to send your message.</caption5>
+		<sendconfirm>Are you sure you want to send this message?</sendconfirm>
+		<sendyes>Yes</sendyes>
+		<sendno>No</sendno>
+		<sending>Sending...</sending>
+		<sendsuccess>Your message has been sent!</sendsuccess>
+		<sendsuccessconfirm>Okay</sendsuccessconfirm>
+		<sendfailed>Sorry, something isn't right. Try again later!</sendfailed>
+		<sendfailedconfirm>Okay</sendfailedconfirm>
+		<tinktip1>Leaving a message for another Fairy or Sparrow Man is easy! Just follow these four steps!</tinktip1>
+		<tinktip2>Step 1: Choose stationery for your message.</tinktip2>
+		<tinktip3>Step 2: Choose the type of message you'd like to send.</tinktip3>
+		<tinktip4>Step 3: Personalize your message.</tinktip4>
+		<tinktip5>Step 4: Choose a signature.</tinktip5>
+		<tinktip6>Now you're ready to send your message!</tinktip6>
+		<next>Next</next>
+		<okay>Okay</okay>
+		<tutorial1>Want to leave a message for this person? It's easy! Just follow these three steps!</tutorial1>
+		<tutorial2>Step 2: Choose the type of message you'd like to send.</tutorial2>
+		<tutorial3>Step 3: Personalize your message.</tutorial3>
+		<tutorial4>Step 4: Choose a signature.</tutorial4>
+		<tutorial5>What a great message! Don't forget to send it!</tutorial5>
+		<tutorialconfirm>Okay</tutorialconfirm>	
+		<dbfail>Sorry, something's not right. Try back later!</dbfail>
+		<dbfailconfirm>Okay</dbfailconfirm>
+		<login_text>Log In</login_text>
+		<logout_text>Log Out</logout_text>
+		<tinkTipsText1 target="tinkbutton.tinksTip1">Tink's</tinkTipsText1>
+		<tinkTipsText2 target="tinkbutton.tinksTip2">Tips</tinkTipsText2>
+	</copy>
+	<config>
+	</config>
+</panel>
