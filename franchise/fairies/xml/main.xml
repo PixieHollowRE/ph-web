@@ -257,7 +257,7 @@
 				<txt id="messaging" size="13" font="helvetica_bold" color="0xe9d423">This Controls the formatting for the WhoAmI response. This text will not be used. </txt>
 				<xmlUrl>http://127.0.0.1:8013/fairies/api/WhoAmIRequest</xmlUrl>
 				<!--<xmlUrl>xml/whoami_test.xml </xmlUrl> -->
-				<redirect href="http://disney.go.com/fairies/pixie-hollow/closed.html" target="_self"/>
+                <!--redirect href="http://disney.go.com/fairies/pixie-hollow/closed.html" target="_self"/-->
 			 </pageXml>
 		</page>
 

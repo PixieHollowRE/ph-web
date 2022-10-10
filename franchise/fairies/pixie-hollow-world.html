@@ -18,13 +18,13 @@
 <meta property="og:url" content="http://www.disney.go.com/fairies/pixie-hollow-world.html" />
 <meta property="og:site_name" content="Disney Fairies | Pixie Hollow | Official Site" />
 
-	
+
 	<link rel="image_src" href="http://cdn.dolimg.com/franchise/fairies/img/fairies_100x83.jpg" />
 	<link href="http://disney.go.com/fairies/wings.ico" rel="icon" type="image/x-icon" />
     	<link href="http://disney.go.com/fairies/wings.ico" rel="shortcut icon" type="image/x-icon" />
 	<link rel="stylesheet" href="http://cdn.dolimg.com/franchise/fairies/css/main.css" type="text/css" />
     	<link rel="stylesheet" href="http://cdn.dolimg.com/franchise/fairies/css/connect.css" type="text/css" />
-	
+
 	<script type="text/javascript" src="http://cdn.dolimg.com/franchise/fairies/js/swfobject.js"></script>
 	<script type="text/javascript" src="http://cdn.dolimg.com/franchise/fairies/js/swfaddress.js"></script>
 	<script type="text/javascript" src="http://cdn.dolimg.com/franchise/fairies/js/jquery-1.6.1.min.js"></script>
@@ -35,46 +35,46 @@
 	<script type="text/javascript">
 		DetectFlash("10", "http://disney.go.com/fairies/noflash/");
 	</script>
-    
+
      <script type="text/javascript">
 
-		function whoAmILoaded(banner_message) {    
-			document.getElementById("navBar").style.display = "block";  
+		function whoAmILoaded(banner_message) {
+			document.getElementById("navBar").style.display = "block";
 		}
-		
-		function userLoggedIn() {    
+
+		function userLoggedIn() {
 			var mainSite=document["main_swf"];
-    			mainSite.userLoggedIn();   
+    			mainSite.userLoggedIn();
 	  	}
-		
-		function moveFooter(flashheight) {  
+
+		function moveFooter(flashheight) {
 			$("#wrapper").height(flashheight + $("#footer").height() + 80);
-			$("#content").height(flashheight + $("#footer").height() + 80);   
+			$("#content").height(flashheight + $("#footer").height() + 80);
 		}
-		
+
 		function changeCountry(country){
 			var countryID = country.options[country.selectedIndex].value;
-			
+
 			if(countryID != "default") {
 				location.href = countryID;
 			}
 		}
-		
+
 		function setCookie(val) {
 			if(val) { $.cookie('agecookie', "allow"); }
 			else { $.cookie('agecookie', "deny", {expires:.021}); }
 		 }
 		 function getCookie() {
 			 return $.cookie('agecookie');
-		 }   
-		
-		function setPhCookie() { 
-			$.cookie('firstvisitprospect', true);  
 		 }
-		 function getPhCookie() {    
+
+		function setPhCookie() {
+			$.cookie('firstvisitprospect', true);
+		 }
+		 function getPhCookie() {
 			 return $.cookie('firstvisitprospect');
-		 } 
-		
+		 }
+
 		function like (target) {
 			var x = (document.width - 360)/2;
  			if (navigator.appName.indexOf("Microsoft")!=-1) {
@@ -83,13 +83,13 @@
 			document.getElementById("RES_ID_fb_pop_dialog_table").style.left = x + "px";
 			document.getElementById("RES_ID_fb_pop_dialog_table").style.top  = "250px";
 			document.getElementById("fb-like").style.display = "block";
-			
+
 			var iframe = $('#fb_dialog_content iframe')[0];
 			var oldURL = iframe.src;
 			var newURL = 'likebtns/main.html';
-			
-			newURL = 'likebtns/main.html?' + target;	
-			
+
+			newURL = 'likebtns/main.html?' + target;
+
 			if(oldURL != newURL) {
 				iframe.src = newURL;
 			}
@@ -98,24 +98,24 @@
 			document.getElementById("fb-like").style.display = "none";
 		}
 	</script>
-	
+
 	<!-- BEGIN SWF Object -->
 		<script type="text/javascript">
-			var flashvars = {initpage:"pixie-hollow-world", cdn:"http://cdn.dolimg.com/franchise/fairies/", xml:"http://cdn.dolimg.com/franchise/fairies/xml/main.xml"};
+            var flashvars = {initpage:"pixie-hollow-world", cdn:"http://cdn.dolimg.com/franchise/fairies/", xml:"xml/main.xml"};
 			var params = {menu:"false", bgcolor:"#000000", quality:"best", wmode:"opaque", scale:"noscale", allowFullScreen:"true", allowScriptAccess:"always"};
 			var attributes = {id:"main_swf"};
 			swfobject.embedSWF("http://cdn.dolimg.com/franchise/fairies/swf/main.swf", "alternate-content", "100%", "1600", "10", "http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, params, attributes);
 		</script>
 	<!-- END SWF Object -->
-    
+
     <!-- BEGIN SWF Object -->
 	<script type="text/javascript">
-		var flashvars = {xml:"http://cdn.dolimg.com/franchise/fairies/xml/powered_footer.xml" };
+	var flashvars = {xml:"http://cdn.dolimg.com/franchise/fairies/xml/powered_footer.xml" };
 		var params = {menu:"false", bgcolor:"#000000", quality:"best", wmode:"transparent", scale:"noscale", allowScriptAccess:"always"};
 		var attributes = {id:"power_swf"};
 		swfobject.embedSWF("http://cdn.dolimg.com/franchise/fairies/swf/powered_by_pixie.swf", "powered-content", "996", "50", "10", "http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, params, attributes);
 	</script>
-	<!-- END SWF Object --> 
+	<!-- END SWF Object -->
 		<link rel="stylesheet" type="text/css" href="http://cdn.dolimg.com/franchise/fairies/pixie-hollow/css/combinded.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="http://cdn.dolimg.com/franchise/fairies/pixie-hollow/css/print.css" media="print" />
 
@@ -134,7 +134,7 @@
 	             DXD:                  PROTOCOL + '://apps.dxd.go.com/dxd/flashAPI',
 	             CDN:                  PROTOCOL + '://' + ((PROTOCOL == 'https') ? 's.dolimg.com' : 'cdn.dolimg.com') + '/franchise/fairies',
 	             UGC:                  'http://premium.disney.go.com/fairies2',
-	             globalElements: '//' + ((PROTOCOL == 'https') ? 'home' : 'ahome') + '.disney.go.com/globalelements'     
+	             globalElements: '//' + ((PROTOCOL == 'https') ? 'home' : 'ahome') + '.disney.go.com/globalelements'
            	};
 
 			head.ready('dom', function() {
@@ -152,7 +152,7 @@
 			});
 		</script>
 </head>
-<body id="body"> 
+<body id="body">
 <div id="flash-proxy"></div>
 <script type="text/javascript">
 	head.ready('plugin', function() {
@@ -206,14 +206,14 @@
 			</form>
 		</div>
 		<div class="choose">
-			
+
 		</div>
 	</div>
-</div> 
+</div>
 <div id="wrapper">
-	<div id="headerjs"><script language="JavaScript" src="http://ahome.disney.go.com/globalelements/chrome.js?settings=mySettings"></script></div>
+	<!--<div id="headerjs"><script language="JavaScript" src="http://ahome.disney.go.com/globalelements/chrome.js?settings=mySettings"></script></div>-->
     <div id="content">
-    <div id="alternate-content">   
+    <div id="alternate-content">
 	<div id="wrapper1">
 		<div id="header">
         <h1>Pixie Hollow World</h1>
@@ -233,11 +233,11 @@
                 </ul>
             </div>
         </div>
-	
+
         <div id="content_holder">
             <div id="breadcrumb">
             <ul id="breadcrumb">
-                <a href="pixie-hollow-world.html">Pixie Hollow World</a> 
+                <a href="pixie-hollow-world.html">Pixie Hollow World</a>
               </ul>
             </div>
                 <h1>Create a Fairy and Fly</h1>
@@ -287,7 +287,7 @@
     <h2>Activities</h2>
     <a href="activities.html">Activities</a><br>
     <h2>Downloads</h2>
-    <a href="downloads.html">Downloads</a><br><a href="tinker-bell-wallpaper.html">Tinker Bell Wallpaper</a><br><a href="tinker-bell-spring-wallpaper.html">Tinker Bell Spring Wallpaper</a><br><a href="silvermist-wallpaper.html">Silvermist Wallpaper</a><br><a href="silvermist-spring-wallpaper.html">Silvermist Spring Wallpaper</a><br><a href="rosetta-spring-wallpaper.html">Rosetta Wallpaper</a><br><a href="iridessa-wallpaper.html">Iridessa Wallpaper</a><br><a href="iridessa-spring-wallpaper.html">Iridessa Spring Wallpaper</a><br><a href="fawn-wallpaper.html">Fawn Wallpaper</a><br><a href="fawn-spring-wallpaper.html">Fawn Spring Wallpaper</a><br><a href="vidia-wallpaper.html">Vidia Wallpaper</a><br><a href="vidia-spring-wallpaper.html">Vidia Spring Wallpaper</a><br><a href="terence-wallpaper.html">Terence Wallpaper</a><br><a href="terence-spring-wallpaper.html">Terence Spring Wallpaper</a><br><a href="bobble-wallpaper.html">Bobble Wallpaper</a><br><a href="clank-wallpaper.html">Clank Wallpaper</a><br><a href="fairygary-wallpaper.html">Fairy Gary Wallpaper</a><br><a href="lizzy-spring-wallpaper.html">Lizzy Wallpaper</a><br><a href="mr-twitches-spring-wallpaper.html">Mr. Twitches Wallpaper</a><br><a href="trolls-wallpaper.html">Grimsley and Leech Wallpaper</a><br><a href="beck-wallpaper.html">Beck Wallpaper</a><br><a href="lily-wallpaper.html">Lily Wallpaper</a><br><a href="prilla-wallpaper.html">Prilla Wallpaper</a><br><a href="rani-wallpaper.html">Rani Wallpaper</a><br><a href="bess-wallpaper.html">Bess Wallpaper</a><br><a href="fira-wallpaper.html">Fira Wallpaper</a><br> 
+    <a href="downloads.html">Downloads</a><br><a href="tinker-bell-wallpaper.html">Tinker Bell Wallpaper</a><br><a href="tinker-bell-spring-wallpaper.html">Tinker Bell Spring Wallpaper</a><br><a href="silvermist-wallpaper.html">Silvermist Wallpaper</a><br><a href="silvermist-spring-wallpaper.html">Silvermist Spring Wallpaper</a><br><a href="rosetta-spring-wallpaper.html">Rosetta Wallpaper</a><br><a href="iridessa-wallpaper.html">Iridessa Wallpaper</a><br><a href="iridessa-spring-wallpaper.html">Iridessa Spring Wallpaper</a><br><a href="fawn-wallpaper.html">Fawn Wallpaper</a><br><a href="fawn-spring-wallpaper.html">Fawn Spring Wallpaper</a><br><a href="vidia-wallpaper.html">Vidia Wallpaper</a><br><a href="vidia-spring-wallpaper.html">Vidia Spring Wallpaper</a><br><a href="terence-wallpaper.html">Terence Wallpaper</a><br><a href="terence-spring-wallpaper.html">Terence Spring Wallpaper</a><br><a href="bobble-wallpaper.html">Bobble Wallpaper</a><br><a href="clank-wallpaper.html">Clank Wallpaper</a><br><a href="fairygary-wallpaper.html">Fairy Gary Wallpaper</a><br><a href="lizzy-spring-wallpaper.html">Lizzy Wallpaper</a><br><a href="mr-twitches-spring-wallpaper.html">Mr. Twitches Wallpaper</a><br><a href="trolls-wallpaper.html">Grimsley and Leech Wallpaper</a><br><a href="beck-wallpaper.html">Beck Wallpaper</a><br><a href="lily-wallpaper.html">Lily Wallpaper</a><br><a href="prilla-wallpaper.html">Prilla Wallpaper</a><br><a href="rani-wallpaper.html">Rani Wallpaper</a><br><a href="bess-wallpaper.html">Bess Wallpaper</a><br><a href="fira-wallpaper.html">Fira Wallpaper</a><br>
 </div>
 
 <div style="width:161px; display:block; float:left">
@@ -322,7 +322,7 @@
     <a href="books.html">Books</a><br><a href="disney-books.html">Disney Books</a><br><a href="fairies-and-the-quest-for-never-land.html">Fairies and the Quest for Never Land</a><br><a href="tinks-treasure-hunt.html">Tink's Treasure Hunt</a><br><a href="tinker-bell-and-the-lost-treasure-read-aloud.html">Tinker Bell and the Lost Treasure Read-Aloud Storybook</a><br><a href="talent-shines-through.html">Talent Shines Through</a><br><a href="tinker-bell-and-the-lost-treasure.html">Tinker Bell and the Lost Treasure</a><br><a href="fairy-dust-and-the-quest-for-the-egg.html">Fairy Dust and the Quest for the Egg</a><br><a href="blue-moon-magic.html">Blue Moon Magic</a><br><a href="the-trouble-with-tink.html">The Trouble With Tink</a><br><a href="fairies-secret-dairy-and-lockbox.html">Fairies Secret Diary and Lockbox - Expanded Version</a><br><a href="the-world-of-fairies.html">The World of Fairies</a><br><a href="picture-perfect.html">Picture Perfect</a><br><a href="vidia-and-the-fairy-crown.html">Vidia and the Fairy Crown</a><br><a href="lilys-pesky-plant.html">Lilyâs Pesky Plant</a><br><a href="beck-and-the-great-berry-battle.html">Beck and the Great Berry Battle</a><br><a href="a-masterpiece-for-bess.html">A Masterpiece for Bess</a><br><a href="prilla-and-the-butterfly-lie.html">Prilla and the Butterfly Lie</a><br><a href="rani-in-the-mermaid-lagoon.html">Rani in the Mermaid Lagoon</a><br><a href="fira-and-the-full-moon.html">Fira and the Full Moon</a><br><a href="in-the-realm-of-never-fairies.html">In the Realm of the Never Fairies:  The Secret World of Pixie Hollow</a><br><a href="prillas-prize.html">Prillaâs Prize</a><br><a href="tales-from-pixie-hollow.html">Tales from Pixie Hollow</a><br><a href="my-magical-life.html">Disney Fairies: My Magical Life</a><br><a href="pixie-hollow-popup.html">Pixie Hollow Pop-Up</a><br><a href="fairy-haven-and-the-quest-for-the-wand.html">Fairy Haven and the Quest for the Wand</a><br><a href="fairy-lanterns.html">Fairy Lanterns</a><br><a href="the-hidden-world-of-fairies.html">The Hidden World of Fairies</a><br><a href="fairy-flora.html">Fairy Flora</a><br><a href="flitterific-fairies.html">Flitterific Fairies</a><br><a href="fairies-storybook.html">Fairies Storybook Collection</a><br><a href="secret-fairy-garden.html">Secret Fairy Garden</a><br><a href="vidia-takes-charge.html">Vidia Takes Charge</a><br><a href="a-game-of-hide-and-seek.html">A Game of Hide-and-Seek</a><br><a href="pixie-hollow-paint-day.html">Pixie Hollow Paint Day</a><br><a href="becks-bunny-secret.html">Beck's Bunny Secret</a><br><a href="please-dont-feed-tiger-lily.html">Please Don't Feed Tiger Lily!</a><br><a href="beck-beyond-the-sea.html">Beck Beyond the Sea</a><br><a href="tink-north-of-never-land.html">Tink, North of Never Land</a><br><a href="iridessa-lost-at-sea.html">Iridessa, Lost at Sea</a><br><a href="digital-books.html">Disney Digital Books</a><br>
 </div>
               </div>
-              
+
         </div>
     </div>
     <div style="clear:both"></div>
@@ -335,13 +335,13 @@
     			<li id="secret"><a href="http://pixiehollow.go.com/secretcodes.html">Secret Codes</a></li>
     			<li id="membership"><a href="http://pixiehollow.go.com/membershiphub.html">Pixie Hollow Membership</a></li>
                 	<li id="newsletter"><a href="#/newsletter">Disney Fairies Newsletter</a></li>
-            </ul>  
+            </ul>
             </div>
-            
+
             <div id="powered-by-dixie">
             	<div id="powered-content"></div>
             </div>
-            
+
         	<div style="width:996px;clear:left;margin-left:auto;margin-right:auto;padding-top:10px;">
 				<div style="margin-left:410px;">
 					<table width="170" style="width:170px;" cellspacing="0" cellpadding="0" align="left">
@@ -374,15 +374,15 @@
 						</tr>
 					</table>
 				</div>
-            </div>               
-                
-	        	
+            </div>
+
+
 					<!-- Display Footer title and links -->
 					<script type="text/javascript">
 					$(document).ready(function(event){
 						$("#CountrySelector").val("default");
 					});
-					
+
 					if (swfobject.hasFlashPlayerVersion("10")) {
 						  $("#footer").css("position", "absolute");
 						}
@@ -399,14 +399,14 @@
 						}
 						catch(e){}
 					</script>
-					<script type="text/javascript" src="http://ahome.disney.go.com/globalelements/footer.js?settings=mySettings"></script>
+					<!--<script type="text/javascript" src="http://ahome.disney.go.com/globalelements/footer.js?settings=mySettings"></script>-->
 					<!-- Footer Overrides -->
 					<script type="text/javascript">
 						try { document.write(footerOverride); }
 						catch(e){}
 					</script>
         </div>
-        
+
 		<!-- FB Like -->
 		<div id="fb-like" class="fb_resetstyles fb_popupContainer">
 		  <table class="fb_pop_dialog_table fb_popup" id="RES_ID_fb_pop_dialog_table" style="width:450px;left:60px; top:125px; height:200px;">
@@ -444,7 +444,7 @@
 		  </table>
 		</div>
 	</div>
-   
+
    <!-- BEGIN DOL Web Analytics 1.0 DO NOT EDIT OR REMOVE THIS LINE-->
 <script language="javascript" src="http://aglobal.go.com/stat/dolWebAnalytics.js"></script>
 
@@ -453,13 +453,13 @@
 				cto.account = "pixiehollow";
 				cto.category = "dgame";
 				cto.site = "fai";
-				cto.siteSection = "pixiehollow:website:pixiehollowworld"; cto.pageName = "home";			
+				cto.siteSection = "pixiehollow:website:pixiehollowworld"; cto.pageName = "home";
 				cto.contentType = "regular";
 				cto.property = "fai";
 				cto.genre = "";
 				cto.track();
 			</script>
-		
+
 <!-- 101214 1200 -->
 </body>
 </html>
