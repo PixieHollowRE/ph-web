@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>Come on in, pixie pal! Got my own place here, Prism's Paints.</response_0_0>
+		<response_0_1>See, I'm always hungry for the best colors in life and anything else that's yummy! So hey, browse around, look all you want, 'cuz I'm sure you'll find colors to satisfy your artistic appetite!</response_0_1>
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

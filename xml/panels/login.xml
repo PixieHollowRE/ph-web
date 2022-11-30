@@ -1,0 +1,102 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/login_content.swf</swf>
+		<swf type="code">{panelCode}/login.swf</swf>
+	</swfs>
+	<copy>
+		<textPixiePostings><![CDATA[Read the Pixie Postings!]]></textPixiePostings>
+		<textBecomeAMember><![CDATA[Become a Member]]></textBecomeAMember>
+		<dnameAccepted><![CDATA[Your D-Name was approved!]]></dnameAccepted>
+		<dnameDenied><![CDATA[Please enter a different D-Name.]]></dnameDenied>
+		<text1 target="accountLogin.upperCopy1">New Fairies</text1>
+		<text2 target="accountLogin.upperCopy2">Pixie Hollow Online</text2>
+		<text3 target="accountLogin.upperCopy3"><![CDATA[If you previously registered at any other Disney sites, you can %0A log in here using your exisiting Account ID and Password.]]></text3>
+		<text4 target="accountLogin.lowerCopy1">Existing Fairies</text4>
+		<text5_1 target="accountLogin.lowerCopy2" style="html"><![CDATA[<a href="event:forgotMemberNameLink">Forgot Account ID?</a>]]></text5_1>
+		<text5_2 target="accountLogin.lowerCopy4" style="html"><![CDATA[<a href="event:forgotPasswordLink">Forgot Password?</a>]]></text5_2>
+		<text6 target="accountLogin.lowerCopy3" style="html"><![CDATA[If you haven't created a Fairy yet, sign up now. It's free!]]></text6>
+		<text7 target="accountLogin.nameField">Account ID</text7>
+		<text8 target="accountLogin.passField">Password</text8>
+		<textCancel target="accountLogin.cancelBtn.caption">Cancel</textCancel>
+		<textLogin target="accountLogin.loginBtn.caption">Log In</textLogin>
+		<text9 target="accountLogin.signupBtn.caption">Sign Up</text9>
+		<text10 target="gotoCaf.upperCopy">You need a Fairy to enter Pixie Hollow!</text10>
+		<text11 target="gotoCaf.copy1">Go now and</text11>
+		<text12 target="gotoCaf.copy2">Create a Fairy</text12>
+		<text13 target="gotoCaf.copy3">Create a Fairy</text13>
+		<text14 target="gotoCaf.cancelBtn.caption">Cancel</text14>
+		<text15 target="gotoCaf.createBtn.caption">Create</text15>
+		<!--text target="fairyChoice.upperCopy">Choose a Fairy</text-->
+		<!--text target="fairyChoice.upperCopy">Log In</text-->
+		<text16 target="fairyChoice.cancelBtn.caption">Cancel</text16>
+		<text17 target="fairyChoice.playBtn.caption">Play</text17>
+		<text18 target="loading.loadingscreen.loadingText">Loading</text18>
+		<text19 target=""></text19>
+		<remove0 target="fairyChoice.removeFairy0.removeText">REMOVE</remove0>
+		<remove1 target="fairyChoice.removeFairy1.removeText">REMOVE</remove1>
+		<remove2 target="fairyChoice.removeFairy2.removeText">REMOVE</remove2>
+		<!--Button Captions-->
+		<goCaption>Go</goCaption>
+		<playCaption>Play</playCaption>
+		<createCaption>Create</createCaption>
+		<!--Targets-->
+		<pixieHollow>Pixie Hollow</pixieHollow>
+		<stationery>Stationery</stationery>
+		<youDesignIt>You-Design-It</youDesignIt>
+		<pixiePage>Pixie Page</pixiePage>
+		<createAFairy>Create a Fairy</createAFairy>
+		<justLogIn>Log In</justLogIn>
+		<removeTooltip>REMOVE</removeTooltip>
+		<confirmremove>Are you sure you want to remove this Fairy?</confirmremove>
+		<removeyes>Yes</removeyes>
+		<removeno>No</removeno>
+		<updating>Updating Your Fairy Information</updating>
+		<invalidLogin>Sorry. Your login or password is not correct. Please try again.</invalidLogin>
+		<serverProblem>Pardon our pixie dust! We may be experiencing issues with our login. Please try again later.</serverProblem>
+		<invalidLoginConfirm>Okay</invalidLoginConfirm>
+		<loyaltyTitle>Congratulations!</loyaltyTitle>
+		<loyaltyTitle_day_0>Welcome!</loyaltyTitle_day_0>
+		<okBtnCopy>OK</okBtnCopy>
+		<loyaltyTopCopy>You've been a Member of Pixie Hollow for</loyaltyTopCopy>
+		<loyaltyTopCopy_day_0>We're so excited you have become a member!</loyaltyTopCopy_day_0>
+		<loyaltyBottomCopy_0>As a thank you for becoming a member, we have given you a wooden Member Pin!</loyaltyBottomCopy_0> <!-- DAY ZERO! -->
+		<loyaltyBottomCopy_1>Your wooden Member Pin now has lovely copper plating! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_1>
+		<loyaltyBottomCopy_2>Your copper Member Pin now has beautiful silver plating! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_2>
+		<loyaltyBottomCopy_3>You silver Member Pin now has gorgeous gold plating! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_3>
+		<loyaltyBottomCopy_4>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_4>
+		<loyaltyBottomCopy_5>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_5>
+		<loyaltyBottomCopy_6>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_6>
+		<loyaltyBottomCopy_7>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_7>
+		<loyaltyBottomCopy_8>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_8>
+		<loyaltyBottomCopy_9>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_9>
+		<loyaltyBottomCopy_10>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_10>
+		<loyaltyBottomCopy_11>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_11>
+		<loyaltyBottomCopy_12>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_12>
+		<loyaltyBottomCopy_13>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_13>
+		<loyaltyBottomCopy_14>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_14>
+		<loyaltyBottomCopy_15>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</loyaltyBottomCopy_15>
+		<loyaltyLevel_1>3 months</loyaltyLevel_1>
+		<loyaltyLevel_2>6 months</loyaltyLevel_2>
+		<loyaltyLevel_3>9 months</loyaltyLevel_3>
+		<loyaltyLevel_4>1 year</loyaltyLevel_4>
+		<loyaltyLevel_5>1 year and 3 months</loyaltyLevel_5>
+		<loyaltyLevel_6>1 year and 6 months</loyaltyLevel_6>
+		<loyaltyLevel_7>1 year and 9 months</loyaltyLevel_7>
+		<loyaltyLevel_8>2 years</loyaltyLevel_8>
+		<loyaltyLevel_9>2 years and 3 months</loyaltyLevel_9>
+		<loyaltyLevel_10>2 years and 6 months</loyaltyLevel_10>
+		<loyaltyLevel_11>2 years and 9 months</loyaltyLevel_11>
+		<loyaltyLevel_12>3 years</loyaltyLevel_12>
+		<loyaltyLevel_13>3 years and 3 months</loyaltyLevel_13>
+		<loyaltyLevel_14>3 years and 6 months</loyaltyLevel_14>
+		<loyaltyLevel_15>3 years and 9 months</loyaltyLevel_15>
+		
+	</copy>
+	<config>
+		<promoMiniManagerImage>{publishPanelImages}/minimanager/Mini_Manager_creative_17.png</promoMiniManagerImage>
+		<memberBlurbIcon>{publishPanelImages}/minimanager/pixiepostings_icon.png</memberBlurbIcon>
+		<freePlayerButtonURL>https://disney.go.com/fairies/pixiehollow/purchase/</freePlayerButtonURL>
+		<sheet>css/loginformat.css</sheet>
+	</config>
+</panel>
+

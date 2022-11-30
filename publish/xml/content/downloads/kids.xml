@@ -1,0 +1,64 @@
+<page>
+	<config>
+		<!-- -->
+		<taglines type="contentheader" headertype="long">
+			<bannergraphic type="image">{publishPanelImages}/kd_welcomekit.png</bannergraphic>
+			<tagline font="pristina">header</tagline>	
+			<tagline>body1</tagline>
+	<tagline type="button" btntype="btn_blue" url="http://a.disney.go.com/fairies/pixiehollow/pdfs/welcomekit.pdf"  target="blank">headerbtn</tagline>
+		</taglines>
+		<columnset1 type="columnset">
+			<colset target="blank" url="http://a.disney.go.com/fairies/pixiehollow/pdfs/Pencil_Toppers.pdf">
+				<tagline font="pristina" xOffset="10">colset1header</tagline>				
+				<bannergraphic type="image">{publishPanelImages}/pencil_toppers_new.png</bannergraphic>
+				<tagline font="column" xOffset="10">colset1body</tagline>
+				<tagline type="button" btntype="btn_blue">colset1btn</tagline>
+			</colset>
+			<colset target="blank" url="http://a.disney.go.com/fairies/pixiehollow/pdfs/Firefly_lights.pdf">
+				<tagline font="pristina" xOffset="10">colset2header</tagline>				
+				<bannergraphic type="image">{publishPanelImages}/fireflies_decorations_1.png</bannergraphic>
+				<tagline font="column" xOffset="10">colset2body</tagline>
+				<tagline type="button" btntype="btn_blue">colset2btn</tagline>
+			</colset>
+			<colset target="blank" url="http://a.disney.go.com/fairies/pixiehollow/pdfs/ingredients_guide_v9_summer.pdf">
+				<tagline font="pristina" xOffset="10">colset3header</tagline>
+				<bannergraphic type="image">{publishPanelImages}/ingredients_guide_image_2.png</bannergraphic>
+				<tagline font="column" xOffset="10">colset3body</tagline>
+				<tagline type="button" btntype="btn_blue">colset3btn</tagline>
+			</colset>
+		</columnset1>
+		<columnset2 type="columnset">
+			<colset>
+				<image xOffset="55" type="image" width="159">{publishPanelImages}/printables.png</image>
+			</colset>
+			<colset xOffset="400">
+				<tagline font="pristina" xOffset="30">printablesheader</tagline>
+				<tagline font="column" xOffset="30" yOffset="0">printablesbody</tagline>
+			</colset>
+		</columnset2>
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext">Welcome Kit</span>]]></header>
+		<body1><![CDATA[<span class="newsbodytext">Fly with you! The Never Council is so happy to welcome you to Pixie Hollow! Arrival Day is a very special occasion - it's when Never Land welcomes a brand new Fairy. To celebrate your Arrival Day, we've put together this set of fun printables.
+	</span>]]></body1>
+		<headerbtn><![CDATA[Download]]></headerbtn>
+	
+	
+		<colset1header><![CDATA[<span class="newsbodytext">Craft</span>]]></colset1header>
+		<colset1body><![CDATA[<span class="newsbodytext">Make a statement at school with these flitterific pencil toppers.</span>]]></colset1body>
+		<colset1btn><![CDATA[Download]]></colset1btn>
+		
+		<colset2header><![CDATA[<span class="newsbodytext">Decoration</span>]]></colset2header>
+		<colset2body><![CDATA[<span class="newsbodytext">Get into the spirit of the season with Festive Firefly lights!</span>]]></colset2body>
+		<colset2btn><![CDATA[Download]]></colset2btn>
+		
+		<colset3header><![CDATA[<span class="newsbodytext">Guide</span>]]></colset3header>
+		<colset3body><![CDATA[<span class="newsbodytext">Print this helpful guide to find special ingredients in the Hollow!</span>]]></colset3body>
+		<colset3btn><![CDATA[Download]]></colset3btn>
+		
+		<printablesheader><![CDATA[<span class="newsbodytext">Past Downloads</span>]]></printablesheader>
+		<printablesbody><![CDATA[<span class="newsbodytext">Looking for more fun crafts and cards?<br><a href="downloads_archive.xml">Download all of Pixie Hollow's fun printables here!</a></span>]]></printablesbody>
+		<printablesbtn><![CDATA[Read More]]></printablesbtn>
+		
+	</copy>
+</page>

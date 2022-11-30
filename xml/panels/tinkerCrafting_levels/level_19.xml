@@ -1,0 +1,12 @@
+<data>
+	<speed>300</speed>
+	<matchMin>3</matchMin>
+	<bonusTotal>0.45</bonusTotal>
+	<matchTotal>60</matchTotal>
+	<ingredients>
+		<ingredient>Twigs</ingredient>
+		<ingredient>PineNeedles</ingredient>
+		<ingredient>Metal</ingredient>
+		<ingredient>YellowGems</ingredient>
+	</ingredients>
+</data>

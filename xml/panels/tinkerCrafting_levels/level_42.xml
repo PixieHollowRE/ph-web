@@ -1,0 +1,13 @@
+<data>
+	<speed>600</speed>
+	<matchMin>3</matchMin>
+	<bonusTotal>0.55</bonusTotal>
+	<matchTotal>48</matchTotal>
+	<ingredients>
+		<ingredient>Twigs</ingredient>
+		<ingredient>MapleLeaves</ingredient>
+		<ingredient>OakLeaves</ingredient>
+		<ingredient>MeadowGrass</ingredient>
+		<ingredient>Metal</ingredient>
+	</ingredients>
+</data>

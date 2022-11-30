@@ -1,0 +1,9 @@
+<panelSet>
+	<panels>
+		<panel id="meadow" x="0" y="0" hidden="true" transition="none">{panelData}/meadow.xml</panel>
+	</panels>
+	<config>
+	</config>
+	<copy>
+	</copy>
+</panelSet>

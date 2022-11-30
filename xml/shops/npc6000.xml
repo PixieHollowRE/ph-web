@@ -1,0 +1,31 @@
+<data>
+	<copy>
+		<response_0_0>"There's no place like home." That's what some folks on the mainland say.</response_0_0>
+		<response_0_1>Others say that "home is where your heart is." And some others think that "home is where you hang your hat."</response_0_1>
+		<response_0_2>Me? I'm a "home sweet home" kind of guy. Yup, there's nothing better than a nice home to fly to at the end of a long day.</response_0_2>
+		<response_1_0>I love it when I'm home alone and there's a storm outside.</response_1_0>
+		<response_1_1>Thunder may flash, lightning may crash, rain may fall and wind may howl, but I love it!</response_1_1>
+		<response_1_2>Because I'm safe and warm in my home!</response_1_2>
+
+		<response_2_0>I know a Neverbug who lives in a walnut shell. No really, it's true!</response_2_0>
+		<response_2_1>Every night she crawls into half the shell, curls up, and then she pulls the other half over to shut the shell.</response_2_1>
+		<response_2_2>Sounds a little too cramped to me, but homes are as different as the folks -- or Neverbugs -- who live in them!</response_2_2>
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+			<line >response_0_2</line>
+		</storyBoard>
+		<storyBoard id="response_1">
+			<line expressionId="1" >response_1_0</line>
+			<line >response_1_1</line>
+			<line >response_1_2</line>
+		</storyBoard>
+		<storyBoard id="response_2">
+			<line expressionId="1" >response_2_0</line>
+			<line >response_2_1</line>
+			<line >response_2_2</line>
+		</storyBoard>
+	</storyBoards>
+</data>

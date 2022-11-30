@@ -1,0 +1,24 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/congrats.swf</swf>
+		<swf type="code">{panelCode}/congrats.swf</swf>
+	</swfs>
+	<copy>
+		<playModeText><![CDATA[Play!]]></playModeText>
+		<waitModeText><![CDATA[Wait]]></waitModeText>
+		<channel><![CDATA[]]></channel>
+		<panel><![CDATA[login]]></panel>
+		<url><![CDATA[]]></url>
+		<event><![CDATA[]]></event>
+	</copy>
+	<config>
+		<root_url>index.html</root_url>
+		<home_url>http://disneyfairies.com/</home_url>
+		<headergraphic>images/site_header_01.png</headergraphic>
+		<iconbase>swf/avatar/icon.swf</iconbase>
+		<sectionicons>swf/panel_content/section_icons.swf</sectionicons>
+		<css>css/stylesheet.css</css>
+		<panelsetbase>xml/panelSets/</panelsetbase>
+		<profileicons>swf/website/icons.swf</profileicons>
+	</config>
+</panel>

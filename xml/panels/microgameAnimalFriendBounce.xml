@@ -1,0 +1,303 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/afBounce.swf</swf>
+		<swf type="code">{panelCode}/afBounce.swf</swf>
+	</swfs>
+	<copy>		
+		<!-- <title>Memory</title> -->
+
+		<!-- if you don't specify nodes in the level/round xml, game will use these defaults.
+			 empty nodes mean the UI will be skipped altogether -->
+		<bounces>Bounces</bounces>
+		<of>of</of>
+		<score>Score</score>
+		<round>Round</round>
+
+		<okBtnLabel>OK</okBtnLabel>
+		<instructions>Baby hummingbirds need practice flying! Help your Hummingbird Friend fly by bouncing them up with your pillow before they fall.</instructions>
+	</copy>
+	<config>
+		<microGameId>AFBounce</microGameId>
+
+		<avatarPosition>500,400</avatarPosition>
+		<animalPosition>500,150</animalPosition>
+		<slowRate>0.65</slowRate>
+		<bezier>
+			<left>
+				<point x="30" y="180"/>
+				<point x="30" y="20"/>
+				<point x="230" y="20"/>
+			</left>
+			<right>
+				<point x="670" y="20"/>
+				<point x="880" y="20"/>
+				<point x="880" y="180"/>
+			</right>
+		</bezier>
+		
+		<levels>
+			<level number="0">
+				<rounds>0,1</rounds>
+			</level>
+			<level number="1">
+				<rounds>2,3</rounds>
+			</level>
+			<level number="2">
+				<rounds>4,5</rounds>
+			</level>			
+			<level number="3">
+				<rounds>6,7</rounds>
+			</level>			
+			<level number="4">
+				<rounds>8,9</rounds>
+			</level>	
+			<level number="5">
+				<rounds>10,11</rounds>
+			</level>
+			<level number="6">
+				<rounds>12,13</rounds>
+			</level>	
+			<level number="7">
+				<rounds>14,15</rounds>
+			</level>	
+			<level number="8">
+				<rounds>16,17</rounds>
+			</level>	
+			<level number="9">
+				<rounds>18,19</rounds>
+			</level>				
+		</levels>
+		<rounds>
+			<round id="0">
+				<gravity>0.5</gravity>
+				<maxVelocity>16</maxVelocity>
+				<hangTimeMin>10</hangTimeMin>
+				<hangTimeMax>100</hangTimeMax>
+				<bounces>3</bounces>
+				<valueOfBounce>167</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+			</round>
+			<round id="1">
+				<gravity>0.5</gravity>
+				<maxVelocity>16</maxVelocity>
+				<hangTimeMin>10</hangTimeMin>
+				<hangTimeMax>100</hangTimeMax>
+				<bounces>3</bounces>
+				<valueOfBounce>167</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+			</round>
+			<round id="2">
+				<gravity>0.5</gravity>
+				<maxVelocity>16</maxVelocity>
+				<hangTimeMin>50</hangTimeMin>
+				<hangTimeMax>200</hangTimeMax>
+				<bounces>3</bounces>
+				<valueOfBounce>243</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+				<collectables>
+					<collectable x="330" y="210"/>
+					<collectable x="520" y="210"/>
+				</collectables>
+			</round>
+			<round id="3">
+				<gravity>0.5</gravity>
+				<maxVelocity>16</maxVelocity>
+				<hangTimeMin>50</hangTimeMin>
+				<hangTimeMax>200</hangTimeMax>
+				<bounces>3</bounces>
+				<valueOfBounce>243</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+			</round>
+			<round id="4">
+				<gravity>0.5</gravity>
+				<maxVelocity>18</maxVelocity>
+				<hangTimeMin>100</hangTimeMin>
+				<hangTimeMax>250</hangTimeMax>
+				<bounces>3</bounces>
+				<valueOfBounce>280</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+				<collectables>
+					<collectable x="225" y="140"/>
+					<collectable x="625" y="140"/>
+				</collectables>
+			</round>
+			<round id="5">
+				<gravity>0.5</gravity>
+				<maxVelocity>18</maxVelocity>
+				<hangTimeMin>100</hangTimeMin>
+				<hangTimeMax>250</hangTimeMax>
+				<bounces>4</bounces>
+				<valueOfBounce>280</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+			</round>
+			<round id="6">
+				<gravity>0.5</gravity>
+				<maxVelocity>18</maxVelocity>
+				<hangTimeMin>150</hangTimeMin>
+				<hangTimeMax>300</hangTimeMax>
+				<bounces>4</bounces>
+				<valueOfBounce>305</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+				<collectables>
+					<collectable x="330" y="210"/>
+					<collectable x="425" y="210"/>
+					<collectable x="520" y="210"/>
+				</collectables>
+			</round>
+			<round id="7">
+				<gravity>0.5</gravity>
+				<maxVelocity>18</maxVelocity>
+				<hangTimeMin>150</hangTimeMin>
+				<hangTimeMax>300</hangTimeMax>
+				<bounces>4</bounces>
+				<valueOfBounce>305</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+			</round>
+			<round id="8">
+				<gravity>0.5</gravity>
+				<maxVelocity>24</maxVelocity>
+				<hangTimeMin>150</hangTimeMin>
+				<hangTimeMax>300</hangTimeMax>
+				<bounces>4</bounces>
+				<valueOfBounce>327</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+				<collectables>
+					<collectable x="225" y="140"/>
+					<collectable x="425" y="210"/>
+					<collectable x="625" y="140"/>
+				</collectables>
+			</round>
+			<round id="9">
+				<gravity>0.5</gravity>
+				<maxVelocity>24</maxVelocity>
+				<hangTimeMin>150</hangTimeMin>
+				<hangTimeMax>300</hangTimeMax>
+				<bounces>5</bounces>
+				<valueOfBounce>327</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+			</round>
+			<round id="10">
+				<gravity>0.5</gravity>
+				<maxVelocity>24</maxVelocity>
+				<hangTimeMin>200</hangTimeMin>
+				<hangTimeMax>350</hangTimeMax>
+				<bounces>5</bounces>
+				<valueOfBounce>344</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+				<collectables>
+					<collectable x="225" y="140"/>
+					<collectable x="425" y="140"/>
+					<collectable x="625" y="140"/>
+				</collectables>
+			</round>
+			<round id="11">
+				<gravity>0.5</gravity>
+				<maxVelocity>24</maxVelocity>
+				<hangTimeMin>200</hangTimeMin>
+				<hangTimeMax>350</hangTimeMax>
+				<bounces>5</bounces>
+				<valueOfBounce>344</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+			</round>
+			<round id="12">
+				<gravity>0.5</gravity>
+				<maxVelocity>28</maxVelocity>
+				<hangTimeMin>200</hangTimeMin>
+				<hangTimeMax>350</hangTimeMax>
+				<bounces>5</bounces>
+				<valueOfBounce>356</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+				<collectables>
+					<collectable x="330" y="210"/>
+					<collectable x="425" y="210"/>
+					<collectable x="425" y="140"/>
+					<collectable x="520" y="210"/>
+				</collectables>
+			</round>
+			<round id="13">
+				<gravity>0.5</gravity>
+				<maxVelocity>28</maxVelocity>
+				<hangTimeMin>250</hangTimeMin>
+				<hangTimeMax>400</hangTimeMax>
+				<bounces>6</bounces>
+				<valueOfBounce>356</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+			</round>
+			<round id="14">
+				<gravity>0.5</gravity>
+				<maxVelocity>28</maxVelocity>
+				<hangTimeMin>250</hangTimeMin>
+				<hangTimeMax>400</hangTimeMax>
+				<bounces>5</bounces>
+				<valueOfBounce>402</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+				<collectables>
+					<collectable x="225" y="140"/>
+					<collectable x="425" y="210"/>
+					<collectable x="425" y="140"/>
+					<collectable x="625" y="140"/>
+				</collectables>
+			</round>
+			<round id="15">
+				<gravity>0.5</gravity>
+				<maxVelocity>28</maxVelocity>
+				<hangTimeMin>250</hangTimeMin>
+				<hangTimeMax>400</hangTimeMax>
+				<bounces>6</bounces>
+				<valueOfBounce>402</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+			</round>
+			<round id="16">
+				<gravity>0.5</gravity>
+				<maxVelocity>32</maxVelocity>
+				<hangTimeMin>300</hangTimeMin>
+				<hangTimeMax>500</hangTimeMax>
+				<bounces>6</bounces>
+				<valueOfBounce>408</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+				<collectables>
+					<collectable x="120" y="70"/>
+					<collectable x="425" y="140"/>
+					<collectable x="730" y="70"/>
+					<collectable x="330" y="210"/>
+					<collectable x="520" y="210"/>
+				</collectables>
+			</round>
+			<round id="17">
+				<gravity>0.5</gravity>
+				<maxVelocity>32</maxVelocity>
+				<hangTimeMin>300</hangTimeMin>
+				<hangTimeMax>500</hangTimeMax>
+				<bounces>6</bounces>
+				<valueOfBounce>408</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+			</round>
+			<round id="18">
+				<gravity>0.5</gravity>
+				<maxVelocity>32</maxVelocity>
+				<hangTimeMin>400</hangTimeMin>
+				<hangTimeMax>500</hangTimeMax>
+				<bounces>6</bounces>
+				<valueOfBounce>415</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+				<collectables>
+					<collectable x="120" y="70"/>
+					<collectable x="425" y="140"/>
+					<collectable x="730" y="70"/>
+					<collectable x="225" y="140"/>
+					<collectable x="625" y="140"/>
+				</collectables>
+			</round>
+			<round id="19">
+				<gravity>0.5</gravity>
+				<maxVelocity>32</maxVelocity>
+				<hangTimeMin>400</hangTimeMin>
+				<hangTimeMax>500</hangTimeMax>
+				<bounces>7</bounces>
+				<valueOfBounce>415</valueOfBounce>
+				<valueOfCollectable>20</valueOfCollectable>
+			</round>
+		</rounds>
+	</config>
+</panel>

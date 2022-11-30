@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>Hey there! If you're in need of those strong but chill colors of winter, you've come to the right place.</response_0_0>
+		<response_0_1>I specialize in the cool hues of Winter Woods!</response_0_1>
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>I'm glad you're here! Now we can get this party started!</response_0_0>
+		<response_0_1>Oops! I mean let's get YOUR party started! My shop has everything you need for a flappin' party!</response_0_1>
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

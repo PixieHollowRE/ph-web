@@ -1,0 +1,26 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/meadow.swf</swf>
+		<swf type="code">{panelCode}/meadow.swf</swf>
+		<swf type="audio">meadow_bgm</swf>
+	</swfs>
+	<copy>
+		<fairyHome>#NAME#'s Home</fairyHome>
+		<fairyGarden>#NAME#'s Garden</fairyGarden>
+		<printError>Oops, something went wrong. You might already be printing!</printError>
+		<printErrorConfirm>Okay</printErrorConfirm>
+		<tinkerBellName>Tinker Bell</tinkerBellName>
+	</copy>
+	<config>
+		<populateDelayMilliseconds>2000</populateDelayMilliseconds>
+		<rasterQueueTimeout>20000</rasterQueueTimeout>
+		<chatBubbleDelay>9000</chatBubbleDelay>
+		<spellStartAngel>-0.6</spellStartAngel>
+		<spellStartDist>100</spellStartDist>
+		<spellEndAngel>0.5</spellEndAngel>
+		<spellEndDist>100</spellEndDist>
+		<spellPixelPerSec>200</spellPixelPerSec>
+		<localPlayerPositionTick>200</localPlayerPositionTick>
+		
+	</config>
+</panel>

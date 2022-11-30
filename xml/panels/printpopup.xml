@@ -1,0 +1,15 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/printPopup.swf</swf>
+		<swf type="code">{panelCode}/printPopup.swf</swf>
+	</swfs>
+	<copy>
+		<print><![CDATA[Print]]></print>
+		<createFairy><![CDATA[Create A Fairy]]></createFairy>
+		<title><![CDATA[Print Picture for Game Cover]]></title>
+		<subTitle><![CDATA[Print your Fairy to use in your game cover.]]></subTitle>
+	</copy>
+	<config>
+		
+	</config>
+</panel>

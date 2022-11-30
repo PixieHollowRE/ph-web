@@ -1,0 +1,96 @@
+<page>
+	
+	<!--codeSwfs>
+		<swf><![CDATA[directive.swf]]></swf>
+	</codeSwfs-->
+		
+	<!-- currently only one style and it is declared in panel xml >
+	<styles>
+		<css><![CDATA[decorator.css]]></css>
+	</styles-->
+		
+	<imgs>
+		<img id="1"><path><![CDATA[publish/images/cancellation/blue_container.swf]]></path></img>
+		<img id="2"><path><![CDATA[publish/images/speedchat/pixie_dust.png]]></path></img>
+		<!--<img id="3"><path><![CDATA[publish/images/speedchat/or_dust.png]]></path></img>-->
+		<img id="4"><path><![CDATA[publish/images/speedchat/tinkerbell.png]]></path></img>
+		<!-- <img id="5"><path><![CDATA[publish/images/speedchat/visit_disney_fairies.swf]]></path></img> -->
+	</imgs>
+
+	<copy>
+		<title1><![CDATA[<span class="pageTitle"><p>Chat Preferences</p></span>]]></title1>
+		<subTitle><![CDATA[<span class="bodyLeftMedium"><p>Your SpeedChat Plus preference has not been validated. To use SpeedChat Plus you must validate by clicking on the link sent to your account's e-mail address.  Parents must validate children under 13.</p></span>]]></subTitle>
+		<!--<speedChatPlus><![CDATA[<span class="bodyYellow"><p>SpeedChat and SpeedChat Plus</p></span>]]></speedChatPlus>-->
+		<!--<speedChatOnly><![CDATA[<span class="bodyYellow"><p>SpeedChat Only</p></span>]]></speedChatOnly>-->
+		<!--<or><![CDATA[<span class="bodyYellowLarge"><p>or</p></span>]]></or>-->
+		<!--<speedPlusDef><![CDATA[<span class="bodyLeft"><p>SpeedChat Plus - Chat with other Disney members by typing words from the Disney SpeedChat Plus dictionary into the chat bar. Words not in the dictionary, will be high-lighted in red. Type other words to replace them.</p></span>]]></speedPlusDef>-->
+		<!--<speedDef><![CDATA[<span class="bodyLeft"><p>SpeedChat - Chat with other Disney members using a set list of approved questions and statements from drop-down menus.</p></span>]]></speedDef>	-->
+		<note><![CDATA[<span class="bodyLeftMedium"><p>NOTE: Some chat messages in SpeedChat Plus mode might get through the filters and be offensive to some players.</p></span>]]></note>
+		<validemail><![CDATA[<span class="bodyLeftMedium"><p>If your account does not have a valid e-mail address, you must contact <a href="http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl&formId=account">Customer Support</a> before you will be able to use SpeedChat Plus.</p></span>]]></validemail>
+		<yes><![CDATA[<span class="radio"><p>SpeedChat Plus</p></span>]]></yes>
+		<no><![CDATA[<span class="radio"><p>SpeedChat</p></span>]]></no>
+		<learnmorespeedchat><![CDATA[<span class="bodyLeftSmall"><p><a href="event:speedChat">Learn More</a> </p></span>]]></learnmorespeedchat>
+		<learnmorespeedchatplus><![CDATA[<span class="bodyLeftSmall"><p><a href="event:speedChatPlus">Learn More</a></p></span>]]></learnmorespeedchatplus>
+		<submitBtn><![CDATA[Submit]]></submitBtn>
+		<alertoktext><![CDATA[ok]]></alertoktext>
+		<speedchatalerttext><![CDATA[<ul><li>Open to all Fairies</li><li>SpeedChat uses a set list of words and phrases that Fairies select from a drop-down Menu.</li></ul>]]></speedchatalerttext>
+		<speedchatplusalerttext><![CDATA[<ul><li>Open to all Fairies, but can be turned off using Disney's Parental Controls." (I would like Parental Controls to link to that page but if you can't have a link in Pop up it's no big deal)</li><li>SpeedChat Plus is a keyboard chat system that uses a dictionary of Fairy-friendly words.</li><li>This chat is filtered and moderated. If a Fairy types a word that is not in the dictionary, that word will not be seen by other Fairies.</li></ul>]]></speedchatplusalerttext>
+	</copy>
+	
+	<!--  only links not in html should be placed here 
+		html event links can be cased via text sent, currently must be programmed in flash.
+	-->
+	<links>
+		<link id="1"><![CDATA[index.html]]></link>
+		<link id="2"><![CDATA[http://disneyfairies.com/]]></link>
+	</links>
+	
+	<!-- directives -->
+	<directives>
+		<!-- background img -->
+		<staticImg><x>130</x><y>180</y><src>1</src><index>0</index></staticImg>
+		<!-- title glitter img -->
+		<staticImg><x>322</x><y>235</y><src>2</src><index>1</index></staticImg>
+		<!-- or glitter img -->
+		<!--<staticImg><x>495</x><y>347</y><src>3</src><index>1</index></staticImg>-->
+		<!-- tinkerbell img -->
+		<staticImg><x>-79</x><y>458</y><src>4</src><index>1</index></staticImg>
+		<!-- visit dis fairies img -->
+		<!--  <staticImg><x>-79</x><y>351</y><src>5</src><index>1</index><button>true</button><link>2</link></staticImg> -->
+		<!-- title1 text -->
+		<HTMLTxt><textWidth>555</textWidth><textHeight>67</textHeight><style>true</style><x>240</x><y>244</y><index>1</index><htmlText>title1</htmlText><page>1</page></HTMLTxt>
+		<!-- subTitle text -->
+		<HTMLTxt><textWidth>555</textWidth><textHeight>23</textHeight><style>true</style><x>262</x><y>316</y><index>1</index><htmlText>subTitle</htmlText><page>1</page></HTMLTxt>
+		<!-- speedchatplus text -->
+		<!--<HTMLTxt><textWidth>160</textWidth><textHeight>42</textHeight><style>true</style><x>274</x><y>352</y><index>1</index><htmlText>speedChatPlus</htmlText><page>1</page></HTMLTxt>-->
+		<!-- speedChatOnly text -->
+		<!--<HTMLTxt><textWidth>160</textWidth><textHeight>42</textHeight><style>true</style><x>592</x><y>352</y><index>1</index><htmlText>speedChatOnly</htmlText><page>1</page></HTMLTxt>-->
+		<!-- or text -->
+		<!--<HTMLTxt><textWidth>120</textWidth><textHeight>33</textHeight><style>true</style><x>454</x><y>348</y><index>1</index><htmlText>or</htmlText><page>1</page></HTMLTxt>-->
+		<!-- speedplus def text -->
+		<!--<HTMLTxt><textWidth>213</textWidth><textHeight>114</textHeight><style>true</style><x>262</x><y>402</y><index>1</index><htmlText>speedPlusDef</htmlText><page>1</page></HTMLTxt>-->
+		<!-- speedDef text -->
+		<!--<HTMLTxt><textWidth>219</textWidth><textHeight>114</textHeight><style>true</style><x>561</x><y>402</y><index>1</index><htmlText>speedDef</htmlText><page>1</page></HTMLTxt>-->
+		<!-- valid email text -->
+		<HTMLTxt><textWidth>550</textWidth><textHeight>33</textHeight><style>true</style><x>262</x><y>496</y><index>1</index><htmlText>validemail</htmlText><page>1</page></HTMLTxt>
+		<!-- note text -->
+		<HTMLTxt><textWidth>550</textWidth><textHeight>33</textHeight><style>true</style><x>262</x><y>556</y><index>1</index><htmlText>note</htmlText><page>1</page></HTMLTxt>
+		<!-- yes text -->
+		<HTMLTxt><textWidth>150</textWidth><textHeight>33</textHeight><style>true</style><x>414</x><y>404</y><index>1</index><htmlText>yes</htmlText><page>1</page></HTMLTxt>
+		<!-- no text -->
+		<HTMLTxt><textWidth>150</textWidth><textHeight>33</textHeight><style>true</style><x>414</x><y>438</y><index>1</index><htmlText>no</htmlText><page>1</page></HTMLTxt>
+		<!-- radio button -->
+		<ButtonClassObjectEvent><page>1</page><id>radio1</id><def>radio</def><x>382</x><y>402</y><button>true</button><radio>true</radio><funcParams>radio1</funcParams><funcName>checkRadio</funcName><eventTriggerType>click</eventTriggerType></ButtonClassObjectEvent>
+		<!-- radio button -->
+		<ButtonClassObjectEvent><page>1</page><id>radio2</id><def>radio</def><x>382</x><y>437</y><button>true</button><radio>true</radio><funcParams>radio2</funcParams><funcName>checkRadio</funcName><eventTriggerType>click</eventTriggerType></ButtonClassObjectEvent>
+		<!-- Learn More SpeedChat Plus text -->
+		<HTMLTxt><textWidth>448</textWidth><textHeight>33</textHeight><textLink>false</textLink><style>true</style><x>574</x><y>410</y><index>1</index><htmlText>learnmorespeedchatplus</htmlText><page>1</page></HTMLTxt>
+		<!-- Learn More SpeedChat text -->
+		<HTMLTxt><textWidth>448</textWidth><textHeight>33</textHeight><textLink>false</textLink><style>true</style><x>574</x><y>444</y><index>1</index><htmlText>learnmorespeedchat</htmlText><page>1</page></HTMLTxt>
+		<!-- submit btn -->
+		<ButtonClassObjectEvent><page>1</page><id>submitBtn</id><def>PinkBtn</def><btnTxt>submitBtn</btnTxt><x>461</x><y>628</y><button>true</button><funcName>submit</funcName><eventTriggerType>click</eventTriggerType></ButtonClassObjectEvent>
+	</directives>
+</page>
+
+
+

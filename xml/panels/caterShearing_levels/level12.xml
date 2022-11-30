@@ -1,0 +1,65 @@
+<level>
+	<rows>
+		5
+	</rows>
+	<columns>
+		4
+	</columns>
+	<basket>
+		<firstC>
+			purple
+		</firstC>
+		<secondC>
+			yellow
+		</secondC>
+		<thirdC>
+			none
+		</thirdC>
+		<fourthC>
+			none
+		</fourthC>
+		<firstL>
+			12
+		</firstL>
+		<secondL>
+			8
+		</secondL>
+		<thirdL>
+			0
+		</thirdL>
+		<fourthL>
+			0
+		</fourthL>
+	</basket> 
+	<time>
+		25
+	</time>
+	<timePenalty>
+		2
+	</timePenalty>
+	<furPatch topColor="purple" botColor="yellow" x="0" y="0" thickness="2" />
+	<furPatch topColor="purple" botColor="yellow" x="1" y="0" thickness="2" />
+	<furPatch topColor="purple" botColor="red" x="2" y="0" thickness="2" />
+	<furPatch topColor="red" botColor="red" x="3" y="0" thickness="2" />
+	<furPatch topColor="red" botColor="red" x="4" y="0" thickness="2" />
+	
+	<furPatch topColor="purple" botColor="yellow" x="0" y="1" thickness="2" /> 
+	<furPatch topColor="purple" botColor="yellow" x="1" y="1" thickness="2" />
+	<furPatch topColor="purple" botColor="red" x="2" y="1" thickness="2" />
+	<furPatch topColor="red" botColor="red" x="3" y="1" thickness="2" />
+	<furPatch topColor="red" botColor="red" x="4" y="1" thickness="2" />
+	
+	<furPatch topColor="red" botColor="red" x="0" y="2" thickness="2" />
+	<furPatch topColor="red" botColor="red" x="1" y="2" thickness="2" />
+	<furPatch topColor="purple" botColor="red" x="2" y="2" thickness="2" />
+	<furPatch topColor="purple" botColor="yellow" x="3" y="2" thickness="2" />
+	<furPatch topColor="purple" botColor="yellow" x="4" y="2" thickness="2" />
+	
+	<furPatch topColor="red" botColor="red" x="0" y="3" thickness="2" />
+	<furPatch topColor="red" botColor="red" x="1" y="3" thickness="2" />
+	<furPatch topColor="purple" botColor="red" x="2" y="3" thickness="2" />
+	<furPatch topColor="purple" botColor="yellow" x="3" y="3" thickness="2" />
+	<furPatch topColor="purple" botColor="yellow" x="4" y="3" thickness="2" />
+</level>
+
+

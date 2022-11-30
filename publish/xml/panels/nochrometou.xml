@@ -1,0 +1,32 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/nochromeTermsOfUse.swf</swf>
+		<swf type="code">{publishPanelCode}/termsOfUse.swf</swf>
+	</swfs>
+	<copy>
+		<genericError><![CDATA[There Was An Error Processing you request.]]></genericError>
+		<submitTxt><![CDATA[Submit]]></submitTxt>
+		<title><![CDATA[Terms Of Use]]></title>
+		<leftNavText><![CDATA[Back to DisneyFairies.com]]></leftNavText>
+		<certify><![CDATA[I certify that I have read all 17 sections of the Terms of Use contained in the box above and I agreed with all of their terms.]]></certify>
+		<disclaimer><![CDATA[To register, you must read the Terms of Use set forth below, make sure you understand them, and certify to the statement below, indicating your acknowledgement and acceptance of those terms.  The Terms of Use contain important provisions governing your and our rights including, amoung other things, acceptable conduct on the Walt Disney Internet Group family of sites (including Disney.com, and other Internet sites affiliated with The Walt Disney Company), intellectual property rights (including our right to use information, content and materials you submit to us), and other rights and remedies available to you and us.]]></disclaimer>
+		<userNotFound><![CDATA[There was a problem with Term Of Use submission.]]></userNotFound>
+		<header_content>Never Council News</header_content>
+		<history>Back</history>
+	</copy>
+	<config>
+		<OverrideSessionTOURequest>OverrideSessionTOURequest</OverrideSessionTOURequest>
+		<trackingid>termsofuse</trackingid>
+		<root_url>index_distribution.html</root_url>
+		<home_url>http://disneyfairies.com/</home_url>
+		<iconbase>swf/avatar/icon.swf</iconbase>
+		<sectionicons>swf/panel_content/section_icons.swf</sectionicons>
+		<css>css/stylesheet.css</css>
+		<panelsetbase>xml/panelSets/</panelsetbase>
+
+		<pages>
+			<page>{publishContentData}/termsofuse/page1.xml</page>
+		</pages>
+		
+	</config>
+</panel>

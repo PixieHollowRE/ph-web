@@ -1,0 +1,12 @@
+<data>
+<copy>
+		<response_0_0>Come right in! My philosophy is that form and function must coexist like earth and sky.</response_0_0>
+		<response_0_1>Breathe deep, relax your mind, and explore my collections. Remember, if it's useable and beautiful, it must be from Harmony's!</response_0_1>
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

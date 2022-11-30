@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>Shhh! I finally got all the animals to fall asleep.</response_0_0>
+		<response_0_1>It took me six rounds of Snowy Lullaby this time.</response_0_1>
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

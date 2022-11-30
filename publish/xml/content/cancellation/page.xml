@@ -1,0 +1,369 @@
+<page>
+	
+	<!--codeSwfs>
+		<swf><![CDATA[directive.swf]]></swf>
+	</codeSwfs-->
+		
+	<!-- currently only one style and it is declared in panel xml >
+	<styles>
+		<css><![CDATA[decorator.css]]></css>
+	</styles-->
+	
+	<imgs>
+		<img id="2">
+			<path><![CDATA[publish/images/cancellation/blue_container.swf]]></path>
+		</img>
+		<img id="1">
+			<path><![CDATA[publish/images/cancellation/tink.png]]></path>
+		</img>
+		<img id="3">
+			<path><![CDATA[publish/images/cancellation/blue_container.swf]]></path>
+		</img>
+		<img id="4">
+			<path><![CDATA[publish/images/cancellation/backBtn.swf]]></path>
+		</img>
+	</imgs>
+	
+	<copy>
+		<cancellation><![CDATA[<span class="header"><p>Getting Started  <a href="event:2">link this</a> <a href="event:1">this should go to link id 1</a></span>]]></cancellation>
+		<title1><![CDATA[<span class="pageTitle">Online Cancellation</span>]]></title1>
+		<title3><![CDATA[<span class="pageTitle">Log in to Continue</span>]]></title3>
+		<title4><![CDATA[<span class="pageTitle">Account Error</span>]]></title4>
+		<title5><![CDATA[<span class="pageTitle">Game Card/Guest Pass Error</span>]]></title5>
+		<title6><![CDATA[<span class="pageTitle">Multiple Accounts Notification</span>]]></title6>
+		<title7><![CDATA[<span class="pageTitle">Primary Card Holder Error</span>]]></title7>
+		<title8><![CDATA[<span class="pageTitle">Cancellation Error</span>]]></title8>
+		<title9><![CDATA[<span class="pageTitle">Your Membership has been cancelled</span>]]></title9>
+		<title10><![CDATA[<span class="pageTitle">Membership at a Glance</span>]]></title10>
+		<title11><![CDATA[<span class="pageTitle">Already Cancelled</span>]]></title11>
+		<exitBtn>Exit</exitBtn>
+		<continueBtn>Continue</continueBtn>
+		<!--intro><![CDATA[<span class="body"><p>You can cancel your Membership by phone or online.  You’ll receive a confirmation e-mail once your Membership has been successfully cancelled.</p><br><p>To cancel you membership online, please be sure to <a href="event:showLogin">login</a> to your account in order to continue.</p></span>]]></intro-->
+		<intro><![CDATA[<span class="body"><p>You can cancel your Membership by phone or online.  You'll receive a confirmation e-mail once your Membership has been successfully cancelled.</p></span>]]></intro>
+		<introExtended><![CDATA[<span class="body"><p>To cancel you membership online, please be sure to <a href="event:showLogin">login</a> to your account in order to continue.</p></span>]]></introExtended>
+		<phoneInfo><![CDATA[<span class="bodyCentered"><p>To cancel by phone, please call (877) 78-PIXIE to speak to a customer service support representative.</p><span class="bodyCenteredBold"><p>Customer Support Hours:</p></span><p>Monday - Friday 8AM - 6PM, PST</p><p>or</p><p>Saturday 8AM - 4PM, PST <p>and</p><p>Sunday  10AM - 6PM, PST</p></span>]]></phoneInfo>
+		<loginBtn>Log In</loginBtn>
+		<accountInpt><![CDATA[<span class="bodyAlignRight"><p>Account ID</p></span>]]></accountInpt>
+		<passwordInpt><![CDATA[<span class="bodyAlignRight"><p>Password</p></span>]]></passwordInpt>
+		<gotoPixCentral>Go to                    Pixie Central</gotoPixCentral>
+		<accountError><![CDATA[<span class="body"><p>This account does not have a Membership to Pixie Hollow. Please <a href="event:showLogin">click here</a> to log into another Pixie Hollow account or click below to go back to Pixie Central.</p></span>]]></accountError>
+		<gameCardError><![CDATA[<span class="body"><p>This account does not have a recurring Membership to Pixie Hollow.  Your Game Card/Guest Pass will expire on EXPIRATION at midnight Pacific Time.<br><br>After this date, your Membership will end.  You can continue playing Pixie Hollow using the same log-in information as before, or you can <a href="event:3">become a Member</a> to continue enjoying all the fun in Pixie Hollow and the fashions and furnishings you’ve added to your inventory from shopping and personal tailoring.</p></span>]]></gameCardError>
+		<multipleAccounts><![CDATA[<span class="body"><p>This account has multiple accounts linked to it. Please call Customer Support so we can help you select which account you would like to cancel. You can contact Customer Support at (877)78 - PIXIE, Monday - Friday 8AM - 6PM PST, Saturday 8AM - 4PM PST, and Sunday 10AM - 6PM PST.</p></span>]]></multipleAccounts>
+		<primaryCard><![CDATA[<span class="body"><p>You must be logged in with the Primary or Parent Account that matches the credit card we have on file to cancel this Membership.  Please <a href="event:showLogin">click here</a> to log into another Disney Fairies Pixie Hollow account to continue or click the button below to go back to Pixie Central.</p></span>]]></primaryCard>
+		<cancelError><![CDATA[<span class="body"><p>We are having trouble cancelling your Membership online. Please call us at (877) 78 - PIXIE, Monday - Friday, 8AM - 6PM PST, Saturday 8AM - 4PM pST, or Sunday, 10AM - 6PM PST to speak to one of our customer support representatives. We apologize for the inconvenience.</p></span>]]></cancelError>
+		<cancelled><![CDATA[<span class="body"><p>This confirms your Membership to Disney Fairies Pixie Hollow for ACCOUNTID has been cancelled.  An e-mail notification will be sent to you shortly.<br><br>Your Membership to Pixie Hollow will remain active until your currently paid time expires on EXPIRATION at midnight, Pacific Time.<br><br>After this date, you can continue to play Pixie Hollow but the features associated with Membership will no longer be accessible.  We hope you continue to fly into Pixie Hollow for Fairy fun and excitement.<br><br>If you'd like to reactivate your Pixie Hollow Membership, please <a href="event:3">click here</a>. </p></span>]]></cancelled>
+		<alreadyCancelled><![CDATA[<span class="body"><p>Your account cancellation was already received. Please use our <a href="event:2">contact us</a> form if you have additional questions.</p></span>]]></alreadyCancelled>
+		<infoTitle><![CDATA[<span class="body"><p>Please verify the following information:</p></span>]]></infoTitle>
+		<accountIDLabel><![CDATA[<span class="bodyArial"><p>Account ID</p></span>]]></accountIDLabel>
+		<memberTypeLabel><![CDATA[<span class="bodyArial"><p>Membership Type</p></span>]]></memberTypeLabel>
+		<memberSinceLabel><![CDATA[<span class="bodyArial"><p>Member Since</p></span>]]></memberSinceLabel>
+		<renewalLabel><![CDATA[<span class="bodyArial"><p>Renewal Date</p></span>]]></renewalLabel>
+		<memberInfoFooter><![CDATA[<span class="bodySmall"><p>Once your Membership is cancelled, you will still have access to all of your Fairies in Pixie Hollow but some of the things you've added to your inventory through shopping and personal crafting may no longer be available.</p></span>]]></memberInfoFooter>
+		<featuresTitle><![CDATA[<span class="body"><p>The following features will not be accessible once your Membership is cancelled:</p></span>]]></featuresTitle>
+		<shoppingLabel><![CDATA[<span class="bodyArial"><p>Shopping</p></span>]]></shoppingLabel>
+		<personalTailoringLabel><![CDATA[<span class="bodyArial"><p>Personal Tailoring</p></span>]]></personalTailoringLabel>
+		<gamePreviewsLabel><![CDATA[<span class="bodyArial"><p>Game Previews</p></span>]]></gamePreviewsLabel>
+		<shoppingData><![CDATA[<span class="bodySmallBlk"><p><li>Shopping for the latest fashions and furnishings in the Fairy Boutiques.</li><li>The incredible items added to your Fairy wardrobe and inventory from the shops.</li></p></span>]]></shoppingData>
+		<personalTailoringData><![CDATA[<span class="bodySmallBlk"><p><li>Tailoring Fairy fashions and accessories to add to your personal wardrobe.</li><li>The stylish pieces in your wardrobe created through personal tailoring.</li></p></span>]]></personalTailoringData>
+		<gamePrviewsData><![CDATA[<span class="bodySmallBlk"><p><li>Playing new games in the Hollow before all the other Fairies.</li></p></span>]]></gamePrviewsData>
+		<memberOptions><![CDATA[<span class="bodySmall"><p>For Membership options, please <a href="event:3">click here</a>.</span>]]></memberOptions>
+		<optional><![CDATA[<span class="bodyLeftBold"><p>Optional</p></span>]]></optional>
+		<prequesiton><![CDATA[<span class="bodySmall"><p>Please help us improve the overall quality of Pixie Hollow by answering the question below:<br><br>Why are you cancelling your Membership to Disney Fairies Pixie Hollow?</p></span>]]></prequesiton>
+		<additionalComments><![CDATA[<span class="bodySmall"><p>Additional Comments</p></span>]]></additionalComments>
+		<cancelBtn>Cancel      Subscription</cancelBtn>
+		<dropDown>|Not Enough To Do|Technical Issues|Poor Customer Support|Too Hard|Too Easy|Leaving for Another Game|Other|Too Expensive|Unauthorized Purchase|Chat Policy Issue|Don't Use|Not Enough Features|Didn't Realize Still Had Account</dropDown>
+		<FPO><![CDATA[<span class="bodyArial"><p>FPO</p></span>]]></FPO>
+	</copy>
+	
+	<!--  only links not in html should be placed here 
+		html event links can be cased via text sent, currently must be programmed in flash.
+	-->
+	<links>
+		<link id="1"><![CDATA[http://pixiehollow.go.com/index.html]]></link>
+		<link id="2"><![CDATA[http://apps.disneyblast.go.com/cgi-bin/mail/generic_mail.cgi?template=pixiehollow/form.tpl]]></link>
+		<link id="3"><![CDATA[membershiphub.html]]></link>
+	</links>
+	
+	<!-- directives -->
+	<directives>
+		<!-- backBtn img -->
+		<staticImg>
+			<x>20</x>
+			<y>320</y>
+			<src>4</src>
+			<link>1</link>
+			<button>true</button>
+		</staticImg>
+		<!-- tink img -->
+		<staticImg>
+			<x>-5</x>
+			<y>420</y>
+			<src>1</src>
+		</staticImg>
+		<!-- background img -->
+		<staticImg>
+			<x>180</x>
+			<y>120</y>
+			<src>3</src>
+			<index>0</index>
+		</staticImg>
+		<!-- title1 text -->
+		<HTMLTxt>
+			<textWidth>600</textWidth>
+			<textHeight>55</textHeight>
+			<style>true</style>
+			<x>280</x>
+			<y>209</y>
+			<index>1</index>
+			<htmlText>title1</htmlText>
+			<page>1</page>
+		</HTMLTxt>
+		<!-- intro text -->
+		<HTMLTxt>
+			<!--textLink>true</textLink-->
+			<textWidth>600</textWidth>
+			<textHeight>60</textHeight>
+			<style>true</style>
+			<x>280</x>
+			<y>280</y>
+			<index>1</index>
+			<htmlText>intro</htmlText>
+			<page>1</page>
+		</HTMLTxt>
+		<!-- introextended text -->
+		<!--HTMLTxt>
+			<textLink>true</textLink>
+			<textWidth>600</textWidth>
+			<textHeight>50</textHeight>
+			<style>true</style>
+			<x>280</x>
+			<y>320</y>
+			<index>1</index>
+			<htmlText>introExtended</htmlText>
+			<id>introExtended</id>
+			<page>1</page>
+		</HTMLTxt-->
+		
+		<!-- accountInpt Text field -->
+		<HTMLTxt><id>altAccountIDText</id><textWidth>200</textWidth><textHeight>50</textHeight><style>true</style><x>300</x><y>340</y><index>1</index><htmlText>accountInpt</htmlText><page>var</page></HTMLTxt>
+		<!-- password Text field -->
+		<HTMLTxt><id>altPWordText</id><textWidth>200</textWidth><textHeight>50</textHeight><style>true</style><x>300</x><y>365</y><index>1</index><htmlText>passwordInpt</htmlText><page>var</page></HTMLTxt>
+		<!-- inputTxt password -->
+		<ButtonClassObjectEvent><id>altPassword</id><def>input</def><encryptInputText>true</encryptInputText><x>510</x><defWidth>220</defWidth><y>365</y><index>1</index><page>var</page><funcName>initLogin</funcName><defInputTextParam>altUName|altPassword</defInputTextParam><eventTriggerType>keyDown</eventTriggerType><listenerKey>13</listenerKey></ButtonClassObjectEvent>
+		<!-- inputTxt member id -->
+		<staticImg><id>altUName</id><def>input</def><x>510</x><defWidth>220</defWidth><y>340</y><index>1</index><page>var</page></staticImg>
+		<!-- alt continue btn for login -->
+		<ButtonClassObjectEvent><id>altContinueBtn</id><def>PinkBtn</def><btnTxt>loginBtn</btnTxt><defInputTextParam>altUName|altPassword</defInputTextParam><x>650</x><y>420</y><index>1</index><page>var</page><button>true</button><funcName>initLogin</funcName><eventTriggerType>click</eventTriggerType></ButtonClassObjectEvent>
+		
+		<!-- phone info -->
+		<HTMLTxt>
+			<textWidth>450</textWidth>
+			<textHeight>230</textHeight>
+			<style>true</style>
+			<x>355</x>
+			<y>500</y>
+			<index>1</index>
+			<htmlText>phoneInfo</htmlText>
+			<page>1</page>
+		</HTMLTxt>
+		<!-- exit btn -->
+		<BtnClassDef>
+			<def>PinkBtn</def>
+			<btnTxt>exitBtn</btnTxt>
+			<x>390</x>
+			<y>420</y>
+			<index>1</index>
+			<button>true</button>
+			<link>1</link>
+			<page>1</page>
+		</BtnClassDef>
+		<!-- continue btn -->
+		<ButtonClassObjectEvent>
+			<id>continueBtn</id>
+			<def>PinkBtn</def>
+			<btnTxt>continueBtn</btnTxt>
+			<x>650</x>
+			<y>420</y>
+			<index>1</index>
+			<page>1</page>
+			<button>true</button>
+			<eventTriggerType>click</eventTriggerType>
+			<funcName>checkLoggedIn</funcName>
+		</ButtonClassObjectEvent>
+		<!-- LOGIN PAGE -->
+		<!-- title3 text -->
+		<HTMLTxt><textWidth>600</textWidth><textHeight>55</textHeight><style>true</style><x>280</x><y>209</y><index>1</index><htmlText>title3</htmlText><page>login</page></HTMLTxt>
+		<!-- loginBtn -->
+		<ButtonClassObjectEvent><def>PinkBtn</def><btnTxt>loginBtn</btnTxt><defInputTextParam>2|3</defInputTextParam><x>520</x><y>365</y><index>1</index><page>login</page><button>true</button><funcName>initLogin</funcName><eventTriggerType>click</eventTriggerType></ButtonClassObjectEvent>
+		<!-- accountInpt Text field -->
+		<HTMLTxt><textWidth>200</textWidth><textHeight>50</textHeight><style>true</style><x>300</x><y>280</y><index>1</index><htmlText>accountInpt</htmlText><page>login</page></HTMLTxt>
+		<!-- password Text field -->
+		<HTMLTxt><textWidth>200</textWidth><textHeight>50</textHeight><style>true</style><x>300</x><y>305</y><index>1</index><htmlText>passwordInpt</htmlText><page>login</page></HTMLTxt>
+		<!-- inputTxt password -->
+		<ButtonClassObjectEvent><id>3</id><def>input</def><encryptInputText>true</encryptInputText><x>510</x><defWidth>220</defWidth><y>305</y><index>1</index><page>login</page><funcName>initLogin</funcName><defInputTextParam>2|3</defInputTextParam><eventTriggerType>keyDown</eventTriggerType><listenerKey>13</listenerKey></ButtonClassObjectEvent>
+		<!-- inputTxt member id -->
+		<staticImg><id>2</id><def>input</def><x>510</x><defWidth>220</defWidth><y>280</y><index>1</index><page>login</page></staticImg>
+		<!-- ACCOUNTERROR PAGE -->
+		<!-- title4 text -->
+		<HTMLTxt><textWidth>600</textWidth><textHeight>55</textHeight><style>true</style><x>280</x><y>209</y><index>1</index><htmlText>title4</htmlText><page>accountError</page></HTMLTxt>
+		<!-- intro text -->
+		<HTMLTxt>
+			<textLink>true</textLink>
+			<textWidth>600</textWidth>
+			<textHeight>150</textHeight>
+			<style>true</style>
+			<x>280</x>
+			<y>270</y>
+			<index>1</index>
+			<htmlText>accountError</htmlText>
+			<page>accountError</page>
+		</HTMLTxt>
+		<!-- goto pixie central btn -->
+		<BtnClassDef>
+			<def>PinkBtn</def>
+			<btnTxt>gotoPixCentral</btnTxt>
+			<x>514</x>
+			<y>345</y>
+			<index>1</index>
+			<button>true</button>
+			<link>1</link>
+			<page>accountError</page>
+		</BtnClassDef>
+	
+		<!-- GAMECARDERROR PAGE -->
+		<!-- title5 text -->
+		<HTMLTxt><textWidth>600</textWidth><textHeight>55</textHeight><style>true</style><x>280</x><y>209</y><index>1</index><htmlText>title5</htmlText><page>gameCardError</page></HTMLTxt>
+		<!-- goto pixie central btn -->
+		<BtnClassDef><def>PinkBtn</def><btnTxt>gotoPixCentral</btnTxt><x>514</x><y>425</y><index>1</index><button>true</button><link>1</link><page>gameCardError</page></BtnClassDef>
+		<!-- body text -->
+		<HTMLTxt><id>11</id><textLink>true</textLink><textWidth>600</textWidth><textHeight>150</textHeight><style>true</style><x>280</x><y>270</y><index>1</index><htmlText>gameCardError</htmlText><page>gameCardError</page></HTMLTxt>
+		<!-- title6 text -->
+		
+		<!-- MULTIPLEACCOUTNS PAGE -->
+		<HTMLTxt><textWidth>600</textWidth><textHeight>55</textHeight><style>true</style><x>280</x><y>209</y><index>1</index><htmlText>title6</htmlText><page>multipleAccounts</page></HTMLTxt>
+		<!-- goto pixie central btn -->
+		<BtnClassDef><def>PinkBtn</def><btnTxt>gotoPixCentral</btnTxt><x>514</x><y>375</y><index>1</index><button>true</button><link>1</link><page>multipleAccounts</page></BtnClassDef>
+		<!-- body text -->
+		<HTMLTxt><textLink>true</textLink><textWidth>600</textWidth><textHeight>150</textHeight><style>true</style><x>280</x><y>270</y><index>1</index><htmlText>multipleAccounts</htmlText><page>multipleAccounts</page></HTMLTxt>
+		
+		<!-- PRIMARYCARD PAGE -->
+		<!-- title7 text -->
+		<HTMLTxt><textWidth>600</textWidth><textHeight>55</textHeight><style>true</style><x>280</x><y>209</y><index>1</index><htmlText>title7</htmlText><page>primaryCard</page></HTMLTxt>
+		<!-- goto pixie central btn -->
+		<BtnClassDef><def>PinkBtn</def><btnTxt>gotoPixCentral</btnTxt><x>514</x><y>375</y><index>1</index><button>true</button><link>1</link><page>primaryCard</page></BtnClassDef>
+		<!-- body text -->
+		<HTMLTxt><textLink>true</textLink><textWidth>600</textWidth><textHeight>150</textHeight><style>true</style><x>280</x><y>270</y><index>1</index><htmlText>primaryCard</htmlText><page>primaryCard</page></HTMLTxt>
+	
+		<!-- CANCELLATIONERROR PAGE -->
+		<!-- title8 text -->
+		<HTMLTxt><textWidth>600</textWidth><textHeight>55</textHeight><style>true</style><x>280</x><y>209</y><index>1</index><htmlText>title8</htmlText><page>cancelError</page></HTMLTxt>
+		<!-- goto pixie central btn -->
+		<BtnClassDef><def>PinkBtn</def><btnTxt>gotoPixCentral</btnTxt><x>514</x><y>375</y><index>1</index><button>true</button><link>1</link><page>cancelError</page></BtnClassDef>
+		<!-- body text -->
+		<HTMLTxt><textLink>true</textLink><textWidth>600</textWidth><textHeight>150</textHeight><style>true</style><x>280</x><y>270</y><index>1</index><htmlText>cancelError</htmlText><page>cancelError</page></HTMLTxt>
+		
+		<!-- CANCELLED PAGE -->
+		<!-- title9 text -->
+		<HTMLTxt><textWidth>600</textWidth><textHeight>55</textHeight><style>true</style><x>280</x><y>209</y><index>1</index><htmlText>title9</htmlText><page>cancelled</page></HTMLTxt>
+		<!-- goto pixie central btn -->
+		<BtnClassDef><def>PinkBtn</def><btnTxt>gotoPixCentral</btnTxt><x>514</x><y>525</y><index>1</index><button>true</button><link>1</link><page>cancelled</page></BtnClassDef>
+		<!-- body text -->
+		<HTMLTxt><id>10</id><textLink>true</textLink><textWidth>600</textWidth><textHeight>150</textHeight><style>true</style><x>280</x><y>270</y><index>1</index><htmlText>cancelled</htmlText><page>cancelled</page></HTMLTxt>
+		
+		<!-- ALREADY CANCELLED PAGE -->
+		<!-- title11 text -->
+		<HTMLTxt><textWidth>600</textWidth><textHeight>55</textHeight><style>true</style><x>280</x><y>209</y><index>1</index><htmlText>title11</htmlText><page>alreadyCancelled</page></HTMLTxt>
+		<!-- goto pixie central btn -->
+		<BtnClassDef><def>PinkBtn</def><btnTxt>gotoPixCentral</btnTxt><x>514</x><y>345</y><index>1</index><button>true</button><link>1</link><page>alreadyCancelled</page></BtnClassDef>
+		<!-- body text -->
+		<HTMLTxt><textLink>true</textLink><textWidth>600</textWidth><textHeight>150</textHeight><style>true</style><x>280</x><y>270</y><index>1</index><htmlText>alreadyCancelled</htmlText><page>alreadyCancelled</page></HTMLTxt>
+		
+		<!-- MEMBERDATA PAGE -->
+		<!-- title10 text -->
+		<HTMLTxt><textWidth>600</textWidth><textHeight>55</textHeight><style>true</style><x>280</x><y>209</y><index>1</index><htmlText>title10</htmlText><page>memberData</page></HTMLTxt>
+		<!-- boxes background -->
+		<staticImg><page>memberData</page><def>memberdata</def><index>1</index></staticImg>
+		<!-- info title -->
+		<HTMLTxt><textLink>true</textLink><textWidth>600</textWidth><textHeight>25</textHeight><style>true</style><x>255</x><y>287</y><index>2</index><htmlText>infoTitle</htmlText><page>memberData</page></HTMLTxt>
+		<!-- memberid label -->
+		<HTMLTxt><textLink>true</textLink><textWidth>130</textWidth><textHeight>25</textHeight><style>true</style><x>255</x><y>324</y><index>2</index><htmlText>accountIDLabel</htmlText><page>memberData</page></HTMLTxt>
+		<!-- memberid data -->
+		<HTMLTxt><id>4</id><textLink>true</textLink><textWidth>257</textWidth><textHeight>25</textHeight><style>true</style><x>538</x><y>324</y><index>2</index><htmlText>FPO</htmlText><page>memberData</page></HTMLTxt>
+		<!-- member type label -->
+		<HTMLTxt><textLink>true</textLink><textWidth>130</textWidth><textHeight>25</textHeight><style>true</style><x>255</x><y>359</y><index>2</index><htmlText>memberTypeLabel</htmlText><page>memberData</page></HTMLTxt>
+		<!-- member type data -->
+		<HTMLTxt><id>5</id><textLink>true</textLink><textWidth>257</textWidth><textHeight>25</textHeight><style>true</style><x>538</x><y>359</y><index>2</index><htmlText>FPO</htmlText><page>memberData</page></HTMLTxt>
+		<!-- member since label -->
+		<HTMLTxt><textLink>true</textLink><textWidth>130</textWidth><textHeight>25</textHeight><style>true</style><x>255</x><y>394</y><index>2</index><htmlText>memberSinceLabel</htmlText><page>memberData</page></HTMLTxt>
+		<!-- member since data -->
+		<HTMLTxt><id>6</id><textLink>true</textLink><textWidth>257</textWidth><textHeight>25</textHeight><style>true</style><x>538</x><y>394</y><index>2</index><htmlText>FPO</htmlText><page>memberData</page></HTMLTxt>
+		<!-- renewal label -->
+		<HTMLTxt><id>13</id><textLink>true</textLink><textWidth>130</textWidth><textHeight>25</textHeight><style>true</style><x>255</x><y>429</y><index>2</index><htmlText>renewalLabel</htmlText><page>memberData</page></HTMLTxt>
+		<!-- renewal data -->
+		<HTMLTxt><id>7</id><textLink>true</textLink><textWidth>257</textWidth><textHeight>25</textHeight><style>true</style><x>538</x><y>429</y><index>2</index><htmlText>FPO</htmlText><page>memberData</page></HTMLTxt>
+		<!-- member info footer -->
+		<HTMLTxt><textLink>true</textLink><textWidth>557</textWidth><textHeight>47</textHeight><style>true</style><x>288</x><y>468</y><index>2</index><htmlText>memberInfoFooter</htmlText><page>memberData</page></HTMLTxt>
+		<!-- features title -->
+		<HTMLTxt><textLink>true</textLink><textWidth>600</textWidth><textHeight>25</textHeight><style>true</style><x>255</x><y>542</y><index>2</index><htmlText>featuresTitle</htmlText><page>memberData</page></HTMLTxt>
+		<!-- shopping label -->
+		<HTMLTxt><textLink>true</textLink><textWidth>130</textWidth><textHeight>25</textHeight><style>true</style><x>257</x><y>580</y><index>2</index><htmlText>shoppingLabel</htmlText><page>memberData</page></HTMLTxt>
+		<!-- shopping data -->
+		<HTMLTxt><textLink>true</textLink><textWidth>600</textWidth><textHeight>25</textHeight><style>true</style><x>384</x><y>574</y><index>2</index><htmlText>shoppingData</htmlText><page>memberData</page></HTMLTxt>
+		<!-- personal tailoring label -->
+		<HTMLTxt><textLink>true</textLink><textWidth>130</textWidth><textHeight>25</textHeight><style>true</style><x>257</x><y>615</y><index>2</index><htmlText>personalTailoringLabel</htmlText><page>memberData</page></HTMLTxt>
+		<!-- personal tailoring data -->
+		<HTMLTxt><textLink>true</textLink><textWidth>600</textWidth><textHeight>25</textHeight><style>true</style><x>384</x><y>608</y><index>2</index><htmlText>personalTailoringData</htmlText><page>memberData</page></HTMLTxt>
+		<!-- game preview label -->
+		<HTMLTxt><textLink>true</textLink><textWidth>130</textWidth><textHeight>25</textHeight><style>true</style><x>257</x><y>650</y><index>2</index><htmlText>gamePreviewsLabel</htmlText><page>memberData</page></HTMLTxt>
+		<!-- game preview data -->
+		<HTMLTxt><textLink>true</textLink><textWidth>600</textWidth><textHeight>25</textHeight><style>true</style><x>384</x><y>650</y><index>2</index><htmlText>gamePrviewsData</htmlText><page>memberData</page></HTMLTxt>
+		<!-- membership options -->
+		<HTMLTxt><textLink>true</textLink><textWidth>600</textWidth><textHeight>25</textHeight><style>true</style><x>408</x><y>682</y><index>2</index><htmlText>memberOptions</htmlText><page>memberData</page></HTMLTxt>
+		<!-- optional -->
+		<!--HTMLTxt><textLink>true</textLink><textWidth>600</textWidth><textHeight>25</textHeight><style>true</style><x>257</x><y>712</y><index>2</index><htmlText>optional</htmlText><page>memberData</page></HTMLTxt-->
+		<!-- prequesiton -->
+		<HTMLTxt><textLink>true</textLink><textWidth>600</textWidth><textHeight>25</textHeight><style>true</style><x>257</x><y>744</y><index>2</index><htmlText>prequesiton</htmlText><page>memberData</page></HTMLTxt>
+		<!-- additionalComments -->
+		<!--HTMLTxt><textLink>true</textLink><textWidth>600</textWidth><textHeight>25</textHeight><style>true</style><x>257</x><y>831</y><index>2</index><htmlText>additionalComments</htmlText><page>memberData</page></HTMLTxt-->
+		<!-- inputTxt -->
+		<!--HTMLInputTxt>
+			<index>2</index>
+			<id>9</id>
+			<x>257</x>
+			<y>856</y>
+			<textHeight>85</textHeight>
+			<textWidth>618</textWidth>
+			<page>memberData</page>
+		</HTMLInputTxt-->
+		<!-- exit btn -->
+		<BtnClassDef><def>PinkBtn</def><btnTxt>exitBtn</btnTxt><x>406</x><y>884</y><index>1</index><button>true</button><link>1</link><page>memberData</page></BtnClassDef>
+		<!-- cancel btn -->
+		<ButtonClassObjectEvent><inputTextParam>12|9</inputTextParam><def>PinkBtn</def><btnTxt>cancelBtn</btnTxt><x>583</x><y>884</y><index>1</index><page>memberData</page><button>true</button><eventTriggerType>click</eventTriggerType><funcName>doCancel</funcName></ButtonClassObjectEvent>
+		<!-- combo box -->
+		<staticImg>
+			<def>combos</def>
+			<defWidth>280</defWidth>
+			<id>12</id>
+			<x>256</x>
+			<y>794</y>
+			<comboText>dropDown</comboText>
+			<page>memberData</page>
+		</staticImg>
+	</directives>
+</page>
+
+		<!--HTMLInputTxt>
+			<index>2</index>
+			<id>9</id>
+			<x>257</x>
+			<y>856</y>
+			<textHeight>85</textHeight>
+			<textWidth>618</textWidth>
+			<textType>input</textType>
+			<autoSize>none</autoSize>
+			<page>memberData</page>
+			<style>true</style>
+		</HTMLInputTxt-->
+
+
+

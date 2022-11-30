@@ -1,0 +1,13 @@
+<data>
+	<speed>650</speed>
+	<matchMin>3</matchMin>
+	<bonusTotal>0.55</bonusTotal>
+	<matchTotal>48</matchTotal>
+	<ingredients>
+		<ingredient>Twigs</ingredient>
+		<ingredient>MapleLeaves</ingredient>
+		<ingredient>ButtercupPetals</ingredient>
+		<ingredient>Metal</ingredient>
+		<ingredient>DaisyPetals</ingredient>
+	</ingredients>
+</data>

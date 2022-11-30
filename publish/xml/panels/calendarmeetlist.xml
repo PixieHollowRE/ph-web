@@ -1,0 +1,38 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/calendarmeetlist.swf</swf>
+		<swf type="code">{publishPanelCode}/calendarmeetlist.swf</swf>
+	</swfs>
+	<copy>
+		<title>Meet the Coaches</title>
+		<subtitle></subtitle>
+		<thelist><![CDATA[The Pixie Hollow Coaches are here to help you train for the Pixie Hollow Games! Fly in to see them during Sports Camp:
+<u><a href="http://pixiehollow.go.com/pixiepages/1TrainingTrail">Coach Lulu</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/2TrainingTrail">Coach Perry</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/3TrainingTrail">Coach Clay</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/4TrainingTrail">Coach Jazzy</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/5TrainingTrail">Coach Kate</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/6TrainingTrail">Coach Sandy</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/7TrainingTrail">Coach Heart</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/8TrainingTrail">Coach Emery</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/10TrainingTrail">Coach Lyric</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/11TrainingTrail">Coach Emma</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/12TrainingTrail">Coach Cocoa</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/13TrainingTrail">Coach Banjo</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/14TrainingTrail">Coach Happy</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/15TrainingTrail">Coach May</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/16TrainingTrail">Coach Bear</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/17TrainingTrail">Coach Newt</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/18TrainingTrail">Coach Iris</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/19TrainingTrail">Coach Helen</a></u>
+<u><a href="http://pixiehollow.go.com/pixiepages/20TrainingTrail">Coach Kat</a></u>
+]]></thelist>	
+		
+		<genericerror><![CDATA[There was an error processing your request. Please try again later.]]></genericerror>
+	</copy>
+	<config>
+		<randomConfig>true</randomConfig>
+		<imagepath>publish/images/calendar/</imagepath>
+		<headerImagePath>Meet_the_Coaches_Header.png</headerImagePath>
+	</config>
+</panel>

@@ -1,0 +1,41 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/dname.swf</swf>
+		<swf type="code">{panelCode}/dname.swf</swf>
+	</swfs>
+	<copy>
+		<dnameLastName><![CDATA[Your D-Name cannot contain your last name. Please edit and submit again.]]></dnameLastName>
+		<dnameEmail><![CDATA[Your D-Name cannot contain your e-mail. Please edit and submit again.]]></dnameEmail>
+		<dnameAccountName><![CDATA[Your D-Name cannot contain your account name. Please edit and submit again.]]></dnameAccountName>
+		<dnameFourNumbers><![CDATA[The end of your D-Name can only have up to  four numbers. Please edit and submit again.]]></dnameFourNumbers>
+		<dnameFirstCharacter><![CDATA[Only letters and numbers are allowed at the beginning of your D-Name. Please edit and submit again.]]></dnameFirstCharacter>
+		<dnameOneVowel><![CDATA[Please include at least one vowel in your D-Name.]]></dnameOneVowel>
+		<dnameLetterRequirement><![CDATA[Please include at least two letters in your D-Name.]]></dnameLetterRequirement>
+		<dnameCharacterError><![CDATA[Please include only letters, numbers, dashes and underscores in your D-Name.]]></dnameCharacterError>
+		<moreInfo><![CDATA[Click Here for More Info]]></moreInfo>
+		<header><![CDATA[<p align='left'><b>Hey Pixie Pals!</b></p><p align='left'><b><br>Each of the Fairies on your account has a beautiful name. You will also need to set up a D-Name, or "screen name" for yourself, that is associated with your account.  This way no matter which Fairy or Sparrow Man you are playing with in Pixie Hollow, your friends can find you there or anywhere else on Disney.com.</b></p><p><b><br>                                                <font size="18">Please create a D-Name now.</font></b></p>]]></header>
+		<leftNavTxt><![CDATA[Back to DisneyFairies.com]]></leftNavTxt>
+		<dnameFieldBlank><![CDATA[Please enter a D-Name to continue.]]></dnameFieldBlank>
+		<!--dnamePending><![CDATA[Your D-Name is in the process of being approved.  Your temporary D-Name will be displayed as: ]]></dnamePending-->
+		<dnamePending><![CDATA[Your D-Name has been submitted. Within 72 hours your D-Name will be approved or denied. If your D-Name is denied, the next time you log in, you will be asked to pick a new one.]]></dnamePending>
+		<dnameTaken><![CDATA[This D-Name has already been taken. Please try another D-Name.]]></dnameTaken>
+		<badDname><![CDATA[Please enter a different D-Name.]]></badDname>
+		<genericError><![CDATA[There was a problem with your D-Name submission.]]></genericError>
+		<userNotFound><![CDATA[User Not Found]]></userNotFound>
+		<declined><![CDATA[Your D-Name was Declined, please try another D-Name.]]></declined>
+		<userNoutFound><![CDATA[There was a problem with your D-Name submission.]]></userNoutFound>
+	</copy>
+	<config>
+		<trackingid>dname</trackingid>
+		<root_url>index.html</root_url>
+		<home_url>http://disneyfairies.com/</home_url>
+		<terms_url>termsofuse.html</terms_url>
+		<headergraphic>images/site_header_01.png</headergraphic>
+		<iconbase>swf/avatar/icon.swf</iconbase>
+		<sectionicons>swf/panel_content/section_icons.swf</sectionicons>
+		<css>css/stylesheet.css</css>
+		<panelsetbase>xml/panelSets/</panelsetbase>
+		<profileicons>swf/website/icons.swf</profileicons>
+	</config>
+</panel>
+ 

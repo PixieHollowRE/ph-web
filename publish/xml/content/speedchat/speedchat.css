@@ -1,0 +1,58 @@
+a:link  {
+	text-decoration: underline;
+}
+.pageTitle {   
+	text-align: center;
+	font-family: Pristina-4FRTL; 
+	font-size: 48px;
+	color: #FFF04C;
+}
+.title {   
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 14px;
+	color: #FFF04C;
+	margin-left: 44;
+	leading: 4;
+}
+.body {   
+	text-align: center;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.bodyYellow {   
+	text-align: center;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 16px;
+	color: #FFF04C;
+}
+.bodyYellowLarge {   
+	text-align: center;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 24px;
+	color: #FFF04C;
+}
+.bodyLeft {   
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.bodyLeftSmall {   
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.bodyLeftMedium {   
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.radio {   
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 16px;
+	color: #FFFFFF;
+}

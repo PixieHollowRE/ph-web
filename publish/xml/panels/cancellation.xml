@@ -1,0 +1,29 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/cancellation.swf</swf>
+		<swf type="code">{publishPanelCode}/cancellation.swf</swf>
+	</swfs>
+	<copy>
+		<dropdownWarning>Please select a reason for cancelling your account from the dropdown menu.</dropdownWarning>
+		<nobutton><![CDATA[OK]]></nobutton>
+		<invalidlogin><![CDATA[There was a problem with your Login, please try again.]]></invalidlogin>
+		<whoamiError><![CDATA[There was an error retrieving your user information]]></whoamiError>
+		<lookUpSubscriptionError>There was an error looking up your subscription. Please try again later.</lookUpSubscriptionError>
+		<htmlReplace><![CDATA[<span class="bodyArial"><p>##</p></span>]]></htmlReplace>
+		<alreadyCancelled>Cancellation Date</alreadyCancelled>
+		<dropDown>Not Enough To Do|Technical Issues|Poor Customer Support|Too Hard|Too Easy|Leaving for Another Game|Other|Too Expensive|Unauthorized Purchase|Chat Policy Issue|Don't Use|Not Enough Features|Didn't Realize Still Had Account</dropDown>
+	</copy>
+	<config>
+		<cancelReasonMapping><![CDATA[Not Enough To Do=Not enough|Technical Issues=Tech Issues|Poor Customer Support=Poor Support|Too Hard=Too Hard|Too Easy=Too Easy|Leaving for Another Game=Other Game|Other=Other|Too Expensive=Cost|Unauthorized Purchase=Unauth purch|Chat Policy Issue=Chat|Don't Use=Dont use|Not Enough Features=More features|Didn't Realize Still Had Account=Forgot account]]></cancelReasonMapping>
+		<testmode>false</testmode>
+		<product>fairies</product>
+		<lookupSubscriptionsURL>http://register.go.com/commerce/flashapi/lookupSubscriptions</lookupSubscriptionsURL>
+		<lookupSubscriptionsURLSecure>https://register.go.com/commerce/flashapi/lookupSubscriptions</lookupSubscriptionsURLSecure>
+		<disableAutoRenew>http://register.go.com/commerce/flashapi/disableAutoRenew</disableAutoRenew>
+		<disableAutoRenewSecure>https://register.go.com/commerce/flashapi/disableAutoRenew</disableAutoRenewSecure>
+		<css><![CDATA[publish/xml/content/cancellation/cancellation.css]]></css>
+		<decoratorXML><![CDATA[publish/xml/content/cancellation/page.xml]]></decoratorXML>
+		<trackingid>cancellation</trackingid>
+	</config>
+</panel>
+ 

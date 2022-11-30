@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>Gavin's my name, and rockin' accessories are my game. You look like you could use some new gear!</response_0_0>
+		<response_0_1>Hats, belts, bracelets, and my sense of humor - I've got it all my friend. Look around my shop, it's all good stuff.</response_0_1>
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

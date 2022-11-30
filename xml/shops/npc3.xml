@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>Brrrrr! Do you feel that wind in your wings? These parts of the Hollow sure do get awful chilly!</response_0_0>
+		<response_0_1>Why not warm up with a brand new winter outfit?</response_0_1>		
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

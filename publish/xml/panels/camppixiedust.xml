@@ -1,0 +1,53 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/camppixiedust.swf</swf>
+		<swf type="code">{publishPanelCode}/camppixiedust.swf</swf>
+	</swfs>
+	<copy>
+		<title>Camp Pixie Dust</title>
+		<subtitle>Meet the Camp Pixie Dust Camp Counselors!</subtitle>
+		<counselornames><![CDATA[Camp Counselor Lulu
+Camp Counselor Perry
+Camp Counselor Clay
+Camp Counselor Jazzy
+Camp Counselor Kate
+Camp Counselor Sandy
+Camp Counselor Heart
+Camp Counselor Emery
+Camp Counselor Lyric
+Camp Counselor Emma
+Camp Counselor Cocoa
+Camp Counselor Banjo
+Camp Counselor Happy
+Camp Counselor May
+Camp Counselor Bear
+Camp Counselor Newt
+Camp Counselor Iris
+Camp Counselor Helen
+Camp Counselor Kat]]></counselornames>	
+		<troopnames><![CDATA[Otter Troop
+Turtle Troop
+Butterfly Troop
+Glowworm Troop
+Butterfly Troop
+Butterfly Troop
+Otter Troop
+Glowworm Troop
+Glowworm Troop
+Butterfly Troop	
+Turtle Troop
+Rabbit Troop
+Otter Troop
+Rabbit Troop
+Rabbit Troop
+Otter Troop
+Butterfly Troop
+Rabbit Troop
+Rabbit Troop]]></troopnames>	
+		<!--<okbutton><![CDATA[OK]]></okbutton>-->
+		<genericerror><![CDATA[There was an error processing your request. Please try again later.]]></genericerror>
+	</copy>
+	<config>
+		<randomConfig>true</randomConfig>
+	</config>
+</panel>

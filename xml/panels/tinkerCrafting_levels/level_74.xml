@@ -1,0 +1,14 @@
+<data>
+	<speed>650</speed>
+	<matchMin>3</matchMin>
+	<bonusTotal>0.55</bonusTotal>
+	<matchTotal>68</matchTotal>
+	<ingredients>
+		<ingredient>SpiderSilk</ingredient>
+		<ingredient>PineNeedles</ingredient>
+		<ingredient>Metal</ingredient>
+		<ingredient>BlueGems</ingredient>
+		<ingredient>LilyPetals</ingredient>
+		<ingredient>DandelionFluff</ingredient>
+	</ingredients>
+</data>

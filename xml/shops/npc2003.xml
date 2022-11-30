@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>Looking for shades that are summer specific? You've come to the right place! My name is Sunny!</response_0_0>
+		<response_0_1>My shades are perfect for a warm sunny day or a cool summer storm.</response_0_1>
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

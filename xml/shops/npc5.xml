@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>I carry the finest Sparrow Men outfits in the Hollow. All of my stuff is truly second to none!</response_0_0>
+		<response_0_1>My best friend Diva and I have a little competition going on to see who can sell the most clothes. So don't be afraid to buy one of each - just kidding! Take your time and have a look around.</response_0_1>
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

@@ -1,0 +1,27 @@
+<page>
+	<config>
+		
+
+		<taglines type="contentheader" headertype="long">
+			<bannergraphic type="image">{publishPanelImages}/videogames/ds_game.png</bannergraphic>
+			<tagline font="pristina">header</tagline>	
+			<tagline>body1</tagline>
+		</taglines>
+		<!-- <vgPanel type="panel" panel="videogames" x="30" />  -->
+		
+      
+
+	</config>
+	<copy>
+		<header><![CDATA[<span class="newsbodytext"><font size="26px">Disney Fairies "Tinker Bell and the Lost Treasure"</font></span>]]></header>
+		<body1><![CDATA[<span class="newsbodytext">Play as Tinker Bell on the Nintendo DS™ system and travel north of Never Land in an exciting quest to find the lost treasure and create the fall scepter.  You can also create your very own Fairy and explore Pixie Hollow as you help your Fairy friends prepare for the Autumn Revelry.<font color="#FFEF4B">*</font></span>]]></body1>
+		<spacer><![CDATA[<br/><br/>]]></spacer>
+
+	
+		<!--<headerbtn><![CDATA[Read More]]></headerbtn>-->
+	
+	
+	</copy>
+	
+
+</page>

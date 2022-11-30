@@ -1,0 +1,69 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/membershipcongrats.swf</swf>
+		<swf type="code">{publishPanelCode}/congrats.swf</swf>
+	</swfs>
+	<copy>
+		<okbutton><![CDATA[OK]]></okbutton>
+		<genericerror><![CDATA[There was an error processing your request. Please try again later.]]></genericerror>
+		<playModeText><![CDATA[Play!]]></playModeText>
+		<waitModeText><![CDATA[Wait]]></waitModeText>
+		<channel><![CDATA[]]></channel>
+		<panel><![CDATA[login]]></panel>
+		<url><![CDATA[]]></url>
+		<event><![CDATA[]]></event>
+		
+		<title><span class="title">Congratulations! You're a Member!</span></title>
+		<yourmagicalmembership><span class="whitebodyleft">Your Game Card has been redeemed on the account [account name]. Your Fairies will now enjoy the benefits of Membership in Pixie Hollow for one month.</span></yourmagicalmembership>
+		<whatcani><span class="yellowbodycentered">What can I do as a Member?</span></whatcani>
+		<asamember><span class="whitebodyleft">As a Member, you'll gain access to all of the Fairy fun in the Hollow. Hit the shops, tailor your own fashions to add to your wardrobe, embark on exciting Fairy quests, and more!</span></asamember>
+		<backtopixie><span class="whitebodycentered"><a href='http://pixiehollow.go.com/communityhome.html'>Back to Pixie Central</a></span></backtopixie>
+		<whathappenswhen><span class="yellowbodycentered">What happens when this Membership expires?</span></whathappenswhen>
+		<pleasenotethat><span class="whitebodyleft">Please note that your Game Card Membership expires on [expiration date].</span></pleasenotethat>
+	</copy>
+	<config>
+		<promocode><![CDATA[PHF3|PHDS]]></promocode>
+		<textprops>
+			<antiAliasType>advanced</antiAliasType>
+			<selectable>false</selectable>
+			<autoSize>left</autoSize>
+			<wordWrap>true</wordWrap>
+			<multiline>true</multiline>
+			<condenseWhite>true</condenseWhite>
+			<embedFonts>true</embedFonts>
+		</textprops>
+		<css><![CDATA[publish/xml/content/guestpass/guestpass.css]]></css>
+		<congratspage>
+			<x>146</x>
+			<y>200</y>
+			<buttons>
+				<button>
+					<type>play</type>
+					<x>317</x>
+					<y>279</y>
+				</button>
+			</buttons>
+			<copy>pleasenotethat,whathappenswhen,backtopixie,asamember,whatcani,yourmagicalmembership,title</copy>
+		</congratspage>
+		
+		<SessionRefreshRequest>SessionRefreshRequest</SessionRefreshRequest>
+		<root_url>index.html</root_url>
+		<home_url>http://disneyfairies.com/</home_url>
+		<headergraphic>images/site_header_01.png</headergraphic>
+		<iconbase>swf/avatar/icon.swf</iconbase>
+		<sectionicons>swf/panel_content/section_icons.swf</sectionicons>
+		<sectionicon bg="clear" fg="walnut"/>
+		<!--css>css/stylesheet.css</css-->
+		<panelsetbase>xml/panelSets/</panelsetbase>
+		<profileicons>swf/website/icons.swf</profileicons>
+		<copy>
+			<title>Congratulations! You're a Member!</title>
+			<yourmagicalmembershipGC>Your Game Card has been redeemed on the account [account name]. Your Fairies will now enjoy the benefits of Membership in Pixie Hollow for one month.</yourmagicalmembershipGC>
+			<pleasenotethatGC>Please note that your Game Card Membership expires on [expiration date].</pleasenotethatGC>
+			<yourmagicalmembershipMM>Your Magical Membership Card has been redeemed on the account [account name]. Your Fairies will now enjoy the benefits of Membership in Pixie Hollow for one month.</yourmagicalmembershipMM>
+			<pleasenotethatMM>Please note that your Membership expires on [expiration date].</pleasenotethatMM>
+			<recurringBillingNotice>Memberships to Pixie Hollow are recurring and will continue to be billed until cancelled.</recurringBillingNotice>
+			
+		</copy>
+	</config>
+</panel>

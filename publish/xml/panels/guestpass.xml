@@ -1,0 +1,59 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/guestpass.swf</swf>
+		<swf type="code">{publishPanelCode}/guestpass.swf</swf>
+	</swfs>
+	<copy>
+		<okbutton><![CDATA[OK]]></okbutton>
+		<genericerror><![CDATA[There was an error processing your request. Please try again later.]]></genericerror>
+		<ContinueBtn><![CDATA[Continue]]></ContinueBtn>
+		<title><span class="title">Magical Membership Cards</span></title>
+		<learnmore><span class="whitebodycentered">Learn more about Magical Membership Cards on our <a href='faqs.html'>FAQs</a> page.</span></learnmore>
+		<yourmagicalmembership><span class="whitebodyleft">Your Magical Membership Card has been redeemed on the account [account name]. For the next 31 days your Fairies will enjoy a Membership in Pixie Hollow</span></yourmagicalmembership>
+		<whatcani><span class="yellowbodycentered">What can I do as a Member?</span></whatcani>
+		<asamember><span class="whitebodyleft">As a Member, you'll gain access to all of the Fairy fun in the Hollow. Hit the shops, tailor your own fashions to add to your wardrobe, embark on exciting Fairy quests, and more!</span></asamember>
+		<backtopixie><span class="whitebodycentered"><a href='index.html'>Back to Pixie Central</a></span></backtopixie>
+		<whathappenswhen><span class="yellowbodycentered">What happens when this Membership expires?</span></whathappenswhen>
+		<pleasenotethat><span class="whitebodyleft">Please note that when your Membership expires on [expiration date] you will no longer have access to Member only features. You can always reactivate your Membership by visiting our Membership page.</span></pleasenotethat>
+	</copy>
+	<config>
+		<purchaseWidgetURL><![CDATA[https://disney.go.com/fairies/pixiehollow/registration/?enterFlow=login&skipBasic=true&forcePaymentChoice=redeem+guest+pass+or+game+card&buyProduct=fairies&skipDNameChecks=true&onLogin=null]]></purchaseWidgetURL>
+		<textprops>
+			<antiAliasType>advanced</antiAliasType>
+			<selectable>false</selectable>
+			<autoSize>left</autoSize>
+			<wordWrap>true</wordWrap>
+			<multiline>true</multiline>
+			<condenseWhite>true</condenseWhite>
+			<embedFonts>true</embedFonts>
+		</textprops>
+		<css><![CDATA[publish/xml/content/guestpass/guestpass.css]]></css>
+		<landingpage>
+			<copy>learnmore,title</copy>
+			<buttons>
+				<button>
+					<label>ContinueBtn</label>
+					<type>site</type>
+					<x>316</x>
+					<y>323</y>
+				</button>
+			</buttons>
+		</landingpage>
+		<congratspage>
+			<buttons>
+				<button>
+					<type>play</type>
+					<x>317</x>
+					<y>279</y>
+				</button>
+				<button>
+					<type>tester</type>
+					<x>317</x>
+					<y>279</y>
+				</button>
+			</buttons>
+			<copy>pleasenotethat,whathappenswhen,backtopixie,asamember,whatcani,yourmagicalmembership,title</copy>
+		</congratspage>
+	</config>
+</panel>
+ 

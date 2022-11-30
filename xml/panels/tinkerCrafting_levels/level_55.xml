@@ -1,0 +1,14 @@
+<data>
+	<speed>600</speed>
+	<matchMin>3</matchMin>
+	<bonusTotal>0.55</bonusTotal>
+	<matchTotal>56</matchTotal>
+	<ingredients>
+		<ingredient>Ivy</ingredient>
+		<ingredient>OakLeaves</ingredient>
+		<ingredient>ButtercupPetals</ingredient>
+		<ingredient>SpiderSilk</ingredient>
+		<ingredient>Metal</ingredient>
+		<ingredient>BlueGems</ingredient>
+	</ingredients>
+</data>

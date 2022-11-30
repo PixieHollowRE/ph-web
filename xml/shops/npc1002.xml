@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>You look like someone who wants to get out of the cold! You also look like you've got great taste!</response_0_0>
+		<response_0_1>Take a look around my shop - because no one knows "warm and cozy" like Ember!</response_0_1>		
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

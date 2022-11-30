@@ -1,0 +1,2132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page>
+
+	<config>
+
+
+
+		<taglines>
+			<tagline align="center" font="pristina" title="true" titlex="150" titley="0" yOffset="20">header</tagline>
+		</taglines>
+
+
+
+		<saturdaywinners>
+
+			<header icon_id="8">saturdayheader</header>
+
+			<expand type="expandableElement">
+
+				<link>saturdaygame_link_bubblebounce</link>
+
+				<header xOffset="35">saturday_winner_bubblebounce_1</header>
+				<header xOffset="35">saturday_winner_bubblebounce_2</header>
+				<header xOffset="35">saturday_winner_bubblebounce_3</header>
+				<header xOffset="35">saturday_winner_bubblebounce_4</header>
+				<header xOffset="35">saturday_winner_bubblebounce_5</header>
+				<header xOffset="35">saturday_winner_bubblebounce_6</header>
+				<header xOffset="35">saturday_winner_bubblebounce_7</header>
+				<header xOffset="35">saturday_winner_bubblebounce_8</header>
+				<header xOffset="35">saturday_winner_bubblebounce_9</header>
+				<header xOffset="35">saturday_winner_bubblebounce_10</header>
+
+			</expand>
+
+			<expand type="expandableElement">
+
+				<link>saturdaygame_link_fairyfireworks</link>
+
+				<header xOffset="35">saturday_winner_fairyfireworks_1</header>
+				<header xOffset="35">saturday_winner_fairyfireworks_2</header>
+				<header xOffset="35">saturday_winner_fairyfireworks_3</header>
+				<header xOffset="35">saturday_winner_fairyfireworks_4</header>
+				<header xOffset="35">saturday_winner_fairyfireworks_5</header>
+				<header xOffset="35">saturday_winner_fairyfireworks_6</header>
+				<header xOffset="35">saturday_winner_fairyfireworks_7</header>
+				<header xOffset="35">saturday_winner_fairyfireworks_8</header>
+				<header xOffset="35">saturday_winner_fairyfireworks_9</header>
+				<header xOffset="35">saturday_winner_fairyfireworks_10</header>				
+				
+			</expand>
+
+			<expand type="expandableElement">
+
+				<link>saturdaygame_link_fireflylightup</link>
+				<header xOffset="35">saturday_winner_fireflylightup_1</header>
+				<header xOffset="35">saturday_winner_fireflylightup_2</header>
+				<header xOffset="35">saturday_winner_fireflylightup_3</header>
+				<header xOffset="35">saturday_winner_fireflylightup_4</header>
+				<header xOffset="35">saturday_winner_fireflylightup_5</header>
+				<header xOffset="35">saturday_winner_fireflylightup_6</header>
+				<header xOffset="35">saturday_winner_fireflylightup_7</header>
+				<header xOffset="35">saturday_winner_fireflylightup_8</header>
+				<header xOffset="35">saturday_winner_fireflylightup_9</header>
+				<header xOffset="35">saturday_winner_fireflylightup_10</header>
+
+			</expand>
+
+			<expand type="expandableElement">
+
+				<link>saturdaygame_link_firstflight</link>
+				<header xOffset="35">saturday_winner_firstflight_1</header>
+				<header xOffset="35">saturday_winner_firstflight_2</header>
+				<header xOffset="35">saturday_winner_firstflight_3</header>
+				<header xOffset="35">saturday_winner_firstflight_4</header>
+				<header xOffset="35">saturday_winner_firstflight_5</header>
+				<header xOffset="35">saturday_winner_firstflight_6</header>
+				<header xOffset="35">saturday_winner_firstflight_7</header>
+				<header xOffset="35">saturday_winner_firstflight_8</header>
+				<header xOffset="35">saturday_winner_firstflight_9</header>
+				<header xOffset="35">saturday_winner_firstflight_10</header>				
+
+			</expand>
+
+
+			<expand type="expandableElement">
+
+
+				<link>saturdaygame_link_harvesthustle</link>
+
+				<header xOffset="35">saturday_winner_harvesthustle_1</header>
+				<header xOffset="35">saturday_winner_harvesthustle_2</header>
+				<header xOffset="35">saturday_winner_harvesthustle_3</header>
+				<header xOffset="35">saturday_winner_harvesthustle_4</header>
+				<header xOffset="35">saturday_winner_harvesthustle_5</header>
+				<header xOffset="35">saturday_winner_harvesthustle_6</header>
+				<header xOffset="35">saturday_winner_harvesthustle_7</header>
+				<header xOffset="35">saturday_winner_harvesthustle_8</header>
+				<header xOffset="35">saturday_winner_harvesthustle_9</header>
+				<header xOffset="35">saturday_winner_harvesthustle_10</header>				
+							
+
+			</expand>
+
+			<expand type="expandableElement">
+
+				<link>saturdaygame_link_petalpickup</link>
+
+				<header xOffset="35">saturday_winner_petalpickup_1</header>
+				<header xOffset="35">saturday_winner_petalpickup_2</header>
+				<header xOffset="35">saturday_winner_petalpickup_3</header>
+				<header xOffset="35">saturday_winner_petalpickup_4</header>
+				<header xOffset="35">saturday_winner_petalpickup_5</header>
+				<header xOffset="35">saturday_winner_petalpickup_6</header>
+				<header xOffset="35">saturday_winner_petalpickup_7</header>
+				<header xOffset="35">saturday_winner_petalpickup_8</header>
+				<header xOffset="35">saturday_winner_petalpickup_9</header>
+				<header xOffset="35">saturday_winner_petalpickup_10</header>				
+						
+
+			</expand>
+			
+			
+			<expand type="expandableElement">
+
+				<link>saturdaygame_link_seedsorter</link>
+
+
+
+				<header xOffset="35">saturday_winner_seedsorter_1</header>
+				<header xOffset="35">saturday_winner_seedsorter_2</header>
+				<header xOffset="35">saturday_winner_seedsorter_3</header>
+				<header xOffset="35">saturday_winner_seedsorter_4</header>
+				<header xOffset="35">saturday_winner_seedsorter_5</header>
+				<header xOffset="35">saturday_winner_seedsorter_6</header>
+				<header xOffset="35">saturday_winner_seedsorter_7</header>
+				<header xOffset="35">saturday_winner_seedsorter_8</header>
+				<header xOffset="35">saturday_winner_seedsorter_9</header>
+				<header xOffset="35">saturday_winner_seedsorter_10</header>				
+				<header xOffset="35">saturday_winner_seedsorter_11</header>				
+							
+
+			</expand>
+
+			<expand type="expandableElement">
+
+				<link>saturdaygame_link_snowflakesweep</link>
+				<header xOffset="35">saturday_winner_snowflakesweep_1</header>
+				<header xOffset="35">saturday_winner_snowflakesweep_2</header>
+				<header xOffset="35">saturday_winner_snowflakesweep_3</header>
+				<header xOffset="35">saturday_winner_snowflakesweep_4</header>
+				<header xOffset="35">saturday_winner_snowflakesweep_5</header>
+				<header xOffset="35">saturday_winner_snowflakesweep_6</header>
+				<header xOffset="35">saturday_winner_snowflakesweep_7</header>
+				<header xOffset="35">saturday_winner_snowflakesweep_8</header>
+				<header xOffset="35">saturday_winner_snowflakesweep_9</header>
+				<header xOffset="35">saturday_winner_snowflakesweep_10</header>				
+					
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>saturdaygame_link_snowylullaby</link>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_1</header>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_2</header>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_3</header>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_4</header>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_5</header>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_6</header>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_7</header>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_8</header>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_9</header>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_10</header>
+								
+				<header xOffset="35">saturday_winner_snowylullaby_11</header>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_12</header>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_13</header>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_14</header>
+
+
+
+				<header xOffset="35">saturday_winner_snowylullaby_15</header>				
+
+							
+
+			</expand>
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>saturdaygame_link_tinkertoss</link>
+
+
+
+				<header xOffset="35">saturday_winner_tinkertoss_1</header>
+
+
+
+				<header xOffset="35">saturday_winner_tinkertoss_2</header>
+
+
+
+				<header xOffset="35">saturday_winner_tinkertoss_3</header>
+
+
+
+				<header xOffset="35">saturday_winner_tinkertoss_4</header>
+
+
+
+				<header xOffset="35">saturday_winner_tinkertoss_5</header>
+
+
+
+				<header xOffset="35">saturday_winner_tinkertoss_6</header>
+
+
+
+				<header xOffset="35">saturday_winner_tinkertoss_7</header>
+
+
+
+				<header xOffset="35">saturday_winner_tinkertoss_8</header>
+
+
+
+				<header xOffset="35">saturday_winner_tinkertoss_9</header>
+
+
+
+				<header xOffset="35">saturday_winner_tinkertoss_10</header>				
+
+							
+
+			</expand>
+
+			
+
+			<expand type="expandableElement">
+
+
+
+				<link>saturdaygame_link_waterweb</link>
+
+
+
+				<header xOffset="35">saturday_winner_waterweb_1</header>
+
+
+
+				<header xOffset="35">saturday_winner_waterweb_2</header>
+
+
+
+				<header xOffset="35">saturday_winner_waterweb_3</header>
+
+
+
+				<header xOffset="35">saturday_winner_waterweb_4</header>
+
+
+
+				<header xOffset="35">saturday_winner_waterweb_5</header>
+
+
+
+				<header xOffset="35">saturday_winner_waterweb_6</header>
+
+
+
+				<header xOffset="35">saturday_winner_waterweb_7</header>
+
+
+
+				<header xOffset="35">saturday_winner_waterweb_8</header>
+
+
+
+				<header xOffset="35">saturday_winner_waterweb_9</header>
+
+
+
+				<header xOffset="35">saturday_winner_waterweb_10</header>				
+
+							
+
+			</expand>
+
+		</saturdaywinners>
+
+
+
+		<sundaywinners>
+
+			<header icon_id="8">sundayheader</header>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame_link_bubblebounce</link>
+
+
+
+				<header xOffset="35">sunday_winner_bubblebounce_1</header>
+
+
+
+				<header xOffset="35">sunday_winner_bubblebounce_2</header>
+
+
+
+				<header xOffset="35">sunday_winner_bubblebounce_3</header>
+
+
+
+				<header xOffset="35">sunday_winner_bubblebounce_4</header>
+
+
+
+				<header xOffset="35">sunday_winner_bubblebounce_5</header>
+
+
+
+				<header xOffset="35">sunday_winner_bubblebounce_6</header>
+
+
+
+				<header xOffset="35">sunday_winner_bubblebounce_7</header>
+
+
+
+				<header xOffset="35">sunday_winner_bubblebounce_8</header>
+
+
+
+				<header xOffset="35">sunday_winner_bubblebounce_9</header>
+
+
+
+				<header xOffset="35">sunday_winner_bubblebounce_10</header>				
+
+							
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame_link_fairyfireworks</link>
+
+				<header xOffset="35">sunday_winner_fairyfireworks_1</header>
+
+				<header xOffset="35">sunday_winner_fairyfireworks_2</header>
+
+				<header xOffset="35">sunday_winner_fairyfireworks_3</header>
+				<header xOffset="35">sunday_winner_fairyfireworks_4</header>
+
+				<header xOffset="35">sunday_winner_fairyfireworks_5</header>
+				<header xOffset="35">sunday_winner_fairyfireworks_6</header>
+				<header xOffset="35">sunday_winner_fairyfireworks_7</header>
+				<header xOffset="35">sunday_winner_fairyfireworks_8</header>
+				<header xOffset="35">sunday_winner_fairyfireworks_9</header>
+				<header xOffset="35">sunday_winner_fairyfireworks_10</header>				
+						
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame_link_fireflylightup</link>
+
+
+
+				<header xOffset="35">sunday_winner_fireflylightup_1</header>
+
+
+
+				<header xOffset="35">sunday_winner_fireflylightup_2</header>
+
+
+
+				<header xOffset="35">sunday_winner_fireflylightup_3</header>
+
+
+
+				<header xOffset="35">sunday_winner_fireflylightup_4</header>
+
+
+
+				<header xOffset="35">sunday_winner_fireflylightup_5</header>
+
+
+
+				<header xOffset="35">sunday_winner_fireflylightup_6</header>
+
+
+
+				<header xOffset="35">sunday_winner_fireflylightup_7</header>
+
+
+
+				<header xOffset="35">sunday_winner_fireflylightup_8</header>
+
+
+
+				<header xOffset="35">sunday_winner_fireflylightup_9</header>
+
+
+
+				<header xOffset="35">sunday_winner_fireflylightup_10</header>				
+
+							
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame_link_firstflight</link>
+
+
+
+				<header xOffset="35">sunday_winner_firstflight_1</header>
+
+
+
+				<header xOffset="35">sunday_winner_firstflight_2</header>
+
+
+
+				<header xOffset="35">sunday_winner_firstflight_3</header>
+
+
+
+				<header xOffset="35">sunday_winner_firstflight_4</header>
+
+
+
+				<header xOffset="35">sunday_winner_firstflight_5</header>
+
+
+
+				<header xOffset="35">sunday_winner_firstflight_6</header>
+
+
+
+				<header xOffset="35">sunday_winner_firstflight_7</header>
+
+
+
+				<header xOffset="35">sunday_winner_firstflight_8</header>
+
+
+
+				<header xOffset="35">sunday_winner_firstflight_9</header>
+
+
+
+				<header xOffset="35">sunday_winner_firstflight_10</header>				
+
+							
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame_link_harvesthustle</link>
+
+
+
+				<header xOffset="35">sunday_winner_harvesthustle_1</header>
+
+
+
+				<header xOffset="35">sunday_winner_harvesthustle_2</header>
+
+
+
+				<header xOffset="35">sunday_winner_harvesthustle_3</header>
+
+
+
+				<header xOffset="35">sunday_winner_harvesthustle_4</header>
+
+
+
+				<header xOffset="35">sunday_winner_harvesthustle_5</header>
+
+
+
+				<header xOffset="35">sunday_winner_harvesthustle_6</header>
+
+
+
+				<header xOffset="35">sunday_winner_harvesthustle_7</header>
+
+
+
+				<header xOffset="35">sunday_winner_harvesthustle_8</header>
+
+
+
+				<header xOffset="35">sunday_winner_harvesthustle_9</header>
+
+
+
+				<header xOffset="35">sunday_winner_harvesthustle_10</header>				
+
+							
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame_link_petalpickup</link>
+
+
+
+				<header xOffset="35">sunday_winner_petalpickup_1</header>
+
+
+
+				<header xOffset="35">sunday_winner_petalpickup_2</header>
+
+
+
+				<header xOffset="35">sunday_winner_petalpickup_3</header>
+
+
+
+				<header xOffset="35">sunday_winner_petalpickup_4</header>
+
+
+
+				<header xOffset="35">sunday_winner_petalpickup_5</header>
+
+
+
+				<header xOffset="35">sunday_winner_petalpickup_6</header>
+
+
+
+				<header xOffset="35">sunday_winner_petalpickup_7</header>
+
+
+
+				<header xOffset="35">sunday_winner_petalpickup_8</header>
+
+
+
+				<header xOffset="35">sunday_winner_petalpickup_9</header>
+
+
+
+				<header xOffset="35">sunday_winner_petalpickup_10</header>				
+
+							
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame_link_seedsorter</link>
+
+
+
+				<header xOffset="35">sunday_winner_seedsorter_1</header>
+
+
+
+				<header xOffset="35">sunday_winner_seedsorter_2</header>
+
+
+
+				<header xOffset="35">sunday_winner_seedsorter_3</header>
+
+
+
+				<header xOffset="35">sunday_winner_seedsorter_4</header>
+
+
+
+				<header xOffset="35">sunday_winner_seedsorter_5</header>
+
+
+
+				<header xOffset="35">sunday_winner_seedsorter_6</header>
+
+
+
+				<header xOffset="35">sunday_winner_seedsorter_7</header>
+
+
+
+				<header xOffset="35">sunday_winner_seedsorter_8</header>
+
+
+
+				<header xOffset="35">sunday_winner_seedsorter_9</header>
+
+
+
+				<header xOffset="35">sunday_winner_seedsorter_10</header>				
+
+							
+
+			</expand>
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame_link_snowflakesweep</link>
+
+
+
+				<header xOffset="35">sunday_winner_snowflakesweep_1</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowflakesweep_2</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowflakesweep_3</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowflakesweep_4</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowflakesweep_5</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowflakesweep_6</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowflakesweep_7</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowflakesweep_8</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowflakesweep_9</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowflakesweep_10</header>				
+
+							
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame_link_snowylullaby</link>
+
+
+
+				<header xOffset="35">sunday_winner_snowylullaby_1</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowylullaby_2</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowylullaby_3</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowylullaby_4</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowylullaby_5</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowylullaby_6</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowylullaby_7</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowylullaby_8</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowylullaby_9</header>
+
+
+
+				<header xOffset="35">sunday_winner_snowylullaby_10</header>				
+
+
+				<header xOffset="35">sunday_winner_snowylullaby_11</header>
+
+				<header xOffset="35">sunday_winner_snowylullaby_12</header>
+
+				<header xOffset="35">sunday_winner_snowylullaby_13</header>				
+
+
+				<header xOffset="35">sunday_winner_snowylullaby_14</header>				
+
+			</expand>
+
+
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame_link_tinkertoss</link>
+
+
+
+				<header xOffset="35">sunday_winner_tinkertoss_1</header>
+
+
+
+				<header xOffset="35">sunday_winner_tinkertoss_2</header>
+
+
+
+				<header xOffset="35">sunday_winner_tinkertoss_3</header>
+
+
+
+				<header xOffset="35">sunday_winner_tinkertoss_4</header>
+
+
+
+				<header xOffset="35">sunday_winner_tinkertoss_5</header>
+
+
+
+				<header xOffset="35">sunday_winner_tinkertoss_6</header>
+
+
+
+				<header xOffset="35">sunday_winner_tinkertoss_7</header>
+
+
+
+				<header xOffset="35">sunday_winner_tinkertoss_8</header>
+
+
+
+				<header xOffset="35">sunday_winner_tinkertoss_9</header>
+
+
+
+				<header xOffset="35">sunday_winner_tinkertoss_10</header>				
+
+							
+
+			</expand>
+
+			
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame_link_waterweb</link>
+
+
+
+				<header xOffset="35">sunday_winner_waterweb_1</header>
+
+
+
+				<header xOffset="35">sunday_winner_waterweb_2</header>
+
+
+
+				<header xOffset="35">sunday_winner_waterweb_3</header>
+
+
+
+				<header xOffset="35">sunday_winner_waterweb_4</header>
+
+
+
+				<header xOffset="35">sunday_winner_waterweb_5</header>
+
+
+
+				<header xOffset="35">sunday_winner_waterweb_6</header>
+
+
+
+				<header xOffset="35">sunday_winner_waterweb_7</header>
+
+
+
+				<header xOffset="35">sunday_winner_waterweb_8</header>
+
+
+
+				<header xOffset="35">sunday_winner_waterweb_9</header>
+
+
+
+				<header xOffset="35">sunday_winner_waterweb_10</header>				
+
+			</expand>
+			</sundaywinners>
+			
+	
+		<saturdaywinners1>		
+		
+<header icon_id="8">saturdayheader1</header>
+
+			<expand type="expandableElement">
+
+				<link>saturdaygame1_link_bubblebounce</link>
+
+				<header xOffset="35">saturday_winner1_bubblebounce_1</header>
+				<header xOffset="35">saturday_winner1_bubblebounce_2</header>
+				<header xOffset="35">saturday_winner1_bubblebounce_3</header>
+				<header xOffset="35">saturday_winner1_bubblebounce_4</header>
+				<header xOffset="35">saturday_winner1_bubblebounce_5</header>
+				<header xOffset="35">saturday_winner1_bubblebounce_6</header>
+				<header xOffset="35">saturday_winner1_bubblebounce_7</header>
+				<header xOffset="35">saturday_winner1_bubblebounce_8</header>
+				<header xOffset="35">saturday_winner1_bubblebounce_9</header>
+				<header xOffset="35">saturday_winner1_bubblebounce_10</header>
+				
+			</expand>
+			
+			<expand type="expandableElement">
+
+				<link>saturdaygame1_link_fairyfireworks</link>
+
+				<header xOffset="35">saturday_winner1_fairyfireworks_1</header>
+				<header xOffset="35">saturday_winner1_fairyfireworks_2</header>
+				<header xOffset="35">saturday_winner1_fairyfireworks_3</header>
+				<header xOffset="35">saturday_winner1_fairyfireworks_4</header>
+				<header xOffset="35">saturday_winner1_fairyfireworks_5</header>
+				<header xOffset="35">saturday_winner1_fairyfireworks_6</header>
+				<header xOffset="35">saturday_winner1_fairyfireworks_7</header>
+				<header xOffset="35">saturday_winner1_fairyfireworks_8</header>
+				<header xOffset="35">saturday_winner1_fairyfireworks_9</header>
+				<header xOffset="35">saturday_winner1_fairyfireworks_10</header>				
+				
+			</expand>
+			
+			
+			<expand type="expandableElement">
+
+				<link>saturdaygame1_link_fireflylightup</link>
+				<header xOffset="35">saturday_winner1_fireflylightup_1</header>
+				<header xOffset="35">saturday_winner1_fireflylightup_2</header>
+				<header xOffset="35">saturday_winner1_fireflylightup_3</header>
+				<header xOffset="35">saturday_winner1_fireflylightup_4</header>
+				<header xOffset="35">saturday_winner1_fireflylightup_5</header>
+				<header xOffset="35">saturday_winner1_fireflylightup_6</header>
+				<header xOffset="35">saturday_winner1_fireflylightup_7</header>
+				<header xOffset="35">saturday_winner1_fireflylightup_8</header>
+				<header xOffset="35">saturday_winner1_fireflylightup_9</header>
+				<header xOffset="35">saturday_winner1_fireflylightup_10</header>
+
+			</expand>
+
+			<expand type="expandableElement">
+
+				<link>saturdaygame1_link_firstflight</link>
+				<header xOffset="35">saturday_winner1_firstflight_1</header>
+				<header xOffset="35">saturday_winner1_firstflight_2</header>
+				<header xOffset="35">saturday_winner1_firstflight_3</header>
+				<header xOffset="35">saturday_winner1_firstflight_4</header>
+				<header xOffset="35">saturday_winner1_firstflight_5</header>
+				<header xOffset="35">saturday_winner1_firstflight_6</header>
+				<header xOffset="35">saturday_winner1_firstflight_7</header>
+				<header xOffset="35">saturday_winner1_firstflight_8</header>
+				<header xOffset="35">saturday_winner1_firstflight_9</header>
+				<header xOffset="35">saturday_winner1_firstflight_10</header>				
+
+			</expand>
+
+
+			<expand type="expandableElement">
+
+
+				<link>saturdaygame1_link_harvesthustle</link>
+
+				<header xOffset="35">saturday_winner1_harvesthustle_1</header>
+				<header xOffset="35">saturday_winner1_harvesthustle_2</header>
+				<header xOffset="35">saturday_winner1_harvesthustle_3</header>
+				<header xOffset="35">saturday_winner1_harvesthustle_4</header>
+				<header xOffset="35">saturday_winner1_harvesthustle_5</header>
+				<header xOffset="35">saturday_winner1_harvesthustle_6</header>
+				<header xOffset="35">saturday_winner1_harvesthustle_7</header>
+				<header xOffset="35">saturday_winner1_harvesthustle_8</header>
+				<header xOffset="35">saturday_winner1_harvesthustle_9</header>
+				<header xOffset="35">saturday_winner1_harvesthustle_10</header>				
+							
+
+			</expand>
+
+			<expand type="expandableElement">
+
+				<link>saturdaygame1_link_petalpickup</link>
+
+				<header xOffset="35">saturday_winner1_petalpickup_1</header>
+				<header xOffset="35">saturday_winner1_petalpickup_2</header>
+				<header xOffset="35">saturday_winner1_petalpickup_3</header>
+				<header xOffset="35">saturday_winner1_petalpickup_4</header>
+				<header xOffset="35">saturday_winner1_petalpickup_5</header>
+				<header xOffset="35">saturday_winner1_petalpickup_6</header>
+				<header xOffset="35">saturday_winner1_petalpickup_7</header>
+				<header xOffset="35">saturday_winner1_petalpickup_8</header>
+				<header xOffset="35">saturday_winner1_petalpickup_9</header>
+				<header xOffset="35">saturday_winner1_petalpickup_10</header>				
+						
+
+			</expand>
+			
+			
+			<expand type="expandableElement">
+
+				<link>saturdaygame1_link_seedsorter</link>
+
+				<header xOffset="35">saturday_winner1_seedsorter_1</header>
+				<header xOffset="35">saturday_winner1_seedsorter_2</header>
+				<header xOffset="35">saturday_winner1_seedsorter_3</header>
+				<header xOffset="35">saturday_winner1_seedsorter_4</header>
+				<header xOffset="35">saturday_winner1_seedsorter_5</header>
+				<header xOffset="35">saturday_winner1_seedsorter_6</header>
+				<header xOffset="35">saturday_winner1_seedsorter_7</header>
+				<header xOffset="35">saturday_winner1_seedsorter_8</header>
+				<header xOffset="35">saturday_winner1_seedsorter_9</header>
+				<header xOffset="35">saturday_winner1_seedsorter_10</header>				
+				<header xOffset="35">saturday_winner1_seedsorter_11</header>				
+				<header xOffset="35">saturday_winner1_seedsorter_12</header>	
+				<header xOffset="35">saturday_winner1_seedsorter_13</header>
+				<header xOffset="35">saturday_winner1_seedsorter_14</header>	
+				<header xOffset="35">saturday_winner1_seedsorter_15</header>	
+				<header xOffset="35">saturday_winner1_seedsorter_16</header>	
+				<header xOffset="35">saturday_winner1_seedsorter_17</header>	
+				<header xOffset="35">saturday_winner1_seedsorter_18</header>	
+				
+
+			</expand>
+
+			<expand type="expandableElement">
+
+				<link>saturdaygame1_link_snowflakesweep</link>
+				<header xOffset="35">saturday_winner1_snowflakesweep_1</header>
+				<header xOffset="35">saturday_winner1_snowflakesweep_2</header>
+				<header xOffset="35">saturday_winner1_snowflakesweep_3</header>
+				<header xOffset="35">saturday_winner1_snowflakesweep_4</header>
+				<header xOffset="35">saturday_winner1_snowflakesweep_5</header>
+				<header xOffset="35">saturday_winner1_snowflakesweep_6</header>
+				<header xOffset="35">saturday_winner1_snowflakesweep_7</header>
+				<header xOffset="35">saturday_winner1_snowflakesweep_8</header>
+				<header xOffset="35">saturday_winner1_snowflakesweep_9</header>
+				<header xOffset="35">saturday_winner1_snowflakesweep_10</header>				
+				
+			</expand>
+
+			<expand type="expandableElement">
+
+				<link>saturdaygame1_link_snowylullaby</link>
+				<header xOffset="35">saturday_winner1_snowylullaby_1</header>
+				<header xOffset="35">saturday_winner1_snowylullaby_2</header>
+				<header xOffset="35">saturday_winner1_snowylullaby_3</header>
+				<header xOffset="35">saturday_winner1_snowylullaby_4</header>
+				<header xOffset="35">saturday_winner1_snowylullaby_5</header>
+				<header xOffset="35">saturday_winner1_snowylullaby_6</header>
+				<header xOffset="35">saturday_winner1_snowylullaby_7</header>
+				<header xOffset="35">saturday_winner1_snowylullaby_8</header>
+				<header xOffset="35">saturday_winner1_snowylullaby_9</header>
+				<header xOffset="35">saturday_winner1_snowylullaby_10</header>		
+				<header xOffset="35">saturday_winner1_snowylullaby_11</header>
+				<header xOffset="35">saturday_winner1_snowylullaby_12</header>
+				<header xOffset="35">saturday_winner1_snowylullaby_13</header>
+				<header xOffset="35">saturday_winner1_snowylullaby_14</header>
+				<header xOffset="35">saturday_winner1_snowylullaby_15</header>								
+				<header xOffset="35">saturday_winner1_snowylullaby_16</header>	
+				<header xOffset="35">saturday_winner1_snowylullaby_17</header>	
+				<header xOffset="35">saturday_winner1_snowylullaby_18</header>	
+				<header xOffset="35">saturday_winner1_snowylullaby_19</header>	
+				<header xOffset="35">saturday_winner1_snowylullaby_20</header>	
+				
+			</expand>
+
+
+			<expand type="expandableElement">
+
+				<link>saturdaygame1_link_tinkertoss</link>
+				
+				<header xOffset="35">saturday_winner1_tinkertoss_1</header>
+				<header xOffset="35">saturday_winner1_tinkertoss_2</header>
+				<header xOffset="35">saturday_winner1_tinkertoss_3</header>
+				<header xOffset="35">saturday_winner1_tinkertoss_4</header>
+				<header xOffset="35">saturday_winner1_tinkertoss_5</header>
+				<header xOffset="35">saturday_winner1_tinkertoss_6</header>
+				<header xOffset="35">saturday_winner1_tinkertoss_7</header>
+				<header xOffset="35">saturday_winner1_tinkertoss_8</header>
+				<header xOffset="35">saturday_winner1_tinkertoss_9</header>
+				<header xOffset="35">saturday_winner1_tinkertoss_10</header>				
+
+			</expand>
+
+
+			<expand type="expandableElement">
+
+				<link>saturdaygame1_link_waterweb</link>
+
+
+				<header xOffset="35">saturday_winner1_waterweb_1</header>
+				<header xOffset="35">saturday_winner1_waterweb_2</header>
+				<header xOffset="35">saturday_winner1_waterweb_3</header>
+				<header xOffset="35">saturday_winner1_waterweb_4</header>
+				<header xOffset="35">saturday_winner1_waterweb_5</header>
+				<header xOffset="35">saturday_winner1_waterweb_6</header>
+				<header xOffset="35">saturday_winner1_waterweb_7</header>
+				<header xOffset="35">saturday_winner1_waterweb_8</header>
+				<header xOffset="35">saturday_winner1_waterweb_9</header>
+				<header xOffset="35">saturday_winner1_waterweb_10</header>				
+			
+			</expand>
+
+</saturdaywinners1>	
+	
+<sundaywinners1>
+
+			<header icon_id="8">sundayheader1</header>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame1_link_bubblebounce</link>
+
+
+				<header xOffset="35">sunday_winner1_bubblebounce_1</header>
+				<header xOffset="35">sunday_winner1_bubblebounce_2</header>
+				<header xOffset="35">sunday_winner1_bubblebounce_3</header>
+				<header xOffset="35">sunday_winner1_bubblebounce_4</header>
+				<header xOffset="35">sunday_winner1_bubblebounce_5</header>
+				<header xOffset="35">sunday_winner1_bubblebounce_6</header>
+				<header xOffset="35">sunday_winner1_bubblebounce_7</header>
+				<header xOffset="35">sunday_winner1_bubblebounce_8</header>
+				<header xOffset="35">sunday_winner1_bubblebounce_9</header>
+				<header xOffset="35">sunday_winner1_bubblebounce_10</header>				
+
+							
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+				<link>sundaygame1_link_fairyfireworks</link>
+
+				<header xOffset="35">sunday_winner1_fairyfireworks_1</header>
+				<header xOffset="35">sunday_winner1_fairyfireworks_2</header>
+				<header xOffset="35">sunday_winner1_fairyfireworks_3</header>
+				<header xOffset="35">sunday_winner1_fairyfireworks_4</header>
+				<header xOffset="35">sunday_winner1_fairyfireworks_5</header>
+				<header xOffset="35">sunday_winner1_fairyfireworks_6</header>
+				<header xOffset="35">sunday_winner1_fairyfireworks_7</header>
+				<header xOffset="35">sunday_winner1_fairyfireworks_8</header>
+				<header xOffset="35">sunday_winner1_fairyfireworks_9</header>
+				<header xOffset="35">sunday_winner1_fairyfireworks_10</header>				
+			
+
+			</expand>
+
+			<expand type="expandableElement">
+
+
+				<link>sundaygame1_link_fireflylightup</link>
+
+
+				<header xOffset="35">sunday_winner1_fireflylightup_1</header>
+				<header xOffset="35">sunday_winner1_fireflylightup_2</header>
+				<header xOffset="35">sunday_winner1_fireflylightup_3</header>
+				<header xOffset="35">sunday_winner1_fireflylightup_4</header>
+				<header xOffset="35">sunday_winner1_fireflylightup_5</header>
+				<header xOffset="35">sunday_winner1_fireflylightup_6</header>
+				<header xOffset="35">sunday_winner1_fireflylightup_7</header>
+				<header xOffset="35">sunday_winner1_fireflylightup_8</header>
+				<header xOffset="35">sunday_winner1_fireflylightup_9</header>
+				<header xOffset="35">sunday_winner1_fireflylightup_10</header>				
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame1_link_firstflight</link>
+
+
+				<header xOffset="35">sunday_winner1_firstflight_1</header>
+				<header xOffset="35">sunday_winner1_firstflight_2</header>
+				<header xOffset="35">sunday_winner1_firstflight_3</header>
+				<header xOffset="35">sunday_winner1_firstflight_4</header>
+				<header xOffset="35">sunday_winner1_firstflight_5</header>
+				<header xOffset="35">sunday_winner1_firstflight_6</header>
+				<header xOffset="35">sunday_winner1_firstflight_7</header>
+				<header xOffset="35">sunday_winner1_firstflight_8</header>
+				<header xOffset="35">sunday_winner1_firstflight_9</header>
+				<header xOffset="35">sunday_winner1_firstflight_10</header>				
+
+							
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame1_link_harvesthustle</link>
+
+				<header xOffset="35">sunday_winner1_harvesthustle_1</header>
+				<header xOffset="35">sunday_winner1_harvesthustle_2</header>
+				<header xOffset="35">sunday_winner1_harvesthustle_3</header>
+				<header xOffset="35">sunday_winner1_harvesthustle_4</header>
+				<header xOffset="35">sunday_winner1_harvesthustle_5</header>
+				<header xOffset="35">sunday_winner1_harvesthustle_6</header>
+				<header xOffset="35">sunday_winner1_harvesthustle_7</header>
+				<header xOffset="35">sunday_winner1_harvesthustle_8</header>
+				<header xOffset="35">sunday_winner1_harvesthustle_9</header>
+				<header xOffset="35">sunday_winner1_harvesthustle_10</header>				
+
+							
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame1_link_petalpickup</link>
+
+
+				<header xOffset="35">sunday_winner1_petalpickup_1</header>
+				<header xOffset="35">sunday_winner1_petalpickup_2</header>
+				<header xOffset="35">sunday_winner1_petalpickup_3</header>
+				<header xOffset="35">sunday_winner1_petalpickup_4</header>
+				<header xOffset="35">sunday_winner1_petalpickup_5</header>
+				<header xOffset="35">sunday_winner1_petalpickup_6</header>
+				<header xOffset="35">sunday_winner1_petalpickup_7</header>
+				<header xOffset="35">sunday_winner1_petalpickup_8</header>
+				<header xOffset="35">sunday_winner1_petalpickup_9</header>
+				<header xOffset="35">sunday_winner1_petalpickup_10</header>				
+
+							
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame1_link_seedsorter</link>
+
+
+
+				<header xOffset="35">sunday_winner1_seedsorter_1</header>
+				<header xOffset="35">sunday_winner1_seedsorter_2</header>
+				<header xOffset="35">sunday_winner1_seedsorter_3</header>
+				<header xOffset="35">sunday_winner1_seedsorter_4</header>
+				<header xOffset="35">sunday_winner1_seedsorter_5</header>
+				<header xOffset="35">sunday_winner1_seedsorter_6</header>
+				<header xOffset="35">sunday_winner1_seedsorter_7</header>
+				<header xOffset="35">sunday_winner1_seedsorter_8</header>
+				<header xOffset="35">sunday_winner1_seedsorter_9</header>
+				<header xOffset="35">sunday_winner1_seedsorter_10</header>				
+				<header xOffset="35">sunday_winner1_seedsorter_11</header>	
+				<header xOffset="35">sunday_winner1_seedsorter_12</header>	
+				<header xOffset="35">sunday_winner1_seedsorter_13</header>	
+				<header xOffset="35">sunday_winner1_seedsorter_14</header>	
+				<header xOffset="35">sunday_winner1_seedsorter_15</header>	
+				<header xOffset="35">sunday_winner1_seedsorter_16</header>	
+				<header xOffset="35">sunday_winner1_seedsorter_17</header>	
+							
+
+			</expand>
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame1_link_snowflakesweep</link>
+
+
+				<header xOffset="35">sunday_winner1_snowflakesweep_1</header>
+				<header xOffset="35">sunday_winner1_snowflakesweep_2</header>
+				<header xOffset="35">sunday_winner1_snowflakesweep_3</header>
+				<header xOffset="35">sunday_winner1_snowflakesweep_4</header>
+				<header xOffset="35">sunday_winner1_snowflakesweep_5</header>
+				<header xOffset="35">sunday_winner1_snowflakesweep_6</header>
+				<header xOffset="35">sunday_winner1_snowflakesweep_7</header>
+				<header xOffset="35">sunday_winner1_snowflakesweep_8</header>
+				<header xOffset="35">sunday_winner1_snowflakesweep_9</header>
+				<header xOffset="35">sunday_winner1_snowflakesweep_10</header>				
+
+							
+
+			</expand>
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame1_link_snowylullaby</link>
+
+
+
+				<header xOffset="35">sunday_winner1_snowylullaby_1</header>
+				<header xOffset="35">sunday_winner1_snowylullaby_2</header>
+				<header xOffset="35">sunday_winner1_snowylullaby_3</header>
+				<header xOffset="35">sunday_winner1_snowylullaby_4</header>
+				<header xOffset="35">sunday_winner1_snowylullaby_5</header>
+				<header xOffset="35">sunday_winner1_snowylullaby_6</header>
+				<header xOffset="35">sunday_winner1_snowylullaby_7</header>
+				<header xOffset="35">sunday_winner1_snowylullaby_8</header>
+				<header xOffset="35">sunday_winner1_snowylullaby_9</header>
+				<header xOffset="35">sunday_winner1_snowylullaby_10</header>				
+				<header xOffset="35">sunday_winner1_snowylullaby_11</header>
+				<header xOffset="35">sunday_winner1_snowylullaby_12</header>
+				<header xOffset="35">sunday_winner1_snowylullaby_13</header>				
+				<header xOffset="35">sunday_winner1_snowylullaby_14</header>				
+				<header xOffset="35">sunday_winner1_snowylullaby_15</header>
+				<header xOffset="35">sunday_winner1_snowylullaby_16</header>
+			
+			</expand>
+
+
+
+
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame1_link_tinkertoss</link>
+
+
+
+				<header xOffset="35">sunday_winner1_tinkertoss_1</header>
+				<header xOffset="35">sunday_winner1_tinkertoss_2</header>
+				<header xOffset="35">sunday_winner1_tinkertoss_3</header>
+				<header xOffset="35">sunday_winner1_tinkertoss_4</header>
+				<header xOffset="35">sunday_winner1_tinkertoss_5</header>
+				<header xOffset="35">sunday_winner1_tinkertoss_6</header>
+				<header xOffset="35">sunday_winner1_tinkertoss_7</header>
+				<header xOffset="35">sunday_winner1_tinkertoss_8</header>
+				<header xOffset="35">sunday_winner1_tinkertoss_9</header>
+				<header xOffset="35">sunday_winner1_tinkertoss_10</header>				
+
+							
+
+			</expand>
+
+			
+
+			<expand type="expandableElement">
+
+
+
+				<link>sundaygame1_link_waterweb</link>
+
+
+
+				<header xOffset="35">sunday_winner1_waterweb_1</header>
+				<header xOffset="35">sunday_winner1_waterweb_2</header>
+				<header xOffset="35">sunday_winner1_waterweb_3</header>
+				<header xOffset="35">sunday_winner1_waterweb_4</header>
+				<header xOffset="35">sunday_winner1_waterweb_5</header>
+				<header xOffset="35">sunday_winner1_waterweb_6</header>
+				<header xOffset="35">sunday_winner1_waterweb_7</header>
+				<header xOffset="35">sunday_winner1_waterweb_8</header>
+				<header xOffset="35">sunday_winner1_waterweb_9</header>
+				<header xOffset="35">sunday_winner1_waterweb_10</header>				
+
+			</expand>
+	</sundaywinners1>
+</config>
+
+
+	<copy>
+
+		<header><![CDATA[<span class="newsbodytext">Congratulations, Great Games Winners!</span>]]></header>
+
+
+		<!-- Saturday -->
+
+
+		<saturdayheader><![CDATA[<span class="newsbodytext">Saturday, July 3rd 2010</span>]]></saturdayheader>
+
+		<saturdaygame_link_bubblebounce><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Bubble Bounce</a></ul></li></span>]]></saturdaygame_link_bubblebounce>
+
+		<saturday_winner_bubblebounce_1><![CDATA[<span class="newsbodytext">Frozenthorn, Troop Otter, Score: 20,010<br></span>]]></saturday_winner_bubblebounce_1>
+
+		<saturday_winner_bubblebounce_2><![CDATA[<span class="newsbodytext">Rose Moonspirit, Troop Butterfly, Score:  19,710<br></span>]]></saturday_winner_bubblebounce_2>
+
+		<saturday_winner_bubblebounce_3><![CDATA[<span class="newsbodytext">Amethyst Starshimmer, Troop Butterfly, Score: 19,610<br></span>]]></saturday_winner_bubblebounce_3>
+
+		<saturday_winner_bubblebounce_4><![CDATA[<span class="newsbodytext">Autumn Limejewel, Troop Glowworm, Score: 19,520<br></span>]]></saturday_winner_bubblebounce_4>
+
+		<saturday_winner_bubblebounce_5><![CDATA[<span class="newsbodytext">Sapphire, Troop Otter, Score: 19,010<br></span>]]></saturday_winner_bubblebounce_5>
+
+		<saturday_winner_bubblebounce_6><![CDATA[<span class="newsbodytext">Emerald Mistyweather, Troop Rabbit, Score: 18,830<br></span>]]></saturday_winner_bubblebounce_6>
+
+		<saturday_winner_bubblebounce_7><![CDATA[<span class="newsbodytext">Lilac Plumswirls, Troop Otter, Score: 18,700<br></span>]]></saturday_winner_bubblebounce_7>
+
+		<saturday_winner_bubblebounce_8><![CDATA[<span class="newsbodytext">Raven Nightspirit, Troop Glowworm, Score: 18,470<br></span>]]></saturday_winner_bubblebounce_8>
+
+		<saturday_winner_bubblebounce_9><![CDATA[<span class="newsbodytext">Ruby Rainriver, Troop Otter, Score: 18,210<br></span>]]></saturday_winner_bubblebounce_9>
+
+		<saturday_winner_bubblebounce_10><![CDATA[<span class="newsbodytext">Daisy, Troop Glowworm, Score: 17,980<br></span>]]></saturday_winner_bubblebounce_10>
+		
+		
+		
+		<saturdaygame_link_fairyfireworks><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Fairy Fireworks</a></ul></li></span>]]></saturdaygame_link_fairyfireworks>
+
+		<saturday_winner_fairyfireworks_1><![CDATA[<span class="newsbodytext">Sprinkles Lightmist, Troop Otter, Score: 184,300<br></span>]]></saturday_winner_fairyfireworks_1>
+
+		<saturday_winner_fairyfireworks_2><![CDATA[<span class="newsbodytext">Cricket Starspeck, Troop Glowworm, Score: 177,950<br></span>]]></saturday_winner_fairyfireworks_2>
+
+		<saturday_winner_fairyfireworks_3><![CDATA[<span class="newsbodytext">Primrose, Troop Otter, Score: 150,350<br></span>]]></saturday_winner_fairyfireworks_3>
+
+		<saturday_winner_fairyfireworks_4><![CDATA[<span class="newsbodytext">Calder Purpleflame, Troop Otter, Score: 143,200<br></span>]]></saturday_winner_fairyfireworks_4>
+
+		<saturday_winner_fairyfireworks_5><![CDATA[<span class="newsbodytext">Lark Glittergarden, Troop Butterfly, Score: 135,000<br></span>]]></saturday_winner_fairyfireworks_5>
+
+		<saturday_winner_fairyfireworks_6><![CDATA[<span class="newsbodytext">River Diamondwings, Troop Otter, Score: 130,500<br></span>]]></saturday_winner_fairyfireworks_6>
+
+		<saturday_winner_fairyfireworks_7><![CDATA[<span class="newsbodytext">Cypress Lotusgarden, Troop Turtle, Score: 112,200<br></span>]]></saturday_winner_fairyfireworks_7>
+
+		<saturday_winner_fairyfireworks_8><![CDATA[<span class="newsbodytext">Stargrace, Troop Turtle, Score: 109,700<br></span>]]></saturday_winner_fairyfireworks_8>
+
+		<saturday_winner_fairyfireworks_9><![CDATA[<span class="newsbodytext">Stella Bubbletree, Troop Rabbit, Score: 109,400<br></span>]]></saturday_winner_fairyfireworks_9>
+
+		<saturday_winner_fairyfireworks_10><![CDATA[<span class="newsbodytext">Twilight, Troop Otter, Score: 108,750<br></span>]]></saturday_winner_fairyfireworks_10>
+
+
+
+		<saturdaygame_link_fireflylightup><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Firefly Light-Up</a></ul></li></span>]]></saturdaygame_link_fireflylightup>
+
+		<saturday_winner_fireflylightup_1><![CDATA[<span class="newsbodytext">Frances Nightgem, Troop Turtle, Score: 70,985<br></span>]]></saturday_winner_fireflylightup_1>
+
+		<saturday_winner_fireflylightup_2><![CDATA[<span class="newsbodytext">Melody Glittergrace, Troop Glowworm, Score: 70,930<br></span>]]></saturday_winner_fireflylightup_2>
+
+		<saturday_winner_fireflylightup_3><![CDATA[<span class="newsbodytext">Vanessa, Troop Rabbit, Score: 68,285<br></span>]]></saturday_winner_fireflylightup_3>
+
+		<saturday_winner_fireflylightup_4><![CDATA[<span class="newsbodytext">Sahara Aspenglade, Troop Turtle, Score: 68,010<br></span>]]></saturday_winner_fireflylightup_4>
+
+		<saturday_winner_fireflylightup_5><![CDATA[<span class="newsbodytext">Nyra Waterflower, Troop Otter, Score: 66,780<br></span>]]></saturday_winner_fireflylightup_5>
+
+		<saturday_winner_fireflylightup_6><![CDATA[<span class="newsbodytext">Scarlet Sunjewel, Troop Otter, Score: 65,805<br></span>]]></saturday_winner_fireflylightup_6>
+
+		<saturday_winner_fireflylightup_7><![CDATA[<span class="newsbodytext">Sapphire Vanilladrop, Troop Otter, Score: 64,945<br></span>]]></saturday_winner_fireflylightup_7>
+
+		<saturday_winner_fireflylightup_8><![CDATA[<span class="newsbodytext">Harmony Pineshimmer, Troop Rabbit, Score: 64,005<br></span>]]></saturday_winner_fireflylightup_8>
+
+		<saturday_winner_fireflylightup_9><![CDATA[<span class="newsbodytext">Twilight Eveningsong, Troop Glowworm, Score: 63,245<br></span>]]></saturday_winner_fireflylightup_9>
+
+		<saturday_winner_fireflylightup_10><![CDATA[<span class="newsbodytext">Lily Diamondlace, Troop Otter, Score: 62,480<br></span>]]></saturday_winner_fireflylightup_10>
+		
+		
+
+		<saturdaygame_link_firstflight><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">First Flight</a></ul></li></span>]]></saturdaygame_link_firstflight>
+
+		<saturday_winner_firstflight_1><![CDATA[<span class="newsbodytext">Hope, Troop Glowworm, Score: 110,150<br></span>]]></saturday_winner_firstflight_1>
+
+		<saturday_winner_firstflight_2><![CDATA[<span class="newsbodytext">Nutmeg Brightmuse, Troop Turtle, Score: 110,000<br></span>]]></saturday_winner_firstflight_2>
+
+		<saturday_winner_firstflight_3><![CDATA[<span class="newsbodytext">Dawn Morningsong, Troop Rabbit, Score: 106,100<br></span>]]></saturday_winner_firstflight_3>
+
+		<saturday_winner_firstflight_4><![CDATA[<span class="newsbodytext">Mountainsplash, Troop Rabbit, Score: 105,650<br></span>]]></saturday_winner_firstflight_4>
+
+		<saturday_winner_firstflight_5><![CDATA[<span class="newsbodytext">Happy Suntwirl, Troop Rabbit, Score: 104,800<br></span>]]></saturday_winner_firstflight_5>
+
+		<saturday_winner_firstflight_6><![CDATA[<span class="newsbodytext">Tansy Starshimmer, Troop Rabbit, Score: 104,300<br></span>]]></saturday_winner_firstflight_6>
+
+		<saturday_winner_firstflight_7><![CDATA[<span class="newsbodytext">Valorie Oakforest, Troop Rabbit, Score: 104,150<br></span>]]></saturday_winner_firstflight_7>
+
+		<saturday_winner_firstflight_8><![CDATA[<span class="newsbodytext">Sage Windwhisper, Troop Turtle, Score: 103,550<br></span>]]></saturday_winner_firstflight_8>
+
+		<saturday_winner_firstflight_9><![CDATA[<span class="newsbodytext">Lute Wildsparrow, Troop Glowworm, Score: 102,600<br></span>]]></saturday_winner_firstflight_9>
+
+		<saturday_winner_firstflight_10><![CDATA[<span class="newsbodytext">Octavia Tumbleheart, Troop Glowworm, Score: 102,000<br></span>]]></saturday_winner_firstflight_10>
+
+
+
+		<saturdaygame_link_harvesthustle><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Harvest Hustle</a></ul></li></span>]]></saturdaygame_link_harvesthustle>
+
+		<saturday_winner_harvesthustle_1><![CDATA[<span class="newsbodytext">Camellia, Troop Turtle, Score: 212,930<br></span>]]></saturday_winner_harvesthustle_1>
+
+		<saturday_winner_harvesthustle_2><![CDATA[<span class="newsbodytext">Dandelion Waterwink, Troop Otter, Score: 208,780<br></span>]]></saturday_winner_harvesthustle_2>
+
+		<saturday_winner_harvesthustle_3><![CDATA[<span class="newsbodytext">Flora Foxwings, Troop Butterfly, Score: 206,730<br></span>]]></saturday_winner_harvesthustle_3>
+
+		<saturday_winner_harvesthustle_4><![CDATA[<span class="newsbodytext">Strawberry Grapeshimmer, Troop Butterfly, Score: 206,550<br></span>]]></saturday_winner_harvesthustle_4>
+
+		<saturday_winner_harvesthustle_5><![CDATA[<span class="newsbodytext">Hyacinth Pearblossom, Troop Butterfly, Score: 205,350<br></span>]]></saturday_winner_harvesthustle_5>
+
+		<saturday_winner_harvesthustle_6><![CDATA[<span class="newsbodytext">Stella Nightshimmer, Troop Glowworm, Score: 203,410<br></span>]]></saturday_winner_harvesthustle_6>
+
+		<saturday_winner_harvesthustle_7><![CDATA[<span class="newsbodytext">Lark Morningsong, Troop Glowworm, Score: 202,440<br></span>]]></saturday_winner_harvesthustle_7>
+
+		<saturday_winner_harvesthustle_8><![CDATA[<span class="newsbodytext">Wildfeather, Troop Glowworm, Score: 188,110<br></span>]]></saturday_winner_harvesthustle_8>
+
+		<saturday_winner_harvesthustle_9><![CDATA[<span class="newsbodytext">Pumpkin, Troop Butterfly, Score: 187,700<br></span>]]>
+</saturday_winner_harvesthustle_9>
+
+		<saturday_winner_harvesthustle_10><![CDATA[<span class="newsbodytext">Ella Littletwirl, Troop Turtle, Score: 185,220<br></span>]]></saturday_winner_harvesthustle_10>
+
+
+
+		<saturdaygame_link_petalpickup><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Petal Pick-Up</a></ul></li></span>]]></saturdaygame_link_petalpickup>
+
+		<saturday_winner_petalpickup_1><![CDATA[<span class="newsbodytext">Chloe Starmeadow, Troop Rabbit, Score: 318,665<br></span>]]></saturday_winner_petalpickup_1>
+
+		<saturday_winner_petalpickup_2><![CDATA[<span class="newsbodytext">Anastasia, Troop Otter, Score: 121,155<br></span>]]></saturday_winner_petalpickup_2>
+
+		<saturday_winner_petalpickup_3><![CDATA[<span class="newsbodytext">Ash Daisyspring, Troop Rabbit, Score: 84,200<br></span>]]></saturday_winner_petalpickup_3>
+
+		<saturday_winner_petalpickup_4><![CDATA[<span class="newsbodytext">Wintermoon, Troop Otter, Score: 77,385<br></span>]]></saturday_winner_petalpickup_4>
+
+		<saturday_winner_petalpickup_5><![CDATA[<span class="newsbodytext">Brynn Speedyhop, Troop Turtle, Score: 57,195<br></span>]]></saturday_winner_petalpickup_5>
+
+		<saturday_winner_petalpickup_6><![CDATA[<span class="newsbodytext">Chloe, Troop Otter, Score: 54,255<br></span>]]></saturday_winner_petalpickup_6>
+
+		<saturday_winner_petalpickup_7><![CDATA[<span class="newsbodytext">Lightmoon, Troop Glowworm, Score: 51,605<br></span>]]></saturday_winner_petalpickup_7>
+
+		<saturday_winner_petalpickup_8><![CDATA[<span class="newsbodytext">Lala Lightningbug, Troop Butterfly, Score: 49,375<br></span>]]></saturday_winner_petalpickup_8>
+
+		<saturday_winner_petalpickup_9><![CDATA[<span class="newsbodytext">June Rainsand, Troop Rabbit, Score: 48,375<br></span>]]></saturday_winner_petalpickup_9>
+
+		<saturday_winner_petalpickup_10><![CDATA[<span class="newsbodytext">Violet Diamondjewel, Troop Glowworm, Score: 46,985<br></span>]]></saturday_winner_petalpickup_10>
+		
+
+		<saturdaygame_link_seedsorter><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Seed Sorter</a></ul></li></span>]]></saturdaygame_link_seedsorter>
+
+		<saturday_winner_seedsorter_1><![CDATA[<span class="newsbodytext">Lila Rainbowsparkle, Troop Rabbit, Score: 167,440<br></span>]]></saturday_winner_seedsorter_1>
+
+		<saturday_winner_seedsorter_2><![CDATA[<span class="newsbodytext">Robin Twinkletoes, Troop Glowworm, Score: 165,960<br></span>]]></saturday_winner_seedsorter_2>
+
+		<saturday_winner_seedsorter_3><![CDATA[<span class="newsbodytext">Little Sugarbug, Troop Otter, Score: 165,960<br></span>]]></saturday_winner_seedsorter_3>
+
+		<saturday_winner_seedsorter_4><![CDATA[<span class="newsbodytext">Barbara, Troop Rabbit, Score: 165,960<br></span>]]></saturday_winner_seedsorter_4>
+
+		<saturday_winner_seedsorter_5><![CDATA[<span class="newsbodytext">Firemoon, Troop Rabbit, Score: 164,540<br></span>]]></saturday_winner_seedsorter_5>
+
+		<saturday_winner_seedsorter_6><![CDATA[<span class="newsbodytext">Topaz Snowdance, Troop Rabbit, Score: 164,540<br></span>]]></saturday_winner_seedsorter_6>
+
+		<saturday_winner_seedsorter_7><![CDATA[<span class="newsbodytext">Lynn Lightningflash, Troop Butterfly, Score: 164,520<br></span>]]></saturday_winner_seedsorter_7>
+
+		<saturday_winner_seedsorter_8><![CDATA[<span class="newsbodytext">Sprinkles, Troop Glowworm, Score: 164,520<br></span>]]></saturday_winner_seedsorter_8>
+
+		<saturday_winner_seedsorter_9><![CDATA[<span class="newsbodytext">Echo Greentree, Troop Turtle, Score: 164,500<br></span>]]></saturday_winner_seedsorter_9>
+
+		<saturday_winner_seedsorter_10><![CDATA[<span class="newsbodytext">Holly Nightglow, Troop Turtle, Score: 164,500<br></span>]]>
+</saturday_winner_seedsorter_10>
+
+		<saturday_winner_seedsorter_11><![CDATA[<span class="newsbodytext">Orchid, Troop Turtle, Score: 164,500<br></span>]]>
+</saturday_winner_seedsorter_11>
+		
+
+		<saturdaygame_link_snowflakesweep><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Snowflake Sweep</a></ul></li></span>]]></saturdaygame_link_snowflakesweep>
+
+<saturday_winner_snowflakesweep_1><![CDATA[<span class='newsbodytext'>Ruby, Troop Otter, Score: 298,218<br></span>]]></saturday_winner_snowflakesweep_1>
+<saturday_winner_snowflakesweep_2><![CDATA[<span class='newsbodytext'>Cinnamon Sugarmist, Troop Rabbit, Score: 269,078<br></span>]]></saturday_winner_snowflakesweep_2>
+<saturday_winner_snowflakesweep_3><![CDATA[<span class='newsbodytext'>Sapphire Mistymoon, Troop Otter, Score: 176,157<br></span>]]></saturday_winner_snowflakesweep_3>
+<saturday_winner_snowflakesweep_4><![CDATA[<span class='newsbodytext'>Sienna Cricketsong, Troop Rabbit, Score: 126,132<br></span>]]></saturday_winner_snowflakesweep_4>
+<saturday_winner_snowflakesweep_5><![CDATA[<span class='newsbodytext'>Charity Shinywings, Troop Glowworm, Score: 113,587<br></span>]]></saturday_winner_snowflakesweep_5>
+<saturday_winner_snowflakesweep_6><![CDATA[<span class='newsbodytext'>Sapphire Icesparkle, Troop Otter, 112,512<br></span>]]></saturday_winner_snowflakesweep_6>
+<saturday_winner_snowflakesweep_7><![CDATA[<span class='newsbodytext'>Crystal Moonglow, Troop Glowworm, Score: 96,026<br></span>]]></saturday_winner_snowflakesweep_7>
+<saturday_winner_snowflakesweep_8><![CDATA[<span class='newsbodytext'>Winnie Frostywink, Troop Butterfly, Score: 95,220<br></span>]]></saturday_winner_snowflakesweep_8>
+<saturday_winner_snowflakesweep_9><![CDATA[<span class='newsbodytext'>Faye, Troop Turtle, Score: 91,692<br></span>]]></saturday_winner_snowflakesweep_9>
+<saturday_winner_snowflakesweep_10><![CDATA[<span class='newsbodytext'>Aria Starfreeze, Troop Turtle, Score: 90,233<br></span>]]></saturday_winner_snowflakesweep_10>
+
+		<saturdaygame_link_snowylullaby><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Snowy Lullaby</a></ul></li></span>]]></saturdaygame_link_snowylullaby>
+<saturday_winner_snowylullaby_1><![CDATA[<span class='newsbodytext'>Rose, Troop Butterfly, Score: 24,780<br></span>]]></saturday_winner_snowylullaby_1>
+<saturday_winner_snowylullaby_2><![CDATA[<span class='newsbodytext'>Echo Eveningsong, Troop Rabbit, Score: 24,560<br></span>]]></saturday_winner_snowylullaby_2>
+<saturday_winner_snowylullaby_3><![CDATA[<span class='newsbodytext'>Isabel Brightstone, Troop Turtle, Score: 24,560<br></span>]]></saturday_winner_snowylullaby_3>
+<saturday_winner_snowylullaby_4><![CDATA[<span class='newsbodytext'>May Daisyglow, Troop Rabbit, Score: 24,560<br></span>]]></saturday_winner_snowylullaby_4>
+<saturday_winner_snowylullaby_5><![CDATA[<span class='newsbodytext'>Copperglow, Troop Rabbit, Score: 24,560<br></span>]]></saturday_winner_snowylullaby_5>
+<saturday_winner_snowylullaby_6><![CDATA[<span class='newsbodytext'>Littlebell, Troop Butterfly, Score: 24,560<br></span>]]></saturday_winner_snowylullaby_6>
+<saturday_winner_snowylullaby_7><![CDATA[<span class='newsbodytext'>Peppermint, Troop Otter, Score: 24,560<br></span>]]></saturday_winner_snowylullaby_7>
+<saturday_winner_snowylullaby_8><![CDATA[<span class='newsbodytext'>Mistylace, Troop Otter, Score: 24,560<br></span>]]></saturday_winner_snowylullaby_8>
+<saturday_winner_snowylullaby_9><![CDATA[<span class='newsbodytext'>Eveningsong, Troop Otter, Score: 24,560<br></span>]]></saturday_winner_snowylullaby_9>
+<saturday_winner_snowylullaby_10><![CDATA[<span class='newsbodytext'>Airflight, Troop Glowworm, Score: 24,560<br></span>]]></saturday_winner_snowylullaby_10>
+<saturday_winner_snowylullaby_11><![CDATA[<span class='newsbodytext'>Melody Sweetsong, Troop Rabbit, Score: 24,560<br></span>]]></saturday_winner_snowylullaby_11>
+<saturday_winner_snowylullaby_12><![CDATA[<span class='newsbodytext'>Seaberry, Troop Otter, Score 24,560<br></span>]]></saturday_winner_snowylullaby_12>
+<saturday_winner_snowylullaby_13><![CDATA[<span class='newsbodytext'>Jessamine, Troop Turtle, Score 24,560<br></span>]]></saturday_winner_snowylullaby_13>
+<saturday_winner_snowylullaby_14><![CDATA[<span class='newsbodytext'>Lily, Troop Otter, Score: 24,560<br></span>]]></saturday_winner_snowylullaby_14>
+<saturday_winner_snowylullaby_15><![CDATA[<span class='newsbodytext'>Walnut Vanillashimmer, Troop Otter, Score: 24,560<br></span>]]></saturday_winner_snowylullaby_15>
+				
+
+		<saturdaygame_link_tinkertoss><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Tinker Toss</a></ul></li></span>]]></saturdaygame_link_tinkertoss>
+
+<saturday_winner_tinkertoss_1><![CDATA[<span class='newsbodytext'>Serena Sweetheart, Troop Otter, Score: 85,740<br></span>]]></saturday_winner_tinkertoss_1>
+<saturday_winner_tinkertoss_2><![CDATA[<span class='newsbodytext'>Quicksilver Seamist, Troop Otter, Score: 82,310<br></span>]]></saturday_winner_tinkertoss_2>
+<saturday_winner_tinkertoss_3><![CDATA[<span class='newsbodytext'>Sunshine Dappleray, Troop Otter, Score: 80,700<br></span>]]></saturday_winner_tinkertoss_3>
+<saturday_winner_tinkertoss_4><![CDATA[<span class='newsbodytext'>Pumpkin Mapleswirls, Troop Turtle, Score: 80,220<br></span>]]></saturday_winner_tinkertoss_4>
+<saturday_winner_tinkertoss_5><![CDATA[<span class='newsbodytext'>Nyra Chillywhisper, Troop Glowworm, Score: 78,630<br></span>]]></saturday_winner_tinkertoss_5>
+<saturday_winner_tinkertoss_6><![CDATA[<span class='newsbodytext'>Faye Dazzlewax, Troop Turtle, Score: 78,120<br></span>]]></saturday_winner_tinkertoss_6>
+<saturday_winner_tinkertoss_7><![CDATA[<span class='newsbodytext'>Rose Wildvine, Troop Butterfly, Score: 75,740<br></span>]]></saturday_winner_tinkertoss_7>
+<saturday_winner_tinkertoss_8><![CDATA[<span class='newsbodytext'>Eve Nightspirit, Troop Rabbit, Score: 74,020<br></span>]]></saturday_winner_tinkertoss_8>
+<saturday_winner_tinkertoss_9><![CDATA[<span class='newsbodytext'>Lenora Moonshadow, Troop Turtle, Score: 73,620<br></span>]]></saturday_winner_tinkertoss_9>
+<saturday_winner_tinkertoss_10><![CDATA[<span class='newsbodytext'>Cupcake Cocoapuff, Troop Glowworm, Score: 71,500<br></span>]]></saturday_winner_tinkertoss_10>
+
+
+		<saturdaygame_link_waterweb><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Water Web</a></ul></li></span>]]></saturdaygame_link_waterweb>
+
+<saturday_winner_waterweb_1><![CDATA[<span class='newsbodytext'>Tansy Rainbowtwirls, Troop Butterfly, Score: 254,000<br></span>]]></saturday_winner_waterweb_1>
+<saturday_winner_waterweb_2><![CDATA[<span class='newsbodytext'>Scarlet Fireleaf, Troop Glowworm, Score: 254,000<br></span>]]></saturday_winner_waterweb_2>
+<saturday_winner_waterweb_3><![CDATA[<span class='newsbodytext'>Ginger, Troop Glowworm, Score: 254,000<br></span>]]></saturday_winner_waterweb_3>
+<saturday_winner_waterweb_4><![CDATA[<span class='newsbodytext'>Ash Speedyray, Troop Turtle, Score: 254,000<br></span>]]></saturday_winner_waterweb_4>
+<saturday_winner_waterweb_5><![CDATA[<span class='newsbodytext'>Cupcake, Troop Glowworm, Score: 252,000<br></span>]]></saturday_winner_waterweb_5>
+<saturday_winner_waterweb_6><![CDATA[<span class='newsbodytext'>Tamara Nightstorm, Troop Turtle, Score: 251,600<br></span>]]></saturday_winner_waterweb_6>
+<saturday_winner_waterweb_7><![CDATA[<span class='newsbodytext'>Lily Frozenflower, Troop Otter, Score: 249,900<br></span>]]></saturday_winner_waterweb_7>
+<saturday_winner_waterweb_8><![CDATA[<span class='newsbodytext'>Misty Waterstone, Troop Otter, Score: 249,200<br></span>]]></saturday_winner_waterweb_8>
+<saturday_winner_waterweb_9><![CDATA[<span class='newsbodytext'>Cinnamon, Troop Rabbit, Score: 248,900<br></span>]]></saturday_winner_waterweb_9>
+<saturday_winner_waterweb_10><![CDATA[<span class='newsbodytext'>Daphne Thundermist, Troop Otter, Score: 248,500<br></span>]]></saturday_winner_waterweb_10>
+
+		<!-- Sunday -->
+
+		<sundayheader><![CDATA[<span class="newsbodytext">Sunday, July 4th 2010</span>]]></sundayheader>
+
+		<sundaygame_link_bubblebounce><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Bubble Bounce</a></ul></li></span>]]></sundaygame_link_bubblebounce>
+
+<sunday_winner_bubblebounce_1><![CDATA[<span class='newsbodytext'>Heather Littlefeather, Troop Rabbit, Score: 21,020<br></span>]]></sunday_winner_bubblebounce_1>
+<sunday_winner_bubblebounce_2><![CDATA[<span class='newsbodytext'>Lily Magicshadow, Troop Butterfly, Score: 19,600<br></span>]]></sunday_winner_bubblebounce_2>
+<sunday_winner_bubblebounce_3><![CDATA[<span class='newsbodytext'>Onyx Seamist, Troop Otter, Score: 19,600<br></span>]]></sunday_winner_bubblebounce_3>
+<sunday_winner_bubblebounce_4><![CDATA[<span class='newsbodytext'>Tiger Littlesprite, Troop Rabbit, Score: 19,380<br></span>]]></sunday_winner_bubblebounce_4>
+<sunday_winner_bubblebounce_5><![CDATA[<span class='newsbodytext'>Alina Moonshine, Troop Rabbit, Score: 18,880<br></span>]]></sunday_winner_bubblebounce_5>
+<sunday_winner_bubblebounce_6><![CDATA[<span class='newsbodytext'>Hyacinth Nightblossom, Troop Butterfly, Score: 18,850<br></span>]]></sunday_winner_bubblebounce_6>
+<sunday_winner_bubblebounce_7><![CDATA[<span class='newsbodytext'>Prettybelle, Troop Otter, Score: 18,790<br></span>]]></sunday_winner_bubblebounce_7>
+<sunday_winner_bubblebounce_8><![CDATA[<span class='newsbodytext'>Ginger, Troop Turtle, Score: 18,690<br></span>]]></sunday_winner_bubblebounce_8>
+<sunday_winner_bubblebounce_9><![CDATA[<span class='newsbodytext'>Scarlet Moonpetal, Troop Rabbit, Score: 18,390<br></span>]]></sunday_winner_bubblebounce_9>
+<sunday_winner_bubblebounce_10><![CDATA[<span class='newsbodytext'>Vicki Icesocks, Troop Glowworm, Score: 18,330<br></span>]]></sunday_winner_bubblebounce_10>
+
+
+
+		<sundaygame_link_fairyfireworks><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Fairy Fireworks</a></ul></li></span>]]></sundaygame_link_fairyfireworks>
+<sunday_winner_fairyfireworks_1><![CDATA[<span class='newsbodytext'>Ginger Greenthistle, Troop Rabbit, Score: 130,400<br></span>]]></sunday_winner_fairyfireworks_1>
+<sunday_winner_fairyfireworks_2><![CDATA[<span class='newsbodytext'>Pearl Moonsplash, Troop Otter, Score: 125,400<br></span>]]></sunday_winner_fairyfireworks_2>
+<sunday_winner_fairyfireworks_3><![CDATA[<span class='newsbodytext'>Gloria Beautyglow, Troop Otter, Score: 119,850<br></span>]]></sunday_winner_fairyfireworks_3>
+<sunday_winner_fairyfireworks_4><![CDATA[<span class='newsbodytext'>Stella Starbeam, Troop Glowworm, Score: 115,050<br></span>]]></sunday_winner_fairyfireworks_4>
+<sunday_winner_fairyfireworks_5><![CDATA[<span class='newsbodytext'>Gardenia Peppersprout, Troop Otter, Score: 114,100<br></span>]]></sunday_winner_fairyfireworks_5>
+<sunday_winner_fairyfireworks_6><![CDATA[<span class='newsbodytext'>Dahlia, Troop Otter, Score: 113,950<br></span>]]></sunday_winner_fairyfireworks_6>
+<sunday_winner_fairyfireworks_7><![CDATA[<span class='newsbodytext'>Trinity Copperbell, Troop Turtle, Score: 113,300<br></span>]]></sunday_winner_fairyfireworks_7>
+<sunday_winner_fairyfireworks_8><![CDATA[<span class='newsbodytext'>Jellyblossom, Troop Rabbit, Score: 110,550<br></span>]]></sunday_winner_fairyfireworks_8>
+<sunday_winner_fairyfireworks_9><![CDATA[<span class='newsbodytext'>Holly, Troop Rabbit, Score: 103,900<br></span>]]></sunday_winner_fairyfireworks_9>
+<sunday_winner_fairyfireworks_10><![CDATA[<span class='newsbodytext'>Sunflower Brightblossom, Troop Butterfly, Score: 98,600<br></span>]]></sunday_winner_fairyfireworks_10>
+
+
+		<sundaygame_link_fireflylightup><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Firefly Light-Up</a></ul></li></span>]]></sundaygame_link_fireflylightup>
+
+<sunday_winner_fireflylightup_1><![CDATA[<span class='newsbodytext'>Robin Tuliptoes, Troop Butterfly, Score: 72,075<br></span>]]></sunday_winner_fireflylightup_1>
+<sunday_winner_fireflylightup_2><![CDATA[<span class='newsbodytext'>Alexa Magicsong, Troop Rabbit, Score: 64,110<br></span>]]></sunday_winner_fireflylightup_2>
+<sunday_winner_fireflylightup_3><![CDATA[<span class='newsbodytext'>Emerald Wildlace, Troop Otter, Score: 63,645<br></span>]]></sunday_winner_fireflylightup_3>
+<sunday_winner_fireflylightup_4><![CDATA[<span class='newsbodytext'>Lila Silkshadow, Troop Butterfly, Score: 63,170<br></span>]]></sunday_winner_fireflylightup_4>
+<sunday_winner_fireflylightup_5><![CDATA[<span class='newsbodytext'>Arianna Magicdust, Troop Turtle, Score: 62,250<br></span>]]></sunday_winner_fireflylightup_5>
+<sunday_winner_fireflylightup_6><![CDATA[<span class='newsbodytext'>Lavender Magicgem, Troop Butterfly, Score: 61,210<br></span>]]></sunday_winner_fireflylightup_6>
+<sunday_winner_fireflylightup_7><![CDATA[<span class='newsbodytext'>Rainbowglow, Troop Glowworm, Score: 60,775<br></span>]]></sunday_winner_fireflylightup_7>
+<sunday_winner_fireflylightup_8><![CDATA[<span class='newsbodytext'>Sophie, Troop Glowworm, Score: 59,765<br></span>]]></sunday_winner_fireflylightup_8>
+<sunday_winner_fireflylightup_9><![CDATA[<span class='newsbodytext'>Windy Morningbreeze, Troop Butterfly, Score: 59,035<br></span>]]></sunday_winner_fireflylightup_9>
+<sunday_winner_fireflylightup_10><![CDATA[<span class='newsbodytext'>Alexia Mistymeadow, Troop Glowworm, Score: 58,980<br></span>]]></sunday_winner_fireflylightup_10>
+		
+
+		<sundaygame_link_firstflight><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">First Flight</a></ul></li></span>]]></sundaygame_link_firstflight>
+
+<sunday_winner_firstflight_1><![CDATA[<span class='newsbodytext'>Stargazer Twinklegrass, Troop Otter, Score: 122,450<br></span>]]></sunday_winner_firstflight_1>
+<sunday_winner_firstflight_2><![CDATA[<span class='newsbodytext'>Trinity Foxglow, Troop Rabbit, Score: 121,500<br></span>]]></sunday_winner_firstflight_2>
+<sunday_winner_firstflight_3><![CDATA[<span class='newsbodytext'>Harmony Magicwish, Troop Rabbit, Score: 114,150<br></span>]]></sunday_winner_firstflight_3>
+<sunday_winner_firstflight_4><![CDATA[<span class='newsbodytext'>Ivy, Troop Butterfly, Score: 111,000<br></span>]]></sunday_winner_firstflight_4>
+<sunday_winner_firstflight_5><![CDATA[<span class='newsbodytext'>Kiki Mountainhorn, Troop Turtle, Score: 107,200<br></span>]]></sunday_winner_firstflight_5>
+<sunday_winner_firstflight_6><![CDATA[<span class='newsbodytext'>Crystal, Troop Otter, Score: 106,100<br></span>]]></sunday_winner_firstflight_6>
+<sunday_winner_firstflight_7><![CDATA[<span class='newsbodytext'>Prinna, Troop Rabbit, Score: 105,050<br></span>]]></sunday_winner_firstflight_7>
+<sunday_winner_firstflight_8><![CDATA[<span class='newsbodytext'>Orchid Rainbowspirit, Troop Butterfly, Score: 104,550<br></span>]]></sunday_winner_firstflight_8>
+<sunday_winner_firstflight_9><![CDATA[<span class='newsbodytext'>Abigail Wildforest, Troop Turtle, Score: 103,850<br></span>]]></sunday_winner_firstflight_9>
+<sunday_winner_firstflight_10><![CDATA[<span class='newsbodytext'>Diamonddust, Troop Butterfly, Score: 101,500<br></span>]]></sunday_winner_firstflight_10>
+
+
+
+		<sundaygame_link_harvesthustle><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Harvest Hustle</a></ul></li></span>]]></sundaygame_link_harvesthustle>
+
+<sunday_winner_harvesthustle_1><![CDATA[<span class='newsbodytext'>Todd, Troop Glowworm, Score: 215,020<br></span>]]></sunday_winner_harvesthustle_1>
+<sunday_winner_harvesthustle_2><![CDATA[<span class='newsbodytext'>Karma Lotusblossom, Troop Glowworm, Score: 199,570<br></span>]]></sunday_winner_harvesthustle_2>
+<sunday_winner_harvesthustle_3><![CDATA[<span class='newsbodytext'>Dusty Swiftwind, Troop Turtle, Score: 193,740<br></span>]]></sunday_winner_harvesthustle_3>
+<sunday_winner_harvesthustle_4><![CDATA[<span class='newsbodytext'>Moonflight, Troop Rabbit, Score: 192,980<br></span>]]></sunday_winner_harvesthustle_4>
+<sunday_winner_harvesthustle_5><![CDATA[<span class='newsbodytext'>Sunshine Wildstorm, Troop Glowworm, Score: 192,140<br></span>]]></sunday_winner_harvesthustle_5>
+<sunday_winner_harvesthustle_6><![CDATA[<span class='newsbodytext'>Liri Silkpetal, Troop Glowworm, Score: 191,590<br></span>]]></sunday_winner_harvesthustle_6>
+<sunday_winner_harvesthustle_7><![CDATA[<span class='newsbodytext'>Mistyhopper, Troop Rabbit, Score: 186,250<br></span>]]></sunday_winner_harvesthustle_7>
+<sunday_winner_harvesthustle_8><![CDATA[<span class='newsbodytext'>Crystal Bubblemist, Troop Otter, Score: 183,390<br></span>]]></sunday_winner_harvesthustle_8>
+<sunday_winner_harvesthustle_9><![CDATA[<span class='newsbodytext'>Lavender Magicgarden, Troop Otter, Score: 181,510<br></span>]]></sunday_winner_harvesthustle_9>
+<sunday_winner_harvesthustle_10><![CDATA[<span class='newsbodytext'>Serendipity Nightflame, Troop Otter, Score: 181,250<br></span>]]></sunday_winner_harvesthustle_10>
+
+
+		<sundaygame_link_petalpickup><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Petal Pick-Up</a></ul></li></span>]]></sundaygame_link_petalpickup>
+
+<sunday_winner_petalpickup_1><![CDATA[<span class='newsbodytext'>Melody, Troop Butterfly, Score: 222,070<br></span>]]></sunday_winner_petalpickup_1>
+<sunday_winner_petalpickup_2><![CDATA[<span class='newsbodytext'>Alina, Troop Butterfly, Score: 220,595<br></span>]]></sunday_winner_petalpickup_2>
+<sunday_winner_petalpickup_3><![CDATA[<span class='newsbodytext'>Foxstripe, Troop Otter, Score: 206,030<br></span>]]></sunday_winner_petalpickup_3>
+<sunday_winner_petalpickup_4><![CDATA[<span class='newsbodytext'>Ginger Wildheart, Troop Rabbit, Score: 85,025<br></span>]]></sunday_winner_petalpickup_4>
+<sunday_winner_petalpickup_5><![CDATA[<span class='newsbodytext'>Juniper, Troop Otter, Score: 71,250<br></span>]]></sunday_winner_petalpickup_5>
+<sunday_winner_petalpickup_6><![CDATA[<span class='newsbodytext'>Misty Mountainlily, Troop Butterfly, Score: 70,750<br></span>]]></sunday_winner_petalpickup_6>
+<sunday_winner_petalpickup_7><![CDATA[<span class='newsbodytext'>Camellia, Troop Rabbit, Score: 62,830<br></span>]]></sunday_winner_petalpickup_7>
+<sunday_winner_petalpickup_8><![CDATA[<span class='newsbodytext'>Marigold Mapleglimmer, Troop Butterfly, Score: 58,800<br></span>]]></sunday_winner_petalpickup_8>
+<sunday_winner_petalpickup_9><![CDATA[<span class='newsbodytext'>Emma, Troop Glowworm, Score: 57,535<br></span>]]></sunday_winner_petalpickup_9>
+<sunday_winner_petalpickup_10><![CDATA[<span class='newsbodytext'>Fantasia, Troop Butterfly, Score: 51,900<br></span>]]></sunday_winner_petalpickup_10>
+
+		<sundaygame_link_seedsorter><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Seed Sorter</a></ul></li></span>]]></sundaygame_link_seedsorter>
+
+<sunday_winner_seedsorter_1><![CDATA[<span class='newsbodytext'>Foxglove Hollyberry, Troop Butterfly, Score: 165,980<br></span>]]></sunday_winner_seedsorter_1>
+<sunday_winner_seedsorter_2><![CDATA[<span class='newsbodytext'>Topher Otterfoot, Troop Rabbit, Score: 165,960<br></span>]]></sunday_winner_seedsorter_2>
+<sunday_winner_seedsorter_3><![CDATA[<span class='newsbodytext'>Posy Cozybutter, Troop Rabbit, Score: 165,960<br></span>]]></sunday_winner_seedsorter_3>
+<sunday_winner_seedsorter_4><![CDATA[<span class='newsbodytext'>Amethyst, Troop Otter, Score: 165,960<br></span>]]></sunday_winner_seedsorter_4>
+<sunday_winner_seedsorter_5><![CDATA[<span class='newsbodytext'>Ruby Moonriver, Troop Rabbit, Score: 165,960<br></span>]]></sunday_winner_seedsorter_5>
+<sunday_winner_seedsorter_6><![CDATA[<span class='newsbodytext'>Olive, Troop Rabbit, Score: 165,960<br></span>]]></sunday_winner_seedsorter_6>
+<sunday_winner_seedsorter_7><![CDATA[<span class='newsbodytext'>Crystal Fireblossom, Troop Rabbit, Score: 165,940<br></span>]]></sunday_winner_seedsorter_7>
+<sunday_winner_seedsorter_8><![CDATA[<span class='newsbodytext'>Maddie, Troop Rabbit, Score: 164,560<br></span>]]></sunday_winner_seedsorter_8>
+<sunday_winner_seedsorter_9><![CDATA[<span class='newsbodytext'>Gloriosa Flickerlace, Troop Glowworm, Score: 164,560<br></span>]]></sunday_winner_seedsorter_9>
+<sunday_winner_seedsorter_10><![CDATA[<span class='newsbodytext'>Mary, Troop Turtle, Score: 164,540<br></span>]]></sunday_winner_seedsorter_10>
+
+		<sundaygame_link_snowflakesweep><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Snowflake Sweep</a></ul></li></span>]]></sundaygame_link_snowflakesweep>
+
+<sunday_winner_snowflakesweep_1><![CDATA[<span class='newsbodytext'>Ella Lightsparkle, Troop Glowworm, Score: 103,455<br></span>]]></sunday_winner_snowflakesweep_1>
+<sunday_winner_snowflakesweep_2><![CDATA[<span class='newsbodytext'>Prettybell, Troop Butterfly, Score: 97,624<br></span>]]></sunday_winner_snowflakesweep_2>
+<sunday_winner_snowflakesweep_3><![CDATA[<span class='newsbodytext'>Saffron Sweetwish, Troop Glowworm, Score: 94,927<br></span>]]></sunday_winner_snowflakesweep_3>
+<sunday_winner_snowflakesweep_4><![CDATA[<span class='newsbodytext'>Seth, Troop Butterfly, Score: 91,291<br></span>]]></sunday_winner_snowflakesweep_4>
+<sunday_winner_snowflakesweep_5><![CDATA[<span class='newsbodytext'>Yasmine Coppertwinkle, Troop Butterfly, Score: 90,956<br></span>]]></sunday_winner_snowflakesweep_5>
+<sunday_winner_snowflakesweep_6><![CDATA[<span class='newsbodytext'>Sky Moonshadow, Troop Rabbit, Score: 81,712<br></span>]]></sunday_winner_snowflakesweep_6>
+<sunday_winner_snowflakesweep_7><![CDATA[<span class='newsbodytext'>Chloe Merryheart, Troop Turtle, Score: 80,263<br></span>]]></sunday_winner_snowflakesweep_7>
+<sunday_winner_snowflakesweep_8><![CDATA[<span class='newsbodytext'>Ebony, Troop Otter, Score: 79,834<br></span>]]></sunday_winner_snowflakesweep_8>
+<sunday_winner_snowflakesweep_9><![CDATA[<span class='newsbodytext'>Bim Bubblebell, Troop Otter, Score: 79,678<br></span>]]></sunday_winner_snowflakesweep_9>
+<sunday_winner_snowflakesweep_10><![CDATA[<span class='newsbodytext'>Nutmeg Morningsprite, Troop Butterfly, Score:  79,618<br></span>]]></sunday_winner_snowflakesweep_10>
+
+		<sundaygame_link_snowylullaby><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Snowy Lullaby</a></ul></li></span>]]></sundaygame_link_snowylullaby>
+
+<sunday_winner_snowylullaby_1><![CDATA[<span class='newsbodytext'>Sapphire Fancydust, Troop Butterfly, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_1>
+<sunday_winner_snowylullaby_2><![CDATA[<span class='newsbodytext'>Leeta Mountainblossom, Troop Butterfly, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_2>
+<sunday_winner_snowylullaby_3><![CDATA[<span class='newsbodytext'>Gardenia Morningmist, Troop Butterfly, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_3>
+<sunday_winner_snowylullaby_4><![CDATA[<span class='newsbodytext'>Zephyr Quickmuse, Troop Turtle, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_4>
+<sunday_winner_snowylullaby_5><![CDATA[<span class='newsbodytext'>Sprinkles Silksprite, Troop Turtle, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_5>
+<sunday_winner_snowylullaby_6><![CDATA[<span class='newsbodytext'>Orchid Nightblossom, Troop Butterfly, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_6>
+<sunday_winner_snowylullaby_7><![CDATA[<span class='newsbodytext'>May, Troop Otter, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_7>
+<sunday_winner_snowylullaby_8><![CDATA[<span class='newsbodytext'>Stormy, Troop Turtle, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_8>
+<sunday_winner_snowylullaby_9><![CDATA[<span class='newsbodytext'>Fernsong, Troop Turtle, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_9>
+<sunday_winner_snowylullaby_10><![CDATA[<span class='newsbodytext'>Aaron Starshadow, Troop Otter, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_10>
+<sunday_winner_snowylullaby_11><![CDATA[<span class='newsbodytext'>Misty Iceflash, Troop Otter, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_11>
+<sunday_winner_snowylullaby_12><![CDATA[<span class='newsbodytext'>Violet Moonsong, Troop Rabbit, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_12>
+<sunday_winner_snowylullaby_13><![CDATA[<span class='newsbodytext'>Jay Nightstorm, Troop Turtle, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_13>
+<sunday_winner_snowylullaby_14><![CDATA[<span class='newsbodytext'>Foxfeather, Troop Rabbit, Score: 24,560<br></span>]]></sunday_winner_snowylullaby_14>
+
+		<sundaygame_link_tinkertoss><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Tinker Toss</a></ul></li></span>]]></sundaygame_link_tinkertoss>
+
+<sunday_winner_tinkertoss_1><![CDATA[<span class='newsbodytext'>Shyshadow, Troop Glowworm, Score: 78,460<br></span>]]></sunday_winner_tinkertoss_1>
+<sunday_winner_tinkertoss_2><![CDATA[<span class='newsbodytext'>Shelly Watervalley, Troop Otter, Score: 76,930<br></span>]]></sunday_winner_tinkertoss_2>
+<sunday_winner_tinkertoss_3><![CDATA[<span class='newsbodytext'>Helen, Troop Otter, Score: 75,970<br></span>]]></sunday_winner_tinkertoss_3>
+<sunday_winner_tinkertoss_4><![CDATA[<span class='newsbodytext'>Autumn Starglow, Troop Turtle, Score: 75450<br></span>]]></sunday_winner_tinkertoss_4>
+<sunday_winner_tinkertoss_5><![CDATA[<span class='newsbodytext'>Olive, Troop Turtle, Score: 74,770<br></span>]]></sunday_winner_tinkertoss_5>
+<sunday_winner_tinkertoss_6><![CDATA[<span class='newsbodytext'>Isabelle Lovelystream, Troop Otter, Score: 72,150<br></span>]]></sunday_winner_tinkertoss_6>
+<sunday_winner_tinkertoss_7><![CDATA[<span class='newsbodytext'>Errol Moonshadow, Troop Rabbit, Score: 72,040<br></span>]]></sunday_winner_tinkertoss_7>
+<sunday_winner_tinkertoss_8><![CDATA[<span class='newsbodytext'>Faith, Troop Butterfly, Score: 71,790<br></span>]]></sunday_winner_tinkertoss_8>
+<sunday_winner_tinkertoss_9><![CDATA[<span class='newsbodytext'>Emerald, Troop Rabbit, Score: 70,320<br></span>]]></sunday_winner_tinkertoss_9>
+<sunday_winner_tinkertoss_10><![CDATA[<span class='newsbodytext'>Isabel Nightwings, Troop Turtle, Score: 69,520<br></span>]]></sunday_winner_tinkertoss_10>
+
+		<sundaygame_link_waterweb><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Water Web</a></ul></li></span>]]></sundaygame_link_waterweb>
+<sunday_winner_waterweb_1><![CDATA[<span class='newsbodytext'>Lily Stardust, Troop Otter, Score: 254,000<br></span>]]></sunday_winner_waterweb_1>
+<sunday_winner_waterweb_2><![CDATA[<span class='newsbodytext'>Misty Twistytwist, Troop Otter, Score: 254,000<br></span>]]></sunday_winner_waterweb_2>
+<sunday_winner_waterweb_3><![CDATA[<span class='newsbodytext'>Sienna Diamondspark, Troop Rabbit, Score: 254,000<br></span>]]></sunday_winner_waterweb_3>
+<sunday_winner_waterweb_4><![CDATA[<span class='newsbodytext'>Zephyr Wondereye, Troop Rabbit, Score: 252,400<br></span>]]></sunday_winner_waterweb_4>
+<sunday_winner_waterweb_5><![CDATA[<span class='newsbodytext'>Daisy Pollenstream, Troop Glowworm, Score: 248,900<br></span>]]></sunday_winner_waterweb_5>
+<sunday_winner_waterweb_6><![CDATA[<span class='newsbodytext'>Chipmunk Vanillaplume, Troop Rabbit, Score: 247,500<br></span>]]></sunday_winner_waterweb_6>
+<sunday_winner_waterweb_7><![CDATA[<span class='newsbodytext'>Orchid Eveningmist, Troop Butterfly, Score: 247,200<br></span>]]></sunday_winner_waterweb_7>
+<sunday_winner_waterweb_8><![CDATA[<span class='newsbodytext'>Iris, Troop Turtle, Score: 246,300<br></span>]]></sunday_winner_waterweb_8>
+<sunday_winner_waterweb_9><![CDATA[<span class='newsbodytext'>Nightshade Moonray, Troop Rabbit, Score: 246,100<br></span>]]></sunday_winner_waterweb_9>
+<sunday_winner_waterweb_10><![CDATA[<span class='newsbodytext'>Ranger Swiftray, Troop Rabbit, Score: 243,400<br></span>]]></sunday_winner_waterweb_10>
+
+
+
+
+<!-- Saturday -->
+<saturdayheader1><![CDATA[<span class="newsbodytext">Saturday, July 10th 2010</span>]]></saturdayheader1>
+
+		<saturdaygame1_link_bubblebounce><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Bubble Bounce</a></ul></li></span>]]></saturdaygame1_link_bubblebounce>
+
+		<saturday_winner1_bubblebounce_1><![CDATA[<span class="newsbodytext">Dawn, Troop Rabbit, Score: 22,880<br></span>]]></saturday_winner1_bubblebounce_1>
+		<saturday_winner1_bubblebounce_2><![CDATA[<span class="newsbodytext">Tiny Nightmust, Troop Glowworm, Score: 22,140<br></span>]]></saturday_winner1_bubblebounce_2>
+		<saturday_winner1_bubblebounce_3><![CDATA[<span class="newsbodytext">Juniper Nightberry, Troop Otter, Score: 20,830<br></span>]]></saturday_winner1_bubblebounce_3>
+		<saturday_winner1_bubblebounce_4><![CDATA[<span class="newsbodytext">Grace Plummeadow, Troop Otter, Score: 20,520<br></span>]]></saturday_winner1_bubblebounce_4>
+		<saturday_winner1_bubblebounce_5><![CDATA[<span class="newsbodytext">Acorn Fernfig, Troop Rabbit, Score: 20,500<br></span>]]></saturday_winner1_bubblebounce_5>
+		<saturday_winner1_bubblebounce_6><![CDATA[<span class="newsbodytext">Twilight Nightshadow, Troop Rabbit, Score: 20,320<br></span>]]></saturday_winner1_bubblebounce_6>
+		<saturday_winner1_bubblebounce_7><![CDATA[<span class="newsbodytext">Petuniafrostyblossom, Troop Butterfly, Score: 19,880<br></span>]]></saturday_winner1_bubblebounce_7>
+		<saturday_winner1_bubblebounce_8><![CDATA[<span class="newsbodytext">Grace Sundew, Troop Otter, Score: 19,880<br></span>]]></saturday_winner1_bubblebounce_8>
+		<saturday_winner1_bubblebounce_9><![CDATA[<span class="newsbodytext">Aria Aspendust, Troop Turtle, Score: 19,850<br></span>]]></saturday_winner1_bubblebounce_9>
+		<saturday_winner1_bubblebounce_10><![CDATA[<span class="newsbodytext">Nadir, Troop Turtle, Score: 19,460<br></span>]]></saturday_winner1_bubblebounce_10>
+	
+
+
+		<saturdaygame1_link_fairyfireworks><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Fairy Fireworks</a></ul></li></span>]]></saturdaygame1_link_fairyfireworks>
+
+		<saturday_winner1_fairyfireworks_1><![CDATA[<span class="newsbodytext">Twilight Eveningshadow, Troop Turtle, Score: 178,850<br></span>]]></saturday_winner1_fairyfireworks_1>
+		<saturday_winner1_fairyfireworks_2><![CDATA[<span class="newsbodytext">Serena, Troop Otter, Score: 158,400<br></span>]]></saturday_winner1_fairyfireworks_2>
+		<saturday_winner1_fairyfireworks_3><![CDATA[<span class="newsbodytext">Plumflower, Troop Rabbit, Score: 157,600<br></span>]]></saturday_winner1_fairyfireworks_3>
+		<saturday_winner1_fairyfireworks_4><![CDATA[<span class="newsbodytext">Serendipity Lovelysparkle, Troop Otter, Score: 150,450<br></span>]]></saturday_winner1_fairyfireworks_4>
+		<saturday_winner1_fairyfireworks_5><![CDATA[<span class="newsbodytext">Ella, Troop Turtle, Score: 124,400<br></span>]]></saturday_winner1_fairyfireworks_5>
+		<saturday_winner1_fairyfireworks_6><![CDATA[<span class="newsbodytext">Sapphire Sweetfeather, Troop Otter, Score: 117,600<br></span>]]></saturday_winner1_fairyfireworks_6>
+		<saturday_winner1_fairyfireworks_7><![CDATA[<span class="newsbodytext">Holly, Troop Animal, Score: 115,350<br></span>]]></saturday_winner1_fairyfireworks_7>
+		<saturday_winner1_fairyfireworks_8><![CDATA[<span class="newsbodytext">Wintersky, Troop Rabbit, Score: 111,550<br></span>]]></saturday_winner1_fairyfireworks_8>
+		<saturday_winner1_fairyfireworks_9><![CDATA[<span class="newsbodytext">Sky Lightwings, Troop Rabbit, Score: 111,450<br></span>]]></saturday_winner1_fairyfireworks_9>
+		<saturday_winner1_fairyfireworks_10><![CDATA[<span class="newsbodytext">Mary Glittersplash, Troop Otter, Score: 111,350<br></span>]]></saturday_winner1_fairyfireworks_10>
+
+		
+		
+		<saturdaygame1_link_fireflylightup><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Firefly Light-Up</a></ul></li></span>]]></saturdaygame1_link_fireflylightup>
+		
+		<saturday_winner1_fireflylightup_1><![CDATA[<span class="newsbodytext">Trinity, Troop Turtle, Score: 67,115<br></span>]]></saturday_winner1_fireflylightup_1>
+		<saturday_winner1_fireflylightup_2><![CDATA[<span class="newsbodytext">Daffodil Fancygem, Troop Otter, Score: 66,375<br></span>]]></saturday_winner1_fireflylightup_2>
+		<saturday_winner1_fireflylightup_3><![CDATA[<span class="newsbodytext">May Fireriver, Troop Otter, Score: 65,770<br></span>]]></saturday_winner1_fireflylightup_3>
+		<saturday_winner1_fireflylightup_4><![CDATA[<span class="newsbodytext">Chickadee, Troop Rabbit, Score: 65,480<br></span>]]></saturday_winner1_fireflylightup_4>
+		<saturday_winner1_fireflylightup_5><![CDATA[<span class="newsbodytext">Mary, Troop Otter, Score: 65,200<br></span>]]></saturday_winner1_fireflylightup_5>
+		<saturday_winner1_fireflylightup_6><![CDATA[<span class="newsbodytext">Autumn Icemist, Troop Otter, Score: 65,170<br></span>]]></saturday_winner1_fireflylightup_6>
+		<saturday_winner1_fireflylightup_7><![CDATA[<span class="newsbodytext">Liri Neversong, Troop Otter, Score: 65,045<br></span>]]></saturday_winner1_fireflylightup_7>
+		<saturday_winner1_fireflylightup_8><![CDATA[<span class="newsbodytext">Cobweb Bitterheart, Troop Rabbit, Score: 64,585<br></span>]]></saturday_winner1_fireflylightup_8>
+		<saturday_winner1_fireflylightup_9><![CDATA[<span class="newsbodytext">Sarah Twinklebelle, Troop Rabbit, Score: 64,550<br></span>]]></saturday_winner1_fireflylightup_9>
+		<saturday_winner1_fireflylightup_10><![CDATA[<span class="newsbodytext">Infinity Wildflame, Troop Glowworm, Score: 64,470<br></span>]]></saturday_winner1_fireflylightup_10>
+		
+		
+
+		<saturdaygame1_link_firstflight><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">First Flight</a></ul></li></span>]]></saturdaygame1_link_firstflight>
+
+		<saturday_winner1_firstflight_1><![CDATA[<span class="newsbodytext">Lucia, Troop Butterfly, Score: 140,6500<br></span>]]></saturday_winner1_firstflight_1>
+		<saturday_winner1_firstflight_2><![CDATA[<span class="newsbodytext">Nadir, Troop Glowworm, Score: 131,400<br></span>]]></saturday_winner1_firstflight_2>
+		<saturday_winner1_firstflight_3><![CDATA[<span class="newsbodytext">Dewdrop Mistystorm, Troop Butterfly, Score: 127,150<br></span>]]></saturday_winner1_firstflight_3>
+		<saturday_winner1_firstflight_4><![CDATA[<span class="newsbodytext">Diamondheart, Troop Tinker, Score: 123,100<br></span>]]></saturday_winner1_firstflight_4>
+		<saturday_winner1_firstflight_5><![CDATA[<span class="newsbodytext">Jamie Prettypuff, Troop Otter, Score: 121,050<br></span>]]></saturday_winner1_firstflight_5>
+		<saturday_winner1_firstflight_6><![CDATA[<span class="newsbodytext">Pumpkin Peachlily, Troop Butterfly, Score: 116,900<br></span>]]></saturday_winner1_firstflight_6>
+		<saturday_winner1_firstflight_7><![CDATA[<span class="newsbodytext">Koko Lotuswhisper, Troop Glowworm, Score: 115,350<br></span>]]></saturday_winner1_firstflight_7>
+		<saturday_winner1_firstflight_8><![CDATA[<span class="newsbodytext">Karma, Troop Rabbit, Score: 111,450<br></span>]]></saturday_winner1_firstflight_8>
+		<saturday_winner1_firstflight_9><![CDATA[<span class="newsbodytext">Amethyst Tulipwillow, Troop Turtle, Score: 108,950<br></span>]]></saturday_winner1_firstflight_9>
+		<saturday_winner1_firstflight_10><![CDATA[<span class="newsbodytext">Lavender Mistywillow, Troop Otter, Score: 108,800<br></span>]]></saturday_winner1_firstflight_10>
+
+
+
+		<saturdaygame1_link_harvesthustle><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Harvest Hustle</a></ul></li></span>]]></saturdaygame1_link_harvesthustle>
+
+		<saturday_winner1_harvesthustle_1><![CDATA[<span class="newsbodytext">Sarah Moondance, Troop Turtle, Score: 213,880<br></span>]]></saturday_winner1_harvesthustle_1>
+		<saturday_winner1_harvesthustle_2><![CDATA[<span class="newsbodytext">Sunshine, Troop Glowworm, Score: 206,0700<br></span>]]></saturday_winner1_harvesthustle_2>
+		<saturday_winner1_harvesthustle_3><![CDATA[<span class="newsbodytext">Lucky Moongrace, Troop Otter, Score: 205,620<br></span>]]></saturday_winner1_harvesthustle_3>
+		<saturday_winner1_harvesthustle_4><![CDATA[<span class="newsbodytext">Mia Lightningwillow, Troop Butterfly, Score: 203,110<br></span>]]></saturday_winner1_harvesthustle_4>
+		<saturday_winner1_harvesthustle_5><![CDATA[<span class="newsbodytext">Cricket Pepperspeck, Troop Rabbit, Score: 202,670<br></span>]]></saturday_winner1_harvesthustle_5>
+		<saturday_winner1_harvesthustle_6><![CDATA[<span class="newsbodytext">Juniper Bittersprite, Troop Rabbit, Score: 202,440<br></span>]]></saturday_winner1_harvesthustle_6>
+		<saturday_winner1_harvesthustle_7><![CDATA[<span class="newsbodytext">Isabelle Gigglebug, Troop Turtle, Score: 200,450<br></span>]]></saturday_winner1_harvesthustle_7>
+		<saturday_winner1_harvesthustle_8><![CDATA[<span class="newsbodytext">Lizzy Glitterwind, Troop Rabbit, Score: 197,8900<br></span>]]></saturday_winner1_harvesthustle_8>
+		<saturday_winner1_harvesthustle_9><![CDATA[<span class="newsbodytext">Joy Merryheart, Troop Otter, Score: 196,770<br></span>]]></saturday_winner1_harvesthustle_9>
+		<saturday_winner1_harvesthustle_10><![CDATA[<span class="newsbodytext">Eve Silkswirls, Troop Otter, Score: 195,390<br></span>]]></saturday_winner1_harvesthustle_10>
+
+
+		<saturdaygame1_link_petalpickup><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Petal Pick-Up</a></ul></li></span>]]></saturdaygame1_link_petalpickup>
+
+		<saturday_winner1_petalpickup_1><![CDATA[<span class="newsbodytext">Sahara, Troop Turtle, Score: 419,255<br></span>]]></saturday_winner1_petalpickup_1>
+		<saturday_winner1_petalpickup_2><![CDATA[<span class="newsbodytext">Lily Merrybell, Troop Otter, Score: 109,130<br></span>]]></saturday_winner1_petalpickup_2>
+		<saturday_winner1_petalpickup_3><![CDATA[<span class="newsbodytext">Kiki Lightningsparkle, Troop Glowworm, Score: 96,080<br></span>]]></saturday_winner1_petalpickup_3>
+		<saturday_winner1_petalpickup_4><![CDATA[<span class="newsbodytext">Crystal Iceshimmer, Troop Otter, Score: 85,355<br></span>]]></saturday_winner1_petalpickup_4>
+		<saturday_winner1_petalpickup_5><![CDATA[<span class="newsbodytext">Clover Elmlace, Troop Butterfly, Score: 70,225<br></span>]]></saturday_winner1_petalpickup_5>
+		<saturday_winner1_petalpickup_6><![CDATA[<span class="newsbodytext">Lightningglimmer, Troop Otter, Score: 64,790<br></span>]]></saturday_winner1_petalpickup_6>
+		<saturday_winner1_petalpickup_7><![CDATA[<span class="newsbodytext">Amethyst Islandtwinkle, Troop Butterfly, Score: 60,275<br></span>]]></saturday_winner1_petalpickup_7>
+		<saturday_winner1_petalpickup_8><![CDATA[<span class="newsbodytext">Joy Waterspirit, Troop Otter, Score: 56,835<br></span>]]></saturday_winner1_petalpickup_8>
+		<saturday_winner1_petalpickup_9><![CDATA[<span class="newsbodytext">Silklashes, Troop Butterfly, Score: 56,115<br></span>]]></saturday_winner1_petalpickup_9>
+		<saturday_winner1_petalpickup_10><![CDATA[<span class="newsbodytext">Carrie Twinkledust, Troop Glowworm, Score: 51,935<br></span>]]></saturday_winner1_petalpickup_10>
+		
+
+		<saturdaygame1_link_seedsorter><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Seed Sorter</a></ul></li></span>]]></saturdaygame1_link_seedsorter>
+		
+		<saturday_winner1_seedsorter_1><![CDATA[<span class="newsbodytext">Lynn Beautywish, Troop Butterfly, Score: 167,440<br></span>]]></saturday_winner1_seedsorter_1>
+		<saturday_winner1_seedsorter_2><![CDATA[<span class="newsbodytext">Firedew, Troop Otter, Score: 167,440<br></span>]]></saturday_winner1_seedsorter_2>
+		<saturday_winner1_seedsorter_3><![CDATA[<span class="newsbodytext">Ali Sunsparkle, Troop Glowworm, Score: 167,440<br></span>]]></saturday_winner1_seedsorter_3>
+		<saturday_winner1_seedsorter_4><![CDATA[<span class="newsbodytext">Mudpie, Troop Rabbit, Score: 167,440<br></span>]]></saturday_winner1_seedsorter_4>
+		<saturday_winner1_seedsorter_5><![CDATA[<span class="newsbodytext">Jellyspirit, Troop Glowworm, Score: 167,4400<br></span>]]></saturday_winner1_seedsorter_5>
+		<saturday_winner1_seedsorter_6><![CDATA[<span class="newsbodytext">Lucia Brightmuse, Troop Otter, Score: 167,440<br></span>]]></saturday_winner1_seedsorter_6>
+		<saturday_winner1_seedsorter_7><![CDATA[<span class="newsbodytext">Misty Rainbowglimmer, Troop Otter, Score: 165,980<br></span>]]></saturday_winner1_seedsorter_7>
+		<saturday_winner1_seedsorter_8><![CDATA[<span class="newsbodytext">Alexa Rainbowtwinkle, Troop Rabbit, Score: 165,960<br></span>]]></saturday_winner1_seedsorter_8>
+		<saturday_winner1_seedsorter_9><![CDATA[<span class="newsbodytext">Indigo Frostflame, Troop Otter, Score: 165,960<br></span>]]></saturday_winner1_seedsorter_9>
+		<saturday_winner1_seedsorter_10><![CDATA[<span class="newsbodytext">Peanut Foxclove, Troop Rabbit, Score: 165,960<br></span>]]></saturday_winner1_seedsorter_10>
+		<saturday_winner1_seedsorter_11><![CDATA[<span class="newsbodytext">Cypress, Troop Otter, Score: 165,960<br></span>]]></saturday_winner1_seedsorter_11>
+		<saturday_winner1_seedsorter_12><![CDATA[<span class="newsbodytext">Vicki Glitterwhirl, Troop Otter, Score: 165,960<br></span>]]></saturday_winner1_seedsorter_12>
+		<saturday_winner1_seedsorter_13><![CDATA[<span class="newsbodytext">Lynn, Troop Otter, Score: 165,960<br></span>]]></saturday_winner1_seedsorter_13>
+		<saturday_winner1_seedsorter_14><![CDATA[<span class="newsbodytext">Strawberry Glitterflower, Troop Butterfly, Score: 165,960<br></span>]]></saturday_winner1_seedsorter_14>
+		<saturday_winner1_seedsorter_15><![CDATA[<span class="newsbodytext">Twilight Plummist, Troop Otter, Score: 165,960<br></span>]]></saturday_winner1_seedsorter_15>
+		<saturday_winner1_seedsorter_16><![CDATA[<span class="newsbodytext">River, Troop Turtle, Score: 165,960<br></span>]]></saturday_winner1_seedsorter_16>
+		<saturday_winner1_seedsorter_17><![CDATA[<span class="newsbodytext">Little Eveningflame, Troop Rabbit, Score: 165,960<br></span>]]></saturday_winner1_seedsorter_17>
+		<saturday_winner1_seedsorter_18><![CDATA[<span class="newsbodytext">Rose Glitterlake, Troop Otter, Score: 165,960<br></span>]]></saturday_winner1_seedsorter_18>
+		
+		<saturdaygame1_link_snowflakesweep><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Snowflake Sweep</a></ul></li></span>]]></saturdaygame1_link_snowflakesweep>
+
+<saturday_winner1_snowflakesweep_1><![CDATA[<span class='newsbodytext'>Bo, Troop Rabbit, Score: 329,169<br></span>]]></saturday_winner1_snowflakesweep_1>
+<saturday_winner1_snowflakesweep_2><![CDATA[<span class='newsbodytext'>Violet Beautytwinkle, Troop Butterfly, Score: 288,787<br></span>]]></saturday_winner1_snowflakesweep_2>
+<saturday_winner1_snowflakesweep_3><![CDATA[<span class='newsbodytext'>Lily Moonglow, Troop Rabbit, Score: 135,175<br></span>]]></saturday_winner1_snowflakesweep_3>
+<saturday_winner1_snowflakesweep_4><![CDATA[<span class='newsbodytext'>Sunshine Morningsong, Troop Glowworm, Score: 124,864<br></span>]]></saturday_winner1_snowflakesweep_4>
+<saturday_winner1_snowflakesweep_5><![CDATA[<span class='newsbodytext'>Saffron Flickerbug, Troop Glowworm, Score: 115,295<br></span>]]></saturday_winner1_snowflakesweep_5>
+<saturday_winner1_snowflakesweep_6><![CDATA[<span class='newsbodytext'>Iris Vanillabloom, Troop Butterfly, Score: 103,730<br></span>]]></saturday_winner1_snowflakesweep_6>
+<saturday_winner1_snowflakesweep_7><![CDATA[<span class='newsbodytext'>Rosa Hollysong, Troop Rabbit, Score: 96,731<br></span>]]></saturday_winner1_snowflakesweep_7>
+<saturday_winner1_snowflakesweep_8><![CDATA[<span class='newsbodytext'>Emerald Dazzlepeal, Troop Otter, Score: 91,797<br></span>]]></saturday_winner1_snowflakesweep_8>
+<saturday_winner1_snowflakesweep_9><![CDATA[<span class='newsbodytext'>Kylee Mangomuse, Troop Turtle, Score: 90,963<br></span>]]></saturday_winner1_snowflakesweep_9>
+<saturday_winner1_snowflakesweep_10><![CDATA[<span class='newsbodytext'>Prettyeye, Troop Butterfly, Score: 88,217<br></span>]]></saturday_winner1_snowflakesweep_10>
+
+		<saturdaygame1_link_snowylullaby><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Snowy Lullaby</a></ul></li></span>]]></saturdaygame1_link_snowylullaby>
+<saturday_winner1_snowylullaby_1><![CDATA[<span class='newsbodytext'>Reed, Troop Glowworm, Score: 24,5600<br></span>]]></saturday_winner1_snowylullaby_1>
+<saturday_winner1_snowylullaby_2><![CDATA[<span class='newsbodytext'>Dewdrop, Troop Otter, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_2>
+<saturday_winner1_snowylullaby_3><![CDATA[<span class='newsbodytext'>Raven Cutepetal, Troop Glowworm, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_3>
+<saturday_winner1_snowylullaby_4><![CDATA[<span class='newsbodytext'>Isabelle, Troop Otter, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_4>
+<saturday_winner1_snowylullaby_5><![CDATA[<span class='newsbodytext'>Hazel Prettywish, Troop Turtle, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_5>
+<saturday_winner1_snowylullaby_6><![CDATA[<span class='newsbodytext'>Sunflower Morningdew, Troop Rabbit, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_6>
+<saturday_winner1_snowylullaby_7><![CDATA[<span class='newsbodytext'>Margo, Troop Glowworm, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_7>
+<saturday_winner1_snowylullaby_8><![CDATA[<span class='newsbodytext'>Silver, Troop Otter, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_8>
+<saturday_winner1_snowylullaby_9><![CDATA[<span class='newsbodytext'>Labyrinth Nightwind, Troop Rabbit, Score: 24,5600<br></span>]]></saturday_winner1_snowylullaby_9>
+<saturday_winner1_snowylullaby_10><![CDATA[<span class='newsbodytext'>Ella Diamondfreeze, Troop Otter, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_10>
+<saturday_winner1_snowylullaby_11><![CDATA[<span class='newsbodytext'>Chickadee Snowdance, Troop Turtle, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_11>
+<saturday_winner1_snowylullaby_12><![CDATA[<span class='newsbodytext'>Peppermint, Troop Butterfly, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_12>
+<saturday_winner1_snowylullaby_13><![CDATA[<span class='newsbodytext'>Tori Lotusglade, Troop Rabbit, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_13>
+<saturday_winner1_snowylullaby_14><![CDATA[<span class='newsbodytext'>Kyra Daybell, Troop Turtle, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_14>
+<saturday_winner1_snowylullaby_15><![CDATA[<span class='newsbodytext'>Shanna Lemonglow, Troop Rabbit, Score: 24,5600<br></span>]]></saturday_winner1_snowylullaby_15>
+<saturday_winner1_snowylullaby_16><![CDATA[<span class='newsbodytext'>Cinnamon Spiderweb, Turtle Troop, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_16>
+<saturday_winner1_snowylullaby_17><![CDATA[<span class='newsbodytext'>Mary Bubblefly, Troop Rabbit, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_17>
+<saturday_winner1_snowylullaby_18><![CDATA[<span class='newsbodytext'>Darius Moonstone, Troop Turtle, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_18>
+<saturday_winner1_snowylullaby_19><![CDATA[<span class='newsbodytext'>Wren Ivysong, Troop Glowworm, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_19>
+<saturday_winner1_snowylullaby_20><![CDATA[<span class='newsbodytext'>Silver Froststorm, Troop Otter, Score: 24,560<br></span>]]></saturday_winner1_snowylullaby_20>
+		
+
+		<saturdaygame1_link_tinkertoss><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Tinker Toss</a></ul></li></span>]]></saturdaygame1_link_tinkertoss>
+
+<saturday_winner1_tinkertoss_1><![CDATA[<span class='newsbodytext'>Ivy Copperdust, Troop Turtle, Score: 85,920<br></span>]]></saturday_winner1_tinkertoss_1>
+<saturday_winner1_tinkertoss_2><![CDATA[<span class='newsbodytext'>Alina, Troop Otter, Score: 77,840<br></span>]]></saturday_winner1_tinkertoss_2>
+<saturday_winner1_tinkertoss_3><![CDATA[<span class='newsbodytext'>Topaz Sunbeam, Troop Glowworm, Score: 76,830<br></span>]]></saturday_winner1_tinkertoss_3>
+<saturday_winner1_tinkertoss_4><![CDATA[<span class='newsbodytext'>Icesparkle, Troop Otter, Score: 76,710<br></span>]]></saturday_winner1_tinkertoss_4>
+<saturday_winner1_tinkertoss_5><![CDATA[<span class='newsbodytext'>Pine, Troop Otter, Score: 76,660<br></span>]]></saturday_winner1_tinkertoss_5>
+<saturday_winner1_tinkertoss_6><![CDATA[<span class='newsbodytext'>Quinn, Troop Rabbit, Score: 75,460<br></span>]]></saturday_winner1_tinkertoss_6>
+<saturday_winner1_tinkertoss_7><![CDATA[<span class='newsbodytext'>Tansy Sunblossom, Troop Glowworm, Score: 74,600<br></span>]]></saturday_winner1_tinkertoss_7>
+<saturday_winner1_tinkertoss_8><![CDATA[<span class='newsbodytext'>Alec, Troop Butterfly, Score: 73,430<br></span>]]></saturday_winner1_tinkertoss_8>
+<saturday_winner1_tinkertoss_9><![CDATA[<span class='newsbodytext'>Eveningmist, Troop Rabbit, Score: 71,930<br></span>]]></saturday_winner1_tinkertoss_9>
+<saturday_winner1_tinkertoss_10><![CDATA[<span class='newsbodytext'>Dazzleglow, Troop Rabbit, Score: 71,830<br></span>]]></saturday_winner1_tinkertoss_10>
+
+
+		<saturdaygame1_link_waterweb><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Water Web</a></ul></li></span>]]></saturdaygame1_link_waterweb>
+
+<saturday_winner1_waterweb_1><![CDATA[<span class='newsbodytext'>Ginger, Troop Otter, Score: 254,000<br></span>]]></saturday_winner1_waterweb_1>
+<saturday_winner1_waterweb_2><![CDATA[<span class='newsbodytext'>Jenny Dazzlesprite, Troop Rabbit, Score: 250,000<br></span>]]></saturday_winner1_waterweb_2>
+<saturday_winner1_waterweb_3><![CDATA[<span class='newsbodytext'>Emerald Diamondwings, Troop Glowworm, Score: 249,500<br></span>]]></saturday_winner1_waterweb_3>
+<saturday_winner1_waterweb_4><![CDATA[<span class='newsbodytext'>Emerald Nightmist, Troop Rabbit, Score: 248,500<br></span>]]></saturday_winner1_waterweb_4>
+<saturday_winner1_waterweb_5><![CDATA[<span class='newsbodytext'>Raindrop, Troop Butterfly, Score: 248,100<br></span>]]></saturday_winner1_waterweb_5>
+<saturday_winner1_waterweb_6><![CDATA[<span class='newsbodytext'>Heather Cedarspeck, Troop Glowworm, Score: 247,900<br></span>]]></saturday_winner1_waterweb_6>
+<saturday_winner1_waterweb_7><![CDATA[<span class='newsbodytext'>Melanie Rainbowgarden, Troop Butterfly, Score: 247,600<br></span>]]></saturday_winner1_waterweb_7>
+<saturday_winner1_waterweb_8><![CDATA[<span class='newsbodytext'>Patchwork Magicheart, Troop Turtle, Score: 247,600<br></span>]]></saturday_winner1_waterweb_8>
+<saturday_winner1_waterweb_9><![CDATA[<span class='newsbodytext'>Trinity Firelily, Troop Butterfly, Score: 246,600<br></span>]]></saturday_winner1_waterweb_9>
+<saturday_winner1_waterweb_10><![CDATA[<span class='newsbodytext'>Dewdrop Mistyweather, Troop Otter, Score: 246,300<br></span>]]></saturday_winner1_waterweb_10>
+
+
+	<!-- Sunday -->
+
+		<sundayheader1><![CDATA[<span class="newsbodytext">Sunday, July 11th 2010</span>]]></sundayheader1>
+
+		<sundaygame1_link_bubblebounce><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Bubble Bounce</a></ul></li></span>]]></sundaygame1_link_bubblebounce>
+
+<sunday_winner1_bubblebounce_1><![CDATA[<span class='newsbodytext'>Carrie, Troop Butterfly, Score: 20,780<br></span>]]></sunday_winner1_bubblebounce_1>
+<sunday_winner1_bubblebounce_2><![CDATA[<span class='newsbodytext'>Daybreak Nightdust, Troop Rabbit, Score: 20,200<br></span>]]></sunday_winner1_bubblebounce_2>
+<sunday_winner1_bubblebounce_3><![CDATA[<span class='newsbodytext'>Shoal Nightcloud, Troop Otter, Score: 19,590<br></span>]]></sunday_winner1_bubblebounce_3>
+<sunday_winner1_bubblebounce_4><![CDATA[<span class='newsbodytext'>Misty, Troop Otter, Score: 19,380<br></span>]]></sunday_winner1_bubblebounce_4>
+<sunday_winner1_bubblebounce_5><![CDATA[<span class='newsbodytext'>Chloe Flutterspirit, Troop Turtle, Score: 19,140<br></span>]]></sunday_winner1_bubblebounce_5>
+<sunday_winner1_bubblebounce_6><![CDATA[<span class='newsbodytext'>Pluma Brightblossom, Troop Otter, Score: 19,1000<br></span>]]></sunday_winner1_bubblebounce_6>
+<sunday_winner1_bubblebounce_7><![CDATA[<span class='newsbodytext'>Rose Rainriver, Troop Rabbit, Score: 19,000<br></span>]]></sunday_winner1_bubblebounce_7>
+<sunday_winner1_bubblebounce_8><![CDATA[<span class='newsbodytext'>Rosemary Rainriver, Troop Turtle, Score: 18,840<br></span>]]></sunday_winner1_bubblebounce_8>
+<sunday_winner1_bubblebounce_9><![CDATA[<span class='newsbodytext'>Dew Foggypond, Troop Otter, Score: 18,810<br></span>]]></sunday_winner1_bubblebounce_9>
+<sunday_winner1_bubblebounce_10><![CDATA[<span class='newsbodytext'>Silver Nightmist, Troop Turtle, Score: 18,610<br></span>]]></sunday_winner1_bubblebounce_10>
+
+
+
+		<sundaygame1_link_fairyfireworks><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Fairy Fireworks</a></ul></li></span>]]></sundaygame1_link_fairyfireworks>
+<sunday_winner1_fairyfireworks_1><![CDATA[<span class='newsbodytext'>Rill Moonblossom, Troop Rabbit, Score: 147,450<br></span>]]></sunday_winner1_fairyfireworks_1>
+<sunday_winner1_fairyfireworks_2><![CDATA[<span class='newsbodytext'>Happy Moonshadow, Troop Rabbit, Score: 144,350<br></span>]]></sunday_winner1_fairyfireworks_2>
+<sunday_winner1_fairyfireworks_3><![CDATA[<span class='newsbodytext'>Autumn Thunderstorm, Troop Butterfly, Score: 115,9000<br></span>]]></sunday_winner1_fairyfireworks_3>
+<sunday_winner1_fairyfireworks_4><![CDATA[<span class='newsbodytext'>Rhodie, Troop Otter, Score: 107,850<br></span>]]></sunday_winner1_fairyfireworks_4>
+<sunday_winner1_fairyfireworks_5><![CDATA[<span class='newsbodytext'>Henry Copperbutton, Troop Tinker, Score: 105,350<br></span>]]></sunday_winner1_fairyfireworks_5>
+<sunday_winner1_fairyfireworks_6><![CDATA[<span class='newsbodytext'>Twilight Moonglow, Troop Rabbit, Score: 104,650<br></span>]]></sunday_winner1_fairyfireworks_6>
+<sunday_winner1_fairyfireworks_7><![CDATA[<span class='newsbodytext'>Honey Twinkleflower, Troop Glowworm, Score: 103,000<br></span>]]></sunday_winner1_fairyfireworks_7>
+<sunday_winner1_fairyfireworks_8><![CDATA[<span class='newsbodytext'>Charity, Troop Otter, Score: 102,300<br></span>]]></sunday_winner1_fairyfireworks_8>
+<sunday_winner1_fairyfireworks_9><![CDATA[<span class='newsbodytext'>Lila Flickermoon, Troop Rabbit, Score: 101,750<br></span>]]></sunday_winner1_fairyfireworks_9>
+<sunday_winner1_fairyfireworks_10><![CDATA[<span class='newsbodytext'>Caspar Sunlight, Troop Glowworm, Score: 100,950<br></span>]]></sunday_winner1_fairyfireworks_10>
+
+
+		<sundaygame1_link_fireflylightup><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Firefly Light-Up</a></ul></li></span>]]></sundaygame1_link_fireflylightup>
+
+<sunday_winner1_fireflylightup_1><![CDATA[<span class='newsbodytext'>Buttercup, Troop Glowworm, Score: 71,520<br></span>]]></sunday_winner1_fireflylightup_1>
+<sunday_winner1_fireflylightup_2><![CDATA[<span class='newsbodytext'>Kyra Flutterstream, Troop Otter, Score: 71,090<br></span>]]></sunday_winner1_fireflylightup_2>
+<sunday_winner1_fireflylightup_3><![CDATA[<span class='newsbodytext'>Sarah Broomloop, Troop Rabbit, Score: 68,0055<br></span>]]></sunday_winner1_fireflylightup_3>
+<sunday_winner1_fireflylightup_4><![CDATA[<span class='newsbodytext'>Amethyst Purplestone, Troop Butterfly, Score: 65,755<br></span>]]></sunday_winner1_fireflylightup_4>
+<sunday_winner1_fireflylightup_5><![CDATA[<span class='newsbodytext'>Charlotte Mistygrace, Troop Rabbit, Score: 65,4450<br></span>]]></sunday_winner1_fireflylightup_5>
+<sunday_winner1_fireflylightup_6><![CDATA[<span class='newsbodytext'>Sapphire Diamondsplash, Troop Rabbit, Score: 64,595<br></span>]]></sunday_winner1_fireflylightup_6>
+<sunday_winner1_fireflylightup_7><![CDATA[<span class='newsbodytext'>Lily, Troop Glowworm, Score: 63,170<br></span>]]></sunday_winner1_fireflylightup_7>
+<sunday_winner1_fireflylightup_8><![CDATA[<span class='newsbodytext'>Waterripple, Troop Otter, Score: 62,810<br></span>]]></sunday_winner1_fireflylightup_8>
+<sunday_winner1_fireflylightup_9><![CDATA[<span class='newsbodytext'>Hope Twinklesong, Troop Rabbit, Score: 62,760<br></span>]]></sunday_winner1_fireflylightup_9>
+<sunday_winner1_fireflylightup_10><![CDATA[<span class='newsbodytext'>Kernel Dashpin, Troop Butterfly, Score: 62,535<br></span>]]></sunday_winner1_fireflylightup_10>
+		
+
+		<sundaygame1_link_firstflight><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">First Flight</a></ul></li></span>]]></sundaygame1_link_firstflight>
+
+<sunday_winner1_firstflight_1><![CDATA[<span class='newsbodytext'>Zephyr, Troop Turtle, Score: 138,950<br></span>]]></sunday_winner1_firstflight_1>
+<sunday_winner1_firstflight_2><![CDATA[<span class='newsbodytext'>Cricket, Troop Otter, Score: 134,200<br></span>]]></sunday_winner1_firstflight_2>
+<sunday_winner1_firstflight_3><![CDATA[<span class='newsbodytext'>Liri, Troop Rabbit, Score: 127,050<br></span>]]></sunday_winner1_firstflight_3>
+<sunday_winner1_firstflight_4><![CDATA[<span class='newsbodytext'>Rosa, Troop Butterfly, Score: 122,600<br></span>]]></sunday_winner1_firstflight_4>
+<sunday_winner1_firstflight_5><![CDATA[<span class='newsbodytext'>Twilight, Troop Glowworm, Score: 121,600<br></span>]]></sunday_winner1_firstflight_5>
+<sunday_winner1_firstflight_6><![CDATA[<span class='newsbodytext'>Lilac Mossblossom, Troop Butterfly, Score: 116,800<br></span>]]></sunday_winner1_firstflight_6>
+<sunday_winner1_firstflight_7><![CDATA[<span class='newsbodytext'>Rose Rainbowcloud, Troop Butterfly, Score: 116,000<br></span>]]></sunday_winner1_firstflight_7>
+<sunday_winner1_firstflight_8><![CDATA[<span class='newsbodytext'>Stormy Nightbeam, Troop Rabbit, Score: 115,400<br></span>]]></sunday_winner1_firstflight_8>
+<sunday_winner1_firstflight_9><![CDATA[<span class='newsbodytext'>Harmony, Troop Turtle, Score: 114,950<br></span>]]></sunday_winner1_firstflight_9>
+<sunday_winner1_firstflight_10><![CDATA[<span class='newsbodytext'>Sam, Troop Turtle, Score: 105,750<br></span>]]></sunday_winner1_firstflight_10>
+
+
+
+		<sundaygame1_link_harvesthustle><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Harvest Hustle</a></ul></li></span>]]></sundaygame1_link_harvesthustle>
+
+<sunday_winner1_harvesthustle_1><![CDATA[<span class='newsbodytext'>Sugardrop, Troop Turtle, Score: 213,430<br></span>]]></sunday_winner1_harvesthustle_1>
+<sunday_winner1_harvesthustle_2><![CDATA[<span class='newsbodytext'>Thistle Nimblespark, Troop Rabbit, Score: 210,990<br></span>]]></sunday_winner1_harvesthustle_2>
+<sunday_winner1_harvesthustle_3><![CDATA[<span class='newsbodytext'>Stormy, Troop Otter,  Score: 205,290<br></span>]]></sunday_winner1_harvesthustle_3>
+<sunday_winner1_harvesthustle_4><![CDATA[<span class='newsbodytext'>Robin Stormheart, Troop Turtle, Score: 204,830<br></span>]]></sunday_winner1_harvesthustle_4>
+<sunday_winner1_harvesthustle_5><![CDATA[<span class='newsbodytext'>Chestnut Lotuswhisper, Troop Rabbit, Score: 199,820<br></span>]]></sunday_winner1_harvesthustle_5>
+<sunday_winner1_harvesthustle_6><![CDATA[<span class='newsbodytext'>Buttercup Icemoon, Troop Glowworm, Score: 197,070<br></span>]]></sunday_winner1_harvesthustle_6>
+<sunday_winner1_harvesthustle_7><![CDATA[<span class='newsbodytext'>Misty Moonshine, Troop Glowworm, Score: 195,740<br></span>]]></sunday_winner1_harvesthustle_7>
+<sunday_winner1_harvesthustle_8><![CDATA[<span class='newsbodytext'>Melody Rainsparkle, Troop Otter, Score: 195,300<br></span>]]></sunday_winner1_harvesthustle_8>
+<sunday_winner1_harvesthustle_9><![CDATA[<span class='newsbodytext'>Sienna Firemuse, Troop Glowworm, Score: 190,650<br></span>]]></sunday_winner1_harvesthustle_9>
+<sunday_winner1_harvesthustle_10><![CDATA[<span class='newsbodytext'>Sunshine Starshine, Troop Glowworm, Score: 190,620<br></span>]]></sunday_winner1_harvesthustle_10>
+
+
+		<sundaygame1_link_petalpickup><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Petal Pick-Up</a></ul></li></span>]]></sundaygame1_link_petalpickup>
+
+<sunday_winner1_petalpickup_1><![CDATA[<span class='newsbodytext'>Nightfall, Troop Glowworm, Score: 204,950<br></span>]]></sunday_winner1_petalpickup_1>
+<sunday_winner1_petalpickup_2><![CDATA[<span class='newsbodytext'>Cypress Moonshadow, Troop Otter, Score: 130,675<br></span>]]></sunday_winner1_petalpickup_2>
+<sunday_winner1_petalpickup_3><![CDATA[<span class='newsbodytext'>Stargazer, Troop Butterfly, Score: 98,490<br></span>]]></sunday_winner1_petalpickup_3>
+<sunday_winner1_petalpickup_4><![CDATA[<span class='newsbodytext'>Quinn, Troop Turtle, Score: 94,755<br></span>]]></sunday_winner1_petalpickup_4>
+<sunday_winner1_petalpickup_5><![CDATA[<span class='newsbodytext'>Dawn Peppertree, Troop Rabbit, Score: 92,300<br></span>]]></sunday_winner1_petalpickup_5>
+<sunday_winner1_petalpickup_6><![CDATA[<span class='newsbodytext'>Diamondmoon, Troop Butterfly, Score: 76,195<br></span>]]></sunday_winner1_petalpickup_6>
+<sunday_winner1_petalpickup_7><![CDATA[<span class='newsbodytext'>Flix Moonbeam, Troop Glowworm, Score: 71,320<br></span>]]></sunday_winner1_petalpickup_7>
+<sunday_winner1_petalpickup_8><![CDATA[<span class='newsbodytext'>Flora Roseblossom, Troop Butterfly, Score: 67,465<br></span>]]></sunday_winner1_petalpickup_8>
+<sunday_winner1_petalpickup_9><![CDATA[<span class='newsbodytext'>Violet Lightningpond, Troop Turtle, Score: 53,950<br></span>]]></sunday_winner1_petalpickup_9>
+<sunday_winner1_petalpickup_10><![CDATA[<span class='newsbodytext'>Banjo, Troop Glowworm, Score: 53,760<br></span>]]></sunday_winner1_petalpickup_10>
+
+		<sundaygame1_link_seedsorter><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Seed Sorter</a></ul></li></span>]]></sundaygame1_link_seedsorter>
+
+<sunday_winner1_seedsorter_1><![CDATA[<span class='newsbodytext'>Rosa Rainbowmist, Troop Butterfly, Score: 167440<br></span>]]></sunday_winner1_seedsorter_1>
+<sunday_winner1_seedsorter_2><![CDATA[<span class='newsbodytext'>Ruby, Troop Glowworm, Score: 167,440<br></span>]]></sunday_winner1_seedsorter_2>
+<sunday_winner1_seedsorter_3><![CDATA[<span class='newsbodytext'>Sapphire Waterlily, Troop Rabbit, Score: 167,440<br></span>]]></sunday_winner1_seedsorter_3>
+<sunday_winner1_seedsorter_4><![CDATA[<span class='newsbodytext'>Pistachio Greenleaf, Troop Butterfly, Score: 166,020<br></span>]]></sunday_winner1_seedsorter_4>
+<sunday_winner1_seedsorter_5><![CDATA[<span class='newsbodytext'>Arianna Candleberry, Troop Turtle, Score: 166,000<br></span>]]></sunday_winner1_seedsorter_5>
+<sunday_winner1_seedsorter_6><![CDATA[<span class='newsbodytext'>Flora Sweetheart, Troop Butterfly, Score: 165,980<br></span>]]></sunday_winner1_seedsorter_6>
+<sunday_winner1_seedsorter_7><![CDATA[<span class='newsbodytext'>Pluma Sugarsparkle, Troop Butterfly, Score: 165,960<br></span>]]></sunday_winner1_seedsorter_7>
+<sunday_winner1_seedsorter_8><![CDATA[<span class='newsbodytext'>Eve Littlesparkle, Troop Glowworm, Score: 165,960<br></span>]]></sunday_winner1_seedsorter_8>
+<sunday_winner1_seedsorter_9><![CDATA[<span class='newsbodytext'>Littlebloom, Troop Butterfly, Score: 165,960<br></span>]]></sunday_winner1_seedsorter_9>
+<sunday_winner1_seedsorter_10><![CDATA[<span class='newsbodytext'>Skyler Diamondripple, Troop Rabbit, Score: 165,960<br></span>]]></sunday_winner1_seedsorter_10>
+<sunday_winner1_seedsorter_11><![CDATA[<span class='newsbodytext'>Alexa Dazzlebloom, Troop Butterfly, Score: 165,960<br></span>]]></sunday_winner1_seedsorter_11>
+<sunday_winner1_seedsorter_12><![CDATA[<span class='newsbodytext'>Sean, Troop Rabbit, Score: 165,960<br></span>]]></sunday_winner1_seedsorter_12>
+<sunday_winner1_seedsorter_13><![CDATA[<span class='newsbodytext'>Isabelle, Troop Turtle, Score: 165,960<br></span>]]></sunday_winner1_seedsorter_13>
+<sunday_winner1_seedsorter_14><![CDATA[<span class='newsbodytext'>Ebony Foxmoon, Troop Rabbit, Score: 165,960<br></span>]]></sunday_winner1_seedsorter_14>
+<sunday_winner1_seedsorter_15><![CDATA[<span class='newsbodytext'>Chipmunk, Troop Rabbit, Score: 165,960<br></span>]]></sunday_winner1_seedsorter_15>
+<sunday_winner1_seedsorter_16><![CDATA[<span class='newsbodytext'>Melody, Troop Rabbit, Score: 165,960<br></span>]]></sunday_winner1_seedsorter_16>
+<sunday_winner1_seedsorter_17><![CDATA[<span class='newsbodytext'>Alexia Thundershadow, Troop Butterfly, Score: 165,960<br></span>]]></sunday_winner1_seedsorter_17>
+
+
+		<sundaygame1_link_snowflakesweep><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Snowflake Sweep</a></ul></li></span>]]></sundaygame1_link_snowflakesweep>
+
+<sunday_winner1_snowflakesweep_1><![CDATA[<span class='newsbodytext'>Lavender Twinklewings, Troop Butterfly, Score: 157,793<br></span>]]></sunday_winner1_snowflakesweep_1>
+<sunday_winner1_snowflakesweep_2><![CDATA[<span class='newsbodytext'>Twilight Watersprite, Troop Otter, Score: 150,055<br></span>]]></sunday_winner1_snowflakesweep_2>
+<sunday_winner1_snowflakesweep_3><![CDATA[<span class='newsbodytext'>April Rosepetal, Troop Rabbit, Score: 138,975<br></span>]]></sunday_winner1_snowflakesweep_3>
+<sunday_winner1_snowflakesweep_4><![CDATA[<span class='newsbodytext'>Orchid Lovelyheart, Troop Butterfly, Score: 118,2531<br></span>]]></sunday_winner1_snowflakesweep_4>
+<sunday_winner1_snowflakesweep_5><![CDATA[<span class='newsbodytext'>Koko Shinyblossom, Troop Otter, Score: 117,663<br></span>]]></sunday_winner1_snowflakesweep_5>
+<sunday_winner1_snowflakesweep_6><![CDATA[<span class='newsbodytext'>Sapphire Icesparkle, Troop Glowworm, Score: 103,626<br></span>]]></sunday_winner1_snowflakesweep_6>
+<sunday_winner1_snowflakesweep_7><![CDATA[<span class='newsbodytext'>Nissa Brightspring, Troop Butterfly, Score: 100,456<br></span>]]></sunday_winner1_snowflakesweep_7>
+<sunday_winner1_snowflakesweep_8><![CDATA[<span class='newsbodytext'>Cricket Gigglebug, Troop Turtle, Score: 92,073<br></span>]]></sunday_winner1_snowflakesweep_8>
+<sunday_winner1_snowflakesweep_9><![CDATA[<span class='newsbodytext'>Tangy Pollentoes, Troop Rabbit, Score: 89,077<br></span>]]></sunday_winner1_snowflakesweep_9>
+<sunday_winner1_snowflakesweep_10><![CDATA[<span class='newsbodytext'>Strawberry Dazzlefig, Troop Rabbit, Score: 85,093<br></span>]]></sunday_winner1_snowflakesweep_10>
+
+		<sundaygame1_link_snowylullaby><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Snowy Lullaby</a></ul></li></span>]]></sundaygame1_link_snowylullaby>
+
+<sunday_winner1_snowylullaby_1><![CDATA[<span class='newsbodytext'>Violet Eveningripple, Troop Butterfly, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_1>
+<sunday_winner1_snowylullaby_2><![CDATA[<span class='newsbodytext'>Crystal Moondust, Troop Otter, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_2>
+<sunday_winner1_snowylullaby_3><![CDATA[<span class='newsbodytext'>Silver Foxglow, Troop Otter, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_3>
+<sunday_winner1_snowylullaby_4><![CDATA[<span class='newsbodytext'>Diamondbloom, Troop Otter, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_4>
+<sunday_winner1_snowylullaby_5><![CDATA[<span class='newsbodytext'>Rumblestorm, Troop Otter, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_5>
+<sunday_winner1_snowylullaby_6><![CDATA[<span class='newsbodytext'>Joy Gigglebug, Troop Rabbit, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_6>
+<sunday_winner1_snowylullaby_7><![CDATA[<span class='newsbodytext'>Layla Morningvalley, Troop Butterfly, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_7>
+<sunday_winner1_snowylullaby_8><![CDATA[<span class='newsbodytext'>Sunshine, Troop Glowworm, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_8>
+<sunday_winner1_snowylullaby_9><![CDATA[<span class='newsbodytext'>Maddie Cottonfleck, Troop Turtle, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_9>
+<sunday_winner1_snowylullaby_10><![CDATA[<span class='newsbodytext'>Emily Rainbowdance, Troop Otter, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_10>
+<sunday_winner1_snowylullaby_11><![CDATA[<span class='newsbodytext'>Littlefeather, Troop Butterfly, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_11>
+<sunday_winner1_snowylullaby_12><![CDATA[<span class='newsbodytext'>Scout Mountainvalley, Troop Glowworm, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_12>
+<sunday_winner1_snowylullaby_13><![CDATA[<span class='newsbodytext'>Zak Eveningspark, Troop Glowworm, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_13>
+<sunday_winner1_snowylullaby_14><![CDATA[<span class='newsbodytext'>Alina Morningshine, Troop Butterfly, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_14>
+<sunday_winner1_snowylullaby_15><![CDATA[<span class='newsbodytext'>Frozenwish, Troop Butterfly, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_15>
+<sunday_winner1_snowylullaby_16><![CDATA[<span class='newsbodytext'>Serendipity Lovelyforest, Troop Rabbit, Score: 24,560<br></span>]]></sunday_winner1_snowylullaby_16>
+
+
+
+		<sundaygame1_link_tinkertoss><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Tinker Toss</a></ul></li></span>]]></sundaygame1_link_tinkertoss>
+
+<sunday_winner1_tinkertoss_1><![CDATA[<span class='newsbodytext'>Flint Rockdash, Troop Turtle, Score: 82,140<br></span>]]></sunday_winner1_tinkertoss_1>
+<sunday_winner1_tinkertoss_2><![CDATA[<span class='newsbodytext'>Penelope Sunstream, Troop Glowworm, Score: 78,420<br></span>]]></sunday_winner1_tinkertoss_2>
+<sunday_winner1_tinkertoss_3><![CDATA[<span class='newsbodytext'>Skyler Cloverheart, Troop Turtle, Score: 75,060<br></span>]]></sunday_winner1_tinkertoss_3>
+<sunday_winner1_tinkertoss_4><![CDATA[<span class='newsbodytext'>Almondtree, Troop Butterfly, Score: 73,110<br></span>]]></sunday_winner1_tinkertoss_4>
+<sunday_winner1_tinkertoss_5><![CDATA[<span class='newsbodytext'>Sapphire Wintervale, Troop Glowworm, Score: 72,900<br></span>]]></sunday_winner1_tinkertoss_5>
+<sunday_winner1_tinkertoss_6><![CDATA[<span class='newsbodytext'>Little Firepebbles, Troop Glowworm, Score: 72,200<br></span>]]></sunday_winner1_tinkertoss_6>
+<sunday_winner1_tinkertoss_7><![CDATA[<span class='newsbodytext'>Jacob Firefly, Troop Glowworm, Score: 72,150<br></span>]]></sunday_winner1_tinkertoss_7>
+<sunday_winner1_tinkertoss_8><![CDATA[<span class='newsbodytext'>Finn, Troop Rabbit, Score: 71,130<br></span>]]></sunday_winner1_tinkertoss_8>
+<sunday_winner1_tinkertoss_9><![CDATA[<span class='newsbodytext'>Moonshimmer, Troop Glowworm, Score: 69,760<br></span>]]></sunday_winner1_tinkertoss_9>
+<sunday_winner1_tinkertoss_10><![CDATA[<span class='newsbodytext'>Pearl Mistyvalley, Troop Turtle, Score: 68,830<br></span>]]></sunday_winner1_tinkertoss_10>
+
+		<sundaygame1_link_waterweb><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Water Web</a></ul></li></span>]]></sundaygame1_link_waterweb>
+<sunday_winner1_waterweb_1><![CDATA[<span class='newsbodytext'>Hazel Glitterlily, Troop Butterfly, Score: 254,000<br></span>]]></sunday_winner1_waterweb_1>
+<sunday_winner1_waterweb_2><![CDATA[<span class='newsbodytext'>Little Sundance, Troop Rabbit, Score: 254,000<br></span>]]></sunday_winner1_waterweb_2>
+<sunday_winner1_waterweb_3><![CDATA[<span class='newsbodytext'>Cupcake Rainshadow, Troop Rabbit, Score: 254,000<br></span>]]></sunday_winner1_waterweb_3>
+<sunday_winner1_waterweb_4><![CDATA[<span class='newsbodytext'>Winnie Mistyweather, Troop Turtle, Score: 252,700<br></span>]]></sunday_winner1_waterweb_4>
+<sunday_winner1_waterweb_5><![CDATA[<span class='newsbodytext'>Daisy Morningdew, Troop Rabbit, Score: 251,100<br></span>]]></sunday_winner1_waterweb_5>
+<sunday_winner1_waterweb_6><![CDATA[<span class='newsbodytext'>Lila, Troop Otter, Score: 250,800<br></span>]]></sunday_winner1_waterweb_6>
+<sunday_winner1_waterweb_7><![CDATA[<span class='newsbodytext'>Aria Raindrop, Troop Otter, Score: 250,800<br></span>]]></sunday_winner1_waterweb_7>
+<sunday_winner1_waterweb_8><![CDATA[<span class='newsbodytext'>Grace Rainystorm, Troop Otter, Score: 250,000<br></span>]]></sunday_winner1_waterweb_8>
+<sunday_winner1_waterweb_9><![CDATA[<span class='newsbodytext'>Violet Diamondspring, Troop Otter, Score: 248,400<br></span>]]></sunday_winner1_waterweb_9>
+<sunday_winner1_waterweb_10><![CDATA[<span class='newsbodytext'>Jellysparkle, Troop Butterfly, Score: 246,400<br></span>]]></sunday_winner1_waterweb_10>
+
+		</copy>
+</page>

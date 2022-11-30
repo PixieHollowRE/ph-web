@@ -1,0 +1,15 @@
+<data>
+	<speed>700</speed>
+	<matchMin>3</matchMin>
+	<bonusTotal>0.6</bonusTotal>
+	<matchTotal>72</matchTotal>
+	<ingredients>
+		<ingredient>MeadowGrass</ingredient>
+		<ingredient>Ivy</ingredient>
+		<ingredient>MapleLeaves</ingredient>
+		<ingredient>SunflowerSeeds</ingredient>
+		<ingredient>Acorns</ingredient>
+		<ingredient>Twigs</ingredient>
+		<ingredient>YellowGems</ingredient>
+	</ingredients>
+</data>

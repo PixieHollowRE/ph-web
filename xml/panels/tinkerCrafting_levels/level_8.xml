@@ -1,0 +1,10 @@
+<data>
+	<speed>600</speed>
+	<matchMin>3</matchMin>
+	<bonusTotal>0.33</bonusTotal>
+	<matchTotal>20</matchTotal>
+	<ingredients>
+		<ingredient>SpiderSilk</ingredient>
+		<ingredient>MapleLeaves</ingredient>
+	</ingredients>
+</data>

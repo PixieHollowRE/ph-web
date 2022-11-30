@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>Fly with you! Here in my boutique you'll find the best basics for any occasion.</response_0_0>
+		<response_0_1>Everything is handmade by me in soft natural shades, but these outfits can also be dyed!</response_0_1>		
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

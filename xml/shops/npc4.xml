@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>All the Hollow's a stage, but Fairy Tale Theater is the most flitterific stage of all!</response_0_0>
+		<response_0_1>Why not get a costume and play a part?</response_0_1>		
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

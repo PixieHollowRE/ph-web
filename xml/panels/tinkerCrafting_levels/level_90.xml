@@ -1,0 +1,14 @@
+<data>
+	<speed>700</speed>
+	<matchMin>3</matchMin>
+	<bonusTotal>0.6</bonusTotal>
+	<matchTotal>72</matchTotal>
+	<ingredients>
+		<ingredient>MeadowGrass</ingredient>
+		<ingredient>MapleLeaves</ingredient>
+		<ingredient>SpiderSilk</ingredient>
+		<ingredient>DandelionFluff</ingredient>
+		<ingredient>Twigs</ingredient>
+		<ingredient>Feathers</ingredient>
+	</ingredients>
+</data>

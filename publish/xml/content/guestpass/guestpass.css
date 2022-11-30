@@ -1,0 +1,27 @@
+a:link  {
+	text-decoration: underline;
+}
+.title {   
+	font-family: Pristina-4FRTL;
+	font-size: 47px;
+	color: #FFF000;
+	text-align: center;
+}
+.whitebodycentered {   
+	text-align: center;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.whitebodyleft {   
+	text-align: left;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.yellowbodycentered {   
+	text-align: center;
+	font-family: HelveticaRounded LT Bold 4FRTL;
+	font-size: 14px;
+	color: #FFF000;
+}

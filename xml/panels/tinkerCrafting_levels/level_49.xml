@@ -1,0 +1,13 @@
+<data>
+	<speed>550</speed>
+	<matchMin>3</matchMin>
+	<bonusTotal>0.55</bonusTotal>
+	<matchTotal>52</matchTotal>
+	<ingredients>
+		<ingredient>RosePetals</ingredient>
+		<ingredient>MeadowGrass</ingredient>
+		<ingredient>Ivy</ingredient>
+		<ingredient>DandelionFluff</ingredient>
+		<ingredient>Metal</ingredient>
+	</ingredients>
+</data>

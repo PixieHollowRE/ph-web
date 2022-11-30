@@ -1,0 +1,51 @@
+<level>
+	<mode>random</mode>
+	<bubbles>10</bubbles>
+	<goal>5</goal>
+	<lilypads>3</lilypads>
+	<modifiers>
+		<slow_rate>0.65</slow_rate>
+		<slow_time>5</slow_time>
+	</modifiers>
+	<fishes>
+		<spawn_percentage>1.0</spawn_percentage>
+		<spawn_time>5</spawn_time>
+		<group_spawn_time>5</group_spawn_time>
+		<min_group>2</min_group>
+		<max_group>2</max_group>
+		<single_chance>1</single_chance>
+		<group_chance>0</group_chance>
+		<stream_chance>0</stream_chance>
+		<stream_buffer_time>0.2</stream_buffer_time>
+		<stream_min>0</stream_min>
+		<stream_max>0</stream_max>
+		<fish id="0" asset="Fish1" jump="fishTransitionOrange" swim="fishSwimOrange" chance="0.9">
+			<max_x_speed>5</max_x_speed>
+			<min_x_speed>3</min_x_speed>
+			<max_y_speed>15</max_y_speed>
+			<min_y_speed>14</min_y_speed>
+			<gravity>0.5</gravity>
+			<score>10</score>
+		</fish>
+		<fish id="1" asset="Fish2" jump="fishTransitionYellow" swim="fishSwimYellow" chance="0.1">
+			<max_x_speed>5</max_x_speed>
+			<min_x_speed>4</min_x_speed>
+			<max_y_speed>17</max_y_speed>
+			<min_y_speed>16</min_y_speed>
+			<gravity>0.5</gravity>
+			<score>10</score>
+		</fish>
+	</fishes>
+	<power_ups>
+		<spawn_percentage>0</spawn_percentage>
+		<spawn_time>3</spawn_time>
+	</power_ups>
+	<rock>
+		 
+		<spawn_percentage>0.50</spawn_percentage>
+		<spawn_time>5</spawn_time>
+		<y_speed>-1</y_speed>
+		<x_speed>0</x_speed>
+		<gravity>0.3</gravity>
+	</rock>
+</level>

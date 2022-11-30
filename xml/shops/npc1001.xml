@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>Looking for housewares? I'm Trinket, just the Fairy you want to see!</response_0_0>
+		<response_0_1>My shop supplies Pixie Hollow with d&#233;cor and furniture for everyday use. If you need it, I've got it! Oh, and don't be afraid to try stuff out - I'm certainly not!</response_0_1>		
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

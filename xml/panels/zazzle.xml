@@ -1,0 +1,79 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/zazzle.swf</swf>
+		<swf type="code">{panelCode}/zazzle.swf</swf>
+	</swfs>
+	<copy>
+		<text1 target="login.accountLogin.upperCopy1">Welcome to</text1>
+		<text2 target="login.accountLogin.upperCopy2">Pixie Hollow Online</text2>
+		<text3 target="login.accountLogin.lowerCopy1">Already have a Fairy? Sign In!</text3>
+		<text4 target="login.accountLogin.lowerCopy2" style="html"><![CDATA[Forgot your <a href="event:forgotMemberNameLink">Member Name</a>? <a href="event:forgotPasswordLink">Password</a>?]]></text4>
+		<text5 target="login.accountLogin.lowerCopy3" style="html"><![CDATA[If you haven't created a Fairy yet, <a href="event:joinLink">join now</a>. It's Free!]]></text5>
+		<text6 target="login.accountLogin.nameField">Member Name</text6>
+		<text7 target="login.accountLogin.passField">Password</text7>
+		<text8 target="login.accountLogin.cancelBtn.caption">Cancel</text8>
+		<text9 target="login.accountLogin.loginBtn.caption">Login</text9>
+		<text10 target="login.gotoCaf.upperCopy">You need a Fairy to enter Pixie Hollow!</text10>
+		<text11 target="login.gotoCaf.copy1">Go now and</text11>
+		<text12 target="login.gotoCaf.copy2">Create a Fairy</text12>
+		<text13 target="login.gotoCaf.cancelBtn.caption">Cancel</text13>
+		<text14 target="login.gotoCaf.createBtn.caption">Create</text14>
+		<text15 target="login.fairyChoice.upperCopy">Choose a Fairy</text15>
+		<text16 target="login.fairyChoice.cancelBtn.caption">Cancel</text16>
+		<text17 target="login.fairyChoice.previewBtn.caption">Preview</text17>
+		<text18 target="login.loading.loadingscreen.loadingText">Loading</text18>
+		<text19 target="splash.title">Design a Fairy Tee!</text19>
+		<text20 target="splash.vines.coolNewItems">Cool New Items!</text20>
+		<text21 target="splash.subtitleupper">Personalize a shirt with your very own Fairy!</text21>
+		<text22 target="splash.subtitlelower">Do you have more than one Fairy? Design as many T-shirts as you like!</text22>
+		<text23 target="splash.startbutton.caption">Not Available</text23>
+		<text24 target="splash.parentaltext">Ask a grown-up for help when you're ready to complete your Fairy purchase.</text24>
+		<text25 target="previewPage.topbar.uppertextlineone">This is how your Fairy will appear on your personalized T-shirt.</text25>
+		<text26 target="previewPage.topbar.uppertextlinetwo">Would you like to make any changes to your Fairy before you start designing?</text26>		
+		<text27 target="previewPage.fairybutton.caption">Change Your Fairy</text27>
+		<text28 target="previewPage.startbutton.caption">Continue</text28>
+		<text29 target="previewPage.topbar.fairyPreviewTxt">Fairy Preview</text29>
+		
+		<fail>Sorry, something's not right.  Try back later!</fail>
+		<failconfirm>Okay</failconfirm>
+		<!--login_text>Log In</login_text>   
+		<logout_text>Log Out</logout_text>
+		<tink>Choose %22Get Started%22 to begin personalizing cool stuff featuring your Fairy.  Make sure to ask a grown-up to help you!</tink>
+		<tinkconfirm>Okay</tinkconfirm>
+		<playlabel>Select</playlabel>
+		<deletelabel>Remove</deletelabel>
+		<createlabel>Create</createlabel>
+		<belowbuttontext><![CDATA[<p align = "center">Don't have a Fairy? <a href="manager.html"><u>Create one now!</u></a></p>]]></belowbuttontext>
+		<goback>Go Back</goback>
+		<login_text>Log In</login_text>
+		<logout_text>Log Out</logout_text>
+		<tink>Great choice!  Choose %22Continue%22 to proceed to the next step.</tink>
+		<tinkconfirm>Okay</tinkconfirm>
+		<errorNotLoggedIn>You need to create a Fairy before you can start personalizing items.</errorNotLoggedIn>
+		<notLoggedInConfirm>OK</notLoggedInConfirm>
+		<title>Which Fairy would you like to play with today?</title>
+		<playlabel>Select</playlabel>
+		<deletelabel>Remove</deletelabel-->
+		<Animal>Animal</Animal>
+		<Garden>Garden</Garden>
+		<Light>Light</Light>
+		<Water>Water</Water>
+	</copy>
+	<config>
+		<sheet>css/loginformat.css</sheet>
+		<util>
+			<picture>images/zazzleimg.jpg</picture>
+			<!--
+			<home>$templates/homepage.xml</home>
+			<login_url>https://register.go.com/fairies/register/login?appRedirect=registration</login_url>
+			<logout_url>https://register.go.com/go/logout?appRedirect=http://disney.go.com/fairies</logout_url>
+			<changeoutfit>$templates/wardrobe.xml</changeoutfit>
+			<changefairylink>manager.html?useurl=zazzle_preview</changefairylink>
+			<managerlink>manager.html</managerlink>
+			<uselink>zazzle_preview</uselink>
+			<continuelink>http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1211239&langId=-1&categoryId=15044</continuelink>
+			<fairyfactor>.55</fairyfactor>
+			-->
+		</util>
+	</config>
+</panel>

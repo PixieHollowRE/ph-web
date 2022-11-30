@@ -1,0 +1,24 @@
+<data>
+	<gameTimeInSeconds>20</gameTimeInSeconds>
+	<mouseMovementScaledBy>40</mouseMovementScaledBy>
+	<flowRateInMilliSeconds>30</flowRateInMilliSeconds>
+	<bellowIncAmountInSeconds>2</bellowIncAmountInSeconds>
+	<hotSpots>
+		<hotSpot>
+			<tempMeter min="0" max="30" coldTemp="15" hotTemp="27" init="21"/>
+			<dropRateInMilliSeconds>800</dropRateInMilliSeconds>
+		</hotSpot>
+		<hotSpot>
+			<tempMeter min="0" max="30" coldTemp="10" hotTemp="18" init="14"/>
+			<dropRateInMilliSeconds>1000</dropRateInMilliSeconds>
+		</hotSpot>
+		<hotSpot>
+			<tempMeter min="0" max="30" coldTemp="15" hotTemp="23" init="19"/>
+			<dropRateInMilliSeconds>500</dropRateInMilliSeconds>
+		</hotSpot>
+		<hotSpot>
+			<tempMeter min="0" max="30" coldTemp="10" hotTemp="22" init="16"/>
+			<dropRateInMilliSeconds>1000</dropRateInMilliSeconds>
+		</hotSpot>
+	</hotSpots>
+</data>

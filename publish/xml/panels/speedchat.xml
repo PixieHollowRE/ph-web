@@ -1,0 +1,24 @@
+<panel>
+	<swfs>
+		<swf type="content">{publishPanelContent}/speedchat.swf</swf>
+		<swf type="code">{publishPanelCode}/speedchat.swf</swf>
+	</swfs>
+	<copy>
+		<ok><![CDATA[OK]]></ok>
+		<noSelection><![CDATA[Please make a selection before clicking on Submit.]]></noSelection>
+		<speedChatPlus><![CDATA[In order to confirm your chat preference, a verification has been sent to the e-mail address on record. Please follow the steps in the e-mail to complete your registration.]]></speedChatPlus>
+		<generalError><![CDATA[There was an error processing your request. Please try again later.]]></generalError>
+		<alertoktext><![CDATA[ok]]></alertoktext>
+		<speedchatalerttext><![CDATA[<ul><li>Open to all Fairies</li><li>SpeedChat uses a set list of words and phrases that Fairies select from a drop-down Menu.</li></ul>]]></speedchatalerttext>
+		<speedchatplusalerttext><![CDATA[<ul><li>Open to all Fairies, but can be turned off using Disney's Parental Controls.</li><li>SpeedChat Plus is a keyboard chat system that uses a dictionary of Fairy-friendly words.</li><li>This chat is filtered and moderated. If a Fairy types a word that is not in the dictionary, that word will not be seen by other Fairies.</li></ul>]]></speedchatplusalerttext>
+		<notLoggedIn><![CDATA[You must log in to change your preferences!]]></notLoggedIn>
+		<onSubmitDestination><![CDATA[index.html]]></onSubmitDestination>
+		</copy>
+	<config>
+		<trackingid>speedchat</trackingid>
+		<discontinue><![CDATA[AccountAttrRequest?name=chat_prompt_disable&value=true]]></discontinue>
+		<css><![CDATA[publish/xml/content/speedchat/speedchat.css]]></css>
+		<decoratorXML><![CDATA[publish/xml/content/speedchat/page.xml]]></decoratorXML>
+	</config>
+</panel>
+ 

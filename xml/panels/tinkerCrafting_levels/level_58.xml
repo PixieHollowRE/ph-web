@@ -1,0 +1,14 @@
+<data>
+	<speed>600</speed>
+	<matchMin>3</matchMin>
+	<bonusTotal>0.55</bonusTotal>
+	<matchTotal>56</matchTotal>
+	<ingredients>
+		<ingredient>Twigs</ingredient>
+		<ingredient>SpiderSilk</ingredient>
+		<ingredient>OakLeaves</ingredient>
+		<ingredient>DandelionFluff</ingredient>
+		<ingredient>BlueGems</ingredient>
+		<ingredient>Metal</ingredient>
+	</ingredients>
+</data>

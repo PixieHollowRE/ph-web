@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>Fly with you! Welcome to Daisy's Dyes!</response_0_0>
+		<response_0_1>Here you will find those gentle, subtle dye colors that soothe and comfort the Fairy spirit. Please, take your time picking out just what you need.</response_0_1>		
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

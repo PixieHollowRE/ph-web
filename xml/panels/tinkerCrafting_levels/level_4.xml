@@ -1,0 +1,12 @@
+<data>
+	<speed>350</speed>
+	<matchMin>3</matchMin>
+	<bonusTotal>0.35</bonusTotal>
+	<matchTotal>36</matchTotal>
+	<ingredients>
+		<ingredient>Twigs</ingredient>
+		<ingredient>DaisyPetals</ingredient>
+		<ingredient>DandelionFluff</ingredient>
+		<ingredient>Feathers</ingredient>
+	</ingredients>
+</data>

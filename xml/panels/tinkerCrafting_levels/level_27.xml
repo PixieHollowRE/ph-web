@@ -1,0 +1,11 @@
+<data>
+	<speed>400</speed>
+	<matchMin>3</matchMin>
+	<bonusTotal>0.35</bonusTotal>
+	<matchTotal>36</matchTotal>
+	<ingredients>
+		<ingredient>SpiderSilk</ingredient>
+		<ingredient>LilyPetals</ingredient>
+		<ingredient>DandelionFluff</ingredient>
+	</ingredients>
+</data>

@@ -1,0 +1,12 @@
+<data>
+	<copy>
+		<response_0_0>Hi there honey! Come on in and relax -- I'll help you find the perfect hairstyle!</response_0_0>
+		<response_0_1>And maybe we can gossip a bit while you're here! Tee hee!</response_0_1>
+	</copy>
+	<storyBoards>
+		<storyBoard id="response_0">
+			<line expressionId="1" >response_0_0</line>
+			<line >response_0_1</line>
+		</storyBoard>
+	</storyBoards>
+</data>

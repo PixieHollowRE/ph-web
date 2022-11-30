@@ -1,0 +1,13 @@
+<data>
+	<speed>250</speed>
+	<matchMin>3</matchMin>
+	<bonusTotal>0.5</bonusTotal>
+	<matchTotal>64</matchTotal>
+	<ingredients>
+		<ingredient>Twigs</ingredient>
+		<ingredient>Ivy</ingredient>
+		<ingredient>OakLeaves</ingredient>
+		<ingredient>DandelionFluff</ingredient>
+		<ingredient>Feathers</ingredient>
+	</ingredients>
+</data>
