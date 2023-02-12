@@ -5,7 +5,7 @@
 	<securityPolicyPort>843</securityPolicyPort>
 	<host>gameserver.pixiehollow.com</host>
 	<port>443</port>
-	<cdnPath>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/</cdnPath>
+	<cdnPath>http://localhost/web/franchise/fairies/pixie-hollow/</cdnPath>
 	<assetURL>http://a.dolimg.com/pixiehollow/game/</assetURL>
 	<webappURL>http://127.0.0.1:8013/fairies/api</webappURL>
 	<dxdAppsURL>http://apps.dxd.go.com/dxd/flashAPI</dxdAppsURL>

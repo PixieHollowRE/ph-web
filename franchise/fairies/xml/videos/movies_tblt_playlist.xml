@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="movies_tblt_playlist_files/intl.css" type="text/css"?>
+<parsererror xmlns="http://www.mozilla.org/newlayout/xml/parsererror.xml">XML Parsing Error: not well-formed
+Location: http://cdn.dolimg.com/franchise/fairies/xml/videos/movies_tblt_playlist.xml
+Line Number 12, Column 117:<sourcetext>&lt;video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e54059&amp;bitrateid=443&amp;vendorid=1639&amp;type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e54059&amp;bitrateid=437&amp;vendorid=1639&amp;type=.flv" id="first-look" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_374|tinklt_first_look_e54059" mediaformat="flv" mediarating="off"/&gt;
+--------------------------------------------------------------------------------------------------------------------^</sourcetext></parsererror>

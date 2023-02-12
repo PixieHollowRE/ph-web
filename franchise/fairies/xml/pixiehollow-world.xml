@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<landingpage>
+	<page id="pixie-hollow-world" template="com.disney.fairies.pixieCentral.PixieHollowWorld" src="swf/pixiehollowworld.swf">
+		<settings promosOff="true"/>
+		<page id="breadcrumb">
+				<nav id="pixie-hollow-world" href="pixie-hollow-world" seohref="pixie-hollow-world.html">Pixie Hollow World</nav>
+        </page>
+		<seo filename="pixie-hollow-world.html">
+			<title>Pixie Hollow | Create a Fairy and Fly | Disney Fairies</title>
+			<meta>
+				<keywords>fly a fairy, fairy game, virtual world, Disney Fairies, Fairies, Fairy, Pixie Hollow, Tinker Bell, tinkerbell, Faery, Faeries, Fairy Dust, Pixie Dust, Flash Game, Game, Girl Games, tailoring, baking, shopping, collecting, quests, talent levels, create a fairy, news, membership, parents, help, secret codes</keywords>
+				<description>Create your own Fairy and fly into the online world of Pixie Hollow.</description>
+				<facet1>Play|Shop</facet1>
+				<Play>Games|Sweepstakes|Activities</Play>
+				<Shop>Disney Products</Shop>
+				<facetC>New Classics</facetC>
+				<thumbnail>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/facebook/generic.png</thumbnail>
+			</meta>
+		</seo>
+		<title>Create a Fairy and Fly</title>
+			
+		<asset id="bg" src="img/pixiehollowworld/pixiehollowworld.dark.bg.png"/> <!--img/pixiehollowworld/pixiehollowworld_bg.jpg -->
+		<asset id="endCard" src="img/pixiehollowworld/end_card.jpg"/>
+		<asset id="bottomright_fairy" src="img/pixiehollowworld/pixiehollow.flowers.bottomright.png"/><!--img/pixiehollowworld/pixiehollow_bottomright.png -->
+		<asset id="bottomleft_fairy" src="img/pixiehollowworld/pixiehollow.flowers.bottomleft.png"/><!--img/pixiehollowworld/pixiehollow_bottomleft.png -->
+		
+		<asset id="logo" src="img/pixiehollow_logo.png"/>
+		<asset id="randomPromo" src="img/pixiehollowworld/randomPromo.png"/>
+		
+		<nav id="playbtn" target="login"><tiptext><![CDATA[Pixie Hollow World]]></tiptext></nav>
+		
+		<promo id="1" src="img/pixiehollowworld/t_pixiehollow_03.jpg" href="http://blog.pixiehollow.go.com/blog/nevernews/ " target="_self">
+			<title>News</title>
+		</promo>
+		<promo id="2" src="img/pixiehollowworld/t_pixiehollow_05.jpg" href="pixie-central">
+			<title>Pixie Central</title>
+		</promo>
+		<promo id="3" src="img/pixiehollowworld/t_pixiehollow_07_NEW.jpg" href="http://disney.go.com/fairies/pixie-hollow/closing/" target="_self">
+			<title>About Closing</title>
+		</promo>
+		<promo id="4" src="img/pixiehollowworld/t_pixiehollow_09.jpg" href="http://disney.go.com/fairies/pixie-hollow/parents/" target="_self">
+			<title>Parents</title>
+		</promo>
+		<promo id="5" src="img/pixiehollowworld/t_pixiehollow_11.jpg" href="http://disney.go.com/fairies/pixie-hollow/help/" target="_self">
+			<title>Help</title>
+		</promo>
+		
+		<page id="videos" urlindex="2" template="com.disney.fairies.videos.VideoPlayer" src="swf/videoplayer.swf">
+			<settings config="_xml/videos/pixiehollowworld_config.xml"/>
+			<asset id="vid_player" src="swf/dvas/videoplayerShell_MPF.swf"/>
+			<asset id="playlist" src="xml/videos/movies_tblt_playlist.xml"/>
+		</page>
+
+		<pageXml> 
+			<randomPromo x="245" y="605">
+				<!--<link>http://disney.go.com/fairies/pixie-hollow/membership/</link> -->
+				<link>http://blog.pixiehollow.go.com/blog/help/</link>
+			</randomPromo>
+			<tracking>
+				<!--
+				<pixel name="atlas" duration="365" src="http://view.atdmt.com/action/tgmfph_HomepageVisitor_1" />
+				<pixel name="yahoo" duration="365" src="http://ads.bluelithium.com/pixel?id=915270&t=2" />
+				<pixel name="tangible" duration="365" src="http://ads.bluelithium.com/unpixel?id=915270" />
+				<pixel name="google" duration="365" src="http://www.googleadservices.com/pagead/conversion/953934179/?label=yVYbCMWNsAMQ48LvxgM&amp;guid=ON&amp;script=0" />
+				-->
+			</tracking>
+		</pageXml>
+	</page>
+</landingpage>
