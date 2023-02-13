@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<bottompromos>
+
+	<page id="bottompromos" preload="5">
+
+		<page id="default">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/pro_fairies_meet_285x140.jpg" href="http://disney.go.com/fairies/?cmp=SYN|fai|spring|FranFairAct|Editorial||032013|meetfairies|spring|dcomM|||#/characters" target="_blank"/>
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/pro_fairies_more_285x140.jpg" href="http://disney.go.com/fairies/?cmp=SYN|fai|spring|FranFairAct|Editorial||032013|springtime|celebration|dcomM|||#/activities" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/pro_fairies_create_285x140.jpg" href="http://disney.go.com/create/apps/digitalpainter/fairies?cmp=SYN|fai|spring|FranFairAct|Editorial||032013|fairiescreate|spring|dcomM|||" target="_blank"/>
+
+			</page>
+
+		</page>
+
+		<page id="home">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/pro_fairies_meet_285x140.jpg" href="http://disney.go.com/fairies/?cmp=SYN|fai|spring|FranFairAct|Editorial||032013|meetfairies|spring|dcomM|||#/characters" target="_blank"/>
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/pro_fairies_more_285x140.jpg" href="http://disney.go.com/fairies/?cmp=SYN|fai|spring|FranFairAct|Editorial||032013|springtime|celebration|dcomM|||#/activities" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/pro_fairies_create_285x140.jpg" href="http://disney.go.com/create/apps/digitalpainter/fairies?cmp=SYN|fai|spring|FranFairAct|Editorial||032013|fairiescreate|spring|dcomM|||" target="_blank"/>
+
+			</page>
+
+		</page>
+
+		<page id="characters">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/285x140_1_vs6.jpg" href="http://transfer.go.com/cgi/transfer.dll?name=PpPHPixDol00508&SOURCE=PpPHPixDol00508&srvc=dolsubsrvc&goto=http%3A%2F%2Fdisney.go.com%2Ffairies%2Fpixie-hollow-world.html%2F%3Fsource%3DPpPHPixDol00508%26cmp%3Dfai_BAC_PH_DFW_HP_PixiePostOffice_285x140_PostOffice_Extl" target="_blank"/>
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/tinker-bell">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_tink_losttreasure.jpg" href="games/minigames/lost-treasure.html" target="popup" options="width=580,height=410,menu=false,location=true,resizable=false" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_explore_tbmovie.jpg" href="movies-tv/tinker-bell"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_hide_tink.jpg" href="videos/hide-and-tink" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/vidia">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_print_wind_wheels.jpg" href="activities/printables/wind-wheel" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_read_vidia_fairy_crown.jpg" href="disney-books/vidia-and-the-fairy-crown "/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_download_vidia_wp.jpg" href="activities/downloads/vidia-wallpaper" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/silvermist">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_pixie_puzzle.jpg" href="games/minigames/pixie-puzzle.html" target="popup" options="width=605,height=475,menu=false,location=true,resizable=false" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_print_silvermist_poster.jpg" href="http://cdn.dolimg.com/franchise/fairies/pdf/printables/DisneyFairies_Silvermist_Poster.pdf" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_play_puzzling_springs.jpg" href="http://disney.go.com/dxd/index.html?channel=153606&content=91011&contentPlayerID=GameContent&#/games/play2/&content=91011" target="_self" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/fawn">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_dragonfly_race.jpg" href="http://disney.go.com/dxd/index.html?channel=153606&content=93047&contentPlayerID=GameContent&#/games/play2/&content=93047" target="_self" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_print_fawn_facts.jpg" href="activities/printables/animal-facts"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_make_butterflies.jpg" href="activities/crafts/butterflies" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/iridessa">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_sundown.jpg" href="games/minigames/sundown.html" target="popup" options="width=994,height=710,menu=false,location=true,resizable=false" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_print_iridessa_poster.jpg" href="http://cdn.dolimg.com/franchise/fairies/pdf/printables/DisneyFairies_Iridessa_Poster.pdf" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_rainbows_end.jpg" href="videos/rainbows-end" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/rosetta">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_more_rosetta_phg.jpg" href="movies-tv/pixie-hollow-games " />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_paper_flowers.jpg" href="printables/flowers-paper"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_print_rosetta_poster.jpg" href="http://cdn.dolimg.com/franchise/fairies/pdf/printables/poster_rosetta.pdf" target="_blank"/>
+
+			</page>
+
+		</page>
+
+		<page id="characters/fairy-gary">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/fairy-mary">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/clank">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/bobble">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/terence">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_explore_tbltmovie.jpg" href="movies-tv/lost-treasure "/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/dr-griffiths">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_explore_tbgfr.jpg" href="movies-tv/great-fairy-rescue "/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/lizzy">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_explore_tbgfr.jpg" href="movies-tv/great-fairy-rescue "/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/mr-twitches">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_explore_tbgfr.jpg" href="movies-tv/great-fairy-rescue "/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/blaze">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_explore_tbltmovie.jpg" href="movies-tv/lost-treasure "/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/cheese">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/dr-owl">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/grimsley">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_explore_tbltmovie.jpg" href="movies-tv/lost-treasure "/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/leech">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_explore_tbltmovie.jpg" href="movies-tv/lost-treasure "/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/queen-clarion">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_explore_tbmovie.jpg" href="movies-tv/tinker-bell"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/minister-of-autumn">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/minister-of-winter">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/minister-of-summer">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/minister-of-spring">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/lily">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_read_lilys_peskyplant.jpg" href="books/disney-books/lilys-pesky-plant"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_read_dont_feed_tiger.jpg" href="books/disney-books/please-dont-feed-tiger-lily" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/prilla">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/rani">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_read_rani_lagoon.jpg" href="books/disney-books/rani-in-the-mermaid-lagoon"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/bess">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_read_ph_paintday.jpg" href="books/disney-books/pixie-hollow-paint-day"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/beck">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_read_beck_berrybattle.jpg" href="books/disney-books/beck-and-the-great-berry-battle" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_read_beck_beyondsea.jpg" href="books/disney-books/beck-beyond-the-sea"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_read_beck_bunny_secret.jpg" href="books/disney-books/becks-bunny-secret" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/fira">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" />
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/sweet-pea">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" />
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/marina">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" />
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/slate">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" />
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/kit">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" />
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="characters/tabby">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_make_activities.jpg" href="activities" />
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="videos">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_visit_fairies_boutique.jpg" href="http://www.disneystore.com/transfer/280559/tinker-bell-fairies/mn/1000054/?CMP=OTL-Dcom&att=fairiesfranchise_boutique" target="_self"/>
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/285x140_1_vs6.jpg" href="http://transfer.go.com/cgi/transfer.dll?name=PpPHPixDol00508&SOURCE=PpPHPixDol00508&srvc=dolsubsrvc&goto=http%3A%2F%2Fdisney.go.com%2Ffairies%2Fpixie-hollow-world.html%2F%3Fsource%3DPpPHPixDol00508%26cmp%3Dfai_BAC_PH_DFW_HP_PixiePostOffice_285x140_PostOffice_Extl" target="_blank"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_make_activities.jpg" href="activities" />
+
+			</page>
+
+		</page>
+
+		<page id="activities">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_make_activities.jpg" href="activities" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/left_watch_SOTWtrailer.jpg" href="movies-tv/secret-of-the-wings/videos"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/285x140_1_vs6.jpg" href="http://transfer.go.com/cgi/transfer.dll?name=PpPHPixDol00508&SOURCE=PpPHPixDol00508&srvc=dolsubsrvc&goto=http%3A%2F%2Fdisney.go.com%2Ffairies%2Fpixie-hollow-world.html%2F%3Fsource%3DPpPHPixDol00508%26cmp%3Dfai_BAC_PH_DFW_HP_PixiePostOffice_285x140_PostOffice_Extl" target="_blank"/>
+
+			</page>
+
+		</page>
+
+		<page id="games">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_make_activities.jpg" href="activities" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/left_print_calendar_2012.jpg" href="activities/printables/fairies-2012-calendar" />
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_hp_photo_mashup.jpg" href="http://disney.go.com/create/#/create/apps/photomashup/fairies" target="_self" />
+
+			</page>
+
+		</page>
+
+		<page id="movies-tv">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_own_tbgfr.jpg" href="http://www.disneystore.com/tinker-bell-and-the-great-fairy-rescue-2-disc-blu-ray-and-dvd/mp/1263920/1000054+1000205/?att=fairiesfranchise&CMP=OTL-DOL" target="_self" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/right_product_sotwBluRay.jpg" href="movies-tv/secret-of-the-wings" />
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/285x140_1_vs6.jpg" href="http://transfer.go.com/cgi/transfer.dll?name=PpPHPixDol00508&SOURCE=PpPHPixDol00508&srvc=dolsubsrvc&goto=http%3A%2F%2Fdisney.go.com%2Ffairies%2Fpixie-hollow-world.html%2F%3Fsource%3DPpPHPixDol00508%26cmp%3Dfai_BAC_PH_DFW_HP_PixiePostOffice_285x140_PostOffice_Extl" target="_blank"/>
+
+			</page>
+
+		</page>
+
+		<page id="movies-tv/pixie-hollow-games">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_watch_ph_games.jpg" href="movies-tv/pixie-hollow-games/videos/pixie-hollow-games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_more_tbltmovie.jpg" href="movies-tv/lost-treasure"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_play_ph_games.jpg" href="http://pixiehollow.go.com/index.html" target="_self"/>
+
+			</page>
+
+		</page>
+
+		<page id="movies-tv/great-fairy-rescue">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_read_story_book.jpg" href="journal/index.html" target="popup" options="width=1000,height=750,menu=false,location=true,resizable=false"/>
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_more_tbltmovie.jpg" href="movies-tv/lost-treasure"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_own_tbgfrds.jpg" href="products/videogames/great-fairy-rescue-nintendo-ds" />
+
+			</page>
+
+		</page>
+
+		<page id="movies-tv/lost-treasure">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_tink_losttreasure.jpg" href="games/minigames/lost-treasure.html" target="popup" options="width=580,height=410,menu=false,location=true,resizable=false"/>
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_more_tbltmovie.jpg" href="movies-tv/lost-treasure"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_own_tblt.jpg" href="products/videogames/lost-treasure-nintendo-ds" />
+
+			</page>
+
+		</page>
+
+		<page id="movies-tv/tinker-bell">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_meet_queen_clarion.jpg" href="fairies-and-friends/queen-clarion" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_more_tbltmovie.jpg" href="movies-tv/lost-treasure"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_own_tbds.jpg" href="products/videogames/tinker-bell-nintendo-ds" />
+
+			</page>
+
+		</page>
+
+		<page id="movies-tv/peter-pan">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_more_tbltmovie.jpg" href="movies-tv/lost-treasure"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="movies-tv/return-to-never-land">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_play_online_games.jpg" href="games" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_more_tbltmovie.jpg" href="movies-tv/lost-treasure"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_watch_fairies_videos.jpg" href="videos" />
+
+			</page>
+
+		</page>
+
+		<page id="books">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_print_bookmarks.jpg" href="activities/printables/book-marks" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_watch_fairies_videos.jpg" href="videos"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_make_activities.jpg" href="activities" />
+
+			</page>
+
+		</page>
+
+		<page id="parks">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_get_vpdvd.jpg" href="https://www.disneyvacations.com/dv/en_US/VacationPlanningDVD/index?sourcecode=13301&bhcp=1" target="_self" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/left_print_calendar_2012.jpg" href="activities/printables/fairies-2012-calendar" />
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_play_online_games.jpg" href="games" />
+
+			</page>
+
+		</page>
+
+		<page id="live-events">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/285x140_1_vs6.jpg" href="http://transfer.go.com/cgi/transfer.dll?name=PpPHPixDol00508&SOURCE=PpPHPixDol00508&srvc=dolsubsrvc&goto=http%3A%2F%2Fdisney.go.com%2Ffairies%2Fpixie-hollow-world.html%2F%3Fsource%3DPpPHPixDol00508%26cmp%3Dfai_BAC_PH_DFW_HP_PixiePostOffice_285x140_PostOffice_Extl" target="_blank"/>
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_visit_disney_onice.jpg" href="http://disney.go.com/disneyonice/?int_cmp=dcom_cat_LiveEvents_CTP_%201_30411" target="_self"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_print_calendar_2012.jpg" href="activities/printables/fairies-2012-calendar" />
+
+			</page>
+
+		</page>
+
+		<page id="products">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_visit_fairies_boutique.jpg" href="http://www.disneystore.com/transfer/280559/tinker-bell-fairies/mn/1000054/?CMP=OTL-Dcom&att=fairiesfranchise_boutique" target="_self"/>
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_play_createafairyandfly.jpg" href="http://pixiehollow.go.com/" target="_self"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/left_watch_SOTWtrailer.jpg" href="movies-tv/secret-of-the-wings/videos"/>
+
+			</page>
+
+		</page>
+
+		<page id="products/videogames">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_own_tbgfrds.jpg" href="http://www.disneystore.com/transfer/280559/tinker-bell-and-the-great-fairy-rescue-for-nintendo-ds/mp/1270357/1000374/?CMP=OTL-Dcom&att=FairiesFranchise" target="_self"/>
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_play_createafairyandfly.jpg" href="http://pixiehollow.go.com/" target="_self"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_own_tbds.jpg" href="http://www.disneystore.com/transfer/280559/disney-fairies-tinker-bell-game-for-nintendo-ds/mp/1234810/1000374/?CMP=OTL-Dcom&att=FairiesFranchise" target="_self"/>
+
+			</page>
+
+		</page>
+
+		<page id="products/music">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_watch_believe_musicvideo.jpg" href="videos/how-to-believe" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_play_createafairyandfly.jpg" href="http://pixiehollow.go.com/" target="_self"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_visit_fairies_boutique.jpg" href="http://www.disneystore.com/transfer/280559/tinker-bell-fairies/mn/1000054/?CMP=OTL-Dcom&att=fairiesfranchise_boutique" target="_self"/>
+
+			</page>
+
+		</page>
+
+		<page id="products/music/tinker-bell">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_watch_believe_musicvideo.jpg" href="videos/how-to-believe" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_play_createafairyandfly.jpg" href="http://pixiehollow.go.com/" target="_self"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_visit_fairies_boutique.jpg" href="http://www.disneystore.com/tinker-bell-fairies/mn/1000054/?CMP=OTL-Dcom&att=fairiesfranchise" target="_self"/>
+
+			</page>
+
+		</page>
+
+		<page id="products/music/lost-treasure">
+
+			<page id="left">
+
+				<promo id="1" src="img/bottompromos/left_watch_believe_musicvideo.jpg" href="videos/how-to-believe" />
+
+			</page>
+
+			<page id="center">
+
+				<promo id="1" src="img/bottompromos/center_play_createafairyandfly.jpg" href="http://pixiehollow.go.com/" target="_self"/>
+
+			</page>
+
+			<page id="right">
+
+				<promo id="1" src="img/bottompromos/right_visit_fairies_boutique.jpg" href="http://www.disneystore.com/tinker-bell-fairies/mn/1000054/?CMP=OTL-Dcom&att=fairiesfranchise" target="_self"/>
+
+			</page>
+
+		</page>
+
+	</page>
+
+</bottompromos>

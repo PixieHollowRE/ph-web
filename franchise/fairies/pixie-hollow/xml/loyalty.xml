@@ -8,113 +8,113 @@
 		<level tier="0">
 			<mainCopy>As a thank you for becoming a member, we have given you a wooden Member Pin!</mainCopy>
 			<termCopy></termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/rosetta.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/wood.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/rosetta.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/wood.png</badgeImage>
 			<avatarBG>1</avatarBG>
 		</level>
 		<level tier="1">
 			<mainCopy>Your wooden Member Pin now has lovely copper plating! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>3 months</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/fawn.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/bronze.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/fawn.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/bronze.png</badgeImage>
 			<avatarBG>2</avatarBG>
 		</level>
 		<level tier="2">
 			<mainCopy>Your copper Member Pin now has beautiful silver plating! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>6 months</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/iridessa.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/silver.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/iridessa.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/silver.png</badgeImage>
 			<avatarBG>3</avatarBG>
 		</level>
 		<level tier="3">
 			<mainCopy>Your silver Member Pin now has gorgeous gold plating! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>9 months</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/vidia.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/vidia.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold.png</badgeImage>
 			<avatarBG>4</avatarBG>
 		</level>
 		<level tier="4">
 			<mainCopy>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>1 year</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/silvermist.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold1.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/silvermist.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold1.png</badgeImage>
 			<avatarBG>5</avatarBG>
 		</level>
 		<level tier="5">
 			<mainCopy>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>1 year and 3 months</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/tink.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold2.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/tink.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold2.png</badgeImage>
 			<avatarBG>6</avatarBG>
 		</level>
 		<level tier="6">
 			<mainCopy>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>1 year and 6 months</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/rosetta.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold3.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/rosetta.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold3.png</badgeImage>
 			<avatarBG>1</avatarBG>
 		</level>
 		<level tier="7">
 			<mainCopy>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>1 year and 9 months</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/fawn.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold4.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/fawn.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold4.png</badgeImage>
 			<avatarBG>2</avatarBG>
 		</level>
 		<level tier="8">
 			<mainCopy>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>2 years</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/iridessa.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold5.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/iridessa.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold5.png</badgeImage>
 			<avatarBG>3</avatarBG>
 		</level>
 		<level tier="9">
 			<mainCopy>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>2 years and 3 months</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/vidia.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold6.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/vidia.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold6.png</badgeImage>
 			<avatarBG>4</avatarBG>
 		</level>
 		<level tier="10">
 			<mainCopy>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>2 years and 6 months</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/silvermist.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold7.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/silvermist.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold7.png</badgeImage>
 			<avatarBG>5</avatarBG>
 		</level>
 		<level tier="11">
 			<mainCopy>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>2 years and 9 months</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/tink.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold8.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/tink.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold8.png</badgeImage>
 			<avatarBG>6</avatarBG>
 		</level>
 		<level tier="12">
 			<mainCopy>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>3 years</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/rosetta.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold9.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/rosetta.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold9.png</badgeImage>
 			<avatarBG>1</avatarBG>
 		</level>
 		<level tier="13">
 			<mainCopy>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>3 years and 3 months</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/fawn.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold10.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/fawn.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold10.png</badgeImage>
 			<avatarBG>2</avatarBG>
 		</level>
 		<level tier="14">
 			<mainCopy>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>3 years and 6 months</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/iridessa.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold11.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/iridessa.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold11.png</badgeImage>
 			<avatarBG>3</avatarBG>
 		</level>
 		<level tier="15">
 			<mainCopy>Your Member Pin has a new jewel! We also hope you enjoy 15 extra wardrobe slots, 3 new profile backgrounds and 10 extra slots for storage items.</mainCopy>
 			<termCopy>3 years and 9 months</termCopy>
-			<avatarImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/vidia.png</avatarImage>
-			<badgeImage>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold12.png</badgeImage>
+			<avatarImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/vidia.png</avatarImage>
+			<badgeImage>http://localhost/web/franchise/fairies/pixie-hollow/img/content/mini-manager/pins/gold12.png</badgeImage>
 			<avatarBG>4</avatarBG>
 		</level>
 	</levels>

@@ -628,13 +628,8 @@ var API = function(h) {
         v.preventDefault()
     }
 
-    function n() {
-        if (location.href.indexOf("/fairies/pixie-hollow") >= 0 || location.href.indexOf("/fairies/pixie-central") >= 0) {
-            if (location.href.indexOf("closed.html") == -1) {
-                top.location.href = s.calls.closed
-            }
-        }
-    }
+    function n() {}
+
     this.getRampMsg = function() {
         return k
     };

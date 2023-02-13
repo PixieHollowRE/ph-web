@@ -35,7 +35,7 @@
 	<forgotPasswordLink><![CDATA[https://register.go.com/global/fairies/recoverPassword?affiliateName=Disney_Fairies&appRedirect=http%3A%2F%2Fpixiehollow.com]]></forgotPasswordLink>
 	<personalPageURLPrefix>http://disney.go.com/fairies/pixie-hollow/pixie-pages/#/</personalPageURLPrefix>
 	<zazzleLink><![CDATA[http://disneyshopping.go.com/disney/store/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1211239&langId=-1&categoryId=15044]]></zazzleLink>
-	<newsLink><![CDATA[http://cdn.dolimg.com/franchise/fairies/pixie-hollow/xml/pixie-postings/postings.xml]]></newsLink>
+	<newsLink><![CDATA[http://localhost/web/franchise/fairies/pixie-hollow/xml/pixie-postings/postings.xml]]></newsLink>
 	<moreNewsLink><![CDATA[http://disney.go.com/fairies]]></moreNewsLink>
 	<LinkFor404>http://home.disney.go.com/error/pagenotfound</LinkFor404>
 	<fullscreen>false</fullscreen>

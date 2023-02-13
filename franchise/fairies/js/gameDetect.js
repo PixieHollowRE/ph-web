@@ -22,7 +22,7 @@ $(document).ready(function() {
 		if(game.indexOf("/") != -1){
 			gameURL = "http://disney.go.com/fairies/games/" + game + ".html";
 		} else {
-			gameURL = "http://cdn.dolimg.com/franchise/fairies/games/" + game + "/" + game + ".html";
+			gameURL = "http://localhost/web/franchise/fairies/games/" + game + "/" + game + ".html";
 		}
 		gameOptions = gamesList[game];
 		window.open(gameURL, "popup", gameOptions);

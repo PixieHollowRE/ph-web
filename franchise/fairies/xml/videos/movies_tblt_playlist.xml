@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="movies_tblt_playlist_files/intl.css" type="text/css"?>
-<parsererror xmlns="http://www.mozilla.org/newlayout/xml/parsererror.xml">XML Parsing Error: not well-formed
-Location: http://cdn.dolimg.com/franchise/fairies/xml/videos/movies_tblt_playlist.xml
-Line Number 12, Column 117:<sourcetext>&lt;video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e54059&amp;bitrateid=443&amp;vendorid=1639&amp;type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e54059&amp;bitrateid=437&amp;vendorid=1639&amp;type=.flv" id="first-look" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_374|tinklt_first_look_e54059" mediaformat="flv" mediarating="off"/&gt;
---------------------------------------------------------------------------------------------------------------------^</sourcetext></parsererror>
+<fsp>
+<playlist>
+<channel name="" prettyName="" id="video-playlist">
+<chapter title="Special Sneak Peek!" type="multiple" description="See new scenes from Tink's all-new movie" id="sneak-peek">
+<clip local="false" adcat="" audioart="">
+<video streamurl="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" streamurl_low="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" progurl="disneydxd/xd06135_dol_tin_lost_treasure_sneak_peek_hd_post_st" progurl_low="disneydxd/xd06135_dol_tin_lost_treasure_sneak_peek_hd_post_st" id="sneak-peek" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_90|tinklt_sneak_peek_xd06135" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="'Lost Treasure' First Look" type="multiple" description="See the first six minutes of Tink's all-new movie!" id="first-look">
+<clip local="false" adcat="" audioart="">
+<video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e54059&bitrateid=443&vendorid=1639&type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e54059&bitrateid=437&vendorid=1639&type=.flv" id="first-look" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_374|tinklt_first_look_e54059" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="No Extra Pixie Dust" type="multiple" description="Fairy Gary tells Tink no extra pixie dust" id="no_pixie_dust">
+<clip local="false" adcat="" audioart="">
+<video streamurl="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" streamurl_low="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" progurl="bventertainment/xd08475_wdhe_tin_lt_fairy_gary_tells_tink_no_extra_pixie_dust_st" progurl_low="bventertainment/xd08475_wdhe_tin_lt_fairy_gary_tells_tink_no_extra_pixie_dust_st" id="no_pixie_dust" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_44|tinklt_no_extra_pixie_dust_xd08475" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="The Moonstone" type="multiple" description="Terence tells all about the moonstone" id="moonstone">
+<clip local="false" adcat="" audioart="">
+<video streamurl="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" streamurl_low="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" progurl="bventertainment/xd08474_wdhe_tin_lt_terence_tink_discuss_moonstone_st" progurl_low="bventertainment/xd08474_wdhe_tin_lt_terence_tink_discuss_moonstone_st" id="moonstone" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_24|tinklt_moonstone_xd08474" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="Grimsley and Leech" type="multiple" description="Argue over bread and bones" id="grimsley">
+<clip local="false" adcat="" audioart="">
+<video streamurl="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" streamurl_low="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" progurl="bventertainment/xd08477_wdhe_tin_lt_grimsley_leech_arguing_over_bread_bones_st" progurl_low="bventertainment/xd08477_wdhe_tin_lt_grimsley_leech_arguing_over_bread_bones_st" id="grimsley" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_44|tinklt_grimsley_leech_argue_xd08477" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="The Hall of Scepters" type="multiple" description="Tinker Bell is chosen for a great honor" id="hall_scepters">
+<clip local="false" adcat="" audioart="">
+<video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56180&bitrateid=443&vendorid=1639&type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56180&bitrateid=437&vendorid=1639&type=.flv" id="hall_scepters" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_113|tinklt_hall_of_scepters_e56180" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="Clank and Bobble" type="multiple" description="Clank's new fireworks launcher backfires" id="bobble">
+<clip local="false" adcat="" audioart="">
+<video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56184&bitrateid=443&vendorid=1639&type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56184&bitrateid=437&vendorid=1639&type=.flv" id="bobble" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_75|tinklt_clank_and_bobble_fireworks_e56184" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="Leaving Pixie Hollow" type="multiple" description="Tinker Bell says 'goodbye' to Pixie Hollow" id="leaving_ph">
+<clip local="false" adcat="" audioart="">
+<video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56186&bitrateid=443&vendorid=1639&type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56186&bitrateid=437&vendorid=1639&type=.flv" id="leaving_ph" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_81|tinklt_tink_goodbye_e56186" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="Tink Meets Blaze" type="multiple" description="Blaze comes to Tinker Bell's rescue and lights the way" id="tink_meets_blaze">
+<clip local="false" adcat="" audioart="">
+<video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56190&bitrateid=443&vendorid=1639&type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56190&bitrateid=437&vendorid=1639&type=.flv" id="tink_meets_blaze" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_68|tinklt_tink_meets_blaze_e56190" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="Tinker Bell Fashion" type="multiple" description="Check out Tink's eco-friendly autumn outfit" id="tink_fashion">
+<clip local="false" adcat="" audioart="">
+<video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e54257&bitrateid=443&vendorid=1639&type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e54257&bitrateid=437&vendorid=1639&type=.flv" id="tink_fashion" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_104|tinklt_tink_autumn_fashion_e54257" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="Blaze Gets Eaten" type="multiple" description="In this deleted scene Tinker Bell rescues Blaze" id="blaze_eaten">
+<clip local="false" adcat="" audioart="">
+<video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56198&bitrateid=443&vendorid=1639&type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56198&bitrateid=437&vendorid=1639&type=.flv" id="blaze_eaten" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_118|tinklt_tink_rescues_blaze_e56198" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="Gift of a Friend with Demi Lovato" type="multiple" description="Disney star sings her new song from the Blu-ray and DVD" id="demi-lovato">
+<clip local="false" adcat="" audioart="">
+<video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56696&bitrateid=443&vendorid=1639&type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56696&bitrateid=437&vendorid=1639&type=.flv" id="demi-lovato" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_102|tinklt_gift_of_a_friend_e56696" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="Tink and the Lost Treasure" type="multiple" description="Check out the teaser trailer for this all-new movie!" id="lost_treasure">
+<clip local="false" adcat="" audioart="">
+<video streamurl="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" streamurl_low="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" progurl="bvgames/xd05684_dos_fai_tin_lost_treasure_story_trailer_legend_st" progurl_low="bvgames/xd05684_dos_fai_tin_lost_treasure_story_trailer_legend_st" id="lost_treasure" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_87|tinklt_trailer_xd05684" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="Blazing Shadows" type="multiple" description="Blaze puts on a show in this Pixie Preview!" id="blazing-shadows">
+<clip local="false" adcat="" audioart="">
+<video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e57398&bitrateid=443&vendorid=1639&type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e57398&bitrateid=437&vendorid=1639&type=.flv" id="blazing-shadows" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_92|pixie_preview_blaze_shadows_e57398" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="Bee's-Eye" type="multiple" description="Hit the bee's-eye in the new Pixie Preview" id="bees-eye">
+<clip local="false" adcat="" audioart="">
+<video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56233&bitrateid=443&vendorid=1639&type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e56233&bitrateid=437&vendorid=1639&type=.flv" id="bees-eye" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_92|pixie_preview_bees_eye_e56233" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<!--<chapter title="Fairy Cherry Tree" type="multiple" description="Tink lends a hand in this new Pixie Preview" id="cherry-tree">
+<clip local="false" adcat="" audioart="">
+<video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e58409&bitrateid=443&vendorid=1639&type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e58409&bitrateid=437&vendorid=1639&type=.flv" id="cherry-tree" length="" start="" reportingAccount="wdgdsec" reportingAssetName="" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>-->
+<chapter title="Ominous Warning" type="multiple" description="Even trolls get spooked In this Pixie Preview" id="ominous-warning">
+<clip local="false" adcat="" audioart="">
+<video streamurl="" streamurl_low="" progurl="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e58105&bitrateid=443&vendorid=1639&type=.flv" progurl_low="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e58105&bitrateid=437&vendorid=1639&type=.flv" id="ominous-warning" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_62|pixie_preview_ominous_warning_e58105" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+<chapter title="We're Lost" type="multiple" description="Which way is home? Find out in this Pixie Preview" id="were-lost">
+<clip local="false" adcat="" audioart="">
+<video streamurl="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" streamurl_low="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" progurl="disneydxd/xd06879_dol_tin_lt_pixie_preview_were_lost_post_st" progurl_low="disneydxd/xd06879_dol_tin_lt_pixie_preview_were_lost_post_st" id="were-lost" length="" start="" reportingAccount="wdgdsec" reportingAssetName="wdhe|fai_75|pixie_preview_were_lost_xd06879" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+</channel>
+</playlist>
+</fsp>
