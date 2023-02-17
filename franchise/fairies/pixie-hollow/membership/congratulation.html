@@ -9,7 +9,7 @@
 	var PROTOCOL = (window.location.protocol && window.location.protocol == 'https:') ? 'https' : 'http';
 
 	var PATH = {
-		root:		'http://disney.go.com/fairies',
+		root:		'http://127.0.0.1/web/franchise/fairies',
 		SSLRoot:	'https://disney.go.com/fairies',
 		API:		'http://127.0.0.1:8013/fairies/api',
 		SSLAPI:		'http://127.0.0.1:8013/fairies/api',
@@ -17,7 +17,7 @@
 		goKart:		'https://register.go.com/fairies/pixiehollow',
 		blog:		'http://blog.pixiehollow.go.com/blog',
 		DXD:		PROTOCOL + '://apps.dxd.go.com/dxd/flashAPI',
-		CDN:		PROTOCOL + '://' + ((PROTOCOL == 'https') ? 's.dolimg.com' : 'cdn.dolimg.com') + '/franchise/fairies',
+		CDN:		PROTOCOL + '://' + ((PROTOCOL == 'https') ? '127.0.0.1' : '127.0.0.1') + '/web/franchise/fairies',
 		UGC:		'http://premium.disney.go.com/fairies2',
 		globalElements: '//' + ((PROTOCOL == 'https') ? 'home' : 'ahome') + '.disney.go.com/globalelements'
 	};
@@ -53,38 +53,38 @@
 		<meta name="robots" content="noindex, follow" />
 
 		<script type="text/javascript">
-		 	
-		
-			head.ready('plugin', function() {			
+
+
+			head.ready('plugin', function() {
 				$('#play-button').click(function(event) {
 					event.preventDefault();
 					fairies.trackPage('register_playnow', 'pixiehollow:website:playbutton');
 				});
-				$('#play-button').click(fairies.API.openMiniManager);	
-			
+				$('#play-button').click(fairies.API.openMiniManager);
+
 				// Cookie named 'justRegistered' created for use on DNAME
 				$.cookie('justRegistered', 'true');
-				
-				
-				// Detect the Registration Congratulations COOKIE and add Google, Yahoo and ATLAS tags			
+
+
+				// Detect the Registration Congratulations COOKIE and add Google, Yahoo and ATLAS tags
 				if ($.cookie('ph-regCongrats') == '1') {
-					
+
 					//Commission Junction lead player tracking image pixel
-					if ($.cookie('CJ-30-Day')){						
+					if ($.cookie('CJ-30-Day')){
 						(new Image()).src = 'https://www.emjcd.com/u?CID=1520128&OID=ph-' + (new Date()).getTime() + '&TYPE=351859&ITEM1=LEAD&AMT1=0&QTY1=1&CURRENCY=USD&METHOD=IMG';
 					}
-					
+
 					// Yield Manager, Advertiser 'Tangible Media',  Include user in segment 'Disney Faries Trial Confirmation Remarketing Pixel'
-					(new Image()).src = 'https://ad.yieldmanager.com/pixel?id=1550360&t=1'; 
-					
+					(new Image()).src = 'https://ad.yieldmanager.com/pixel?id=1550360&t=1';
+
 					// Atlas, 1-pixel tracking code
 					(new Image()).src = 'http://view.atdmt.com/iaction/tgmfph_TrialConfirmationPage_1';
-					 
-					// Google Code for Trial Confirmation Page Remarketing List 
+
+					// Google Code for Trial Confirmation Page Remarketing List
 					(new Image()).src = 'http://www.googleadservices.com/pagead/conversion/953934179/?label=RLJ2CK2QsAMQ48LvxgM&amp;guid=ON&amp;script=0';
-					 
+
 				}
-				
+
 			});
 		</script>
 	</head>
@@ -92,7 +92,7 @@
 		<div id="container">
 			<div id="header">
 				<noscript><div id="notification">Aw Jingles! Your browser has JavaScript disabled. Please enable JavaScript to enter Pixie Hollow.</div></noscript>
-<!-- 
+<!--
 	Not being about to defer loading of chrome sucks
 -->
 <div id="flash-proxy">
@@ -156,7 +156,7 @@
 			</form>
 		</div>
 		<div class="choose">
-			
+
 		</div>
 	</div>
 </div>
@@ -170,17 +170,17 @@
 					<p class="center">
 						<img  src="http://localhost/web/franchise/fairies/pixie-hollow/img/content/membership/congrats.jpg" width="482" height="256" alt="Congratulations Pixies" />
 					</p>
-					
+
 					<div class="congrat-buttons">
-						<a href="#" id="play-button" class="button-play"><span>Play</span></a>						
+						<a href="#" id="play-button" class="button-play"><span>Play</span></a>
 						<a href="https://disney.go.com/fairies/pixie-hollow/membership/purchase.html" class="button-orange"><span>Buy a Membership</span></a>
 						<a class="upgrade" href="http://disney.go.com/fairies/pixie-hollow/membership/">Why upgrade?</a>
-					</div>										
-				</div>				
+					</div>
+				</div>
 			</div>
 
 			<div id="footer">
-				<!-- 
+				<!--
 	Not being about to defer loading of the legal footer sucks
 -->
 <div class="legal">

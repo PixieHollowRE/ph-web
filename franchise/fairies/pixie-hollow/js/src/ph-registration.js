@@ -50,7 +50,7 @@ fairies.API.listen('whoAmI', function () {
 			DOBCookieTO				: '30',
 			linkColor				: '#ffffff',
 			trackingManagerConfig	: 'tracker.xml',
-			IPDetectPath			: 'http://tredir.go.com/capmon/GetDE',
+			IPDetectPath			: '', // http://tredir.go.com/capmon/GetDE
 			width					: '717',
 			height					: '650'
 		};

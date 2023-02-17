@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<dialogs>
+		<dialog>
+			<className>com.disney.reg.ui.dialogs.CreateAccount</className>
+			<label>CREATE_ACCOUNT</label>
+			<x>0</x>
+			<y>0</y>
+		</dialog>
+		<dialog>
+			<className>com.disney.pixiehollow.reg.dialogs.PixieHollowAccountAndChat</className>
+			<label>ACCOUNTANDCHAT</label>
+			<isLastStep>true</isLastStep>
+			<x>0</x>
+			<y>0</y>
+		</dialog>
+		<dialog>
+			<className>com.disney.reg.ui.dialogs.Login</className>
+			<label>LOGIN</label>
+			<x>138</x>
+			<y>0</y>
+		</dialog>
+	</dialogs>
+</data>
