@@ -1,0 +1,392 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<game>	
+	<ip ipName='English'>
+		<question_list>
+			<!-- GENERAL SUBJECTIVE QUESTION -->
+			<question_object questionType="subjective">
+				<question><![CDATA[What is your favorite game?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[Playing tag with my friends]]></choice>
+				<choice fairyType="Water"><![CDATA[Swimming in the pool]]></choice>
+				<choice fairyType="Animal"><![CDATA[Playing with my pet]]></choice>
+				<choice fairyType="Garden"><![CDATA[Playing in the park]]></choice>
+				<choice fairyType="Light"><![CDATA[Making sandcastles]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[What is your favorite color?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[Copper]]></choice>
+				<choice fairyType="Water"><![CDATA[Blue]]></choice>
+				<choice fairyType="Animal"><![CDATA[Green]]></choice>
+				<choice fairyType="Garden"><![CDATA[Pink]]></choice>
+				<choice fairyType="Light"><![CDATA[Yellow]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[What is your favorite flower?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[Silverbell]]></choice>
+				<choice fairyType="Water"><![CDATA[Water lily]]></choice>
+				<choice fairyType="Animal"><![CDATA[Wild Flower]]></choice>
+				<choice fairyType="Garden"><![CDATA[Red Rose]]></choice>
+				<choice fairyType="Light"><![CDATA[Sunflower]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[What is your favorite insect?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[Ladybug]]></choice>
+				<choice fairyType="Water"><![CDATA[Dragonfly]]></choice>
+				<choice fairyType="Animal"><![CDATA[Butterfly]]></choice>
+				<choice fairyType="Garden"><![CDATA[Bumble Bee]]></choice>
+				<choice fairyType="Light"><![CDATA[Firefly]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[What is your favorite place?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[My home!]]></choice>
+				<choice fairyType="Water"><![CDATA[The waterslide]]></choice>
+				<choice fairyType="Animal"><![CDATA[The zoo]]></choice>
+				<choice fairyType="Garden"><![CDATA[The public garden]]></choice>
+				<choice fairyType="Light"><![CDATA[The beach]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[What is your favorite fruit?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[Pears]]></choice>
+				<choice fairyType="Water"><![CDATA[Watermelon]]></choice>
+				<choice fairyType="Animal"><![CDATA[Apple]]></choice>
+				<choice fairyType="Garden"><![CDATA[Strawberry]]></choice>
+				<choice fairyType="Light"><![CDATA[Pineapple]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[What is your favorite season?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[All of them]]></choice>
+				<choice fairyType="Water"><![CDATA[Winter]]></choice>
+				<choice fairyType="Animal"><![CDATA[Autumn]]></choice>
+				<choice fairyType="Garden"><![CDATA[Spring]]></choice>
+				<choice fairyType="Light"><![CDATA[Summer]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[What is your favorite activity to do with your best friend?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[Fix things in my room]]></choice>
+				<choice fairyType="Water"><![CDATA[Go swimming]]></choice>
+				<choice fairyType="Animal"><![CDATA[Play games and sports]]></choice>
+				<choice fairyType="Garden"><![CDATA[Make crafts and artwork]]></choice>
+				<choice fairyType="Light"><![CDATA[Act in a made-up play]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[What activity would you like to do most during a rainy day?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[Tinker with my toys or on my computer]]></choice>
+				<choice fairyType="Water"><![CDATA[Put my rain gear on and go jump in puddles]]></choice>
+				<choice fairyType="Animal"><![CDATA[Draw animals in my scrapbook]]></choice>
+				<choice fairyType="Garden"><![CDATA[Have a slice of delicious strawberry shortcake]]></choice>
+				<choice fairyType="Light"><![CDATA[Make a shadow puppets show]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[If you were to invent something completely new, what would it be?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[A new kind of tool that would fix most anything]]></choice>
+				<choice fairyType="Water"><![CDATA[A new kind of waterslide]]></choice>
+				<choice fairyType="Animal"><![CDATA[A new breed of dog]]></choice>
+				<choice fairyType="Garden"><![CDATA[A new kind of flower]]></choice>
+				<choice fairyType="Light"><![CDATA[A new kind of color]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[If you could keep one of these in your pocket, which would you choose?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[A handy tool]]></choice>
+				<choice fairyType="Water"><![CDATA[A redheaded mermaid]]></choice>
+				<choice fairyType="Animal"><![CDATA[A spunky lion cub]]></choice>
+				<choice fairyType="Garden"><![CDATA[A beautiful rose]]></choice>
+				<choice fairyType="Light"><![CDATA[A shooting star]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[If you moved to Pixie Hollow, where would you want to live?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[In a sparkling valley]]></choice>
+				<choice fairyType="Water"><![CDATA[Close to a waterfall]]></choice>
+				<choice fairyType="Animal"><![CDATA[At the top of the highest pine tree]]></choice>
+				<choice fairyType="Garden"><![CDATA[Near a rose garden]]></choice>
+				<choice fairyType="Light"><![CDATA[Inside a sunflower]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[Which fairy are you most likely to become best friends with?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[Tinker Bell]]></choice>
+				<choice fairyType="Water"><![CDATA[Silvermist]]></choice>
+				<choice fairyType="Animal"><![CDATA[Fawn]]></choice>
+				<choice fairyType="Garden"><![CDATA[Rosetta]]></choice>
+				<choice fairyType="Light"><![CDATA[Iridessa]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[On your birthday, what present would you like best? (If you were a fairy)]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[A new tool]]></choice>
+				<choice fairyType="Water"><![CDATA[A water ring hula hoop]]></choice>
+				<choice fairyType="Animal"><![CDATA[A toy squirrel]]></choice>
+				<choice fairyType="Garden"><![CDATA[A dandelion trampoline]]></choice>
+				<choice fairyType="Light"><![CDATA[A light crystal]]></choice>
+			</question_object>
+			<question_object questionType="subjective">
+				<question><![CDATA[Which one of the following descriptions fits you best?]]></question>
+				<choice fairyType="PotsAndKettles"><![CDATA[Sassy friend forever]]></choice>
+				<choice fairyType="Water"><![CDATA[Quiet, calm, and thoughtful]]></choice>
+				<choice fairyType="Animal"><![CDATA[Energetic and caring]]></choice>
+				<choice fairyType="Garden"><![CDATA[Glamorous diva]]></choice>
+				<choice fairyType="Light"><![CDATA[Positive, upbeat, best friend forever]]></choice>
+			</question_object>
+			<!-- WATER FAIRY OBJECTIVE QUESTION -->
+			<question_object questionType="objective" image="true" fairyType="Water">
+				<question><![CDATA[I like to slide down from my home on a waterslide, who am I?]]></question>
+				<choice><![CDATA[imgRosetta]]></choice>
+				<answer><![CDATA[imgSilvermist]]></answer>
+				<choice><![CDATA[imgIridessa]]></choice>
+			</question_object>
+			<question_object questionType="objective" fairyType="Water">
+				<question><![CDATA[Which kind of fairies likes cool colors such as blue and aquamarine?]]></question>
+				<answer><![CDATA[Water Fairies]]></answer>
+				<choice><![CDATA[Garden fairies]]></choice>
+				<choice><![CDATA[Light fairies]]></choice>
+			</question_object>
+			<question_object questionType="objective" image="true" fairyType="Water">
+				<question><![CDATA[I can shape water into anything I want, who am I?]]></question>
+				<choice><![CDATA[imgFawn]]></choice>
+				<answer><![CDATA[imgSilvermist]]></answer>
+				<choice><![CDATA[imgTinkerBell]]></choice>
+			</question_object>
+			<question_object questionType="objective" image="true" fairyType="Water">
+				<question><![CDATA[I am a peace-loving calm fairy, who am I?]]></question>
+				<choice><![CDATA[imgFawn]]></choice>
+				<answer><![CDATA[imgSilvermist]]></answer>
+				<choice><![CDATA[imgFairyMary]]></choice>
+			</question_object>
+			<!-- GARDEN FAIRY OBJECTIVE QUESTION -->
+			<question_object questionType="objective" image="true" fairyType="Garden">
+				<question><![CDATA[Which one of these objects does a Garden fairy like best?]]></question>
+				<choice><![CDATA[imgSquirrel]]></choice>
+				<answer><![CDATA[imgFlower]]></answer>
+				<choice><![CDATA[imgBeehive]]></choice>
+			</question_object>
+			<question_object questionType="objective" image="true" fairyType="Garden">
+				<question><![CDATA[I like painting beautiful patterns on flowers, who am I?]]></question>
+				<answer><![CDATA[imgRosetta]]></answer>
+				<choice><![CDATA[imgTinkerBell]]></choice>
+				<choice><![CDATA[imgFawn]]></choice>
+			</question_object>
+			<question_object questionType="objective" fairyType="Garden">
+				<question><![CDATA[Which kind of fairies can tickle flowers to help them bloom?]]></question>
+				<choice><![CDATA[Pots and kettles fairies]]></choice>
+				<choice><![CDATA[Water fairies]]></choice>
+				<answer><![CDATA[Garden fairies]]></answer>
+			</question_object>
+			<question_object questionType="objective" image="true" fairyType="Garden">
+				<question><![CDATA[I love bringing beauty into the lives of others, who am I?]]></question>
+				<choice><![CDATA[imgFawn]]></choice>
+				<answer><![CDATA[imgRosetta]]></answer>
+				<choice><![CDATA[imgFairyMary]]></choice>
+			</question_object>
+			<!-- LIGHT FAIRY OBJECTIVE QUESTION -->
+			<question_object questionType="objective" image="true" fairyType="Light">
+				<question><![CDATA[Which one of these objects does a Light fairy like best?]]></question>
+				<answer><![CDATA[imgSun]]></answer>
+				<choice><![CDATA[imgPixieDustTree]]></choice>
+				<choice><![CDATA[imgWaterDrop]]></choice>
+			</question_object>
+			<question_object questionType="objective" fairyType="Light">
+				<question><![CDATA[Which kind of fairies like bright colors such as yellow and gold?]]></question>
+				<choice><![CDATA[Water fairies]]></choice>
+				<answer><![CDATA[Light fairies]]></answer>
+				<choice><![CDATA[Garden fairies]]></choice>
+			</question_object>
+			<question_object questionType="objective" fairyType="Light">
+				<question><![CDATA[Which kind of fairies don't like darkness?]]></question>
+				<choice><![CDATA[Garden fairies]]></choice>
+				<answer><![CDATA[Light fairies]]></answer>
+				<choice><![CDATA[Animal fairies]]></choice>
+			</question_object>
+			<question_object questionType="objective" image="true" fairyType="Light">
+				<question><![CDATA[I am positive, upbeat and supportive, who am I?]]></question>
+				<choice><![CDATA[imgRosetta]]></choice>
+				<answer><![CDATA[imgIridessa]]></answer>
+				<choice><![CDATA[imgFawn]]></choice>
+			</question_object>
+			<!-- ANIMAL FAIRY OBJECTIVE QUESTION -->
+			<question_object questionType="objective" image="true" fairyType="Animal">
+				<question><![CDATA[Which one of these objects does an Animal fairy like best?]]></question>
+				<answer><![CDATA[imgSquirrel]]></answer>
+				<choice><![CDATA[imgFlower]]></choice>
+				<choice><![CDATA[imgSun]]></choice>
+			</question_object>
+			<question_object questionType="objective" fairyType="Animal">
+				<question><![CDATA[Which kind of fairies like fall colors such as brown and orange?]]></question>
+				<answer><![CDATA[Animal fairies]]></answer>
+				<choice><![CDATA[Water fairies]]></choice>
+				<choice><![CDATA[Light fairies]]></choice>
+			</question_object>
+			<question_object questionType="objective" image="true" fairyType="Animal">
+				<question><![CDATA[I like to do everything at top speed, who am I?]]></question>
+				<choice><![CDATA[imgSilvermist]]></choice>
+				<answer><![CDATA[imgFawn]]></answer>
+				<choice><![CDATA[imgTinkerBell]]></choice>
+			</question_object>
+			<question_object questionType="objective" image="true" fairyType="Animal">
+				<question><![CDATA[I am an energetic, fierce, and always-in-a-hurry fairy, who am I?]]></question>
+				<choice><![CDATA[imgFairyMary]]></choice>
+				<answer><![CDATA[imgFawn]]></answer>
+				<choice><![CDATA[imgSilvermist]]></choice>
+			</question_object>
+			<!-- POTS AND KETTLES FAIRY OBJECTIVE QUESTION -->
+			<question_object questionType="objective" image="true" fairyType="PotsAndKettles">
+				<question><![CDATA[Which of these objects does a Pots and Kettles fairy like best?]]></question>
+				<choice><![CDATA[imgSquirrel]]></choice>
+				<choice><![CDATA[imgFlower]]></choice>
+				<answer><![CDATA[imgPot]]></answer>
+			</question_object>
+			<question_object questionType="objective" fairyType="PotsAndKettles">
+				<question><![CDATA[Which kind of fairies like metallic colors like gold, copper, and silver?]]></question>
+				<answer><![CDATA[Pots and Kettles fairies]]></answer>
+				<choice><![CDATA[Garden fairies]]></choice>
+				<choice><![CDATA[Animal fairies]]></choice>
+			</question_object>
+			<question_object questionType="objective" image="true" fairyType="PotsAndKettles">
+				<question><![CDATA[I like to fix everything, who am I?]]></question>
+				<choice><![CDATA[imgFawn]]></choice>
+				<answer><![CDATA[imgTinkerBell]]></answer>
+				<choice><![CDATA[imgIridessa]]></choice>
+			</question_object>
+			<question_object questionType="objective" image="true" fairyType="PotsAndKettles">
+				<question><![CDATA[I am sassy and fun and a true friend forever, who am I?]]></question>
+				<choice><![CDATA[imgFawn]]></choice>
+				<answer><![CDATA[imgTinkerBell]]></answer>
+				<choice><![CDATA[imgIridessa]]></choice>
+			</question_object>
+			
+		</question_list>
+		<feedback_list>
+			<!-- POSITIVE SUBJECTIVE FEEDBACK -->
+			<feedback answerType="positive-subjective">
+				<![CDATA[You have great taste (player’s name)!]]>
+			</feedback>
+			<feedback answerType="positive-subjective">
+				<![CDATA[That is very good to know!]]>
+			</feedback>
+			<feedback answerType="positive-subjective">
+				<![CDATA[Is that so? I am sure you will find many other fairies that share the same interests as you!]]>
+			</feedback>
+			<feedback answerType="positive-subjective">
+				<![CDATA[That is most appropriate (players name)!]]>
+			</feedback>
+			<feedback answerType="positive-subjective">
+				<![CDATA[I knew you'd choose that answer (players name)!]]>
+			</feedback>
+			<feedback answerType="positive-subjective">
+				<![CDATA[That is lovely (players name)!]]>
+			</feedback>
+			<feedback answerType="positive-subjective">
+				<![CDATA[This is a sound choice (players name)!]]>
+			</feedback>
+			<!-- POSITIVE OBJECTIVE FEEDBACK -->
+			<feedback answerType="positive-objective">
+				<![CDATA[Excellent, (player’s name)! Now on to the next question!]]>
+			</feedback>
+			<feedback answerType="positive-objective">
+				<![CDATA[Outstanding! You know more about Pixie Hollow than I thought!]]>
+			</feedback>
+			<feedback answerType="positive-objective">
+				<![CDATA[Nice job, (player’s name)! You can take our Pixie Hollow Tour to find more answers!]]>
+			</feedback>	
+			<feedback answerType="positive-objective">
+				<![CDATA[That is most accurate young Hopeful! Next question!]]>
+			</feedback>
+			<!-- NEGATIVE OBJECTIVE FEEDBACK -->
+			<feedback answerType="negative-objective">
+				<![CDATA[Not quite, young Hopeful. You can find the answer you are looking for in some of the other Games and Activities.]]>
+			</feedback>
+			<feedback answerType="negative-objective">
+				<![CDATA[You almost had it (player’s name)! You can take our Pixie Hollow Tour to find some answers!]]>
+			</feedback>
+		</feedback_list>
+		<screen_list>
+			<loading>
+				<![CDATA[Knowing yourself is part of the quest!]]>
+			</loading>
+			<title_card>
+				<title><![CDATA[Hopeful’s Quest]]></title>
+				<subtitle><![CDATA[Find out which Fairy you’re most like]]></subtitle>
+			</title_card>
+			<name_input>
+				<title><![CDATA[Sign up for Fairy Mary’s class!]]></title>
+				<block1><![CDATA[Are you already a special guest? Select your name in the list below…]]></block1>
+				<block2><![CDATA[If not, enter your name, young hopeful.]]></block2>
+				<default_name><![CDATA[If not, enter your name, young hopeful.]]></default_name>
+			</name_input>
+			<how_to_play>
+				<title><![CDATA[How to Play]]></title>
+				<block1><![CDATA[I will ask you several questions. <br />You will be offered multiple-choice answers. ]]></block1>
+				<block2><![CDATA[Pick the answer that fits you best or that you believe is right. ]]></block2>
+				<block3><![CDATA[To do so, click on the answer of your choice by using your left mouse button. ]]></block3>
+				<block4><![CDATA[To get to the next question, click on the Next button ]]></block4>
+				<block5><![CDATA[Once the quiz is over, you’ll know what type of fairy you are!]]></block5>
+				<default_name><![CDATA[If not, enter your name, young hopeful.]]></default_name>
+			</how_to_play>
+			<quiz>
+				<![CDATA[Good morning young Hopefuls!  <br /> To become a valuable member of our community, you must know what you like and dislike.  And you must know Pixie Hollow. <br/>	So today, we are taking a test! <br /> We’ll start with our special guest (player’s name).	<br /> Are you ready (player’s name)? Let’s begin!]]>
+			</quiz>
+			<win>
+				<water>
+					<title><![CDATA[Congratulations! (Player’s name)!]]></title>
+					<subtitle><![CDATA[ You are a Water Fairy!]]></subtitle>
+					<block1><![CDATA[A Water Fairy enjoys many things such as:]]></block1>
+					<block2><![CDATA[Making rain dance on clouds]]></block2>
+					<block3><![CDATA[Making rainbows with Light Fairies]]></block3>
+					<block4><![CDATA[Making magical water rings and designs in water]]></block4>
+					<meet><![CDATA[There are so many exciting things to find out about Water Fairies!  If you’d like to meet a Water Fairy, <font size="18" color="#FDFD98"><a href="">Click here to meet Silvermist.</a></font>]]></meet>
+					<biopath><![CDATA[BIO_PATH/silvermist.html]]></biopath>
+				</water>
+				<light>
+					<title><![CDATA[Congratulations! (Player’s name)!]]></title>
+					<subtitle><![CDATA[You are a Light Fairy!]]></subtitle>
+					<block1><![CDATA[A Light Fairy enjoys many things such as:]]></block1>
+					<block2><![CDATA[Making dazzling light displays]]></block2>
+					<block3><![CDATA[Making shadow puppets or light sculptures]]></block3>
+					<block4><![CDATA[Making musical instruments with light crystals]]></block4>
+					<meet><![CDATA[There are so many exciting things to find out about Light Fairies!  If you’d like to meet a Light Fairy, <font size="18" color="#FDFD98"><a href="">Click here to meet Iridessa.</a></font>]]></meet>
+					<biopath><![CDATA[BIO_PATH/iridessa.html]]></biopath>
+				</light>
+				<animal>
+					<title><![CDATA[Congratulations! (Player’s name)!]]></title>
+					<subtitle><![CDATA[You are an Animal Fairy!]]></subtitle>
+					<block1><![CDATA[An Animal Fairy enjoys many things such as:]]></block1>
+					<block2><![CDATA[Playing leapfrog with real frogs]]></block2>
+					<block3><![CDATA[Teaching animals to sing]]></block3>
+					<block4><![CDATA[Racing squirrels up treetops]]></block4>
+					<meet><![CDATA[There are so many exciting things to find out about Animal Fairies!  If you’d like to meet a Animal Fairy, <font size="18" color="#FDFD98"><a href="">Click here to meet Fawn.</a></font>]]></meet>
+					<biopath><![CDATA[BIO_PATH/fawn.html]]></biopath>
+				</animal>
+				<garden>
+					<title><![CDATA[Congratulations! (Player’s name)!]]></title>
+					<subtitle><![CDATA[You are a Garden Fairy!]]></subtitle>
+					<block1><![CDATA[A Garden Fairy enjoys many things such as:]]></block1>
+					<block2><![CDATA[Tickling flowers to make them bloom]]></block2>
+					<block3><![CDATA[Painting the spots on Lady Bugs]]></block3>
+					<block4><![CDATA[Playing Fairy Trampoline on dandelion blossoms]]></block4>
+					<meet><![CDATA[There are so many exciting things to find out about Garden Fairies!  If you’d like to meet a Garden Fairy, <font size="18" color="#FDFD98"><a href="">Click here to meet Rosetta.</a></font>]]></meet>
+					<biopath><![CDATA[BIO_PATH/rosetta.html]]></biopath>
+				</garden>
+				<potsandkettles>
+					<title><![CDATA[Congratulations! (Player’s name)!]]></title>
+					<subtitle><![CDATA[You are a Pots and Kettles Fairy!]]></subtitle>
+					<block1><![CDATA[A Pots and Kettle fairy enjoys many things such as:]]></block1>
+					<block2><![CDATA[Collecting many kinds of pots and kettles]]></block2>
+					<block3><![CDATA[Loves metallic colors]]></block3>
+					<block4><![CDATA[Fixing everything]]></block4>
+					<meet><![CDATA[There are so many exciting things to find out about Pots and Kettles Fairies!  If you’d like to meet a Pots and Kettles Fairy, <font size="18" color="#FDFD98"><a href="">Click here to meet Tinker Bell.</a></font>]]></meet>
+					<biopath><![CDATA[BIO_PATH/tinkerbell.html]]></biopath>
+				</potsandkettles>
+				<try_again><![CDATA[Now, why not try the quiz again?]]></try_again>
+			</win>
+		</screen_list>
+		<button_list>
+			<play><![CDATA[Play]]></play>
+			<howtoplay><![CDATA[How to play]]></howtoplay>
+			<quit><![CDATA[Quit]]></quit>
+			<menu><![CDATA[Menu]]></menu>
+			<print><![CDATA[Print]]></print>
+			<tryagain><![CDATA[Try again]]></tryagain>
+			<resume><![CDATA[Resume Game]]></resume>
+			<next><![CDATA[Next]]></next>
+			<back><![CDATA[Back]]></back>
+		</button_list>
+		<game_params>
+			
+		</game_params>
+	</ip>
+</game>

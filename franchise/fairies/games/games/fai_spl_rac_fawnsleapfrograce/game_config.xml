@@ -1,0 +1,35 @@
+<game_config>
+	<loader> 
+		<swf>loader.swf</swf>
+		<text><![CDATA[Loading]]></text>
+	</loader>
+	<content swf="fai_spl_rac_fawnsleapfrograce_content.swf"/>
+  <strings xml="strings/strings.xml"/>
+
+  <gameData>
+     <levels>
+      <level> <!--Level 1-->
+        <segments time="20000" count="3" height="2300"/>
+        <stars time="8000"/>
+        <ai1 min="150" max="300"/>
+        <ai2 min="260" max="400"/>
+      </level>
+      
+      <level> <!--Level 2-->
+        <segments time="20000" count="4" height="2400"/>
+        <stars time="6000"/>
+        <ai1 min="140" max="200"/>
+        <ai2 min="200" max="260"/>
+      </level>
+
+      <level>
+        <!--Level 3-->
+        <segments time="20000" count="5" height="2500"/>
+        <stars time="4000"/>
+        <ai1 min="130" max="180"/>
+        <ai2 min="160" max="200"/>
+      </level>
+
+    </levels>
+  </gameData>
+</game_config>

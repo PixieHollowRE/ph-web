@@ -1,0 +1,18 @@
+<game_config>
+	<loader> 
+		<swf>loader.swf</swf>
+		<text><![CDATA[Loading]]></text>
+	</loader>
+	<content swf="fai_spl_arc_tinksworkshopcleanup_content.swf"/>
+  <strings xml="strings/strings.xml"/>
+  <intro swf="movies/OsoComic_Intro.swf"/>
+  <outro swf="movies/OsoComic_Outro.swf"/>
+
+  <gameData>
+    <levels>
+		<level num="1" levelTime="60" needed="40" minDropDelay="850" maxDropDelay="1300" velocity="240" objectScale="70" ></level>
+		<level num="2" levelTime="60" needed="50" minDropDelay="650" maxDropDelay="1150" velocity="260" objectScale="66" ></level>
+		<level num="3" levelTime="60" needed="60" minDropDelay="550" maxDropDelay="1150" velocity="300" objectScale="50" ></level>
+	</levels>
+  </gameData>
+</game_config>

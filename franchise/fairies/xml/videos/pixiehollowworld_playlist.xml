@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fsp>
+<playlist>
+<channel name="" prettyName="" id="video-playlist">
+<chapter title="Pixie Hollow – the place for Fairy fun!" type="single" description="Take flight into the online world of Pixie Hollow" id="pixie-hollow-world-trailer">
+<clip local="false" adcat="" audioart="">
+<video streamurl="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" streamurl_low="rtmp://wdig.fcod.llnwd.net/a339/o2/disneyextreme" progurl="bvgames/hxd14219_pfai_ph-your-wings-are-waiting_hi" progurl_low="bvgames/hxd14219_pfai_ph-your-wings-are-waiting_hi" id="pixie-hollow-world-trailer" length="" start="" reportingAccount="wdgdsec" reportingAssetName="" mediaformat="flv" mediarating="off"/>
+</clip>
+</chapter>
+</channel>
+</playlist>
+</fsp>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<start>
+		<title1><![CDATA[Fawn’s Leapfrog Race]]></title1>
+		<goBtn><![CDATA[Start]]></goBtn>
+    <howToBtn><![CDATA[How To Play]]></howToBtn>
+	</start>
+  <story>
+    <title1><![CDATA[Fawn’s Leapfrog Race]]></title1>
+    <body1>
+      <![CDATA[Help Fawn and Team Animal in this messy game of Leapfrogging.  Leap the green frogs over each other as fast as you can to reach the finish line first!
+Get ready; you’re up against the ever fierce Vidia, from Team Fast-Flying and the returning champ Rumble, from Team Storm.]]></body1>
+    <playBtn><![CDATA[Play]]></playBtn>
+  </story>
+  <howto>
+    <title1><![CDATA[How To Play]]></title1>
+    <instruct1><![CDATA[Help the green Team Animal frog jump ahead by clicking on the colored spot on his back.]]></instruct1>
+    <instruct2><![CDATA[Click on the bonus star that appears when you reach the checkpoint for a Super Jump! ]]></instruct2>
+    <instruct3><![CDATA[To win the race, you must leap to the finish line first before time runs out.]]></instruct3>
+    <backBtn><![CDATA[Play]]></backBtn>
+  </howto>
+  <game>
+		<timer><![CDATA[Timer]]></timer>
+		<helpBtn><![CDATA[?]]></helpBtn>
+    <pauseBtn><![CDATA[Pause]]></pauseBtn>
+    <startLine><![CDATA[START]]></startLine>
+    <checkLine><![CDATA[CHECKPOINT]]></checkLine>
+    <finishLine><![CDATA[FINISH]]></finishLine>
+  </game>
+  <levelcomplete>
+    <title1><![CDATA[Leapfrog Race Standings]]></title1>
+    <label><![CDATA[Stage ]]></label>
+    <continueBtn><![CDATA[Continue]]></continueBtn>
+  </levelcomplete>
+  <winlose>
+    <winText1><![CDATA[Keep it up!]]></winText1>
+    <loseText1><![CDATA[Sorry.]]></loseText1>
+    <loseText2><![CDATA[You did not win the race this time.]]></loseText2>
+    <continueBtn><![CDATA[Continue]]></continueBtn>
+    <tryAgainBtn><![CDATA[Try Again]]></tryAgainBtn>
+  </winlose>
+  <gameover>
+    <body1><![CDATA[Congratulations!]]></body1>
+    <body2><![CDATA[You finished in 1st place!]]></body2>
+    <playAgainBtn><![CDATA[Play Again]]></playAgainBtn>s
+		<loadBtn><![CDATA[Load]]></loadBtn>
+    <skipBtn><![CDATA[Skip]]></skipBtn>
+  </gameover>
+	<help>
+		<body1><![CDATA[Fawn’s Leapfrog Race]]></body1>
+		<body2><![CDATA[How To Play]]></body2>
+		<helpKey><![CDATA[H]]></helpKey>
+		<helpKeyDesc><![CDATA[= help]]></helpKeyDesc>
+		<muteKeyDesc><![CDATA[= mute]]></muteKeyDesc>
+		<pauseKeyDesc><![CDATA[= pause]]></pauseKeyDesc>
+		<resumeBtn><![CDATA[Resume]]></resumeBtn>
+		<muteBtn><![CDATA[Mute]]></muteBtn>
+		<muteBtn><![CDATA[Unmute]]></muteBtn>
+	</help>
+	
+</strings>

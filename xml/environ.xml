@@ -8,7 +8,7 @@
 	<cdnPath>http://localhost/web/franchise/fairies/pixie-hollow/</cdnPath>
 	<assetURL>http://a.dolimg.com/pixiehollow/game/</assetURL>
 	<webappURL>http://127.0.0.1:8013/fairies/api</webappURL>
-	<dxdAppsURL>http://apps.dxd.go.com/dxd/flashAPI</dxdAppsURL>
+	<dxdAppsURL>http:/127.0.0.1:8013/dxd/flashAPI</dxdAppsURL>
 	<webappURLSSL>http://127.0.0.1:8013/fairies/api</webappURLSSL>
 	<enableSSL>false</enableSSL>
 	<generatedTableURL>xml/GeneratedFiles</generatedTableURL>

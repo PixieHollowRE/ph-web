@@ -1,0 +1,60 @@
+<game_config>
+	<loader> 
+		<swf>loader.swf</swf>
+		<text><![CDATA[Loading]]></text>
+	</loader>
+	<content swf="fai_spl_mem_iridessasfireflyfun_content.swf"/>
+  <strings xml="strings/strings.xml"/>
+  <intro swf="movies/OsoComic_Intro.swf"/>
+  <outro swf="movies/OsoComic_Outro.swf"/>
+
+  <gameData>
+  	<!-- bugs positions are now level-specific -->
+    <bugs>
+		<bug num="0" x="370" y="170" ></bug>
+		<bug num="1" x="329" y="68" ></bug>
+		<bug num="2" x="205" y="177" ></bug>
+		<bug num="3" x="290" y="282" ></bug>
+		<bug num="4" x="422" y="290" ></bug>
+		<bug num="5" x="517" y="215" ></bug>
+
+		<!-- unused for now -->
+		<bug num="6"  x="100" y="135" ></bug>
+		<bug num="7"  x="590" y="121" ></bug>
+		<bug num="8"  x="345" y="345" ></bug>
+		<bug num="9"  x="122" y="305" ></bug>
+		<bug num="10" x="551" y="322" ></bug>
+		<bug num="11" x="333" y="174" ></bug>
+	</bugs>
+	
+    <levels>
+		<level num="1" numNotes="5" starting="1" numBugs="4"  >
+		    <bugs>
+				<bug num="0" x="370" y="170" ></bug>
+				<bug num="2" x="470" y="245" ></bug>
+				<bug num="3" x="370" y="320" ></bug>
+				<bug num="1" x="270" y="245" ></bug>
+			</bugs>
+		</level>
+		<level num="2" numNotes="7" starting="3" numBugs="5"  >
+		    <bugs>
+				<bug num="0" x="360" y="150" ></bug>
+				<bug num="2" x="480" y="265" ></bug>
+				<bug num="4" x="450" y="380" ></bug>
+				<bug num="3" x="270" y="380" ></bug>
+				<bug num="1" x="240" y="265" ></bug>
+			</bugs>
+		</level>
+		<level num="3" numNotes="9" starting="5" numBugs="6"  >
+		    <bugs>
+				<bug num="0" x="300" y="170" ></bug>
+				<bug num="1" x="440" y="170" ></bug>
+				<bug num="3" x="540" y="270" ></bug>
+				<bug num="5" x="440" y="370" ></bug>
+				<bug num="4" x="300" y="370" ></bug>
+				<bug num="2" x="200" y="270" ></bug>
+			</bugs>
+		</level>
+	</levels>
+  </gameData>
+</game_config>
