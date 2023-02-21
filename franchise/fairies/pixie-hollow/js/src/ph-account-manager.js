@@ -31,10 +31,10 @@ fairies.API.listen('whoAmI', function () {
 	//----------------------------------------------------------
 
 	// Cancel Flow ---------------------------------------------
-	if (fairies.getQueryString().beginCancelFlow) 
+	if (fairies.getQueryString().beginCancelFlow)
 		variables.beginCancelFlow = fairies.getQueryString().beginCancelFlow;
 	//----------------------------------------------------------
-	
+
 	// Parameters ----------------------------------------------
 	var parameters = {
 		wmode				: 'transparent',

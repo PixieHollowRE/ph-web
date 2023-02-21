@@ -1,0 +1,127 @@
+<!doctype html>
+<html class="no-bg" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head>
+		<meta charset="utf-8" />
+
+		<meta property="og:image" content="http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/facebook/generic.png" />
+
+<script type="text/javascript">
+	var PROTOCOL = (window.location.protocol && window.location.protocol == 'https:') ? 'https' : 'http';
+
+	var PATH = {
+		root:       'http://127.0.0.1/web/franchise/fairies',
+		SSLRoot:	'https://disney.go.com/fairies',
+		API:		'http://127.0.0.1:8013/fairies/api',
+		SSLAPI:		'http://127.0.0.1:8013/fairies/api',
+		renderer:	PROTOCOL + '://apps.pixiehollow.go.com/fairies-render',
+		goKart:		'https://register.go.com/fairies/pixiehollow',
+		blog:		'http://blog.pixiehollow.go.com/blog',
+		DXD:		PROTOCOL + '://127.0.0.1:8013/dxd/flashAPI',
+		CDN:		PROTOCOL + '://' + ((PROTOCOL == 'https') ? '127.0.0.1' : '127.0.0.1') + '/web/franchise/fairies',
+		UGC:		'http://premium.disney.go.com/fairies2',
+		globalElements: '//' + ((PROTOCOL == 'https') ? 'home' : 'ahome') + '.disney.go.com/globalelements'
+	};
+
+	document.write('<link href="' + PATH.CDN + '/wings.ico" rel="icon" type="image/x-icon" />');
+	document.write('<link href="' + PATH.CDN + '/wings.ico" rel="shortcut icon" type="image/x-icon" />');
+
+	document.write('<link rel="stylesheet" type="text/css" href="' + PATH.CDN + '/pixie-hollow/css/combinded.css" media="screen" />');
+	document.write('<link rel="stylesheet" type="text/css" href="' + PATH.CDN + '/pixie-hollow/css/print.css" media="print" />');
+	document.write('<scr' + 'ipt type="text/javascript" src="' + PATH.CDN + '/pixie-hollow/js/head.js"></scr' + 'ipt>');
+</script>
+<script type="text/javascript">
+	head.ready('plugin', function() {
+		var flashvars = { ready: '$.flashProxy.init' };
+		var params = { menu: 'false', wmode: 'transparent', quality: 'best', scale: 'noscale', allowScriptAccess: 'always' };
+		var attributes = { };
+		swfobject.embedSWF(PATH.CDN + '/pixie-hollow/swf/proxy.swf', 'flash-proxy', '1', '1', '10', null, flashvars, params, attributes);
+	});
+
+	head.ready('dom', function() {
+		head.js({ plugin: PATH.CDN + '/pixie-hollow/js/plugin.js' }, function() {
+			window.fairies = new Fairies();
+			fairies.API = new API();
+			fairies.miniManager = new MiniManager();
+			fairies.popup = new Popup();
+		});
+	});
+</script>
+
+
+		<title>Play | Pixie Hollow | Disney Fairies</title>
+
+		<meta name="robots" content="noindex, follow" />
+
+		<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
+
+	</head>
+	<body id="template-game">
+		<div id="fb-root"></div>
+		<div id="container">
+			<div id="header">
+				<noscript><div id="notification">Aw Jingles! Your browser has JavaScript disabled. Please enable JavaScript to enter Pixie Hollow.</div></noscript>
+<div class="chrome">
+	<!--<script type="text/javascript" src="http://ahome.disney.go.com/globalelements/chrome.js"></script>-->
+</div>
+<div id="flash-proxy">
+</div>
+			</div>
+
+			<div id="content">
+				<div class="inner-content">
+					<div id="game"></div>
+				</div>
+				<script type="text/javascript">
+					function scrollToTop() {
+						window.scrollTo(0, 0);
+					}
+
+					head.ready('plugin', function() {
+						var flashvars = {
+							session: "xml/sessions/mmo.xml",
+							currentUrl: location.href,
+							htmlEnvironment: 'http://127.0.0.1/web/',
+							base: 'http://127.0.0.1/web/'
+						};
+
+						var flashparams = {
+							allowScriptAccess: 'always',
+							bgcolor: '#050C1F',
+							wmode: 'default',
+							base: 'http://127.0.0.1/web/'
+						};
+
+						var attributes = {
+							id: "pixiehollowcontent",
+							name: "pixiehollowcontent"
+						};
+
+						swfobject.embedSWF("http://127.0.0.1/web/swf/container.swf", "game", "994", "680", "10.0.0", "http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, flashparams, attributes);
+					});
+				</script>
+			</div>
+
+			<div id="footer">
+				<!--
+	Not being about to defer loading of the legal footer sucks
+-->
+<div class="legal">
+	<!--<script type="text/javascript" src="//ahome.disney.go.com/globalelements/footer.js?footerStyleBackgroundColor=000000&footerStyleBodyTextColor=363636&footerStyleLegalTextColor=363636&footerStyleTitleLineColor=363636&footerStyleBodyLineColor=363636&footerStyleFeaturedTextColor=000000&footerStyleFeaturedBackgroundColor=363636&footerDisplayMode=legalOnly"></script>-->
+</div>
+			</div>
+		</div>
+
+		<script language="javascript" src="http://aglobal.go.com/stat/dolWebAnalytics.js"></script>
+		<script language="javascript">
+			cto = new CTO();
+			cto.account = 'pixiehollow';
+			cto.category = 'dgame';
+			cto.site = 'fai';
+			cto.siteSection = 'pixiehollow:website:html';
+			cto.pageName = 'live_mmo_html';
+			cto.contentType = '';
+			cto.property = 'fai';
+			cto.track();
+		</script>
+	</body>
+</html>

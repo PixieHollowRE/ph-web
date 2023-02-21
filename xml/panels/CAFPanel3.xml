@@ -95,12 +95,12 @@
 		<scene4LastToggleLabel target="scene4MC.lasttogglelabel">Last Name</scene4LastToggleLabel>
 		<scene4RandomLabel target="scene4MC.random.caption">Pick For Me</scene4RandomLabel>
 		<scene4SaveLabel target="scene4MC.save.caption">Save this Fairy</scene4SaveLabel>
-		
+
 		<!-- Misc -->
 		<saveFail>Something is wrong. Try saving later!</saveFail>
 		<tinkTipsText1 target="tinkbutton.tinksTip1">Tink's</tinkTipsText1>
 		<tinkTipsText2 target="tinkbutton.tinksTip2">Tips</tinkTipsText2>
-		
+
 		<greetingNextConfirm>NEXT</greetingNextConfirm>
 		<greetingOKConfirm>NEXT</greetingOKConfirm>
 
@@ -113,13 +113,13 @@
 		<sceneName_talentSpeech2>Hi, sunshine! I'm Iridessa, the mentor Fairy for all the light-talents. I'm so glad you're here! So, what's your name?</sceneName_talentSpeech2>
 		<sceneName_talentSpeech3>Fly with you, raindrop! I'm Silvermist, the mentor Fairy for all the water-talents. I'm so glad you're here! What's your name?</sceneName_talentSpeech3>
 		<sceneName_talentSpeech4>Flitterific to meet you! I'm Tinker Bell, the mentor Fairy for all the tinker-talents. But you can call me Tink. I'm so glad you're here! What's your name?</sceneName_talentSpeech4>
-		
+
 		<labelFairy0>Fawn</labelFairy0>
 		<labelFairy1>Rosetta</labelFairy1>
 		<labelFairy2>Iridessa</labelFairy2>
 		<labelFairy3>Silvermist</labelFairy3>
 		<labelFairy4>Tinker Bell</labelFairy4>
-		
+
 		<skip target="skipbutton.caption">Skip this tutorial</skip>
 		<sceneMapTutorial_dialogNext>NEXT</sceneMapTutorial_dialogNext>
 		<!--<sceneMapTutorial_dialogNext2>Show Me All Games</sceneMapTutorial_dialogNext2>
@@ -129,7 +129,7 @@
 		<sceneMapTutorial_dialogNext6>NEXT</sceneMapTutorial_dialogNext6>
 		<sceneMapTutorial_dialogNext7>NEXT</sceneMapTutorial_dialogNext7>
 		<sceneMapTutorial_dialogNext8>NEXT</sceneMapTutorial_dialogNext8>-->
-		
+
 		<sceneMapTutorial_talent0Speech0>We animal-talents have a lot to do to prepare the seasons and I for one am glad to have your help!</sceneMapTutorial_talent0Speech0>
 		<sceneMapTutorial_talent0Speech1>Taking the seasons to the mainland is what we do. It's a pack of fun - summer, autumn, winter and spring. And none of them change without us.</sceneMapTutorial_talent0Speech1>
 		<sceneMapTutorial_talent0Speech2>Now comes the fun part. I'm gonna show you where to go and what to do! Start by using the compass here to open the map so you can see the whole Hollow!</sceneMapTutorial_talent0Speech2>
@@ -271,18 +271,18 @@
 		<sceneBody_defaultPlayerPosition>629,290,.58,right</sceneBody_defaultPlayerPosition>
 		<sceneTalent_defaultPlayerPosition>425,250,.58,right</sceneTalent_defaultPlayerPosition>
 		<sceneName_defaultPlayerPosition>210,290,.58,right</sceneName_defaultPlayerPosition>
-		<sceneMapTutorial_defaultPlayerPosition>580,290,.25,left</sceneMapTutorial_defaultPlayerPosition>	
+		<sceneMapTutorial_defaultPlayerPosition>580,290,.25,left</sceneMapTutorial_defaultPlayerPosition>
 
 		<sceneGender_defaultTalentPosition>2000,200,.58,left</sceneGender_defaultTalentPosition>
 		<sceneBody_defaultTalentPosition>749,190,.3,left</sceneBody_defaultTalentPosition>
 		<sceneTalent_defaultTalentPosition>649,190,.3,left</sceneTalent_defaultTalentPosition>
 		<sceneName_defaultTalentPosition>360,100,.3,left</sceneName_defaultTalentPosition>
-		<sceneMapTutorial_defaultTalentPosition>370,290,.25,right</sceneMapTutorial_defaultTalentPosition>	
+		<sceneMapTutorial_defaultTalentPosition>370,290,.25,right</sceneMapTutorial_defaultTalentPosition>
 
 		<skipLink_data>Skip This,80,65,6B5324,FFFFFF</skipLink_data>
 		<skipTutorialLink_data>SKIP THIS,80,65,FFFFFF,00CBFF</skipTutorialLink_data>
 		<failsafeTimer>20</failsafeTimer>
-		
+
 		<regionXML>xml/regions.xml</regionXML>
 		<concurrentPingTime>60000</concurrentPingTime>
 		<concurrentPingURL>/CafPingRequest</concurrentPingURL>
