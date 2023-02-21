@@ -47,13 +47,13 @@
 		<title><![CDATA[<span class="pageTitle"><p>Welcome to Clickables&#x2122;</p></span>]]></title>
 		<subTitle><![CDATA[Clickables Fun Stuff]]></subTitle>
 		<subsubTitle><![CDATA[Here are some fun things you can do!]]></subsubTitle>
-		
-		
+
+
 		<headerBody><![CDATA[Extend the Fairy fun with Clickables, toys that magically connect real world friends and unlock special treasures inside the world of Pixie Hollow.<font face="Arial" size="18" color="#FFF04C">*</font>]]></headerBody>
-		
+
 		<remark><![CDATA[<font face="Arial" size="18" color="#FFF04C">*Toys are only sold in retail stores in the USA.</sont>]]></remark>
-		
-		
+
+
 		<getStarted><![CDATA[Download Clickables Program]]></getStarted>
 		<forWindows><![CDATA[(For Windows PC only)]]></forWindows>
 		<needHelp><![CDATA[<span class="newsbodytext"><font face="Arial" size="18" color="#FFF04C"><a href="event:helpClicked"><u>Need Help?</u></a></font></span>]]></needHelp>
@@ -79,7 +79,7 @@
 		<clickBadgeList><![CDATA[clickBadgeList.xml]]></clickBadgeList>
 		<clickFAQ><![CDATA[clickFAQ.xml]]></clickFAQ>
 		<clickInvRequestURL><![CDATA[ClickInventoryRequest]]></clickInvRequestURL>
-		
+
 		<affiliate>disney_phclickables</affiliate>
 		<showAppBtn>true</showAppBtn>
 		<welcomePageURL>index.html</welcomePageURL>

@@ -3,12 +3,12 @@
 	<siteCode>US.EN.PIX</siteCode>
 	<showVersion>false</showVersion>
 	<securityPolicyPort>843</securityPolicyPort>
-	<host>gameserver.pixiehollow.com</host>
+	<host>127.0.0.1</host>
 	<port>443</port>
 	<cdnPath>http://localhost/web/franchise/fairies/pixie-hollow/</cdnPath>
 	<assetURL>http://a.dolimg.com/pixiehollow/game/</assetURL>
 	<webappURL>http://127.0.0.1:8013/fairies/api</webappURL>
-	<dxdAppsURL>http:/127.0.0.1:8013/dxd/flashAPI</dxdAppsURL>
+	<dxdAppsURL>http://127.0.0.1:8013/dxd/flashAPI</dxdAppsURL>
 	<webappURLSSL>http://127.0.0.1:8013/fairies/api</webappURLSSL>
 	<enableSSL>false</enableSSL>
 	<generatedTableURL>xml/GeneratedFiles</generatedTableURL>

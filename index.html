@@ -9,14 +9,14 @@
 	var PROTOCOL = (window.location.protocol && window.location.protocol == 'https:') ? 'https' : 'http';
 
 	var PATH = {
-		root:		'http://disney.go.com/fairies',
+		root: 'http://127.0.0.1/web/franchise/fairies',
 		SSLRoot:	'https://disney.go.com/fairies',
 		API:		'http://127.0.0.1:8013/fairies/api',
 		SSLAPI:		'http://127.0.0.1:8013/fairies/api',
 		renderer:	PROTOCOL + '://apps.pixiehollow.go.com/fairies-render',
 		goKart:		'https://register.go.com/fairies/pixiehollow',
 		blog:		'http://blog.pixiehollow.go.com/blog',
-		DXD:		PROTOCOL + '://apps.dxd.go.com/dxd/flashAPI',
+		DXD:		PROTOCOL + '://127.0.0.1:8013/dxd/flashAPI',
 		CDN:		PROTOCOL + '://' + ((PROTOCOL == 'https') ? 's.dolimg.com' : 'localhost') + '/web/franchise/fairies',
 		UGC:		'http://premium.disney.go.com/fairies2',
 		globalElements: '//' + ((PROTOCOL == 'https') ? 'home' : 'ahome') + '.disney.go.com/globalelements'
