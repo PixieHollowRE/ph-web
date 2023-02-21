@@ -9,7 +9,7 @@
 	var PROTOCOL = (window.location.protocol && window.location.protocol == 'https:') ? 'https' : 'http';
 
 	var PATH = {
-		root:		'http://disney.go.com/fairies',
+		root: 'http://127.0.0.1/web/franchise/fairies',
 		SSLRoot:	'https://disney.go.com/fairies',
 		API:		'http://127.0.0.1:8013/fairies/api',
 		SSLAPI:		'http://127.0.0.1:8013/fairies/api',
@@ -68,7 +68,7 @@ head.ready('plugin', function() {
 });
 </script>
 <noscript><div id="notification">Aw Jingles! Your browser has JavaScript disabled. Please enable JavaScript to enter Pixie Hollow.</div></noscript>
-<!-- 
+<!--
 	Not being about to defer loading of chrome sucks
 -->
 <div class="chrome">
@@ -233,7 +233,7 @@ head.ready('plugin', function() {
 			</form>
 		</div>
 		<div class="choose">
-			
+
 		</div>
 	</div>
 </div>
@@ -271,8 +271,8 @@ head.ready('plugin', function() {
 		head.ready('plugin', function() {
 			setTimeout(function() {
 				swfobject.embedSWF(
-					PATH.CDN + '/pixie-hollow/swf/powered-by-pixie.swf', 'powered-by', '300', '30', '10', 'transparent', 
-					{ pageid: 'mainnav', xml: PATH.CDN + '/pixie-hollow/xml/powered-by-footer.xml' }, 
+					PATH.CDN + '/pixie-hollow/swf/powered-by-pixie.swf', 'powered-by', '300', '30', '10', 'transparent',
+					{ pageid: 'mainnav', xml: PATH.CDN + '/pixie-hollow/xml/powered-by-footer.xml' },
 					{ menu: 'false', bgcolor: '#000000', quality: 'best', scale: 'noscale', allowScriptAccess: 'always', wmode: 'transparent' }
 				);
 			}, 2000);
