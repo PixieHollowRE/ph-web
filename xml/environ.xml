@@ -4,7 +4,7 @@
 	<showVersion>false</showVersion>
 	<securityPolicyPort>843</securityPolicyPort>
 	<host>127.0.0.1</host>
-	<port>443</port>
+	<port>8012</port>
 	<cdnPath>http://localhost/web/franchise/fairies/pixie-hollow/</cdnPath>
 	<assetURL>http://a.dolimg.com/pixiehollow/game/</assetURL>
 	<webappURL>http://127.0.0.1:8013/fairies/api</webappURL>
