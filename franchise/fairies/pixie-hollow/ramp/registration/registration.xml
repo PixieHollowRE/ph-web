@@ -2,25 +2,25 @@
 <config>
 	<!-- Tea Templates -->
 	<flashAPI>
-		<login>http://127.0.0.1:8013/fairies/api/AccountLoginRequest</login>
-		<createAccount>http://127.0.0.1:8013/dxd/flashAPI/createAccount</createAccount>
-		<checkUsernameAvailability>http://127.0.0.1:8013/dxd/flashAPI/checkUsernameAvailability</checkUsernameAvailability>
-		<checkUsernameApproval>http://127.0.0.1:8013/dxd/flashAPI/checkUsernameApproval</checkUsernameApproval>
-		<checkValidationStatus>http://127.0.0.1:8013/dxd/flashAPI/checkValidationStatus</checkValidationStatus>
-		<submitAliasForApproval>http://127.0.0.1:8013/dxd/flashAPI/submitAliasForApproval</submitAliasForApproval>
-		<getFamilyStructure>http://127.0.0.1:8013/dxd/flashAPI/getFamilyStructure</getFamilyStructure>
-		<verifyAccountCredentials>http://127.0.0.1:8013/dxd/flashAPI/verifyAccountCredentials</verifyAccountCredentials>
-		<linkAccountToFamily>http://127.0.0.1:8013/dxd/flashAPI/linkAccountToFamily</linkAccountToFamily>
-		<removeAccountFromFamily>http://127.0.0.1:8013/dxd/flashAPI/removeAccountFromFamily</removeAccountFromFamily>
-		<updateAccount>http://127.0.0.1:8013/dxd/flashAPI/updateAccount</updateAccount>
-		<lookupAccount>http://127.0.0.1:8013/dxd/flashAPI/lookupAccount</lookupAccount>
-		<getAllNewsletterMetadata>http://127.0.0.1:8013/dxd/flashAPI/getAllNewsletterMetadata</getAllNewsletterMetadata>
-		<notifyParent>http://127.0.0.1:8013/dxd/flashAPI/notifyParent</notifyParent>
-		<authenticateAndUpdateOptins>http://127.0.0.1:8013/dxd/flashAPI/authenticateAndUpdateOptins</authenticateAndUpdateOptins>
-		<sendChatPermissionEmails>http://127.0.0.1:8013/dxd/flashAPI/sendChatPermissionEmails</sendChatPermissionEmails>
+		<login>http://127.0.0.1/fairies/api/AccountLoginRequest</login>
+		<createAccount>http://127.0.0.1/dxd/flashAPI/createAccount</createAccount>
+		<checkUsernameAvailability>http://127.0.0.1/dxd/flashAPI/checkUsernameAvailability</checkUsernameAvailability>
+		<checkUsernameApproval>http://127.0.0.1/dxd/flashAPI/checkUsernameApproval</checkUsernameApproval>
+		<checkValidationStatus>http://127.0.0.1/dxd/flashAPI/checkValidationStatus</checkValidationStatus>
+		<submitAliasForApproval>http://127.0.0.1/dxd/flashAPI/submitAliasForApproval</submitAliasForApproval>
+		<getFamilyStructure>http://127.0.0.1/dxd/flashAPI/getFamilyStructure</getFamilyStructure>
+		<verifyAccountCredentials>http://127.0.0.1/dxd/flashAPI/verifyAccountCredentials</verifyAccountCredentials>
+		<linkAccountToFamily>http://127.0.0.1/dxd/flashAPI/linkAccountToFamily</linkAccountToFamily>
+		<removeAccountFromFamily>http://127.0.0.1/dxd/flashAPI/removeAccountFromFamily</removeAccountFromFamily>
+		<updateAccount>http://127.0.0.1/dxd/flashAPI/updateAccount</updateAccount>
+		<lookupAccount>http://127.0.0.1/dxd/flashAPI/lookupAccount</lookupAccount>
+		<getAllNewsletterMetadata>http://127.0.0.1/dxd/flashAPI/getAllNewsletterMetadata</getAllNewsletterMetadata>
+		<notifyParent>http://127.0.0.1/dxd/flashAPI/notifyParent</notifyParent>
+		<authenticateAndUpdateOptins>http://127.0.0.1/dxd/flashAPI/authenticateAndUpdateOptins</authenticateAndUpdateOptins>
+		<sendChatPermissionEmails>http://127.0.0.1/dxd/flashAPI/sendChatPermissionEmails</sendChatPermissionEmails>
 		<addUserType></addUserType>
-		<getTermsOfUseText>http://127.0.0.1:8013/dxd/flashAPI/getTermsOfUseText</getTermsOfUseText>
-		<logout>http://127.0.0.1:8013/dxd/flashAPI/logout</logout>
+		<getTermsOfUseText>http://127.0.0.1/dxd/flashAPI/getTermsOfUseText</getTermsOfUseText>
+		<logout>http://127.0.0.1/dxd/flashAPI/logout</logout>
 		<!-- purchasing -->
 		<creditCardValidation>https://register.go.com/dxd/validation/authorize</creditCardValidation>
 		<lookupSubscriptions>https://register.go.com/commerce/flashapi/lookupSubscriptions</lookupSubscriptions>
@@ -31,12 +31,12 @@
 	    <lookupShippingAddresses>https://register.go.com/commerce/flashapi/lookupShippingAddresses</lookupShippingAddresses>
 	    <updateShippingAddressOnSubscription>https://register.go.com/commerce/flashapi/updateShippingAddressOnSubscription</updateShippingAddressOnSubscription>
 	    <updatePaymentAccountOnSubscription>https://register.go.com/commerce/flashapi/updatePaymentAccountOnSubscription</updatePaymentAccountOnSubscription>
-	    <paypal>http://127.0.0.1:8013/dxd/paypal/redirect</paypal>
+	    <paypal>http://127.0.0.1/dxd/paypal/redirect</paypal>
 		<paypalSuccessDestination>http://pixiehollow.go.com/membershipcongrats.html</paypalSuccessDestination>
 	    <paypalErrorDestination>http://disney.go.com/fairies/pixiehollow/paypalerror.html</paypalErrorDestination>
 	    <!-- /purchasing -->
 		<!-- whoami service -->
-		<whoami>http://127.0.0.1:8013/fairies/api/WhoAmIRequest</whoami>
+		<whoami>http://127.0.0.1/fairies/api/WhoAmIRequest</whoami>
 
 		<!-- /whoami service -->
 		<appConnect>http://apps.ladev3.fairies.go.com/fairies/api/AppConnectRequest</appConnect>

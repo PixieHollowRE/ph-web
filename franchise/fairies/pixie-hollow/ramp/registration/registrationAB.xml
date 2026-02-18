@@ -2,7 +2,7 @@
 <config>
 	<!-- Tea Templates -->
 	<flashAPI>
-		<login>http://127.0.0.1:8013/fairies/api/AccountLoginRequest</login>
+		<login>http://127.0.0.1/fairies/api/AccountLoginRequest</login>
 		<createAccount>https://apps.dxd.go.com/dxd/flashAPI/createAccount</createAccount>
 		<checkUsernameAvailability>https://apps.dxd.go.com/dxd/flashAPI/checkUsernameAvailability</checkUsernameAvailability>
 		<checkUsernameApproval>https://apps.dxd.go.com/dxd/flashAPI/checkUsernameApproval</checkUsernameApproval>
@@ -18,7 +18,7 @@
 		<notifyParent>https://apps.dxd.go.com/dxd/flashAPI/notifyParent</notifyParent>
 		<authenticateAndUpdateOptins>https://apps.dxd.go.com/dxd/flashAPI/authenticateAndUpdateOptins</authenticateAndUpdateOptins>
 		<sendChatPermissionEmails>https://apps.dxd.go.com/dxd/flashAPI/sendChatPermissionEmails</sendChatPermissionEmails>
-		<addUserType>http://127.0.0.1:8013/fairies/api/CreateABUserRequest</addUserType>
+		<addUserType>http://127.0.0.1/fairies/api/CreateABUserRequest</addUserType>
 		<getTermsOfUseText>https://apps.dxd.go.com/dxd/flashAPI/getTermsOfUseText</getTermsOfUseText>
 		<logout>https://apps.dxd.go.com/dxd/flashAPI/logout</logout>
 		<!-- purchasing -->
@@ -36,7 +36,7 @@
 	    <paypalErrorDestination>http://disney.go.com/fairies/pixiehollow/paypalerror.html</paypalErrorDestination>
 	    <!-- /purchasing -->
 		<!-- whoami service -->
-		<whoami>http://127.0.0.1:8013/fairies/api/WhoAmIRequest</whoami>
+		<whoami>http://127.0.0.1/fairies/api/WhoAmIRequest</whoami>
 
 		<!-- /whoami service -->
 		<appConnect>http://apps.ladev3.fairies.go.com/fairies/api/AppConnectRequest</appConnect>

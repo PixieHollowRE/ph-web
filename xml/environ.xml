@@ -7,9 +7,9 @@
 	<port>8012</port>
 	<cdnPath>http://localhost/web/franchise/fairies/pixie-hollow/</cdnPath>
 	<assetURL>http://a.dolimg.com/pixiehollow/game/</assetURL>
-	<webappURL>http://127.0.0.1:8013/fairies/api</webappURL>
-	<dxdAppsURL>http://127.0.0.1:8013/dxd/flashAPI</dxdAppsURL>
-	<webappURLSSL>http://127.0.0.1:8013/fairies/api</webappURLSSL>
+	<webappURL>http://127.0.0.1/fairies/api</webappURL>
+	<dxdAppsURL>http://127.0.0.1/dxd/flashAPI</dxdAppsURL>
+	<webappURLSSL>http://127.0.0.1/fairies/api</webappURLSSL>
 	<enableSSL>false</enableSSL>
 	<generatedTableURL>xml/GeneratedFiles</generatedTableURL>
 	<PollApiURL>http://quiz.disney.go.com/ratings/fairies/index?def=fairies/</PollApiURL>
@@ -26,7 +26,7 @@
 	<purchaseURL>https://disney.go.com/fairies/pixie-hollow/membership/purchase.html</purchaseURL>
 	<loginfailURL>previewLogin.html</loginfailURL>
 	<betakeyfailURL>previewKeyEntry.html</betakeyfailURL>
-	<loginURL>http://127.0.0.1:8013/fairies/login</loginURL>
+	<loginURL>http://127.0.0.1/fairies/login</loginURL>
 	<bannedURL>http://apps.dxd.go.com/dxd/guestservices/your_account/account_hold</bannedURL>
 	<logoutURL>index.html</logoutURL>
 	<signupLink><![CDATA[https://disney.go.com/fairies/pixiehollow/registration/]]></signupLink>
