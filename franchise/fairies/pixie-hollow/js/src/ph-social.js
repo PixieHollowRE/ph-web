@@ -102,7 +102,7 @@ head.ready('plugin', function () {
 					'<div class="popup-content">'+
 						'<a href="#" class="popup-close close-button"><span>Close</span></a>'+
 						'<p class="center">' +
-						'<img src="http://localhost/web/franchise/fairies/pixie-hollow/img/content/headers/dname.jpg">'+
+						'<img src="http://127.0.0.1/franchise/fairies/pixie-hollow/img/content/headers/dname.jpg">'+
 						'</p>'+
 						'<p class="center">'+
 							'You are about to go to the Apple Store where different terms of use and privacy policy will apply. <br> Remember, you need a parent' + "'"+ 's permission to buy anything online.'+

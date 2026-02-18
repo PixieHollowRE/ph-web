@@ -9,15 +9,15 @@
 	var PROTOCOL = (window.location.protocol && window.location.protocol == 'https:') ? 'https' : 'http';
 
 	var PATH = {
-		root:       'http://127.0.0.1/web/franchise/fairies',
-		SSLRoot:	'http://127.0.0.1/web/franchise/fairies',
+		root:       'http://127.0.0.1/franchise/fairies',
+		SSLRoot:	'http://127.0.0.1/franchise/fairies',
 		API:		'http://127.0.0.1/fairies/api',
 		SSLAPI:		'http://127.0.0.1/fairies/api',
 		renderer:	PROTOCOL + '://apps.pixiehollow.go.com/fairies-render',
 		goKart:		'https://register.go.com/fairies/pixiehollow',
 		blog:		'http://blog.pixiehollow.go.com/blog',
 		DXD:		PROTOCOL + '://127.0.0.1:8013/dxd/flashAPI',
-		CDN:		PROTOCOL + '://' + ((PROTOCOL == 'https') ? '127.0.0.1' : '127.0.0.1') + '/web/franchise/fairies',
+		CDN:		PROTOCOL + '://' + ((PROTOCOL == 'https') ? '127.0.0.1' : '127.0.0.1') + '/franchise/fairies',
 		UGC:		'http://premium.disney.go.com/fairies2',
 		globalElements: '//' + ((PROTOCOL == 'https') ? 'home' : 'ahome') + '.disney.go.com/globalelements'
 	};
@@ -80,7 +80,7 @@
 						var flashvars = {
 							session: "xml/sessions/mmo.xml",
 							currentUrl: location.href,
-							htmlEnvironment: 'http://127.0.0.1/web/',
+							htmlEnvironment: 'http://127.0.0.1/',
 							base: './'
 						};
 
@@ -88,7 +88,7 @@
 							allowScriptAccess: 'always',
 							bgcolor: '#050C1F',
 							wmode: 'default',
-							base: 'http://127.0.0.1/web/'
+							base: 'http://127.0.0.1/'
 						};
 
 						var attributes = {
@@ -96,7 +96,7 @@
 							name: "pixiehollowcontent"
 						};
 
-						swfobject.embedSWF("http://127.0.0.1/web/swf/container.swf", "game", "994", "680", "10.0.0", "http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, flashparams, attributes);
+						swfobject.embedSWF("http://127.0.0.1/swf/container.swf", "game", "994", "680", "10.0.0", "http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, flashparams, attributes);
 					});
 				</script>
 			</div>

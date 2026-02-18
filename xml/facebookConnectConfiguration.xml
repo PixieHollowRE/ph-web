@@ -48,11 +48,11 @@
 	</copy>
 
 	<urlAliases>
-		<url name="cdnBase">http://localhost/web/franchise/fairies/pixie-hollow/img/publishing/facebook/wall-icons/</url>
+		<url name="cdnBase">http://127.0.0.1/franchise/fairies/pixie-hollow/img/publishing/facebook/wall-icons/</url>
 	</urlAliases>
 
 	<copySubstitutions>
-		<sub pattern="CDNBASE">http://localhost/web/franchise/fairies/pixie-hollow/img/publishing/facebook/wall-icons/</sub>
+		<sub pattern="CDNBASE">http://127.0.0.1/franchise/fairies/pixie-hollow/img/publishing/facebook/wall-icons/</sub>
 		<sub pattern="SITEURL">www.pixiehollow.com</sub>
 		<sub pattern="DEFAULTCAPTION"></sub>
 		<sub pattern="DEFAULTDESCRIPTION">&nbsp;</sub> <!-- if omitted, the description meta tag from the webpage is used -->

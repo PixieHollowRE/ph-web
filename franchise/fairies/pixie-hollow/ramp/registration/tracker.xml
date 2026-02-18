@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <config>
-	<libPath url="http://localhost/web/stat/flash/analyticReportingAS3.swf" />
+	<libPath url="http://127.0.0.1/stat/flash/analyticReportingAS3.swf" />
 	<defaultInfo>
 		<account value='pixiehollow' />
 		<siteSection value='website:registration' />

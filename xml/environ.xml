@@ -5,7 +5,7 @@
 	<securityPolicyPort>843</securityPolicyPort>
 	<host>127.0.0.1</host>
 	<port>8012</port>
-	<cdnPath>http://localhost/web/franchise/fairies/pixie-hollow/</cdnPath>
+	<cdnPath>http://127.0.0.1/franchise/fairies/pixie-hollow/</cdnPath>
 	<assetURL>http://a.dolimg.com/pixiehollow/game/</assetURL>
 	<webappURL>http://127.0.0.1/fairies/api</webappURL>
 	<dxdAppsURL>http://127.0.0.1/dxd/flashAPI</dxdAppsURL>
@@ -35,7 +35,7 @@
 	<forgotPasswordLink><![CDATA[https://register.go.com/global/fairies/recoverPassword?affiliateName=Disney_Fairies&appRedirect=http%3A%2F%2Fpixiehollow.com]]></forgotPasswordLink>
 	<personalPageURLPrefix>http://disney.go.com/fairies/pixie-hollow/pixie-pages/#/</personalPageURLPrefix>
 	<zazzleLink><![CDATA[http://disneyshopping.go.com/disney/store/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1211239&langId=-1&categoryId=15044]]></zazzleLink>
-	<newsLink><![CDATA[http://localhost/web/franchise/fairies/pixie-hollow/xml/pixie-postings/postings.xml]]></newsLink>
+	<newsLink><![CDATA[http://127.0.0.1/franchise/fairies/pixie-hollow/xml/pixie-postings/postings.xml]]></newsLink>
 	<moreNewsLink><![CDATA[http://disney.go.com/fairies]]></moreNewsLink>
 	<LinkFor404>http://home.disney.go.com/error/pagenotfound</LinkFor404>
 	<fullscreen>false</fullscreen>
@@ -54,7 +54,7 @@
 	<liveURL><![CDATA[http://disney.go.com/fairies/pixie-hollow/game/]]></liveURL>
 	<cs_notifyurl>http://disney.go.com/fairies/pixie-hollow/membership/notification.html</cs_notifyurl>
 	<speedchatURL>http://disney.go.com/fairies/pixie-hollow/help/</speedchatURL>
-	<dnamePageURL>http://127.0.0.1/web/franchise/fairies/pixie-hollow/membership/dname.html</dnamePageURL>
+	<dnamePageURL>http://127.0.0.1/franchise/fairies/pixie-hollow/membership/dname.html</dnamePageURL>
 	<touPageURL>termsofuse.html</touPageURL>
 	<termsOfUseCopyURL>getTermsOfUseText</termsOfUseCopyURL>
 	<termsOfUseRequestURL>updateAccount</termsOfUseRequestURL>

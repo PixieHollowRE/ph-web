@@ -82,7 +82,7 @@
 
 		<!-- id="fontLib" is a special id for the fonts swf - do not change it or re-use for anything other than the fonts swf. this only belongs here in the standalone version...
 		otherwise it will exist in the global site xml. -->
-		<asset id="fontLib" src="http://127.0.0.1/web/franchise/fairies/pixie-hollow/swf/mainnav-fonts.swf" />
+		<asset id="fontLib" src="http://127.0.0.1/franchise/fairies/pixie-hollow/swf/mainnav-fonts.swf" />
 	</page>
 	<strings>
 		<str id="coming_soon">Coming Soon</str>

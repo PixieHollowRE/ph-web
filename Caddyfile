@@ -1,6 +1,6 @@
-localhost:80
+127.0.0.1:80
 
-reverse_proxy /fairies/* localhost:8013
-reverse_proxy /dxd/* localhost:8013
-reverse_proxy /commerce/* localhost:8013
+reverse_proxy /fairies/* 127.0.0.1:8013
+reverse_proxy /dxd/* 127.0.0.1:8013
+reverse_proxy /commerce/* 127.0.0.1:8013
 file_server
