@@ -2,22 +2,22 @@
 	<postedDate date="2013-08-15" dateformat="yyyy-mm-dd" />
 	<category id="seasonalScoop" name="Tabb's Tell-All" leaf="leaf1" icon="icon15" spot="1" date="2013-02-14">
 		<mainarticle>
-			<image x="" y="">http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/tabby_graphic.png</image>
-			<signatureimage x="" y="">http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/Tabby_sig.png</signatureimage>
+			<image x="" y="">/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/tabby_graphic.png</image>
+			<signatureimage x="" y="">/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/Tabby_sig.png</signatureimage>
 			        <rolloveranim x="176.95" y="-33">swf/PixiePostingsMainArticleAnim.swf</rolloveranim>
 			<html><![CDATA[Dear Tabby, Are there going to be more quests for the Never Unicorn? Please write back. Thanks, Lucia]]></html>
 		</mainarticle>
 		<subarticle>
 		</subarticle>
-			
-		<headline>Tabby's Tell-All</headline>   	
+
+		<headline>Tabby's Tell-All</headline>
 			<article x="" y="" width="test">
      	 	  	<identifier>DEFAULT_PLACEHOLDER_ID</identifier>
       	  	<title>Tabby's Tell-All</title>
       	  	<full>
-				<html><![CDATA[<span class="newsbodytext"><img height="220" width="233" align="left" vspace="15" src="http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_August_15_Tabbys_Tell.png"/><br>August 15, 2013
+				<html><![CDATA[<span class="newsbodytext"><img height="220" width="233" align="left" vspace="15" src="/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_August_15_Tabbys_Tell.png"/><br>August 15, 2013
 						<br>Dear Tabby, Are there going to be more quests for the Never Unicorn? Please write back. Thanks, Lucia
-						<br>Hi Lucia! Aren't the Never Unicorn quests so much fun?! Silvermist's Never Unicorn quest was released on Tuesday, and Iridessa will try to help you find the magical creature starting August 20! After you complete Silvermist's quest, you'll earn the final piece of the Never Unicorn costume. I wonder what Iridessa's quest will give out as a reward...hopefully a glimpse at the Never Unicorn! 
+						<br>Hi Lucia! Aren't the Never Unicorn quests so much fun?! Silvermist's Never Unicorn quest was released on Tuesday, and Iridessa will try to help you find the magical creature starting August 20! After you complete Silvermist's quest, you'll earn the final piece of the Never Unicorn costume. I wonder what Iridessa's quest will give out as a reward...hopefully a glimpse at the Never Unicorn!
 						<br>Dear Tabby, I noticed that some of my friends have flitterific backgrounds with mermaids and other flaptastic things on them. I looked for them but I couldn't find them anywhere. Where can you get these amazing backgrounds? Please Help, Rachel Diamonddust
 						<br>Happy to help, Rachel! Profile backgrounds are given out based on how long your Fairy has been a Member of Pixie Hollow. So the longer you've been a Member, the more profile background options your Fairy will have! I love the nature-inspired backgrounds, but that Mermaid one is pretty flitterific too!
 						<br><img checkPolicyFile="true" src="http://a.dolimg.com/pixiehollow/game/publish/images/TabbySig.png" width="80" height="45">
@@ -28,22 +28,22 @@
 			</full>
    		</article>
 	</category>
-	
+
 	 <category id="featuredBadge" name="Pixie Poem" leaf="leaf2" icon="icon17" spot="2" date="2013-02-14">
 		<mainarticle>
 			<html><![CDATA[WORKED]]></html>
 		</mainarticle>
 		<subarticle>
-			<image>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_August_15_Pixie_Poem_th.png</image>
+			<image>/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_August_15_Pixie_Poem_th.png</image>
 		</subarticle>
-		 
+
 		 <headline>Pixie Poem</headline>
     		<article x="" y="" width="test">
      	 	  	<identifier>DEFAULT_PLACEHOLDER_ID</identifier>
       	  	<title>Pixie Poem</title>
       	  	<full>
-      	      	<html><![CDATA[<span class="newsbodytext"><img height="331" width="344" align="left" src="http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_August_15_Pixie_Poem.png"/><br>August 15, 2013
-						<br>Tinkering, Tailoring, Baking and more,<br>Being creative is what we were born for!<br>Lighting up fireflies, to helping plants grow,<br>All of our talents were meant to be shown!<br>Being good at finding lost things upon the never shore,<br>It's time to open our hearts and let our wings sore!<br>It's time to star in your own show,<br>It's about time we let our powerful lights glow!   
+      	      	<html><![CDATA[<span class="newsbodytext"><img height="331" width="344" align="left" src="/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_August_15_Pixie_Poem.png"/><br>August 15, 2013
+						<br>Tinkering, Tailoring, Baking and more,<br>Being creative is what we were born for!<br>Lighting up fireflies, to helping plants grow,<br>All of our talents were meant to be shown!<br>Being good at finding lost things upon the never shore,<br>It's time to open our hearts and let our wings sore!<br>It's time to star in your own show,<br>It's about time we let our powerful lights glow!
 						<br><br>
 						<br><br><br>NOTE: You can send in an original poem to the Pixie Postings, and if your poem gets featured, you'll earn the Fairy Writer badge! Just go to Pixie Central, click on <a href="blank:http://pixiehollow.go.com/ugc_types.html">Share Your Creativity</a>, and select the "Poem" image.<br>
 					</span>
@@ -57,16 +57,16 @@
 			<html><![CDATA[WORKED]]></html>
 		</mainarticle>
 		<subarticle>
-			<image>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_August_15_Fairy_Tale_th.png</image>
+			<image>/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_August_15_Fairy_Tale_th.png</image>
 		</subarticle>
-		 
+
 		<headline>Fairy Tale</headline>
     		<article x="" y="" width="test">
      	 	  	<identifier>DEFAULT_PLACEHOLDER_ID</identifier>
       	  	<title>Fairy Tale</title>
       	  	<full>
-      	      	<html><![CDATA[<span class="newsbodytext"><img height="331" width="344" align="left" vspace="15" src="http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_August_15_Fairy_Tale.png"/><br>August 15, 2013
-						<br>It was a bright sunny day in Pixie Hollow. Maddie was super excited. Today she was hosting a Never Unicorn Party! Everyone had to dress up in a Never Unicorn costume and come! It was going to be the best party ever. Her friend Jillian came over to help her prepare. "So this is gonna be a great party, huh?" Jillian asked, putting up Never Unicorn Pictures. "I sure hope so!" Maddie said, putting up balloons. Soon everything was ready and guests arrived! "Attention everyone!" Maddie said loudly into a microphone. "Thanks for coming, it is time for the first game!" Everyone looked super excited to hear the game. "We will search for the never unicorn dolls hidden, whoever finds the most, wins! So go look!" Everyone ran out the door looking. Maddie chased after them, she too looked. Then when she was looking in a bush she saw something. She went through the bush to the other side to see what it was. It was the Never Unicorn! "Wow..." said Maddie to herself, "...I think I won!" 
+      	      	<html><![CDATA[<span class="newsbodytext"><img height="331" width="344" align="left" vspace="15" src="/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_August_15_Fairy_Tale.png"/><br>August 15, 2013
+						<br>It was a bright sunny day in Pixie Hollow. Maddie was super excited. Today she was hosting a Never Unicorn Party! Everyone had to dress up in a Never Unicorn costume and come! It was going to be the best party ever. Her friend Jillian came over to help her prepare. "So this is gonna be a great party, huh?" Jillian asked, putting up Never Unicorn Pictures. "I sure hope so!" Maddie said, putting up balloons. Soon everything was ready and guests arrived! "Attention everyone!" Maddie said loudly into a microphone. "Thanks for coming, it is time for the first game!" Everyone looked super excited to hear the game. "We will search for the never unicorn dolls hidden, whoever finds the most, wins! So go look!" Everyone ran out the door looking. Maddie chased after them, she too looked. Then when she was looking in a bush she saw something. She went through the bush to the other side to see what it was. It was the Never Unicorn! "Wow..." said Maddie to herself, "...I think I won!"
 						<br><br><br>NOTE: You can send in an original story to the Pixie Postings, and if your Fairy Tale gets featured, you'll earn the Fairy Writer badge! Just go to Pixie Central, click on <a href="blank:http://pixiehollow.go.com/ugc_types.html">Share Your Creativity</a>, and select the "Fairy Tale" image.
 						<br><br><br>
 					</span>
@@ -80,15 +80,15 @@
 			<html><![CDATA[WORKED]]></html>
 		</mainarticle>
 		<subarticle>
-			<image>http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_June_20_Event_th.png</image>
+			<image>/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_June_20_Event_th.png</image>
 		</subarticle>
-		 
+
 		<headline>Event News</headline>
     		<article x="" y="" width="test">
      	 	  	<identifier>DEFAULT_PLACEHOLDER_ID</identifier>
       	  	<title>Event News</title>
       	  	<full>
-      	      	<html><![CDATA[<span class="newsbodytext"><img height="344" width="677" align="left" vspace="15" src="http://cdn.dolimg.com/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_June_20_Event.png"/>
+      	      	<html><![CDATA[<span class="newsbodytext"><img height="344" width="677" align="left" vspace="15" src="/franchise/fairies/pixie-hollow/img/publishing/pixie-postings/2013_June_20_Event.png"/>
 				]]></html>
 			</full>
    		</article>
