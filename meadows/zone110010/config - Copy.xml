@@ -1,0 +1,29 @@
+<zone>
+  <name>Harmony's Sweet Shop</name>
+  <zoneID>110010</zoneID>
+  <assetURL/>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="1260" height="1260">
+        <image x="0" y="0" type="none">Harmonys_SweetShop_sky_01.swf</image>
+      </layer>
+      <layer type="ground" width="1121" height="1156">
+        <image x="0" y="0" type="merge">Harmonys_SweetShop_action_01.swf</image>
+      </layer>
+      <layer type="normal" width="1260" height="1260">
+        <image x="0" y="0" type="none">Harmonys_SweetShop_foreground.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="645" y="492">default</location>
+  </locations>
+  
+  
+  
+  
+  
+  
+  
+  
+</zone>

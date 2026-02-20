@@ -1,0 +1,186 @@
+<zone>
+  <name>Havendish Square</name>
+  <zoneID>500</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow500</audioLibrary>
+  <audioLibrary tags="Meadow_WinterWonderland_2011">meadow500Winter</audioLibrary>
+  <audioLibrary tags="Meadow_AnimalMasq2010">animalMasquerade2010</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="2166" height="1509" locked="true">
+        <image x="0" y="0" type="none" tag="Meadow_WinterLightup2012">HS_sky_winter_01.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_WinterWonder2012">HS_sky_winter_01.swf</image>
+        <image x="0" y="0" type="none">HS_sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="1100" height="509">
+        <image x="0" y="0" type="none" tag="Meadow_WinterLightup2012">HS_far_winter_02.swf</image>
+        <image x="0" y="0" type="none" tag="Meadow_WinterWonder2012">HS_far_winter_02.swf</image>
+        <image x="0" y="0" type="none">HS_far_02.swf</image>
+      </layer>
+      <layer type="ground" width="2166" height="1509">
+        <image x="0" y="0" type="merge" tag="Meadow_Friendship_Festival">action__winter_open_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_NeverDove2010">action_NeverDoveStarts_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Spring_Celebration">action_CloverStarts_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_CampHavendish">action_Camp_Pixie_Dust_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WelcomeBack">action_Lizzys_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AnimalMasq2010">action_AnimalMasq_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WinterWonder2010">action_WinterWonderland2010_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Friendship2011">action_FairyFriendship2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringCelebration">action_SpringCelebBegins_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SillyDays2011">action_SillyDays2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Summer2011">action_Meadow_Summer2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_NeverDove2011">action_NeverDoveEgg_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Tinker_Games">action_Meadow_Tinker_Games_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Water_Games">action_Meadow_Water_Games_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Garden_Games">action_Meadow_Garden_Games_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Animal_Games">action_Meadow_Animal_Games_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Light_Games">action_Meadow_Light_Games_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_ChangingLeaves2011">action_New_Ballroom_Closed_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Summer_Ball_Closed">action_New_Ballroom_Closed_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WWL2011">action_Meadow_WWL_2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Autumn_Equinox_2011">action_Meadow_Autumn_Equinox_2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_PHG2011_Prep">action_Meadow_PGH_2011_Prep_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Stadium">action_Meadow_PGH_2011_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WinterLightUp2011">action_New_Stadium_Closed_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Havendish_New_Default">action_New_Stadium_Closed_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Ball_Doors_Closed">action_New_Ballroom_Closed_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Spring_Prep_2012_Closed">action_SpringCelebrationPrep_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringCrisis_2012_Closed">action_SpringCrisis_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringEquinox_2012_Open">action_SpringEquinox_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_NeverDove_2012_Open">action_NeverDoveEgg_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SillyDays_2012_Closed">action_SillyDays_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_MothersDay2012">action_Meadow_MothersDay_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_TeaParty2012">action_Meadow_GardenTeaParty_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Theater_Camp">action_Meadow_CampPixie_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_AutumnEquinox2012">action_Meadow_AutumnEquinox_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Masquerade2012">action_Masquerade_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WinterLightup2012">action_Meadow_WinterLightup_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FairyFeast2012">action_Meadow_Fairy_Feast_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_WinterWonder2012">action_Meadow_WinterLightup_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_FloodPrep">action_SpringEquinoxPrep_2013_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_MermaidParty">action_Meadow_Mermaid_Party_2013_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_MothersDay">action_Meadow_MothersDay_2012_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringFlood">action_Meadow_SpingCrisisBegins_2013_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_NeverDove">action_Meadow_NeverDove_2013_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_SpringEquinox">action_SpringEquinox_2013_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_TeaParty">action_Meadow_GardenTeaParty_2012_03.swf</image>
+        <image x="0" y="0" type="merge">action_03.swf</image>
+      </layer>
+      <layer type="normal" width="2751" height="1910" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_CampHavendish">HS_SummerCamp_foreground_04.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_AnimalMasq2010">HS_foreground_AnimalMasq_04.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy">HS_foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="777" y="679">default</location>
+    <location x="1425" y="454">fromBallRoom</location>
+    <location x="1875" y="543">fromTeaRoom</location>
+    <location x="1068" y="916">fromFairyTaleTheater</location>
+    <location x="735" y="230">fromEvergreenOverlook</location>
+    <location x="134" y="267">fromCottonpuffField</location>
+    <location x="134" y="267">fromZone805</location>
+    <location x="134" y="267">famousFairyHome</location>
+    <location x="1965" y="863">fromSpringtimeOrchard</location>
+    <location x="1339" y="1289">fromNeverfruitGrove</location>
+    <location x="405" y="664">fromZone110004</location>
+    <location x="1616" y="1112">fromPixiePostings</location>
+    <location x="973" y="1003">fromZone504</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_500</id>
+      <loops>0</loops>
+      <volumeLow>0.75</volumeLow>
+      <volumeHigh>0.75</volumeHigh>
+      <y>1120</y>
+    </sfx>
+    <sfx tags="Meadow_WinterWonderland_2011">
+      <id>meadow_ambient_500_winter</id>
+      <loops>0</loops>
+      <volumeLow>0.75</volumeLow>
+      <volumeHigh>0.75</volumeHigh>
+      <y>1120</y>
+    </sfx>
+    <sfx tags="Meadow_AnimalMasq2010">
+      <id>meadow_ambient_spring_riverside_am</id>
+      <loops>0</loops>
+      <volumeLow>0.75</volumeLow>
+      <volumeHigh>0.75</volumeHigh>
+      <y>1120</y>
+    </sfx>
+    <bgm>
+      <id>havendish_intro_mix3</id>
+      <loops>1</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm>
+      <id>havendish_square_mix3</id>
+      <loops>0</loops>
+      <volumeLow>0.7</volumeLow>
+      <volumeHigh>0.7</volumeHigh>
+      <delayLow>12000</delayLow>
+      <delayHigh>12000</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_WinterWonderland_2011">
+      <id>havendishWinter</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm tags="Meadow_AnimalMasq2010">
+      <id>animalMasquerade2010</id>
+      <loops>0</loops>
+      <volumeLow>1</volumeLow>
+      <volumeHigh>1</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <hotspots>
+    <hotspot tags="Meadow_SillyDays_2012_Closed" id="27710" x="629" y="994" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="15"/>
+    <hotspot tags="Meadow_PHG2011_Prep" id="27661" x="628" y="1003" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="10"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27598" x="1874" y="936" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" itemEventId="0" tagId="0"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27599" x="469" y="890" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" itemEventId="0" tagId="1"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27600" x="720" y="1062" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" itemEventId="0" tagId="2"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27601" x="2031" y="1061" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" itemEventId="0" tagId="3"/>
+    <hotspot tags="Meadow_Masquerade2012" id="27602" x="944" y="1064" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" itemEventId="0" tagId="4"/>
+    <hotspot tags="Meadow_WinterWonder2012" id="27741" x="1585" y="1250" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="17"/>
+    <hotspot tags="Meadow_WinterWonder2012" id="27665" x="89" y="578" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="12"/>
+    <hotspot tags="Meadow_Friendship2011" id="27604" x="749" y="994" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="4" refresh="5" itemEventId="0" tagId="0"/>
+    <hotspot tags="Meadow_Friendship2011" id="27608" x="693" y="1115" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="4" refresh="5" itemEventId="0" tagId="4"/>
+    <hotspot tags="Meadow_Friendship2011" id="27605" x="855" y="981" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="4" refresh="5" itemEventId="0" tagId="1"/>
+    <hotspot tags="Meadow_Friendship2011" id="27606" x="813" y="971" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="4" refresh="5" itemEventId="0" tagId="2"/>
+    <hotspot tags="Meadow_Friendship2011" id="27607" x="820" y="1053" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="4" refresh="5" itemEventId="0" tagId="3"/>
+    <hotspot tags="Meadow_MermaidParty" id="27771" x="615" y="917" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="11"/>
+    <hotspot tags="Meadow_Sister2012" id="27770" x="649" y="995" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="16"/>
+    <hotspot tags="Meadow_SillyDays2011" id="27609" x="1471" y="929" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="2" playType="full" itemEventId="0" tagId="7"/>
+    <hotspot tags="Meadow_SillyDays2011" id="27609" x="174" y="734" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="2" playType="full" itemEventId="0" tagId="8"/>
+    <hotspot tags="Meadow_SillyDays2011" id="27609" x="887" y="1090" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="2" playType="full" itemEventId="0" tagId="9"/>
+    <hotspot tags="Meadow_SillyDays2011" id="27609" x="1709" y="1122" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="2" playType="full" itemEventId="0" tagId="5"/>
+    <hotspot tags="Meadow_SillyDays2011" id="27609" x="1847" y="746" setVelvetRope="0" shared="true" clientTrigger="1" clientParm="2" refresh="2" playType="full" itemEventId="0" tagId="6"/>
+    <hotspot tags="Meadow_WinterLightup2012" id="27741" x="1585" y="1250" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="17"/>
+    <hotspot tags="Meadow_WinterLightup2012" id="27665" x="89" y="578" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="12"/>
+    <hotspot tags="Signpost_WWL2011" id="27663" x="700" y="750" setVelvetRope="0" shared="false" clientTrigger="1" clientParm="0" refresh="5" playType="keyframe" itemEventId="0" tagId="11"/>
+  </hotspots>
+</zone>

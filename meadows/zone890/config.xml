@@ -1,0 +1,61 @@
+<zone>
+  <name>Cottonpuff Field</name>
+  <zoneID>890</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow201</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="900" height="621" locked="true">
+        <image x="0" y="0" type="none">sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="1100" height="758">
+        <image x="0" y="0" type="none">far_02.swf</image>
+      </layer>
+      <layer type="normal" width="1555" height="1073">
+        <image x="0" y="0" type="none">reflection_03.swf</image>
+      </layer>
+      <layer type="ground" width="1895" height="1307">
+        <image x="0" y="0" type="merge">action_03_tutorial.swf</image>
+      </layer>
+      <layer type="normal" width="2828" height="1950" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy">foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="1242" y="721">default</location>
+    <location x="1550" y="779">fromZone804</location>
+    <location x="899" y="1026">fromTinkerGame</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_201</id>
+      <loops>0</loops>
+      <volumeLow>0.9</volumeLow>
+      <volumeHigh>0.9</volumeHigh>
+    </sfx>
+    <bgm>
+      <id>meadow_music_201</id>
+      <loops>1</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+      <delayLow>0</delayLow>
+      <delayHigh>0</delayHigh>
+    </bgm>
+    <bgm>
+      <id>meadow_music_autum_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.15</volumeLow>
+      <volumeHigh>0.15</volumeHigh>
+      <delayLow>24000</delayLow>
+      <delayHigh>24000</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+</zone>

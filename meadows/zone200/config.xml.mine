@@ -1,0 +1,83 @@
+<zone>
+  <name>Acorn Summit</name>
+  <zoneID>200</zoneID>
+  <assetURL/>
+  <audioLibrary>meadow200</audioLibrary>
+  <clientLayout>
+    <layers>
+      <layer type="normal" width="900" height="529" locked="true">
+        <image x="0" y="0" type="none" tag="Meadow_Decorations_SummerSparkler">ASsky_01_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="none">sky_01.swf</image>
+      </layer>
+      <layer type="normal" width="1100" height="647">
+        <image x="0" y="0" type="none" tag="Meadow_Decorations_SummerSparkler">ASfar_02_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="none">far_02.swf</image>
+      </layer>
+      <layer type="ground" width="1896" height="1115">
+        <image x="0" y="0" type="merge" tag="Great_Games_Days_Fairy_Fireworks">action_03_greatGamesDay.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Decorations_SummerSparkler">ASaction_03_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="merge" tag="Friendship_Festival">ASaction_03_friendshipFestival.swf</image>
+        <image x="0" y="0" type="merge" tag="null">ASaction_03_friendshipFestival.swf</image>
+        <image x="0" y="0" type="merge" tag="null">action_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Decorations_Changing_Leaves_Berry_Harvest">action_03_ChangingofLeaves_A.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Decorations_Changing_Leaves_End">action_03_ChangingofLeaves_B.swf</image>
+        <image x="0" y="0" type="merge" tag="Animal_Masquerade">action_03_animalMasq.swf</image>
+        <image x="0" y="0" type="merge" tag="null">action_03_autumn_revelry_A.swf</image>
+        <image x="0" y="0" type="merge" tag="null">action_03.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Autumn_Revelry_Prep">action_03_autumn_revelry_A.swf</image>
+        <image x="0" y="0" type="merge" tag="Meadow_Autumn_Revelry_Begin">action_03_autumn_revelry_B.swf</image>
+      </layer>
+      <layer type="normal" width="2830" height="1664" lazy="true">
+        <image x="0" y="0" type="tileUnlessLazy" tag="Meadow_Decorations_SummerSparkler">ASforeground_04_EndofSummerSparker.swf</image>
+        <image x="0" y="0" type="tileUnlessLazy">foreground_04.swf</image>
+      </layer>
+    </layers>
+  </clientLayout>
+  <locations>
+    <location x="685" y="698">default</location>
+    <location x="899" y="801">fromMapleHill</location>
+    <location x="283" y="780">fromPumpkinPatch</location>
+    <location x="1355" y="748">fromCottonpuffField</location>
+    <location x="410" y="291">fromMiniGame1</location>
+    <location x="1096" y="427">fromZone110002</location>
+    <location x="1493" y="309">fromSnowdriftPass</location>
+  </locations>
+  <bgms>
+    <sfx>
+      <id>meadow_ambient_200</id>
+      <loops>0</loops>
+      <volumeLow>0.75</volumeLow>
+      <volumeHigh>0.75</volumeHigh>
+      <y>5</y>
+    </sfx>
+    <bgm>
+      <id>meadow_music_200</id>
+      <loops>1</loops>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
+    </bgm>
+    <bgm>
+      <id>meadow_music_autum_generic</id>
+      <loops>0</loops>
+      <volumeLow>0.15</volumeLow>
+      <volumeHigh>0.15</volumeHigh>
+      <delayLow>24000</delayLow>
+      <delayHigh>24000</delayHigh>
+    </bgm>
+  </bgms>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <maximumSpawnStacks/>
+  
+  <decorations/>
+  
+</zone>

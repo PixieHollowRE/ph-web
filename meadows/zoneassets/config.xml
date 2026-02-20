@@ -1,0 +1,17 @@
+<meadow>
+	<layer width="900" height="689">
+		<png x="0" y="0">MainMeadow_01_sky.png</png>
+	</layer>
+	<layer width="1052" height="972">
+		<png x="0" y="0">MainMeadow_02_mountain.png</png>
+	</layer>
+	<layer width="1140" height="1162">
+		<png x="0" y="0">MainMeadow_03_lightbeam.png</png>
+	</layer>
+	<layer width="1577" height="2283" type="ground">
+		<png x="0" y="0">MainMeadow_04_action.png</png>
+	</layer>
+	<layer width="1904" height="2746">
+		<png x="0" y="0">MainMeadow_05_foreground.png</png>
+	</layer>
+</meadow>
