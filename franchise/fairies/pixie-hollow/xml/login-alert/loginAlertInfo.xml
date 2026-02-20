@@ -1,0 +1,11 @@
+<config>
+	<imagePath>img/content/login-alert/1205-la-WeeklyMembership_nobackground.png</imagePath>
+	<headerText>Pixie Diamonds!</headerText>
+	<messageText>Get the biggest monthly Pixie Diamond allowance with an Annual Membership!</messageText>
+	<type>new_leavedisneysite</type> 
+	<zone></zone>
+	<button>Go Now</button>
+	<url>http://disney.go.com/fairies/pixie-hollow/membership/</url>
+</config>
+
+
