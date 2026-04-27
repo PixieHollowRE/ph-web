@@ -1,0 +1,14 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/hub_dashboard.swf</swf>
+		<swf type="code">{panelCode}/hub_dashboard.swf</swf>
+	</swfs>
+	<copy>
+		<logoutfail>Sorry, something's not right.  Try back later!</logoutfail>
+		<logoutfail_button>Okay</logoutfail_button>
+
+	</copy>
+	<config>
+
+	</config>
+</panel>

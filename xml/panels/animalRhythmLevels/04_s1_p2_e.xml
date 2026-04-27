@@ -1,0 +1,43 @@
+<level>
+	<introMessage>Song 1-Part 2-Easy</introMessage>
+
+	<bgTrack>audio/animalRhythm/piece1/bed.mp3</bgTrack>
+
+	<fgTrack>audio/animalRhythm/piece1/melody_2.mp3</fgTrack>
+
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var1.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var2.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var3.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var4.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var5.mp3</mistakeTrack>
+
+	<animal bedType="Mouse1" type="Mouse" wakeStates="0-0,1-6,7-12,13-120" position="mouse" />	
+	<animal bedType="Mouse2" type="Mouse2" wakeStates="0-4,5-10,11-18,19-120" position="mouse2" />
+<!--
+	<animal bedType="Chipmunk" type="Chipmunk" wakeStates="0-8,9-24,25-42,43-120" position="chipmunk" />
+	<animal bedType="Squirrel" type="Squirrel" wakeStates="0-12,13-28,29-50,51-120" position="squirrel" />
+	<animal bedType="Bunny" type="Rabbit" wakeStates="0-18,19-44,45-70,71-120" position="bunny" />	
+-->
+	
+	<target key="LEFT" secondaryKey="" position="6490.907029" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="7172.025699" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="8007.944067" length="-1" autoplay="false"/>
+	
+	<target key="LEFT" secondaryKey="" position="9633.340892" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="10469.25926" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="11336.13757" length="-1" autoplay="false"/>
+	
+	<target key="UP" secondaryKey="" position="13007.9743" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="14679.81104" length="-1" autoplay="false"/>
+	
+	<target key="LEFT" secondaryKey="" position="16258.76795" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="17899.64475" length="-1" autoplay="false"/>
+	
+	<target key="LEFT" secondaryKey="" position="19571.48148" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="20314.52003" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="21181.39834" length="-1" autoplay="false"/>
+	
+	<target key="RIGHT" secondaryKey="" position="22822.27513" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="23611.75359" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="24478.6319" length="-1" autoplay="false"/>
+</level>

@@ -1,0 +1,35 @@
+﻿<pattern>
+	<name>sash1</name>
+	<id>1</id>
+	<precompleted>1</precompleted>
+	<freeTime>8</freeTime>
+	<timeLimit>15</timeLimit>
+	<pieces>
+		<piece>
+			<name>sash1_1_4</name>
+			<texture>1</texture>
+			<xoffset>-55</xoffset>
+			<yoffset></yoffset>
+		</piece>
+	</pieces>
+	<pieces>
+		<piece>
+			<name>sash1_1_3</name>
+			<texture>1</texture>
+			<xoffset>-30</xoffset>
+			<yoffset></yoffset>
+		</piece>
+	</pieces>
+	<pieces>
+		<piece>
+			<name>sash1_1_2</name>
+			<texture>2</texture>
+			<xoffset>-55</xoffset>
+			<yoffset></yoffset>
+		</piece>
+		<piece>
+			<name>sash1_1_1</name>
+			<texture>2</texture>
+		</piece>
+	</pieces>
+</pattern>

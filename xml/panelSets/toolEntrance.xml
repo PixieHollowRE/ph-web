@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<panelSet>
+	<panels>
+		<panel id="chooser" x="0" y="0" transition="none">{panelData}/tools/toolEntrance.xml</panel>
+	</panels>
+	<copy>
+		<menutitle>Choose the tool to launch</menutitle>
+	</copy>
+</panelSet>

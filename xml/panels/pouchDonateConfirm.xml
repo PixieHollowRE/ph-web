@@ -1,0 +1,13 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/pouch_donate_confirm.swf</swf>
+		<swf type="code">{panelCode}/pouchDonateConfirm.swf</swf>
+	</swfs>
+	<copy>
+		<titlePouch>How many would you like to donate?</titlePouch>
+		<titleOther>Are you sure you would like to donate this?</titleOther>
+		<confirm target="confirmbutton.caption">Yes</confirm>
+		<close target="closebutton.caption">No</close>
+	</copy>
+	<config></config>
+</panel>

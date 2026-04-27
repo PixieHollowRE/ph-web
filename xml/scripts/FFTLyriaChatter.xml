@@ -1,0 +1,38 @@
+<!--
+	
+	*** NOTES ***
+	
+	scene.@id		:: incrementing unsigned integer
+	line			:: String containing the line of dialogue spoken by supplied role
+	line.@id 		:: incrementing unsigned integer
+	line.@role		:: String containing name of the role that is saying given line
+	line.@emote		:: optional integer id for a given emote corresponding with emoteAssets.xml
+	line.@direction	:: optional String containing containing any Stage direction that should be siplayed after
+					   given line of dialogue.
+	@useSceneTitles	:: whether or not to display scene titles on the script (1 = yes | 0 = no)
+	
+-->
+<script useSceneTitles="0">
+	<scene id="1">
+		<line id="0">Take your seats around the campfire!</line>
+		<line id="1">Shh! Lyria's story is starting!</line>
+		<line id="2">When will Lyria be back?</line>
+		<line id="3">Lyria performs every hour on the hour.</line>
+		<line id="4">How do I get the Campfire Stories badge?</line>
+		<line id="5">Wear your Troop shirt during Lyria's story!</line>
+		<line id="6">Where can I get a Troop shirt?</line>
+		<line id="7">Get Camp Troop outfits at Cassie's Costumes!</line>
+		<line id="8">I'm a master storyteller like Lyria.</line>
+		<line id="9">Let's tell campfire stories!</line>
+		<line id="10">Once upon a time. . .</line>
+		<line id="11">There was a yeti in Chilly Falls named. . .</line>
+		<line id="12">Boo!</line>
+		<line id="13">Ahh! You spooked me!</line>
+		<line id="14">Let's roast marshmallows!</line>
+		<line id="15">S'mores are pixie-licious!</line>
+		<line id="16">Let's sing a song!</line>
+		<line id="17">Everybody use the Sing emote!</line>
+		<line id="18">Hearts for Camp Pixie Dust!</line>
+		<line id="19">Nothing beats a campfire with my Fairy friends!</line>
+	</scene>
+</script>

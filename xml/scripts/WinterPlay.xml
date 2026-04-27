@@ -1,0 +1,8 @@
+<script useSceneTitles="1">
+	<scene id="1">
+		<line id="0" role="CHEESE">What a great day!</line>
+		<line id="1" role="CHEESE">I got to pull Copper's wagon and now I get to visit Tink!</line>
+		<line id="2" role="CHEESE" emote="24">She gives me cheese!</line>
+		<line id="3" role="CHEESE">Wait, what's that over there? </line>
+	</scene>
+</script>

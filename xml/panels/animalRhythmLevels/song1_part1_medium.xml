@@ -1,0 +1,35 @@
+<level>
+	<introMessage>Song 1 - Part 1 - Medium</introMessage>
+
+	<bgTrack>audio/animalRhythm/piece1/bed.mp3</bgTrack>
+
+	<fgTrack>audio/animalRhythm/piece1/melody_1.mp3</fgTrack>
+
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var1.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var2.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var3.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var4.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var5.mp3</mistakeTrack>
+
+	<animal bedType="Squirrel" type="Man" wakeStates="0-5,6-20,21-35,36-100" position="oneAnimalCentered" />
+
+	<target key="LEFT" secondaryKey="" position="6500" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="8250" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="9875" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="11530" length="-1" autoplay="false"/>
+
+	<target key="LEFT" secondaryKey="" position="13155" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="14000" length="-1" autoplay="true"/>
+	<target key="RIGHT" secondaryKey="" position="14812" length="-1" autoplay="false"/>
+
+	<target key="LEFT" secondaryKey="" position="16435" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="17220" length="-1" autoplay="true"/>
+	<target key="RIGHT" secondaryKey="" position="18094" length="-1" autoplay="false"/>
+
+	<target key="RIGHT" secondaryKey="" position="19750" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="20530" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="21375" length="-1" autoplay="true"/>
+	<target key="RIGHT" secondaryKey="" position="23030" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="23875" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="24650" length="-1" autoplay="true"/>
+</level>

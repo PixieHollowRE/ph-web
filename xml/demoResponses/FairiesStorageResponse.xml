@@ -1,0 +1,19 @@
+﻿<FairiesStorageResponse>
+	<item>
+		<item_id>7002</item_id>
+		<type>Lamp</type>
+		<color id="1">16</color>
+		<inventory_id>1</inventory_id>
+	</item>
+	<item>
+		<item_id>6504</item_id>
+		<type>Furniture</type>	
+		<color id="1">15</color>
+		<inventory_id>2</inventory_id>
+	</item>
+	<item> 
+		<item_id>7506</item_id>
+		<type>Decoration</type>	
+		<inventory_id>3</inventory_id>
+	</item>
+</FairiesStorageResponse>

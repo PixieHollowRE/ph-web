@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/toolEntrance.swf</swf>
+		<swf type="code">{panelCode}/toolEntrance.swf</swf>
+	</swfs>
+	<copy>
+		<itemtool target="ItemTool.caption">Item Tool</itemtool>
+		<speedchattool target="SpeedchatTool.caption">Speedchat</speedchattool>
+		<someother target="TagTool.caption">Tags Config</someother>
+	</copy>
+	<config>
+	</config>
+</panel>

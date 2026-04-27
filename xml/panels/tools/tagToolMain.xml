@@ -1,0 +1,13 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/tagToolMain.swf</swf>
+		<swf type="code">{panelCode}/tagToolMain.swf</swf> 
+	</swfs>
+	<copy>
+		<title target="titleTf">Tag Tool</title>
+		<backToMenu target="backButton.caption">Back</backToMenu>
+		<all>All</all>
+	</copy>
+	<config>
+	</config>
+</panel>

@@ -1,0 +1,34 @@
+<panelSet>
+	<panels>
+		<panel id="border" x="0" y="0" transition="none">{panelData}/miniGameUnitTestEx.xml</panel>
+		<panel id="selector" x="0" y="0" alwaysOnTop="true">{panelData}/unitTestGameSelection.xml</panel>
+		<panel id="minigame" x="20" y="6" alwaysOnBottom="true" transition="none">{panelData}/miniGameContainer.xml</panel>
+		
+		<!-- microgames -->
+		<!-- <panel id="exampleMicroGame" x="315" y="200" alwaysOnTop="true">{panelData}/exampleMicroGame.xml</panel>
+		<panel id="microMeterHorizontal" x="50" y="50" alwaysOnTop="true">{panelData}/microgameMicroMeterHorizontal.xml</panel>
+		<panel id="microMeter" x="250" y="100" alwaysOnTop="true">{panelData}/microgameMicroMeter.xml</panel>
+		<panel id="microMeterVertical" x="50" y="50" alwaysOnTop="true">{panelData}/microgameMicroMeterVertical.xml</panel>
+		<panel id="microMaze" x="315" y="200" alwaysOnTop="true">{panelData}/microgameMicroMaze.xml</panel>
+		<panel id="microPickUp" x="315" y="200" alwaysOnTop="true">{panelData}/microgamePickUp.xml</panel>		
+		<panel id="microClickAll" x="100" y="100" alwaysOnTop="true">{panelData}/microgameMicroDotsClickAll.xml</panel>	
+		<panel id="microClickInOrder" x="315" y="200" alwaysOnTop="true">{panelData}/microgameMicroDotsClickInOrder.xml</panel>			
+		<panel id="microDots" x="315" y="200" alwaysOnTop="true">{panelData}/microgameMicroDots.xml</panel> -->
+		
+		<panel id="Distract" x="315" y="200" alwaysOnTop="true">{panelData}/microgameDistract.xml</panel>
+		<panel id="Grow" x="315" y="200" alwaysOnTop="true">{panelData}/microgameGrow.xml</panel>
+		<panel id="Move" x="315" y="200" alwaysOnTop="true">{panelData}/microgameMove.xml</panel>
+		<panel id="Charm" x="315" y="200" alwaysOnTop="true">{panelData}/microgameCharm.xml</panel>		
+		<panel id="Splash" x="315" y="200" alwaysOnTop="true">{panelData}/microgameSplash.xml</panel>	
+		<panel id="Heal" x="315" y="200" alwaysOnTop="true">{panelData}/microgameHeal.xml</panel>
+		<panel id="Fix" x="315" y="200" alwaysOnTop="true">{panelData}/microgameFix.xml</panel>	
+		<panel id="Illuminate" x="315" y="200" alwaysOnTop="true">{panelData}/microgameIlluminate.xml</panel>	
+		<panel id="AFMemory" x="0" y="0" alwaysOnTop="true">{panelData}/microgameAnimalFriendMemory.xml</panel>	
+		<panel id="AFDragonflyRacing" x="0" y="0" alwaysOnTop="true">{panelData}/microgameAnimalFriendDragonflyRacing.xml</panel>	
+		<panel id="AFBeesEye" x="0" y="0" alwaysOnTop="true">{panelData}/microgameAnimalFriendBeesEye.xml</panel>	
+	</panels>
+	<config>
+		<testGameId>1</testGameId>
+	</config>
+	<copy></copy>
+</panelSet>

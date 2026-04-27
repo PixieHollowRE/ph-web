@@ -1,0 +1,158 @@
+﻿<FairiesFavoritesResponse>
+	<success>true</success>
+	<ComFavorites>
+		<favorite favorite_id="18">
+			<address>http://disney.go.com/fairies/books/bookdetails/troublewithtink.html?itemid=1&amp;currentpos=1</address>
+			<name>The Trouble with Tink</name>
+			<icon icon_id="180">assets/icons/activityitem_troublewtink.swf</icon>
+		</favorite>
+		<favorite favorite_id="6">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/fira.html</address>
+			<name>Fira&apos;s page</name>
+			<icon icon_id="168">assets/icons/activityitem_fira.swf</icon>
+		</favorite>
+	</ComFavorites>
+	<FairyFavorites>
+		<favorite>
+			<fairy_id>3</fairy_id>
+			<name>Emerald Lightningbeam</name>
+			<address>10SunsetFalls</address>
+			<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+			<created>2006-12-13 17:28:57</created>
+		</favorite>
+		<favorite>
+			<fairy_id>6</fairy_id>
+			<name>Cloudcliff</name>
+			<address>10CottonCloudCove</address>
+			<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+			<created>2006-12-13 17:35:03</created>
+		</favorite>
+		<favorite>
+			<fairy_id>7</fairy_id>
+			<name>Rhapsody Speedypuff</name>
+			<address>11CottonCloudCove</address>
+			<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+			<created>2006-12-13 17:35:55</created>
+		</favorite>
+		<favorite>
+			<fairy_id>8</fairy_id>
+			<name>Kiwi</name>
+			<address>10RainbowGlen</address>
+			<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+			<created>2006-12-13 17:35:30</created>
+		</favorite>
+		<favorite>
+			<fairy_id>9</fairy_id>
+			<name>Jessamine Mountainmeadow</name>
+			<address>11SunriseCliffs</address>
+			<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+			<created>2006-12-13 17:31:29</created>
+		</favorite>
+		<favorite>
+			<fairy_id>13</fairy_id>
+			<name>Emerald Lightningbeam2</name>
+			<address>10SunsetFalls</address>
+			<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+			<created>2006-12-13 17:28:57</created>
+		</favorite>
+		<favorite>
+			<fairy_id>16</fairy_id>
+			<name>Cloudcliff2</name>
+			<address>10CottonCloudCove</address>
+			<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+			<created>2006-12-13 17:35:03</created>
+		</favorite>
+		<favorite>
+			<fairy_id>17</fairy_id>
+			<name>Rhapsody Speedypuff2</name>
+			<address>11CottonCloudCove</address>
+			<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+			<created>2006-12-13 17:35:55</created>
+		</favorite>
+		<favorite>
+			<fairy_id>18</fairy_id>
+			<name>Kiwi</name>
+			<address>10RainbowGlen</address>
+			<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+			<created>2006-12-13 17:35:30</created>
+		</favorite>
+		<favorite>
+			<fairy_id>19</fairy_id>
+			<name>Jessamine Mountainmeadow</name>
+			<address>11SunriseCliffs</address>
+			<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+			<created>2006-12-13 17:31:29</created>
+		</favorite>
+		<favorite>
+			<fairy_id>23</fairy_id>
+			<name>Emerald Lightningbeam3</name>
+			<address>10SunsetFalls</address>
+			<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+			<created>2006-12-13 17:28:57</created>
+		</favorite>
+		<favorite>
+			<fairy_id>26</fairy_id>
+			<name>Cloudcliff3</name>
+			<address>10CottonCloudCove</address>
+			<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+			<created>2006-12-13 17:35:03</created>
+		</favorite>
+		<favorite>
+			<fairy_id>27</fairy_id>
+			<name>Rhapsody Speedypuff3</name>
+			<address>11CottonCloudCove</address>
+			<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+			<created>2006-12-13 17:35:55</created>
+		</favorite>
+		<favorite>
+			<fairy_id>28</fairy_id>
+			<name>Kiwi</name>
+			<address>10RainbowGlen</address>
+			<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+			<created>2006-12-13 17:35:30</created>
+		</favorite>
+		<favorite>
+			<fairy_id>29</fairy_id>
+			<name>Jessamine Mountainmeadow</name>
+			<address>11SunriseCliffs</address>
+			<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+			<created>2006-12-13 17:31:29</created>
+		</favorite>
+		<favorite>
+			<fairy_id>213</fairy_id>
+			<name>Emerald Lightningbeam4</name>
+			<address>10SunsetFalls</address>
+			<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+			<created>2006-12-13 17:28:57</created>
+		</favorite>
+		<favorite>
+			<fairy_id>216</fairy_id>
+			<name>Cloudcliff4</name>
+			<address>10CottonCloudCove</address>
+			<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+			<created>2006-12-13 17:35:03</created>
+		</favorite>
+		<favorite>
+			<fairy_id>217</fairy_id>
+			<name>Rhapsody Speedypuff4</name>
+			<address>11CottonCloudCove</address>
+			<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+			<created>2006-12-13 17:35:55</created>
+		</favorite>
+		<favorite>
+			<fairy_id>218</fairy_id>
+			<name>Kiwi</name>
+			<address>10RainbowGlen</address>
+			<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+			<created>2006-12-13 17:35:30</created>
+		</favorite>
+		<favorite>
+			<fairy_id>219</fairy_id>
+			<name>Jessamine Mountainmeadow</name>
+			<address>11SunriseCliffs</address>
+			<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+			<created>2006-12-13 17:31:29</created>
+		</favorite>
+		<totalFavorites>20</totalFavorites>
+	</FairyFavorites>
+</FairiesFavoritesResponse>

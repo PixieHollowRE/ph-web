@@ -1,0 +1,18 @@
+<FairiesFriendsResponse>
+	<success>true</success>
+	<total>2</total>
+	<fairies>
+		<fairy fairy_id="2174616">
+			<name>Abigail</name>
+			<talent>1</talent>
+			<address>74754HoveringPonds</address>
+			<icon>1</icon>
+		</fairy>
+		<fairy fairy_id="2174371">
+			<name>Sarah</name>
+			<talent>2</talent>
+			<address>37761RainbowGlen</address>
+			<icon>3</icon>
+		</fairy>
+	</fairies>
+</FairiesFriendsResponse>

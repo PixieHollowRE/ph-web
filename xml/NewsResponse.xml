@@ -1,0 +1,52 @@
+<News>
+	<category name="From the Mainland" leaf="leaf1" icon="icon1" spot="1" date="2008-5-13">
+		<headline>This is the Mainland headline!</headline>
+    		<article>
+     	 	  	<identifier>DEFAULT_PLACEHOLDER_ID</identifier>
+      	  	<title>DEFAULT TITLE</title>
+      	  	<full>
+      	      	<html><![CDATA[<span class="newsbodytext">Test <a href="popup:http://www.google.com">POPUP LINK</a> and <a href="self:http://google.com/">THIS WINDOW LINK</a> and <a href="blank:http://www.google.com">NEW WINDOW LINK</a></span>]]></html>
+     		  	</full>
+   		</article>
+	</category>
+	<category name="Test Category Two" leaf="leaf2" icon="icon2" spot="2" date="2008-5-13">
+		<headline>This is Test Category Two headline!</headline>
+    		<article>
+     	 	  	<identifier>DEFAULT_PLACEHOLDER_ID</identifier>
+      	  	<title>DEFAULT TITLE</title>
+      	  	<full>
+      	      	<html><![CDATA[<span class="newsbodytext">Test <a href="popup:http://www.google.com">POPUP LINK</a> and <a href="self:http://google.com/">THIS WINDOW LINK</a> and <a href="blank:http://www.google.com">NEW WINDOW LINK</a></span>]]></html>
+     		  	</full>
+   		</article>
+	</category>
+	<category name="Test Category Three" leaf="leaf3" icon="icon3" spot="3" date="2008-5-13">
+		<headline>This is Test Category Three headline!</headline>
+    		<article>
+     	 	  	<identifier>DEFAULT_PLACEHOLDER_ID</identifier>
+      	  	<title>DEFAULT TITLE</title>
+      	  	<full>
+      	      	<html><![CDATA[<span class="newsbodytext">Test <a href="popup:http://www.google.com">POPUP LINK</a> and <a href="self:http://google.com/">THIS WINDOW LINK</a> and <a href="blank:http://www.google.com">NEW WINDOW LINK</a></span>]]></html>
+     		  	</full>
+   		</article>
+	</category>
+	<category name="Test Category Four" leaf="leaf4" icon="icon4" spot="4" date="2008-5-13">
+		<headline>This is Test Category Four headline!</headline>
+    		<article>
+     	 	  	<identifier>DEFAULT_PLACEHOLDER_ID</identifier>
+      	  	<title>DEFAULT TITLE</title>
+      	  	<full>
+      	      	<html><![CDATA[<span class="newsbodytext">Test <a href="popup:http://www.google.com">POPUP LINK</a> and <a href="self:http://google.com/">THIS WINDOW LINK</a> and <a href="blank:http://www.google.com">NEW WINDOW LINK</a></span>]]></html>
+     		  	</full>
+   		</article>
+	</category>
+	<category name="Test Category Five" leaf="leaf5" icon="icon5" spot="5" date="2008-5-13">
+		<headline>This is Test Category Five headline!</headline>
+    		<article>
+     	 	  	<identifier>DEFAULT_PLACEHOLDER_ID</identifier>
+      	  	<title>DEFAULT TITLE</title>
+      	  	<full>
+      	      	<html><![CDATA[<span class="newsbodytext">Test <a href="popup:http://www.google.com">POPUP LINK</a> and <a href="self:http://google.com/">THIS WINDOW LINK</a> and <a href="blank:http://www.google.com">NEW WINDOW LINK</a></span>]]></html>
+     		  	</full>
+   		</article>
+	</category>
+</News>

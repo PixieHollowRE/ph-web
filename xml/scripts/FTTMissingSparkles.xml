@@ -1,0 +1,45 @@
+<script useSceneTitles="1">
+  <scene id="1">
+    <line id="0" role="BRIGHT EYES">My name is Iridessa. I'm a light-talent.</line>
+    <line id="1" role="BRIGHT EYES">But when mystery calls, I become Bright Eyes, Fairy Detective!</line>
+    <line id="2" role="FIRA" emote="1">Bright Eyes, my sparkles are missing!</line>
+    <line id="3" role="FIRA">I flew into Dulcie's Kitchen for a cookie.</line>
+    <line id="4" role="FIRA">And I left my bag of sparkles outside.</line>
+    <line id="5" role="FIRA">When I came back out, the bag was gone!</line>
+    <line id="6" role="BRIGHT EYES">Was it windy? Maybe the bag blew away.</line>
+    <line id="7" role="FIRA">There was no wind. Blaze the Firefly was there - he'll tell you.</line>
+    <line id="8" role="BRIGHT EYES" emote="8">I'd better talk to Dulcie.</line>
+  </scene>
+  <scene id="2">
+    <line id="9" role="DULCIE">Sorry, Bright Eyes. I haven't seen Fira's sparkles.</line>
+    <line id="10" role="BRIGHT EYES" direction="USE OVEN PROP">You use sparkles to light your oven fires, right?</line>
+    <line id="11" role="DULCIE">Yes. I get them from the Minister of Autumn.</line>
+    <line id="12" role="DULCIE" emote="12">He likes my Acorn Cookies!</line>
+    <line id="13" role="DULCIE">Maybe he took the sparkles with him.</line>
+    <line id="14" role="BRIGHT EYES">I'll find out. Thanks, Dulcie.</line>
+  </scene>
+  <scene id="3">
+    <line id="15" role="MINISTER">I didn't visit Dulcie today, Bright Eyes.</line>
+    <line id="16" role="MINISTER">But I do give her sparkles for her oven.</line>
+    <line id="17" role="MINISTER" emote="0">She makes the best Acorn Cookies!</line>
+    <line id="18" role="BRIGHT EYES">Who else might want sparkles, Minister?</line>
+    <line id="19" role="MINISTER">Well, fireflies love them.</line>
+    <line id="20" role="MINISTER" direction="USE SIGN PROP ON DESK">They try to sneak them all the time.</line>
+    <line id="21" role="BRIGHT EYES" emote="14">Ah-HA!</line>
+    <line id="22" role="BRIGHT EYES">Blaze the Firefly was there when her sparkles disappeared!</line>
+    <line id="23" role="BRIGHT EYES">I need to talk to Blaze!</line>
+  </scene>
+  <scene id="4">
+    <line id="24" role="BLAZE" emote="16">Bzzz!</line>
+    <line id="25" role="BLAZE" emote="25" direction="USE FLOWER PROP">Bzzz bzzz!</line>
+    <line id="26" role="BRIGHT EYES">Where did you get the sparkles, Blaze?</line>
+    <line id="27" role="BLAZE" emote="15">Bzzz!</line>
+    <line id="28" role="BRIGHT EYES">Outside of Dulcie's Kitchen?</line>
+    <line id="29" role="BLAZE" emote="16">Bzzz. Bzzz.</line>
+    <line id="30" role="BRIGHT EYES" direction="USE FLOWER PROP">Blaze, those sparkles belong to Fira.</line>
+    <line id="31" role="BLAZE" emote="13">Bzzz?</line>
+    <line id="32" role="BRIGHT EYES">Don't worry, I'll make you some sparkles myself.</line>
+    <line id="33" role="BLAZE" emote="24">Bzzz bzzz!</line>
+    <line id="34" role="BRIGHT EYES">Another mystery solved!</line>
+  </scene>
+</script>

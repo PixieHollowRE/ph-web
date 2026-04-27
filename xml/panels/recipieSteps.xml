@@ -1,0 +1,16 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/recipieSteps.swf</swf>
+		<swf type="code">{panelCode}/recipieSteps.swf</swf>
+	</swfs>
+	<copy>
+		<abort_crafting>Are you sure you want to lose your progress on this item?</abort_crafting>
+		<abort_crafting_ok>Yes</abort_crafting_ok>
+		<abort_crafting_no>No</abort_crafting_no>		
+		<doneCrafting target = "backButtonLabel.label">Back</doneCrafting>
+		<nextButton target = "nextButtonLabel.label">Next</nextButton>		
+		<titleText target = "title">Step</titleText>		
+	</copy>
+	<config>
+	</config>
+</panel>

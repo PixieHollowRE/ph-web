@@ -1,0 +1,13 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/ignoreOptions.swf</swf>
+		<swf type="code">{panelCode}/ignoreOptions.swf</swf>
+	</swfs>
+	<copy>
+		<ignore target="ignore.ignoreLabel">Ignore This Fairy</ignore>
+		<unignore target="unignore.ignoreLabel">Unignore This Fairy</unignore>
+		<report target="report.reportLabel">Report This Player</report>
+		<cancel target="cancel.cancelLabel">Cancel</cancel>
+	</copy>
+	<config></config>
+</panel>

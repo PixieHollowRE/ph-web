@@ -1,0 +1,22 @@
+<panel>
+	<swfs>
+		<swf type="content">swf/panel_content/header.swf</swf>
+		<swf type="code">swf/panel_code/header.swf</swf>
+	</swfs>
+	<copy>
+		<dbfail>Sorry, something's not right.  Try back later!</dbfail>
+		<dbfailconfirm>Okay</dbfailconfirm>
+		<on_button>on</on_button>
+		<off_button>off</off_button>
+		<login>Log In</login>
+		<logout>Log Out</logout>
+		<guest>Hello Guest!</guest>
+	</copy>
+	<config>
+		<logo>
+			<channel>site_news</channel>
+		</logo>
+	
+	</config>
+
+</panel>

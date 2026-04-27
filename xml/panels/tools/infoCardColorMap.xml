@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/infoCardColorMap.swf</swf>
+		<swf type="code">{panelCode}/infoCardColorMap.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<replace target="gradientMap" type="colorgradient" />
+		<replace target="rangeBar" type="simplescroll" vertical="false" min="0" max="1" def="1" />
+		<replace target="centerBar" type="simplescroll" vertical="false" min="0" max="1" def="1" />
+	</config>
+</panel>

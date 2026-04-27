@@ -1,0 +1,36 @@
+<level>
+	<introMessage>Song 1 - Part 2 - Hard</introMessage>
+
+	<bgTrack>audio/animalRhythm/piece1/bed.mp3</bgTrack>
+
+	<fgTrack>audio/animalRhythm/piece1/melody_2.mp3</fgTrack>
+
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var1.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var2.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var3.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var4.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece1/mistake_var5.mp3</mistakeTrack>
+
+	<animal bedType="Squirrel" type="Man" wakeStates="0-5,6-20,21-35,36-100" position="oneAnimalCentered" />
+
+	<target key="LEFT" secondaryKey="" position="6590" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="7435" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="8215" length="1000" autoplay="false"/>
+
+	<target key="LEFT" secondaryKey="" position="9875" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="10715" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="11530" length="2000" autoplay="false"/>
+
+	<target key="UP" secondaryKey="" position="13185" length="1000" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="14810" length="1000" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="16435" length="1000" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="18090" length="1000" autoplay="false"/>
+
+	<target key="LEFT" secondaryKey="" position="19780" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="20560" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="21375" length="1000" autoplay="false"/>
+
+	<target key="RIGHT" secondaryKey="" position="23030" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="23075" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="24700" length="2000" autoplay="false"/>
+</level>

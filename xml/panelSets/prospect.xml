@@ -1,0 +1,26 @@
+<panelSet>
+	<panels>
+		<panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{panelData}/bg_gradient.xml</panel>
+		<panel id="congrats" x="70" y="-38" alwaysOnTop="false">{panelData}/prospect.xml</panel>
+		<panel id="fairyvid" x="300" y="173" alwaysOnTop="true">{panelData}/fairyvideo.xml</panel>
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>prospect</trackingid>
+		<regionid>community</regionid>
+		<sectionid>prospect</sectionid>
+		<pageid>prospect</pageid>
+		<logolink>true</logolink>
+		<menu>
+			<config nav="false" title="false"/>
+			<title>
+				<text>menutitle</text>     
+			</title>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>Pixie Hollow Game Preview</menutitle>
+	</copy>
+
+</panelSet>

@@ -1,0 +1,13 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/questBackground.swf</swf>
+		<swf type="code">{panelCode}/questBackground.swf</swf>
+	</swfs>
+
+	<copy>
+	</copy>
+
+	<config>
+		<path>swf/quest/backgrounds</path>
+	</config>
+</panel>

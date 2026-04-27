@@ -1,0 +1,39 @@
+<!-- configuration for zone 110002, aka Summit Style -->
+<shopCfg>
+	<copy>
+		<collection215>-Fuzzy Formals</collection215>
+		<avail215>Available Until: March 2011</avail215>
+
+		<collection216>-Nerine Collection</collection216>
+		<avail216>Available Until: March 2011</avail216>
+
+		<collection219>-Winter Casual Wear</collection219>
+		<avail219>Available Until: March 2011</avail219>
+
+		<collection266>-Artist Gear</collection266>
+		<avail266>Available Until: March 2011</avail266>
+	</copy>
+
+	<config>
+		<collections>
+			<collection id="215" icon="16023" color="49"/>
+			<collection id="216" icon="16104" color="26"/>
+			<collection id="219" icon="16020" color="167"/>
+			<collection id="266" icon="16008" color="36"/>
+		</collections>
+
+		<catalog>
+
+			<title>Stylish New Fashions!</title>
+			<titleBackgroundFrame>sampleA</titleBackgroundFrame>
+			<backgroundTheme>autumn</backgroundTheme>
+
+			<outfits>
+				<outfit name="Fanciful Flutter Formal" backgroundFrame="autumn_1" dnaRef="blondeBigHair" />
+				<outfit name="Snowflake Formal Gown" backgroundFrame="winter_2" dnaRef="wispy" />
+				<outfit name="Tropical Island Collection" backgroundFrame="spring_3" dnaRef="glamourMane" />
+			</outfits>
+		</catalog>
+	</config>
+</shopCfg>
+

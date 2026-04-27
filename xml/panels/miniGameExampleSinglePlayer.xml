@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/singlePlayerMiniGameExample.swf</swf>
+		<swf type="code">{panelCode}/singlePlayerMiniGameExample.swf</swf>
+	</swfs>
+	<copy>
+		<title>Example Singleplayer Minigame</title>
+		<instruction0>help text first page, pulled from xml</instruction0>
+		<instruction1>help text second page</instruction1>
+		<sampleNode>someValue</sampleNode>
+	</copy>
+	<config>
+		<dummyNode>42</dummyNode>
+	</config>
+</panel>

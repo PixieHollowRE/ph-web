@@ -1,0 +1,1133 @@
+﻿<FairiesCreateMessageResponse>
+	<success>true</success>
+	<phrases>
+		<phrase phrase_id="1">
+			<text>Your site is @word_1@</text>
+			<type>Category_1</type>
+		</phrase>
+		<phrase phrase_id="2">
+			<text>Your name is @word_2@</text>
+			<type>Category_2</type>
+		</phrase>
+		<phrase phrase_id="3">
+			<text>You should visit @word_3@</text>
+			<type>Category_3</type>
+		</phrase>
+		<phrase phrase_id="4">
+			<text>I can&apos;t believe how @word_4@ you look!</text>
+			<type>Category_4</type>
+		</phrase>
+		<phrase phrase_id="5">
+			<text>I think you are @word_5@</text>
+			<type>Category_5</type>
+		</phrase>
+		<phrase phrase_id="6">
+			<text>Wow - your outfit is @word_6@</text>
+			<type>Category_6</type>
+		</phrase>
+		<phrase phrase_id="7">
+			<text>I love @word_7@ - don&apos;t you!</text>
+			<type>Category_7</type>
+		</phrase>
+		<phrase phrase_id="8">
+			<text>Your house is @word_8@</text>
+			<type>Category_8</type>
+		</phrase>
+		<phrase phrase_id="9">
+			<text>Your hair is @word_9@</text>
+			<type>Category_9</type>
+		</phrase>
+		<phrase phrase_id="10">
+			<text>Being a fairy is @word_10@</text>
+			<type>Category_10</type>
+		</phrase>
+		<phrase phrase_id="11">
+			<text>Wow - what a @word_11@ name!</text>
+			<type>Category_11</type>
+		</phrase>
+		<phrase phrase_id="12">
+			<text>I love your @word_12@</text>
+			<type>Category_12</type>
+		</phrase>
+		<phrase phrase_id="13">
+			<text>Hey there! @word_13@</text>
+			<type>Category_13</type>
+		</phrase>
+		<phrase phrase_id="14">
+			<text>I can&apos;t get enough of your @word_14@</text>
+			<type>Category_14</type>
+		</phrase>
+		<phrase phrase_id="15">
+			<text>I @word_15@ your outfit!</text>
+			<type>Category_15</type>
+		</phrase>
+	</phrases>
+	<words>
+		<word word_id="1">
+			<text>amazing!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="2">
+			<text>breathtaking!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="3">
+			<text>charming.</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="4">
+			<text>classy!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="5">
+			<text>crazy!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="6">
+			<text>curious.</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="7">
+			<text>dazzling!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="8">
+			<text>elegant!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="9">
+			<text>fantastic!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="10">
+			<text>funky!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="11">
+			<text>incredible!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="12">
+			<text>ingenious!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="13">
+			<text>linked to my site!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="14">
+			<text>magical!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="15">
+			<text>my favorite!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="16">
+			<text>peculiar.</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="17">
+			<text>pixie-perfect!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="18">
+			<text>so relaxing.</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="19">
+			<text>sparkling!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="20">
+			<text>stunning!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="21">
+			<text>the best!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="22">
+			<text>too clever!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="23">
+			<text>unique!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="24">
+			<text>wacky!</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="25">
+			<text>weird.</text>
+			<type>word_1</type>
+		</word>
+		<word word_id="26">
+			<text>a little strange.</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="27">
+			<text>awesome!</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="28">
+			<text>hilarious!</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="29">
+			<text>just like mine!</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="30">
+			<text>kind of weird?</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="31">
+			<text>really fun!</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="32">
+			<text>so beautiful!</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="33">
+			<text>so clever!</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="34">
+			<text>so cute!</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="35">
+			<text>soooo looooong!</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="36">
+			<text>sweet.</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="37">
+			<text>the best!</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="38">
+			<text>the coolest!</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="39">
+			<text>very exotic!</text>
+			<type>word_2</type>
+		</word>
+		<word word_id="40">
+			<text>my fairy page!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="41">
+			<text>Feather Forest!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="42">
+			<text>Twilight Valley!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="43">
+			<text>Sunset Falls!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="44">
+			<text>Bubble Volcano!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="45">
+			<text>Crescent Lake!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="46">
+			<text>Willow Glade!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="47">
+			<text>Pine Forest!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="48">
+			<text>Sunrise Cliffs!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="49">
+			<text>Hovering Ponds!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="50">
+			<text>Buttercup Canyon!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="51">
+			<text>Cotton Cloud Cove!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="52">
+			<text>Stillwater Springs!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="53">
+			<text>Misty Lakes!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="54">
+			<text>Clover Grove!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="55">
+			<text>Rainbow Glen!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="56">
+			<text>Flutterby Forest!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="57">
+			<text>Sparkling Valley!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="58">
+			<text>Holly Hawk Hills!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="59">
+			<text>Morning Glow Meadow!</text>
+			<type>word_3</type>
+		</word>
+		<word word_id="60">
+			<text>adorable</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="61">
+			<text>beautiful</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="62">
+			<text>crazy</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="63">
+			<text>cute</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="64">
+			<text>elegant</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="65">
+			<text>exotic</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="66">
+			<text>glowing</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="67">
+			<text>gorgeous</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="68">
+			<text>incredible</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="69">
+			<text>magical</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="70">
+			<text>pretty</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="71">
+			<text>sassy</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="72">
+			<text>shocking</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="73">
+			<text>silly</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="74">
+			<text>stunning</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="75">
+			<text>sunny</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="76">
+			<text>wacky</text>
+			<type>word_4</type>
+		</word>
+		<word word_id="77">
+			<text>a great friend.</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="78">
+			<text>a real troublemaker!</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="79">
+			<text>&quot;all beauty, no beast.&quot;</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="80">
+			<text>an awesome fairy!</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="81">
+			<text>crazy!</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="82">
+			<text>too cute.</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="83">
+			<text>&quot;light, bright and sparky!&quot;</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="84">
+			<text>ready for your close-up!</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="85">
+			<text>so beautiful!</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="86">
+			<text>so much fun!</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="87">
+			<text>so funny!</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="88">
+			<text>so well dressed!</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="89">
+			<text>so wild!</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="90">
+			<text>too much!</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="91">
+			<text>very stylish!</text>
+			<type>word_5</type>
+		</word>
+		<word word_id="92">
+			<text>absolutely fabulous!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="93">
+			<text>amazing!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="94">
+			<text>beautiful!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="95">
+			<text>crazy!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="96">
+			<text>like a rainbow!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="97">
+			<text>perfect!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="98">
+			<text>pixie-licous!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="99">
+			<text>too colorful!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="100">
+			<text>so cool!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="101">
+			<text>so stylish!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="102">
+			<text>super fashionable!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="103">
+			<text>too much fun!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="104">
+			<text>too wild!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="105">
+			<text>totally awesome!</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="106">
+			<text>really different.</text>
+			<type>word_6</type>
+		</word>
+		<word word_id="107">
+			<text>Beck</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="108">
+			<text>Bess</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="109">
+			<text>Fairies</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="110">
+			<text>Fawn</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="111">
+			<text>Fira</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="112">
+			<text>Iridessa</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="113">
+			<text>kicking up pixie dust</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="114">
+			<text>Lily</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="115">
+			<text>pixie dust</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="116">
+			<text>Pixie Hollow</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="117">
+			<text>Prilla</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="118">
+			<text>Queen Clarion</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="119">
+			<text>Rani</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="120">
+			<text>reading fairy books</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="121">
+			<text>Rosetta</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="122">
+			<text>Silvermist</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="123">
+			<text>taking polls</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="124">
+			<text>taking quizzes</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="125">
+			<text>Tinker Bell</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="126">
+			<text>Tink&apos;s Pots &apos;n&apos; Pans Jam</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="127">
+			<text>Vidia</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="128">
+			<text>visiting other fairies</text>
+			<type>word_7</type>
+		</word>
+		<word word_id="129">
+			<text>amazing!</text>
+			<type>word_8</type>
+		</word>
+		<word word_id="130">
+			<text>awesome!</text>
+			<type>word_8</type>
+		</word>
+		<word word_id="131">
+			<text>awfully cluttered.</text>
+			<type>word_8</type>
+		</word>
+		<word word_id="132">
+			<text>just like mine!</text>
+			<type>word_8</type>
+		</word>
+		<word word_id="133">
+			<text>my favorite!</text>
+			<type>word_8</type>
+		</word>
+		<word word_id="134">
+			<text>perfect!</text>
+			<type>word_8</type>
+		</word>
+		<word word_id="135">
+			<text>really original!</text>
+			<type>word_8</type>
+		</word>
+		<word word_id="136">
+			<text>so beautiful!</text>
+			<type>word_8</type>
+		</word>
+		<word word_id="137">
+			<text>so strange!</text>
+			<type>word_8</type>
+		</word>
+		<word word_id="138">
+			<text>so unusual!</text>
+			<type>word_8</type>
+		</word>
+		<word word_id="139">
+			<text>such a mess!</text>
+			<type>word_8</type>
+		</word>
+		<word word_id="140">
+			<text>too cute!</text>
+			<type>word_8</type>
+		</word>
+		<word word_id="141">
+			<text>very tidy!</text>
+			<type>word_8</type>
+		</word>
+		<word word_id="142">
+			<text>crazy!</text>
+			<type>word_9</type>
+		</word>
+		<word word_id="143">
+			<text>fabulous.</text>
+			<type>word_9</type>
+		</word>
+		<word word_id="144">
+			<text>just like mine!</text>
+			<type>word_9</type>
+		</word>
+		<word word_id="145">
+			<text>like honey!</text>
+			<type>word_9</type>
+		</word>
+		<word word_id="146">
+			<text>out of control!</text>
+			<type>word_9</type>
+		</word>
+		<word word_id="147">
+			<text>positively gorgeous!</text>
+			<type>word_9</type>
+		</word>
+		<word word_id="148">
+			<text>really wild!</text>
+			<type>word_9</type>
+		</word>
+		<word word_id="149">
+			<text>so silly!</text>
+			<type>word_9</type>
+		</word>
+		<word word_id="150">
+			<text>so awesome.</text>
+			<type>word_9</type>
+		</word>
+		<word word_id="151">
+			<text>so beautiful!</text>
+			<type>word_9</type>
+		</word>
+		<word word_id="152">
+			<text>the best.</text>
+			<type>word_9</type>
+		</word>
+		<word word_id="153">
+			<text>the coolest!</text>
+			<type>word_9</type>
+		</word>
+		<word word_id="154">
+			<text>a big responsibility.</text>
+			<type>word_10</type>
+		</word>
+		<word word_id="155">
+			<text>a lot of work!</text>
+			<type>word_10</type>
+		</word>
+		<word word_id="156">
+			<text>amazing!</text>
+			<type>word_10</type>
+		</word>
+		<word word_id="157">
+			<text>awesome!</text>
+			<type>word_10</type>
+		</word>
+		<word word_id="158">
+			<text>so much fun!</text>
+			<type>word_10</type>
+		</word>
+		<word word_id="159">
+			<text>the best!</text>
+			<type>word_10</type>
+		</word>
+		<word word_id="160">
+			<text>beautiful</text>
+			<type>word_11</type>
+		</word>
+		<word word_id="161">
+			<text>clever</text>
+			<type>word_11</type>
+		</word>
+		<word word_id="162">
+			<text>crazy</text>
+			<type>word_11</type>
+		</word>
+		<word word_id="163">
+			<text>cute</text>
+			<type>word_11</type>
+		</word>
+		<word word_id="164">
+			<text>fantastic</text>
+			<type>word_11</type>
+		</word>
+		<word word_id="165">
+			<text>great</text>
+			<type>word_11</type>
+		</word>
+		<word word_id="166">
+			<text>lovely</text>
+			<type>word_11</type>
+		</word>
+		<word word_id="167">
+			<text>perfect</text>
+			<type>word_11</type>
+		</word>
+		<word word_id="168">
+			<text>pretty</text>
+			<type>word_11</type>
+		</word>
+		<word word_id="169">
+			<text>silly</text>
+			<type>word_11</type>
+		</word>
+		<word word_id="170">
+			<text>strange</text>
+			<type>word_11</type>
+		</word>
+		<word word_id="171">
+			<text>surprising</text>
+			<type>word_11</type>
+		</word>
+		<word word_id="172">
+			<text>accessories!</text>
+			<type>word_12</type>
+		</word>
+		<word word_id="173">
+			<text>clothes!</text>
+			<type>word_12</type>
+		</word>
+		<word word_id="174">
+			<text>ensemble.</text>
+			<type>word_12</type>
+		</word>
+		<word word_id="175">
+			<text>fairy address!</text>
+			<type>word_12</type>
+		</word>
+		<word word_id="176">
+			<text>fashion sense!</text>
+			<type>word_12</type>
+		</word>
+		<word word_id="177">
+			<text>hair!</text>
+			<type>word_12</type>
+		</word>
+		<word word_id="178">
+			<text>jewelry!</text>
+			<type>word_12</type>
+		</word>
+		<word word_id="179">
+			<text>house!</text>
+			<type>word_12</type>
+		</word>
+		<word word_id="180">
+			<text>name!</text>
+			<type>word_12</type>
+		</word>
+		<word word_id="181">
+			<text>outfit!</text>
+			<type>word_12</type>
+		</word>
+		<word word_id="182">
+			<text>page!</text>
+			<type>word_12</type>
+		</word>
+		<word word_id="183">
+			<text>Are you new here?</text>
+			<type>word_13</type>
+		</word>
+		<word word_id="184">
+			<text>Fly with you!</text>
+			<type>word_13</type>
+		</word>
+		<word word_id="185">
+			<text>I love your page!</text>
+			<type>word_13</type>
+		</word>
+		<word word_id="186">
+			<text>Leave me a message!</text>
+			<type>word_13</type>
+		</word>
+		<word word_id="187">
+			<text>Nice to meet you!</text>
+			<type>word_13</type>
+		</word>
+		<word word_id="188">
+			<text>Welcome to Pixie Hollow!</text>
+			<type>word_13</type>
+		</word>
+		<word word_id="189">
+			<text>Welcome to the neighborhood!</text>
+			<type>word_13</type>
+		</word>
+		<word word_id="190">
+			<text>Your page is great!</text>
+			<type>word_13</type>
+		</word>
+		<word word_id="191">
+			<text>amazing house!</text>
+			<type>word_14</type>
+		</word>
+		<word word_id="192">
+			<text>awesome page!</text>
+			<type>word_14</type>
+		</word>
+		<word word_id="193">
+			<text>groovy hair!</text>
+			<type>word_14</type>
+		</word>
+		<word word_id="194">
+			<text>fabulous threads!</text>
+			<type>word_14</type>
+		</word>
+		<word word_id="195">
+			<text>stylish clothes!</text>
+			<type>word_14</type>
+		</word>
+		<word word_id="196">
+			<text>am in awe of</text>
+			<type>word_15</type>
+		</word>
+		<word word_id="197">
+			<text>am so jealous of</text>
+			<type>word_15</type>
+		</word>
+		<word word_id="198">
+			<text>love</text>
+			<type>word_15</type>
+		</word>
+		<word word_id="199">
+			<text>must have</text>
+			<type>word_15</type>
+		</word>
+		<word word_id="200">
+			<text>simply adore</text>
+			<type>word_15</type>
+		</word>
+		<word word_id="201">
+			<text>want to wear</text>
+			<type>word_15</type>
+		</word>
+		<word word_id="202">
+			<text>wish I had</text>
+			<type>word_15</type>
+		</word>
+	</words>
+	<backgrounds>
+		<item item_id="1" name="MsgBack_8_green" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="1">assets/messages/background09_green.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3572</inventoryId>
+		</item>
+		<item item_id="2" name="MsgBack_8_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="2">assets/messages/background09_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3573</inventoryId>
+		</item>
+		<item item_id="3" name="MsgBack_8_yellow" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="3">assets/messages/background09_yellow.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3574</inventoryId>
+		</item>
+		<item item_id="4" name="MsgBack_7_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="4">assets/messages/background08_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3575</inventoryId>
+		</item>
+		<item item_id="5" name="MsgBack_7_yellow" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="5">assets/messages/background08_yellow.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3576</inventoryId>
+		</item>
+		<item item_id="6" name="MsgBack_8_blue" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="6">assets/messages/background09_blue.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3577</inventoryId>
+		</item>
+		<item item_id="7" name="MsgBack_6_yellow" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="7">assets/messages/background07_yellow.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3578</inventoryId>
+		</item>
+		<item item_id="8" name="MsgBack_7_blue" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="8">assets/messages/background08_blue.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3579</inventoryId>
+		</item>
+		<item item_id="9" name="MsgBack_7_green" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="9">assets/messages/background08_green.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3580</inventoryId>
+		</item>
+		<item item_id="10" name="MsgBack_6_blue" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="10">assets/messages/background07_blue.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3581</inventoryId>
+		</item>
+		<item item_id="11" name="MsgBack_6_green" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="11">assets/messages/background07_green.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3582</inventoryId>
+		</item>
+		<item item_id="12" name="MsgBack_6_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="12">assets/messages/background07_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3583</inventoryId>
+		</item>
+		<item item_id="13" name="MsgBack_5_green" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="13">assets/messages/background06_green.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3584</inventoryId>
+		</item>
+		<item item_id="14" name="MsgBack_5_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="14">assets/messages/background06_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3585</inventoryId>
+		</item>
+		<item item_id="15" name="MsgBack_5_yellow" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="15">assets/messages/background06_yellow.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3586</inventoryId>
+		</item>
+		<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3587</inventoryId>
+		</item>
+		<item item_id="17" name="MsgBack_4_yellow" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="17">assets/messages/background05_yellow.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3588</inventoryId>
+		</item>
+		<item item_id="18" name="MsgBack_5_blue" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="18">assets/messages/background06_blue.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3589</inventoryId>
+		</item>
+		<item item_id="19" name="MsgBack_3_yellow" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="19">assets/messages/background04_yellow.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3590</inventoryId>
+		</item>
+		<item item_id="20" name="MsgBack_4_blue" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="20">assets/messages/background05_blue.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3591</inventoryId>
+		</item>
+		<item item_id="21" name="MsgBack_4_green" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="21">assets/messages/background05_green.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3592</inventoryId>
+		</item>
+		<item item_id="22" name="MsgBack_3_blue" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="22">assets/messages/background04_blue.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3593</inventoryId>
+		</item>
+		<item item_id="23" name="MsgBack_3_green" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="23">assets/messages/background04_green.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3594</inventoryId>
+		</item>
+		<item item_id="24" name="MsgBack_3_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="24">assets/messages/background04_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3595</inventoryId>
+		</item>
+		<item item_id="25" name="MsgBack_2_green" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="25">assets/messages/background03_green.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3596</inventoryId>
+		</item>
+		<item item_id="26" name="MsgBack_2_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="26">assets/messages/background03_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3597</inventoryId>
+		</item>
+		<item item_id="27" name="MsgBack_2_yellow" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="27">assets/messages/background03_yellow.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3598</inventoryId>
+		</item>
+		<item item_id="28" name="MsgBack_1_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="28">assets/messages/background02_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3599</inventoryId>
+		</item>
+		<item item_id="29" name="MsgBack_1_yellow" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="29">assets/messages/background02_yellow.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3600</inventoryId>
+		</item>
+		<item item_id="30" name="MsgBack_2_blue" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="30">assets/messages/background03_blue.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3601</inventoryId>
+		</item>
+		<item item_id="32" name="MsgBack_1_blue" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="32">assets/messages/background02_blue.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3602</inventoryId>
+		</item>
+		<item item_id="33" name="MsgBack_1_green" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="33">assets/messages/background02_green.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3603</inventoryId>
+		</item>
+	</backgrounds>
+</FairiesCreateMessageResponse>

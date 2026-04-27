@@ -1,0 +1,3130 @@
+﻿<FairiesWardrobeResponse>
+	<success>true</success>
+	<WardrobeCollection type="Necklace">
+		<item item_id="44" name="Necklace_none" type="Necklace">
+			<asset asset_id="192">assets/icons/noneitem.swf</asset>
+			<color color_id="37" number="1">204 214 255</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="44">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<color_pool number="1">
+				<color color_id="37">204 214 255</color>
+			</color_pool>
+			<inventoryId>3612</inventoryId>
+		</item>
+		<item item_id="195" name="Necklace_2" type="Necklace">
+			<asset asset_id="339">assets/icons/first_necklace2.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="195">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3876</inventoryId>
+		</item>
+		<item item_id="195" name="Necklace_2" type="Necklace">
+			<asset asset_id="339">assets/icons/first_necklace2.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="195">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3877</inventoryId>
+		</item>
+		<item item_id="195" name="Necklace_2" type="Necklace">
+			<asset asset_id="339">assets/icons/first_necklace2.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="195">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3878</inventoryId>
+		</item>
+		<item item_id="195" name="Necklace_2" type="Necklace">
+			<asset asset_id="339">assets/icons/first_necklace2.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="195">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3879</inventoryId>
+		</item>
+		<item item_id="195" name="Necklace_2" type="Necklace">
+			<asset asset_id="339">assets/icons/first_necklace2.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="195">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3880</inventoryId>
+		</item>
+		<item item_id="195" name="Necklace_2" type="Necklace">
+			<asset asset_id="339">assets/icons/first_necklace2.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="195">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3881</inventoryId>
+		</item>
+		<item item_id="200" name="Necklace_7" type="Necklace">
+			<asset asset_id="344">assets/icons/first_necklace7.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="200">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3882</inventoryId>
+		</item>
+		<item item_id="200" name="Necklace_7" type="Necklace">
+			<asset asset_id="344">assets/icons/first_necklace7.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="200">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3883</inventoryId>
+		</item>
+		<item item_id="200" name="Necklace_7" type="Necklace">
+			<asset asset_id="344">assets/icons/first_necklace7.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="200">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3884</inventoryId>
+		</item>
+		<item item_id="200" name="Necklace_7" type="Necklace">
+			<asset asset_id="344">assets/icons/first_necklace7.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="200">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3885</inventoryId>
+		</item>
+		<item item_id="200" name="Necklace_7" type="Necklace">
+			<asset asset_id="344">assets/icons/first_necklace7.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="200">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3886</inventoryId>
+		</item>
+		<item item_id="200" name="Necklace_7" type="Necklace">
+			<asset asset_id="344">assets/icons/first_necklace7.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="200">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3887</inventoryId>
+		</item>
+		<item item_id="202" name="Necklace_9" type="Necklace">
+			<asset asset_id="346">assets/icons/first_necklace9.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="202">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>10</frame>
+			</piece>
+			<inventoryId>3888</inventoryId>
+		</item>
+		<item item_id="202" name="Necklace_9" type="Necklace">
+			<asset asset_id="346">assets/icons/first_necklace9.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="202">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>10</frame>
+			</piece>
+			<inventoryId>3889</inventoryId>
+		</item>
+		<item item_id="202" name="Necklace_9" type="Necklace">
+			<asset asset_id="346">assets/icons/first_necklace9.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="202">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>10</frame>
+			</piece>
+			<inventoryId>3890</inventoryId>
+		</item>
+		<item item_id="202" name="Necklace_9" type="Necklace">
+			<asset asset_id="346">assets/icons/first_necklace9.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="202">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>10</frame>
+			</piece>
+			<inventoryId>3891</inventoryId>
+		</item>
+		<item item_id="202" name="Necklace_9" type="Necklace">
+			<asset asset_id="346">assets/icons/first_necklace9.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="202">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>10</frame>
+			</piece>
+			<inventoryId>3892</inventoryId>
+		</item>
+		<item item_id="202" name="Necklace_9" type="Necklace">
+			<asset asset_id="346">assets/icons/first_necklace9.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="202">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>10</frame>
+			</piece>
+			<inventoryId>3893</inventoryId>
+		</item>
+		<item item_id="203" name="Necklace_10" type="Necklace">
+			<asset asset_id="347">assets/icons/first_necklace10.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="203">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<inventoryId>3894</inventoryId>
+		</item>
+		<item item_id="203" name="Necklace_10" type="Necklace">
+			<asset asset_id="347">assets/icons/first_necklace10.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="203">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<inventoryId>3895</inventoryId>
+		</item>
+		<item item_id="203" name="Necklace_10" type="Necklace">
+			<asset asset_id="347">assets/icons/first_necklace10.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="203">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<inventoryId>3896</inventoryId>
+		</item>
+		<item item_id="203" name="Necklace_10" type="Necklace">
+			<asset asset_id="347">assets/icons/first_necklace10.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="203">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<inventoryId>3897</inventoryId>
+		</item>
+		<item item_id="203" name="Necklace_10" type="Necklace">
+			<asset asset_id="347">assets/icons/first_necklace10.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="203">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<inventoryId>3898</inventoryId>
+		</item>
+		<item item_id="203" name="Necklace_10" type="Necklace">
+			<asset asset_id="347">assets/icons/first_necklace10.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="203">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<inventoryId>3899</inventoryId>
+		</item>
+		<item item_id="204" name="Necklace_11" type="Necklace">
+			<asset asset_id="348">assets/icons/first_necklace11.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="204">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3900</inventoryId>
+		</item>
+		<item item_id="204" name="Necklace_11" type="Necklace">
+			<asset asset_id="348">assets/icons/first_necklace11.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="204">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3901</inventoryId>
+		</item>
+		<item item_id="204" name="Necklace_11" type="Necklace">
+			<asset asset_id="348">assets/icons/first_necklace11.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="204">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3902</inventoryId>
+		</item>
+		<item item_id="204" name="Necklace_11" type="Necklace">
+			<asset asset_id="348">assets/icons/first_necklace11.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="204">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3903</inventoryId>
+		</item>
+		<item item_id="204" name="Necklace_11" type="Necklace">
+			<asset asset_id="348">assets/icons/first_necklace11.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="204">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3904</inventoryId>
+		</item>
+		<item item_id="204" name="Necklace_11" type="Necklace">
+			<asset asset_id="348">assets/icons/first_necklace11.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="204">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3905</inventoryId>
+		</item>
+	</WardrobeCollection>
+	<WardrobeCollection type="HeadItem">
+		<item item_id="48" name="Headpiece_none" type="HeadItem">
+			<asset asset_id="192">assets/icons/noneitem.swf</asset>
+			<color color_id="37" number="1">204 214 255</color>
+			<piece type="HeadPiece">
+				<asset asset_id="48">assets/avatar/first_headpiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<color_pool number="1">
+				<color color_id="37">204 214 255</color>
+			</color_pool>
+			<inventoryId>3616</inventoryId>
+		</item>
+		<item item_id="175" name="Headpiece_1" type="HeadItem">
+			<asset asset_id="319">assets/icons/first_headitem1.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="HeadPiece">
+				<asset asset_id="175">assets/avatar/first_headpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<inventoryId>3846</inventoryId>
+		</item>
+		<item item_id="175" name="Headpiece_1" type="HeadItem">
+			<asset asset_id="319">assets/icons/first_headitem1.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="HeadPiece">
+				<asset asset_id="175">assets/avatar/first_headpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<inventoryId>3847</inventoryId>
+		</item>
+		<item item_id="175" name="Headpiece_1" type="HeadItem">
+			<asset asset_id="319">assets/icons/first_headitem1.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="HeadPiece">
+				<asset asset_id="175">assets/avatar/first_headpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<inventoryId>3848</inventoryId>
+		</item>
+		<item item_id="175" name="Headpiece_1" type="HeadItem">
+			<asset asset_id="319">assets/icons/first_headitem1.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="HeadPiece">
+				<asset asset_id="175">assets/avatar/first_headpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<inventoryId>3849</inventoryId>
+		</item>
+		<item item_id="175" name="Headpiece_1" type="HeadItem">
+			<asset asset_id="319">assets/icons/first_headitem1.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="HeadPiece">
+				<asset asset_id="175">assets/avatar/first_headpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<inventoryId>3850</inventoryId>
+		</item>
+		<item item_id="175" name="Headpiece_1" type="HeadItem">
+			<asset asset_id="319">assets/icons/first_headitem1.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="HeadPiece">
+				<asset asset_id="175">assets/avatar/first_headpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<inventoryId>3851</inventoryId>
+		</item>
+		<item item_id="180" name="Headpiece_6" type="HeadItem">
+			<asset asset_id="324">assets/icons/first_headitem6.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="HeadPiece">
+				<asset asset_id="180">assets/avatar/first_headpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3852</inventoryId>
+		</item>
+		<item item_id="180" name="Headpiece_6" type="HeadItem">
+			<asset asset_id="324">assets/icons/first_headitem6.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="HeadPiece">
+				<asset asset_id="180">assets/avatar/first_headpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3853</inventoryId>
+		</item>
+		<item item_id="180" name="Headpiece_6" type="HeadItem">
+			<asset asset_id="324">assets/icons/first_headitem6.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="HeadPiece">
+				<asset asset_id="180">assets/avatar/first_headpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3854</inventoryId>
+		</item>
+		<item item_id="180" name="Headpiece_6" type="HeadItem">
+			<asset asset_id="324">assets/icons/first_headitem6.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="HeadPiece">
+				<asset asset_id="180">assets/avatar/first_headpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3855</inventoryId>
+		</item>
+		<item item_id="180" name="Headpiece_6" type="HeadItem">
+			<asset asset_id="324">assets/icons/first_headitem6.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="HeadPiece">
+				<asset asset_id="180">assets/avatar/first_headpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3856</inventoryId>
+		</item>
+		<item item_id="180" name="Headpiece_6" type="HeadItem">
+			<asset asset_id="324">assets/icons/first_headitem6.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="HeadPiece">
+				<asset asset_id="180">assets/avatar/first_headpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3857</inventoryId>
+		</item>
+		<item item_id="185" name="Headpiece_11" type="HeadItem">
+			<asset asset_id="329">assets/icons/first_headitem11.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="HeadPiece">
+				<asset asset_id="185">assets/avatar/first_headpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3858</inventoryId>
+		</item>
+		<item item_id="185" name="Headpiece_11" type="HeadItem">
+			<asset asset_id="329">assets/icons/first_headitem11.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="HeadPiece">
+				<asset asset_id="185">assets/avatar/first_headpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3859</inventoryId>
+		</item>
+		<item item_id="185" name="Headpiece_11" type="HeadItem">
+			<asset asset_id="329">assets/icons/first_headitem11.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="HeadPiece">
+				<asset asset_id="185">assets/avatar/first_headpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3860</inventoryId>
+		</item>
+		<item item_id="185" name="Headpiece_11" type="HeadItem">
+			<asset asset_id="329">assets/icons/first_headitem11.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="HeadPiece">
+				<asset asset_id="185">assets/avatar/first_headpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3861</inventoryId>
+		</item>
+		<item item_id="185" name="Headpiece_11" type="HeadItem">
+			<asset asset_id="329">assets/icons/first_headitem11.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="HeadPiece">
+				<asset asset_id="185">assets/avatar/first_headpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3862</inventoryId>
+		</item>
+		<item item_id="185" name="Headpiece_11" type="HeadItem">
+			<asset asset_id="329">assets/icons/first_headitem11.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="HeadPiece">
+				<asset asset_id="185">assets/avatar/first_headpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3863</inventoryId>
+		</item>
+		<item item_id="186" name="Headpiece_12" type="HeadItem">
+			<asset asset_id="330">assets/icons/first_headitem12.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="HeadPiece">
+				<asset asset_id="186">assets/avatar/first_headpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<inventoryId>3864</inventoryId>
+		</item>
+		<item item_id="186" name="Headpiece_12" type="HeadItem">
+			<asset asset_id="330">assets/icons/first_headitem12.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="HeadPiece">
+				<asset asset_id="186">assets/avatar/first_headpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<inventoryId>3865</inventoryId>
+		</item>
+		<item item_id="186" name="Headpiece_12" type="HeadItem">
+			<asset asset_id="330">assets/icons/first_headitem12.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="HeadPiece">
+				<asset asset_id="186">assets/avatar/first_headpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<inventoryId>3866</inventoryId>
+		</item>
+		<item item_id="186" name="Headpiece_12" type="HeadItem">
+			<asset asset_id="330">assets/icons/first_headitem12.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="HeadPiece">
+				<asset asset_id="186">assets/avatar/first_headpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<inventoryId>3867</inventoryId>
+		</item>
+		<item item_id="186" name="Headpiece_12" type="HeadItem">
+			<asset asset_id="330">assets/icons/first_headitem12.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="HeadPiece">
+				<asset asset_id="186">assets/avatar/first_headpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<inventoryId>3868</inventoryId>
+		</item>
+		<item item_id="186" name="Headpiece_12" type="HeadItem">
+			<asset asset_id="330">assets/icons/first_headitem12.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="HeadPiece">
+				<asset asset_id="186">assets/avatar/first_headpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<inventoryId>3869</inventoryId>
+		</item>
+		<item item_id="190" name="Headpiece_16" type="HeadItem">
+			<asset asset_id="334">assets/icons/first_headitem16.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="HeadPiece">
+				<asset asset_id="190">assets/avatar/first_headpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<inventoryId>3870</inventoryId>
+		</item>
+		<item item_id="190" name="Headpiece_16" type="HeadItem">
+			<asset asset_id="334">assets/icons/first_headitem16.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="HeadPiece">
+				<asset asset_id="190">assets/avatar/first_headpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<inventoryId>3871</inventoryId>
+		</item>
+		<item item_id="190" name="Headpiece_16" type="HeadItem">
+			<asset asset_id="334">assets/icons/first_headitem16.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="HeadPiece">
+				<asset asset_id="190">assets/avatar/first_headpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<inventoryId>3872</inventoryId>
+		</item>
+		<item item_id="190" name="Headpiece_16" type="HeadItem">
+			<asset asset_id="334">assets/icons/first_headitem16.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="HeadPiece">
+				<asset asset_id="190">assets/avatar/first_headpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<inventoryId>3873</inventoryId>
+		</item>
+		<item item_id="190" name="Headpiece_16" type="HeadItem">
+			<asset asset_id="334">assets/icons/first_headitem16.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="HeadPiece">
+				<asset asset_id="190">assets/avatar/first_headpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<inventoryId>3874</inventoryId>
+		</item>
+		<item item_id="190" name="Headpiece_16" type="HeadItem">
+			<asset asset_id="334">assets/icons/first_headitem16.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="HeadPiece">
+				<asset asset_id="190">assets/avatar/first_headpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<inventoryId>3875</inventoryId>
+		</item>
+	</WardrobeCollection>
+	<WardrobeCollection type="Shirt">
+		<item item_id="105" name="Top_2" type="Shirt">
+			<asset asset_id="249">assets/icons/first_shirt2.swf</asset>
+			<color color_id="2" number="1">116 207 129</color>
+			<piece type="ChestPiece">
+				<asset asset_id="105">assets/avatar/first_chestpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="105">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="105">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<inventoryId>3726</inventoryId>
+		</item>
+		<item item_id="105" name="Top_2" type="Shirt">
+			<asset asset_id="249">assets/icons/first_shirt2.swf</asset>
+			<color color_id="8" number="1">218 100 139</color>
+			<piece type="ChestPiece">
+				<asset asset_id="105">assets/avatar/first_chestpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="105">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="105">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<inventoryId>3727</inventoryId>
+		</item>
+		<item item_id="105" name="Top_2" type="Shirt">
+			<asset asset_id="249">assets/icons/first_shirt2.swf</asset>
+			<color color_id="10" number="1">255 188 109</color>
+			<piece type="ChestPiece">
+				<asset asset_id="105">assets/avatar/first_chestpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="105">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="105">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<inventoryId>3728</inventoryId>
+		</item>
+		<item item_id="105" name="Top_2" type="Shirt">
+			<asset asset_id="249">assets/icons/first_shirt2.swf</asset>
+			<color color_id="13" number="1">240 97 81</color>
+			<piece type="ChestPiece">
+				<asset asset_id="105">assets/avatar/first_chestpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="105">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="105">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<inventoryId>3729</inventoryId>
+		</item>
+		<item item_id="105" name="Top_2" type="Shirt">
+			<asset asset_id="249">assets/icons/first_shirt2.swf</asset>
+			<color color_id="14" number="1">159 67 206</color>
+			<piece type="ChestPiece">
+				<asset asset_id="105">assets/avatar/first_chestpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="105">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="105">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<inventoryId>3730</inventoryId>
+		</item>
+		<item item_id="105" name="Top_2" type="Shirt">
+			<asset asset_id="249">assets/icons/first_shirt2.swf</asset>
+			<color color_id="17" number="1">217 255 135</color>
+			<piece type="ChestPiece">
+				<asset asset_id="105">assets/avatar/first_chestpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="105">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="105">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<inventoryId>3731</inventoryId>
+		</item>
+		<item item_id="109" name="Top_6" type="Shirt">
+			<asset asset_id="253">assets/icons/first_shirt6.swf</asset>
+			<color color_id="2" number="1">116 207 129</color>
+			<piece type="ChestPiece">
+				<asset asset_id="109">assets/avatar/first_chestpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="109">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="109">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3732</inventoryId>
+		</item>
+		<item item_id="109" name="Top_6" type="Shirt">
+			<asset asset_id="253">assets/icons/first_shirt6.swf</asset>
+			<color color_id="8" number="1">218 100 139</color>
+			<piece type="ChestPiece">
+				<asset asset_id="109">assets/avatar/first_chestpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="109">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="109">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3733</inventoryId>
+		</item>
+		<item item_id="109" name="Top_6" type="Shirt">
+			<asset asset_id="253">assets/icons/first_shirt6.swf</asset>
+			<color color_id="10" number="1">255 188 109</color>
+			<piece type="ChestPiece">
+				<asset asset_id="109">assets/avatar/first_chestpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="109">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="109">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3734</inventoryId>
+		</item>
+		<item item_id="109" name="Top_6" type="Shirt">
+			<asset asset_id="253">assets/icons/first_shirt6.swf</asset>
+			<color color_id="13" number="1">240 97 81</color>
+			<piece type="ChestPiece">
+				<asset asset_id="109">assets/avatar/first_chestpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="109">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="109">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3735</inventoryId>
+		</item>
+		<item item_id="109" name="Top_6" type="Shirt">
+			<asset asset_id="253">assets/icons/first_shirt6.swf</asset>
+			<color color_id="14" number="1">159 67 206</color>
+			<piece type="ChestPiece">
+				<asset asset_id="109">assets/avatar/first_chestpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="109">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="109">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3736</inventoryId>
+		</item>
+		<item item_id="109" name="Top_6" type="Shirt">
+			<asset asset_id="253">assets/icons/first_shirt6.swf</asset>
+			<color color_id="17" number="1">217 255 135</color>
+			<piece type="ChestPiece">
+				<asset asset_id="109">assets/avatar/first_chestpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="109">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="109">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3737</inventoryId>
+		</item>
+		<item item_id="114" name="Top_11" type="Shirt">
+			<asset asset_id="258">assets/icons/first_shirt11.swf</asset>
+			<color color_id="2" number="1">116 207 129</color>
+			<piece type="ChestPiece">
+				<asset asset_id="114">assets/avatar/first_chestpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="114">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="114">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<inventoryId>3738</inventoryId>
+		</item>
+		<item item_id="114" name="Top_11" type="Shirt">
+			<asset asset_id="258">assets/icons/first_shirt11.swf</asset>
+			<color color_id="8" number="1">218 100 139</color>
+			<piece type="ChestPiece">
+				<asset asset_id="114">assets/avatar/first_chestpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="114">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="114">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<inventoryId>3739</inventoryId>
+		</item>
+		<item item_id="114" name="Top_11" type="Shirt">
+			<asset asset_id="258">assets/icons/first_shirt11.swf</asset>
+			<color color_id="10" number="1">255 188 109</color>
+			<piece type="ChestPiece">
+				<asset asset_id="114">assets/avatar/first_chestpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="114">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="114">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<inventoryId>3740</inventoryId>
+		</item>
+		<item item_id="114" name="Top_11" type="Shirt">
+			<asset asset_id="258">assets/icons/first_shirt11.swf</asset>
+			<color color_id="13" number="1">240 97 81</color>
+			<piece type="ChestPiece">
+				<asset asset_id="114">assets/avatar/first_chestpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="114">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="114">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<inventoryId>3741</inventoryId>
+		</item>
+		<item item_id="114" name="Top_11" type="Shirt">
+			<asset asset_id="258">assets/icons/first_shirt11.swf</asset>
+			<color color_id="14" number="1">159 67 206</color>
+			<piece type="ChestPiece">
+				<asset asset_id="114">assets/avatar/first_chestpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="114">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="114">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<inventoryId>3742</inventoryId>
+		</item>
+		<item item_id="114" name="Top_11" type="Shirt">
+			<asset asset_id="258">assets/icons/first_shirt11.swf</asset>
+			<color color_id="17" number="1">217 255 135</color>
+			<piece type="ChestPiece">
+				<asset asset_id="114">assets/avatar/first_chestpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="114">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="114">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<inventoryId>3743</inventoryId>
+		</item>
+		<item item_id="115" name="Top_12" type="Shirt">
+			<asset asset_id="259">assets/icons/first_shirt12.swf</asset>
+			<color color_id="2" number="1">116 207 129</color>
+			<piece type="ChestPiece">
+				<asset asset_id="115">assets/avatar/first_chestpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="115">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="115">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3744</inventoryId>
+		</item>
+		<item item_id="115" name="Top_12" type="Shirt">
+			<asset asset_id="259">assets/icons/first_shirt12.swf</asset>
+			<color color_id="8" number="1">218 100 139</color>
+			<piece type="ChestPiece">
+				<asset asset_id="115">assets/avatar/first_chestpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="115">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="115">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3745</inventoryId>
+		</item>
+		<item item_id="115" name="Top_12" type="Shirt">
+			<asset asset_id="259">assets/icons/first_shirt12.swf</asset>
+			<color color_id="10" number="1">255 188 109</color>
+			<piece type="ChestPiece">
+				<asset asset_id="115">assets/avatar/first_chestpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="115">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="115">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3746</inventoryId>
+		</item>
+		<item item_id="115" name="Top_12" type="Shirt">
+			<asset asset_id="259">assets/icons/first_shirt12.swf</asset>
+			<color color_id="13" number="1">240 97 81</color>
+			<piece type="ChestPiece">
+				<asset asset_id="115">assets/avatar/first_chestpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="115">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="115">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3747</inventoryId>
+		</item>
+		<item item_id="115" name="Top_12" type="Shirt">
+			<asset asset_id="259">assets/icons/first_shirt12.swf</asset>
+			<color color_id="14" number="1">159 67 206</color>
+			<piece type="ChestPiece">
+				<asset asset_id="115">assets/avatar/first_chestpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="115">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="115">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3748</inventoryId>
+		</item>
+		<item item_id="115" name="Top_12" type="Shirt">
+			<asset asset_id="259">assets/icons/first_shirt12.swf</asset>
+			<color color_id="17" number="1">217 255 135</color>
+			<piece type="ChestPiece">
+				<asset asset_id="115">assets/avatar/first_chestpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="115">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="115">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3749</inventoryId>
+		</item>
+		<item item_id="116" name="Top_13" type="Shirt">
+			<asset asset_id="260">assets/icons/first_shirt13.swf</asset>
+			<color color_id="2" number="1">116 207 129</color>
+			<piece type="ChestPiece">
+				<asset asset_id="116">assets/avatar/first_chestpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="116">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="116">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<inventoryId>3750</inventoryId>
+		</item>
+		<item item_id="116" name="Top_13" type="Shirt">
+			<asset asset_id="260">assets/icons/first_shirt13.swf</asset>
+			<color color_id="8" number="1">218 100 139</color>
+			<piece type="ChestPiece">
+				<asset asset_id="116">assets/avatar/first_chestpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="116">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="116">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<inventoryId>3751</inventoryId>
+		</item>
+		<item item_id="116" name="Top_13" type="Shirt">
+			<asset asset_id="260">assets/icons/first_shirt13.swf</asset>
+			<color color_id="10" number="1">255 188 109</color>
+			<piece type="ChestPiece">
+				<asset asset_id="116">assets/avatar/first_chestpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="116">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="116">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<inventoryId>3752</inventoryId>
+		</item>
+		<item item_id="116" name="Top_13" type="Shirt">
+			<asset asset_id="260">assets/icons/first_shirt13.swf</asset>
+			<color color_id="13" number="1">240 97 81</color>
+			<piece type="ChestPiece">
+				<asset asset_id="116">assets/avatar/first_chestpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="116">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="116">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<inventoryId>3753</inventoryId>
+		</item>
+		<item item_id="116" name="Top_13" type="Shirt">
+			<asset asset_id="260">assets/icons/first_shirt13.swf</asset>
+			<color color_id="14" number="1">159 67 206</color>
+			<piece type="ChestPiece">
+				<asset asset_id="116">assets/avatar/first_chestpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="116">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="116">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<inventoryId>3754</inventoryId>
+		</item>
+		<item item_id="116" name="Top_13" type="Shirt">
+			<asset asset_id="260">assets/icons/first_shirt13.swf</asset>
+			<color color_id="17" number="1">217 255 135</color>
+			<piece type="ChestPiece">
+				<asset asset_id="116">assets/avatar/first_chestpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="116">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="116">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<inventoryId>3755</inventoryId>
+		</item>
+		<item item_id="104" name="Top_1" type="Shirt">
+			<asset asset_id="248">assets/icons/first_shirt1.swf</asset>
+			<color color_id="12" number="1">255 124 72</color>
+			<piece type="ChestPiece">
+				<asset asset_id="104">assets/avatar/first_chestpiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="104">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="104">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<color_pool number="1">
+				<color color_id="12">255 124 72</color>
+			</color_pool>
+			<inventoryId>3967</inventoryId>
+		</item>
+	</WardrobeCollection>
+	<WardrobeCollection type="Skirt">
+		<item item_id="145" name="Bottom_3" type="Skirt">
+			<asset asset_id="289">assets/icons/first_skirt3.swf</asset>
+			<color color_id="20" number="1">93 190 107</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="145">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="145">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="145">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="145">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="145">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3786</inventoryId>
+		</item>
+		<item item_id="145" name="Bottom_3" type="Skirt">
+			<asset asset_id="289">assets/icons/first_skirt3.swf</asset>
+			<color color_id="26" number="1">201 79 119</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="145">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="145">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="145">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="145">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="145">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3787</inventoryId>
+		</item>
+		<item item_id="145" name="Bottom_3" type="Skirt">
+			<asset asset_id="289">assets/icons/first_skirt3.swf</asset>
+			<color color_id="28" number="1">181 135 82</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="145">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="145">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="145">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="145">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="145">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3788</inventoryId>
+		</item>
+		<item item_id="145" name="Bottom_3" type="Skirt">
+			<asset asset_id="289">assets/icons/first_skirt3.swf</asset>
+			<color color_id="31" number="1">228 78 62</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="145">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="145">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="145">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="145">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="145">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3789</inventoryId>
+		</item>
+		<item item_id="145" name="Bottom_3" type="Skirt">
+			<asset asset_id="289">assets/icons/first_skirt3.swf</asset>
+			<color color_id="32" number="1">120 41 162</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="145">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="145">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="145">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="145">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="145">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3790</inventoryId>
+		</item>
+		<item item_id="145" name="Bottom_3" type="Skirt">
+			<asset asset_id="289">assets/icons/first_skirt3.swf</asset>
+			<color color_id="35" number="1">180 218 102</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="145">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="145">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="145">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="145">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="145">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3791</inventoryId>
+		</item>
+		<item item_id="146" name="Bottom_4" type="Skirt">
+			<asset asset_id="290">assets/icons/first_skirt4.swf</asset>
+			<color color_id="20" number="1">93 190 107</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="146">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="146">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="146">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="146">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="146">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3792</inventoryId>
+		</item>
+		<item item_id="146" name="Bottom_4" type="Skirt">
+			<asset asset_id="290">assets/icons/first_skirt4.swf</asset>
+			<color color_id="26" number="1">201 79 119</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="146">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="146">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="146">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="146">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="146">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3793</inventoryId>
+		</item>
+		<item item_id="146" name="Bottom_4" type="Skirt">
+			<asset asset_id="290">assets/icons/first_skirt4.swf</asset>
+			<color color_id="28" number="1">181 135 82</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="146">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="146">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="146">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="146">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="146">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3794</inventoryId>
+		</item>
+		<item item_id="146" name="Bottom_4" type="Skirt">
+			<asset asset_id="290">assets/icons/first_skirt4.swf</asset>
+			<color color_id="31" number="1">228 78 62</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="146">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="146">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="146">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="146">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="146">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3795</inventoryId>
+		</item>
+		<item item_id="146" name="Bottom_4" type="Skirt">
+			<asset asset_id="290">assets/icons/first_skirt4.swf</asset>
+			<color color_id="32" number="1">120 41 162</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="146">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="146">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="146">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="146">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="146">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3796</inventoryId>
+		</item>
+		<item item_id="146" name="Bottom_4" type="Skirt">
+			<asset asset_id="290">assets/icons/first_skirt4.swf</asset>
+			<color color_id="35" number="1">180 218 102</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="146">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="146">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="146">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="146">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="146">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3797</inventoryId>
+		</item>
+		<item item_id="156" name="Bottom_14" type="Skirt">
+			<asset asset_id="300">assets/icons/first_skirt14.swf</asset>
+			<color color_id="20" number="1">93 190 107</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="156">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="156">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="156">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="156">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="156">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<inventoryId>3798</inventoryId>
+		</item>
+		<item item_id="156" name="Bottom_14" type="Skirt">
+			<asset asset_id="300">assets/icons/first_skirt14.swf</asset>
+			<color color_id="26" number="1">201 79 119</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="156">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="156">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="156">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="156">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="156">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<inventoryId>3799</inventoryId>
+		</item>
+		<item item_id="156" name="Bottom_14" type="Skirt">
+			<asset asset_id="300">assets/icons/first_skirt14.swf</asset>
+			<color color_id="28" number="1">181 135 82</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="156">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="156">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="156">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="156">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="156">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<inventoryId>3800</inventoryId>
+		</item>
+		<item item_id="156" name="Bottom_14" type="Skirt">
+			<asset asset_id="300">assets/icons/first_skirt14.swf</asset>
+			<color color_id="31" number="1">228 78 62</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="156">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="156">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="156">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="156">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="156">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<inventoryId>3801</inventoryId>
+		</item>
+		<item item_id="156" name="Bottom_14" type="Skirt">
+			<asset asset_id="300">assets/icons/first_skirt14.swf</asset>
+			<color color_id="32" number="1">120 41 162</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="156">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="156">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="156">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="156">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="156">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<inventoryId>3802</inventoryId>
+		</item>
+		<item item_id="156" name="Bottom_14" type="Skirt">
+			<asset asset_id="300">assets/icons/first_skirt14.swf</asset>
+			<color color_id="35" number="1">180 218 102</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="156">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="156">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="156">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="156">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="156">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<inventoryId>3803</inventoryId>
+		</item>
+		<item item_id="157" name="Bottom_15" type="Skirt">
+			<asset asset_id="301">assets/icons/first_skirt15.swf</asset>
+			<color color_id="20" number="1">93 190 107</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="157">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="157">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="157">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="157">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="157">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<inventoryId>3804</inventoryId>
+		</item>
+		<item item_id="157" name="Bottom_15" type="Skirt">
+			<asset asset_id="301">assets/icons/first_skirt15.swf</asset>
+			<color color_id="26" number="1">201 79 119</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="157">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="157">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="157">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="157">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="157">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<inventoryId>3805</inventoryId>
+		</item>
+		<item item_id="157" name="Bottom_15" type="Skirt">
+			<asset asset_id="301">assets/icons/first_skirt15.swf</asset>
+			<color color_id="28" number="1">181 135 82</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="157">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="157">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="157">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="157">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="157">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<inventoryId>3806</inventoryId>
+		</item>
+		<item item_id="157" name="Bottom_15" type="Skirt">
+			<asset asset_id="301">assets/icons/first_skirt15.swf</asset>
+			<color color_id="31" number="1">228 78 62</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="157">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="157">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="157">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="157">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="157">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<inventoryId>3807</inventoryId>
+		</item>
+		<item item_id="157" name="Bottom_15" type="Skirt">
+			<asset asset_id="301">assets/icons/first_skirt15.swf</asset>
+			<color color_id="32" number="1">120 41 162</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="157">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="157">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="157">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="157">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="157">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<inventoryId>3808</inventoryId>
+		</item>
+		<item item_id="157" name="Bottom_15" type="Skirt">
+			<asset asset_id="301">assets/icons/first_skirt15.swf</asset>
+			<color color_id="35" number="1">180 218 102</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="157">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="157">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="157">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="157">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="157">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<inventoryId>3809</inventoryId>
+		</item>
+		<item item_id="160" name="Bottom_18" type="Skirt">
+			<asset asset_id="304">assets/icons/first_skirt18.swf</asset>
+			<color color_id="20" number="1">93 190 107</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="160">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="160">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="160">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="160">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="160">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<inventoryId>3810</inventoryId>
+		</item>
+		<item item_id="160" name="Bottom_18" type="Skirt">
+			<asset asset_id="304">assets/icons/first_skirt18.swf</asset>
+			<color color_id="26" number="1">201 79 119</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="160">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="160">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="160">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="160">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="160">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<inventoryId>3811</inventoryId>
+		</item>
+		<item item_id="160" name="Bottom_18" type="Skirt">
+			<asset asset_id="304">assets/icons/first_skirt18.swf</asset>
+			<color color_id="28" number="1">181 135 82</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="160">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="160">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="160">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="160">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="160">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<inventoryId>3812</inventoryId>
+		</item>
+		<item item_id="160" name="Bottom_18" type="Skirt">
+			<asset asset_id="304">assets/icons/first_skirt18.swf</asset>
+			<color color_id="31" number="1">228 78 62</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="160">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="160">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="160">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="160">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="160">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<inventoryId>3813</inventoryId>
+		</item>
+		<item item_id="160" name="Bottom_18" type="Skirt">
+			<asset asset_id="304">assets/icons/first_skirt18.swf</asset>
+			<color color_id="32" number="1">120 41 162</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="160">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="160">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="160">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="160">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="160">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<inventoryId>3814</inventoryId>
+		</item>
+		<item item_id="160" name="Bottom_18" type="Skirt">
+			<asset asset_id="304">assets/icons/first_skirt18.swf</asset>
+			<color color_id="35" number="1">180 218 102</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="160">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="160">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="160">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="160">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="160">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<inventoryId>3815</inventoryId>
+		</item>
+		<item item_id="143" name="Bottom_1" type="Skirt">
+			<asset asset_id="287">assets/icons/first_skirt1.swf</asset>
+			<color color_id="30" number="1">240 106 52</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="143">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="143">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="143">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="143">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="143">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<color_pool number="1">
+				<color color_id="30">240 106 52</color>
+			</color_pool>
+			<inventoryId>3966</inventoryId>
+		</item>
+	</WardrobeCollection>
+	<WardrobeCollection type="AnkleItem">
+		<item item_id="45" name="Anklet_none" type="AnkleItem">
+			<asset asset_id="192">assets/icons/noneitem.swf</asset>
+			<color color_id="37" number="1">204 214 255</color>
+			<piece type="AnklePiece">
+				<asset asset_id="45">assets/avatar/first_anklepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<color_pool number="1">
+				<color color_id="37">204 214 255</color>
+			</color_pool>
+			<inventoryId>3613</inventoryId>
+		</item>
+		<item item_id="209" name="Anklet_2" type="AnkleItem">
+			<asset asset_id="353">assets/icons/first_ankleitem2.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="AnklePiece">
+				<asset asset_id="209">assets/avatar/first_anklepiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3906</inventoryId>
+		</item>
+		<item item_id="209" name="Anklet_2" type="AnkleItem">
+			<asset asset_id="353">assets/icons/first_ankleitem2.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="AnklePiece">
+				<asset asset_id="209">assets/avatar/first_anklepiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3907</inventoryId>
+		</item>
+		<item item_id="209" name="Anklet_2" type="AnkleItem">
+			<asset asset_id="353">assets/icons/first_ankleitem2.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="AnklePiece">
+				<asset asset_id="209">assets/avatar/first_anklepiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3908</inventoryId>
+		</item>
+		<item item_id="209" name="Anklet_2" type="AnkleItem">
+			<asset asset_id="353">assets/icons/first_ankleitem2.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="AnklePiece">
+				<asset asset_id="209">assets/avatar/first_anklepiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3909</inventoryId>
+		</item>
+		<item item_id="209" name="Anklet_2" type="AnkleItem">
+			<asset asset_id="353">assets/icons/first_ankleitem2.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="AnklePiece">
+				<asset asset_id="209">assets/avatar/first_anklepiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3910</inventoryId>
+		</item>
+		<item item_id="209" name="Anklet_2" type="AnkleItem">
+			<asset asset_id="353">assets/icons/first_ankleitem2.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="AnklePiece">
+				<asset asset_id="209">assets/avatar/first_anklepiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3911</inventoryId>
+		</item>
+		<item item_id="210" name="Anklet_3" type="AnkleItem">
+			<asset asset_id="354">assets/icons/first_ankleitem3.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="AnklePiece">
+				<asset asset_id="210">assets/avatar/first_anklepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3912</inventoryId>
+		</item>
+		<item item_id="210" name="Anklet_3" type="AnkleItem">
+			<asset asset_id="354">assets/icons/first_ankleitem3.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="AnklePiece">
+				<asset asset_id="210">assets/avatar/first_anklepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3913</inventoryId>
+		</item>
+		<item item_id="210" name="Anklet_3" type="AnkleItem">
+			<asset asset_id="354">assets/icons/first_ankleitem3.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="AnklePiece">
+				<asset asset_id="210">assets/avatar/first_anklepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3914</inventoryId>
+		</item>
+		<item item_id="210" name="Anklet_3" type="AnkleItem">
+			<asset asset_id="354">assets/icons/first_ankleitem3.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="AnklePiece">
+				<asset asset_id="210">assets/avatar/first_anklepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3915</inventoryId>
+		</item>
+		<item item_id="210" name="Anklet_3" type="AnkleItem">
+			<asset asset_id="354">assets/icons/first_ankleitem3.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="AnklePiece">
+				<asset asset_id="210">assets/avatar/first_anklepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3916</inventoryId>
+		</item>
+		<item item_id="210" name="Anklet_3" type="AnkleItem">
+			<asset asset_id="354">assets/icons/first_ankleitem3.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="AnklePiece">
+				<asset asset_id="210">assets/avatar/first_anklepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3917</inventoryId>
+		</item>
+		<item item_id="211" name="Anklet_4" type="AnkleItem">
+			<asset asset_id="355">assets/icons/first_ankleitem4.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="AnklePiece">
+				<asset asset_id="211">assets/avatar/first_anklepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3918</inventoryId>
+		</item>
+		<item item_id="211" name="Anklet_4" type="AnkleItem">
+			<asset asset_id="355">assets/icons/first_ankleitem4.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="AnklePiece">
+				<asset asset_id="211">assets/avatar/first_anklepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3919</inventoryId>
+		</item>
+		<item item_id="211" name="Anklet_4" type="AnkleItem">
+			<asset asset_id="355">assets/icons/first_ankleitem4.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="AnklePiece">
+				<asset asset_id="211">assets/avatar/first_anklepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3920</inventoryId>
+		</item>
+		<item item_id="211" name="Anklet_4" type="AnkleItem">
+			<asset asset_id="355">assets/icons/first_ankleitem4.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="AnklePiece">
+				<asset asset_id="211">assets/avatar/first_anklepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3921</inventoryId>
+		</item>
+		<item item_id="211" name="Anklet_4" type="AnkleItem">
+			<asset asset_id="355">assets/icons/first_ankleitem4.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="AnklePiece">
+				<asset asset_id="211">assets/avatar/first_anklepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3922</inventoryId>
+		</item>
+		<item item_id="211" name="Anklet_4" type="AnkleItem">
+			<asset asset_id="355">assets/icons/first_ankleitem4.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="AnklePiece">
+				<asset asset_id="211">assets/avatar/first_anklepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3923</inventoryId>
+		</item>
+		<item item_id="212" name="Anklet_5" type="AnkleItem">
+			<asset asset_id="356">assets/icons/first_ankleitem5.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="AnklePiece">
+				<asset asset_id="212">assets/avatar/first_anklepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3924</inventoryId>
+		</item>
+		<item item_id="212" name="Anklet_5" type="AnkleItem">
+			<asset asset_id="356">assets/icons/first_ankleitem5.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="AnklePiece">
+				<asset asset_id="212">assets/avatar/first_anklepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3925</inventoryId>
+		</item>
+		<item item_id="212" name="Anklet_5" type="AnkleItem">
+			<asset asset_id="356">assets/icons/first_ankleitem5.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="AnklePiece">
+				<asset asset_id="212">assets/avatar/first_anklepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3926</inventoryId>
+		</item>
+		<item item_id="212" name="Anklet_5" type="AnkleItem">
+			<asset asset_id="356">assets/icons/first_ankleitem5.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="AnklePiece">
+				<asset asset_id="212">assets/avatar/first_anklepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3927</inventoryId>
+		</item>
+		<item item_id="212" name="Anklet_5" type="AnkleItem">
+			<asset asset_id="356">assets/icons/first_ankleitem5.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="AnklePiece">
+				<asset asset_id="212">assets/avatar/first_anklepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3928</inventoryId>
+		</item>
+		<item item_id="212" name="Anklet_5" type="AnkleItem">
+			<asset asset_id="356">assets/icons/first_ankleitem5.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="AnklePiece">
+				<asset asset_id="212">assets/avatar/first_anklepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3929</inventoryId>
+		</item>
+		<item item_id="215" name="Anklet_8" type="AnkleItem">
+			<asset asset_id="359">assets/icons/first_ankleitem8.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="AnklePiece">
+				<asset asset_id="215">assets/avatar/first_anklepiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3930</inventoryId>
+		</item>
+		<item item_id="215" name="Anklet_8" type="AnkleItem">
+			<asset asset_id="359">assets/icons/first_ankleitem8.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="AnklePiece">
+				<asset asset_id="215">assets/avatar/first_anklepiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3931</inventoryId>
+		</item>
+		<item item_id="215" name="Anklet_8" type="AnkleItem">
+			<asset asset_id="359">assets/icons/first_ankleitem8.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="AnklePiece">
+				<asset asset_id="215">assets/avatar/first_anklepiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3932</inventoryId>
+		</item>
+		<item item_id="215" name="Anklet_8" type="AnkleItem">
+			<asset asset_id="359">assets/icons/first_ankleitem8.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="AnklePiece">
+				<asset asset_id="215">assets/avatar/first_anklepiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3933</inventoryId>
+		</item>
+		<item item_id="215" name="Anklet_8" type="AnkleItem">
+			<asset asset_id="359">assets/icons/first_ankleitem8.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="AnklePiece">
+				<asset asset_id="215">assets/avatar/first_anklepiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3934</inventoryId>
+		</item>
+		<item item_id="215" name="Anklet_8" type="AnkleItem">
+			<asset asset_id="359">assets/icons/first_ankleitem8.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="AnklePiece">
+				<asset asset_id="215">assets/avatar/first_anklepiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3935</inventoryId>
+		</item>
+	</WardrobeCollection>
+	<WardrobeCollection type="Belt">
+		<item item_id="46" name="Sash_none" type="Belt">
+			<asset asset_id="192">assets/icons/noneitem.swf</asset>
+			<color color_id="37" number="1">204 214 255</color>
+			<piece type="WaistPiece">
+				<asset asset_id="46">assets/avatar/first_waistpiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<color_pool number="1">
+				<color color_id="37">204 214 255</color>
+			</color_pool>
+			<inventoryId>3614</inventoryId>
+		</item>
+		<item item_id="126" name="Sash_4" type="Belt">
+			<asset asset_id="270">assets/icons/first_waistitem4.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="WaistPiece">
+				<asset asset_id="126">assets/avatar/first_waistpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3756</inventoryId>
+		</item>
+		<item item_id="126" name="Sash_4" type="Belt">
+			<asset asset_id="270">assets/icons/first_waistitem4.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="WaistPiece">
+				<asset asset_id="126">assets/avatar/first_waistpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3757</inventoryId>
+		</item>
+		<item item_id="126" name="Sash_4" type="Belt">
+			<asset asset_id="270">assets/icons/first_waistitem4.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="WaistPiece">
+				<asset asset_id="126">assets/avatar/first_waistpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3758</inventoryId>
+		</item>
+		<item item_id="126" name="Sash_4" type="Belt">
+			<asset asset_id="270">assets/icons/first_waistitem4.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="WaistPiece">
+				<asset asset_id="126">assets/avatar/first_waistpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3759</inventoryId>
+		</item>
+		<item item_id="126" name="Sash_4" type="Belt">
+			<asset asset_id="270">assets/icons/first_waistitem4.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="WaistPiece">
+				<asset asset_id="126">assets/avatar/first_waistpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3760</inventoryId>
+		</item>
+		<item item_id="126" name="Sash_4" type="Belt">
+			<asset asset_id="270">assets/icons/first_waistitem4.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="WaistPiece">
+				<asset asset_id="126">assets/avatar/first_waistpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3761</inventoryId>
+		</item>
+		<item item_id="128" name="Sash_6" type="Belt">
+			<asset asset_id="272">assets/icons/first_waistitem6.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="WaistPiece">
+				<asset asset_id="128">assets/avatar/first_waistpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3762</inventoryId>
+		</item>
+		<item item_id="128" name="Sash_6" type="Belt">
+			<asset asset_id="272">assets/icons/first_waistitem6.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="WaistPiece">
+				<asset asset_id="128">assets/avatar/first_waistpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3763</inventoryId>
+		</item>
+		<item item_id="128" name="Sash_6" type="Belt">
+			<asset asset_id="272">assets/icons/first_waistitem6.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="WaistPiece">
+				<asset asset_id="128">assets/avatar/first_waistpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3764</inventoryId>
+		</item>
+		<item item_id="128" name="Sash_6" type="Belt">
+			<asset asset_id="272">assets/icons/first_waistitem6.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="WaistPiece">
+				<asset asset_id="128">assets/avatar/first_waistpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3765</inventoryId>
+		</item>
+		<item item_id="128" name="Sash_6" type="Belt">
+			<asset asset_id="272">assets/icons/first_waistitem6.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="WaistPiece">
+				<asset asset_id="128">assets/avatar/first_waistpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3766</inventoryId>
+		</item>
+		<item item_id="128" name="Sash_6" type="Belt">
+			<asset asset_id="272">assets/icons/first_waistitem6.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="WaistPiece">
+				<asset asset_id="128">assets/avatar/first_waistpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3767</inventoryId>
+		</item>
+		<item item_id="129" name="Sash_7" type="Belt">
+			<asset asset_id="273">assets/icons/first_waistitem7.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="WaistPiece">
+				<asset asset_id="129">assets/avatar/first_waistpiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3768</inventoryId>
+		</item>
+		<item item_id="129" name="Sash_7" type="Belt">
+			<asset asset_id="273">assets/icons/first_waistitem7.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="WaistPiece">
+				<asset asset_id="129">assets/avatar/first_waistpiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3769</inventoryId>
+		</item>
+		<item item_id="129" name="Sash_7" type="Belt">
+			<asset asset_id="273">assets/icons/first_waistitem7.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="WaistPiece">
+				<asset asset_id="129">assets/avatar/first_waistpiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3770</inventoryId>
+		</item>
+		<item item_id="129" name="Sash_7" type="Belt">
+			<asset asset_id="273">assets/icons/first_waistitem7.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="WaistPiece">
+				<asset asset_id="129">assets/avatar/first_waistpiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3771</inventoryId>
+		</item>
+		<item item_id="129" name="Sash_7" type="Belt">
+			<asset asset_id="273">assets/icons/first_waistitem7.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="WaistPiece">
+				<asset asset_id="129">assets/avatar/first_waistpiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3772</inventoryId>
+		</item>
+		<item item_id="129" name="Sash_7" type="Belt">
+			<asset asset_id="273">assets/icons/first_waistitem7.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="WaistPiece">
+				<asset asset_id="129">assets/avatar/first_waistpiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3773</inventoryId>
+		</item>
+		<item item_id="138" name="Sash_16" type="Belt">
+			<asset asset_id="282">assets/icons/first_waistitem16.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="WaistPiece">
+				<asset asset_id="138">assets/avatar/first_waistpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<inventoryId>3774</inventoryId>
+		</item>
+		<item item_id="138" name="Sash_16" type="Belt">
+			<asset asset_id="282">assets/icons/first_waistitem16.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="WaistPiece">
+				<asset asset_id="138">assets/avatar/first_waistpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<inventoryId>3775</inventoryId>
+		</item>
+		<item item_id="138" name="Sash_16" type="Belt">
+			<asset asset_id="282">assets/icons/first_waistitem16.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="WaistPiece">
+				<asset asset_id="138">assets/avatar/first_waistpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<inventoryId>3776</inventoryId>
+		</item>
+		<item item_id="138" name="Sash_16" type="Belt">
+			<asset asset_id="282">assets/icons/first_waistitem16.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="WaistPiece">
+				<asset asset_id="138">assets/avatar/first_waistpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<inventoryId>3777</inventoryId>
+		</item>
+		<item item_id="138" name="Sash_16" type="Belt">
+			<asset asset_id="282">assets/icons/first_waistitem16.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="WaistPiece">
+				<asset asset_id="138">assets/avatar/first_waistpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<inventoryId>3778</inventoryId>
+		</item>
+		<item item_id="138" name="Sash_16" type="Belt">
+			<asset asset_id="282">assets/icons/first_waistitem16.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="WaistPiece">
+				<asset asset_id="138">assets/avatar/first_waistpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<inventoryId>3779</inventoryId>
+		</item>
+		<item item_id="139" name="Sash_17" type="Belt">
+			<asset asset_id="283">assets/icons/first_waistitem17.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="WaistPiece">
+				<asset asset_id="139">assets/avatar/first_waistpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<inventoryId>3780</inventoryId>
+		</item>
+		<item item_id="139" name="Sash_17" type="Belt">
+			<asset asset_id="283">assets/icons/first_waistitem17.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="WaistPiece">
+				<asset asset_id="139">assets/avatar/first_waistpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<inventoryId>3781</inventoryId>
+		</item>
+		<item item_id="139" name="Sash_17" type="Belt">
+			<asset asset_id="283">assets/icons/first_waistitem17.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="WaistPiece">
+				<asset asset_id="139">assets/avatar/first_waistpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<inventoryId>3782</inventoryId>
+		</item>
+		<item item_id="139" name="Sash_17" type="Belt">
+			<asset asset_id="283">assets/icons/first_waistitem17.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="WaistPiece">
+				<asset asset_id="139">assets/avatar/first_waistpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<inventoryId>3783</inventoryId>
+		</item>
+		<item item_id="139" name="Sash_17" type="Belt">
+			<asset asset_id="283">assets/icons/first_waistitem17.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="WaistPiece">
+				<asset asset_id="139">assets/avatar/first_waistpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<inventoryId>3784</inventoryId>
+		</item>
+		<item item_id="139" name="Sash_17" type="Belt">
+			<asset asset_id="283">assets/icons/first_waistitem17.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="WaistPiece">
+				<asset asset_id="139">assets/avatar/first_waistpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<inventoryId>3785</inventoryId>
+		</item>
+	</WardrobeCollection>
+	<WardrobeCollection type="Shoes">
+		<item item_id="219" name="Shoes_1" type="Shoes">
+			<asset asset_id="363">assets/icons/first_shoes1.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3936</inventoryId>
+		</item>
+		<item item_id="219" name="Shoes_1" type="Shoes">
+			<asset asset_id="363">assets/icons/first_shoes1.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3937</inventoryId>
+		</item>
+		<item item_id="219" name="Shoes_1" type="Shoes">
+			<asset asset_id="363">assets/icons/first_shoes1.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3938</inventoryId>
+		</item>
+		<item item_id="219" name="Shoes_1" type="Shoes">
+			<asset asset_id="363">assets/icons/first_shoes1.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3939</inventoryId>
+		</item>
+		<item item_id="219" name="Shoes_1" type="Shoes">
+			<asset asset_id="363">assets/icons/first_shoes1.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3940</inventoryId>
+		</item>
+		<item item_id="219" name="Shoes_1" type="Shoes">
+			<asset asset_id="363">assets/icons/first_shoes1.swf</asset>
+			<color color_id="30" number="1">240 106 52</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<color_pool number="1">
+				<color color_id="30">240 106 52</color>
+			</color_pool>
+			<inventoryId>3941</inventoryId>
+		</item>
+		<item item_id="222" name="Shoes_4" type="Shoes">
+			<asset asset_id="366">assets/icons/first_shoes4.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3942</inventoryId>
+		</item>
+		<item item_id="222" name="Shoes_4" type="Shoes">
+			<asset asset_id="366">assets/icons/first_shoes4.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3943</inventoryId>
+		</item>
+		<item item_id="222" name="Shoes_4" type="Shoes">
+			<asset asset_id="366">assets/icons/first_shoes4.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3944</inventoryId>
+		</item>
+		<item item_id="222" name="Shoes_4" type="Shoes">
+			<asset asset_id="366">assets/icons/first_shoes4.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3945</inventoryId>
+		</item>
+		<item item_id="222" name="Shoes_4" type="Shoes">
+			<asset asset_id="366">assets/icons/first_shoes4.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3946</inventoryId>
+		</item>
+		<item item_id="222" name="Shoes_4" type="Shoes">
+			<asset asset_id="366">assets/icons/first_shoes4.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3947</inventoryId>
+		</item>
+		<item item_id="223" name="Shoes_5" type="Shoes">
+			<asset asset_id="367">assets/icons/first_shoes5.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3948</inventoryId>
+		</item>
+		<item item_id="223" name="Shoes_5" type="Shoes">
+			<asset asset_id="367">assets/icons/first_shoes5.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3949</inventoryId>
+		</item>
+		<item item_id="223" name="Shoes_5" type="Shoes">
+			<asset asset_id="367">assets/icons/first_shoes5.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3950</inventoryId>
+		</item>
+		<item item_id="223" name="Shoes_5" type="Shoes">
+			<asset asset_id="367">assets/icons/first_shoes5.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3951</inventoryId>
+		</item>
+		<item item_id="223" name="Shoes_5" type="Shoes">
+			<asset asset_id="367">assets/icons/first_shoes5.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3952</inventoryId>
+		</item>
+		<item item_id="223" name="Shoes_5" type="Shoes">
+			<asset asset_id="367">assets/icons/first_shoes5.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3953</inventoryId>
+		</item>
+		<item item_id="224" name="Shoes_6" type="Shoes">
+			<asset asset_id="368">assets/icons/first_shoes6.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3954</inventoryId>
+		</item>
+		<item item_id="224" name="Shoes_6" type="Shoes">
+			<asset asset_id="368">assets/icons/first_shoes6.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3955</inventoryId>
+		</item>
+		<item item_id="224" name="Shoes_6" type="Shoes">
+			<asset asset_id="368">assets/icons/first_shoes6.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3956</inventoryId>
+		</item>
+		<item item_id="224" name="Shoes_6" type="Shoes">
+			<asset asset_id="368">assets/icons/first_shoes6.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3957</inventoryId>
+		</item>
+		<item item_id="224" name="Shoes_6" type="Shoes">
+			<asset asset_id="368">assets/icons/first_shoes6.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3958</inventoryId>
+		</item>
+		<item item_id="224" name="Shoes_6" type="Shoes">
+			<asset asset_id="368">assets/icons/first_shoes6.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<inventoryId>3959</inventoryId>
+		</item>
+		<item item_id="226" name="Shoes_8" type="Shoes">
+			<asset asset_id="370">assets/icons/first_shoes8.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3960</inventoryId>
+		</item>
+		<item item_id="226" name="Shoes_8" type="Shoes">
+			<asset asset_id="370">assets/icons/first_shoes8.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3961</inventoryId>
+		</item>
+		<item item_id="226" name="Shoes_8" type="Shoes">
+			<asset asset_id="370">assets/icons/first_shoes8.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3962</inventoryId>
+		</item>
+		<item item_id="226" name="Shoes_8" type="Shoes">
+			<asset asset_id="370">assets/icons/first_shoes8.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3963</inventoryId>
+		</item>
+		<item item_id="226" name="Shoes_8" type="Shoes">
+			<asset asset_id="370">assets/icons/first_shoes8.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3964</inventoryId>
+		</item>
+		<item item_id="226" name="Shoes_8" type="Shoes">
+			<asset asset_id="370">assets/icons/first_shoes8.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<inventoryId>3965</inventoryId>
+		</item>
+	</WardrobeCollection>
+	<WardrobeCollection type="WristItem">
+		<item item_id="47" name="Bracelet_none" type="WristItem">
+			<asset asset_id="192">assets/icons/noneitem.swf</asset>
+			<color color_id="37" number="1">204 214 255</color>
+			<piece type="WristPiece">
+				<asset asset_id="47">assets/avatar/first_wristpiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<color_pool number="1">
+				<color color_id="37">204 214 255</color>
+			</color_pool>
+			<inventoryId>3615</inventoryId>
+		</item>
+		<item item_id="165" name="Bracelet_2" type="WristItem">
+			<asset asset_id="309">assets/icons/first_wristitem2.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="WristPiece">
+				<asset asset_id="165">assets/avatar/first_wristpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3816</inventoryId>
+		</item>
+		<item item_id="165" name="Bracelet_2" type="WristItem">
+			<asset asset_id="309">assets/icons/first_wristitem2.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="WristPiece">
+				<asset asset_id="165">assets/avatar/first_wristpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3817</inventoryId>
+		</item>
+		<item item_id="165" name="Bracelet_2" type="WristItem">
+			<asset asset_id="309">assets/icons/first_wristitem2.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="WristPiece">
+				<asset asset_id="165">assets/avatar/first_wristpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3818</inventoryId>
+		</item>
+		<item item_id="165" name="Bracelet_2" type="WristItem">
+			<asset asset_id="309">assets/icons/first_wristitem2.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="WristPiece">
+				<asset asset_id="165">assets/avatar/first_wristpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3819</inventoryId>
+		</item>
+		<item item_id="165" name="Bracelet_2" type="WristItem">
+			<asset asset_id="309">assets/icons/first_wristitem2.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="WristPiece">
+				<asset asset_id="165">assets/avatar/first_wristpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3820</inventoryId>
+		</item>
+		<item item_id="165" name="Bracelet_2" type="WristItem">
+			<asset asset_id="309">assets/icons/first_wristitem2.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="WristPiece">
+				<asset asset_id="165">assets/avatar/first_wristpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<inventoryId>3821</inventoryId>
+		</item>
+		<item item_id="166" name="Bracelet_3" type="WristItem">
+			<asset asset_id="310">assets/icons/first_wristitem3.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="WristPiece">
+				<asset asset_id="166">assets/avatar/first_wristpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3822</inventoryId>
+		</item>
+		<item item_id="166" name="Bracelet_3" type="WristItem">
+			<asset asset_id="310">assets/icons/first_wristitem3.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="WristPiece">
+				<asset asset_id="166">assets/avatar/first_wristpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3823</inventoryId>
+		</item>
+		<item item_id="166" name="Bracelet_3" type="WristItem">
+			<asset asset_id="310">assets/icons/first_wristitem3.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="WristPiece">
+				<asset asset_id="166">assets/avatar/first_wristpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3824</inventoryId>
+		</item>
+		<item item_id="166" name="Bracelet_3" type="WristItem">
+			<asset asset_id="310">assets/icons/first_wristitem3.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="WristPiece">
+				<asset asset_id="166">assets/avatar/first_wristpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3825</inventoryId>
+		</item>
+		<item item_id="166" name="Bracelet_3" type="WristItem">
+			<asset asset_id="310">assets/icons/first_wristitem3.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="WristPiece">
+				<asset asset_id="166">assets/avatar/first_wristpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3826</inventoryId>
+		</item>
+		<item item_id="166" name="Bracelet_3" type="WristItem">
+			<asset asset_id="310">assets/icons/first_wristitem3.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="WristPiece">
+				<asset asset_id="166">assets/avatar/first_wristpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3827</inventoryId>
+		</item>
+		<item item_id="167" name="Bracelet_4" type="WristItem">
+			<asset asset_id="311">assets/icons/first_wristitem4.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="WristPiece">
+				<asset asset_id="167">assets/avatar/first_wristpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3828</inventoryId>
+		</item>
+		<item item_id="167" name="Bracelet_4" type="WristItem">
+			<asset asset_id="311">assets/icons/first_wristitem4.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="WristPiece">
+				<asset asset_id="167">assets/avatar/first_wristpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3829</inventoryId>
+		</item>
+		<item item_id="167" name="Bracelet_4" type="WristItem">
+			<asset asset_id="311">assets/icons/first_wristitem4.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="WristPiece">
+				<asset asset_id="167">assets/avatar/first_wristpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3830</inventoryId>
+		</item>
+		<item item_id="167" name="Bracelet_4" type="WristItem">
+			<asset asset_id="311">assets/icons/first_wristitem4.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="WristPiece">
+				<asset asset_id="167">assets/avatar/first_wristpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3831</inventoryId>
+		</item>
+		<item item_id="167" name="Bracelet_4" type="WristItem">
+			<asset asset_id="311">assets/icons/first_wristitem4.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="WristPiece">
+				<asset asset_id="167">assets/avatar/first_wristpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3832</inventoryId>
+		</item>
+		<item item_id="167" name="Bracelet_4" type="WristItem">
+			<asset asset_id="311">assets/icons/first_wristitem4.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="WristPiece">
+				<asset asset_id="167">assets/avatar/first_wristpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3833</inventoryId>
+		</item>
+		<item item_id="169" name="Bracelet_6" type="WristItem">
+			<asset asset_id="313">assets/icons/first_wristitem6.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="WristPiece">
+				<asset asset_id="169">assets/avatar/first_wristpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3834</inventoryId>
+		</item>
+		<item item_id="169" name="Bracelet_6" type="WristItem">
+			<asset asset_id="313">assets/icons/first_wristitem6.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="WristPiece">
+				<asset asset_id="169">assets/avatar/first_wristpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3835</inventoryId>
+		</item>
+		<item item_id="169" name="Bracelet_6" type="WristItem">
+			<asset asset_id="313">assets/icons/first_wristitem6.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="WristPiece">
+				<asset asset_id="169">assets/avatar/first_wristpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3836</inventoryId>
+		</item>
+		<item item_id="169" name="Bracelet_6" type="WristItem">
+			<asset asset_id="313">assets/icons/first_wristitem6.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="WristPiece">
+				<asset asset_id="169">assets/avatar/first_wristpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3837</inventoryId>
+		</item>
+		<item item_id="169" name="Bracelet_6" type="WristItem">
+			<asset asset_id="313">assets/icons/first_wristitem6.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="WristPiece">
+				<asset asset_id="169">assets/avatar/first_wristpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3838</inventoryId>
+		</item>
+		<item item_id="169" name="Bracelet_6" type="WristItem">
+			<asset asset_id="313">assets/icons/first_wristitem6.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="WristPiece">
+				<asset asset_id="169">assets/avatar/first_wristpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<inventoryId>3839</inventoryId>
+		</item>
+		<item item_id="171" name="Bracelet_8" type="WristItem">
+			<asset asset_id="315">assets/icons/first_wristitem8.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="WristPiece">
+				<asset asset_id="171">assets/avatar/first_wristpiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3840</inventoryId>
+		</item>
+		<item item_id="171" name="Bracelet_8" type="WristItem">
+			<asset asset_id="315">assets/icons/first_wristitem8.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="WristPiece">
+				<asset asset_id="171">assets/avatar/first_wristpiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3841</inventoryId>
+		</item>
+		<item item_id="171" name="Bracelet_8" type="WristItem">
+			<asset asset_id="315">assets/icons/first_wristitem8.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="WristPiece">
+				<asset asset_id="171">assets/avatar/first_wristpiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3842</inventoryId>
+		</item>
+		<item item_id="171" name="Bracelet_8" type="WristItem">
+			<asset asset_id="315">assets/icons/first_wristitem8.swf</asset>
+			<color color_id="48" number="1">148 231 160</color>
+			<piece type="WristPiece">
+				<asset asset_id="171">assets/avatar/first_wristpiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3843</inventoryId>
+		</item>
+		<item item_id="171" name="Bracelet_8" type="WristItem">
+			<asset asset_id="315">assets/icons/first_wristitem8.swf</asset>
+			<color color_id="52" number="1">161 136 207</color>
+			<piece type="WristPiece">
+				<asset asset_id="171">assets/avatar/first_wristpiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3844</inventoryId>
+		</item>
+		<item item_id="171" name="Bracelet_8" type="WristItem">
+			<asset asset_id="315">assets/icons/first_wristitem8.swf</asset>
+			<color color_id="54" number="1">252 212 234</color>
+			<piece type="WristPiece">
+				<asset asset_id="171">assets/avatar/first_wristpiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3845</inventoryId>
+		</item>
+	</WardrobeCollection>
+</FairiesWardrobeResponse>

@@ -1,0 +1,8 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/pngdemo_content.swf</swf>
+		<swf type="code">{panelCode}/pngdemo.swf</swf>
+	</swfs>
+	<copy/>
+	<config/>
+</panel>

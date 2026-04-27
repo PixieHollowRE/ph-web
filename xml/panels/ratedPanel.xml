@@ -1,0 +1,23 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/rated.swf</swf>
+		<swf type="code">{panelCode}/rated.swf</swf>
+	</swfs>
+	<copy>
+		<talentLabel target="talentlabel">Talent:</talentLabel>
+		<!-- neighborhoodLabel target="neighborhoodlabel">From:</neighborhoodLabel -->
+		<pureLabel target="label">Highest Rated</pureLabel>
+		<description target="description">The Fairies on this list have the highest-rated pages. Fly by and check them out!</description>
+		<talents>--All Talents--,Garden,Animal,Light,Water</talents>
+            <tink>If a Fairy likes your home, she will give you a good rating. The more good ratings you get, the higher you will be on the "Highest Rated" list!</tink>
+            <tinkconfirm>Okay</tinkconfirm>
+		<dbfail>Oops! Unable to connect to the Fairy directory. Please try again in a few minutes.</dbfail>
+		<dbfailconfirm>Okay</dbfailconfirm>	
+		<tinkTipsText1 target="tinkbutton.tinksTip1">Tink's</tinkTipsText1>
+		<tinkTipsText2 target="tinkbutton.tinksTip2">Tips</tinkTipsText2>
+	</copy>
+	<config>
+		<util>
+		</util>
+	</config>
+</panel>

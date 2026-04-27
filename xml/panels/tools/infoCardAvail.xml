@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/infoCardAvail.swf</swf>
+		<swf type="code">{panelCode}/infoCardAvail.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<replace target="initAnimalColor" type="colorpalette" row="1" column="4" radius="8" distance="20" scroll="10" />
+		<replace target="initGardenColor" type="colorpalette" row="1" column="4" radius="8" distance="20" scroll="10" />
+		<replace target="initLightColor" type="colorpalette" row="1" column="4" radius="8" distance="20" scroll="10" />
+		<replace target="initTinkerColor" type="colorpalette" row="1" column="4" radius="8" distance="20" scroll="10" />
+		<replace target="initWaterColor" type="colorpalette" row="1" column="4" radius="8" distance="20" scroll="10" />
+	</config>
+</panel>

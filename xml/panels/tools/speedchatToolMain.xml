@@ -1,0 +1,44 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/speedchatTool.swf</swf>
+		<swf type="code">{panelCode}/SpeedChatTool.swf</swf>
+	</swfs>
+	<copy>
+		<Yes>Yes</Yes>
+		<No>No</No>
+		<exportCaption target="exportButton.caption">Export</exportCaption>
+		<noneCaption target="noneButton.caption">None</noneCaption>
+		<exitCaption target="exitButton.caption">Exit</exitCaption>
+
+		<!-- Message Editor-->
+		<meRemoveTag target="messageEditor.container.removeTagFromMessage.caption">Rem Tag</meRemoveTag>
+		<meAdd target="messageEditor.container.addTagToMessage.caption">Add Tag</meAdd>
+		<meDelMessage target="messageEditor.container.delButton.caption">- Del Msg</meDelMessage>
+		<meTitle target="messageEditor.container.title">Edit Speedchat Message</meTitle>
+		<meId target="messageEditor.container.idText">Id</meId>
+		<meTextCaption target="messageEditor.container.textCaption">Text</meTextCaption>
+		<meRestricted target="messageEditor.container.restricted">Restricted ?</meRestricted>
+		<meAddTag target="messageEditor.container.addTag">+ Add New Tag</meAddTag>
+		<meExisting target="messageEditor.container.existing">Existing</meExisting>
+		<meOthers target="messageEditor.container.others">Others</meOthers>
+
+		<!-- Category Editor -->
+		<ceTitle target="categoryEditor.container.title">Edit Speedchat Category</ceTitle>
+		<ceName target="categoryEditor.container.nameText">Name</ceName>
+		<ceDeleteCategory target="categoryEditor.container.delButton.caption">- Del Cat.</ceDeleteCategory>
+		<ceAddCategory target="categoryEditor.container.addCategory.caption">+ Add Cat</ceAddCategory>
+		<ceAddMessage target="categoryEditor.container.addMessage.caption">+ Add Msg</ceAddMessage>
+	
+		<!-- Search Container -->
+		<searchBox target="searchContainer.searchBox"></searchBox>
+		<searchButton target="searchContainer.searchButton.caption">Search</searchButton>
+
+		<closeToolTip>Close</closeToolTip>
+		<saveAndQuitToolTip>Save & Quit</saveAndQuitToolTip>
+		<saveAndAddNewToolTip>Save & Edit New</saveAndAddNewToolTip>
+		<dupIds>Duplicate Ids: </dupIds>
+		<tagsAreNotInOrder>Category Tags are not in order</tagsAreNotInOrder>
+	</copy>
+	<config>
+	</config>
+</panel>

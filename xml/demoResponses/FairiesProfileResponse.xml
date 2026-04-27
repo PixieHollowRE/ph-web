@@ -1,0 +1,25 @@
+<FairiesProfileResponse>
+	<success>true</success>
+	<fairies count="2">
+		<fairy fairy_id="3">
+			<name>Emerald Lightningbeam</name>
+			<talent>Water</talent>
+			<created>2006-12-13 12:15:02</created>
+			<last_login>2006-12-13 17:41:24</last_login>
+			<total_logins>4</total_logins>
+			<icon icon_id="1">assets/icons/first_fairyicon1_blue.swf</icon>
+			<address>10SunsetFalls</address>
+		</fairy>
+		<fairy fairy_id="10">
+			<name>Crimson Cloudbeam</name>
+			<talent>Animal</talent>
+			<created>2006-12-13 17:19:30</created>
+			<last_login>2006-12-13 17:39:01</last_login>
+			<total_logins>4</total_logins>
+			<icon icon_id="103">assets/icons/first_fairyicon15_pink.swf</icon>
+			<address>10FlutterbyForest</address>
+		</fairy>
+	</fairies>
+	<status fairy_id="10">logged_in_fairy</status>
+	<first_name>Richard</first_name>
+</FairiesProfileResponse>

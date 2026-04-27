@@ -1,0 +1,47 @@
+<level>
+	<introMessage>Song 3 - Part 2 - Hard</introMessage>
+
+	<bgTrack>audio/animalRhythm/piece3/bed.mp3</bgTrack>
+
+	<fgTrack>audio/animalRhythm/piece3/melody_2.mp3</fgTrack>
+
+	<mistakeTrack>audio/animalRhythm/piece3/mistake_1.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece3/mistake_2.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece3/mistake_3.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece3/mistake_4.mp3</mistakeTrack>
+
+	<animal bedType="Squirrel" type="Man" wakeStates="0-5,6-20,21-35,36-100" position="oneAnimalCentered" />
+
+	<target key="LEFT" secondaryKey="" position="3080" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="3700" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="4600" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="5375" length="1000" autoplay="false"/>
+
+	<target key="LEFT" secondaryKey="" position="6050" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="6825" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="7620" length="1000" autoplay="false"/>
+
+	<target key="DOWN" secondaryKey="" position="9210" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="9825" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="10570" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="11170" length="1000" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="12020" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="12200" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="13580" length="1000" autoplay="false"/>
+
+	<target key="RIGHT" secondaryKey="" position="15160" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="15810" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="16620" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="17300" length="-1" autoplay="false"/>
+
+	<target key="LEFT" secondaryKey="" position="17940" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="18700" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="19580" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="20330" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="20930" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="21880" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="22580" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="23350" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="24040" length="2500" autoplay="false"/>
+
+</level>

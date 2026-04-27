@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/addItemCard.swf</swf>
+		<swf type="code">{panelCode}/addItemCard.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<replace target="foundItemPreview" type="dragarea" />
+	</config>
+</panel>

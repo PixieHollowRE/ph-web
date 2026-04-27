@@ -1,0 +1,17 @@
+<script useSceneTitles="0">
+  <scene id="1">
+	<line id="0" role="QUESTION">What do Water-talents like on their cookies?</line>
+    <line id="1" role="ANSWER">SPRINKLES!!</line>
+	<line id="2" role="QUESTION">Who always says "See ya 'round the waterfall"?</line>
+    <line id="3" role="ANSWER">Marina of the Never Council.</line>
+	<line id="4" role="QUESTION">What is full of holes but can still hold water?</line>
+    <line id="5" role="ANSWER">A SPONGE!</line>
+	<line id="6" role="QUESTION">Knock-knock!</line>
+    <line id="7" role="ANSWER">Who's there?</line>
+    <line id="8" role="QUESTION">Boo hoo.</line>
+    <line id="9" role="ANSWER">Boo hoo who?</line>
+    <line id="10" role="QUESTION">Well, you don't have to cry about it!</line>
+	<line id="11" role="QUESTION">What would you call Sports Camp during a summer shower?</line>
+    <line id="12" role="ANSWER">DAMP CAMP!</line>
+  </scene>
+</script>

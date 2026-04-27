@@ -1,0 +1,555 @@
+﻿<FairiesUpdatePageResponse>
+	<success>true</success>
+	<themes>
+		<theme theme_id="1">assets/icons/theme_0.swf</theme>
+		<theme theme_id="2">assets/icons/theme_1.swf</theme>
+		<theme theme_id="3">assets/icons/theme_2.swf</theme>
+		<theme theme_id="4">assets/icons/theme_3.swf</theme>
+		<theme theme_id="5">assets/icons/theme_4.swf</theme>
+		<theme theme_id="6">assets/icons/theme_5.swf</theme>
+		<theme theme_id="7">assets/icons/theme_6.swf</theme>
+	</themes>
+	<music_tracks>
+		<location>assets/audio/ambience_preview.swf</location>
+		<music_track music_track_id="1">
+			<location>none</location>
+			<name>None</name>
+		</music_track>
+		<music_track music_track_id="2">
+			<location>assets/audio/ambience1.swf</location>
+			<name>Morning Dew</name>
+		</music_track>
+		<music_track music_track_id="3">
+			<location>assets/audio/ambience2.swf</location>
+			<name>Evening Shade</name>
+		</music_track>
+		<music_track music_track_id="4">
+			<location>assets/audio/ambience3.swf</location>
+			<name>Whispering Meadow</name>
+		</music_track>
+		<music_track music_track_id="5">
+			<location>assets/audio/ambience4.swf</location>
+			<name>Babbling Brook</name>
+		</music_track>
+		<music_track music_track_id="6">
+			<location>assets/audio/ambience5.swf</location>
+			<name>Fairy Garden</name>
+		</music_track>
+		<music_track music_track_id="7">
+			<location>assets/audio/ambience6.swf</location>
+			<name>Autumn Breeze</name>
+		</music_track>
+		<music_track music_track_id="8">
+			<location>assets/audio/ambience7.swf</location>
+			<name>Wooded Glen</name>
+		</music_track>
+		<music_track music_track_id="9">
+			<location>assets/audio/ambience8.swf</location>
+			<name>Forest Stream</name>
+		</music_track>
+	</music_tracks>
+	<bio_questions>
+		<question id="1">
+			<text>Favorite Food</text>
+			<answer answer_id="1">Acorn Pancakes</answer>
+			<answer answer_id="2">Ambrosia Salad</answer>
+			<answer answer_id="3">Anything sweet!</answer>
+			<answer answer_id="4">Apple Popovers</answer>
+			<answer answer_id="5">Berry Parfaits</answer>
+			<answer answer_id="6">Blueberry Pie</answer>
+			<answer answer_id="7">Blueberry Trifle</answer>
+			<answer answer_id="8">Bonbons</answer>
+			<answer answer_id="9">Carrot Cupcakes</answer>
+			<answer answer_id="10">Cheesecake</answer>
+			<answer answer_id="11">Chocolate Cake</answer>
+			<answer answer_id="12">Cinnamon Scones</answer>
+			<answer answer_id="13">Cinnamon Spice Cake</answer>
+			<answer answer_id="14">Cranberry Crumble</answer>
+			<answer answer_id="15">Everfruit</answer>
+			<answer answer_id="16">Fairy Cake</answer>
+			<answer answer_id="17">Fairy Macaroons</answer>
+			<answer answer_id="18">Fairy Toast</answer>
+			<answer answer_id="19">Gingerbread</answer>
+			<answer answer_id="20">Hazelnut Soup</answer>
+			<answer answer_id="21">Lemon Tarts</answer>
+			<answer answer_id="22">Ollallaberry Pie</answer>
+			<answer answer_id="23">Petit Fours</answer>
+			<answer answer_id="24">Poppy-puff Rolls</answer>
+			<answer answer_id="25">Puff Pastries</answer>
+			<answer answer_id="26">Pumpkin Muffins</answer>
+			<answer answer_id="27">Raspberries</answer>
+			<answer answer_id="28">Rhubarb Pie</answer>
+			<answer answer_id="29">Rose Petal Teacakes</answer>
+			<answer answer_id="30">Strawberries</answer>
+			<answer answer_id="31">Sunflower-seed Souffle</answer>
+			<answer answer_id="32">Tea and Cookies</answer>
+			<answer answer_id="33">Watermelon Ice</answer>
+		</question>
+		<question id="2">
+			<text>Favorite Color</text>
+			<answer answer_id="78">Berry Blue</answer>
+			<answer answer_id="79">Berry Red</answer>
+			<answer answer_id="80">Chestnut Brown</answer>
+			<answer answer_id="81">Chocolate Brown</answer>
+			<answer answer_id="82">Cloud White</answer>
+			<answer answer_id="83">Dolphin Blue</answer>
+			<answer answer_id="84">Fairy Dust Yellow</answer>
+			<answer answer_id="85">Forest Green</answer>
+			<answer answer_id="86">Foxtail Orange</answer>
+			<answer answer_id="87">Fresh Lavender</answer>
+			<answer answer_id="88">Goldfish Orange</answer>
+			<answer answer_id="89">Grizzly Brown</answer>
+			<answer answer_id="90">Lemon Yellow</answer>
+			<answer answer_id="91">Lightning Blue</answer>
+			<answer answer_id="92">Lime Green</answer>
+			<answer answer_id="93">Midnight Black</answer>
+			<answer answer_id="94">Pale Goldenrod</answer>
+			<answer answer_id="95">Pale Orchid</answer>
+			<answer answer_id="96">Panther Black</answer>
+			<answer answer_id="97">Rabbit Grey</answer>
+			<answer answer_id="98">Roasted Almond</answer>
+			<answer answer_id="99">Rose Red</answer>
+			<answer answer_id="100">Royal Purple</answer>
+			<answer answer_id="101">Sandy Brown</answer>
+			<answer answer_id="102">Sea Green</answer>
+			<answer answer_id="103">Sky Blue</answer>
+			<answer answer_id="104">Snow White</answer>
+			<answer answer_id="105">Spring Violet</answer>
+			<answer answer_id="106">Starshine White</answer>
+			<answer answer_id="107">Summer Blush</answer>
+			<answer answer_id="108">Sunset Orange</answer>
+			<answer answer_id="109">Sunshine Yellow</answer>
+			<answer answer_id="110">Waterfall White</answer>
+			<answer answer_id="111">Winter Blush</answer>
+			<answer answer_id="112">Wolf Grey</answer>
+		</question>
+		<question id="3">
+			<text>Favorite Flower</text>
+			<answer answer_id="34">Buttercup</answer>
+			<answer answer_id="35">Cactus</answer>
+			<answer answer_id="36">Carnation</answer>
+			<answer answer_id="37">Daisy</answer>
+			<answer answer_id="38">Dandelion</answer>
+			<answer answer_id="39">Foxglove</answer>
+			<answer answer_id="40">Geranium</answer>
+			<answer answer_id="41">Honeysuckle</answer>
+			<answer answer_id="42">Hyacinth</answer>
+			<answer answer_id="43">Iris</answer>
+			<answer answer_id="44">Lilac</answer>
+			<answer answer_id="45">Lily</answer>
+			<answer answer_id="46">Lupine</answer>
+			<answer answer_id="47">Marigold</answer>
+			<answer answer_id="48">Orchid</answer>
+			<answer answer_id="49">Pansy</answer>
+			<answer answer_id="50">Rose</answer>
+			<answer answer_id="51">Silverbell</answer>
+			<answer answer_id="52">Sunflower</answer>
+			<answer answer_id="53">Tulip</answer>
+			<answer answer_id="54">Water Lily</answer>
+		</question>
+		<question id="4">
+			<text>Favorite Animal</text>
+			<answer answer_id="113">Bear</answer>
+			<answer answer_id="114">Bluebird</answer>
+			<answer answer_id="115">Bumble Bee</answer>
+			<answer answer_id="116">Bunny</answer>
+			<answer answer_id="117">Butterfly</answer>
+			<answer answer_id="118">Caterpillar</answer>
+			<answer answer_id="119">Chipmunk</answer>
+			<answer answer_id="120">Dolphin</answer>
+			<answer answer_id="121">Dove</answer>
+			<answer answer_id="122">Dragonfly</answer>
+			<answer answer_id="123">Flying Fish</answer>
+			<answer answer_id="124">Fox</answer>
+			<answer answer_id="125">Frog</answer>
+			<answer answer_id="126">Goldfish</answer>
+			<answer answer_id="127">Hummingbird</answer>
+			<answer answer_id="128">Ladybug</answer>
+			<answer answer_id="129">Mole</answer>
+			<answer answer_id="130">Monkey</answer>
+			<answer answer_id="131">Moth</answer>
+			<answer answer_id="132">Mouse</answer>
+			<answer answer_id="133">Nightingale</answer>
+			<answer answer_id="134">Owl</answer>
+			<answer answer_id="135">Pony</answer>
+			<answer answer_id="136">Seahorse</answer>
+			<answer answer_id="137">Spider</answer>
+			<answer answer_id="138">Squirrel</answer>
+		</question>
+		<question id="5">
+			<text>Favorite Hobby</text>
+			<answer answer_id="55">Baking fairycake</answer>
+			<answer answer_id="56">Dancing</answer>
+			<answer answer_id="57">Daydreaming</answer>
+			<answer answer_id="58">Drawing pictures</answer>
+			<answer answer_id="59">Exploring</answer>
+			<answer answer_id="60">Fairy tag</answer>
+			<answer answer_id="61">Flying</answer>
+			<answer answer_id="62">Flying -- fast!</answer>
+			<answer answer_id="63">Helping animals</answer>
+			<answer answer_id="64">Hide-and-seek</answer>
+			<answer answer_id="65">Making friends</answer>
+			<answer answer_id="66">Making jewelry</answer>
+			<answer answer_id="67">Making new clothes</answer>
+			<answer answer_id="68">Painting pictures</answer>
+			<answer answer_id="69">Pixie-dusting</answer>
+			<answer answer_id="70">Planting seeds</answer>
+			<answer answer_id="71">Playing music</answer>
+			<answer answer_id="72">Practical jokes</answer>
+			<answer answer_id="73">Racing</answer>
+			<answer answer_id="74">Shopping</answer>
+			<answer answer_id="75">Singing</answer>
+			<answer answer_id="76">Singing -- loud!</answer>
+			<answer answer_id="77">Telling stories</answer>
+		</question>
+		<question id="6">
+			<text>Dislikes</text>
+			<answer answer_id="139">Arguing</answer>
+			<answer answer_id="140">Bad hair days</answer>
+			<answer answer_id="141">Being bored</answer>
+			<answer answer_id="142">Bossyboots</answer>
+			<answer answer_id="143">Boys</answer>
+			<answer answer_id="144">Cheaters</answer>
+			<answer answer_id="145">Cloudy days</answer>
+			<answer answer_id="146">Dark places</answer>
+			<answer answer_id="147">Eavesdroppers</answer>
+			<answer answer_id="148">Feeling left out</answer>
+			<answer answer_id="149">Gossips</answer>
+			<answer answer_id="150">Hawks</answer>
+			<answer answer_id="151">Homework</answer>
+			<answer answer_id="152">Know-it-alls</answer>
+			<answer answer_id="153">Meanies</answer>
+			<answer answer_id="154">Neat Freaks</answer>
+			<answer answer_id="155">Phonies</answer>
+			<answer answer_id="156">Rainy days</answer>
+			<answer answer_id="157">Sad endings</answer>
+			<answer answer_id="158">Show-offs</answer>
+			<answer answer_id="159">Slobs</answer>
+			<answer answer_id="160">Stuck up fairies</answer>
+			<answer answer_id="161">Tattletales</answer>
+			<answer answer_id="162">Teachers</answer>
+			<answer answer_id="163">Thunderstorms</answer>
+			<answer answer_id="164">Waking up early</answer>
+			<answer answer_id="165">Waking up late</answer>
+			<answer answer_id="166">Weeds</answer>
+		</question>
+	</bio_questions>
+	<ComFavorites>
+		<favorite favorite_id="1">
+			<address>http://disney.go.com/fairies/today/games/pixiehollow.html</address>
+			<name>Pixie Hollow Tour</name>
+		</favorite>
+		<favorite favorite_id="2">
+			<address>http://disney.go.com/fairies/today/games/minigames/hopefulsquest.html</address>
+			<name>Hopeful&apos;s Quest</name>
+		</favorite>
+		<favorite favorite_id="3">
+			<address>http://disney.go.com/fairies/index.html?skipintro=true</address>
+			<name>DisneyFairies.com home page</name>
+		</favorite>
+		<favorite favorite_id="4">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/beck.html</address>
+			<name>Beck&apos;s page</name>
+		</favorite>
+		<favorite favorite_id="5">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/bess.html</address>
+			<name>Bess&apos;s page</name>
+		</favorite>
+		<favorite favorite_id="6">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/fira.html</address>
+			<name>Fira&apos;s page</name>
+		</favorite>
+		<favorite favorite_id="7">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/lily.html</address>
+			<name>Lily&apos;s page</name>
+		</favorite>
+		<favorite favorite_id="8">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/prilla.html</address>
+			<name>Prilla&apos;s page</name>
+		</favorite>
+		<favorite favorite_id="9">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/rani.html</address>
+			<name>Rani&apos;s page</name>
+		</favorite>
+		<favorite favorite_id="10">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/vidia.html</address>
+			<name>Vidia&apos;s page</name>
+		</favorite>
+		<favorite favorite_id="11">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/tinkerbell.html</address>
+			<name>Tinker Bell&apos;s page</name>
+		</favorite>
+		<favorite favorite_id="12">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/fawn.html</address>
+			<name>Fawn&apos;s page</name>
+		</favorite>
+		<favorite favorite_id="13">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/iridessa.html</address>
+			<name>Iridessa&apos;s page</name>
+		</favorite>
+		<favorite favorite_id="14">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/rosetta.html</address>
+			<name>Rosetta&apos;s page</name>
+		</favorite>
+		<favorite favorite_id="15">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/silvermist.html</address>
+			<name>Silvermist&apos;s page</name>
+		</favorite>
+		<favorite favorite_id="16">
+			<address>http://disney.go.com/fairies/fairies/fairies_bio/fairymary.html</address>
+			<name>Fairy Mary&apos;s page</name>
+		</favorite>
+		<favorite favorite_id="17">
+			<address>http://disney.go.com/fairies/books/bookdetails/questfortheegg.html?itemid=0&amp;currentpos=0</address>
+			<name>Fairy Dust and the Quest for the Egg</name>
+		</favorite>
+		<favorite favorite_id="18">
+			<address>http://disney.go.com/fairies/books/bookdetails/troublewithtink.html?itemid=1&amp;currentpos=1</address>
+			<name>The Trouble with Tink</name>
+		</favorite>
+		<favorite favorite_id="19">
+			<address>http://disney.go.com/fairies/books/bookdetails/fairycrown.html?itemid=2&amp;currentpos=2</address>
+			<name>Vidia and the Fairy Crown</name>
+		</favorite>
+		<favorite favorite_id="20">
+			<address>http://disney.go.com/fairies/books/bookdetails/lilypeskyplant.html?itemid=3&amp;currentpos=3</address>
+			<name>Lily&apos;s Pesky Plant</name>
+		</favorite>
+		<favorite favorite_id="21">
+			<address>http://disney.go.com/fairies/books/bookdetails/greatberrybattle.html?itemid=4&amp;currentpos=4</address>
+			<name>Beck and the Great Berry Battle</name>
+		</favorite>
+	</ComFavorites>
+	<quizzes>
+		<quiz quiz_id="1">
+			<name>Fairy Magic Quiz</name>
+			<external_id>magic</external_id>
+		</quiz>
+		<quiz quiz_id="2">
+			<name>Fairy Fashion Quiz</name>
+			<external_id>fashion</external_id>
+		</quiz>
+		<quiz quiz_id="3">
+			<name>Fairy Bug Quiz</name>
+			<external_id>bug</external_id>
+		</quiz>
+		<quiz quiz_id="4">
+			<name>Fairy Forecast Quiz</name>
+			<external_id>forecast</external_id>
+		</quiz>
+		<quiz quiz_id="5">
+			<name>Fairy Competition Quiz</name>
+			<external_id>competition</external_id>
+		</quiz>
+		<quiz quiz_id="6">
+			<name>Feathered Friends Quiz</name>
+			<external_id>memory</external_id>
+		</quiz>
+		<quiz quiz_id="7">
+			<name>Fairies Friendship Quiz</name>
+			<external_id>friendship</external_id>
+		</quiz>
+		<quiz quiz_id="8">
+			<name>Adventurous Animal Quiz</name>
+			<external_id>whatforestcreatureareyou</external_id>
+		</quiz>
+	</quizzes>
+	<polls>
+		<poll poll_id="1">
+			<name>Favorite Food</name>
+			<external_id>favfood</external_id>
+		</poll>
+		<poll poll_id="2">
+			<name>A Day in Pixie Hollow</name>
+			<external_id>dayinpixiehollow</external_id>
+		</poll>
+		<poll poll_id="3">
+			<name>Fairy Page Activities</name>
+			<external_id>enjoydoingmost</external_id>
+		</poll>
+		<poll poll_id="4">
+			<name>Favorite Fairy Game</name>
+			<external_id>favfairygame</external_id>
+		</poll>
+		<poll poll_id="5">
+			<name>Favorite Time of Day</name>
+			<external_id>favtimeofday</external_id>
+		</poll>
+		<poll poll_id="6">
+			<name>Favorite Season</name>
+			<external_id>favseason</external_id>
+		</poll>
+		<poll poll_id="7">
+			<name>Meet in Pixie Hollow</name>
+			<external_id>meetinpixiehollow</external_id>
+		</poll>
+		<poll poll_id="8">
+			<name>Explore Never Land</name>
+			<external_id>exploreneverland</external_id>
+		</poll>
+		<poll poll_id="9">
+			<name>Never Land Treasure</name>
+			<external_id>treasureinneverland</external_id>
+		</poll>
+		<poll poll_id="10">
+			<name>Being a Fairy</name>
+			<external_id>beingafairy</external_id>
+		</poll>
+	</polls>
+	<icons>
+		<icon icon_id="1">assets/icons/first_fairyicon1_blue.swf</icon>
+		<icon icon_id="2">assets/icons/first_fairyicon1_green.swf</icon>
+		<icon icon_id="3">assets/icons/first_fairyicon1_lavender.swf</icon>
+		<icon icon_id="4">assets/icons/first_fairyicon1_orange.swf</icon>
+		<icon icon_id="5">assets/icons/first_fairyicon1_pink.swf</icon>
+		<icon icon_id="6">assets/icons/first_fairyicon1_purple.swf</icon>
+		<icon icon_id="7">assets/icons/first_fairyicon1_yellow.swf</icon>
+		<icon icon_id="8">assets/icons/first_fairyicon2_blue.swf</icon>
+		<icon icon_id="9">assets/icons/first_fairyicon2_green.swf</icon>
+		<icon icon_id="10">assets/icons/first_fairyicon2_lavender.swf</icon>
+		<icon icon_id="11">assets/icons/first_fairyicon2_orange.swf</icon>
+		<icon icon_id="12">assets/icons/first_fairyicon2_pink.swf</icon>
+		<icon icon_id="13">assets/icons/first_fairyicon2_purple.swf</icon>
+		<icon icon_id="14">assets/icons/first_fairyicon2_yellow.swf</icon>
+		<icon icon_id="15">assets/icons/first_fairyicon3_blue.swf</icon>
+		<icon icon_id="16">assets/icons/first_fairyicon3_green.swf</icon>
+		<icon icon_id="17">assets/icons/first_fairyicon3_lavender.swf</icon>
+		<icon icon_id="18">assets/icons/first_fairyicon3_orange.swf</icon>
+		<icon icon_id="19">assets/icons/first_fairyicon3_pink.swf</icon>
+		<icon icon_id="20">assets/icons/first_fairyicon3_purple.swf</icon>
+		<icon icon_id="21">assets/icons/first_fairyicon3_yellow.swf</icon>
+		<icon icon_id="22">assets/icons/first_fairyicon4_blue.swf</icon>
+		<icon icon_id="23">assets/icons/first_fairyicon4_green.swf</icon>
+		<icon icon_id="24">assets/icons/first_fairyicon4_lavender.swf</icon>
+		<icon icon_id="25">assets/icons/first_fairyicon4_orange.swf</icon>
+		<icon icon_id="26">assets/icons/first_fairyicon4_pink.swf</icon>
+		<icon icon_id="27">assets/icons/first_fairyicon4_purple.swf</icon>
+		<icon icon_id="28">assets/icons/first_fairyicon4_yellow.swf</icon>
+		<icon icon_id="29">assets/icons/first_fairyicon5_blue.swf</icon>
+		<icon icon_id="30">assets/icons/first_fairyicon5_green.swf</icon>
+		<icon icon_id="31">assets/icons/first_fairyicon5_lavender.swf</icon>
+		<icon icon_id="32">assets/icons/first_fairyicon5_orange.swf</icon>
+		<icon icon_id="33">assets/icons/first_fairyicon5_pink.swf</icon>
+		<icon icon_id="34">assets/icons/first_fairyicon5_purple.swf</icon>
+		<icon icon_id="35">assets/icons/first_fairyicon5_yellow.swf</icon>
+		<icon icon_id="36">assets/icons/first_fairyicon6_blue.swf</icon>
+		<icon icon_id="37">assets/icons/first_fairyicon6_green.swf</icon>
+		<icon icon_id="38">assets/icons/first_fairyicon6_lavender.swf</icon>
+		<icon icon_id="39">assets/icons/first_fairyicon6_orange.swf</icon>
+		<icon icon_id="40">assets/icons/first_fairyicon6_pink.swf</icon>
+		<icon icon_id="41">assets/icons/first_fairyicon6_purple.swf</icon>
+		<icon icon_id="42">assets/icons/first_fairyicon6_yellow.swf</icon>
+		<icon icon_id="43">assets/icons/first_fairyicon7_blue.swf</icon>
+		<icon icon_id="44">assets/icons/first_fairyicon7_green.swf</icon>
+		<icon icon_id="45">assets/icons/first_fairyicon7_lavender.swf</icon>
+		<icon icon_id="46">assets/icons/first_fairyicon7_orange.swf</icon>
+		<icon icon_id="47">assets/icons/first_fairyicon7_pink.swf</icon>
+		<icon icon_id="48">assets/icons/first_fairyicon7_purple.swf</icon>
+		<icon icon_id="49">assets/icons/first_fairyicon7_yellow.swf</icon>
+		<icon icon_id="50">assets/icons/first_fairyicon8_blue.swf</icon>
+		<icon icon_id="51">assets/icons/first_fairyicon8_green.swf</icon>
+		<icon icon_id="52">assets/icons/first_fairyicon8_lavender.swf</icon>
+		<icon icon_id="53">assets/icons/first_fairyicon8_orange.swf</icon>
+		<icon icon_id="54">assets/icons/first_fairyicon8_pink.swf</icon>
+		<icon icon_id="55">assets/icons/first_fairyicon8_purple.swf</icon>
+		<icon icon_id="56">assets/icons/first_fairyicon8_yellow.swf</icon>
+		<icon icon_id="57">assets/icons/first_fairyicon9_blue.swf</icon>
+		<icon icon_id="58">assets/icons/first_fairyicon9_green.swf</icon>
+		<icon icon_id="59">assets/icons/first_fairyicon9_lavender.swf</icon>
+		<icon icon_id="60">assets/icons/first_fairyicon9_orange.swf</icon>
+		<icon icon_id="61">assets/icons/first_fairyicon9_pink.swf</icon>
+		<icon icon_id="62">assets/icons/first_fairyicon9_purple.swf</icon>
+		<icon icon_id="63">assets/icons/first_fairyicon9_yellow.swf</icon>
+		<icon icon_id="64">assets/icons/first_fairyicon10_blue.swf</icon>
+		<icon icon_id="65">assets/icons/first_fairyicon10_green.swf</icon>
+		<icon icon_id="66">assets/icons/first_fairyicon10_lavender.swf</icon>
+		<icon icon_id="67">assets/icons/first_fairyicon10_orange.swf</icon>
+		<icon icon_id="68">assets/icons/first_fairyicon10_pink.swf</icon>
+		<icon icon_id="69">assets/icons/first_fairyicon10_purple.swf</icon>
+		<icon icon_id="70">assets/icons/first_fairyicon10_yellow.swf</icon>
+		<icon icon_id="71">assets/icons/first_fairyicon11_blue.swf</icon>
+		<icon icon_id="72">assets/icons/first_fairyicon11_green.swf</icon>
+		<icon icon_id="73">assets/icons/first_fairyicon11_lavender.swf</icon>
+		<icon icon_id="74">assets/icons/first_fairyicon11_orange.swf</icon>
+		<icon icon_id="75">assets/icons/first_fairyicon11_pink.swf</icon>
+		<icon icon_id="76">assets/icons/first_fairyicon11_purple.swf</icon>
+		<icon icon_id="77">assets/icons/first_fairyicon11_yellow.swf</icon>
+		<icon icon_id="78">assets/icons/first_fairyicon12_blue.swf</icon>
+		<icon icon_id="79">assets/icons/first_fairyicon12_green.swf</icon>
+		<icon icon_id="80">assets/icons/first_fairyicon12_lavender.swf</icon>
+		<icon icon_id="81">assets/icons/first_fairyicon12_orange.swf</icon>
+		<icon icon_id="82">assets/icons/first_fairyicon12_pink.swf</icon>
+		<icon icon_id="83">assets/icons/first_fairyicon12_purple.swf</icon>
+		<icon icon_id="84">assets/icons/first_fairyicon12_yellow.swf</icon>
+		<icon icon_id="85">assets/icons/first_fairyicon13_blue.swf</icon>
+		<icon icon_id="86">assets/icons/first_fairyicon13_green.swf</icon>
+		<icon icon_id="87">assets/icons/first_fairyicon13_lavender.swf</icon>
+		<icon icon_id="88">assets/icons/first_fairyicon13_orange.swf</icon>
+		<icon icon_id="89">assets/icons/first_fairyicon13_pink.swf</icon>
+		<icon icon_id="90">assets/icons/first_fairyicon13_purple.swf</icon>
+		<icon icon_id="91">assets/icons/first_fairyicon13_yellow.swf</icon>
+		<icon icon_id="92">assets/icons/first_fairyicon14_blue.swf</icon>
+		<icon icon_id="93">assets/icons/first_fairyicon14_green.swf</icon>
+		<icon icon_id="94">assets/icons/first_fairyicon14_lavender.swf</icon>
+		<icon icon_id="95">assets/icons/first_fairyicon14_orange.swf</icon>
+		<icon icon_id="96">assets/icons/first_fairyicon14_pink.swf</icon>
+		<icon icon_id="97">assets/icons/first_fairyicon14_purple.swf</icon>
+		<icon icon_id="98">assets/icons/first_fairyicon14_yellow.swf</icon>
+		<icon icon_id="99">assets/icons/first_fairyicon15_blue.swf</icon>
+		<icon icon_id="100">assets/icons/first_fairyicon15_green.swf</icon>
+		<icon icon_id="101">assets/icons/first_fairyicon15_lavender.swf</icon>
+		<icon icon_id="102">assets/icons/first_fairyicon15_orange.swf</icon>
+		<icon icon_id="103">assets/icons/first_fairyicon15_pink.swf</icon>
+		<icon icon_id="104">assets/icons/first_fairyicon15_purple.swf</icon>
+		<icon icon_id="105">assets/icons/first_fairyicon15_yellow.swf</icon>
+		<icon icon_id="106">assets/icons/first_fairyicon16_blue.swf</icon>
+		<icon icon_id="107">assets/icons/first_fairyicon16_green.swf</icon>
+		<icon icon_id="108">assets/icons/first_fairyicon16_lavender.swf</icon>
+		<icon icon_id="109">assets/icons/first_fairyicon16_orange.swf</icon>
+		<icon icon_id="110">assets/icons/first_fairyicon16_pink.swf</icon>
+		<icon icon_id="111">assets/icons/first_fairyicon16_purple.swf</icon>
+		<icon icon_id="112">assets/icons/first_fairyicon16_yellow.swf</icon>
+		<icon icon_id="113">assets/icons/first_fairyicon17_blue.swf</icon>
+		<icon icon_id="114">assets/icons/first_fairyicon17_green.swf</icon>
+		<icon icon_id="115">assets/icons/first_fairyicon17_lavender.swf</icon>
+		<icon icon_id="116">assets/icons/first_fairyicon17_orange.swf</icon>
+		<icon icon_id="117">assets/icons/first_fairyicon17_pink.swf</icon>
+		<icon icon_id="118">assets/icons/first_fairyicon17_purple.swf</icon>
+		<icon icon_id="119">assets/icons/first_fairyicon17_yellow.swf</icon>
+		<icon icon_id="120">assets/icons/first_fairyicon18_blue.swf</icon>
+		<icon icon_id="121">assets/icons/first_fairyicon18_green.swf</icon>
+		<icon icon_id="122">assets/icons/first_fairyicon18_lavender.swf</icon>
+		<icon icon_id="123">assets/icons/first_fairyicon18_orange.swf</icon>
+		<icon icon_id="124">assets/icons/first_fairyicon18_pink.swf</icon>
+		<icon icon_id="125">assets/icons/first_fairyicon18_purple.swf</icon>
+		<icon icon_id="126">assets/icons/first_fairyicon18_yellow.swf</icon>
+		<icon icon_id="127">assets/icons/first_fairyicon19_blue.swf</icon>
+		<icon icon_id="128">assets/icons/first_fairyicon19_green.swf</icon>
+		<icon icon_id="129">assets/icons/first_fairyicon19_lavender.swf</icon>
+		<icon icon_id="130">assets/icons/first_fairyicon19_orange.swf</icon>
+		<icon icon_id="131">assets/icons/first_fairyicon19_pink.swf</icon>
+		<icon icon_id="132">assets/icons/first_fairyicon19_purple.swf</icon>
+		<icon icon_id="133">assets/icons/first_fairyicon19_yellow.swf</icon>
+		<icon icon_id="134">assets/icons/first_fairyicon20_blue.swf</icon>
+		<icon icon_id="135">assets/icons/first_fairyicon20_green.swf</icon>
+		<icon icon_id="136">assets/icons/first_fairyicon20_lavender.swf</icon>
+		<icon icon_id="137">assets/icons/first_fairyicon20_orange.swf</icon>
+		<icon icon_id="138">assets/icons/first_fairyicon20_pink.swf</icon>
+		<icon icon_id="139">assets/icons/first_fairyicon20_purple.swf</icon>
+		<icon icon_id="140">assets/icons/first_fairyicon20_yellow.swf</icon>
+		<icon icon_id="141">assets/icons/first_fairyicon22_blue.swf</icon>
+		<icon icon_id="142">assets/icons/first_fairyicon22_green.swf</icon>
+		<icon icon_id="143">assets/icons/first_fairyicon22_lavender.swf</icon>
+		<icon icon_id="144">assets/icons/first_fairyicon22_orange.swf</icon>
+		<icon icon_id="145">assets/icons/first_fairyicon22_pink.swf</icon>
+		<icon icon_id="146">assets/icons/first_fairyicon22_purple.swf</icon>
+		<icon icon_id="147">assets/icons/first_fairyicon22_yellow.swf</icon>
+		<icon icon_id="148">assets/icons/first_fairyicon23_blue.swf</icon>
+		<icon icon_id="149">assets/icons/first_fairyicon23_green.swf</icon>
+		<icon icon_id="150">assets/icons/first_fairyicon23_lavender.swf</icon>
+		<icon icon_id="151">assets/icons/first_fairyicon23_orange.swf</icon>
+		<icon icon_id="152">assets/icons/first_fairyicon23_pink.swf</icon>
+		<icon icon_id="153">assets/icons/first_fairyicon23_purple.swf</icon>
+		<icon icon_id="154">assets/icons/first_fairyicon23_yellow.swf</icon>
+	</icons>
+</FairiesUpdatePageResponse>

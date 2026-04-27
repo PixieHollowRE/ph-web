@@ -1,0 +1,25 @@
+<panelSet>
+	<panels>
+		<panel id="createMessage" x="10" y="150" refocusable="true" draggable="false" closeable="false" hidden="false">{panelData}/createMessage.xml </panel>
+	</panels>
+	<config>
+		<menu hideplay="true" hidenews="true">
+			<config title="true" defaultbackbuttony="15" nav="true"/>
+			<title>
+				<text>menutitle</text>
+				<subtext>subtitle</subtext>
+			</title>
+			<backarrow y="25" confirm="confirmtxt" okLabel="oktxt" cancelLabel="canceltxt">
+				<text>arrowtext</text>
+			</backarrow>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>Messages</menutitle>
+		<subtitle/>
+		<arrowtext>Go Back</arrowtext>
+		<confirmtxt>Are you sure?</confirmtxt>
+		<oktxt>Yes</oktxt>
+		<canceltxt>No</canceltxt>
+	</copy>
+</panelSet>

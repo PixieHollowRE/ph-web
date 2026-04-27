@@ -1,0 +1,23 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/visited.swf</swf>
+		<swf type="code">{panelCode}/visited.swf</swf>
+	</swfs>
+	<copy>
+		<talentLabel target="talentlabel">Talent:</talentLabel>
+		<pureLabel target="label">Most Visited</pureLabel>
+		<description target="description">Of all the Fairies in Pixie Hollow, these Fairies have had the most visits to their homes!</description>
+		<talents>--All Talents--,Garden,Animal,Light,Water</talents>
+            <tink>Tell all your Fairy friends to visit your home! The more Fairies that visit your home, the higher you will be on the "Most Visited" list!</tink>
+            <tinkconfirm>Okay</tinkconfirm>
+		<dbfail>Oops! Unable to connect to the Fairy directory. Please try again in a few minutes.</dbfail>
+		<dbfailconfirm>Okay</dbfailconfirm>	
+		<tinkTipsText1 target="tinkbutton.tinksTip1">Tink's</tinkTipsText1>
+		<tinkTipsText2 target="tinkbutton.tinksTip2">Tips</tinkTipsText2>
+	</copy>
+	<config>
+		<util>
+		</util>
+
+	</config>
+</panel>

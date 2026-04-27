@@ -1,0 +1,42 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0" role="GARDEN-TALENT CHEER">Pretty Petunias! Sugar Plums!</line>
+    <line id="1" role="GARDEN-TALENT CHEER">Garden-talents show your green thumbs!</line>
+  </scene>
+<scene id="2">
+    <line id="2" role="GARDEN-TALENT CHEER">Clap your hands! Scream and shout!</line>
+    <line id="3" role="GARDEN-TALENT CHEER">Garden-talents, it's time to sprout!</line>
+  </scene>
+  <scene id="3">
+    <line id="4" role="ANIMAL-TALENT CHEER">One, Two, Three, Four!</line>
+    <line id="5" role="ANIMAL-TALENT CHEER">Animal-talents score with a roar!</line>
+  </scene>
+<scene id="4">
+    <line id="6" role="ANIMAL-TALENT CHEER">Animal-talents flap and flitter!</line>
+    <line id="7" role="ANIMAL-TALENT CHEER">We take care of every critter!</line>
+  </scene>
+  <scene id="5">
+	<line id="8" role="WATER-TALENT CHEER">WAVE your wings, raise a fin...</line>
+    <line id="9" role="WATER-TALENT CHEER">Water-talents for the win!</line>
+  </scene>
+ <scene id="6">
+	<line id="10" role="WATER-TALENT CHEER">Hey there Fairies here's a news flash...</line>
+    <line id="11" role="WATER-TALENT CHEER">...Water-talents make a big SPLASH!</line>
+  </scene>
+  <scene id="7">
+	<line id="12" role="LIGHT-TALENT CHEER">GO! GO! GO! FIGHT! FIGHT! FIGHT!</line>
+    <line id="13" role="LIGHT-TALENT CHEER">We are the talents of LIGHT! LIGHT! LIGHT!</line>
+  </scene>
+ <scene id="8">
+	<line id="14" role="LIGHT-TALENT CHEER">Light-talents shine! You all know!</line>
+    <line id="15" role="LIGHT-TALENT CHEER">Come on Fairies! Ready! Set! Glow!</line>
+  </scene>
+  <scene id="9">
+	<line id="16" role="TINKER-TALENT CHEER">Don't be a Meanie! Don't be a Stinker!</line>
+    <line id="17" role="TINKER-TALENT CHEER">Come on Fairies stand up and TINKER!</line>
+  </scene>
+<scene id="10">
+	<line id="18" role="TINKER-TALENT CHEER">Tinker talents are no fools...</line>
+    <line id="19" role="TINKER-TALENT CHEER">...we're the best ones with our tools!</line>
+  </scene>
+</script>

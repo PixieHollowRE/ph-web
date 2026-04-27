@@ -1,0 +1,30 @@
+﻿<data>
+	<copy>
+		<title>Go get a bracelet from Silvermist</title>
+		<acceptance_0>Go get it now!</acceptance_0>
+		<decline_0>You dont want it?  Ok.</decline_0>		
+		<reward_presentation_0>Enjoy!</reward_presentation_0>
+		<step0_intro_0>Silvermist has a bracelet she wants to give away.</step0_intro_0>
+		<step0_summary>Silvermist is giving away a bracelet to the first fairy that asks her about it.</step0_summary>
+		<step0_finishedResponse_prompt_0>Ask about a bracelet.</step0_finishedResponse_prompt_0>
+		<step0_finishedResponse_response_0>Oh, you want a bracelet?  Sure, here you go.</step0_finishedResponse_response_0>
+		<step0_goal_0>Hurry up and talk to Silvermist</step0_goal_0>
+	</copy>
+	<storyBoards>
+		<storyBoard id="accept">
+			<line>acceptance_0</line>
+		</storyBoard>
+		<storyBoard id="decline">
+			<line>decline_0</line>
+		</storyBoard>
+		<storyBoard id="step0_intro">
+			<line>step0_intro_0</line>
+		</storyBoard>
+		<storyBoard id="step0_finishedResponse_15503">
+			<line>step0_finishedResponse_response_0</line>
+		</storyBoard>
+		<storyBoard id="reward_0">
+			<line>reward_presentation_0</line>
+		</storyBoard>
+	</storyBoards>
+</data>

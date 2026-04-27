@@ -1,0 +1,37 @@
+<level>
+	<introMessage>SWF FORMAT TEST LEVEL</introMessage>
+
+	<!-- <audioLibrary>audio/animalRhythm/lullaby-piece2.swf</audioLibrary> -->
+	<bgTrack>piece2_bed</bgTrack>
+	<fgTrack>piece2_melody1</fgTrack>
+	<mistakeTrack>piece2_mistake1</mistakeTrack>
+	<mistakeTrack>piece2_mistake2</mistakeTrack>
+	<mistakeTrack>piece2_mistake3</mistakeTrack>
+
+	<!--
+	<bgTrack>audio/animalRhythm/piece2/bed.mp3</bgTrack>
+	<fgTrack>audio/animalRhythm/piece2/melody_1.mp3</fgTrack>
+	<mistakeTrack>audio/animalRhythm/piece2/mistake_var1.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece2/mistake_var2.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece2/mistake_var3.mp3</mistakeTrack>
+	-->
+
+	<animal bedType="Mouse1" type="Mouse" wakeStates="0-0,1-6,7-12,13-120" position="mouse" />	
+	
+	<target key="LEFT" secondaryKey="" position="4571.390779" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="5670.468632" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="6831.466364" length="-1" autoplay="false"/>
+	
+	<target key="LEFT" secondaryKey="" position="9277.301587" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="10453.77929" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="11645.73696" length="-1" autoplay="false"/>
+	
+	<target key="RIGHT" secondaryKey="" position="13983.2124" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="15159.6901" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="16305.20786" length="-1" autoplay="false"/>
+	
+	<target key="RIGHT" secondaryKey="" position="18689.1232" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="19803.68103" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="21057.55858" length="-1" autoplay="false"/>
+
+</level>

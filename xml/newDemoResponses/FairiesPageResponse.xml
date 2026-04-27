@@ -1,0 +1,44 @@
+<FairiesPageResponse>
+	<success>true</success>
+	<fairy fairy_id="1">
+		<name>Buttercup</name>
+		<user_id>10776</user_id>
+		<talent>1</talent>
+		<created>2006-10-26 09:05:37</created>
+		<last_login>2006-10-26 09:05:37</last_login>
+		<icon>1</icon>
+		<address>456PersimmonLane</address>
+	</fairy>
+	<page>
+		<theme>1</theme>
+		<music_track>1</music_track>
+		<poll_id>1</poll_id>
+		<quiz_id>1</quiz_id>
+		<registered_visits>22</registered_visits>
+		<unregistered_visits>5</unregistered_visits>
+		<rating>3.41</rating>
+		<com_favorites>
+			<favorite>1</favorite>
+			<favorite>2</favorite>
+			<favorite>3</favorite>
+		</com_favorites>
+		<bio>
+			<question>
+				<id>1</id>
+				<answer>1</answer>
+			</question>
+			<question>
+				<id>2</id>
+				<answer>5</answer>
+			</question>
+			<question>
+				<id>3</id>
+				<answer>10</answer>
+			</question>
+			<question>
+				<id>4</id>
+				<answer>16</answer>
+			</question>
+		</bio>
+	</page>
+</FairiesPageResponse>

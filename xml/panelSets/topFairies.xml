@@ -1,0 +1,55 @@
+<panelSet>
+	<panels>
+		<panel id="panelVisited" x="10" y="190" transition="none">{panelData}/visitedPanel.xml</panel>
+	</panels>
+	<config>
+		<menu>
+			<title>
+				<text>menutitle</text>
+				<!--channel>home.htm</channel-->       
+			</title>
+			<button>
+				<text>button1text</text>
+				<channel>{panelSetData}/fairyPage.xml</channel>       
+			</button>
+			<button>
+				<text>button2text</text>
+				<channel>{panelSetData}/fairyDirectory.xml</channel> 
+			</button>
+			<button open="true">
+				<text>button3text</text>
+				<button open="true">
+					<text>subbutton1text</text>    
+				</button>
+				<button>
+					<text>subbutton2text</text>
+					<channel>{panelSetData}/rated.xml</channel>       
+				</button>
+				<button>
+					<text>subbutton3text</text>
+					<channel>{panelSetData}/active.xml</channel>       
+				</button>
+				<button>
+					<text>subbutton4text</text>
+					<channel>{panelSetData}/recent.xml</channel>        
+				</button>     
+			</button>
+			<button>
+				<text>button4text</text>
+				<channel>{panelSetData}/directory.xml</channel>         
+			</button>
+		</menu>	
+
+	</config>
+	<copy>
+		<menutitle>Fairy Directory</menutitle>
+		<button1text>My Fairy</button1text>
+		<button2text>Featured Fairies</button2text>
+		<button3text>Top Fairies</button3text>
+		<button4text>Find a Fairy</button4text>
+		<subbutton1text >Most Visited</subbutton1text>
+		<subbutton2text>Highest Rated</subbutton2text>
+		<subbutton3text>Most Active</subbutton3text>
+		<subbutton4text>Most Recent</subbutton4text>
+	</copy>
+</panelSet>

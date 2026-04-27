@@ -1,0 +1,48 @@
+<level>
+	<introMessage>Song 5 - Part 5 - Easy</introMessage>
+
+	<bgTrack>audio/animalRhythm/piece5/bed.mp3</bgTrack>
+
+	<fgTrack>audio/animalRhythm/piece5/melody_5.mp3</fgTrack>
+
+	<mistakeTrack>audio/animalRhythm/piece5/mistake_1.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece5/mistake_2.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece5/mistake_3.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece5/mistake_4.mp3</mistakeTrack>
+
+	<animal bedType="Squirrel" type="Man" wakeStates="0-5,6-20,21-35,36-100" position="oneAnimalCentered" />
+<!--
+	<target key="UP" secondaryKey="" position="3060" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="3800" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="4575" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="5400" length="-1" autoplay="false"/>
+
+	<target key="UP" secondaryKey="" position="5940" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="6690" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="7580" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="8330" length="-1" autoplay="false"/>
+
+	<target key="UP" secondaryKey="" position="9075" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="9700" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="10570" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="11380" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="12060" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="12810" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="13600" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="15100" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="15840" length="-1" autoplay="false"/>
+
+	<target key="UP" secondaryKey="" position="16560" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="17315" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="17944" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="18690" length="-1" autoplay="false"/>
+
+	<target key="UP" secondaryKey="" position="19560" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="20265" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="20975" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="21834" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="22575" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="23315" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="24072" length="-1" autoplay="true"/>
+-->
+</level>

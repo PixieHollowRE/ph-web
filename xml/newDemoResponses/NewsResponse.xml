@@ -1,0 +1,12 @@
+<FairiesNewsResponse>
+    <success>true</success>
+    <total_count>1</total_count>
+    <article>
+        <identifier>DEFAULT_PLACEHOLDER_ID</identifier>
+        <title>DEFAULT TITLE</title>
+        <date>February 30, 2008</date>
+        <full>
+            <html><![CDATA[<span class="newsbodytext">Test <a href="http://www.google.com">LINK</a> test!</span>]]></html>
+        </full>
+    </article>
+</FairiesNewsResponse>

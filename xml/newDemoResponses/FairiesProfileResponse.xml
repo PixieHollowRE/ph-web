@@ -1,0 +1,31 @@
+<FairiesProfileResponse>
+<response>
+  <success>true</success>
+  <user_id>10776</user_id>
+  <status>logged_in_fairy</status>
+  <fairies>
+    <fairy fairy_id="437204">
+      <name>Sienna</name>
+      <talent>1</talent>
+      <created>2007-02-21 13:49:31</created>
+      <last_login>2007-11-28 09:00:15</last_login>
+      <total_logins>53</total_logins>
+      <icon>4</icon>
+      <address>15101CaterpillarCorral</address>
+      <tutorial>32</tutorial>
+      <logged_in>true</logged_in>
+    </fairy>
+    <fairy fairy_id="2916328">
+      <name>Cupcake Almondwhisper</name>
+      <talent>2</talent>
+      <created>2007-09-16 19:33:41</created>
+      <last_login>2007-09-19 17:39:57</last_login>
+      <total_logins>3</total_logins>
+      <icon>1</icon>
+      <address>100060SunriseCliffs</address>
+      <tutorial>32</tutorial>
+      <logged_in>false</logged_in>
+    </fairy>
+  </fairies>
+</response>
+</FairiesProfileResponse>

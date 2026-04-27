@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/microMeter.swf</swf>
+		<swf type="code">{panelCode}/microMeter.swf</swf>
+	</swfs>
+	<copy>
+		
+		<title>Distract</title>
+		<clickMe target="clickBtn.caption">Click Me!</clickMe>
+		
+	</copy>
+	<config>
+		<test>false</test>
+		<microGameId>Distract</microGameId>
+		<colors>
+			<color id="white">166</color>
+			<color id="green">2</color>
+			<color id="yellow">9</color>
+			<color id="red">45</color>
+			<color id="orange">12</color>
+			<color id="purple">14</color>
+
+			<!-- Water Talent Colors -->
+			<color id="water_bar">45</color>
+			<color id="water_bg">42</color>
+			<color id="water_sight">43</color>
+			<color id="water_zone1">50</color>
+			<color id="water_zone2">118</color>
+			<color id="water_zone3">136</color>
+			<color id="water_zone4">42</color>
+			<color id="water_zone5">73</color>			
+		</colors>
+		<visuals>
+			<visual id="star">Star</visual>
+			<visual id="zone_plain">plain</visual>
+			<visual id="bar_plain">bar_plain</visual>
+			<visual id="bg_plain">bg_plain</visual>
+			<visual id="sight_diamond">sight_diamond</visual>
+			<visual id="sight_line">sight_greenLine</visual>
+			<visual id="curved_bg">gameBackground</visual>
+		</visuals>
+		<levels>
+			<level number="0" lifetime="15">
+				<background visual="curved_bg" color="water_bg"/>
+				<scoreboard visual="star"/>
+				<rounds>0</rounds>
+			</level>
+			<level number="1" lifetime="15">
+				<background visual="curved_bg" color="water_bg"/>
+				<scoreboard visual="star"/>
+				<rounds>0,1</rounds>
+			</level>
+			<level number="2" lifetime="15">
+				<background visual="curved_bg" color="water_bg"/>
+				<scoreboard visual="star"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="3" lifetime="15">
+				<background visual="curved_bg" color="water_bg"/>
+				<scoreboard visual="star"/>
+				<rounds>0,1,2,3</rounds>
+			</level>
+			<level number="4" lifetime="15">
+				<background visual="curved_bg" color="water_bg"/>
+				<scoreboard visual="star"/>
+				<rounds>0,1,2,3,4</rounds>
+			</level>
+		</levels>
+		<rounds>
+			<round id="0" direction="horizontal">
+				<bar height="40" width="300" visual="bar_plain" color="water_bar"/>
+				<sight speed="5" startPos="0" visual="sight_line" color="water_sight"/>			
+				<zone distance="50" pos="random" visual="zone_plain" color="water_zone1"/>
+			</round>
+			<round id="1" direction="horizontal">
+				<bar height="40" width="300" visual="bar_plain" color="water_bar"/>
+				<sight speed="6" startPos="0" visual="sight_line" color="water_sight"/>			
+				<zone distance="40" pos="random" visual="zone_plain" color="water_zone1"/>
+			</round>
+			<round id="2" direction="horizontal">
+				<bar height="40" width="300" visual="bar_plain" color="water_bar"/>
+				<sight speed="7" startPos="0" visual="sight_line" color="water_sight"/>			
+				<zone distance="30" pos="random" visual="zone_plain" color="water_zone1"/>
+			</round>
+			<round id="3" direction="horizontal">
+				<bar height="40" width="300" visual="bar_plain" color="water_bar"/>
+				<sight speed="8" startPos="0" visual="sight_line" color="water_sight"/>			
+				<zone distance="20" pos="random" visual="zone_plain" color="water_zone1"/>
+			</round>
+			<round id="4" direction="horizontal">
+				<bar height="40" width="300" visual="bar_plain" color="water_bar"/>
+				<sight speed="9" startPos="0" visual="sight_line" color="water_sight"/>			
+				<zone distance="10" pos="random" visual="zone_plain" color="water_zone1"/>
+			</round>			
+		</rounds>
+	</config>
+</panel>

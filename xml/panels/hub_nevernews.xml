@@ -1,0 +1,27 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/hub_nevernews.swf</swf>
+		<!-- -->
+		<swf type="code">{panelCode}/hub_timedpromomodule.swf</swf>
+		
+	</swfs>
+	<copy>
+
+	</copy>
+	<config>
+		<id>events</id>
+		<promos>
+			<promo>
+				
+				
+			</promo>
+			
+			
+			
+			
+		</promos>
+		
+		
+		
+	</config>
+</panel>

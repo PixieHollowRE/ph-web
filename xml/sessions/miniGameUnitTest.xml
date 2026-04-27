@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<session>
+	<params>
+		<type>standalone</type>
+		<initialContent>{panelSetData}/empty.xml</initialContent>
+		<skipAuthentication>true</skipAuthentication>
+		<globalPanelSet>{panelSetData}/unitTestPanelSet.xml</globalPanelSet>
+		<globalPanelSetOnBottom>true</globalPanelSetOnBottom>
+	</params>
+</session>

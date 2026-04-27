@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/microDots.swf</swf>
+		<swf type="code">{panelCode}/microDots.swf</swf>
+	</swfs>
+	<copy>		
+		<title>Splash</title>		
+	</copy>
+	<config>
+		<microGameId>Splash</microGameId>
+		<test>false</test>
+		<visuals>
+			<visual id="plain_dot">dot_plain</visual>
+			<visual id="star">Star</visual>
+		<!-- value to end game: 1053 -->
+		<!-- interaction="roll" -->
+		</visuals>
+		<levels>
+			<level number="0" lifetime="15">
+				<!-- click all the dots -->
+				<scoreboard visual="star"/>
+				<rounds>0</rounds>
+			</level>
+			<level number="1" lifetime="15">
+				<!-- click all the dots -->
+				<scoreboard visual="star"/>
+				<rounds>0,1</rounds>
+			</level>
+			<level number="2" lifetime="15">
+				<!-- click all the dots -->
+				<scoreboard visual="star"/>
+				<rounds>0,1,2</rounds>
+			</level>
+			<level number="3" lifetime="15">
+				<!-- click all the dots -->
+				<scoreboard visual="star"/>
+				<rounds>0,1,2,3</rounds>
+			</level>
+			<level number="4" lifetime="15">
+				<!-- click all the dots -->
+				<scoreboard visual="star"/>
+				<rounds>0,1,2,3,4</rounds>
+			</level>
+		</levels>
+		<rounds>
+			<round id="0">
+				<area id="0" x="0" y="0" height="200" width="300"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="30" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="40" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="50" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="60" y="random" visual="plain_dot" />				
+				</dots>
+			</round>
+			<round id="1">
+				<area id="0" x="0" y="0" height="200" width="300"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="20" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="30" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="40" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="50" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="60" y="random" visual="plain_dot" />				
+				</dots>
+			</round>
+			<round id="2">
+				<area id="0" x="0" y="0" height="200" width="300"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="20" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="30" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="40" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="50" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="60" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="70" y="random" visual="plain_dot" />					
+				</dots>
+			</round>
+			<round id="3">
+				<area id="0" x="0" y="0" height="200" width="300"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="10" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="20" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="30" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="40" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="50" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="60" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="70" y="random" visual="plain_dot" />							
+				</dots>
+			</round>
+			<round id="4">
+				<area id="0" x="0" y="0" height="200" width="300"/>
+				<dots type="defined">
+					<dot interaction="roll" value="10" x="10" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="20" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="30" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="40" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="50" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="60" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="70" y="random" visual="plain_dot" />
+					<dot interaction="roll" value="10" x="80" y="random" visual="plain_dot" />						
+				</dots>
+			</round>
+		</rounds>		
+	</config>
+</panel>

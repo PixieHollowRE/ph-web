@@ -1,0 +1,204 @@
+﻿<FairiesHomeResponse>
+	<success>true</success>
+	<item name="HomeBackground_3" type="HomeBackground">
+		<location location_id="36">icon_test.swf</location>
+		<piece type="HomeBackgroundPiece">
+			<asset asset_id="36">assets/home/background_light_1.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<x>0</x>
+		<y>0</y>
+		<scale>100</scale>
+		<sort>0</sort>
+		<flip>false</flip>
+		<inventory_id>102232</inventory_id>
+	</item>
+	<item name="HomeForeground_3" type="HomeForeground">
+		<location location_id="39">assets/icons/foreground_3_icon.swf</location>
+		<piece type="ForegroundAboveCut">
+			<asset asset_id="39">assets/home/foreground_3_abovecut.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<piece type="ForegroundDieCut">
+			<asset asset_id="39">assets/home/foreground_3_diecut.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<piece type="ForegroundBelowCut">
+			<asset asset_id="39">assets/home/foreground_3_belowcut.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<x>0</x>
+		<y>0</y>
+		<scale>100</scale>
+		<sort>0</sort>
+		<flip>false</flip>
+		<inventory_id>102235</inventory_id>
+	</item>
+	<item name="Furniture_5" type="Furniture">
+		<location location_id="53">assets/icons/furniture5icon.swf</location>
+		<color color_id="127" number="1">107 180 89</color>
+		<piece type="FurniturePiece">
+			<asset asset_id="53">assets/home/furniture5.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<x>342</x>
+		<y>259</y>
+		<scale>135</scale>
+		<sort>4</sort>
+		<flip>false</flip>
+		<inventory_id>102248</inventory_id>
+	</item>
+	<item name="Furniture_7" type="Furniture">
+		<location location_id="55">assets/icons/furniture7icon.swf</location>
+		<color color_id="126" number="1">121 167 224</color>
+		<piece type="FurniturePiece">
+			<asset asset_id="55">assets/home/furniture7.swf</asset>
+			<frame>2</frame>
+		</piece>
+		<x>230</x>
+		<y>258</y>
+		<scale>100</scale>
+		<sort>9</sort>
+		<flip>false</flip>
+		<inventory_id>102250</inventory_id>
+	</item>
+	<item name="Furniture_19" type="Furniture">
+		<location location_id="67">assets/icons/furniture19icon.swf</location>
+		<color color_id="126" number="1">121 167 224</color>
+		<piece type="FurniturePiece">
+			<asset asset_id="67">assets/home/furniture19.swf</asset>
+			<frame>14</frame>
+		</piece>
+		<x>459</x>
+		<y>103</y>
+		<scale>65</scale>
+		<sort>20</sort>
+		<flip>false</flip>
+		<inventory_id>102261</inventory_id>
+	</item>
+	<item name="Decoration_2" type="Decoration">
+		<location location_id="70">assets/icons/decoration2icon.swf</location>
+		<color color_id="129" number="1">100 84 145</color>
+		<piece type="DecorationPiece">
+			<asset asset_id="70">assets/home/decoration2.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<x>440</x>
+		<y>157</y>
+		<scale>65</scale>
+		<sort>27</sort>
+		<flip>false</flip>
+		<inventory_id>102264</inventory_id>
+	</item>
+	<item name="Decoration_6" type="Decoration">
+		<location location_id="74">assets/icons/decoration6icon.swf</location>
+		<color color_id="127" number="1">107 180 89</color>
+		<piece type="DecorationPiece">
+			<asset asset_id="74">assets/home/decoration6.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<x>467</x>
+		<y>88</y>
+		<scale>75</scale>
+		<sort>14</sort>
+		<flip>false</flip>
+		<inventory_id>102268</inventory_id>
+	</item>
+	<item name="Decoration_7" type="Decoration">
+		<location location_id="75">assets/icons/decoration7icon.swf</location>
+		<color color_id="129" number="1">100 84 145</color>
+		<piece type="DecorationPiece">
+			<asset asset_id="75">assets/home/decoration7.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<x>441</x>
+		<y>83</y>
+		<scale>65</scale>
+		<sort>13</sort>
+		<flip>false</flip>
+		<inventory_id>102269</inventory_id>
+	</item>
+	<item name="Decoration_13" type="Decoration">
+		<location location_id="81">assets/icons/decoration13icon.swf</location>
+		<color color_id="128" number="1">239 231 210</color>
+		<piece type="DecorationPiece">
+			<asset asset_id="81">assets/home/decoration13.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<x>257</x>
+		<y>221</y>
+		<scale>65</scale>
+		<sort>34</sort>
+		<flip>false</flip>
+		<inventory_id>102275</inventory_id>
+	</item>
+	<item name="Decoration_18" type="Decoration">
+		<location location_id="86">assets/icons/decoration18icon.swf</location>
+		<piece type="DecorationPiece">
+			<asset asset_id="86">assets/home/decoration18.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<x>227</x>
+		<y>77</y>
+		<scale>65</scale>
+		<sort>29</sort>
+		<flip>false</flip>
+		<inventory_id>102280</inventory_id>
+	</item>
+	<item name="Decoration_20" type="Decoration">
+		<location location_id="88">assets/icons/decoration20icon.swf</location>
+		<color color_id="126" number="1">121 167 224</color>
+		<piece type="DecorationPiece">
+			<asset asset_id="88">assets/home/decoration20.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<x>163</x>
+		<y>267</y>
+		<scale>65</scale>
+		<sort>38</sort>
+		<flip>true</flip>
+		<inventory_id>102282</inventory_id>
+	</item>
+	<item name="Decoration_27" type="Decoration">
+		<location location_id="95">assets/icons/decoration27icon.swf</location>
+		<color color_id="125" number="1">45 111 81</color>
+		<piece type="DecorationPiece">
+			<asset asset_id="95">assets/home/decoration27.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<x>538</x>
+		<y>296</y>
+		<scale>65</scale>
+		<sort>40</sort>
+		<flip>false</flip>
+		<inventory_id>102289</inventory_id>
+	</item>
+	<item name="Lamp_5" type="Lamp">
+		<location location_id="100">assets/icons/lamp5icon.swf</location>
+		<color color_id="126" number="1">121 167 224</color>
+		<piece type="LampPiece">
+			<asset asset_id="100">assets/home/lamp5.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<x>333</x>
+		<y>190</y>
+		<scale>135</scale>
+		<sort>5</sort>
+		<flip>false</flip>
+		<inventory_id>102294</inventory_id>
+	</item>
+	<item name="Lamp_6" type="Lamp">
+		<location location_id="101">assets/icons/lamp6icon.swf</location>
+		<color color_id="128" number="1">239 231 210</color>
+		<piece type="LampPiece">
+			<asset asset_id="101">assets/home/lamp6.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<x>166</x>
+		<y>78</y>
+		<scale>65</scale>
+		<sort>25</sort>
+		<flip>false</flip>
+		<inventory_id>102295</inventory_id>
+	</item>
+</FairiesHomeResponse>

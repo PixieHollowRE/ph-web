@@ -1,0 +1,31 @@
+<panel state="open" category="testpanel">
+
+	<title>Fairy Favorites</title>
+	<options closeable="false" draggable="false" alwaysOnBottom="false"/>
+	<initialPos x="0" y="0" />
+	<swfs>
+		<swf type="content">{panelContent}/fairy_favorites.swf</swf>
+		<swf type="code">{panelCode}/fairy_favorites.swf</swf>
+	</swfs>
+	<copy>
+		<first target="txt">First</first>
+		<last target="txt">Last</last>
+		<login_text>Log In</login_text>
+		<logout_text>Log Out</logout_text>
+		<delete_button_text>Remove</delete_button_text>
+		<tink_confirm>Are you sure you want to remove the shortcut to this Fairy from your list?</tink_confirm>
+		<tinkstips>This is a list of your friends.  When you visit another player's home, you can make a shortcut!</tinkstips>
+		<tinkconfirm>OK</tinkconfirm>
+		<tink_confirm_yes>Yes</tink_confirm_yes>
+		<tink_confirm_no>No</tink_confirm_no>
+		<tink_deleting>Removing shortcut...</tink_deleting>
+		<fairy_removed>This Fairy has been removed</fairy_removed>
+		<tink_problem>Sorry, something's not right.  Try back later!</tink_problem>
+		<first_text>First</first_text>
+		<last_text>Last</last_text>
+		<firsttime>This is a list of your friends.  When you visit another player's home, you can make a shortcut!</firsttime>
+		<firsttimeconfirm>Okay</firsttimeconfirm>
+	</copy>
+	<config>
+	</config>
+</panel>

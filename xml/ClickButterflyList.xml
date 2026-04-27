@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ClickButterflyList>
+	<copy>
+		<butterfly1 id="1" points="2500" duration="180" image="butterfly1">Dandelion Butterfly</butterfly1>
+		<butterfly2 id="2" points="5000" duration="180" image="butterfly2">Cornflower Butterfly</butterfly2>
+		<butterfly3 id="3" points="7500" duration="180" image="butterfly3">Wild Violet Butterfly</butterfly3>
+		<butterfly4 id="4" points="20000" duration="360" image="butterfly4">Fieldflower Monarch</butterfly4>
+		<butterfly5 id="5" points="30000" duration="360" image="butterfly5">Peachblossom Monarch</butterfly5>
+		<butterfly6 id="6" points="35000" duration="360" image="butterfly6">Riverblue Monarch</butterfly6>
+		<butterfly7 id="7" points="75000" duration="720" image="butterfly7">Neverberry Swallowtail</butterfly7>
+		<butterfly8 id="8" points="85000" duration="720" image="butterfly8">Merblossom Swallowtail</butterfly8>
+		<butterfly9 id="9" points="125000" duration="1440" image="butterfly9">Pixie Shimmer Swallowtail</butterfly9>
+	</copy>
+</ClickButterflyList>

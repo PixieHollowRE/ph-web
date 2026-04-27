@@ -1,0 +1,23 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0">Want to join my band?</line>
+    <line id="1">Get a cool outfit at Cassie's Shop!</line>
+    <line id="2">We're a band!</line>
+    <line id="3">I'm the lead singer!</line>
+    <line id="4">I'm on the drums!</line>
+    <line id="5">I'm on the stand-up bass!</line>
+    <line id="6">I'm on the guitar!</line>
+    <line id="7">Rehearsal in progress!</line>
+    <line id="8">Rock out!</line>
+    <line id="9">Please welcome to the stage:</line>
+    <line id="10">The Pixie Pals!</line>
+    <line id="11">The MerFairies!</line>
+    <line id="12">Squirrel Jam!</line>
+    <line id="13">Taylor Swirls!</line>
+    <line id="14">Sienna Gomez!</line>
+    <line id="15">Justin Badger!</line>
+    <line id="16">I'm your #1 fan!</line>
+    <line id="17">Can I have your autograph?</line>
+    <line id="18">Encore!  Encore!</line>
+  </scene>
+</script> 

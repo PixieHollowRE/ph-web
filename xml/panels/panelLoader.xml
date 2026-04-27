@@ -1,0 +1,12 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/panelLoader.swf</swf>
+		<swf type="code">{panelCode}/panelLoader.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<util>
+		</util>
+	</config>
+</panel>

@@ -1,0 +1,39 @@
+<!--
+	
+	*** NOTES ***
+	
+	scene.@id		:: incrementing unsigned integer
+	line			:: String containing the line of dialogue spoken by supplied role
+	line.@id 		:: incrementing unsigned integer
+	line.@role		:: String containing name of the role that is saying given line
+	line.@emote		:: optional integer id for a given emote corresponding with emoteAssets.xml
+	line.@direction	:: optional String containing containing any Stage direction that should be siplayed after
+					   given line of dialogue.
+	@useSceneTitles	:: whether or not to display scene titles on the script (1 = yes | 0 = no)
+	
+-->
+<script useSceneTitles="0">
+	<scene id="1">
+		<line id="0">Splashtastic costume!</line>
+		<line id="1">You look ripple-rific!</line>
+		<line id="2">I'm diving in!</line>
+		<line id="3">Glub glub glub!</line>
+		<line id="4">What did you say?</line>
+		<line id="5">Glub glub glub!</line>
+		<line id="6">Divers over here!</line>
+		<line id="7">I'll be your tour guide!</line>
+		<line id="8">Check out the squiggly eels!</line>
+		<line id="9">There goes a seahorse!</line>
+		<line id="10">A school of fish!</line>
+		<line id="11">Hey little fishies!</line>
+		<line id="12">Watch out for the Sea Witch!</line>
+		<line id="13">Mua ha ha!</line>
+		<line id="14">I'm the Merfairy Empress!</line>
+		<line id="15">I'm a Merfairy Princess!</line>
+		<line id="16">I'm a Merfairy Prince!</line>
+		<line id="17">The clamshell is my throne!</line>
+		<line id="18">Let's have a Merfairy fashion contest!</line>
+		<line id="19">Happy splashing!</line>
+		<line id="20">Splash with you later!</line>
+	</scene>
+</script>

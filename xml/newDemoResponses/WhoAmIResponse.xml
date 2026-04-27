@@ -1,0 +1,10 @@
+<WhoAmIResponse>
+	<success>true</success>
+	<status>logged_in</status>
+	<account account_id="1520603623">
+		<first_name>test_first_name</first_name>
+		<dname>TestUser</dname>
+		<access>basic</access>
+	</account>
+	<fairy_id>12345</fairy_id>
+</WhoAmIResponse>

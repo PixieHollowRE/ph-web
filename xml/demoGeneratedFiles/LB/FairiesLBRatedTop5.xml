@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FairiesRatedResponse>
+	<success>true</success>	
+		<fairy fairy_id="3">
+			<name>Emerald Lightningbeam</name>
+			<user_id>10776</user_id>
+			<talent>Water</talent>
+			<created>2006-12-13 12:15:02</created>
+			<last_login>2006-12-13 17:41:24</last_login>
+			<total_logins>4</total_logins>
+			<icon icon_id="1">assets/icons/first_fairyicon1_blue.swf</icon>
+			<address>10SunsetFalls</address>
+			<amount>3.5</amount>
+			<avatar>
+				<proportion type="HEAD">96</proportion>
+				<proportion type="HEIGHT">106</proportion>
+				<proportion type="BODY">94</proportion>
+				<rotation type="HEAD_ROT">5</rotation>
+				<rotation type="LL_ARM_ROT">-10</rotation>
+				<rotation type="UL_ARM_ROT">-15</rotation>
+				<rotation type="UL_LEG_ROT">10</rotation>
+				<rotation type="LL_LEG_ROT">-6.5</rotation>
+				<rotation type="LR_ARM_ROT">0</rotation>
+				<rotation type="UR_ARM_ROT">25</rotation>
+				<rotation type="LR_LEG_ROT">27.6</rotation>
+				<rotation type="UR_LEG_ROT">1</rotation>
+
+				<hair_back>5501</hair_back>
+				<hair_front>5001</hair_front>
+				<face>4501</face>
+				<eye>4001</eye>
+				<wing>6001</wing>
+				<hair_color>92</hair_color>
+				<eye_color>63</eye_color>
+				<skin_color>106</skin_color>
+				<wing_color>109</wing_color>
+
+				<inv_item type="HeadItem">
+					<item_id>2005</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Shirt">
+					<item_id>3</item_id>
+					<color number="1">25</color>
+				</inv_item>
+				<inv_item type="Skirt">
+					<item_id>1002</item_id>
+					<color number="1">25</color>
+				</inv_item>
+				<inv_item type="Necklace">
+					<item_id>2505</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Belt">
+					<item_id>502</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="WristItem">
+					<item_id>1506</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="AnkleItem">
+					<item_id>3005</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Shoes">
+					<item_id>3507</item_id>
+					<color number="1">42</color>
+				</inv_item>
+			</avatar>
+		</fairy>
+		<fairy fairy_id="3">
+			<name>Emerald Lightningbeam</name>
+			<user_id>10776</user_id>
+			<talent>Water</talent>
+			<created>2006-12-13 12:15:02</created>
+			<last_login>2006-12-13 17:41:24</last_login>
+			<total_logins>4</total_logins>
+			<icon icon_id="1">assets/icons/first_fairyicon1_blue.swf</icon>
+			<address>10SunsetFalls</address>
+			<amount>3.5</amount>
+			<avatar>
+				<proportion type="HEAD">96</proportion>
+				<proportion type="HEIGHT">106</proportion>
+				<proportion type="BODY">94</proportion>
+				<rotation type="HEAD_ROT">5</rotation>
+				<rotation type="LL_ARM_ROT">-10</rotation>
+				<rotation type="UL_ARM_ROT">-15</rotation>
+				<rotation type="UL_LEG_ROT">10</rotation>
+				<rotation type="LL_LEG_ROT">-6.5</rotation>
+				<rotation type="LR_ARM_ROT">0</rotation>
+				<rotation type="UR_ARM_ROT">25</rotation>
+				<rotation type="LR_LEG_ROT">27.6</rotation>
+				<rotation type="UR_LEG_ROT">1</rotation>
+
+				<hair_back>5501</hair_back>
+				<hair_front>5001</hair_front>
+				<face>4501</face>
+				<eye>4001</eye>
+				<wing>6001</wing>
+				<hair_color>92</hair_color>
+				<eye_color>63</eye_color>
+				<skin_color>106</skin_color>
+				<wing_color>109</wing_color>
+
+				<inv_item type="HeadItem">
+					<item_id>2005</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Shirt">
+					<item_id>3</item_id>
+					<color number="1">25</color>
+				</inv_item>
+				<inv_item type="Skirt">
+					<item_id>1002</item_id>
+					<color number="1">25</color>
+				</inv_item>
+				<inv_item type="Necklace">
+					<item_id>2505</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Belt">
+					<item_id>502</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="WristItem">
+					<item_id>1506</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="AnkleItem">
+					<item_id>3005</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Shoes">
+					<item_id>3507</item_id>
+					<color number="1">42</color>
+				</inv_item>
+			</avatar>
+		</fairy>
+				<fairy fairy_id="3">
+			<name>Emerald Lightningbeam</name>
+			<user_id>10776</user_id>
+			<talent>Water</talent>
+			<created>2006-12-13 12:15:02</created>
+			<last_login>2006-12-13 17:41:24</last_login>
+			<total_logins>4</total_logins>
+			<icon icon_id="1">assets/icons/first_fairyicon1_blue.swf</icon>
+			<address>10SunsetFalls</address>
+			<amount>3.5</amount>
+			<avatar>
+				<proportion type="HEAD">96</proportion>
+				<proportion type="HEIGHT">106</proportion>
+				<proportion type="BODY">94</proportion>
+				<rotation type="HEAD_ROT">5</rotation>
+				<rotation type="LL_ARM_ROT">-10</rotation>
+				<rotation type="UL_ARM_ROT">-15</rotation>
+				<rotation type="UL_LEG_ROT">10</rotation>
+				<rotation type="LL_LEG_ROT">-6.5</rotation>
+				<rotation type="LR_ARM_ROT">0</rotation>
+				<rotation type="UR_ARM_ROT">25</rotation>
+				<rotation type="LR_LEG_ROT">27.6</rotation>
+				<rotation type="UR_LEG_ROT">1</rotation>
+
+				<hair_back>5501</hair_back>
+				<hair_front>5001</hair_front>
+				<face>4501</face>
+				<eye>4001</eye>
+				<wing>6001</wing>
+				<hair_color>92</hair_color>
+				<eye_color>63</eye_color>
+				<skin_color>106</skin_color>
+				<wing_color>109</wing_color>
+
+				<inv_item type="HeadItem">
+					<item_id>2005</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Shirt">
+					<item_id>3</item_id>
+					<color number="1">25</color>
+				</inv_item>
+				<inv_item type="Skirt">
+					<item_id>1002</item_id>
+					<color number="1">25</color>
+				</inv_item>
+				<inv_item type="Necklace">
+					<item_id>2505</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Belt">
+					<item_id>502</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="WristItem">
+					<item_id>1506</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="AnkleItem">
+					<item_id>3005</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Shoes">
+					<item_id>3507</item_id>
+					<color number="1">42</color>
+				</inv_item>
+			</avatar>
+		</fairy>
+				<fairy fairy_id="3">
+			<name>Emerald Lightningbeam</name>
+			<user_id>10776</user_id>
+			<talent>Water</talent>
+			<created>2006-12-13 12:15:02</created>
+			<last_login>2006-12-13 17:41:24</last_login>
+			<total_logins>4</total_logins>
+			<icon icon_id="1">assets/icons/first_fairyicon1_blue.swf</icon>
+			<address>10SunsetFalls</address>
+			<amount>3.5</amount>
+			<avatar>
+				<proportion type="HEAD">96</proportion>
+				<proportion type="HEIGHT">106</proportion>
+				<proportion type="BODY">94</proportion>
+				<rotation type="HEAD_ROT">5</rotation>
+				<rotation type="LL_ARM_ROT">-10</rotation>
+				<rotation type="UL_ARM_ROT">-15</rotation>
+				<rotation type="UL_LEG_ROT">10</rotation>
+				<rotation type="LL_LEG_ROT">-6.5</rotation>
+				<rotation type="LR_ARM_ROT">0</rotation>
+				<rotation type="UR_ARM_ROT">25</rotation>
+				<rotation type="LR_LEG_ROT">27.6</rotation>
+				<rotation type="UR_LEG_ROT">1</rotation>
+
+				<hair_back>5501</hair_back>
+				<hair_front>5001</hair_front>
+				<face>4501</face>
+				<eye>4001</eye>
+				<wing>6001</wing>
+				<hair_color>92</hair_color>
+				<eye_color>63</eye_color>
+				<skin_color>106</skin_color>
+				<wing_color>109</wing_color>
+
+				<inv_item type="HeadItem">
+					<item_id>2005</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Shirt">
+					<item_id>3</item_id>
+					<color number="1">25</color>
+				</inv_item>
+				<inv_item type="Skirt">
+					<item_id>1002</item_id>
+					<color number="1">25</color>
+				</inv_item>
+				<inv_item type="Necklace">
+					<item_id>2505</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Belt">
+					<item_id>502</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="WristItem">
+					<item_id>1506</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="AnkleItem">
+					<item_id>3005</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Shoes">
+					<item_id>3507</item_id>
+					<color number="1">42</color>
+				</inv_item>
+			</avatar>
+		</fairy>
+				<fairy fairy_id="3">
+			<name>Emerald Lightningbeam</name>
+			<user_id>10776</user_id>
+			<talent>Water</talent>
+			<created>2006-12-13 12:15:02</created>
+			<last_login>2006-12-13 17:41:24</last_login>
+			<total_logins>4</total_logins>
+			<icon icon_id="1">assets/icons/first_fairyicon1_blue.swf</icon>
+			<address>10SunsetFalls</address>
+			<amount>3.5</amount>
+			<avatar>
+				<proportion type="HEAD">96</proportion>
+				<proportion type="HEIGHT">106</proportion>
+				<proportion type="BODY">94</proportion>
+				<rotation type="HEAD_ROT">5</rotation>
+				<rotation type="LL_ARM_ROT">-10</rotation>
+				<rotation type="UL_ARM_ROT">-15</rotation>
+				<rotation type="UL_LEG_ROT">10</rotation>
+				<rotation type="LL_LEG_ROT">-6.5</rotation>
+				<rotation type="LR_ARM_ROT">0</rotation>
+				<rotation type="UR_ARM_ROT">25</rotation>
+				<rotation type="LR_LEG_ROT">27.6</rotation>
+				<rotation type="UR_LEG_ROT">1</rotation>
+
+				<hair_back>5501</hair_back>
+				<hair_front>5001</hair_front>
+				<face>4501</face>
+				<eye>4001</eye>
+				<wing>6001</wing>
+				<hair_color>92</hair_color>
+				<eye_color>63</eye_color>
+				<skin_color>106</skin_color>
+				<wing_color>109</wing_color>
+
+				<inv_item type="HeadItem">
+					<item_id>2005</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Shirt">
+					<item_id>3</item_id>
+					<color number="1">25</color>
+				</inv_item>
+				<inv_item type="Skirt">
+					<item_id>1002</item_id>
+					<color number="1">25</color>
+				</inv_item>
+				<inv_item type="Necklace">
+					<item_id>2505</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Belt">
+					<item_id>502</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="WristItem">
+					<item_id>1506</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="AnkleItem">
+					<item_id>3005</item_id>
+					<color number="1">42</color>
+				</inv_item>
+				<inv_item type="Shoes">
+					<item_id>3507</item_id>
+					<color number="1">42</color>
+				</inv_item>
+			</avatar>
+		</fairy>
+</FairiesRatedResponse>

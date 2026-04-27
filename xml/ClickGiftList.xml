@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ClickGiftList>
+	<copy>
+		<gift1 id="2001">I'll be back in two shakes of a dragon's tail!</gift1>
+		<gift2 id="2002">Come on, it's time to flit!</gift2>
+		<gift3 id="2003">I'm all flap happy!</gift3>
+		<gift4 id="2004">I'm fluttering with glee!</gift4>
+		<gift5 id="2005">I feel as light as dandelion fluff!</gift5>
+		<gift6 id="2006">I feel brighter around you.</gift6>
+		<gift7 id="2007">I feel fit as a fiddlehead fern!</gift7>
+		<gift8 id="2008">You're looking pretty as a rainbow!</gift8>
+		<gift9 id="2009">You're as sweet as strawberry pie!</gift9>
+		<gift10 id="2010">You're my Fairy best friend!</gift10>
+		<gift11 id="2011">You're cute as a baby bird!</gift11>
+		<gift12 id="2012">You're a giggle shy of a full laugh.</gift12>
+		<gift13 id="2013">You're as fluttery as a butterfly today.</gift13>
+		<gift14 id="2014">You're my forever friend.</gift14>
+		<gift15 id="2015">You're as pretty as a posy.</gift15>
+		<gift16 id="2016">You're twinkling like a star.</gift16>
+		<gift17 id="2017">You're shining like never gold!</gift17>
+		<gift18 id="2018">I love being a Fairy!</gift18>
+		<gift19 id="2019">I love Pixie Hollow!</gift19>
+		<gift20 id="2020">Let's race!</gift20>
+		<gift21 id="2021">Get ready, here I come!</gift21>
+		<gift22 id="2022">Flap those wings and let's do it!</gift22>
+		<gift23 id="2023">Get those wings flappin'!</gift23>
+		<gift24 id="2024">Last one there is a gooseberry!</gift24>
+		<gift25 id="2025">Well, bless my wings!</gift25>
+		<gift26 id="2026">Moon and stars!</gift26>
+		<gift27 id="2027">Look out, just flying through!</gift27>
+		<gift28 id="2028">Just let it roll off your wings.</gift28>
+		<gift29 id="2029">Don't fly against the wind.</gift29>
+		<gift30 id="2030">Wherever I turn, you're always underwing.</gift30>
+	</copy>
+</ClickGiftList>

@@ -1,0 +1,27 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/hub_contests.swf</swf>
+		<!-- -->
+		<swf type="code">{panelCode}/hub_promomodule.swf</swf>
+		
+	</swfs>
+	<copy>
+
+	</copy>
+	<config>
+		<id>contests</id>
+		<promos>
+			<promo>
+				
+				
+			</promo>
+			
+			
+			
+			
+		</promos>
+		
+		
+		
+	</config>
+</panel>

@@ -1,0 +1,22 @@
+﻿<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/itemToolMain.swf</swf>
+		<swf type="code">{panelCode}/itemToolMain.swf</swf>
+	</swfs>
+	<copy>
+		<itemListSearch target="tabPart.content0.searchBtn.caption">Search</itemListSearch>
+		<itemCategoryCardAll target="tabPart.content0.searchRegion.scrollRegion.itemSearchList.itemCategory.expand.selAll.caption">All</itemCategoryCardAll>
+		<itemCategoryCardNone target="tabPart.content0.searchRegion.scrollRegion.itemSearchList.itemCategory.expand.selNone.caption">None</itemCategoryCardNone>
+		<itemSortID target="tabPart.content0.sortID.caption">ID</itemSortID>
+		<itemSortName target="tabPart.content0.sortName.caption">Name</itemSortName>
+		
+		<colorCategoryCardAll target="tabPart.content1.searchRegion.scrollRegion.colorSearchList.itemCategory.expand.selAll.caption">All</colorCategoryCardAll>
+		<colorListSearch target="tabPart.content1.searchBtn.caption">Search</colorListSearch>
+		<colorSortID target="tabPart.content1.sortID.caption">ID</colorSortID>
+		<colorSortName target="tabPart.content1.sortName.caption">Name</colorSortName>
+		<colorSortHSV target="tabPart.content1.sortHSV.caption">HSV</colorSortHSV>
+		<colorSortRGB target="tabPart.content1.sortRGB.caption">RGB</colorSortRGB>
+	</copy>
+	<config>
+	</config>
+</panel>

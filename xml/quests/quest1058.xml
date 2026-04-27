@@ -1,0 +1,51 @@
+<data>
+	<copy>
+		<accept_0>Great! Now remember it needs to be both pretty and comfortable!</accept_0>
+		<decline_0>Not feeling like Tinker Talent right now? Not a problem...</decline_0>
+		<reward_0_0>With a great guest house like that, you'll probably have Fairies visiting you all the time!</reward_0_0>
+		<step0_correct_15505_0>Great job! When can I move in? Just kidding!</step0_correct_15505_0>
+		<step0_finishedResponse_15505_0>Did you finish designing a Fairy home? I hope its comfy! Tee hee!</step0_finishedResponse_15505_0>
+		<step0_finishedResponse_15505_0_choice_0>I sure did!</step0_finishedResponse_15505_0_choice_0>
+		<step0_finishedResponse_15505_0_choice_1>Not yet. </step0_finishedResponse_15505_0_choice_1>
+		<step0_finishedResponse_prompt_15505>I'm looking for Kit. </step0_finishedResponse_prompt_15505>
+		<step0_goal>Design a house that a Fairy could live in.</step0_goal>
+		<step0_incorrect_15505_0>Well do your best - I need a place to stay next time I visit!</step0_incorrect_15505_0>
+		<step0_intro_0>Do you ever feel like you need to take a vacation?</step0_intro_0>
+		<step0_intro_1>I love Pixie Hollow - but sometimes I feel like I want to travel and see the world. You know stretch my wings a bit and visit the Mainland!</step0_intro_1>
+		<step0_intro_2>But I don't know where I would stay if I went for a visit!</step0_intro_2>
+		<step0_intro_3>That gives me a great idea! Next time you leave Pixie Hollow, you should build a Fairy sized house for Fairy guests!</step0_intro_3>
+		<step0_summary>Sometimes Fairies like to visit the Mainland - but they need a place to stay while visiting. Design a house that a Fairy could live in.</step0_summary>
+		<step0_unfinishedResponse_15505_0>Design a house that a Fairy could live in.</step0_unfinishedResponse_15505_0>
+		<step0_unfinishedResponse_prompt_15505>What was I doing again?</step0_unfinishedResponse_prompt_15505>
+		<title>Home Away from Home</title>
+	</copy>
+	<storyBoards>
+		<storyBoard id="step0_intro">
+			<line expressionId="0" npcX="439" npcY="254" playerX="999" playerY="254" >step0_intro_0</line>
+			<line expressionId="0" npcX="439" npcY="254" playerX="999" playerY="254" >step0_intro_1</line>
+			<line npcX="439" npcY="254" playerX="999" playerY="254" >step0_intro_2</line>
+			<line npcX="439" npcY="254" playerX="999" playerY="254" >step0_intro_3</line>
+		</storyBoard>
+		<storyBoard id="accept">
+			<line npcX="439" npcY="254" playerX="999" playerY="254" >accept_0</line>
+		</storyBoard>
+		<storyBoard id="decline">
+			<line npcX="439" npcY="254" playerX="999" playerY="254" >decline_0</line>
+		</storyBoard>
+		<storyBoard id="step0_unfinishedResponse_15505">
+			<line expressionId="0" npcX="439" npcY="254" playerX="999" playerY="254" >step0_unfinishedResponse_15505_0</line>
+		</storyBoard>
+		<storyBoard id="step0_finishedResponse_15505">
+			<line npcX="439" npcY="254" playerX="999" playerY="254" >step0_finishedResponse_15505_0</line>
+		</storyBoard>
+		<storyBoard id="step0_correct_15505">
+			<line expressionId="1" npcX="439" npcY="254" playerX="999" playerY="254" >step0_correct_15505_0</line>
+		</storyBoard>
+		<storyBoard id="step0_incorrect_15505">
+			<line npcX="439" npcY="254" playerX="999" playerY="254" >step0_incorrect_15505_0</line>
+		</storyBoard>
+		<storyBoard id="reward_0">
+			<line npcX="439" npcY="254" playerX="999" playerY="254" >reward_0_0</line>
+		</storyBoard>
+	</storyBoards>
+</data>

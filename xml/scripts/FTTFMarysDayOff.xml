@@ -1,0 +1,46 @@
+﻿<script useSceneTitles="1">
+	<scene id="1">
+		<line id="0" role="FAIRY MARY" emote="12">Oh, wonderful! A whole day off to myself!</line>
+		<line id="1" role="FAIRY MARY" direction="USE TEA PITCHER PROP">The beach, cool iced tea, a good book, maybe a nap --</line>
+		<line id="2" role="COPPER" direction="COPPER ENTERS – USE DOOR">Fairy Mary, I can't find the Meadow Grass measuring tape.</line>
+		<line id="3" role="COPPER">Or the bark pliers. Or the shell trimmers.</line>
+		<line id="4" role="FAIRY MARY">What's this? They're all in the supply cabinet.</line>
+		<line id="5" role="COPPER">Thanks, Fairy Mary. Enjoy your day off!</line>
+		<line id="6" role="FAIRY MARY" direction="COPPER EXITS – USE DOOR">Now where was I?</line>
+		<line id="7" role="TIN" direction="TIN ENTERS – USE DOOR">Fairy Mary, what should we do with the new wheels?</line>
+		<line id="8" role="FAIRY MARY">Tin, you know those go to Clank and Bobble.</line>
+		<line id="9" role="TIN">Oh, right. Thanks, Fairy Mary. Enjoy your day off!</line>
+		<line id="10" role="FAIRY MARY" direction="TIN LEAVES – USE DOOR">Now let me see, what was I doing?</line>
+		<line id="11" role="TINKER BELL" direction="TINK ENTERS - USE DOOR">Fairy Mary, what do we do about the broken table?</line>
+		<line id="12" role="FAIRY MARY" emote="12">Well, fix it, of course!</line>
+		<line id="13" role="TINKER BELL">Okay. Thanks, Fairy Mary. Enjoy your day off!</line>
+		<line id="14" role="FAIRY MARY" direction="TINK EXITS - USE DOOR">Teetering teapots, I haven't even had my tea yet!</line>
+		<line id="15" role="COPPER" direction="COPPER ENTERS - USE DOOR">Sorry to bother you again, Fairy Mary.</line>
+		<line id="16" role="COPPER">I can't find the Twig polisher.</line>
+		<line id="17" role="FAIRY MARY">What do you mean you can't find it?</line>
+		<line id="18" role="TIN" direction="TIN ENTERS – USE DOOR">Fairy Mary, Bobble says the wheels are the wrong size.</line>        
+		<line id="19" role="FAIRY MARY">That's impossible!</line>
+		<line id="20" role="TINKER BELL" direction="TINK ENTERS - USE DOOR">Sorry to interrupt, Fairy Mary, but you know that table?</line>
+		<line id="21" role="TINKER BELL">It sort of fell apart.</line>
+		<line id="22" role="FAIRY MARY" emote="5">Moon and stars, what is going on?</line>
+		<line id="23" role="FAIRY MARY">You're all acting like you've never tinkered before!</line>
+		<line id="24" role="FAIRY MARY">The Twig polisher is always with the bark pliers.</line>
+		<line id="25" role="COPPER" emote="7">Oh. I guess I didn't see them.</line>
+		<line id="26" role="FAIRY MARY">And the wheels are the right size. I measured them!</line>
+		<line id="27" role="TIN" emote="8">I wondered about that.</line>
+		<line id="28" role="TIN">Bobble wasn't wearing his glasses when he checked them.</line>
+		<line id="29" role="FAIRY MARY">And if the table fell apart, then make a NEW table.</line>
+		<line id="30" role="FAIRY MARY">You DO know how to do that, don’t you?</line>
+		<line id="31" role="TINKER BELL" emote="1">Of course I know! </line>
+		<line id="32" role="FAIRY MARY">Then all of you, flap to it!</line>
+		<line id="33" role="FAIRY MARY" direction="COPPER, TIN, &amp; TINK EXIT - USE DOOR">Some day off this turned out to be.</line>
+		<line id="34" role="FAIRY MARY">There's only one thing to do...</line>
+	</scene>
+	<scene id="2">
+		<line id="35" role="COPPER" direction="FAIRY MARY ENTERS - USE DOOR">Fairy Mary! </line>
+		<line id="36" role="TIN">What are you doing here?</line>
+		<line id="37" role="TINKER BELL">It's your day off!</line>
+		<line id="38" role="FAIRY MARY" direction="USE WORK TABLE PROP">I think I'll get more rest here than I will at the beach!</line>
+		<line id="39" role="FAIRY MARY" emote="4">Good night! </line>
+	</scene>
+</script>

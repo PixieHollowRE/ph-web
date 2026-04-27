@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/addBadgeCard.swf</swf>
+		<swf type="code">{panelCode}/addBadgeCard.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<replace target="largePreview" type="dragarea" />
+		<replace target="smallPreview" type="dragarea" />
+	</config>
+</panel>

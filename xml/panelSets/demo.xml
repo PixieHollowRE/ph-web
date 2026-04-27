@@ -1,0 +1,339 @@
+<panelSet>
+	<panels>
+		<panel id="meadow" x="0" y="0" hidden="true" alwaysOnBottom="true">{panelData}/meadow.xml</panel>		
+		<panel id="chat" x="200" y="480" hidden="true">{panelData}/chatInterface.xml</panel>
+		<panel id="profile" x="345" y="30" draggable="true" hidden="true" closeable="true">{panelData}/profile.xml</panel>
+		<panel id="scrapbook" x="0" y="0" closeable="true" alwaysOnTop="true" hidden="true">{panelData}/pngdemo.xml</panel>
+		<panel id="crafting" x="0" y="0" closeable="true" alwaysOnTop="true" hidden="true">{panelData}/pngdemo.xml</panel>
+		<panel id="shop" x="0" y="0" closeable="true" alwaysOnTop="true" hidden="true">{panelData}/pngdemo.xml</panel>
+		<panel id="friends" x="832" y="183" closeable="true" alwaysOnTop="true" hidden="true">{panelData}/pngdemo.xml</panel>
+	</panels>
+	<config>
+		<png panel="scrapbook" centered="true">images/scrapbook.png</png>
+		<png panel="crafting" centered="true">images/baking.png</png>
+		<png panel="shop" centered="true">images/shopping.png</png>
+		<png panel="friends">images/friends.png</png>
+
+		<demoZone>demo/demoZone.zip</demoZone>
+		<numRobots>25</numRobots>
+		<chatFrequency>0.002</chatFrequency>
+		<names>
+			<name name_id="1">Acorn</name>
+			<name name_id="2">Alexia</name>
+			<name name_id="3">Amber</name>
+			<name name_id="4">Amethyst</name>
+			<name name_id="5">Apricot</name>
+			<name name_id="6">April</name>
+			<name name_id="7">Ash</name>
+			<name name_id="8">Autumn</name>
+			<name name_id="9">Bayberry</name>
+			<name name_id="10">Bellflower</name>
+			<name name_id="11">Birch</name>
+			<name name_id="12">Blackbird</name>
+			<name name_id="13">Blizzard</name>
+			<name name_id="14">Bluebottle</name>
+			<name name_id="15">Breezy</name>
+			<name name_id="16">Buttercup</name>
+			<name name_id="17">Camellia</name>
+			<name name_id="18">Carnation</name>
+			<name name_id="19">Carrot</name>
+			<name name_id="20">Charity</name>
+			<name name_id="21">Charlotte</name>
+			<name name_id="22">Cherry</name>
+			<name name_id="23">Chestnut</name>
+			<name name_id="24">Chickadee</name>
+			<name name_id="25">Chipmunk</name>
+			<name name_id="26">Chloe</name>
+			<name name_id="27">Chocolate</name>
+			<name name_id="28">Cinnamon</name>
+			<name name_id="29">Clover</name>
+			<name name_id="30">Cobweb</name>
+			<name name_id="31">Cocoa</name>
+			<name name_id="32">Coconut</name>
+			<name name_id="33">Coriander</name>
+			<name name_id="34">Cornflower</name>
+			<name name_id="35">Crabapple</name>
+			<name name_id="36">Cranberry</name>
+			<name name_id="37">Cricket</name>
+			<name name_id="38">Crimson</name>
+			<name name_id="39">Crocus</name>
+			<name name_id="40">Crystal</name>
+			<name name_id="41">Cupcake</name>
+			<name name_id="42">Cypress</name>
+			<name name_id="43">Daffodil</name>
+			<name name_id="44">Dahlia</name>
+			<name name_id="45">Daisy</name>
+			<name name_id="46">Dandelion</name>
+			<name name_id="47">Dawn</name>
+			<name name_id="48">Daybreak</name>
+			<name name_id="49">Daylily</name>
+			<name name_id="50">Dew</name>
+			<name name_id="51">Dewdrop</name>
+			<name name_id="52">Dulcina</name>
+			<name name_id="53">Echo</name>
+			<name name_id="54">Elva</name>
+			<name name_id="55">Emerald</name>
+			<name name_id="56">Eve</name>
+			<name name_id="57">Faith</name>
+			<name name_id="58">Fantasia</name>
+			<name name_id="59">Fauna</name>
+			<name name_id="60">Faye</name>
+			<name name_id="61">Feathery</name>
+			<name name_id="62">Fern</name>
+			<name name_id="63">Fiery</name>
+			<name name_id="64">Flax</name>
+			<name name_id="65">Flix</name>
+			<name name_id="66">Flora</name>
+			<name name_id="67">Foxglove</name>
+			<name name_id="68">Gardenia</name>
+			<name name_id="69">Garlic</name>
+			<name name_id="70">Ginger</name>
+			<name name_id="71">Ginkgo</name>
+			<name name_id="72">Gloria</name>
+			<name name_id="73">Gloriosa</name>
+			<name name_id="74">Goldenrod</name>
+			<name name_id="75">Grace</name>
+			<name name_id="76">Happy</name>
+			<name name_id="77">Harmony</name>
+			<name name_id="78">Hazel</name>
+			<name name_id="79">Hemlock</name>
+			<name name_id="80">Hickory</name>
+			<name name_id="81">Holly</name>
+			<name name_id="82">Hollyhock</name>
+			<name name_id="83">Honey</name>
+			<name name_id="84">Hope</name>
+			<name name_id="85">Hurricane</name>
+			<name name_id="86">Hyacinth</name>
+			<name name_id="87">Indigo</name>
+			<name name_id="88">Infinity</name>
+			<name name_id="89">Iris</name>
+			<name name_id="90">Isabel</name>
+			<name name_id="91">Isabelle</name>
+			<name name_id="92">Ivy</name>
+			<name name_id="93">Ixia</name>
+			<name name_id="94">Jade</name>
+			<name name_id="95">Jessamine</name>
+			<name name_id="96">Joy</name>
+			<name name_id="97">Juniper</name>
+			<name name_id="98">Karma</name>
+			<name name_id="99">Kiki</name>
+			<name name_id="100">Kiwi</name>
+			<name name_id="101">Kobi</name>
+			<name name_id="102">Koko</name>
+			<name name_id="103">Kyra</name>
+			<name name_id="104">Labyrinth</name>
+			<name name_id="105">Lady</name>
+			<name name_id="106">Ladyslipper</name>
+			<name name_id="107">Lala</name>
+			<name name_id="108">Lark</name>
+			<name name_id="109">Larkspur</name>
+			<name name_id="110">Laurel</name>
+			<name name_id="111">Lavender</name>
+			<name name_id="112">Leeta</name>
+			<name name_id="113">Lemony</name>
+			<name name_id="114">Lila</name>
+			<name name_id="115">Lilac</name>
+			<name name_id="116">Lily</name>
+			<name name_id="117">Liri</name>
+			<name name_id="118">Little</name>
+			<name name_id="119">Lorella</name>
+			<name name_id="120">Lucia</name>
+			<name name_id="121">Lucky</name>
+			<name name_id="122">Lulu</name>
+			<name name_id="123">Luna</name>
+			<name name_id="124">Magenta</name>
+			<name name_id="125">Magnolia</name>
+			<name name_id="126">Magpie</name>
+			<name name_id="127">Mahogany</name>
+			<name name_id="128">Marigold</name>
+			<name name_id="129">May</name>
+			<name name_id="130">Melanie</name>
+			<name name_id="131">Melody</name>
+			<name name_id="132">Milkweed</name>
+			<name name_id="133">Minerva</name>
+			<name name_id="134">Misty</name>
+			<name name_id="135">Moptop</name>
+			<name name_id="136">Mudpie</name>
+			<name name_id="137">Mulberry</name>
+			<name name_id="138">Nectarine</name>
+			<name name_id="139">Newt</name>
+			<name name_id="140">Nightfall</name>
+			<name name_id="141">Nightshade</name>
+			<name name_id="142">Nissa</name>
+			<name name_id="143">Nutmeg</name>
+			<name name_id="144">Nyra</name>
+			<name name_id="145">Octavia</name>
+			<name name_id="146">Olive</name>
+			<name name_id="147">Olivia</name>
+			<name name_id="148">Onyx</name>
+			<name name_id="149">Opal</name>
+			<name name_id="150">Orchid</name>
+			<name name_id="151">Oregano</name>
+			<name name_id="152">Oriole</name>
+			<name name_id="153">Paintbrush</name>
+			<name name_id="154">Pandora</name>
+			<name name_id="155">Pansy</name>
+			<name name_id="156">Paprika</name>
+			<name name_id="157">Parsley</name>
+			<name name_id="158">Patchwork</name>
+			<name name_id="159">Peachy</name>
+			<name name_id="160">Peanut</name>
+			<name name_id="161">Pearl</name>
+			<name name_id="162">Pecan</name>
+			<name name_id="163">Penelope</name>
+			<name name_id="164">Peony</name>
+			<name name_id="165">Pepper</name>
+			<name name_id="166">Peppermint</name>
+			<name name_id="167">Persimmon</name>
+			<name name_id="168">Petunia</name>
+			<name name_id="169">Phoebe</name>
+			<name name_id="170">Pineapple</name>
+			<name name_id="171">Pistachio</name>
+			<name name_id="172">Pluma</name>
+			<name name_id="173">Poplar</name>
+			<name name_id="174">Posey</name>
+			<name name_id="175">Posy</name>
+			<name name_id="176">Primrose</name>
+			<name name_id="177">Prinna</name>
+			<name name_id="178">Prudence</name>
+			<name name_id="179">Pula</name>
+			<name name_id="180">Pumpkin</name>
+			<name name_id="181">Quicksilver</name>
+			<name name_id="182">Raven</name>
+			<name name_id="183">Redwood</name>
+			<name name_id="184">Rhapsody</name>
+			<name name_id="185">Rhodie</name>
+			<name name_id="186">Rhubarb</name>
+			<name name_id="187">Rill</name>
+			<name name_id="188">Robin</name>
+			<name name_id="189">Rosa</name>
+			<name name_id="190">Rose</name>
+			<name name_id="191">Rosehip</name>
+			<name name_id="192">Rosemary</name>
+			<name name_id="193">Ruby</name>
+			<name name_id="194">Saffron</name>
+			<name name_id="195">Sahara</name>
+			<name name_id="196">Sapphire</name>
+			<name name_id="197">Sassafras</name>
+			<name name_id="198">Scarlet</name>
+			<name name_id="199">Seaweed</name>
+			<name name_id="200">Serendipity</name>
+			<name name_id="201">Silver</name>
+			<name name_id="202">Sky</name>
+			<name name_id="203">Sneezy</name>
+			<name name_id="204">Snowdrop</name>
+			<name name_id="205">Snowflake</name>
+			<name name_id="206">Sprinkles</name>
+			<name name_id="207">Stargazer</name>
+			<name name_id="208">Stemm</name>
+			<name name_id="209">Stormy</name>
+			<name name_id="210">Strawberry</name>
+			<name name_id="211">Sundew</name>
+			<name name_id="212">Sunflower</name>
+			<name name_id="213">Sunrise</name>
+			<name name_id="214">Sunset</name>
+			<name name_id="215">Sunshine</name>
+			<name name_id="216">Tangy</name>
+			<name name_id="217">Tansy</name>
+			<name name_id="218">Thistle</name>
+			<name name_id="219">Tiger</name>
+			<name name_id="220">Tiny</name>
+			<name name_id="221">Toadstool</name>
+			<name name_id="222">Topaz</name>
+			<name name_id="223">Trinity</name>
+			<name name_id="224">Tulip</name>
+			<name name_id="225">Turnip</name>
+			<name name_id="226">Twilight</name>
+			<name name_id="227">Vanilla</name>
+			<name name_id="228">Violet</name>
+			<name name_id="229">Wallflower</name>
+			<name name_id="230">Walnut</name>
+			<name name_id="231">Waterlily</name>
+			<name name_id="232">Windy</name>
+			<name name_id="233">Wispa</name>
+			<name name_id="234">Xenops</name>
+			<name name_id="235">Yew</name>
+			<name name_id="236">Zephyr</name>
+		</names>
+
+<SpeedChat>
+	<category name="General">
+	</category>
+	<category name="Greetings">
+		<message id="100">Hi!</message>
+		<message id="101">Hello!</message>
+		<message id="102">Hi there!</message>
+		<message id="103">Hey!</message>
+		<message id="104">Howdy!</message>
+		<message id="105">Hi everybody!</message>
+		<message id="107">What's up?</message>
+		<message id="108">How are you doing?</message>
+		<message id="109">Hello?</message>
+	</category>
+	<category name="Bye">
+		<message id="200">Bye!</message>
+		<message id="201">Later!</message>
+		<message id="202">See ya!</message>
+		<message id="203">Have a nice day!</message>
+		<message id="204">Have fun!</message>
+		<message id="205">Good luck!</message>
+		<message id="206">I'll be right back.</message>
+		<message id="207">I need to go.</message>
+		<message id="208">I'll be back later!</message>
+		<message id="209">I only have a few minutes.</message>
+	</category>
+	<category name="Happy">
+		<message id="300">:-)</message>
+		<message id="301">Yay!</message>
+		<message id="302">Hooray!</message>
+		<message id="303">Cool!</message>
+		<message id="304">Woo hoo!</message>
+		<message id="305">Yeah!</message>
+		<message id="306">Ha ha!</message>
+		<message id="307">Hee hee!</message>
+		<message id="308">Wow!</message>
+		<message id="309">Great!</message>
+		<message id="310">Whee!</message>
+		<message id="311">Oh boy!</message>
+		<message id="312">Whoopee!</message>
+		<message id="313">Yee hah!</message>
+	</category>	
+	<category name="Friendly">
+		<message id="500">Thanks!</message>	
+		<message id="505">Good teamwork!</message>
+		<message id="506">That was fun!</message>
+		<message id="507">Please be my friend!</message>
+		<message id="508">Let's work together!</message>
+		<message id="509">You guys are great!</message>
+		<message id="510">Are you new here?</message>
+		<message id="513">Would you like some help?</message>
+		<message id="515">Have you been here before?</message>
+		
+		<category name="You">
+			<message id="600">You look nice.</message>
+			<message id="601">You are awesome!</message>
+			<message id="602">You rock!</message>
+			<message id="603">You are a genius!</message>
+		</category>				
+		
+		<category name="I Like">
+			<message id="700">I like your name.</message>	
+			<message id="701">I like your look.</message>	
+			<message id="702">I like your shirt.</message>	
+			<message id="703">I like your skirt.</message>	
+			<message id="704">I like this game!</message>		
+		</category>							
+	</category>
+	<category name="Places">
+		<category name="Let's go">
+			<message id="1100">Let's go to my house!</message>
+			<message id="1101">Let's go to your house!</message>
+		</category>
+	</category>
+	<category name="Quests">
+	</category>
+</SpeedChat>
+
+	</config>
+	<copy></copy>
+</panelSet>

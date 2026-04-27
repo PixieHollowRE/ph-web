@@ -1,0 +1,490 @@
+<FairiesPageResponse>
+	<success>true</success>
+	<home>
+		<item name="HomeBackground_1" type="HomeBackground">
+			<location location_id="34">icon_test.swf</location>
+			<piece type="HomeBackgroundPiece">
+				<asset asset_id="34">assets/home/background_animal_1.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<x>0</x>
+			<y>0</y>
+			<scale>100</scale>
+			<sort>0</sort>
+			<flip>false</flip>
+			<inventory_id>3604</inventory_id>
+		</item>
+		<item name="HomeForeground_5" type="HomeForeground">
+			<location location_id="41">assets/icons/foreground_5_icon.swf</location>
+			<piece type="ForegroundAboveCut">
+				<asset asset_id="41">assets/home/foreground_5_abovecut.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="ForegroundDieCut">
+				<asset asset_id="41">assets/home/foreground_5_diecut.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="ForegroundBelowCut">
+				<asset asset_id="41">assets/home/foreground_5_belowcut.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<x>0</x>
+			<y>0</y>
+			<scale>100</scale>
+			<sort>0</sort>
+			<flip>false</flip>
+			<inventory_id>3609</inventory_id>
+		</item>
+		<item name="Furniture_4" type="Furniture">
+			<location location_id="52">assets/icons/furniture4icon.swf</location>
+			<color color_id="124" number="1">68 94 154</color>
+			<piece type="FurniturePiece">
+				<asset asset_id="52">assets/home/furniture4.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<x>440</x>
+			<y>185</y>
+			<scale>91</scale>
+			<sort>22</sort>
+			<flip>false</flip>
+			<inventory_id>3624</inventory_id>
+		</item>
+		<item name="Furniture_6" type="Furniture">
+			<location location_id="54">assets/icons/furniture6icon.swf</location>
+			<color color_id="121" number="1">136 195 123</color>
+			<piece type="FurniturePiece">
+				<asset asset_id="54">assets/home/furniture6.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<x>176</x>
+			<y>278</y>
+			<scale>135</scale>
+			<sort>33</sort>
+			<flip>false</flip>
+			<inventory_id>3627</inventory_id>
+		</item>
+		<item name="Furniture_12" type="Furniture">
+			<location location_id="60">assets/icons/furniture12icon.swf</location>
+			<color color_id="121" number="1">136 195 123</color>
+			<piece type="FurniturePiece">
+				<asset asset_id="60">assets/home/furniture12.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<x>521</x>
+			<y>259</y>
+			<scale>100</scale>
+			<sort>59</sort>
+			<flip>false</flip>
+			<inventory_id>3639</inventory_id>
+		</item>
+		<item name="Furniture_15" type="Furniture">
+			<location location_id="63">assets/icons/furniture15icon.swf</location>
+			<color color_id="120" number="1">245 146 67</color>
+			<piece type="FurniturePiece">
+				<asset asset_id="63">assets/home/furniture15.swf</asset>
+				<frame>10</frame>
+			</piece>
+			<x>191</x>
+			<y>240</y>
+			<scale>100</scale>
+			<sort>40</sort>
+			<flip>true</flip>
+			<inventory_id>3645</inventory_id>
+		</item>
+		<item name="Furniture_18" type="Furniture">
+			<location location_id="66">assets/icons/furniture18icon.swf</location>
+			<color color_id="119" number="1">181 75 78</color>
+			<piece type="FurniturePiece">
+				<asset asset_id="66">assets/home/furniture18.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<x>527</x>
+			<y>282</y>
+			<scale>135</scale>
+			<sort>56</sort>
+			<flip>false</flip>
+			<inventory_id>3651</inventory_id>
+		</item>
+		<item name="Decoration_4" type="Decoration">
+			<location location_id="72">assets/icons/decoration4icon.swf</location>
+			<color color_id="121" number="1">136 195 123</color>
+			<piece type="DecorationPiece">
+				<asset asset_id="72">assets/home/decoration4.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<x>171</x>
+			<y>208</y>
+			<scale>90</scale>
+			<sort>76</sort>
+			<flip>false</flip>
+			<inventory_id>3663</inventory_id>
+		</item>
+		<item name="Decoration_9" type="Decoration">
+			<location location_id="77">assets/icons/decoration9icon.swf</location>
+			<color color_id="123" number="1">153 136 209</color>
+			<piece type="DecorationPiece">
+				<asset asset_id="77">assets/home/decoration9.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<x>502</x>
+			<y>213</y>
+			<scale>85</scale>
+			<sort>79</sort>
+			<flip>false</flip>
+			<inventory_id>3674</inventory_id>
+		</item>
+		<item name="Decoration_13" type="Decoration">
+			<location location_id="81">assets/icons/decoration13icon.swf</location>
+			<color color_id="120" number="1">245 146 67</color>
+			<piece type="DecorationPiece">
+				<asset asset_id="81">assets/home/decoration13.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<x>534</x>
+			<y>222</y>
+			<scale>65</scale>
+			<sort>91</sort>
+			<flip>false</flip>
+			<inventory_id>3681</inventory_id>
+		</item>
+		<item name="Decoration_22" type="Decoration">
+			<location location_id="90">assets/icons/decoration22icon.swf</location>
+			<color color_id="119" number="1">181 75 78</color>
+			<piece type="DecorationPiece">
+				<asset asset_id="90">assets/home/decoration22.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<x>440</x>
+			<y>163</y>
+			<scale>72</scale>
+			<sort>97</sort>
+			<flip>false</flip>
+			<inventory_id>3698</inventory_id>
+		</item>
+		<item name="Decoration_23" type="Decoration">
+			<location location_id="91">assets/icons/decoration23icon.swf</location>
+			<color color_id="121" number="1">136 195 123</color>
+			<piece type="DecorationPiece">
+				<asset asset_id="91">assets/home/decoration23.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<x>380</x>
+			<y>175</y>
+			<scale>65</scale>
+			<sort>3</sort>
+			<flip>false</flip>
+			<inventory_id>3700</inventory_id>
+		</item>
+		<item name="Lamp_2" type="Lamp">
+			<location location_id="97">assets/icons/lamp2icon.swf</location>
+			<color color_id="122" number="1">243 244 206</color>
+			<piece type="LampPiece">
+				<asset asset_id="97">assets/home/lamp2.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<x>548</x>
+			<y>191</y>
+			<scale>100</scale>
+			<sort>57</sort>
+			<flip>false</flip>
+			<inventory_id>3713</inventory_id>
+		</item>
+	</home>
+	<fairy fairy_id="10">
+		<name>Crimson Cloudbeam</name>
+		<talent>Animal</talent>
+		<created>2006-12-13 17:19:30</created>
+		<last_login>2006-12-13 17:39:01</last_login>
+		<total_logins>4</total_logins>
+		<icon icon_id="103">assets/icons/first_fairyicon15_pink.swf</icon>
+		<address>10FlutterbyForest</address>
+	</fairy>
+	<avatar>
+		<proportion type="HEAD">92</proportion>
+		<proportion type="HEIGHT">107</proportion>
+		<proportion type="BODY">95</proportion>
+		<rotation type="LR_LEG_ROT">28</rotation>
+		<rotation type="UR_LEG_ROT">0</rotation>
+		<rotation type="UL_LEG_ROT">6</rotation>
+		<rotation type="LR_ARM_ROT">0</rotation>
+		<rotation type="UR_ARM_ROT">25</rotation>
+		<rotation type="LL_ARM_ROT">-90</rotation>
+		<rotation type="LL_LEG_ROT">0</rotation>
+		<rotation type="UL_ARM_ROT">-32</rotation>
+		<rotation type="HEAD_ROT">0</rotation>
+		<piece type="EyesPiece">
+			<asset asset_id="1">assets/avatar/first_eyespiece.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<piece type="FacePiece">
+			<asset asset_id="20">assets/avatar/first_facepiece.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<piece type="HairFrontPiece">
+			<asset asset_id="39">assets/avatar/first_hairfrontpiece.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<piece type="HairBackPiece">
+			<asset asset_id="58">assets/avatar/first_hairbackpiece.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<piece type="WingsPiece">
+			<asset asset_id="82">assets/avatar/first_wingspiece.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<item item_id="204" name="Necklace_11" type="Necklace">
+			<asset asset_id="348">assets/icons/first_necklace11.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="NecklacePiece">
+				<asset asset_id="204">assets/avatar/first_necklacepiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<inventoryId>3901</inventoryId>
+		</item>
+		<item item_id="114" name="Top_11" type="Shirt">
+			<asset asset_id="258">assets/icons/first_shirt11.swf</asset>
+			<color color_id="17" number="1">217 255 135</color>
+			<piece type="ChestPiece">
+				<asset asset_id="114">assets/avatar/first_chestpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveLeftPiece">
+				<asset asset_id="114">assets/avatar/first_sleeveleftpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="SleeveRightPiece">
+				<asset asset_id="114">assets/avatar/first_sleeverightpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<inventoryId>3743</inventoryId>
+		</item>
+		<item item_id="146" name="Bottom_4" type="Skirt">
+			<asset asset_id="290">assets/icons/first_skirt4.swf</asset>
+			<color color_id="35" number="1">180 218 102</color>
+			<piece type="SkirtLeftPiece">
+				<asset asset_id="146">assets/avatar/first_skirtleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtRightPiece">
+				<asset asset_id="146">assets/avatar/first_skirtrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="SkirtBackPiece">
+				<asset asset_id="146">assets/avatar/first_skirtbackpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantLeftPiece">
+				<asset asset_id="146">assets/avatar/first_pantleftpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="PantRightPiece">
+				<asset asset_id="146">assets/avatar/first_pantrightpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<inventoryId>3797</inventoryId>
+		</item>
+		<item item_id="223" name="Shoes_5" type="Shoes">
+			<asset asset_id="367">assets/icons/first_shoes5.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="ShoeLeftPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<piece type="ShoeRightPiece">
+				<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<inventoryId>3949</inventoryId>
+		</item>
+		<item item_id="171" name="Bracelet_8" type="WristItem">
+			<asset asset_id="315">assets/icons/first_wristitem8.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="WristPiece">
+				<asset asset_id="171">assets/avatar/first_wristpiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3840</inventoryId>
+		</item>
+		<item item_id="175" name="Headpiece_1" type="HeadItem">
+			<asset asset_id="319">assets/icons/first_headitem1.swf</asset>
+			<color color_id="47" number="1">255 251 134</color>
+			<piece type="HeadPiece">
+				<asset asset_id="175">assets/avatar/first_headpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<inventoryId>3848</inventoryId>
+		</item>
+		<item item_id="139" name="Sash_17" type="Belt">
+			<asset asset_id="283">assets/icons/first_waistitem17.swf</asset>
+			<color color_id="46" number="1">174 129 98</color>
+			<piece type="WaistPiece">
+				<asset asset_id="139">assets/avatar/first_waistpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<inventoryId>3781</inventoryId>
+		</item>
+		<item item_id="215" name="Anklet_8" type="AnkleItem">
+			<asset asset_id="359">assets/icons/first_ankleitem8.swf</asset>
+			<color color_id="39" number="1">81 155 92</color>
+			<piece type="AnklePiece">
+				<asset asset_id="215">assets/avatar/first_anklepiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<inventoryId>3930</inventoryId>
+		</item>
+		<color color_id="58" type="EYE_COLOR">194 120 60</color>
+		<color color_id="79" type="HAIR_COLOR">139 93 73</color>
+		<color color_id="103" type="SKIN_COLOR">230 165 115</color>
+		<color color_id="109" type="WING_COLOR">255 227 183</color>
+	</avatar>
+	<NextFairyAddress>10RainbowGlen</NextFairyAddress>
+	<favorites>
+		<ComFavorites>
+			<favorite favorite_id="6">
+				<address>http://disney.go.com/fairies/fairies/fairies_bio/fira.html</address>
+				<name>Fira&apos;s page</name>
+				<icon icon_id="168">assets/icons/activityitem_fira.swf</icon>
+			</favorite>
+			<favorite favorite_id="18">
+				<address>http://disney.go.com/fairies/books/bookdetails/troublewithtink.html?itemid=1&amp;currentpos=1</address>
+				<name>The Trouble with Tink</name>
+				<icon icon_id="180">assets/icons/activityitem_troublewtink.swf</icon>
+			</favorite>
+		</ComFavorites>
+		<FairyFavorites>
+			<favorite>
+				<fairy_id>3</fairy_id>
+				<name>Emerald Lightningbeam</name>
+				<address>10SunsetFalls</address>
+				<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+				<created>2006-12-13 17:28:57</created>
+			</favorite>
+			<favorite>
+				<fairy_id>6</fairy_id>
+				<name>Cloudcliff</name>
+				<address>10CottonCloudCove</address>
+				<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+				<created>2006-12-13 17:35:03</created>
+			</favorite>
+			<favorite>
+				<fairy_id>7</fairy_id>
+				<name>Rhapsody Speedypuff</name>
+				<address>11CottonCloudCove</address>
+				<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+				<created>2006-12-13 17:35:55</created>
+			</favorite>
+			<favorite>
+				<fairy_id>8</fairy_id>
+				<name>Kiwi</name>
+				<address>10RainbowGlen</address>
+				<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+				<created>2006-12-13 17:35:30</created>
+			</favorite>
+			<favorite>
+				<fairy_id>9</fairy_id>
+				<name>Jessamine Mountainmeadow</name>
+				<address>11SunriseCliffs</address>
+				<icon>assets/icons/first_fairyicon1_blue.swf</icon>
+				<created>2006-12-13 17:31:29</created>
+			</favorite>
+		</FairyFavorites>
+	</favorites>
+	<page>
+		<theme theme_id="4">assets/icons/theme3.css</theme>
+		<music_track music_track_id="2">
+			<location>assets/audio/ambience1.swf</location>
+			<name>Morning Dew</name>
+		</music_track>
+
+
+		<poll_id>beingafairy</poll_id>
+		<!-- poll_id>wishtobefairy</poll_id -->
+
+
+		<quiz_id>friendship</quiz_id>
+		<!-- quiz_id>whatforestcreatureareyou</quiz_id -->
+
+		<registered_visits>15</registered_visits>
+		<unregistered_visits>0</unregistered_visits>
+		<rating>0.0</rating>
+		<bio_question bio_question_id="1">
+			<text>Favorite Food</text>
+			<answer id="11">Chocolate Cake</answer>
+		</bio_question>
+		<bio_question bio_question_id="3">
+			<text>Favorite Flower</text>
+			<answer id="53">Tulip</answer>
+		</bio_question>
+		<bio_question bio_question_id="2">
+			<text>Favorite Color</text>
+			<answer id="91">Lightning Blue</answer>
+		</bio_question>
+		<bio_question bio_question_id="4">
+			<text>Favorite Animal</text>
+			<answer id="122">Dragonfly</answer>
+		</bio_question>
+		<bio_question bio_question_id="6">
+			<text>Dislikes</text>
+			<answer id="158">Show-offs</answer>
+		</bio_question>
+		<bio_question bio_question_id="5">
+			<text>Favorite Hobby</text>
+		</bio_question>
+		<item_counts>
+			<Necklace>32</Necklace>
+			<HeadItem>32</HeadItem>
+			<Shirt>32</Shirt>
+			<Skirt>32</Skirt>
+			<AnkleItem>31</AnkleItem>
+			<Belt>32</Belt>
+			<Shoes>31</Shoes>
+			<WristItem>32</WristItem>
+		</item_counts>
+		<messages>
+			<message message_id="1">
+				<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+					<asset asset_id="184">icon_test.swf</asset>
+					<piece type="MessageBackgroundPiece">
+						<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+						<frame>1</frame>
+					</piece>
+				</item>
+				<phrase phrase_id="4">
+					<text>I can&apos;t believe how @word_4@ you look!</text>
+					<type>Category_4</type>
+				</phrase>
+				<word word_id="75">
+					<text>sunny</text>
+					<type>word_4</type>
+				</word>
+				<name>Cloudcliff</name>
+				<address>10CottonCloudCove</address>
+				<fairy_id>6</fairy_id>
+				<created>2006-12-13 13:25:22</created>
+				<icon>assets/icons/first_fairyicon15_pink.swf</icon>
+			</message>	
+			<message message_id="2">
+				<item item_id="15" name="MsgBack_5_yellow" type="MessageBackground">
+					<asset asset_id="184">icon_test.swf</asset>
+					<piece type="MessageBackgroundPiece">
+						<asset asset_id="15">assets/messages/background06_yellow.swf</asset>
+						<frame>1</frame>
+					</piece>
+				</item>
+				<phrase phrase_id="2">
+					<text>Your name is @word_2@</text>
+					<type>Category_2</type>
+				</phrase>
+				<word word_id="28">
+					<text>hilarious!</text>
+					<type>word_2</type>
+				</word>
+				<name>Cloudcliff</name>
+				<address>10CottonCloudCove</address>
+				<fairy_id>6</fairy_id>
+				<created>2006-12-13 12:40:40</created>
+				<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+			</message>
+		</messages>
+	</page>
+</FairiesPageResponse>

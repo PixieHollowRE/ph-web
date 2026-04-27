@@ -1,0 +1,22 @@
+<panelSet>
+	<panels>
+		<panel id="messageArchive" x="0" y="133" refocusable="true" draggable="false" closeable="false" hidden="false">{panelData}/messageArchive.xml </panel>
+	</panels>
+	<config>
+		<menu hideplay="true" hidenews="true">
+			<config title="true" defaultbackbuttony="15" nav="true"/>
+			<title>
+				<text>menutitle</text>
+				<subtext>subtitle</subtext>
+			</title>
+			<backarrow y="25">
+				<text>arrowtext</text>
+			</backarrow>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>Messages</menutitle>
+		<arrowtext>Go Back</arrowtext>
+		<subtitle/>
+	</copy>
+</panelSet>

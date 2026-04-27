@@ -1,0 +1,19 @@
+<!--
+	
+	*** NOTES ***
+	
+	scene.@id		:: incrementing unsigned integer
+	line			:: String containing the line of dialogue spoken by supplied role
+	line.@id 		:: incrementing unsigned integer
+	line.@role		:: String containing name of the role that is saying given line
+	line.@emote		:: optional integer id for a given emote corresponding with emoteAssets.xml
+	line.@direction	:: optional String containing containing any Stage direction that should be siplayed after
+					   given line of dialogue.
+	@useSceneTitles	:: whether or not to display scene titles on the script (1 = yes | 0 = no)
+	
+-->
+<script useSceneTitles="1">
+	<scene id="1">
+		<line id="0" role="role" emote="0" direction="exit stage left">lorem ipsum</line>
+	</scene>
+</script>

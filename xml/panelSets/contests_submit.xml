@@ -1,0 +1,31 @@
+<panelSet>
+
+	<panels>
+	
+	
+		<panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{panelData}/bg_gradient.xml</panel>
+		<panel id="leftSideStatic" x="0" y="0" transition="none">{panelData}/leftSideStatic.xml</panel>
+		<panel id="manager" x="70" y="-38" alwaysOnTop="true">{panelData}/contests_submit.xml</panel>
+		<panel id="submitform" x="75" y="-38" hidden="true" transition="none">{panelData}/contests_submitform.xml</panel>
+		<panel id="visitfairies" x="1" y="150">{panelData}/hub_visitfairies.xml</panel>
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<trackingid>contestssubmit</trackingid>
+		
+		<regionid>community</regionid>
+		<sectionid>community</sectionid>
+		<pageid>contestssubmit</pageid>
+		<slider visible="false" />
+		<menu>
+			<config nav="false" title="true"></config>
+			<title>
+				<text>menutitle</text>       
+			</title>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>Contests</menutitle>
+	</copy>
+</panelSet>

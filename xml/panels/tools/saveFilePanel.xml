@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/saveFilePanel.swf</swf>
+		<swf type="code">{panelCode}/saveFilePanel.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+	</config>
+</panel>

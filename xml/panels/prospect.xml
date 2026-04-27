@@ -1,0 +1,24 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/prospect.swf</swf>
+		<swf type="code">{panelCode}/prospect.swf</swf>
+	</swfs>
+	<copy>
+		<loggedInTopRight><![CDATA[Welcome back, ]]></loggedInTopRight>
+		<notLoggedInTopRight><![CDATA[Already have a Fairy? Log In!]]></notLoggedInTopRight>
+		<learnMore><![CDATA[Learn More]]></learnMore>
+		<parents><![CDATA[Parents]]></parents>
+		<playModeText><![CDATA[Play!]]></playModeText>
+		<waitModeText><![CDATA[Wait]]></waitModeText>
+		<channel><![CDATA[]]></channel>
+		<panel><![CDATA[login]]></panel>
+		<url><![CDATA[]]></url>
+		<event><![CDATA[]]></event>
+	</copy>
+	<config>
+		<isCookieLnk><![CDATA[communityHub.html]]></isCookieLnk>
+		<parentLnk><![CDATA[]]></parentLnk>
+		<learnLnk><![CDATA[]]></learnLnk>
+		<loginLnk><![CDATA[]]></loginLnk>
+	</config>
+</panel>

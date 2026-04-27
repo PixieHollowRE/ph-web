@@ -1,0 +1,35 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0" role="Storyteller" emote="24">Diva Wings loved shopping.</line>
+    <line id="1" role="Storyteller">All she would do all day was shop, shop and more shopping!</line>
+    <line id="2" role="Storyteller">One day as she was flying to Fawn's Hideout,</line>
+    <line id="3" role="Storyteller">she saw a Pixie Posting for the Pixie Hollow campout.</line>
+    <line id="4" role="Diva Wings">There is no way I'm going.</line>
+    <line id="5" role="Diva Wings">The new collections come out this week...</line>
+    <line id="6" role="Diva Wings">I will be the first to buy them!</line>
+    <line id="7" role="Storyteller">She flew on totally ignoring the posting.</line>
+    <line id="8" role="Storyteller">When she got to Fawn's,</line>
+    <line id="9" role="Storyteller" emote="12">she started talking about the new collections.</line>
+    <line id="10" role="Storyteller">Fawn was tired of hearing about Diva and her clothes.</line>
+    <line id="11" role="Storyteller">Fawn thought of a great idea...</line>
+    <line id="12" role="Storyteller">to help Diva Wings get over her shopping obsession.</line>
+    <line id="13" role="Fawn">I will trick her into coming to the campout</line>
+    <line id="14" role="Fawn">and remembering how great nature is!</line>
+    <line id="15" role="Storyteller">So Fawn told Diva Wings that she found a really great store.</line>
+    <line id="16" role="Storyteller">And it just happened to be on the way to the campout!</line>
+    <line id="17" role="Storyteller">Diva Wings was so happy she would be first to see the store.</line>
+    <line id="18" role="Storyteller">She left with Fawn and realized that there was no store!</line>
+    <line id="19" role="Diva Wings" emote="5">Hey, you tricked me!</line>
+    <line id="20" role="Fawn">I just wanted you to see how beautiful it is</line>
+    <line id="21" role="Fawn" emote="9">and how you should really forget about shopping.</line>
+    <line id="22" role="Diva Wings">Wow, I never realized I was so caught up in shopping</line>
+    <line id="23" role="Diva Wings">and not even helping with the season changes or anything.</line>
+    <line id="24" role="Diva Wings">Thank you Fawn for showing me nature and animals!</line>
+    <line id="25" role="Diva Wings">I promise I'll start helping and not shop for a long time!</line>
+    <line id="26" role="Storyteller">The whole night Diva Wings forgot about the new collections</line>
+    <line id="27" role="Storyteller">and played with the animals.</line>
+    <line id="28" role="Storyteller">At night she sang songs and helped put baby animals to bed.</line>
+    <line id="29" role="Diva Wings">I'm so grateful for this campout,</line>
+    <line id="30" role="Diva Wings">I can't wait till next year's!</line>
+  </scene>
+</script>

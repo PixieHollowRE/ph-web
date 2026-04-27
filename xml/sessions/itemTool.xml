@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<session>
+	<params>
+		<type>standalone</type>
+		<initialContent>{panelSetData}/demo.xml</initialContent>
+		<skipAuthentication>true</skipAuthentication>
+	</params>
+</session>

@@ -1,0 +1,149 @@
+<FairiesMessageArchiveResponse>
+	<success>true</success>
+	<messages>
+		<message message_id="3">
+			<created>2006-10-27 16:51:52</created>
+			<background>4</background>
+			<phrase>1</phrase>
+			<word>1</word>
+			<fairy fairy_id="2174371">
+				<name>Abigail</name>
+				<talent>2</talent>
+				<address>73940FairydustMill</address>
+				<icon>1</icon>
+			</fairy>
+		</message>
+		<message message_id="2">
+			<created>2006-11-15 16:51:52</created>
+			<background>3</background>
+			<phrase>2</phrase>
+			<word>3</word>
+			<fairy fairy_id="211446">
+				<name>Sarah</name>
+				<talent>1</talent>
+				<address>37761RainbowGlen</address>
+				<icon>3</icon>
+			</fairy>
+		</message>
+		<message message_id="3">
+			<created>2006-10-27 16:51:52</created>
+			<background>4</background>
+			<phrase>1</phrase>
+			<word>1</word>
+			<fairy fairy_id="2174371">
+				<name>Abigail</name>
+				<talent>2</talent>
+				<address>73940FairydustMill</address>
+				<icon>1</icon>
+			</fairy>
+		</message>
+		<message message_id="2">
+			<created>2006-11-15 16:51:52</created>
+			<background>3</background>
+			<phrase>2</phrase>
+			<word>3</word>
+			<fairy fairy_id="211446">
+				<name>Sarah</name>
+				<talent>1</talent>
+				<address>37761RainbowGlen</address>
+				<icon>3</icon>
+			</fairy>
+		</message>
+		<message message_id="3">
+			<created>2006-10-27 16:51:52</created>
+			<background>4</background>
+			<phrase>1</phrase>
+			<word>1</word>
+			<fairy fairy_id="2174371">
+				<name>Abigail</name>
+				<talent>2</talent>
+				<address>73940FairydustMill</address>
+				<icon>1</icon>
+			</fairy>
+		</message>
+		<message message_id="2">
+			<created>2006-11-15 16:51:52</created>
+			<background>3</background>
+			<phrase>2</phrase>
+			<word>3</word>
+			<fairy fairy_id="211446">
+				<name>Sarah</name>
+				<talent>1</talent>
+				<address>37761RainbowGlen</address>
+				<icon>3</icon>
+			</fairy>
+		</message>
+		<message message_id="3">
+			<created>2006-10-27 16:51:52</created>
+			<background>4</background>
+			<phrase>1</phrase>
+			<word>1</word>
+			<fairy fairy_id="2174371">
+				<name>Abigail</name>
+				<talent>2</talent>
+				<address>73940FairydustMill</address>
+				<icon>1</icon>
+			</fairy>
+		</message>
+		<message message_id="2">
+			<created>2006-11-15 16:51:52</created>
+			<background>3</background>
+			<phrase>2</phrase>
+			<word>3</word>
+			<fairy fairy_id="211446">
+				<name>Sarah</name>
+				<talent>1</talent>
+				<address>37761RainbowGlen</address>
+				<icon>3</icon>
+			</fairy>
+		</message>
+		<message message_id="3">
+			<created>2006-10-27 16:51:52</created>
+			<background>4</background>
+			<phrase>1</phrase>
+			<word>1</word>
+			<fairy fairy_id="2174371">
+				<name>Abigail</name>
+				<talent>2</talent>
+				<address>73940FairydustMill</address>
+				<icon>1</icon>
+			</fairy>
+		</message>
+		<message message_id="2">
+			<created>2006-11-15 16:51:52</created>
+			<background>3</background>
+			<phrase>2</phrase>
+			<word>3</word>
+			<fairy fairy_id="211446">
+				<name>Sarah</name>
+				<talent>1</talent>
+				<address>37761RainbowGlen</address>
+				<icon>3</icon>
+			</fairy>
+		</message>
+		<message message_id="3">
+			<created>2006-10-27 16:51:52</created>
+			<background>4</background>
+			<phrase>1</phrase>
+			<word>1</word>
+			<fairy fairy_id="2174371">
+				<name>Abigail</name>
+				<talent>2</talent>
+				<address>73940FairydustMill</address>
+				<icon>1</icon>
+			</fairy>
+		</message>
+		<message message_id="2">
+			<created>2006-11-15 16:51:52</created>
+			<background>3</background>
+			<phrase>2</phrase>
+			<word>3</word>
+			<fairy fairy_id="211446">
+				<name>Sarah</name>
+				<talent>1</talent>
+				<address>37761RainbowGlen</address>
+				<icon>3</icon>
+			</fairy>
+		</message>
+	</messages>
+</FairiesMessageArchiveResponse>

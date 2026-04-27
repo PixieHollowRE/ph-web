@@ -1,0 +1,20 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0">The Kitchen looks so festive!</line>
+    <line id="1">Tis the season for baking!</line>
+    <line id="2">Everybody lend a wing!</line>
+    <line id="3">I'm baking the sugar cookies!</line>
+    <line id="4">I'm frosting the cookies!</line>
+    <line id="5">I'll add the sprinkles!</line>
+    <line id="6">Is the bread ready?</line>
+    <line id="7">I'll peek into the oven!</line>
+    <line id="8">It'll be ready in a few flaps!</line>
+    <line id="9">I'm making potato pancakes!</line>
+    <line id="10">How can I help with the meal?</line>
+    <line id="11">Please set the table.</line>
+    <line id="12">Everything smells pixie-licious!</line>
+    <line id="13">Gather 'round and let's eat!</line>
+    <line id="14">This is the perfect winter feast!</line>
+    <line id="15">You'd make a great baking-talent!</line>
+  </scene>
+</script> 

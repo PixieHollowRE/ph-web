@@ -1,0 +1,100 @@
+<FairiesStationeryResponse>
+	<success>true</success>
+	<backgrounds_stationery>
+		<item item_id="0" name="MsgBack_8_green" type="StationeryBackground" layout="bust1">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="1">assets/stationery/stationary_Page1_blank.jpg</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3572</inventoryId>
+		</item>
+		<item item_id="1" name="MsgBack_8_pink" type="StationeryBackground" layout="bust2">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="2">assets/stationery/stationary_Page2_blank.jpg</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3573</inventoryId>
+		</item>
+		<item item_id="2" name="MsgBack_8_yellow" type="StationeryBackground" layout="small">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="StationeryBackgroundPiece">
+				<asset asset_id="3">assets/stationery/stationary_Page3_blank.jpg</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3574</inventoryId>
+		</item>
+		<item item_id="3" name="MsgBack_7_pink" type="StationeryBackground" layout="big">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="StationeryBackgroundPiece">
+				<asset asset_id="4">assets/stationery/stationary_Page4_blank.jpg</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3575</inventoryId>
+		</item>
+	</backgrounds_stationery>
+	<backgrounds_cards>
+		<item item_id="0" name="MsgBack_8_green" type="CardBackground" layout="bust">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="CardBackgroundPiece">
+				<asset asset_id="1">assets/stationery/CallingCard_1_layout.jpg</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3572</inventoryId>
+		</item>
+		<item item_id="1" name="MsgBack_8_pink" type="CardBackground" layout="bust">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="CardBackgroundPiece">
+				<asset asset_id="2">assets/stationery/CallingCard_2_layout.jpg</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3573</inventoryId>
+		</item>
+		<item item_id="2" name="MsgBack_8_yellow" type="CardBackground" layout="bust">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="CardBackgroundPiece">
+				<asset asset_id="3">assets/stationery/CallingCard_3_layout.jpg</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3574</inventoryId>
+		</item>
+		<item item_id="3" name="MsgBack_7_pink" type="CardBackground" layout="bust">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="CardBackgroundPiece">
+				<asset asset_id="4">assets/stationery/CallingCard_4_layout.jpg</asset>
+				<frame>1</frame>
+			</piece>
+			<inventoryId>3575</inventoryId>
+		</item>
+	</backgrounds_cards>
+	<background_thumbs>
+		<thumb item_id="0" name="stat_back_1_thumb" type="StationeryThumbnail">
+			<asset>assets/stationery/stationary_Page1_thumb.png</asset>
+		</thumb>
+		<thumb item_id="1" name="stat_back_2_thumb" type="StationeryThumbnail">
+			<asset>assets/stationery/stationary_Page2_thumb.png</asset>
+		</thumb>
+		<thumb item_id="2" name="stat_back_3_thumb" type="StationeryThumbnail">
+			<asset>assets/stationery/stationary_Page3_thumb.png</asset>
+		</thumb>
+		<thumb item_id="3" name="stat_back_4_thumb" type="StationeryThumbnail">
+			<asset>assets/stationery/stationary_Page4_thumb.png</asset>
+		</thumb>
+	</background_thumbs>
+
+	<card_thumbs>
+		<thumb item_id="0" name="card_back_1_thumb" type="CardThumbnail">
+			<asset>assets/stationery/callingcard__v1_thumb.png</asset>
+		</thumb>
+		<thumb item_id="1" name="card_back_2_thumb" type="CardThumbnail">
+			<asset>assets/stationery/callingcard__v2_thumb.png</asset>
+		</thumb>
+		<thumb item_id="2" name="card_back_3_thumb" type="CardThumbnail">
+			<asset>assets/stationery/callingcard__v3_thumb.png</asset>
+		</thumb>
+		<thumb item_id="3" name="card_back_4_thumb" type="CardThumbnail">
+			<asset>assets/stationery/callingcard__v4_thumb.png</asset>
+		</thumb>
+	</card_thumbs>
+</FairiesStationeryResponse>

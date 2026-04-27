@@ -1,0 +1,22 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/active.swf</swf>
+		<swf type="code">{panelCode}/active.swf</swf>
+	</swfs>
+	<copy>
+		<talents>--All Talents--,Garden,Animal,Light,Water</talents>
+		<talentLabel target="talentlabel">Talent:</talentLabel>
+		<pureLabel target="label">Most Active</pureLabel>
+		<description target="description">These Fairies are very busy! They've earned  the most activity points by visiting other Fairies, decorating their homes, and leaving lots of messages!</description>
+            <tink>You can earn activity points for doing certain things in Pixie Hollow, like visiting other Fairies and decorating your home. The busier you are, the higher you will be on the "Most Active" list!</tink>
+            <tinkconfirm>Okay</tinkconfirm>
+		<dbfail>Oops! Unable to connect to the Fairy directory. Please try again in a few minutes.</dbfail>
+		<dbfailconfirm>Okay</dbfailconfirm>	
+		<tinkTipsText1 target="tinkbutton.tinksTip1">Tink's</tinkTipsText1>
+		<tinkTipsText2 target="tinkbutton.tinksTip2">Tips</tinkTipsText2>
+	</copy>
+	<config>
+		<util>
+		</util>
+	</config>
+</panel>

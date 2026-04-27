@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/cardSaveFileOptions.swf</swf>
+		<swf type="code">{panelCode}/cardSaveFileOptions.swf</swf>
+	</swfs>
+	<copy>
+		<path target="expand.setFileBtn.caption">Select Path</path>
+		<close target="expand.cancelBtn.caption">Close</close>
+		<save target="expand.saveBtn.caption">Save</save>
+	</copy>
+	<config>
+	</config>
+</panel>

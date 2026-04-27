@@ -1,0 +1,43 @@
+<level>
+	<introMessage>Song 2 - Part 2 - Easy</introMessage>
+
+	<bgTrack>audio/animalRhythm/piece2/bed.mp3</bgTrack>
+	
+	<!--
+	<hitThreshold>800</hitThreshold>
+	-->
+	
+	<fgTrack>audio/animalRhythm/piece2/melody_2_v1.mp3</fgTrack>
+
+	<mistakeTrack>audio/animalRhythm/piece2/mistake_var1.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece2/mistake_var2.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece2/mistake_var3.mp3</mistakeTrack>
+
+	
+	<animal bedType="Mouse1" type="Mouse" wakeStates="0-0,1-6,7-12,13-120" position="mouse" />	
+	<animal bedType="Mouse2" type="Mouse2" wakeStates="0-4,5-10,11-18,19-120" position="mouse2" />
+	<animal bedType="Chipmunk" type="Chipmunk" wakeStates="0-8,9-24,25-42,43-120" position="chipmunk" />
+<!--
+	<animal bedType="Squirrel" type="Squirrel" wakeStates="0-12,13-28,29-50,51-120" position="squirrel" />
+	<animal bedType="Bunny" type="Rabbit" wakeStates="0-18,19-44,45-70,71-120" position="bunny" />	
+-->
+	
+	<target key="LEFT" secondaryKey="" position="4730" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="5995" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="7080" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="8333" length="-1" autoplay="false"/>
+
+	<target key="DOWN" secondaryKey="" position="9530" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="10680" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="11870" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="13110" length="-1" autoplay="false"/>
+
+	<target key="LEFT" secondaryKey="" position="14150" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="15410" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="16590" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="18850" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="20060" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="21250" length="-1" autoplay="false"/>
+
+
+</level>

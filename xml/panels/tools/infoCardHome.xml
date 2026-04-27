@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/infoCardHome.swf</swf>
+		<swf type="code">{panelCode}/infoCardHome.swf</swf>
+	</swfs>
+	<copy>
+		<apply target="expand.outputItem.caption">Item PNG</apply>
+	</copy>
+	<config>
+		<replace target="viewport" type="dragarea" />
+		<replace target="itemColor" type="colorselector" />
+		<replace target="zposScroll" type="simplescroll" vertical="false" min="0" max="1000" def="500" />
+		<replace target="availablePalette" type="colorpalette" row="2" column="7" radius="8" distance="20" scroll="10" />
+		<replace target="unavailablePalette" type="colorpalette" row="2" column="7" radius="8" distance="20" scroll="10" />
+		<furniture x="500" y="500" z="500" />
+		<avatar x="618" y="618" z="500" />
+	</config>
+</panel>

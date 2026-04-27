@@ -1,0 +1,18 @@
+<panelSet>
+	<panels>
+		<panel id="speedchatToolMain" x="100" y="25" alwaysOnBottom="true" transition="none">{panelData}/tools/speedchatToolMain.xml</panel>
+	</panels>
+	<config>
+		<!--
+		<additionalFiles>
+			<file name="createFairy" native="false" side="client">caf/cafData.xml</file>
+		</additionalFiles>
+		<panelsLater>
+			<editAvatarPanel id="editAvatar" x="200" y="100" alwaysOnTop="true" hidden="true">{panelData}/tools/cardEditAvatar.xml</editAvatarPanel>
+			<saveAvatarPanel id="saveAvatar" x="300" y="200" alwaysOnTop="true" hidden="true">{panelData}/tools/cardSaveFileOptions.xml</saveAvatarPanel>
+		</panelsLater>
+		-->
+	</config>
+	<copy>
+	</copy>
+</panelSet>

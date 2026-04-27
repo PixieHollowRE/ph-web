@@ -1,0 +1,13 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/websiteBadges.swf</swf>
+		<swf type="code">{panelCode}/websiteBadges.swf</swf>
+	</swfs>
+	<copy>
+		<label1 target="label1">My</label1>
+		<label2 target="label2">Badges</label2>
+	</copy>
+	<config>
+		<util/>
+	</config>
+</panel>

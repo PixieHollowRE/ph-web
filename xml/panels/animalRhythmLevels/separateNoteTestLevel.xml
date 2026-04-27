@@ -1,0 +1,68 @@
+<level>
+	<introMessage>SEPARATE NOTES TEST1</introMessage>
+
+	<bgTrack>piece1_bed</bgTrack>
+	<!-- <fgTrack>silence_60</fgTrack> -->
+	<levelEndsAt>26000</levelEndsAt>
+
+	<tipImageFrame>oneMouse</tipImageFrame>
+	<audioLibrary>piece1</audioLibrary>
+
+	<successMeterStart>11</successMeterStart>
+	<successMeterBadPenalty>1</successMeterBadPenalty>
+	<successMeterGoodReward>1</successMeterGoodReward>
+	<animal bedType="Mouse1" type="Mouse" wakeStates="0-0,3-6,7-12,13-120" position="mouse" />	
+	<!-- <animal bedType="Mouse2" type="Mouse2" wakeStates="0-4,5-10,11-18,19-120" position="mouse2" /> -->
+<!--
+	<animal bedType="Chipmunk" type="Chipmunk" wakeStates="0-8,9-24,25-42,43-120" position="chipmunk" />
+	<animal bedType="Squirrel" type="Squirrel" wakeStates="0-12,13-28,29-50,51-120" position="squirrel" />
+	<animal bedType="Bunny" type="Rabbit" wakeStates="0-18,19-44,45-70,71-120" position="bunny" />	
+-->
+	
+	<target note="g1" key="LEFT" secondaryKey="" position="6428.98715" length="-1" autoplay="false"/>
+	<target note="a1" key="RIGHT" secondaryKey="" position="8069.863946" length="-1" autoplay="false"/>
+	
+	<target note="g1" key="LEFT" secondaryKey="" position="9664.300831" length="-1" autoplay="false"/>
+	<target note="a1" key="RIGHT" secondaryKey="" position="11367.09751" length="-1" autoplay="false"/>
+	
+	<target note="a1" key="LEFT" secondaryKey="" position="13069.89418" length="-1" autoplay="false"/>
+	<target note="b1" key="UP" secondaryKey="" position="13751.01285" length="-1" autoplay="false"/>
+	<target note="c2" key="RIGHT" secondaryKey="" position="14602.41119" length="-1" autoplay="false"/>
+	
+	<target note="a1" key="RIGHT" secondaryKey="" position="16320.68783" length="-1" autoplay="false"/>
+	<target note="b1" key="DOWN" secondaryKey="" position="17079.20635" length="-1" autoplay="false"/>
+	<target note="c2" key="LEFT" secondaryKey="" position="17899.64475" length="-1" autoplay="false"/>
+	
+	<target note="d2" key="LEFT" secondaryKey="" position="19633.40136" length="-1" autoplay="false"/>
+	<target note="g1" key="UP" secondaryKey="" position="20360.95994" length="-1" autoplay="false"/>
+	<target note="b1" key="RIGHT" secondaryKey="" position="21181.39834" length="-1" autoplay="false"/>
+	
+	<target note="a1" key="RIGHT" secondaryKey="" position="22853.23507" length="-1" autoplay="false"/>
+	<target note="d1" key="DOWN" secondaryKey="" position="23673.67347" length="-1" autoplay="false"/>
+	<target note="g1" key="LEFT" secondaryKey="" position="24509.59184" length="-1" autoplay="false"/>
+
+<!--
+	<target key="LEFT" secondaryKey="" note="g1" position="6385.487528344671" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" note="a1" position="7964.444444444444" length="-1" autoplay="false"/>
+
+	<target key="LEFT" secondaryKey="" note="g1" position="9496.961451247165" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" note="a1" position="11145.578231292517" length="-1" autoplay="false"/>
+
+	<target key="LEFT" secondaryKey="" note="a1" position="12794.195011337868" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" note="b1" position="13444.353741496598" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" note="c2" position="14280.272108843537" length="-1" autoplay="false"/>
+
+	<target key="RIGHT" secondaryKey="" note="a1" position="15905.668934240362" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" note="b1" position="16695.147392290248" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" note="c2" position="17531.06575963719" length="-1" autoplay="false"/>
+
+	<target key="LEFT" secondaryKey="" note="d2" position="19202.902494331065" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" note="g1" position="19876.28117913832" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" note="b1" position="20688.979591836734" length="-1" autoplay="false"/>
+
+	<target key="RIGHT" secondaryKey="" note="a1" position="22291.156462585033" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" note="d1" position="23080.63492063492" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" note="g1" position="23846.89342403628" length="-1" autoplay="false"/>
+	-->
+
+</level>

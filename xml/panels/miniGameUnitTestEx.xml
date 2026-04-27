@@ -1,0 +1,7 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/unitTest.swf</swf>
+	</swfs>
+	<copy></copy>
+	<config></config>
+</panel>

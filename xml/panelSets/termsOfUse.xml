@@ -1,0 +1,28 @@
+<panelSet>
+	<panels>
+		<panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{panelData}/bg_gradient.xml</panel>
+		<!--panel id="leftSideStatic" x="0" y="0" transition="none">leftSideStatic.xml</panel-->
+		<panel id="termsOfUse" x="70" y="-38" alwaysOnTop="true">{panelData}/termsOfUse.xml</panel>
+		<!--panel id="dname" x="70" y="-38" alwaysOnTop="true">dname.xml</panel-->
+		<!--panel id="test" x="20" y="0" alwaysOnTop="true">panelTest.xml</panel-->
+		
+	</panels>
+	<config>
+		<logolink>false</logolink>
+		<menu>
+			<config nav="false" title="true"/>
+			<title>
+				<text>menutitle</text>
+			</title>
+		</menu>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<!--trackingid>termsofuse</trackingid-->
+		<sectionid>termsofuse</sectionid>
+		<pageid>termsofuse</pageid>
+	</config>
+	<copy>
+		<menutitle>Terms Of         Use</menutitle>
+	</copy>
+
+</panelSet>

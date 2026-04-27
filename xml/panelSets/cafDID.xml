@@ -1,0 +1,9 @@
+<panelSet>
+	<panels>
+		<panel id="panelCAF" x="0" y="120" refocusable="true" transition="none">{panelData}/CAFPanelDisneyID.xml </panel>
+	</panels>
+	<config>
+	</config>
+	<copy>
+	</copy>
+</panelSet>

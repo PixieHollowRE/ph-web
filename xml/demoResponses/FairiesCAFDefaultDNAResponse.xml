@@ -1,0 +1,139 @@
+<avatar>
+	<proportion type="HEAD">90</proportion>
+	<proportion type="HEIGHT">100</proportion>
+	<proportion type="BODY">88</proportion>
+
+	<rotation type="LR_LEG_ROT">40</rotation>
+	<rotation type="UR_LEG_ROT">0</rotation>
+	<rotation type="UL_LEG_ROT">11</rotation>
+	<rotation type="LR_ARM_ROT">0</rotation>
+	<rotation type="UR_ARM_ROT">38</rotation>
+	<rotation type="LL_ARM_ROT">-15</rotation>
+	<rotation type="LL_LEG_ROT">70</rotation>
+	<rotation type="UL_ARM_ROT">-56</rotation>
+	<rotation type="HEAD_ROT">0</rotation>
+
+	<piece type="HairBackPiece">
+		<asset asset_id="63">assets/avatar/first_hairbackpiece.swf</asset>
+		<frame>6</frame>
+	</piece>
+	<piece type="HairFrontPiece">
+		<asset asset_id="43">assets/avatar/first_hairfrontpiece.swf</asset>
+		<frame>5</frame>
+	</piece>
+	<piece type="FacePiece">
+		<asset asset_id="27">assets/avatar/first_facepiece.swf</asset>
+		<frame>8</frame>
+	</piece>
+	<piece type="EyesPiece">
+		<asset asset_id="8">assets/avatar/first_eyespiece.swf</asset>
+		<frame>8</frame>
+	</piece>
+	<piece type="WingsPiece">
+		<asset asset_id="84">assets/avatar/first_wingspiece.swf</asset>
+		<frame>3</frame>
+	</piece>
+
+	<item item_id="219" name="Shoes_1" type="Shoes">
+		<asset asset_id="241">assets/icons/first_shoes1.swf</asset>
+		<color color_id="33" number="1">186 111 202</color>
+		<piece type="ShoeLeftPiece">
+			<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<piece type="ShoeRightPiece">
+			<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<inventoryId>493861589</inventoryId>
+	</item>
+	<item item_id="213" name="Anklet_6" type="AnkleItem">
+		<asset asset_id="235">assets/icons/first_ankleitem6.swf</asset>
+		<color color_id="48" number="1">148 231 160</color>
+		<piece type="AnklePiece">
+			<asset asset_id="213">assets/avatar/first_anklepiece.swf</asset>
+			<frame>7</frame>
+		</piece>
+		<inventoryId>131905185</inventoryId>
+	</item>
+	<item item_id="197" name="Necklace_4" type="Necklace">
+		<asset asset_id="219">assets/icons/first_necklace4.swf</asset>
+		<color color_id="48" number="1">148 231 160</color>
+		<piece type="NecklacePiece">
+			<asset asset_id="197">assets/avatar/first_necklacepiece.swf</asset>
+			<frame>5</frame>
+		</piece>
+		<inventoryId>131905187</inventoryId>
+	</item>
+	<item item_id="46" name="Sash_none" type="Belt">
+		<asset asset_id="70">assets/icons/noneitem.swf</asset>
+		<piece type="WaistPiece">
+			<asset asset_id="46">assets/avatar/first_waistpiece.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<inventoryId>493862202</inventoryId>
+	</item>
+	<item item_id="148" name="Bottom_6" type="Skirt">
+		<asset asset_id="170">assets/icons/first_skirt6.swf</asset>
+		<color color_id="33" number="1">186 111 202</color>
+		<piece type="SkirtLeftPiece">
+			<asset asset_id="148">assets/avatar/first_skirtleftpiece.swf</asset>
+			<frame>6</frame>
+		</piece>
+		<piece type="SkirtRightPiece">
+			<asset asset_id="148">assets/avatar/first_skirtrightpiece.swf</asset>
+			<frame>6</frame>
+		</piece>
+		<piece type="SkirtBackPiece">
+			<asset asset_id="148">assets/avatar/first_skirtbackpiece.swf</asset>
+			<frame>6</frame>
+		</piece>
+		<piece type="PantLeftPiece">
+			<asset asset_id="148">assets/avatar/first_pantleftpiece.swf</asset>
+			<frame>6</frame>
+		</piece>
+		<piece type="PantRightPiece">
+			<asset asset_id="148">assets/avatar/first_pantrightpiece.swf</asset>
+			<frame>6</frame>
+		</piece>
+		<inventoryId>131905183</inventoryId>
+	</item>
+	<item item_id="168" name="Bracelet_5" type="WristItem">
+		<asset asset_id="190">assets/icons/first_wristitem5.swf</asset>
+		<color color_id="48" number="1">148 231 160</color>
+		<piece type="WristPiece">
+			<asset asset_id="168">assets/avatar/first_wristpiece.swf</asset>
+			<frame>6</frame>
+		</piece>
+		<inventoryId>131905186</inventoryId>
+	</item>
+	<item item_id="48" name="Headpiece_none" type="HeadItem">
+		<asset asset_id="70">assets/icons/noneitem.swf</asset>
+		<piece type="HeadPiece">
+			<asset asset_id="48">assets/avatar/first_headpiece.swf</asset>
+			<frame>1</frame>
+		</piece>
+		<inventoryId>493862177</inventoryId>
+	</item>
+	<item item_id="108" name="Top_5" type="Shirt">
+		<asset asset_id="130">assets/icons/first_shirt5.swf</asset>
+		<color color_id="15" number="1">204 131 220</color>
+		<piece type="ChestPiece">
+			<asset asset_id="108">assets/avatar/first_chestpiece.swf</asset>
+			<frame>5</frame>
+		</piece>
+		<piece type="SleeveLeftPiece">
+			<asset asset_id="108">assets/avatar/first_sleeveleftpiece.swf</asset>
+			<frame>5</frame>
+		</piece>
+		<piece type="SleeveRightPiece">
+			<asset asset_id="108">assets/avatar/first_sleeverightpiece.swf</asset>
+			<frame>5</frame>
+		</piece>
+		<inventoryId>131905184</inventoryId>
+	</item>
+	<color color_id="64" type="EYE_COLOR">77 186 123</color>
+	<color color_id="89" type="HAIR_COLOR">223 190 111</color>
+	<color color_id="106" type="SKIN_COLOR">234 175 128</color>
+	<color color_id="109" type="WING_COLOR">255 227 183</color>
+</avatar>

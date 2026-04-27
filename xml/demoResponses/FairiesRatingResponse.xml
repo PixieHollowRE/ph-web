@@ -1,0 +1,8 @@
+﻿<FairiesRatingResponse>
+	<success>true</success>
+	<add_success>true</add_success>
+	<average>3.047619</average>
+	<my_rating>3</my_rating>
+	<registered_visits>15</registered_visits>
+	<unregistered_visits>0</unregistered_visits>
+</FairiesRatingResponse>

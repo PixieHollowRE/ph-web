@@ -1,0 +1,10 @@
+<panelSet>
+	<panels>
+		<panel id="tagToolMain" x="25" y="25" alwaysOnBottom="true" transition="none">{panelData}/tools/tagToolMain.xml</panel>
+	</panels>
+	<config>
+		<timeSpanXmlPath>/python/data/timeSpanEvents.xml</timeSpanXmlPath>
+	</config>
+	<copy>
+	</copy>
+</panelSet>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/microDots.swf</swf>
+		<swf type="code">{panelCode}/microDots.swf</swf>
+	</swfs>
+	<copy>		
+		<title>Micro Dots</title>		
+	</copy>
+	<config>
+		<microGameId>MicroDots</microGameId>
+		<test>false</test>
+		<visuals>
+			<visual id="plain_dot">dot_plain</visual>
+			<visual id="flashing_dot">dot_flashing</visual>
+			<visual id="star">Star</visual>
+		<!-- value to end game: 1053 -->
+		<!-- interaction="roll" -->
+		</visuals>
+		<levels>
+			<level number="0" lifetime="15">
+				<!-- click all the dots -->
+				<scoreboard visual="star"/>
+				<rounds>0,1,0,1</rounds>
+			</level>
+		</levels>
+		<rounds>
+			<round id="0">
+				<area id="0" x="25" y="25" height="150" width="345"/>
+				<dots type="defined">
+					<dot value="10" x="10" y="random" visual="flashing_dot" />
+					<dot value="10" x="20" y="random" visual="flashing_dot" />
+					<dot value="10" x="30" y="random" visual="flashing_dot" />
+					<dot value="10" x="40" y="random" visual="flashing_dot" />
+					<dot value="10" lifetime="12" x="70" y="random" visual="flashing_dot" />					
+				</dots>
+			</round>
+			<round id="1">	
+				<area id="1" x="25" y="25" height="150" width="345"/>
+				<dots type="defined">				
+					<dot value="10" x="10" y="random" visual="plain_dot" />
+					<dot value="10" x="20" y="random" visual="plain_dot" />
+					<dot value="10" x="30" y="random" visual="plain_dot" />
+					<dot value="10" x="40" y="random" visual="plain_dot" />
+					<dot value="10" lifetime="12" x="70" y="random" visual="flashing_dot" />
+				</dots>
+			</round>
+		</rounds>		
+	</config>
+</panel>

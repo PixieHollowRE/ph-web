@@ -1,0 +1,19 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/miniFriends.swf</swf>
+		<swf type="code">{panelCode}/miniFriends.swf</swf>
+	</swfs>
+	<copy>
+		<dbfail>Sorry, something's not right.  Try back later!</dbfail>
+		<dbfailconfirm>Okay</dbfailconfirm>
+		<expand_view>View All</expand_view>
+		<label1 target="label1">My</label1>
+		<label2 target="label2">Friends</label2>
+	</copy>
+	<config>
+		<util>
+			<allFriends>favorites.xml</allFriends>
+		</util>
+	</config>
+
+</panel>

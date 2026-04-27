@@ -1,0 +1,2717 @@
+<FairiesInventoryResponse>
+  <success>true</success>
+  <inventory>
+    <type>wardrobe</type>
+    <inv_item>
+      <item_id>2501</item_id>
+      <inv_id>3612</inv_id>
+      <slot>0</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">37</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2503</item_id>
+      <inv_id>3876</inv_id>
+      <slot>1</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2503</item_id>
+      <inv_id>3877</inv_id>
+      <slot>2</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2503</item_id>
+      <inv_id>3878</inv_id>
+      <slot>3</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2503</item_id>
+      <inv_id>3879</inv_id>
+      <slot>4</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2503</item_id>
+      <inv_id>3880</inv_id>
+      <slot>5</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2503</item_id>
+      <inv_id>3881</inv_id>
+      <slot>6</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2508</item_id>
+      <inv_id>3882</inv_id>
+      <slot>7</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2508</item_id>
+      <inv_id>3883</inv_id>
+      <slot>8</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2508</item_id>
+      <inv_id>3884</inv_id>
+      <slot>9</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2508</item_id>
+      <inv_id>3885</inv_id>
+      <slot>10</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2508</item_id>
+      <inv_id>3886</inv_id>
+      <slot>11</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2508</item_id>
+      <inv_id>3887</inv_id>
+      <slot>12</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2510</item_id>
+      <inv_id>3888</inv_id>
+      <slot>13</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2510</item_id>
+      <inv_id>3889</inv_id>
+      <slot>14</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2510</item_id>
+      <inv_id>3890</inv_id>
+      <slot>15</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2510</item_id>
+      <inv_id>3891</inv_id>
+      <slot>16</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2510</item_id>
+      <inv_id>3892</inv_id>
+      <slot>17</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2510</item_id>
+      <inv_id>3893</inv_id>
+      <slot>18</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2511</item_id>
+      <inv_id>3894</inv_id>
+      <slot>19</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2511</item_id>
+      <inv_id>3895</inv_id>
+      <slot>20</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2511</item_id>
+      <inv_id>3896</inv_id>
+      <slot>21</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2511</item_id>
+      <inv_id>3897</inv_id>
+      <slot>22</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2511</item_id>
+      <inv_id>3898</inv_id>
+      <slot>23</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2511</item_id>
+      <inv_id>3899</inv_id>
+      <slot>24</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2512</item_id>
+      <inv_id>3900</inv_id>
+      <slot>25</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2512</item_id>
+      <inv_id>3901</inv_id>
+      <slot>26</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2512</item_id>
+      <inv_id>3902</inv_id>
+      <slot>27</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2512</item_id>
+      <inv_id>3903</inv_id>
+      <slot>28</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2512</item_id>
+      <inv_id>3904</inv_id>
+      <slot>29</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2512</item_id>
+      <inv_id>3905</inv_id>
+      <slot>30</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2001</item_id>
+      <inv_id>3616</inv_id>
+      <slot>0</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">37</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2002</item_id>
+      <inv_id>3846</inv_id>
+      <slot>1</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2002</item_id>
+      <inv_id>3847</inv_id>
+      <slot>2</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2002</item_id>
+      <inv_id>3848</inv_id>
+      <slot>3</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2002</item_id>
+      <inv_id>3849</inv_id>
+      <slot>4</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2002</item_id>
+      <inv_id>3850</inv_id>
+      <slot>5</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2002</item_id>
+      <inv_id>3851</inv_id>
+      <slot>6</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2007</item_id>
+      <inv_id>3852</inv_id>
+      <slot>7</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2007</item_id>
+      <inv_id>3853</inv_id>
+      <slot>8</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2007</item_id>
+      <inv_id>3854</inv_id>
+      <slot>9</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2007</item_id>
+      <inv_id>3855</inv_id>
+      <slot>10</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2007</item_id>
+      <inv_id>3856</inv_id>
+      <slot>11</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2007</item_id>
+      <inv_id>3857</inv_id>
+      <slot>12</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2012</item_id>
+      <inv_id>3858</inv_id>
+      <slot>13</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2012</item_id>
+      <inv_id>3859</inv_id>
+      <slot>14</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2012</item_id>
+      <inv_id>3860</inv_id>
+      <slot>15</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2012</item_id>
+      <inv_id>3861</inv_id>
+      <slot>16</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2012</item_id>
+      <inv_id>3862</inv_id>
+      <slot>17</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2012</item_id>
+      <inv_id>3863</inv_id>
+      <slot>18</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2013</item_id>
+      <inv_id>3864</inv_id>
+      <slot>19</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2013</item_id>
+      <inv_id>3865</inv_id>
+      <slot>20</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2013</item_id>
+      <inv_id>3866</inv_id>
+      <slot>21</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2013</item_id>
+      <inv_id>3867</inv_id>
+      <slot>22</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2013</item_id>
+      <inv_id>3868</inv_id>
+      <slot>23</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2013</item_id>
+      <inv_id>3869</inv_id>
+      <slot>24</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2017</item_id>
+      <inv_id>3870</inv_id>
+      <slot>25</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2017</item_id>
+      <inv_id>3871</inv_id>
+      <slot>26</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2017</item_id>
+      <inv_id>3872</inv_id>
+      <slot>27</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2017</item_id>
+      <inv_id>3873</inv_id>
+      <slot>28</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2017</item_id>
+      <inv_id>3874</inv_id>
+      <slot>29</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2017</item_id>
+      <inv_id>3875</inv_id>
+      <slot>30</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2</item_id>
+      <inv_id>3726</inv_id>
+      <slot>62</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">2</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2</item_id>
+      <inv_id>3727</inv_id>
+      <slot>63</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">8</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2</item_id>
+      <inv_id>3728</inv_id>
+      <slot>64</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">10</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2</item_id>
+      <inv_id>3729</inv_id>
+      <slot>65</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">13</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2</item_id>
+      <inv_id>3730</inv_id>
+      <slot>66</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">14</color>
+    </inv_item>
+    <inv_item>
+      <item_id>2</item_id>
+      <inv_id>3731</inv_id>
+      <slot>67</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">17</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6</item_id>
+      <inv_id>3732</inv_id>
+      <slot>68</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">2</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6</item_id>
+      <inv_id>3733</inv_id>
+      <slot>69</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">8</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6</item_id>
+      <inv_id>3734</inv_id>
+      <slot>70</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">10</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6</item_id>
+      <inv_id>3735</inv_id>
+      <slot>71</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">13</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6</item_id>
+      <inv_id>3736</inv_id>
+      <slot>72</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">14</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6</item_id>
+      <inv_id>3737</inv_id>
+      <slot>73</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">17</color>
+    </inv_item>
+    <inv_item>
+      <item_id>11</item_id>
+      <inv_id>3738</inv_id>
+      <slot>74</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">2</color>
+    </inv_item>
+    <inv_item>
+      <item_id>11</item_id>
+      <inv_id>3739</inv_id>
+      <slot>75</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">8</color>
+    </inv_item>
+    <inv_item>
+      <item_id>11</item_id>
+      <inv_id>3740</inv_id>
+      <slot>76</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">10</color>
+    </inv_item>
+    <inv_item>
+      <item_id>11</item_id>
+      <inv_id>3741</inv_id>
+      <slot>77</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">13</color>
+    </inv_item>
+    <inv_item>
+      <item_id>11</item_id>
+      <inv_id>3742</inv_id>
+      <slot>78</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">14</color>
+    </inv_item>
+    <inv_item>
+      <item_id>11</item_id>
+      <inv_id>3743</inv_id>
+      <slot>79</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">17</color>
+    </inv_item>
+    <inv_item>
+      <item_id>12</item_id>
+      <inv_id>3744</inv_id>
+      <slot>80</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">2</color>
+    </inv_item>
+    <inv_item>
+      <item_id>12</item_id>
+      <inv_id>3745</inv_id>
+      <slot>81</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">8</color>
+    </inv_item>
+    <inv_item>
+      <item_id>12</item_id>
+      <inv_id>3746</inv_id>
+      <slot>82</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">10</color>
+    </inv_item>
+    <inv_item>
+      <item_id>12</item_id>
+      <inv_id>3747</inv_id>
+      <slot>83</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">13</color>
+    </inv_item>
+    <inv_item>
+      <item_id>12</item_id>
+      <inv_id>3748</inv_id>
+      <slot>84</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">14</color>
+    </inv_item>
+    <inv_item>
+      <item_id>12</item_id>
+      <inv_id>3749</inv_id>
+      <slot>85</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">17</color>
+    </inv_item>
+    <inv_item>
+      <item_id>13</item_id>
+      <inv_id>3750</inv_id>
+      <slot>86</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">2</color>
+    </inv_item>
+    <inv_item>
+      <item_id>13</item_id>
+      <inv_id>3751</inv_id>
+      <slot>87</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">8</color>
+    </inv_item>
+    <inv_item>
+      <item_id>13</item_id>
+      <inv_id>3752</inv_id>
+      <slot>88</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">10</color>
+    </inv_item>
+    <inv_item>
+      <item_id>13</item_id>
+      <inv_id>3753</inv_id>
+      <slot>89</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">13</color>
+    </inv_item>
+    <inv_item>
+      <item_id>13</item_id>
+      <inv_id>3754</inv_id>
+      <slot>90</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">14</color>
+    </inv_item>
+    <inv_item>
+      <item_id>13</item_id>
+      <inv_id>3755</inv_id>
+      <slot>91</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">17</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1</item_id>
+      <inv_id>3967</inv_id>
+      <slot>92</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">12</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1003</item_id>
+      <inv_id>3786</inv_id>
+      <slot>93</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">20</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1003</item_id>
+      <inv_id>3787</inv_id>
+      <slot>94</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">26</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1003</item_id>
+      <inv_id>3788</inv_id>
+      <slot>95</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">28</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1003</item_id>
+      <inv_id>3789</inv_id>
+      <slot>96</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">31</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1003</item_id>
+      <inv_id>3790</inv_id>
+      <slot>97</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">32</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1003</item_id>
+      <inv_id>3791</inv_id>
+      <slot>98</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">35</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1004</item_id>
+      <inv_id>3792</inv_id>
+      <slot>99</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">20</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1004</item_id>
+      <inv_id>3793</inv_id>
+      <slot>100</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">26</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1004</item_id>
+      <inv_id>3794</inv_id>
+      <slot>101</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">28</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1004</item_id>
+      <inv_id>3795</inv_id>
+      <slot>102</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">31</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1004</item_id>
+      <inv_id>3796</inv_id>
+      <slot>103</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">32</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1004</item_id>
+      <inv_id>3797</inv_id>
+      <slot>104</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">35</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1014</item_id>
+      <inv_id>3798</inv_id>
+      <slot>105</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">20</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1014</item_id>
+      <inv_id>3799</inv_id>
+      <slot>106</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">26</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1014</item_id>
+      <inv_id>3800</inv_id>
+      <slot>107</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">28</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1014</item_id>
+      <inv_id>3801</inv_id>
+      <slot>108</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">31</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1014</item_id>
+      <inv_id>3802</inv_id>
+      <slot>109</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">32</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1014</item_id>
+      <inv_id>3803</inv_id>
+      <slot>110</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">35</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1015</item_id>
+      <inv_id>3804</inv_id>
+      <slot>111</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">20</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1015</item_id>
+      <inv_id>3805</inv_id>
+      <slot>112</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">26</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1015</item_id>
+      <inv_id>3806</inv_id>
+      <slot>113</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">28</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1015</item_id>
+      <inv_id>3807</inv_id>
+      <slot>114</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">31</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1015</item_id>
+      <inv_id>3808</inv_id>
+      <slot>115</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">32</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1015</item_id>
+      <inv_id>3809</inv_id>
+      <slot>116</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">35</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1018</item_id>
+      <inv_id>3810</inv_id>
+      <slot>117</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">20</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1018</item_id>
+      <inv_id>3811</inv_id>
+      <slot>118</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">26</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1018</item_id>
+      <inv_id>3812</inv_id>
+      <slot>119</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">28</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1018</item_id>
+      <inv_id>3813</inv_id>
+      <slot>120</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">31</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1018</item_id>
+      <inv_id>3814</inv_id>
+      <slot>121</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">32</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1018</item_id>
+      <inv_id>3815</inv_id>
+      <slot>122</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">35</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1001</item_id>
+      <inv_id>3966</inv_id>
+      <slot>123</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">30</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3001</item_id>
+      <inv_id>3613</inv_id>
+      <slot>124</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">37</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3003</item_id>
+      <inv_id>3906</inv_id>
+      <slot>125</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3003</item_id>
+      <inv_id>3907</inv_id>
+      <slot>126</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3003</item_id>
+      <inv_id>3908</inv_id>
+      <slot>127</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3003</item_id>
+      <inv_id>3909</inv_id>
+      <slot>128</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3003</item_id>
+      <inv_id>3910</inv_id>
+      <slot>129</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3003</item_id>
+      <inv_id>3911</inv_id>
+      <slot>130</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3004</item_id>
+      <inv_id>3912</inv_id>
+      <slot>131</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3004</item_id>
+      <inv_id>3913</inv_id>
+      <slot>132</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3004</item_id>
+      <inv_id>3914</inv_id>
+      <slot>133</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3004</item_id>
+      <inv_id>3915</inv_id>
+      <slot>134</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3004</item_id>
+      <inv_id>3916</inv_id>
+      <slot>135</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3004</item_id>
+      <inv_id>3917</inv_id>
+      <slot>136</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3005</item_id>
+      <inv_id>3918</inv_id>
+      <slot>137</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3005</item_id>
+      <inv_id>3919</inv_id>
+      <slot>138</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3005</item_id>
+      <inv_id>3920</inv_id>
+      <slot>139</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3005</item_id>
+      <inv_id>3921</inv_id>
+      <slot>140</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3005</item_id>
+      <inv_id>3922</inv_id>
+      <slot>141</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3005</item_id>
+      <inv_id>3923</inv_id>
+      <slot>142</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3006</item_id>
+      <inv_id>3924</inv_id>
+      <slot>143</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3006</item_id>
+      <inv_id>3925</inv_id>
+      <slot>144</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3006</item_id>
+      <inv_id>3926</inv_id>
+      <slot>145</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3006</item_id>
+      <inv_id>3927</inv_id>
+      <slot>146</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3006</item_id>
+      <inv_id>3928</inv_id>
+      <slot>147</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3006</item_id>
+      <inv_id>3929</inv_id>
+      <slot>148</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3009</item_id>
+      <inv_id>3930</inv_id>
+      <slot>149</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3009</item_id>
+      <inv_id>3931</inv_id>
+      <slot>150</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3009</item_id>
+      <inv_id>3932</inv_id>
+      <slot>151</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3009</item_id>
+      <inv_id>3933</inv_id>
+      <slot>152</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3009</item_id>
+      <inv_id>3934</inv_id>
+      <slot>153</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3009</item_id>
+      <inv_id>3935</inv_id>
+      <slot>154</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>501</item_id>
+      <inv_id>3614</inv_id>
+      <slot>155</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">37</color>
+    </inv_item>
+    <inv_item>
+      <item_id>505</item_id>
+      <inv_id>3756</inv_id>
+      <slot>156</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>505</item_id>
+      <inv_id>3757</inv_id>
+      <slot>157</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>505</item_id>
+      <inv_id>3758</inv_id>
+      <slot>158</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>505</item_id>
+      <inv_id>3759</inv_id>
+      <slot>159</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>505</item_id>
+      <inv_id>3760</inv_id>
+      <slot>160</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>505</item_id>
+      <inv_id>3761</inv_id>
+      <slot>161</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>507</item_id>
+      <inv_id>3762</inv_id>
+      <slot>162</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>507</item_id>
+      <inv_id>3763</inv_id>
+      <slot>163</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>507</item_id>
+      <inv_id>3764</inv_id>
+      <slot>164</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>507</item_id>
+      <inv_id>3765</inv_id>
+      <slot>165</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>507</item_id>
+      <inv_id>3766</inv_id>
+      <slot>166</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>507</item_id>
+      <inv_id>3767</inv_id>
+      <slot>167</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>508</item_id>
+      <inv_id>3768</inv_id>
+      <slot>168</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>508</item_id>
+      <inv_id>3769</inv_id>
+      <slot>169</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>508</item_id>
+      <inv_id>3770</inv_id>
+      <slot>170</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>508</item_id>
+      <inv_id>3771</inv_id>
+      <slot>171</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>508</item_id>
+      <inv_id>3772</inv_id>
+      <slot>172</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>508</item_id>
+      <inv_id>3773</inv_id>
+      <slot>173</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>517</item_id>
+      <inv_id>3774</inv_id>
+      <slot>174</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>517</item_id>
+      <inv_id>3775</inv_id>
+      <slot>175</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>517</item_id>
+      <inv_id>3776</inv_id>
+      <slot>176</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>517</item_id>
+      <inv_id>3777</inv_id>
+      <slot>177</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>517</item_id>
+      <inv_id>3778</inv_id>
+      <slot>178</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>517</item_id>
+      <inv_id>3779</inv_id>
+      <slot>179</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>518</item_id>
+      <inv_id>3780</inv_id>
+      <slot>180</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>518</item_id>
+      <inv_id>3781</inv_id>
+      <slot>181</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>518</item_id>
+      <inv_id>3782</inv_id>
+      <slot>182</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>518</item_id>
+      <inv_id>3783</inv_id>
+      <slot>183</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>518</item_id>
+      <inv_id>3784</inv_id>
+      <slot>184</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>518</item_id>
+      <inv_id>3785</inv_id>
+      <slot>185</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3501</item_id>
+      <inv_id>3936</inv_id>
+      <slot>186</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3501</item_id>
+      <inv_id>3937</inv_id>
+      <slot>187</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3501</item_id>
+      <inv_id>3938</inv_id>
+      <slot>188</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3501</item_id>
+      <inv_id>3939</inv_id>
+      <slot>189</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3501</item_id>
+      <inv_id>3940</inv_id>
+      <slot>190</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3501</item_id>
+      <inv_id>3941</inv_id>
+      <slot>191</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">30</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3504</item_id>
+      <inv_id>3942</inv_id>
+      <slot>192</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3504</item_id>
+      <inv_id>3943</inv_id>
+      <slot>193</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3504</item_id>
+      <inv_id>3944</inv_id>
+      <slot>194</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3504</item_id>
+      <inv_id>3945</inv_id>
+      <slot>195</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3504</item_id>
+      <inv_id>3946</inv_id>
+      <slot>196</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3504</item_id>
+      <inv_id>3947</inv_id>
+      <slot>197</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3505</item_id>
+      <inv_id>3948</inv_id>
+      <slot>198</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3505</item_id>
+      <inv_id>3949</inv_id>
+      <slot>199</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3505</item_id>
+      <inv_id>3950</inv_id>
+      <slot>200</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3505</item_id>
+      <inv_id>3951</inv_id>
+      <slot>201</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3505</item_id>
+      <inv_id>3952</inv_id>
+      <slot>202</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3505</item_id>
+      <inv_id>3953</inv_id>
+      <slot>203</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3506</item_id>
+      <inv_id>3954</inv_id>
+      <slot>204</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3506</item_id>
+      <inv_id>3955</inv_id>
+      <slot>205</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3506</item_id>
+      <inv_id>3956</inv_id>
+      <slot>206</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3506</item_id>
+      <inv_id>3957</inv_id>
+      <slot>207</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3506</item_id>
+      <inv_id>3958</inv_id>
+      <slot>208</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3506</item_id>
+      <inv_id>3959</inv_id>
+      <slot>209</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3508</item_id>
+      <inv_id>3960</inv_id>
+      <slot>210</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3508</item_id>
+      <inv_id>3961</inv_id>
+      <slot>211</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3508</item_id>
+      <inv_id>3962</inv_id>
+      <slot>212</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3508</item_id>
+      <inv_id>3963</inv_id>
+      <slot>213</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3508</item_id>
+      <inv_id>3964</inv_id>
+      <slot>214</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>3508</item_id>
+      <inv_id>3965</inv_id>
+      <slot>215</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1501</item_id>
+      <inv_id>3615</inv_id>
+      <slot>216</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">37</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1503</item_id>
+      <inv_id>3816</inv_id>
+      <slot>217</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1503</item_id>
+      <inv_id>3817</inv_id>
+      <slot>218</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1503</item_id>
+      <inv_id>3818</inv_id>
+      <slot>219</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1503</item_id>
+      <inv_id>3819</inv_id>
+      <slot>220</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1503</item_id>
+      <inv_id>3820</inv_id>
+      <slot>221</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1503</item_id>
+      <inv_id>3821</inv_id>
+      <slot>222</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1504</item_id>
+      <inv_id>3822</inv_id>
+      <slot>223</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1504</item_id>
+      <inv_id>3823</inv_id>
+      <slot>224</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1504</item_id>
+      <inv_id>3824</inv_id>
+      <slot>225</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1504</item_id>
+      <inv_id>3825</inv_id>
+      <slot>226</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1504</item_id>
+      <inv_id>3826</inv_id>
+      <slot>227</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1504</item_id>
+      <inv_id>3827</inv_id>
+      <slot>228</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1505</item_id>
+      <inv_id>3828</inv_id>
+      <slot>229</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1505</item_id>
+      <inv_id>3829</inv_id>
+      <slot>230</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1505</item_id>
+      <inv_id>3830</inv_id>
+      <slot>231</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1505</item_id>
+      <inv_id>3831</inv_id>
+      <slot>232</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1505</item_id>
+      <inv_id>3832</inv_id>
+      <slot>233</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1505</item_id>
+      <inv_id>3833</inv_id>
+      <slot>234</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1507</item_id>
+      <inv_id>3834</inv_id>
+      <slot>235</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1507</item_id>
+      <inv_id>3835</inv_id>
+      <slot>236</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1507</item_id>
+      <inv_id>3836</inv_id>
+      <slot>237</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1507</item_id>
+      <inv_id>3837</inv_id>
+      <slot>238</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1507</item_id>
+      <inv_id>3838</inv_id>
+      <slot>239</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1507</item_id>
+      <inv_id>3839</inv_id>
+      <slot>240</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1509</item_id>
+      <inv_id>3840</inv_id>
+      <slot>241</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">39</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1509</item_id>
+      <inv_id>3841</inv_id>
+      <slot>242</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">46</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1509</item_id>
+      <inv_id>3842</inv_id>
+      <slot>243</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">47</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1509</item_id>
+      <inv_id>3843</inv_id>
+      <slot>244</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">48</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1509</item_id>
+      <inv_id>3844</inv_id>
+      <slot>245</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">52</color>
+    </inv_item>
+    <inv_item>
+      <item_id>1509</item_id>
+      <inv_id>3845</inv_id>
+      <slot>246</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">54</color>
+    </inv_item>
+  </inventory>
+  <inventory>
+    <type>storage</type>
+    <inv_item>
+      <item_id>6501</item_id>
+      <inv_id>102232</inv_id>
+      <slot>0</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">50</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6501</item_id>
+      <inv_id>102245</inv_id>
+      <slot>1</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">127</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6501</item_id>
+      <inv_id>102246</inv_id>
+      <slot>2</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">126</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6501</item_id>
+      <inv_id>102247</inv_id>
+      <slot>3</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">127</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6501</item_id>
+      <inv_id>102248</inv_id>
+      <slot>4</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">127</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6501</item_id>
+      <inv_id>102249</inv_id>
+      <slot>5</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">126</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6502</item_id>
+      <inv_id>102250</inv_id>
+      <slot>6</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">126</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6503</item_id>
+      <inv_id>102251</inv_id>
+      <slot>7</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">125</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6504</item_id>
+      <inv_id>102252</inv_id>
+      <slot>8</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">126</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6505</item_id>
+      <inv_id>102253</inv_id>
+      <slot>9</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">129</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6507</item_id>
+      <inv_id>102254</inv_id>
+      <slot>10</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">125</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6508</item_id>
+      <inv_id>102255</inv_id>
+      <slot>11</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">129</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6509</item_id>
+      <inv_id>102256</inv_id>
+      <slot>12</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">129</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6510</item_id>
+      <inv_id>102257</inv_id>
+      <slot>13</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">125</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6511</item_id>
+      <inv_id>102258</inv_id>
+      <slot>14</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">126</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6512</item_id>
+      <inv_id>102259</inv_id>
+      <slot>15</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">127</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6513</item_id>
+      <inv_id>102260</inv_id>
+      <slot>16</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">129</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6514</item_id>
+      <inv_id>102261</inv_id>
+      <slot>17</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">126</color>
+    </inv_item>
+    <inv_item>
+      <item_id>6515</item_id>
+      <inv_id>102262</inv_id>
+      <slot>18</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">127</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102263</inv_id>
+      <slot>0</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">125</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102264</inv_id>
+      <slot>1</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">129</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102265</inv_id>
+      <slot>2</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">129</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102266</inv_id>
+      <slot>3</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">125</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102267</inv_id>
+      <slot>4</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">128</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102268</inv_id>
+      <slot>5</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">127</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102269</inv_id>
+      <slot>6</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">129</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102270</inv_id>
+      <slot>7</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">126</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102271</inv_id>
+      <slot>8</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">125</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102272</inv_id>
+      <slot>9</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">127</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102273</inv_id>
+      <slot>10</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">126</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102274</inv_id>
+      <slot>11</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">128</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102275</inv_id>
+      <slot>12</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">128</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102276</inv_id>
+      <slot>13</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">125</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102277</inv_id>
+      <slot>14</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">129</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102278</inv_id>
+      <slot>15</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">126</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102279</inv_id>
+      <slot>16</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">125</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102280</inv_id>
+      <slot>17</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102281</inv_id>
+      <slot>18</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">129</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102282</inv_id>
+      <slot>19</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">126</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102283</inv_id>
+      <slot>20</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">127</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102284</inv_id>
+      <slot>21</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">126</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102285</inv_id>
+      <slot>22</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">128</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102286</inv_id>
+      <slot>23</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">125</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102287</inv_id>
+      <slot>24</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">126</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102288</inv_id>
+      <slot>25</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">125</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7501</item_id>
+      <inv_id>102289</inv_id>
+      <slot>26</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">125</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7001</item_id>
+      <inv_id>102290</inv_id>
+      <slot>0</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">128</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7001</item_id>
+      <inv_id>102291</inv_id>
+      <slot>1</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">128</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7001</item_id>
+      <inv_id>102292</inv_id>
+      <slot>2</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">127</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7001</item_id>
+      <inv_id>102293</inv_id>
+      <slot>3</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">125</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7001</item_id>
+      <inv_id>102294</inv_id>
+      <slot>4</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">126</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7001</item_id>
+      <inv_id>102295</inv_id>
+      <slot>5</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">128</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7001</item_id>
+      <inv_id>102296</inv_id>
+      <slot>6</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">128</color>
+    </inv_item>
+    <inv_item>
+      <item_id>7001</item_id>
+      <inv_id>102297</inv_id>
+      <slot>7</slot>
+      <created_by_id>0</created_by_id>
+      <gifted_by_id>0</gifted_by_id>
+      <quality>3</quality>
+      <color number="1">128</color>
+    </inv_item>
+  </inventory>
+</FairiesInventoryResponse>

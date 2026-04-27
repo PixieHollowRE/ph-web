@@ -1,0 +1,75 @@
+<data>
+	<copy>
+		<accept_0>Flitterific!  Let's get ready to make some beautiful music!</accept_0>
+		<accept_1>The first thing I need to find is five Acorns for the base of the drums.</accept_1>
+		<decline_0>I guess you aren't a fine music fan...  </decline_0>
+		<decline_1>Come back later if you change your mind.</decline_1>
+		<reward_0_0>Every time I play these drums, I'll think of you, #NAME#! Maybe we can play music together later?</reward_0_0>
+		<step0_finishedResponse_15500_0>Dancing Dragonflies! These Acorns are just the right size!</step0_finishedResponse_15500_0>
+		<step0_finishedResponse_prompt_15500>Give 5 Acorns to Fawn.</step0_finishedResponse_prompt_15500>
+		<step0_goal>Collect 5 Acorns and bring them to Fawn.</step0_goal>
+		<step0_intro_0>Hey there #NAME#!</step0_intro_0>
+		<step0_intro_1>Do you like music? I sure do!</step0_intro_1>
+		<step0_intro_2>I've always wanted to learn how to play the drums and now Allegra -- a music-talent Fairy promised to teach me!</step0_intro_2>
+		<step0_intro_3>The problem is I don't have a drum set!   And if I'm going to make a drum set I'll need your help!  </step0_intro_3>
+		<step0_summary>Fawn is building a drum set! Help her out by helping her collect the necessary materials.</step0_summary>
+		<step0_unfinishedResponse_15500_0>Allegra the music-talent told me I need 5 drums for a complete drum set.</step0_unfinishedResponse_15500_0>
+		<step0_unfinishedResponse_15500_1>So 5 Acorns to form the base of each drum would be perfect.</step0_unfinishedResponse_15500_1>
+		<step0_unfinishedResponse_prompt_15500>Ask about Fawn's drum set.</step0_unfinishedResponse_prompt_15500>
+		<step1_finishedResponse_15500_0>Great job!</step1_finishedResponse_15500_0>
+		<step1_finishedResponse_15500_1>I am going to have the loudest and greatest drum set in all of Pixie Hollow!</step1_finishedResponse_15500_1>
+		<step1_finishedResponse_15500_2>I'm gonna practice until I'm the best drummer in Never Land!</step1_finishedResponse_15500_2>
+		<step1_finishedResponse_15500_3>Here -- I'd like you to have this flute as a thank you for your help!</step1_finishedResponse_15500_3>
+		<step1_finishedResponse_prompt_15500>Give 5 Spider Silk to Fawn.</step1_finishedResponse_prompt_15500>
+		<step1_goal>Collect 10 Spider Silk and bring them to Fawn.</step1_goal>
+		<step1_intro_0>Now that I have the drum bases, all I need is the drum heads...</step1_intro_0>
+		<step1_intro_1>Do you think you can help me find five pieces of Spider Silk?</step1_intro_1>
+		<step1_intro_2>Spider Silk will be the perfect thing to finish my new drums!</step1_intro_2>
+		<step1_summary>Fawn is building a drum set! Help her out by helping her collect the necessary materials.</step1_summary>
+		<step1_unfinishedResponse_15500_0>Spider silk will help my new drums to have the perfect pitch and timbre!</step1_unfinishedResponse_15500_0>
+		<step1_unfinishedResponse_15500_1>I need five pieces of Spider Silk -- one for each drum!</step1_unfinishedResponse_15500_1>
+		<step1_unfinishedResponse_prompt_15500>Ask about Fawn's drum set.</step1_unfinishedResponse_prompt_15500>
+		<title>Fawn's Drum Duties</title>
+	</copy>
+	<storyBoards>
+		<storyBoard id="step0_intro">
+			<line >step0_intro_0</line>
+			<line >step0_intro_1</line>
+			<line >step0_intro_2</line>
+			<line >step0_intro_3</line>
+		</storyBoard>
+		<storyBoard id="accept">
+			<line >accept_0</line>
+			<line >accept_1</line>
+		</storyBoard>
+		<storyBoard id="decline">
+			<line >decline_0</line>
+			<line >decline_1</line>
+		</storyBoard>
+		<storyBoard id="step0_unfinishedResponse_15500">
+			<line >step0_unfinishedResponse_15500_0</line>
+			<line >step0_unfinishedResponse_15500_1</line>
+		</storyBoard>
+		<storyBoard id="step0_finishedResponse_15500">
+			<line >step0_finishedResponse_15500_0</line>
+		</storyBoard>
+		<storyBoard id="step1_intro">
+			<line >step1_intro_0</line>
+			<line >step1_intro_1</line>
+			<line >step1_intro_2</line>
+		</storyBoard>
+		<storyBoard id="step1_unfinishedResponse_15500">
+			<line >step1_unfinishedResponse_15500_0</line>
+			<line >step1_unfinishedResponse_15500_1</line>
+		</storyBoard>
+		<storyBoard id="step1_finishedResponse_15500">
+			<line >step1_finishedResponse_15500_0</line>
+			<line >step1_finishedResponse_15500_1</line>
+			<line >step1_finishedResponse_15500_2</line>
+			<line >step1_finishedResponse_15500_3</line>
+		</storyBoard>
+		<storyBoard id="reward_0">
+			<line expressionId="1" >reward_0_0</line>
+		</storyBoard>
+	</storyBoards>
+</data>

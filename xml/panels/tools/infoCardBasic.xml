@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/InfoCardBasic.swf</swf>
+		<swf type="code">{panelCode}/InfoCardBasic.swf</swf>
+	</swfs>
+	<copy>
+		<save target="expand.save.caption">Save</save>
+		<reset target="expand.reset.caption">Cancel</reset>
+	</copy>
+	<config>
+		<replace target="itemPreview" type="dragarea" />
+		<replace target="itemZoom" type="smartzoom" />
+	</config>
+</panel>

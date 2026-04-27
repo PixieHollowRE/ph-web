@@ -1,0 +1,40 @@
+<!--
+	
+	*** NOTES ***
+	
+	scene.@id		:: incrementing unsigned integer
+	line			:: String containing the line of dialogue spoken by supplied role
+	line.@id 		:: incrementing unsigned integer
+	line.@role		:: String containing name of the role that is saying given line
+	line.@emote		:: optional integer id for a given emote corresponding with emoteAssets.xml
+	line.@direction	:: optional String containing containing any Stage direction that should be siplayed after
+					   given line of dialogue.
+	@useSceneTitles	:: whether or not to display scene titles on the script (1 = yes | 0 = no)
+	
+-->
+<script useSceneTitles="0">
+	<scene id="1">
+		<line id="0">We're cooking for the Garden Tea Party!</line>
+		<line id="1">Who's working here?</line>
+		<line id="2">I'm the hostess!</line>
+		<line id="3">I'm a waiter!</line>
+		<line id="4">I'm a baking-talent!</line>
+		<line id="5">I'm a cooking-talent!</line>
+		<line id="6">I'll wash the dishes!</line>
+		<line id="7">Is it time for my shift?</line>
+		<line id="8">Please wait on those tables.</line>
+		<line id="9">Sit anywhere you like!</line>
+		<line id="10">Can I take your order?</line>
+		<line id="11">Let me take a look at the menu.</line>
+		<line id="12">I'll have a cherry acorn tart!</line>
+		<line id="13">I'd like a pink cupcake!</line>
+		<line id="14">I'll have the honey cookies!</line>
+		<line id="15">I'll have some pumpkin soup!</line>
+		<line id="16">How many?</line>
+		<line id="17">A baker's dozen, please!</line>
+		<line id="18">Coming right up!</line>
+		<line id="19">Your sweet feast is served!</line>
+		<line id="20">Yum! This is pixie-licious!</line>
+		<line id="21">My compliments to the chef!</line>
+	</scene>
+</script>

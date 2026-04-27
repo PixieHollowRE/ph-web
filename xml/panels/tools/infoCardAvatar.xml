@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/infoCardAvatar.swf</swf>
+		<swf type="code">{panelCode}/infoCardAvatar.swf</swf>
+	</swfs>
+	<copy>
+		<apply target="expand.apply.caption">Apply</apply>
+		<reset target="expand.resetTrans.caption">Reset</reset>
+		<resetcolor target="expand.resetColor.caption">Reset Color</resetcolor>
+		<edit target="expand.editAvatar.caption">Avatar</edit>
+		<sync target="expand.syncFace.caption">Face/Eye</sync>
+	</copy>
+	<config>
+		<replace target="avatarPreview" type="dragarea" />
+		<replace target="avatarZoom" type="smartzoom" vertical="false" />
+		<replace target="itemColor" type="colorselector" />
+		<replace target="avatarPose" type="simplescroll" vertical="false" min="1" max="22" def="7" />
+		<replace target="scaleBar" type="simplescroll" vertical="false" min="0.95" max="1.05" def="1" />
+		<replace target="rotateBar" type="simplescroll" vertical="false" min="-1" max="1" def="0" />
+		<replace target="availablePalette" type="colorpalette" row="2" column="7" radius="8" distance="20" scroll="10" />
+		<replace target="unavailablePalette" type="colorpalette" row="2" column="7" radius="8" distance="20" scroll="10" />
+		<wingColors>
+			<color id="109" />
+			<color id="110" />
+			<color id="111" />
+			<color id="112" />
+			<color id="165" />
+		</wingColors>
+	</config>
+</panel>

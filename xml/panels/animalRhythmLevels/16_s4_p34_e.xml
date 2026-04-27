@@ -1,0 +1,87 @@
+<level>
+	<introMessage>Song 4-Part 3 n 4-Easy</introMessage>
+	
+	<bgTrack>audio/animalRhythm/piece4_req2/bed_p4r2.mp3</bgTrack>
+
+	<fgTrack>audio/animalRhythm/piece4_req2/fullmelody_p4r2.mp3</fgTrack>
+
+	<mistakeTrack>audio/animalRhythm/piece4/mistake_var1.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece4/mistake_var2.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece4/mistake_var3.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece4/mistake_var4.mp3</mistakeTrack>
+	
+	<!--mouse1 and mouse2 has new wake state after level 15-->
+	<animal bedType="Mouse1" type="Mouse" wakeStates="0-6,7-16,17-32,33-120" position="mouse" />	
+	<animal bedType="Chipmunk" type="Chipmunk" wakeStates="0-8,9-24,25-42,43-120" position="chipmunk" />
+	<animal bedType="Squirrel" type="Squirrel" wakeStates="0-12,13-28,29-50,51-120" position="squirrel" />
+
+	<!--
+	<animal bedType="Mouse2" type="Mouse2" wakeStates="0-6,7-20,21-38,39-120" position="mouse2" />
+	<animal bedType="Bunny" type="Rabbit" wakeStates="0-18,19-44,45-70,71-120" position="bunny" />	
+	-->
+	
+	<!--part 1A-->
+	<target key="LEFT" secondaryKey="" position="3812.87226" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="4168.911565" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="4664.270597" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="5159.62963" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="5732.388511" length="-1" autoplay="false"/>
+	
+	<target key="RIGHT" secondaryKey="" position="6599.266818" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="7543.544974" length="-1" autoplay="false"/>
+	
+	<target key="LEFT" secondaryKey="" position="8549.743008" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="9478.541194" length="-1" autoplay="false"/>
+	
+	<!--part 1B-->	
+	<target key="RIGHT" secondaryKey="" position="13394.97354" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="13812.93273" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="14323.77173" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="14819.13076" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="15345.44974" length="-1" autoplay="false"/>
+	
+	<target key="LEFT" secondaryKey="" position="16274.24792" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="17187.56614" length="-1" autoplay="false"/>
+	
+	<target key="RIGHT" secondaryKey="" position="18147.32426" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="19138.04233" length="-1" autoplay="false"/>
+	
+	<!--part 2A-->
+	<target key="LEFT" secondaryKey="" position="26924.46712" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="27311.46636" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="27853.26531" length="-1" autoplay="true"/>
+	<target key="RIGHT" secondaryKey="" position="28302.18443" length="-1" autoplay="true"/>
+	
+	<target key="UP" secondaryKey="" position="28828.5034" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="29308.38246" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="29803.7415" length="-1" autoplay="true"/>
+	<target key="DOWN" secondaryKey="" position="30299.10053" length="-1" autoplay="true"/>
+
+	<target key="RIGHT" secondaryKey="" position="30763.49962" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="31227.89872" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="31723.25775" length="-1" autoplay="true"/>
+	<target key="LEFT" secondaryKey="" position="32265.05669" length="-1" autoplay="true"/>
+	
+	<target key="DOWN" secondaryKey="" position="32775.89569" length="-1" autoplay="false"/>
+	
+	<!--part 2B-->	
+	<target key="LEFT" secondaryKey="" position="36599.44822" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="36970.9675" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="37481.8065" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="38008.12547" length="-1" autoplay="false"/>
+	
+	<target key="RIGHT" secondaryKey="" position="38472.52457" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="39014.32351" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="39463.24263" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="39958.60166" length="-1" autoplay="false"/>
+	
+	<target key="LEFT" secondaryKey="" position="40453.9607" length="-1" autoplay="false"/>
+	<target key="UP" secondaryKey="" position="40918.35979" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="41382.75888" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="41909.07785" length="-1" autoplay="false"/>	
+	
+	<target key="LEFT" secondaryKey="" position="42466.35676" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="44432.31293" length="-1" autoplay="false"/>
+	<target key="DOWN" secondaryKey="" position="46336.34921" length="-1" autoplay="false"/>
+	
+</level>

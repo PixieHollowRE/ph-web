@@ -1,0 +1,205 @@
+<panelSet>
+	<panels>
+		<panel id="background" x="0" y="0" alwaysOnBottom="true" transition="none">{panelData}/hub_bg.xml</panel>
+		<panel id="dashboard" x="210" y="95" transition="none">{panelData}/hub_dashboard.xml</panel>
+		<panel id="nevernews" x="235" y="455">{panelData}/hub_nevernews.xml</panel>
+		<panel id="createdbyyou" x="200" y="565">{panelData}/hub_createdbyyou.xml</panel>
+		<panel id="contests" x="550" y="605">{panelData}/hub_contests.xml</panel>
+		<panel id="events" x="550" y="855">{panelData}/hub_events.xml</panel>
+		<panel id="downloads" x="235" y="1000">{panelData}/hub_downloads.xml</panel>
+		<panel id="about" x="25" y="510">{panelData}/hub_about.xml</panel>
+		
+		<panel id="secretcodes" x="25" y="700">{panelData}/hub_secretcodes.xml</panel>
+		<!--panel id="secretcodes" x="25" y="575">hub_secretcodes.xml</panel-->
+			<panel id="clickables" x="25" y="875">{panelData}/hub_clickables.xml</panel>
+		<panel id="visitfairies" x="1" y="5">{panelData}/hub_visitfairies.xml</panel>
+		<panel id="popuptext"  x="300" y="350" hidden="true" interfaceItem="true">{panelData}/popuptext.xml</panel>
+		
+	</panels>
+	<config>
+		<WebAppRequest>fairy_page</WebAppRequest>
+		<headercontrols>false</headercontrols>
+		<regionid>community</regionid>
+		<sectionid>community</sectionid>
+		<pageid>communityhub</pageid>
+		<menu>
+			<title>
+				<text>menutitle</text>
+				<subtext>menusubtitle</subtext>
+				<!--channel>home.htm</channel-->       
+			</title>
+		</menu>
+		<dashboard>
+			<playbutton x="5" y="-10" />
+			<gameclosedbutton x="15" y="-15" />
+			<fairymc x="-75" y="-50"></fairymc>
+			<nologin_noso>
+				<header xOffset="115" yoffset="10">Welcome Guest!</header>
+			</nologin_noso>
+			<nologin_so>
+				<header font="header" xOffset="115" yoffset="10">Welcome Guest!</header>
+			</nologin_so>
+			<login_nf>
+				<header font="header" xOffset="115" yoffset="10"><![CDATA[Welcome Back, [name]!<br>Click Play to create a Fairy]]></header>
+				<notyou xOffset="115"><![CDATA[Not you? <a href="function:onLogout">Click here!</a>]]></notyou>
+			</login_nf>
+			<login_wf>
+				<header font="header" xOffset="115" yoffset="10"><![CDATA[Welcome Back, [name]!]]></header>
+				<notyou xOffset="115"><![CDATA[Not you? <a href="function:onLogout">Click here!</a>]]></notyou>
+			</login_wf>
+		</dashboard>
+		
+		<createdbyyou>
+			<renderFrameOffset>17</renderFrameOffset>
+			<title>Created By You</title>
+			<promos promobtnspace="-12"  promobtnxOffset="45">
+				<promo x="70" y="80">
+					<renderFrameOffset>0</renderFrameOffset>
+					<path>swf/site/media/promos/Fan_Art.swf</path>
+					<channel>{panelSetData}/ugc_gallery.xml</channel>
+					<button x="45" y="110">View Gallery</button>
+				</promo>
+				<promo x="70" y="225">
+					<renderFrameOffset>0</renderFrameOffset>
+					<path>swf/site/media/promos/Share_your_creativity.swf</path>
+					<channel>{panelSetData}/ugc_types.xml</channel>
+					<!--panel>popuptext</panel-->
+					<!--data><![CDATA[popuptext=Share you Content coming soon!]]></data-->
+					<button x="45" y="110">Submit</button>
+				</promo>
+			</promos>
+			
+		</createdbyyou>
+		<about>
+			<renderFrameOffset>0</renderFrameOffset>
+			<promos>
+				<promo x="0" y="0">
+					<renderFrameOffset>0</renderFrameOffset>
+					<path>site_dynamiccontent/images/About_Pixie_Hollow.png</path>
+					<channel>{panelSetData}/aboutgame.xml</channel>
+				</promo>
+			</promos>
+		</about>
+		
+		<clickables>
+			<renderFrameOffset>17</renderFrameOffset>
+			<promos>
+				<promo x="0" y="0">
+					<renderFrameOffset>0</renderFrameOffset>
+					<path>swf/site/media/promos/clickables.swf</path>
+					<url>clickables.html</url>
+				</promo>
+			</promos>
+		</clickables>
+		<secretcodes>
+			<renderFrameOffset>0</renderFrameOffset>
+			<promos>
+				<promo x="0" y="0">
+					<renderFrameOffset>0</renderFrameOffset>
+					<path>swf/site/media/promos/secretcodes.swf</path>
+					<url>secretcodes.html</url>
+				</promo>
+			</promos>
+		</secretcodes>
+		<visitfairies>
+			<renderFrameOffset>0</renderFrameOffset>
+			<promos>
+				<promo x="0" y="0">
+					<renderFrameOffset>0</renderFrameOffset>
+					<path>swf/site/media/promos/visitfairies.swf</path>
+					<url>http://disneyfairies.com</url>
+				</promo>
+			</promos>
+		</visitfairies>
+		
+		<!-- -->
+		<contests>
+			<renderFrameOffset>0</renderFrameOffset>
+			<title>Contests</title>
+			<promos promobtnspace="-30"  promobtnxOffset="170">
+				<promo x="0" y="0">
+					<renderFrameOffset>0</renderFrameOffset>
+					<path>swf/site/media/promos/contest_pumpkinpatch.swf</path>
+					<channel>{panelSetData}/contests_home.xml</channel>
+					<!--panel>popuptext</panel-->
+					<!--data><![CDATA[popuptext=Coming Soon - information on entering our Pumpkin Patch Contest!]]></data-->
+					<button x="170" y="140">Read More</button>
+				</promo>
+			</promos>
+		</contests>
+		<events>
+			<renderFrameOffset>0</renderFrameOffset>
+			<title>Events</title>
+			<promos promobtnspace="-35"  promobtnxOffset="170">
+				<promo x="0" y="0">
+					<renderFrameOffset>0</renderFrameOffset>
+					<!--path>swf/site/media/promos/FireFly_Festival.swf</path-->
+					<path>swf/site/media/promos/event_pumkinpatch.swf</path>
+					<panel>popuptext</panel>
+					<data><![CDATA[popuptext=Check back here for upcoming events in<br>Pixie Hollow! 
+							]]></data>
+					<!--button x="175" y="43">Read More</button-->
+				</promo>
+			</promos>
+		</events>
+		<downloads>
+			<renderFrameOffset>0</renderFrameOffset>
+			<title>Downloads</title>
+			<promos promobtnspace="-35"  promobtnxOffset="170">
+				<promo x="0" y="0">
+					<renderFrameOffset>0</renderFrameOffset>
+					<path>swf/site/media/promos/new_downloads_tn.swf</path>
+					<channel>{panelSetData}/downloads_kids.xml</channel>
+					<texts>
+						<text x="80" y="20" font="header"><![CDATA[New Downloads]]></text>
+						<!-- -->
+						<text x="80" y="50" font="content"><![CDATA[<a href="channel:downloads_kids.xml"><u>Download here</u></a>]]></text>
+						
+					</texts>
+				</promo>
+				<promo x="250" y="0">
+					<renderFrameOffset>0</renderFrameOffset>
+					<path>swf/site/media/promos/game_guides_tn.swf</path>
+					<url>http://a.disney.go.com/fairies/pixiehollow/pdfs/gameguides.pdf</url>
+					<texts>
+						<text x="80" y="20" font="header"><![CDATA[Game Guides]]></text>
+						<!-- -->
+						<text x="80" y="50" font="content"><![CDATA[<a href="http://a.disney.go.com/fairies/pixiehollow/pdfs/gameguides.pdf"><u>Download here</u></a>]]></text>
+						
+					</texts>
+				</promo>
+			</promos>
+		</downloads>
+		<nevernews>
+			<renderFrameOffset>0</renderFrameOffset>
+			<title>Never News</title>
+			<promos promobtnspace="-20"  promobtnxOffset="450" slideshowtime="5">
+				<promo x="0" y="0">
+					<renderFrameOffset>0</renderFrameOffset>
+					<path>swf/site/media/promos/never_council.swf</path>
+					<url>welcome.html</url>
+					<button x="435" y="50">Read More</button>
+					<texts>
+						<text x="140" y="0" font="header"><![CDATA[Welcome to Pixie Hollow's Game Beta!]]></text>
+						<text x="140" y="30" font="bodytext"><![CDATA[We're so glad you've arrived! There are so many exciting things happening...]]></text>	
+					</texts>
+				</promo>
+				<!--promo x="0" y="0">
+					<renderFrameOffset>0</renderFrameOffset>
+					<path>swf/site/media/promos/buggin_news.swf</path>
+					<url>welcome.html</url>
+					<button x="435" y="50">Read More</button>
+					<texts>
+						<text x="140" y="0" font="header"><![CDATA[Buggin']]></text>
+						<text x="140" y="30" font="bodytext"><![CDATA[Hi there! Hope you're having a blast flying around Pixie Hollow...]]></text>
+						
+					</texts>
+				</promo-->
+			</promos>
+		</nevernews>
+	</config>
+	<copy>
+		<menutitle>Pixie Hollow Game Preview</menutitle>
+		<promotitle></promotitle>
+	</copy>
+</panelSet>

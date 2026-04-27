@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<panel>
+    <swfs>
+        <swf type="content">{panelContent}/mgMermaidTreasure.swf</swf>
+        <swf type="code">{panelCode}/mgMermaidTreasure.swf</swf>
+    </swfs>
+
+    <copy>
+    </copy>
+    
+    <config>
+		<pieces>
+			<piece id="tetrisIsland" type="island" asset="IslandTetrisL">
+				<square x="0" y="1"/>
+				<square x="1" y="1"/>
+				<square x="2" y="1"/>
+				<square x="2" y="0"/>
+			</piece>
+			<piece id="nubIsland" type="island" asset="IslandNub">
+				<square x="-1" y="0"/>
+				<square x="0" y="0"/>
+				<square x="0" y="1"/>
+				<square x="1" y="0"/>
+				<square x="1" y="-1"/>
+			</piece>
+			<piece id="simpleIsland" type="island" asset="IslandTwoSquares">
+				<square x="0" y="0"/>
+				<square x="1" y="0"/>
+			</piece>
+			<piece id="twoTreasure" type="treasure" asset="TreasureTwoStraight">
+				<square x="0" y="0"/>
+				<square x="1" y="0"/>
+			</piece>
+			<piece id="threeTreasure" type="treasure" asset="TreasureThreeStraight">
+				<square x="-1" y="0"/>
+				<square x="0" y="0"/>
+				<square x="1" y="0"/>
+			</piece>
+		</pieces>
+
+		<grids>
+			<grid rowsAndCols="8" instanceName="largeGrid" squareDimension="40" startPos="1,320"/>
+		</grids>
+    </config>
+</panel>

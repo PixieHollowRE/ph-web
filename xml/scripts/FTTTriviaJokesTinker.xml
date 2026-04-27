@@ -1,0 +1,16 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0" role="QUESTION">Who calls himself "Phineas T. Kettletree, Esquire"?</line>
+    <line id="1" role="ANSWER">Bobble.</line>
+    <line id="2" role="QUESTION">What do pixies call human objects from the mainland?</line>
+    <line id="3" role="ANSWER">Lost Things.</line>
+    <line id="4" role="QUESTION">What sound does Tinker Bell's clock make?</line>
+    <line id="5" role="ANSWER">Tink-tock tink-tock!</line>
+    <line id="6" role="QUESTION">What did Copper say when Mendy asked her to tailor?</line>
+    <line id="7" role="ANSWER">"I don't TINK SEW!"</line>
+    <line id="8" role="QUESTION">True or False: The symbol of the tinker-talents is the hammer.</line>
+    <line id="9" role="ANSWER">True.</line>
+	<line id="10" role="QUESTION">Why was Vidia feeling dizzy?</line>
+    <line id="11" role="ANSWER">She got caught in the DAILY SPIN!</line>
+  </scene>
+</script>

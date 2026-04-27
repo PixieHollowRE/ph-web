@@ -1,0 +1,14 @@
+<script useSceneTitles="0">
+  <scene id="1">
+	<line id="0" role="QUESTION">What do you call a firefly and a ladybug pulling on a rope?</line>
+    <line id="1" role="ANSWER">BUG-OF-WAR!</line>
+	<line id="2" role="QUESTION">What is Fawn's favorite critter language?</line>
+    <line id="3" role="ANSWER">The burp-like sounds of toad-speak!</line>
+	<line id="4" role="QUESTION">It's a food and a mouse. What is it?</line>
+    <line id="5" role="ANSWER">Cheese!</line>
+	<line id="6" role="QUESTION">What critters NEVER listen to Animal-talents?</line>
+    <line id="7" role="ANSWER">Butterflies.</line>
+	<line id="8" role="QUESTION">In Beck's Animal Nursery, what do the baby bees like to eat?</line>
+    <line id="9" role="ANSWER">Rose Petals.</line>
+  </scene>
+</script>

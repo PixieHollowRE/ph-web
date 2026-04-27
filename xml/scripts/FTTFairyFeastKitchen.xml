@@ -1,0 +1,24 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0">We're cooking for the Fairy Feast!</line>
+    <line id="1">Who's working here?</line>
+    <line id="2">I'm the hostess!</line>
+    <line id="3">I'm a waiter!</line>
+    <line id="4">I'm a baking-talent!</line>
+    <line id="5">I'll wash the dishes!</line>
+    <line id="6">Is it time for my shift?</line>
+    <line id="7">Please wait on those tables.</line>
+    <line id="8">Sit anywhere you like!</line>
+    <line id="9">Can I take your order?</line>
+    <line id="10">Let me take a look at the menu.</line>
+    <line id="11">I'll have the Fairy Feast special!</line>
+    <line id="12">I'd like some pumpkin soup!</line>
+    <line id="13">I'll have some carrot cake slices!</line>
+    <line id="14">How many?</line>
+    <line id="15">A baker's dozen, please!</line>
+    <line id="16">Coming right up!</line>
+    <line id="17">Your sweet feast is served!</line>
+    <line id="18">Yum! These are pixie-licious!</line>
+    <line id="19">My compliments to the chef!</line>
+  </scene>
+</script> 

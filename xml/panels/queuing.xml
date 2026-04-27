@@ -1,0 +1,38 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/queuing.swf</swf>
+		<swf type="code">{panelCode}/queuing.swf</swf>
+	</swfs>
+	<copy>
+		<text target="accountLogin.upperCopy1">Sorry...</text>
+		<text target="accountLogin.upperCopy2">Pixie Hollow Online</text>
+		<text target="accountLogin.lowerCopy1"><![CDATA[Sorry, but the meadows are currently full. When the meadows are available your play button will turn pink.]]></text>
+		<text target="accountLogin.lowerCopy2" style="html"><![CDATA[Thank you for your Pixie Patience.]]></text>
+		<text target="accountLogin.lowerCopy3" style="html"><![CDATA[If you haven't created a Fairy yet, <a href="event:joinLink">join now</a>. It's Free!]]></text>
+		<text target="accountLogin.nameField">Member Name</text>
+		<text target="accountLogin.passField">Password</text>
+		<text target="accountLogin.cancelBtn.caption">Close</text>
+		<text target="accountLogin.loginBtn.caption">Login</text>
+		<text target="stillholding.lowerCopy1">Sorry, still not ready yet...</text>
+		<text target="stillholding.cancelBtn.caption">Close</text>
+		<text target="gameNowReady.upperCopy1"><![CDATA[Congratulations!]]></text>
+		<text target="gameNowReady.lowerCopy1"><![CDATA[The meadows are available.  If you would like to fly into Pixie Hollow, click Play.]]></text>
+		<text target="gameNowReady.cancelBtn.caption">Close</text>
+		
+		<text target="gotoCaf.copy1">Go now and</text>
+		<text target="gotoCaf.copy2">Create a Fairy</text>
+		<text target="gotoCaf.cancelBtn.caption">Cancel</text>
+		<text target="gotoCaf.createBtn.caption">Create</text>
+		<text target="fairyChoice.upperCopy">Choose a Fairy</text>
+		<text target="fairyChoice.cancelBtn.caption">Cancel</text>
+		<text target="fairyChoice.playBtn.caption">Play</text>
+		<text target="loading.loadingscreen.loadingText">Loading</text>
+		
+		<text target="stillholding.cancelBtn.caption">Cancel</text>
+		<text target=""></text>
+	</copy>
+	<config>
+		<sheet>css/loginformat.css</sheet>
+	</config>
+</panel>
+

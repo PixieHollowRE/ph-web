@@ -1,0 +1,10 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/pixiePostings.swf</swf>
+		<swf type="code">{panelCode}/pixiePostings.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+	</config>
+</panel>

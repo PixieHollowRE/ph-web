@@ -1,0 +1,16 @@
+<script useSceneTitles="0">
+  <scene id="1">
+	<line id="0" role="QUESTION">Light-talents have to wear sunglasses when they work.</line>
+    <line id="1" role="ANSWER">False.</line>
+	<line id="2" role="QUESTION">How can you tell that Iridessa is smart?</line>
+    <line id="3" role="ANSWER">She's very BRIGHT!</line>
+	<line id="4" role="QUESTION">Iridessa lives in Havendish Square.</line>
+    <line id="5" role="ANSWER">False, she lives in Sunflower Gully.</line>
+	<line id="6" role="QUESTION">What did one shooting star say to the other?</line>
+    <line id="7" role="ANSWER">"Pleased to meteor!"</line>
+	<line id="8" role="QUESTION">What kind of bow cannot be tied?</line>
+    <line id="9" role="ANSWER">A RAINBOW!</line>
+	<line id="10" role="QUESTION">Bella runs the shop Bella's Baubles. What is her full name?</line>
+    <line id="11" role="ANSWER">Bella Rose.</line>
+  </scene>
+</script>

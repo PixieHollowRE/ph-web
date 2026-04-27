@@ -1,0 +1,45 @@
+<data>
+	<copy>
+		<accept_0>This will work great! If you bring me a Lamp, I'll give you some berries in exchange! You can choose between Raspberries or Blueberries.</accept_0>
+		<decline_0>I guess you've already got plenty of berries.</decline_0>
+		<decline_1>Hmm... I wonder if Dulcie the baking-talent would make me a pie with these?</decline_1>
+		<reward_0_0>Thanks, #NAME#! I still have more berries to trade if you want to come back later with more Lamps.</reward_0_0>
+		<reward_1_0>Thanks, #NAME#! I still have more berries to trade if you want to come back later with more Lamps.</reward_1_0>
+		<step0_goal>Find a Lamp to trade with Rosetta.</step0_goal>
+		<step0_intro_0>Can you believe this, #NAME#? I've got too many berries, and what I really need is a Lamp!</step0_intro_0>
+		<step0_intro_1>Hey, you want to trade some berries for a Lamp?</step0_intro_1>
+		<step0_summary>Rosetta has too many Raspberries and Blueberries. She'll give some to you in exchange for a Lamp.</step0_summary>
+		<step0_finishedResponse_15502_0>Okay, pick which kind of berry you want...</step0_finishedResponse_15502_0>
+		<step0_finishedResponse_prompt_15502>I'm trading a Lamp for berries.</step0_finishedResponse_prompt_15502>
+		<step0_unfinishedResponse_15502_0>I'll give you 17 Blueberries or 25 Raspberries in exchange for a Lamp.</step0_unfinishedResponse_15502_0>
+		<step0_unfinishedResponse_15502_1>You know, Blueberries are harder to find than Raspberries.</step0_unfinishedResponse_15502_1>
+		<step0_unfinishedResponse_prompt_15502>How many berries will Rosetta trade me?</step0_unfinishedResponse_prompt_15502>
+		<title>Got a light?</title>
+	</copy>
+	<storyBoards>
+		<storyBoard id="step0_intro">
+			<line >step0_intro_0</line>
+			<line >step0_intro_1</line>
+		</storyBoard>
+		<storyBoard id="accept">
+			<line >accept_0</line>
+		</storyBoard>
+		<storyBoard id="decline">
+			<line >decline_0</line>
+			<line >decline_1</line>
+		</storyBoard>
+		<storyBoard id="step0_unfinishedResponse_15502">
+			<line >step0_unfinishedResponse_15502_0</line>
+			<line >step0_unfinishedResponse_15502_1</line>
+		</storyBoard>
+		<storyBoard id="step0_finishedResponse_15502">
+			<line >step0_finishedResponse_15502_0</line>
+		</storyBoard>
+		<storyBoard id="reward_0">
+			<line >reward_0_0</line>
+		</storyBoard>
+		<storyBoard id="reward_1">
+			<line >reward_1_0</line>
+		</storyBoard>
+	</storyBoards>
+</data>

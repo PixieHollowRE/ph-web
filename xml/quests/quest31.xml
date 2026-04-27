@@ -1,0 +1,127 @@
+<data>
+	<copy>
+		<accept_0>Whew, that's good! I was really hoping you'd say yes!</accept_0>
+		<accept_1>My plan is to put a little color in Trickle's life. She could use a new energetic look, you know? She tends to wear dull colors, and she's kind of shy, so let's give her some pizzazz!</accept_1>
+		<accept_2>Can you make her a fashionable new top? Maybe something red or pink? Go visit Bobbin at her tailoring nook in Springtime Orchard and give it a try!</accept_2>
+		<decline_0>That's too bad. But I understand. Have a splash-tastic day!</decline_0>
+		<reward_0_0>Make yourself something bright and colorful at one of the tailoring nooks!</reward_0_0>
+		<reward_1_0>Make yourself something bright and colorful at one of the tailoring nooks!</reward_1_0>
+		<reward_2_0>Make yourself something bright and colorful at one of the tailoring nooks!</reward_2_0>
+		<step0_finishedResponse_15503_0>Wow, that looks really nice! You could be a sewing-talent!</step0_finishedResponse_15503_0>
+		<step0_finishedResponse_prompt_15503>I'm showing Silvermist the top I made!</step0_finishedResponse_prompt_15503>
+		<step0_goal>Fly to Bobbin's Tailoring Nook in Springtime Orchard and Community Tailor a colorful top. Return to Silvermist in her grotto when you're done!</step0_goal>
+		<step0_intro_0>#NAME#! I was looking for you! A friend of mine, Trickle Frostwave, could use some help, and you're just the Fairy she needs!</step0_intro_0>
+		<step0_intro_1>Trickle is another water-talent. She and I work together to design the swirls and ripple patterns that go on frozen ponds during winter on the Mainland. But lately she's been having trouble with her work. </step0_intro_1>
+		<step0_intro_2>I think she just needs a little inspiration, like a beautiful new outfit! But...well, the truth is...I'm a terrible tailor. Can you help me make an outfit that will inspire her?</step0_intro_2>
+		<step0_summary>Silvermist needs your help to make a colorful new outfit for her water-talent friend, Trickle Frostwave.</step0_summary>
+		<step0_unfinishedResponse_15503_0>I think Trickle needs a colorful new outfit for inspiration. Can you start by making her a pretty new top?</step0_unfinishedResponse_15503_0>
+		<step0_unfinishedResponse_15503_1>Bobbin can help you out at her tailoring nook in Springtime Orchard.</step0_unfinishedResponse_15503_1>
+		<step0_unfinishedResponse_prompt_15503>What was I supposed to make?</step0_unfinishedResponse_prompt_15503>
+		<step1_finishedResponse_15503_0>Oh, I'm getting all teary! This came out even better than I'd hoped. *SNIFF* Bobbin must be so impressed with you!</step1_finishedResponse_15503_0>
+		<step1_finishedResponse_prompt_15503>I'm showing Silvermist the skirt I made!</step1_finishedResponse_prompt_15503>
+		<step1_goal>Fly to Bobbin's Tailoring Nook in Springtime Orchard and Community Tailor a colorful skirt. Return to Silvermist in her grotto when you're done!</step1_goal>
+		<step1_intro_0>Now we need a skirt to go with it. Green or blue would be good colors, don't you think?</step1_intro_0>
+		<step1_summary>Silvermist needs your help to make a colorful new outfit for her water-talent friend, Trickle Frostwave.  So far you've made Trickle a new top.</step1_summary>
+		<step1_unfinishedResponse_15503_0>Back already? You haven't made the skirt yet, have you? Get going, you silly bubblehead!</step1_unfinishedResponse_15503_0>
+		<step1_unfinishedResponse_prompt_15503>What's was I supposed to make?</step1_unfinishedResponse_prompt_15503>
+		<step2_finishedResponse_15503_0>#NAME#, you're really good at tailoring shoes, too! Maybe later I'll ask you to make ME a pair!</step2_finishedResponse_15503_0>
+		<step2_finishedResponse_prompt_15503>I'm showing Silvermist the shoes I made!</step2_finishedResponse_prompt_15503>
+		<step2_goal>Fly to Mendy's Tailoring Nook in Maple Tree Hill and Community Tailor a colorful pair of shoes. Return to Silvermist in her grotto when you're done!</step2_goal>
+		<step2_intro_0>I was hoping you'd make Trickle a pair of shoes, too. After all, what's a new outfit without new shoes?</step2_intro_0>
+		<step2_intro_1>If you visit Mendy at her tailoring nook in Maple Tree Hill, she can help you make a pair. Maybe they could be orange or yellow?</step2_intro_1>
+		<step2_summary>Silvermist needs your help to make a colorful new outfit for her water-talent friend, Trickle Frostwave.  So far you've made Trickle a new top and a new skirt.</step2_summary>
+		<step2_unfinishedResponse_15503_0>I was just admiring the spider stitching on the skirt you made. It's so perfect it almost makes me cry! How are the shoes coming?</step2_unfinishedResponse_15503_0>
+		<step2_unfinishedResponse_15503_1>You can make shoes at Mendy's Tailoring Nook in Maple Tree Hill. *SNIFF!*</step2_unfinishedResponse_15503_1>
+		<step2_unfinishedResponse_prompt_15503>What was I supposed to make this time?</step2_unfinishedResponse_prompt_15503>
+		<step3_finishedResponse_15503_0>Oh my goodness, this sash matches the shoes perfectly! I'm so excited!</step3_finishedResponse_15503_0>
+		<step3_finishedResponse_prompt_15503>I'm showing Silvermist the new sash I made!</step3_finishedResponse_prompt_15503>
+		<step3_goal>Fly to Mendy's Tailoring Nook in Maple Tree Hill and Community Tailor a colorful sash. Return to Silvermist in her grotto when you're done!</step3_goal>
+		<step3_intro_0>One last thing to finish Trickle's new outfit. Can you make a sash to match the new shoes?</step3_intro_0>
+		<step3_summary>Silvermist needs your help to make a colorful new outfit for her water-talent friend, Trickle Frostwave.  So far you've made Trickle a new top, a new skirt, and a pair of shoes.</step3_summary>
+		<step3_unfinishedResponse_15503_0>Are you almost finished with that sash? Oh, Trickle is going to LOVE her new outfit!</step3_unfinishedResponse_15503_0>
+		<step3_unfinishedResponse_prompt_15503>What was that last thing again?</step3_unfinishedResponse_prompt_15503>
+		<step4_finishedResponse_15503_0>Perfect! I'll wrap everything up and fly it over to Trickle right away!</step4_finishedResponse_15503_0>
+		<step4_finishedResponse_15503_1>How's this message for the card? "Dear Trickle, we hope the colors in your new outfit inspire you! Love, #NAME# and Silvermist."</step4_finishedResponse_15503_1>
+		<step4_finishedResponse_15503_2>Of course your name is on the card, silly! I couldn't have done any of this without you! I just know Trickle will get her inspiration back in no time!</step4_finishedResponse_15503_2>
+		<step4_finishedResponse_15503_3>And...well, I already told you I'm not very good at crafts and stuff...but I thought you might want a colorful outfit for yourself so...</step4_finishedResponse_15503_3>
+		<step4_finishedResponse_prompt_15503>I've got Meadow Grass for Silvermist!</step4_finishedResponse_prompt_15503>
+		<step4_goal>Collect 6 blades of Meadow Grass for Silvermist.</step4_goal>
+		<step4_intro_0>One last thing -- whoever heard of a gift that isn't tied up with a Meadow Grass ribbon?</step4_intro_0>
+		<step4_summary>Silvermist needs your help making to make a colorful new outfit for her water-talent friend, Trickle Frostwave.  You've made Trickle a new top, skirt, shoes, and a sash! Now Silvermist just needs to make a ribbon to tie the gift up into a nice package.</step4_summary>
+		<step4_unfinishedResponse_15503_0>Yep, and it looks like you don't have enough yet, raindrop. Keep flapping!  We're almost done!</step4_unfinishedResponse_15503_0>
+		<step4_unfinishedResponse_prompt_15503>I need to gather Meadow Grass, right?</step4_unfinishedResponse_prompt_15503>
+		<title>Getting Colorful</title>
+	</copy>
+	<storyBoards>
+		<storyBoard id="step0_intro">
+			<line >step0_intro_0</line>
+			<line >step0_intro_1</line>
+			<line >step0_intro_2</line>
+		</storyBoard>
+		<storyBoard id="accept">
+			<line expressionId="1" >accept_0</line>
+			<line >accept_1</line>
+			<line >accept_2</line>
+		</storyBoard>
+		<storyBoard id="decline">
+			<line >decline_0</line>
+		</storyBoard>
+		<storyBoard id="step0_unfinishedResponse_15503">
+			<line >step0_unfinishedResponse_15503_0</line>
+			<line >step0_unfinishedResponse_15503_1</line>
+		</storyBoard>
+		<storyBoard id="step0_finishedResponse_15503">
+			<line >step0_finishedResponse_15503_0</line>
+		</storyBoard>
+		<storyBoard id="step1_intro">
+			<line >step1_intro_0</line>
+		</storyBoard>
+		<storyBoard id="step1_unfinishedResponse_15503">
+			<line >step1_unfinishedResponse_15503_0</line>
+		</storyBoard>
+		<storyBoard id="step1_finishedResponse_15503">
+			<line expressionId="1" >step1_finishedResponse_15503_0</line>
+		</storyBoard>
+		<storyBoard id="step2_intro">
+			<line >step2_intro_0</line>
+			<line >step2_intro_1</line>
+		</storyBoard>
+		<storyBoard id="step2_unfinishedResponse_15503">
+			<line >step2_unfinishedResponse_15503_0</line>
+			<line >step2_unfinishedResponse_15503_1</line>
+		</storyBoard>
+		<storyBoard id="step2_finishedResponse_15503">
+			<line expressionId="1" >step2_finishedResponse_15503_0</line>
+		</storyBoard>
+		<storyBoard id="step3_intro">
+			<line >step3_intro_0</line>
+		</storyBoard>
+		<storyBoard id="step3_unfinishedResponse_15503">
+			<line >step3_unfinishedResponse_15503_0</line>
+		</storyBoard>
+		<storyBoard id="step3_finishedResponse_15503">
+			<line expressionId="1" >step3_finishedResponse_15503_0</line>
+		</storyBoard>
+		<storyBoard id="step4_intro">
+			<line >step4_intro_0</line>
+		</storyBoard>
+		<storyBoard id="step4_unfinishedResponse_15503">
+			<line >step4_unfinishedResponse_15503_0</line>
+		</storyBoard>
+		<storyBoard id="step4_finishedResponse_15503">
+			<line expressionId="1" >step4_finishedResponse_15503_0</line>
+			<line >step4_finishedResponse_15503_1</line>
+			<line >step4_finishedResponse_15503_2</line>
+			<line >step4_finishedResponse_15503_3</line>
+		</storyBoard>
+		<storyBoard id="reward_0">
+			<line expressionId="1" >reward_0_0</line>
+		</storyBoard>
+		<storyBoard id="reward_1">
+			<line expressionId="1" >reward_1_0</line>
+		</storyBoard>
+		<storyBoard id="reward_2">
+			<line expressionId="1" >reward_2_0</line>
+		</storyBoard>
+	</storyBoards>
+</data>

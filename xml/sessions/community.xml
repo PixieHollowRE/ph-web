@@ -1,0 +1,187 @@
+<?xml version="1.0" ?>
+<session>
+	<params>
+		<type>standalone</type>
+		<initialContent>{panelSetData}/site_news.xml</initialContent>
+		<copy>
+		
+		<playbutton>Play!</playbutton>
+		<waitbutton>Wait</waitbutton>
+		<newsbutton>News</newsbutton>
+		<fairymanagerbutton>My Fairies</fairymanagerbutton>
+		<reportabugbutton>Report a Bug</reportabugbutton>
+		
+		<!-- the game section -->
+		<thegamebutton>Never News</thegamebutton>
+		<communityhomebutton>Pixie Central</communityhomebutton>
+		<councilnewsbutton>Never Council</councilnewsbutton>
+		<topfairiesbutton>Top Fairies</topfairiesbutton>
+		<findafairybutton>Find A Fairy</findafairybutton>
+		
+		<!-- My Fairies Section -->
+		<myfairiesbutton>My Fairy</myfairiesbutton>
+		<pixiepagebutton>Pixie Page</pixiepagebutton>
+		<pagesettingsbutton>Page Settings</pagesettingsbutton>
+		<stationarybutton>Stationery</stationarybutton>
+		<!--youdesignitbutton>You-Design-It</youdesignitbutton-->
+				
+		<!-- For Parents section -->
+		<forparentsbutton>Parents</forparentsbutton>
+		<parentscenterbutton>Parents' Center</parentscenterbutton>
+		<aboutgamebutton>About the Game</aboutgamebutton>
+		<parentalcontrolsbutton>Parental Controls</parentalcontrolsbutton>
+		<managechildaccountbutton>Manage Child Account</managechildaccountbutton>
+		
+		
+		<!-- For secret codes -->
+		<secretcodesbutton>Secret Codes</secretcodesbutton>
+		
+		<!-- support section -->
+		<supportbutton>Help</supportbutton>
+		<supportcenterbutton>Support Center</supportcenterbutton>
+		<createaccountbutton>Create Account</createaccountbutton>
+		<manageaccountbutton>Manage Account</manageaccountbutton>
+		<contactusbutton>Contact Us</contactusbutton>
+		
+		<!-- account services section -->
+		<accountbutton>Help</accountbutton>
+		
+		<registrationbutton>Join Now</registrationbutton>
+		
+	</copy>
+	<menu>
+			<playbutton default="false">
+				<panel>login</panel>
+				<trackid>7</trackid>
+			</playbutton>
+			<thegame id="community" bg="clear" fg="leaf2">
+				<text>communityhomebutton</text>
+				<channel>{panelSetData}/communityhub.xml</channel>
+				<pageid>communityhub</pageid>
+				
+				<button id="councilnews">
+					<text>thegamebutton</text>
+					<channel>{panelSetData}/site_news.xml</channel>
+				</button>
+				
+				<!--button id="topfairies">
+					<text>topfairiesbutton</text>
+					<url>topfairies.html</url>
+				</button-->
+				<!--button id="findafairy">
+					<text>findafairybutton</text>
+					<url>findafairy.html</url>
+				</button-->
+				
+			</thegame>
+			
+			<myfairies id="myfairies" bg="clear" fg="leaf2">
+				<text>myfairiesbutton</text>
+				<event>pixiePage</event>
+			</myfairies>
+			
+			<forparents id="forparents" bg="clear" fg="walnut">
+				<text>forparentsbutton</text>
+				<channel>{panelSetData}/parentscenter.xml</channel>
+				<pageid>parentscenter</pageid>
+				<button id="aboutgame">
+					<text>aboutgamebutton</text>
+					<channel>{panelSetData}/aboutgame.xml</channel>
+				</button>
+				<button id="parentalcontrols">
+					<text>parentalcontrolsbutton</text>
+					<channel>{panelSetData}/parentalcontrols.xml</channel>
+				</button>
+			</forparents>
+
+			<support id="support" bg="clear" fg="leaf">
+				<text>supportbutton</text>
+				<channel>{panelSetData}/supportCenter.xml</channel>
+				<pageid>supportcenter</pageid>
+				<!-- THIS WILL BE ADDED IN MS4
+				<button>
+					<text>createaccountbutton</text>
+					<url>http://disney.go.com/fairies/pixiehollow/accountmanagement.html</url>
+				</button>
+				-->
+				<button>
+					<text>manageaccountbutton</text>
+					<event>gotoAccountManager</event>
+				</button>
+				<button id="contactus">
+					<text>contactusbutton</text>
+					<channel>{panelSetData}/contactus.xml</channel>
+				</button>
+			</support>
+			<registration>
+				<text>registrationbutton</text>
+				<url>http://disney.go.com/fairies/pixiehollow/registration/</url>
+			</registration>
+			
+		</menu>
+		<sectionicons>swf/panel_content/section_icons.swf</sectionicons>
+		<queuepanel>queuing</queuepanel>
+		<mainconfig>
+			<contentstartconfig y="60" x="0"/>
+			<sectioniconconfig x="-25" />
+			<textconfig x="60" />
+			<backbuttonconfig x="260" y="197" />
+			<titleconfig x="0" y="0" />
+			<spacerconfig horiz="10" vert="10" />
+		</mainconfig>
+		<contentheaderlongconfig>
+			<headerpos x="10" y="0" />
+			<headergraphicpos x="10" y="8" />
+			<headertext x="200" y="5" width="450" />
+			<buttonconfig x="560" y="165" />
+		</contentheaderlongconfig>
+		<contentheadergridconfig>
+			<headerpos x="10" y="0" />
+			<headergraphicpos x="40" y="133" />
+			<headertext x="40" y="10" width="650" />
+			<buttonconfig x="560" y="165" />
+		</contentheadergridconfig>
+		<contentheadershortconfig>
+			<headerpos x="10" y="0" />
+			<headergraphicpos x="10" y="5" />
+			<headertext x="200" y="5" width="450" />
+			<buttonconfig x="560" y="165" />
+		</contentheadershortconfig>
+		<columnset1config>
+			<imageconfig x="10" y="5"  width="204" height="103"/>
+			<headergraphicpos x="10" y="15" />
+			<headertext x="75" y="-5" width="350" />
+			<buttonconfig x="560" y="165" />
+		</columnset1config>
+		<columnset2config>
+			<templateconfig x="10"/>
+			<dividerconfig visible="false" />
+			<spacing horizon="50" vert="10" />
+			<imageconfig width="159" height="102" yOffset="-18" />
+			<textconfig width="450" height="102" />
+			<headergraphicpos x="10" y="15" />
+			<buttonconfig x="375" />
+			<textconfig x="0" />
+		</columnset2config>
+		<columnset3config>
+			<templateconfig x="0"/>
+			<imageconfig x="10" y="5" yOffset="-10" width="204" height="103"/>
+			<headergraphicpos x="10" y="15" />
+			<spacing horizon="5" vert="10" />
+			<dividerconfig x="5" y="25" />
+			<headertext x="75" y="-5" width="350" />
+			<buttonconfig x="50" />
+			<textconfig width="151" height="94" />
+		</columnset3config>
+		<columnset4config>
+			<templateconfig x="10"/>
+			<dividerconfig x="-5" y="75" />
+			<spacing horizon="15" vert="10" />
+			<imageconfig width="151" height="102" yOffset="-18" />
+			<textconfig width="151" height="102" />
+			<headergraphicpos x="10" y="15" />
+			<buttonconfig x="28" />
+			<textconfig x="0" />
+		</columnset4config>
+	</params>
+</session>

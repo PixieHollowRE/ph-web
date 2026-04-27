@@ -1,0 +1,22 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0" role="QUESTION">Why did the tree not want to play checkers?</line>
+    <line id="1" role="ANSWER">Because he was a chess nut!</line>
+    <line id="2" role="QUESTION">Why did Silvermist cross the sea?</line>
+    <line id="3" role="ANSWER">To get to the other tide!</line>
+    <line id="4" role="QUESTION">What did the ocean do to the shore?</line>
+    <line id="5" role="ANSWER">He waved!</line>
+    <line id="6" role="QUESTION">Where do old bits of metal go?</line>
+    <line id="7" role="ANSWER">The Pixie Rust Tree!</line>
+    <line id="8" role="QUESTION">Which chair is a favorite among frogs?</line>
+    <line id="9" role="ANSWER">A toad stool!</line>
+    <line id="10" role="QUESTION">Where in Pixie Hollow do bad ideas end up?</line>
+    <line id="11" role="ANSWER">The Never Mind!</line>
+    <line id="12" role="QUESTION">What do you call a wise old tree?</line>
+    <line id="13" role="ANSWER">A knoll it all!</line>
+    <line id="14" role="QUESTION">Why did Rosetta's cookies taste funny?</line>
+    <line id="15" role="ANSWER">Because she used flower in her recipe!</line>
+    <line id="16" role="QUESTION">What happened after Dulcie misplaced her cookies?</line>
+    <line id="17" role="ANSWER">Cheese had a tummy ache.</line>
+  </scene>
+</script>

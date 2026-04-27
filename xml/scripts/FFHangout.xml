@@ -1,0 +1,19 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0">Welcome to the Fast-Flying Hangout!</line>
+    <line id="1">What's flyin'?</line>
+    <line id="2">Flight on!</line>
+    <line id="3">My wings need a rest!</line>
+    <line id="4">Even fast-flyers need a break!</line>
+    <line id="5">Wow, you're fast as lightning!</line>
+    <line id="6">Get a fast-flying outfit at Cassie's Shop.</line>
+    <line id="7">Your outfit is to-fly-for!</line>
+    <line id="8">Feathers are a fashion must-have.</line>
+    <line id="9">Fly faster by wearing feathers!</line>
+    <line id="10">Being a fast-flyer is a breeze.</line>
+    <line id="11">Seen Vidia lately?</line>
+    <line id="12">Wanna race?</line>
+    <line id="13">I'm quick as a flit!</line>
+    <line id="14">I'll be back in a flash!</line>
+  </scene>
+</script> 

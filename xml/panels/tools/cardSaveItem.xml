@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/cardSaveItem.swf</swf>
+		<swf type="code">{panelCode}/cardSaveItem.swf</swf>
+	</swfs>
+	<copy>
+		<save target="expand.save.caption">Save</save>
+		<close target="expand.close.caption">Close</close>
+	</copy>
+	<config>
+		<replace target="itemPreview" type="dragarea" />
+	</config>
+</panel>

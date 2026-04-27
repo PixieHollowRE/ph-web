@@ -1,0 +1,47 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/reportDialog.swf</swf>
+		<swf type="code">{panelCode}/reportDialog.swf</swf>
+	</swfs>
+	<copy>
+		<alreadyReported>#NAME# has already been reported this session. Your report has already been sent to a Moderator for review.</alreadyReported>
+		<DialogTitle>Report A Player</DialogTitle>
+		<TopMenuHeader>This feature will send a complete report to a moderator. Instead of sending a report, you might choose to do one of the following:</TopMenuHeader>
+		<TopMenuBullet1>Ignore this player</TopMenuBullet1>
+		<TopMenuBullet2>Switch to another server</TopMenuBullet2>
+		<TopMenuBullet3>Remove a friendship</TopMenuBullet3>
+		<TopMenuFooter>Do you want to report #NAME# to a Moderator?</TopMenuFooter>
+		<ChooseCatagory>You are about to report #NAME#.  A Moderator will be alerted to your complaint and will take appropriate action. Please choose a reason for this report</ChooseCatagory>
+		<CatagoryLabel1>Foul Language</CatagoryLabel1>
+		<CatagoryLabel2>Personal Info</CatagoryLabel2>
+		<CatagoryLabel3>Rude Behavior</CatagoryLabel3>
+		<CatagoryLabel4>Bad Name</CatagoryLabel4>
+		<ConfirmCatagory1>You are about to report that #NAME# has used obscene, bigoted or sexually explicit language.</ConfirmCatagory1>
+		<ConfirmCatagory2>You are about to report that #NAME# is being unsafe by giving out or requesting a phone number, address, last name, email address, password or account name.</ConfirmCatagory2>
+		<ConfirmCatagory3>You are about to report that #NAME# is bullying, harassing, or using extreme behavior to disrupt the game.</ConfirmCatagory3>
+		<ConfirmCatagory4>You are about to report that #NAME# has created a name that does not follow Disney's House Rules.</ConfirmCatagory4>
+		<FinalConfirm1>We take reporting very seriously. Your report will be viewed by a Moderator who will take appropriate action. </FinalConfirm1>
+		<FinalConfirm2>If your account is found to have participated in breaking the rules, or if you make false reports or abuse the "Report a Player" system, a Moderator may take action against your account. Are you absolutely sure you want to report this player?</FinalConfirm2>
+		<ReportedPlayer>Thank you! Your report has been sent to a Moderator for review. There is no need to contact us again about the issue. The moderation team will take appropriate action.</ReportedPlayer>
+		<RemovedFriend>#NAME# has been automatically removed from your Friends List.</RemovedFriend>
+		<IgnoredPlayer>#NAME# has been automatically Ignored.</IgnoredPlayer>
+		<ReportFailed>Sorry, this report could not be sent.  Please try again later.</ReportFailed>
+		<ReportButton>Report</ReportButton>
+		<CancelButton>Cancel</CancelButton>
+		<FinishedButton>Finished</FinishedButton>
+	</copy>
+	<config>
+		<defaultConfigNote>This is an Automated Report from the Fairies Client</defaultConfigNote>
+		<PlayerNameToken>#NAME#</PlayerNameToken>
+		<maxNumBullets>3</maxNumBullets>
+		<maxNumButtons>5</maxNumButtons>
+		<maxNumFrames>5</maxNumFrames>
+		<numCatagories>4</numCatagories>
+		<catagory1>MODERATION_FOUL_LANGUAGE</catagory1>
+		<catagory2>MODERATION_PERSONAL_INFO</catagory2>
+		<catagory3>MODERATION_RUDE_BEHAVIOR</catagory3>
+		<catagory4>MODERATION_BAD_NAME</catagory4>
+		<util>
+		</util>
+	</config>
+</panel>

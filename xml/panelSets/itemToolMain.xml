@@ -1,0 +1,41 @@
+﻿<panelSet>
+	<panels>
+		<panel id="main" x="0" y="0" alwaysOnBottom="true" transition="none">{panelData}/tools/itemToolMain.xml</panel>
+		<!-- item panels -->
+		<panel id="avail" x="0" y="0" refocusable="false" hidden="true" transition="none">{panelData}/tools/infoCardAvail.xml</panel>
+		<panel id="avatar" x="0" y="0" refocusable="false" hidden="true" transition="none">{panelData}/tools/infoCardAvatar.xml</panel>
+		<panel id="badge" x="0" y="0" refocusable="false" hidden="true" transition="none">{panelData}/tools/infoCardBadge.xml</panel>
+		<panel id="badgeRules" x="0" y="0" refocusable="false" hidden="true" transition="none">{panelData}/tools/infoCardBadgeRules.xml</panel>
+		<panel id="basic" x="0" y="0" refocusable="false" hidden="true" transition="none">{panelData}/tools/infoCardBasic.xml</panel>
+		<panel id="home" x="0" y="0" refocusable="false" hidden="true" transition="none">{panelData}/tools/infoCardHome.xml</panel>
+		<panel id="ingredient" x="0" y="0" refocusable="false" hidden="true" transition="none">{panelData}/tools/infoCardRecipeIngredient.xml</panel>
+		<panel id="recipe" x="0" y="0" refocusable="false" hidden="true" transition="none">{panelData}/tools/infoCardRecipe.xml</panel>
+		<!-- color panels -->
+		<panel id="color" x="0" y="0" refocusable="false" hidden="true" transition="none">{panelData}/tools/infoCardColor.xml</panel>
+		<panel id="colorMap" x="0" y="0" refocusable="false" hidden="true" transition="none">{panelData}/tools/infoCardColorMap.xml</panel>
+		<panel id="colorUsage" x="0" y="0" refocusable="false" hidden="true" transition="none">{panelData}/tools/infoCardColorUsage.xml</panel>
+		<!-- other panels -->
+		<panel id="saveItem" x="300" y="200" alwaysOnTop="true" hidden="true">{panelData}/tools/cardSaveItem.xml</panel>
+		<panel id="famousFairy" x="300" y="200" alwaysOnTop="true" hidden="true">{panelData}/tools/cardFamousFairy.xml</panel>
+		<panel id="saveFile" x="200" y="100" alwaysOnTop="true" hidden="true">{panelData}/tools/saveFilePanel.xml</panel>
+		<panel id="loadFile" x="200" y="100" alwaysOnTop="true" hidden="true">{panelData}/tools/loadFilePanel.xml</panel>
+		<panel id="addBadge" x="200" y="100" alwaysOnTop="true" hidden="true">{panelData}/tools/addBadgeCard.xml</panel>
+		<panel id="addColor" x="200" y="100" alwaysOnTop="true" hidden="true">{panelData}/tools/addColorCard.xml</panel>
+		<panel id="printAll" x="200" y="100" alwaysOnTop="true" hidden="true">{panelData}/tools/printAllCard.xml</panel>
+		<panel id="addItem" x="200" y="100" alwaysOnTop="true" hidden="true">{panelData}/tools/addItemCard.xml</panel>
+	</panels>
+	<config>
+		<additionalFiles>
+			<file name="createFairy" native="false" side="client">xml/caf/cafData.xml</file>
+			<file name="initialItems" native="false" side="server">InitialItemsAssets.xml</file>
+			<file name="serverBadgeUnlock" native="false" side="server">badges.xml</file>
+			<file name="serverBadgeEvents" native="false" side="server">events.xml</file>
+		</additionalFiles>
+		<panelsLater>
+			<editAvatarPanel id="editAvatar" x="200" y="100" alwaysOnTop="true" hidden="true">{panelData}/tools/cardEditAvatar.xml</editAvatarPanel>
+			<saveAvatarPanel id="saveAvatar" x="300" y="200" alwaysOnTop="true" hidden="true">{panelData}/tools/cardSaveFileOptions.xml</saveAvatarPanel>
+		</panelsLater>
+	</config>
+	<copy>
+	</copy>
+</panelSet>

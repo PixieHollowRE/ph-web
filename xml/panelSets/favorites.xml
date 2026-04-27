@@ -1,0 +1,22 @@
+<panelSet>
+	<panels>
+		<panel id="favorites" x="0" y="190" alwaysOnTop="true">{panelData}/favorites.xml</panel>
+	</panels>
+	<config>
+		<menu hideplay="true" hidenews="true">
+			<config title="true" defaultbackbuttony="15" nav="true"/>
+			<title>
+				<text>menutitle</text>
+				<subtext>subtitle</subtext>
+			</title>
+			<backarrow>
+				<text>arrowtext</text>
+			</backarrow>
+		</menu>
+	</config>
+	<copy>
+		<menutitle>My %0A Friends</menutitle>
+		<arrowtext>Go Back</arrowtext>
+		<subtitle></subtitle>
+	</copy>
+</panelSet>

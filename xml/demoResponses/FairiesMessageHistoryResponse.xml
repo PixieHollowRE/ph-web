@@ -1,0 +1,305 @@
+﻿<FairiesMessageHistoryResponse>
+	<success>true</success>
+	<message message_id="1">
+		<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+		</item>
+		<phrase phrase_id="4">
+			<text>I can&apos;t believe how @word_4@ you look!</text>
+			<type>Category_4</type>
+		</phrase>
+		<word word_id="75">
+			<text>sunny</text>
+			<type>word_4</type>
+		</word>
+		<name>Cloudcliff</name>
+		<address>10CottonCloudCove</address>
+		<fairy_id>6</fairy_id>
+		<created>2006-12-13 13:25:22</created>
+		<icon>assets/icons/first_fairyicon15_pink.swf</icon>
+	</message>
+	
+	<message message_id="2">
+		<item item_id="15" name="MsgBack_5_yellow" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="15">assets/messages/background06_yellow.swf</asset>
+				<frame>1</frame>
+			</piece>
+		</item>
+		<phrase phrase_id="2">
+			<text>Your name is @word_2@</text>
+			<type>Category_2</type>
+		</phrase>
+		<word word_id="28">
+			<text>hilarious!</text>
+			<type>word_2</type>
+		</word>
+		<name>Cloudcliff</name>
+		<address>10CottonCloudCove</address>
+		<fairy_id>6</fairy_id>
+		<created>2006-12-13 12:40:40</created>
+		<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+	</message>
+	
+	<message message_id="3">
+		<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+		</item>
+		<phrase phrase_id="4">
+			<text>3 I can&apos;t believe how @word_4@ you look!</text>
+			<type>Category_4</type>
+		</phrase>
+		<word word_id="75">
+			<text>sunny</text>
+			<type>word_4</type>
+		</word>
+		<name>Cloudcliff</name>
+		<address>10CottonCloudCove</address>
+		<fairy_id>6</fairy_id>
+		<created>2006-12-13 13:25:22</created>
+		<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+	</message>
+	
+	<message message_id="4">
+		<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+		</item>
+		<phrase phrase_id="4">
+			<text>4 I can&apos;t believe how @word_4@ you look!</text>
+			<type>Category_4</type>
+		</phrase>
+		<word word_id="75">
+			<text>sunny</text>
+			<type>word_4</type>
+		</word>
+		<name>Cloudcliff</name>
+		<address>10CottonCloudCove</address>
+		<fairy_id>6</fairy_id>
+		<created>2006-12-13 13:25:22</created>
+		<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+	</message>
+	
+	<message message_id="5">
+		<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+		</item>
+		<phrase phrase_id="4">
+			<text>5 I can&apos;t believe how @word_4@ you look!</text>
+			<type>Category_4</type>
+		</phrase>
+		<word word_id="75">
+			<text>sunny</text>
+			<type>word_4</type>
+		</word>
+		<name>Cloudcliff</name>
+		<address>10CottonCloudCove</address>
+		<fairy_id>6</fairy_id>
+		<created>2006-12-13 13:25:22</created>
+		<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+	</message>
+	
+	<message message_id="6">
+		<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+		</item>
+		<phrase phrase_id="4">
+			<text>6 I can&apos;t believe how @word_4@ you look!</text>
+			<type>Category_4</type>
+		</phrase>
+		<word word_id="75">
+			<text>sunny</text>
+			<type>word_4</type>
+		</word>
+		<name>Cloudcliff</name>
+		<address>10CottonCloudCove</address>
+		<fairy_id>6</fairy_id>
+		<created>2006-12-13 13:25:22</created>
+		<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+	</message>
+	
+	<message message_id="7">
+		<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+		</item>
+		<phrase phrase_id="4">
+			<text>7 I can&apos;t believe how @word_4@ you look!</text>
+			<type>Category_4</type>
+		</phrase>
+		<word word_id="75">
+			<text>sunny</text>
+			<type>word_4</type>
+		</word>
+		<name>Cloudcliff</name>
+		<address>10CottonCloudCove</address>
+		<fairy_id>6</fairy_id>
+		<created>2006-12-13 13:25:22</created>
+		<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+	</message>
+	
+	<message message_id="8">
+		<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+		</item>
+		<phrase phrase_id="4">
+			<text>8 I can&apos;t believe how @word_4@ you look!</text>
+			<type>Category_4</type>
+		</phrase>
+		<word word_id="75">
+			<text>sunny</text>
+			<type>word_4</type>
+		</word>
+		<name>Cloudcliff</name>
+		<address>10CottonCloudCove</address>
+		<fairy_id>6</fairy_id>
+		<created>2006-12-13 13:25:22</created>
+		<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+	</message>
+	
+	<message message_id="9">
+		<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+		</item>
+		<phrase phrase_id="4">
+			<text>9 I can&apos;t believe how @word_4@ you look!</text>
+			<type>Category_4</type>
+		</phrase>
+		<word word_id="75">
+			<text>sunny</text>
+			<type>word_4</type>
+		</word>
+		<name>Cloudcliff</name>
+		<address>10CottonCloudCove</address>
+		<fairy_id>6</fairy_id>
+		<created>2006-12-13 13:25:22</created>
+		<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+	</message>
+	
+	<message message_id="10">
+		<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+		</item>
+		<phrase phrase_id="4">
+			<text>10 I can&apos;t believe how @word_4@ you look!</text>
+			<type>Category_4</type>
+		</phrase>
+		<word word_id="75">
+			<text>sunny</text>
+			<type>word_4</type>
+		</word>
+		<name>Cloudcliff</name>
+		<address>10CottonCloudCove</address>
+		<fairy_id>6</fairy_id>
+		<created>2006-12-13 13:25:22</created>
+		<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+	</message>
+	
+	<message message_id="11">
+		<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+		</item>
+		<phrase phrase_id="4">
+			<text>11 I can&apos;t believe how @word_4@ you look!</text>
+			<type>Category_4</type>
+		</phrase>
+		<word word_id="75">
+			<text>sunny</text>
+			<type>word_4</type>
+		</word>
+		<name>Cloudcliff</name>
+		<address>10CottonCloudCove</address>
+		<fairy_id>6</fairy_id>
+		<created>2006-12-13 13:25:22</created>
+		<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+	</message>
+	
+	<message message_id="12">
+		<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+		</item>
+		<phrase phrase_id="4">
+			<text>12 I can&apos;t believe how @word_4@ you look!</text>
+			<type>Category_4</type>
+		</phrase>
+		<word word_id="75">
+			<text>sunny</text>
+			<type>word_4</type>
+		</word>
+		<name>Cloudcliff</name>
+		<address>10CottonCloudCove</address>
+		<fairy_id>6</fairy_id>
+		<created>2006-12-13 13:25:22</created>
+		<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+	</message>
+	
+	<message message_id="13">
+		<item item_id="16" name="MsgBack_4_pink" type="MessageBackground">
+			<asset asset_id="184">icon_test.swf</asset>
+			<piece type="MessageBackgroundPiece">
+				<asset asset_id="16">assets/messages/background05_pink.swf</asset>
+				<frame>1</frame>
+			</piece>
+		</item>
+		<phrase phrase_id="4">
+			<text>13 I can&apos;t believe how @word_4@ you look!</text>
+			<type>Category_4</type>
+		</phrase>
+		<word word_id="75">
+			<text>sunny</text>
+			<type>word_4</type>
+		</word>
+		<name>Cloudcliff</name>
+		<address>10CottonCloudCove</address>
+		<fairy_id>6</fairy_id>
+		<created>2006-12-13 13:25:22</created>
+		<icon>assets/icons/first_fairyicon3_pink.swf</icon>
+	</message>
+	
+	
+	
+	<totalMessages>13</totalMessages>
+</FairiesMessageHistoryResponse>

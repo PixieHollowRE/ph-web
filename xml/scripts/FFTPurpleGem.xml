@@ -1,0 +1,44 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0" role="FLITTER">We found the Speaking Sands Desert!</line>
+    <line id="1" role="FLUTTER">Is the famous Purple Gem really here?</line>
+    <line id="2" role="FLAP">Guys, I'm thirsty.</line>
+    <line id="3" role="FLITTER" direction="USE COCONUT PROP">Let's open this coconut. We can drink the milk inside.</line>
+    <line id="4" role="FLUTTER">Wait! There's a picture on the coconut!</line>
+    <line id="5" role="FLAP" emote="16">Looks like a flower.</line>
+    <line id="6" role="FLUTTER">Hey, there's a flower just like it over there!</line>
+    <line id="7" role="FLAP">It must be a clue!</line>
+    <line id="8" role="FLITTER">Let's check out the real flower!</line>
+    <line id="9" role="FLUTTER" direction="USE FLOWER PROP">Wow! Where did that arrow come from?</line>
+    <line id="10" role="FLITTER">It pointed to that sand dune!</line>
+    <line id="11" role="FLAP" emote="8">What kind of clue is a sand dune?</line>
+    <line id="12" role="FLITTER">Hey, what if it's true?</line>
+    <line id="13" role="FLUTTER">What if what's true?</line>
+    <line id="14" role="FLITTER">That the sand dunes in this desert can TALK!</line>
+    <line id="15" role="FLAP">Sand can't talk, silly.</line>
+    <line id="16" role="FLITTER">Maybe we just need to say the magic word.</line>
+    <line id="17" role="FLUTTER">Okay... abracadabra! Hocus-pocus!</line>
+    <line id="18" role="FLAP">Daisy!</line>
+    <line id="19" role="FLUTTER" emote="8">Daisy?</line>
+    <line id="20" role="FLAP">I like daisies.</line>
+    <line id="21" role="FLITTER" event="2,13,2,22,3">How about...SPEAK!</line>
+    <line id="22" role="SAND DUNE" disabled="true" direction="SAND DUNE COMES TO LIFE" hotspotOwner="13">YOU SEEK THE PURPLE GEM!</line>
+    <line id="23" role="FLAP">Wow, that's a smart sand dune.</line>
+    <line id="24" role="FLITTER" event="2,13,2,25,3">Yes, O Sand Dune, we seek the Purple Gem.</line>
+    <line id="25" role="SAND DUNE" disabled="true" hotspotOwner="13">THE GEM IS WITHIN YOUR REACH.</line>
+    <line id="26" role="FLAP" event="2,13,2,27,5">I don't think we can reach it.</line>
+    <line id="27" role="SAND DUNE" disabled="true" hotspotOwner="13">BUT ONLY THE CLEVER MAY FIND IT.</line>
+    <line id="28" role="FLUTTER" event="2,13,2,29,3">What must we do, O great Sand Dune?</line>
+    <line id="29" role="SAND DUNE" disabled="true" hotspotOwner="13">ANSWER A RIDDLE TO PROVE YOUR CLEVERNESS.</line>
+    <line id="30" role="FLAP" emote="12" event="2,13,2,31,3">We can do that!</line>
+    <line id="31" role="SAND DUNE" disabled="true" hotspotOwner="13">WHAT IS AIR TO A FISH?</line>
+    <line id="32" role="FLAP" emote="6">Okay, maybe we can't.</line>
+    <line id="33" role="FLITTER">I know the answer! Air to a fish is...WATER!</line>
+    <line id="34" role="FLUTTER">And there's a pond over there!</line>
+    <line id="35" role="FLITTER" emote="0">I see something purple in it!</line>
+    <line id="36" role="FLAP" direction="USE POND PROP" event="2,13,2,37,3">Wow, you guys are smarter than the sand dune!</line>
+    <line id="37" role="SAND DUNE" direction="THE SAND DUNE DISAPPEARS" disabled="true" hotspotOwner="13">THE GEM IS YOURS, BRAVE AND CLEVER FAIRIES!</line>
+    <line id="38" role="FLUTTER" emote="12">We did it! We found the Purple Gem!</line>
+    <line id="39" role="FLAP">Hooray!</line>
+  </scene>
+</script> 

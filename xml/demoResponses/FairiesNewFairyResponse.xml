@@ -1,0 +1,2187 @@
+<FairiesNewFairyResponse>
+	<success>true</success>
+	<ChooseTalent>
+		<TalentSelector>
+			<talent talent_id="1">Animal</talent>
+			<talent talent_id="2">Garden</talent>
+			<talent talent_id="3">Light</talent>
+			<talent talent_id="4">Water</talent>
+		</TalentSelector>
+		<ColorSelector number="1" type="Wings_Animal">
+			<color color_id="109">255 227 183</color>
+		</ColorSelector>
+		<ColorSelector number="2" type="Wings_Garden">
+			<color color_id="110">254 213 235</color>
+		</ColorSelector>
+		<ColorSelector number="3" type="Wings_Light">
+			<color color_id="111">254 249 192</color>
+		</ColorSelector>
+		<ColorSelector number="4" type="Wings_Water">
+			<color color_id="112">203 202 255</color>
+		</ColorSelector>
+	</ChooseTalent>
+	<ChooseName>
+		<NameSelector type="First">
+			<name name_id="1">Acorn</name>
+			<name name_id="2">Alexia</name>
+			<name name_id="3">Amber</name>
+			<name name_id="4">Amethyst</name>
+			<name name_id="5">Apricot</name>
+			<name name_id="6">April</name>
+			<name name_id="7">Ash</name>
+			<name name_id="8">Autumn</name>
+			<name name_id="9">Bayberry</name>
+			<name name_id="10">Bellflower</name>
+			<name name_id="11">Birch</name>
+			<name name_id="12">Blackbird</name>
+			<name name_id="13">Blizzard</name>
+			<name name_id="14">Bluebottle</name>
+			<name name_id="15">Breezy</name>
+			<name name_id="16">Buttercup</name>
+			<name name_id="17">Camellia</name>
+			<name name_id="18">Carnation</name>
+			<name name_id="19">Carrot</name>
+			<name name_id="20">Charity</name>
+			<name name_id="21">Charlotte</name>
+			<name name_id="22">Cherry</name>
+			<name name_id="23">Chestnut</name>
+			<name name_id="24">Chickadee</name>
+			<name name_id="25">Chipmunk</name>
+			<name name_id="26">Chloe</name>
+			<name name_id="27">Chocolate</name>
+			<name name_id="28">Cinnamon</name>
+			<name name_id="29">Clover</name>
+			<name name_id="30">Cobweb</name>
+			<name name_id="31">Cocoa</name>
+			<name name_id="32">Coconut</name>
+			<name name_id="33">Coriander</name>
+			<name name_id="34">Cornflower</name>
+			<name name_id="35">Crabapple</name>
+			<name name_id="36">Cranberry</name>
+			<name name_id="37">Cricket</name>
+			<name name_id="38">Crimson</name>
+			<name name_id="39">Crocus</name>
+			<name name_id="40">Crystal</name>
+			<name name_id="41">Cupcake</name>
+			<name name_id="42">Cypress</name>
+			<name name_id="43">Daffodil</name>
+			<name name_id="44">Dahlia</name>
+			<name name_id="45">Daisy</name>
+			<name name_id="46">Dandelion</name>
+			<name name_id="47">Dawn</name>
+			<name name_id="48">Daybreak</name>
+			<name name_id="49">Daylily</name>
+			<name name_id="50">Dew</name>
+			<name name_id="51">Dewdrop</name>
+			<name name_id="52">Dulcina</name>
+			<name name_id="53">Echo</name>
+			<name name_id="54">Elva</name>
+			<name name_id="55">Emerald</name>
+			<name name_id="56">Eve</name>
+			<name name_id="57">Faith</name>
+			<name name_id="58">Fantasia</name>
+			<name name_id="59">Fauna</name>
+			<name name_id="60">Faye</name>
+			<name name_id="61">Feathery</name>
+			<name name_id="62">Fern</name>
+			<name name_id="63">Fiery</name>
+			<name name_id="64">Flax</name>
+			<name name_id="65">Flix</name>
+			<name name_id="66">Flora</name>
+			<name name_id="67">Foxglove</name>
+			<name name_id="68">Gardenia</name>
+			<name name_id="69">Garlic</name>
+			<name name_id="70">Ginger</name>
+			<name name_id="71">Ginkgo</name>
+			<name name_id="72">Gloria</name>
+			<name name_id="73">Gloriosa</name>
+			<name name_id="74">Goldenrod</name>
+			<name name_id="75">Grace</name>
+			<name name_id="76">Happy</name>
+			<name name_id="77">Harmony</name>
+			<name name_id="78">Hazel</name>
+			<name name_id="79">Hemlock</name>
+			<name name_id="80">Hickory</name>
+			<name name_id="81">Holly</name>
+			<name name_id="82">Hollyhock</name>
+			<name name_id="83">Honey</name>
+			<name name_id="84">Hope</name>
+			<name name_id="85">Hurricane</name>
+			<name name_id="86">Hyacinth</name>
+			<name name_id="87">Indigo</name>
+			<name name_id="88">Infinity</name>
+			<name name_id="89">Iris</name>
+			<name name_id="90">Isabel</name>
+			<name name_id="91">Isabelle</name>
+			<name name_id="92">Ivy</name>
+			<name name_id="93">Ixia</name>
+			<name name_id="94">Jade</name>
+			<name name_id="95">Jessamine</name>
+			<name name_id="96">Joy</name>
+			<name name_id="97">Juniper</name>
+			<name name_id="98">Karma</name>
+			<name name_id="99">Kiki</name>
+			<name name_id="100">Kiwi</name>
+			<name name_id="101">Kobi</name>
+			<name name_id="102">Koko</name>
+			<name name_id="103">Kyra</name>
+			<name name_id="104">Labyrinth</name>
+			<name name_id="105">Lady</name>
+			<name name_id="106">Ladyslipper</name>
+			<name name_id="107">Lala</name>
+			<name name_id="108">Lark</name>
+			<name name_id="109">Larkspur</name>
+			<name name_id="110">Laurel</name>
+			<name name_id="111">Lavender</name>
+			<name name_id="112">Leeta</name>
+			<name name_id="113">Lemony</name>
+			<name name_id="114">Lila</name>
+			<name name_id="115">Lilac</name>
+			<name name_id="116">Lily</name>
+			<name name_id="117">Liri</name>
+			<name name_id="118">Little</name>
+			<name name_id="119">Lorella</name>
+			<name name_id="120">Lucia</name>
+			<name name_id="121">Lucky</name>
+			<name name_id="122">Lulu</name>
+			<name name_id="123">Luna</name>
+			<name name_id="124">Magenta</name>
+			<name name_id="125">Magnolia</name>
+			<name name_id="126">Magpie</name>
+			<name name_id="127">Mahogany</name>
+			<name name_id="128">Marigold</name>
+			<name name_id="129">May</name>
+			<name name_id="130">Melanie</name>
+			<name name_id="131">Melody</name>
+			<name name_id="132">Milkweed</name>
+			<name name_id="133">Minerva</name>
+			<name name_id="134">Misty</name>
+			<name name_id="135">Moptop</name>
+			<name name_id="136">Mudpie</name>
+			<name name_id="137">Mulberry</name>
+			<name name_id="138">Nectarine</name>
+			<name name_id="139">Newt</name>
+			<name name_id="140">Nightfall</name>
+			<name name_id="141">Nightshade</name>
+			<name name_id="142">Nissa</name>
+			<name name_id="143">Nutmeg</name>
+			<name name_id="144">Nyra</name>
+			<name name_id="145">Octavia</name>
+			<name name_id="146">Olive</name>
+			<name name_id="147">Olivia</name>
+			<name name_id="148">Onyx</name>
+			<name name_id="149">Opal</name>
+			<name name_id="150">Orchid</name>
+			<name name_id="151">Oregano</name>
+			<name name_id="152">Oriole</name>
+			<name name_id="153">Paintbrush</name>
+			<name name_id="154">Pandora</name>
+			<name name_id="155">Pansy</name>
+			<name name_id="156">Paprika</name>
+			<name name_id="157">Parsley</name>
+			<name name_id="158">Patchwork</name>
+			<name name_id="159">Peachy</name>
+			<name name_id="160">Peanut</name>
+			<name name_id="161">Pearl</name>
+			<name name_id="162">Pecan</name>
+			<name name_id="163">Penelope</name>
+			<name name_id="164">Peony</name>
+			<name name_id="165">Pepper</name>
+			<name name_id="166">Peppermint</name>
+			<name name_id="167">Persimmon</name>
+			<name name_id="168">Petunia</name>
+			<name name_id="169">Phoebe</name>
+			<name name_id="170">Pineapple</name>
+			<name name_id="171">Pistachio</name>
+			<name name_id="172">Pluma</name>
+			<name name_id="173">Poplar</name>
+			<name name_id="174">Posey</name>
+			<name name_id="175">Posy</name>
+			<name name_id="176">Primrose</name>
+			<name name_id="177">Prinna</name>
+			<name name_id="178">Prudence</name>
+			<name name_id="179">Pula</name>
+			<name name_id="180">Pumpkin</name>
+			<name name_id="181">Quicksilver</name>
+			<name name_id="182">Raven</name>
+			<name name_id="183">Redwood</name>
+			<name name_id="184">Rhapsody</name>
+			<name name_id="185">Rhodie</name>
+			<name name_id="186">Rhubarb</name>
+			<name name_id="187">Rill</name>
+			<name name_id="188">Robin</name>
+			<name name_id="189">Rosa</name>
+			<name name_id="190">Rose</name>
+			<name name_id="191">Rosehip</name>
+			<name name_id="192">Rosemary</name>
+			<name name_id="193">Ruby</name>
+			<name name_id="194">Saffron</name>
+			<name name_id="195">Sahara</name>
+			<name name_id="196">Sapphire</name>
+			<name name_id="197">Sassafras</name>
+			<name name_id="198">Scarlet</name>
+			<name name_id="199">Seaweed</name>
+			<name name_id="200">Serendipity</name>
+			<name name_id="201">Silver</name>
+			<name name_id="202">Sky</name>
+			<name name_id="203">Sneezy</name>
+			<name name_id="204">Snowdrop</name>
+			<name name_id="205">Snowflake</name>
+			<name name_id="206">Sprinkles</name>
+			<name name_id="207">Stargazer</name>
+			<name name_id="208">Stemm</name>
+			<name name_id="209">Stormy</name>
+			<name name_id="210">Strawberry</name>
+			<name name_id="211">Sundew</name>
+			<name name_id="212">Sunflower</name>
+			<name name_id="213">Sunrise</name>
+			<name name_id="214">Sunset</name>
+			<name name_id="215">Sunshine</name>
+			<name name_id="216">Tangy</name>
+			<name name_id="217">Tansy</name>
+			<name name_id="218">Thistle</name>
+			<name name_id="219">Tiger</name>
+			<name name_id="220">Tiny</name>
+			<name name_id="221">Toadstool</name>
+			<name name_id="222">Topaz</name>
+			<name name_id="223">Trinity</name>
+			<name name_id="224">Tulip</name>
+			<name name_id="225">Turnip</name>
+			<name name_id="226">Twilight</name>
+			<name name_id="227">Vanilla</name>
+			<name name_id="228">Violet</name>
+			<name name_id="229">Wallflower</name>
+			<name name_id="230">Walnut</name>
+			<name name_id="231">Waterlily</name>
+			<name name_id="232">Windy</name>
+			<name name_id="233">Wispa</name>
+			<name name_id="234">Xenops</name>
+			<name name_id="235">Yew</name>
+			<name name_id="236">Zephyr</name>
+		</NameSelector>
+		<NameSelector type="Prefix">
+			<name name_id="237">Air</name>
+			<name name_id="238">Almond</name>
+			<name name_id="239">Apple</name>
+			<name name_id="240">Aspen</name>
+			<name name_id="241">Azure</name>
+			<name name_id="242">Banana</name>
+			<name name_id="243">Beauty</name>
+			<name name_id="244">Birch</name>
+			<name name_id="245">Bitter</name>
+			<name name_id="246">Blue</name>
+			<name name_id="247">Bright</name>
+			<name name_id="248">Bronze</name>
+			<name name_id="249">Broom</name>
+			<name name_id="250">Bubble</name>
+			<name name_id="251">Bumble</name>
+			<name name_id="252">Candle</name>
+			<name name_id="253">Carrot</name>
+			<name name_id="254">Cedar</name>
+			<name name_id="255">Cherry</name>
+			<name name_id="256">Citrus</name>
+			<name name_id="257">Cloud</name>
+			<name name_id="258">Cloudy</name>
+			<name name_id="259">Cocoa</name>
+			<name name_id="260">Copper</name>
+			<name name_id="261">Cotton</name>
+			<name name_id="262">Cozy</name>
+			<name name_id="263">Cricket</name>
+			<name name_id="264">Crinkle</name>
+			<name name_id="265">Daisy</name>
+			<name name_id="266">Dapple</name>
+			<name name_id="267">Day</name>
+			<name name_id="268">Dazzle</name>
+			<name name_id="269">Diamond</name>
+			<name name_id="270">Drift</name>
+			<name name_id="271">Elm</name>
+			<name name_id="272">Evening</name>
+			<name name_id="273">Fancy</name>
+			<name name_id="274">Fern</name>
+			<name name_id="275">Fig</name>
+			<name name_id="276">Fire</name>
+			<name name_id="277">Flax</name>
+			<name name_id="278">Flicker</name>
+			<name name_id="279">Flutter</name>
+			<name name_id="280">Foggy</name>
+			<name name_id="281">Fox</name>
+			<name name_id="282">Frost</name>
+			<name name_id="283">Frosty</name>
+			<name name_id="284">Funny</name>
+			<name name_id="285">Giggle</name>
+			<name name_id="286">Gold</name>
+			<name name_id="287">Golden</name>
+			<name name_id="288">Grape</name>
+			<name name_id="289">Grassy</name>
+			<name name_id="290">Green</name>
+			<name name_id="291">Hard</name>
+			<name name_id="292">Holly</name>
+			<name name_id="293">Honey</name>
+			<name name_id="294">Ice</name>
+			<name name_id="295">Jelly</name>
+			<name name_id="296">Jumpy</name>
+			<name name_id="297">Lemon</name>
+			<name name_id="298">Light</name>
+			<name name_id="299">Lightning</name>
+			<name name_id="300">Lime</name>
+			<name name_id="301">Little</name>
+			<name name_id="302">Lotus</name>
+			<name name_id="303">Lovely</name>
+			<name name_id="304">Magic</name>
+			<name name_id="305">Mango</name>
+			<name name_id="306">Maple</name>
+			<name name_id="307">Merry</name>
+			<name name_id="308">Misty</name>
+			<name name_id="309">Moon</name>
+			<name name_id="310">Morning</name>
+			<name name_id="311">Moss</name>
+			<name name_id="312">Mossy</name>
+			<name name_id="313">Mountain</name>
+			<name name_id="314">Muddy</name>
+			<name name_id="315">Never</name>
+			<name name_id="316">Night</name>
+			<name name_id="317">Oak</name>
+			<name name_id="318">Olive</name>
+			<name name_id="319">Orange</name>
+			<name name_id="320">Pansy</name>
+			<name name_id="321">Parsley</name>
+			<name name_id="322">Peach</name>
+			<name name_id="323">Pear</name>
+			<name name_id="324">Pine</name>
+			<name name_id="325">Pink</name>
+			<name name_id="326">Plum</name>
+			<name name_id="327">Pollen</name>
+			<name name_id="328">Pretty</name>
+			<name name_id="329">Pumpkin</name>
+			<name name_id="330">Purple</name>
+			<name name_id="331">Quick</name>
+			<name name_id="332">Rain</name>
+			<name name_id="333">Rainbow</name>
+			<name name_id="334">Rainy</name>
+			<name name_id="335">Red</name>
+			<name name_id="336">Rose</name>
+			<name name_id="337">Rumble</name>
+			<name name_id="338">Sandy</name>
+			<name name_id="339">Scrubby</name>
+			<name name_id="340">Sea</name>
+			<name name_id="341">Shiny</name>
+			<name name_id="342">Silk</name>
+			<name name_id="343">Snow</name>
+			<name name_id="344">Soft</name>
+			<name name_id="345">Sour</name>
+			<name name_id="346">Speedy</name>
+			<name name_id="347">Spider</name>
+			<name name_id="348">Star</name>
+			<name name_id="349">Sugar</name>
+			<name name_id="350">Sun</name>
+			<name name_id="351">Sweet</name>
+			<name name_id="352">Tangle</name>
+			<name name_id="353">Thunder</name>
+			<name name_id="354">Tulip</name>
+			<name name_id="355">Tumble</name>
+			<name name_id="356">Twisty</name>
+			<name name_id="357">Water</name>
+			<name name_id="358">White</name>
+			<name name_id="359">Wild</name>
+			<name name_id="360">Windy</name>
+			<name name_id="361">Wrinkle</name>
+			<name name_id="362">Yarrow</name>
+			<name name_id="363">Yellow</name>
+		</NameSelector>
+		<NameSelector type="Suffix">
+			<name name_id="364">ash</name>
+			<name name_id="365">beach</name>
+			<name name_id="366">bead</name>
+			<name name_id="367">beam</name>
+			<name name_id="368">bee</name>
+			<name name_id="369">bell</name>
+			<name name_id="370">berry</name>
+			<name name_id="371">bloom</name>
+			<name name_id="372">blossom</name>
+			<name name_id="373">breath</name>
+			<name name_id="374">breeze</name>
+			<name name_id="375">bug</name>
+			<name name_id="376">butter</name>
+			<name name_id="377">button</name>
+			<name name_id="378">cliff</name>
+			<name name_id="379">cloud</name>
+			<name name_id="380">clove</name>
+			<name name_id="381">cup</name>
+			<name name_id="382">curl</name>
+			<name name_id="383">dash</name>
+			<name name_id="384">dew</name>
+			<name name_id="385">dive</name>
+			<name name_id="386">dream</name>
+			<name name_id="387">drop</name>
+			<name name_id="388">dust</name>
+			<name name_id="389">ear</name>
+			<name name_id="390">eye</name>
+			<name name_id="391">feather</name>
+			<name name_id="392">field</name>
+			<name name_id="393">fig</name>
+			<name name_id="394">flame</name>
+			<name name_id="395">flash</name>
+			<name name_id="396">fleck</name>
+			<name name_id="397">flight</name>
+			<name name_id="398">flip</name>
+			<name name_id="399">flower</name>
+			<name name_id="400">fluff</name>
+			<name name_id="401">foam</name>
+			<name name_id="402">fog</name>
+			<name name_id="403">foot</name>
+			<name name_id="404">forest</name>
+			<name name_id="405">freeze</name>
+			<name name_id="406">froth</name>
+			<name name_id="407">fruit</name>
+			<name name_id="408">garden</name>
+			<name name_id="409">gem</name>
+			<name name_id="410">glade</name>
+			<name name_id="411">glimmer</name>
+			<name name_id="412">glow</name>
+			<name name_id="413">gourd</name>
+			<name name_id="414">grace</name>
+			<name name_id="415">grass</name>
+			<name name_id="416">griddle</name>
+			<name name_id="417">gust</name>
+			<name name_id="418">haze</name>
+			<name name_id="419">heart</name>
+			<name name_id="420">hopper</name>
+			<name name_id="421">horn</name>
+			<name name_id="422">jewel</name>
+			<name name_id="423">lace</name>
+			<name name_id="424">lake</name>
+			<name name_id="425">lashes</name>
+			<name name_id="426">leaf</name>
+			<name name_id="427">lily</name>
+			<name name_id="428">locks</name>
+			<name name_id="429">loop</name>
+			<name name_id="430">meadow</name>
+			<name name_id="431">mello</name>
+			<name name_id="432">mint</name>
+			<name name_id="433">mist</name>
+			<name name_id="434">moon</name>
+			<name name_id="435">muddle</name>
+			<name name_id="436">muse</name>
+			<name name_id="437">newt</name>
+			<name name_id="438">noodle</name>
+			<name name_id="439">peal</name>
+			<name name_id="440">petal</name>
+			<name name_id="441">plume</name>
+			<name name_id="442">pond</name>
+			<name name_id="443">pool</name>
+			<name name_id="444">puff</name>
+			<name name_id="445">ray</name>
+			<name name_id="446">ripple</name>
+			<name name_id="447">river</name>
+			<name name_id="448">root</name>
+			<name name_id="449">sand</name>
+			<name name_id="450">shadow</name>
+			<name name_id="451">shimmer</name>
+			<name name_id="452">shine</name>
+			<name name_id="453">sky</name>
+			<name name_id="454">snort</name>
+			<name name_id="455">sparkle</name>
+			<name name_id="456">speck</name>
+			<name name_id="457">spirit</name>
+			<name name_id="458">splash</name>
+			<name name_id="459">spring</name>
+			<name name_id="460">sprite</name>
+			<name name_id="461">sprout</name>
+			<name name_id="462">stem</name>
+			<name name_id="463">stone</name>
+			<name name_id="464">storm</name>
+			<name name_id="465">stream</name>
+			<name name_id="466">stripe</name>
+			<name name_id="467">swamp</name>
+			<name name_id="468">swirls</name>
+			<name name_id="469">thistle</name>
+			<name name_id="470">thorn</name>
+			<name name_id="471">toad</name>
+			<name name_id="472">toe</name>
+			<name name_id="473">tree</name>
+			<name name_id="474">twill</name>
+			<name name_id="475">twinkle</name>
+			<name name_id="476">twirl</name>
+			<name name_id="477">twirls</name>
+			<name name_id="478">twist</name>
+			<name name_id="479">vale</name>
+			<name name_id="480">valley</name>
+			<name name_id="481">vine</name>
+			<name name_id="482">wallow</name>
+			<name name_id="483">wax</name>
+			<name name_id="484">weather</name>
+			<name name_id="485">web</name>
+			<name name_id="486">whirl</name>
+			<name name_id="487">whisk</name>
+			<name name_id="488">whisper</name>
+			<name name_id="489">wiggle</name>
+			<name name_id="490">willow</name>
+			<name name_id="491">wind</name>
+			<name name_id="492">wing</name>
+			<name name_id="493">wings</name>
+			<name name_id="494">wink</name>
+			<name name_id="495">wish</name>
+			<name name_id="496">wit</name>
+			<name name_id="497">wood</name>
+			<name name_id="498">wort</name>
+		</NameSelector>
+	</ChooseName>
+	<DesignFairy>
+		<ItemSelector type="Face">
+			<piece type="Face">
+				<asset asset_id="20">assets/avatar/first_facepiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="21">assets/avatar/first_facepiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="22">assets/avatar/first_facepiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="23">assets/avatar/first_facepiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="24">assets/avatar/first_facepiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="25">assets/avatar/first_facepiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="26">assets/avatar/first_facepiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="27">assets/avatar/first_facepiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="28">assets/avatar/first_facepiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="29">assets/avatar/first_facepiece.swf</asset>
+				<frame>10</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="30">assets/avatar/first_facepiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="31">assets/avatar/first_facepiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="32">assets/avatar/first_facepiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="33">assets/avatar/first_facepiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="34">assets/avatar/first_facepiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="35">assets/avatar/first_facepiece.swf</asset>
+				<frame>16</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="36">assets/avatar/first_facepiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="37">assets/avatar/first_facepiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="Face">
+				<asset asset_id="38">assets/avatar/first_facepiece.swf</asset>
+				<frame>19</frame>
+			</piece>
+		</ItemSelector>
+		<ItemSelector type="Wings">
+			<piece type="Wings">
+				<asset asset_id="82">assets/avatar/first_wingspiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="Wings">
+				<asset asset_id="83">assets/avatar/first_wingspiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="Wings">
+				<asset asset_id="84">assets/avatar/first_wingspiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="Wings">
+				<asset asset_id="85">assets/avatar/first_wingspiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="Wings">
+				<asset asset_id="86">assets/avatar/first_wingspiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<piece type="Wings">
+				<asset asset_id="87">assets/avatar/first_wingspiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+		</ItemSelector>
+		<ItemSelector type="HairBack">
+			<piece type="HairBack">
+				<asset asset_id="58">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="59">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="60">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="61">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="62">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="63">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="64">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="65">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="66">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="67">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>10</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="68">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="69">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="70">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="71">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="72">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="73">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>16</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="74">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="75">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="76">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>19</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="77">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>20</frame>
+			</piece>
+			<piece type="HairBack">
+				<asset asset_id="78">assets/avatar/first_hairbackpiece.swf</asset>
+				<frame>21</frame>
+			</piece>
+		</ItemSelector>
+		<ItemSelector type="EyesPiece">
+			<piece type="EyesPiece">
+				<asset asset_id="1">assets/avatar/first_eyespiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="2">assets/avatar/first_eyespiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="3">assets/avatar/first_eyespiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="4">assets/avatar/first_eyespiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="5">assets/avatar/first_eyespiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="6">assets/avatar/first_eyespiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="7">assets/avatar/first_eyespiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="8">assets/avatar/first_eyespiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="9">assets/avatar/first_eyespiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="10">assets/avatar/first_eyespiece.swf</asset>
+				<frame>10</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="11">assets/avatar/first_eyespiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="12">assets/avatar/first_eyespiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="13">assets/avatar/first_eyespiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="14">assets/avatar/first_eyespiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="15">assets/avatar/first_eyespiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="16">assets/avatar/first_eyespiece.swf</asset>
+				<frame>16</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="17">assets/avatar/first_eyespiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="18">assets/avatar/first_eyespiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="EyesPiece">
+				<asset asset_id="19">assets/avatar/first_eyespiece.swf</asset>
+				<frame>19</frame>
+			</piece>
+		</ItemSelector>
+		<ItemSelector type="HairFront">
+			<piece type="HairFront">
+				<asset asset_id="39">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>1</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="40">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>2</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="41">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>3</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="42">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>4</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="43">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>5</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="44">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>6</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="45">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>7</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="46">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>8</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="47">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>9</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="48">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>10</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="49">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>11</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="50">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>12</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="51">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>13</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="52">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>14</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="53">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>15</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="54">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>16</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="55">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>17</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="56">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>18</frame>
+			</piece>
+			<piece type="HairFront">
+				<asset asset_id="57">assets/avatar/first_hairfrontpiece.swf</asset>
+				<frame>19</frame>
+			</piece>
+		</ItemSelector>
+		<ColorSelector number="1" type="Skin">
+			<color color_id="91">131 99 71</color>
+			<color color_id="92">149 109 76</color>
+			<color color_id="93">148 103 66</color>
+			<color color_id="94">180 125 79</color>
+			<color color_id="95">178 131 92</color>
+			<color color_id="96">202 144 95</color>
+			<color color_id="97">195 145 108</color>
+			<color color_id="98">191 147 110</color>
+			<color color_id="99">200 160 119</color>
+			<color color_id="100">210 140 83</color>
+			<color color_id="101">208 144 91</color>
+			<color color_id="102">226 159 105</color>
+			<color color_id="103">230 165 115</color>
+			<color color_id="104">216 161 115</color>
+			<color color_id="105">213 168 129</color>
+			<color color_id="106">234 175 128</color>
+			<color color_id="107">229 181 143</color>
+			<color color_id="108">253 209 173</color>
+		</ColorSelector>
+		<ColorSelector number="2" type="Eyes">
+			<color color_id="55">41 42 63</color>
+			<color color_id="56">101 77 63</color>
+			<color color_id="57">144 116 85</color>
+			<color color_id="58">194 120 60</color>
+			<color color_id="59">179 159 118</color>
+			<color color_id="60">159 145 188</color>
+			<color color_id="61">191 185 200</color>
+			<color color_id="62">170 187 255</color>
+			<color color_id="63">170 210 255</color>
+			<color color_id="64">77 186 123</color>
+			<color color_id="65">129 199 112</color>
+			<color color_id="66">176 202 124</color>
+			<color color_id="67">166 199 51</color>
+			<color color_id="68">107 238 212</color>
+			<color color_id="69">98 226 239</color>
+			<color color_id="70">127 201 223</color>
+			<color color_id="71">132 190 255</color>
+			<color color_id="72">216 169 238</color>
+		</ColorSelector>
+		<ColorSelector number="3" type="Hair">
+			<color color_id="73">58 55 88</color>
+			<color color_id="74">65 48 36</color>
+			<color color_id="75">82 44 36</color>
+			<color color_id="76">80 56 39</color>
+			<color color_id="77">104 77 60</color>
+			<color color_id="78">125 96 76</color>
+			<color color_id="79">139 93 73</color>
+			<color color_id="80">142 48 106</color>
+			<color color_id="81">161 39 64</color>
+			<color color_id="82">187 64 43</color>
+			<color color_id="83">176 92 60</color>
+			<color color_id="84">193 130 74</color>
+			<color color_id="85">183 154 87</color>
+			<color color_id="86">180 135 88</color>
+			<color color_id="87">224 142 69</color>
+			<color color_id="88">224 166 90</color>
+			<color color_id="89">223 190 111</color>
+			<color color_id="90">254 222 144</color>
+		</ColorSelector>
+	</DesignFairy>
+	<DressFairy>
+		<ItemSelector type="Necklace">
+			<item item_id="44" name="Necklace_none" type="Necklace">
+				<asset asset_id="192">assets/icons/noneitem.swf</asset>
+				<piece type="NecklacePiece">
+					<asset asset_id="44">assets/avatar/first_necklacepiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+			</item>
+			<item item_id="194" name="Necklace_1" type="Necklace">
+				<asset asset_id="338">assets/icons/first_necklace1.swf</asset>
+				<piece type="NecklacePiece">
+					<asset asset_id="194">assets/avatar/first_necklacepiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+			</item>
+			<item item_id="195" name="Necklace_2" type="Necklace">
+				<asset asset_id="339">assets/icons/first_necklace2.swf</asset>
+				<piece type="NecklacePiece">
+					<asset asset_id="195">assets/avatar/first_necklacepiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+			</item>
+			<item item_id="196" name="Necklace_3" type="Necklace">
+				<asset asset_id="340">assets/icons/first_necklace3.swf</asset>
+				<piece type="NecklacePiece">
+					<asset asset_id="196">assets/avatar/first_necklacepiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+			</item>
+			<item item_id="197" name="Necklace_4" type="Necklace">
+				<asset asset_id="341">assets/icons/first_necklace4.swf</asset>
+				<piece type="NecklacePiece">
+					<asset asset_id="197">assets/avatar/first_necklacepiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+			</item>
+			<item item_id="198" name="Necklace_5" type="Necklace">
+				<asset asset_id="342">assets/icons/first_necklace5.swf</asset>
+				<piece type="NecklacePiece">
+					<asset asset_id="198">assets/avatar/first_necklacepiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+			</item>
+			<item item_id="199" name="Necklace_6" type="Necklace">
+				<asset asset_id="343">assets/icons/first_necklace6.swf</asset>
+				<piece type="NecklacePiece">
+					<asset asset_id="199">assets/avatar/first_necklacepiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+			</item>
+			<item item_id="200" name="Necklace_7" type="Necklace">
+				<asset asset_id="344">assets/icons/first_necklace7.swf</asset>
+				<piece type="NecklacePiece">
+					<asset asset_id="200">assets/avatar/first_necklacepiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+			</item>
+			<item item_id="201" name="Necklace_8" type="Necklace">
+				<asset asset_id="345">assets/icons/first_necklace8.swf</asset>
+				<piece type="NecklacePiece">
+					<asset asset_id="201">assets/avatar/first_necklacepiece.swf</asset>
+					<frame>9</frame>
+				</piece>
+			</item>
+			<item item_id="202" name="Necklace_9" type="Necklace">
+				<asset asset_id="346">assets/icons/first_necklace9.swf</asset>
+				<piece type="NecklacePiece">
+					<asset asset_id="202">assets/avatar/first_necklacepiece.swf</asset>
+					<frame>10</frame>
+				</piece>
+			</item>
+			<item item_id="203" name="Necklace_10" type="Necklace">
+				<asset asset_id="347">assets/icons/first_necklace10.swf</asset>
+				<piece type="NecklacePiece">
+					<asset asset_id="203">assets/avatar/first_necklacepiece.swf</asset>
+					<frame>11</frame>
+				</piece>
+			</item>
+		</ItemSelector>
+		<ItemSelector type="HeadItem">
+			<item item_id="48" name="Headpiece_none" type="HeadItem">
+				<asset asset_id="192">assets/icons/noneitem.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="48">assets/avatar/first_headpiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+			</item>
+			<item item_id="175" name="Headpiece_1" type="HeadItem">
+				<asset asset_id="319">assets/icons/first_headitem1.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="175">assets/avatar/first_headpiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+			</item>
+			<item item_id="176" name="Headpiece_2" type="HeadItem">
+				<asset asset_id="320">assets/icons/first_headitem2.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="176">assets/avatar/first_headpiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+			</item>
+			<item item_id="177" name="Headpiece_3" type="HeadItem">
+				<asset asset_id="321">assets/icons/first_headitem3.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="177">assets/avatar/first_headpiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+			</item>
+			<item item_id="178" name="Headpiece_4" type="HeadItem">
+				<asset asset_id="322">assets/icons/first_headitem4.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="178">assets/avatar/first_headpiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+			</item>
+			<item item_id="178" name="Headpiece_4" type="HeadItem">
+				<asset asset_id="322">assets/icons/first_headitem4.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="178">assets/avatar/first_headpiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+			</item>
+			<item item_id="179" name="Headpiece_5" type="HeadItem">
+				<asset asset_id="323">assets/icons/first_headitem5.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="179">assets/avatar/first_headpiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+			</item>
+			<item item_id="180" name="Headpiece_6" type="HeadItem">
+				<asset asset_id="324">assets/icons/first_headitem6.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="180">assets/avatar/first_headpiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+			</item>
+			<item item_id="181" name="Headpiece_7" type="HeadItem">
+				<asset asset_id="325">assets/icons/first_headitem7.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="181">assets/avatar/first_headpiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+			</item>
+			<item item_id="182" name="Headpiece_8" type="HeadItem">
+				<asset asset_id="326">assets/icons/first_headitem8.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="182">assets/avatar/first_headpiece.swf</asset>
+					<frame>9</frame>
+				</piece>
+			</item>
+			<item item_id="183" name="Headpiece_9" type="HeadItem">
+				<asset asset_id="327">assets/icons/first_headitem9.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="183">assets/avatar/first_headpiece.swf</asset>
+					<frame>10</frame>
+				</piece>
+			</item>
+			<item item_id="184" name="Headpiece_10" type="HeadItem">
+				<asset asset_id="328">assets/icons/first_headitem10.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="184">assets/avatar/first_headpiece.swf</asset>
+					<frame>11</frame>
+				</piece>
+			</item>
+			<item item_id="185" name="Headpiece_11" type="HeadItem">
+				<asset asset_id="329">assets/icons/first_headitem11.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="185">assets/avatar/first_headpiece.swf</asset>
+					<frame>12</frame>
+				</piece>
+			</item>
+			<item item_id="186" name="Headpiece_12" type="HeadItem">
+				<asset asset_id="330">assets/icons/first_headitem12.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="186">assets/avatar/first_headpiece.swf</asset>
+					<frame>13</frame>
+				</piece>
+			</item>
+			<item item_id="187" name="Headpiece_13" type="HeadItem">
+				<asset asset_id="331">assets/icons/first_headitem13.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="187">assets/avatar/first_headpiece.swf</asset>
+					<frame>14</frame>
+				</piece>
+			</item>
+			<item item_id="188" name="Headpiece_14" type="HeadItem">
+				<asset asset_id="332">assets/icons/first_headitem14.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="188">assets/avatar/first_headpiece.swf</asset>
+					<frame>15</frame>
+				</piece>
+			</item>
+			<item item_id="189" name="Headpiece_15" type="HeadItem">
+				<asset asset_id="333">assets/icons/first_headitem15.swf</asset>
+				<piece type="HeadPiece">
+					<asset asset_id="189">assets/avatar/first_headpiece.swf</asset>
+					<frame>16</frame>
+				</piece>
+			</item>
+		</ItemSelector>
+		<ItemSelector type="Shirt">
+			<item item_id="104" name="Top_1" type="Shirt">
+				<asset asset_id="248">assets/icons/first_shirt1.swf</asset>
+				<piece type="ChestPiece">
+					<asset asset_id="104">assets/avatar/first_chestpiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+				<piece type="SleeveLeftPiece">
+					<asset asset_id="104">assets/avatar/first_sleeveleftpiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+				<piece type="SleeveRightPiece">
+					<asset asset_id="104">assets/avatar/first_sleeverightpiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+			</item>
+			<item item_id="105" name="Top_2" type="Shirt">
+				<asset asset_id="249">assets/icons/first_shirt2.swf</asset>
+				<piece type="ChestPiece">
+					<asset asset_id="105">assets/avatar/first_chestpiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+				<piece type="SleeveLeftPiece">
+					<asset asset_id="105">assets/avatar/first_sleeveleftpiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+				<piece type="SleeveRightPiece">
+					<asset asset_id="105">assets/avatar/first_sleeverightpiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+			</item>
+			<item item_id="106" name="Top_3" type="Shirt">
+				<asset asset_id="250">assets/icons/first_shirt3.swf</asset>
+				<piece type="ChestPiece">
+					<asset asset_id="106">assets/avatar/first_chestpiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+				<piece type="SleeveLeftPiece">
+					<asset asset_id="106">assets/avatar/first_sleeveleftpiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+				<piece type="SleeveRightPiece">
+					<asset asset_id="106">assets/avatar/first_sleeverightpiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+			</item>
+			<item item_id="107" name="Top_4" type="Shirt">
+				<asset asset_id="251">assets/icons/first_shirt4.swf</asset>
+				<piece type="ChestPiece">
+					<asset asset_id="107">assets/avatar/first_chestpiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+				<piece type="SleeveLeftPiece">
+					<asset asset_id="107">assets/avatar/first_sleeveleftpiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+				<piece type="SleeveRightPiece">
+					<asset asset_id="107">assets/avatar/first_sleeverightpiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+			</item>
+			<item item_id="108" name="Top_5" type="Shirt">
+				<asset asset_id="252">assets/icons/first_shirt5.swf</asset>
+				<piece type="ChestPiece">
+					<asset asset_id="108">assets/avatar/first_chestpiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+				<piece type="SleeveLeftPiece">
+					<asset asset_id="108">assets/avatar/first_sleeveleftpiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+				<piece type="SleeveRightPiece">
+					<asset asset_id="108">assets/avatar/first_sleeverightpiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+			</item>
+			<item item_id="109" name="Top_6" type="Shirt">
+				<asset asset_id="253">assets/icons/first_shirt6.swf</asset>
+				<piece type="ChestPiece">
+					<asset asset_id="109">assets/avatar/first_chestpiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+				<piece type="SleeveLeftPiece">
+					<asset asset_id="109">assets/avatar/first_sleeveleftpiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+				<piece type="SleeveRightPiece">
+					<asset asset_id="109">assets/avatar/first_sleeverightpiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+			</item>
+			<item item_id="110" name="Top_7" type="Shirt">
+				<asset asset_id="254">assets/icons/first_shirt7.swf</asset>
+				<piece type="ChestPiece">
+					<asset asset_id="110">assets/avatar/first_chestpiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+				<piece type="SleeveLeftPiece">
+					<asset asset_id="110">assets/avatar/first_sleeveleftpiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+				<piece type="SleeveRightPiece">
+					<asset asset_id="110">assets/avatar/first_sleeverightpiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+			</item>
+			<item item_id="111" name="Top_8" type="Shirt">
+				<asset asset_id="255">assets/icons/first_shirt8.swf</asset>
+				<piece type="ChestPiece">
+					<asset asset_id="111">assets/avatar/first_chestpiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+				<piece type="SleeveLeftPiece">
+					<asset asset_id="111">assets/avatar/first_sleeveleftpiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+				<piece type="SleeveRightPiece">
+					<asset asset_id="111">assets/avatar/first_sleeverightpiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+			</item>
+			<item item_id="112" name="Top_9" type="Shirt">
+				<asset asset_id="256">assets/icons/first_shirt9.swf</asset>
+				<piece type="ChestPiece">
+					<asset asset_id="112">assets/avatar/first_chestpiece.swf</asset>
+					<frame>9</frame>
+				</piece>
+				<piece type="SleeveLeftPiece">
+					<asset asset_id="112">assets/avatar/first_sleeveleftpiece.swf</asset>
+					<frame>9</frame>
+				</piece>
+				<piece type="SleeveRightPiece">
+					<asset asset_id="112">assets/avatar/first_sleeverightpiece.swf</asset>
+					<frame>9</frame>
+				</piece>
+			</item>
+			<item item_id="113" name="Top_10" type="Shirt">
+				<asset asset_id="257">assets/icons/first_shirt10.swf</asset>
+				<piece type="ChestPiece">
+					<asset asset_id="113">assets/avatar/first_chestpiece.swf</asset>
+					<frame>10</frame>
+				</piece>
+				<piece type="SleeveLeftPiece">
+					<asset asset_id="113">assets/avatar/first_sleeveleftpiece.swf</asset>
+					<frame>10</frame>
+				</piece>
+				<piece type="SleeveRightPiece">
+					<asset asset_id="113">assets/avatar/first_sleeverightpiece.swf</asset>
+					<frame>10</frame>
+				</piece>
+			</item>
+			<item item_id="114" name="Top_11" type="Shirt">
+				<asset asset_id="258">assets/icons/first_shirt11.swf</asset>
+				<piece type="ChestPiece">
+					<asset asset_id="114">assets/avatar/first_chestpiece.swf</asset>
+					<frame>11</frame>
+				</piece>
+				<piece type="SleeveLeftPiece">
+					<asset asset_id="114">assets/avatar/first_sleeveleftpiece.swf</asset>
+					<frame>11</frame>
+				</piece>
+				<piece type="SleeveRightPiece">
+					<asset asset_id="114">assets/avatar/first_sleeverightpiece.swf</asset>
+					<frame>11</frame>
+				</piece>
+			</item>
+		</ItemSelector>
+		<ItemSelector type="Skirt">
+			<item item_id="143" name="Bottom_1" type="Skirt">
+				<asset asset_id="287">assets/icons/first_skirt1.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="143">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="143">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="143">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="143">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="143">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+			</item>
+			<item item_id="144" name="Bottom_2" type="Skirt">
+				<asset asset_id="288">assets/icons/first_skirt2.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="144">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="144">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="144">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="144">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="144">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+			</item>
+			<item item_id="145" name="Bottom_3" type="Skirt">
+				<asset asset_id="289">assets/icons/first_skirt3.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="145">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="145">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="145">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="145">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="145">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+			</item>
+			<item item_id="146" name="Bottom_4" type="Skirt">
+				<asset asset_id="290">assets/icons/first_skirt4.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="146">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="146">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="146">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="146">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="146">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+			</item>
+			<item item_id="147" name="Bottom_5" type="Skirt">
+				<asset asset_id="291">assets/icons/first_skirt5.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="147">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="147">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="147">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="147">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="147">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+			</item>
+			<item item_id="148" name="Bottom_6" type="Skirt">
+				<asset asset_id="292">assets/icons/first_skirt6.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="148">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="148">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="148">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="148">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="148">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+			</item>
+			<item item_id="149" name="Bottom_7" type="Skirt">
+				<asset asset_id="293">assets/icons/first_skirt7.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="149">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="149">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="149">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="149">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="149">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+			</item>
+			<item item_id="150" name="Bottom_8" type="Skirt">
+				<asset asset_id="294">assets/icons/first_skirt8.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="150">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="150">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="150">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="150">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="150">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+			</item>
+			<item item_id="151" name="Bottom_9" type="Skirt">
+				<asset asset_id="295">assets/icons/first_skirt9.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="151">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>9</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="151">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>9</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="151">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>9</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="151">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>9</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="151">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>9</frame>
+				</piece>
+			</item>
+			<item item_id="152" name="Bottom_10" type="Skirt">
+				<asset asset_id="296">assets/icons/first_skirt10.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="152">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>10</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="152">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>10</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="152">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>10</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="152">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>10</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="152">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>10</frame>
+				</piece>
+			</item>
+			<item item_id="153" name="Bottom_11" type="Skirt">
+				<asset asset_id="297">assets/icons/first_skirt11.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="153">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>11</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="153">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>11</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="153">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>11</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="153">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>11</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="153">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>11</frame>
+				</piece>
+			</item>
+			<item item_id="154" name="Bottom_12" type="Skirt">
+				<asset asset_id="298">assets/icons/first_skirt12.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="154">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>12</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="154">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>12</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="154">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>12</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="154">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>12</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="154">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>12</frame>
+				</piece>
+			</item>
+			<item item_id="155" name="Bottom_13" type="Skirt">
+				<asset asset_id="299">assets/icons/first_skirt13.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="155">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>13</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="155">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>13</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="155">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>13</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="155">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>13</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="155">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>13</frame>
+				</piece>
+			</item>
+			<item item_id="156" name="Bottom_14" type="Skirt">
+				<asset asset_id="300">assets/icons/first_skirt14.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="156">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>14</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="156">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>14</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="156">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>14</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="156">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>14</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="156">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>14</frame>
+				</piece>
+			</item>
+			<item item_id="157" name="Bottom_15" type="Skirt">
+				<asset asset_id="301">assets/icons/first_skirt15.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="157">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>15</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="157">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>15</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="157">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>15</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="157">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>15</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="157">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>15</frame>
+				</piece>
+			</item>
+			<item item_id="158" name="Bottom_16" type="Skirt">
+				<asset asset_id="302">assets/icons/first_skirt16.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="158">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>16</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="158">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>16</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="158">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>16</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="158">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>16</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="158">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>16</frame>
+				</piece>
+			</item>
+			<item item_id="159" name="Bottom_17" type="Skirt">
+				<asset asset_id="303">assets/icons/first_skirt17.swf</asset>
+				<piece type="SkirtLeftPiece">
+					<asset asset_id="159">assets/avatar/first_skirtleftpiece.swf</asset>
+					<frame>17</frame>
+				</piece>
+				<piece type="SkirtRightPiece">
+					<asset asset_id="159">assets/avatar/first_skirtrightpiece.swf</asset>
+					<frame>17</frame>
+				</piece>
+				<piece type="SkirtBackPiece">
+					<asset asset_id="159">assets/avatar/first_skirtbackpiece.swf</asset>
+					<frame>17</frame>
+				</piece>
+				<piece type="PantLeftPiece">
+					<asset asset_id="159">assets/avatar/first_pantleftpiece.swf</asset>
+					<frame>17</frame>
+				</piece>
+				<piece type="PantRightPiece">
+					<asset asset_id="159">assets/avatar/first_pantrightpiece.swf</asset>
+					<frame>17</frame>
+				</piece>
+			</item>
+		</ItemSelector>
+		<ItemSelector type="AnkleItem">
+			<item item_id="45" name="Anklet_none" type="AnkleItem">
+				<asset asset_id="192">assets/icons/noneitem.swf</asset>
+				<piece type="AnklePiece">
+					<asset asset_id="45">assets/avatar/first_anklepiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+			</item>
+			<item item_id="208" name="Anklet_1" type="AnkleItem">
+				<asset asset_id="352">assets/icons/first_ankleitem1.swf</asset>
+				<piece type="AnklePiece">
+					<asset asset_id="208">assets/avatar/first_anklepiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+			</item>
+			<item item_id="209" name="Anklet_2" type="AnkleItem">
+				<asset asset_id="353">assets/icons/first_ankleitem2.swf</asset>
+				<piece type="AnklePiece">
+					<asset asset_id="209">assets/avatar/first_anklepiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+			</item>
+			<item item_id="210" name="Anklet_3" type="AnkleItem">
+				<asset asset_id="354">assets/icons/first_ankleitem3.swf</asset>
+				<piece type="AnklePiece">
+					<asset asset_id="210">assets/avatar/first_anklepiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+			</item>
+			<item item_id="211" name="Anklet_4" type="AnkleItem">
+				<asset asset_id="355">assets/icons/first_ankleitem4.swf</asset>
+				<piece type="AnklePiece">
+					<asset asset_id="211">assets/avatar/first_anklepiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+			</item>
+			<item item_id="212" name="Anklet_5" type="AnkleItem">
+				<asset asset_id="356">assets/icons/first_ankleitem5.swf</asset>
+				<piece type="AnklePiece">
+					<asset asset_id="212">assets/avatar/first_anklepiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+			</item>
+			<item item_id="213" name="Anklet_6" type="AnkleItem">
+				<asset asset_id="357">assets/icons/first_ankleitem6.swf</asset>
+				<piece type="AnklePiece">
+					<asset asset_id="213">assets/avatar/first_anklepiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+			</item>
+			<item item_id="214" name="Anklet_7" type="AnkleItem">
+				<asset asset_id="358">assets/icons/first_ankleitem7.swf</asset>
+				<piece type="AnklePiece">
+					<asset asset_id="214">assets/avatar/first_anklepiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+			</item>
+		</ItemSelector>
+		<ItemSelector type="Belt">
+			<item item_id="46" name="Sash_none" type="Belt">
+				<asset asset_id="192">assets/icons/noneitem.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="46">assets/avatar/first_waistpiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+			</item>
+			<item item_id="123" name="Sash_1" type="Belt">
+				<asset asset_id="267">assets/icons/first_waistitem1.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="123">assets/avatar/first_waistpiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+			</item>
+			<item item_id="124" name="Sash_2" type="Belt">
+				<asset asset_id="268">assets/icons/first_waistitem2.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="124">assets/avatar/first_waistpiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+			</item>
+			<item item_id="125" name="Sash_3" type="Belt">
+				<asset asset_id="269">assets/icons/first_waistitem3.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="125">assets/avatar/first_waistpiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+			</item>
+			<item item_id="126" name="Sash_4" type="Belt">
+				<asset asset_id="270">assets/icons/first_waistitem4.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="126">assets/avatar/first_waistpiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+			</item>
+			<item item_id="127" name="Sash_5" type="Belt">
+				<asset asset_id="271">assets/icons/first_waistitem5.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="127">assets/avatar/first_waistpiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+			</item>
+			<item item_id="128" name="Sash_6" type="Belt">
+				<asset asset_id="272">assets/icons/first_waistitem6.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="128">assets/avatar/first_waistpiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+			</item>
+			<item item_id="129" name="Sash_7" type="Belt">
+				<asset asset_id="273">assets/icons/first_waistitem7.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="129">assets/avatar/first_waistpiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+			</item>
+			<item item_id="130" name="Sash_8" type="Belt">
+				<asset asset_id="274">assets/icons/first_waistitem8.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="130">assets/avatar/first_waistpiece.swf</asset>
+					<frame>9</frame>
+				</piece>
+			</item>
+			<item item_id="131" name="Sash_9" type="Belt">
+				<asset asset_id="275">assets/icons/first_waistitem9.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="131">assets/avatar/first_waistpiece.swf</asset>
+					<frame>10</frame>
+				</piece>
+			</item>
+			<item item_id="132" name="Sash_10" type="Belt">
+				<asset asset_id="276">assets/icons/first_waistitem10.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="132">assets/avatar/first_waistpiece.swf</asset>
+					<frame>11</frame>
+				</piece>
+			</item>
+			<item item_id="133" name="Sash_11" type="Belt">
+				<asset asset_id="277">assets/icons/first_waistitem11.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="133">assets/avatar/first_waistpiece.swf</asset>
+					<frame>12</frame>
+				</piece>
+			</item>
+			<item item_id="134" name="Sash_12" type="Belt">
+				<asset asset_id="278">assets/icons/first_waistitem12.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="134">assets/avatar/first_waistpiece.swf</asset>
+					<frame>13</frame>
+				</piece>
+			</item>
+			<item item_id="135" name="Sash_13" type="Belt">
+				<asset asset_id="279">assets/icons/first_waistitem13.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="135">assets/avatar/first_waistpiece.swf</asset>
+					<frame>14</frame>
+				</piece>
+			</item>
+			<item item_id="136" name="Sash_14" type="Belt">
+				<asset asset_id="280">assets/icons/first_waistitem14.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="136">assets/avatar/first_waistpiece.swf</asset>
+					<frame>15</frame>
+				</piece>
+			</item>
+			<item item_id="137" name="Sash_15" type="Belt">
+				<asset asset_id="281">assets/icons/first_waistitem15.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="137">assets/avatar/first_waistpiece.swf</asset>
+					<frame>16</frame>
+				</piece>
+			</item>
+			<item item_id="138" name="Sash_16" type="Belt">
+				<asset asset_id="282">assets/icons/first_waistitem16.swf</asset>
+				<piece type="WaistPiece">
+					<asset asset_id="138">assets/avatar/first_waistpiece.swf</asset>
+					<frame>17</frame>
+				</piece>
+			</item>
+		</ItemSelector>
+		<ItemSelector type="Shoes">
+			<item item_id="219" name="Shoes_1" type="Shoes">
+				<asset asset_id="363">assets/icons/first_shoes1.swf</asset>
+				<piece type="ShoeLeftPiece">
+					<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+				<piece type="ShoeRightPiece">
+					<asset asset_id="219">assets/avatar/first_shoepiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+			</item>
+			<item item_id="220" name="Shoes_2" type="Shoes">
+				<asset asset_id="364">assets/icons/first_shoes2.swf</asset>
+				<piece type="ShoeLeftPiece">
+					<asset asset_id="220">assets/avatar/first_shoepiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+				<piece type="ShoeRightPiece">
+					<asset asset_id="220">assets/avatar/first_shoepiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+			</item>
+			<item item_id="221" name="Shoes_3" type="Shoes">
+				<asset asset_id="365">assets/icons/first_shoes3.swf</asset>
+				<piece type="ShoeLeftPiece">
+					<asset asset_id="221">assets/avatar/first_shoepiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+				<piece type="ShoeRightPiece">
+					<asset asset_id="221">assets/avatar/first_shoepiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+			</item>
+			<item item_id="222" name="Shoes_4" type="Shoes">
+				<asset asset_id="366">assets/icons/first_shoes4.swf</asset>
+				<piece type="ShoeLeftPiece">
+					<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+				<piece type="ShoeRightPiece">
+					<asset asset_id="222">assets/avatar/first_shoepiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+			</item>
+			<item item_id="223" name="Shoes_5" type="Shoes">
+				<asset asset_id="367">assets/icons/first_shoes5.swf</asset>
+				<piece type="ShoeLeftPiece">
+					<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+				<piece type="ShoeRightPiece">
+					<asset asset_id="223">assets/avatar/first_shoepiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+			</item>
+			<item item_id="224" name="Shoes_6" type="Shoes">
+				<asset asset_id="368">assets/icons/first_shoes6.swf</asset>
+				<piece type="ShoeLeftPiece">
+					<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+				<piece type="ShoeRightPiece">
+					<asset asset_id="224">assets/avatar/first_shoepiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+			</item>
+			<item item_id="225" name="Shoes_7" type="Shoes">
+				<asset asset_id="369">assets/icons/first_shoes7.swf</asset>
+				<piece type="ShoeLeftPiece">
+					<asset asset_id="225">assets/avatar/first_shoepiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+				<piece type="ShoeRightPiece">
+					<asset asset_id="225">assets/avatar/first_shoepiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+			</item>
+			<item item_id="226" name="Shoes_8" type="Shoes">
+				<asset asset_id="370">assets/icons/first_shoes8.swf</asset>
+				<piece type="ShoeLeftPiece">
+					<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+				<piece type="ShoeRightPiece">
+					<asset asset_id="226">assets/avatar/first_shoepiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+			</item>
+		</ItemSelector>
+		<ItemSelector type="WristItem">
+			<item item_id="47" name="Bracelet_none" type="WristItem">
+				<asset asset_id="192">assets/icons/noneitem.swf</asset>
+				<piece type="WristPiece">
+					<asset asset_id="47">assets/avatar/first_wristpiece.swf</asset>
+					<frame>1</frame>
+				</piece>
+			</item>
+			<item item_id="164" name="Bracelet_1" type="WristItem">
+				<asset asset_id="308">assets/icons/first_wristitem1.swf</asset>
+				<piece type="WristPiece">
+					<asset asset_id="164">assets/avatar/first_wristpiece.swf</asset>
+					<frame>2</frame>
+				</piece>
+			</item>
+			<item item_id="165" name="Bracelet_2" type="WristItem">
+				<asset asset_id="309">assets/icons/first_wristitem2.swf</asset>
+				<piece type="WristPiece">
+					<asset asset_id="165">assets/avatar/first_wristpiece.swf</asset>
+					<frame>3</frame>
+				</piece>
+			</item>
+			<item item_id="166" name="Bracelet_3" type="WristItem">
+				<asset asset_id="310">assets/icons/first_wristitem3.swf</asset>
+				<piece type="WristPiece">
+					<asset asset_id="166">assets/avatar/first_wristpiece.swf</asset>
+					<frame>4</frame>
+				</piece>
+			</item>
+			<item item_id="167" name="Bracelet_4" type="WristItem">
+				<asset asset_id="311">assets/icons/first_wristitem4.swf</asset>
+				<piece type="WristPiece">
+					<asset asset_id="167">assets/avatar/first_wristpiece.swf</asset>
+					<frame>5</frame>
+				</piece>
+			</item>
+			<item item_id="168" name="Bracelet_5" type="WristItem">
+				<asset asset_id="312">assets/icons/first_wristitem5.swf</asset>
+				<piece type="WristPiece">
+					<asset asset_id="168">assets/avatar/first_wristpiece.swf</asset>
+					<frame>6</frame>
+				</piece>
+			</item>
+			<item item_id="169" name="Bracelet_6" type="WristItem">
+				<asset asset_id="313">assets/icons/first_wristitem6.swf</asset>
+				<piece type="WristPiece">
+					<asset asset_id="169">assets/avatar/first_wristpiece.swf</asset>
+					<frame>7</frame>
+				</piece>
+			</item>
+			<item item_id="170" name="Bracelet_7" type="WristItem">
+				<asset asset_id="314">assets/icons/first_wristitem7.swf</asset>
+				<piece type="WristPiece">
+					<asset asset_id="170">assets/avatar/first_wristpiece.swf</asset>
+					<frame>8</frame>
+				</piece>
+			</item>
+		</ItemSelector>
+		<ColorSelector number="1" type="CAF_HeadItem">
+			<color color_id="37">204 214 255</color>
+			<color color_id="38">214 253 132</color>
+			<color color_id="39">81 155 92</color>
+			<color color_id="40">52 160 157</color>
+			<color color_id="41">47 101 112</color>
+			<color color_id="42">48 64 152</color>
+			<color color_id="43">100 59 175</color>
+			<color color_id="44">157 35 105</color>
+			<color color_id="45">187 39 22</color>
+			<color color_id="46">174 129 98</color>
+			<color color_id="47">255 251 134</color>
+			<color color_id="48">148 231 160</color>
+			<color color_id="49">84 199 196</color>
+			<color color_id="50">92 153 228</color>
+			<color color_id="51">141 157 245</color>
+			<color color_id="52">161 136 207</color>
+			<color color_id="53">229 156 204</color>
+			<color color_id="54">252 212 234</color>
+		</ColorSelector>
+		<ColorSelector number="2" type="CAF_Necklace">
+			<color color_id="37">204 214 255</color>
+			<color color_id="38">214 253 132</color>
+			<color color_id="39">81 155 92</color>
+			<color color_id="40">52 160 157</color>
+			<color color_id="41">47 101 112</color>
+			<color color_id="42">48 64 152</color>
+			<color color_id="43">100 59 175</color>
+			<color color_id="44">157 35 105</color>
+			<color color_id="45">187 39 22</color>
+			<color color_id="46">174 129 98</color>
+			<color color_id="47">255 251 134</color>
+			<color color_id="48">148 231 160</color>
+			<color color_id="49">84 199 196</color>
+			<color color_id="50">92 153 228</color>
+			<color color_id="51">141 157 245</color>
+			<color color_id="52">161 136 207</color>
+			<color color_id="53">229 156 204</color>
+			<color color_id="54">252 212 234</color>
+		</ColorSelector>
+		<ColorSelector number="3" type="CAF_Shirt">
+			<color color_id="1">168 229 144</color>
+			<color color_id="2">116 207 129</color>
+			<color color_id="3">85 144 80</color>
+			<color color_id="4">117 138 255</color>
+			<color color_id="5">183 191 252</color>
+			<color color_id="6">135 195 241</color>
+			<color color_id="7">255 165 138</color>
+			<color color_id="8">218 100 139</color>
+			<color color_id="9">247 251 102</color>
+			<color color_id="10">255 188 109</color>
+			<color color_id="11">255 176 27</color>
+			<color color_id="12">255 124 72</color>
+			<color color_id="13">240 97 81</color>
+			<color color_id="14">159 67 206</color>
+			<color color_id="15">204 131 220</color>
+			<color color_id="16">255 147 223</color>
+			<color color_id="17">217 255 135</color>
+			<color color_id="18">165 247 244</color>
+		</ColorSelector>
+		<ColorSelector number="4" type="CAF_Belt">
+			<color color_id="37">204 214 255</color>
+			<color color_id="38">214 253 132</color>
+			<color color_id="39">81 155 92</color>
+			<color color_id="40">52 160 157</color>
+			<color color_id="41">47 101 112</color>
+			<color color_id="42">48 64 152</color>
+			<color color_id="43">100 59 175</color>
+			<color color_id="44">157 35 105</color>
+			<color color_id="45">187 39 22</color>
+			<color color_id="46">174 129 98</color>
+			<color color_id="47">255 251 134</color>
+			<color color_id="48">148 231 160</color>
+			<color color_id="49">84 199 196</color>
+			<color color_id="50">92 153 228</color>
+			<color color_id="51">141 157 245</color>
+			<color color_id="52">161 136 207</color>
+			<color color_id="53">229 156 204</color>
+			<color color_id="54">252 212 234</color>
+		</ColorSelector>
+		<ColorSelector number="5" type="CAF_Skirt">
+			<color color_id="19">142 213 123</color>
+			<color color_id="20">93 190 107</color>
+			<color color_id="21">67 132 62</color>
+			<color color_id="22">91 114 242</color>
+			<color color_id="23">152 162 242</color>
+			<color color_id="24">112 176 226</color>
+			<color color_id="25">240 137 106</color>
+			<color color_id="26">201 79 119</color>
+			<color color_id="27">249 216 100</color>
+			<color color_id="28">181 135 82</color>
+			<color color_id="29">239 139 10</color>
+			<color color_id="30">240 106 52</color>
+			<color color_id="31">228 78 62</color>
+			<color color_id="32">120 41 162</color>
+			<color color_id="33">186 111 202</color>
+			<color color_id="34">238 123 203</color>
+			<color color_id="35">180 218 102</color>
+			<color color_id="36">128 219 208</color>
+		</ColorSelector>
+		<ColorSelector number="6" type="CAF_WristItem">
+			<color color_id="37">204 214 255</color>
+			<color color_id="38">214 253 132</color>
+			<color color_id="39">81 155 92</color>
+			<color color_id="40">52 160 157</color>
+			<color color_id="41">47 101 112</color>
+			<color color_id="42">48 64 152</color>
+			<color color_id="43">100 59 175</color>
+			<color color_id="44">157 35 105</color>
+			<color color_id="45">187 39 22</color>
+			<color color_id="46">174 129 98</color>
+			<color color_id="47">255 251 134</color>
+			<color color_id="48">148 231 160</color>
+			<color color_id="49">84 199 196</color>
+			<color color_id="50">92 153 228</color>
+			<color color_id="51">141 157 245</color>
+			<color color_id="52">161 136 207</color>
+			<color color_id="53">229 156 204</color>
+			<color color_id="54">252 212 234</color>
+		</ColorSelector>
+		<ColorSelector number="7" type="CAF_AnkleItem">
+			<color color_id="37">204 214 255</color>
+			<color color_id="38">214 253 132</color>
+			<color color_id="39">81 155 92</color>
+			<color color_id="40">52 160 157</color>
+			<color color_id="41">47 101 112</color>
+			<color color_id="42">48 64 152</color>
+			<color color_id="43">100 59 175</color>
+			<color color_id="44">157 35 105</color>
+			<color color_id="45">187 39 22</color>
+			<color color_id="46">174 129 98</color>
+			<color color_id="47">255 251 134</color>
+			<color color_id="48">148 231 160</color>
+			<color color_id="49">84 199 196</color>
+			<color color_id="50">92 153 228</color>
+			<color color_id="51">141 157 245</color>
+			<color color_id="52">161 136 207</color>
+			<color color_id="53">229 156 204</color>
+			<color color_id="54">252 212 234</color>
+		</ColorSelector>
+		<ColorSelector number="8" type="CAF_Shoes">
+			<color color_id="19">142 213 123</color>
+			<color color_id="20">93 190 107</color>
+			<color color_id="21">67 132 62</color>
+			<color color_id="22">91 114 242</color>
+			<color color_id="23">152 162 242</color>
+			<color color_id="24">112 176 226</color>
+			<color color_id="25">240 137 106</color>
+			<color color_id="26">201 79 119</color>
+			<color color_id="27">249 216 100</color>
+			<color color_id="28">181 135 82</color>
+			<color color_id="29">239 139 10</color>
+			<color color_id="30">240 106 52</color>
+			<color color_id="31">228 78 62</color>
+			<color color_id="32">120 41 162</color>
+			<color color_id="33">186 111 202</color>
+			<color color_id="34">238 123 203</color>
+			<color color_id="35">180 218 102</color>
+			<color color_id="36">128 219 208</color>
+		</ColorSelector>
+
+	</DressFairy>
+</FairiesNewFairyResponse>

@@ -1,0 +1,34 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0" role="CHEESE">What a great day!</line>
+    <line id="1" role="CHEESE">I got to pull Copper's wagon and now I get to visit Tink!</line>
+    <line id="2" role="CHEESE" emote="24">She gives me cheese!</line>
+    <line id="3" role="CHEESE" emote="2" direction="USE WASP PROP: WASP SWARM APPEARS">Oh no! Wasps! They're heading for Rosetta's garden!</line>
+    <line id="4" role="CHEESE">Bunny, quick! You're faster than me!</line>
+    <line id="5" role="CHEESE">Run around and around those wasps!</line>
+    <line id="6" role="CHEESE">Make them dizzy so they can't find the garden!</line>
+    <line id="7" role="BUNNY">You got it, Cheese!</line>
+    <line id="8" role="CHEESE" direction="USE WASP PROP: SWARM DISAPPEARS">Rosetta's garden is saved! Thanks, Bunny!</line>
+    <line id="9" role="BUNNY" emote="14">No problem, Cheese!</line>
+    <line id="10" role="CHEESE" direction="USE TREE PROP: SQUIRREL APPEARS">Yikes! That baby squirrel might fall!</line>
+    <line id="11" role="CHEESE">Chipmunk, quick! Climb up!</line>
+    <line id="12" role="CHEESE">Get him to go back in his home, okay?</line>
+    <line id="13" role="CHEESE">He shouldn't be out alone!</line>
+    <line id="14" role="CHIPMUNK">You got it, Cheese!</line>
+    <line id="15" role="CHEESE" direction="USE TREE PROP: SQUIRREL DISAPPEARS">The baby squirrel will be safe now! Thanks!</line>
+    <line id="16" role="CHIPMUNK" emote="14">No problem, Cheese!</line>
+    <line id="17" role="CHEESE" direction="USE THISTLE PROP: THISTLES APPEAR">Oh no! Sprinting Thistles!</line>
+    <line id="18" role="CHEESE">Bird!  Help!</line>
+    <line id="19" role="CHEESE">Chase the Sprinting Thistles away!</line>
+    <line id="20" role="CHEESE">They will trample Tinker's Nook!</line>
+    <line id="21" role="BIRD">Squawk, squawk, Cheese!</line>
+    <line id="22" role="CHEESE" direction="USE THISTLE PROP: THISTLES DISAPPEAR">Alright!  Tinker's Nook is saved! Thanks, Bird!</line>
+    <line id="23" role="BIRD" emote="16">Any time, Cheese!</line>
+    <line id="24" role="CHEESE">At last! Tink's house!</line>
+    <line id="25" role="TINKER BELL" direction="TINKER BELL ENTERS">Hi, Cheese! Where have you been?</line>
+    <line id="26" role="TINKER BELL">Messing around in the forest, I bet.</line>
+    <line id="27" role="CHEESE" emote="17">Squeak squeak!</line>
+    <line id="28" role="TINKER BELL">Okay, come in. I've got some cheese for you!</line>
+    <line id="29" role="CHEESE" emote="25">Like I said, what a great day!</line>
+  </scene>
+</script>

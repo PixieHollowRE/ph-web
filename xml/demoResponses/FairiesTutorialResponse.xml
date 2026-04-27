@@ -1,0 +1,13 @@
+﻿<FairiesTutorialResponse>
+	<success>true</success>
+	<help_status type="DECORATE_HOME">0</help_status>
+	<help_status type="FAVORITES_ARCHIVE">0</help_status>
+	<help_status type="VISITOR">0</help_status>
+	<help_status type="CREATE_MESSAGE">0</help_status>
+	<help_status type="WARDROBE">0</help_status>
+	<help_status type="MAIN_PAGE">1</help_status>
+	<help_status type="FAIRY_MANAGER">0</help_status>
+	<help_status type="FAIRY_INDEX">0</help_status>
+	<help_status type="MESSAGE_ARCHIVE">0</help_status>
+	<help_status type="EDIT_PAGE">0</help_status>
+</FairiesTutorialResponse>

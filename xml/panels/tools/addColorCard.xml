@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/tools/addColorCard.swf</swf>
+		<swf type="code">{panelCode}/addColorCard.swf</swf>
+	</swfs>
+	<copy>
+	</copy>
+	<config>
+		<replace target="newColor" type="colorselector" />
+	</config>
+</panel>

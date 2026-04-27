@@ -1,0 +1,34 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0" role="Storyteller">Once upon the trees, there was this campfire.</line>
+    <line id="1" role="Storyteller">The campfire's name was Lite</line>
+    <line id="2" role="Storyteller" emote="12">and it liked being lit and it was very friendly.</line>
+    <line id="3" role="Storyteller">One day, it was very dark and no one was around.</line>
+    <line id="4" role="Storyteller" emote="1">It wasn't lit and was scared like a firefly with no light.</line>
+    <line id="5" role="Storyteller">Something rustled in the bushes!</line>
+    <line id="6" role="Storyteller">It was just wind though, thought Lite.</line>
+    <line id="7" role="Storyteller">Lite tried and tried to get lit</line>
+    <line id="8" role="Storyteller">it was just a matter of time for someone to come out of the bushes.</line>
+    <line id="9" role="Storyteller">It was Tinker Bell!</line>
+    <line id="10" role="Storyteller" emote="7">Lite was so excited!</line>
+    <line id="11" role="Storyteller">He knew that Tinker Bell would absolutely help!</line>
+    <line id="12" role="Storyteller" emote="6">But, sadly, Tink said she was a Tinker, not a Light Fairy.</line>
+    <line id="13" role=" Storyteller">So.....she left.</line>
+    <line id="14" role="Storyteller">Poor Lite, all sad and lonley.</line>
+    <line id="15" role="Storyteller">Someone should've lit Lite by now!</line>
+    <line id="16" role="Storyteller">Oh and something wonderful happened!</line>
+    <line id="17" role="Storyteller">Rosetta came and saw Lite.</line>
+    <line id="18" role="Storyteller">She wanted to help but she couldn't!</line>
+    <line id="19" role="Storyteller">She was a Garden Fairy not a Light Fairy.</line>
+    <line id="20" role="Storyteller">Lite's hopes started to fade...</line>
+    <line id="21" role="Storyteller">Iridessa came while Lite was sleeping.</line>
+    <line id="22" role="Storyteller">WAKE UP LITE!</line>
+    <line id="23" role="Storyteller" emote="14">Suddenly, Lite woke up to see Iridessa light Lite up.</line>
+    <line id="24" role="Storyteller">Lite was very happy.</line>
+    <line id="25" role="Storyteller">Lite told all its children and the story got better and better.</line>
+    <line id="26" role="Storyteller">Of course, Lite was a patient campfire.</line>
+    <line id="27" role="Storyteller">Now Fairies and Sparrow Men like to gather 'round Lite,</line>
+    <line id="28" role="Storyteller" emote="27">and sing Campfire songs.</line>
+    <line id="29" role="Storyteller">THE END</line>
+  </scene>
+</script>

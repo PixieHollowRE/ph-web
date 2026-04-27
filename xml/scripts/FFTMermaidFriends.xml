@@ -1,0 +1,45 @@
+<script useSceneTitles="1">
+	<scene id="1">
+		<line id="0" role="CORAL" emote="6">Oh no! I broke Sandy's pearl hair comb!</line>
+		<line id="1" role="CORAL" direction="FLIP &amp; FLOP ENTER: USE SEAWEED DOOR">It was a gift from the Queen! What should I do?</line>
+		<line id="2" role="FLIP" direction="USE CORAL PROP FOR HEART BUBBLES">Need some advice? I'm here to help!</line>
+		<line id="3" role="FLOP" direction="USE ROCK PROP FOR STEAM EFFECT">Stay outta this, bubble brain. She needs to listen to ME!</line>
+		<line id="4" role="FLIP">Coral, you have to tell Sandy that you broke her comb.</line>
+		<line id="5" role="FLOP">Clam it, Flip. She should never tell anybody.</line>
+		<line id="6" role="CORAL" emote="8">Hmmm...</line>
+		<line id="7" role="FLIP">You broke Sandy's pearl comb by accident, right?</line>
+		<line id="8" role="FLIP">Make her a new one. I know Sandy will forgive you!</line>
+		<line id="9" role="FLOP">Ugh! Flip, you're such a kissy fin.</line>
+		<line id="10" role="FLOP">Here's what you do. Step one, keep the truth to yourself.</line>
+		<line id="11" role="FLOP" direction="USE ROCK PROP FOR STEAM EFFECT">Step two, bury that broken comb someplace deep.</line>
+		<line id="12" role="FLIP">Sweet seaweed, Flop! She has to do the right thing!</line>
+		<line id="13" role="FLIP" direction="USE CORAL PROP FOR HEART BUBBLES" emote="16">Real friends will forgive each other!</line>
+		<line id="14" role="FLOP">Wake up and smell the squid ink!</line>
+		<line id="15" role="FLOP">Sandy will be so mad if she learns the truth!</line>
+		<line id="16" role="CORAL">Wait, you two! I can't lie to Sandy.</line>
+		<line id="17" role="FLOP">Who said anything about lying? Just don't tell her. </line>
+		<line id="18" role="FLOP" emote="4">If she finds out, THEN you lie! </line>
+		<line id="19" role="CORAL">I don't think so. Flip, will you help me make a new comb?</line>
+		<line id="20" role="FLIP">Do you have a pearl?</line>
+		<line id="21" role="CORAL">Oops. No.</line>
+		<line id="22" role="FLIP" direction="USE ROCK PROP FOR STEAM EFFECT">What about your magical sea emerald?</line>
+		<line id="23" role="FLIP">Use that and Sandy will be sure to forgive you.</line>
+		<line id="24" role="CORAL" emote="6">But... but... there's not another sea emerald like it! Anywhere! </line>
+		<line id="25" role="FLIP">Sandy's comb was a one-of-a-kind gift from the Queen. </line>
+		<line id="26" role="CORAL" direction="USE CORAL PROP FOR HEART BUBBLES">You're right. It's the right thing to do.</line>
+		<line id="27" role="FLIP" direction="FLIP EXITS - USE SEAWEED DOOR">You get your emerald. I'll get seahorse spines for the comb!</line>
+		<line id="28" role="FLOP">Sure you're doing the right thing? Lying is so much easier!</line>
+		<line id="29" role="CORAL" direction="FLIP ENTERS - USE SEAWEED DOOR">You cranky little fish! Sandy should know the truth.</line>
+		<line id="30" role="FLIP" direction="USE CORAL PROP FOR HEART BUBBLES">I got some seahorse spines. Let's make the comb!</line>
+		<line id="31" role="CORAL" direction="SANDY ENTERS - USE SEAWEED DOOR">I hope Sandy likes it. And I hope she forgives me!</line>
+		<line id="32" role="SANDY">Forgive you for what?</line>
+		<line id="33" role="CORAL" emote="6">I broke your pearl hair comb.</line>
+		<line id="34" role="CORAL">But I made you this to say I'm sorry!</line>
+		<line id="35" role="SANDY" emote="1">Isn't that your magical sea emerald? </line>
+		<line id="36" role="CORAL">I'm so sorry for breaking your comb! Can you forgive me?</line>
+		<line id="37" role="SANDY" emote="12" direction="USE CORAL PROP FOR HEART BUBBLES">Of course I forgive you! You're my best friend!</line>
+		<line id="38" role="FLOP" emote="10" direction="USE ROCK PROP FOR STEAM EFFECT">I'm leaving before I toss my seaweed. </line>
+		<line id="39" role="FLIP">Flop, no one ever listens to you. Just give up.</line>
+		<line id="40" role="FLOP" direction="FLOP EXITS - USE SEAWEED DOOR">There's always tomorrow, Flip.</line>
+	</scene>
+</script>

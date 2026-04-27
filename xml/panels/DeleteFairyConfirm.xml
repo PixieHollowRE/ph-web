@@ -1,0 +1,20 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/DeleteFairyConfirm.swf</swf>
+		<swf type="code">{panelCode}/DeleteFairyConfirm.swf</swf>
+	</swfs>
+	<copy>
+		<panelTitle>Delete Fairy?</panelTitle>
+		<passwordCopy>Password</passwordCopy>
+		<deleteFairyCopy>Careful!  This will delete #NAME# forever.  To delete this #GENDER#, enter your password.</deleteFairyCopy>
+		<continueBtn target="contentClip.continuebutton.caption">Continue</continueBtn>
+		<cancelBtn target="contentClip.cancelbutton.caption">Cancel</cancelBtn>
+		<dbfail>Sorry, something's not right.  Try back later!</dbfail>
+		<passwordRequired>You must first enter your password before attempting to delete your #GENDER#.</passwordRequired>
+		<invalidPassword>Sorry. Your password is not correct. Please try again.</invalidPassword>
+		<removingFairy>Removing your #GENDER#...</removingFairy>
+		<deletesuccess>#GENDER# removed.</deletesuccess>
+		<okay>Okay</okay>
+	</copy>
+	<config></config>
+</panel>

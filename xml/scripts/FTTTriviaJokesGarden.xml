@@ -1,0 +1,16 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0" role="QUESTION">What is Rosetta's favorite flower?</line>
+    <line id="1" role="ANSWER">Wild Rose.</line>
+    <line id="2" role="QUESTION">How do the garden-talents transport flowers?</line>
+    <line id="3" role="ANSWER">In a PETAL PICK-UP truck!</line>
+    <line id="4" role="QUESTION">Which Fairy wins a race in the Winter Woods?</line>
+    <line id="5" role="ANSWER">The first one to the FINISH PINE!</line>
+    <line id="6" role="QUESTION">Minister rumored to have been a garden-talent?</line>
+    <line id="7" role="ANSWER">The Minister of Spring.</line>
+	<line id="8" role="QUESTION">What is Rosetta's favorite drink?</line>
+    <line id="9" role="ANSWER">PINECONE POP!</line>
+	<line id="10" role="QUESTION">What's Tinker Bell's favorite food?</line>
+    <line id="11" role="ANSWER">Pumpkin Muffins.</line>
+  </scene>
+</script>

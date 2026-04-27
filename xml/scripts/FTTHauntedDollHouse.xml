@@ -1,0 +1,22 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0">Welcome to the Haunted Dollhouse!</line>
+    <line id="1">Tink's friend Lizzy gave us her dollhouse!</line>
+    <line id="2">Fawn and the mice made it spooky!</line>
+    <line id="3">Enter if you dare!</line>
+    <line id="4">Dun dun dun!</line>
+    <line id="5">I'm no scaredy cat!</line>
+    <line id="6">Boo!</line>
+    <line id="7">What was that noise?</line>
+    <line id="8">Did you hear that squeak?</line>
+    <line id="9">Watch out behind you!</line>
+    <line id="10">AAAH!</line>
+    <line id="11">Oh, it's only a mouse!</line>
+    <line id="12">You scared me!</line>
+    <line id="13">Look out for that bat!</line>
+    <line id="14">I'm a Fairy ghost!</line>
+    <line id="15">Hee hee! Just kidding!</line>
+    <line id="16">This is spooktacular!</line>
+    <line id="17">Fly safely!</line>
+  </scene>
+</script> 

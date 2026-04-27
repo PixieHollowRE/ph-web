@@ -1,0 +1,30 @@
+<level>
+	<introMessage>Song 2 - Part 1 - Medium</introMessage>
+
+	<bgTrack>audio/animalRhythm/piece2/bed.mp3</bgTrack>
+
+	<fgTrack>audio/animalRhythm/piece2/melody_1.mp3</fgTrack>
+
+	<mistakeTrack>audio/animalRhythm/piece2/mistake_var1.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece2/mistake_var2.mp3</mistakeTrack>
+	<mistakeTrack>audio/animalRhythm/piece2/mistake_var3.mp3</mistakeTrack>
+
+	<animal bedType="Squirrel" type="Man" wakeStates="0-5,6-20,21-35,36-100" position="oneAnimalCentered" />
+
+	<target key="LEFT" secondaryKey="" position="4825" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="5059" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="7162" length="-1" autoplay="false"/>
+
+	<target key="LEFT" secondaryKey="" position="9523" length="-1" autoplay="true"/>
+	<target key="UP" secondaryKey="" position="10694" length="-1" autoplay="false"/>
+	<target key="RIGHT" secondaryKey="" position="11825" length="-1" autoplay="false"/>
+
+	<target key="RIGHT" secondaryKey="" position="14235" length="-1" autoplay="true"/>
+	<target key="DOWN" secondaryKey="" position="15405" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="16545" length="-1" autoplay="false"/>
+
+	<target key="RIGHT" secondaryKey="" position="18910" length="-1" autoplay="true"/>
+	<target key="DOWN" secondaryKey="" position="20075" length="-1" autoplay="false"/>
+	<target key="LEFT" secondaryKey="" position="21235" length="-1" autoplay="false"/>
+
+</level>

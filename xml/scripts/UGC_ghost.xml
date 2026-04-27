@@ -1,0 +1,33 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0" role="ROSA">I have a story to tell of the ghost of Fairy Tale Theater.</line>
+    <line id="1" role="HOPE">A ghost?</line>
+    <line id="2" role="ROSA">Yes, this one stays at the theater because she loves plays.</line>
+    <line id="3" role="AMBER" emote="8">Hmm, ghosts don't even exist.</line>
+    <line id="4" role="ROSA">This ghost watches all the plays here.</line>
+    <line id="5" role="AMBER">Really?</line>
+    <line id="6" role="ROSA">She even used to speak back lines to actors.</line>
+    <line id="7" role="HOPE">A ghost can talk?</line>
+    <line id="8" role="ROSA">Yes, and this one actually can sing.</line>
+    <line id="9" role="HOPE">Gulp.</line>
+    <line id="10" role="ROSA">The ghost sang to actors in plays, scaring everyone.</line>
+    <line id="11" role="AMBER">Yeah right.</line>
+    <line id="12" role="ROSA">She would!</line>
+    <line id="13" role="AMBER">I bet you this ghost would sing to us if we called to her.</line>
+    <line id="14" role="HOPE" emote="2">I'm not sure we should try it guys.</line>
+    <line id="15" role="ROSA">I think it's a great idea.</line>
+    <line id="16" role="HOPE">Um, how would we even call to her?</line>
+    <line id="17" role="AMBER" emote="27">Maybe we should try singing.</line>
+    <line id="18" role="ROSA" emote="27">Good idea.</line>
+    <line id="19" role="HOPE">Nothing happened.</line>
+    <line id="20" role="AMBER">Maybe we should ask her?</line>
+    <line id="21" role="ROSA">Sing!</line>
+    <line id="22" role="SHIMMER" emote="27">*Singing*</line>
+    <line id="23" role="HOPE" emote="1">AH!!!!!</line>
+    <line id="24" role="ROSA">Wait it sounds familiar... Shimmer you scared us!</line>
+    <line id="25" role="AMBER">It was just your pet hummingbird?</line>
+    <line id="26" role="HOPE">I guess there really wasn't a ghost after all.</line>
+    <line id="27" role="ROSA">I guess not, let's go guys.</line>
+    <line id="28" role="GHOST" emote="4">La la la.</line>
+  </scene>
+</script>

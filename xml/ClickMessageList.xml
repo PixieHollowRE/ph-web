@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ClickMessageList>
+	<copy>
+		<message1 id="1">Hi, new pixie pal!</message1>
+		<message2 id="2">I'm pleased to fly with you!</message2>
+		<message3 id="3">You're the best pixie pal ever!</message3>
+		<message4 id="4">Wings down, you're the best!</message4>
+		<message5 id="5">You are my forever friend.</message5>
+		<message6 id="6">I'd fly to the moon for you.</message6>
+		<message7 id="7">I think you're as lovely as a lily.</message7>
+		<message8 id="8">You're a super-fun Fairy!</message8>
+		<message9 id="9">We have so much fun together!</message9>
+		<message10 id="10">You've got amazing Fairy style!</message10>
+		<message11 id="11">I think you are an awesome Fairy!</message11>
+		<message12 id="12">You're so awesome you blow my dust away!</message12>
+		<message13 id="13">I can't believe how adorable you look!</message13>
+		<message14 id="14">You sparkle with magic!</message14>
+		<message15 id="15">You're a-glitter with magic!</message15>
+		<message16 id="16">I think you area great friend.</message16>
+		<message17 id="17">There's nothing better than Fairies!</message17>
+		<message18 id="18">Let's kick up a little pixie dust!</message18>
+		<message19 id="19">I want to be a Fairy forever!</message19>
+		<message20 id="20">Being a Fairy is a dream come true!</message20>
+	</copy>
+</ClickMessageList>

@@ -1,0 +1,30 @@
+<script useSceneTitles="0">
+  <scene id="1">
+    <line id="0" role="Rosetta">I'm ready for more flower petals to be blown off, sugar.</line>
+    <line id="1" role="Vidia">I'm no one's sugar!</line>
+    <line id="2" role="Vidia" emote="5">I could be racing dragonflies right now.</line>
+    <line id="3" role="Fawn">Oh come on Vidia! It's fun helping your friends!</line>
+    <line id="4" role="Vidia">Well, I didn't get a choice and I don't need any friends!</line>
+    <line id="5" role="Rosetta" emote="1">Everyone needs friends.</line>
+    <line id="6" role="Vidia">Not Me! When are you two going to be done?</line>
+    <line id="7" role="Fawn">If you would come help us gather it would go faster.</line>
+    <line id="8" role="Vidia">Fine! Anything to get me away from you two quicker.</line>
+    <line id="9" role="Fawn">There are some more petals just inside those bushes, Vidia.</line>
+    <line id="10" role="Vidia" emote="2">Help! Help!</line>
+    <line id="11" role="Fawn" emote="1">Oh no! A snake has Vidia in its coils.</line>
+    <line id="12" role="Rosetta">Oh my goodness gracious I have to help Vidia!</line>
+    <line id="13" role="Fawn">Stay back Rosetta, it's small but dangerous.</line>
+    <line id="14" role="Vidia">Great!</line>
+    <line id="15" role="Rosetta">It's ok Vidia, just look at me and be calm.</line>
+    <line id="16" role="Rosetta">Fawn will help you!</line>
+    <line id="17" role="Fawn">I've never charmed a snake before.</line>
+    <line id="18" role="Fawn" emote="27">I'll give it a try.</line>
+    <line id="19" role="Rosetta">It's working! He's uncoiling, hurry Vidia! Fly away!!</line>
+    <line id="20" role="Fawn">I'm so glad you are ok, Vidia!</line>
+    <line id="21" role="Vidia" emote="11">Me too! Thanks for helping me.</line>
+    <line id="22" role="Rosetta">That's what friends are for.</line>
+    <line id="23" role="Vidia" emote="1">I'm your friend?</line>
+    <line id="24" role="Fawn">Of course you are!!</line>
+    <line id="25" role="Vidia">Whatever! (Flies off, with a little smile on her face)</line>
+  </scene>
+</script>

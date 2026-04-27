@@ -1,0 +1,170 @@
+<panel>
+	<swfs>
+		<swf type="content">{panelContent}/caf_did.swf</swf>
+		<swf type="code">{panelCode}/caf_did.swf</swf>
+	</swfs>
+	<copy>
+		<!-- top level copy -->
+		<!-- if you change these you'll need to change fla references too...so if these DO ever change for display purposes, let's rename to id and add a "visName" field or something -->
+		<sceneName1>Gender</sceneName1>
+		<sceneName2>Face</sceneName2>
+		<sceneName3>Hair</sceneName3>
+		<sceneName4>Wings</sceneName4>
+		<sceneName5>Talent</sceneName5>
+
+		<saveError>Something is wrong. Try saving later!</saveError>
+		<greetingOKConfirm>NEXT</greetingOKConfirm>
+
+		<!-- SCENE 1 : GENDER -->
+		<singularFemaleAvatar>Fairy</singularFemaleAvatar>
+		<singularMaleAvatar>Sparrow Man</singularMaleAvatar>
+		<pluralFemaleAvatar>Fairies</pluralFemaleAvatar>
+		<pluralMaleAvatar>Sparrow Men</pluralMaleAvatar>
+
+		<genderSceneDefault>Please Pick One</genderSceneDefault>
+		<genderSceneChosen>#AVATAR#</genderSceneChosen>
+
+		<!-- SCENE 2 : FACE -->
+		<skinColorChooserLabel>Skin Color</skinColorChooserLabel>
+		<eyeColorChooserLabel>Eye Color</eyeColorChooserLabel>
+
+		<!-- SCENE 3 : HAIR -->
+		<hairColorChooserLabel>Hair Color</hairColorChooserLabel>
+
+		<!-- SCENE 5 : TALENT -->
+		<talentSuffix>Talent</talentSuffix>
+		<talent1Name>Animal</talent1Name>
+		<talent1Desc>It's great to be an animal talent, this is placeholder text, it will be magical someday</talent1Desc>
+
+		<talent2Name>Garden</talent2Name>
+		<talent2Desc>Garden talents help things grow, like roses and daisies and tulips and cacti and grass and sunflowers and apples and trees.</talent2Desc>
+
+		<talent3Name>Light</talent3Name>
+		<talent3Desc>Without light talents you'd be in the dark. It's scary there. Light talents shine.</talent3Desc>
+
+		<talent4Name>Water</talent4Name>
+		<talent4Desc>Water talents love to splash and have fun in the water and make it rain and so on and so forth</talent4Desc>
+
+		<talent5Name>Tinker</talent5Name>
+		<talent5Desc>Tinker talents are great, but I am getting tired of making placeholder text</talent5Desc>
+
+
+	</copy>
+	<config>
+		<!-- when picking a talent, certain assets get tinted -->
+		<talent1Color belt="87" wing="109"/>
+		<talent2Color belt="130" wing="110"/>
+		<talent3Color belt="9" wing="111"/>
+		<talent4Color belt="23" wing="112"/>
+		<talent5Color belt="64" wing="165"/>
+
+		<!-- <cafData>xml/caf/did_cafData.xml</cafData> -->
+		<initDNA>xml/caf/did_initDNA.xml</initDNA>
+
+		<sceneGender_defaultPlayerPosition>228,2000,1,right</sceneGender_defaultPlayerPosition>
+		<!-- <sceneGender_defaultPlayerPosition>640,185,.4,left</sceneGender_defaultPlayerPosition> --> <!-- onscreen gender pos for debugging -->
+		<sceneFace_defaultPlayerPosition>290,410,1.4,right</sceneFace_defaultPlayerPosition>
+		<sceneHair_defaultPlayerPosition>300,345,1,right</sceneHair_defaultPlayerPosition>
+		<sceneWings_defaultPlayerPosition>340,185,.4,right</sceneWings_defaultPlayerPosition>
+		<sceneTalent_defaultPlayerPosition>340,185,.4,right</sceneTalent_defaultPlayerPosition>
+
+		<pickerData>
+			<colorPools>
+				<skinColor>
+					<color>91</color>
+					<color>92</color>
+					<color>93</color>
+					<color>94</color>
+					<color>95</color>
+					<color>96</color>
+					<color>97</color>
+					<color>98</color>
+					<color>99</color>
+					<color>100</color>
+					<color>101</color>
+					<color>102</color>
+					<color>103</color>
+					<color>104</color>
+					<color>105</color>
+					<color>106</color>
+					<color>107</color>
+					<color>108</color>
+				</skinColor>
+				<eyeColor>
+					<color>55</color>
+					<color>56</color>
+					<color>57</color>
+					<color>58</color>
+					<color>59</color>
+					<color>60</color>
+					<color>61</color>
+					<color>62</color>
+					<color>63</color>
+					<color>64</color>
+					<color>65</color>
+					<color>66</color>
+					<color>67</color>
+					<color>68</color>
+					<color>69</color>
+					<color>70</color>
+					<color>71</color>
+					<color>72</color>
+				</eyeColor>
+				<hairColor>
+					<color>73</color>
+					<color>76</color>
+					<color>79</color>
+					<color>82</color>
+					<color>85</color>
+					<color>87</color>
+					<color>90</color>
+				</hairColor>
+			</colorPools>
+
+			<wings>
+				<wing>6001</wing>
+				<wing>6002</wing>
+				<wing>6003</wing>
+				<wing>6004</wing>
+				<wing>6005</wing>
+				<wing>6006</wing>
+			</wings>
+
+			<hairStyles>
+				<!-- comma separated list of hair id's; code will make choices out of all possible combinations -->
+				<female>
+					<fronts>5007,5004,5001</fronts>
+					<backs>5505,5503,5521</backs>
+				</female>
+				<male>
+					<fronts>5046,5048,5051</fronts>
+					<backs>5547,5554,5557</backs>
+				</male>
+			</hairStyles>
+
+			<facesAndEyes>
+				<!-- faceId|eyeId -->
+				<female>
+					<combo>4514|4003</combo>
+					<combo>4501|4001</combo>
+					<combo>4503|4017</combo>
+				</female>
+				<male>
+					<combo>4535|4035</combo>
+					<combo>4541|4039</combo>
+					<combo>4544|4043</combo>
+				</male>
+			</facesAndEyes>
+		</pickerData>
+
+		<!-- dummy values for necklace/anklet etc., passed along to the create fairy request -->
+		<defaultAssets>
+			<defaultAsset type="AnkleItem">3001</defaultAsset>
+			<defaultAsset type="WristItem">1501</defaultAsset>
+			<defaultAsset type="Necklace">2501</defaultAsset>
+			<defaultAsset type="HeadItem">2001</defaultAsset>
+		</defaultAssets>
+
+	</config>
+</panel>
+
