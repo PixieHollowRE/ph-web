@@ -9,10 +9,10 @@
 	var PROTOCOL = (window.location.protocol && window.location.protocol == 'https:') ? 'https' : 'http';
 
 	var PATH = {
-		root:       'http://127.0.0.1/franchise/fairies',
-		SSLRoot:	'http://127.0.0.1/franchise/fairies',
-		API:		'http://127.0.0.1/fairies/api',
-		SSLAPI:		'http://127.0.0.1/fairies/api',
+		root:       '/franchise/fairies',
+		SSLRoot:	'/franchise/fairies',
+		API:		'/fairies/api',
+		SSLAPI:		'/fairies/api',
 		renderer:	PROTOCOL + '://apps.pixiehollow.go.com/fairies-render',
 		goKart:		'https://register.go.com/fairies/pixiehollow',
 		blog:		'http://blog.pixiehollow.go.com/blog',
@@ -80,7 +80,7 @@
 						var flashvars = {
 							session: "xml/sessions/mmo.xml",
 							currentUrl: location.href,
-							htmlEnvironment: 'http://127.0.0.1/',
+							htmlEnvironment: '/',
 							base: './'
 						};
 
@@ -88,7 +88,7 @@
 							allowScriptAccess: 'always',
 							bgcolor: '#050C1F',
 							wmode: 'default',
-							base: 'http://127.0.0.1/'
+							base: '/'
 						};
 
 						var attributes = {
@@ -96,7 +96,7 @@
 							name: "pixiehollowcontent"
 						};
 
-						swfobject.embedSWF("http://127.0.0.1/swf/container.swf", "game", "994", "680", "10.0.0", "http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, flashparams, attributes);
+						swfobject.embedSWF("/swf/container.swf", "game", "994", "680", "10.0.0", "http://a.dolimg.com/swf/dcom/expressInstall.swf", flashvars, flashparams, attributes);
 					});
 				</script>
 			</div>
