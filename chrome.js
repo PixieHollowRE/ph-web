@@ -304,7 +304,7 @@ var _gdeChrome = new function() {
 		_gdeChrome.setStyle('horizontalLineColor', data.horizontalLineColor);
 		var mediaPath = '';
 		if (_gdeChrome.secure) {
-			mediaPath = 'https://s.dolimg.com/en-US/dcom/media/chrome/sprites/';
+			mediaPath = '/en-US/dcom/media/chrome/sprites/';
 		} else {
 			mediaPath = 'http://a.dolimg.com/en-US/dcom/media/chrome/sprites/';
 		};
