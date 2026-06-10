@@ -3,4 +3,8 @@
 reverse_proxy /fairies/api/* 127.0.0.1:8013
 reverse_proxy /dxd/* 127.0.0.1:8013
 reverse_proxy /commerce/* 127.0.0.1:8013
+
+redir /franchise/fairies/pixie-hollow/create/ /create.html permanent
+redir /franchise/fairies/pixie-hollow/game/ /live.html permanent
+
 file_server
