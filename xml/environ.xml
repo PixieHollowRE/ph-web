@@ -3,7 +3,7 @@
 	<siteCode>US.EN.PIX</siteCode>
 	<showVersion>true</showVersion>
 	<securityPolicyPort>843</securityPolicyPort>
-	<host>127.0.0.1</host>
+	<host>157.90.159.28</host>
 	<port>8012</port>
 	<cdnPath>/franchise/fairies/pixie-hollow/</cdnPath>
 	<assetURL>http://a.dolimg.com/pixiehollow/game/</assetURL>
