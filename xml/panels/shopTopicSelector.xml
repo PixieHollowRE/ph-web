@@ -72,6 +72,7 @@
 		<topics zone="117000">
 			<option>openShop</option>
 			<option>tradeIngredients</option>
+			<option>rename</option>
 		</topics>
 		
 		<topics zone="*">

@@ -9,6 +9,8 @@
 		<confirm>Update</confirm>
 		<cancel>Cancel</cancel>
 		<random>Pick For Me</random>
+		<nameUpdateConfirmation_title>Just Checking...</nameUpdateConfirmation_title>
+		<nameUpdateConfirmation_message>Are you sure you would like to update your name? Please note that a reload is required for it to fully complete.</nameUpdateConfirmation_message>
 	</copy>
 	<config>
 		<defaultGoldPrice>3</defaultGoldPrice>
