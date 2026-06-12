@@ -7,7 +7,7 @@
 
 <SpeedChat>
 	<category name="Hi and Bye"> <!-- Uses IDs 0 to 499 -->
-		<category name="Hello"> <!-- 0 to 49 --->
+		<category name="Hello"> <!-- 0 to 49 -->
 			<message id="0" tags="Tutorial">Hello!</message>
 			<message id="1" tags="">Hello?</message>
 			<message id="2" tags="">Hi!</message>      
@@ -57,7 +57,7 @@
 			<message id="87" tags="do_no_display">::pumpkincake::</message> 
 		</category>
 		
-		<category name="Bye"> <!-- 100 to 149 --->
+		<category name="Bye"> <!-- 100 to 149 -->
 			<message id="100" tags="">Bye!</message>
 			<message id="101" tags="">Fly with you!</message>
 			<message id="102" tags="">Later!</message>
@@ -71,13 +71,13 @@
 			<message id="110" tags="">I have to go.</message>
 		</category>
 		
-		<category name="Be Right Back"> <!-- 150 to 199 --->
+		<category name="Be Right Back"> <!-- 150 to 199 -->
 			<message id="150" tags="">I'll be back later!</message>
 			<message id="151" tags="">I'll be right back.</message>
 			<message id="152" tags="" type="restricted">I'll be back in two shakes of a dragon's tail!</message>
 		</category>
 		
-		<category name="Friendly"> <!-- 200 to 249 --->
+		<category name="Friendly"> <!-- 200 to 249 -->
 			<message id="200" tags="">Are you new here?</message>
 			<message id="201" tags="">Welcome to Pixie Hollow!</message>
 			<message id="202" tags="">Please be my friend!</message>
@@ -87,7 +87,7 @@
 			<message id="206" tags="">Pots and kettles! You're my best friend!</message>
 		</category>
 		
-		<category name="Thanks"> <!-- 250 to 299 --->
+		<category name="Thanks"> <!-- 250 to 299 -->
 			<message id="250" tags="">Thanks!</message>
 			<message id="251" tags="">Thank you!</message>
 			<message id="252" tags="">That was fun!</message>
@@ -97,7 +97,7 @@
 	</category>
   
 	<category name="Moods"> <!-- Uses IDs 500 to 999 -->
-		<category name="Happy"> <!-- 500 to 549 --->
+		<category name="Happy"> <!-- 500 to 549 -->
 			<message id="500" tags="">Cool!</message>
 			<message id="501" tags="">Great!</message>
 			<message id="502" tags="">Ha ha!</message>
@@ -118,7 +118,7 @@
 			<message id="517" tags="">Our reason is the season!</message>
 		</category>
 		
-		<category name="Sad"> <!-- IDs 550 to 599 --->
+		<category name="Sad"> <!-- IDs 550 to 599 -->
 			<message id="550" tags="">Aw, jingles.</message>
 			<message id="551" tags="">Aw, spiderwebs.</message>
 			<message id="552" tags="">Drat!</message>
@@ -135,7 +135,7 @@
 			<message id="563" tags="" type="restricted">Just let it roll off your wings.</message>
 		</category>
 		
-		<category name="Mad"> <!-- 600 to 649 --->
+		<category name="Mad"> <!-- 600 to 649 -->
 			<message id="600" tags="">Hey, fly under the speed limit!</message>
 			<message id="601" tags="">I didn't arrive yesterday!</message>
 			<message id="602" tags="">That's not fair.</message>
@@ -147,7 +147,7 @@
 			<message id="608" tags="" type="restricted">Wherever I turn, you're always underwing.</message>
 		</category>
 		
-		<category name="Silly"> <!-- 650 to 699 --->
+		<category name="Silly"> <!-- 650 to 699 -->
 			<message id="650" tags="">Look, I'm dancing on air!</message>
 			<message id="651" tags="">Make a wish!</message>
 			<message id="652" tags="">Leaping lizards!</message>
@@ -166,7 +166,7 @@
 			<message id="665" tags="">Just go with the flow.</message>
 		</category>
 		
-		<category name="Wait"> <!-- 700 to 749 --->
+		<category name="Wait"> <!-- 700 to 749 -->
 			<message id="700" tags="">Wait!</message>
 			<message id="701" tags="">Wait a minute.</message>
 			<message id="702" tags="">Wait for me!</message>
@@ -176,7 +176,7 @@
 			<message id="706" tags="">Sorry, I couldn't wait any longer.</message>
 		</category>
 		
-		<category name="Sorry"> <!-- IDs 750 to 799 --->
+		<category name="Sorry"> <!-- IDs 750 to 799 -->
 			<message id="750" tags="">Oops!</message>
 			<message id="751" tags="">I didn't mean to!</message>
 			<message id="752" tags="">I'd fly backwards if I could.</message>
@@ -195,7 +195,7 @@
 	<category name="Questions"> <!-- Uses IDs 1000 to 1499 -->
 		<message id="240" tags="">Huh?</message>
 		
-		<category name="Do you like ..."> <!-- 1000 to 1049 --->
+		<category name="Do you like ..."> <!-- 1000 to 1049 -->
 			<message id="1000" tags="">Do you like my Fairy name?</message>
 			<message id="1001" tags="">Do you like my hair?</message>
 			<message id="1002" tags="">Do you like my home?</message>
@@ -203,7 +203,7 @@
 			<message id="1004" tags="">Do you like my Animal Friend?</message>
 		</category>
 		
-		<category name="Do you want ..."> <!-- 1050 to 1099 --->
+		<category name="Do you want ..."> <!-- 1050 to 1099 -->
 			<message id="1050" tags="">Do you want to be friends?</message>
 			<message id="1051" tags="">Do you want to gather with me?</message>
 			<message id="1052" tags="">Do you want to shop with me?</message>
@@ -212,7 +212,7 @@
 			<message id="1055" tags="">Do you want to have tea?</message>
 		</category>
 		
-		<category name="How"> <!-- 1100 to 1149 --->
+		<category name="How"> <!-- 1100 to 1149 -->
 			<message id="1100" tags="">How?</message>
 			<message id="1101" tags="">How did you do that?</message>
 			<message id="1102" tags="">How did you get that?</message>
@@ -220,14 +220,14 @@
 			<message id="1104" tags="">How do I get that?</message>
 		</category>
 		
-		<category name="What"> <!-- 1150 to 1199 --->
+		<category name="What"> <!-- 1150 to 1199 -->
 			<message id="1150" tags="">What did you say?</message>
 			<message id="1151" tags="">What are you doing?</message>
 			<message id="1152" tags="">What's that?</message>
 			<message id="1153" tags="">What are you looking for?</message>
 		</category>
 		
-		<category name="What's your favorite..."> <!-- 1200 to 1249 --->
+		<category name="What's your favorite..."> <!-- 1200 to 1249 -->
 			<message id="1200" tags="">What's your favorite color?</message>
 			<message id="1201" tags="">What's your favorite game?</message>
 			<message id="1202" tags="">What's your favorite ingredient?</message>
@@ -237,7 +237,7 @@
 			<message id="1206" tags="">What's your favorite Animal Friend?</message>
 		</category>
 		
-		<category name="Where"> <!-- 1250 to 1299 --->
+		<category name="Where"> <!-- 1250 to 1299 -->
 			<message id="1250" tags="">Where are you?</message>
 			<message id="1251" tags="">Where are you going?</message>
 			<message id="1252" tags="">Where should we go?</message>
@@ -248,21 +248,21 @@
 	</category>
   
 	<category name="Answers"> <!-- Uses IDs 1500 to 2999 -->
-		<category name="Yes"> <!-- 1500 to 1549 --->
+		<category name="Yes"> <!-- 1500 to 1549 -->
 			<message id="1500" tags="">Yes.</message>
 			<message id="1501" tags="">Okay.</message>
 			<message id="1502" tags="">I think so.</message>
 			<message id="1503" tags="">Sure!</message>
 		</category>
 		
-		<category name="No"> <!-- 1550 to 1599 --->
+		<category name="No"> <!-- 1550 to 1599 -->
 			<message id="1550" tags="">No.</message>
 			<message id="1551" tags="">I don't think so.</message>
 			<message id="1552" tags="">No way.</message>
 			<message id="1553" tags="">Sorry, not right now.</message>
 		</category>
 		
-		<category name="Animal Friends"> <!-- 1600 to 1649 --->
+		<category name="Animal Friends"> <!-- 1600 to 1649 -->
 			<message id="1600" tags="">Fireflies</message>
 			<message id="1601" tags="">Ladybugs</message>
 			<message id="1602" tags="">Baby Hummingbirds</message>
@@ -270,7 +270,7 @@
 			<message id="1604" tags="">Bees</message>
 		</category>
 		
-		<category name="Colors"> <!-- 1650 to 1699 --->
+		<category name="Colors"> <!-- 1650 to 1699 -->
 			<message id="1650" tags="">Red</message>
 			<message id="1651" tags="">Orange</message>
 			<message id="1652" tags="">Yellow</message>
@@ -281,7 +281,7 @@
 			<message id="1657" tags="">Brown</message>
 		</category>
 		
-		<category name="Famous Fairies"> <!-- 1700 to 1749 --->
+		<category name="Famous Fairies"> <!-- 1700 to 1749 -->
 			<message id="1700" tags="">Beck</message>
 			<message id="1701" tags="">Bobbin</message>
 			<message id="1702" tags="">Copper</message>
@@ -302,7 +302,7 @@
 			<message id="1717" tags="">Vidia</message>
 		</category>
 		
-		<category name="Games"> <!-- 1750 to 1799 --->
+		<category name="Games"> <!-- 1750 to 1799 -->
 			<message id="1750" tags="">Animal Derby</message>
 			<message id="1751" tags="">Bee's Eye</message>
 			<message id="1752" tags="">Bubble Bounce</message>
@@ -329,7 +329,7 @@
 			<message id="1773" tags="">Water Web</message>    
 		</category>
 
-		<category name="Places"> <!-- 1800 to 1849 --->
+		<category name="Places"> <!-- 1800 to 1849 -->
 			<message id="1800" tags="">Beck's Animal Nursery</message>
 			<message id="1801" tags="">Bobbin's Tailoring Nook</message>
 			<message id="1802" tags="">Copper's Tinkering Nook</message>
@@ -350,7 +350,7 @@
 			<message id="1817" tags="">The Tearoom</message>
 		</category>
 		
-		<category name="Ingredients"> <!-- 1850 to 1899 --->
+		<category name="Ingredients"> <!-- 1850 to 1899 -->
 			<message id="1850" tags="">Acorns</message>
 			<message id="1851" tags="">Bits of Metal</message>
 			<message id="1852" tags="">Blue Gems</message>
@@ -376,7 +376,7 @@
 			<message id="1872" tags="">Yellow Gems</message>
 		</category>
 		
-		<category name="Shops"> <!-- 1900 to 1949 --->
+		<category name="Shops"> <!-- 1900 to 1949 -->
 			<message id="1900" tags="">Bella's Baubles</message>
 			<message id="1901" tags="">Cassie's Costumes</message>
 			<message id="1902" tags="">Coal's Clothiers</message>
@@ -395,7 +395,7 @@
 			<message id="1915" tags="">Zephyr's Zoom Room</message>
 		</category>
 		
-		<category name="Talents and Skills"> <!-- 1950 to 1999 --->
+		<category name="Talents and Skills"> <!-- 1950 to 1999 -->
 			<message id="1950" tags="">Animal</message>
 			<message id="1951" tags="">Garden</message>
 			<message id="1952" tags="">Light</message>
@@ -411,7 +411,7 @@
 			<message id="1952" tags="">"Grow!"</message>
 		</category>
 		
-		<category name="Tea"> <!-- 2000 to 2049 --->
+		<category name="Tea"> <!-- 2000 to 2049 -->
 			<message id="2000" tags="">Black Tea</message>
 			<message id="2001" tags="">Bubble and Berry Tea</message>
 			<message id="2002" tags="">Chai Tea</message>
@@ -427,7 +427,7 @@
 			<message id="2012" tags="">Strawberry Green Tea</message>
 		</category>
 
-		<category name="Meadows"> <!-- 2050 to 2099 --->     
+		<category name="Meadows"> <!-- 2050 to 2099 -->     
 			<message id="2050" tags="">Acorn Summit</message>
 			<message id="2051" tags="">Cherryblossom Heights</message>
 			<message id="2052" tags="">Chilly Falls</message>
@@ -450,7 +450,7 @@
 			<message id="2069" tags="">Treetop Bend</message>           
 		</category>
 		
-		<category name="Pixie Dust Tree"> <!-- 2100 to 2149 --->
+		<category name="Pixie Dust Tree"> <!-- 2100 to 2149 -->
 			<message id="2100" tags="">Fairy Tale Theater</message>
 			<message id="2101" tags="">Pixie Dust Mill</message>
 			<message id="2102" tags="">The Ballroom</message>
@@ -460,7 +460,7 @@
 	</category>
   
 	<category name="Animal Friends"> <!-- Uses IDs 3000 to 3499 -->
-		<category name="Tricks"> <!-- 3000 to 3049 --->
+		<category name="Tricks"> <!-- 3000 to 3049 -->
 			<message id="3000" tags="" event="animalFriendShake">Shake!</message>
 			<message id="3001" tags="" event="animalFriendBackwards">Backwards!</message>
 			<message id="3002" tags="" event="animalFriendSing">Sing!</message>
@@ -472,7 +472,7 @@
 			<message id="3008" tags="" event="animalFriendDoubleFlip">Double Flip!</message>
 		</category>
 		
-		<category name="Watch..."> <!-- 3050 to 3099 --->
+		<category name="Watch..."> <!-- 3050 to 3099 -->
 			<message id="3050" tags="">Watch my Animal Friend shake!</message>
 			<message id="3051" tags="">Watch my Animal Friend fly backwards!</message>
 			<message id="3052" tags="">Watch my Animal Friend sing!</message>
@@ -484,7 +484,7 @@
 			<message id="3058" tags="">Watch my Animal Friend double flip!</message>
 		</category>
 		
-		<category name="Gifts"> <!-- 3100 to 3149 --->
+		<category name="Gifts"> <!-- 3100 to 3149 -->
 			<message id="3100" tags="">How do the Animal Friends bring gifts?</message>
 			<message id="3101" tags="">Their Hunger, Health and Mood must be above 90.</message>
 			<message id="3102" tags="">The Animal Friend must be following you.</message>
@@ -500,7 +500,7 @@
 			<message id="3112" tags="">My Butterfly brought me Pixie Diamonds!</message>
 		</category>
 		
-		<category name="More"> <!-- 3150 to 3199 --->
+		<category name="More"> <!-- 3150 to 3199 -->
 			<message id="3150" tags="">Visit Beck to choose an Animal Friend.</message>    
 			<message id="3151" tags="">Click on your Animal Friend to check on it.</message>
 			<message id="3152" tags="">Visit Elixa to cure your Animal Friend.</message>
@@ -969,7 +969,7 @@
 	</category>
   
 	<category name="Holiday"> <!-- Uses IDs 5000 to 6999 -->
-		<category name="Art Month"> <!-- 5000 to 5049 --->
+		<category name="Art Month"> <!-- 5000 to 5049 -->
 			<message id="5000" tags="Speedchat_ArtMonth">Happy Art Month!</message>
 			<message id="5001" tags="Speedchat_ArtMonth">Show off your artistic side!</message>
 			<message id="5002" tags="Speedchat_ArtMonth">Let your creativity soar!</message>
@@ -981,7 +981,7 @@
 			<message id="5008" tags="Speedchat_ArtMonth">My outfit is in honor of Art Month!</message>
 		</category>
 		
-		<category name="Sweet Week"> <!-- 5050 to 5099 --->
+		<category name="Sweet Week"> <!-- 5050 to 5099 -->
 			<message id="5050" tags="Speedchat_SweetWeek">Sweet Week is candy-riffic!</message>
 			<message id="5051" tags="Speedchat_SweetWeek">Your outfit is SWEET!</message>
 			<message id="5052" tags="Speedchat_SweetWeek">Leave a tray of cookies in your home!</message>
@@ -994,7 +994,7 @@
 			<message id="5059" tags="Speedchat_SweetWeek">Silly Sweet Parade!</message>
 		</category>
 	   
-		<category name="Fairy Friendship Festival"> <!-- 5110 to 5149 --->
+		<category name="Fairy Friendship Festival"> <!-- 5110 to 5149 -->
 			<message id="5100" tags="Speedchat_FairyFriendship">Fairy friends are flitterific!</message>
 			<message id="5101" tags="Speedchat_FairyFriendship">Will you be my pixie pal?!</message>
 			<message id="5102" tags="Speedchat_FairyFriendship">You are my best Fairy friend forever.</message>
@@ -1010,7 +1010,7 @@
 			<message id="5112" tags="Speedchat_FairyFriendship">My animal and I are both wearing hearts!</message>
 		</category>
 	
-		<category name="Spring Celebration Prep"> <!-- 5150 to 5199 --->
+		<category name="Spring Celebration Prep"> <!-- 5150 to 5199 -->
 			<message id="5150" tags="Speedchat_SpringPrep">I can't wait for spring to come!</message>
 			<message id="5151" tags="Speedchat_SpringPrep">Lend a wing for spring!</message>
 			<message id="5152" tags="Speedchat_SpringPrep">I am helping Rosetta plant seeds!</message>
@@ -1020,7 +1020,7 @@
 			<message id="5156" tags="Speedchat_SpringPrep">Wings crossed for spring!</message>
 		</category>
 	   
-		<category name="Clover Chaos"> <!-- 5200 to 5249 --->
+		<category name="Clover Chaos"> <!-- 5200 to 5249 -->
 			<message id="5200" tags="Speedchat_CloverCrisis">I am helping Fawn find the baby animals!</message>
 			<message id="5201" tags="Speedchat_CloverCrisis">Have you seen the missing baby animals?</message>
 			<message id="5202" tags="Speedchat_CloverCrisis">The baby animals have escaped!</message>
@@ -1032,7 +1032,7 @@
 			<message id="5208" tags="Speedchat_CloverCrisis">Rainbow Trail Silly Sweets at Dulcie's!</message>
 		</category>
 		
-		<category name="Flood"> <!-- 5250 to 5299 --->
+		<category name="Flood"> <!-- 5250 to 5299 -->
 			<message id="5250" tags="Speedchat_SpringFlood">Oh no! The spring meadows are flooded!</message>
 			<message id="5251" tags="Speedchat_SpringFlood">Rain, rain, go away!</message>
 			<message id="5252" tags="Speedchat_SpringFlood">We have to save spring!</message>
@@ -1045,7 +1045,7 @@
 			<message id="5259" tags="Speedchat_SpringFlood">The Everblossom is so beautiful!</message>
 		</category>
 	   
-		<category name="Spring Celebration"> <!-- 5300 to 5349 --->
+		<category name="Spring Celebration"> <!-- 5300 to 5349 -->
 			<message id="5300" tags="Speedchat_SpringEquinox">Happy spring, pixie pal!</message>
 			<message id="5301" tags="Speedchat_SpringEquinox">We made spring bright for everyone!</message>
 			<message id="5302" tags="Speedchat_SpringEquinox">Check out all the rainbows!</message>
@@ -1059,7 +1059,7 @@
 			<message id="5310" tags="Speedchat_SpringEquinox">Get your rainbow seeds in the Ballroom!</message>
 		</category>
 	   
-		<category name="Never Dove Egg Hunt"> <!-- 5350 to 5399 --->
+		<category name="Never Dove Egg Hunt"> <!-- 5350 to 5399 -->
 			<message id="5350" tags="Speedchat_NeverDove">It's the Never Dove Egg Hunt!</message>
 			<message id="5351" tags="Speedchat_NeverDove">Did you find all 15 Never Dove Eggs?</message>
 			<message id="5352" tags="Speedchat_NeverDove">I got a badge for finding all 15 Eggs!</message>
@@ -1082,7 +1082,7 @@
 			<message id="5369" tags="Speedchat_NeverDove">Wanna have an egg hunt at my Fairy Home?</message>
 		</category>	
 	   
-		<category name="Silly Days"> <!-- 5400 to 5449 --->
+		<category name="Silly Days"> <!-- 5400 to 5449 -->
 			<message id="5400" tags="Speedchat_SillyDays">Happy Silly Days!</message>
 			<message id="5401" tags="Speedchat_SillyDays">Silly Days are so funny, I love jokes!</message>
 			<message id="5402" tags="Speedchat_SillyDays">Heard any good jokes lately?</message>
@@ -1099,7 +1099,7 @@
 			<message id="5413" tags="Speedchat_SillyDays">Use the Singing Emote!</message>
 		</category>
 		
-		<category name="Mermaid Party"> <!-- 5450 to 5499 --->
+		<category name="Mermaid Party"> <!-- 5450 to 5499 -->
 			<message id="5450" tags="Speedchat_MermaidParty">The Mermaid Party is a dream come true!</message>
 			<message id="5451" tags="Speedchat_MermaidParty">Have you done Silvermist's new quest?</message>
 			<message id="5452" tags="Speedchat_MermaidParty">I got the key to Mermaid Grotto!</message>
@@ -1117,7 +1117,7 @@
 			<message id="5464" tags="Speedchat_MermaidParty">Think of ways you can save water!</message>
 		</category>
 	   
-		<category name="Nature Days"> <!-- 5500 to 5549 --->
+		<category name="Nature Days"> <!-- 5500 to 5549 -->
 			<message id="5500" tags="Speedchat_NatureDays">Nature needs our help!</message>
 			<message id="5501" tags="Speedchat_NatureDays">Kit has a paw-some new mainland quest!</message>
 			<message id="5502" tags="Speedchat_NatureDays">Have you gotten the new badge from Kit?</message>
@@ -1130,7 +1130,7 @@
 			<message id="5509" tags="Speedchat_NatureDays">A seed will be planted for every entry!</message>
 		</category>
 	
-		<category name="Animal Mother's Day"> <!-- 5550 to 5599 --->
+		<category name="Animal Mother's Day"> <!-- 5550 to 5599 -->
 			<message id="5550" tags="Speedchat_MothersDay">Happy Animal Mother's Day!</message>
 			<message id="5551" tags="Speedchat_MothersDay">The animal mothers need a break!</message>
 			<message id="5552" tags="Speedchat_MothersDay">Have you gone on Rosetta's quest yet?</message>
@@ -1149,7 +1149,7 @@
 			<message id="5565" tags="Speedchat_MothersDay">Get a Kitten Knit Hat in the Ballroom!</message>
 		</category>
 
-		<category name="Garden Tea Party"> <!-- 5600 to 5649 --->
+		<category name="Garden Tea Party"> <!-- 5600 to 5649 -->
 			<message id="5600" tags="Speedchat_TeaParty">Welcome to the Garden Tea Party!</message>
 			<message id="5601" tags="Speedchat_TeaParty">Would you care for some tea?</message>
 			<message id="5602" tags="Speedchat_TeaParty">A cup o' tea, please!</message>
@@ -1191,7 +1191,7 @@
 			<message id="7508" tags="Speedchat_EndofDays">Fly with you later!</message>
 		</category>
 		
-		<category name="Camp Pixie Dust"> <!-- 5655 to 5699 --->
+		<category name="Camp Pixie Dust"> <!-- 5655 to 5699 -->
 			<message id="5655" tags="Speedchat_Camp">I signed up for Camp Pixie Dust!</message>
 			<message id="5656" tags="Speedchat_Camp">Sign up for camp in Havendish!</message>
 			<message id="5657" tags="Speedchat_Camp">Which Camp Troop are you in?</message>
@@ -1274,7 +1274,7 @@
 			<message id="5718" tags="Speedchat_Camp_Unicorn">Hope my troop wins the Challenge!</message>
 		</category>
 
-		<category name="End-of-Summer Sparkler"> <!-- 5950 to 5999 --->
+		<category name="End-of-Summer Sparkler"> <!-- 5950 to 5999 -->
 			<message id="5719" tags="Speedchat_Sparkler">Happy End-of-Summer Sparkler!</message>
 			<message id="5720" tags="Speedchat_Sparkler">Have you seen Springtime Orchard?</message>
 			<message id="5721" tags="Speedchat_Sparkler">Let's fly to Acorn Summit!</message>
@@ -1288,7 +1288,7 @@
 			<message id="5729" tags="Speedchat_Sparkler">We made flaptastic memories at camp!</message>
 		</category>
 	
-		<category name="Troop Rabbit"> <!-- 5700 to 5749 --->
+		<category name="Troop Rabbit"> <!-- 5700 to 5749 -->
 			<message id="5658" tags="Speedchat_Camp">I'm in Troop Rabbit!</message>
 			<message id="5730" tags="Speedchat_Camp">Show off your Troop Rabbit spirit!</message>
 			<message id="5731" tags="Speedchat_Camp">Twitch your nose and flap your paw!</message>
@@ -1300,7 +1300,7 @@
 			<message id="5737" tags="Speedchat_Camp">Show the rabbit emote with 4 pixies!</message>
 		</category>
 		
-		<category name="Troop Butterfly"> <!-- 5750 to 5799 --->
+		<category name="Troop Butterfly"> <!-- 5750 to 5799 -->
 			<message id="5659" tags="Speedchat_Camp">I'm in Troop Butterfly!</message>
 			<message id="5738" tags="Speedchat_Camp">Show off your Troop Butterfly spirit!</message>
 			<message id="5739" tags="Speedchat_Camp">Raise your spirits, I'll tell you why!</message>
@@ -1314,7 +1314,7 @@
 		</category>
 		
   
-		<category name="Troop Otter"> <!-- 5800 to 5849 --->
+		<category name="Troop Otter"> <!-- 5800 to 5849 -->
 			<message id="5660" tags="Speedchat_Camp">I'm in Troop Otter!</message>
 			<message id="5747" tags="Speedchat_Camp">Show off your Troop Otter spirit!</message>
 			<message id="5748" tags="Speedchat_Camp">Make a splash, give a holler!</message>
@@ -1328,7 +1328,7 @@
 		</category>
 		
 		
-		<category name="Troop Turtle"> <!-- 5850 to 5899 --->
+		<category name="Troop Turtle"> <!-- 5850 to 5899 -->
 			<message id="5661" tags="Speedchat_Camp">I'm in Troop Turtle!</message>
 			<message id="5756" tags="Speedchat_Camp">Show off your Troop Turtle spirit!</message>
 			<message id="5757" tags="Speedchat_Camp">Clap your hands and stomp your feet!</message>
@@ -1342,7 +1342,7 @@
 			<message id="5765" tags="Speedchat_Camp">Show the turtle emote with 4 pixies!</message>
 		</category>
 		
-		<category name="Troop Glowworm"> <!-- 5900 to 5949 --->
+		<category name="Troop Glowworm"> <!-- 5900 to 5949 -->
 			<message id="5662" tags="Speedchat_Camp">I'm in Troop Glowworm!</message>
 			<message id="5766" tags="Speedchat_Camp">Show off your Troop Glowworm spirit!</message>
 			<message id="5767" tags="Speedchat_Camp">Show your spirit, shout out loud!</message>
@@ -1354,7 +1354,7 @@
 			<message id="5773" tags="Speedchat_Camp">Show the glowworm emote with 4 pixies!</message>
 		</category>
 				
-		<category name="Changing of the Leaves"> <!-- 6000 to 6049 --->
+		<category name="Changing of the Leaves"> <!-- 6000 to 6049 -->
 			<message id="6000" tags="Speedchat_ChangeLeaves">Happy Changing of the Leaves!</message>
 			<message id="6001" tags="Speedchat_ChangeLeaves">Think we can paint all these leaves in time?</message>
 			<message id="6002" tags="Speedchat_ChangeLeaves">Let's start painting!</message>
@@ -1366,7 +1366,7 @@
 			<message id="6008" tags="Speedchat_ChangeLeaves">I can't wait for autumn!</message>
 		</category>
 	
-		<category name="Autumn Equinox"> <!-- 6050 to 6099 --->
+		<category name="Autumn Equinox"> <!-- 6050 to 6099 -->
 			<message id="6050" tags="Speedchat_AutumnEquinox">Pixies, Autumn has arrived!</message>
 			<message id="6051" tags="Speedchat_AutumnEquinox">Summer was so short!</message>
 			<message id="6052" tags="Speedchat_AutumnEquinox">The leaf-painting pixies did a good job!</message>
@@ -1384,7 +1384,7 @@
 			<message id="6064" tags="Speedchat_AutumnEquinox">I dyed my outfit autumn colors!</message>
 		</category>
 	
-		<category name="Animal Masquerade"> <!-- 6100 to 6149 --->
+		<category name="Animal Masquerade"> <!-- 6100 to 6149 -->
 			<message id="6100" tags="Speedchat_Masquerade">Trick or Treat!</message>
 			<message id="6101" tags="Speedchat_Masquerade">The Animal Masquerade is critterific!</message>
 			<message id="6102" tags="Speedchat_Masquerade">Visit Fawn for a fun and spooky quest!</message>
@@ -1411,7 +1411,7 @@
 			<message id="6123" tags="Speedchat_Masquerade">I baked Jack-o-lantern cookies!</message>
 		</category>
   
-		<category name="Chilly Critter Crossing"> <!-- 6150 to 6199 --->
+		<category name="Chilly Critter Crossing"> <!-- 6150 to 6199 -->
 			<message id="6150" tags="Speedchat_SisterPrep">Help Tink with the animal crossing!</message>
 			<message id="6151" tags="Speedchat_SisterPrep">Go see Tinker Bell for a quest!</message>
 			<message id="6152" tags="Speedchat_SisterPrep">Tink gave me the Chilly Traveler badge!</message>
@@ -1422,7 +1422,7 @@
 			<message id="6157" tags="Speedchat_SisterPrep">Silly snow weasel!</message>
 		</category>
 	
-		<category name="Sister Celebration"> <!-- 6200 to 6249 --->
+		<category name="Sister Celebration"> <!-- 6200 to 6249 -->
 			<message id="6200" tags="Speedchat_Sister">I know the secret of the wings!</message>
 			<message id="6201" tags="Speedchat_Sister">Psst... want to hear a secret?</message>
 			<message id="6202" tags="Speedchat_Sister">Tinker Bell and Periwinkle are sisters!</message>
@@ -1448,7 +1448,7 @@
 			<message id="6222" tags="Speedchat_Sister">My Fairy Home is totally iced over!</message>
 		</category>
 
-		<category name="Fairy Feast"> <!-- 6250 to 6299 --->
+		<category name="Fairy Feast"> <!-- 6250 to 6299 -->
 			<message id="6250" tags="Speedchat_FairyFeast">Happy Fairy Feast!</message>
 			<message id="6251" tags="Speedchat_FairyFeast">Go see Iridessa for a new quest!</message>
 			<message id="6252" tags="Speedchat_FairyFeast">Bright Eyes has a mystery for us!</message>
@@ -1467,7 +1467,7 @@
 			<message id="6265" tags="Speedchat_FairyFeast">What's your favorite Fairy food?</message>
 		</category>
   
-		<category name="Great Winter Light-Up"> <!-- 6300 to 6349 --->
+		<category name="Great Winter Light-Up"> <!-- 6300 to 6349 -->
 			<message id="6300" tags="Speedchat_WinterLightup">Winter Fairies at work!</message>
 			<message id="6301" tags="Speedchat_WinterLightup">Sil said we can help the Winter Fairies!</message>
 			<message id="6302" tags="Speedchat_WinterLightup">Visit Silvermist for a new quest!</message>
@@ -1479,7 +1479,7 @@
 			<message id="6308" tags="Speedchat_WinterLightup">Hooray! Winter's on its way!</message>		
 		</category>
 	
-		<category name="Winter Wonderland"> <!-- IDs 6350 to 6399 --->
+		<category name="Winter Wonderland"> <!-- IDs 6350 to 6399 -->
 			<message id="6350" tags="Speedchat_WinterWonder">Uh-oh! My wings are frozen!</message>
 			<message id="6351" tags="Speedchat_WinterWonder">We did it! Winter is here!</message>
 			<message id="6352" tags="Speedchat_WinterWonder">The winter decorations are flitterific!</message>
