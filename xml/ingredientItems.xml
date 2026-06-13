@@ -57,41 +57,41 @@
 			<conversion fromRarity="1" toRarity="3" fromRate="3" toRate="1" />
 			<conversion fromRarity="1" toRarity="4" fromRate="4" toRate="1" />
 			<conversion fromRarity="1" toRarity="5" fromRate="5" toRate="1" />
-			<conversion fromRarity="1" toRarity="999" fromRate="1" toRate="2" />
+			<conversion fromRarity="1" toRarity="999" fromRate="20" toRate="1" />
 			
 			<conversion fromRarity="2" toRarity="1" fromRate="1" toRate="2" />
 			<conversion fromRarity="2" toRarity="2" fromRate="1" toRate="1" />
 			<conversion fromRarity="2" toRarity="3" fromRate="3" toRate="2" />
 			<conversion fromRarity="2" toRarity="4" fromRate="2" toRate="1" />
 			<conversion fromRarity="2" toRarity="5" fromRate="5" toRate="2" />
-			<conversion fromRarity="2" toRarity="999" fromRate="1" toRate="4" />
+			<conversion fromRarity="2" toRarity="999" fromRate="12" toRate="1" />
 						
 			<conversion fromRarity="3" toRarity="1" fromRate="1" toRate="3" />
 			<conversion fromRarity="3" toRarity="2" fromRate="2" toRate="3" />
 			<conversion fromRarity="3" toRarity="3" fromRate="1" toRate="1" />
 			<conversion fromRarity="3" toRarity="4" fromRate="4" toRate="3" />
 			<conversion fromRarity="3" toRarity="5" fromRate="5" toRate="3" />
-			<conversion fromRarity="3" toRarity="999" fromRate="1" toRate="6" />
+			<conversion fromRarity="3" toRarity="999" fromRate="8" toRate="1" />
 									
 			<conversion fromRarity="4" toRarity="1" fromRate="1" toRate="4" />
 			<conversion fromRarity="4" toRarity="2" fromRate="1" toRate="2" />
 			<conversion fromRarity="4" toRarity="3" fromRate="3" toRate="4" />
 			<conversion fromRarity="4" toRarity="4" fromRate="1" toRate="1" />
 			<conversion fromRarity="4" toRarity="5" fromRate="5" toRate="4" />
-			<conversion fromRarity="4" toRarity="999" fromRate="1" toRate="8" />
+			<conversion fromRarity="4" toRarity="999" fromRate="5" toRate="1" />
 												
 			<conversion fromRarity="5" toRarity="1" fromRate="1" toRate="5" />
 			<conversion fromRarity="5" toRarity="2" fromRate="2" toRate="5" />
 			<conversion fromRarity="5" toRarity="3" fromRate="3" toRate="5" />
 			<conversion fromRarity="5" toRarity="4" fromRate="4" toRate="5" />
 			<conversion fromRarity="5" toRarity="5" fromRate="1" toRate="1" />
-			<conversion fromRarity="5" toRarity="999" fromRate="1" toRate="10" />
+			<conversion fromRarity="5" toRarity="999" fromRate="2" toRate="1" />
 
-			<conversion fromRarity="999" toRarity="1" fromRate="2" toRate="1" />
-			<conversion fromRarity="999" toRarity="2" fromRate="4" toRate="1" />
-			<conversion fromRarity="999" toRarity="3" fromRate="6" toRate="1" />
-			<conversion fromRarity="999" toRarity="4" fromRate="8" toRate="1" />
-			<conversion fromRarity="999" toRarity="5" fromRate="10" toRate="1" />
+			<conversion fromRarity="999" toRarity="1" fromRate="1" toRate="20" />
+			<conversion fromRarity="999" toRarity="2" fromRate="1" toRate="12" />
+			<conversion fromRarity="999" toRarity="3" fromRate="1" toRate="8" />
+			<conversion fromRarity="999" toRarity="4" fromRate="1" toRate="5" />
+			<conversion fromRarity="999" toRarity="5" fromRate="1" toRate="2" />
 			<conversion fromRarity="999" toRarity="999" fromRate="1" toRate="1" />
 		</conversions>
 		<zonedefaultItems>
