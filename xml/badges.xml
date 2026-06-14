@@ -182,11 +182,11 @@
     
     <prog10529>Received #CURRENT# of #GOAL# #SUBJECT#</prog10529>
     
-    <name10530 velvetRope="1">Famous Fairy</name10530>
+    <name10530 velvetRope="0">The Never Council</name10530>
     
-    <desc10530>This badge is awarded to everyone who receives #GOAL# #SUBJECT#.</desc10530>
+    <desc10530>This badge is awarded to everyone who helped revive Pixie Hollow.</desc10530>
     
-    <prog10530>Received #CURRENT# of #GOAL# #SUBJECT#</prog10530>
+    <prog10530/>
     
     <name10531 velvetRope="0">Friendly Fairy</name10531>
     
