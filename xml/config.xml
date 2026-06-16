@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config>
 	<container>
-		<versionToken>24_b05</versionToken>
+		<versionToken>24_b20</versionToken>
 		<frameworkURL>swf/framework.swf</frameworkURL>
 		<mmoURL>swf/mmo.swf</mmoURL>
 		<standaloneURL>swf/standalone.swf</standaloneURL>
