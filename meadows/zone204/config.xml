@@ -2,7 +2,7 @@
   <name>Troop Rabbit Hideout</name>
   <zoneID>204</zoneID>
   <assetURL/>
-  <audioLibrary>theatreCamp</audioLibrary>
+  <audioLibrary>icePalace</audioLibrary>
   <clientLayout>
     <layers>
       <layer type="ground" width="994" height="650">
@@ -18,10 +18,10 @@
   </locations>
   <bgms>
     <bgm>
-      <id>ambient_woods</id>
+      <id>icePalaceBG</id>
       <loops>0</loops>
-      <volumeLow>0.7</volumeLow>
-      <volumeHigh>0.7</volumeHigh>
+      <volumeLow>0.5</volumeLow>
+      <volumeHigh>0.5</volumeHigh>
       <delayLow>0</delayLow>
       <delayHigh>0</delayHigh>
     </bgm>

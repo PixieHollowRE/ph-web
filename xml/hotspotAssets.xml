@@ -1147,7 +1147,7 @@
   		<frame id="38" sound="rpsCrank"/>
   		<frame id="50" sound="rpsCrank"/>
   	</hotspot>
-  	<hotspot id="27542" audioLibrary="ticTacToe" soundForwardOnly="true">
+  	<hotspot id="27542" audioLibrary="ticTacToe">
   		<frame id="2" sound="x_o_writing"/>
   		<frame id="3" sound="x_o_writing"/>
   		<frame id="4" sound="x_o_writing"/>
@@ -1264,7 +1264,7 @@
 	<hotspot id="27723" tooltip="true" rollover="true" actionClass="com.disney.fairies.meadow.hotspotactions.signposts.MeadowSignpostLauncher" actionData="summerSplashParty"/>	
 		
 		
-	<hotspot id="27551" audioLibrary="ticTacToe" tooltip="true" soundForwardOnly="true">
+	<hotspot id="27551" audioLibrary="ticTacToe" tooltip="true">
   		<frame id="2" sound="clear_tic_tac_toe"/>
   	</hotspot>
   	

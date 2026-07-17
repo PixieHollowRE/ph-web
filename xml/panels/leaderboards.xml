@@ -19,14 +19,14 @@
 	<config>
 		<games>
 			<game>
-				<id>2</id>
-				<name>Bubble Bounce</name>
-				<threshold>10000</threshold>
-			</game>
-			<game>
 				<id>13073</id>
 				<name>Animal Derby</name>
 				<threshold>5</threshold>
+			</game>
+			<game>
+				<id>2</id>
+				<name>Bubble Bounce</name>
+				<threshold>10000</threshold>
 			</game>
 			<game>
 				<id>45</id>

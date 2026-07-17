@@ -182,11 +182,11 @@
     
     <prog10529>Received #CURRENT# of #GOAL# #SUBJECT#</prog10529>
     
-    <name10530 velvetRope="0">The Never Council</name10530>
+    <name10530 velvetRope="1">Famous Fairy</name10530>
     
-    <desc10530>This badge is awarded to everyone who helped revive Pixie Hollow.</desc10530>
+    <desc10530>This badge is awarded to everyone who receives #GOAL# #SUBJECT#.</desc10530>
     
-    <prog10530/>
+    <prog10530>Received #CURRENT# of #GOAL# #SUBJECT#</prog10530>
     
     <name10531 velvetRope="0">Friendly Fairy</name10531>
     
@@ -2654,11 +2654,11 @@
     
     <subject10857>Honeycomb Bunches</subject10857>
     
-    <name10869 velvetRope="0">2026 Great Games Honors</name10869>
+    <name10869 velvetRope="0">2010 Great Games Honors</name10869>
     
-    <desc10869>Awarded to super high scoring Fairies.</desc10869>
+    <desc10869>Awarded to super high scoring Fairies of every talent during the Great Games Days of 2010.</desc10869>
     
-    <prog10869/>
+    <prog10869>Thank you!</prog10869>
     
     <subject10869/>
     
