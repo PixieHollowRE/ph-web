@@ -8,7 +8,6 @@
     <panel id="buttons" x="3" y="15" alwaysOnTop="true" transition="none">{panelData}/gameButtons.xml</panel>
 	<panel id="friends" x="765" y="59" alwaysOnTop="true" closeable="true" hidden="true" refocusable="true" hasTutorial="true" displayWhenClosed="true">{panelData}/friends.xml</panel>
 	<panel id="teleporting" x="313" y="190" hidden="true" alwaysOnBottom="true" transition="none">{panelData}/teleporting.xml</panel>
-    <panel id="shardChooser" x="253" y="95" draggable="false" closeable="true"  hidden="true" alwaysOnTop="true" refocusable="true" transition="none">{panelData}/shardChooser.xml</panel>
 	<panel id="fairyConversation" x="0" y="0" alwaysOnTop="true" hidden="true">{panelData}/fairyConversation.xml</panel> <!-- FairyConversationPanel -->
     <panel id="whisper" x="12" y="300" closeable="false">{panelData}/whisperBubbles.xml</panel>
     <panel id="chat" x="203" y="490" hidden="true" alwaysOnTop="true" refocusable="true" hasTutorial="true" transition="none">{panelData}/chatInterface.xml</panel>
@@ -32,7 +31,17 @@
 	<panel id="tradeConfirm" x="48" y="40" alwaysOnTop = "true" hidden="true">{panelData}/tradeConfirm.xml</panel>
 
 	<panel id="warpPanel" x="0" y="0" alwaysOnTop = "true" hidden="true">{panelData}/warpPanel.xml</panel>
-	
+
+	<!-- shardChooser MUST stream last.  Its init() calls ToggleButton.toggle(), which fires
+	     TURNED_ON/OFF synchronously into onTogglePanelBtnClicked, which dereferences
+	     DistributedFairyPlayer.localPlayerFairy.  That object only exists once the OTP avatar
+	     generate lands (afterGenerate -> localPlayerFairySetup), which races the panel stream.
+	     If it loads too early it throws #1009, and since PanelSerialRequest chains the next
+	     panel off the success callback, the throw halts the whole stream at that point.
+	     Loading it last gives the generate maximum time and keeps every other panel out of the
+	     blast radius if it still loses the race. -->
+	<panel id="shardChooser" x="253" y="95" draggable="false" closeable="true"  hidden="true" alwaysOnTop="true" refocusable="true" transition="none">{panelData}/shardChooser.xml</panel>
+
   </panels>
 	<sharedMedia>
 		<media id="emoticons" type="media">swf/emoticons.swf</media>
