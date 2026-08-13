@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <title>Disney.com</title>
+    <link rel="stylesheet" type="text/css" href="account_hold/global.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="account_hold/gs.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="account_hold/guestservices.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="account_hold/search.css" media="screen"/>
+    <style>
+      DIV.pinkcentered
+      {
+          TEXT-ALIGN: center;
+          COLOR: #FF99FF;
+          text-decoration: underline;
+          font-size:140%;
+      }
+      a.plink:link {color: #FF99FF;text-decoration: underline}
+      a.plink:visited {color: #FF99FF;text-decoration: underline}
+
+      .pinktext
+      {
+          COLOR: #FF99FF;
+      }
+      .pinktextul
+      {
+          text-decoration: underline;
+          COLOR: #FF99FF;
+
+      }
+      .pinklink
+      {
+          TEXT-ALIGN: center;
+          COLOR: #FF99FF;
+      }
+      .parag
+      {
+          font-size:130%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- maincontainer -->
+    <div id="maincontainer">
+
+      <!-- banner -->
+      <!-- end banner -->
+
+      <!-- begin main pane -->
+      <div id="mainpane">
+
+        <!-- begin wide left column -->
+        <div id="wideleft">
+          <div id="pageheader"><img src="account_hold/guestservicesheader.jpg"/></div>
+
+          <!-- begin maincontent -->
+          <div id="maincontent" class="clearthis">
+            <div id="contentTop">&nbsp;</div>
+            <div id="middleBGholder" class="clearthis">
+              <div id="contentMiddle" class="plaintext">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="center">
+                      <table id="contentHolder" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td colspan="3">
+                            <br/><br/>
+                            <div class="parag">
+                            We're sorry! Based on a violation of the Walt Disney Internet Group's (WDIG's) <a class="plink" href="http://home.disney.go.com/guestservices/termsofuse">Terms of Use</a>, we have terminated account <span id="username">Unknown</span>.</h3>
+                            <br><br>
+
+                            In order to comply with your account termination, you must immediately cease use of all WDIG Sites and destroy all materials obtained from such sites and all copies thereof, whether made under these terms of use or otherwise. Any future attempts to obtain and/or access an account will be denied.
+                            <br><br>
+                            For more information on WDIG's terms of use, please visit our <a class="plink" href="http://home.disney.go.com/guestservices/faqs">FAQ</a> page.
+                            <br><br>
+                            For more information regarding the termination, please refer to the notice sent to your email address, or you may visit our <a class="plink" href="http://home.disney.go.com/guestservices/faqs">FAQ</a> page.
+                            </div>
+
+                            <p>
+                            Walt Disney Internet Group reserves all rights. <br/><br/>
+                            Thank you,<br/>
+                            The Disney Online Team<br/>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td colspan="3">
+                            <br/><br/><br/><br/><br/>
+                            <br/><br/><br/><br/><br/>
+                            <br/><br/><br/><br/>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+            <div id="maincontentFoot"><img src="account_hold/maincontentfoot.gif"/></div>
+          </div>
+          <!-- end maincontent -->
+
+        </div>
+        <!-- end wide left column -->
+
+        <!-- begin tower ad column -->
+        <div id="narrowright">
+          <div id="towerad">
+            <a href=""><img src="account_hold/skyscraper.jpg" alt="skyscraper ad"/></a>
+          </div>
+        </div>
+        <!-- end tower ad column -->
+
+      </div>
+      <!-- end main pane -->
+
+      <div class="clearthis">&nbsp;</div>
+
+    </div>
+    <!-- end maincontainer -->
+
+    <script>
+      try {
+        var params = new URLSearchParams(window.location.search);
+        var user = params.get('bannedUsername');
+        if (user) {
+          document.getElementById('username').textContent = user;
+        }
+      } catch (e) {}
+    </script>
+  </body>
+</html>
