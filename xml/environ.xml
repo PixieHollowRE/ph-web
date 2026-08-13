@@ -27,7 +27,7 @@
 	<loginfailURL>previewLogin.html</loginfailURL>
 	<betakeyfailURL>previewKeyEntry.html</betakeyfailURL>
 	<loginURL>/fairies/login</loginURL>
-	<bannedURL>http://apps.dxd.go.com/dxd/guestservices/your_account/account_hold</bannedURL>
+	<bannedURL>https://pixie-hollow.sunrise.games/account_hold.html</bannedURL>
 	<logoutURL>index.html</logoutURL>
 	<signupLink><![CDATA[https://disney.go.com/fairies/pixiehollow/registration/]]></signupLink>
 	<signupLinkNoChrome><![CDATA[http://disney.go.com/fairies/pixiehollow/registration/nochrome.html]]></signupLinkNoChrome>

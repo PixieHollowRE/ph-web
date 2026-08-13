@@ -6900,7 +6900,7 @@ var MiniManager = function (a) {
   }
   function B(a) {
     ((window.location.href =
-      "http://apps.dxd.go.com/dxd/guestservices/your_account/account_hold?bannedUsername=" +
+      "https://pixie-hollow.sunrise.games/account_hold.html?bannedUsername=" +
       $(e.selectors.loginForm).find("input[name=username]").val()),
       a.preventDefault());
   }

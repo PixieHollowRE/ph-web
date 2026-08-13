@@ -526,11 +526,11 @@
 		<banbugsheader><![CDATA[<span class="newsbodytext">Account Ban Errors</span>]]></banbugsheader>
 		<banbugs1_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Why am I getting an error "Your Fairy log-in information was not recognized - please try again"?</a></ul></li></span>]]></banbugs1_link>
 		<banbugs1_Q><![CDATA[<span class="newsbodytext">Q: Why am I getting an error "Your Fairy log-in information was not recognized - please try again"?<br><br></span>]]></banbugs1_Q>
-		<banbugs1_A><![CDATA[<span class="newsbodytext">A: This could be the result of your account being banned due to a violation of our <a href="gamepolicies.xml">Game and Chat Policies</a>.  If this is the case you must <a href="http://apps.dxd.go.com/dxd/guestservices/your_account/account_hold">review and agree to our Terms of Use</a> before being allowed back into the Hollow.</span>]]></banbugs1_A>
+		<banbugs1_A><![CDATA[<span class="newsbodytext">A: This could be the result of your account being banned due to a violation of our <a href="gamepolicies.xml">Game and Chat Policies</a>.  If this is the case you must <a href="https://pixie-hollow.sunrise.games/account_hold.html">review and agree to our Terms of Use</a> before being allowed back into the Hollow.</span>]]></banbugs1_A>
 		
 		<banbugs2_link><![CDATA[<span class="newsbodytext"><ul><li><a href="expandable">Why am I getting stuck on a Log In page?</a></ul></li></span>]]></banbugs2_link>
 		<banbugs2_Q><![CDATA[<span class="newsbodytext">Q: Why am I getting stuck on a Log In page?<br><br></span>]]></banbugs2_Q>
-		<banbugs2_A><![CDATA[<span class="newsbodytext">A: This could be the result of your account being banned due to a violation of our <a href="gamepolicies.xml">Game and Chat Policies</a>.  If this is the case you must <a href="http://apps.dxd.go.com/dxd/guestservices/your_account/account_hold">review and agree to our Terms of Use</a> before being allowed back into the Hollow.</span>]]></banbugs2_A>
+		<banbugs2_A><![CDATA[<span class="newsbodytext">A: This could be the result of your account being banned due to a violation of our <a href="gamepolicies.xml">Game and Chat Policies</a>.  If this is the case you must <a href="https://pixie-hollow.sunrise.games/account_hold.html">review and agree to our Terms of Use</a> before being allowed back into the Hollow.</span>]]></banbugs2_A>
 		
 		<gameoverviewheader><![CDATA[<span class="newsbodytext">Game Overview</span>]]></gameoverviewheader>
 		
