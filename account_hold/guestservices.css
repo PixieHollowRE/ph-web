@@ -1,0 +1,505 @@
+﻿/* CSS Document */
+body {
+background-color:#0d133d;
+background-image:url(lightyearBG.jpg);
+background-position:center top;
+background-repeat:no-repeat;
+margin:0;
+text-align:center;
+}
+
+h2 a:link	{color: #ffffff; text-decoration: none}
+h2 a:hover	{color: #ffffff; text-decoration: underline}
+
+ol li	{
+padding-top: 8px;
+}
+#maincontainer {
+width:1000px;
+margin:0 auto 0 auto;
+text-align:left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+#wideleft {
+float:left;
+width:804px;
+margin:0 16px 0 0;
+}
+
+#widerleft {
+background-image:url(404bg.jpg);
+background-repeat:no-repeat;
+float:left;
+width:673px;
+height:636px;
+margin:0 6px 0 0;
+padding:0 0 0 0;
+}
+
+#narrowright {
+float:left;
+}
+#ad300 {
+background-image:url(404adBG.gif);
+background-repeat:no-repeat;
+width:308px;
+height:269px;
+padding:5px 0 0 7px;
+}
+
+#gamelinks {
+background-image:url(gamefinder.gif);
+background-position:center top;
+background-repeat:no-repeat;
+padding:0 0 0 45px;
+width:450px;
+height:160px;
+margin:12px 0 0 0;
+}
+
+#gamelinks img {
+float:left;
+margin:45px 12px 0 0;
+border:0px;
+}
+
+#disneylinks {
+padding:0 0 0 45px;
+width:450px;
+height:336px;
+}
+#disneylinks img {
+float:left;
+margin:230px 12px 0 0;
+border:0px;
+}
+
+#contentMiddle {
+background-image:url(maincontentCenter.jpg);
+width:800px;
+background-position:top;
+padding:0 0 0 7px;
+background-repeat:no-repeat;
+
+}
+
+#middleBGholder {
+background-image:url(maincontentCenterBG.gif);
+background-repeat:repeat-y;
+margin-top:0px;
+}
+
+#contentTop {
+background-image:url(maincontentCap.gif);
+background-position:top;
+background-repeat:no-repeat;
+width:807px;
+height:21px;
+margin:0;
+padding:5px 0 0 0;
+text-align:center;
+font-size:12px;
+font-weight:bold;
+color:#FFFFFF;
+}
+#contentTop a:link	{color: #ffffff; text-decoration: none}
+#contentTop a:visited	{color: #ffffff; text-decoration: none}
+
+
+.twocolumns {
+float:left;
+width:362px;
+margin:6px 0 0 20px;
+color:#FFFFFF;
+}
+.twocolumns h2 {
+background-image:url(sectionheader.png);
+background-repeat:no-repeat;
+background-position:top left;
+font-size:13px;
+font-weight:normal;
+_font-weight:bold;
+height:20px;
+padding:0 0 0 28px;
+margin:4px 0 6px 0;
+}
+
+.twocolumns ul {
+padding:0;
+margin:0 0 12px 28px;
+list-style-type:none;
+line-height:1.3em;
+}
+
+.linklist ul {
+padding:0;
+}
+
+.linklist a:link, .linklist a:visited {
+
+color:#facf23;
+text-decoration:none;
+padding:0 0 0 14px;
+background-image:url(bullet.gif);
+background-repeat:no-repeat;
+}
+
+.linklist a:hover {
+color:#facf23;
+text-decoration:underline;
+}
+
+
+
+.gs {
+margin:6px 0 10px 0;
+padding:0;
+border:0;
+width:300px;
+}
+
+.gs img {
+float:left;
+margin:0 12px 0 0;
+border:0;
+}
+
+.gs a:link, .gs a:visited {
+color:#facf23;
+text-decoration:none;
+}
+
+.gs a:hover {
+color:#facf23;
+text-decoration:underline;
+}
+
+.gs h3 {
+font-size:12px;
+margin:0 0 3px 0;
+}
+
+
+#towerad {
+width:165px;
+height:614px;
+padding:25px 0 0 5px;
+background-image:url(toweradBG.gif);
+background-repeat:no-repeat;
+}
+#towerad img {
+border:0px;
+}
+
+#banner {
+margin:0;
+background-image:url(adframe.gif);
+background-repeat:no-repeat;
+width:731px;
+height:91px;
+padding:3px 0 0 2px;
+margin:auto;
+}
+#banner img {
+border:0px;
+}
+#smnav {
+margin:9px 0 12px 0;
+width:998px;
+background-image:url(navbg_sitemap2.gif);
+background-repeat:no-repeat;
+height:37px;
+padding:1px 0 0 0;
+}
+#navlist {
+width:720px;
+_width:734px;
+float:left;
+padding:0;
+margin:0;
+}
+#navlist ul {
+margin:0;
+width:726px;
+_width:736px;
+height:36px;
+padding:0;
+position:relative;
+}
+
+#navlist li {
+text-align:center;
+list-style:none;
+width:63px;
+float:left;
+height:36px;
+_height:25px;
+font-size:10px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+color:#000000;
+margin:0;
+padding:9px 0 2px 0;
+  }
+
+#navlist a, #navlist a:visited {
+display:block;
+text-decoration:none;
+padding:4px 0 0 0;
+height:17px;
+color:#ffffff;
+margin:0;
+border-left:1px solid #8097b7;
+border-right: 1px solid #042081;
+clear:both;
+}
+
+#navlist a:hover {
+  background-image:url(lihover.png);
+background-position:top left;
+background-repeat:no-repeat;
+border-left:1px solid #8097b7;
+border-right: 1px solid #042081;
+}
+
+.charOnNav {
+  background-image:url(CHARACTER_MARKER.jpg);
+background-position:top right;
+background-repeat:no-repeat;
+padding-top:1px;
+width:62px !important;
+}
+/* * html .charOnNav {
+  background: none; 
+  height:21px;
+  width:62px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src='CHARACTER_MARKER.jpg', sizingMethod='crop');
+vertical-align:top;
+padding-left: 1px;
+} */
+
+
+
+
+#navlist .charOnNav a:hover {
+background-image:none;
+}
+
+
+.foryouOnNav {
+  background-image:url(FORYOU_MARKER.jpg);
+background-position:top right;
+background-repeat:no-repeat;
+width:62px !important;
+padding-top:1px;
+}
+
+
+/* * html .foryouOnNav {
+  background: none; 
+  height:21px;
+  width:61px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src='FORYOU_MARKER.jpg', sizingMethod='crop');
+vertical-align:top;
+padding-left: 1px;
+}
+*/
+
+
+
+#navlist .foryouOnNav a:hover {
+background-image:none;
+}
+
+
+
+
+
+
+#logo {
+float:left;
+width:77px;
+padding:1px 27px 0 14px;
+_padding:1px 12px 0 14px;
+}
+
+#logo a:link, #logo a:visited, #logo a:hover {
+  padding:0;
+margin:0;
+background-image:none;
+}
+
+#logo img {
+border:0;
+}
+
+
+#rightitem a, #rightitem a:visited{
+width:73px;
+border-right:0;
+padding-left:9px;
+text-align:left;
+}
+
+#rightitem a:hover {
+background-image:url(lihoverR.png) !important;
+background-position:top left !important;
+_background-image:url(lihoverR.png);
+width:69px;
+border-right:0;
+padding-left:9px;
+text-align:left;
+}
+
+#leftitem a, #leftitem a:visited{
+width:69px;
+position:relative;
+right:16px;
+_right:0;
+text-align:right;
+padding-right:8px;
+border-left:0;
+}
+
+#leftitem a:hover {
+background-image:url(lihoverL.png) !important;
+_background-image:url(lihoverL.png);
+width:69px;
+position:relative;
+right:16px;
+_right:0;
+border-left:0;
+text-align:right;
+padding-right:8px;
+
+}
+#maincontent {
+margin:8px 0 0 0;
+}
+#maincontentFoot {
+background-image: url(maincontentfoot.gif);
+margin:0;
+padding:0;
+width:807px;
+height:53px;
+clear:both;
+}
+
+#searchform {
+width:150px;
+float:left;
+}
+#searchbox {
+width:100px;
+font-size:9px;
+height:14px;
+border:0;
+padding:0;
+margin:0 0 0 6px;
+}
+
+#gobutton {
+position:relative;
+top:7px;
+left:8px;
+}
+
+.plaintext	{
+color: #ffffff;
+padding: 0 18px 0 18px;
+margin: 0px 0px 0px 0px;
+}
+.blueborder {
+border:1px solid#1c7dbe;
+}
+
+.plaintext ul {
+margin-top:0px;
+}
+
+.plaintext	a:link, .plaintext	a:visited  {
+color: #facf23;
+}
+
+.showme {border:1px solid yellow;}
+
+.floatleft	{float: left}
+.floatright	{float: right}
+.backtotop	{text-align: right}
+
+#register	{
+text-align: center;
+width: 300px;
+padding-bottom: 12px;
+}
+
+#adults	{float: left; width: 120px}
+#teens	{float: left; width: 120px}
+#kids	{float: left}
+
+.software_icon	{
+width: 93px;
+padding-right: 24px;
+text-align: center;
+}
+
+.hr	{
+border-top: 1px solid #ffffff;
+width: 100%;
+}
+
+.index	{
+padding-bottom: 8px;
+}
+/*	IE TRANLUCENSY FILTER */	
+/* \*/
+* html #smnav a:hover {
+background: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src='lihover.png',sizingMethod='scale');
+z-index:0;
+}
+/* */
+
+/* \*/
+* html #rightitem a:hover {
+background: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src='lihoverR.png',sizingMethod='scale');
+z-index:0;
+}
+/* */
+
+/* \*/
+* html #leftitem a:hover {
+background: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src='lihoverL.png',sizingMethod='scale');
+z-index:0;
+}
+/* */
+
+/* \*/
+* html .twocolumns h2 {
+background: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src='sectionheader.png',sizingMethod='scale');
+z-index:0;
+}
+/* */
+/*	END OF IE TRANSLUCENCY FILTER */
+
+
+
+/* All content below here is used to clear floats in all browsers */
+
+.clearthis:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.clearthis {display:inline-block;}
+/* Hides from IE-mac \*/
+* html .clearthis {height: 1%;}
+
+/* End hide from IE-mac */

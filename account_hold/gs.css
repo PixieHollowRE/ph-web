@@ -1,0 +1,100 @@
+﻿#contentMiddle2 {
+	background-image:url(maincontentCenter2.jpg);
+	width:800px;
+	background-position:top;
+	padding:0 0 0 7px;
+	background-repeat:no-repeat;
+	min-height:410px;
+}
+
+#middleBGholder2 {
+	background-image:url(maincontentCenterBG2.gif);
+	background-repeat:repeat-y;
+}
+
+#contentTop2 {
+  background-image:url(maincontentCap2.gif);
+	background-position:top;
+	background-repeat:no-repeat;
+	width:807px;
+	height:21px;
+	margin:0;
+	padding:5px 0 0 0;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+#contentHolder {
+  width:60%;
+  height:auto;
+  text-align:left;
+}
+
+.buttonsLg {
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.inputName {
+  font-size:14px;
+  font-weight:bold;  
+}
+
+.error {
+  color:#facf23;
+  font-weight:bold;
+}
+
+.txtLgB {
+  font-size:16px;
+  font-weight:bold;
+}
+
+#terms {
+  width:100%;
+  height:auto;
+  background-color:#ffffff;
+  color:#000000;
+  font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.termsTxt {
+  background-color:#ffffff;
+}
+
+.listItem {
+  font-weight:bold;
+  text-decoration:underline;
+}
+
+.bold {
+  font-weight:bold;
+}
+
+.breakline {
+  font-size:6px;
+}
+
+.spacer {
+  font-size: 1px;
+}
+
+#maincontainerPop {
+	width:800px;
+	margin:0 auto 0 auto;
+	text-align:left;
+  font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*
+ol {
+  list-style-position: outside;
+  text-indent: 3pt;
+  padding: 0pt;
+  margin: 3pt;
+}
+*/       
+
+
