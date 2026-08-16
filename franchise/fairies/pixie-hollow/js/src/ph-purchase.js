@@ -90,7 +90,9 @@ fairies.API.listen('whoAmI', function () {
 		privacyPolicyURL		: 'http://disney.go.com/corporate/privacy/pp_wdig.html',
 		accountHoldURL			: 'https://apps.dxd.go.com/dxd/guestservices/your_account/account_hold?bannedUsername=',
 		trackingManagerConfig	: 'tracker.xml',
-		IPDetectPath			: 'https://tredir.go.com/capmon/GetDE',
+		/** This causes the register not to load for quite a few people **/
+		/** http://tredir.go.com/capmon/GetDE **/
+		IPDetectPath			: '',
 		linkColor				: '#FFFFFF',
 		DOBCookieTO				: '30',
 		MTXProduct				: fairies.getQueryString('product'),
