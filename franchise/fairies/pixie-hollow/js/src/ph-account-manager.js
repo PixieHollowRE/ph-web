@@ -23,7 +23,9 @@ fairies.API.listen('whoAmI', function () {
 		forgotPasswordURL		: 'https://register.go.com/global/fairies/recoverPassword?affiliateName=Disney_Fairies&appRedirect=http%3A%2F%2Fpixiehollow.com',
 		forgotIDURL			: 'https://register.go.com/global/fairies/recoverMemberNames?affiliateName=Disney_Fairies&appRedirect=http%3A%2F%2Fpixiehollow.com',
 		trackingManagerConfig		: 'tracker.xml',
-		IPDetectPath			: 'http://tredir.go.com/capmon/GetDE',
+		/** This causes the register not to load for quite a few people **/
+		/** http://tredir.go.com/capmon/GetDE **/
+		IPDetectPath			: '',
 		heightUsedByLoginDialog		: '820',
 		width				: '717',
 		height				: '820'
