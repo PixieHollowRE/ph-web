@@ -48,7 +48,9 @@ fairies.API.listen('whoAmI', function () {
 		DOBCookieTO				: '30',
 		linkColor				: '#ffffff',
 		trackingManagerConfig	: 'tracker.xml',
-		IPDetectPath			: '', // http://tredir.go.com/capmon/GetDE
+		/** This causes the register not to load for quite a few people **/
+		/** http://tredir.go.com/capmon/GetDE **/
+		IPDetectPath			: '',
 		width					: '717',
 		height					: '650'
 	};
