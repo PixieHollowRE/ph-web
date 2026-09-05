@@ -7070,10 +7070,7 @@ var MiniManager = function (a) {
           : ($(e.selectors.promo + " .top-extras").html(""),
             $(e.selectors.promo + " .bottom-extras").html("")))
       : ($(e.selectors.promo + " img").attr("src", e.promos.login),
-        $(e.selectors.promo + " .top-extras").html(""),
-        $(e.selectors.promo + " .bottom-extras").html(
-          '<a href="/fairies/pixie-hollow/closing/">Click here to learn about closing.</a>',
-        ));
+        $(e.selectors.promo + " .top-extras").html(""));
   }
   var b = new Date(2011, 10, 10),
     c = new Date(),
