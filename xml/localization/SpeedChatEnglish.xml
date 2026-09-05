@@ -406,9 +406,9 @@
 			<message id="1957" tags="">"Charm!"</message>
 			<message id="1958" tags="">"Heal!"</message>
 			<message id="1959" tags="">"Illuminate!"</message>
-			<message id="1950" tags="">"Move!"</message>
-			<message id="1951" tags="">"Splash!"</message>
-			<message id="1952" tags="">"Grow!"</message>
+			<message id="1960" tags="">"Move!"</message>
+			<message id="1961" tags="">"Splash!"</message>
+			<message id="1962" tags="">"Grow!"</message>
 		</category>
 		
 		<category name="Tea"> <!-- 2000 to 2049 -->
