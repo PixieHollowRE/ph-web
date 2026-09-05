@@ -43,6 +43,13 @@ o:)
 ::gold::
 ::s'more::
 ::pumpkincake::
+::butterfly::
+::glowworm::
+::otter::
+::rabbit::
+::turtle::
+::unicorn::
+::snowflake::
 Bye!
 Fly with you!
 Later!
